@@ -27,13 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - uses: actions/configure-pages@v4
-        id: pages
-
       - run: npm run build
-        env:
-          SITE: ${{ steps.pages.outputs.origin }}
-          BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
