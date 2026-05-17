@@ -1,0 +1,35 @@
+---
+index: "06"
+title: "Aprendente PLNM"
+category: "Perfil"
+subtitle: "Português Língua Não-Materna — aluno sem proficiência na língua de ensino"
+desc: "Aluno sem proficiência em português ou na língua de ensino. Frequentemente com origem migrante."
+sections:
+  - label: "Como se manifesta na sala"
+    items:
+      - "Compreende muito menos do que aparenta — pode acenar afirmativamente sem ter percebido."
+      - "Desempenho académico aparentemente baixo, frequentemente desproporcional à capacidade real."
+      - "Silêncio em sala — pode ser estratégia adaptativa, não desinteresse."
+      - "Pode estar exausto ao final do dia por traduzir mentalmente em tempo real."
+      - "Risco de subdiagnóstico de necessidades educativas reais (dislexia, TDAH, etc.) por se atribuir tudo à barreira linguística."
+  - label: "O que não é"
+    items:
+      - "<strong>Não é</strong> falta de inteligência ou capacidade."
+      - "<strong>Não é</strong> apenas uma questão de tempo — sem apoio explícito, muitos alunos estabilizam num nível funcional baixo."
+      - "<strong>Não é</strong> resolvido com tradução automática durante a aula — é um processo de anos."
+  - label: "Estratégias sem IA"
+    items:
+      - "Fornecer materiais com vocabulário-chave traduzido para a língua materna."
+      - "Avaliar conhecimento por demonstração visual ou prática sempre que possível."
+      - "Emparelhar com um colega bilingue para mediação informal em momentos críticos."
+      - "Aceitar produções iniciais com erros gramaticais — corrigir conteúdo, não forma, na primeira fase."
+  - label: "Onde a IA entra"
+    items:
+      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso — tradução contextualizada, geração de materiais simplificados, etc."
+  - label: "Sinais de alerta para referenciação"
+    items:
+      - "Sinais de isolamento social ou bullying associados à condição de aluno estrangeiro."
+      - "Estagnação na aquisição linguística após o primeiro ano."
+      - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
+pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+---

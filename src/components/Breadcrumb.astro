@@ -1,0 +1,24 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+interface Props {
+  crumbs: Crumb[];
+}
+const { crumbs } = Astro.props;
+---
+<nav class="breadcrumb" aria-label="Navegação">
+  {crumbs.map((crumb, i) => {
+    const isLast = i === crumbs.length - 1;
+    return (
+      <>
+        {isLast || !crumb.href
+          ? <span class="breadcrumb-current" aria-current="page">{crumb.label}</span>
+          : <a href={crumb.href} class="breadcrumb-item">{crumb.label}</a>
+        }
+        {!isLast && <span class="breadcrumb-sep" aria-hidden="true">/</span>}
+      </>
+    );
+  })}
+</nav>

@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('references');
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.md$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { title, category, subtitle, sections, pending } = entry.data;
+const base = import.meta.env.BASE_URL;
+---
+<Base
+  title={`${title} — Farol`}
+  description={subtitle}
+  ogTitle={`${title} · ${category} — Farol`}
+>
+  <Header />
+
+  <Breadcrumb crumbs={[
+    { label: 'início', href: base },
+    { label: title.toLowerCase() },
+  ]} />
+
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-category">{category} {entry.data.index}</div>
+      <h1 class="card-title">{title}</h1>
+      <p class="card-subtitle">{subtitle}</p>
+    </header>
+
+    {sections.map((section) => (
+      <section class="card-section">
+        <h2 class="card-section-label">{section.label}</h2>
+        <ul>
+          {section.items.map((item) => (
+            <li><span set:html={item} /></li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    {pending && <div class="pending-notice">{pending}</div>}
+  </article>
+
+  <Footer />
+</Base>
