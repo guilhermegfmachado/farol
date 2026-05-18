@@ -43,7 +43,10 @@ function entryHref(e: typeof allEntries[0]) {
 
   <article class="card animate-in">
     <header class="card-header">
-      <div class="card-category">{category} {entry.data.index}</div>
+      <div class="card-header-meta">
+        <span class="card-category">{category}</span>
+        <span class="card-index-large">{entry.data.index}</span>
+      </div>
       <h1 class="card-title">{title}</h1>
       <p class="card-subtitle">{subtitle}</p>
     </header>
