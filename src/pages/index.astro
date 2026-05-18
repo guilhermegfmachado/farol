@@ -1,17 +1,11 @@
 ---
-import { getCollection } from 'astro:content';
+import { getAllEntries } from '@/lib/entries';
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 
-const profiles   = await getCollection('profiles');
-const references = await getCollection('references');
-
-const entries = [...profiles, ...references].sort(
-  (a, b) => Number(a.data.index) - Number(b.data.index)
-);
-
+const entries = await getAllEntries();
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <Base title="Farol — Inclusão & IA na Sala de Aula">
@@ -38,6 +32,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       <a
         href={`${base}${entry.collection}/${entry.id.replace(/\.md$/, '')}/`}
         class="tree-node animate-in"
+        data-category={entry.data.category}
       >
         <span class="tree-node-category">{entry.data.category}</span>
         <span class="tree-node-index">{entry.data.index}</span>
@@ -48,5 +43,27 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     ))}
   </nav>
 
+  <div class="tools-link-row">
+    <a href={`${base}tools/`} class="tools-link">
+      <span class="tools-link-label">Catálogo</span>
+      <span class="tools-link-title">Ferramentas de IA →</span>
+      <span class="tools-link-desc">Fichas de ferramenta com notas de privacidade e mapeamento por perfil</span>
+    </a>
+  </div>
+
   <Footer />
 </Base>
+
+<style>
+/* Category-tinted left border on tree nodes */
+.tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
+.tree-node[data-category="Referência"] { border-left: 3px solid #4a7c59; }
+.tree-node[data-category="Recurso"]    { border-left: 3px solid #7c5a3a; }
+
+.tools-link-row { margin-top: 0.75rem; }
+.tools-link { display: flex; flex-direction: column; gap: 0.3rem; padding: 1.2rem 1.5rem; background: var(--bg-elevated); border: 1px solid var(--rule); border-left: 3px solid var(--beam); text-decoration: none; transition: border-color 0.2s ease; }
+.tools-link:hover { border-color: var(--beam); box-shadow: 0 2px 12px rgba(20,23,26,0.05); }
+.tools-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.tools-link-title { font-size: 1rem; font-weight: 600; color: var(--ink); }
+.tools-link-desc { font-size: 0.85rem; color: var(--ink-soft); }
+</style>

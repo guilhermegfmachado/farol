@@ -23,13 +23,12 @@ sections:
       - "Avaliar conhecimento por demonstração visual ou prática sempre que possível."
       - "Emparelhar com um colega bilingue para mediação informal em momentos críticos."
       - "Aceitar produções iniciais com erros gramaticais — corrigir conteúdo, não forma, na primeira fase."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso — tradução contextualizada, geração de materiais simplificados, etc."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Sinais de isolamento social ou bullying associados à condição de aluno estrangeiro."
       - "Estagnação na aquisição linguística após o primeiro ano."
       - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---

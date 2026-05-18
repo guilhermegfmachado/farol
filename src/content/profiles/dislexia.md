@@ -23,13 +23,12 @@ sections:
       - "Permitir leitura silenciosa antes de qualquer leitura em voz alta — nunca chamar de surpresa."
       - "Avaliar conteúdo separado de ortografia quando o objectivo é avaliar conhecimento."
       - "Oferecer formatos múltiplos para a mesma informação (vídeo, áudio, esquemas)."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Auto-conceito académico em deterioração (\"sou burro\", \"não consigo\")."
       - "Evitamento sistemático de tarefas de leitura/escrita ao ponto de comprometer outras disciplinas."
       - "Discrepância marcada entre desempenho oral e desempenho escrito sem diagnóstico formal."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---

@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const tools = await getCollection('tools');
+tools.sort((a, b) => a.data.name.localeCompare(b.data.name, 'pt'));
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
+const categoryLabel: Record<string, string> = {
+  'geração de texto': 'Geração de texto',
+  'texto-para-voz':   'Texto-para-voz',
+  'tradução':         'Tradução',
+  'organização':      'Organização',
+  'imagem':           'Imagem',
+  'outro':            'Outro',
+};
+---
+<Base
+  title="Ferramentas — Farol"
+  description="Catálogo de ferramentas de IA para uso em contexto educativo, com notas de privacidade e mapeamento por perfil de aluno."
+>
+  <Header />
+
+  <Breadcrumb crumbs={[
+    { label: 'início', href: base },
+    { label: 'ferramentas' },
+  ]} />
+
+  <div class="prompt-section">
+    <div class="prompt-label">Catálogo</div>
+    <div class="prompt-question">Ferramentas de IA para a sala de aula</div>
+  </div>
+
+  <nav class="tree" aria-label="Ferramentas">
+    {tools.map((tool) => (
+      <a
+        href={`${base}tools/${tool.id.replace(/\.md$/, '')}/`}
+        class="tree-node animate-in"
+        data-category="Ferramenta"
+      >
+        <span class="tree-node-category">{categoryLabel[tool.data.category] ?? tool.data.category}</span>
+        <span class="tree-node-title">{tool.data.name}</span>
+        <span class="tree-node-desc">{tool.data.desc}</span>
+        {tool.data.free !== undefined && (
+          <span class="tree-node-index">{tool.data.free ? 'gratuito' : 'pago'}</span>
+        )}
+        <span class="tree-node-arrow">ver ficha <span aria-hidden="true">→</span></span>
+      </a>
+    ))}
+  </nav>
+
+  <Footer />
+</Base>

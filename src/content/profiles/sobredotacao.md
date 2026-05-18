@@ -23,13 +23,12 @@ sections:
       - "Permitir investigação independente sobre tópicos do interesse do aluno dentro do programa."
       - "Avaliar pelo desafio, não pela facilidade — pedir trabalhos mais exigentes em troca de menor volume."
       - "Reconhecer e validar a sensibilidade emocional sem patologizar."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Sinais de ansiedade ou depressão associados a perfeccionismo extremo."
       - "Isolamento social marcado por se sentir \"diferente\" dos pares."
       - "Subdesempenho académico súbito num aluno previamente identificado como capaz."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---

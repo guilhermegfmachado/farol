@@ -5,6 +5,13 @@ const sectionSchema = z.object({
   items: z.array(z.string()),
 });
 
+const aiToolSchema = z.object({
+  tool: z.string(),
+  use: z.string(),
+  prompt: z.string().optional(),
+  caveats: z.string().optional(),
+});
+
 const entrySchema = z.object({
   index: z.string(),
   title: z.string(),
@@ -12,10 +19,25 @@ const entrySchema = z.object({
   subtitle: z.string(),
   desc: z.string(),
   sections: z.array(sectionSchema),
+  ai_strategies: z.object({
+    pending: z.boolean().default(true),
+    tools: z.array(aiToolSchema).default([]),
+  }).optional(),
   pending: z.string().optional(),
 });
 
-const profiles = defineCollection({ type: 'content', schema: entrySchema });
-const references = defineCollection({ type: 'content', schema: entrySchema });
+const toolSchema = z.object({
+  name: z.string(),
+  url: z.string().optional(),
+  category: z.string(),
+  desc: z.string(),
+  profiles: z.array(z.string()).default([]),
+  free: z.boolean().optional(),
+  rgpd_note: z.string().optional(),
+});
 
-export const collections = { profiles, references };
+const profiles   = defineCollection({ type: 'content', schema: entrySchema });
+const references = defineCollection({ type: 'content', schema: entrySchema });
+const tools      = defineCollection({ type: 'content', schema: toolSchema });
+
+export const collections = { profiles, references, tools };

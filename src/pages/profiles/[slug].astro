@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { getAllEntries } from '@/lib/entries';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -14,8 +15,19 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, category, subtitle, sections, pending } = entry.data;
+const { title, category, subtitle, sections, ai_strategies, pending } = entry.data;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
+const allEntries = await getAllEntries();
+const idx = allEntries.findIndex(
+  (e) => e.collection === entry.collection && e.id === entry.id
+);
+const prev = idx > 0 ? allEntries[idx - 1] : null;
+const next = idx < allEntries.length - 1 ? allEntries[idx + 1] : null;
+
+function entryHref(e: typeof allEntries[0]) {
+  return `${base}${e.collection}/${e.id.replace(/\.md$/, '')}/`;
+}
 ---
 <Base
   title={`${title} — Farol`}
@@ -47,8 +59,74 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
       </section>
     ))}
 
+    {ai_strategies && (
+      <section class="card-section ai-section">
+        <h2 class="card-section-label">Onde a IA entra</h2>
+        {ai_strategies.pending ? (
+          <div class="pending-notice">
+            A preencher após o curso em Split (Julho 2026). A estrutura já está pronta — cada ferramenta terá: caso de uso, sugestão de prompt, e nota sobre privacidade.
+          </div>
+        ) : (
+          <div class="ai-tools">
+            {ai_strategies.tools.map((t) => (
+              <div class="ai-tool">
+                <div class="ai-tool-name">{t.tool}</div>
+                <div class="ai-tool-use">{t.use}</div>
+                {t.prompt && (
+                  <div class="ai-tool-prompt">
+                    <span class="ai-tool-prompt-label">Prompt</span>
+                    <blockquote>{t.prompt}</blockquote>
+                  </div>
+                )}
+                {t.caveats && (
+                  <div class="ai-tool-caveats">{t.caveats}</div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </section>
+    )}
+
     {pending && <div class="pending-notice">{pending}</div>}
   </article>
 
+  <nav class="card-nav" aria-label="Navegação entre entradas">
+    {prev ? (
+      <a href={entryHref(prev)} class="card-nav-item card-nav-prev">
+        <span class="card-nav-dir">← anterior</span>
+        <span class="card-nav-title">{prev.data.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a href={entryHref(next)} class="card-nav-item card-nav-next">
+        <span class="card-nav-dir">seguinte →</span>
+        <span class="card-nav-title">{next.data.title}</span>
+      </a>
+    ) : <span />}
+  </nav>
+
   <Footer />
 </Base>
+
+<style>
+.ai-tools { display: flex; flex-direction: column; gap: 1rem; }
+.ai-tool { border: 1px solid var(--rule); padding: 1.2rem 1.4rem; background: var(--bg); }
+.ai-tool-name { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 500; color: var(--accent); letter-spacing: 0.05em; margin-bottom: 0.4rem; text-transform: uppercase; }
+.ai-tool-use { color: var(--ink-soft); font-size: 0.95rem; line-height: 1.55; }
+.ai-tool-prompt { margin-top: 0.8rem; }
+.ai-tool-prompt-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); display: block; margin-bottom: 0.4rem; }
+.ai-tool-prompt blockquote { border-left: 2px solid var(--accent); padding: 0.5rem 0.9rem; font-size: 0.9rem; color: var(--ink-soft); font-style: italic; margin: 0; }
+.ai-tool-caveats { margin-top: 0.7rem; font-size: 0.85rem; color: var(--warning); padding-top: 0.6rem; border-top: 1px dashed var(--rule); }
+
+.card-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; margin-bottom: 1rem; }
+.card-nav-item { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; max-width: 48%; }
+.card-nav-item:hover { border-color: var(--accent); }
+.card-nav-next { text-align: right; margin-left: auto; }
+.card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
+
+@media print {
+  .card-nav { display: none; }
+}
+</style>

@@ -23,13 +23,12 @@ sections:
       - "Tornar regras sociais implícitas em regras explícitas (o que se faz, o que não se faz, quando)."
       - "Permitir pausas sensoriais em espaço silencioso quando necessário."
       - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Crises (\"meltdowns\") frequentes após dia escolar."
       - "Recusa escolar persistente associada a sobrecarga sensorial."
       - "Isolamento social progressivo apesar de tentativas de mediação."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---

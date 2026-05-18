@@ -23,13 +23,12 @@ sections:
       - "Permitir movimento legítimo (entregar materiais, apagar quadro, recados ao SPO)."
       - "Reduzir estímulos competitivos (lugar afastado da janela, da porta, do grupo mais barulhento)."
       - "Reforço positivo imediato — o ciclo de recompensa neurológico é mais curto no TDAH."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Falha disciplinar persistente apesar de adaptações na sala."
       - "Sintomas de exclusão social pelos pares."
       - "Sinais de comorbilidade (ansiedade, depressão, perturbação da oposição)."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---

@@ -129,6 +129,27 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
   .intro-body p { font-size: 1.05rem; }
 }
 
+/* ── Print ────────────────────────────────────────────────── */
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .container { padding: 1cm 1.5cm; max-width: 100%; }
+  header { border-bottom: 1pt solid #000; padding-bottom: 0.5cm; margin-bottom: 0.8cm; }
+  .tagline, .version-tag { display: none; }
+  .logotype { font-size: 16pt; }
+  .breadcrumb, .tools-link-row, .intro, .prompt-section, footer { display: none; }
+  .card { border: 1pt solid #ccc; padding: 0; box-shadow: none; }
+  .card-header { border-bottom: 1pt solid #ccc; padding-bottom: 0.4cm; margin-bottom: 0.5cm; }
+  .card-title { font-size: 18pt; }
+  .card-subtitle { font-size: 11pt; }
+  .card-section { margin-bottom: 0.6cm; page-break-inside: avoid; }
+  .card-section-label { font-size: 7pt; letter-spacing: 0.15em; }
+  .card-section li { padding: 0.3rem 0; border-bottom: 0.5pt solid #ddd; }
+  .pending-notice { border-left: 3pt solid #b8860b; background: #fdf6e3; padding: 0.3cm; font-size: 9pt; }
+  .pending-notice::before { content: 'PENDENTE '; }
+  a { color: #000; text-decoration: none; }
+  .beam { animation: none; }
+}
+
 /* ── Mobile ───────────────────────────────────────────────── */
 @media (max-width: 720px) {
   .container { padding: 2rem 1.2rem 3rem; }

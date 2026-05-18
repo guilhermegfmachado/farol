@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const tools = await getCollection('tools');
+  return tools.map((tool) => ({
+    params: { slug: tool.id.replace(/\.md$/, '') },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+const { name, url, category, desc, profiles, free, rgpd_note } = tool.data;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<Base title={`${name} — Ferramentas — Farol`} description={desc}>
+  <Header />
+
+  <Breadcrumb crumbs={[
+    { label: 'início', href: base },
+    { label: 'ferramentas', href: `${base}tools/` },
+    { label: name.toLowerCase() },
+  ]} />
+
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-category">{category}</div>
+      <h1 class="card-title">{name}</h1>
+      {url && (
+        <p class="card-subtitle">
+          <a href={url} target="_blank" rel="noopener noreferrer" class="tool-url">{url.replace(/^https?:\/\//, '')}</a>
+        </p>
+      )}
+    </header>
+
+    <section class="card-section">
+      <h2 class="card-section-label">Descrição</h2>
+      <p class="tool-desc">{desc}</p>
+    </section>
+
+    {profiles.length > 0 && (
+      <section class="card-section">
+        <h2 class="card-section-label">Perfis relevantes</h2>
+        <div class="tool-profiles">
+          {profiles.map((slug) => (
+            <a href={`${base}profiles/${slug}/`} class="tool-profile-tag">{slug}</a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {free !== undefined && (
+      <section class="card-section">
+        <h2 class="card-section-label">Acesso</h2>
+        <p class="tool-desc">{free ? 'Versão gratuita disponível.' : 'Apenas versão paga.'}</p>
+      </section>
+    )}
+
+    {rgpd_note && (
+      <section class="card-section">
+        <h2 class="card-section-label">Nota RGPD</h2>
+        <p class="tool-desc">{rgpd_note}</p>
+      </section>
+    )}
+  </article>
+
+  <div class="card-nav-back">
+    <a href={`${base}tools/`} class="card-nav-item">
+      <span class="card-nav-dir">← ferramentas</span>
+      <span class="card-nav-title">Ver todas as ferramentas</span>
+    </a>
+  </div>
+
+  <Footer />
+</Base>
+
+<style>
+.tool-desc { color: var(--ink-soft); font-size: 0.95rem; line-height: 1.7; }
+.tool-url { color: var(--accent); text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; }
+.tool-url:hover { text-decoration: underline; }
+.tool-profiles { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.tool-profile-tag { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--accent); border: 1px solid var(--accent); padding: 0.2rem 0.6rem; text-decoration: none; letter-spacing: 0.03em; transition: background 0.15s ease; }
+.tool-profile-tag:hover { background: var(--accent-bg); }
+.card-nav-back { margin-top: 2rem; }
+.card-nav-item { display: inline-flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; }
+.card-nav-item:hover { border-color: var(--accent); }
+.card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
+</style>

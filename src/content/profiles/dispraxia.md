@@ -23,13 +23,12 @@ sections:
       - "Reduzir cópia mecânica do quadro — fornecer apontamentos quando relevante."
       - "Fornecer checklists explícitas para tarefas com múltiplos passos."
       - "Avaliar o produto pelo conteúdo, não pela apresentação física."
-  - label: "Onde a IA entra"
-    items:
-      - "A preencher após Split. Espaço reservado para ferramentas validadas no curso."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Recusa total de produção escrita."
       - "Isolamento social em contextos de actividade física."
       - "Sinais de ansiedade somatizada antes de avaliações escritas."
-pending: "Ferramentas específicas de IA serão acrescentadas após o curso em Split (Julho 2026)."
+ai_strategies:
+  pending: true
+  tools: []
 ---
