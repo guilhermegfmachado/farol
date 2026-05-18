@@ -19,7 +19,7 @@ sections:
       - "<strong>Não é</strong> mau comportamento quando uma rotina é quebrada — é uma resposta neurológica real."
   - label: "Estratégias sem IA"
     items:
-      - "Avisar de antecedência qualquer alteração de rotina, mesmo que aparentemente trivial."
+      - "Avisar com antecedência qualquer alteração de rotina, mesmo que aparentemente trivial."
       - "Tornar regras sociais implícitas em regras explícitas (o que se faz, o que não se faz, quando)."
       - "Permitir pausas sensoriais em espaço silencioso quando necessário."
       - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares."

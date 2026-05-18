@@ -2,7 +2,7 @@
 index: "01"
 title: "TDAH"
 category: "Perfil"
-subtitle: "Perturbação de Hiperatividade e Défice de Atenção"
+subtitle: "Perturbação de Hiperactividade e Défice de Atenção"
 desc: "Défice de atenção, hiperatividade, ou ambos. Inquieto, impulsivo, distrai-se com facilidade."
 sections:
   - label: "Como se manifesta na sala"
