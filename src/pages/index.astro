@@ -12,7 +12,7 @@ const entries = [...profiles, ...references].sort(
   (a, b) => Number(a.data.index) - Number(b.data.index)
 );
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <Base title="Farol — Inclusão & IA na Sala de Aula">
   <Header />

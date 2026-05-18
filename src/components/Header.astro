@@ -1,6 +1,6 @@
 ---
 import LighthouseMark from './LighthouseMark.astro';
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <header>
   <div class="header-top">
