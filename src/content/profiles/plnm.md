@@ -23,6 +23,12 @@ sections:
       - "Avaliar conhecimento por demonstração visual ou prática sempre que possível."
       - "Emparelhar com um colega bilingue para mediação informal em momentos críticos."
       - "Aceitar produções iniciais com erros gramaticais — corrigir conteúdo, não forma, na primeira fase."
+  - label: "Como comunicar com o EE"
+    items:
+      - "A reunião em si é uma barreira — o EE pode não falar português com proficiência suficiente para uma conversa complexa. Preparar materiais escritos simples antecipadamente, ou pedir apoio de tradução."
+      - "Não assumir que o EE conhece o sistema educativo português — explicar o que é o SPO, o que é uma medida de suporte, o que implica uma avaliação, sem dar nada por adquirido."
+      - "Separar claramente barreira linguística de capacidade académica: \"o seu filho/a sua filha é capaz — está a aprender a língua ao mesmo tempo que aprende os conteúdos, o que é muito exigente\"."
+      - "Ser sensível ao contexto migratório: famílias refugiadas ou em situação irregular podem ter desconfiança de instituições. Construir confiança antes de pedir documentação ou encaminhamentos."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Sinais de isolamento social ou bullying associados à condição de aluno estrangeiro."

@@ -23,6 +23,12 @@ sections:
       - "Permitir movimento legítimo (entregar materiais, apagar quadro, recados ao SPO)."
       - "Reduzir estímulos competitivos (lugar afastado da janela, da porta, do grupo mais barulhento)."
       - "Reforço positivo imediato — o ciclo de recompensa neurológico é mais curto no TDAH."
+  - label: "Como comunicar com o EE"
+    items:
+      - "Começar pelo que o aluno faz bem — a reunião não pode começar como uma lista de queixas ou o EE fecha-se defensivamente."
+      - "Descrever comportamentos observados, não diagnósticos: \"quando há mais do que dois passos seguidos, perde o fio\" em vez de \"tem TDAH\"."
+      - "Antecipar a reacção \"em casa não é assim\" — explicar que o contexto de grupo e a exigência de atenção prolongada na sala tornam os sintomas mais visíveis."
+      - "Se sugerir avaliação psicológica, apresentar como recurso, não como punição: \"há apoio disponível que pode ajudá-lo/a muito\" em vez de \"precisa de ser avaliado/a\"."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Falha disciplinar persistente apesar de adaptações na sala."

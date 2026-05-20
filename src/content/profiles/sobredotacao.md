@@ -23,6 +23,12 @@ sections:
       - "Permitir investigação independente sobre tópicos do interesse do aluno dentro do programa."
       - "Avaliar pelo desafio, não pela facilidade — pedir trabalhos mais exigentes em troca de menor volume."
       - "Reconhecer e validar a sensibilidade emocional sem patologizar."
+  - label: "Como comunicar com o EE"
+    items:
+      - "Antecipar o orgulho e reencaminhá-lo: \"o seu filho/a sua filha é claramente muito capaz — e é precisamente por isso que o tédio está a criar problemas\"."
+      - "Explicar o paradoxo da sobredotação: bons resultados não significam que está bem — muitos alunos sobredotados têm resultados medianos por desinteresse, não por falta de capacidade."
+      - "Se o aluno esconde a capacidade para se integrar socialmente, nomear isso com cuidado — é um sinal de sofrimento, não de modéstia."
+      - "Propor ao EE que valorize o processo em vez do resultado em casa: curiosidade, profundidade, perguntas difíceis valem mais do que notas altas em tarefas fáceis."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Sinais de ansiedade ou depressão associados a perfeccionismo extremo."

@@ -23,6 +23,12 @@ sections:
       - "Permitir leitura silenciosa antes de qualquer leitura em voz alta — nunca chamar de surpresa."
       - "Avaliar conteúdo separado de ortografia quando o objectivo é avaliar conhecimento."
       - "Oferecer formatos múltiplos para a mesma informação (vídeo, áudio, esquemas)."
+  - label: "Como comunicar com o EE"
+    items:
+      - "Separar explicitamente leitura de inteligência logo no início: \"o seu filho/a sua filha compreende muito bem quando ouve — a dificuldade é específica à leitura escrita\"."
+      - "Ter em conta que um dos progenitores pode ter dislexia não diagnosticada — a conversa pode despertar memórias difíceis da própria escolaridade."
+      - "Evitar mostrar fichas com muitos erros a vermelho sem contexto — apresentar primeiro o que o aluno consegue fazer, depois o que precisa de apoio."
+      - "Ser concreto nas adaptações que já estão a ser feitas e nas que o EE pode replicar em casa: textos em áudio, leitura em voz alta sem pressão de tempo."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Auto-conceito académico em deterioração (\"sou burro\", \"não consigo\")."

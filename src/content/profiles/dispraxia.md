@@ -23,6 +23,12 @@ sections:
       - "Reduzir cópia mecânica do quadro — fornecer apontamentos quando relevante."
       - "Fornecer checklists explícitas para tarefas com múltiplos passos."
       - "Avaliar o produto pelo conteúdo, não pela apresentação física."
+  - label: "Como comunicar com o EE"
+    items:
+      - "Explicar o que é a dispraxia em linguagem simples — a maioria dos EE nunca ouviu o termo: \"é uma dificuldade neurológica na coordenação dos movimentos, não é descuido nem falta de esforço\"."
+      - "A caligrafia ilegível é o ponto de maior atrito com os EE — mostrar que a avaliação passou a valorizar o conteúdo e não a forma ajuda a aliviar a ansiedade de ambos os lados."
+      - "Sugerir ferramentas práticas para casa: ditado por voz no telemóvel para apontamentos, teclado para trabalhos escritos extensos."
+      - "Se houver histórico de \"é preguiçoso/a\" ou \"não se esforça\" em anos anteriores, nomear isso directamente: \"eu sei que já ouviu isso antes — a minha leitura é diferente\"."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Recusa total de produção escrita."
