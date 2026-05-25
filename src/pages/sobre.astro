@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<Base
+  title="Sobre — Farol"
+  description="O que é o Farol, como usar, e o que esperar das secções de IA."
+>
+  <Header />
+
+  <Breadcrumb crumbs={[
+    { label: 'início', href: base },
+    { label: 'sobre' },
+  ]} />
+
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta">
+        <span class="card-category">Guia</span>
+      </div>
+      <h1 class="card-title">Como usar o Farol</h1>
+      <p class="card-subtitle">O que é, o que não é, e como tirar o máximo em cinco minutos.</p>
+    </header>
+
+    <section class="card-section">
+      <h2 class="card-section-label">O que é</h2>
+      <ul>
+        <li><span>Um manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem e responde a três perguntas: o que está a ver na sala, o que pode fazer hoje, e onde a IA pode ajudar.</span></li>
+        <li><span>Foi concebido para ser útil em cinco minutos — antes de uma aula difícil, antes de uma reunião com o encarregado de educação, ou quando um colega pede um segundo olhar sobre um aluno.</span></li>
+        <li><span>É um recurso aberto, actualizado à medida que o conhecimento do autor evolui. A versão actual é a <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">O que não é</h2>
+      <ul>
+        <li><span><strong>Não é</strong> uma ferramenta de diagnóstico. Nenhum cartão substitui uma avaliação psicológica ou psicopedagógica formal.</span></li>
+        <li><span><strong>Não é</strong> um manual clínico. A linguagem é propositadamente acessível e orientada para a sala de aula, não para o consultório.</span></li>
+        <li><span><strong>Não é</strong> definitivo. Os perfis são pontos de entrada, não rótulos. Um aluno real raramente cabe numa só categoria.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">Como navegar</h2>
+      <ul>
+        <li><span>Na página inicial, escolha o perfil que mais se aproxima do aluno que tem em mente. As descrições breves nos cartões são propositadamente directas — escolha pelo que reconhece, não pelo nome técnico.</span></li>
+        <li><span>Dentro de cada cartão, as secções estão ordenadas por urgência: <strong>o que se manifesta</strong> primeiro, <strong>o que fazer</strong> a seguir, <strong>quando referenciar</strong> no fim.</span></li>
+        <li><span>A secção <em>Como comunicar com o EE</em> é específica para reuniões com encarregados de educação — não precisa de a ler a menos que seja esse o contexto.</span></li>
+        <li><span>O <a href={`${base}tools/`}>catálogo de ferramentas</a> é uma referência separada — fichas por ferramenta com notas de privacidade e mapeamento por perfil.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">Sobre as secções de IA</h2>
+      <ul>
+        <li><span>As secções <em>Onde a IA entra</em> estão intencionalmente em branco nesta versão. O autor está a frequentar formação especializada em Split (Julho 2026) antes de recomendar ferramentas específicas.</span></li>
+        <li><span>A estrutura já existe — cada ferramenta terá caso de uso, sugestão de prompt, e nota de privacidade. O conteúdo chega em <strong>v0.2</strong>, prevista para Setembro 2026.</span></li>
+        <li><span>Esta é uma escolha deliberada: preferir o silêncio honesto a recomendações não testadas.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">Créditos e licença</h2>
+      <ul>
+        <li><span>Concebido e escrito por <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, docente de línguas.</span></li>
+        <li><span>Publicado sob licença <strong>CC BY-NC-SA 4.0</strong> — pode partilhar e adaptar com atribuição, para fins não comerciais, sob a mesma licença.</span></li>
+        <li><span>Código fonte disponível em <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+
+  <Footer />
+</Base>
+
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>
