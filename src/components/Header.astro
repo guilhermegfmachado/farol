@@ -1,16 +1,51 @@
 ---
 import LighthouseMark from './LighthouseMark.astro';
+import { ui, type Lang } from '@/lib/i18n';
+
+interface Props {
+  lang?: Lang;
+  altHrefs?: Partial<Record<Lang, string>>;
+}
+
+const { lang = 'pt', altHrefs = {} } = Astro.props;
+const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr'];
 ---
 <header>
   <div class="header-top">
-    <a href={base} class="logotype">
+    <a href={lang === 'pt' ? base : `${base}${lang}/`} class="logotype">
       <span class="logotype-mark">
         <LighthouseMark />
       </span>
       FAROL
     </a>
-    <div class="version-tag">v0.1 · MAIO 2026</div>
+    <div class="header-right">
+      <div class="version-tag">v0.1 · MAIO 2026</div>
+      <div class="lang-switcher" aria-label="Language / Langue / Idioma / Lingua / Jezik">
+        {allLangs.map((l, i) => (
+          <>
+            {i > 0 && <span class="lang-sep">·</span>}
+            {l === lang
+              ? <span class="lang-current">{l.toUpperCase()}</span>
+              : altHrefs[l]
+                ? <a href={altHrefs[l]} class="lang-link">{l.toUpperCase()}</a>
+                : <span class="lang-unavail">{l.toUpperCase()}</span>
+            }
+          </>
+        ))}
+      </div>
+    </div>
   </div>
-  <div class="tagline">Ferramentas e Abordagens para Reconhecer e Orientar alunos — um manual de bolso para a sala de aula que respeita o aluno que tem à frente.</div>
+  <div class="tagline">{t.tagline}</div>
 </header>
+
+<style>
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; }
+.lang-switcher { display: flex; align-items: center; gap: 0.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; }
+.lang-sep { color: var(--rule-strong); }
+.lang-current { color: var(--ink); font-weight: 700; }
+.lang-link { color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; }
+.lang-link:hover { color: var(--accent); }
+.lang-unavail { color: var(--rule-strong); }
+</style>

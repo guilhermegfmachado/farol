@@ -1,10 +1,19 @@
 ---
+import { ui, allAboutHrefs, type Lang } from '@/lib/i18n';
+
+interface Props {
+  lang?: Lang;
+}
+
+const { lang = 'pt' } = Astro.props;
+const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const sobreHref = allAboutHrefs(base)[lang];
 ---
 <footer>
-  <div>Farol · Manual de docente</div>
-  <div><a href={`${base}sobre/`}>Como usar</a> · Recurso aberto · CC BY-NC-SA</div>
-  <div>Conceito por <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a></div>
+  <div>{t.footer_manual}</div>
+  <div><a href={sobreHref}>{t.footer_how}</a> · {t.footer_licence}</div>
+  <div>{t.footer_by} <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a></div>
 </footer>
 
 <style>

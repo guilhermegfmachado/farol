@@ -8,22 +8,19 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 
 const entries = await getAllEntries();
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-const t = ui['en'];
+const t = ui['es'];
 
-const categoryEn: Record<string, string> = {
-  'Perfil': 'Profile', 'Referência': 'Reference', 'Recurso': 'Resource',
+const categoryEs: Record<string, string> = {
+  'Perfil': 'Perfil', 'Referência': 'Referencia', 'Recurso': 'Recurso',
 };
 ---
-<Base
-  title="Farol — Inclusion & AI in the Classroom"
-  description="Tools and Approaches to Recognise and Guide students — a pocket manual for teachers on inclusion and AI in the classroom."
->
-  <Header lang="en" altHrefs={allIndexHrefs(base)} />
+<Base title="Farol — Inclusión e IA en el Aula">
+  <Header lang="es" altHrefs={allIndexHrefs(base)} />
 
   <div class="intro">
     <div class="intro-label">{t.about_label}</div>
     <div class="intro-body">
-      <p set:html={t.about_p1} />
+      <p>{t.about_p1}</p>
       <p set:html={t.about_p2} />
       <div class="intro-acronym" set:html={t.acronym} />
     </div>
@@ -36,17 +33,17 @@ const categoryEn: Record<string, string> = {
 
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home }]} />
 
-  <nav class="tree" aria-label="Profiles and resources">
+  <nav class="tree" aria-label="Perfiles y recursos">
     {entries.map((entry) => {
       const slug = entry.id.replace(/\.md$/, '');
-      const tr = entryTranslations.en?.[slug];
+      const tr = entryTranslations.es?.[slug];
       return (
         <a
-          href={`${base}en/${entry.collection}/${slug}/`}
+          href={`${base}es/${entry.collection}/${slug}/`}
           class="tree-node animate-in"
           data-category={entry.data.category}
         >
-          <span class="tree-node-category">{categoryEn[entry.data.category] ?? entry.data.category}</span>
+          <span class="tree-node-category">{categoryEs[entry.data.category] ?? entry.data.category}</span>
           <span class="tree-node-index">{entry.data.index}</span>
           <span class="tree-node-title">{tr?.title ?? entry.data.title}</span>
           <span class="tree-node-desc">{tr?.desc ?? entry.data.desc}</span>
@@ -64,7 +61,7 @@ const categoryEn: Record<string, string> = {
     </a>
   </div>
 
-  <Footer lang="en" />
+  <Footer lang="es" />
 </Base>
 
 <style>

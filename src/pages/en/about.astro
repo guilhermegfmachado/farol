@@ -1,22 +1,22 @@
 ---
+import { ui, allAboutHrefs } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import { ui } from '@/lib/i18n';
 
-const t = ui.en;
+const t = ui['en'];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <Base
   title="About — Farol"
   description="What Farol is, how to use it, and what to expect from the AI sections."
 >
-  <Header lang="en" altHref={`${base}sobre/`} />
+  <Header lang="en" altHrefs={allAboutHrefs(base)} />
 
   <Breadcrumb crumbs={[
     { label: t.breadcrumb_home, href: `${base}en/` },
-    { label: 'about' },
+    { label: t.breadcrumb_about },
   ]} />
 
   <article class="card animate-in">
@@ -83,7 +83,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     </section>
   </article>
 
-  <Footer lang="en" altHref={`${base}sobre/`} />
+  <Footer lang="en" />
 </Base>
 
 <style>
