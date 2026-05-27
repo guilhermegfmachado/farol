@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import { getAllEntries } from '@/lib/entries';
+import { ui, entryTranslations, sectionLabelTranslations, allLangHrefs } from '@/lib/i18n';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('references');
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.md$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { category, sections, pending } = entry.data;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const slug = entry.id.replace(/\.md$/, '');
+const t = ui['nl'];
+const tr = entryTranslations.nl?.[slug];
+const title = tr?.title ?? entry.data.title;
+const subtitle = tr?.subtitle ?? entry.data.subtitle;
+const langHrefs = allLangHrefs(base, 'references', slug);
+
+const allEntries = await getAllEntries();
+const idx = allEntries.findIndex((e) => e.collection === entry.collection && e.id === entry.id);
+const prev = idx > 0 ? allEntries[idx - 1] : null;
+const next = idx < allEntries.length - 1 ? allEntries[idx + 1] : null;
+
+function entryHref(e: typeof allEntries[0]) {
+  const s = e.id.replace(/\.md$/, '');
+  return { href: `${base}nl/${e.collection}/${s}/`, title: entryTranslations.nl?.[s]?.title ?? e.data.title };
+}
+---
+<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${category} — Farol`}>
+  <Header lang="nl" altHrefs={langHrefs} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}nl/` }, { label: title.toLowerCase() }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta">
+        <span class="card-category">{category}</span>
+        <span class="card-index-large">{entry.data.index}</span>
+      </div>
+      <h1 class="card-title">{title}</h1>
+      {subtitle && <p class="card-subtitle">{subtitle}</p>}
+    </header>
+    {sections.map((section) => (
+      <section class="card-section">
+        <h2 class="card-section-label">{sectionLabelTranslations.nl?.[section.label] ?? section.label}</h2>
+        <ul>{section.items.map((item) => <li><span set:html={item} /></li>)}</ul>
+      </section>
+    ))}
+    {pending && <div class="pending-notice">{t.translation_notice}</div>}
+  </article>
+  <nav class="card-nav" aria-label="Navigatie tussen vermeldingen">
+    {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
+    {next ? <a href={entryHref(next).href} class="card-nav-item card-nav-next"><span class="card-nav-dir">{t.nav_next}</span><span class="card-nav-title">{entryHref(next).title}</span></a> : <span />}
+  </nav>
+  <Footer lang="nl" />
+</Base>
+<style>
+.card-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; margin-bottom: 1rem; }
+.card-nav-item { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; max-width: 48%; }
+.card-nav-item:hover { border-color: var(--accent); }
+.card-nav-next { text-align: right; margin-left: auto; }
+.card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
+@media print { .card-nav { display: none; } }
+</style>

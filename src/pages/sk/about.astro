@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['sk'];
+---
+<Base title="O projekte — Farol" description="Čo je Farol, ako ho používať a čo očakávať od sekcií AI.">
+  <Header lang="sk" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}sk/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Sprievodca</span></div>
+      <h1 class="card-title">Ako používať Farol</h1>
+      <p class="card-subtitle">Čo to je, čo to nie je a ako z toho vyťažiť maximum za päť minút.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Čo to je</h2>
+      <ul>
+        <li><span>Rýchly referenčný zdroj pre učiteľov pracujúcich s heterogénnymi triedami. Každá karta pokrýva profil žiaka a odpovedá na tri otázky: čo vidíte v triede, čo môžete dnes urobiť a ako môže AI pomôcť.</span></li>
+        <li><span>Je navrhnutý na päť minút — pred náročnou hodinou, pred stretnutím s rodičmi alebo keď kolega potrebuje druhý názor na žiaka.</span></li>
+        <li><span>Je to otvorený zdroj, aktualizovaný ako sa znalosti autora vyvíjajú. Aktuálna verzia je <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Čo to nie je</h2>
+      <ul>
+        <li><span><strong>Nie je to</strong> diagnostický nástroj. Žiadna karta nenahrádza formálne psychologické alebo pedagogické hodnotenie.</span></li>
+        <li><span><strong>Nie je to</strong> klinická príručka. Jazyk je zámerné prístupný a zameraný na triedu, nie na ordináciu.</span></li>
+        <li><span><strong>Nie je to</strong> definitívne. Profily sú vstupné body, nie nálepky. Skutočný žiak len zriedka zodpovedá jednej kategórii.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Ako navigovať</h2>
+      <ul>
+        <li><span>Na úvodnej stránke zvoľte profil, ktorý sa najviac pribúžuje žiakovi, na ktorého myslíte. Krátke popisy na kartách sú zámerné priame — vyberajte podľa toho, čo rozpoznávate, nie podľa technického názvu.</span></li>
+        <li><span>V každej karte sú sekcie zoradené podľa naliehavosti: <strong>čo sa prejavuje</strong> najskôr, <strong>čo robiť</strong> potom, <strong>kedy odoslať</strong> nakoniec.</span></li>
+        <li><span>Sekcia <em>Rozhovor s rodičmi</em> je špecifická pre stretnutia s rodičmi — nemusíte ju čítať, ak to nie je váš kontext.</span></li>
+        <li><span><a href={`${base}tools/`}>katalóg nástrojov</a> je samostatný referenčný zdroj — karty nástrojov s poznámkami k ochrane súkromia a mapovaním profilu.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">O sekciách AI</h2>
+      <ul>
+        <li><span>Sekcie <em>Kde AI zapadá</em> sú v tejto verzii zámerné prázdne. Autor absolvuje odborné školenie vo Splite (júl 2026) pred odporúčaním konkrétnych nástrojov.</span></li>
+        <li><span>Štruktúra je už pripravená — každý nástroj bude mať prípad použitia, návrh promptu a poznámku k ochrane súkromia. Obsah príde v <strong>v0.2</strong>, plánovanom na september 2026.</span></li>
+        <li><span>Toto je zámerná voľba: poctivé mlčanie namiesto neoverených odporúčaní.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Poznámka k prekladu</h2>
+      <ul>
+        <li><span>Profilové karty zostávajú v tejto verzii v portugaštine. Slovenské preklady obsahu kariet sú v príprave a budú dostupné v <strong>v0.2</strong>.</span></li>
+        <li><span>Navigácia, popisky a informačné stránky sú plne preložené.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Zásluhy a licencia</h2>
+      <ul>
+        <li><span>Vymyslel a napísal <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, učiteľ jazykov.</span></li>
+        <li><span>Zverejnené pod licenciou <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Zdrojový kód na <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="sk" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }}
+</style>
