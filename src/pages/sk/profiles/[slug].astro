@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries } from '@/lib/entries';
-import { ui, entryTranslations, sectionLabelTranslations, allLangHrefs } from '@/lib/i18n';
+import { ui, entryTranslations, sectionLabelTranslations, allLangHrefs, categoryTranslations } from '@/lib/i18n';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
@@ -17,6 +17,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { category, sections, ai_strategies, pending } = entry.data;
+const catLabel = categoryTranslations['sk']?.[category] ?? category;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
 const t = ui['sk'];
@@ -38,13 +39,13 @@ function entryHref(e: typeof allEntries[0]) {
   return { href: `${base}sk/${e.collection}/${s}/`, title: etr?.title ?? e.data.title };
 }
 ---
-<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${category} — Farol`}>
+<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${catLabel} — Farol`}>
   <Header lang="sk" altHrefs={langHrefs} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}sk/` }, { label: title.toLowerCase() }]} />
   <article class="card animate-in">
     <header class="card-header">
       <div class="card-header-meta">
-        <span class="card-category">{category}</span>
+        <span class="card-category">{catLabel}</span>
         <span class="card-index-large">{entry.data.index}</span>
       </div>
       <h1 class="card-title">{title}</h1>

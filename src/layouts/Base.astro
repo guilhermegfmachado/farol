@@ -37,7 +37,7 @@ const pageLang = Astro.url.pathname.split('/').find(p => /^[a-z]{2}$/.test(p)) ?
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={ogTitle ?? title} />
     <meta property="og:description" content={description} />
-    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:locale" content={pageLang} />
   </head>
   <body>
     <div class="container">

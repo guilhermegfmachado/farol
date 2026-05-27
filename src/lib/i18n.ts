@@ -1594,3 +1594,30 @@ export function allAboutHrefs(base: string): Record<Lang, string> {
     mt: `${base}mt/about/`,
   };
 }
+
+export const categoryTranslations: Record<Lang, Record<string, string>> = {
+  pt: { 'Perfil': 'Perfil',   'Referência': 'Referência', 'Recurso': 'Recurso'    },
+  en: { 'Perfil': 'Profile',  'Referência': 'Reference',  'Recurso': 'Resource'   },
+  es: { 'Perfil': 'Perfil',   'Referência': 'Referencia', 'Recurso': 'Recurso'    },
+  fr: { 'Perfil': 'Profil',   'Referência': 'Référence',  'Recurso': 'Ressource'  },
+  it: { 'Perfil': 'Profilo',  'Referência': 'Riferimento','Recurso': 'Risorsa'    },
+  hr: { 'Perfil': 'Profil',   'Referência': 'Referenca',  'Recurso': 'Resurs'     },
+  de: { 'Perfil': 'Profil',   'Referência': 'Referenz',   'Recurso': 'Ressource'  },
+  nl: { 'Perfil': 'Profiel',  'Referência': 'Referentie', 'Recurso': 'Bron'       },
+  pl: { 'Perfil': 'Profil',   'Referência': 'Referencja', 'Recurso': 'Zasób'      },
+  ro: { 'Perfil': 'Profil',   'Referência': 'Referință',  'Recurso': 'Resursă'    },
+  cs: { 'Perfil': 'Profil',   'Referência': 'Reference',  'Recurso': 'Zdroj'      },
+  sv: { 'Perfil': 'Profil',   'Referência': 'Referens',   'Recurso': 'Resurs'     },
+  da: { 'Perfil': 'Profil',   'Referência': 'Reference',  'Recurso': 'Ressource'  },
+  fi: { 'Perfil': 'Profiili', 'Referência': 'Viite',      'Recurso': 'Resurssi'   },
+  sk: { 'Perfil': 'Profil',   'Referência': 'Referencia', 'Recurso': 'Zdroj'      },
+  el: { 'Perfil': 'Προφίλ',   'Referência': 'Αναφορά',    'Recurso': 'Πόρος'      },
+  hu: { 'Perfil': 'Profil',   'Referência': 'Hivatkozás', 'Recurso': 'Erőforrás'  },
+  bg: { 'Perfil': 'Профил',   'Referência': 'Справка',    'Recurso': 'Ресурс'     },
+  lt: { 'Perfil': 'Profilis', 'Referência': 'Nuoroda',    'Recurso': 'Šaltinis'   },
+  lv: { 'Perfil': 'Profils',  'Referência': 'Atsauce',    'Recurso': 'Resurss'    },
+  et: { 'Perfil': 'Profiil',  'Referência': 'Viide',      'Recurso': 'Ressurss'   },
+  sl: { 'Perfil': 'Profil',   'Referência': 'Referenca',  'Recurso': 'Vir'        },
+  ga: { 'Perfil': 'Próifíl',  'Referência': 'Tagairt',    'Recurso': 'Acmhainn'   },
+  mt: { 'Perfil': 'Profil',   'Referência': 'Referenza',  'Recurso': 'Riżorsa'    },
+};
