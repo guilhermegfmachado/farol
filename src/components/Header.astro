@@ -1,16 +1,77 @@
 ---
 import LighthouseMark from './LighthouseMark.astro';
+import { ui, type Lang } from '@/lib/i18n';
+
+interface Props {
+  lang?: Lang;
+  altHrefs?: Partial<Record<Lang, string>>;
+}
+
+const { lang = 'pt', altHrefs = {} } = Astro.props;
+const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 'ro', 'cs', 'sv', 'da', 'fi', 'sk', 'el', 'hu', 'bg', 'lt', 'lv', 'et', 'sl', 'ga', 'mt'];
 ---
 <header>
   <div class="header-top">
-    <a href={base} class="logotype">
+    <a href={lang === 'pt' ? base : `${base}${lang}/`} class="logotype">
       <span class="logotype-mark">
         <LighthouseMark />
       </span>
       FAROL
     </a>
-    <div class="version-tag">v0.1 · MAIO 2026</div>
+    <div class="header-right">
+      <div class="version-tag">v0.1 · MAIO 2026</div>
+      <div class="lang-switcher" aria-label="Select language">
+        {allLangs.map((l) => (
+          <>
+            {l === lang
+              ? <span class="lang-current">{l.toUpperCase()}</span>
+              : altHrefs[l]
+                ? <a href={altHrefs[l]} class="lang-link">{l.toUpperCase()}</a>
+                : <span class="lang-unavail">{l.toUpperCase()}</span>
+            }
+          </>
+        ))}
+      </div>
+      <select
+        class="lang-select"
+        aria-label="Select language"
+        onchange="if(this.value) window.location.href=this.value"
+      >
+        <option value="" disabled selected>{lang.toUpperCase()}</option>
+        {allLangs.filter(l => l !== lang).map((l) => (
+          altHrefs[l]
+            ? <option value={altHrefs[l]}>{l.toUpperCase()}</option>
+            : null
+        ))}
+      </select>
+    </div>
   </div>
-  <div class="tagline">Ferramentas e Abordagens para Reconhecer e Orientar alunos — um manual de bolso para a sala de aula que respeita o aluno que tem à frente.</div>
+  <div class="tagline">{t.tagline}</div>
 </header>
+
+<style>
+.header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; }
+.lang-switcher { display: flex; flex-wrap: wrap; align-items: center; gap: 0.2rem 0.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; max-width: 18rem; }
+.lang-current { color: var(--ink); font-weight: 700; }
+.lang-link { color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; }
+.lang-link:hover { color: var(--accent); }
+.lang-unavail { color: var(--rule-strong); }
+.lang-select { display: none; }
+@media (max-width: 520px) {
+  .lang-switcher { display: none; }
+  .lang-select {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    color: var(--ink-faded);
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+}
+</style>

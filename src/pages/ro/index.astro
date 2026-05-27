@@ -1,0 +1,77 @@
+---
+import { getAllEntries } from '@/lib/entries';
+import { ui, entryTranslations, allIndexHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const entries = await getAllEntries();
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['ro'];
+
+const categoryLang: Record<string, string> = {
+  'Perfil': 'Profil', 'Referência': 'Referință', 'Recurso': 'Resursă',
+};
+---
+<Base title="Farol — Incluziune și IA în Clasă">
+  <Header lang="ro" altHrefs={allIndexHrefs(base)} />
+
+  <div class="intro">
+    <div class="intro-label">{t.about_label}</div>
+    <div class="intro-body">
+      <p>{t.about_p1}</p>
+      <p set:html={t.about_p2} />
+      <div class="intro-acronym" set:html={t.acronym} />
+    </div>
+  </div>
+
+  <div class="prompt-section">
+    <div class="prompt-label">{t.start_label}</div>
+    <div class="prompt-question">{t.start_question}</div>
+  </div>
+
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home }]} />
+
+  <nav class="tree" aria-label="Profile și resurse">
+    {entries.map((entry) => {
+      const slug = entry.id.replace(/\.md$/, '');
+      const tr = entryTranslations.ro?.[slug];
+      return (
+        <a
+          href={`${base}ro/${entry.collection}/${slug}/`}
+          class="tree-node animate-in"
+          data-category={entry.data.category}
+        >
+          <span class="tree-node-category">{categoryLang[entry.data.category] ?? entry.data.category}</span>
+          <span class="tree-node-index">{entry.data.index}</span>
+          <span class="tree-node-title">{tr?.title ?? entry.data.title}</span>
+          <span class="tree-node-desc">{tr?.desc ?? entry.data.desc}</span>
+          <span class="tree-node-arrow">{t.consult} <span aria-hidden="true">→</span></span>
+        </a>
+      );
+    })}
+  </nav>
+
+  <div class="tools-link-row">
+    <a href={`${base}tools/`} class="tools-link">
+      <span class="tools-link-label">{t.tools_catalog}</span>
+      <span class="tools-link-title">{t.tools_title}</span>
+      <span class="tools-link-desc">{t.tools_desc}</span>
+    </a>
+  </div>
+
+  <Footer lang="ro" />
+</Base>
+
+<style>
+.tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
+.tree-node[data-category="Referência"] { border-left: 3px solid #4a7c59; }
+.tree-node[data-category="Recurso"]    { border-left: 3px solid #7c5a3a; }
+.tools-link-row { margin-top: 0.75rem; }
+.tools-link { display: flex; flex-direction: column; gap: 0.3rem; padding: 1.2rem 1.5rem; background: var(--bg-elevated); border: 1px solid var(--rule); border-left: 3px solid var(--beam); text-decoration: none; transition: border-color 0.2s ease; }
+.tools-link:hover { border-color: var(--beam); box-shadow: 0 2px 12px rgba(20,23,26,0.05); }
+.tools-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.tools-link-title { font-size: 1rem; font-weight: 600; color: var(--ink); }
+.tools-link-desc { font-size: 0.85rem; color: var(--ink-soft); }
+</style>

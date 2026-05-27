@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['de'];
+---
+<Base title="Über — Farol" description="Was Farol ist, wie man es benutzt und was von den KI-Abschnitten zu erwarten ist.">
+  <Header lang="de" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}de/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Leitfaden</span></div>
+      <h1 class="card-title">Wie man Farol benutzt</h1>
+      <p class="card-subtitle">Was es ist, was es nicht ist und wie man in fünf Minuten das Beste daraus macht.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Was es ist</h2>
+      <ul>
+        <li><span>Ein Schnellnachschlagewerk für Lehrkräfte, die mit heterogenen Klassen arbeiten. Jede Karte behandelt ein Lernprofil und beantwortet drei Fragen: Was sehen Sie im Unterricht, was können Sie heute tun und wie kann KI helfen.</span></li>
+        <li><span>Es ist für fünf Minuten konzipiert — vor einer schwierigen Stunde, vor einem Elterngespräch oder wenn ein Kollege eine zweite Meinung zu einem Schüler braucht.</span></li>
+        <li><span>Es ist eine offene Ressource, die aktualisiert wird, wenn das Wissen des Autors sich weiterentwickelt. Die aktuelle Version ist <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Was es nicht ist</h2>
+      <ul>
+        <li><span><strong>Es ist kein</strong> Diagnosewerkzeug. Keine Karte ersetzt eine formale psychologische oder pädagogische Beurteilung.</span></li>
+        <li><span><strong>Es ist kein</strong> klinisches Handbuch. Die Sprache ist bewusst zugänglich und auf den Unterricht ausgerichtet, nicht auf die Praxis.</span></li>
+        <li><span><strong>Es ist nicht</strong> abschließend. Die Profile sind Einstiegspunkte, keine Etiketten. Ein realer Schüler passt selten in eine einzige Kategorie.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Wie man navigiert</h2>
+      <ul>
+        <li><span>Wählen Sie auf der Startseite das Profil, das dem Schüler, den Sie im Kopf haben, am nächsten kommt. Die kurzen Beschreibungen auf den Karten sind bewusst direkt — wählen Sie nach dem, was Sie erkennen, nicht nach dem technischen Namen.</span></li>
+        <li><span>Innerhalb jeder Karte sind die Abschnitte nach Dringlichkeit geordnet: <strong>was sich zeigt</strong> zuerst, <strong>was zu tun ist</strong> als nächstes, <strong>wann zu überweisen</strong> zuletzt.</span></li>
+        <li><span>Der Abschnitt <em>Gespräch mit Eltern</em> ist speziell für Elterngespräche gedacht — Sie müssen ihn nicht lesen, wenn das nicht der Kontext ist.</span></li>
+        <li><span>Der <a href={`${base}tools/`}>Werkzeugkatalog</a> ist eine separate Referenz — Werkzeugkarten mit Datenschutzhinweisen und Profilzuordnung.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Über die KI-Abschnitte</h2>
+      <ul>
+        <li><span>Die Abschnitte <em>Wo KI passt</em> sind in dieser Version absichtlich leer. Der Autor absolviert eine Fachweiterbildung in Split (Juli 2026), bevor er spezifische Werkzeuge empfiehlt.</span></li>
+        <li><span>Die Struktur ist bereits vorhanden — jedes Werkzeug wird einen Anwendungsfall, einen Prompt-Vorschlag und einen Datenschutzhinweis haben. Der Inhalt kommt in <strong>v0.2</strong>, geplant für September 2026.</span></li>
+        <li><span>Dies ist eine bewusste Entscheidung: ehrliches Schweigen statt ungeprüfter Empfehlungen.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Hinweis zur Übersetzung</h2>
+      <ul>
+        <li><span>Die Profilkarten bleiben in dieser Version auf Portugiesisch. Die deutschen Übersetzungen der Karteninhalte sind in Arbeit und werden in <strong>v0.2</strong> verfügbar sein.</span></li>
+        <li><span>Navigation, Beschriftungen und Informationsseiten sind vollständig übersetzt.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Impressum und Lizenz</h2>
+      <ul>
+        <li><span>Konzipiert und verfasst von <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, Sprachlehrer.</span></li>
+        <li><span>Veröffentlicht unter der Lizenz <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Quellcode auf <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="de" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

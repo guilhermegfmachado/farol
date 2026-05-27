@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['mt'];
+---
+<Base title="Dwar — Farol" description="X'inhu Farol, kif tużah u x'tistenna mis-sezzjonijiet tal-AI.">
+  <Header lang="mt" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}mt/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Gwida</span></div>
+      <h1 class="card-title">Kif Tużah Farol</h1>
+      <p class="card-subtitle">X'inhu, x'mhuwiex u kif tista' tieħu l-massimu minnu f'ħames minuti.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">X'inhu</h2>
+      <ul>
+        <li><span>Referenza rapida għall-għalliema li jaħdmu ma' klassijiet eteroġenji. Kull karta tkopri profil ta' student u twieġeb tliet mistoqsijiet: x'tara fil-klassi, x'tista' tagħmel illum u kif tista' tgħin l-AI.</span></li>
+        <li><span>Hija mfassla għal ħames minuti — qabel lezzjoni diffiċli, qabel laqgħa mal-ġenituri jew meta kollega jkun irid it-tieni opinjoni dwar student.</span></li>
+        <li><span>Hija riżorsa miftuħa, aġġornata hekk kif l-għarfien tal-awtur jiżviluppa. Il-verżjoni attwali hija <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">X'mhuwiex</h2>
+      <ul>
+        <li><span><strong>Mhijiex</strong> għodda dijanjostika. L-ebda karta ma tissostitwixxi evalwazjoni psikoloġika jew pedaġoġika formali.</span></li>
+        <li><span><strong>Mhijiex</strong> manwal kliniku. Il-lingwaġġ huwa intenzjonalment aċċessibbli u orjentat lejn il-klassi, mhux lejn il-klinika.</span></li>
+        <li><span><strong>Mhijiex</strong> definittiva. Il-profili huma punti ta' dħul, mhux tikketti. Student reali rarament jaqbel ma' kategorija waħda.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Kif tinnviga</h2>
+      <ul>
+        <li><span>Fil-paġna ewlenija, agħżel il-profil li jixbah l-aktar lill-isstudent li qed taħseb fih. Id-deskrizzjonijiet qosra fuq il-karti huma intenzjonalment diretti — agħżel skont dak li tipprikorxxi, mhux l-isem tekniku.</span></li>
+        <li><span>F'kull karta, is-sezzjonijiet huma ordnati skont l-urġenza: <strong>x'jidhrilna</strong> l-ewwel, <strong>x'tagħmel</strong> wara, <strong>meta tirreferi</strong> fl-aħħar.</span></li>
+        <li><span>Is-sezzjoni <em>Taħdita mal-ġenituri</em> hija speċifika għal-laqgħat mal-ġenituri — m'hemmx bżonn taqraha jekk dak mhux il-kuntest tiegħek.</span></li>
+        <li><span><a href={`${base}tools/`}>katalgu ta' għodod</a> hija referenza separata — karti ta' għodod b'noti ta' privatezza u mmappjar tal-profil.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Dwar is-sezzjonijiet tal-AI</h2>
+      <ul>
+        <li><span>Is-sezzjonijiet <em>Fejn tidħol l-AI</em> huma intenzjonalment vojta f'din il-verżjoni. L-awtur qed jgħaddi minn taħriġ speċjalizzat f'Split (Lulju 2026) qabel ma jirrakkomanda għodod speċifiċi.</span></li>
+        <li><span>L-istruttura hija diġà lesta — kull għodda se jkollha każ ta' użu, suġġeriment ta' prompt u nota ta' privatezza. Il-kontenut jiġi fi <strong>v0.2</strong>, ippjanat għal Settembru 2026.</span></li>
+        <li><span>Din hija għażla deliberata: skiet onest fuq rakkomandazzjonijiet mhux ittestjati.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Nota dwar it-traduzzjoni</h2>
+      <ul>
+        <li><span>Il-karti tal-profil jibqgħu f'din il-verżjoni bil-Portugiż. It-traduzzjonijiet Maltin tal-kontenut tal-karti qed jiġu ppreparati u jkunu disponibbli fi <strong>v0.2</strong>.</span></li>
+        <li><span>In-navigazjoni, it-tikketti u l-paġni tal-informazjoni huma tradotti kompletament.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Krediti u liċenza</h2>
+      <ul>
+        <li><span>Immaġinat u miktub minn <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, għalliem tal-lingwi.</span></li>
+        <li><span>Ippubblikat taħt liċenza <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Kodiċi tas-sors fuq <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="mt" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

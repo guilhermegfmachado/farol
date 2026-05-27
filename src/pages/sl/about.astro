@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['sl'];
+---
+<Base title="O projektu — Farol" description="Kaj je Farol, kako ga uporabljati in kaj pričakovati od razdelkov UI.">
+  <Header lang="sl" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}sl/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Vodnik</span></div>
+      <h1 class="card-title">Kako uporabljati Farol</h1>
+      <p class="card-subtitle">Kaj je, kaj ni in kako iz njega izkoristiti največ v petih minutah.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Kaj je</h2>
+      <ul>
+        <li><span>Hitro priročno orodje za učitelje, ki delajo s heterogenimi razredi. Vsaka kartica pokriva profil učenca in odgovarja na tri vprašanja: kaj vidite v razredu, kaj lahko naredite danes in kako lahko UI pomaga.</span></li>
+        <li><span>Zasnovano je za pet minut — pred zahtevno uro, pred srečanjem s starši ali ko kolega potrebuje drugo mnenje o učencu.</span></li>
+        <li><span>Gre za odprt vir, ki se posodablja z razvojem avtorjevih znanj. Trenutna različica je <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Kaj ni</h2>
+      <ul>
+        <li><span><strong>Ni</strong> diagnostično orodje. Nobena kartica ne nadomesti formalnega psihološkegao ali pedagoškega vrednotenja.</span></li>
+        <li><span><strong>Ni</strong> klinični priročnik. Jezik je namerno dostopen in usmerjen v razred, ne v ambulanto.</span></li>
+        <li><span><strong>Ni</strong> dokončno. Profili so izhodišča, ne nalepke. Pravi učenec le redko ustreza eni kategoriji.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Kako krmariti</h2>
+      <ul>
+        <li><span>Na začetni strani izberite profil, ki se najbolj ujema z učencem, ki ga imate v mislih. Kratki opisi na karticah so namerno neposredni — izberite po tem, kar prepoznate, ne po tehničnem imenu.</span></li>
+        <li><span>Znotraj vsake kartice so razdelki razvrščeni po nujnosti: <strong>kaj se kaže</strong> najprej, <strong>kaj narediti</strong> nato, <strong>kdaj napotiti</strong> nazadnje.</span></li>
+        <li><span>Razdelek <em>Pogovor s starši</em> je namenjen posebej za srečanja s starši — ni ga treba brati, če to ni vaš kontekst.</span></li>
+        <li><span><a href={`${base}tools/`}>katalog orodij</a> je ločena referenca — kartice orodij z opombami o zasebnosti in profilnim kartiranjem.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">O razdelkih UI</h2>
+      <ul>
+        <li><span>Razdelki <em>Kjer UI ustreza</em> so v tej različici namerno prazni. Avtor opravlja specializirano usposabljanje v Splitu (julij 2026) preden priporoči konkretna orodja.</span></li>
+        <li><span>Struktura je že pripravljena — vsako orodje bo imelo primer uporabe, predlog poziva in opombo o zasebnosti. Vsebina prihaja v <strong>v0.2</strong>, načrtovani za september 2026.</span></li>
+        <li><span>To je zavestna odločitev: poštena tišina namesto nepreizkušenih priporočil.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Opomba o prevodu</h2>
+      <ul>
+        <li><span>Profilne kartice ostajajo v tej različici v portugalščini. Slovenski prevodi vsebine kartic so v pripravi in bodo na voljo v <strong>v0.2</strong>.</span></li>
+        <li><span>Navigacija, oznake in informacijske strani so v celoti prevedene.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Zahvale in licenca</h2>
+      <ul>
+        <li><span>Zasnoval in napisal <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, učitelj jezikov.</span></li>
+        <li><span>Objavljeno pod licenco <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Izvorna koda na <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="sl" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

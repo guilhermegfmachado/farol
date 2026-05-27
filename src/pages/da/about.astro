@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['da'];
+---
+<Base title="Om — Farol" description="Hvad Farol er, hvordan man bruger det og hvad man kan forvente af AI-sektionerne.">
+  <Header lang="da" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}da/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Guide</span></div>
+      <h1 class="card-title">Hvordan man bruger Farol</h1>
+      <p class="card-subtitle">Hvad det er, hvad det ikke er og hvordan man får mest ud af det på fem minutter.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Hvad det er</h2>
+      <ul>
+        <li><span>En hurtig reference for lærere, der arbejder med heterogene klasser. Hvert kort dækker en elevprofil og besvarer tre spørgsmål: hvad ser du i klassen, hvad kan du gøre i dag og hvordan kan AI hjælpe.</span></li>
+        <li><span>Det er designet til fem minutter — før en svær lektion, inden et forældremoede eller når en kollega har brug for en anden mening om en elev.</span></li>
+        <li><span>Det er en åben ressource, der opdateres efterhånden som forfatterens viden udvikler sig. Den nuværende version er <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Hvad det ikke er</h2>
+      <ul>
+        <li><span><strong>Det er ikke</strong> et diagnostisk værktøj. Intet kort erstatter en formel psykologisk eller pædagogisk vurdering.</span></li>
+        <li><span><strong>Det er ikke</strong> en klinisk håndbog. Sproget er bevidst tilgængeligt og rettet mod klassen, ikke mod klinikken.</span></li>
+        <li><span><strong>Det er ikke</strong> definitivt. Profilerne er indgangspunkter, ikke etiketter. En rigtig elev passer sjældent ind i én kategori.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Hvordan man navigerer</h2>
+      <ul>
+        <li><span>Vælg på startsiden den profil, der ligner den elev, du har i tankerne. De korte beskrivelser på kortene er bevidst direkte — vælg ud fra hvad du genkender, ikke det tekniske navn.</span></li>
+        <li><span>Inden for hvert kort er sektionerne ordnet efter hastighed: <strong>hvad der manifesterer sig</strong> først, <strong>hvad man skal gøre</strong> derefter, <strong>hvornår man skal henvise</strong> til sidst.</span></li>
+        <li><span>Sektionen <em>Samtale med forældre</em> er specifik til forældremoeder — du behøver ikke læse den, hvis det ikke er din kontekst.</span></li>
+        <li><span><a href={`${base}tools/`}>værktøjskataloget</a> er en separat reference — værktøjskort med privatlivsnoter og profilkortlægning.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Om AI-sektionerne</h2>
+      <ul>
+        <li><span>Sektionerne <em>Hvor AI passer ind</em> er bevidst tomme i denne version. Forfatteren gennemgår specialiseret uddannelse i Split (juli 2026) inden specifikke værktøjer anbefales.</span></li>
+        <li><span>Strukturen er allerede på plads — hvert værktøj vil have et anvendelsestilfælde, et promptforslag og en privatlivsnote. Indholdet kommer i <strong>v0.2</strong>, planlagt til september 2026.</span></li>
+        <li><span>Dette er et bevidst valg: ærlig tavshed frem for utestede anbefalinger.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Note om oversættelse</h2>
+      <ul>
+        <li><span>Profilkortene forbliver i denne version på portugisisk. Danske oversættelser af kortenes indhold er under udarbejdelse og vil være tilgængelige i <strong>v0.2</strong>.</span></li>
+        <li><span>Navigation, etiketter og informationssider er fuldt oversat.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Anerkendelse og licens</h2>
+      <ul>
+        <li><span>Udtænkt og skrevet af <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, sproglærer.</span></li>
+        <li><span>Udgivet under licens <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Kildekode på <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="da" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

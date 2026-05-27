@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries } from '@/lib/entries';
+import { allLangHrefs } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -17,6 +18,8 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { title, category, subtitle, sections, ai_strategies, pending } = entry.data;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const slug = entry.id.replace(/\.md$/, '');
+const langHrefs = allLangHrefs(base, 'profiles', slug);
 
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
@@ -34,7 +37,7 @@ function entryHref(e: typeof allEntries[0]) {
   description={subtitle}
   ogTitle={`${title} · ${category} — Farol`}
 >
-  <Header />
+  <Header lang="pt" altHrefs={langHrefs} />
 
   <Breadcrumb crumbs={[
     { label: 'início', href: base },
@@ -109,7 +112,7 @@ function entryHref(e: typeof allEntries[0]) {
     ) : <span />}
   </nav>
 
-  <Footer />
+  <Footer lang="pt" />
 </Base>
 
 <style>

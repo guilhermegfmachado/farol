@@ -1,0 +1,74 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['nl'];
+---
+<Base title="Over — Farol" description="Wat Farol is, hoe het te gebruiken en wat te verwachten van de AI-secties.">
+  <Header lang="nl" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}nl/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Gids</span></div>
+      <h1 class="card-title">Hoe Farol te gebruiken</h1>
+      <p class="card-subtitle">Wat het is, wat het niet is en hoe u er in vijf minuten het meeste uit haalt.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Wat het is</h2>
+      <ul>
+        <li><span>Een snelle naslagwerk voor leerkrachten die werken met heterogene klassen. Elke kaart behandelt een leerprofiel en beantwoordt drie vragen: wat ziet u in de klas, wat kunt u vandaag doen en hoe kan AI helpen.</span></li>
+        <li><span>Het is ontworpen voor vijf minuten — voor een moeilijke les, voor een oudergesprek of wanneer een collega een tweede mening over een leerling nodig heeft.</span></li>
+        <li><span>Het is een open resource, bijgewerkt naarmate de kennis van de auteur evolueert. De huidige versie is <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Wat het niet is</h2>
+      <ul>
+        <li><span><strong>Het is geen</strong> diagnostisch instrument. Geen kaart vervangt een formele psychologische of pedagogische beoordeling.</span></li>
+        <li><span><strong>Het is geen</strong> klinisch handboek. De taal is bewust toegankelijk en gericht op de klas, niet op de praktijk.</span></li>
+        <li><span><strong>Het is niet</strong> definitief. De profielen zijn ingangspunten, geen labels. Een echte leerling past zelden in één categorie.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Hoe te navigeren</h2>
+      <ul>
+        <li><span>Kies op de startpagina het profiel dat het meest lijkt op de leerling die u in gedachten heeft. De korte beschrijvingen op de kaarten zijn bewust direct — kies op basis van wat u herkent, niet op de technische naam.</span></li>
+        <li><span>Binnen elke kaart zijn de secties geordend naar urgentie: <strong>wat zich manifesteert</strong> eerst, <strong>wat te doen</strong> daarna, <strong>wanneer door te verwijzen</strong> als laatste.</span></li>
+        <li><span>De sectie <em>Gesprek met ouders</em> is specifiek voor oudergesprekken — u hoeft het niet te lezen als dat niet de context is.</span></li>
+        <li><span>De <a href={`${base}tools/`}>instrumentencatalogus</a> is een aparte referentie — instrumentenkaarten met privacynotities en profielkoppeling.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Over de AI-secties</h2>
+      <ul>
+        <li><span>De secties <em>Waar AI past</em> zijn in deze versie opzettelijk leeg. De auteur volgt een specialisatiecursus in Split (juli 2026) voor hij specifieke instrumenten aanbeveelt.</span></li>
+        <li><span>De structuur is al aanwezig — elk instrument zal een gebruiksgeval, een promptsuggestie en een privacynota hebben. De inhoud komt in <strong>v0.2</strong>, gepland voor september 2026.</span></li>
+        <li><span>Dit is een bewuste keuze: eerlijk zwijgen boven ongeteste aanbevelingen.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Noot over de vertaling</h2>
+      <ul>
+        <li><span>De profielkaarten blijven in deze versie in het Portugees. De Nederlandse vertalingen van de kaartinhoud zijn in voorbereiding en zullen beschikbaar zijn in <strong>v0.2</strong>.</span></li>
+        <li><span>Navigatie, labels en informatiepagina's zijn volledig vertaald.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Credits en licentie</h2>
+      <ul>
+        <li><span>Bedacht en geschreven door <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, taaldocent.</span></li>
+        <li><span>Gepubliceerd onder licentie <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Broncode op <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="nl" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

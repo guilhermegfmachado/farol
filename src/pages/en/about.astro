@@ -1,0 +1,92 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const t = ui['en'];
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<Base
+  title="About — Farol"
+  description="What Farol is, how to use it, and what to expect from the AI sections."
+>
+  <Header lang="en" altHrefs={allAboutHrefs(base)} />
+
+  <Breadcrumb crumbs={[
+    { label: t.breadcrumb_home, href: `${base}en/` },
+    { label: t.breadcrumb_about },
+  ]} />
+
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta">
+        <span class="card-category">Guide</span>
+      </div>
+      <h1 class="card-title">How to use Farol</h1>
+      <p class="card-subtitle">What it is, what it isn't, and how to get the most out of it in five minutes.</p>
+    </header>
+
+    <section class="card-section">
+      <h2 class="card-section-label">What it is</h2>
+      <ul>
+        <li><span>A quick-reference manual for teachers working with mixed-needs classrooms. Each card covers a learner profile and answers three questions: what you're seeing in class, what you can do today, and where AI might help.</span></li>
+        <li><span>Designed to be useful in five minutes — before a difficult lesson, before a meeting with parents, or when a colleague asks for a second look at a student.</span></li>
+        <li><span>An open resource, updated as the author's knowledge evolves. The current version is <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">What it isn't</h2>
+      <ul>
+        <li><span><strong>Not</strong> a diagnostic tool. No card replaces a formal psychological or psycho-pedagogical assessment.</span></li>
+        <li><span><strong>Not</strong> a clinical manual. The language is deliberately accessible and classroom-oriented, not clinical.</span></li>
+        <li><span><strong>Not</strong> definitive. Profiles are entry points, not labels. A real student rarely fits a single category.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">How to navigate</h2>
+      <ul>
+        <li><span>On the home page, choose the profile that best matches the learner you have in mind. The brief descriptions on the cards are deliberately direct — choose by what you recognise, not by the technical name.</span></li>
+        <li><span>Within each card, sections are ordered by urgency: <strong>how it shows up</strong> first, <strong>what to do</strong> next, <strong>when to refer</strong> last.</span></li>
+        <li><span>The <em>Talking to parents</em> section is specific to parent meetings — you don't need to read it unless that's the context.</span></li>
+        <li><span>The <a href={`${base}tools/`}>tools catalogue</a> is a separate reference — tool sheets with privacy notes and profile mapping.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">About the AI sections</h2>
+      <ul>
+        <li><span>The <em>Where AI fits in</em> sections are intentionally blank in this version. The author is attending specialist training in Split (July 2026) before recommending specific tools.</span></li>
+        <li><span>The structure is already in place — each tool will have a use case, a prompt suggestion, and a privacy note. Content arrives in <strong>v0.2</strong>, expected September 2026.</span></li>
+        <li><span>This is a deliberate choice: honest silence over untested recommendations.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">A note on translation</h2>
+      <ul>
+        <li><span>The card content is in Portuguese. The English version preserves the original text while translating all navigation and UI elements. Full content translation is planned for v0.2.</span></li>
+        <li><span>The site is designed for teachers in Portuguese-speaking contexts; the English version is provided for international colleagues and conference use.</span></li>
+      </ul>
+    </section>
+
+    <section class="card-section">
+      <h2 class="card-section-label">Credits and licence</h2>
+      <ul>
+        <li><span>Conceived and written by <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>, languages teacher.</span></li>
+        <li><span>Published under <strong>CC BY-NC-SA 4.0</strong> — share and adapt with attribution, non-commercially, under the same licence.</span></li>
+        <li><span>Source code at <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+
+  <Footer lang="en" />
+</Base>
+
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

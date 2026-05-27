@@ -15,9 +15,10 @@ const {
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const pageLang = Astro.url.pathname.split('/').find(p => /^[a-z]{2}$/.test(p)) ?? 'pt';
 ---
 <!doctype html>
-<html lang="pt">
+<html lang={pageLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +37,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={ogTitle ?? title} />
     <meta property="og:description" content={description} />
-    <meta property="og:locale" content="pt_PT" />
+    <meta property="og:locale" content={pageLang} />
   </head>
   <body>
     <div class="container">
