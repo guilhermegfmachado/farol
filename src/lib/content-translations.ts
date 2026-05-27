@@ -1116,4 +1116,1527 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ]},
   },
+
+  de: {
+    tdah: {
+      sections: [
+        {
+          items: [
+            "Schwierigkeiten, die Aufmerksamkeit bei langen Aufgaben aufrechtzuerhalten; verliert sich bei Anweisungen mit mehreren Schritten.",
+            "Ständige Bewegung — bleibt nicht sitzen, beschäftigt die Hände, steht ohne ersichtlichen Grund auf.",
+            "Antwortet, bevor die Frage zu Ende gestellt ist; unterbricht Mitschüler und die Lehrkraft.",
+            "Vergisst Materialien, Fristen, vor wenigen Minuten mündlich gegebene Anweisungen.",
+            "Kann sich hyperfokussieren, wenn etwas ihn interessiert — das erweckt den (falschen) Eindruck, er \"könnte es, wenn er wollte\"."
+          ]
+        },
+        {
+          items: [
+            "<strong>Es ist keine</strong> Erziehungsmängel, Faulheit oder Charakterschwäche.",
+            "<strong>Es ist nicht</strong> immer sichtbare Hyperaktivität — es gibt die vorwiegend unaufmerksame ADHS (häufiger bei Mädchen, oft unterdiagnostiziert).",
+            "<strong>Es ist nicht</strong> durch \"mehr Anstrengung\" lösbar — das Problem ist neurologisch, nicht motivational."
+          ]
+        },
+        {
+          items: [
+            "Aufgaben in Teilschritte aufteilen: jeweils eine Anweisung, schriftlich an der Tafel, mit klar definierter Zeit.",
+            "Legitime Bewegung erlauben (Materialien austeilen, Tafel wischen, Botengänge zum schulpsychologischen Dienst).",
+            "Ablenkende Reize reduzieren (Sitzplatz weg vom Fenster, von der Tür, von der lautesten Gruppe).",
+            "Sofortige positive Verstärkung — der neurologische Belohnungskreislauf ist bei ADHS kürzer."
+          ]
+        },
+        {
+          items: [
+            "Mit dem beginnen, was der Schüler gut kann — das Gespräch darf nicht als Beschwerdeliste beginnen.",
+            "Beobachtetes Verhalten beschreiben, keine Diagnosen stellen: \"Wenn es mehr als zwei aufeinanderfolgende Schritte gibt, verliert er den Faden.\"",
+            "Auf die Reaktion \"zu Hause ist es nicht so\" vorbereitet sein — der Klassenkontext macht Symptome sichtbarer.",
+            "Wenn eine psychologische Abklärung empfohlen wird, diese als Ressource präsentieren, nicht als Strafe."
+          ]
+        },
+        {
+          items: [
+            "Anhaltende Disziplinschwierigkeiten trotz Anpassungen im Unterricht.",
+            "Anzeichen sozialer Ausgrenzung durch Mitschüler.",
+            "Hinweise auf Komorbiditäten (Angst, Depression, oppositionelles Trotzverhalten)."
+          ]
+        }
+      ]
+    },
+    dislexia: {
+      sections: [
+        {
+          items: [
+            "Liest langsam und stolpernd, auch bei Texten, die er mündlich versteht.",
+            "Verwechselt visuell ähnliche Buchstaben (b/d, p/q); vertauscht die Reihenfolge von Buchstaben innerhalb eines Wortes.",
+            "Anhaltende Rechtschreibfehler, die auf wiederholte Korrektur nicht ansprechen.",
+            "Vermeidet lautes Lesen; kann desinteressiert wirken, schützt sich dabei aber in Wirklichkeit.",
+            "Mündliches Verständnis ist dem schriftlichen weit überlegen."
+          ]
+        },
+        {
+          items: [
+            "<strong>Keine</strong> mangelnde Intelligenz — Legasthenie ist unabhängig vom IQ.",
+            "<strong>Nicht</strong> nur das \"Vertauschen von Buchstaben\" — es handelt sich um eine phonologische Verarbeitungsstörung.",
+            "<strong>Sie heilt nicht</strong> — sie wird ein Leben lang mit Kompensationsstrategien bewältigt."
+          ]
+        },
+        {
+          items: [
+            "Texte mit angepasster Typografie bereitstellen (OpenDyslexic oder ähnlich; vergrößerte Abstände).",
+            "Stilles Lesen vor jedem lauten Lesen erlauben — niemals unvermittelt aufrufen.",
+            "Inhalt und Rechtschreibung getrennt bewerten, wenn das Ziel die Bewertung von Wissen ist.",
+            "Mehrere Formate für dieselbe Information anbieten (Video, Audio, Schemata)."
+          ]
+        },
+        {
+          items: [
+            "Lesen und Intelligenz von Anfang an explizit trennen: \"Ihr Kind versteht sehr gut, wenn es zuhört.\"",
+            "Bedenken, dass ein Elternteil möglicherweise eine nicht diagnostizierte Legasthenie hat.",
+            "Arbeitsblätter mit vielen roten Fehlerkorrekturen nicht ohne Kontext zeigen.",
+            "Bei Anpassungen konkret bleiben: Texte als Audio, Lesen ohne Zeitdruck."
+          ]
+        },
+        {
+          items: [
+            "Verschlechterndes schulisches Selbstbild (\"Ich bin dumm\", \"Ich schaffe das nicht\").",
+            "Systematisches Vermeiden von Lese-/Schreibaufgaben bis zur Beeinträchtigung anderer Fächer.",
+            "Ausgeprägte Diskrepanz zwischen mündlicher und schriftlicher Leistung ohne formale Diagnose."
+          ]
+        }
+      ]
+    },
+    autismo: {
+      sections: [
+        {
+          items: [
+            "Schwierigkeiten mit unangekündigten Änderungen — Stundenplanänderung, anderer Raum, Vertretungslehrkraft.",
+            "Wörtliche Kommunikation — Nuancen, Ironie und idiomatische Ausdrücke werden nicht erfasst.",
+            "Sensorische Empfindlichkeit — Leuchtstofflicht, Hintergrundgeräusche, Etiketten in der Kleidung können unerträglich sein.",
+            "Fokussierte und tiefe Interessen zu bestimmten Themen.",
+            "Kann desinteressiert oder distanziert wirken, wenn er überwältigt ist — nicht desengagiert."
+          ]
+        },
+        {
+          items: [
+            "<strong>Es ist keine</strong> lineare Skala (\"mehr\" oder \"weniger\" autistisch) — es ist ein mehrdimensionales Profil.",
+            "<strong>Es ist kein</strong> Empathiemangel — häufig ist das Gegenteil der Fall, mit Schwierigkeiten beim Filtern.",
+            "<strong>Es ist kein</strong> Fehlverhalten, wenn eine Routine unterbrochen wird — es ist eine echte neurologische Reaktion."
+          ]
+        },
+        {
+          items: [
+            "Jede Routineänderung, auch scheinbar geringfügige, im Voraus ankündigen.",
+            "Implizite soziale Regeln zu expliziten Regeln machen (was man tut, was man nicht tut, wann).",
+            "Bei Bedarf sensorische Pausen in einem ruhigen Raum ermöglichen.",
+            "Das fokussierte Interesse als Einstiegspunkt für Unterrichtsinhalte nutzen."
+          ]
+        },
+        {
+          items: [
+            "Wenn eine Diagnose vorliegt, zuerst fragen, was die Familie weiß, was funktioniert.",
+            "Wenn keine Diagnose vorliegt, konkrete Situationen beschreiben, ohne beim ersten Gespräch das Wort \"Autismus\" zu verwenden.",
+            "Den Aufwand der Familie wertschätzen — Struktur und Vorhersehbarkeit zu Hause zu schaffen, ist anspruchsvoll.",
+            "Niemals mit \"anderen Schülern\" oder Geschwistern vergleichen — jedes Spektrumprofil ist unterschiedlich."
+          ]
+        },
+        {
+          items: [
+            "Häufige Zusammenbrüche (\"Meltdowns\") nach dem Schultag.",
+            "Anhaltende Schulverweigerung verbunden mit sensorischer Überlastung.",
+            "Fortschreitende soziale Isolation trotz Vermittlungsversuchen."
+          ]
+        }
+      ]
+    },
+    dispraxia: {
+      sections: [
+        {
+          items: [
+            "Handschrift ist schwierig, langsam und häufig unleserlich — nicht aus Nachlässigkeit, sondern aufgrund echter motorischer Schwierigkeiten.",
+            "Schwierigkeiten bei der räumlichen Organisation des Heftes, der Materialverwaltung und dem Befolgen von Schrittabfolgen.",
+            "Kann \"tollpatschig\" wirken — verschüttet Getränke, stößt gegen Möbel, hat Schwierigkeiten im Sport.",
+            "Unverhältnismäßige Müdigkeit nach Aufgaben, die anhaltende Feinmotorik erfordern.",
+            "Die kognitive Komponente ist in der Regel erhalten — häufige Frustration über die Lücke zwischen Wissen und Zeigen können."
+          ]
+        },
+        {
+          items: [
+            "<strong>Keine</strong> Faulheit oder mangelnder Einsatz.",
+            "<strong>Nicht</strong> nur schlechte Handschrift — betrifft die Planung und Sequenzierung von Aufgaben.",
+            "<strong>Nicht</strong> durch \"mehr Schreiben üben\" lösbar."
+          ]
+        },
+        {
+          items: [
+            "Verwendung von Tastatur/Tablet bei längeren schriftlichen Arbeiten erlauben.",
+            "Mechanisches Abschreiben von der Tafel reduzieren — ggf. Notizen bereitstellen.",
+            "Explizite Checklisten für Aufgaben mit mehreren Schritten bereitstellen.",
+            "Das Ergebnis nach dem Inhalt bewerten, nicht nach der äußeren Darstellung."
+          ]
+        },
+        {
+          items: [
+            "Erklären, was Dyspraxie ist, in einfacher Sprache — die meisten Erziehungsberechtigten haben den Begriff noch nie gehört.",
+            "Die unleserliche Handschrift ist der häufigste Reibungspunkt mit den Erziehungsberechtigten.",
+            "Praktische Hilfsmittel für zu Hause vorschlagen: Spracheingabe, Tastatur für längere Arbeiten.",
+            "Wenn in früheren Jahren von \"Faulheit\" gesprochen wurde, dies direkt ansprechen."
+          ]
+        },
+        {
+          items: [
+            "Vollständige Verweigerung schriftlicher Produktion.",
+            "Soziale Isolation in körperlichen Aktivitätskontexten.",
+            "Anzeichen von somatisierter Angst vor schriftlichen Prüfungen."
+          ]
+        }
+      ]
+    },
+    sobredotacao: {
+      sections: [
+        {
+          items: [
+            "Beendet Aufgaben in Minuten, während die Klasse die gesamte Stunde braucht.",
+            "Stellt Fragen, die über den Unterrichtsstoff hinausgehen — oder stellt aktiv das Gelehrte in Frage.",
+            "Kann desinteressiert, undiszipliniert oder apathisch wirken — häufig Zeichen von chronischer Unterforderung.",
+            "Ausgeprägte emotionale Sensibilität; kann ängstlich, perfektionistisch oder sich selbst gegenüber ungerecht anspruchsvoll sein.",
+            "Echtes Risiko von Minderleistung — lernt, die eigenen Fähigkeiten zu verbergen, um sozial nicht aufzufallen."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nicht</strong> gleichbedeutend mit gutem Verhalten oder guten Ergebnissen.",
+            "<strong>Nicht</strong> \"braucht keine Hilfe\" — braucht andere Herausforderungen, nicht weniger Aufmerksamkeit.",
+            "<strong>Nicht</strong> unvereinbar mit Neurodivergenz — zweifache Außergewöhnlichkeit (2e) existiert und ist häufig."
+          ]
+        },
+        {
+          items: [
+            "Immer Erweiterungsaufgaben bereithalten — nicht mehr vom Gleichen, sondern tiefere oder angewandte Inhalte.",
+            "Unabhängige Recherche zu Themen des Schülerinteresses im Rahmen des Lehrplans ermöglichen.",
+            "Nach Schwierigkeit bewerten, nicht nach Leichtigkeit — anspruchsvollere Arbeiten im Austausch gegen geringeres Volumen verlangen.",
+            "Die emotionale Sensibilität anerkennen und wertschätzen, ohne sie zu pathologisieren."
+          ]
+        },
+        {
+          items: [
+            "Den Stolz der Erziehungsberechtigten vorwegnehmen und umlenken: Gerade weil das Kind fähig ist, verursacht die Unterforderung Probleme.",
+            "Das Paradox erklären: Gute Ergebnisse bedeuten nicht, dass es ihm gut geht.",
+            "Wenn der Schüler seine Fähigkeiten versteckt, um sich sozial zu integrieren, dies behutsam ansprechen.",
+            "Erziehungsberechtigte vorschlagen, den Prozess statt das Ergebnis zu schätzen: Neugier, Tiefe, schwierige Fragen."
+          ]
+        },
+        {
+          items: [
+            "Anzeichen von Angst oder Depression, die mit extremem Perfektionismus zusammenhängen.",
+            "Ausgeprägte soziale Isolation durch das Gefühl, unter Gleichaltrigen \"anders\" zu sein.",
+            "Plötzlicher akademischer Leistungsabfall bei einem zuvor als fähig identifizierten Schüler."
+          ]
+        }
+      ]
+    },
+    plnm: {
+      sections: [
+        {
+          items: [
+            "Schüler, die Deutsch als Zweitsprache (DaZ) lernen, können im Unterricht langsamer erscheinen — dies spiegelt eine Sprachbarriere wider, keine kognitive Einschränkung.",
+            "Vorbereitungsklassen (Willkommensklassen) ermöglichen erste Deutschkenntnisse vor der Regelklassenintegration.",
+            "Sprachstandstests helfen, das aktuelle Niveau zu bestimmen und angemessene Fördermaßnahmen einzuleiten.",
+            "Eine Sprachbarriere begründet allein keinen sonderpädagogischen Förderbedarf.",
+            "Die DaZ-Lehrkraft ist die erste Ansprechperson für sprachliche Unterstützung und Differenzierungsstrategien."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nicht</strong> jede Sprachschwierigkeit ist ein Lernproblem — zunächst ist immer der DaZ-Kontext zu berücksichtigen.",
+            "<strong>Nicht</strong> davon ausgehen, dass mangelnde mündliche Beteiligung auf Desinteresse hindeutet.",
+            "<strong>Nicht</strong> Sprachförderung und sonderpädagogische Förderung verwechseln — sie haben unterschiedliche Rechtsgrundlagen."
+          ]
+        },
+        {
+          items: [
+            "Scaffolding-Techniken einsetzen: Wortschatzlisten, Bildunterstützung, vereinfachte Aufgabenstellungen.",
+            "Muttersprache als Ressource anerkennen, nicht als Hindernis betrachten.",
+            "Bei Bedarf den schulpsychologischen Dienst einbeziehen, um Sprachbarriere und Förderbedarf voneinander zu trennen.",
+            "Eltern-Gespräche ggf. mit Dolmetscher oder mehrsprachigen Schulbegleitern führen."
+          ]
+        },
+        {
+          items: [
+            "Den Erziehungsberechtigten erklären, dass Deutsch als Zweitsprache Zeit braucht — akademische Sprachkompetenz (CALP) entwickelt sich über 5–7 Jahre.",
+            "Unterschied zwischen Alltagssprache und Unterrichtssprache verdeutlichen.",
+            "Konkrete Unterstützungsangebote nennen: Willkommensklasse, DaZ-Förderung, Sprachkurs.",
+            "Kulturellen Hintergrund und Schulsystem des Herkunftslandes als Ressource einbeziehen."
+          ]
+        },
+        {
+          items: [
+            "Keine Fortschritte in der deutschen Sprache trotz Sprachfördermaßnahmen über 6–12 Monate.",
+            "Hinweise auf Lernschwierigkeiten, die unabhängig von der Sprachbarriere bestehen.",
+            "Anzeichen von emotionalem Rückzug oder Schulangst, die über Sprachunsicherheit hinausgehen."
+          ]
+        }
+      ]
+    },
+    etica: {
+      sections: [
+        {
+          items: [
+            "Daten von Minderjährigen unterliegen einem verstärkten Schutz (Art. 8 DSGVO). Die Einwilligung der Erziehungsberechtigten ist obligatorisch.",
+            "Überprüfen, wo das Tool Daten speichert — europäische oder nicht-europäische Server, anonymisiert oder nicht.",
+            "Niemals vollständige Namen, Adressen, Ausweisnummern oder klinische Diagnosen in generative KI-Tools eingeben.",
+            "Institutionelle Nutzung von persönlicher Nutzung der Lehrkraft unterscheiden (individuelle Verantwortung)."
+          ]
+        },
+        {
+          items: [
+            "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in anderen sprachlichen Kontexten schlechter abschneiden.",
+            "Automatische Empfehlungen können Geschlechter-, Ethnie- oder Klassenstereotype verstärken — kritisch überprüfen.",
+            "Modelle zur \"Vorhersage akademischer Risiken\" reproduzieren häufig bestehende Ungleichheiten."
+          ]
+        },
+        {
+          items: [
+            "Das Ziel ist die Stärkung der Autonomie des Schülers, nicht der Ersatz der kognitiven Arbeit, die seine Entwicklung fördert.",
+            "Zwischen <strong>Zugangs-Tool</strong> (Text-to-Speech bei Legasthenie) und <strong>Ersetzungs-Tool</strong> (KI schreibt den Aufsatz) unterscheiden.",
+            "Regelmäßig überprüfen: Entwickelt der Schüler Kompetenz oder Abhängigkeit vom Tool?"
+          ]
+        },
+        {
+          items: [
+            "<strong>1.</strong> Löst das Tool eine echte Barriere oder schafft es eine Abkürzung, die das Lernen auslässt?",
+            "<strong>2.</strong> Sind die eingegebenen Daten geschützt und liegt eine Einwilligung vor?",
+            "<strong>3.</strong> Wird das Ergebnis von einem Menschen überprüft, bevor es den Schüler erreicht?",
+            "<strong>4.</strong> Gibt es eine Nicht-KI-Alternative, die genauso gut funktioniert?",
+            "<strong>5.</strong> Wenn das Tool morgen nicht mehr existiert, ist der Schüler dann hilflos?"
+          ]
+        }
+      ]
+    },
+    oficina: {
+      sections: [
+        {
+          items: [
+            "Kolleginnen und Kollegen zur verantwortungsvollen Integration von KI im Unterricht befähigen, mit der Erstellung von Materialien, die an mehrere Lernprofile anpassbar sind.",
+            "Dies ist keine Präsentation — es ist eine Ko-Konstruktion. Jede teilnehmende Person geht mit mindestens einer Ressource, die sofort getestet werden kann."
+          ]
+        },
+        {
+          items: [
+            "<strong>0–10 Min:</strong> Einführung — das Problem der heterogenen Klasse und warum mehr vom Gleichen nicht funktioniert.",
+            "<strong>10–25 Min:</strong> Profilkarte — Vorstellung der sechs Farol-Karten mit echten (anonymisierten) Fallbeispielen.",
+            "<strong>25–45 Min:</strong> Praktische Demonstration — drei Tools, drei Anwendungsfälle, drei unterschiedliche Profile.",
+            "<strong>45–75 Min:</strong> Partnerarbeit — jedes Paar passt ein vorhandenes Material für ein bestimmtes Profil an.",
+            "<strong>75–85 Min:</strong> Schnelles Teilen — jedes Paar präsentiert sein Ergebnis in 1 Minute.",
+            "<strong>85–90 Min:</strong> Verpflichtungen — jede teilnehmende Person legt ein Material fest, das in der nächsten Woche getestet wird."
+          ]
+        },
+        {
+          items: [
+            "Internetzugang und institutionelle Konten bei den vorgestellten Tools.",
+            "Vorhandene Materialien jeder teilnehmenden Person (ein Arbeitsblatt, ein Test oder ein Unterrichtsplan).",
+            "Gedruckte Farol-Profilkarten zur Einsicht."
+          ]
+        },
+        {
+          items: [
+            "Jede teilnehmende Person erstellt während der Sitzung mindestens ein angepasstes Material.",
+            "Feedback-Sitzung nach 30 Tagen, bei der mindestens 60 % der Teilnehmenden eine effektive Umsetzung berichten.",
+            "Mindestens ein in der Sitzung erstelltes Material wird als gemeinsame Ressource des Fachbereichs übernommen."
+          ]
+        }
+      ]
+    },
+    legislacao: {
+      sections: [
+        {
+          items: [
+            "Kerngesetze: UN-BRK (UN-Behindertenrechtskonvention, ratifiziert 2009), KMK-Empfehlungen zur inklusiven Bildung (2011/2020), jedes Bundesland hat ein eigenes Schulgesetz (z. B. SchulG NRW §20, BayEUG Art. 41).",
+            "Die Schulgesetze der Länder regeln die konkrete Umsetzung inklusiver Bildung — der Handlungsspielraum variiert je nach Bundesland.",
+            "Inklusive Bildung ist ein Rechtsanspruch, der sich aus der UN-BRK ergibt; die Ausgestaltung liegt bei den Bundesländern."
+          ]
+        },
+        {
+          items: [
+            "Nachteilsausgleich: zeitliche, räumliche oder materielle Kompensationsmaßnahmen, die alle Lehrkräfte ohne formale Diagnose anwenden können.",
+            "Differenzierter Unterricht und Lehrplan-Flexibilität sind Bestandteil des regulären Unterrichts.",
+            "Förderplan: kann auf Grundlage pädagogischer Beobachtung ohne AO-SF-Verfahren erstellt werden."
+          ]
+        },
+        {
+          items: [
+            "Förderbedarf-Feststellung durch das AO-SF-Verfahren (Ausbildungsordnung sonderpädagogische Förderung), durchgeführt vom schulpsychologischen Dienst oder der Sonderpädagogin/dem Sonderpädagogen.",
+            "Förderplan als Grundlage individueller sonderpädagogischer Unterstützung.",
+            "Möglichkeit der Beschulung in der Regelschule mit sonderpädagogischer Unterstützung oder in der Förderschule — Eltern haben ein Wunsch- und Wahlrecht.",
+            "Der schulpsychologische Dienst (Schulpsychologin/Schulpsychologe) begleitet den Prozess und berät Eltern und Lehrkräfte."
+          ]
+        },
+        {
+          items: [
+            "Keine einheitliche Bundesregelung für Hochbegabung — jedes Bundesland regelt dies eigenständig.",
+            "DGhK (Deutsche Gesellschaft für das hochbegabte Kind) und Karg-Stiftung bieten Beratung und Ressourcen.",
+            "Überspringen von Klassen ist nach den meisten Schulgesetzen möglich.",
+            "Enrichment-Programme und begabungsfördernde Schulen (z. B. Begabtenförderung der Bundesländer) als ergänzende Maßnahmen."
+          ]
+        },
+        {
+          items: [
+            "DaZ (Deutsch als Zweitsprache): Vorbereitungsklassen (Willkommensklassen) für Schülerinnen und Schüler ohne Deutschkenntnisse.",
+            "Sprachstandstest zur Einschätzung des Niveaus und zur Zuweisung zu Sprachfördermaßnahmen.",
+            "Eine Sprachbarriere allein begründet keinen sonderpädagogischen Förderbedarf.",
+            "DaZ-Lehrkräfte sind für die sprachliche Unterstützung zuständig."
+          ]
+        },
+        {
+          items: [
+            "UN-BRK (ratifiziert 2009)",
+            "KMK-Empfehlungen zur inklusiven Bildung 2011 und 2020",
+            "Schulgesetze der Länder (§§ zu Inklusion, z. B. SchulG NRW §20, BayEUG Art. 41)",
+            "AO-SF (Ausbildungsordnung sonderpädagogische Förderung)",
+            "Förderplan, schulpsychologischer Dienst"
+          ]
+        }
+      ]
+    }
+  },
+  nl: {
+    tdah: {
+      sections: [
+        {
+          items: [
+            "Moeite om de aandacht bij langdurige taken te houden; raakt de draad kwijt bij instructies met meerdere stappen.",
+            "Voortdurende beweging — blijft niet zitten, beweegt de handen, staat op zonder duidelijke reden.",
+            "Antwoordt voordat de vraag is afgemaakt; onderbreekt klasgenoten en de docent.",
+            "Vergeet materialen, deadlines, mondeling gegeven instructies van een paar minuten geleden.",
+            "Kan hyperfocussen op iets wat hem interesseert, waardoor de (onjuiste) indruk ontstaat dat hij \"het kan als hij wil\"."
+          ]
+        },
+        {
+          items: [
+            "<strong>Het is geen</strong> slechte opvoeding, luiheid of karakterzwakte.",
+            "<strong>Het is niet</strong> altijd zichtbare hyperactiviteit — er bestaat ADHD met overwegend aandachtstekort (vaker bij meisjes, vaak onderdiagnostiseerd).",
+            "<strong>Het is niet</strong> op te lossen met \"meer je best doen\" — het probleem is neurologisch, niet motivationeel."
+          ]
+        },
+        {
+          items: [
+            "Instructies opsplitsen: één tegelijk, schriftelijk op het bord, met een duidelijk tijdskader.",
+            "Legitieme beweging toestaan (materialen uitdelen, het bord schoonmaken, boodschappen doen voor de zorgcoördinator).",
+            "Concurrerende prikkels verminderen (zitplaats weg van het raam, van de deur, van de drukste groep).",
+            "Directe positieve bekrachtiging — de neurologische beloningscyclus is korter bij ADHD."
+          ]
+        },
+        {
+          items: [
+            "Beginnen met wat de leerling goed doet — het gesprek mag niet beginnen als een lijst met klachten.",
+            "Waargenomen gedrag beschrijven, geen diagnoses stellen: \"Als er meer dan twee opeenvolgende stappen zijn, verliest hij de draad.\"",
+            "Voorbereid zijn op de reactie \"thuis is het niet zo\" — de klassenomgeving maakt symptomen zichtbaarder.",
+            "Als psychologische evaluatie wordt aangeraden, dit presenteren als een hulpbron, niet als straf."
+          ]
+        },
+        {
+          items: [
+            "Aanhoudende disciplineproblemen ondanks aanpassingen in de klas.",
+            "Tekenen van sociale uitsluiting door klasgenoten.",
+            "Signalen van comorbiditeit (angst, depressie, oppositioneel-opstandige gedragsstoornis)."
+          ]
+        }
+      ]
+    },
+    dislexia: {
+      sections: [
+        {
+          items: [
+            "Leest langzaam en struikelend, ook bij teksten die hij mondeling begrijpt.",
+            "Verwisselt visueel gelijkaardige letters (b/d, p/q); keert de volgorde van letters binnen een woord om.",
+            "Aanhoudende spelfouten die niet reageren op herhaalde correctie.",
+            "Vermijdt hardop lezen; kan lijken alsof hij niet wil meedoen, maar beschermt zichzelf in feite.",
+            "Mondeling begrip is veel beter dan schriftelijk begrip."
+          ]
+        },
+        {
+          items: [
+            "<strong>Geen</strong> gebrek aan intelligentie — dyslexie is onafhankelijk van het IQ.",
+            "<strong>Niet</strong> alleen \"letters omdraaien\" — het is een stoornis in de fonologische verwerking.",
+            "<strong>Het geneest niet</strong> — het wordt een leven lang beheerd met compensatiestrategieën."
+          ]
+        },
+        {
+          items: [
+            "Teksten met aangepast lettertype aanbieden (OpenDyslexic of vergelijkbaar; vergroot tekenafstand).",
+            "Stil lezen toestaan vóór elk hardop lezen — nooit onverwacht aanwijzen.",
+            "Inhoud en spelling apart beoordelen als het doel is kennis te evalueren.",
+            "Meerdere formaten voor dezelfde informatie aanbieden (video, audio, schema's)."
+          ]
+        },
+        {
+          items: [
+            "Lezen en intelligentie expliciet scheiden van het begin af: \"Uw kind begrijpt heel goed wanneer het luistert.\"",
+            "Rekening houden met de mogelijkheid dat een van de ouders/verzorgers niet-gediagnosticeerde dyslexie heeft.",
+            "Werkbladen met veel rode correcties niet zonder context tonen.",
+            "Concreet zijn in aanpassingen: teksten als audio, lezen zonder tijdsdruk."
+          ]
+        },
+        {
+          items: [
+            "Verslechterend academisch zelfbeeld (\"Ik ben dom\", \"Ik kan het niet\").",
+            "Systematisch vermijden van lees-/schrijftaken tot het punt dat andere vakken eronder lijden.",
+            "Duidelijk verschil tussen mondelinge en schriftelijke prestaties zonder formele diagnose."
+          ]
+        }
+      ]
+    },
+    autismo: {
+      sections: [
+        {
+          items: [
+            "Moeite met niet-aangekondigde veranderingen — roosterwijziging, andere klas, invalleraar.",
+            "Letterlijke communicatie — nuances, ironie en idiomatische uitdrukkingen gaan verloren.",
+            "Zintuiglijke gevoeligheid — tl-verlichting, achtergrondgeluiden, kledinglekens kunnen ondraaglijk zijn.",
+            "Gerichte en diepe interesses voor specifieke onderwerpen.",
+            "Kan desinteresseerd of afstandelijk lijken wanneer hij overprikkeld is — niet onbetrokken."
+          ]
+        },
+        {
+          items: [
+            "<strong>Het is geen</strong> lineaire schaal (\"meer\" of \"minder\" autistisch) — het is een multidimensionaal profiel.",
+            "<strong>Het is geen</strong> gebrek aan empathie — vaak is het omgekeerde het geval, met moeite om te filteren.",
+            "<strong>Het is geen</strong> slecht gedrag wanneer een routine wordt doorbroken — het is een echte neurologische reactie."
+          ]
+        },
+        {
+          items: [
+            "Elke routinewijziging van tevoren aankondigen, ook ogenschijnlijk triviale.",
+            "Impliciete sociale regels omzetten in expliciete regels (wat men doet, wat men niet doet, wanneer).",
+            "Indien nodig zintuiglijke pauzes in een rustige ruimte toestaan.",
+            "De gerichte interesse gebruiken als instappunt voor leerinhouden."
+          ]
+        },
+        {
+          items: [
+            "Als er al een diagnose is, eerst vragen wat de familie weet dat werkt.",
+            "Als er geen diagnose is, concrete situaties beschrijven zonder het woord \"autisme\" in een eerste gesprek te gebruiken.",
+            "De inspanning van de familie waarderen — structuur en voorspelbaarheid thuis creëren is veeleisend.",
+            "Nooit vergelijken met \"andere leerlingen\" of broers en zussen — elk spectrumprofiel is anders."
+          ]
+        },
+        {
+          items: [
+            "Frequente crises (\"meltdowns\") na een schooldag.",
+            "Aanhoudende schoolweigering gerelateerd aan zintuiglijke overbelasting.",
+            "Progressieve sociale isolatie ondanks bemiddelingspogingen."
+          ]
+        }
+      ]
+    },
+    dispraxia: {
+      sections: [
+        {
+          items: [
+            "Handschrift is moeilijk, traag en vaak onleesbaar — niet door onzorgvuldigheid, maar door echte motorische moeilijkheden.",
+            "Moeite met ruimtelijke organisatie van het schrift, materiaalbeheersing en het volgen van stappenreeksen.",
+            "Kan \"onhandig\" lijken — morst dranken, botst tegen meubilair, heeft moeite met sport.",
+            "Onevenredige vermoeidheid na taken die aanhoudende fijne motoriek vereisen.",
+            "De cognitieve component is over het algemeen intact — frequente frustratie over de kloof tussen weten en kunnen laten zien."
+          ]
+        },
+        {
+          items: [
+            "<strong>Geen</strong> luiheid of gebrek aan inzet.",
+            "<strong>Niet</strong> alleen slechte handschrift — het beïnvloedt de planning en volgordebepaling van taken.",
+            "<strong>Niet</strong> op te lossen met \"meer handschriftoefening\"."
+          ]
+        },
+        {
+          items: [
+            "Gebruik van toetsenbord/tablet bij langere schriftelijke opdrachten toestaan.",
+            "Mechanisch kopiëren van het bord verminderen — indien relevant aantekeningen verstrekken.",
+            "Expliciete checklists bieden voor taken met meerdere stappen.",
+            "Het product beoordelen op inhoud, niet op uiterlijke presentatie."
+          ]
+        },
+        {
+          items: [
+            "In eenvoudige taal uitleggen wat dyspraxie is — de meeste ouders/verzorgers hebben de term nog nooit gehoord.",
+            "Het onleesbare handschrift is het grootste frictiepunt met ouders/verzorgers.",
+            "Praktische hulpmiddelen voor thuis voorstellen: spraakdicteerfunctie, toetsenbord voor langere opdrachten.",
+            "Als in eerdere jaren van \"luiheid\" werd gesproken, dit direct aanspreken."
+          ]
+        },
+        {
+          items: [
+            "Volledig weigeren van schriftelijke productie.",
+            "Sociale isolatie in contexten van lichamelijke activiteit.",
+            "Tekenen van gesomatiseerde angst vóór schriftelijke toetsen."
+          ]
+        }
+      ]
+    },
+    sobredotacao: {
+      sections: [
+        {
+          items: [
+            "Rondt taken in minuten af terwijl de klas de hele les nodig heeft.",
+            "Stelt vragen buiten de stof — of daagt actief het onderwezene uit.",
+            "Kan desinteresseerd, ongedisciplineerd of apathisch lijken — vaak tekenen van chronische onderstimulering.",
+            "Uitgesproken emotionele gevoeligheid; kan angstig, perfectionistisch of onrechtvaardig veeleisend jegens zichzelf zijn.",
+            "Echt risico op onderprestatatie — leert zijn capaciteiten te verbergen om sociaal niet op te vallen."
+          ]
+        },
+        {
+          items: [
+            "<strong>Niet</strong> synoniem met goed gedrag of goede resultaten.",
+            "<strong>Niet</strong> \"heeft geen hulp nodig\" — heeft andere uitdagingen nodig, niet minder aandacht.",
+            "<strong>Niet</strong> onverenigbaar met neurodivergentie — dubbele exceptionelheid (2e) bestaat en komt vaak voor."
+          ]
+        },
+        {
+          items: [
+            "Altijd verdiepingstaken klaar hebben — niet meer van hetzelfde, maar diepgaandere of toegepaste inhoud.",
+            "Onafhankelijk onderzoek mogelijk maken over onderwerpen die de leerling interesseren binnen het programma.",
+            "Beoordelen naar moeilijkheidsgraad, niet naar gemak — veeleisendere opdrachten vragen in ruil voor minder volume.",
+            "De emotionele gevoeligheid erkennen en waarderen zonder te pathologiseren."
+          ]
+        },
+        {
+          items: [
+            "De trots van de ouders/verzorgers anticiperen en ombuigen: juist omdat het kind capabel is, veroorzaakt de onderstimulering problemen.",
+            "De paradox uitleggen: goede resultaten betekenen niet dat het goed met hem gaat.",
+            "Als de leerling zijn capaciteiten verbergt om sociaal te integreren, dit voorzichtig benoemen.",
+            "Ouders/verzorgers voorstellen het proces te waarderen in plaats van het resultaat: nieuwsgierigheid, diepgang, moeilijke vragen."
+          ]
+        },
+        {
+          items: [
+            "Tekenen van angst of depressie in verband met extreem perfectionisme.",
+            "Uitgesproken sociale isolatie doordat de leerling zich \"anders\" voelt dan leeftijdgenoten.",
+            "Plotselinge academische prestatievermindering bij een leerling die eerder als capabel was geïdentificeerd."
+          ]
+        }
+      ]
+    },
+    plnm: {
+      sections: [
+        {
+          items: [
+            "Leerlingen die Nederlands als Tweede Taal (NT2) leren, kunnen in de klas langzamer lijken — dit weerspiegelt een taalbarrière, geen cognitieve beperking.",
+            "De Internationale Schakelklas (ISK, voor 12+) en de schakelklas (basisonderwijs) bieden intensieve taalontwikkeling vóór instroom in het reguliere onderwijs.",
+            "Een taaltoets bij aankomst helpt het niveau te bepalen en passende ondersteuning te organiseren.",
+            "NT2-leerlingen worden geregistreerd bij DUO als nieuwkomer; school heeft zorgplicht.",
+            "De NT2-docent is de eerste aanspreekpersoon voor taalondersteuning en differentiatiestrategie."
+          ]
+        },
+        {
+          items: [
+            "<strong>Niet</strong> elke taalmoeilijkheid is een leerprobleem — de NT2-context moet altijd eerst worden meegewogen.",
+            "<strong>Niet</strong> aannemen dat gebrek aan mondelinge deelname wijst op desinteresse.",
+            "<strong>Niet</strong> taalondersteuning en speciale onderwijszorg verwarren — ze hebben verschillende juridische grondslagen."
+          ]
+        },
+        {
+          items: [
+            "Scaffoldingtechnieken inzetten: woordenlijsten, visuele ondersteuning, vereenvoudigde opdrachtformuleringen.",
+            "De moedertaal erkennen als hulpbron, niet als belemmering.",
+            "Bij twijfel de schoolpsycholoog of zorgcoördinator inschakelen om taalbarrière en eventuele ondersteuningsbehoefte van elkaar te onderscheiden.",
+            "Oudergesprekken indien nodig met tolk of meertalige schoolbegeleider voeren."
+          ]
+        },
+        {
+          items: [
+            "Ouders/verzorgers uitleggen dat NT2 tijd kost — academische taalvaardigheid (CALP) ontwikkelt zich over 5–7 jaar.",
+            "Verschil tussen alledaagse taal en schooltaal verduidelijken.",
+            "Concrete ondersteuningsopties benoemen: schakelklas, ISK, NT2-lessen, taalportfolio.",
+            "De culturele achtergrond en het schoolsysteem van het herkomstland als hulpbron meenemen."
+          ]
+        },
+        {
+          items: [
+            "Geen voortgang in het Nederlands ondanks taalondersteuning over 6–12 maanden.",
+            "Aanwijzingen voor leerproblemen die los staan van de taalbarrière.",
+            "Tekenen van emotioneel terugtrekken of schoolangst die verder gaan dan taalunsicherheid."
+          ]
+        }
+      ]
+    },
+    etica: {
+      sections: [
+        {
+          items: [
+            "Gegevens van minderjarigen zijn onderworpen aan versterkte bescherming (Art. 8 AVG). Toestemming van ouders/verzorgers is verplicht.",
+            "Controleren waar de tool gegevens opslaat — Europese of niet-Europese servers, geanonimiseerd of niet.",
+            "Nooit volledige namen, adressen, identificatienummers of klinische diagnosen invoeren in generatieve AI-tools.",
+            "Institutioneel gebruik onderscheiden van persoonlijk gebruik door de docent (individuele verantwoordelijkheid)."
+          ]
+        },
+        {
+          items: [
+            "Systemen die voornamelijk met Engelstalige data zijn getraind, kunnen in andere taalkundige contexten slechter presteren.",
+            "Automatische aanbevelingen kunnen stereotypen op basis van gender, etniciteit of klasse versterken — kritisch controleren.",
+            "Modellen voor \"voorspelling van academisch risico\" reproduceren vaak bestaande ongelijkheden."
+          ]
+        },
+        {
+          items: [
+            "Het doel is de autonomie van de leerling te vergroten, niet het cognitieve werk te vervangen dat zijn ontwikkeling bevordert.",
+            "Onderscheid maken tussen <strong>toegangstool</strong> (text-to-speech bij dyslexie) en <strong>vervangingstool</strong> (AI schrijft het opstel).",
+            "Regelmatig evalueren: ontwikkelt de leerling competentie of afhankelijkheid van de tool?"
+          ]
+        },
+        {
+          items: [
+            "<strong>1.</strong> Lost de tool een echte barrière op of creëert het een snelkoppeling die het leren omzeilt?",
+            "<strong>2.</strong> Zijn de ingevoerde gegevens beschermd en is er toestemming gegeven?",
+            "<strong>3.</strong> Wordt het resultaat door een mens gecontroleerd voordat het de leerling bereikt?",
+            "<strong>4.</strong> Is er een niet-AI-alternatief dat even goed werkt?",
+            "<strong>5.</strong> Als de tool morgen niet meer bestaat, is de leerling dan hulpeloos?"
+          ]
+        }
+      ]
+    },
+    oficina: {
+      sections: [
+        {
+          items: [
+            "Collega's toerusten voor de verantwoorde integratie van AI in het onderwijs, met de productie van materialen die aanpasbaar zijn aan meerdere leerprofielen.",
+            "Dit is geen presentatie — het is een co-constructie. Elke deelnemer vertrekt met ten minste één resource die meteen getest kan worden."
+          ]
+        },
+        {
+          items: [
+            "<strong>0–10 min:</strong> Kader — het probleem van de heterogene klas en waarom meer van hetzelfde niet werkt.",
+            "<strong>10–25 min:</strong> Profielkaart — presentatie van de zes Farol-kaarten met echte (geanonimiseerde) casussen.",
+            "<strong>25–45 min:</strong> Praktische demonstratie — drie tools, drie gebruikscases, drie verschillende profielen.",
+            "<strong>45–75 min:</strong> Samenwerking in tweetallen — elk tweetal past een bestaand materiaal aan voor een specifiek profiel.",
+            "<strong>75–85 min:</strong> Snel delen — elk tweetal presenteert zijn product in 1 minuut.",
+            "<strong>85–90 min:</strong> Verbintenissen — elke deelnemer bepaalt één materiaal om de volgende week te testen."
+          ]
+        },
+        {
+          items: [
+            "Internettoegang en institutionele accounts bij de gedemonstreerde tools.",
+            "Bestaande materialen van elke deelnemer (een werkblad, een toets of een lesplan).",
+            "Gedrukte Farol-profielkaarten ter raadpleging."
+          ]
+        },
+        {
+          items: [
+            "Elke deelnemer produceert tijdens de sessie ten minste één aangepast materiaal.",
+            "Feedbacksessie na 30 dagen waarbij ten minste 60% van de deelnemers effectieve implementatie rapporteert.",
+            "Ten minste één tijdens de sessie geproduceerd materiaal wordt overgenomen als gedeelde resource van de afdeling."
+          ]
+        }
+      ]
+    },
+    legislacao: {
+      sections: [
+        {
+          items: [
+            "Kernwet: Wet passend onderwijs (2014) — elke school is verplicht een passend onderwijsaanbod te doen voor elke leerling.",
+            "Samenwerkingsverbanden passend onderwijs coördineren de extra ondersteuning in de regio.",
+            "Zorgplicht: scholen zijn wettelijk verplicht een passende plek te vinden voor elke leerling, ook bij complexe ondersteuningsbehoeften."
+          ]
+        },
+        {
+          items: [
+            "Basisondersteuning: elke school biedt een basisniveau van ondersteuning zonder formele indicatie.",
+            "Differentiëren en groepsplan aanpassen zijn onderdeel van goed regulier onderwijs.",
+            "Geen formele indicatie nodig voor pedagogische differentiatie en aanpassingen in de klas."
+          ]
+        },
+        {
+          items: [
+            "Extra ondersteuning via het samenwerkingsverband: arrangement aanvragen bij de ondersteuningscoördinator.",
+            "Ontwikkelingsperspectief (OPP): verplicht bij leerlingen die de referentieniveaus niet zullen halen; opgesteld met ouders/verzorgers.",
+            "Toelaatbaarheidsverklaring (TLV): nodig voor plaatsing in het speciaal basisonderwijs (SBO) of speciaal onderwijs (SO).",
+            "De schoolpsycholoog of zorgcoördinator begeleidt het doorverwijzingsproces."
+          ]
+        },
+        {
+          items: [
+            "Geen aparte wet voor hoogbegaafdheid in Nederland.",
+            "Leonardo-scholen en plusklassen bieden verdieping en verrijking voor hoogbegaafde leerlingen.",
+            "SLO-richtlijnen en het Nationaal Expertisecentrum Onderwijs (NEO) bieden handvatten voor begaafdheidsondersteuning.",
+            "Compacten en verrijken zijn de gangbare aanpak; dubbelspringen is mogelijk met toestemming."
+          ]
+        },
+        {
+          items: [
+            "NT2 (Nederlands als Tweede Taal): Internationale Schakelklas (ISK) voor leerlingen van 12+ zonder Nederlands.",
+            "Schakelklas in het basisonderwijs voor intensieve taalverwerving.",
+            "Taaltoets bij aankomst voor plaatsing; DUO-registratie als nieuwkomer.",
+            "NT2-docent verantwoordelijk voor taalondersteuning; school heeft zorgplicht ook voor nieuwkomers."
+          ]
+        },
+        {
+          items: [
+            "Wet passend onderwijs 2014",
+            "Samenwerkingsverbanden passend onderwijs",
+            "Ontwikkelingsperspectief (OPP)",
+            "Zorgplicht school",
+            "Toelaatbaarheidsverklaring (TLV) voor SBO/SO-plaatsing"
+          ]
+        }
+      ]
+    }
+  },
+  pl: {
+    tdah: {
+      sections: [
+        {
+          items: [
+            "Trudności z utrzymaniem uwagi przy długich zadaniach; gubi się w instrukcjach składających się z wielu kroków.",
+            "Ciągły ruch — nie siedzi spokojnie, porusza rękami, wstaje bez wyraźnego powodu.",
+            "Odpowiada, zanim pytanie zostanie dokończone; przerywa kolegom i nauczycielowi.",
+            "Zapomina o materiałach, terminach, ustnie podanych przed chwilą instrukcjach.",
+            "Może hiperfokusować się na czymś, co go interesuje, co stwarza (błędne) wrażenie, że \"może, kiedy chce\"."
+          ]
+        },
+        {
+          items: [
+            "<strong>To nie jest</strong> złe wychowanie, lenistwo ani brak charakteru.",
+            "<strong>To nie jest</strong> zawsze widoczna nadpobudliwość — istnieje ADHD z dominującymi trudnościami uwagowymi (częstsze u dziewcząt, często niedodiagnozowane).",
+            "<strong>Nie rozwiąże się tego</strong> przez \"większe staranie\" — problem jest neurologiczny, nie motywacyjny."
+          ]
+        },
+        {
+          items: [
+            "Rozbijanie instrukcji na części: po jednej naraz, na piśmie na tablicy, z wyraźnie określonym czasem.",
+            "Zezwolenie na uzasadniony ruch (rozdawanie materiałów, ścieranie tablicy, bieganie z wiadomościami do pedagoga/psychologa szkolnego).",
+            "Ograniczenie bodźców rozpraszających (miejsce z dala od okna, drzwi, najgłośniejszej grupy).",
+            "Natychmiastowe pozytywne wzmocnienie — neurologiczny cykl nagrody jest krótszy w ADHD."
+          ]
+        },
+        {
+          items: [
+            "Zacząć od tego, co uczeń robi dobrze — rozmowa nie może zaczynać się od listy skarg.",
+            "Opisywać obserwowane zachowania, nie stawiać diagnoz: \"Gdy jest więcej niż dwa kolejne kroki, traci wątek.\"",
+            "Być przygotowanym na reakcję \"w domu tak nie jest\" — kontekst klasy sprawia, że objawy są bardziej widoczne.",
+            "Jeśli sugeruje się ocenę psychologiczną, przedstawić ją jako zasób, a nie karę."
+          ]
+        },
+        {
+          items: [
+            "Utrzymujące się problemy dyscyplinarne pomimo dostosowań w klasie.",
+            "Oznaki wykluczenia społecznego przez rówieśników.",
+            "Sygnały komorbiditetu (lęk, depresja, zaburzenie opozycyjno-buntownicze)."
+          ]
+        }
+      ]
+    },
+    dislexia: {
+      sections: [
+        {
+          items: [
+            "Czyta wolno i z potknięciami, nawet w tekstach, które rozumie w formie ustnej.",
+            "Myli litery podobne wizualnie (b/d, p/q); odwraca kolejność liter wewnątrz słowa.",
+            "Utrzymujące się błędy ortograficzne, które nie reagują na powtarzaną korektę.",
+            "Unika czytania na głos; może wydawać się niezainteresowany uczestnictwem, podczas gdy w rzeczywistości się chroni.",
+            "Rozumienie ze słuchu znacznie przewyższa rozumienie tekstu pisanego."
+          ]
+        },
+        {
+          items: [
+            "<strong>To nie jest</strong> brak inteligencji — dysleksja jest niezależna od IQ.",
+            "<strong>To nie jest</strong> tylko \"przestawianie liter\" — jest to zaburzenie przetwarzania fonologicznego.",
+            "<strong>Nie wylecza się</strong> — przez całe życie radzi sobie z nią przy pomocy strategii kompensacyjnych."
+          ]
+        },
+        {
+          items: [
+            "Udostępniać teksty z dostosowaną typografią (OpenDyslexic lub podobna; zwiększone odstępy).",
+            "Zezwalać na ciche czytanie przed jakimkolwiek czytaniem na głos — nigdy nie wywoływać niespodziewanie.",
+            "Oceniać treść oddzielnie od ortografii, gdy celem jest ocena wiedzy.",
+            "Oferować wiele formatów dla tej samej informacji (wideo, audio, schematy)."
+          ]
+        },
+        {
+          items: [
+            "Od początku wyraźnie oddzielić czytanie od inteligencji: \"Pana/Pani dziecko bardzo dobrze rozumie, gdy słucha.\"",
+            "Pamiętać, że jedno z rodziców/opiekunów może mieć niezdiagnozowaną dysleksję.",
+            "Nie pokazywać kart pracy z dużą ilością czerwonych poprawek bez kontekstu.",
+            "Być konkretnym w dostosowaniach: teksty w formie audio, czytanie bez presji czasowej."
+          ]
+        },
+        {
+          items: [
+            "Pogarszający się akademicki obraz siebie (\"Jestem głupi\", \"Nie daję rady\").",
+            "Systematyczne unikanie zadań związanych z czytaniem/pisaniem do tego stopnia, że wpływa to na inne przedmioty.",
+            "Wyraźna rozbieżność między wynikami ustnymi i pisemnymi bez formalnej diagnozy."
+          ]
+        }
+      ]
+    },
+    autismo: {
+      sections: [
+        {
+          items: [
+            "Trudności z niezapowiedzianymi zmianami — zmiana planu lekcji, sali, nauczyciel zastępczy.",
+            "Dosłowna komunikacja — gubi niuanse, ironię, idiomy.",
+            "Wrażliwość sensoryczna — światło fluorescencyjne, szum tła, metki w ubraniu mogą być nie do zniesienia.",
+            "Skupione i głębokie zainteresowania dotyczące określonych tematów.",
+            "Może wydawać się niezainteresowany lub zdystansowany, gdy jest przytłoczony — nie odłączony."
+          ]
+        },
+        {
+          items: [
+            "<strong>To nie jest</strong> liniowa skala (\"bardziej\" lub \"mniej\" autystyczny) — jest to wielowymiarowy profil.",
+            "<strong>To nie jest</strong> brak empatii — często jest odwrotnie, z trudnością w filtrowaniu.",
+            "<strong>To nie jest</strong> złe zachowanie, gdy rutyna zostaje przerwana — jest to prawdziwa reakcja neurologiczna."
+          ]
+        },
+        {
+          items: [
+            "Z wyprzedzeniem informować o każdej zmianie rutyny, nawet pozornie błahej.",
+            "Przekształcać niejawne reguły społeczne w reguły jawne (co się robi, czego nie robi, kiedy).",
+            "W razie potrzeby umożliwić przerwy sensoryczne w cichym miejscu.",
+            "Wykorzystywać skupione zainteresowanie jako punkt wejścia do treści programowych."
+          ]
+        },
+        {
+          items: [
+            "Jeśli diagnoza już istnieje, najpierw zapytać, co rodzina wie, że działa.",
+            "Jeśli nie ma diagnozy, opisywać konkretne sytuacje, nie używając słowa \"autyzm\" na pierwszym spotkaniu.",
+            "Doceniać wysiłek rodziny — tworzenie struktury i przewidywalności w domu jest wymagające.",
+            "Nigdy nie porównywać z \"innymi uczniami\" ani rodzeństwem — każdy profil spektrum jest inny."
+          ]
+        },
+        {
+          items: [
+            "Częste kryzysy (\"meltdowny\") po dniu szkolnym.",
+            "Utrzymująca się odmowa chodzenia do szkoły związana z przeciążeniem sensorycznym.",
+            "Postępująca izolacja społeczna pomimo prób mediacji."
+          ]
+        }
+      ]
+    },
+    dispraxia: {
+      sections: [
+        {
+          items: [
+            "Pismo odręczne jest trudne, wolne i często nieczytelne — nie z powodu niedbałości, lecz z powodu rzeczywistych trudności motorycznych.",
+            "Trudności z przestrzenną organizacją zeszytu, zarządzaniem materiałami, sekwencjami kroków.",
+            "Może sprawiać wrażenie \"niezdarnego\" — przelewa napoje, wchodzi w meble, ma trudności w sporcie.",
+            "Nieproporcjonalne zmęczenie po zadaniach wymagających długotrwałej motoryki precyzyjnej.",
+            "Komponent poznawczy jest zazwyczaj zachowany — częsta frustracja między wiedzą a możliwością jej pokazania."
+          ]
+        },
+        {
+          items: [
+            "<strong>To nie jest</strong> lenistwo ani brak zaangażowania.",
+            "<strong>To nie jest</strong> tylko złe pismo — dotyczy planowania i sekwencjonowania zadań.",
+            "<strong>Nie rozwiąże się tego</strong> przez \"więcej ćwiczeń w pisaniu\"."
+          ]
+        },
+        {
+          items: [
+            "Zezwalać na używanie klawiatury/tabletu przy dłuższych pracach pisemnych.",
+            "Ograniczać mechaniczne przepisywanie z tablicy — w razie potrzeby dostarczać notatki.",
+            "Dostarczać wyraźne listy kontrolne do zadań składających się z wielu kroków.",
+            "Oceniać produkt według treści, a nie wyglądu zewnętrznego."
+          ]
+        },
+        {
+          items: [
+            "Wyjaśnić, czym jest dyspraksja, prostym językiem — większość rodziców/opiekunów nigdy nie słyszała tego terminu.",
+            "Nieczytelne pismo jest największym źródłem tarcia z rodzicami/opiekunami.",
+            "Proponować praktyczne narzędzia do użytku w domu: dyktowanie głosowe, klawiatura do dłuższych prac.",
+            "Jeśli w poprzednich latach mówiono o \"lenistwie\", odnieść się do tego bezpośrednio."
+          ]
+        },
+        {
+          items: [
+            "Całkowita odmowa pisemnej produkcji.",
+            "Izolacja społeczna w kontekstach aktywności fizycznej.",
+            "Oznaki somatyzowanego lęku przed pisemnymi sprawdzianami."
+          ]
+        }
+      ]
+    },
+    sobredotacao: {
+      sections: [
+        {
+          items: [
+            "Kończy zadania w ciągu kilku minut, podczas gdy klasa potrzebuje całej lekcji.",
+            "Zadaje pytania wykraczające poza zakres materiału — lub aktywnie kwestionuje to, co jest nauczane.",
+            "Może sprawiać wrażenie niezainteresowanego, zdyscyplinowanego lub apatycznego — często są to oznaki przewlekłej nudy.",
+            "Wyraźna wrażliwość emocjonalna; może być lękliwy, perfekcjonistyczny lub niesprawiedliwie wymagający wobec siebie.",
+            "Realne ryzyko słabszych wyników — uczy się ukrywać swoje zdolności, by nie wyróżniać się społecznie."
+          ]
+        },
+        {
+          items: [
+            "<strong>To nie jest</strong> synonim dobrego zachowania ani dobrych wyników.",
+            "<strong>To nie jest</strong> \"nie potrzebuje pomocy\" — potrzebuje innych wyzwań, a nie mniej uwagi.",
+            "<strong>To nie jest</strong> niezgodne z neuroróżnorodnością — podwójna wyjątkowość (2e) istnieje i jest częsta."
+          ]
+        },
+        {
+          items: [
+            "Zawsze mieć przygotowane zadania rozszerzające — nie więcej tego samego, lecz głębsze lub zastosowane treści.",
+            "Umożliwiać samodzielne badanie tematów interesujących ucznia w ramach programu.",
+            "Oceniać według poziomu trudności, a nie łatwości — wymagać bardziej wymagających prac w zamian za mniejszą objętość.",
+            "Uznawać i doceniać wrażliwość emocjonalną bez jej patologizowania."
+          ]
+        },
+        {
+          items: [
+            "Antycypować dumę rodziców/opiekunów i skierować ją we właściwym kierunku: właśnie dlatego, że dziecko jest zdolne, nuda stwarza problemy.",
+            "Wyjaśnić paradoks: dobre wyniki nie oznaczają, że dziecku jest dobrze.",
+            "Jeśli uczeń ukrywa swoje zdolności, by się zintegrować społecznie, mówić o tym z wyczuciem.",
+            "Zaproponować rodzicom/opiekunom, by cenili proces zamiast wyniku: ciekawość, głębię, trudne pytania."
+          ]
+        },
+        {
+          items: [
+            "Oznaki lęku lub depresji związane z ekstremalnym perfekcjonizmem.",
+            "Wyraźna izolacja społeczna wynikająca z poczucia bycia \"innym\" wśród rówieśników.",
+            "Nagłe pogorszenie wyników akademickich u ucznia wcześniej zidentyfikowanego jako zdolny."
+          ]
+        }
+      ]
+    },
+    plnm: {
+      sections: [
+        {
+          items: [
+            "Uczniowie uczący się języka polskiego jako drugiego mogą w klasie wydawać się wolniejsi — odzwierciedla to barierę językową, a nie ograniczenie poznawcze.",
+            "Klasy przygotowawcze umożliwiają opanowanie podstaw języka polskiego przed integracją z klasą regularną.",
+            "Dodatkowe zajęcia z języka polskiego są przewidziane w rozporządzeniu MEN 2017 o kształceniu cudzoziemców.",
+            "Bariera językowa sama w sobie nie uzasadnia orzeczenia o potrzebie kształcenia specjalnego.",
+            "Nauczyciel wspomagający lub asystent kulturowy to pierwsza osoba kontaktowa w zakresie wsparcia językowego."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nie</strong> każda trudność językowa jest problemem edukacyjnym — należy zawsze uwzględniać kontekst nauki polskiego jako drugiego języka.",
+            "<strong>Nie</strong> zakładać, że brak aktywności ustnej wskazuje na brak zainteresowania.",
+            "<strong>Nie</strong> mylić wsparcia językowego z kształceniem specjalnym — mają one inne podstawy prawne."
+          ]
+        },
+        {
+          items: [
+            "Stosować techniki rusztowania: listy słownikowe, wsparcie wizualne, uproszczone polecenia.",
+            "Traktować język ojczysty jako zasób, a nie przeszkodę.",
+            "W razie wątpliwości włączyć pedagoga lub psychologa szkolnego, by odróżnić barierę językową od ewentualnych specjalnych potrzeb edukacyjnych.",
+            "Rozmowy z rodzicami/opiekunami prowadzić w razie potrzeby z tłumaczem lub asystentem kulturowym."
+          ]
+        },
+        {
+          items: [
+            "Wyjaśnić rodzicom/opiekunom, że nauka języka polskiego wymaga czasu — akademicka kompetencja językowa (CALP) rozwija się przez 5–7 lat.",
+            "Wyjaśnić różnicę między językiem codziennym a językiem szkolnym.",
+            "Wskazać konkretne formy wsparcia: klasa przygotowawcza, dodatkowe lekcje polskiego, wsparcie asystenta kulturowego.",
+            "Uwzględnić kontekst kulturowy i system szkolny kraju pochodzenia jako zasób."
+          ]
+        },
+        {
+          items: [
+            "Brak postępów w języku polskim mimo wsparcia językowego przez 6–12 miesięcy.",
+            "Wskazania na trudności edukacyjne niezależne od bariery językowej.",
+            "Oznaki emocjonalnego wycofania lub lęku szkolnego wykraczające poza niepewność językową."
+          ]
+        }
+      ]
+    },
+    etica: {
+      sections: [
+        {
+          items: [
+            "Dane nieletnich podlegają wzmocnionej ochronie (art. 8 RODO). Zgoda rodziców/opiekunów jest obowiązkowa.",
+            "Sprawdzić, gdzie narzędzie przechowuje dane — serwery europejskie lub pozaeuropejskie, zanonimizowane lub nie.",
+            "Nigdy nie wprowadzać pełnych imion i nazwisk, adresów, numerów identyfikacyjnych ani klinicznych diagnoz do narzędzi generatywnej AI.",
+            "Odróżniać użycie instytucjonalne od osobistego użytku nauczyciela (indywidualna odpowiedzialność)."
+          ]
+        },
+        {
+          items: [
+            "Systemy wytrenowane głównie na danych anglojęzycznych mogą działać gorzej w innych kontekstach językowych.",
+            "Automatyczne rekomendacje mogą wzmacniać stereotypy dotyczące płci, etniczności lub klasy — weryfikować krytycznie.",
+            "Modele \"przewidywania ryzyka akademickiego\" często reprodukują istniejące nierówności."
+          ]
+        },
+        {
+          items: [
+            "Celem jest zwiększenie autonomii ucznia, a nie zastępowanie pracy poznawczej, która go rozwija.",
+            "Rozróżniać <strong>narzędzie dostępu</strong> (zamiana tekstu na mowę przy dysleksji) od <strong>narzędzia zastępczego</strong> (AI pisze wypracowanie).",
+            "Regularnie oceniać: czy uczeń rozwija kompetencję, czy uzależnienie od narzędzia?"
+          ]
+        },
+        {
+          items: [
+            "<strong>1.</strong> Czy narzędzie rozwiązuje prawdziwą barierę, czy tworzy skrót omijający uczenie się?",
+            "<strong>2.</strong> Czy wprowadzone dane są chronione i czy istnieje zgoda?",
+            "<strong>3.</strong> Czy wynik zostanie sprawdzony przez człowieka przed dotarciem do ucznia?",
+            "<strong>4.</strong> Czy istnieje alternatywa bez AI, która działa równie dobrze?",
+            "<strong>5.</strong> Jeśli narzędzie jutro przestanie istnieć, czy uczeń będzie bezradny?"
+          ]
+        }
+      ]
+    },
+    oficina: {
+      sections: [
+        {
+          items: [
+            "Wyposażenie kolegów w umiejętności odpowiedzialnej integracji AI w nauczaniu, z tworzeniem materiałów dostosowanych do wielu profili uczenia się.",
+            "To nie jest prezentacja — to ko-konstrukcja. Każdy uczestnik wychodzi z co najmniej jednym zasobem gotowym do przetestowania."
+          ]
+        },
+        {
+          items: [
+            "<strong>0–10 min:</strong> Wprowadzenie — problem heterogenicznej klasy i dlaczego więcej tego samego nie działa.",
+            "<strong>10–25 min:</strong> Mapa profili — prezentacja sześciu kart Farol z prawdziwymi (zanonimizowanymi) przypadkami.",
+            "<strong>25–45 min:</strong> Demonstracja praktyczna — trzy narzędzia, trzy przypadki użycia, trzy różne profile.",
+            "<strong>45–75 min:</strong> Praca w parach — każda para dostosowuje istniejący materiał do określonego profilu.",
+            "<strong>75–85 min:</strong> Szybkie dzielenie się — każda para prezentuje swój produkt w 1 minutę.",
+            "<strong>85–90 min:</strong> Zobowiązania — każdy uczestnik wyznacza jeden materiał do przetestowania w następnym tygodniu."
+          ]
+        },
+        {
+          items: [
+            "Dostęp do internetu i konta instytucjonalne w demonstrowanych narzędziach.",
+            "Istniejące materiały każdego uczestnika (karta pracy, sprawdzian lub plan lekcji).",
+            "Wydrukowane karty profili Farol do wglądu."
+          ]
+        },
+        {
+          items: [
+            "Każdy uczestnik tworzy podczas sesji co najmniej jeden dostosowany materiał.",
+            "Sesja informacji zwrotnej po 30 dniach, w której co najmniej 60% uczestników zgłasza skuteczne wdrożenie.",
+            "Co najmniej jeden materiał wyprodukowany podczas sesji zostaje przyjęty jako wspólny zasób departamentu."
+          ]
+        }
+      ]
+    },
+    legislacao: {
+      sections: [
+        {
+          items: [
+            "Podstawa prawna: Ustawa Prawo Oświatowe z 2016 r. (Dz.U. 2016 poz. 59) oraz Rozporządzenie MEN w sprawie warunków organizowania kształcenia specjalnego (2017).",
+            "Orzeczenie o potrzebie kształcenia specjalnego wydaje poradnia psychologiczno-pedagogiczna (PPP) — jest niezbędne do sformalizowanego wsparcia specjalnego.",
+            "Konstytucja RP i ratyfikowana Konwencja ONZ o prawach osób z niepełnosprawnościami stanowią ramy prawa do edukacji włączającej."
+          ]
+        },
+        {
+          items: [
+            "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia — odpowiedzialność każdego nauczyciela.",
+            "Metody aktywizujące i zróżnicowane podejście dydaktyczne są elementem dobrego nauczania.",
+            "Wsparcie nauczyciela wspomagającego dostępne bez orzeczenia, na podstawie opinii PPP."
+          ]
+        },
+        {
+          items: [
+            "Poradnia psychologiczno-pedagogiczna (PPP): wydaje opinie i orzeczenia, prowadzi diagnozy.",
+            "Orzeczenie o kształceniu specjalnym: podstawa do opracowania IPET (Indywidualnego Programu Edukacyjno-Terapeutycznego).",
+            "IPET opracowywany przez zespół nauczycieli i specjalistów we współpracy z rodzicami/opiekunami.",
+            "Wielospecjalistyczna ocena poziomu funkcjonowania ucznia przeprowadzana co najmniej dwa razy w roku."
+          ]
+        },
+        {
+          items: [
+            "Brak szczegółowej ustawy regulującej kształcenie uczniów zdolnych — zagadnienie ujęte w Krajowym Programie Wspierania Uczniów Zdolnych MEN.",
+            "Klasy autorskie i indywidualny tok nauki dostępne dla uczniów wybitnie zdolnych.",
+            "Olimpiady przedmiotowe jako forma stymulacji i uznania zdolności uczniów.",
+            "Możliwość wcześniejszego ukończenia szkoły lub przyspieszenia nauki za zgodą dyrektora i rodziców/opiekunów."
+          ]
+        },
+        {
+          items: [
+            "Uczniowie cudzoziemcy nieznający języka polskiego: klasy przygotowawcze zgodnie z rozporządzeniem MEN 2017.",
+            "Dodatkowe zajęcia z języka polskiego jako obcego organizowane przez szkołę.",
+            "Wsparcie asystenta kulturowego dla uczniów z trudnościami adaptacyjnymi.",
+            "Bariera językowa nie uzasadnia sama w sobie orzeczenia o kształceniu specjalnym."
+          ]
+        },
+        {
+          items: [
+            "Ustawa Prawo Oświatowe 2016 (Dz.U. 2016 poz. 59)",
+            "Rozporządzenie MEN o kształceniu specjalnym 2017",
+            "Poradnia psychologiczno-pedagogiczna (PPP)",
+            "IPET (Indywidualny Program Edukacyjno-Terapeutyczny)",
+            "Opinia PPP, orzeczenie o potrzebie kształcenia specjalnego"
+          ]
+        }
+      ]
+    }
+  },
+  ro: {
+    tdah: {
+      sections: [
+        {
+          items: [
+            "Dificultăți în menținerea atenției la sarcini lungi; se pierde în instrucțiuni cu mai mulți pași.",
+            "Mișcare constantă — nu stă așezat, mișcă mâinile, se ridică fără un motiv aparent.",
+            "Răspunde înainte ca întrebarea să fie terminată; întrerupe colegii și profesorul.",
+            "Uită materiale, termene limită, instrucțiuni date oral cu câteva minute în urmă.",
+            "Poate hiperfocaliza pe ceva care îl interesează, creând impresia (greșită) că \"poate când vrea\"."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu este</strong> lipsă de educație, lene sau lipsă de caracter.",
+            "<strong>Nu este</strong> întotdeauna hiperactivitate vizibilă — există ADHD predominant neatent (mai frecvent la fete, adesea subdiagnosticat).",
+            "<strong>Nu se rezolvă</strong> prin \"mai mult efort\" — problema este neurologică, nu motivațională."
+          ]
+        },
+        {
+          items: [
+            "Instrucțiuni fragmentate: câte una pe rând, în scris pe tablă, cu timp definit.",
+            "Permiterea mișcării legitime (distribuirea materialelor, ștergerea tablei, comisioane la consilierul școlar/CJRAE).",
+            "Reducerea stimulilor concurenți (loc departe de fereastră, de ușă, de grupul cel mai zgomotos).",
+            "Întărire pozitivă imediată — ciclul de recompensă neurologică este mai scurt în ADHD."
+          ]
+        },
+        {
+          items: [
+            "Să înceapă cu ceea ce elevul face bine — întâlnirea nu poate începe ca o listă de plângeri.",
+            "Să descrie comportamentele observate, nu diagnostice: \"Când există mai mult de doi pași consecutivi, pierde firul.\"",
+            "Să anticipeze reacția \"acasă nu este așa\" — contextul clasei face simptomele mai vizibile.",
+            "Dacă sugerează o evaluare psihologică, să o prezinte ca resursă, nu ca pedeapsă."
+          ]
+        },
+        {
+          items: [
+            "Probleme disciplinare persistente în ciuda adaptărilor în clasă.",
+            "Semne de excludere socială din partea colegilor.",
+            "Semnale de comorbiditate (anxietate, depresie, tulburare de opoziție)."
+          ]
+        }
+      ]
+    },
+    dislexia: {
+      sections: [
+        {
+          items: [
+            "Citește lent și cu dificultăți, chiar și texte pe care le înțelege oral.",
+            "Confundă litere vizual similare (b/d, p/q); inversează ordinea literelor în interiorul cuvântului.",
+            "Greșeli ortografice persistente care nu răspund la corectarea repetată.",
+            "Evită cititul cu voce tare; poate părea că nu vrea să participe, în timp ce de fapt se protejează.",
+            "Înțelegerea orală este mult superioară înțelegerii scrise."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu este</strong> lipsă de inteligență — dislexia este independentă de IQ.",
+            "<strong>Nu este</strong> doar \"inversarea literelor\" — este o tulburare a procesării fonologice.",
+            "<strong>Nu se vindecă</strong> — se gestionează toată viața cu strategii compensatorii."
+          ]
+        },
+        {
+          items: [
+            "Furnizarea de texte cu tipografie adaptată (OpenDyslexic sau similar; spațiere mărită).",
+            "Permiterea citirii silențioase înainte de orice citire cu voce tare — niciodată chemat prin surprindere.",
+            "Evaluarea conținutului separat de ortografie când obiectivul este evaluarea cunoștințelor.",
+            "Oferirea de formate multiple pentru aceeași informație (video, audio, scheme)."
+          ]
+        },
+        {
+          items: [
+            "Separarea explicită a cititului de inteligență de la început: \"Copilul dumneavoastră înțelege foarte bine când ascultă.\"",
+            "A lua în considerare că unul dintre părinți/tutori poate avea dislexie nediagnosticată.",
+            "A evita arătarea fișelor cu multe greșeli marcate în roșu fără context.",
+            "A fi concret în adaptări: texte audio, citit fără presiune de timp."
+          ]
+        },
+        {
+          items: [
+            "Autoconceptul academic în deteriorare (\"Sunt prost\", \"Nu pot\").",
+            "Evitarea sistematică a sarcinilor de citit/scris până la compromiterea altor discipline.",
+            "Discrepanță marcată între performanța orală și cea scrisă fără diagnostic formal."
+          ]
+        }
+      ]
+    },
+    autismo: {
+      sections: [
+        {
+          items: [
+            "Dificultăți cu schimbările neanunțate — modificarea orarului, a sălii, profesor suplinitor.",
+            "Comunicare literală — pierde nuanțele, ironia, expresiile idiomatice.",
+            "Sensibilitate senzorială — lumina fluorescentă, zgomotul de fond, etichetele de pe haine pot fi intolerabile.",
+            "Interese focalizate și profunde despre teme specifice.",
+            "Poate părea dezinteresat sau distant când este supraîncărcat — nu detașat."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu este</strong> o scală liniară (\"mai mult\" sau \"mai puțin\" autist) — este un profil multidimensional.",
+            "<strong>Nu este</strong> lipsă de empatie — frecvent este opusul, cu dificultăți în filtrare.",
+            "<strong>Nu este</strong> comportament rău când o rutină este întreruptă — este un răspuns neurologic real."
+          ]
+        },
+        {
+          items: [
+            "Anunțarea în avans a oricărei schimbări de rutină, chiar și aparent banale.",
+            "Transformarea regulilor sociale implicite în reguli explicite (ce se face, ce nu se face, când).",
+            "Permiterea pauzelor senzoriale într-un spațiu liniștit când este necesar.",
+            "Valorificarea interesului focalizat ca punct de intrare pentru conținuturile curriculare."
+          ]
+        },
+        {
+          items: [
+            "Dacă diagnosticul există deja, întrebați mai întâi ce știe familia că funcționează.",
+            "Dacă nu există diagnostic, descrieți situații concrete fără a folosi cuvântul \"autism\" la prima întâlnire.",
+            "Validați efortul familiei — crearea structurii și predictibilității acasă este solicitantă.",
+            "Nu comparați niciodată cu \"alți elevi\" sau frați — fiecare profil al spectrului este diferit."
+          ]
+        },
+        {
+          items: [
+            "Crize (\"meltdown-uri\") frecvente după ziua de școală.",
+            "Refuz școlar persistent asociat cu supraîncărcarea senzorială.",
+            "Izolare socială progresivă în ciuda tentativelor de mediere."
+          ]
+        }
+      ]
+    },
+    dispraxia: {
+      sections: [
+        {
+          items: [
+            "Scriere de mână dificilă, lentă, frecvent ilizibilă — nu din neglijență, ci din cauza unor dificultăți motorii reale.",
+            "Dificultăți în organizarea spațială a caietului, gestionarea materialelor, secvențele de pași.",
+            "Poate părea \"neîndemânatic\" — varsă pahare, se lovește de mobilă, are dificultăți la sport.",
+            "Oboseală disproporționată după sarcini care necesită motricitate fină susținută.",
+            "Componenta cognitivă este în general păstrată — frustrare frecventă între a ști și a putea arăta."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu este</strong> lene sau lipsă de aplicare.",
+            "<strong>Nu este</strong> doar scris de mână prost — afectează planificarea și secvențierea sarcinilor.",
+            "<strong>Nu se rezolvă</strong> prin \"mai mult antrenament în scriere\"."
+          ]
+        },
+        {
+          items: [
+            "Permiterea utilizării tastaturii/tabletei la lucrări scrise extinse.",
+            "Reducerea copierii mecanice de pe tablă — furnizarea de notițe când este relevant.",
+            "Furnizarea de liste de verificare explicite pentru sarcini cu mai mulți pași.",
+            "Evaluarea produsului după conținut, nu după prezentarea fizică."
+          ]
+        },
+        {
+          items: [
+            "Explicarea în limbaj simplu ce este dispraxia — majoritatea părinților/tutorilor nu au auzit niciodată termenul.",
+            "Scrierea ilizibilă este punctul de cea mai mare fricțiune cu părinții/tutorii.",
+            "Sugerearea unor instrumente practice pentru acasă: dictare vocală, tastatură pentru lucrări extinse.",
+            "Dacă există un istoric de \"este leneș/leneșă\" în anii precedenți, abordați acest lucru direct."
+          ]
+        },
+        {
+          items: [
+            "Refuz total al producției scrise.",
+            "Izolare socială în contexte de activitate fizică.",
+            "Semne de anxietate somatizată înaintea evaluărilor scrise."
+          ]
+        }
+      ]
+    },
+    sobredotacao: {
+      sections: [
+        {
+          items: [
+            "Termină sarcinile în câteva minute în timp ce clasa are nevoie de toată ora.",
+            "Pune întrebări care depășesc sfera materiei — sau contestă activ ceea ce se predă.",
+            "Poate părea dezinteresat, indisciplinat sau apatic — frecvent semne de plictiseală cronică.",
+            "Sensibilitate emoțională accentuată; poate fi anxios, perfecționist sau nedrept de exigent cu sine însuși.",
+            "Risc real de subperformanță — învață să-și ascundă capacitatea pentru a nu ieși în evidență social."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu este</strong> sinonim cu comportament bun sau rezultate bune.",
+            "<strong>Nu este</strong> \"nu are nevoie de ajutor\" — are nevoie de provocări diferite, nu de mai puțină atenție.",
+            "<strong>Nu este</strong> incompatibil cu neurodivergența — dubla excepționalitate (2e) există și este frecventă."
+          ]
+        },
+        {
+          items: [
+            "Să aibă întotdeauna pregătite sarcini de extindere — nu mai mult din același lucru, ci materie mai profundă sau aplicată.",
+            "Să permită cercetarea independentă pe teme de interes ale elevului în cadrul programei.",
+            "Să evalueze după dificultate, nu după ușurință — să ceară lucrări mai solicitante în schimbul unui volum mai mic.",
+            "Să recunoască și să valideze sensibilitatea emoțională fără a o patologiza."
+          ]
+        },
+        {
+          items: [
+            "Anticipați mândria părinților/tutorilor și redirecționați-o: tocmai pentru că este capabil, plictiseala creează probleme.",
+            "Explicați paradoxul: rezultatele bune nu înseamnă că este bine.",
+            "Dacă elevul își ascunde capacitatea pentru a se integra social, numiți acest lucru cu grijă.",
+            "Propuneți părinților/tutorilor să valorifice procesul în loc de rezultat: curiozitatea, profunzimea, întrebările dificile."
+          ]
+        },
+        {
+          items: [
+            "Semne de anxietate sau depresie asociate cu perfecționismul extrem.",
+            "Izolare socială marcată prin sentimentul de a fi \"diferit\" față de colegi.",
+            "Scădere bruscă a performanțelor academice la un elev identificat anterior ca capabil."
+          ]
+        }
+      ]
+    },
+    plnm: {
+      sections: [
+        {
+          items: [
+            "Elevii alofoni (cu altă limbă maternă decât româna) pot părea mai lenți în clasă — aceasta reflectă o barieră lingvistică, nu o limitare cognitivă.",
+            "Clasele de inițiere în limba română oferă suport lingvistic intensiv înainte de integrarea în clasa obișnuită.",
+            "CJRAE (Centrul Județean de Resurse și Asistență Educațională) coordonează protocoalele de primire și sprijinul pentru elevii alofoni.",
+            "Mediatorul școlar poate sprijini comunicarea cu familiile din comunități rome sau imigrante.",
+            "Bariera lingvistică singură nu justifică un certificat de orientare școlară spre învățământ special."
+          ]
+        },
+        {
+          items: [
+            "<strong>Nu</strong> orice dificultate lingvistică este o problemă de învățare — contextul alofoniei trebuie întotdeauna luat în considerare.",
+            "<strong>Nu</strong> presupuneți că lipsa participării orale indică lipsă de interes.",
+            "<strong>Nu</strong> confundați sprijinul lingvistic cu educația specială — au baze juridice diferite."
+          ]
+        },
+        {
+          items: [
+            "Utilizați tehnici de scaffolding: liste de vocabular, suport vizual, formulări simplificate ale sarcinilor.",
+            "Recunoașteți limba maternă ca resursă, nu ca obstacol.",
+            "Implicați consilierul școlar sau CJRAE pentru a distinge bariera lingvistică de eventualele nevoi educaționale speciale.",
+            "Desfășurați discuțiile cu părinții/tutorii cu interpret sau mediator școlar, dacă este necesar."
+          ]
+        },
+        {
+          items: [
+            "Explicați părinților/tutorilor că dobândirea limbii române necesită timp — competența academică lingvistică (CALP) se dezvoltă pe parcursul a 5–7 ani.",
+            "Clarificați diferența dintre limba cotidiană și limba școlară.",
+            "Menționați formele concrete de sprijin: clasă de inițiere, lecții suplimentare de română, mediator școlar.",
+            "Includeți contextul cultural și sistemul școlar din țara de origine ca resursă."
+          ]
+        },
+        {
+          items: [
+            "Niciun progres în limba română în ciuda sprijinului lingvistic timp de 6–12 luni.",
+            "Indicii de dificultăți de învățare independente de bariera lingvistică.",
+            "Semne de retragere emoțională sau anxietate școlară care depășesc nesiguranța lingvistică."
+          ]
+        }
+      ]
+    },
+    etica: {
+      sections: [
+        {
+          items: [
+            "Datele minorilor sunt supuse unei protecții consolidate (Art. 8 RGPD). Consimțământul părinților/tutorilor este obligatoriu.",
+            "Verificați unde instrumentul stochează datele — servere europene sau extraeuropene, anonimizate sau nu.",
+            "Nu introduceți niciodată nume complete, adrese, numere de identificare sau diagnostice clinice în instrumente de IA generativă.",
+            "Distingeți utilizarea instituțională de utilizarea personală a cadrului didactic (responsabilitate individuală)."
+          ]
+        },
+        {
+          items: [
+            "Sistemele antrenate predominant cu date anglofone pot performa mai slab în alte contexte lingvistice.",
+            "Recomandările automate pot amplifica stereotipuri de gen, etnie sau clasă — verificați critic.",
+            "Modelele de \"predicție a riscului academic\" reproduc frecvent inegalitățile existente."
+          ]
+        },
+        {
+          items: [
+            "Obiectivul este creșterea autonomiei elevului, nu înlocuirea muncii cognitive care îl dezvoltă.",
+            "Distingeți <strong>instrumentul de acces</strong> (text-to-speech pentru dislexie) de <strong>instrumentul de substituire</strong> (IA scrie eseul).",
+            "Evaluați regulat: elevul dezvoltă competență sau dependență față de instrument?"
+          ]
+        },
+        {
+          items: [
+            "<strong>1.</strong> Instrumentul rezolvă o barieră reală sau creează o scurtătură care omite învățarea?",
+            "<strong>2.</strong> Datele introduse sunt protejate și există consimțământul?",
+            "<strong>3.</strong> Rezultatul va fi verificat de un om înainte de a ajunge la elev?",
+            "<strong>4.</strong> Există o alternativă non-IA care funcționează la fel de bine?",
+            "<strong>5.</strong> Dacă instrumentul nu mai există mâine, elevul rămâne neajutorat?"
+          ]
+        }
+      ]
+    },
+    oficina: {
+      sections: [
+        {
+          items: [
+            "Capacitarea colegilor pentru integrarea responsabilă a IA în predare, cu producerea de materiale adaptabile la mai multe profiluri de învățare.",
+            "Nu este o prezentare — este o co-construcție. Fiecare participant pleacă cu cel puțin o resursă gata de testat."
+          ]
+        },
+        {
+          items: [
+            "<strong>0–10 min:</strong> Cadru — problema clasei eterogene și de ce mai mult din același lucru nu funcționează.",
+            "<strong>10–25 min:</strong> Harta profilurilor — prezentarea celor șase carduri Farol, cu cazuri reale (anonimizate).",
+            "<strong>25–45 min:</strong> Demonstrație practică — trei instrumente, trei cazuri de utilizare, trei profiluri distincte.",
+            "<strong>45–75 min:</strong> Lucru în perechi — fiecare pereche adaptează un material existent pentru un profil specific.",
+            "<strong>75–85 min:</strong> Partajare rapidă — fiecare pereche prezintă produsul său în 1 minut.",
+            "<strong>85–90 min:</strong> Angajamente — fiecare participant definește un material de testat în săptămâna următoare."
+          ]
+        },
+        {
+          items: [
+            "Acces la internet și conturi instituționale în instrumentele demonstrate.",
+            "Materiale existente ale fiecărui participant (o fișă, un test sau un plan de lecție).",
+            "Carduri imprimate ale profilurilor Farol pentru consultare."
+          ]
+        },
+        {
+          items: [
+            "Fiecare participant produce cel puțin un material adaptat în timpul sesiunii.",
+            "Sesiune de feedback la 30 de zile, cu cel puțin 60% din participanți raportând implementare efectivă.",
+            "Cel puțin un material produs în sesiune este adoptat ca resursă comună a departamentului."
+          ]
+        }
+      ]
+    },
+    legislacao: {
+      sections: [
+        {
+          items: [
+            "Baza legală principală: Legea Educației Naționale nr. 1/2011 (cu modificările ulterioare) și Ordinul MEC nr. 5.574/2011 privind metodologia pentru protecția copiilor cu cerințe educaționale speciale (CES).",
+            "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului completează cadrul de drepturi educaționale.",
+            "România a ratificat Convenția ONU privind drepturile persoanelor cu dizabilități, care stă la baza politicilor de educație incluzivă."
+          ]
+        },
+        {
+          items: [
+            "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice — fără documentație specială.",
+            "Măsurile compensatorii pot fi aplicate de profesor pe baza observației pedagogice.",
+            "Cadrul didactic de sprijin poate fi solicitat fără certificat de orientare școlară, prin recomandarea CJRAE."
+          ]
+        },
+        {
+          items: [
+            "CJRAE (Centrul Județean de Resurse și Asistență Educațională): realizează evaluarea complexă și coordonează sprijinul educațional.",
+            "Certificatul de orientare școlară și profesională: emis de CJRAE, stă la baza încadrării în educație incluzivă sau specială.",
+            "Plan de Servicii Individualizat (PSI): document de planificare pentru elevii cu CES, elaborat cu familia.",
+            "Programul de Intervenție Personalizat (PIP): instrument de intervenție concretă în clasă, elaborat de echipa didactică."
+          ]
+        },
+        {
+          items: [
+            "Legea nr. 17/2007 privind educația tinerilor supraperformanți reglementează sprijinul pentru elevii supradotați.",
+            "Centrele de Excelență oferă programe de accelerare sau îmbogățire curriculară.",
+            "Programele de accelerare (trecerea mai rapidă prin ani de studiu) și îmbogățire (aprofundare, extindere) sunt prevăzute legal.",
+            "Identificarea supradotării se realizează prin evaluare psihologică la CJRAE sau cabinete specializate."
+          ]
+        },
+        {
+          items: [
+            "Elevii alofoni beneficiază de suport lingvistic în limba română și pot fi incluși în clase de inițiere.",
+            "CJRAE coordonează protocoalele de primire a elevilor cu altă limbă maternă.",
+            "Mediatorul școlar sprijină comunicarea cu familiile din comunități rome sau imigrante.",
+            "Nu există un regim juridic separat pentru alofoni — sprijinul se acordă prin mecanismele generale de incluziune."
+          ]
+        },
+        {
+          items: [
+            "Legea Educației Naționale nr. 1/2011",
+            "Ordinul MEC nr. 5.574/2011",
+            "CJRAE (Centrul Județean de Resurse și Asistență Educațională)",
+            "PSI (Plan de Servicii Individualizat) și PIP (Program de Intervenție Personalizat)",
+            "Certificat de orientare școlară și profesională"
+          ]
+        }
+      ]
+    }
+  }
+
+
 };
