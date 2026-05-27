@@ -2636,7 +2636,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         }
       ]
     }
-  }
-
+  },
 
 };
