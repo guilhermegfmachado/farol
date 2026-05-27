@@ -34,6 +34,18 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
           </>
         ))}
       </div>
+      <select
+        class="lang-select"
+        aria-label="Select language"
+        onchange="if(this.value) window.location.href=this.value"
+      >
+        <option value="" disabled selected>{lang.toUpperCase()}</option>
+        {allLangs.filter(l => l !== lang).map((l) => (
+          altHrefs[l]
+            ? <option value={altHrefs[l]}>{l.toUpperCase()}</option>
+            : null
+        ))}
+      </select>
     </div>
   </div>
   <div class="tagline">{t.tagline}</div>
@@ -46,4 +58,20 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
 .lang-link { color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; }
 .lang-link:hover { color: var(--accent); }
 .lang-unavail { color: var(--rule-strong); }
+.lang-select { display: none; }
+@media (max-width: 520px) {
+  .lang-switcher { display: none; }
+  .lang-select {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    background: var(--bg-elevated);
+    border: 1px solid var(--rule);
+    color: var(--ink-faded);
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+}
 </style>
