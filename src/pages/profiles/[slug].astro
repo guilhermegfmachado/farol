@@ -34,7 +34,7 @@ function entryHref(e: typeof allEntries[0]) {
   description={subtitle}
   ogTitle={`${title} · ${category} — Farol`}
 >
-  <Header />
+  <Header lang="pt" altHref={`${base}en/profiles/${entry.id.replace(/\.md$/, '')}/`} />
 
   <Breadcrumb crumbs={[
     { label: 'início', href: base },
@@ -109,7 +109,7 @@ function entryHref(e: typeof allEntries[0]) {
     ) : <span />}
   </nav>
 
-  <Footer />
+  <Footer lang="pt" altHref={`${base}en/profiles/${entry.id.replace(/\.md$/, '')}/`} />
 </Base>
 
 <style>

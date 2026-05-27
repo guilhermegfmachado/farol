@@ -1,10 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries } from '@/lib/entries';
-import Base from '../../layouts/Base.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import Breadcrumb from '../../components/Breadcrumb.astro';
+import { ui, entryTranslations, sectionLabelTranslations } from '@/lib/i18n';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('references');
@@ -15,7 +16,10 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
+const slug = entry.id.replace(/\.md$/, '');
 const { title, category, subtitle, sections, pending } = entry.data;
+const en = entryTranslations[slug];
+const t = ui.en;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
 const allEntries = await getAllEntries();
@@ -26,20 +30,26 @@ const prev = idx > 0 ? allEntries[idx - 1] : null;
 const next = idx < allEntries.length - 1 ? allEntries[idx + 1] : null;
 
 function entryHref(e: typeof allEntries[0]) {
-  return `${base}${e.collection}/${e.id.replace(/\.md$/, '')}/`;
+  return `${base}en/${e.collection}/${e.id.replace(/\.md$/, '')}/`;
+}
+function prevNextTitle(e: typeof allEntries[0]) {
+  return entryTranslations[e.id.replace(/\.md$/, '')]?.title ?? e.data.title;
 }
 ---
 <Base
-  title={`${title} — Farol`}
-  description={subtitle}
-  ogTitle={`${title} · ${category} — Farol`}
+  title={`${en?.title ?? title} — Farol`}
+  description={en?.subtitle ?? subtitle}
 >
-  <Header lang="pt" altHref={`${base}en/references/${entry.id.replace(/\.md$/, '')}/`} />
+  <Header lang="en" altHref={`${base}references/${slug}/`} />
 
   <Breadcrumb crumbs={[
-    { label: 'início', href: base },
-    { label: title.toLowerCase() },
+    { label: t.breadcrumb_home, href: `${base}en/` },
+    { label: (en?.title ?? title).toLowerCase() },
   ]} />
+
+  <div class="translation-notice">
+    Content in Portuguese — English translation in progress.
+  </div>
 
   <article class="card animate-in">
     <header class="card-header">
@@ -47,13 +57,15 @@ function entryHref(e: typeof allEntries[0]) {
         <span class="card-category">{category}</span>
         <span class="card-index-large">{entry.data.index}</span>
       </div>
-      <h1 class="card-title">{title}</h1>
-      <p class="card-subtitle">{subtitle}</p>
+      <h1 class="card-title">{en?.title ?? title}</h1>
+      <p class="card-subtitle">{en?.subtitle ?? subtitle}</p>
     </header>
 
     {sections.map((section) => (
       <section class="card-section">
-        <h2 class="card-section-label">{section.label}</h2>
+        <h2 class="card-section-label">
+          {sectionLabelTranslations[section.label] ?? section.label}
+        </h2>
         <ul>
           {section.items.map((item) => (
             <li><span set:html={item} /></li>
@@ -65,33 +77,30 @@ function entryHref(e: typeof allEntries[0]) {
     {pending && <div class="pending-notice">{pending}</div>}
   </article>
 
-  <nav class="card-nav" aria-label="Navegação entre entradas">
+  <nav class="card-nav" aria-label="Entry navigation">
     {prev ? (
       <a href={entryHref(prev)} class="card-nav-item card-nav-prev">
-        <span class="card-nav-dir">← anterior</span>
-        <span class="card-nav-title">{prev.data.title}</span>
+        <span class="card-nav-dir">{t.nav_prev}</span>
+        <span class="card-nav-title">{prevNextTitle(prev)}</span>
       </a>
     ) : <span />}
     {next ? (
       <a href={entryHref(next)} class="card-nav-item card-nav-next">
-        <span class="card-nav-dir">seguinte →</span>
-        <span class="card-nav-title">{next.data.title}</span>
+        <span class="card-nav-dir">{t.nav_next}</span>
+        <span class="card-nav-title">{prevNextTitle(next)}</span>
       </a>
     ) : <span />}
   </nav>
 
-  <Footer lang="pt" altHref={`${base}en/references/${entry.id.replace(/\.md$/, '')}/`} />
+  <Footer lang="en" altHref={`${base}references/${slug}/`} />
 </Base>
 
 <style>
+.translation-notice { font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; letter-spacing: 0.05em; color: var(--ink-faded); border: 1px dashed var(--rule); padding: 0.5rem 0.9rem; margin-bottom: 1.5rem; }
 .card-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; margin-bottom: 1rem; }
 .card-nav-item { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; max-width: 48%; }
 .card-nav-item:hover { border-color: var(--accent); }
 .card-nav-next { text-align: right; margin-left: auto; }
 .card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
 .card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
-
-@media print {
-  .card-nav { display: none; }
-}
 </style>

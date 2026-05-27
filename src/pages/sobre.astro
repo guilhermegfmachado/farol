@@ -10,7 +10,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
   title="Sobre — Farol"
   description="O que é o Farol, como usar, e o que esperar das secções de IA."
 >
-  <Header />
+  <Header lang="pt" altHref={`${base}en/about/`} />
 
   <Breadcrumb crumbs={[
     { label: 'início', href: base },
@@ -73,7 +73,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     </section>
   </article>
 
-  <Footer />
+  <Footer lang="pt" altHref={`${base}en/about/`} />
 </Base>
 
 <style>
