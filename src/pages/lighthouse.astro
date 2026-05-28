@@ -1,0 +1,369 @@
+---
+import { getAllEntries } from '@/lib/entries';
+import { allIndexHrefs } from '@/lib/i18n';
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const entries = await getAllEntries();
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+
+// Sort ascending by index, then reverse so index 01 renders at bottom of tower
+const sorted = [...entries].sort((a, b) =>
+  (a.data.index || '99').localeCompare(b.data.index || '99')
+);
+const tower = [...sorted].reverse(); // top of array = top of tower visually
+
+const categoryColor: Record<string, string> = {
+  'Perfil':     'var(--accent)',
+  'Referência': '#4a7c59',
+  'Recurso':    '#7c5a3a',
+};
+---
+<Base title="Farol — Torre de Estratégias" description="Visualização em farol dos perfis e referências de sala de aula inclusiva.">
+  <Header lang="pt" altHrefs={allIndexHrefs(base)} />
+
+  <div class="lh-page">
+    <div class="lh-intro">
+      <div class="lh-intro-label">Visualização</div>
+      <h1 class="lh-intro-title">A Torre</h1>
+      <p class="lh-intro-desc">Cada andar do farol é um perfil ou referência. As fundações sustentam os perfis mais comuns; o topo guia o enquadramento ético e legal.</p>
+    </div>
+
+    <div class="lh-scene" aria-label="Torre de estratégias interativa">
+
+      <!-- Beacon ray sweep -->
+      <div class="lh-rays" aria-hidden="true">
+        <div class="lh-ray lh-ray-1"></div>
+        <div class="lh-ray lh-ray-2"></div>
+        <div class="lh-ray lh-ray-3"></div>
+      </div>
+
+      <!-- Lantern room cap -->
+      <div class="lh-cap" aria-hidden="true">
+        <div class="lh-cap-triangle"></div>
+        <div class="lh-cap-gallery">
+          <div class="lh-beacon"></div>
+        </div>
+      </div>
+
+      <!-- Tower body with clickable floors -->
+      <div class="lh-tower">
+        {tower.map((entry, i) => {
+          const href = `${base}${entry.collection}/${entry.id.replace(/\.md$/, '')}/`;
+          const color = categoryColor[entry.data.category] || 'var(--accent)';
+          const isTop = i === 0;
+          const isBottom = i === tower.length - 1;
+          return (
+            <a
+              href={href}
+              class={`lh-floor ${isTop ? 'lh-floor-top' : ''} ${isBottom ? 'lh-floor-bottom' : ''}`}
+              style={`--floor-color: ${color};`}
+              data-category={entry.data.category}
+            >
+              <span class="lh-floor-index">{entry.data.index}</span>
+              <span class="lh-floor-body">
+                <span class="lh-floor-title">{entry.data.title}</span>
+                <span class="lh-floor-desc">{entry.data.desc}</span>
+              </span>
+              <span class="lh-floor-meta">
+                <span class="lh-floor-category">{entry.data.category}</span>
+                <span class="lh-floor-arrow">→</span>
+              </span>
+            </a>
+          );
+        })}
+      </div>
+
+      <!-- Foundation -->
+      <div class="lh-foundation" aria-hidden="true">
+        <div class="lh-foundation-rocks"></div>
+      </div>
+
+    </div>
+
+    <div class="lh-legend">
+      <span class="lh-legend-label">Categorias</span>
+      <span class="lh-legend-item" style="--c: var(--accent)">Perfil</span>
+      <span class="lh-legend-item" style="--c: #4a7c59">Referência</span>
+      <span class="lh-legend-item" style="--c: #7c5a3a">Recurso</span>
+    </div>
+
+    <div class="lh-back">
+      <a href={base} class="lh-back-link">← Voltar ao início</a>
+    </div>
+  </div>
+
+  <Footer lang="pt" />
+</Base>
+
+<style>
+/* ── Page layout ──────────────────────────────────────────── */
+.lh-page { max-width: 600px; margin: 0 auto; }
+
+.lh-intro { margin-bottom: 3rem; }
+.lh-intro-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.5rem; }
+.lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.6rem; }
+.lh-intro-desc { color: var(--ink-soft); font-size: 0.95rem; max-width: 52ch; line-height: 1.6; }
+
+/* ── Scene wrapper ────────────────────────────────────────── */
+.lh-scene { position: relative; display: flex; flex-direction: column; align-items: center; }
+
+/* ── Beacon rays ──────────────────────────────────────────── */
+.lh-rays {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.lh-ray {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  transform-origin: 0 0;
+  opacity: 0;
+}
+.lh-ray-1 {
+  border-bottom: 180px solid rgba(232, 169, 61, 0.07);
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  transform: rotate(-20deg) translateX(-50%);
+  animation: rayPulse 4s ease-in-out infinite;
+}
+.lh-ray-2 {
+  border-bottom: 160px solid rgba(232, 169, 61, 0.05);
+  border-left: 260px solid transparent;
+  border-right: 260px solid transparent;
+  transform: rotate(10deg) translateX(-50%);
+  animation: rayPulse 4s ease-in-out 1.3s infinite;
+}
+.lh-ray-3 {
+  border-bottom: 140px solid rgba(232, 169, 61, 0.04);
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+  transform: rotate(38deg) translateX(-50%);
+  animation: rayPulse 4s ease-in-out 2.6s infinite;
+}
+@keyframes rayPulse {
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
+}
+
+/* ── Cap (lantern room) ───────────────────────────────────── */
+.lh-cap {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+}
+.lh-cap-triangle {
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-bottom: 36px solid var(--accent);
+  filter: drop-shadow(0 -2px 8px rgba(42,74,94,0.15));
+}
+.lh-cap-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent);
+  width: 96px;
+  height: 22px;
+  position: relative;
+}
+.lh-beacon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--beam);
+  box-shadow: 0 0 12px 4px rgba(232, 169, 61, 0.5);
+  animation: beamPulse 2.5s ease-in-out infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ── Tower ────────────────────────────────────────────────── */
+.lh-tower {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 420px;
+  /* Trapezoid: slightly narrower at top */
+  clip-path: polygon(3% 0%, 97% 0%, 100% 100%, 0% 100%);
+  border: 1px solid var(--rule);
+  border-top: none;
+  overflow: hidden;
+}
+
+/* ── Floors ───────────────────────────────────────────────── */
+.lh-floor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--rule);
+  border-left: 3px solid var(--floor-color, var(--accent));
+  background: var(--bg-elevated);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.15s ease, border-left-width 0.15s ease;
+  cursor: pointer;
+}
+.lh-floor:hover {
+  background: var(--accent-bg);
+  border-left-width: 5px;
+}
+.lh-floor-bottom { border-bottom: none; }
+
+.lh-floor-index {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--rule-strong);
+  line-height: 1;
+  min-width: 2rem;
+  flex-shrink: 0;
+}
+.lh-floor:hover .lh-floor-index { color: var(--floor-color, var(--accent)); }
+
+.lh-floor-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.lh-floor-title {
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.2;
+}
+.lh-floor-desc {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lh-floor-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+  flex-shrink: 0;
+}
+.lh-floor-category {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+}
+.lh-floor-arrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--ink-faded);
+  opacity: 0;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+.lh-floor:hover .lh-floor-arrow { opacity: 1; color: var(--floor-color, var(--accent)); }
+
+/* ── Foundation ───────────────────────────────────────────── */
+.lh-foundation {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lh-foundation-rocks {
+  width: 100%;
+  height: 14px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--rule-strong) 0px,
+    var(--rule-strong) 18px,
+    var(--rule) 18px,
+    var(--rule) 22px
+  );
+  border-top: 2px solid var(--accent);
+  opacity: 0.5;
+}
+
+/* ── Legend ───────────────────────────────────────────────── */
+.lh-legend {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.lh-legend-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+}
+.lh-legend-item {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--c);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.lh-legend-item::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--c);
+  border-radius: 1px;
+}
+
+/* ── Back link ────────────────────────────────────────────── */
+.lh-back { margin-top: 2.5rem; margin-bottom: 1rem; }
+.lh-back-link {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-faded);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+.lh-back-link:hover { color: var(--accent); }
+
+/* ── Mobile ───────────────────────────────────────────────── */
+@media (max-width: 520px) {
+  .lh-intro-title { font-size: 1.6rem; }
+  .lh-floor { padding: 0.7rem 0.9rem; gap: 0.7rem; }
+  .lh-floor-index { font-size: 1.1rem; min-width: 1.6rem; }
+  .lh-floor-desc { display: none; }
+  .lh-floor-category { display: none; }
+  .lh-floor-arrow { opacity: 0.4; }
+  .lh-cap-triangle { border-left-width: 38px; border-right-width: 38px; border-bottom-width: 28px; }
+  .lh-cap-gallery { width: 76px; height: 18px; }
+  .lh-rays { display: none; }
+}
+</style>

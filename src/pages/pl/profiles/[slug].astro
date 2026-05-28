@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { getAllEntries } from '@/lib/entries';
 import { ui, entryTranslations, sectionLabelTranslations, allLangHrefs, categoryTranslations } from '@/lib/i18n';
+import { contentTranslations } from '@/lib/content-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
@@ -25,6 +26,7 @@ const tr = entryTranslations.pl?.[slug];
 const title = tr?.title ?? entry.data.title;
 const subtitle = tr?.subtitle ?? entry.data.subtitle;
 const langHrefs = allLangHrefs(base, 'profiles', slug);
+const ct = contentTranslations['pl']?.[slug];
 
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
@@ -51,10 +53,10 @@ function entryHref(e: typeof allEntries[0]) {
       <h1 class="card-title">{title}</h1>
       {subtitle && <p class="card-subtitle">{subtitle}</p>}
     </header>
-    {sections.map((section) => (
+    {sections.map((section, i) => (
       <section class="card-section">
         <h2 class="card-section-label">{sectionLabelTranslations.pl?.[section.label] ?? section.label}</h2>
-        <ul>{section.items.map((item) => <li><span set:html={item} /></li>)}</ul>
+        <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
       </section>
     ))}
     {ai_strategies && (
