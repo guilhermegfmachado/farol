@@ -47,48 +47,24 @@ function floorTitle(entry: typeof entries[0]) {
     <div class="lh-scene">
 
       <div class="lh-sky" aria-hidden="true">
-        <div class="lh-star" style="top:18%;left:12%;animation-delay:0s"></div>
-        <div class="lh-star" style="top:8%;left:35%;animation-delay:0.7s"></div>
-        <div class="lh-star" style="top:22%;left:58%;animation-delay:1.4s"></div>
-        <div class="lh-star" style="top:5%;left:78%;animation-delay:0.3s"></div>
-        <div class="lh-star" style="top:30%;left:88%;animation-delay:2.1s"></div>
-        <div class="lh-star" style="top:12%;left:5%;animation-delay:1.8s"></div>
-      </div>
-
-      <div class="lh-beam-sweep" aria-hidden="true">
-        <div class="lh-sweep-arm lh-sweep-1"></div>
-        <div class="lh-sweep-arm lh-sweep-2"></div>
+        <div class="lh-star" style="top:14%;left:10%;animation-delay:0s"></div>
+        <div class="lh-star" style="top:7%;left:40%;animation-delay:1.1s"></div>
+        <div class="lh-star" style="top:18%;left:72%;animation-delay:0.5s"></div>
+        <div class="lh-star" style="top:5%;left:85%;animation-delay:1.9s"></div>
       </div>
 
       <div class="lh-lantern" aria-hidden="true">
-        <div class="lh-roof">
-          <div class="lh-roof-peak"></div>
-          <div class="lh-roof-body"></div>
-          <div class="lh-roof-rail"></div>
-        </div>
-        <div class="lh-lens-room">
-          <div class="lh-lens">
-            <div class="lh-lens-inner"></div>
-          </div>
-          <div class="lh-lens-frame-v"></div>
-          <div class="lh-lens-frame-h"></div>
-        </div>
-        <div class="lh-gallery">
-          <div class="lh-gallery-rail"></div>
-        </div>
+        <div class="lh-cap"></div>
+        <div class="lh-beacon"></div>
+        <div class="lh-cap-base"></div>
       </div>
 
       <div class="lh-tower-wrap">
-        <div class="lh-stripes" aria-hidden="true">
-          {[...Array(5)].map((_, i) => (
-            <div class="lh-stripe" style={`--stripe-i:${i}`}></div>
-          ))}
-        </div>
         <div class="lh-tower" role="navigation" aria-label={t.lh_title}>
           {tower.map((entry, i) => (
             <a
               href={floorHref(entry)}
-              class={`lh-floor${i === 0 ? ' lh-floor-top' : ''}${i === tower.length - 1 ? ' lh-floor-bottom' : ''}`}
+              class={`lh-floor${i === tower.length - 1 ? ' lh-floor-bottom' : ''}`}
               style={`--fc: ${catColors[entry.data.category] || 'var(--accent)'};`}
             >
               <span class="lh-floor-num">{entry.data.index}</span>
@@ -103,21 +79,9 @@ function floorTitle(entry: typeof entries[0]) {
         <div class="lh-door-arch"></div>
       </div>
 
-      <div class="lh-base" aria-hidden="true">
-        <div class="lh-base-top"></div>
-        <div class="lh-base-rocks">
-          <div class="lh-rock lh-rock-1"></div>
-          <div class="lh-rock lh-rock-2"></div>
-          <div class="lh-rock lh-rock-3"></div>
-          <div class="lh-rock lh-rock-4"></div>
-          <div class="lh-rock lh-rock-5"></div>
-        </div>
-      </div>
+      <div class="lh-base" aria-hidden="true"></div>
 
-      <div class="lh-water" aria-hidden="true">
-        <div class="lh-wave lh-wave-1"></div>
-        <div class="lh-wave lh-wave-2"></div>
-      </div>
+      <div class="lh-water" aria-hidden="true"></div>
 
     </div>
 
@@ -144,54 +108,29 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-intro-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
-.lh-scene { position: relative; display: flex; flex-direction: column; align-items: center; background: linear-gradient(to bottom, #0d1b2a 0%, #1a2f45 40%, #1e3d5c 70%, #1a6b8c 85%, #1e8ca8 100%); border-radius: 4px; overflow: hidden; min-height: 580px; padding-bottom: 0; }
+.lh-scene { position: relative; display: flex; flex-direction: column; align-items: center; background: linear-gradient(to bottom, #0e1c2e 0%, #152535 45%, #1a4060 75%, #1a7090 100%); border-radius: 2px; overflow: hidden; min-height: 520px; padding-bottom: 0; }
 .lh-sky { position: absolute; inset: 0; pointer-events: none; }
-.lh-star { position: absolute; width: 2px; height: 2px; background: #fff; border-radius: 50%; animation: twinkle 3s ease-in-out infinite; }
-@keyframes twinkle { 0%, 100% { opacity: 0.2; transform: scale(1); } 50% { opacity: 1; transform: scale(1.5); } }
-.lh-beam-sweep { position: absolute; top: 60px; left: 50%; transform: translateX(-50%); width: 0; height: 0; pointer-events: none; z-index: 1; }
-.lh-sweep-arm { position: absolute; top: 0; left: 0; width: 0; height: 0; border-left: 180px solid transparent; border-right: 180px solid transparent; border-bottom: 300px solid rgba(232,169,61,0.06); transform-origin: center top; animation: sweep 8s linear infinite; }
-.lh-sweep-2 { animation-delay: -4s; opacity: 0.6; }
-@keyframes sweep { from { transform: rotate(-60deg) translateX(-50%); } to { transform: rotate(300deg) translateX(-50%); } }
-.lh-lantern { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; margin-top: 32px; }
-.lh-roof { display: flex; flex-direction: column; align-items: center; }
-.lh-roof-peak { width: 0; height: 0; border-left: 22px solid transparent; border-right: 22px solid transparent; border-bottom: 18px solid #c0c4c8; }
-.lh-roof-body { width: 60px; height: 10px; background: #9aa0a6; border-radius: 0 0 2px 2px; }
-.lh-roof-rail { width: 68px; height: 4px; background: #7a8087; border-radius: 1px; }
-.lh-lens-room { position: relative; width: 52px; height: 48px; background: #1a2f45; border: 2px solid #3a4f62; display: flex; align-items: center; justify-content: center; }
-.lh-lens { width: 34px; height: 34px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffe066, #e8a93d 50%, #b8760d 100%); box-shadow: 0 0 16px 6px rgba(232,169,61,0.7), 0 0 32px 12px rgba(232,169,61,0.3); animation: lensGlow 2s ease-in-out infinite; position: relative; z-index: 1; }
-.lh-lens-inner { width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,0.5); position: absolute; top: 5px; left: 5px; }
-.lh-lens-frame-v { position: absolute; width: 2px; height: 100%; background: rgba(58,79,98,0.7); left: 50%; transform: translateX(-50%); }
-.lh-lens-frame-h { position: absolute; height: 2px; width: 100%; background: rgba(58,79,98,0.7); top: 50%; transform: translateY(-50%); }
-@keyframes lensGlow { 0%, 100% { box-shadow: 0 0 16px 6px rgba(232,169,61,0.6), 0 0 32px 12px rgba(232,169,61,0.25); } 50% { box-shadow: 0 0 24px 10px rgba(232,169,61,0.9), 0 0 48px 20px rgba(232,169,61,0.4); } }
-.lh-gallery { width: 64px; height: 6px; background: #4a5568; border-bottom: 2px solid #2d3748; }
-.lh-gallery-rail { width: 100%; height: 2px; background: repeating-linear-gradient(90deg, #6b7280 0, #6b7280 4px, transparent 4px, transparent 8px); }
-.lh-tower-wrap { position: relative; z-index: 2; width: 100%; max-width: 280px; clip-path: polygon(8% 0%, 92% 0%, 100% 100%, 0% 100%); }
-.lh-stripes { position: absolute; inset: 0; pointer-events: none; z-index: 0; display: flex; flex-direction: column; justify-content: space-around; }
-.lh-stripe { width: 100%; height: 12px; background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.06); }
-.lh-tower { position: relative; z-index: 1; display: flex; flex-direction: column; }
-.lh-floor { display: flex; align-items: center; gap: 0.7rem; padding: 0.7rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.07); border-left: 3px solid var(--fc, var(--accent)); background: rgba(20,30,45,0.75); text-decoration: none; color: #e0e6ed; transition: background 0.15s ease, border-left-width 0.15s ease; backdrop-filter: blur(2px); }
-.lh-floor:hover { background: rgba(42,74,94,0.6); border-left-width: 5px; }
+.lh-star { position: absolute; width: 2px; height: 2px; background: #fff; border-radius: 50%; animation: twinkle 3.5s ease-in-out infinite; }
+@keyframes twinkle { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.8; } }
+.lh-lantern { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; margin-top: 36px; }
+.lh-cap { width: 0; height: 0; border-left: 14px solid transparent; border-right: 14px solid transparent; border-bottom: 12px solid #8a9099; }
+.lh-beacon { width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 38% 38%, #ffe57a, #e8a83c 55%, #c07010 100%); box-shadow: 0 0 18px 7px rgba(232,168,60,0.65), 0 0 40px 16px rgba(232,168,60,0.2); animation: beaconPulse 2.5s ease-in-out infinite; }
+.lh-cap-base { width: 36px; height: 5px; background: #6b7280; border-radius: 0 0 2px 2px; }
+@keyframes beaconPulse { 0%, 100% { box-shadow: 0 0 14px 5px rgba(232,168,60,0.55), 0 0 32px 12px rgba(232,168,60,0.18); } 50% { box-shadow: 0 0 26px 10px rgba(232,168,60,0.85), 0 0 56px 24px rgba(232,168,60,0.3); } }
+.lh-tower-wrap { position: relative; z-index: 2; width: 100%; max-width: 272px; clip-path: polygon(7% 0%, 93% 0%, 100% 100%, 0% 100%); }
+.lh-tower { display: flex; flex-direction: column; }
+.lh-floor { display: flex; align-items: center; gap: 0.65rem; padding: 0.65rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06); border-left: 3px solid var(--fc, var(--accent)); background: rgba(14,24,38,0.72); text-decoration: none; color: #dce4ee; transition: background 0.15s ease, border-left-width 0.15s ease; }
+.lh-floor:hover { background: rgba(30,55,80,0.65); border-left-width: 5px; }
 .lh-floor-bottom { border-bottom: none; }
-.lh-floor-num { font-family: 'JetBrains Mono', monospace; font-size: 1rem; font-weight: 700; color: rgba(255,255,255,0.25); min-width: 1.6rem; flex-shrink: 0; transition: color 0.15s ease; }
+.lh-floor-num { font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; font-weight: 700; color: rgba(255,255,255,0.2); min-width: 1.5rem; flex-shrink: 0; transition: color 0.15s ease; }
 .lh-floor:hover .lh-floor-num { color: var(--fc, var(--accent)); }
-.lh-floor-name { flex: 1; font-size: 0.88rem; font-weight: 600; line-height: 1.2; }
-.lh-floor-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: rgba(255,255,255,0.2); transition: color 0.15s ease, transform 0.15s ease; flex-shrink: 0; }
+.lh-floor-name { flex: 1; font-size: 0.85rem; font-weight: 600; line-height: 1.2; }
+.lh-floor-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.18); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
 .lh-floor:hover .lh-floor-arrow { color: var(--fc, var(--accent)); transform: translateX(3px); }
-.lh-door { position: relative; z-index: 2; width: 100%; max-width: 280px; height: 20px; background: rgba(20,30,45,0.85); display: flex; justify-content: center; align-items: flex-end; }
-.lh-door-arch { width: 28px; height: 20px; background: #0d1b2a; border-radius: 14px 14px 0 0; border: 1px solid rgba(255,255,255,0.1); border-bottom: none; }
-.lh-base { position: relative; z-index: 2; width: 100%; max-width: 340px; display: flex; flex-direction: column; align-items: center; }
-.lh-base-top { width: 100%; height: 18px; background: linear-gradient(to bottom, #4a5568, #2d3748); border-top: 2px solid #718096; }
-.lh-base-rocks { width: 100%; height: 24px; position: relative; display: flex; align-items: flex-end; justify-content: center; gap: 4px; padding: 0 8px; }
-.lh-rock { background: linear-gradient(to bottom, #4a5568, #2d3748); border-radius: 50% 50% 0 0; border-top: 1px solid #718096; }
-.lh-rock-1 { width: 48px; height: 20px; }
-.lh-rock-2 { width: 36px; height: 16px; }
-.lh-rock-3 { width: 56px; height: 24px; }
-.lh-rock-4 { width: 40px; height: 18px; }
-.lh-rock-5 { width: 44px; height: 14px; }
-.lh-water { position: relative; z-index: 1; width: 100%; min-height: 40px; background: linear-gradient(to bottom, #1e8ca8, #0d5f7a); overflow: hidden; flex: 1; }
-.lh-wave { position: absolute; width: 200%; height: 20px; background: repeating-linear-gradient(90deg, transparent 0, transparent 40px, rgba(255,255,255,0.06) 40px, rgba(255,255,255,0.06) 80px); animation: waveMove 6s linear infinite; }
-.lh-wave-2 { top: 10px; opacity: 0.5; animation-delay: -3s; }
-@keyframes waveMove { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.lh-door { z-index: 2; width: 100%; max-width: 272px; height: 18px; background: rgba(14,24,38,0.82); display: flex; justify-content: center; align-items: flex-end; }
+.lh-door-arch { width: 24px; height: 18px; background: #0e1c2e; border-radius: 12px 12px 0 0; border: 1px solid rgba(255,255,255,0.08); border-bottom: none; }
+.lh-base { z-index: 2; width: 100%; max-width: 320px; height: 14px; background: linear-gradient(to bottom, #3d4a5a, #252f3d); border-top: 2px solid #5a6678; }
+.lh-water { z-index: 1; width: 100%; flex: 1; min-height: 36px; background: linear-gradient(to bottom, #1a7090 0%, #0e4f68 100%); }
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .lh-legend-heading { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
@@ -202,12 +141,11 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-back-link:hover { color: var(--accent); }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }
-  .lh-tower-wrap, .lh-door { max-width: 240px; }
-  .lh-base { max-width: 290px; }
-  .lh-floor { padding: 0.55rem 0.75rem; gap: 0.5rem; }
-  .lh-floor-num { font-size: 0.85rem; min-width: 1.3rem; }
-  .lh-floor-name { font-size: 0.78rem; }
-  .lh-scene { min-height: 500px; }
-  .lh-sweep-arm { border-left-width: 120px; border-right-width: 120px; }
+  .lh-tower-wrap, .lh-door { max-width: 230px; }
+  .lh-base { max-width: 274px; }
+  .lh-floor { padding: 0.55rem 0.75rem; gap: 0.45rem; }
+  .lh-floor-num { font-size: 0.82rem; min-width: 1.2rem; }
+  .lh-floor-name { font-size: 0.76rem; }
+  .lh-scene { min-height: 460px; }
 }
 </style>
