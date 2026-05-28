@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import { ui, type Lang, allIndexHrefs } from '@/lib/i18n';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+
+export function getStaticPaths() {
+  const langs: Lang[] = ['en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  return langs.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = ui[lang];
+const tools = await getCollection('tools');
+tools.sort((a, b) => a.data.name.localeCompare(b.data.name, 'en'));
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<Base
+  title={`${t.tools_question} — Farol`}
+  description={t.tools_desc}
+>
+  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+
+  <Breadcrumb crumbs={[
+    { label: t.breadcrumb_home, href: `${base}${lang}/` },
+    { label: t.breadcrumb_tools },
+  ]} />
+
+  <div class="prompt-section">
+    <div class="prompt-label">{t.tools_catalog}</div>
+    <div class="prompt-question">{t.tools_question}</div>
+  </div>
+
+  <nav class="tree" aria-label={t.breadcrumb_tools}>
+    {tools.map((tool) => (
+      <a
+        href={`${base}${lang}/tools/${tool.id.replace(/\.md$/, '')}/`}
+        class="tree-node animate-in"
+        data-category="tool"
+      >
+        <span class="tree-node-title">{tool.data.name}</span>
+        <span class="tree-node-desc">{tool.data.desc}</span>
+        {tool.data.free !== undefined && (
+          <span class="tree-node-index" style="font-size:0.7rem">{tool.data.free ? t.tool_free : t.tool_paid}</span>
+        )}
+        <span class="tree-node-arrow">{t.tool_view} <span aria-hidden="true">→</span></span>
+      </a>
+    ))}
+  </nav>
+
+  <Footer lang={lang} />
+</Base>
+
+<style>
+.tree-node[data-category="tool"] { border-left: 3px solid var(--beam); }
+</style>
