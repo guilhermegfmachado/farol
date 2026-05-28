@@ -4015,4 +4015,2725 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
 
+
+  sk: {
+    tdah: { sections: [
+      { items: [
+        "Ťažkosti so sústredením pri dlhých úlohách; stráca sa v pokynoch s viacerými krokmi.",
+        "Neustály pohyb — nevydrží sedieť, pohráva sa s rukami, vstáva bez zjavného dôvodu.",
+        "Odpovedá skôr, ako otázka skončí; vyrušuje spolužiakov a učiteľa.",
+        "Zabúda pomôcky, termíny, pokyny dané ústne pred niekoľkými minútami.",
+        "Môže sa hyperfokusovať na niečo, čo ho zaujíma, čím vyvoláva (nesprávny) dojem, že \"môže, keď chce\".",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> zlé vychование, lenivosť ani nedostatok charakteru.",
+        "<strong>Nie je to</strong> vždy viditeľná hyperaktivita — existuje ADHD s prevažujúcou nepozornosťou (častejšia u dievčat, často poddiagnostikovaná).",
+        "<strong>Nevyrieši sa</strong> tým, že sa bude viac snažiť — problém je neurologický, nie motivačný.",
+      ]},
+      { items: [
+        "Rozdeľovanie pokynov: jeden po druhom, písomne na tabuli, s určeným časom.",
+        "Umožniť legitímny pohyb (rozdávanie materiálov, správa pre školského psychológa).",
+        "Znížiť konkurenčné podnety (miesto ďaleko od okna, dverí, najhlučnejšej skupiny).",
+        "Okamžitá pozitívna spätná väzba — neurologický cyklus odmeny je pri ADHD kratší.",
+      ]},
+      { items: [
+        "Začať tým, čo žiak robí dobre — stretnutie nemôže začínať ako zoznam sťažností.",
+        "Opisovať pozorované správanie, nie diagnózy: \"keď sú viac ako dva kroky za sebou, stratí nit\".",
+        "Predvídať reakciu \"doma to tak nie je\" — skupinový kontext robí príznaky viditeľnejšími.",
+        "Ak navrhujete psychologické vyšetrenie, prezentujte ho ako pomoc, nie trest.",
+      ]},
+      { items: [
+        "Pretrvávajúce disciplinárne problémy napriek úpravám v triede.",
+        "Príznaky sociálneho vylúčenia zo strany spolužiakov.",
+        "Príznaky komorbidity (úzkosť, depresia, porucha opozičného vzdoru).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Číta pomaly a s chybami, aj v textoch, ktorým rozumie ústne.",
+        "Zamieňa vizuálne podobné písmená (b/d, p/q); obracia poradie písmen v slovách.",
+        "Pretrvávajúce pravopisné chyby, ktoré nereagujú na opakovanú opravu.",
+        "Vyhýba sa hlasitému čítaniu; môže sa zdať, že nechce participovať, hoci sa v skutočnosti chráni.",
+        "Ústne porozumenie oveľa lepšie ako písomné.",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> nedostatok inteligencie — dyslexia je nezávislá od IQ.",
+        "<strong>Nie je to</strong> len \"zamieňanie písmen\" — je to porucha fonologického spracovania.",
+        "<strong>\"Nevylieči sa\"</strong> — celý život sa zvláda pomocou kompenzačných stratégií.",
+      ]},
+      { items: [
+        "Poskytovať texty s upravenou typografiou (OpenDyslexic alebo podobné; väčší riadkovací priestor).",
+        "Umožniť tiché čítanie pred akýmkoľvek hlasitým čítaním — nikdy nevolať bez upozornenia.",
+        "Hodnotiť obsah oddelene od pravopisu, keď je cieľom overiť vedomosti.",
+        "Ponúknuť viacero formátov pre rovnaké informácie (video, audio, schémy).",
+      ]},
+      { items: [
+        "Explicitne oddeliť čítanie od inteligencie od začiatku: \"vaše dieťa dobre rozumie, keď počuje\".",
+        "Zvážiť, že jeden z rodičov môže mať nediagnostikovanú dyslexiu — rozhovor môže prebudiť ťažké spomienky.",
+        "Vyhnúť sa ukazovaniu pracovných listov s množstvom červených chýb bez kontextu.",
+        "Byť konkrétny v úpravách: texty v audio, čítanie bez časového tlaku.",
+      ]},
+      { items: [
+        "Zhoršujúce sa akademické sebavedomie (\"som hlúpy\", \"neviem to\").",
+        "Systematické vyhýbanie sa úlohám čítania/písania natoľko, že ohrozuje iné predmety.",
+        "Výrazný rozdiel medzi ústnym a písomným výkonom bez formálnej diagnózy.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Ťažkosti s neohlásennými zmenami — zmena rozvrhu, triedy, zastupujúceho učiteľa.",
+        "Doslovná komunikácia — stráca nuansy, iróniu, idiomatické výrazy.",
+        "Zmyslová citlivosť — žiarivkové svetlo, hluk na pozadí, štítky na oblečení môžu byť neznesiteľné.",
+        "Sústredené a hlboké záujmy o konkrétne témy.",
+        "Môže sa zdať nezaujatý alebo vzdialený, keď je preťažený — nie nezainteresovaný.",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> lineárna škála (\"viac\" alebo \"menej\" autistický) — je to multidimenzionálny profil.",
+        "<strong>Nie je to</strong> nedostatok empatie — často je to opak, ťažkosti s filtráciou.",
+        "<strong>Nie je to</strong> zlé správanie, keď sa rutina preruší — je to skutočná neurologická odpoveď.",
+      ]},
+      { items: [
+        "Vopred oznámiť akúkoľvek zmenu rutiny, aj zdanlivo triviálnu.",
+        "Urobiť implicitné sociálne pravidlá explicitnými (čo sa robí, čo nie, kedy).",
+        "Umožniť zmyslové prestávky v tichom priestore, keď je to potrebné.",
+        "Využiť sústredený záujem ako vstupný bod pre učebné obsahy.",
+      ]},
+      { items: [
+        "Ak existuje diagnóza, najprv sa opýtať, čo rodina vie, že funguje.",
+        "Ak nie je diagnóza, opísať konkrétne situácie bez použitia slova \"autizmus\" na prvom stretnutí.",
+        "Oceniť úsilie rodiny — vytváranie štruktúry a predvídateľnosti doma je náročné.",
+        "Nikdy neporovnávať s inými žiakmi — každý profil spektra je iný.",
+      ]},
+      { items: [
+        "Časté záchvaty (\"meltdowns\") po školskom dni.",
+        "Pretrvávajúce odmietanie školy spojené so zmyslovým preťažením.",
+        "Progresívna sociálna izolácia napriek pokusom o mediáciu.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Rukopis ťažký, pomalý, často nečitateľný — nie z nedbalosti, ale pre skutočné motorické ťažkosti.",
+        "Ťažkosti s priestorovou organizáciou zošita, správou pomôcok, sekvenciami krokov.",
+        "Môže sa zdať \"nemotorný\" — prelieva poháre, naráža do nábytku, má ťažkosti v športe.",
+        "Neprimeraná únava po úlohách vyžadujúcich dlhodobú jemnú motorickú koordináciu.",
+        "Kognitívna zložka je zvyčajne zachovaná — časté frustrácie medzi vedieť a ukázať.",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> lenivosť ani nedostatok snahy.",
+        "<strong>Nie je to</strong> len zlý rukopis — ovplyvňuje plánovanie a sekvencovanie úloh.",
+        "<strong>Nevyrieši sa</strong> tým, že bude viac \"cvičiť písanie\".",
+      ]},
+      { items: [
+        "Umožniť používanie klávesnice/tabletu pri rozsiahlej písomnej tvorbe.",
+        "Znížiť mechanické prepisovanie z tabule — poskytnúť poznámky, keď je to relevantné.",
+        "Poskytnúť explicitné kontrolné zoznamy pre úlohy s viacerými krokmi.",
+        "Hodnotiť produkt podľa obsahu, nie podľa fyzickej prezentácie.",
+      ]},
+      { items: [
+        "Vysvetliť, čo je dyspraxia, jednoduchým jazykom — väčšina rodičov tento termín nikdy nepočula.",
+        "Nečitateľný rukopis je najväčším konfliktným bodom — ukázať, že hodnotenie teraz oceňuje obsah, pomáha.",
+        "Navrhnúť praktické nástroje: diktovanie hlasom pre poznámky, klávesnica pre rozsiahlejšie práce.",
+        "Ak existuje história \"je lenivý/á\" z predchádzajúcich rokov, pomenovať to priamo.",
+      ]},
+      { items: [
+        "Úplné odmietanie písomnej produkcie.",
+        "Sociálna izolácia v kontexte fyzickej aktivity.",
+        "Príznaky somatizovanej úzkosti pred písomnými skúškami.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Dokončí úlohy za minúty, kým triede trvá celá hodina.",
+        "Kladie otázky presahujúce rozsah učiva — alebo aktívne spochybňuje to, čo sa vyučuje.",
+        "Môže sa zdať nezaujatý, nedisciplinovaný alebo apatický — často znaky chronickej nudy.",
+        "Zvýšená emocionálna citlivosť; môže byť úzkostlivý, perfekcionistický alebo neprimerane náročný na seba.",
+        "Skutočné riziko nedostatočného výkonu — naučí sa skrývať schopnosti, aby nevynikal sociálne.",
+      ]},
+      { items: [
+        "<strong>Nie je</strong> synonymom dobrého správania alebo dobrých výsledkov — mnohí nadaní žiaci majú priemerné známky pre nezáujem.",
+        "<strong>Nie je</strong> \"nepotrebuje pomoc\" — potrebuje iné výzvy, nie menej pozornosti.",
+        "<strong>Nie je</strong> nezlučiteľné s neurodivergenciou — dvojnásobne výnimočný (2e) existuje a je bežný.",
+      ]},
+      { items: [
+        "Vždy mať pripravené rozširujúce úlohy — nie viac toho istého, ale hlbší alebo aplikovaný obsah.",
+        "Umožniť nezávislý výskum na témy záujmu žiaka v rámci programu.",
+        "Hodnotiť podľa náročnosti, nie jednoduchosti — žiadať náročnejšie práce výmenou za menší objem.",
+        "Uznávať a potvrdzovať emocionálnu citlivosť bez patologizovania.",
+      ]},
+      { items: [
+        "Predvídať rodičovskú hrdosť a presmerovať ju: práve schopnosť robí nudu problémom.",
+        "Vysvetliť paradox: dobré výsledky neznamenajú, že sa mu/jej darí.",
+        "Ak žiak skrýva schopnosti, aby sa sociálne zaradil, pomenovať to opatrne — je to znak trápenia.",
+        "Navrhnúť rodičom, aby cenili proces viac ako výsledok: zvedavosť a hĺbka sú dôležitejšie ako jednoduché vysoké známky.",
+      ]},
+      { items: [
+        "Príznaky úzkosti alebo depresie spojené s extrémnym perfekcionizmom.",
+        "Sociálna izolácia z pocitu \"odlišnosti\" od rovesníkov.",
+        "Náhly pokles výkonu u žiaka predtým identifikovaného ako schopného.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Rozumie oveľa menej, ako sa zdá — môže prikývnuť bez toho, aby pochopil.",
+        "Zdanlivo nízky akademický výkon, často neúmerný skutočnej schopnosti.",
+        "Ticho v triede — môže byť adaptívna stratégia, nie nezáujem.",
+        "Môže byť vyčerpaný na konci dňa z duševného prekladu v reálnom čase.",
+        "Riziko poddiagnosovania skutočných vzdelávacích potrieb pripisovaním všetkého jazykovej bariére.",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> nedostatok inteligencie alebo schopností.",
+        "<strong>Nie je to</strong> len otázka času — bez explicitnej podpory sa mnohí žiaci stabilizujú na nízkej funkčnej úrovni.",
+        "<strong>Nevyrieši sa</strong> automatickým prekladom počas hodiny — je to proces na roky.",
+      ]},
+      { items: [
+        "Poskytovať materiály s kľúčovou slovnou zásobou preloženou do materinského jazyka.",
+        "Hodnotiť vedomosti vizuálnou alebo praktickou demonštráciou, kedykoľvek je to možné.",
+        "Sparovať s dvojjazyčným spolužiakom pre neformálnu mediáciu v kľúčových momentoch.",
+        "Prijímať počiatočné výstupy s gramatickými chybami — v prvej fáze opravovať obsah, nie formu.",
+      ]},
+      { items: [
+        "Samotné stretnutie je bariéra — rodičia nemusia hovoriť slovenčinu dostatočne plynule; pripraviť písomné materiály vopred alebo zabezpečiť tlmočenie.",
+        "Nepredpokladať, že rodičia poznajú slovenský vzdelávací systém — vysvetliť, čo je CPPPaP, čo je opatrenie podpory, čo obnáša hodnotenie.",
+        "Jasne oddeliť jazykovú bariéru od akademickej schopnosti: \"vaše dieťa je schopné — učí sa jazyk súčasne s obsahom, čo je veľmi náročné\".",
+        "Byť citlivý na migračný kontext — rodiny utečencov alebo v neistej situácii môžu nedôverovať inštitúciám.",
+      ]},
+      { items: [
+        "Príznaky sociálnej izolácie alebo šikanovania spojené so statusom zahraničného žiaka.",
+        "Stagnácia v jazykovej akvizícii po prvom roku.",
+        "Príznaky traumy spojené s migračným kontextom (najmä utečenci).",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Údaje maloletých podliehajú posilnenej ochrane (čl. 8 GDPR). Súhlas rodičov je povinný.",
+        "Overiť, kde nástroj uchováva údaje — európske alebo neeurópske servery, anonymizované alebo nie.",
+        "Nikdy nezadávať celé mená, adresy, identifikačné čísla ani klinické diagnózy do generatívnych nástrojov AI.",
+        "Rozlišovať inštitucionálne použitie (škola podpisuje zmluvu) od osobného použitia učiteľa (individuálna zodpovednosť).",
+      ]},
+      { items: [
+        "Systémy trénované prevažne na anglickom jazyku môžu mať horší výkon v iných jazykových kontextoch.",
+        "Automatické odporúčania môžu zosilňovať stereotypy rodu, etnicity alebo triedy — kriticky overovať.",
+        "Modely \"predikcie akademického rizika\" často reprodukujú existujúce nerovnosti.",
+      ]},
+      { items: [
+        "Cieľom je zvyšovanie autonómie žiaka, nie nahradenie kognitívnej práce, ktorá ho rozvíja.",
+        "Rozlišovať <strong>prístupový nástroj</strong> (text na reč pre dyslexiu) od <strong>substitučného nástroja</strong> (AI píše sloh).",
+        "Pravidelne vyhodnocovať: rozvíja žiak kompetenciu, alebo závislosť od nástroja?",
+      ]},
+      { items: [
+        "<strong>1.</strong> Rieši nástroj skutočnú bariéru alebo vytvára skratku, ktorá obchádza učenie?",
+        "<strong>2.</strong> Sú zadané údaje chránené a existuje súhlas?",
+        "<strong>3.</strong> Bude výstup nástroja overený človekom pred doručením žiakovi?",
+        "<strong>4.</strong> Existuje alternatíva bez AI, ktorá funguje rovnako dobre?",
+        "<strong>5.</strong> Ak nástroj zajtra prestane existovať, zostane žiak bez pomoci?",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Vybaviť kolegov pre zodpovednú integráciu AI vo vyučovaní, s tvorbou materiálov prispôsobiteľných rôznym profilom učenia.",
+        "Nie je to prezentácia — je to spoločná tvorba. Každý účastník odchádza s aspoň jedným zdrojom pripraveným na testovanie.",
+      ]},
+      { items: [
+        "<strong>0–10 min:</strong> Rámovanie — problém heterogénnej triedy a prečo viac toho istého nefunguje.",
+        "<strong>10–25 min:</strong> Mapa profilov — prezentácia šiestich kariet Farol so skutočnými (anonymizovanými) prípadmi.",
+        "<strong>25–45 min:</strong> Praktická ukážka — tri nástroje, tri prípady použitia, tri odlišné profily.",
+        "<strong>45–75 min:</strong> Práca vo dvojiciach — každá dvojica prispôsobuje existujúci materiál pre konkrétny profil.",
+        "<strong>75–85 min:</strong> Rýchle zdieľanie — každá dvojica prezentuje svoj produkt za 1 minútu.",
+        "<strong>85–90 min:</strong> Záväzky — každý účastník definuje jeden materiál na testovanie a naplánuje spätnú väzbu za 30 dní.",
+      ]},
+      { items: [
+        "Prístup na internet a inštitucionálne účty v demonštrovaných nástrojoch.",
+        "Existujúce materiály každého účastníka (pracovný list, test alebo plán hodiny).",
+        "Vytlačené profilové karty Farol na konzultáciu.",
+      ]},
+      { items: [
+        "Každý účastník vytvorí aspoň jeden prispôsobený materiál počas sedenia.",
+        "Spätnoväzobné sedenie za 30 dní s aspoň 60 % účastníkov hlásiaci efektívnu implementáciu.",
+        "Aspoň jeden materiál vytvorený počas sedenia je prijatý ako zdieľaný zdroj katedry.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Zákon č. 245/2008 Z.z. (Školský zákon) tvorí základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami (ŠVVP); inkluzívne vzdelávanie je štátnou politikou.",
+        "Vyhláška č. 325/2008 Z.z. o špeciálnych výchovno-vzdelávacích potrebách upravuje podmienky vzdelávania žiakov s postihnutím a vývojovými poruchami učenia.",
+        "Slovensko ratifikovalo Dohovor OSN o právach osôb so zdravotným postihnutím; školy sú povinné vytvárať inkluzívne podmienky.",
+      ]},
+      { items: [
+        "Individuálny prístup a diferenciácia vyučovania sú základnou povinnosťou každého pedagóga bez formálnej dokumentácie.",
+        "Základné adaptácie (viac času, písomné pokyny, strategické umiestnenie) nevyžadujú špeciálne schválenie — zodpovednosť každého učiteľa.",
+        "Škola je povinná vytvoriť podmienky pre každého žiaka v rámci svojich kapacít.",
+      ]},
+      { items: [
+        "Centrum pedagogicko-psychologického poradenstva a prevencie (CPPPaP) vykonáva odborné hodnotenie a vydáva odporúčania pre školu.",
+        "Individuálny výchovno-vzdelávací program (IVVP) vypracúva škola v spolupráci s CPPPaP a rodičmi; je záväzný pre všetkých vyučujúcich.",
+        "Asistent učiteľa môže byť pridelený žiakom s vyššími potrebami na základe odporúčania CPPPaP.",
+        "Špeciálny pedagóg v škole alebo v CPPPaP koordinuje podporu a metodicky usmerňuje ostatných učiteľov.",
+      ]},
+      { items: [
+        "Nadaní žiaci sú zahrnutí v §105–106 Školského zákona 245/2008; majú nárok na IVVP prispôsobený ich potrebám.",
+        "Gymnáziá pre mimoriadne nadaných žiakov ponúkajú špecializované programy; rozširujúce programy a krúžky sú dostupné na bežných školách.",
+        "V praxi je identifikácia nadania nedostatočná — CPPPaP môže vykonať hodnotenie a odporučiť vhodné opatrenia.",
+      ]},
+      { items: [
+        "Metodické usmernenie MŠVVaŠ SR upravuje vzdelávanie žiakov cudzincov a žiakov neovládajúcich slovenský jazyk.",
+        "Slovenčina ako cudzí jazyk je dostupná ako podpora; prípravný ročník je určený pre žiakov s nulovou alebo minimálnou znalosťou slovenčiny.",
+        "Jazyková bariéra nie je dôvodom na zaradenie do špeciálneho vzdelávania — pred referenciou je potrebné vylúčiť jazykovú príčinu ťažkostí.",
+      ]},
+      { items: [
+        "<strong>Zákon č. 245/2008 Z.z.</strong> — základný rámec vzdelávania žiakov so ŠVVP.",
+        "<strong>Vyhláška č. 325/2008 Z.z.</strong> — špeciálne výchovno-vzdelávacie potreby.",
+        "<strong>CPPPaP</strong> — centrum poradenstva, psychológie a prevencie.",
+        "<strong>IVVP</strong> — individuálny výchovno-vzdelávací program.",
+        "<strong>Asistent učiteľa</strong> — podpora pre žiakov s vyššími potrebami.",
+      ]},
+    ]},
+  },
+
+  hu: {
+    tdah: { sections: [
+      { items: [
+        "Nehézségek a figyelem fenntartásában hosszú feladatoknál; elveszíti a fonalat többlépéses utasításoknál.",
+        "Állandó mozgás — nem marad ülve, keze folyamatosan mozog, látszólagos ok nélkül feláll.",
+        "Válaszol, mielőtt a kérdés befejeződne; megszakítja a társakat és a tanárt.",
+        "Elfelejti a felszerelést, a határidőket, a percekkel korábban szóban adott utasításokat.",
+        "Képes hiperfókuszálni az érdeklődési körébe eső dolgokra, ezzel (tévesen) azt a benyomást keltve, hogy „meg tudja csinálni, ha akar”.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> rossz neveltetés, lustaság vagy jellemhiba.",
+        "<strong>Nem</strong> mindig látható hiperaktivitás — létezik a főként figyelemhiányos ADHD (lányoknál gyakoribb, sokszor aluldiagnosztizált).",
+        "<strong>Nem oldódik meg</strong> azzal, hogy „jobban próbálkozik\" — a probléma neurológiai, nem motivációs.",
+      ]},
+      { items: [
+        "Lépésenként adott utasítások: egyszerre egy, táblára írva, meghatározott időkerettel.",
+        "Legális mozgás engedélyezése (anyagok osztogatása, üzenet az iskolapszichológusnak).",
+        "Versengő ingerek csökkentése (ülőhely az ablaktól, ajtótól és a leghangosabb csoporttól távolabb).",
+        "Azonnali pozitív megerősítés — a neurológiai jutalmazási ciklus az ADHD-ban rövidebb.",
+      ]},
+      { items: [
+        "Kezdje azzal, amit a tanuló jól csinál — a megbeszélés nem kezdődhet panaszlistával.",
+        "Megfigyelt viselkedést írjon le, ne diagnózist: „ha kettőnél több lépés van egymás után, elveszíti a fonalat\".",
+        "Számítson a „otthon nem így van\" reakcióra — a csoportos kontextus láthatóbbá teszi a tüneteket.",
+        "Ha pszichológiai vizsgálatot javasol, mutassa be segítségként, ne büntetésként.",
+      ]},
+      { items: [
+        "Tartós fegyelmezési nehézségek az osztálytermi adaptációk ellenére.",
+        "Kortársakkal való szociális kirekesztés jelei.",
+        "Komorbiditás jelei (szorongás, depresszió, oppozíciós zavar).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Lassan és akadozva olvas, még szóban megértett szövegekben is.",
+        "Vizuálisan hasonló betűket kever (b/d, p/q); megfordítja a betűk sorrendjét szavakon belül.",
+        "Tartós helyesírási hibák, amelyek nem reagálnak az ismételt javításra.",
+        "Kerüli a hangos olvasást; úgy tűnhet, nem akar részt venni, valójában önmagát védi.",
+        "Szóbeli megértése sokkal jobb az írásosnál.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> intelligenciahiány — a diszlexia független az IQ-tól.",
+        "<strong>Nem</strong> csak „betűcsere\" — fonológiai feldolgozási zavar.",
+        "<strong>Nem \"gyógyítható\"</strong> — kompenzáló stratégiákkal kezelhető egész életen át.",
+      ]},
+      { items: [
+        "Adaptált tipográfiájú szövegek biztosítása (OpenDyslexic vagy hasonló; növelt sorköz).",
+        "Csendes olvasás engedélyezése bármilyen hangos olvasás előtt — soha ne szólítsa fel váratlanul.",
+        "A tartalom értékelése elkülönítve a helyesírástól, ha a cél a tudás felmérése.",
+        "Több formátum ajánlása ugyanahhoz az információhoz (videó, hang, ábrák).",
+      ]},
+      { items: [
+        "Az olvasást és az intelligenciát egyértelműen szét kell választani az elejétől: „a gyermeke nagyon jól ért, amikor hallgat\".",
+        "Számoljon azzal, hogy az egyik szülőnek nem diagnosztizált diszlexiája lehet — a beszélgetés nehéz emlékeket ébreszthet.",
+        "Kerülje a sok piros javítással teli lapok megmutatását kontextus nélkül.",
+        "Legyen konkrét az alkalmazkodásban: hangos szövegek, időnyomás nélküli olvasás.",
+      ]},
+      { items: [
+        "Romló akadémiai önkép („buta vagyok\", „nem megy\").",
+        "Az olvasási/írási feladatok szisztematikus kerülése más tantárgyakat is veszélyezteti.",
+        "Feltűnő különbség a szóbeli és írásos teljesítmény között formális diagnózis nélkül.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Nehézségek a bejelentés nélküli változásokkal — órarend, terem, helyettesítő tanár.",
+        "Szó szerinti kommunikáció — elvesznek az árnyalatok, az irónia, az idiómák.",
+        "Érzékszervi érzékenység — a fénycsöves lámpa, a háttérzaj, a ruha-etikettje elviselhetetlen lehet.",
+        "Fókuszált és mély érdeklődés meghatározott témák iránt.",
+        "Terheltségkor érdektelennek vagy távolinak tűnhet — nem közömbös.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> lineáris skála („több\" vagy „kevesebb\" autista) — multidimenzionális profil.",
+        "<strong>Nem</strong> empátiahiány — sokszor az ellenkezője, a szűrés nehézsége.",
+        "<strong>Nem</strong> rossz magatartás, amikor egy rutin megszakad — valódi neurológiai reakció.",
+      ]},
+      { items: [
+        "Előzetesen értesítsen minden rutinváltozásról, még a látszólag triviálisokról is.",
+        "Az implicit szociális szabályokat tegye explicitté (mit kell tenni, mit nem, mikor).",
+        "Szükség esetén érzékszervi szünetet engedélyezzen csendes térben.",
+        "A fókuszált érdeklődést használja belépési pontként a tananyaghoz.",
+      ]},
+      { items: [
+        "Ha van diagnózis, először kérdezze meg, mit tud a szülő arról, ami működik.",
+        "Ha nincs diagnózis, konkrét helyzeteket írjon le az „autizmus\" szó használata nélkül az első megbeszélésen.",
+        "Ismerje el a szülők erőfeszítéseit — a struktúra és kiszámíthatóság megteremtése otthon megterhelő.",
+        "Soha ne hasonlítsa más tanulókhoz — minden spektrumprofil különböző.",
+      ]},
+      { items: [
+        "Gyakori összeomlások (\"meltdowns\") az iskolai nap után.",
+        "Tartós iskolakerülés érzékszervi túlterhelés miatt.",
+        "Fokozódó szociális elszigeteltség a közvetítési kísérletek ellenére.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Kézírás nehéz, lassú, sokszor olvashatatlan — nem hanyagságból, hanem valódi motoros nehézség miatt.",
+        "Nehézségek a füzet térbeli szervezésével, az eszközök kezelésével, a lépések sorba rendezésével.",
+        "Ügyetlennek tűnhet — feldönti a poharakat, beütközik a bútorokba, nehezére esik a testnevelés.",
+        "Aránytalanul fáradt tartós finommotoros koordinációt igénylő feladatok után.",
+        "A kognitív összetevő általában megmarad — a tudás és a megmutatás közötti frusztráció állandó.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> lustaság vagy igyekezethiány.",
+        "<strong>Nem</strong> csak rossz kézírás — érinti a tervezést és a feladatok sorba rendezését.",
+        "<strong>Nem oldódik meg</strong> azzal, hogy „többet gyakorolja az írást\".",
+      ]},
+      { items: [
+        "Billentyűzet/táblagép használatának engedélyezése hosszabb írásos munkáknál.",
+        "A tábláról való mechanikus másolás csökkentése — szükség esetén jegyzetek biztosítása.",
+        "Explicit ellenőrzőlisták biztosítása többlépéses feladatokhoz.",
+        "A termék értékelése tartalom szerint, nem fizikai megjelenés alapján.",
+      ]},
+      { items: [
+        "A diszpraxiát egyszerű nyelven magyarázza el — a szülők többsége soha nem hallotta a szót.",
+        "Az olvashatatlan kézírás a legnagyobb konfliktuspont — annak megmutatása, hogy az értékelés most a tartalmat értékeli, segít.",
+        "Javasoljon praktikus otthoni eszközöket: hangrögzítés jegyzetekhez, billentyűzet hosszabb írásokhoz.",
+        "Ha előző évekből „lusta\" jelzők vannak, nevesítse azt közvetlenül.",
+      ]},
+      { items: [
+        "Az írásos produkció teljes elutasítása.",
+        "Szociális elszigeteltség fizikai aktivitás összefüggésében.",
+        "Szomatizált szorongás jelei írásos értékelések előtt.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Percek alatt befejezi a feladatokat, miközben az osztálynak az egész óra kell.",
+        "A tananyag keretein kívülre mutató kérdéseket tesz fel — vagy aktívan megkérdőjelezi, amit tanítanak.",
+        "Érdektelennek, fegyelmezetlennek vagy apátiásnak tűnhet — ez gyakran a krónikus unalom jele.",
+        "Fokozott érzelmi érzékenység; szorongó, perfekcionista, vagy igazságtalanul sokat vár magától.",
+        "Valódi alulteljesítési kockázat — megtanulja elrejteni képességeit, hogy ne tűnjön ki szociálisan.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> szinonimája a jó viselkedésnek vagy jó eredményeknek — sok tehetséges diáknak közepes jegyei vannak az érdektelenség miatt.",
+        "<strong>Nem</strong> „nincs szüksége segítségre\" — más kihívásokra van szüksége, nem kevesebb figyelemre.",
+        "<strong>Nem</strong> összeegyeztethetetlen a neurodiverziával — a kétszeresen kivételes (2e) létezik és gyakori.",
+      ]},
+      { items: [
+        "Mindig legyen kész bővítő feladat — nem több ugyanabból, hanem mélyebb vagy alkalmazott tartalom.",
+        "Engedje meg az önálló kutatást az érdeklődési körébe eső témákban a tanterv keretein belül.",
+        "A kihívás szerint értékelje, ne a könnyűség szerint — igényesebb munkát kérjen kisebb mennyiségért cserébe.",
+        "Ismerje el és erősítse meg az érzelmi érzékenységet anélkül, hogy patologizálná.",
+      ]},
+      { items: [
+        "Számítson a szülői büszkeségre és irányítsa át: éppen a képesség teszi az unalmat problémává.",
+        "Magyarázza el a paradoxont: a jó eredmények nem azt jelentik, hogy jól van.",
+        "Ha a tanuló elrejti képességét a beilleszkedés érdekében, nevesítse óvatosan — ez szenvedés jele.",
+        "Javasolja a szülőknek, hogy az eredmény helyett az folyamatot értékeljék: a kíváncsiság és a mélység fontosabb az egyszerű jó jegyeknél.",
+      ]},
+      { items: [
+        "Szorongás vagy depresszió jelei extrém perfekcionizmushoz kapcsolódva.",
+        "Szociális elszigeteltség a társaitól való „különbözőség\" érzése miatt.",
+        "Hirtelen alulteljesítés egy korábban képesnek azonosított tanulónál.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Sokkal kevesebbet ért, mint amennyit mutat — bólinthat anélkül, hogy megértett volna.",
+        "Látszólag alacsony tanulmányi teljesítmény, sokszor aránytalanul alacsony a valódi képességhez képest.",
+        "Csend az osztályban — adaptív stratégia lehet, nem érdektelenség.",
+        "A nap végére kimerülhet a valós idejű mentális fordítástól.",
+        "A valódi tanulási szükségletek (diszlexia, ADHD stb.) aluldiagnosztizálásának kockázata, mert mindent a nyelvi akadálynak tulajdonítanak.",
+      ]},
+      { items: [
+        "<strong>Nem</strong> intelligencia- vagy képességhiány.",
+        "<strong>Nem</strong> csupán idő kérdése — kifejezett támogatás nélkül sok tanuló alacsony funkcionális szinten marad.",
+        "<strong>Nem oldódik meg</strong> automatikus fordítással az óra alatt — ez évekig tartó folyamat.",
+      ]},
+      { items: [
+        "Anyanyelvére lefordított kulcsszókinccsel ellátott anyagok biztosítása.",
+        "Vizuális vagy gyakorlati demonstrációval való tudásértékelés, ahol lehetséges.",
+        "Kétnyelvű diáktárssal való párosítás informális közvetítéshez a kritikus pillanatokban.",
+        "A grammatikai hibákkal teli kezdeti produktumok elfogadása — az első fázisban a tartalmat javítsa, ne a formát.",
+      ]},
+      { items: [
+        "Maga a megbeszélés is akadály — a szülők nem feltétlenül beszélnek magyarul elégséges szinten; tolmács vagy írásos anyagok szükségesek.",
+        "Ne tételezze fel, hogy a szülők ismerik a magyar oktatási rendszert — magyarázza el, mi a PSZI, mi egy támogató intézkedés.",
+        "Egyértelműen különítse el a nyelvi akadályt az akadémiai képességtől.",
+        "Legyen érzékeny a migrációs kontextusra — menekült vagy bizonytalan helyzetű családok bizalmatlanok lehetnek az intézményekkel szemben.",
+      ]},
+      { items: [
+        "Szociális elszigeteltség vagy zaklatás jelei a külföldi tanuló státuszához kapcsolódva.",
+        "Stagnálás a nyelvi elsajátításban az első év után.",
+        "Traumára utaló jelek a migrációs kontextusban (különösen menekülteknél).",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "A kiskorúak adatai fokozott védelemnek vannak alávetve (GDPR 8. cikk). A szülői hozzájárulás kötelező.",
+        "Ellenőrizze, hol tárolja az eszköz az adatokat — európai vagy nem európai szerverek, anonimizált-e.",
+        "Soha ne adjon meg teljes neveket, lakcímeket, személyi azonosítókat vagy klinikai diagnózisokat generatív AI eszközökhöz.",
+        "Különböztesse meg az intézményi használatot (iskola szerződést köt) a személyes tanári használattól (egyéni felelősség).",
+      ]},
+      { items: [
+        "A túlnyomórészt angol nyelvű adatokkal betanított rendszerek más nyelvi kontextusokban gyengébben teljesíthetnek.",
+        "Az automatikus ajánlások felerősíthetnek nemi, etnikai vagy osztályalapú sztereotípiákat — kritikusan ellenőrizze.",
+        "Az „akadémiai kockázat-előrejelzési\" modellek gyakran reprodukálják a meglévő egyenlőtlenségeket.",
+      ]},
+      { items: [
+        "A cél a tanuló autonómiájának növelése, nem a fejlesztő kognitív munka helyettesítése.",
+        "Különböztesse meg a <strong>hozzáférési eszközt</strong> (szöveg-felolvasó diszlexiásoknak) a <strong>helyettesítési eszköztől</strong> (AI írja a dolgozatot).",
+        "Rendszeresen értékelje: a tanuló kompetenciát fejleszt, vagy függőséget az eszköztől?",
+      ]},
+      { items: [
+        "<strong>1.</strong> Az eszköz valódi akadályt old meg, vagy olyan rövidítést teremt, amely kikerüli a tanulást?",
+        "<strong>2.</strong> A bevitt adatok védve vannak és a hozzájárulás megvan?",
+        "<strong>3.</strong> Az eszköz eredményét egy ember ellenőrzi, mielőtt a tanulóhoz kerül?",
+        "<strong>4.</strong> Van AI nélküli alternatíva, amely ugyanolyan jól működik?",
+        "<strong>5.</strong> Ha az eszköz holnap megszűnik, a tanuló magára marad?",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Felkészíteni a kollégákat az AI felelős integrálására az oktatásban, különböző tanulási profilokhoz igazítható anyagok készítésével.",
+        "Ez nem előadás — közös alkotás. Minden résztvevő legalább egy tesztelésre kész anyaggal távozik.",
+      ]},
+      { items: [
+        "<strong>0–10 perc:</strong> Keretezés — a heterogén osztály problémája és miért nem működik a több ugyanolyan.",
+        "<strong>10–25 perc:</strong> Profilok térképe — a hat Farol kártya bemutatása valódi (anonimizált) esetekkel.",
+        "<strong>25–45 perc:</strong> Gyakorlati bemutató — három eszköz, három felhasználási eset, három különböző profil.",
+        "<strong>45–75 perc:</strong> Páros munka — minden pár egy meglévő anyagot igazít egy adott profilhoz.",
+        "<strong>75–85 perc:</strong> Gyors megosztás — minden pár 1 percben bemutatja a termékét.",
+        "<strong>85–90 perc:</strong> Vállalások — minden résztvevő meghatároz egy tesztelendő anyagot és 30 napos visszajelzési alkalmat tervez.",
+      ]},
+      { items: [
+        "Internetelérés és intézményi fiókok a bemutatott eszközökhöz.",
+        "Minden résztvevő meglévő anyagai (egy feladatlap, egy dolgozat vagy egy óravázlat).",
+        "Kinyomtatott Farol profil kártyák a konzultációhoz.",
+      ]},
+      { items: [
+        "Minden résztvevő legalább egy adaptált anyagot készít az ülés során.",
+        "30 napos visszajelzési alkalom a résztvevők legalább 60%-ával, akik hatékony implementációt jelentenek.",
+        "Az ülés során készített legalább egy anyagot osztott tanszéki erőforrásként fogadják el.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "A 2011. évi CXC. törvény a nemzeti köznevelésről (Nkt.) meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit és intézményi kötelezettségeit.",
+        "A 32/2012. (X. 8.) EMMI rendelet az SNI tanulók iskolai oktatásának irányelvéről részletesen szabályozza a különböző fogyatékossági típusokhoz szükséges feltételeket.",
+        "Magyarország ratifikálta az ENSZ Egyezményt a fogyatékossággal élők jogairól; az inkluzív oktatás állami célkitűzés.",
+      ]},
+      { items: [
+        "A differenciált oktatás és adaptív pedagógia minden pedagógus kötelessége diagnózis nélkül is — az intézmény köteles befogadó környezetet biztosítani.",
+        "Alapszintű adaptációk (hosszabb idő, írásos utasítások, stratégiai ültetés) nem igényelnek szakértői véleményt — minden tanár felelőssége.",
+        "Az iskolának pedagógiai módszerek tekintetében rugalmasnak kell lennie minden tanuló igényeire.",
+      ]},
+      { items: [
+        "A Pedagógiai Szakszolgálat (PSZI) végzi a szakértői vizsgálatot és adja ki a szakértői véleményt, amely meghatározza a szükséges támogatásokat.",
+        "Az egyéni fejlesztési terv (EFT) az iskola és a PSZI közreműködésével, a szülők bevonásával készül; minden érintett pedagógusra kötelező.",
+        "Gyógypedagógiai asszisztens és utazótanár igényelhető a jelentősebb szükségletű tanulók esetén a szakértői vélemény alapján.",
+        "A szülő/gondviselő aláírása kötelező az egyéni fejlesztési terven; éves felülvizsgálat szükséges.",
+      ]},
+      { items: [
+        "Az Nkt. 4. §25 alapján a tehetséggondozás az iskola kötelessége; a MATEHETSZ Tehetségpont hálózat módszertani támogatást nyújt.",
+        "Osztályugratás az Nkt. alapján lehetséges; az iskola döntése, amelyhez a szülő és a tanuló hozzájárulása szükséges.",
+        "A tehetséges tanulók azonosítása és támogatása a gyakorlatban hiányos — a PSZI tehetségdiagnosztikát végezhet.",
+      ]},
+      { items: [
+        "Az Nkt. 45. § alapján felkészítő foglalkozás szervezhető a magyar nyelvet nem ismerő tanulók számára az iskolakezdés előtt vagy az első időszakban.",
+        "A magyar mint idegen nyelv (MNyI) oktatása elérhető, koordinálja az Oktatási Hivatal; nem állítható ki SNI-vélemény kizárólag a nyelvi akadály alapján.",
+        "A szülőkkel való kommunikációhoz szükséges esetén tolmács igénybevétele a befogadó iskola felelőssége.",
+      ]},
+      { items: [
+        "<strong>Nkt. 2011. évi CXC.</strong> — nemzeti köznevelési törvény, SNI-rendelkezésekkel.",
+        "<strong>32/2012. EMMI rendelet</strong> — SNI tanulók oktatásának irányelvei.",
+        "<strong>PSZI</strong> — Pedagógiai Szakszolgálat, szakértői vizsgálatokhoz.",
+        "<strong>Egyéni fejlesztési terv (EFT)</strong> — kötelező dokumentum SNI tanulóknál.",
+        "<strong>MNyI</strong> — magyar mint idegen nyelv program.",
+      ]},
+    ]},
+  },
+
+  el: {
+    tdah: { sections: [
+      { items: [
+        "Δυσκολία στη διατήρηση της προσοχής σε μακροχρόνιες εργασίες· χάνεται σε οδηγίες με πολλά βήματα.",
+        "Συνεχής κίνηση — δεν μένει καθισμένος/η, ανησυχεί, σηκώνεται χωρίς φανερό λόγο.",
+        "Απαντά πριν ολοκληρωθεί η ερώτηση· διακόπτει συμμαθητές και εκπαιδευτικό.",
+        "Ξεχνά υλικά, προθεσμίες, οδηγίες που δόθηκαν προφορικά λίγα λεπτά πριν.",
+        "Μπορεί να υπερεστιάζει σε κάτι που το ενδιαφέρει, δίνοντας την (εσφαλμένη) εντύπωση ότι «τα καταφέρνει όταν θέλει».",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> κακή συμπεριφορά, τεμπελιά ή έλλειψη χαρακτήρα.",
+        "<strong>Δεν είναι</strong> πάντα ορατή υπερκινητικότητα — υπάρχει ΔΕΠΥ κυρίως απροσεξίας (συχνότερη στα κορίτσια, συχνά υποδιαγνωσμένη).",
+        "<strong>Δεν λύνεται</strong> με «περισσότερη προσπάθεια» — το πρόβλημα είναι νευρολογικό, όχι κινητοποιητικό.",
+      ]},
+      { items: [
+        "Κατατμημένες οδηγίες: μία κάθε φορά, γραπτά στον πίνακα, με καθορισμένο χρόνο.",
+        "Να επιτρέπεται η νόμιμη κίνηση (διανομή υλικών, μήνυμα στον σχολικό ψυχολόγο).",
+        "Μείωση ανταγωνιστικών ερεθισμάτων (θέση μακριά από παράθυρο, πόρτα, πιο θορυβώδη ομάδα).",
+        "Άμεση θετική ενίσχυση — ο νευρολογικός κύκλος ανταμοιβής είναι πιο σύντομος στη ΔΕΠΥ.",
+      ]},
+      { items: [
+        "Να ξεκινάτε με ό,τι κάνει καλά ο μαθητής — η συνάντηση δεν μπορεί να αρχίζει ως κατάλογος παραπόνων.",
+        "Να περιγράφετε παρατηρούμενες συμπεριφορές, όχι διαγνώσεις: «όταν υπάρχουν πάνω από δύο βήματα, χάνει το νήμα».",
+        "Να προβλέπετε την αντίδραση «στο σπίτι δεν είναι έτσι» — το ομαδικό πλαίσιο κάνει τα συμπτώματα πιο ορατά.",
+        "Αν προτείνετε ψυχολογική αξιολόγηση, παρουσιάστε την ως πόρο, όχι ως τιμωρία.",
+      ]},
+      { items: [
+        "Επίμονη πειθαρχική αποτυχία παρά τις προσαρμογές στην τάξη.",
+        "Συμπτώματα κοινωνικής αποκλεισμού από τους συνομηλίκους.",
+        "Ενδείξεις συννοσηρότητας (άγχος, κατάθλιψη, διαταραχή εναντιωματικής πρόκλησης).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Διαβάζει αργά και με κόπο, ακόμα και σε κείμενα που κατανοεί προφορικά.",
+        "Μπερδεύει οπτικά παρόμοια γράμματα (β/δ, π/ρ)· αντιστρέφει τη σειρά γραμμάτων μέσα στις λέξεις.",
+        "Επίμονα ορθογραφικά λάθη που δεν βελτιώνονται με επανειλημμένη διόρθωση.",
+        "Αποφεύγει την ανάγνωση δυνατά· μπορεί να φαίνεται απρόθυμος/η να συμμετάσχει, ενώ στην πραγματικότητα αυτοπροστατεύεται.",
+        "Η προφορική κατανόηση είναι πολύ ανώτερη από τη γραπτή.",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> έλλειψη νοημοσύνης — η δυσλεξία είναι ανεξάρτητη από το IQ.",
+        "<strong>Δεν είναι</strong> απλώς «αντικατάσταση γραμμάτων» — είναι διαταραχή φωνολογικής επεξεργασίας.",
+        "<strong>Δεν «θεραπεύεται»</strong> — διαχειρίζεται με αντισταθμιστικές στρατηγικές σε όλη τη ζωή.",
+      ]},
+      { items: [
+        "Να παρέχετε κείμενα με προσαρμοσμένη τυπογραφία (OpenDyslexic ή παρόμοιο· αυξημένο διάστιχο).",
+        "Να επιτρέπεται η σιωπηλή ανάγνωση πριν από οποιαδήποτε ανάγνωση δυνατά — ποτέ χωρίς προειδοποίηση.",
+        "Να αξιολογείται το περιεχόμενο χωριστά από την ορθογραφία όταν στόχος είναι η αξιολόγηση γνώσεων.",
+        "Να προσφέρονται πολλαπλές μορφές για την ίδια πληροφορία (βίντεο, ήχος, διαγράμματα).",
+      ]},
+      { items: [
+        "Να διαχωρίζετε ρητά ανάγνωση και νοημοσύνη από την αρχή: «το παιδί σας κατανοεί πολύ καλά όταν ακούει».",
+        "Να λαμβάνετε υπόψη ότι ένας γονέας μπορεί να έχει αδιάγνωστη δυσλεξία — η συζήτηση μπορεί να ξυπνήσει δύσκολες αναμνήσεις.",
+        "Αποφύγετε να δείχνετε φύλλα εργασίας με πολλές κόκκινες διορθώσεις χωρίς πλαίσιο.",
+        "Να είστε συγκεκριμένοι στις προσαρμογές: ηχητικά κείμενα, ανάγνωση χωρίς χρονική πίεση.",
+      ]},
+      { items: [
+        "Επιδεινούμενη ακαδημαϊκή αυτοεικόνα («είμαι χαζός/ή», «δεν τα καταφέρνω»).",
+        "Συστηματική αποφυγή εργασιών ανάγνωσης/γραφής σε βαθμό που επηρεάζει άλλα μαθήματα.",
+        "Αισθητή διαφορά μεταξύ προφορικής και γραπτής επίδοσης χωρίς επίσημη διάγνωση.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Δυσκολία με αναπάντεχες αλλαγές — αλλαγή προγράμματος, αίθουσας, αναπληρωτή εκπαιδευτικού.",
+        "Κυριολεκτική επικοινωνία — χάνει αποχρώσεις, ειρωνεία, ιδιωματισμούς.",
+        "Αισθητηριακή ευαισθησία — φθορίζον φως, θόρυβος παρασκηνίου, ετικέτες ρούχων μπορεί να είναι ανυπόφορα.",
+        "Εστιασμένα και βαθιά ενδιαφέροντα για συγκεκριμένα θέματα.",
+        "Μπορεί να φαίνεται αδιάφορος/η ή αποστασιοποιημένος/η όταν είναι υπερφορτωμένος/η — όχι αποσυνδεδεμένος/η.",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> γραμμική κλίμακα («περισσότερο» ή «λιγότερο» αυτιστικός/ή) — είναι πολυδιάστατο προφίλ.",
+        "<strong>Δεν είναι</strong> έλλειψη ενσυναίσθησης — συχνά συμβαίνει το αντίθετο, δυσκολία φιλτραρίσματος.",
+        "<strong>Δεν είναι</strong> κακή συμπεριφορά όταν διακόπτεται μια ρουτίνα — είναι πραγματική νευρολογική απόκριση.",
+      ]},
+      { items: [
+        "Να ειδοποιείτε εκ των προτέρων για οποιαδήποτε αλλαγή ρουτίνας, ακόμα και φαινομενικά ασήμαντη.",
+        "Να κάνετε σιωπηρούς κοινωνικούς κανόνες ρητούς (τι πρέπει να γίνει, τι όχι, πότε).",
+        "Να επιτρέπονται αισθητηριακά διαλείμματα σε ήσυχο χώρο όταν χρειάζεται.",
+        "Να αξιοποιείτε το εστιασμένο ενδιαφέρον ως σημείο εισόδου για το αναλυτικό πρόγραμμα.",
+      ]},
+      { items: [
+        "Αν υπάρχει διάγνωση, ρωτήστε πρώτα τι γνωρίζει η οικογένεια ότι λειτουργεί.",
+        "Αν δεν υπάρχει διάγνωση, περιγράψτε συγκεκριμένες καταστάσεις χωρίς να χρησιμοποιείτε τη λέξη «αυτισμός» στην πρώτη συνάντηση.",
+        "Να αναγνωρίζετε την προσπάθεια της οικογένειας — η δημιουργία δομής και προβλεψιμότητας στο σπίτι είναι απαιτητική.",
+        "Ποτέ να μην συγκρίνετε με άλλους μαθητές — κάθε προφίλ φάσματος είναι διαφορετικό.",
+      ]},
+      { items: [
+        "Συχνές κρίσεις (\"meltdowns\") μετά τη σχολική ημέρα.",
+        "Επίμονη άρνηση σχολείου που συνδέεται με αισθητηριακή υπερφόρτωση.",
+        "Προοδευτική κοινωνική απομόνωση παρά τις προσπάθειες διαμεσολάβησης.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Γραφή δύσκολη, αργή, συχνά δυσανάγνωστη — όχι από αμέλεια αλλά λόγω πραγματικής κινητικής δυσκολίας.",
+        "Δυσκολία στη χωρική οργάνωση του τετραδίου, τη διαχείριση υλικών, την ακολουθία βημάτων.",
+        "Μπορεί να φαίνεται «άτσαλος/η» — ανατρέπει ποτήρια, χτυπάει σε έπιπλα, δυσκολεύεται στη γυμναστική.",
+        "Δυσανάλογη κόπωση μετά από εργασίες που απαιτούν συνεχή λεπτή κινητική συντονισμό.",
+        "Η γνωστική συνιστώσα διατηρείται γενικά — συχνή απογοήτευση μεταξύ «ξέρω» και «μπορώ να δείξω».",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> τεμπελιά ή έλλειψη προσπάθειας.",
+        "<strong>Δεν είναι</strong> απλώς κακή γραφή — επηρεάζει τον σχεδιασμό και την ακολουθία εργασιών.",
+        "<strong>Δεν λύνεται</strong> με «περισσότερη εξάσκηση γραφής».",
+      ]},
+      { items: [
+        "Να επιτρέπεται η χρήση πληκτρολογίου/tablet σε εκτεταμένες γραπτές εργασίες.",
+        "Να μειώνεται η μηχανική αντιγραφή από τον πίνακα — να παρέχονται σημειώσεις όταν είναι σκόπιμο.",
+        "Να παρέχονται ρητές λίστες ελέγχου για εργασίες με πολλά βήματα.",
+        "Να αξιολογείται το προϊόν βάσει περιεχομένου, όχι φυσικής παρουσίασης.",
+      ]},
+      { items: [
+        "Να εξηγείτε τη δυσπραξία με απλή γλώσσα — οι περισσότεροι γονείς δεν έχουν ακούσει τον όρο.",
+        "Η δυσανάγνωστη γραφή είναι το μεγαλύτερο σημείο τριβής — το να δείξετε ότι η αξιολόγηση πλέον εκτιμά το περιεχόμενο βοηθά.",
+        "Να προτείνετε πρακτικά εργαλεία για το σπίτι: υπαγόρευση φωνής για σημειώσεις, πληκτρολόγιο για εκτεταμένες εργασίες.",
+        "Αν υπάρχει ιστορικό ετικετών «τεμπέλης» από προηγούμενες χρονιές, να το ονομάζετε άμεσα.",
+      ]},
+      { items: [
+        "Πλήρης άρνηση γραπτής παραγωγής.",
+        "Κοινωνική απομόνωση σε πλαίσια σωματικής δραστηριότητας.",
+        "Ενδείξεις σωματοποιημένου άγχους πριν από γραπτές αξιολογήσεις.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Ολοκληρώνει εργασίες σε λίγα λεπτά ενώ η τάξη χρειάζεται ολόκληρη την ώρα.",
+        "Κάνει ερωτήσεις πέρα από το πεδίο του μαθήματος — ή αμφισβητεί ενεργά αυτό που διδάσκεται.",
+        "Μπορεί να φαίνεται αδιάφορος/η, αταξίες ή απαθής/η — συχνά σημάδια χρόνιας πλήξης.",
+        "Έντονη συναισθηματική ευαισθησία· μπορεί να είναι αγχώδης/ης, τελειομανής ή άδικα απαιτητικός/ή με τον εαυτό του/της.",
+        "Πραγματικός κίνδυνος υποεπίδοσης — μαθαίνει να κρύβει τις δυνατότητές του/της για να μην ξεχωρίζει κοινωνικά.",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> συνώνυμο καλής συμπεριφοράς ή καλών αποτελεσμάτων — πολλοί ταλαντούχοι μαθητές έχουν μέτριους βαθμούς λόγω αποδέσμευσης.",
+        "<strong>Δεν είναι</strong> «δεν χρειάζεται βοήθεια» — χρειάζεται διαφορετικές προκλήσεις, όχι λιγότερη προσοχή.",
+        "<strong>Δεν είναι</strong> ασύμβατο με νευροαπόκλιση — ο διπλά εξαιρετικός/ή (2e) υπάρχει και είναι συχνός.",
+      ]},
+      { items: [
+        "Να έχετε πάντα έτοιμες εργασίες επέκτασης — όχι περισσότερα από τα ίδια, αλλά βαθύτερο ή εφαρμοσμένο περιεχόμενο.",
+        "Να επιτρέπεται ανεξάρτητη έρευνα σε θέματα ενδιαφέροντος του μαθητή εντός του προγράμματος.",
+        "Να αξιολογείτε βάσει πρόκλησης, όχι ευκολίας — να ζητάτε πιο απαιτητικές εργασίες σε αντάλλαγμα μικρότερου όγκου.",
+        "Να αναγνωρίζετε και να επικυρώνετε τη συναισθηματική ευαισθησία χωρίς παθολογοποίηση.",
+      ]},
+      { items: [
+        "Να αναμένετε τη γονεϊκή υπερηφάνεια και να την ανακατευθύνετε: η ικανότητα είναι αυτή ακριβώς που κάνει την πλήξη πρόβλημα.",
+        "Να εξηγείτε το παράδοξο: τα καλά αποτελέσματα δεν σημαίνουν ότι τα πάει καλά.",
+        "Αν ο μαθητής κρύβει τις δυνατότητες για να ενταχθεί κοινωνικά, να το ονομάζετε προσεκτικά — είναι σημάδι ταλαιπωρίας.",
+        "Να προτείνετε στους γονείς να εκτιμούν τη διαδικασία αντί για το αποτέλεσμα: η περιέργεια και το βάθος είναι πιο σημαντικά από εύκολους υψηλούς βαθμούς.",
+      ]},
+      { items: [
+        "Ενδείξεις άγχους ή κατάθλιψης που συνδέονται με ακραίο τελειομανισμό.",
+        "Κοινωνική απομόνωση από το αίσθημα «διαφορετικότητας» από τους συνομηλίκους.",
+        "Αιφνίδια υποεπίδοση σε μαθητή που είχε προηγουμένως αναγνωριστεί ως ικανός/ή.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Κατανοεί πολύ λιγότερα από όσα φαίνεται — μπορεί να γνέφει καταφατικά χωρίς να έχει καταλάβει.",
+        "Φαινομενικά χαμηλή ακαδημαϊκή επίδοση, συχνά δυσανάλογη με τις πραγματικές δυνατότητες.",
+        "Σιωπή στην τάξη — μπορεί να είναι προσαρμοστική στρατηγική, όχι αδιαφορία.",
+        "Μπορεί να είναι εξαντλημένος/η στο τέλος της ημέρας από την νοερή μετάφραση σε πραγματικό χρόνο.",
+        "Κίνδυνος υποδιάγνωσης πραγματικών εκπαιδευτικών αναγκών αποδίδοντας τα πάντα στο γλωσσικό εμπόδιο.",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> έλλειψη νοημοσύνης ή ικανότητας.",
+        "<strong>Δεν είναι</strong> απλώς θέμα χρόνου — χωρίς ρητή υποστήριξη, πολλοί μαθητές σταθεροποιούνται σε χαμηλό λειτουργικό επίπεδο.",
+        "<strong>Δεν λύνεται</strong> με αυτόματη μετάφραση κατά τη διάρκεια της τάξης — είναι διαδικασία ετών.",
+      ]},
+      { items: [
+        "Να παρέχετε υλικά με βασικό λεξιλόγιο μεταφρασμένο στη μητρική γλώσσα.",
+        "Να αξιολογείτε τις γνώσεις μέσω οπτικής ή πρακτικής επίδειξης όπου είναι δυνατόν.",
+        "Να συνδυάζετε με δίγλωσσο συμμαθητή για ανεπίσημη διαμεσολάβηση σε κρίσιμες στιγμές.",
+        "Να αποδέχεστε αρχικές παραγωγές με γραμματικά λάθη — στην πρώτη φάση να διορθώνετε περιεχόμενο, όχι μορφή.",
+      ]},
+      { items: [
+        "Η ίδια η συνάντηση αποτελεί εμπόδιο — οι γονείς μπορεί να μην μιλούν ελληνικά με επαρκή επάρκεια· να προετοιμάζετε γραπτά υλικά ή να ζητάτε διερμηνεία.",
+        "Μην υποθέτετε ότι οι γονείς γνωρίζουν το ελληνικό εκπαιδευτικό σύστημα — να εξηγείτε τι είναι ΚΕΣΥ, τι μέτρο υποστήριξης.",
+        "Να διαχωρίζετε σαφώς γλωσσικό εμπόδιο από ακαδημαϊκή ικανότητα.",
+        "Να είστε ευαίσθητοι στο μεταναστευτικό πλαίσιο — οικογένειες προσφύγων ή σε αβέβαιη κατάσταση μπορεί να δυσπιστούν στα θεσμικά όργανα.",
+      ]},
+      { items: [
+        "Ενδείξεις κοινωνικής απομόνωσης ή εκφοβισμού που συνδέονται με την ιδιότητα του αλλοδαπού μαθητή.",
+        "Στασιμότητα στην απόκτηση γλώσσας μετά τον πρώτο χρόνο.",
+        "Ενδείξεις τραύματος που συνδέονται με μεταναστευτικό πλαίσιο (ειδικά πρόσφυγες).",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Τα δεδομένα ανηλίκων υπόκεινται σε ενισχυμένη προστασία (αρθρ. 8 ΓΚΠΔ). Η συγκατάθεση γονέων είναι υποχρεωτική.",
+        "Να ελέγχετε πού αποθηκεύει δεδομένα το εργαλείο — ευρωπαϊκοί ή μη ευρωπαϊκοί διακομιστές, ανωνυμοποιημένα ή όχι.",
+        "Ποτέ να μην εισάγετε πλήρη ονόματα, διευθύνσεις, αριθμούς ταυτότητας ή κλινικές διαγνώσεις σε εργαλεία γεννητικής ΑΙ.",
+        "Να διακρίνετε τη θεσμική χρήση (σχολείο υπογράφει σύμβαση) από την προσωπική χρήση εκπαιδευτικού (ατομική ευθύνη).",
+      ]},
+      { items: [
+        "Συστήματα εκπαιδευμένα κυρίως με αγγλόφωνα δεδομένα μπορεί να έχουν χειρότερη απόδοση σε άλλα γλωσσικά πλαίσια.",
+        "Αυτοματοποιημένες συστάσεις μπορεί να ενισχύουν στερεότυπα φύλου, εθνικότητας ή τάξης — να ελέγχετε κριτικά.",
+        "Τα μοντέλα «πρόβλεψης ακαδημαϊκού κινδύνου» συχνά αναπαράγουν υπάρχουσες ανισότητες.",
+      ]},
+      { items: [
+        "Ο στόχος είναι η αύξηση της αυτονομίας του μαθητή, όχι η αντικατάσταση της γνωστικής εργασίας που τον αναπτύσσει.",
+        "Να διακρίνετε το <strong>εργαλείο πρόσβασης</strong> (κείμενο-σε-ομιλία για δυσλεξία) από το <strong>εργαλείο υποκατάστασης</strong> (ΑΙ γράφει την έκθεση).",
+        "Να αξιολογείτε τακτικά: ο μαθητής αναπτύσσει ικανότητα ή εξάρτηση από το εργαλείο;",
+      ]},
+      { items: [
+        "<strong>1.</strong> Λύνει το εργαλείο ένα πραγματικό εμπόδιο ή δημιουργεί συντόμευση που παρακάμπτει τη μάθηση;",
+        "<strong>2.</strong> Τα εισαγόμενα δεδομένα προστατεύονται και υπάρχει συγκατάθεση;",
+        "<strong>3.</strong> Το αποτέλεσμα του εργαλείου θα ελεγχθεί από άνθρωπο πριν φτάσει στον μαθητή;",
+        "<strong>4.</strong> Υπάρχει εναλλακτική χωρίς ΑΙ που λειτουργεί εξίσου καλά;",
+        "<strong>5.</strong> Αν το εργαλείο σταματήσει να υπάρχει αύριο, ο μαθητής θα μείνει αβοήθητος;",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Να εξοπλίσουμε τους συναδέλφους για υπεύθυνη ενσωμάτωση ΑΙ στη διδασκαλία, παράγοντας υλικά προσαρμόσιμα σε πολλαπλά προφίλ μάθησης.",
+        "Δεν είναι παρουσίαση — είναι συν-δημιουργία. Κάθε συμμετέχων φεύγει με τουλάχιστον έναν πόρο έτοιμο για δοκιμή.",
+      ]},
+      { items: [
+        "<strong>0–10 λεπτά:</strong> Πλαισίωση — το πρόβλημα της ετερογενούς τάξης και γιατί το «περισσότερο ίδιο» δεν λειτουργεί.",
+        "<strong>10–25 λεπτά:</strong> Χάρτης προφίλ — παρουσίαση των έξι καρτών Farol με πραγματικές (ανωνυμοποιημένες) περιπτώσεις.",
+        "<strong>25–45 λεπτά:</strong> Πρακτική επίδειξη — τρία εργαλεία, τρεις χρήσεις, τρία διαφορετικά προφίλ.",
+        "<strong>45–75 λεπτά:</strong> Εργασία σε ζεύγη — κάθε ζεύγος προσαρμόζει ένα υπάρχον υλικό για ένα συγκεκριμένο προφίλ.",
+        "<strong>75–85 λεπτά:</strong> Γρήγορη ανταλλαγή — κάθε ζεύγος παρουσιάζει το προϊόν του σε 1 λεπτό.",
+        "<strong>85–90 λεπτά:</strong> Δεσμεύσεις — κάθε συμμετέχων ορίζει ένα υλικό προς δοκιμή και προγραμματίζει ανατροφοδότηση σε 30 ημέρες.",
+      ]},
+      { items: [
+        "Πρόσβαση στο διαδίκτυο και θεσμικοί λογαριασμοί στα εργαλεία που παρουσιάζονται.",
+        "Υπάρχοντα υλικά κάθε συμμετέχοντα (ένα φύλλο εργασίας, ένα τεστ ή ένα σχέδιο μαθήματος).",
+        "Εκτυπωμένες κάρτες προφίλ Farol για αναφορά.",
+      ]},
+      { items: [
+        "Κάθε συμμετέχων παράγει τουλάχιστον ένα προσαρμοσμένο υλικό κατά τη διάρκεια της συνεδρίας.",
+        "Συνεδρία ανατροφοδότησης σε 30 ημέρες με τουλάχιστον το 60% των συμμετεχόντων να αναφέρουν αποτελεσματική εφαρμογή.",
+        "Τουλάχιστον ένα υλικό που παράχθηκε κατά τη συνεδρία υιοθετείται ως κοινός πόρος τμήματος.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.",
+        "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΣΥ ως κεντρικά σημεία συντονισμού.",
+        "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η ινκλουσίβ εκπαίδευση είναι κρατική πολιτική.",
+      ]},
+      { items: [
+        "Η παράλληλη στήριξη και η ενισχυτική διδασκαλία αποτελούν βασικές υποστηρικτικές δομές· οι γενικές προσαρμογές είναι ευθύνη κάθε εκπαιδευτικού χωρίς ειδικά έγγραφα.",
+        "Διαφοροποιημένη διδασκαλία, εναλλακτικές αξιολογήσεις, στρατηγική τοποθέτηση — δεν απαιτούν γνωμάτευση για τη βασική εφαρμογή τους.",
+        "Πρακτικά παραδείγματα: επιπλέον χρόνος σε αξιολογήσεις, γραπτές οδηγίες επιπλέον των προφορικών, εναλλακτική προφορική αξιολόγηση.",
+      ]},
+      { items: [
+        "Τα ΚΕΣΥ (Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης) αξιολογούν τις εκπαιδευτικές ανάγκες και εκδίδουν γνωματεύσεις.",
+        "Το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ) συντάσσεται από τον εκπαιδευτικό παράλληλης στήριξης σε συνεργασία με τον/την εκπαιδευτικό τάξης και τους γονείς.",
+        "Ο εκπαιδευτικός παράλληλης στήριξης (ΕΠΣ) παρέχεται σε μαθητές με γνωμάτευση από ΚΕΣΥ· η υπαγωγή σε ειδικό σχολείο αποτελεί έσχατη επιλογή.",
+        "Η υπογραφή των γονέων είναι απαραίτητη για το ΑΕΠ και για οποιαδήποτε αλλαγή εκπαιδευτικού πλαισίου.",
+      ]},
+      { items: [
+        "Δεν υπάρχει ειδική νομοθεσία για μαθητές με ιδιαίτερες ικανότητες· τα ΚΕΣΥ μπορούν να αξιολογήσουν και να προτείνουν προγράμματα εμπλουτισμού.",
+        "Η ευέλικτη ζώνη και οι Ολυμπιάδες αποτελούν τα κύρια θεσμικά πλαίσια ανάπτυξης ταλέντων.",
+        "Στην πράξη, η αναγνώριση του υψηλού δυναμικού είναι ανεπαρκής — απαιτείται ενεργοποίηση από τον/την εκπαιδευτικό.",
+      ]},
+      { items: [
+        "Οι τάξεις υποδοχής (ΤΥ Ι & ΤΥ ΙΙ) παρέχουν ελληνόγλωσση εκπαίδευση για νεοαφιχθέντες αλλόγλωσσους μαθητές.",
+        "Το Πρόγραμμα Διαπολιτισμικής Αγωγής (ΔΑΠ) υποστηρίζει την ένταξη μαθητών διαφορετικής πολιτισμικής προέλευσης.",
+        "Η γλωσσική εμπόδιο δεν αποτελεί λόγο παραπομπής σε ειδική αγωγή — πρέπει πρώτα να αποκλειστούν άλλες αιτίες.",
+      ]},
+      { items: [
+        "<strong>Ν. 3699/2008</strong> — βασικό πλαίσιο ειδικής αγωγής.",
+        "<strong>Ν. 4823/2021</strong> — αναβάθμιση σχολείου, νέα ΚΕΣΥ.",
+        "<strong>ΚΕΣΥ</strong> — Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης.",
+        "<strong>ΑΕΠ</strong> — Ατομικό Εκπαιδευτικό Πρόγραμμα.",
+        "<strong>Τάξεις υποδοχής ΤΥ Ι & ΤΥ ΙΙ</strong> — για αλλόγλωσσους μαθητές.",
+      ]},
+    ]},
+  },
+
+
+  bg: {
+    tdah: { sections: [
+      { items: [
+        "Затруднения в поддържането на вниманието при дълги задачи; губи нишката при инструкции с много стъпки.",
+        "Постоянно движение — не може да остане на стол, мести ръцете си, изправя се без видима причина.",
+        "Отговаря преди въпросът да е приключил; прекъсва съучениците и учителя.",
+        "Забравя материали, срокове, инструкции, дадени устно преди минути.",
+        "Може да хиперфокусира върху нещо, което го интересува, давайки (погрешното) впечатление, че \"може, когато иска\".",
+      ]},
+      { items: [
+        "<strong>Не е</strong> лошо възпитание, мързел или липса на характер.",
+        "<strong>Не е</strong> винаги видима хиперактивност — съществува ADHD предимно с разсеяност (по-честа при момичета, често неразпозната).",
+        "<strong>Не се решава</strong> с \"повече старание\" — проблемът е неврологичен, не мотивационен.",
+      ]},
+      { items: [
+        "Разбити инструкции: по една наведнъж, писмено на дъската, с определено време.",
+        "Разрешаване на легитимно движение (раздаване на материали, съобщение до училищния психолог).",
+        "Намаляване на конкурентни стимули (място далеч от прозореца, вратата, най-шумната група).",
+        "Незабавно положително подкрепление — неврологичният цикъл на награда е по-кратък при ADHD.",
+      ]},
+      { items: [
+        "Започнете с това, което ученикът прави добре — срещата не може да започва като списък от оплаквания.",
+        "Описвайте наблюдавани поведения, не диагнози: \"когато има повече от две стъпки последователно, губи нишката\".",
+        "Предвидете реакцията \"у дома не е така\" — груповият контекст прави симптомите по-видими.",
+        "Ако предлагате психологическа оценка, представете я като ресурс, не като наказание.",
+      ]},
+      { items: [
+        "Постоянен дисциплинарен неуспех въпреки адаптациите в класа.",
+        "Симптоми на социално изключване от страна на връстниците.",
+        "Признаци на коморбидност (тревожност, депресия, опозиционно разстройство).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Чете бавно и с препъване, дори в текстове, които разбира устно.",
+        "Бърка визуално подобни букви (б/д); обръща реда на буквите в думите.",
+        "Постоянни правописни грешки, които не реагират на повторна корекция.",
+        "Избягва четенето на глас; може да изглежда, че не иска да участва, когато всъщност се самозащитава.",
+        "Устното разбиране е много по-добро от писменото.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> липса на интелигентност — дислексията е независима от IQ.",
+        "<strong>Не е</strong> само \"бъркане на букви\" — е нарушение на фонологичната обработка.",
+        "<strong>Не се \"лекува\"</strong> — управлява се с компенсаторни стратегии през целия живот.",
+      ]},
+      { items: [
+        "Предоставяйте текстове с адаптирана типография (OpenDyslexic или подобно; увеличено разстояние).",
+        "Разрешавайте тихо четене преди всяко четене на глас — никога без предупреждение.",
+        "Оценявайте съдържанието отделно от правописа, когато целта е проверка на знания.",
+        "Предлагайте множество формати за същата информация (видео, аудио, схеми).",
+      ]},
+      { items: [
+        "Ясно разделяйте четенето от интелигентността от самото начало: \"детето ви разбира много добре, когато слуша\".",
+        "Имайте предвид, че един от родителите може да има недиагностицирана дислексия — разговорът може да събуди трудни спомени.",
+        "Избягвайте да показвате листове с много червени грешки без контекст.",
+        "Бъдете конкретни за адаптациите: аудио текстове, четене без времеви натиск.",
+      ]},
+      { items: [
+        "Влошаващо се академично самочувствие (\"тъп/а съм\", \"не мога\").",
+        "Системно избягване на задачи за четене/писане до степен, засягаща другите предмети.",
+        "Значително несъответствие между устното и писменото представяне без официална диагноза.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Затруднения с неанонсирани промени — промяна на разписание, стая, заместващ учител.",
+        "Буквална комуникация — пропуска нюанси, ирония, идиоматични изрази.",
+        "Сензорна чувствителност — флуоресцентна светлина, фонов шум, етикети на дрехи могат да бъдат непоносими.",
+        "Фокусирани и дълбоки интереси към конкретни теми.",
+        "Може да изглежда незаинтересован или далечен, когато е претоварен — не отделен.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> линейна скала (\"повече\" или \"по-малко\" аутистичен) — е многоизмерен профил.",
+        "<strong>Не е</strong> липса на емпатия — често е обратното, затруднение с филтрирането.",
+        "<strong>Не е</strong> лошо поведение, когато рутина се наруши — е реална неврологична реакция.",
+      ]},
+      { items: [
+        "Предупреждавайте предварително за всяка промяна в рутината, дори привидно тривиална.",
+        "Правете имплицитните социални правила явни (какво се прави, какво не, кога).",
+        "Разрешавайте сензорни почивки в тихо пространство при необходимост.",
+        "Използвайте фокусирания интерес като входна точка към учебното съдържание.",
+      ]},
+      { items: [
+        "Ако има диагноза, първо попитайте какво знае семейството, че работи.",
+        "Ако няма диагноза, описвайте конкретни ситуации без да използвате думата \"аутизъм\" на първата среща.",
+        "Признайте усилията на семейството — създаването на структура и предвидимост у дома е взискателно.",
+        "Никога не сравнявайте с другите ученици — всеки спектрален профил е различен.",
+      ]},
+      { items: [
+        "Чести кризи (\"мелтдаун\") след учебния ден.",
+        "Постоянен отказ от училище, свързан със сензорно претоварване.",
+        "Прогресивна социална изолация въпреки опитите за медиация.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Почерк труден, бавен, често нечетлив — не от небрежност, а поради реални двигателни затруднения.",
+        "Затруднения с пространствената организация на тетрадката, управлението на материалите, последователностите от стъпки.",
+        "Може да изглежда \"непохватен\" — разлива чаши, удря се в мебелите, затруднен/а в спорта.",
+        "Непропорционална умора след задачи, изискващи продължителна фина моторна координация.",
+        "Когнитивният компонент обикновено е запазен — честа фрустрация между знанието и демонстрирането.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> мързел или липса на старание.",
+        "<strong>Не е</strong> само лош почерк — засяга планирането и последователността на задачите.",
+        "<strong>Не се решава</strong> с \"повече практикуване на писането\".",
+      ]},
+      { items: [
+        "Разрешавайте използване на клавиатура/таблет при обширни писмени задачи.",
+        "Намалявайте механичното преписване от дъската — предоставяйте бележки, когато е уместно.",
+        "Предоставяйте явни контролни списъци за задачи с много стъпки.",
+        "Оценявайте продукта по съдържание, не по физическо представяне.",
+      ]},
+      { items: [
+        "Обяснявайте диспраксията с прост език — повечето родители никога не са чували термина.",
+        "Нечетливият почерк е най-голямата точка на конфликт — показването, че оценяването сега цени съдържанието, помага.",
+        "Предлагайте практически инструменти за вкъщи: гласово диктуване за бележки, клавиатура за по-обемни работи.",
+        "Ако има история с етикети \"мързелив/а\" от предишни години, назовете го директно.",
+      ]},
+      { items: [
+        "Пълен отказ от писмена продукция.",
+        "Социална изолация в контекст на физическа активност.",
+        "Признаци на соматизирана тревожност преди писмени оценявания.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Завършва задачите за минути, докато класът отнема цял час.",
+        "Задава въпроси извън обхвата на урока — или активно оспорва това, което се преподава.",
+        "Може да изглежда незаинтересован, недисциплиниран или апатичен — често признаци на хронична скука.",
+        "Изразена емоционална чувствителност; може да е тревожен, перфекционист или несправедливо взискателен към себе си.",
+        "Реален риск от недостатъчно представяне — научава се да крие способностите си, за да не се откроява социално.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> синоним на добро поведение или добри резултати — много надарени ученици имат средни оценки поради незаинтересованост.",
+        "<strong>Не е</strong> \"не се нуждае от помощ\" — нуждае се от различни предизвикателства, не от по-малко внимание.",
+        "<strong>Не е</strong> несъвместимо с невроразличието — двойно изключителните (2e) съществуват и са чести.",
+      ]},
+      { items: [
+        "Винаги имайте готови задачи за разширение — не повече от същото, а по-задълбочено или приложено съдържание.",
+        "Разрешавайте независимо проучване на теми от интерес на ученика в рамките на учебната програма.",
+        "Оценявайте по предизвикателство, не по лекота — изисквайте по-взискателни работи срещу по-малък обем.",
+        "Признавайте и утвърждавайте емоционалната чувствителност без патологизиране.",
+      ]},
+      { items: [
+        "Предвидете родителската гордост и я пренасочете: именно способността прави скуката проблем.",
+        "Обяснете парадокса: добрите резултати не означават, че всичко е наред.",
+        "Ако ученикът крие способностите си, за да се впише социално, назовете го внимателно — това е знак на страдание.",
+        "Предложете на родителите да ценят процеса вместо резултата: любопитството и дълбочината са по-важни от лесните високи оценки.",
+      ]},
+      { items: [
+        "Признаци на тревожност или депресия, свързани с екстремен перфекционизъм.",
+        "Социална изолация от чувство за \"различност\" спрямо връстниците.",
+        "Внезапно влошаване на представянето при ученик, предишно идентифициран като способен.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Разбира много по-малко, отколкото изглежда — може да кима утвърдително без да е разбрал/а.",
+        "Привидно ниско академично представяне, често несъразмерно с реалните способности.",
+        "Мълчание в класа — може да е адаптивна стратегия, не незаинтересованост.",
+        "Може да е изтощен/а в края на деня от мисленото превеждане в реално време.",
+        "Риск от недостатъчна диагностика на реални образователни потребности, приписвайки всичко на езиковата бариера.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> липса на интелигентност или способности.",
+        "<strong>Не е</strong> само въпрос на време — без явна подкрепа много ученици се стабилизират на ниско функционално ниво.",
+        "<strong>Не се решава</strong> с автоматичен превод по време на час — това е процес от години.",
+      ]},
+      { items: [
+        "Предоставяйте материали с ключов речник, преведен на майчиния език.",
+        "Оценявайте знанията чрез визуална или практическа демонстрация, когато е възможно.",
+        "Сдвоявайте с двуезичен съученик за неформална медиация в критични моменти.",
+        "Приемайте начални резултати с граматически грешки — в първата фаза коригирайте съдържанието, не формата.",
+      ]},
+      { items: [
+        "Самата среща е бариера — родителите може да не говорят достатъчно добре български; подгответе писмени материали или осигурете превод.",
+        "Не приемайте, че родителите познават българската образователна система — обяснете какво е РЦППО, какво е мярка за подкрепа.",
+        "Ясно разделяйте езиковата бариера от академичните способности.",
+        "Бъдете чувствителни към миграционния контекст — бежански семейства или такива в несигурно положение може да не се доверяват на институциите.",
+      ]},
+      { items: [
+        "Признаци на социална изолация или тормоз, свързани с положението на чуждестранен ученик.",
+        "Застой в езиковото усвояване след първата година.",
+        "Признаци на травма, свързани с миграционния контекст (особено бежанци).",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Данните на непълнолетни подлежат на засилена защита (чл. 8 ОРЗД). Съгласието на родителите е задължително.",
+        "Проверявайте къде инструментът съхранява данните — европейски или неевропейски сървъри, анонимизирани или не.",
+        "Никога не въвеждайте пълни имена, адреси, идентификационни номера или клинични диагнози в генеративни AI инструменти.",
+        "Разграничавайте институционалното използване (училището подписва договор) от личното използване на учителя (индивидуална отговорност).",
+      ]},
+      { items: [
+        "Системи, обучени предимно върху англоезични данни, може да имат по-слабо представяне в други езикови контексти.",
+        "Автоматичните препоръки могат да усилват стереотипи за пол, етничност или класа — проверявайте критично.",
+        "Моделите за \"прогнозиране на академичен риск\" често възпроизвеждат съществуващи неравенства.",
+      ]},
+      { items: [
+        "Целта е увеличаване на автономията на ученика, не замяна на когнитивната работа, която го развива.",
+        "Разграничавайте <strong>инструмент за достъп</strong> (текст-в-реч за дислексия) от <strong>инструмент за заместване</strong> (AI пише съчинението).",
+        "Редовно оценявайте: ученикът развива компетентност или зависимост от инструмента?",
+      ]},
+      { items: [
+        "<strong>1.</strong> Инструментът решава ли реална бариера или създава пряк път, заобикалящ ученето?",
+        "<strong>2.</strong> Въведените данни защитени ли са и налице ли е съгласие?",
+        "<strong>3.</strong> Резултатът от инструмента ще бъде ли проверен от човек преди да стигне до ученика?",
+        "<strong>4.</strong> Има ли алтернатива без AI, която работи еднакво добре?",
+        "<strong>5.</strong> Ако инструментът спре да съществува утре, ученикът ще остане ли без помощ?",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Да подготвим колегите за отговорна интеграция на AI в обучението, произвеждайки материали, адаптируеми към множество профили на учене.",
+        "Не е презентация — е съвместно творчество. Всеки участник напуска с поне един ресурс, готов за тестване.",
+      ]},
+      { items: [
+        "<strong>0–10 мин:</strong> Рамкиране — проблемът с хетерогенния клас и защо повече от същото не работи.",
+        "<strong>10–25 мин:</strong> Карта на профилите — представяне на шестте карти Farol с реални (анонимизирани) случаи.",
+        "<strong>25–45 мин:</strong> Практическа демонстрация — три инструмента, три случая на употреба, три различни профила.",
+        "<strong>45–75 мин:</strong> Работа по двойки — всяка двойка адаптира съществуващ материал за конкретен профил.",
+        "<strong>75–85 мин:</strong> Бързо споделяне — всяка двойка представя своя продукт за 1 минута.",
+        "<strong>85–90 мин:</strong> Ангажименти — всеки участник определя един материал за тестване и планира сесия за обратна връзка след 30 дни.",
+      ]},
+      { items: [
+        "Достъп до интернет и институционални акаунти в демонстрираните инструменти.",
+        "Съществуващи материали на всеки участник (работен лист, тест или план за урок).",
+        "Отпечатани карти с профили Farol за справка.",
+      ]},
+      { items: [
+        "Всеки участник произвежда поне един адаптиран материал по време на сесията.",
+        "Сесия за обратна връзка след 30 дни с поне 60% от участниците, докладващи ефективно прилагане.",
+        "Поне един материал, произведен по време на сесията, се приема като споделен ресурс на отдела.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Законът за предучилищното и училищното образование (ЗПУО, ДВ бр. 79/2015 г.) установява приобщаващото образование като принцип и задължение на всяко училище в България.",
+        "Наредбата за приобщаващото образование (ДВ бр. 86/2016 г.) урежда дейността на екипите за подкрепа и видовете подкрепящи мерки.",
+        "България е ратифицирала Конвенцията на ООН за правата на хората с увреждания; приобщаващото образование е национална политика.",
+      ]},
+      { items: [
+        "Приобщаващото образование се осъществява чрез екипна работа и диференциран подход — всеки учител може да прилага базови адаптации без специален документ.",
+        "Диференцирано преподаване, адаптирани оценявания, стратегично разполагане в класа — не изискват официално решение за прилагане.",
+        "Практически примери: допълнително време при оценявания, писмени инструкции допълващи устните, алтернативно устно оценяване.",
+      ]},
+      { items: [
+        "Екипът за подкрепа на личностното развитие (ЕПЛР) в училище координира подкрепата и включва педагог, психолог, логопед и ресурсен учител.",
+        "Индивидуалният образователен план (ИОП) се изготвя от ЕПЛР в сътрудничество с родителите и е задължителен за всички преподаватели.",
+        "Регионалният център за подкрепа на процеса на приобщаващото образование (РЦППО) предоставя специализирана методическа подкрепа.",
+        "Подписът на родителите е задължителен за ИОП; годишен преглед се изисква.",
+      ]},
+      { items: [
+        "Деца с изявени дарби са обхванати от Закона за закрила на детето (чл. 11а) и Наредба № 2 за работа с надарени ученици.",
+        "Специализирани паралелки, творчески конкурси и олимпиади са основните инструменти за развитие на талантите.",
+        "В практиката идентификацията на надареност е недостатъчна — ЕПЛР може да насочи за допълнителна оценка.",
+      ]},
+      { items: [
+        "Ученици с друг майчин език получават допълнителна езикова подкрепа по български чрез РЦППО и образователен медиатор.",
+        "Езиковата бариера не е основание за поставяне в специална образователна среда — необходимо е да се изключат други причини за затруднения.",
+        "При необходимост от превод за среща с родители, осигуряването на такъв е отговорност на приемащото училище.",
+      ]},
+      { items: [
+        "<strong>ЗПУО (2015 г.)</strong> — основна рамка за приобщаващо образование.",
+        "<strong>Наредба приобщаващо образование (2016 г.)</strong> — ЕПЛР и ИОП.",
+        "<strong>ЕПЛР</strong> — Екип за подкрепа на личностното развитие.",
+        "<strong>ИОП</strong> — Индивидуален образователен план.",
+        "<strong>РЦППО</strong> — Регионален център за подкрепа на приобщаващото образование.",
+      ]},
+    ]},
+  },
+
+  lt: {
+    tdah: { sections: [
+      { items: [
+        "Sunkumai išlaikant dėmesį atliekant ilgas užduotis; pasisekima nutrūksta, kai instrukcijose yra daug žingsnių.",
+        "Nuolatinis judėjimas — nesėdi ramiai, judina rankas, atsistoja be aiškios priežasties.",
+        "Atsako prieš baigiantis klausimui; pertraukia bendraklasius ir mokytoją.",
+        "Pamiršta priemones, terminus, prieš kelias minutes žodžiu duotas instrukcijas.",
+        "Gali hiperfokusuotis į tai, kas jį domina, sudarydamas (klaidingą) įspūdį, kad \"gali, kai nori\".",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> blogas elgesys, tingumas ar charakterio trūkumas.",
+        "<strong>Tai nėra</strong> visada matoma hiperaktyvumas — egzistuoja daugiausia dėmesio stokos ADHD (dažnesnė mergaitėms, dažnai nediagnozuojama).",
+        "<strong>To neišsprendžia</strong> \"daugiau stengtis\" — problema yra neurologinė, ne motyvacinė.",
+      ]},
+      { items: [
+        "Laipsniškos instrukcijos: po vieną, raštu ant lentos, su nustatytu laiku.",
+        "Leisti teisėtą judėjimą (dalinti medžiagas, žinutė mokyklos psichologui).",
+        "Mažinti konkuruojančius dirgiklius (vieta toliau nuo lango, durų, triukšmingiausios grupės).",
+        "Greitas teigiamas pastiprinimas — neurologinis atlygio ciklas ADHD yra trumpesnis.",
+      ]},
+      { items: [
+        "Pradėkite nuo to, ką mokinys daro gerai — susitikimas negali prasidėti kaip skundų sąrašas.",
+        "Aprašykite stebimus elgesio veiksmus, o ne diagnozes: \"kai yra daugiau nei du žingsniai iš eilės, pameta siūlą\".",
+        "Numatykite reakciją \"namuose taip nėra\" — grupinis kontekstas simptomus daro matomesnius.",
+        "Jei siūlote psichologinį įvertinimą, pateikite jį kaip išteklių, o ne bausmę.",
+      ]},
+      { items: [
+        "Nuolatiniai drausminiai sunkumai, nepaisant adaptacijų klasėje.",
+        "Socialinės izoliacijos nuo bendraamžių požymiai.",
+        "Gretutinių sutrikimų požymiai (nerimas, depresija, opozicinis iššūkio sutrikimas).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Skaito lėtai ir su klaidomis, net tekstuose, kuriuos supranta žodžiu.",
+        "Painioja vizualiai panašias raides; apverčia raidžių tvarką žodžiuose.",
+        "Nuolatinės rašybos klaidos, kurios nereaguoja į pakartotinį taisymą.",
+        "Vengia skaitymo garsiai; gali atrodyti, kad nenori dalyvauti, kai iš tikrųjų apsisaugo.",
+        "Žodinis supratimas daug geresnis nei rašytinis.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> intelekto trūkumas — disleksija nepriklauso nuo IQ.",
+        "<strong>Tai nėra</strong> tik \"raidžių maišymas\" — tai fonologinio apdorojimo sutrikimas.",
+        "<strong>Tai negydomasi</strong> — valdoma kompensuojamomis strategijomis visą gyvenimą.",
+      ]},
+      { items: [
+        "Pateikite tekstus su pritaikyta tipografija (OpenDyslexic ar panašu; padidintas tarpas).",
+        "Leiskite tylų skaitymą prieš bet kokį garsų skaitymą — niekada be perspėjimo.",
+        "Vertinkite turinį atskirai nuo rašybos, kai tikslas yra patikrinti žinias.",
+        "Siūlykite kelias to paties informacijos formatus (vaizdo įrašas, garsas, schemos).",
+      ]},
+      { items: [
+        "Aiškiai atskirkite skaitymą nuo intelekto nuo pat pradžių: \"jūsų vaikas labai gerai supranta, kai klauso\".",
+        "Atsižvelkite į tai, kad vienas iš tėvų gali turėti nediagnozuotą disleksiją — pokalbis gali sužadinti sunkius prisiminimus.",
+        "Venkite rodyti darbo lapus su daugybe raudonų klaidų be konteksto.",
+        "Būkite konkretūs dėl adaptacijų: garso tekstai, skaitymas be laiko spaudimo.",
+      ]},
+      { items: [
+        "Blogėjantis akademinis savęs vertinimas (\"esu kvailas/a\", \"negaliu\").",
+        "Sistemiškas skaitymo/rašymo užduočių vengimas tiek, kad paveikia kitus dalykus.",
+        "Ryškus skirtumas tarp žodinio ir rašytinio pasiekimų be oficialios diagnozės.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Sunkumai dėl nepranešytų pokyčių — tvarkaraščio, kambario, pakaitinio mokytojo pakeitimas.",
+        "Pažodinė komunikacija — praleidžia niuansus, ironiją, idiomatinius posakius.",
+        "Jutiminis jautrumas — fluorescencinė šviesa, foninis triukšmas, drabužių etiketės gali būti netoleruojami.",
+        "Fokusuoti ir gilūs interesai konkrečiomis temomis.",
+        "Gali atrodyti nesusidomėjęs ar tolimas, kai yra perkrautas, o ne atsijungęs.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> tiesinė skalė (\"labiau\" ar \"mažiau\" autiškas) — tai daugiamatis profilis.",
+        "<strong>Tai nėra</strong> empatijos trūkumas — dažnai priešingai, sunkumai filtruojant.",
+        "<strong>Tai nėra</strong> blogas elgesys, kai nutrūksta rutina — tai tikra neurologinė reakcija.",
+      ]},
+      { items: [
+        "Iš anksto informuokite apie bet kokį rutinos pakeitimą, net iš pažiūros nereikšmingą.",
+        "Padarykite numanomas socialines taisykles aiškias (ką daryti, ko nedaryti, kada).",
+        "Leiskite jutimines pertraukas tylioje erdvėje, kai reikia.",
+        "Naudokite sutelktą susidomėjimą kaip įėjimo tašką į mokymo programos turinį.",
+      ]},
+      { items: [
+        "Jei yra diagnozė, pirmiausia paklauskite, ką šeima žino, kad veikia.",
+        "Jei nėra diagnozės, apibūdinkite konkrečias situacijas nenaudodami žodžio \"autizmas\" pirmame susitikime.",
+        "Įvertinkite šeimos pastangas — struktūros ir nuspėjamumo kūrimas namuose yra reiklus.",
+        "Niekada nelyginkite su kitais mokiniais — kiekvienas spektro profilis yra skirtingas.",
+      ]},
+      { items: [
+        "Dažnos krizės (\"meltdown\") po mokyklos dienos.",
+        "Nuolatinis mokyklos atsisakymas, susijęs su jutimų perkrova.",
+        "Progresuojanti socialinė izoliacija, nepaisant tarpininkavimo bandymų.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Rašysena sunki, lėta, dažnai neįskaitoma — ne dėl aplaidumo, o dėl tikrų motorinių sunkumų.",
+        "Sunkumai erdvinį sąsiuvinio organizuojant, valdant medžiagas, atliekant žingsnių sekas.",
+        "Gali atrodyti \"nerangus\" — išverčia taures, atsitrenkia į baldus, sunkumai sportuojant.",
+        "Neproporcingas nuovargis po užduočių, reikalaujančių ilgalaikio smulkiosios motorikos koordinacijos.",
+        "Kognityvinė sudedamoji dažniausiai išlikusi — dažna frustracija tarp žinojimo ir gebėjimo parodyti.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> tingumas ar pastangų trūkumas.",
+        "<strong>Tai nėra</strong> tik blogas rašysena — tai paveikia planavimą ir užduočių seką.",
+        "<strong>To neišsprendžia</strong> \"daugiau praktikuoti rašymą\".",
+      ]},
+      { items: [
+        "Leiskite naudoti klaviatūrą/planšetinį kompiuterį atliekant didelius rašytinius darbus.",
+        "Mažinkite mechaninį nurašymą nuo lentos — pateikite užrašus, kai tinka.",
+        "Pateikite aiškius kontrolinius sąrašus užduotims su keliais žingsniais.",
+        "Vertinkite produktą pagal turinį, o ne fizinę pateiktį.",
+      ]},
+      { items: [
+        "Paaiškinkite, kas yra dispraksija, paprastais žodžiais — dauguma tėvų šio termino niekada negirdėjo.",
+        "Neįskaitoma rašysena yra didžiausias konflikto taškas — parodymas, kad dabar vertinime vertinamas turinys, padeda.",
+        "Siūlykite praktinius namų įrankius: balso diktuotojas užrašams, klaviatūra didesnių darbų.",
+        "Jei ankstesniais metais buvo etikečių \"tingus/a\", pavadinkite tai tiesiogiai.",
+      ]},
+      { items: [
+        "Visiškas rašytinės produkcijos atsisakymas.",
+        "Socialinė izoliacija fizinės veiklos kontekstuose.",
+        "Somatizuotos nerimo požymiai prieš rašytinius vertinimus.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Baigia užduotis per kelias minutes, kai klasei prireikia viso pamokos laiko.",
+        "Užduoda klausimus, peržengiančius pamokos ribas — arba aktyviai ginčija tai, kas mokoma.",
+        "Gali atrodyti nesusidomėjęs, nedrausmingas ar apatiškas — dažnai lėtinio nuobodulio požymiai.",
+        "Ryškus emocinis jautrumas; gali būti nerimo, perfekcionizmo ar neteisingai sau reiklus.",
+        "Tikra nepakankamo pasiekimo rizika — mokosi slėpti gebėjimus, kad neišsiskirtų socialiai.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> gero elgesio ar gerų rezultatų sinonimas — daugelis gabių mokinių turi vidutinius pažymius dėl nesusidomėjimo.",
+        "<strong>Tai nėra</strong> \"nereikia pagalbos\" — reikia skirtingų iššūkių, ne mažiau dėmesio.",
+        "<strong>Tai nėra</strong> nesuderinama su neurodivergencija — dvigubai išskirtiniai (2e) egzistuoja ir yra dažni.",
+      ]},
+      { items: [
+        "Visada turėkite paruoštas pratęsimo užduotis — ne daugiau to paties, o gilesnį ar taikomą turinį.",
+        "Leiskite savarankišką tyrimą domimomis temomis mokymosi programos ribose.",
+        "Vertinkite pagal iššūkį, o ne lengvumą — prašykite sudėtingesnių darbų mainais už mažesnį kiekį.",
+        "Atpažinkite ir patvirtinkite emocinį jautrumą nepatologizuodami.",
+      ]},
+      { items: [
+        "Numatykite tėvų pasididžiavimą ir nukreipkite jį: kaip tik gebėjimas nuobodulį paverčia problema.",
+        "Paaiškinkite paradoksą: geri rezultatai nereiškia, kad viskas gerai.",
+        "Jei mokinys slepia gebėjimus, norėdamas socialiai integruotis, pavadinkite tai atsargiai — tai kančios ženklas.",
+        "Siūlykite tėvams vertinti procesą, o ne rezultatą: smalsumas ir gilumas svarbiau nei lengvi aukšti pažymiai.",
+      ]},
+      { items: [
+        "Nerimo ar depresijos požymiai, susiję su kraštutinumu perfekcionizmu.",
+        "Socialinė izoliacija dėl jausmo, kad esi \"kitoks\" nei bendraamžiai.",
+        "Staigus pasiekimų pablogėjimas mokiniui, anksčiau identifikuotam kaip gabiam.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Supranta daug mažiau, nei atrodo — gali linkčioti pritardamas, nesupratęs.",
+        "Iš pažiūros žemi akademiniai pasiekimai, dažnai neproporcingi tikroms galimybėms.",
+        "Tyla klasėje — gali būti prisitaikymo strategija, o ne nesusidomėjimas.",
+        "Dienos pabaigoje gali būti išsekęs dėl realaus laiko mentalinio vertimo.",
+        "Tikrų ugdymosi poreikių (disleksija, ADHD ir kt.) nepakankamos diagnozės rizika, priskiriant viską kalbos barjerui.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> intelekto ar gebėjimų trūkumas.",
+        "<strong>Tai nėra</strong> tik laiko klausimas — be aiškios paramos daugelis mokinių stabilizuojasi žemame funkciniame lygyje.",
+        "<strong>To neišsprendžia</strong> automatinis vertimas pamokos metu — tai metų procesas.",
+      ]},
+      { items: [
+        "Pateikite medžiagą su pagrindiniu žodynu, išverstu į gimtąją kalbą.",
+        "Vertinkite žinias per vizualinę ar praktinę demonstraciją, kai įmanoma.",
+        "Supažindinkite su dvikalbe bendraamže neformaliems tarpininkavimui kritiniais momentais.",
+        "Priimkite pradines produkcijas su gramatinėmis klaidomis — pirmajame etape taisykite turinį, ne formą.",
+      ]},
+      { items: [
+        "Pats susitikimas yra kliūtis — tėvai gali kalbėti lietuviškai nepakankamai gerai; iš anksto parenkite rašytinius materiaus ar užtikrinkite vertimą.",
+        "Nedarykite prielaidos, kad tėvai pažįsta Lietuvos švietimo sistemą — paaiškinkite, kas yra PPT, kas yra paramos priemonė.",
+        "Aiškiai atskirkite kalbos barjerą nuo akademinių gebėjimų.",
+        "Jautriai elgkitės su migracijos kontekstu — pabėgėlių šeimos gali nepasitikėti institucijomis.",
+      ]},
+      { items: [
+        "Socialinės izoliacijos ar patyčių požymiai, susiję su užsienio mokinio statusu.",
+        "Kalbos įsisavinimo stagnacija po pirmų metų.",
+        "Traumos požymiai, susiję su migracijos kontekstu (ypač pabėgėliai).",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Nepilnamečių duomenys turi sustiprintą apsaugą (BDAR 8 str.). Tėvų sutikimas yra privalomas.",
+        "Patikrinkite, kur įrankis saugo duomenis — Europos ar ne Europos serveriai, anoniminiai ar ne.",
+        "Niekada neįveskite pilnų vardų, adresų, asmens kodų ar klinikinių diagnozių į generatyvinius AI įrankius.",
+        "Skirkite institucinį naudojimą (mokykla pasirašo sutartį) nuo asmeninio mokytojo naudojimo (individuali atsakomybė).",
+      ]},
+      { items: [
+        "Sistemos, apmokytos daugiausia anglakalbiais duomenimis, gali veikti blogiau kitokiuose kalbiniuose kontekstuose.",
+        "Automatinės rekomendacijos gali sustiprinti lyties, etninės ar klasės stereotipus — kritiškai tikrinkite.",
+        "\"Akademinės rizikos prognozavimo\" modeliai dažnai atkuria esamas nelygoves.",
+      ]},
+      { items: [
+        "Tikslas yra didinti mokinio autonomiją, o ne pakeisti kognityvinį darbą, kuris jį ugdo.",
+        "Skirkite <strong>prieigos įrankį</strong> (tekstas-kalbai disleksikai) nuo <strong>pakaitinio įrankio</strong> (AI rašo referatą).",
+        "Reguliariai vertinkite: mokinys ugdo kompetenciją ar priklausomybę nuo įrankio?",
+      ]},
+      { items: [
+        "<strong>1.</strong> Ar įrankis išsprendžia realią kliūtį, ar sukuria nuorodą, apeinančią mokymąsi?",
+        "<strong>2.</strong> Ar įvesti duomenys apsaugoti ir ar yra sutikimas?",
+        "<strong>3.</strong> Ar įrankio rezultatą patikrins žmogus prieš pasiekiant mokinį?",
+        "<strong>4.</strong> Ar yra be AI alternatyva, kuri veikia vienodai gerai?",
+        "<strong>5.</strong> Jei įrankis neegzistuotų rytoj, ar mokinys liktų be pagalbos?",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Parengti kolegas atsakingai AI integracijai mokymo, gaminant medžiagas, pritaikomas keliems mokymosi profiliams.",
+        "Tai ne pristatymas — tai bendras kūrimas. Kiekvienas dalyvis išeina turėdamas bent vieną išteklių, paruoštą išbandyti.",
+      ]},
+      { items: [
+        "<strong>0–10 min:</strong> Rėminimas — heterogeniškos klasės problema ir kodėl daugiau to paties neveikia.",
+        "<strong>10–25 min:</strong> Profilių žemėlapis — šešių Farol kortelių pristatymas su realiais (anoniminiais) atvejais.",
+        "<strong>25–45 min:</strong> Praktinė demonstracija — trys įrankiai, trys naudojimo atvejai, trys skirtingi profiliai.",
+        "<strong>45–75 min:</strong> Darbas poromis — kiekviena pora pritaiko esamą medžiagą konkrečiam profiliui.",
+        "<strong>75–85 min:</strong> Greitas pasidalijimas — kiekviena pora per 1 minutę pristato savo produktą.",
+        "<strong>85–90 min:</strong> Įsipareigojimai — kiekvienas dalyvis apibrėžia vieną medžiagą išbandyti ir planuoja atsiliepimų sesiją po 30 dienų.",
+      ]},
+      { items: [
+        "Prieiga prie interneto ir institucinių paskyrų demonstruojamų įrankių.",
+        "Kiekvieno dalyvio turima medžiaga (darbo lapas, testas ar pamokos planas).",
+        "Atspausdintos Farol profilių kortelės konsultacijai.",
+      ]},
+      { items: [
+        "Kiekvienas dalyvis sesijos metu sukuria bent vieną pritaikytą medžiagą.",
+        "Atsiliepimų sesija po 30 dienų su bent 60% dalyvių, pranešančių apie efektyvų įgyvendinimą.",
+        "Bent viena sesijos metu sukurta medžiaga priimama kaip bendras katedros išteklius.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.",
+        "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.",
+        "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; inkliuzinis ugdymas yra valstybinė politika.",
+      ]},
+      { items: [
+        "Individualizuotas ugdymas ir diferenciacija yra kiekvieno mokytojo pareiga be jokios specialios dokumentacijos.",
+        "Bazinės adaptacijos (papildomas laikas, rašytinės instrukcijos, strateginis sėdimų vietų paskyrimas) nereikalauja oficialaus sprendimo.",
+        "Specialioji pedagoginė pagalba (logopedo, specialiojo pedagogo) teikiama pagal poreikį, mokyklos specialistų sprendimu.",
+      ]},
+      { items: [
+        "Pedagoginė psichologinė tarnyba (PPT) atlieka specialiųjų ugdymosi poreikių įvertinimą ir skiria pagalbą.",
+        "Individualizuota ugdymosi programa (IUP) sudaroma drauge su PPT, tėvais ir mokytojais; privaloma visiems mokytojams.",
+        "Mokyklos psichologas, specialusis pedagogas ir logopedas koordinuoja pagalbą ir teikia metodinę paramą.",
+        "Tėvų sutikimas reikalingas IUP; kasmetinis peržiūrėjimas privalomas.",
+      ]},
+      { items: [
+        "Talentų akademija ir Jaunųjų talentų programa teikia papildomą paramą gabiems mokiniams.",
+        "Pagreičio (klasių praleidimo) galimybė egzistuoja pagal įstatymą, tačiau naudojama retai.",
+        "Praktikoje gabių mokinių atpažinimas yra nepakankamas — PPT gali atlikti gabumo įvertinimą.",
+      ]},
+      { items: [
+        "Pasirengimo klasės yra skirtos mokiniams, nemokantis lietuvių kalbos.",
+        "Lietuvių kalba kaip svetimoji kalbą mokomasi papildomose pamokose; mokyklos psichologas koordinuoja adaptaciją.",
+        "Kalbos barjeras nėra pagrindas specialiajam ugdymui — pirmiau reikia pašalinti kitas priežastis.",
+      ]},
+      { items: [
+        "<strong>Švietimo įstatymas 2011</strong> — SUP ir inkliuzinio ugdymo pagrindas.",
+        "<strong>PPT</strong> — Pedagoginė psichologinė tarnyba.",
+        "<strong>IUP</strong> — individualizuota ugdymosi programa.",
+        "<strong>Specialusis pedagogas</strong> — koordinuoja pagalbą mokykloje.",
+        "<strong>Pasirengimo klasė</strong> — lietuvių kalbos parama naujai atvykusiems.",
+      ]},
+    ]},
+  },
+
+
+  lv: {
+    tdah: { sections: [
+      { items: [
+        "Grūtības uzturēt uzmanību ilgos uzdevumos; pazaudē pavedienu vairākpakāpju norādījumos.",
+        "Pastāvīga kustīgums — nevar palikt sēdus, darbina rokas, pieceļas bez redzama iemesla.",
+        "Atbild, pirms jautājums pabeigts; pārtrauc klasesbiedrus un skolotāju.",
+        "Aizmirst materiālus, termiņus, mutiski sniegtos norādījumus, kas doti tikai dažas minūtes iepriekš.",
+        "Var hiper-koncentrēties uz interesējošo tēmu, radot (kļūdainu) iespaidu, ka viņš var, ja vēlas.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> slinkums, nekārtīgums vai rakstura trūkums.",
+        "<strong>Tā nav</strong> vienmēr redzama hiperaktivitāte — pastāv galvenokārt uzmanības deficīta ADHD (biežāks meitenēm, bieži nediagnosticēts).",
+        "<strong>To neatrisina</strong> lielākas pūles — problēma ir neiroloģiska, ne motivācijas.",
+      ]},
+      { items: [
+        "Dalīti norādījumi: viens uzreiz, uzrakstīts uz tāfeles, ar noteiktu laika ietvaru.",
+        "Atļaut likumīgu kustību (materiālu izdalīšana, tāfeles tīrīšana, ziņas pie skolas psihologam).",
+        "Samazināt konkurējošos stimulus (sēdvieta tālu no loga, durvīm, trokšņainākās grupas).",
+        "Tūlītēja pozitīva pastiprinājums — neironu atalgojuma cikls ADHD gadījumā ir īsāks.",
+      ]},
+      { items: [
+        "Sākt ar to, ko skolēns dara labi — tikšanās nedrīkst sākties kā sūdzību saraksts, pretējā gadījumā vecāki/aizbildņi kļūs aizsargāti.",
+        "Aprakstīt novērotās uzvedības, nevis diagnozes: 'kad ir vairāk par diviem secīgiem soļiem, viņš pazaudē pavedienu'.",
+        "Paredzēt reakciju 'mājās tā nav' — izskaidrot, ka grupas konteksts un prasība pēc ilgstošas uzmanības padarītu simptomus redzamākus.",
+        "Ja ieteikt psiholoģisko izvērtēšanu, uzskatīt to par resursu, nevis sodu: 'ir pieejams atbalsts, kas varētu ļoti palīdzēt'.",
+      ]},
+      { items: [
+        "Pastāvīgas disciplīnas grūtības, neraugoties uz klases adaptācijām.",
+        "Sociālās atstumšanas pazīmes no klasesbiedru puses.",
+        "Komorbīdu pazīmes (trauksme, depresija, pretestības traucējumi).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Lasa lēni un ar klupšanu, pat tekstos, kurus saprot, dzirdot skaļi.",
+        "Sajauc vizuāli līdzīgus burtus (b/d, p/q); apgriež burtu secību vārdos.",
+        "Pastāvīgas pareizrakstības kļūdas rakstītos darbos, kas neatbild uz atkārtotu labošanu.",
+        "Izvairās no lasīšanas skaļi; var šķist nevēlīgs piedalīties, lai gan patiesībā sevi aizsargā.",
+        "Mutvārdu izpratne ievērojami augstāka par rakstveida izpratni.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> intelekta trūkums — disleksija nav atkarīga no IQ.",
+        "<strong>Tā nav</strong> tikai 'burtu sajaukšana' — tā ir fonēmiskās apstrādes traucējums.",
+        "<strong>Tā nepazūd</strong> — to pārvalda ar kompensējošām stratēģijām visu mūžu.",
+      ]},
+      { items: [
+        "Nodrošināt tekstus ar pielāgotu tipogrāfiju (OpenDyslexic vai līdzīgs; palielināts atstarpe).",
+        "Atļaut klusā lasīšana pirms jebkura skaļas lasīšanas — nekad neuzaicināt bez brīdinājuma.",
+        "Vērtēt saturu atsevišķi no pareizrakstības, ja mērķis ir novērtēt zināšanas.",
+        "Piedāvāt vairākus formātus vienai informācijai (video, audio, diagrammas).",
+      ]},
+      { items: [
+        "Skaidri atdalīt lasīšanu no intelekta no paša sākuma: 'jūsu bērns labi saprot, kad klausās — grūtības ir specifiskas rakstveida lasīšanai'.",
+        "Ņemt vērā, ka vienam no vecākiem/aizbildņiem var būt nediagnosticēta disleksija — sarunai var būt grūtu atmiņu ietekme.",
+        "Izvairīties no darblapu rādīšanas ar sarkanajiem labojumiem bez konteksta — vispirms parādīt, ko skolēns var, tad, kam nepieciešams atbalsts.",
+        "Konkretizēt jau veiktās adaptācijas un tās, ko vecāki/aizbildņi var atkārtot mājās: audio teksti, lasīšana bez laika spiediena.",
+      ]},
+      { items: [
+        "Akadēmiskā paškoncepta pasliktināšanās ('es esmu stulbs', 'es neko nevaru').",
+        "Sistemātiska lasīšanas/rakstīšanas uzdevumu izvairīšanās līdz citu priekšmetu kompromitēšanai.",
+        "Izteikta neatbilstība starp mutvārdu un rakstveida sniegumu bez formālas diagnozes.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Grūtības ar nepaziņotām izmaiņām — izmaiņas grafikā, telpā vai aizvietojošajā skolotājā.",
+        "Burtiski saziņas — palaiž garām niansi, ironiju, idiomātiskās izteiksmes.",
+        "Sensorā jutīgums — dienasgaismas spuldzes, fona troksnis, apģērbu etiķetes var būt nepanesamas.",
+        "Fokusētas un dziļas intereses par konkrētām tēmām.",
+        "Var šķist neatkarīgs vai attālināts, kad ir pārņemts, nevis izslēgts.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> lineāra skala ('vairāk' vai 'mazāk' autistisks) — tā ir daudzdimensionāls profils.",
+        "<strong>Tā nav</strong> empātijas trūkums — tas bieži ir pretēji, ar grūtībām filtrēt ievadi.",
+        "<strong>Tā nav</strong> slikta uzvedība, kad rutīna tiek pārkāpta — tā ir reāla neiroloģiska atbilde.",
+      ]},
+      { items: [
+        "Iepriekš brīdināt par jebkurām rutīnas izmaiņām, pat šķietami nenozīmīgām.",
+        "Pārvērst netiešos sociālos noteikumus par tiešiem noteikumiem (ko darīt, ko nedarīt, un kad).",
+        "Atļaut sensoros pārtraukumus klusā telpā, kad nepieciešams.",
+        "Izmantot skolēna intereses kā ieejas punktus mācību saturā.",
+      ]},
+      { items: [
+        "Sākt ar konkrētiem novērojumiem, nediagnosticēt tikšanās laikā.",
+        "Sniegt informāciju rakstveidā — verbāli izklāstīts daudzs nav viegli paturams atmiņā.",
+        "Izvairīties no 'normālās bērnu uzvedības' argumenta — sensorās un sociālās grūtības ir reālas.",
+        "Skaidrot, ka agrīna iejaukšanās (atbalsts, nevis paslēpšana) uzlabo ilgtermiņa rezultātus.",
+      ]},
+      { items: [
+        "Krīzes epizodes, kas apdraud skolēna vai citu drošību.",
+        "Pilnīga sociālā izolācija no klasesbiedriem.",
+        "Regresija iepriekš apgūtajās prasmēs.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Grūtības ar uzdevumiem, kas prasa precīzu roku koordināciju: rakstīšana, zīmēšana, šķēru lietošana.",
+        "Vāja telpiskā orientācija — pazūd gaitenī, nevar organizēt materiālus uz galda.",
+        "Neveiklas kustības, biežas krišanas vai sadursmes ar priekšmetiem.",
+        "Grūtības ar pašapkalpošanās uzdevumiem (pogu aizdare, apavu sasiešana).",
+        "Var būt aizkavēta runa vai grūtības ar secīguma uzdevumiem.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> neuzmanība vai slinkums — motoriskā plānošana ir neiroloģiski traucēta.",
+        "<strong>Tas nav</strong> redzams no ārpuses — grūtības bieži tiek sajauktas ar 'neveiklību'.",
+        "<strong>Tas neuzlabojas</strong> ar vairāk praksi vien — nepieciešama strukturēta terapija.",
+      ]},
+      { items: [
+        "Piedāvāt alternatīvas rakstīšanai (datora tastatūra, balss ieraksts).",
+        "Atļaut papildu laiku uzdevumiem, kas prasa roku meistarību.",
+        "Samazināt rakstīšanas apjomu — doties uz saturu, nevis prezentāciju.",
+        "Apspriesties ar ergoterapeitu par klases vides pielāgošanu.",
+      ]},
+      { items: [
+        "Paskaidrot, ka tas nav slinkums — skolēns cenšas, taču plānošanas process ir traucēts.",
+        "Izcelt kompensēšanas stratēģijas, ko skolēns jau izmanto.",
+        "Apspriest mājas uzdevumu pielāgojumus: mazāk, fokusēts, izmantojot tehnoloģiju.",
+        "Mudināt uz ergoterapeita vai fizioterapeita konsultāciju caur skolas atbalstu.",
+      ]},
+      { items: [
+        "Nopietna pašapziņas pasliktināšanās vai sociālā izolācija.",
+        "Fiziskā drošība apdraudēta fiziskās audzināšanas laikā.",
+        "Neviens progress trots pastāvīgas atbalsta stratēģijas.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Ātri apgūst jaunu saturu un zaudē interesi atkārtošanas uzdevumos.",
+        "Uzdod dziļus, nevietā šķietamus jautājumus, kas traucē stundu.",
+        "Var demonstrēt nevienmērīgu attīstību — ārkārtējs intelekts ar sociālu vai emocionālu nezrelitāti.",
+        "Var pretestēties rutīnai un strukturētai uzdevumiem, ja tos uzskata par pārāk viegliem.",
+        "Var justies izolēts no vienaudžiem, jo intereses un komunikācijas stils atšķiras.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> garantija akadēmiskiem panākumiem — var neizpildīt potenciālu, ja nav atbilstoša izaicinājuma.",
+        "<strong>Tas nav</strong> vienāds ar lieliskiem atzīmēm — daži augsti spējas bērni tīši nekveido.",
+        "<strong>Tas neizslēdz</strong> citas vajadzības — divkārtēja izņēmumainība (augsta spēja + disleksija, ADHD utt.) ir bieži.",
+      ]},
+      { items: [
+        "Piedāvāt bagātinātu vai paātrinātu saturu, nevis vairāk no tā paša.",
+        "Ļaut neatkarīgus projektus vai padziļinātu izpēti.",
+        "Izmantot skolēna intereses kā ieejas punktus sarežģītākā saturā.",
+        "Apvienot ar citiem augsti spējas bērniem projektu darbā, kad iespējams.",
+      ]},
+      { items: [
+        "Izvairīties no 'viņš ir tik gudrs, viņam tas nav vajadzīgs' — visiem bērniem ir nepieciešams izaicinājums.",
+        "Izskaidrot, ka bez piemērotas stimulācijas var attīstīties motivācijas problēmas.",
+        "Apspriest bagātināšanas iespējas, ko var ieviest mājās vai papildu aktivitātēs.",
+        "Uzsvērt emocionālās vajadzības: augsti spējas bērni var ciest no perfekcionisma, trauksmes, savstarpējas neatbilstības.",
+      ]},
+      { items: [
+        "Pilnīga skolas neapmeklēšana vai atteikums piedalīties.",
+        "Depresija, izolācija vai emocionālas krīzes.",
+        "Izteikts neatbilstība starp spēju un sniegumu bez skaidra iemesla.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Var runāt tekoši, bet cīnās ar akadēmisko valodas lietojumu priekšmetu stundās.",
+        "Klusā perioda uzvedība — nerunā, bet uztver un saprot.",
+        "Kļūdas, kas atspoguļo dzimtās valodas ietekmi (transferi), nevis izpratnes trūkumu.",
+        "Var izskatīties noguris vai novērsts — kognitīvā slodze mācīties otrajā valodā ir liela.",
+        "Snieguma neatbilstība starp mutvārdu un rakstveidā vai starp priekšmetiem.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> mācīšanās grūtība — valodas apguves process ir normāls.",
+        "<strong>Nav</strong> piemēroti novērtēt PLNM skolēnu tāpat kā dzimtās valodas runātāju.",
+        "<strong>Dzimtā valoda nav šķērslis</strong> — divvalodīgums ir kognitīvs ieguvums.",
+      ]},
+      { items: [
+        "Izmantot vizuālos atbalstus, diagrammas, divvalodīgas vārdnīcas stundu laikā.",
+        "Atļaut vairāk laiku uzdevumiem un eksāmenos.",
+        "Novērtēt saturu atsevišķi no valodas formas, ja mērķis ir zināšanas.",
+        "Sadarboties ar latviešu valodas kā otrās valodas (LV2) speciālistu vai atbalsta skolotāju.",
+      ]},
+      { items: [
+        "Iesaistīt tulkotāju vai starpnieku sapulcēm, ja nepieciešams.",
+        "Izvairīties no pieņēmumiem par ģimenes izglītību vai valodas kompetencēm.",
+        "Skaidrot valodas apguves posmus — klusā perioda parādība, akadēmiskā valoda prasa ilgāku laiku.",
+        "Uzsvērt, ka divvalodīgums ir ieguvums, nevis problēma.",
+      ]},
+      { items: [
+        "Pastāvīgas grūtības pēc 2 gadu atbalsta bez progresa.",
+        "Aizdomas par latentām mācīšanās grūtībām blakus valodas barjerai.",
+        "Izolācija vai atstumšana no vienaudžiem valodas dēļ.",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Konfidencialitāte ir pamats — diagnozes, ģimenes apstākļi un atbalsta pasākumi nav jākopīgo ar kolēģiem bez vajadzības.",
+        "Birka var aizsargāt (atbalsta piekļuve) vai kaitēt (stigma, samazinātas cerības) — apzinies kontekstu.",
+        "Runā ar skolēnu, nevis par skolēnu — pat jauni bērni ir tiesīgi piedalīties lēmumos par savām vajadzībām.",
+        "Izvairīties no publiski pieejamu adaptāciju padarīšanas — diskrētums aizsargā cieņu.",
+      ]},
+      { items: [
+        "Neiznest diagnozes vai ģimenes informāciju ārpus strādājošajiem speciālistiem.",
+        "Dokumenti par atbalstu glabājami saskaņā ar VDAR (Vispārīgā datu aizsardzības regula) un skolas politiku.",
+        "Vecākiem/aizbildņiem ir tiesības piekļūt informācijai par sava bērna atbalsta pasākumiem.",
+      ]},
+      { items: [
+        "Dažādība klasē nav slogs — tā ir dabiska un mācīšanas kvalitāti uzlabo visiem.",
+        "Izvairīties no salabot vai normalizēt skolēnu — viņu uzdevums ir attīstīties, ne atbilst normai.",
+        "Uzdot sev jautājumu: kuru intereses kalpo šim lēmumam — skolēnam vai iestādei?",
+      ]},
+      { items: [
+        "Nereālistiskas cerības var kaitēt tāpat kā zemas cerības — meklēt to, kas ir izaicinošs, bet sasniedzams.",
+        "Atzīt savus aizspriedumus: vai jūs sagaidāt mazāk no noteiktas grupas skolēniem?",
+        "Atbalsts nav privilēģija — tā ir tiesība, un tam vajadzētu būt pieejamam bez papildu šķēršļiem.",
+        "Pašaprūpe nav savtīga — pedagogs, kas izjūt izdegšanu, nevar efektīvi atbalstīt nevienu.",
+        "Konsultēties ar kolēģiem ētiski sarežģītos gadījumos — iekļaušana prasa komandas pieeju.",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Šis modulis ir paredzēts adaptācijai un praktiskajai lietošanai klasē — nevis pasīvai lasīšanai.",
+        "Katra stratēģija ir balstīta uz pierādījumiem un pielāgojama jūsu kontekstam.",
+      ]},
+      { items: [
+        "Teksta formāts: fonta izmērs vismaz 12pt; rindstarpa 1,5; Times New Roman vietā Arial vai Calibri.",
+        "Krāsu kodi un vizuālie rutīnas radīt paredzamību un samazina kognitīvo slodzi.",
+        "Eksāmenu pielāgojumi: papildu laiks, atsevišķa telpa, lasītājs vai rakstītājs.",
+        "Digitālie rīki: teksts uz runas, runas uz tekstu, digitālās vārdnīcas.",
+        "Diferenciācija: vieni un tie paši mācīšanās mērķi, bet dažādi attēlojumi un snieguma veidi.",
+        "Universāls dizains mācīšanai (UDL): plānot iekļaušanai no sākuma, nevis adaptēt pēc tam.",
+      ]},
+      { items: [
+        "Savienojiet ar skolas psiholoģisko dienestu (PPK vai RPMC) savlaicīgas iejaukšanās nodrošināšanai.",
+        "Iesaistiet multidisciplināro komandu (klašu audzinātājs, atbalsta skolotājs, vecāki).",
+        "Dokumentējiet adaptācijas — rakstiski pieraksti aizsargā gan skolēnu, gan skolotāju.",
+      ]},
+      { items: [
+        "Izmantot formatīvo novērtēšanu — bieži, mazie soļi ir labāki par gada eksāmenu.",
+        "Izvairīties no salīdzināšanas ar klasi — novērtēt individuālo progresu.",
+        "Atgriezeniskā saite jābūt specifiskai, savlaicīgai un uz izaugsmi orientētai.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.",
+        "Speciālās izglītības likums (1995, grozījumi) regulē atbalstu skolēniem ar speciālām vajadzībām.",
+        "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.",
+      ]},
+      { items: [
+        "VPMC (Valsts pedagoģiski medicīniskā komisija) veic skolēnu novērtēšanu un piešķir speciālās izglītības statusu.",
+        "RPMC (rajona pedagoģiski medicīniskā komisija) koordinē atbalstu vietējā līmenī.",
+        "Skolas psihologs (PPK — pedagoģiski psiholoģiskais centrs) nodrošina psiholoģisko atbalstu.",
+      ]},
+      { items: [
+        "IIP (individuālais izglītības plāns) — dokuments, kas nosaka mācīšanās mērķus, adaptācijas un atbalsta pasākumus.",
+        "Atbalsta skolotājs (speciālais pedagogs) strādā ar skolēniem, kuriem ir speciālas vajadzības.",
+        "Logopēds, sociālais pedagogs un psihologs var būt daļa no atbalsta komandas.",
+        "Resursu centrs nodrošina metodisko atbalstu un papildu resursus.",
+      ]},
+      { items: [
+        "Latviešu valoda kā otrā valoda (LV2) ir paredzēta skolēniem, kuru dzimtā valoda nav latviešu.",
+        "Divvalodīgā izglītība ir pieejama dažās skolās mazākumtautību kopienām.",
+        "Integrācijas atbalsts ir pieejams jaunierašanās skolēniem caur pašvaldību dienestiem.",
+      ]},
+      { items: [
+        "Latvija ir ratificējusi ANO Konvenciju par personu ar invaliditāti tiesībām (CRPD).",
+        "ES direktīvas par iekļaujošo izglītību tiek ieviestas ar nacionālo tiesību aktiem.",
+        "Ombuds ir tiesīgs izskatīt sūdzības par diskrimināciju izglītībā.",
+      ]},
+      { items: [
+        "Vecākiem/aizbildņiem ir tiesības piedalīties IIP izstrādē un pārskatīšanā.",
+        "Skolēns, sasniedzot 15 gadus, ir tiesīgs paust savu viedokli izglītības lēmumos.",
+        "Sūdzības par atbalsta nodrošināšanu var iesniegt pašvaldībai vai Izglītības un zinātnes ministrijai.",
+      ]},
+    ]},
+  },
+  et: {
+    tdah: { sections: [
+      { items: [
+        "Raskused tähelepanu hoidmisega pikkades ülesannetes; kaotab lõnga mitmeastmelistes juhistes.",
+        "Pidev liikumine — ei suuda paigal istuda, sorb kätega, tõuseb püsti ilma nähtava põhjuseta.",
+        "Vastab enne, kui küsimus on lõpetatud; katkestab klassikaaslasi ja õpetajat.",
+        "Unustab materjalid, tähtajad, suulised juhised, mis anti vaid mõni minut varem.",
+        "Võib hüperfookustuda huvipakkuvale teemale, jättes (vale) mulje, et ta saab hakkama, kui tahab.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> laiskus, korralagedus ega iseloomuviga.",
+        "<strong>See ei ole</strong> alati nähtav hüperaktiivsus — esineb valdavalt tähelepanupuuduliku ATH (sagedamini tüdrukutel, sageli diagnoosimata).",
+        "<strong>Seda ei lahenda</strong> suurem pingutamine — probleem on neuroloogiline, mitte motivatsiooniline.",
+      ]},
+      { items: [
+        "Tükeldatud juhised: üks korraga, tahvlile kirjutatult, kindla ajaraamiga.",
+        "Lubada seaduslikku liikumist (materjalide jagamine, tahvli puhastamine, sõnum koolipsühholoogile).",
+        "Vähendada konkureerivaid stiimuleid (istekoht akna, ukse ja mürarikkama rühma eemale).",
+        "Vahetu positiivne tugevdamine — ATH puhul on neuroloogiline tasusüsteem lühem.",
+      ]},
+      { items: [
+        "Alusta sellest, milles õpilane hästi toime tuleb — kohtumine ei tohi alata kaebuste nimekirjaga.",
+        "Kirjelda täheldatud käitumisi, mitte diagnoose: 'kui on rohkem kui kaks järjestikust sammu, kaotab ta lõnga'.",
+        "Enneta reaktsiooni 'kodus ei ole ta selline' — selgita, et rühma kontekst muudab sümptomid nähtavamaks.",
+        "Kui soovitad psühholoogilist hindamist, esita see ressursina, mitte karistusena: 'on olemas tugi, mis võiks palju aidata'.",
+      ]},
+      { items: [
+        "Pidevad distsipliiniraskused hoolimata klassiruumi kohandustest.",
+        "Klassikaaslaste poolt tõrjumise tunnused.",
+        "Kaasuvate seisundite tunnused (ärevus, depressioon, opositsiooniline trotslik häire).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Loeb aeglaselt ja komistades, isegi tekstides, mida kuulates mõistab.",
+        "Ajab segamini visuaalselt sarnased tähed (b/d, p/q); pöörab tähtede järjekorda sõnades.",
+        "Püsivad õigekirjavead kirjalikes töödes, mis ei reageeri korduvatele parandustele.",
+        "Väldib valjusti lugemist; võib tunduda osaleda ei taha, kuigi tegelikult kaitseb ennast.",
+        "Suuline mõistmine on oluliselt kõrgem kui kirjalik mõistmine.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> intelligentsuse puudus — düsleksia on IQ-st sõltumatu.",
+        "<strong>See ei ole</strong> ainult tähtede segamine — see on fonoloogilise töötlemise häire.",
+        "<strong>See ei kao ära</strong> — seda hallata kompenseerivate strateegiatega kogu elu.",
+      ]},
+      { items: [
+        "Pakkuda kohandatud tüpograafiaga tekste (OpenDyslexic või sarnane; suurendatud vahed).",
+        "Lubada vaikne lugemine enne valjusti lugemist — mitte kunagi kutsuda ilma hoiatuseta.",
+        "Hinnata sisu eraldi õigekirjast, kui eesmärk on teadmiste hindamine.",
+        "Pakkuda sama informatsiooni mitmes formaadis (video, heli, diagrammid).",
+      ]},
+      { items: [
+        "Eraldada lugemine intelligentsusest algusest peale: 'teie laps mõistab kuulates väga hästi — raskus on spetsiifiline kirjaliku lugemise suhtes'.",
+        "Arvestada, et ühel vanematest võib olla diagnoosimata düsleksia — vestlus võib vallandada raskeid mälestusi.",
+        "Vältida punaste parandustega töölehtede näitamist ilma kontekstita — esmalt näita, mida õpilane suudab.",
+        "Olla konkreetne juba tehtavate kohanduste osas: helitekstid, lugemine ajasurveta.",
+      ]},
+      { items: [
+        "Halvenev akadeemiline enesekäsitlus ('ma olen loll', 'ma ei suuda mitte midagi').",
+        "Lugemis-/kirjutamisülesannete süstemaatiline vältimine teiste ainete kahjuks.",
+        "Märkimisväärne erinevus suulise ja kirjaliku soorituse vahel ilma ametliku diagnoosita.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Raskused ootamatute muutustega — muutused tunniplaanis, ruumis või asendusõpetajas.",
+        "Sõnasõnaline suhtlemine — ei märka varjundeid, irooniat, idioomaatilisi väljendeid.",
+        "Sensoorne tundlikkus — päevavalgustuslambid, taustamüra, riiete sildid võivad olla talumatud.",
+        "Fokuseeritud ja sügavad huvid konkreetsete teemade vastu.",
+        "Võib tunduda eraldunud või kaugel, kui on ülekoormatud, mitte välja lülitatud.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> lineaarne skaala ('rohkem' või 'vähem' autistlik) — see on mitmemõõtmeline profiil.",
+        "<strong>See ei ole</strong> empaatia puudus — sageli on vastupidi, raskused sisendi filtreerimisel.",
+        "<strong>See ei ole</strong> halb käitumine, kui rutiin katkeb — see on reaalne neuroloogiline reaktsioon.",
+      ]},
+      { items: [
+        "Anda eelnevalt teada igast rutiini muutusest, isegi näiliselt ebaolulistest.",
+        "Muuta kaudsed sotsiaalsed reeglid selgesõnalisteks (mida teha, mida mitte teha, millal).",
+        "Lubada sensoorseid pause vaikses ruumis vajadusel.",
+        "Kasutada õpilase huvisid sisenditena õppesisus.",
+      ]},
+      { items: [
+        "Alusta konkreetsete tähelepanekutega, mitte diagnoosimine kohtumise ajal.",
+        "Anda infot kirjalikult — verbaalset on raske meeles pidada.",
+        "Vältida argumenti 'kõik lapsed käituvad nii' — sensoorsed ja sotsiaalsed raskused on reaalsed.",
+        "Selgitada, et varajane sekkumine (tugi, mitte peitmine) parandab pikaajalisi tulemusi.",
+      ]},
+      { items: [
+        "Kriisiepisoodid, mis ohustavad õpilase või teiste turvalisust.",
+        "Täielik sotsiaalne isolatsioon klassikaaslastest.",
+        "Regressioon varem omandatud oskustes.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Raskused ülesannetega, mis nõuavad täpset käte koordinatsiooni: kirjutamine, joonistamine, kääride kasutamine.",
+        "Nõrk ruumiorientatsioon — eksib koridoris, ei suuda materjale laual organiseerida.",
+        "Kohmakad liigutused, sagedased kukkumised või kokkupõrked esemetega.",
+        "Raskused eneseteenindusülesannetega (nuppude kinnitamine, kingapaelte sidumine).",
+        "Võib esineda hilinenenud kõne või raskused järjestamisülesannetega.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> tähelepanematust ega laiskust — motoorne planeerimine on neuroloogiliselt häiritud.",
+        "<strong>See ei ole</strong> väljastpoolt nähtav — raskused aetakse sageli segamini kohmaklikkusega.",
+        "<strong>See ei parane</strong> ainult rohkem harjutades — vaja on struktureeritud teraapiat.",
+      ]},
+      { items: [
+        "Pakkuda alternatiive kirjutamisele (arvuti klaviatuur, häälsalvestis).",
+        "Lubada lisaaeg ülesannetele, mis nõuavad käelist osavust.",
+        "Vähendada kirjutamise mahtu — fokuseerida sisule, mitte esitlusele.",
+        "Konsulteerida tegevusterapeudiga klassiruumi keskkonna kohandamise osas.",
+      ]},
+      { items: [
+        "Selgita, et see ei ole laiskus — õpilane pingutab, kuid planeerimisprotsess on häiritud.",
+        "Tõsta esile kompensatsioonistrateegiaid, mida õpilane juba kasutab.",
+        "Aruta kodutöö kohandusi: vähem, fokuseeritud, kasutades tehnoloogiat.",
+        "Julgusta tegevusterapeudi või füsioterapeudi konsultatsiooni koolitugi kaudu.",
+      ]},
+      { items: [
+        "Tõsine enesehinnang langus või sotsiaalne isolatsioon.",
+        "Füüsiline turvalisus ohustatud kehalise kasvatuse ajal.",
+        "Puudub progress hoolimata pidevast toetusest.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Omandab uue sisu kiiresti ja kaotab huvi kordamisülesannete vastu.",
+        "Esitab sügavaid, kohatu tunduvaid küsimusi, mis segavad tundi.",
+        "Võib näidata ebaühtlast arengut — erakordne intellekt koos sotsiaalse või emotsionaalse ebaküpsusega.",
+        "Võib vastu seista rutiinitele ja struktureeritud ülesannetele, kui peab neid liiga lihtsateks.",
+        "Võib tunda end eakaaslastest eraldatuna, kuna huvid ja suhtlusstiil erinevad.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> garantii akadeemiliseks edukuseks — võib potentsiaali mitte realiseerida, kui pole piisavat väljakutset.",
+        "<strong>See ei ole</strong> sama mis suurepärased hinded — mõned kõrge võimekusega lapsed jätavad teadlikult pingutamata.",
+        "<strong>See ei välista</strong> muid vajadusi — kahekordsed erandlikkused (kõrge võimekus + düsleksia, ATH jne) on sagedased.",
+      ]},
+      { items: [
+        "Pakkuda rikastatud või kiirendatud sisu, mitte rohkem sama.",
+        "Lubada iseseisvaid projekte või süvauurimist.",
+        "Kasutada õpilase huvisid sisenditena keerukamasse sisusse.",
+        "Ühendada teiste kõrge võimekusega lastega projekttöös, kui võimalik.",
+      ]},
+      { items: [
+        "Vältida argumenti 'ta on nii tark, tal seda vaja ei ole' — kõik lapsed vajavad väljakutset.",
+        "Selgitada, et ilma sobiva stimulatsioonita võivad tekkida motivatsiooniprobleemid.",
+        "Arutada rikastamisvõimalusi, mida saab kodus rakendada.",
+        "Rõhutada emotsionaalseid vajadusi: kõrge võimekusega lapsed võivad kannatada perfektsionismi, ärevuse all.",
+      ]},
+      { items: [
+        "Täielik koolist keeldumine või osalemisest keeldumine.",
+        "Depressioon, isolatsioon või emotsionaalsed kriisid.",
+        "Märkimisväärne erinevus võimekuse ja soorituse vahel ilma selge põhjuseta.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Võib ladusalt rääkida, kuid võitleb akadeemilise keelekasutusega ainete tundides.",
+        "Vaikse perioodi käitumine — ei räägi, kuid tajub ja mõistab.",
+        "Vead, mis peegeldavad emakeele mõju (ülekanne), mitte arusaamatust.",
+        "Võib tunduda väsinud või hajameelne — kognitiivne koormus teises keeles õppimisel on suur.",
+        "Soorituse erinevus suulise ja kirjaliku vahel või ainete vahel.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> õpiraskus — keeleomandamise protsess on normaalne.",
+        "<strong>Ei ole</strong> asjakohane hinnata emakeelena mitte-eesti õpilast samamoodi kui eesti emakeelega õpilast.",
+        "<strong>Emakeel ei ole takistus</strong> — kakskeelsus on kognitiivne eelis.",
+      ]},
+      { items: [
+        "Kasutada visuaalseid toetusi, diagramme, kakskeelseid sõnastikke tundides.",
+        "Lubada rohkem aega ülesannetele ja eksamitel.",
+        "Hinnata sisu eraldi keele vormist, kui eesmärk on teadmised.",
+        "Teha koostööd eesti keele teise keelena (E2) spetsialisti või tugiõpetajaga.",
+      ]},
+      { items: [
+        "Kaasata tõlk või vahendaja kohtumistele vajadusel.",
+        "Vältida eeldusi perekonna hariduse või keelekompetentsi kohta.",
+        "Selgitada keeleomandamise etappe — vaikne periood, akadeemiline keel võtab rohkem aega.",
+        "Rõhutada, et kakskeelsus on eelis, mitte probleem.",
+      ]},
+      { items: [
+        "Püsivad raskused pärast 2-aastast tuge ilma edusammudeta.",
+        "Kahtlus varjatud õpiraskuste kohta keelebarjääri kõrval.",
+        "Isolatsioon või tõrjumine eakaaslaste poolt keele tõttu.",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Konfidentsiaalsus on alus — diagnoosid, perekondlikud asjaolud ja tugimeetmed ei tohi vajaduseta kolleegidega jagada.",
+        "Silt võib kaitsta (ligipääs toele) või kahjustada (stigma, vähenenud ootused) — ole kontekstist teadlik.",
+        "Räägi õpilasega, mitte õpilasest — isegi väikesed lapsed on õigustatud osalema oma vajadusi puudutavates otsustes.",
+        "Väldi kohanduste avalikuks tegemist — diskreetsus kaitseb väärikust.",
+      ]},
+      { items: [
+        "Mitte jagada diagnoose ega perekonna informatsiooni väljaspool töötavaid spetsialiste.",
+        "Tugidokumendid hoida vastavalt GDPR-ile (isikuandmete kaitse üldmäärus) ja kooli poliitikale.",
+        "Vanematel/hooldajatel on õigus pääseda ligi infole oma lapse tugimeetmete kohta.",
+      ]},
+      { items: [
+        "Mitmekesisus klassis ei ole koorem — see on loomulik ja parandab kõigi jaoks õpetamise kvaliteeti.",
+        "Väldi õpilase parandamist või normaliseerimist — nende ülesanne on areneda, mitte normile vastata.",
+        "Esita endale küsimus: kelle huve see otsus teenib — õpilast või asutust?",
+      ]},
+      { items: [
+        "Ebareaalsed ootused võivad kahjustada sama palju kui madalad ootused — otsi väljakutset, kuid saavutatavat.",
+        "Tunnusta oma eelarvamusi: kas ootad teatud õpilaste rühmalt vähem?",
+        "Tugi ei ole privileeg — see on õigus, ja sellele peaks olema juurdepääs ilma täiendavate takistusteta.",
+        "Enesehool ei ole isekas — läbipõlenud pedagoog ei suuda kedagi tõhusalt toetada.",
+        "Konsulteeri kolleegidega eetiliselt keerulistes juhtumites — kaasamine nõuab meeskonnatöö lähenemist.",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "See moodul on mõeldud kohandamiseks ja praktiliseks kasutamiseks klassiruumis — mitte passiivseks lugemiseks.",
+        "Iga strateegia põhineb tõenditel ja on kohandatav teie kontekstile.",
+      ]},
+      { items: [
+        "Teksti vorming: fondi suurus vähemalt 12pt; reavahe 1,5; Times New Roman asemel Arial või Calibri.",
+        "Värvikoodid ja visuaalsed rutiinid loovad etteaimatavust ja vähendavad kognitiivset koormust.",
+        "Eksami kohandused: lisaaeg, eraldi ruum, lugeja või kirjutaja.",
+        "Digitaalsed tööriistad: tekst kõneks, kõne tekstiks, digitaalsed sõnaraamatud.",
+        "Differentseerimine: samad õpieesmärgid, kuid erinevad esitusviisid ja soorituse tüübid.",
+        "Universaalne õpimudel (UDL): planeerida kaasavust algusest, mitte kohandada hiljem.",
+      ]},
+      { items: [
+        "Ühenduda koolipsühholoogiga (Rajaleidja võrgustik) varajase sekkumise tagamiseks.",
+        "Kaasata multidistsiplinaarne meeskond (klassijuhataja, tugiõpetaja, vanemad).",
+        "Dokumenteerida kohandused — kirjalikud ülestähendused kaitsevad nii õpilast kui ka õpetajat.",
+      ]},
+      { items: [
+        "Kasutada kujundavat hindamist — sagedased, väikesed sammud on paremad kui aastane eksam.",
+        "Vältida klassiga võrdlemist — hinnata individuaalset edenemist.",
+        "Tagasiside peab olema spetsiifiline, õigeaegne ja kasvule suunatud.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Põhikooli- ja gümnaasiumiseadus (PGS, 2010) reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist.",
+        "Koolieelse lasteasutuse seadus ja lastekaitse seadus täiendavad HEV-õpilaste kaitset.",
+        "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).",
+      ]},
+      { items: [
+        "Rajaleidja — haridus- ja nõustamiskeskuste võrgustik, mis hindab HEV-õpilasi ja koostab soovitused.",
+        "Nõustamiskomisjon koostab soovitused sobiva õppe korraldamiseks.",
+        "Koolipsühholoog ja sotsiaalpedagoog on kohustuslikud suurtes koolides.",
+      ]},
+      { items: [
+        "IÕK (individuaalne õppekava) koostatakse õpilastele, kes vajavad kohandatud õpet.",
+        "Tugiisik abistab õpilast igapäevases koolis toimetulekus.",
+        "Individuaalne arenguvestlus toimub igal aastal iga õpilasega.",
+        "Õpiabirühm pakub väiksemat gruppi tuge põhiainetes.",
+      ]},
+      { items: [
+        "Eesti keel teise keelena (E2) on ette nähtud õpilastele, kelle emakeel ei ole eesti keel.",
+        "Eesti keele ja kultuuri õpe on toetatud muukeelsetele peredele kohanemiseks.",
+        "Kakskeelne haridus on saadaval mõnedes koolides vene- või muukeelsetele õpilastele.",
+      ]},
+      { items: [
+        "Haridus- ja Teadusministeerium (HTM) vastutab hariduspoliitika ja HEV-suuniste eest.",
+        "Koolid peavad tagama juurdepääsetavuse ja kohandused vastavalt seadusele.",
+        "Vanematel on õigus osaleda IÕK koostamisel ja hindamisotsustes.",
+      ]},
+      { items: [
+        "Vanemad saavad pöörduda Rajaleidja keskusesse hindamis- ja nõustamisteenuseks.",
+        "Koolivaidluste lahendamine toimub maavanemale (regionaalne tasand) või HTM-ile esitatud kaebuste kaudu.",
+        "Õpilastel on õigus saada teavet oma õiguste kohta hariduses.",
+      ]},
+    ]},
+  },
+
+
+  sl: {
+    tdah: { sections: [
+      { items: [
+        "Težave z ohranjanjem pozornosti pri dolgih nalogah; izgubi nit pri večstopenjskih navodilih.",
+        "Stalno gibanje — ne more ostati pri miru, tipa z rokami, vstane brez vidnega razloga.",
+        "Odgovori, preden je vprašanje končano; prekinja sošolce in učitelja.",
+        "Pozabi materiale, roke, navodila, podana ustno le minuto ali dve prej.",
+        "Lahko se hiperfokusira na zanimivo temo, kar daje (napačen) vtis, da zmore, kadar hoče.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> lenoba, neurejenost ali pomanjkljivost značaja.",
+        "<strong>To ni</strong> vedno vidna hiperaktivnost — obstaja pretežno nepozorna oblika ADHD (pogostejša pri dekletih, pogosto nediagnosticirana).",
+        "<strong>Tega ne reši</strong> večje prizadevanje — težava je nevrološka, ne motivacijska.",
+      ]},
+      { items: [
+        "Razdeljena navodila: eno naenkrat, zapisano na tablo, z določenim časovnim okvirom.",
+        "Dovoli zakonito gibanje (razdelitev materialov, brisanje table, sporočilo šolskemu psihologu).",
+        "Zmanjšaj konkurenčne dražljaje (sedež stran od okna, vrat, najhrupnejše skupine).",
+        "Takojšnje pozitivno ojačanje — nevrološki krog nagrajevanja je pri ADHD krajši.",
+      ]},
+      { items: [
+        "Začni s tem, kar učenec dela dobro — sestanek ne sme začeti s seznamom pritožb.",
+        "Opisuj opažena vedenja, ne diagnoze: 'ko ima več kot dva zaporedna koraka, izgubi nit'.",
+        "Predvidi odziv 'doma ni takšen' — pojasni, da skupinski kontekst naredi simptome bolj vidne.",
+        "Če predlagaš psihološko ocenjevanje, ga predstavi kot vir, ne kazen: 'na voljo je podpora, ki bi mu zelo pomagala'.",
+      ]},
+      { items: [
+        "Stalne disciplinske težave kljub prilagoditvam v razredu.",
+        "Znaki socialne izključenosti s strani sošolcev.",
+        "Znaki komorbidnosti (anksioznost, depresija, opozicionalna kljubovalna motnja).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Bere počasi in s spotikanjem, celo pri besedilih, ki jih razume, ko jih sliši.",
+        "Meša vizualno podobne črke (b/d, p/q); obrne vrstni red črk v besedah.",
+        "Vztrajne pravopisne napake v pisnih delih, ki se ne odzivajo na ponavljajočo se korekcijo.",
+        "Izogiba se glasnemu branju; zdi se, da noče sodelovati, čeprav se v resnici zaščiti.",
+        "Ustno razumevanje je bistveno višje od pisnega razumevanja.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> pomanjkanje inteligentnosti — disleksija je neodvisna od IQ.",
+        "<strong>To ni</strong> le 'mešanje črk' — to je motnja fonološke predelave.",
+        "<strong>To ne izgine</strong> — obvladuje se s kompenzacijskimi strategijami vse življenje.",
+      ]},
+      { items: [
+        "Zagotovi besedila s prilagojeno tipografijo (OpenDyslexic ali podobno; povečani razmiki).",
+        "Dovoli tiho branje pred glasnim branjem — nikoli ne pokliči brez opozorila.",
+        "Ocenjuj vsebino ločeno od pravopisa, kadar je cilj oceniti znanje.",
+        "Ponudi več formatov za isto informacijo (video, avdio, diagrami).",
+      ]},
+      { items: [
+        "Eksplicitno ločiti branje od inteligentnosti: 'vaš otrok zelo dobro razume, ko posluša — težava je specifična za pisno branje'.",
+        "Upoštevaj, da ima morda eden od staršev nediagnosticirano disleksijo — pogovor lahko sproži težke spomine.",
+        "Izogibaj se pokazovanju delovnih listov, prekritih z rdečimi popravki brez konteksta.",
+        "Bodi konkreten glede prilagoditev: zvočna besedila, branje brez časovnega pritiska.",
+      ]},
+      { items: [
+        "Slabšanje akademskega samopodobe ('sem neumen', 'ne zmorem ničesar').",
+        "Sistematično izogibanje nalogam branja/pisanja do te mere, da ogroža druge predmete.",
+        "Izrazita neskladnost med ustnim in pisnim uspehom brez uradne diagnoze.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Težave z nenapovedanimi spremembami — spremembe v urniku, prostoru ali nadomestitvenem učitelju.",
+        "Dobesedna komunikacija — ne zazna odtenkov, ironije, idiomatskih izrazov.",
+        "Senzorna občutljivost — fluorescentna svetloba, hrup v ozadju, etikete na oblačilih so lahko nevzdržne.",
+        "Fokusirani in poglobljeni interesi za določene teme.",
+        "Lahko deluje odsotno ali oddaljeno, ko je preobremenjeno, ne pa izklopljeno.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> linearna lestvica ('bolj' ali 'manj' avtistično) — to je večdimenzionalni profil.",
+        "<strong>To ni</strong> pomanjkanje empatije — pogosto je nasprotno, s težavami pri filtriranju vhodnih informacij.",
+        "<strong>To ni</strong> slabo vedenje, ko je rutina prekinjena — to je resnični nevrološki odziv.",
+      ]},
+      { items: [
+        "Vnaprej opozori na vsako spremembo rutine, celo na navidezno nepomembne.",
+        "Implicitna socialna pravila pretvori v eksplicitna pravila (kaj storiti, česa ne, kdaj).",
+        "Dovoli senzorne odmore v mirnem prostoru, kadar je potrebno.",
+        "Uporabi učenčeve interese kot vstopne točke v učno vsebino.",
+      ]},
+      { items: [
+        "Začni s konkretnimi opažanji, ne diagnosticiraj na sestanku.",
+        "Daj informacije v pisni obliki — ustnih navodil je težko ohraniti v spominu.",
+        "Izogibaj se argumentu 'vsi otroci se tako vedejo' — senzorne in socialne težave so resnične.",
+        "Pojasni, da zgodnja intervencija (podpora, ne skrivanje) izboljša dolgoročne rezultate.",
+      ]},
+      { items: [
+        "Krizne epizode, ki ogrožajo varnost učenca ali drugih.",
+        "Popolna socialna izolacija od sošolcev.",
+        "Regresija pri predhodno pridobljenih spretnostih.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Težave z nalogami, ki zahtevajo natančno koordinacijo rok: pisanje, risanje, uporaba škarij.",
+        "Slaba prostorska orientacija — se izgubi v hodniku, ne more organizirati materialov na mizi.",
+        "Nerodni gibi, pogosto padanje ali trčanje s predmeti.",
+        "Težave z nalogami samooskrbe (zapenjanje gumbov, vezanje čevljev).",
+        "Lahko je zakasnjen govor ali težave z nalogami zaporedja.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> nepazljivost ali lenoba — motorično načrtovanje je nevrološko moteno.",
+        "<strong>To ni</strong> vidno od zunaj — težave se pogosto zamenjuje z nerodnošto.",
+        "<strong>To se ne izboljša</strong> samo z večjo prakso — potrebna je strukturirana terapija.",
+      ]},
+      { items: [
+        "Ponudi alternative pisanju (računalniška tipkovnica, glasovni posnetek).",
+        "Dovoli dodatni čas za naloge, ki zahtevajo ročno spretnost.",
+        "Zmanjšaj obseg pisanja — osredotoči se na vsebino, ne na prezentacijo.",
+        "Posvetuj se z delovnim terapevtom glede prilagoditve razrednega okolja.",
+      ]},
+      { items: [
+        "Pojasni, da to ni lenoba — učenec se trudi, toda proces načrtovanja je moten.",
+        "Izpostavi kompenzacijske strategije, ki jih učenec že uporablja.",
+        "Razpravi o prilagoditvah domačih nalog: manj, osredotočeno, z uporabo tehnologije.",
+        "Spodbudi posvet z delovnim terapevtom ali fizioterapevtom prek šolske podpore.",
+      ]},
+      { items: [
+        "Resno poslabšanje samozavesti ali socialna izolacija.",
+        "Fizična varnost ogrožena med telesno vzgojo.",
+        "Brez napredka kljub stalni podpori.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Hitro usvoji novo vsebino in izgubi zanimanje za naloge ponavljanja.",
+        "Postavlja globoka, navidezno neprimerna vprašanja, ki motijo pouk.",
+        "Lahko kaže neenakomeren razvoj — izjemen intelekt skupaj s socialno ali čustveno nezrelostjo.",
+        "Lahko se upira rutini in strukturiranim nalogam, ki se mu zdijo prelahke.",
+        "Lahko se počuti izoliranega od vrstnikov, ker se interesi in komunikacijski slog razlikujeta.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> zagotovilo akademskega uspeha — potencial se morda ne uresniči brez ustreznih izzivov.",
+        "<strong>To ni</strong> isto kot odlične ocene — nekateri visoko sposobni otroci namerno ne vlagajo truda.",
+        "<strong>To ne izključuje</strong> drugih potreb — dvojne izjemnosti (visoka sposobnost + disleksija, ADHD itd.) so pogoste.",
+      ]},
+      { items: [
+        "Ponudi obogajeno ali pospešeno vsebino, ne le več istega.",
+        "Dovoli neodvisne projekte ali poglobljeno raziskovanje.",
+        "Uporabi učenčeve interese kot vstopne točke v zahtevnejšo vsebino.",
+        "Poveži z drugimi visoko sposobnimi otroki pri projektnem delu, kadar je mogoče.",
+      ]},
+      { items: [
+        "Izogibaj se argumentu 'je tako pameten, tega ne potrebuje' — vsi otroci potrebujejo izziv.",
+        "Pojasni, da brez ustrezne stimulacije se lahko razvijejo motivacijske težave.",
+        "Razpravi o možnostih obogatitve, ki jih je mogoče uvesti doma.",
+        "Poudari čustvene potrebe: visoko sposobni otroci lahko trpijo za perfekcionizmom, anksioznostjo.",
+      ]},
+      { items: [
+        "Popolna zavrnitev šole ali zavrnitev sodelovanja.",
+        "Depresija, izolacija ali čustvene krize.",
+        "Izrazita neskladnost med sposobnostjo in uspehom brez jasnega razloga.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Lahko govori tekoče, a se bori z akademsko rabo jezika pri predmetnih urah.",
+        "Vedenje tihega obdobja — ne govori, a zaznava in razume.",
+        "Napake, ki odražajo vpliv maternega jezika (transfer), ne nerazumevanja.",
+        "Lahko se zdi utrujeno ali raztreseno — kognitivna obremenitev učenja v drugem jeziku je velika.",
+        "Neskladnost med ustnim in pisnim uspehom ali med predmeti.",
+      ]},
+      { items: [
+        "<strong>To ni</strong> učna težava — proces usvajanja jezika je normalen.",
+        "<strong>Ni primerno</strong> ocenjevati učenca s slovenščino kot tujim jezikom enako kot govorca maternega jezika.",
+        "<strong>Materni jezik ni ovira</strong> — dvojezičnost je kognitivna prednost.",
+      ]},
+      { items: [
+        "Uporabi vizualne podpore, diagrame, dvojezične slovarje pri pouku.",
+        "Dovoli več časa za naloge in pri izpitih.",
+        "Ocenjuj vsebino ločeno od jezikovne forme, kadar je cilj znanje.",
+        "Sodeluj s specialistom za slovenščino kot drugi in tuji jezik (SDTJ) ali učiteljem podpore.",
+      ]},
+      { items: [
+        "Vključi tolmača ali posrednika na sestanke, kadar je potrebno.",
+        "Izogibaj se predpostavkam o izobrazbeni ravni ali jezikovnih kompetencah družine.",
+        "Pojasni stopnje usvajanja jezika — tiho obdobje, akademski jezik zahteva dlje.",
+        "Poudari, da je dvojezičnost prednost, ne problem.",
+      ]},
+      { items: [
+        "Vztrajne težave po 2 letih podpore brez napredka.",
+        "Sum na latentne učne težave poleg jezikovne ovire.",
+        "Izolacija ali zavračanje s strani vrstnikov zaradi jezika.",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Zaupnost je temelj — diagnoze, družinski okoliščini in podporni ukrepi se brez potrebe ne delijo s kolegi.",
+        "Oznaka lahko ščiti (dostop do podpore) ali škoduje (stigma, znižana pričakovanja) — zavedaj se konteksta.",
+        "Govori z učencem, ne o učencu — celo majhni otroci so upravičeni sodelovati pri odločitvah o svojih potrebah.",
+        "Izogibaj se javnemu razkrivanju prilagoditev — diskretnost ščiti dostojanstvo.",
+      ]},
+      { items: [
+        "Ne deli diagnoz ali informacij o družini zunaj delujoče strokovne ekipe.",
+        "Dokumenti o podpori se hranijo v skladu z GDPR (Splošna uredba o varstvu podatkov) in politiko šole.",
+        "Starši/skrbniki imajo pravico dostopati do informacij o podpornih ukrepih za svojega otroka.",
+      ]},
+      { items: [
+        "Raznolikost v razredu ni breme — je naravna in izboljšuje kakovost poučevanja za vse.",
+        "Izogibaj se popravljanju ali normaliziranju učenca — njihova naloga je razvoj, ne skladnost z normo.",
+        "Postavi si vprašanje: čigave interese ta odločitev služi — učencu ali instituciji?",
+      ]},
+      { items: [
+        "Nerealna pričakovanja so lahko škodljiva enako kot nizka pričakovanja — iščemo izzivno, a dosegljivo.",
+        "Priznavaj lastne predsodke: ali od učencev določene skupine pričakuješ manj?",
+        "Podpora ni privilegij — je pravica, in dostopna mora biti brez dodatnih ovir.",
+        "Samooskrba ni sebičnost — učitelj, ki doživlja izgorelost, ne more učinkovito podpirati nikogar.",
+        "Posvetuj se s kolegi v etično zapletenih primerih — inkluzija zahteva timski pristop.",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Ta modul je namenjen prilagajanju in praktični uporabi v razredu — ne pasivnemu branju.",
+        "Vsaka strategija temelji na dokazih in je prilagodljiva vašemu kontekstu.",
+      ]},
+      { items: [
+        "Format besedila: velikost pisave vsaj 12pt; razmak med vrsticami 1,5; Arial ali Calibri namesto Times New Roman.",
+        "Barvne kode in vizualne rutine ustvarjajo predvidljivost in zmanjšujejo kognitivno obremenitev.",
+        "Prilagoditve izpitov: dodatni čas, ločena soba, bralec ali pisec.",
+        "Digitalna orodja: besedilo v govor, govor v besedilo, digitalni slovarji.",
+        "Diferenciacija: isti učni cilji, toda različni načini predstavitve in vrste nastopa.",
+        "Univerzalni dizajn za učenje (UDL): načrtovati inkluzivnost od začetka, ne prilagajati naknadno.",
+      ]},
+      { items: [
+        "Poveži se s šolsko svetovalno službo (šolski psiholog, socialni pedagog) za zgodnjo intervencijo.",
+        "Vključi multidisciplinarno ekipo (razrednik, učitelj podpore, starši).",
+        "Dokumentiraj prilagoditve — pisni zapisi ščitijo tako učenca kot učitelja.",
+      ]},
+      { items: [
+        "Uporabi formativno ocenjevanje — pogostejši, majhni koraki so boljši od letnega izpita.",
+        "Izogibaj se primerjanju z razredom — ocenjuj individualni napredek.",
+        "Povratne informacije morajo biti specifične, pravočasne in usmerjene v rast.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Zakon o usmerjanju otrok s posebnimi potrebami (ZUOPP-1, 2011) ureja postopek usmerjanja in pravice otrok s posebnimi potrebami.",
+        "Zakon o osnovni šoli in Zakon o organizaciji in financiranju vzgoje in izobraževanja dopolnjujeta inkluzivno izobraževanje.",
+        "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).",
+      ]},
+      { items: [
+        "Komisija za usmerjanje (pri Zavodu RS za šolstvo) oceni potrebe otroka in izda odločbo o usmeritvi.",
+        "Zavod RS za šolstvo (ZRSŠ) zagotavlja strokovno podporo šolam pri inkluziji.",
+        "Šolska svetovalna služba (šolski psiholog, socialni pedagog, specialni pedagog) je ključna pri oblikovanju podpore.",
+      ]},
+      { items: [
+        "Individualiziran program (IP) se pripravi za vsakega otroka, usmerjenega v izobraževalni program s prilagojenim izvajanjem.",
+        "Dodatna strokovna pomoč (DSP) je financirana s strani ministrstva in se izvaja individualno ali v skupinah.",
+        "Asistent se lahko dodeli za podporo pri vsakodnevnem funkcioniranju v šoli.",
+        "Prilagojena šolska obveznost omogoča fleksibilnejše izvajanje obveznega šolanja.",
+      ]},
+      { items: [
+        "Slovenščina kot drugi in tuji jezik (SDTJ) je namenjena učencem, katerih materinščina ni slovenščina.",
+        "Program za integracijo otrok priseljencev zagotavlja začetno jezykovno podporo.",
+        "Medkulturni asistenti so na voljo v nekaterih šolah za podporo migrantskim učencem in njihovim družinam.",
+      ]},
+      { items: [
+        "Ministrstvo za izobraževanje, znanost in šport (MIZŠ) usmerja politiko inkluzivnega izobraževanja.",
+        "Varuh človekovih pravic obravnava pritožbe glede kršitev pravic v izobraževanju.",
+        "Šole morajo zagotoviti fizično dostopnost in prilagoditve v skladu z zakonodajo.",
+      ]},
+      { items: [
+        "Starši so enakovredni partnerji v postopku usmerjanja in pri oblikovanju IP.",
+        "Otrok je vključen v oblikovanje IP glede na starost in zmožnosti.",
+        "Pritožba zoper odločbo o usmeritvi se vloži pri Ministrstvu za izobraževanje v roku 15 dni.",
+      ]},
+    ]},
+  },
+  ga: {
+    tdah: { sections: [
+      { items: [
+        "Deacracht ag coinneáil airde ar thascanna fada; cailleann siad an snáithe i dtreoracha ilchéimeacha.",
+        "Gluaiseacht leanúnach — ní féidir leo fanacht ina suí, fidleann le lámha, éiríonn siad gan chúis fheiceálach.",
+        "Freagraíonn roimh dheireadh na ceiste; cuireann isteach ar scoláirí agus ar an múinteoir.",
+        "Dearmadann ábhair, spriocdháta, treoracha béil a tugadh díreach cúpla nóiméad roimhe sin.",
+        "Is féidir leo hiperfhócas a dhéanamh ar rud suimiúil, ag tabhairt an tuairim (mhícheart) gur féidir leo é nuair ba mhaith leo.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> leisciúlacht, gangaideacht ná locht carachtair é.",
+        "<strong>Ní hé</strong> hipirghníomhaíocht infheicthe i gcónaí é — tá ADHD den chineál neamhairdiúil ann (níos coitianta i measc cailíní, go minic gan diagnóis).",
+        "<strong>Ní réitíonn sé</strong> le iarrachtaí breise — is fadhb néareolaíoch í, ní drochspreagthaíocht.",
+      ]},
+      { items: [
+        "Treoracha roinnte: ceann amháin ag aon am, scríofa ar an gclár, le creatlaigh ama socraithe.",
+        "Lig gluaiseacht dlisteanach (ábhair a roinnt, an clár a ghlanadh, teachtaireacht chuig an síceolaí scoile).",
+        "Laghdaigh spreagthóirí iomaíocha (suíochán ó fhuinneog, doras, grúpa is torannaí).",
+        "Atreisiú dearfach láithreach — tá timthriall luaíochta néareolaíoch níos giorra ag ADHD.",
+      ]},
+      { items: [
+        "Tosaigh leis an méid a dhéanann an scoláire go maith — ní féidir leis an gcruinniú tosú le liosta gearáin.",
+        "Déan cur síos ar iompar breathnaithe, ní ar dhiagnóisí: 'nuair a bhíonn níos mó ná dhá chéim as a chéile ann, cailleann siad an snáithe'.",
+        "Ínigh an freagairt 'ní mar sin atá sé sa bhaile' — míniú go ndéanann comhthéacs an ghrúpa na siabhráin níos infheicthe.",
+        "Más rud é go molann tú measúnú síceolaíoch, cuir i láthair mar acmhainn é, ní mar phionós: 'tá tacaíocht ar fáil a d'fhéadfadh cabhrú go mór'.",
+      ]},
+      { items: [
+        "Deacrachtaí smachta leanúnacha d'ainneoin oiriúnuithe ranga.",
+        "Comharthaí eisiaimh shóisialta ag comhscoláirí.",
+        "Comharthaí comhéadarthaí (imní, dúlagar, neamhord frithsheasmhach easumhal).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Léann go mall agus le bacadh, fiú i dtéacsanna a thuigeann siad nuair a chloiseann siad iad.",
+        "Meascann litreacha atá cosúil go físiúil (b/d, p/q); aisiompóidh ord na litreacha i bhfocail.",
+        "Earráidí litrithe leanúnacha i saothair scríofa nach bhfreagraíonn do cheartú athlua.",
+        "Seachnaíonn léamh os ard; is cosúil nach bhfuil siad sásta páirt a ghlacadh ach cosnaíonn siad iad féin.",
+        "Tá tuiscint ó bhéal i bhfad níos airde ná tuiscint scríofa.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> easpa intleachta é — tá disléicse neamhspleách ar IQ.",
+        "<strong>Ní hé</strong> ach 'litreacha a mheascadh' é — is neamhord próiseála fóineolaíche é.",
+        "<strong>Ní imíonn sé</strong> — bainistear é le straitéisí cúitimh ar feadh an tsaoil.",
+      ]},
+      { items: [
+        "Cuir téacsanna le cló-chumadóireacht oiriúnaithe ar fáil (OpenDyslexic nó cosúil; méadú ar spásáil).",
+        "Ceadaigh léamh ciúin roimh aon léamh os ard — ná glaoigh ar dhuine riamh gan rabhadh.",
+        "Measúnaigh ábhar ar leithligh ó litriú nuair is é an cuspóir eolas a mheasúnú.",
+        "Tairg formáidí iolracha don fhaisnéis chéanna (físeán, fuaim, léaráidí).",
+      ]},
+      { items: [
+        "Scaradh léamh ón intleacht ón tús go follasach: 'tuigeann do leanbh go maith nuair a éisteann siad — tá an deacracht sonrach do léamh scríofa'.",
+        "Bí ar an airdeall go bhféadfadh disléicse gan diagnóis a bheith ar thuismitheoir — d'fhéadfadh an comhrá cuimhní crua a spreagadh.",
+        "Seachain bileoga oibre le deargcheartuithe a thaispeáint gan comhthéacs.",
+        "Bí sonrach faoi na hoiriúnuithe: téacsanna fuaime, léamh gan bhrú ama.",
+      ]},
+      { items: [
+        "Féinsmaoineamh acadúil ag dul in olcas ('táim amaideach', 'ní féidir liom aon rud a dhéanamh').",
+        "Seachaint chórasach ar thascanna léamh/scríbhneoireachta go dtí pointe ina gcuireann sé isteach ar ábhair eile.",
+        "Éagsúlacht mharcáilte idir feidhmíocht bhéil agus scríofa gan diagnóis oifigiúil.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Deacrachtaí le hathruithe gan réamhfhógra — athruithe ar amchlár, seomra nó múinteoir ionaid.",
+        "Cumarsáid liteartha — cailleann siad caolchuid, ironaíocht, nathanna idiomacha.",
+        "Íogaireacht smaoinithe — solas fluaraiseach, torann cúlra, lipéid éadaí is féidir a bheith do-fhulaingthe.",
+        "Spéiseanna dírithe agus domhain i dtopaicí sonracha.",
+        "Is cosúil go bhfuil siad as láthair nó cianfhuara nuair atá siad faoi ró-ualach, ní múchta amach.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> scála líneach é ('níos mó' nó 'níos lú' uathúil) — is próifíl iltoiseach é.",
+        "<strong>Ní hé</strong> easpa comhbhá é — is minic a bhíonn a mhalairt ann, le deacrachtaí ag scagadh ionchuir.",
+        "<strong>Ní hé</strong> drochghiúmar é nuair a bhristear gnáthamh — is freagairt néareolaíoch fíor é.",
+      ]},
+      { items: [
+        "Tabhair réamhrabhadh faoi aon athrú gnáthamh, fiú cinn nach bhfuil cuma thábhachtach orthu.",
+        "Déan rialacha sóisialta intuigthe ina rialacha follasacha (cad ba cheart a dhéanamh, cad nach ba cheart, cathain).",
+        "Ceadaigh sosanna smaoinithe i spás ciúin nuair is gá.",
+        "Úsáid spéiseanna an scoláire mar phointí iontrála i gcomhábhar foghlamtha.",
+      ]},
+      { items: [
+        "Tosaigh le breathnuithe sonracha, ná diagnósaigh ag an gcruinniú.",
+        "Tabhair faisnéis i scríbhinn — is deacair foirmiúlacht bhéil a choimeád.",
+        "Seachain an argóint 'déanann gach leanbh sin' — tá deacrachtaí smaoinithe agus sóisialta fíor.",
+        "Míniú go bhfeabhsaíonn idirghabhál luath (tacaíocht, ní ceilt) torthaí fadtéarmacha.",
+      ]},
+      { items: [
+        "Eachtraí géarchéime a chuireann sábháilteacht an scoláire nó daoine eile i gcontúirt.",
+        "Iomlán aonraithe sóisialta ó chomhscoláirí.",
+        "Cúlú i scileanna a bhí acu cheana.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Deacrachtaí le tascanna a éilíonn comhordú cruinn lámh: scríbhneoireacht, líníocht, siosúir a úsáid.",
+        "Treoshuíomh spásúil lag — cailltear sa halla, ní féidir ábhair a eagrú ar dheasc.",
+        "Gluaiseachtaí ciotacha, titim go minic nó baint le rudaí.",
+        "Deacrachtaí le tascanna féincúraim (cnaipí a dhaingniú, lásaí a cheangal).",
+        "D'fhéadfadh moill urlabhra a bheith ann nó deacrachtaí le tascanna sraitheacha.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> neamhairde ná leisciúlacht é — tá pleanáil mhótarach truaillithe go néareolaíoch.",
+        "<strong>Ní féidir é a fheiceáil</strong> ón taobh amuigh — is minic a bhíonn deacrachtaí measctha le ciotaíocht.",
+        "<strong>Ní fheabhsaíonn sé</strong> le cleachtas amháin — teastaíonn teiripe struchtúrtha.",
+      ]},
+      { items: [
+        "Tairg roghanna seachas scríbhneoireacht (méarchlár ríomhaire, taifead gutha).",
+        "Ceadaigh am breise do thascanna a éilíonn lámhoilteacht.",
+        "Laghdaigh méid na scríbhneoireachta — dírigh ar ábhar, ní ar chur i láthair.",
+        "Comhairliú le teiripí saothair faoi oiriúnú timpeallacht an ranga.",
+      ]},
+      { items: [
+        "Mínigh nach leisciúlacht é — tá an scoláire ag iarraidh, ach tá próiseas pleanála truaillithe.",
+        "Aibhsigh straitéisí cúitimh atá á n-úsáid ag an scoláire cheana féin.",
+        "Pléigh oiriúnuithe obair bhaile: níos lú, dírithe, ag baint úsáide as teicneolaíocht.",
+        "Spreag dul i gcomhairle le teiripí saothair nó fisiteiripeoir tríd an tacaíocht scoile.",
+      ]},
+      { items: [
+        "Laghdú tromchúiseach ar féinmheas nó aonrú sóisialta.",
+        "Sábháilteacht fhisiciúil i gcontúirt le linn corpoideachas.",
+        "Gan dul chun cinn d'ainneoin tacaíochta leanúnaí.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Foghlaimíonn ábhar nua go tapa agus cailleann spéis i dtascanna athrua.",
+        "Ceisteanna domhna, mícheart de chosúlacht a dhéanann cur isteach ar an gceacht.",
+        "Is féidir forbairt mhíchothrom a thaispeáint — intleacht iontach agus aibíocht shóisialta nó mhothúchánach íseal.",
+        "Is féidir leo cur i gcoinne gnáthaimh agus tascanna struchtúrtha má cheapann siad go bhfuil siad ró-éasca.",
+        "Is féidir leo a mhothú aonraithe ó chomhghleacaithe mar go bhfuil difríocht idir spéiseanna agus stíl cumarsáide.",
+      ]},
+      { items: [
+        "<strong>Ní ráthaíonn sé</strong> rath acadúil — is féidir nach gcomhlíonfar an cumas mura bhfuil dúshlán cuí ann.",
+        "<strong>Ní hionann é</strong> agus marcanna iontacha — déanann roinnt leanaí ardchumais iarracht d'aon ghnó gan a gcumas a léiriú.",
+        "<strong>Ní eisiann sé</strong> riachtanais eile — tá sé coitianta go mbíonn eisceachtúlacht dhúbailte (ardcumas + disléicse, ADHD srl.).",
+      ]},
+      { items: [
+        "Tairg ábhar saibhrithe nó luasaithe, ní níos mó den rud céanna.",
+        "Ceadaigh tionscadail neamhspleácha nó taighde domhain.",
+        "Úsáid spéiseanna an scoláire mar phointí iontrála i gcomhábhar níos casta.",
+        "Ceangail le leanaí ardchumais eile i dtionscadal-obair, nuair is féidir.",
+      ]},
+      { items: [
+        "Seachain an argóint 'tá sé chomh cliste sin, ní gá dó é' — teastaíonn dúshlán ó gach leanbh.",
+        "Míniú go bhféadfadh fadhbanna spreagtha forbairt gan spreagadh cuí.",
+        "Pléigh deiseanna saibhrithe is féidir a thabhairt isteach sa bhaile.",
+        "Béim a leagan ar riachtanais mothúchánacha: is féidir le leanaí ardchumais fulaingt ó phearsantacht foirfe, imní.",
+      ]},
+      { items: [
+        "Iomlán diúltú don scoil nó diúltú páirt a ghlacadh.",
+        "Dúlagar, aonrú nó géarchéimeanna mothúchánacha.",
+        "Éagsúlacht shuntasach idir cumas agus feidhmíocht gan chúis shoiléir.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Is féidir labhairt go líofa, ach bíonn deacracht le húsáid acadúil na teanga i ranganna ábhar.",
+        "Iompar na tréimhse ciúine — ní labhraíonn, ach braithean agus tuigeann.",
+        "Earráidí a léiríonn tionchar na máthairgha (aistriú), ní easpa tuisceana.",
+        "Is cosúil go bhfuil siad tuirseach nó dearmadach — tá ualach cognaíoch foghlama i dteanga eile mór.",
+        "Éagsúlacht feidhmíochta idir béil agus scríofa nó idir ábhair.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> deacracht foghlama é — tá próiseas sealbhaithe teanga gnách.",
+        "<strong>Ní cuí</strong> scoláire PLNM a mheasúnú ar an gcaoi chéanna le cainteoir dúchais.",
+        "<strong>Ní constaicí</strong> an mháthairtheanga — is buntáiste cognaíoch é dátheangachas.",
+      ]},
+      { items: [
+        "Úsáid tacaí amhairc, léaráidí, foclóirí dátheangacha i rith na gceachtanna.",
+        "Ceadaigh am breise do thascanna agus scrúduithe.",
+        "Measúnaigh ábhar ar leithligh ó fhoirm teanga nuair is é an cuspóir eolas.",
+        "Comhoibrigh le speisialtóir Béarla mar Theanga Bhreise (EAL) nó le múinteoir tacaíochta.",
+      ]},
+      { items: [
+        "Áirigh ateangaire nó idirghabhálaí do chruinnithe nuair is gá.",
+        "Seachain toimhdí faoi leibhéal oideachais nó inniúlachtaí teanga an teaghlaigh.",
+        "Míniú céimeanna sealbhaithe teanga — tréimhse chiúin, teanga acadúil i bhfad níos faide.",
+        "Béim a leagan air gur buntáiste, ní fadhb, é dátheangachas.",
+      ]},
+      { items: [
+        "Deacrachtaí leanúnacha tar éis 2 bliana tacaíochta gan dul chun cinn.",
+        "Amhras faoi dheacrachtaí foghlama folaigh in aice leis an mbacainn teanga.",
+        "Aonrú nó diúltú ó chomhghleacaithe mar gheall ar theanga.",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Is bunús é an rúndacht — ní chóir diagnóisí, imthosca teaghlaigh agus bearta tacaíochta a roinnt le comhghleacaithe gan gá.",
+        "Is féidir le lipéad cosaint (rochtain ar thacaíocht) nó dochar (stigma, laghdú súil) a dhéanamh — bí feasach ar an gcomhthéacs.",
+        "Labhair leis an scoláire, ní fúthu — tá fiú leanaí óga i dteideal páirt a ghlacadh i gcinntí faoina riachtanais.",
+        "Seachain na hoiriúnuithe a nochtadh go poiblí — cosnaíonn discréid dínit.",
+      ]},
+      { items: [
+        "Ná roinn diagnóisí nó faisnéis teaghlaigh lasmuigh den fhoireann ghairmiúil oibre.",
+        "Coinnítear doiciméid tacaíochta de réir GDPR (An Rialachán Ginearálta um Chosaint Sonraí) agus polasaí na scoile.",
+        "Tá ceart ag tuismitheoirí/caomhnóirí rochtain a fháil ar fhaisnéis faoi bhearta tacaíochta a gclainne.",
+      ]},
+      { items: [
+        "Ní hualach é éagsúlacht sa rang — tá sé nádúrtha agus feabhsaíonn sé cáilíocht an teagaisc do chách.",
+        "Seachain an scoláire a dheisiú nó a normalú — is é a gcúram forbairt a dhéanamh, ní cloí leis an norm.",
+        "Cuir ceist ort féin: cé leis a fhreastalaíonn an cinneadh seo — ar an scoláire nó ar an institiúid?",
+      ]},
+      { items: [
+        "Is féidir le súile neamhréadúla dochar a dhéanamh chomh maith le súile ísle — cuardaigh an méid atá dúshlánach ach inbhainte amach.",
+        "Aithin do chlaontachtaí féin: an bhfuil tú ag súil le níos lú ó ghrúpa áirithe scoláirí?",
+        "Ní pribhléid é tacaíocht — is ceart é, agus ba cheart rochtain air a bheith ar fáil gan bac breise.",
+        "Ní leithleachas é féincúram — ní féidir le múinteoir atá ag fulaingt ó bhreoslú amach tacú go héifeachtach le duine ar bith.",
+        "Comhairliú le comhghleacaithe i gcásanna deacra ó thaobh na heitice — éilíonn cuimsiú cur chuige foirne.",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Tá an modúl seo ceaptha le haghaidh oiriúnaithe agus úsáide praiticiúla sa rang — ní le léamh passively.",
+        "Tá gach straitéis bunaithe ar fhianaise agus oiriúnaithe do do chomhthéacs.",
+      ]},
+      { items: [
+        "Formáid téacs: méid cló ar a laghad 12pt; spásáil línte 1.5; Arial nó Calibri in ionad Times New Roman.",
+        "Cóid dathanna agus gnáthamha amhairc cruthaíonn intuartha agus laghdaíonn ualach cognaíoch.",
+        "Oiriúnuithe scrúdaithe: am breise, seomra ar leith, léitheoir nó scríobhaí.",
+        "Uirlisí digiteacha: téacs go caint, caint go téacs, foclóirí digiteacha.",
+        "Difreálú: na spriocanna foghlama céanna, ach cur i láthair éagsúil agus cineálacha feidhmíochta.",
+        "Dearadh Uilíoch don Fhoghlaim (UDL): pleanáil le haghaidh cuimsithe ón tús, ní oiriúnú ina dhiaidh.",
+      ]},
+      { items: [
+        "Ceangail le Seirbhís Náisiúnta Síceolaíochta Oideachais (NEPS) le haghaidh idirghabhála luaithe.",
+        "Áirigh foireann ildisciplíneach (múinteoir ranga, múinteoir acmhainne, tuismitheoirí).",
+        "Doiciméadaigh oiriúnuithe — cosnaíonn taifid scríofa an scoláire agus an múinteoir araon.",
+      ]},
+      { items: [
+        "Úsáid measúnú foirmitheach — céimeanna beaga, minice níos fearr ná scrúdú bliantúil.",
+        "Seachain comparáid leis an rang — measúnaigh dul chun cinn aonair.",
+        "Caithfidh aiseolas a bheith sonrach, tráthúil agus dírithe ar fhás.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "Acht Oideachais 1998 bunaíonn creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.",
+        "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.",
+        "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).",
+      ]},
+      { items: [
+        "NCSE (An Chomhairle Náisiúnta um Oideachas Speisialta) comhordaíonn seirbhísí agus foirgníonn beartais cuimsiúcháin.",
+        "Baill foirne tacaíochta scoile (SNA — Cúntóir Riachtanas Speisialta) tacaíonn le scoláirí i dtimpeallacht an ranga.",
+        "NEPS (An tSeirbhís Náisiúnta Síceolaíochta Oideachais) déanann measúnú agus tacaíonn le scoláirí.",
+      ]},
+      { items: [
+        "IEP (Plean Oideachais Aonair) réamhshocraithe ag múinteoir acmhainne, tuismitheoirí agus NCSE.",
+        "Múinteoirí Acmhainne agus Foghlaim-Tacaíochta cuireann tacaíocht dhíreach ar fáil laistigh den rang agus lasmuigh de.",
+        "Cúntóirí Riachtanas Speisialta (SNAnna) cuireann cúnamh pearsanta ar fáil leis an scoláire.",
+        "Measúnú síceolaíoch tríd NEPS nó trí chleachtas príobháideach mar shíol don IEP.",
+      ]},
+      { items: [
+        "Béarla mar Theanga Bhreise (EAL) ar fáil le haghaidh scoláirí a dtéann Gaeilge nó Béarla ar a gcomhscoláire.",
+        "Cláir chuideachta teanga tacaíonn le scoláirí imirceacha agus dídeanaithe.",
+        "Tá an NCSE freagrach as tacaíocht a eagrú do scoláirí ón gcoigríoch.",
+      ]},
+      { items: [
+        "Roinn Oideachais agus Scileanna (DES) maoirsíonn beartas agus maoiniú le haghaidh scoláirí le riachtanais speisialta.",
+        "Cigireacht scoile ag Cigireacht na Roinne measúnaíonn caighdeán cuimsiúcháin.",
+        "Ombudsman do Leanaí imscrúdaíonn gearáin ó thuismitheoirí faoi sheirbhísí oideachais.",
+      ]},
+      { items: [
+        "Tá tuismitheoirí ina bpáirtithe bunúsacha san IEP agus caithfear a dtoiliú a fháil do mheasúnú.",
+        "Is féidir le tuismitheoirí gearán a dhéanamh le NCSE nó leis an Ombudsman do Leanaí mura bhfuil siad sásta.",
+        "Tá teidlíochtaí scoláirí bunaithe ar thuarascálacha measúnaithe agus ar mholtaí NCSE.",
+      ]},
+    ]},
+  },
+  mt: {
+    tdah: { sections: [
+      { items: [
+        "Diffikultà biex iżżomm attenzjoni f'kompiti twal; titlef il-ħjut f'istruzzjonijiet b'passi multipli.",
+        "Moviment kontinwu — ma tistax tibqa' bilqiegħda, twiddeb b'idejha, tqum mingħajr raġuni apparenti.",
+        "Twieġeb qabel ma tispiċċa l-mistoqsija; tinterrompi lil sħabha u lill-għalliem.",
+        "Tinsa l-materjali, l-iskadenza, l-istruzzjonijiet verbali mogħtijin ftit minuti qabel.",
+        "Tista' tiffoka iperattivament fuq xi ħaġa ta' interess, tagħti l-impressjoni (ħażina) li tista' tagħmlu meta trid.",
+      ]},
+      { items: [
+        "<strong>Mhix</strong> għażż, negliġenza jew difett tal-karattru.",
+        "<strong>Mhix</strong> dejjem iperattività viżibbli — hemm ADHD predominantement inattentiva (aktar komuni fin-nisa, spiss mhix dijanjostikata).",
+        "<strong>Ma tisolvix</strong> b'aktar sforz — il-problema hija newroloġika, mhux motivazzjonali.",
+      ]},
+      { items: [
+        "Istruzzjonijiet maqsuma: waħda fil-ħin, miktuba fuq il-lavanja, b'qafas ta' żmien stabbilit.",
+        "Ippermetti moviment leġittimu (tqassim ta' materjali, tindif tal-lavanja, messaġġ lall-psikologu tal-iskola).",
+        "Naqqas l-istimuli kompetittivi (siġġu 'l bogħod mit-tieqa, il-bieb, il-grupp l-aktar storbja).",
+        "Rinforz pożittiv immedjat — iċ-ċiklu tar-riward newroloġiku hija aqsar fl-ADHD.",
+      ]},
+      { items: [
+        "Ibda b'dak li l-istudent jagħmel tajjeb — il-laqgħa ma tistax tibda bi lista ta' lmenti.",
+        "Iddeskrivi mġieba osservata, mhux dijanjosi: 'meta jkun hemm aktar minn żewġ passi konsekuttivi, titlef il-ħjut'.",
+        "Anticipja r-rispons 'fid-dar mhijiex hekk' — fissira li l-kuntest tal-grupp jagħmel is-sintomi aktar viżibbli.",
+        "Jekk tissuġġerixxi valutazzjoni psikoloġika, ippreżentaha bħala riżorsa, mhux kastig: 'hemm appoġġ disponibbli li jista' jgħin ħafna'.",
+      ]},
+      { items: [
+        "Diffikultajiet dixxiplinari persistenti minkejja adattamenti fil-klassi.",
+        "Sinjali ta' esklużjoni soċjali minn sħabhom.",
+        "Sinjali ta' komorbiditajiet (ansjetà, dipressjoni, disturb oppożizzjonali sfidanti).",
+      ]},
+    ]},
+    dislexia: { sections: [
+      { items: [
+        "Taqra bil-mod u b'tfixkil, anke fi testi li tifhem meta tismagħhom.",
+        "Tħawwad ittri viżwalment simili (b/d, p/q); tinverti l-ordni tal-ittri fi kliem.",
+        "Żbalji persistenti fl-ittografija f'xogħlijiet miktuba li ma jirrispondux għal korrezzjoni ripetuta.",
+        "Tevita l-qari bl-ovħer; jidher li ma tridx tipparteċipa meta fil-fatt tipproteġi lilha nnifisha.",
+        "Il-fehim verbali hija ferm ogħla mill-fehim bil-miktub.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> nuqqas ta' intelliġenza — id-dislexia hija indipendenti mill-IQ.",
+        "<strong>Mhijiex</strong> biss 'tħawwad l-ittri' — hija disturb tal-ipproċessar fonoloġiku.",
+        "<strong>Ma tgħibx</strong> — tiġi mmaniġġjata b'strateġiji kumpensatorji matul il-ħajja kollha.",
+      ]},
+      { items: [
+        "Pprovdi testi b'tipografija adattata (OpenDyslexic jew simili; spazjar akbar).",
+        "Ippermetti qari siekta qabel kwalunkwe qari bl-ovħer — qatt ma ssejjaħ lil ħadd mingħajr twissija.",
+        "Evalwa l-kontenut separatament mill-ittografija meta l-objettiv huwa li tevalwa l-għarfien.",
+        "Offri formati multipli għall-istess informazzjoni (vidjo, awdjo, dijagrami).",
+      ]},
+      { items: [
+        "Issepara l-qari mill-intelliġenza mill-bidu: 'ibnek/bintok jifhem/tifhem tajjeb meta jisma'/tisma' — id-diffikultà hija speċifika għall-qari bil-miktub'.",
+        "Oqgħod attent li ġenitur wieħed jista' jkollu dislexia mhux dijanjostikata — il-konversazzjoni tista' tqanqal memorji diffiċli.",
+        "Evita li turi fogli tax-xogħol mimlija korrezzjonijiet ħomor mingħajr kuntest.",
+        "Kun speċifiku dwar l-adattamenti: testi bl-awdjo, qari mingħajr pressjoni ta' żmien.",
+      ]},
+      { items: [
+        "Konċett akkademiku tagħha stess li qed idgħajjef ('jiena stupidu/a', 'ma nistax nagħmel xejn').",
+        "Evitar sistematiku ta' kompiti ta' qari/kitba sa punt li jikkomprometti suġġetti oħra.",
+        "Diverġenza mmarkjata bejn il-prestazzjoni verbali u bil-miktub mingħajr dijanjosi uffiċjali.",
+      ]},
+    ]},
+    autismo: { sections: [
+      { items: [
+        "Diffikultajiet b'bidliet mhux imħabbra — bidliet fl-orarju, fis-sala, jew fil-supplent.",
+        "Komunikazzjoni litterali — titlef in-nuance, l-ironija, l-espressjonijiet idiomatiċi.",
+        "Sensittività sensorjali — dawl fjuwrexxenti, ħoss ta' sfond, tikketti tal-ħwejjeġ jistgħu jkunu intollerabbli.",
+        "Interessi ffokati u profondi f'suġġetti speċifiċi.",
+        "Jista' jidher disenġaġġat jew distanzijar meta hija mdawra, mhux mitfija.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> skala lineari ('aktar' jew 'inqas' awtistiku) — hija profil multidimensjonali.",
+        "<strong>Mhijiex</strong> nuqqas ta' empatija — spiss huwa l-oppost, b'diffikultajiet fil-filtrazzjoni tal-input.",
+        "<strong>Mhijiex</strong> mġieba ħażina meta jinkiser ir-rutina — hija rispons newroloġiku reali.",
+      ]},
+      { items: [
+        "Agħti twissija bil-quddiem dwar kwalunkwe bidla fir-rutina, anke dawk li jidhru trivjali.",
+        "Agħmel ir-regoli soċjali impliċiti f'regoli espliti (x'tagħmel, x'ma tagħmelx, meta).",
+        "Ippermetti pawżi sensorjali f'spazju kwiet meta meħtieġ.",
+        "Uża l-interessi tal-istudent bħala punti ta' dħul fil-kontenut tal-tagħlim.",
+      ]},
+      { items: [
+        "Ibda b'osservazzjonijiet konkreti, tiddijanjostikax fil-laqgħa.",
+        "Agħti informazzjoni bil-miktub — l-verbali huwa diffiċli biex tinżamm.",
+        "Evita l-argument 'kull tifel/tifla jagħmel/tagħmel hekk' — id-diffikultajiet sensorjali u soċjali huma reali.",
+        "Fissira li l-intervent bikri (appoġġ, mhux ħabi) ittejjeb ir-riżultati fit-tul.",
+      ]},
+      { items: [
+        "Episodji ta' kriżi li jpoġġu fis-sigurtà tal-istudent jew ta' oħrajn.",
+        "Iżolament soċjali komplet minn sħabhom.",
+        "Regressjoni f'ħiliet akkwistati qabel.",
+      ]},
+    ]},
+    dispraxia: { sections: [
+      { items: [
+        "Diffikultajiet bil-kompiti li jeħtieġu koordinament preċiż tal-idejn: kitba, tpinġija, użu ta' qxur.",
+        "Orjentament spazjali dgħajjef — jintilef fil-kuridur, ma jistax jorganizza materjali fuq l-iskrivanija.",
+        "Movimenti mhux eleganti, waqgħat frekwenti jew taħbita ma' oġġetti.",
+        "Diffikultajiet bil-kompiti ta' awto-kura (jgħalleq il-buttuni, jorbot il-qraben).",
+        "Jista' jkun hemm dewmien fil-kliem jew diffikultajiet bil-kompiti ta' sekwenzar.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> inattenzjoni jew għażż — il-pjanifikazzjoni motorja hija mfixkla newroloġikament.",
+        "<strong>Ma tidhirx</strong> minn barra — id-diffikultajiet spiss jintbdlu mal-goffaġni.",
+        "<strong>Ma ttejjibx</strong> bil-prattika waħedha — tista' jeħtieġ terapija strutturata.",
+      ]},
+      { items: [
+        "Offri alternattivi għall-kitba (tastiera tal-kompjuter, reġistrazzjoni bil-vuċi).",
+        "Ippermetti aktar żmien għall-kompiti li jeħtieġu abilità manwali.",
+        "Naqqas il-kwantità tal-kitba — iffoka fuq il-kontenut, mhux il-preżentazzjoni.",
+        "Ikkonsulta terapeuta okkupazzjonali dwar adattament tal-ambjent tal-klassi.",
+      ]},
+      { items: [
+        "Fissira li mhux għażż — l-istudent qed jipprova, iżda l-proċess ta' pjanifikazzjoni huwa mfixkel.",
+        "Agħraf l-istrateġiji kumpensatorji li l-istudent diġà juża.",
+        "Iddiskuti adattamenti tad-devoirs: inqas, iffukati, bl-użu tat-teknoloġija.",
+        "Ħeġġeġ konsultazzjoni ma' terapeuta okkupazzjonali jew fisjoterapeuta permezz tal-appoġġ tal-iskola.",
+      ]},
+      { items: [
+        "Tnaqqis serju fl-istima tagħha stess jew iżolament soċjali.",
+        "Sigurtà fiżika fir-riskju waqt l-edukazzjoni fiżika.",
+        "L-ebda progress minkejja appoġġ kontinwu.",
+      ]},
+    ]},
+    sobredotacao: { sections: [
+      { items: [
+        "Titgħallem kontenut ġdid malajr u titlef l-interess fil-kompiti ta' ripetizzjoni.",
+        "Tagħmel mistoqsijiet profondi, li jidhru barra l-post, li jinterrompu l-lezzjoni.",
+        "Tista' turi żvilupp mhux ugwali — intellett straordinarju b'immaturi soċjali jew emozzjonali.",
+        "Tista' tirreżisti r-rutini u l-kompiti strutturati jekk iqishom faċli wisq.",
+        "Tista' tħoss ruħha iżolata mill-pari minħabba li l-interessi u l-istil ta' komunikazzjoni huma differenti.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> garanzija ta' suċċess akkademiku — il-potenzjal jista' ma jintlaħaqx mingħajr sfida adegwata.",
+        "<strong>Mhijiex</strong> l-istess bħal gradi eċċellenti — xi tfal bi kapaċità għolja jippruvaw deliberatament ftit.",
+        "<strong>Ma teskludi</strong> bżonnijiet oħra — l-eċċezzjonalità doppja (kapaċità għolja + dislexia, ADHD eċċ.) hija komuni.",
+      ]},
+      { items: [
+        "Offri kontenut arrikkit jew aċċellerat, mhux aktar tal-istess.",
+        "Ippermetti proġetti indipendenti jew riċerka fil-fond.",
+        "Uża l-interessi tal-istudent bħala punti ta' dħul fi kontenut aktar kumpless.",
+        "Qabbad ma' tfal oħra ta' kapaċità għolja fil-proġetti meta possibbli.",
+      ]},
+      { items: [
+        "Evita l-argument 'huwa/hija daqshekk intelliġenti, ma jeħtieġx' — kull tifel/tifla jeħtieġ sfida.",
+        "Fissira li mingħajr stimolazzjoni adegwata jistgħu jiżviluppaw problemi ta' motivazzjoni.",
+        "Iddiskuti opportunitajiet ta' arrikiment li jistgħu jiġu introdotti d-dar.",
+        "Enfasizza l-bżonnijiet emozzjonali: tfal ta' kapaċità għolja jistgħu jsofru minn perfezzjoniżmu, ansjetà.",
+      ]},
+      { items: [
+        "Rifjut komplet tal-iskola jew rifjut li tipparteċipa.",
+        "Dipressjoni, iżolament jew kriżijiet emozzjonali.",
+        "Diverġenza sinifikanti bejn il-kapaċità u l-prestazzjoni mingħajr raġuni ċara.",
+      ]},
+    ]},
+    plnm: { sections: [
+      { items: [
+        "Tista' titkellem fluwenti, iżda tiġġieled mal-użu akkademiku tal-lingwa fis-suġġetti.",
+        "Imġieba tal-perjodu kwiet — ma tgħidx, iżda tipperċepixxi u tifhem.",
+        "Żbalji li jirriflettu l-influwenza tal-lingwa materna (trasferiment), mhux nuqqas ta' fehim.",
+        "Tista' tidher għajjiena jew distratta — il-piż konjittiv tat-tagħlim f'lingwa oħra huwa kbir.",
+        "Diverġenza fil-prestazzjoni bejn il-verbali u l-miktub jew bejn is-suġġetti.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> diffikultà fl-apprendiment — il-proċess tal-akkwiżizzjoni tal-lingwa huwa normali.",
+        "<strong>Mhix xieraq</strong> li tevalwa student PLNM bl-istess mod bħal kelliem nattiv.",
+        "<strong>Il-lingwa materna mhijiex ostaklu</strong> — il-bilingwaliżmu huwa vantaġġ konjittiv.",
+      ]},
+      { items: [
+        "Uża appoġġi viżwali, dijagrami, dizzjunarji bilingwi waqt il-lezzjonijiet.",
+        "Ippermetti aktar żmien għall-kompiti u l-eżamijiet.",
+        "Evalwa l-kontenut separatament mill-forma tal-lingwa meta l-għan huwa l-għarfien.",
+        "Agħmel kollaborazzjoni ma' speċjalista f'Malti jew Ingliż bħala lingwa tal-istruzzjoni.",
+      ]},
+      { items: [
+        "Inkludix interpretu jew medjatur għal-laqgħat meta meħtieġ.",
+        "Evita l-assunzjonijiet dwar il-livell ta' edukazzjoni jew il-kompetenza lingwistika tal-familja.",
+        "Fissira l-istadji tal-akkwiżizzjoni tal-lingwa — perjodu kwiet, il-lingwa akkademika tieħu aktar żmien.",
+        "Enfasizza li l-bilingwaliżmu huwa vantaġġ, mhux problema.",
+      ]},
+      { items: [
+        "Diffikultajiet persistenti wara 2 snin appoġġ mingħajr progress.",
+        "Suspett ta' diffikultajiet ta' tagħlim latenti flimkien mal-barriera lingwistika.",
+        "Iżolament jew rifjut mill-pari minħabba l-lingwa.",
+      ]},
+    ]},
+    etica: { sections: [
+      { items: [
+        "Il-kunfidenzjalità hija l-bażi — id-dijanjosi, iċ-ċirkostanzi tal-familja u l-miżuri ta' appoġġ ma għandhomx jinqasmu mal-kollegi mingħajr ħtieġa.",
+        "It-tikketta tista' tipproteġi (aċċess għall-appoġġ) jew tagħmel ħsara (stigma, aspettattivi mnaqqsa) — kun konxju tal-kuntest.",
+        "Tkellem mal-istudent, mhux dwaru — anke t-tfal żgħar għandhom id-dritt jipparteċipaw fid-deċiżjonijiet dwar il-bżonnijiet tagħhom.",
+        "Evita li tagħmel l-adattamenti pubbliċi — id-diskrezzjoni tipproteġi d-dinjità.",
+      ]},
+      { items: [
+        "Taqsamx id-dijanjosi jew informazzjoni tal-familja barra t-tim professjonali li jaħdem.",
+        "Id-dokumenti ta' appoġġ jinżammu skont ir-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR) u l-politika tal-iskola.",
+        "Il-ġenituri/kustodji għandhom id-dritt tal-aċċess għall-informazzjoni dwar il-miżuri ta' appoġġ ta' wliedhom.",
+      ]},
+      { items: [
+        "Id-diversità fil-klassi mhijiex piż — hija naturali u ttejjeb il-kwalità tat-tagħlim għal kulħadd.",
+        "Evita li tissewwi jew tormalizza l-istudent — il-kompitu tagħhom huwa li jiżviluppaw, mhux li jikkonformaw man-norma.",
+        "Staqsi lilek innifsek: l-interessi ta' min qed iservi din id-deċiżjoni — tal-istudent jew tal-istituzzjoni?",
+      ]},
+      { items: [
+        "L-aspettattivi mhux realistiċi jistgħu jagħmlu ħsara daqs l-aspettattivi baxxi — fittex dak li huwa sfidanti iżda attenwabbli.",
+        "Agħraf il-preġudizzji tiegħek stess: qed tistenna inqas minn grupp partikolari ta' studenti?",
+        "L-appoġġ mhux privileġġ — huwa dritt, u l-aċċess għalih għandu jkun disponibbli mingħajr ostakli addizzjonali.",
+        "Il-kura ta' nfisk mhix egoiżmu — l-għalliem li qed ibati minn burnout ma jistax jappoġġja lil ħadd b'mod effettiv.",
+        "Ikkonsulta lill-kollegi f'każi diffiċli etikament — l-inklużjoni teħtieġ approċċ ta' tim.",
+      ]},
+    ]},
+    oficina: { sections: [
+      { items: [
+        "Dan il-modulu huwa maħsub għall-adattament u l-użu prattiku fil-klassi — mhux għal qari passiv.",
+        "Kull strateġija hija bbażata fuq evidenza u adattabbli għall-kuntest tiegħek.",
+      ]},
+      { items: [
+        "Format tat-test: daqs tal-font ta' mill-anqas 12pt; spazjar bejn il-linji 1.5; Arial jew Calibri minflok Times New Roman.",
+        "Kodiċi ta' kuluri u rutini viżwali joħolqu prevedibbiltà u jnaqqsu l-piż konjittiv.",
+        "Adattamenti tal-eżami: żmien żejjed, kamra separata, qarrej jew kittieb.",
+        "Għodod diġitali: test għall-vuċi, vuċi għat-test, dizzjunarji diġitali.",
+        "Differenzjazzjoni: l-istess objettivi ta' tagħlim, iżda rappreżentazzjonijiet differenti u tipi ta' prestazzjoni.",
+        "Disinn Universali għat-Tagħlim (UDL): ppjanar għall-inklużjoni mill-bidu, mhux adattament wara.",
+      ]},
+      { items: [
+        "Aqta' l-kuntatt mal-Aġenzija tal-Inklużjoni fl-Edukazzjoni (Inclusion Education Agency) jew mal-LSE tal-iskola.",
+        "Inkludix tim multidisċiplinarji (għalliem tal-klassi, LSE, ġenituri).",
+        "Iddomentika l-adattamenti — ir-rekords bil-miktub jipproteġu lill-istudent u lill-għalliem.",
+      ]},
+      { items: [
+        "Uża evalwazzjoni formattiva — passi żgħar, frekwenti aħjar minn eżami annwali.",
+        "Evita l-paragun mal-klassi — evalwa l-progress individwali.",
+        "Il-feedback irid ikun speċifiku, fil-waqt u dwar it-tkabbir.",
+      ]},
+    ]},
+    legislacao: { sections: [
+      { items: [
+        "L-Att dwar l-Edukazzjoni (Kap. 327, 1988, emendat) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.",
+        "Il-Politika tal-Edukazzjoni Inklussiva (2019, ibbażata fuq ir-Rapport Bellerate) tartikolà l-approċċ Malti għall-bżonnijiet speċjali.",
+        "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).",
+      ]},
+      { items: [
+        "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tibbenefikja mill-politika nazzjonali.",
+        "LSE (Learning Support Educator) jappoġġja lill-istudenti b'bżonnijiet speċjali fil-klassi regolari.",
+        "Id-Dipartiment tal-Inklużjoni u r-Riżorsi tal-Edukazzjoni (DIER) jimmaniġġja s-servizzi ta' bżonnijiet speċjali.",
+      ]},
+      { items: [
+        "Student Development Programme (SDP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.",
+        "Statement of Needs: dokument li jidentifika l-bżonnijiet ta' student wara stħarriġ professjonali.",
+        "LSEs jappoġġjaw in-needful students fiċ-ċirkustanzi tal-klassi ordinarja.",
+        "Psikologi skolastiċi huma disponibbli permezz tal-Iskejjel tal-Gvern u l-Ispjega tal-Edukazzjoni.",
+      ]},
+      { items: [
+        "Il-Malti u l-Ingliż huma l-ilsna uffiċjali tal-istruzzjoni f'Malta.",
+        "L-appoġġ lingwistiku addizzjonali huwa disponibbli għal studenti li l-lingwa materna tagħhom mhix il-Malti jew l-Ingliż.",
+        "Programmi ta' integrazzjon għal studenti migranti u refuġjati huma koordinati mill-Aġenzija tal-Inklużjoni.",
+      ]},
+      { items: [
+        "Il-Ministeru tal-Edukazzjoni u l-Impjieg jissorvelja l-politika u l-implimentazzjoni tal-inklużjoni.",
+        "Il-Kummissarju tal-Edukazzjoni jieħu l-ilmenti dwar id-drittijiet tal-edukazzjoni.",
+        "L-iskejjel għandhom jipproduċu Pjan ta' Inklużjoni u jirreġistraw l-adattamenti li jsiru.",
+      ]},
+      { items: [
+        "Il-ġenituri huma msejħa biex jipparteċipaw fl-SDP u fil-laqgħat ta' reviżjoni.",
+        "L-istudenti għandhom id-dritt li jiġu informati dwar id-drittijiet tagħhom fl-edukazzjoni.",
+        "L-ilmenti jistgħu jiġu ppreżentati lill-Kummissarju tal-Edukazzjoni jew lill-Ombudsman.",
+      ]},
+    ]},
+  },
+
 };
