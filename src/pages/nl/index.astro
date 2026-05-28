@@ -54,6 +54,11 @@ const categoryLang: Record<string, string> = {
   </nav>
 
   <div class="tools-link-row">
+    <a href={`${base}nl/lighthouse/`} class="tools-link tools-link-lighthouse">
+      <span class="tools-link-label">{t.lh_label}</span>
+      <span class="tools-link-title">{t.lh_title} →</span>
+      <span class="tools-link-desc">{t.lh_desc}</span>
+    </a>
     <a href={`${base}nl/tools/`} class="tools-link">
       <span class="tools-link-label">{t.tools_catalog}</span>
       <span class="tools-link-title">{t.tools_title}</span>
@@ -68,7 +73,9 @@ const categoryLang: Record<string, string> = {
 .tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
 .tree-node[data-category="Referência"] { border-left: 3px solid #4a7c59; }
 .tree-node[data-category="Recurso"]    { border-left: 3px solid #7c5a3a; }
-.tools-link-row { margin-top: 0.75rem; }
+.tools-link-row { margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.tools-link-lighthouse { border-left-color: var(--accent); }
+.tools-link-lighthouse:hover { border-color: var(--accent); }
 .tools-link { display: flex; flex-direction: column; gap: 0.3rem; padding: 1.2rem 1.5rem; background: var(--bg-elevated); border: 1px solid var(--rule); border-left: 3px solid var(--beam); text-decoration: none; transition: border-color 0.2s ease; }
 .tools-link:hover { border-color: var(--beam); box-shadow: 0 2px 12px rgba(20,23,26,0.05); }
 .tools-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
