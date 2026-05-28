@@ -39,6 +39,7 @@ export const ui = {
     lh_desc: 'Cada andar é um perfil ou referência. As fundações sustentam os mais comuns; o topo guia o enquadramento ético e legal.',
     lh_categories: 'Categorias',
     lh_back: 'Voltar ao início',
+    lh_label: 'Visualização',
   },
   en: {
     tagline: 'Tools and Approaches to Recognise and Guide students — a pocket manual for the classroom that respects the learner in front of you.',
@@ -78,6 +79,7 @@ export const ui = {
     lh_desc: 'Each floor is a profile or reference. The foundations hold the most common; the top guides the ethical and legal framework.',
     lh_categories: 'Categories',
     lh_back: 'Back to home',
+    lh_label: 'Visualisation',
   },
   es: {
     tagline: 'Herramientas y Enfoques para Reconocer y Orientar al alumnado — un manual de bolsillo para el aula que respeta al estudiante que tienes enfrente.',
@@ -117,6 +119,7 @@ export const ui = {
     lh_desc: 'Cada piso es un perfil o referencia. Las bases sostienen los más comunes; la cima guía el marco ético y legal.',
     lh_categories: 'Categorías',
     lh_back: 'Volver al inicio',
+    lh_label: 'Visualización',
   },
   fr: {
     tagline: "Outils et Approches pour Reconnaître et Orienter les élèves — un guide de poche pour la classe qui respecte l'apprenant face à vous.",
@@ -156,6 +159,7 @@ export const ui = {
     lh_desc: 'Chaque étage est un profil ou une référence. Les fondations soutiennent les plus courants ; le sommet guide le cadre éthique et juridique.',
     lh_categories: 'Catégories',
     lh_back: 'Retour à l\'accueil',
+    lh_label: 'Visualisation',
   },
   it: {
     tagline: 'Strumenti e Approcci per Riconoscere e Orientare gli studenti — un manuale tascabile per la classe che rispetta il discente che hai di fronte.',
@@ -195,6 +199,7 @@ export const ui = {
     lh_desc: 'Ogni piano è un profilo o riferimento. Le fondamenta reggono i più comuni; la cima guida il quadro etico e giuridico.',
     lh_categories: 'Categorie',
     lh_back: 'Torna all\'inizio',
+    lh_label: 'Visualizzazione',
   },
   hr: {
     tagline: 'Alati i Pristupi za Raspoznavanje i Usmjeravanje učenika — džepni priručnik za učionicu koji poštuje svakog učenika.',
@@ -234,6 +239,7 @@ export const ui = {
     lh_desc: 'Svaki kat je profil ili referenca. Temelji nose najčešće; vrh vodi etički i pravni okvir.',
     lh_categories: 'Kategorije',
     lh_back: 'Natrag na početak',
+    lh_label: 'Vizualizacija',
   },
   de: {
     tagline: 'Werkzeuge und Ansätze zum Erkennen und Begleiten von Schülerinnen und Schülern — ein Taschenhandbuch für den Unterricht, das den Lernenden in den Mittelpunkt stellt.',
@@ -273,6 +279,7 @@ export const ui = {
     lh_desc: 'Jede Etage ist ein Profil oder eine Referenz. Das Fundament trägt die häufigsten; die Spitze leitet den ethischen und rechtlichen Rahmen.',
     lh_categories: 'Kategorien',
     lh_back: 'Zurück zum Start',
+    lh_label: 'Visualisierung',
   },
   nl: {
     tagline: 'Instrumenten en Benaderingen om leerlingen te Herkennen en te Begeleiden — een zakhandboek voor het klaslokaal dat de leerling centraal stelt.',
@@ -312,6 +319,7 @@ export const ui = {
     lh_desc: 'Elke verdieping is een profiel of referentie. De fundering draagt de meest voorkomende; de top begeleidt het ethische en juridische kader.',
     lh_categories: 'Categorieën',
     lh_back: 'Terug naar begin',
+    lh_label: 'Visualisatie',
   },
   pl: {
     tagline: 'Narzędzia i Podejścia do Rozpoznawania i Ukierunkowania uczniów — podręczny poradnik dla nauczyciela, który szanuje ucznia przed sobą.',
@@ -351,6 +359,7 @@ export const ui = {
     lh_desc: 'Każde piętro to profil lub odniesienie. Fundamenty niosą najczęstsze; szczyt prowadzi ramy etyczne i prawne.',
     lh_categories: 'Kategorie',
     lh_back: 'Powrót do początku',
+    lh_label: 'Wizualizacja',
   },
   ro: {
     tagline: 'Instrumente și Abordări pentru Recunoașterea și Orientarea elevilor — un ghid de buzunar pentru clasă care respectă elevul din fața ta.',
@@ -390,6 +399,7 @@ export const ui = {
     lh_desc: 'Fiecare etaj este un profil sau referință. Fundațiile poartă cele mai comune; vârful ghidează cadrul etic și juridic.',
     lh_categories: 'Categorii',
     lh_back: 'Înapoi la început',
+    lh_label: 'Vizualizare',
   },
   cs: {
     tagline: 'Nástroje a Přístupy k Rozpoznávání a Vedení žáků — kapesní příručka pro třídu, která respektuje žáka před vámi.',
@@ -429,6 +439,7 @@ export const ui = {
     lh_desc: 'Každé patro je profil nebo reference. Základy nesou nejběžnější; vrchol vede etický a právní rámec.',
     lh_categories: 'Kategorie',
     lh_back: 'Zpět na začátek',
+    lh_label: 'Vizualizace',
   },
   sv: {
     tagline: 'Verktyg och Tillvägagångssätt för att Känna igen och Vägleda elever — en fickhandbok för klassrummet som respekterar eleven framför dig.',
@@ -468,6 +479,7 @@ export const ui = {
     lh_desc: 'Varje våning är en profil eller referens. Grunden bär de vanligaste; toppen leder det etiska och rättsliga ramverket.',
     lh_categories: 'Kategorier',
     lh_back: 'Tillbaka till start',
+    lh_label: 'Visualisering',
   },
   da: {
     tagline: 'Værktøjer og Tilgange til at Genkende og Vejlede elever — en lommehåndbog til klasseværelset der respekterer den elev du har foran dig.',
@@ -507,6 +519,7 @@ export const ui = {
     lh_desc: 'Hvert etage er en profil eller reference. Fundamentet bærer de mest almindelige; toppen guider den etiske og juridiske ramme.',
     lh_categories: 'Kategorier',
     lh_back: 'Tilbage til start',
+    lh_label: 'Visualisering',
   },
   fi: {
     tagline: 'Välineitä ja Lähestymistapoja oppilaiden Tunnistamiseen ja Ohjaamiseen — taskuopas luokkahuoneeseen, joka kunnioittaa edessäsi olevaa oppijaa.',
@@ -546,6 +559,7 @@ export const ui = {
     lh_desc: 'Jokainen kerros on profiili tai viite. Perustukset kantavat yleisimpiä; huippu ohjaa eettistä ja oikeudellista kehystä.',
     lh_categories: 'Kategoriat',
     lh_back: 'Takaisin alkuun',
+    lh_label: 'Visualisointi',
   },
   sk: {
     tagline: 'Nástroje a Prístupy k Rozpoznávaniu a Vedeniu žiakov — vreckový sprievodca pre triedu, ktorý rešpektuje žiaka pred vami.',
@@ -585,6 +599,7 @@ export const ui = {
     lh_desc: 'Každé poschodie je profil alebo referencia. Základy nesú najčastejšie; vrchol vedie etický a právny rámec.',
     lh_categories: 'Kategórie',
     lh_back: 'Späť na začiatok',
+    lh_label: 'Vizualizácia',
   },
   el: {
     tagline: 'Εργαλεία και Προσεγγίσεις για την Αναγνώριση και Καθοδήγηση μαθητών — ένας τσέπης οδηγός για την τάξη που σέβεται τον μαθητή μπροστά σας.',
@@ -624,6 +639,7 @@ export const ui = {
     lh_desc: 'Κάθε όροφος είναι ένα προφίλ ή αναφορά. Τα θεμέλια φέρουν τα πιο κοινά· η κορυφή καθοδηγεί το ηθικό και νομικό πλαίσιο.',
     lh_categories: 'Κατηγορίες',
     lh_back: 'Επιστροφή στην αρχή',
+    lh_label: 'Οπτικοποίηση',
   },
   hu: {
     tagline: 'Eszközök és Megközelítések a tanulók Felismeréséhez és Irányításához — zsebkalauz az osztályterembe, amely tiszteli az előtted álló tanulót.',
@@ -663,6 +679,7 @@ export const ui = {
     lh_desc: 'Minden emelet egy profil vagy referencia. Az alapok a leggyakoribbakat tartják; a csúcs vezeti az etikai és jogi keretet.',
     lh_categories: 'Kategóriák',
     lh_back: 'Vissza a kezdőlapra',
+    lh_label: 'Vizualizáció',
   },
   bg: {
     tagline: 'Инструменти и Подходи за Разпознаване и Насочване на учениците — наръчник в джоба за класната стая, който уважава ученика срещу вас.',
@@ -702,6 +719,7 @@ export const ui = {
     lh_desc: 'Всеки етаж е профил или справка. Основите носят най-честите; върхът ръководи етичната и правна рамка.',
     lh_categories: 'Категории',
     lh_back: 'Обратно към началото',
+    lh_label: 'Визуализация',
   },
   lt: {
     tagline: 'Priemonės ir Požiūriai mokinių Atpažinimui ir Orientavimui — kišeninis vadovas klasei, gerbiantis prieš tave esantį besimokantįjį.',
@@ -741,6 +759,7 @@ export const ui = {
     lh_desc: 'Kiekvienas aukštas yra profilis arba nuoroda. Pamatai laiko dažniausius; viršūnė veda etinį ir teisinį pagrindą.',
     lh_categories: 'Kategorijos',
     lh_back: 'Grįžti į pradžią',
+    lh_label: 'Vizualizacija',
   },
   lv: {
     tagline: 'Rīki un Pieejas skolēnu Atpazīšanai un Virzīšanai — kabatas rokasgrāmata klasei, kas ciena jūsu priekšā esošo skolēnu.',
@@ -780,6 +799,7 @@ export const ui = {
     lh_desc: 'Katra stāva ir profils vai atsauce. Pamati nes biežākos; virsotne virza ētisko un juridisko ietvaru.',
     lh_categories: 'Kategorijas',
     lh_back: 'Atpakaļ uz sākumu',
+    lh_label: 'Vizualizācija',
   },
   et: {
     tagline: 'Tööriistad ja Lähenemisviisid õpilaste Äratundmiseks ja Juhendamiseks — taskujuhend klassile, mis austab sinu ees olevat õppijat.',
@@ -819,6 +839,7 @@ export const ui = {
     lh_desc: 'Iga korrus on profiil või viide. Alused kannavad kõige tavalisemaid; tipp juhib eetilist ja õiguslikku raamistikku.',
     lh_categories: 'Kategooriad',
     lh_back: 'Tagasi algusesse',
+    lh_label: 'Visualiseerimine',
   },
   sl: {
     tagline: 'Orodja in Pristopi za Prepoznavanje in Usmerjanje učencev — žepni priročnik za razred, ki spoštuje učenca pred seboj.',
@@ -858,6 +879,7 @@ export const ui = {
     lh_desc: 'Vsako nadstropje je profil ali referenca. Temelji nosijo najpogostejše; vrh vodi etični in pravni okvir.',
     lh_categories: 'Kategorije',
     lh_back: 'Nazaj na začetek',
+    lh_label: 'Vizualizacija',
   },
   ga: {
     tagline: 'Uirlisí agus Cineálacha Cur Chuige chun Daltaí a Aithint agus a Threorú — lámhleabhar póca don seomra ranga a mheasann an foghlaimeoir os do chomhair.',
@@ -897,6 +919,7 @@ export const ui = {
     lh_desc: 'Is profíl nó tagairt gach urlár. Iompraíonn na bunúis na cinn is coitianta; treoraíonn an barr an creat eiticiúil agus dlíthiúil.',
     lh_categories: 'Catagóirí',
     lh_back: 'Ar ais go dtí an baile',
+    lh_label: 'Léirshamhlú',
   },
   mt: {
     tagline: 'Għodod u Approċċi biex l-istudenti jiġu Rikonoxxuti u Gwida — manwal tal-but għall-klassi li jirrispetta l-istudent li għandek quddimek.',
@@ -936,6 +959,7 @@ export const ui = {
     lh_desc: 'Kull sular huwa profil jew referenza. Il-pedamenti jġorru l-aktar komuni; il-quċċata tgħid il-qafas etiku u legali.',
     lh_categories: 'Kategoriji',
     lh_back: 'Lura għall-bidu',
+    lh_label: 'Viżwalizzazzjoni',
   },
 } as const;
 
