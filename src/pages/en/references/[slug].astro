@@ -67,7 +67,7 @@ function entryHref(e: typeof allEntries[0]) {
       <section class="card-section">
         <h2 class="card-section-label">{sectionLabelTranslations.en?.[section.label] ?? section.label}</h2>
         <ul>
-          {section.items.map((item) => (
+          {(ct?.sections[i]?.items ?? section.items).map((item) => (
             <li><span set:html={item} /></li>
           ))}
         </ul>
