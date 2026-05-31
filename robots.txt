@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guilhermegfmachado.github.io/farol/sitemap-index.xml
