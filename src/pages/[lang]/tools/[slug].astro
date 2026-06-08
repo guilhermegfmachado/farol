@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { ui, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
@@ -18,11 +19,15 @@ export async function getStaticPaths() {
 }
 
 const { tool, lang } = Astro.props as { tool: any; lang: Lang };
-const { name, url, desc, profiles, free, rgpd_note } = tool.data;
+const { name, url, profiles, free } = tool.data;
+const slug = tool.id.replace(/\.md$/, '');
+const tTool = toolTranslations[lang]?.[slug];
+const desc = tTool?.desc ?? tool.data.desc;
+const rgpd_note = tTool?.rgpd_note ?? tool.data.rgpd_note;
 const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
-<Base title={`${name} — ${t.breadcrumb_tools} — Farol`} description={desc}>
+<Base title={`${name} — ${t.breadcrumb_tools} — Farol`} description={tool.data.desc}>
   <Header lang={lang} altHrefs={allIndexHrefs(base)} />
 
   <Breadcrumb crumbs={[

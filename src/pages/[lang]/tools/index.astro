@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { ui, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
@@ -41,7 +42,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
         data-category="tool"
       >
         <span class="tree-node-title">{tool.data.name}</span>
-        <span class="tree-node-desc">{tool.data.desc}</span>
+        <span class="tree-node-desc">{toolTranslations[lang]?.[tool.id.replace(/\.md$/, '')]?.desc ?? tool.data.desc}</span>
         {tool.data.free !== undefined && (
           <span class="tree-node-index" style="font-size:0.7rem">{tool.data.free ? t.tool_free : t.tool_paid}</span>
         )}
