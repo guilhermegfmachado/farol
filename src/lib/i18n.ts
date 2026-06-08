@@ -3,6 +3,7 @@ export type Lang = 'pt' | 'en' | 'es' | 'fr' | 'it' | 'hr' | 'de' | 'nl' | 'pl' 
 export const ui = {
   pt: {
     tagline: 'Ferramentas e Abordagens para Reconhecer e Orientar alunos — um manual de bolso para a sala de aula que respeita o aluno que tem à frente.',
+    version_tag: 'v0.1 · MAIO 2026',
     about_label: 'Sobre',
     about_p1: 'Este compêndio reúne estratégias práticas para docentes que trabalham com alunos neuro-divergentes, sobredotados, ou sem proficiência na língua de ensino. Cada perfil tem um cartão de consulta rápida.',
     about_p2: 'Cada cartão dá três coisas: <strong>o que está a ver na sala</strong>, <strong>o que pode fazer hoje</strong>, e <strong>onde a IA entra</strong> — como instrumento, não como substituto. Cinco minutos chegam para uma resposta útil.',
@@ -43,6 +44,7 @@ export const ui = {
   },
   en: {
     tagline: 'Tools and Approaches to Recognise and Guide students — a pocket manual for the classroom that respects the learner in front of you.',
+    version_tag: 'v0.1 · MAY 2026',
     about_label: 'About',
     about_p1: 'This compendium brings together practical strategies for teachers working with neuro-divergent, gifted, or non-native language learners. Each profile has a quick-reference card.',
     about_p2: "Each card gives three things: <strong>what you're seeing in class</strong>, <strong>what you can do today</strong>, and <strong>where AI fits in</strong> — as a tool, not a substitute. Five minutes is enough for a useful response.",
@@ -83,6 +85,7 @@ export const ui = {
   },
   es: {
     tagline: 'Herramientas y Enfoques para Reconocer y Orientar al alumnado — un manual de bolsillo para el aula que respeta al estudiante que tienes enfrente.',
+    version_tag: 'v0.1 · MAYO 2026',
     about_label: 'Acerca de',
     about_p1: 'Este compendio reúne estrategias prácticas para docentes que trabajan con alumnos neurodivergentes, superdotados o sin dominio de la lengua de enseñanza. Cada perfil tiene una ficha de consulta rápida.',
     about_p2: 'Cada ficha ofrece tres cosas: <strong>lo que estás viendo en clase</strong>, <strong>lo que puedes hacer hoy</strong> y <strong>cómo encaja la IA</strong> — como herramienta, no como sustituto. Cinco minutos bastan para una respuesta útil.',
@@ -123,6 +126,7 @@ export const ui = {
   },
   fr: {
     tagline: "Outils et Approches pour Reconnaître et Orienter les élèves — un guide de poche pour la classe qui respecte l'apprenant face à vous.",
+    version_tag: 'v0.1 · MAI 2026',
     about_label: 'À propos',
     about_p1: "Ce compendium rassemble des stratégies pratiques pour les enseignants qui travaillent avec des élèves neuro-divergents, surdoués ou sans maîtrise de la langue d'enseignement. Chaque profil dispose d'une fiche de référence rapide.",
     about_p2: "Chaque fiche donne trois éléments : <strong>ce que vous observez en classe</strong>, <strong>ce que vous pouvez faire aujourd'hui</strong> et <strong>comment l'IA s'intègre</strong> — comme outil, non comme substitut. Cinq minutes suffisent pour une réponse utile.",
@@ -163,6 +167,7 @@ export const ui = {
   },
   it: {
     tagline: 'Strumenti e Approcci per Riconoscere e Orientare gli studenti — un manuale tascabile per la classe che rispetta il discente che hai di fronte.',
+    version_tag: 'v0.1 · MAGGIO 2026',
     about_label: 'Informazioni',
     about_p1: 'Questo compendio raccoglie strategie pratiche per gli insegnanti che lavorano con studenti neurodivergenti, plusdotati o senza padronanza della lingua di insegnamento. Ogni profilo ha una scheda di consultazione rapida.',
     about_p2: "Ogni scheda fornisce tre cose: <strong>cosa stai vedendo in classe</strong>, <strong>cosa puoi fare oggi</strong> e <strong>come si inserisce l'IA</strong> — come strumento, non come sostituto. Cinque minuti bastano per una risposta utile.",
@@ -203,6 +208,7 @@ export const ui = {
   },
   hr: {
     tagline: 'Alati i Pristupi za Raspoznavanje i Usmjeravanje učenika — džepni priručnik za učionicu koji poštuje svakog učenika.',
+    version_tag: 'v0.1 · SVIBANJ 2026',
     about_label: 'O projektu',
     about_p1: 'Ovaj priručnik prikuplja praktične strategije za nastavnike koji rade s neurodivergentnim, darovitim ili učenicima bez vladanja jezikom poučavanja. Svaki profil ima karticu za brzu referencu.',
     about_p2: 'Svaka kartica daje tri stvari: <strong>što vidite u razredu</strong>, <strong>što možete učiniti danas</strong> i <strong>gdje AI može pomoći</strong> — kao alat, ne kao zamjena. Pet minuta dovoljno je za korisni odgovor.',
@@ -243,6 +249,7 @@ export const ui = {
   },
   de: {
     tagline: 'Werkzeuge und Ansätze zum Erkennen und Begleiten von Schülerinnen und Schülern — ein Taschenhandbuch für den Unterricht, das den Lernenden in den Mittelpunkt stellt.',
+    version_tag: 'v0.1 · MAI 2026',
     about_label: 'Über',
     about_p1: 'Dieses Kompendium versammelt praktische Strategien für Lehrkräfte, die mit neurodivergenten, hochbegabten oder nicht muttersprachlichen Lernenden arbeiten. Jedes Profil enthält eine Schnellübersichtskarte.',
     about_p2: 'Jede Karte liefert drei Dinge: <strong>was Sie im Unterricht beobachten</strong>, <strong>was Sie heute tun können</strong> und <strong>wo KI passt</strong> — als Werkzeug, nicht als Ersatz. Fünf Minuten reichen für eine hilfreiche Antwort.',
@@ -283,6 +290,7 @@ export const ui = {
   },
   nl: {
     tagline: 'Instrumenten en Benaderingen om leerlingen te Herkennen en te Begeleiden — een zakhandboek voor het klaslokaal dat de leerling centraal stelt.',
+    version_tag: 'v0.1 · MEI 2026',
     about_label: 'Over',
     about_p1: 'Dit compendium bundelt praktische strategieën voor leerkrachten die werken met neurodivergente, hoogbegaafde of anderstalige leerlingen. Elk profiel heeft een snelle referentiekaart.',
     about_p2: 'Elke kaart geeft drie dingen: <strong>wat u in de klas ziet</strong>, <strong>wat u vandaag kunt doen</strong> en <strong>hoe AI past</strong> — als hulpmiddel, niet als vervanging. Vijf minuten volstaan voor een nuttig antwoord.',
@@ -323,6 +331,7 @@ export const ui = {
   },
   pl: {
     tagline: 'Narzędzia i Podejścia do Rozpoznawania i Ukierunkowania uczniów — podręczny poradnik dla nauczyciela, który szanuje ucznia przed sobą.',
+    version_tag: 'v0.1 · MAJ 2026',
     about_label: 'O projekcie',
     about_p1: 'To kompendium zbiera praktyczne strategie dla nauczycieli pracujących z uczniami neuroróżnorodnymi, uzdolnionymi lub nieznającymi języka nauczania. Każdy profil zawiera kartę szybkiego podglądu.',
     about_p2: 'Każda karta daje trzy rzeczy: <strong>co widzisz w klasie</strong>, <strong>co możesz dziś zrobić</strong> i <strong>jak pasuje AI</strong> — jako narzędzie, nie zamiennik. Pięć minut wystarczy na przydatną odpowiedź.',
@@ -363,6 +372,7 @@ export const ui = {
   },
   ro: {
     tagline: 'Instrumente și Abordări pentru Recunoașterea și Orientarea elevilor — un ghid de buzunar pentru clasă care respectă elevul din fața ta.',
+    version_tag: 'v0.1 · MAI 2026',
     about_label: 'Despre',
     about_p1: 'Acest compendiu reunește strategii practice pentru profesorii care lucrează cu elevi neurodiverenți, supradotați sau fără cunoașterea limbii de predare. Fiecare profil are o fișă de referință rapidă.',
     about_p2: 'Fiecare fișă oferă trei lucruri: <strong>ce observați în clasă</strong>, <strong>ce puteți face azi</strong> și <strong>cum se potrivește IA</strong> — ca instrument, nu ca substitut. Cinci minute sunt suficiente pentru un răspuns util.',
@@ -403,6 +413,7 @@ export const ui = {
   },
   cs: {
     tagline: 'Nástroje a Přístupy k Rozpoznávání a Vedení žáků — kapesní příručka pro třídu, která respektuje žáka před vámi.',
+    version_tag: 'v0.1 · KVĚTEN 2026',
     about_label: 'O projektu',
     about_p1: 'Toto kompendium shromažďuje praktické strategie pro učitele pracující s neurodivergenními, nadanými nebo žáky bez znalosti vyučovacího jazyka. Každý profil má kartu pro rychlou orientaci.',
     about_p2: 'Každá karta nabízí tři věci: <strong>co vidíte ve třídě</strong>, <strong>co můžete dnes udělat</strong> a <strong>kde AI zapadá</strong> — jako nástroj, nikoli náhrada. Pět minut stačí na užitečnou odpověď.',
@@ -443,6 +454,7 @@ export const ui = {
   },
   sv: {
     tagline: 'Verktyg och Tillvägagångssätt för att Känna igen och Vägleda elever — en fickhandbok för klassrummet som respekterar eleven framför dig.',
+    version_tag: 'v0.1 · MAJ 2026',
     about_label: 'Om',
     about_p1: 'Detta kompendium samlar praktiska strategier för lärare som arbetar med neurodivergenta, högbegåvade eller elever utan kunskaper i undervisningsspråket. Varje profil har ett snabbreferenskort.',
     about_p2: 'Varje kort ger tre saker: <strong>vad du ser i klassrummet</strong>, <strong>vad du kan göra idag</strong> och <strong>hur AI passar in</strong> — som ett verktyg, inte en ersättning. Fem minuter räcker för ett användbart svar.',
@@ -483,6 +495,7 @@ export const ui = {
   },
   da: {
     tagline: 'Værktøjer og Tilgange til at Genkende og Vejlede elever — en lommehåndbog til klasseværelset der respekterer den elev du har foran dig.',
+    version_tag: 'v0.1 · MAJ 2026',
     about_label: 'Om',
     about_p1: 'Dette kompendium samler praktiske strategier for lærere, der arbejder med neurodivergente, højt begavede eller elever uden kendskab til undervisningssproget. Hver profil har et hurtigt referencekort.',
     about_p2: 'Hvert kort giver tre ting: <strong>hvad du ser i klassen</strong>, <strong>hvad du kan gøre i dag</strong> og <strong>hvordan AI passer ind</strong> — som et værktøj, ikke en erstatning. Fem minutter er nok til et nyttigt svar.',
@@ -523,6 +536,7 @@ export const ui = {
   },
   fi: {
     tagline: 'Välineitä ja Lähestymistapoja oppilaiden Tunnistamiseen ja Ohjaamiseen — taskuopas luokkahuoneeseen, joka kunnioittaa edessäsi olevaa oppijaa.',
+    version_tag: 'v0.1 · TOUKOKUU 2026',
     about_label: 'Tietoja',
     about_p1: 'Tämä kokoelma sisältää käytännön strategioita opettajille, jotka työskentelevät neurodivergenttien, lahjakkaiden tai opetuskielessä heikkotaitoisten oppilaiden kanssa. Jokaisella profiililla on nopea viitekortti.',
     about_p2: 'Jokainen kortti antaa kolme asiaa: <strong>mitä näet luokkahuoneessa</strong>, <strong>mitä voit tehdä tänään</strong> ja <strong>miten tekoäly sopii</strong> — työkaluna, ei korvaajana. Viisi minuuttia riittää hyödylliseen vastaukseen.',
@@ -563,6 +577,7 @@ export const ui = {
   },
   sk: {
     tagline: 'Nástroje a Prístupy k Rozpoznávaniu a Vedeniu žiakov — vreckový sprievodca pre triedu, ktorý rešpektuje žiaka pred vami.',
+    version_tag: 'v0.1 · MÁJ 2026',
     about_label: 'O projekte',
     about_p1: 'Toto kompendium zbiera praktické stratégie pre učiteľov pracujúcich s neurodivergentnými, nadanými alebo žiakmi bez znalosti vyučovacieho jazyka. Každý profil má kartu pre rýchlu orientáciu.',
     about_p2: 'Každá karta ponúka tri veci: <strong>čo vidíte v triede</strong>, <strong>čo môžete urobiť dnes</strong> a <strong>kde AI zapadá</strong> — ako nástroj, nie náhrada. Päť minút stačí na užitočnú odpoveď.',
@@ -603,6 +618,7 @@ export const ui = {
   },
   el: {
     tagline: 'Εργαλεία και Προσεγγίσεις για την Αναγνώριση και Καθοδήγηση μαθητών — ένας τσέπης οδηγός για την τάξη που σέβεται τον μαθητή μπροστά σας.',
+    version_tag: 'v0.1 · ΜΑΪΟΣ 2026',
     about_label: 'Σχετικά',
     about_p1: 'Αυτό το εγχειρίδιο συγκεντρώνει πρακτικές στρατηγικές για εκπαιδευτικούς που εργάζονται με νευροαποκλίνοντες, ιδιαίτερα ταλαντούχους ή μαθητές χωρίς γνώση της γλώσσας διδασκαλίας. Κάθε προφίλ έχει κάρτα γρήγορης αναφοράς.',
     about_p2: 'Κάθε κάρτα δίνει τρία πράγματα: <strong>τι βλέπετε στην τάξη</strong>, <strong>τι μπορείτε να κάνετε σήμερα</strong> και <strong>πού ταιριάζει η ΤΝ</strong> — ως εργαλείο, όχι ως υποκατάστατο. Πέντε λεπτά αρκούν για μια χρήσιμη απάντηση.',
@@ -643,6 +659,7 @@ export const ui = {
   },
   hu: {
     tagline: 'Eszközök és Megközelítések a tanulók Felismeréséhez és Irányításához — zsebkalauz az osztályterembe, amely tiszteli az előtted álló tanulót.',
+    version_tag: 'v0.1 · 2026. MÁJUS',
     about_label: 'Névjegy',
     about_p1: 'Ez a kompendium gyakorlati stratégiákat gyűjt össze neurodiverzitású, tehetséges vagy oktatási nyelvi nehézségekkel küzdő tanulókkal dolgozó tanárok számára. Minden profilhoz gyors referenciakarton tartozik.',
     about_p2: 'Minden karton három dolgot kínál: <strong>mit lát az osztályban</strong>, <strong>mit tehet ma</strong> és <strong>hol illik be a MI</strong> — eszközként, nem helyettesítőként. Öt perc elegendő egy hasznos válaszhoz.',
@@ -683,6 +700,7 @@ export const ui = {
   },
   bg: {
     tagline: 'Инструменти и Подходи за Разпознаване и Насочване на учениците — наръчник в джоба за класната стая, който уважава ученика срещу вас.',
+    version_tag: 'v0.1 · МАЙ 2026',
     about_label: 'За проекта',
     about_p1: 'Това компендиум събира практически стратегии за учители, работещи с невроразнообразни, надарени или ученици без владеене на езика на обучение. Всеки профил има карта за бърза справка.',
     about_p2: 'Всяка карта дава три неща: <strong>какво виждате в класа</strong>, <strong>какво можете да направите днес</strong> и <strong>как се вписва ИИ</strong> — като инструмент, не като заместител. Пет минути стигат за полезен отговор.',
@@ -723,6 +741,7 @@ export const ui = {
   },
   lt: {
     tagline: 'Priemonės ir Požiūriai mokinių Atpažinimui ir Orientavimui — kišeninis vadovas klasei, gerbiantis prieš tave esantį besimokantįjį.',
+    version_tag: 'v0.1 · GEGUŽĖ 2026',
     about_label: 'Apie',
     about_p1: 'Šis kompendiumai surenka praktines strategijas mokytojams, dirbantiems su neurodivergenčiais, gabiais ar mokinio kalbos nemokančiais mokiniais. Kiekvienas profilis turi greitą informacinę kortelę.',
     about_p2: 'Kiekviena kortelė suteikia tris dalykus: <strong>ką matote klasėje</strong>, <strong>ką galite padaryti šiandien</strong> ir <strong>kur tinka DI</strong> — kaip įrankis, ne pakaitalas. Penkios minutės pakanka naudingam atsakymui.',
@@ -763,6 +782,7 @@ export const ui = {
   },
   lv: {
     tagline: 'Rīki un Pieejas skolēnu Atpazīšanai un Virzīšanai — kabatas rokasgrāmata klasei, kas ciena jūsu priekšā esošo skolēnu.',
+    version_tag: 'v0.1 · MAIJS 2026',
     about_label: 'Par projektu',
     about_p1: 'Šis kompendiums apkopo praktiskas stratēģijas skolotājiem, kas strādā ar neirodiverģentiem, talantīgiem vai mācību valodu nepārvaldošiem skolēniem. Katram profilam ir ātrās uzziņas karte.',
     about_p2: 'Katra karte sniedz trīs lietas: <strong>ko redzat klasē</strong>, <strong>ko varat darīt šodien</strong> un <strong>kur MI iederas</strong> — kā rīks, nevis aizstājējs. Pieci minūtes pietiek noderīgai atbildei.',
@@ -803,6 +823,7 @@ export const ui = {
   },
   et: {
     tagline: 'Tööriistad ja Lähenemisviisid õpilaste Äratundmiseks ja Juhendamiseks — taskujuhend klassile, mis austab sinu ees olevat õppijat.',
+    version_tag: 'v0.1 · MAI 2026',
     about_label: 'Teave',
     about_p1: 'See kompendium koondab praktilisi strateegiaid õpetajatele, kes töötavad neurodivergentsete, andekate või õppekeeles mitte-emakeelekõnelejate õpilastega. Igal profiilil on kiirvaatuse kaart.',
     about_p2: 'Iga kaart annab kolm asja: <strong>mida näete klassis</strong>, <strong>mida saate täna teha</strong> ja <strong>kuhu tehisintellekt sobib</strong> — tööriistana, mitte asendajana. Viis minutit piisab kasulikuks vastuseks.',
@@ -843,6 +864,7 @@ export const ui = {
   },
   sl: {
     tagline: 'Orodja in Pristopi za Prepoznavanje in Usmerjanje učencev — žepni priročnik za razred, ki spoštuje učenca pred seboj.',
+    version_tag: 'v0.1 · MAJ 2026',
     about_label: 'O projektu',
     about_p1: 'To kompendij zbira praktične strategije za učitelje, ki delajo z nevrodivergentnimi, nadarjenimi ali učenci brez znanja učnega jezika. Vsak profil ima kartico za hiter pregled.',
     about_p2: 'Vsaka kartica ponuja tri stvari: <strong>kaj vidite v razredu</strong>, <strong>kaj lahko naredite danes</strong> in <strong>kje ustreza UI</strong> — kot orodje, ne nadomestek. Pet minut zadostuje za koristen odgovor.',
@@ -883,6 +905,7 @@ export const ui = {
   },
   ga: {
     tagline: 'Uirlisí agus Cineálacha Cur Chuige chun Daltaí a Aithint agus a Threorú — lámhleabhar póca don seomra ranga a mheasann an foghlaimeoir os do chomhair.',
+    version_tag: 'v0.1 · BEALTAINE 2026',
     about_label: 'Faoi',
     about_p1: 'Bailiúchán de straitéisí praiticiúla do mhúinteoirí atá ag obair le daltaí neuro-éagsúla, daltaí an-chumasacha nó daltaí gan inniúlacht sa teanga teagaisc. Tá cárta tagartha tapa ag gach próifíl.',
     about_p2: 'Tugann gach cárta trí rud: <strong>cad atá le feiceáil agat sa rang</strong>, <strong>cad is féidir leat a dhéanamh inniu</strong> agus <strong>cá bhfuil áit ag an AI</strong> — mar uirlis, ní mar ionadaí. Is leor cúig nóiméad le haghaidh freagra úsáideach.',
@@ -923,6 +946,7 @@ export const ui = {
   },
   mt: {
     tagline: 'Għodod u Approċċi biex l-istudenti jiġu Rikonoxxuti u Gwida — manwal tal-but għall-klassi li jirrispetta l-istudent li għandek quddimek.',
+    version_tag: 'v0.1 · MEJJU 2026',
     about_label: 'Dwar',
     about_p1: 'Dan il-kompendju jiġbor strateġiji pratiċi għall-għalliema li jaħdmu ma\' studenti newrodivergenti, iddotati jew studenti mingħajr kompetenza fil-lingwa tal-istruzzjoni. Kull profil għandu karta ta\' referenza rapida.',
     about_p2: 'Kull karta tagħti tliet affarijiet: <strong>dak li qed tarah fil-klassi</strong>, <strong>dak li tista\' tagħmel illum</strong> u <strong>fejn tidħol l-AI</strong> — bħala għodda, mhux sostitut. Ħames minuti huma biżżejjed għal risposta utli.',
