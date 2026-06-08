@@ -27,5 +27,5 @@ sections:
       - "Cada participante produz pelo menos um material adaptado durante a sessão."
       - "Sessão de feedback a 30 dias com pelo menos 60% dos participantes a relatar implementação efectiva."
       - "Pelo menos um material produzido na sessão é adoptado como recurso partilhado do departamento."
-pending: "Conteúdo das ferramentas específicas e casos de uso serão preenchidos após o curso em Split."
+pending: "Conteúdo das ferramentas específicas e casos de uso serão preenchidos após o curso em Florença."
 ---

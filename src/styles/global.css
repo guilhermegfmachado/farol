@@ -17,6 +17,23 @@
   --beam: #e8a93d;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e8ecf0;
+    --ink-soft: #a8b4be;
+    --ink-faded: #6a7a87;
+    --bg: #111518;
+    --bg-elevated: #1a1f24;
+    --rule: #252c33;
+    --rule-strong: #3a444e;
+    --accent: #6fa3c0;
+    --accent-hover: #88bcd6;
+    --accent-bg: #1a2a35;
+    --warning: #d4a017;
+    --beam: #e8a93d;
+  }
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 

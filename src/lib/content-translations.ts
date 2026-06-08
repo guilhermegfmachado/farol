@@ -284,6 +284,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Data protection: all student support data is subject to GDPR and the Data Protection Act 2018; do not share sensitive information outside the student support team without consent.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagogical differentiation means adjusting how you teach — not lowering expectations. The learning objective can be the same for all students; it is the path that varies.",
+        "The UDL (Universal Design for Learning) model proposes three principles: multiple means of representation (how content is presented), multiple means of action and expression (how students respond), and multiple means of engagement (what motivates the student).",
+        "Differentiating does not mean creating an individual lesson plan for each student — it means creating enough flexibility for the same lesson to serve different learner profiles.",
+      ]},
+      { items: [
+        "<strong>It is not</strong> reducing the curriculum for struggling students.",
+        "<strong>It is not</strong> always giving different tasks to different students — that isolates and labels.",
+        "<strong>It is not</strong> only differentiated worksheets — differentiation includes how the teacher explains, questions, and assesses.",
+      ]},
+      { items: [
+        "Controlled choice: offer 2–3 response format options (written, oral, schematic drawing) — all students respond to the same content.",
+        "Scaffolding: provide a structured framework for struggling students; gradually remove it as autonomy grows.",
+        "Flexible grouping: groups by interest, mastery level, or mixed — rotate to avoid fixed groups that become identities.",
+        "Time adjustments: more time does not mean less rigour. For students with ADHD or dyspraxia, break the task into segments with scheduled breaks.",
+        "Complexity level: for the same topic, create versions with more or less language support, with or without examples, with or without visual cues.",
+      ]},
+      { items: [
+        "Assess what the student knows, not how they write. A student with dyslexia may demonstrate conceptual mastery orally or with technological support.",
+        "Clear rubrics shared before the task allow the student to know what is expected regardless of the chosen format.",
+        "Portfolio or evidence-based assessment allows the student to show progress over time, not just at a single test moment.",
+      ]},
+      { items: [
+        "When classroom differentiation is no longer sufficient and the student continues to struggle with access to the curriculum, this may signal a need for specialist support.",
+        "Differentiation does not replace school support measures (school support team, therapists, special education) — it is what happens in the mainstream classroom as a complement.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formative assessment is any practice that gathers information about learning during the process — and uses that information to adjust teaching or support for the student.",
+        "Unlike summative assessment (final grades), formative assessment does not need a mark — it needs feedback.",
+        "For neurodivergent students, formative assessment is especially important because performance on a one-off test may not reflect what they actually know.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: at the end of the lesson, the student answers a question in 2 minutes — the teacher immediately sees who understood and who did not.",
+        "<strong>Traffic light</strong>: green (I understood), yellow (I have doubts), red (I did not understand) — can be physical cards, post-its, or digital.",
+        "<strong>Think-Pair-Share</strong>: the student thinks individually, discusses with a partner, then shares with the class — reduces anxiety around direct response.",
+        "<strong>Exit door</strong>: before leaving, the student tells the teacher one thing they learned and one doubt they still have.",
+      ]},
+      { items: [
+        "Effective feedback is specific, actionable, and timely: \'on page 2, the argument is lost because the link to the evidence is missing\' is useful; \'could be better\' is not.",
+        "For students with ADHD: immediate feedback is more effective than delayed. Do not wait until the end of the task.",
+        "For students with dyslexia: oral or audio feedback may be more accessible than extensive written comments.",
+        "Avoid comparing students with each other — compare the student with their own previous progress.",
+      ]},
+      { items: [
+        "ADHD: assessment at multiple short moments rather than a single long test. Reduce distracting stimuli in the assessment environment.",
+        "Dyslexia: allow oral responses, extra time, or use of text-to-speech. Assess content, not spelling.",
+        "Autism: assessments with clear, unambiguous written instructions. Give advance notice of changes in format.",
+        "Giftedness: avoid assessments of mere content reproduction — include questions of analysis, synthesis, and creation.",
+      ]},
+      { items: [
+        "When, even with assessment adaptations, the student cannot demonstrate learning, this is a sign there may be a deeper barrier to investigate with the school support team.",
+        "Persistent patterns (months, not days) of specific difficulty in an area should be formally flagged.",
+      ]},
+    ]},
   },
 
   es: {
@@ -559,6 +616,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Documentos clave: informe psicopedagógico, Dictamen de Escolarización, Plan de Actuación Específico (PAE), actas del equipo docente.",
         "Primer paso ante una preocupación por un alumno/a: registrar, hablar con el orientador/a, contactar a las familias — en ese orden.",
         "Protección de datos: todos los datos del alumnado están sujetos al RGPD y a la Ley Orgánica 3/2018 (LOPDGDD); no compartir información sensible fuera del equipo sin consentimiento.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "La diferenciación pedagógica consiste en ajustar cómo se enseña — no en rebajar las expectativas. El objetivo de aprendizaje puede ser el mismo para todos; lo que varía es el camino.",
+        "El modelo UDL (Diseño Universal para el Aprendizaje) propone tres principios: múltiples medios de representación (cómo se presenta el contenido), múltiples medios de acción y expresión (cómo responde el alumno) y múltiples medios de implicación (qué motiva al alumno).",
+        "Diferenciar no significa crear un plan de lección individual para cada alumno — significa crear suficiente flexibilidad para que la misma clase sirva a perfiles diferentes.",
+      ]},
+      { items: [
+        "<strong>No es</strong> reducir el currículo para los alumnos con más dificultades.",
+        "<strong>No es</strong> dar siempre tareas diferentes a alumnos diferentes — eso aísla y etiqueta.",
+        "<strong>No es</strong> solo trabajo diferenciado en papel — la diferenciación incluye cómo el docente explica, pregunta y evalúa.",
+      ]},
+      { items: [
+        "Elección controlada: ofrecer 2–3 opciones de formato de respuesta (escrito, oral, esquema) — todos responden al mismo contenido.",
+        "Andamiaje (scaffolding): proporcionar una estructura guiada a los alumnos con más dificultades; retirarla progresivamente a medida que crece la autonomía.",
+        "Agrupación flexible: grupos por interés, nivel de dominio o mixtos — rotarlos para evitar grupos fijos que se conviertan en identidades.",
+        "Ajustes de tiempo: más tiempo no significa menos rigor. Para alumnos con TDAH o dispraxia, dividir la tarea en segmentos con pausas programadas.",
+        "Nivel de complejidad: para el mismo tema, crear versiones con más o menos apoyo lingüístico, con o sin ejemplos, con o sin pistas visuales.",
+      ]},
+      { items: [
+        "Evaluar lo que el alumno sabe, no cómo escribe. Un alumno con dislexia puede demostrar dominio conceptual oralmente o con apoyo tecnológico.",
+        "Las rúbricas claras compartidas antes de la tarea permiten al alumno saber lo que se espera independientemente del formato elegido.",
+        "El portafolio o la evaluación basada en evidencias permite al alumno mostrar su progreso a lo largo del tiempo, no solo en un momento de examen.",
+      ]},
+      { items: [
+        "Cuando la diferenciación en el aula deja de ser suficiente y el alumno sigue sin acceder al currículo, es señal de que puede ser necesario apoyo especializado.",
+        "La diferenciación no sustituye las medidas de apoyo escolar (orientación, terapeutas, educación especial) — es lo que ocurre en el aula regular como complemento.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "La evaluación formativa es cualquier práctica que recoge información sobre el aprendizaje durante el proceso — y usa esa información para ajustar la enseñanza o el apoyo al alumno.",
+        "A diferencia de la evaluación sumativa (calificaciones finales), la formativa no necesita nota — necesita retroalimentación.",
+        "Para los alumnos neurodivergentes, la evaluación formativa es especialmente importante porque el rendimiento en un examen puntual puede no reflejar lo que realmente saben.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: al final de la clase, el alumno responde a una pregunta en 2 minutos — el docente ve inmediatamente quién ha comprendido y quién no.",
+        "<strong>Semáforo</strong>: verde (he entendido), amarillo (tengo dudas), rojo (no he entendido) — puede ser tarjetas físicas, post-its o digital.",
+        "<strong>Think-Pair-Share</strong>: el alumno piensa individualmente, lo comenta con un compañero y luego lo comparte con la clase — reduce la ansiedad ante la respuesta directa.",
+        "<strong>Puerta de salida</strong>: antes de salir, el alumno dice al docente una cosa que ha aprendido y una duda que aún tiene.",
+      ]},
+      { items: [
+        "La retroalimentación eficaz es específica, accionable y oportuna: \'en la página 2, el argumento se pierde porque falta el vínculo con la evidencia\' es útil; \'podría estar mejor\' no lo es.",
+        "Para alumnos con TDAH: la retroalimentación inmediata es más eficaz que la diferida. No esperar al final de la tarea.",
+        "Para alumnos con dislexia: la retroalimentación oral o en audio puede ser más accesible que los comentarios escritos extensos.",
+        "Evitar comparar a los alumnos entre sí — comparar al alumno con su propia progresión anterior.",
+      ]},
+      { items: [
+        "TDAH: evaluación en múltiples momentos cortos en lugar de un único examen largo. Reducir estímulos distractores en el entorno de evaluación.",
+        "Dislexia: permitir respuestas orales, tiempo adicional o uso de texto a voz. Evaluar el contenido, no la ortografía.",
+        "Autismo: evaluaciones con instrucciones escritas claras y sin ambigüedad. Avisar con antelación sobre cambios en el formato.",
+        "Altas capacidades: evitar evaluaciones de mera reproducción de contenido — incluir cuestiones de análisis, síntesis y creación.",
+      ]},
+      { items: [
+        "Cuando, incluso con adaptaciones de evaluación, el alumno no puede demostrar aprendizaje, es señal de que puede haber una barrera más profunda que investigar con el equipo de orientación.",
+        "Los patrones persistentes (meses, no días) de dificultad específica en un área deben señalarse formalmente.",
       ]},
     ]},
   },
@@ -838,6 +952,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Protection des données : toutes les données élèves sont soumises au RGPD et à la loi Informatique et Libertés ; ne pas partager d'informations sensibles hors de l'équipe sans consentement.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "La différenciation pédagogique consiste à ajuster la façon d\'enseigner — pas à abaisser les attentes. L\'objectif d\'apprentissage peut être le même pour tous ; c\'est le chemin qui varie.",
+        "Le modèle UDL (Conception Universelle de l\'Apprentissage) propose trois principes : de multiples moyens de représentation (comment le contenu est présenté), de multiples moyens d\'action et d\'expression (comment l\'élève répond) et de multiples moyens d\'engagement (ce qui motive l\'élève).",
+        "Différencier ne signifie pas créer un plan de cours individuel pour chaque élève — cela signifie créer suffisamment de flexibilité pour que le même cours serve des profils différents.",
+      ]},
+      { items: [
+        "<strong>Ce n\'est pas</strong> réduire le programme pour les élèves en difficulté.",
+        "<strong>Ce n\'est pas</strong> toujours donner des tâches différentes à des élèves différents — cela isole et étiquette.",
+        "<strong>Ce n\'est pas</strong> seulement des fiches différenciées — la différenciation inclut la façon dont l\'enseignant explique, questionne et évalue.",
+      ]},
+      { items: [
+        "Choix contrôlé : proposer 2–3 options de format de réponse (écrit, oral, schéma) — tous les élèves répondent au même contenu.",
+        "Étayage (scaffolding) : fournir un cadre structuré aux élèves en difficulté ; le retirer progressivement à mesure que l\'autonomie grandit.",
+        "Regroupement flexible : groupes par intérêt, niveau de maîtrise ou mixtes — les faire tourner pour éviter les groupes fixes qui deviennent des identités.",
+        "Ajustements du temps : plus de temps ne signifie pas moins de rigueur. Pour les élèves avec TDAH ou dyspraxie, diviser la tâche en segments avec des pauses planifiées.",
+        "Niveau de complexité : pour le même sujet, créer des versions avec plus ou moins de soutien linguistique, avec ou sans exemples, avec ou sans indices visuels.",
+      ]},
+      { items: [
+        "Évaluer ce que l\'élève sait, pas comment il écrit. Un élève dyslexique peut démontrer sa maîtrise conceptuelle oralement ou avec un soutien technologique.",
+        "Des rubriques claires partagées avant la tâche permettent à l\'élève de savoir ce qui est attendu quel que soit le format choisi.",
+        "Le portfolio ou l\'évaluation par les preuves permet à l\'élève de montrer sa progression dans le temps, pas seulement lors d\'un moment d\'évaluation.",
+      ]},
+      { items: [
+        "Quand la différenciation en classe n\'est plus suffisante et que l\'élève continue à ne pas accéder au programme, c\'est le signe qu\'un soutien spécialisé peut être nécessaire.",
+        "La différenciation ne remplace pas les mesures de soutien scolaire (psychologue scolaire, thérapeutes, éducation spécialisée) — c\'est ce qui se passe en classe ordinaire en complément.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "L\'évaluation formative est toute pratique qui recueille des informations sur l\'apprentissage pendant le processus — et utilise ces informations pour ajuster l\'enseignement ou le soutien à l\'élève.",
+        "Contrairement à l\'évaluation sommative (notes finales), la formative n\'a pas besoin d\'une note — elle a besoin d\'un retour.",
+        "Pour les élèves neurodivergents, l\'évaluation formative est particulièrement importante car la performance à un test ponctuel peut ne pas refléter ce qu\'ils savent réellement.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong> : à la fin du cours, l\'élève répond à une question en 2 minutes — l\'enseignant voit immédiatement qui a compris et qui n\'a pas compris.",
+        "<strong>Feu tricolore</strong> : vert (j\'ai compris), jaune (j\'ai des doutes), rouge (je n\'ai pas compris) — peut être des cartes physiques, des post-its ou numérique.",
+        "<strong>Think-Pair-Share</strong> : l\'élève réfléchit individuellement, en discute avec un pair, puis partage avec la classe — réduit l\'anxiété face à la réponse directe.",
+        "<strong>Porte de sortie</strong> : avant de partir, l\'élève dit à l\'enseignant une chose qu\'il a apprise et un doute qu\'il a encore.",
+      ]},
+      { items: [
+        "Un retour efficace est spécifique, actionnable et donné à temps : \'à la page 2, l\'argument se perd parce que le lien avec la preuve manque\' est utile ; \'pourrait être mieux\' ne l\'est pas.",
+        "Pour les élèves avec TDAH : le retour immédiat est plus efficace que le retour différé. Ne pas attendre la fin de la tâche.",
+        "Pour les élèves dyslexiques : le retour oral ou audio peut être plus accessible que les commentaires écrits extensifs.",
+        "Éviter de comparer les élèves entre eux — comparer l\'élève avec sa propre progression antérieure.",
+      ]},
+      { items: [
+        "TDAH : évaluation en plusieurs courts moments plutôt qu\'un seul long examen. Réduire les stimuli distrayants dans l\'environnement d\'évaluation.",
+        "Dyslexie : autoriser les réponses orales, le temps supplémentaire ou l\'utilisation de la synthèse vocale. Évaluer le contenu, pas l\'orthographe.",
+        "Autisme : évaluations avec des instructions écrites claires et sans ambiguïté. Prévenir à l\'avance des changements de format.",
+        "Haut potentiel : éviter les évaluations de simple reproduction de contenu — inclure des questions d\'analyse, de synthèse et de création.",
+      ]},
+      { items: [
+        "Quand, même avec des adaptations d\'évaluation, l\'élève ne peut pas démontrer ses apprentissages, c\'est le signe qu\'il peut y avoir une barrière plus profonde à investiguer avec le psychologue scolaire.",
+        "Des schémas persistants (mois, pas jours) de difficulté spécifique dans un domaine doivent être signalés formellement.",
+      ]},
+    ]},
   },
 
   it: {
@@ -1113,6 +1284,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Documenti chiave da conoscere: PEI (Piano Educativo Individualizzato), PDP (Piano Didattico Personalizzato), PAI (Piano Annuale per l'Inclusione), Protocollo di Accoglienza.",
         "Primo passo in caso di preoccupazione per un alunno: documentare, confrontarsi con il referente BES, contattare le famiglie — in quest'ordine.",
         "Tutela dei dati: tutti i dati degli alunni sono soggetti al GDPR e al D.Lgs. 196/2003 (Codice della privacy) come modificato dal D.Lgs. 101/2018; non condividere informazioni sensibili fuori dal team senza consenso.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoška diferencijacija znači prilagodbu načina poučavanja — ne snižavanje očekivanja. Cilj učenja može biti isti za sve učenike; ono što se razlikuje je put.",
+        "UDL model (Univerzalni dizajn za učenje) predlaže tri načela: višestruka sredstva reprezentacije (kako se sadržaj prezentira), višestruka sredstva djelovanja i izražavanja (kako učenik odgovara) i višestruka sredstva angažmana (što motivira učenika).",
+        "Diferencijacija ne znači stvaranje individualnog plana sata za svakog učenika — znači stvaranje dovoljno fleksibilnosti da isti sat služi različitim profilima učenika.",
+      ]},
+      { items: [
+        "<strong>Nije</strong> reduciranje kurikuluma za učenike s teškoćama.",
+        "<strong>Nije</strong> uvijek davanje različitih zadataka različitim učenicima — to izolira i etiketira.",
+        "<strong>Nisu</strong> samo diferencirani radni listovi — diferencijacija uključuje kako učitelj objašnjava, pita i procjenjuje.",
+      ]},
+      { items: [
+        "Kontrolirani izbor: ponuditi 2–3 opcije formata odgovora (pisani, usmeni, shematski crtež) — svi učenici odgovaraju na isti sadržaj.",
+        "Scaffolding: pružiti strukturirani okvir učenicima s teškoćama; postupno ga uklanjati kako raste autonomija.",
+        "Fleksibilno grupiranje: grupe prema interesu, razini svladanosti ili mješovite — rotirati kako bi se izbjeglo fiksne grupe koje postaju identiteti.",
+        "Prilagodbe vremena: više vremena ne znači manje strogosti. Za učenike s ADHD-om ili dispraksijom podijelite zadatak na segmente s planiranim pauzama.",
+        "Razina složenosti: za istu temu stvorite verzije s više ili manje jezičnih potpori, s primjerima ili bez, s vizualnim naputcima ili bez.",
+      ]},
+      { items: [
+        "Procjenjujte što učenik zna, ne kako piše. Učenik s disleksijom može demonstrirati konceptualno vladanje usmeno ili s tehnološkom podrškom.",
+        "Jasne rubrike podijeljene prije zadatka omogućuju učeniku da zna što se očekuje bez obzira na odabrani format.",
+        "Portfolio ili procjena temeljena na dokazima omogućuje učeniku da pokaže napredak kroz vrijeme, a ne samo u jednom trenutku provjere.",
+      ]},
+      { items: [
+        "Kada diferencijacija u razredu više nije dovoljna i učenik i dalje ne može pristupiti kurikulumu, to može signalizirati potrebu za stručnom podrškom.",
+        "Diferencijacija ne zamjenjuje školske mjere potpore (stručna služba, terapeuti, specijalna edukacija) — to je ono što se dopunski događa u redovitoj nastavi.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formativno vrednovanje je svaka praksa koja prikuplja informacije o učenju tijekom procesa — i koristi te informacije za prilagodbu nastave ili podrške učeniku.",
+        "Za razliku od sumativnog vrednovanja (zaključnih ocjena), formativno ne treba ocjenu — treba povratnu informaciju.",
+        "Za neurodivergentne učenike formativno vrednovanje je posebno važno jer izvedba na jednokratnom testu možda ne odražava što zapravo znaju.",
+      ]},
+      { items: [
+        "<strong>Izlazna kartica</strong>: na kraju sata učenik odgovara na pitanje u 2 minute — učitelj odmah vidi tko je razumio, a tko nije.",
+        "<strong>Semafor</strong>: zelena (razumio sam), žuta (imam nedoumice), crvena (nisam razumio) — mogu biti fizičke kartice, post-it listići ili digitalno.",
+        "<strong>Think-Pair-Share</strong>: učenik razmišlja individualno, razgovara s partnerom, zatim dijeli s razredom — smanjuje anksioznost zbog izravnog odgovora.",
+        "<strong>Izlazna vrata</strong>: prije odlaska učenik kaže učitelju jednu stvar koju je naučio i jednu nedoumicu koju još ima.",
+      ]},
+      { items: [
+        "Učinkovita povratna informacija je specifična, provediva i pravovremena: \'na stranici 2 argument se gubi jer nedostaje veza s dokazom\' je korisno; \'moglo bi biti bolje\' nije.",
+        "Za učenike s ADHD-om: trenutna povratna informacija je učinkovitija od odgođene. Ne čekati do kraja zadatka.",
+        "Za učenike s disleksijom: usmena ili zvučna povratna informacija može biti dostupnija od opsežnih pisanih komentara.",
+        "Izbjegavati uspoređivanje učenika međusobno — uspoređivati učenika s vlastitim prethodnim napretkom.",
+      ]},
+      { items: [
+        "ADHD: vrednovanje u više kratkih trenutaka umjesto jednog dugog testa. Smanjiti ometajuće podražaje u okruženju vrednovanja.",
+        "Disleksija: dopustiti usmene odgovore, dodatno vrijeme ili korištenje pretvaranja teksta u govor. Vrednovati sadržaj, ne pravopis.",
+        "Autizam: vrednovanja s jasnim, nedvosmislenim pisanim uputama. Unaprijed upozoriti na promjene formata.",
+        "Darovitost: izbjegavati vrednovanja pukog reproduciranja sadržaja — uključiti pitanja analize, sinteze i stvaranja.",
+      ]},
+      { items: [
+        "Kada, čak i uz prilagodbe vrednovanja, učenik ne može demonstrirati učenje, to je znak da možda postoji dublja prepreka za istraživanje sa stručnom službom škole.",
+        "Trajni obrasci (mjeseci, ne dani) specifičnih poteškoća u nekom području trebaju biti formalno prijavljeni.",
       ]},
     ]},
   },
@@ -1495,7 +1723,64 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
           ]
         }
       ]
-    }
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Pädagogische Differenzierung bedeutet, die Art des Unterrichtens anzupassen — nicht die Erwartungen zu senken. Das Lernziel kann für alle Schülerinnen und Schüler dasselbe sein; was variiert, ist der Weg.",
+        "Das UDL-Modell (Universal Design for Learning) schlägt drei Grundsätze vor: vielfältige Mittel der Repräsentation (wie Inhalte präsentiert werden), vielfältige Mittel des Handelns und Ausdrucks (wie Schülerinnen und Schüler antworten) und vielfältige Mittel der Einbindung (was sie motiviert).",
+        "Differenzieren bedeutet nicht, für jeden Schüler einen individuellen Unterrichtsplan zu erstellen — es bedeutet, genug Flexibilität zu schaffen, damit dieselbe Stunde verschiedenen Lernprofilen gerecht wird.",
+      ]},
+      { items: [
+        "<strong>Es ist nicht</strong> das Reduzieren des Lehrplans für lernschwächere Schülerinnen und Schüler.",
+        "<strong>Es ist nicht</strong> das ständige Geben unterschiedlicher Aufgaben an verschiedene Schülerinnen und Schüler — das isoliert und etikettiert.",
+        "<strong>Es ist nicht</strong> nur differenzierte Arbeitsblätter — Differenzierung beinhaltet auch, wie die Lehrkraft erklärt, fragt und bewertet.",
+      ]},
+      { items: [
+        "Kontrollierte Auswahl: 2–3 Antwortformatoptionen anbieten (schriftlich, mündlich, schematische Zeichnung) — alle antworten auf denselben Inhalt.",
+        "Scaffolding: lernschwächeren Schülerinnen und Schülern ein strukturiertes Gerüst bereitstellen; es schrittweise abbauen, wenn die Selbstständigkeit wächst.",
+        "Flexible Gruppierung: Gruppen nach Interesse, Leistungsniveau oder gemischt — rotieren, um feste Gruppen zu vermeiden, die zu Identitäten werden.",
+        "Zeitanpassungen: mehr Zeit bedeutet nicht weniger Strenge. Für Schülerinnen und Schüler mit ADHS oder Dyspraxie die Aufgabe in Abschnitte mit geplanten Pausen aufteilen.",
+        "Komplexitätsniveau: für dasselbe Thema Versionen mit mehr oder weniger sprachlicher Unterstützung, mit oder ohne Beispiele, mit oder ohne visuelle Hinweise erstellen.",
+      ]},
+      { items: [
+        "Bewerten, was die Schülerin oder der Schüler weiß, nicht wie sie oder er schreibt. Eine Schülerin oder ein Schüler mit Legasthenie kann konzeptuelles Verständnis mündlich oder mit technologischer Unterstützung nachweisen.",
+        "Klare Bewertungsrubriken, die vor der Aufgabe geteilt werden, ermöglichen es der Schülerin oder dem Schüler zu wissen, was unabhängig vom gewählten Format erwartet wird.",
+        "Portfolio oder kompetenzbasierte Bewertung ermöglicht es der Schülerin oder dem Schüler, Fortschritte über die Zeit zu zeigen, nicht nur in einem einzelnen Testmoment.",
+      ]},
+      { items: [
+        "Wenn die Differenzierung im Unterricht nicht mehr ausreicht und die Schülerin oder der Schüler weiterhin keinen Zugang zum Lehrplan findet, kann dies auf den Bedarf an spezialisierter Unterstützung hinweisen.",
+        "Differenzierung ersetzt keine schulischen Unterstützungsmaßnahmen (Schulpsychologie, Therapeuten, Sonderpädagogik) — sie ist das, was ergänzend im regulären Unterricht passiert.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formative Beurteilung ist jede Praxis, die während des Lernprozesses Informationen über das Lernen sammelt — und diese Informationen nutzt, um den Unterricht oder die Unterstützung anzupassen.",
+        "Im Gegensatz zur summativen Beurteilung (Abschlussnoten) braucht die formative keine Note — sie braucht Feedback.",
+        "Für neurodivergente Schülerinnen und Schüler ist die formative Beurteilung besonders wichtig, weil die Leistung in einem einmaligen Test möglicherweise nicht widerspiegelt, was sie tatsächlich wissen.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: Am Ende der Stunde beantwortet die Schülerin oder der Schüler eine Frage in 2 Minuten — die Lehrkraft sieht sofort, wer verstanden hat und wer nicht.",
+        "<strong>Ampel</strong>: grün (ich habe verstanden), gelb (ich habe Zweifel), rot (ich habe nicht verstanden) — kann physische Karten, Post-its oder digital sein.",
+        "<strong>Think-Pair-Share</strong>: Die Schülerin oder der Schüler denkt individuell nach, bespricht es mit einer Partnerin oder einem Partner, dann teilt es mit der Klasse — reduziert die Angst vor direkten Antworten.",
+        "<strong>Ausgangstor</strong>: Bevor sie oder er geht, sagt die Schülerin oder der Schüler der Lehrkraft eine Sache, die sie oder er gelernt hat, und einen Zweifel, den sie oder er noch hat.",
+      ]},
+      { items: [
+        "Effektives Feedback ist spezifisch, umsetzbar und zeitnah: \'Auf Seite 2 geht das Argument verloren, weil der Bezug zum Beleg fehlt\' ist hilfreich; \'könnte besser sein\' ist es nicht.",
+        "Für Schülerinnen und Schüler mit ADHS: sofortiges Feedback ist effektiver als verzögertes. Nicht bis zum Ende der Aufgabe warten.",
+        "Für Schülerinnen und Schüler mit Legasthenie: mündliches oder Audio-Feedback kann zugänglicher sein als ausgedehnte schriftliche Kommentare.",
+        "Schülerinnen und Schüler nicht miteinander vergleichen — sie mit ihrer eigenen früheren Entwicklung vergleichen.",
+      ]},
+      { items: [
+        "ADHS: Beurteilung in mehreren kurzen Momenten statt eines einzigen langen Tests. Ablenkende Reize in der Beurteilungsumgebung reduzieren.",
+        "Legasthenie: mündliche Antworten, zusätzliche Zeit oder Nutzung von Text-zu-Sprache erlauben. Den Inhalt bewerten, nicht die Rechtschreibung.",
+        "Autismus: Beurteilungen mit klaren, eindeutigen schriftlichen Anweisungen. Über Formatänderungen im Voraus informieren.",
+        "Hochbegabung: Beurteilungen vermeiden, die nur Inhaltswiedergabe verlangen — Fragen zur Analyse, Synthese und Erstellung einbeziehen.",
+      ]},
+      { items: [
+        "Wenn die Schülerin oder der Schüler auch mit Beurteilungsanpassungen keine Lernfortschritte demonstrieren kann, ist dies ein Zeichen, dass es möglicherweise eine tiefere Barriere gibt, die mit dem schulpsychologischen Dienst untersucht werden sollte.",
+        "Anhaltende Muster (Monate, nicht Tage) spezifischer Schwierigkeiten in einem Bereich sollten formal gemeldet werden.",
+      ]},
+    ]},
   },
   nl: {
     tdah: {
@@ -1875,7 +2160,64 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
           ]
         }
       ]
-    }
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagogische differentiatie betekent aanpassen hoe je onderwijst — niet de verwachtingen verlagen. Het leerdoel kan voor alle leerlingen hetzelfde zijn; het is het pad dat varieert.",
+        "Het UDL-model (Universal Design for Learning) stelt drie principes voor: meerdere middelen voor representatie (hoe inhoud wordt gepresenteerd), meerdere middelen voor actie en expressie (hoe leerlingen reageren) en meerdere middelen voor betrokkenheid (wat leerlingen motiveert).",
+        "Differentiëren betekent niet een individueel lesplan voor elke leerling maken — het betekent voldoende flexibiliteit creëren zodat dezelfde les verschillende leerprofielen bedient.",
+      ]},
+      { items: [
+        "<strong>Het is niet</strong> het reduceren van het curriculum voor leerlingen met moeilijkheden.",
+        "<strong>Het is niet</strong> altijd verschillende taken geven aan verschillende leerlingen — dat isoleert en etiketteert.",
+        "<strong>Het is niet</strong> alleen gedifferentieerde werkbladen — differentiatie omvat ook hoe de leraar uitlegt, vraagt en beoordeelt.",
+      ]},
+      { items: [
+        "Gecontroleerde keuze: 2–3 antwoordformaatopties aanbieden (schriftelijk, mondeling, schematische tekening) — alle leerlingen reageren op dezelfde inhoud.",
+        "Scaffolding: leerlingen met moeilijkheden een gestructureerd kader bieden; dit geleidelijk verwijderen naarmate de autonomie groeit.",
+        "Flexibele groepering: groepen op basis van interesse, beheersingsniveau of gemengd — rouleren om vaste groepen die identiteiten worden te vermijden.",
+        "Tijdsaanpassingen: meer tijd betekent niet minder strengheid. Voor leerlingen met ADHD of dyspraxie de taak opsplitsen in segmenten met geplande pauzes.",
+        "Complexiteitsniveau: voor hetzelfde onderwerp versies maken met meer of minder taalkundige ondersteuning, met of zonder voorbeelden, met of zonder visuele aanwijzingen.",
+      ]},
+      { items: [
+        "Beoordeel wat de leerling weet, niet hoe ze schrijven. Een leerling met dyslexie kan conceptuele beheersing mondeling of met technologische ondersteuning aantonen.",
+        "Duidelijke rubrieken die vóór de taak worden gedeeld, stellen de leerling in staat te weten wat verwacht wordt, ongeacht het gekozen formaat.",
+        "Portfolio of bewijs-gebaseerde beoordeling stelt de leerling in staat om vooruitgang over tijd te tonen, niet alleen bij een enkel testmoment.",
+      ]},
+      { items: [
+        "Wanneer klassendifferentiatie niet meer voldoende is en de leerling nog steeds moeite heeft met toegang tot het curriculum, kan dit een behoefte aan gespecialiseerde ondersteuning signaleren.",
+        "Differentiatie vervangt geen schoolondersteuningsmaatregelen (schoolpsychologische dienst, therapeuten, speciaal onderwijs) — het is wat aanvullend in de reguliere klas plaatsvindt.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formatieve evaluatie is elke praktijk die tijdens het leerproces informatie verzamelt — en die informatie gebruikt om het onderwijs of de ondersteuning aan de leerling aan te passen.",
+        "In tegenstelling tot summatieve evaluatie (eindcijfers) heeft formatieve evaluatie geen cijfer nodig — het heeft feedback nodig.",
+        "Voor neurodivergente leerlingen is formatieve evaluatie bijzonder belangrijk omdat prestaties op een eenmalige toets mogelijk niet weerspiegelen wat ze werkelijk weten.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: aan het einde van de les beantwoordt de leerling een vraag in 2 minuten — de leraar ziet onmiddellijk wie het begreep en wie niet.",
+        "<strong>Stoplicht</strong>: groen (ik heb het begrepen), geel (ik heb twijfels), rood (ik heb het niet begrepen) — kan fysieke kaarten, post-its of digitaal zijn.",
+        "<strong>Think-Pair-Share</strong>: de leerling denkt individueel na, bespreekt het met een partner, deelt het dan met de klas — vermindert angst voor directe antwoorden.",
+        "<strong>Uitgangspoort</strong>: voor vertrek vertelt de leerling de leraar één ding dat ze hebben geleerd en één twijfel die ze nog hebben.",
+      ]},
+      { items: [
+        "Effectieve feedback is specifiek, uitvoerbaar en tijdig: \'op pagina 2 gaat het argument verloren omdat de verbinding met het bewijs ontbreekt\' is nuttig; \'kan beter\' is dat niet.",
+        "Voor leerlingen met ADHD: onmiddellijke feedback is effectiever dan uitgestelde. Niet wachten tot het einde van de taak.",
+        "Voor leerlingen met dyslexie: mondelinge of audiofeedback kan toegankelijker zijn dan uitgebreide schriftelijke opmerkingen.",
+        "Vermijd het vergelijken van leerlingen met elkaar — vergelijk de leerling met hun eigen eerdere voortgang.",
+      ]},
+      { items: [
+        "ADHD: beoordeling op meerdere korte momenten in plaats van één lange test. Afleidende prikkels in de beoordelingsomgeving verminderen.",
+        "Dyslexie: mondelinge antwoorden, extra tijd of gebruik van tekst-naar-spraak toestaan. Inhoud beoordelen, niet spelling.",
+        "Autisme: beoordelingen met duidelijke, ondubbelzinnige schriftelijke instructies. Vooraf waarschuwen voor formaatwijzigingen.",
+        "Hoogbegaafdheid: beoordelingen vermijden die alleen inhoudsreproductie vereisen — vragen over analyse, synthese en creatie opnemen.",
+      ]},
+      { items: [
+        "Wanneer, zelfs met beoordelingsaanpassingen, de leerling geen leren kan aantonen, is dit een teken dat er mogelijk een diepere barrière is die met de schoolbegeleidingsdienst onderzocht moet worden.",
+        "Aanhoudende patronen (maanden, niet dagen) van specifieke moeilijkheden in een gebied moeten formeel worden gemeld.",
+      ]},
+    ]},
   },
   pl: {
     tdah: {
@@ -2255,7 +2597,64 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
           ]
         }
       ]
-    }
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Różnicowanie pedagogiczne oznacza dostosowanie sposobu nauczania — nie obniżanie oczekiwań. Cel uczenia się może być taki sam dla wszystkich uczniów; zmienia się droga.",
+        "Model UDL (Projektowanie Uniwersalne dla Uczenia się) proponuje trzy zasady: wielorakie środki reprezentacji (jak treść jest prezentowana), wielorakie środki działania i wyrażania (jak uczeń reaguje) oraz wielorakie środki zaangażowania (co motywuje ucznia).",
+        "Różnicowanie nie oznacza tworzenia indywidualnego planu lekcji dla każdego ucznia — oznacza tworzenie wystarczającej elastyczności, aby ta sama lekcja służyła różnym profilom uczniów.",
+      ]},
+      { items: [
+        "<strong>Nie jest to</strong> redukowanie programu nauczania dla uczniów mających trudności.",
+        "<strong>Nie jest to</strong> zawsze dawanie różnych zadań różnym uczniom — to izoluje i etykietuje.",
+        "<strong>Nie są to</strong> tylko zróżnicowane karty pracy — różnicowanie obejmuje to, jak nauczyciel wyjaśnia, pyta i ocenia.",
+      ]},
+      { items: [
+        "Kontrolowany wybór: oferowanie 2–3 opcji formatu odpowiedzi (pisemna, ustna, rysunek schematyczny) — wszyscy uczniowie odpowiadają na tę samą treść.",
+        "Scaffolding: zapewnienie struktury wsparcia uczniom z trudnościami; stopniowe jej usuwanie wraz z rosnącą samodzielnością.",
+        "Elastyczne grupowanie: grupy według zainteresowań, poziomu opanowania lub mieszane — rotacja, aby unikać stałych grup, które stają się tożsamościami.",
+        "Dostosowania czasu: więcej czasu nie oznacza mniej rygorystyczności. Dla uczniów z ADHD lub dyspraksją podziel zadanie na segmenty z zaplanowanymi przerwami.",
+        "Poziom złożoności: dla tego samego tematu twórz wersje z większym lub mniejszym wsparciem językowym, z przykładami lub bez, z wskazówkami wizualnymi lub bez.",
+      ]},
+      { items: [
+        "Oceniaj to, co uczeń wie, nie jak pisze. Uczeń z dysleksją może wykazać konceptualne opanowanie ustnie lub z pomocą technologiczną.",
+        "Jasne kryteria oceniania udostępnione przed zadaniem pozwalają uczniowi wiedzieć, czego się oczekuje niezależnie od wybranego formatu.",
+        "Portfolio lub ocenianie oparte na dowodach pozwala uczniowi pokazać postępy w czasie, a nie tylko w jednym momencie testu.",
+      ]},
+      { items: [
+        "Gdy różnicowanie w klasie nie jest już wystarczające, a uczeń nadal nie może uzyskać dostępu do programu nauczania, może to sygnalizować potrzebę specjalistycznego wsparcia.",
+        "Różnicowanie nie zastępuje szkolnych środków wsparcia (pedagog szkolny, terapeuci, edukacja specjalna) — to co dzieje się w zwykłej klasie jako uzupełnienie.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Ocenianie kształtujące to każda praktyka, która zbiera informacje o uczeniu się podczas procesu — i wykorzystuje te informacje do dostosowania nauczania lub wsparcia ucznia.",
+        "W przeciwieństwie do oceniania sumatywnego (oceny końcowe), ocenianie kształtujące nie potrzebuje oceny — potrzebuje informacji zwrotnej.",
+        "Dla uczniów neuroróżnorodnych ocenianie kształtujące jest szczególnie ważne, ponieważ wynik na jednorazowym teście może nie odzwierciedlać tego, co naprawdę wiedzą.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: na końcu lekcji uczeń odpowiada na pytanie w 2 minuty — nauczyciel natychmiast widzi, kto zrozumiał, a kto nie.",
+        "<strong>Sygnalizator</strong>: zielony (rozumiem), żółty (mam wątpliwości), czerwony (nie rozumiem) — mogą to być fizyczne karty, karteczki post-it lub forma cyfrowa.",
+        "<strong>Think-Pair-Share</strong>: uczeń myśli indywidualnie, omawia z partnerem, a następnie dzieli się z klasą — zmniejsza lęk przed bezpośrednią odpowiedzią.",
+        "<strong>Brama wyjścia</strong>: przed wyjściem uczeń mówi nauczycielowi jedną rzecz, której się nauczył, i jedną wątpliwość, którą nadal ma.",
+      ]},
+      { items: [
+        "Skuteczna informacja zwrotna jest konkretna, wykonalna i terminowa: \'na stronie 2 argument gubi się, bo brakuje połączenia z dowodem\' jest przydatna; \'mogło być lepiej\' nie jest.",
+        "Dla uczniów z ADHD: natychmiastowa informacja zwrotna jest skuteczniejsza niż odroczona. Nie czekaj do końca zadania.",
+        "Dla uczniów z dysleksją: ustna lub dźwiękowa informacja zwrotna może być bardziej dostępna niż obszerne pisemne komentarze.",
+        "Unikaj porównywania uczniów ze sobą — porównuj ucznia z jego własnym wcześniejszym postępem.",
+      ]},
+      { items: [
+        "ADHD: ocenianie w wielu krótkich momentach zamiast jednego długiego testu. Zmniejsz rozpraszające bodźce w środowisku oceniania.",
+        "Dysleksja: zezwól na odpowiedzi ustne, dodatkowy czas lub korzystanie z zamiany tekstu na mowę. Oceniaj treść, nie ortografię.",
+        "Autyzm: ocenianie z jasnymi, jednoznacznymi pisemnymi instrukcjami. Wcześniej informuj o zmianach formatu.",
+        "Zdolności wybitne: unikaj oceniania polegającego jedynie na reprodukcji treści — uwzględniaj pytania analityczne, syntetyczne i twórcze.",
+      ]},
+      { items: [
+        "Gdy, nawet przy adaptacjach oceniania, uczeń nie może wykazać uczenia się, jest to sygnał, że może istnieć głębsza bariera do zbadania z pedagogiem szkolnym.",
+        "Trwałe wzorce (miesiące, nie dni) specyficznych trudności w obszarze powinny być formalnie zgłoszone.",
+      ]},
+    ]},
   },
   ro: {
     tdah: {
@@ -2635,7 +3034,64 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
           ]
         }
       ]
-    }
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "La differenziazione pedagogica significa adattare il modo di insegnare — non abbassare le aspettative. L\'obiettivo di apprendimento può essere lo stesso per tutti; è il percorso che varia.",
+        "Il modello UDL (Universal Design for Learning) propone tre principi: molteplici mezzi di rappresentazione (come viene presentato il contenuto), molteplici mezzi di azione ed espressione (come risponde l\'alunno) e molteplici mezzi di coinvolgimento (cosa motiva l\'alunno).",
+        "Differenziare non significa creare un piano di lezione individuale per ogni alunno — significa creare abbastanza flessibilità perché la stessa lezione serva profili diversi.",
+      ]},
+      { items: [
+        "<strong>Non è</strong> ridurre il curricolo per gli alunni in difficoltà.",
+        "<strong>Non è</strong> dare sempre compiti diversi ad alunni diversi — questo isola ed etichetta.",
+        "<strong>Non è</strong> solo schede differenziate — la differenziazione include il modo in cui l\'insegnante spiega, interroga e valuta.",
+      ]},
+      { items: [
+        "Scelta guidata: offrire 2–3 opzioni di formato di risposta (scritto, orale, schema) — tutti rispondono allo stesso contenuto.",
+        "Scaffolding: fornire una struttura guidata agli alunni in difficoltà; rimuoverla progressivamente man mano che cresce l\'autonomia.",
+        "Raggruppamento flessibile: gruppi per interesse, livello di padronanza o misti — ruotarli per evitare gruppi fissi che diventano identità.",
+        "Adeguamenti del tempo: più tempo non significa meno rigore. Per gli alunni con ADHD o disprassia, dividere il compito in segmenti con pause programmate.",
+        "Livello di complessità: per lo stesso argomento, creare versioni con più o meno supporto linguistico, con o senza esempi, con o senza indizi visivi.",
+      ]},
+      { items: [
+        "Valutare ciò che l\'alunno sa, non come scrive. Un alunno con dislessia può dimostrare la padronanza concettuale oralmente o con supporto tecnologico.",
+        "Rubriche chiare condivise prima del compito permettono all\'alunno di sapere cosa è atteso indipendentemente dal formato scelto.",
+        "Il portfolio o la valutazione basata su evidenze permette all\'alunno di mostrare i progressi nel tempo, non solo in un momento di verifica.",
+      ]},
+      { items: [
+        "Quando la differenziazione in classe non è più sufficiente e l\'alunno continua a non accedere al curricolo, questo può segnalare la necessità di un supporto specialistico.",
+        "La differenziazione non sostituisce le misure di supporto scolastico (psicologo scolastico, terapisti, educazione speciale) — è ciò che avviene in classe ordinaria come complemento.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "La valutazione formativa è qualsiasi pratica che raccoglie informazioni sull\'apprendimento durante il processo — e usa queste informazioni per adattare l\'insegnamento o il supporto all\'alunno.",
+        "A differenza della valutazione sommativa (voti finali), la formativa non ha bisogno di un voto — ha bisogno di un feedback.",
+        "Per gli alunni neurodivergenti, la valutazione formativa è particolarmente importante perché la prestazione in un test isolato potrebbe non riflettere ciò che sanno davvero.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: alla fine della lezione, l\'alunno risponde a una domanda in 2 minuti — l\'insegnante vede immediatamente chi ha capito e chi no.",
+        "<strong>Semaforo</strong>: verde (ho capito), giallo (ho dubbi), rosso (non ho capito) — può essere carte fisiche, post-it o digitale.",
+        "<strong>Think-Pair-Share</strong>: l\'alunno riflette individualmente, discute con un compagno, poi condivide con la classe — riduce l\'ansia della risposta diretta.",
+        "<strong>Porta d\'uscita</strong>: prima di uscire, l\'alunno dice all\'insegnante una cosa che ha imparato e un dubbio che ha ancora.",
+      ]},
+      { items: [
+        "Un feedback efficace è specifico, attuabile e tempestivo: \'a pagina 2 il ragionamento si perde perché manca il collegamento con le prove\' è utile; \'potrebbe essere migliore\' non lo è.",
+        "Per gli alunni con ADHD: il feedback immediato è più efficace di quello differito. Non aspettare la fine del compito.",
+        "Per gli alunni con dislessia: il feedback orale o audio può essere più accessibile dei commenti scritti estesi.",
+        "Evitare di confrontare gli alunni tra loro — confrontare l\'alunno con la propria progressione precedente.",
+      ]},
+      { items: [
+        "ADHD: valutazione in più brevi momenti invece di un unico lungo test. Ridurre gli stimoli distrattori nell\'ambiente di valutazione.",
+        "Dislessia: consentire risposte orali, tempo extra o uso della sintesi vocale. Valutare il contenuto, non l\'ortografia.",
+        "Autismo: valutazioni con istruzioni scritte chiare e non ambigue. Avvisare in anticipo dei cambiamenti di formato.",
+        "Alto potenziale: evitare valutazioni di mera riproduzione di contenuto — includere domande di analisi, sintesi e creazione.",
+      ]},
+      { items: [
+        "Quando, anche con adattamenti della valutazione, l\'alunno non riesce a dimostrare l\'apprendimento, questo è il segnale che potrebbe esserci una barriera più profonda da investigare con il servizio di supporto scolastico.",
+        "Schemi persistenti (mesi, non giorni) di difficoltà specifica in un\'area devono essere segnalati formalmente.",
+      ]},
+    ]},
   },
 
 
@@ -2913,6 +3369,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Zaštita podataka: svi podaci o potpori učenicima podliježu GDPR-u i Zakonu o zaštiti osobnih podataka.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Diferențierea pedagogică înseamnă adaptarea modului de predare — nu reducerea așteptărilor. Obiectivul de învățare poate fi același pentru toți elevii; ceea ce variază este calea.",
+        "Modelul UDL (Design Universal pentru Învățare) propune trei principii: multiple mijloace de reprezentare (cum este prezentat conținutul), multiple mijloace de acțiune și exprimare (cum răspund elevii) și multiple mijloace de implicare (ce îi motivează pe elevi).",
+        "A diferenția nu înseamnă a crea un plan de lecție individual pentru fiecare elev — înseamnă a crea suficientă flexibilitate pentru ca aceeași lecție să servească diferite profiluri de elevi.",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> reducerea curriculumului pentru elevii cu dificultăți.",
+        "<strong>Nu este</strong> oferirea întotdeauna de sarcini diferite unor elevi diferiți — aceasta izolează și etichetează.",
+        "<strong>Nu este</strong> doar fișe diferențiate — diferențierea include modul în care profesorul explică, întreabă și evaluează.",
+      ]},
+      { items: [
+        "Alegere controlată: oferirea a 2–3 opțiuni de format de răspuns (scris, oral, desen schematic) — toți elevii răspund la același conținut.",
+        "Scaffolding: furnizarea unui cadru structurat elevilor cu dificultăți; retragerea lui progresivă pe măsură ce autonomia crește.",
+        "Grupare flexibilă: grupuri pe baza interesului, nivelului de stăpânire sau mixte — rotați-le pentru a evita grupuri fixe care devin identități.",
+        "Ajustări de timp: mai mult timp nu înseamnă mai puțină rigoare. Pentru elevii cu ADHD sau dispraxie, împărțiți sarcina în segmente cu pauze planificate.",
+        "Nivel de complexitate: pentru același subiect, creați versiuni cu mai mult sau mai puțin suport lingvistic, cu sau fără exemple, cu sau fără indicii vizuale.",
+      ]},
+      { items: [
+        "Evaluați ce știe elevul, nu cum scrie. Un elev cu dislexie poate demonstra stăpânirea conceptuală oral sau cu suport tehnologic.",
+        "Criterii clare de evaluare partajate înainte de sarcină permit elevului să știe ce se așteaptă indiferent de formatul ales.",
+        "Portofoliul sau evaluarea bazată pe dovezi permite elevului să arate progresele în timp, nu doar într-un moment de testare.",
+      ]},
+      { items: [
+        "Când diferențierea în clasă nu mai este suficientă și elevul continuă să nu poată accesa curriculumul, aceasta poate semnala necesitatea unui sprijin specializat.",
+        "Diferențierea nu înlocuiește măsurile de sprijin școlar (psiholog școlar, terapeuți, educație specială) — este ceea ce se întâmplă în clasa obișnuită ca și complement.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Evaluarea formativă este orice practică care colectează informații despre învățare în timpul procesului — și folosește acele informații pentru a ajusta predarea sau sprijinul pentru elev.",
+        "Spre deosebire de evaluarea sumativă (note finale), cea formativă nu necesită o notă — necesită feedback.",
+        "Pentru elevii neurodiversi, evaluarea formativă este deosebit de importantă deoarece performanța la un test punctual poate să nu reflecte ceea ce știu cu adevărat.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: la sfârșitul lecției, elevul răspunde la o întrebare în 2 minute — profesorul vede imediat cine a înțeles și cine nu.",
+        "<strong>Semafor</strong>: verde (am înțeles), galben (am îndoieli), roșu (nu am înțeles) — pot fi carduri fizice, post-it-uri sau digital.",
+        "<strong>Think-Pair-Share</strong>: elevul gândește individual, discută cu un partener, apoi împărtășește cu clasa — reduce anxietatea față de răspunsul direct.",
+        "<strong>Ușa de ieșire</strong>: înainte de a pleca, elevul spune profesorului un lucru pe care l-a învățat și un dubiu pe care îl mai are.",
+      ]},
+      { items: [
+        "Feedback-ul eficient este specific, acționabil și oportun: \'la pagina 2, argumentul se pierde deoarece lipsește legătura cu dovada\' este util; \'ar putea fi mai bine\' nu este.",
+        "Pentru elevii cu ADHD: feedback-ul imediat este mai eficient decât cel amânat. Nu așteptați până la sfârșitul sarcinii.",
+        "Pentru elevii cu dislexie: feedback-ul oral sau audio poate fi mai accesibil decât comentariile scrise extinse.",
+        "Evitați compararea elevilor între ei — comparați elevul cu propria sa progresie anterioară.",
+      ]},
+      { items: [
+        "ADHD: evaluare în multiple momente scurte în loc de un singur test lung. Reduceți stimulii perturbatori din mediul de evaluare.",
+        "Dislexie: permiteți răspunsuri orale, timp suplimentar sau utilizarea conversiei text-în-vorbire. Evaluați conținutul, nu ortografia.",
+        "Autism: evaluări cu instrucțiuni scrise clare și fără ambiguitate. Anunțați din timp modificările de format.",
+        "Supradotare: evitați evaluările de simplă reproducere a conținutului — includeți întrebări de analiză, sinteză și creare.",
+      ]},
+      { items: [
+        "Când, chiar și cu adaptări de evaluare, elevul nu poate demonstra învățarea, acesta este un semn că poate exista o barieră mai profundă de investigat cu psihologul școlar.",
+        "Tiparele persistente (luni, nu zile) de dificultate specifică într-un domeniu trebuie raportate formal.",
+      ]},
+    ]},
   },
 
   cs: {
@@ -3186,6 +3699,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Klíčové dokumenty: IVP, žákovská dokumentace, školní plán inkluzivního vzdělávání.",
         "První krok při obavách o žáka: dokumentovat, poradit se s výchovným poradcem, kontaktovat rodiče — v tomto pořadí.",
         "Ochrana dat: veškerá data o podpoře žáků podléhají GDPR a zákonu o ochraně osobních údajů.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagogická diferenciace znamená přizpůsobit způsob výuky — nesnižovat očekávání. Cíl učení může být pro všechny žáky stejný; liší se cesta.",
+        "Model UDL (Univerzální design pro učení) navrhuje tři principy: různé prostředky reprezentace (jak je obsah prezentován), různé prostředky jednání a vyjadřování (jak žák reaguje) a různé prostředky zapojení (co žáka motivuje).",
+        "Diferencovat neznamená vytvářet individuální plán hodiny pro každého žáka — znamená to vytvořit dostatečnou flexibilitu, aby tatáž hodina sloužila různým profilům žáků.",
+      ]},
+      { items: [
+        "<strong>Není to</strong> redukování učiva pro žáky s obtížemi.",
+        "<strong>Není to</strong> vždy zadávat různé úkoly různým žákům — to izoluje a nálepkuje.",
+        "<strong>Není to</strong> jen diferenciované pracovní listy — diferenciace zahrnuje způsob, jakým učitel vysvětluje, klade otázky a hodnotí.",
+      ]},
+      { items: [
+        "Řízená volba: nabídnout 2–3 možnosti formátu odpovědi (písemná, ústní, schematická kresba) — všichni žáci reagují na stejný obsah.",
+        "Scaffolding: poskytnout strukturovaný rámec žákům s obtížemi; postupně ho odstraňovat s rostoucí samostatností.",
+        "Flexibilní seskupování: skupiny podle zájmu, úrovně zvládnutí nebo smíšené — střídat, aby se vyhnulo pevným skupinám, které se stávají identitami.",
+        "Úpravy času: více času neznamená méně přísnosti. Pro žáky s ADHD nebo dyspraxií rozdelit úkol na segmenty s plánovanými přestávkami.",
+        "Úroveň složitosti: pro stejné téma vytvářet verze s větší nebo menší jazykovou podporou, s příklady nebo bez, s vizuálními nápovědami nebo bez.",
+      ]},
+      { items: [
+        "Hodnotit, co žák ví, ne jak píše. Žák s dyslexií může prokázat konceptuální zvládnutí ústně nebo s technologickou podporou.",
+        "Jasná hodnotící kritéria sdílená před úkolem umožňují žákovi vědět, co je očekáváno bez ohledu na zvolený formát.",
+        "Portfolio nebo hodnocení na základě důkazů umožňuje žákovi ukázat pokroky v čase, ne jen v jednom momentě zkoušení.",
+      ]},
+      { items: [
+        "Když diferenciace ve třídě přestane být dostatečná a žák stále nemá přístup k učivu, může to signalizovat potřebu specializované podpory.",
+        "Diferenciace nenahrazuje školní podpůrná opatření (školní psycholog, terapeuti, speciální vzdělávání) — je to to, co se komplementárně děje v běžné třídě.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formativní hodnocení je každá praxe, která shromažďuje informace o učení během procesu — a tyto informace využívá k přizpůsobení výuky nebo podpory žákovi.",
+        "Na rozdíl od sumativního hodnocení (závěrečné známky) formativní nepotřebuje známku — potřebuje zpětnou vazbu.",
+        "Pro neurodivergenní žáky je formativní hodnocení zvláště důležité, protože výkon při jednorázovém testu nemusí odrážet, co skutečně vědí.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: na konci hodiny žák zodpoví otázku za 2 minuty — učitel okamžitě vidí, kdo pochopil a kdo ne.",
+        "<strong>Semafor</strong>: zelená (pochopil jsem), žlutá (mám pochybnosti), červená (nepochopil jsem) — mohou být fyzické kartičky, post-ity nebo digitální.",
+        "<strong>Think-Pair-Share</strong>: žák přemýšlí individuálně, diskutuje s partnerem, pak sdílí se třídou — snižuje úzkost z přímé odpovědi.",
+        "<strong>Výstupní brána</strong>: před odchodem žák řekne učiteli jednu věc, kterou se naučil, a jednu pochybnost, kterou stále má.",
+      ]},
+      { items: [
+        "Účinná zpětná vazba je konkrétní, realizovatelná a včasná: \'na straně 2 se argument ztrácí, protože chybí propojení s důkazem\' je užitečné; \'mohlo by být lepší\' není.",
+        "Pro žáky s ADHD: okamžitá zpětná vazba je účinnější než opožděná. Nečekat do konce úkolu.",
+        "Pro žáky s dyslexií: ústní nebo zvuková zpětná vazba může být přístupnější než obsáhlé písemné komentáře.",
+        "Vyhýbat se srovnávání žáků mezi sebou — srovnávat žáka s jeho vlastním předchozím pokrokem.",
+      ]},
+      { items: [
+        "ADHD: hodnocení v několika krátkých momentech místo jednoho dlouhého testu. Snížit rušivé podněty v prostředí hodnocení.",
+        "Dyslexie: umožnit ústní odpovědi, extra čas nebo použití převodu textu na řeč. Hodnotit obsah, ne pravopis.",
+        "Autismus: hodnocení s jasnými, jednoznačnými písemnými pokyny. Předem upozornit na změny formátu.",
+        "Nadání: vyhnout se hodnocením pouhé reprodukce obsahu — zahrnout otázky analýzy, syntézy a tvorby.",
+      ]},
+      { items: [
+        "Když žák ani přes přizpůsobení hodnocení nemůže prokázat učení, je to signál, že může existovat hlubší překážka k prozkoumání se školním psychologem.",
+        "Přetrvávající vzorce (měsíce, ne dny) specifických obtíží v určité oblasti by měly být formálně oznámeny.",
       ]},
     ]},
   },
@@ -3463,6 +4033,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Dataskydd: all elevstöddata omfattas av GDPR och Dataskyddslagen; dela inte känslig information utanför elevhälsoteamet utan samtycke.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagogisk differentiering innebär att anpassa hur man undervisar — inte att sänka förväntningarna. Lärandemålet kan vara detsamma för alla elever; det är vägen som varierar.",
+        "UDL-modellen (Universal Design for Learning) föreslår tre principer: flera sätt att representera (hur innehåll presenteras), flera sätt att agera och uttrycka sig (hur eleven svarar) och flera sätt att engagera sig (vad som motiverar eleven).",
+        "Att differentiera innebär inte att skapa en individuell lektionsplan för varje elev — det innebär att skapa tillräcklig flexibilitet för att samma lektion ska tjäna olika elevprofiler.",
+      ]},
+      { items: [
+        "<strong>Det är inte</strong> att reducera läroplanen för elever med svårigheter.",
+        "<strong>Det är inte</strong> att alltid ge olika uppgifter till olika elever — det isolerar och etiketterar.",
+        "<strong>Det är inte</strong> bara differentierade arbetsblad — differentiering inkluderar hur läraren förklarar, frågar och bedömer.",
+      ]},
+      { items: [
+        "Kontrollerat val: erbjuda 2–3 alternativ för svarsformat (skriftligt, muntligt, schematisk teckning) — alla elever svarar på samma innehåll.",
+        "Scaffolding: tillhandahålla ett strukturerat ramverk för elever med svårigheter; ta gradvis bort det när självständigheten ökar.",
+        "Flexibel gruppering: grupper efter intresse, behärskningsnivå eller blandade — rotera för att undvika fasta grupper som blir identiteter.",
+        "Tidsjusteringar: mer tid innebär inte mindre strikta krav. För elever med ADHD eller dyspraxi, dela upp uppgiften i segment med planerade pauser.",
+        "Komplexitetsnivå: för samma ämne, skapa versioner med mer eller mindre språkligt stöd, med eller utan exempel, med eller utan visuella ledtrådar.",
+      ]},
+      { items: [
+        "Bedöm vad eleven vet, inte hur de skriver. En elev med dyslexi kan demonstrera begreppsbehärskning muntligt eller med teknologiskt stöd.",
+        "Tydliga bedömningsmatriser som delas ut innan uppgiften låter eleven veta vad som förväntas oavsett valt format.",
+        "Portfolio eller evidensbaserad bedömning låter eleven visa framsteg över tid, inte bara vid ett enda testtillfälle.",
+      ]},
+      { items: [
+        "När klassrumsdifferentiering inte längre är tillräcklig och eleven fortfarande kämpar med åtkomst till läroplanen kan detta signalera behov av specialiststöd.",
+        "Differentiering ersätter inte skolans stödinsatser (elevhälsa, terapeuter, specialpedagogik) — det är vad som sker kompletterande i den ordinarie klassen.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formativ bedömning är varje praktik som samlar in information om lärande under processen — och använder den informationen för att anpassa undervisningen eller stödet till eleven.",
+        "Till skillnad från summativ bedömning (slutbetyg) behöver formativ bedömning inte ett betyg — den behöver feedback.",
+        "För neurodivergenta elever är formativ bedömning särskilt viktig eftersom prestationen på ett engångstest kanske inte speglar vad de faktiskt vet.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: i slutet av lektionen svarar eleven på en fråga på 2 minuter — läraren ser omedelbart vem som förstod och vem som inte förstod.",
+        "<strong>Trafikljus</strong>: grönt (jag förstod), gult (jag har tvivel), rött (jag förstod inte) — kan vara fysiska kort, post-its eller digitalt.",
+        "<strong>Think-Pair-Share</strong>: eleven tänker individuellt, diskuterar med en partner, delar sedan med klassen — minskar ångesten inför direkta svar.",
+        "<strong>Utgångsdörr</strong>: innan eleven lämnar berättar de för läraren en sak de lärt sig och ett tvivel de fortfarande har.",
+      ]},
+      { items: [
+        "Effektiv feedback är specifik, genomförbar och ges i tid: \'på sidan 2 försvinner argumentet för att länken till beviset saknas\' är användbart; \'kunde vara bättre\' är det inte.",
+        "För elever med ADHD: omedelbar feedback är effektivare än försenad. Vänta inte till slutet av uppgiften.",
+        "För elever med dyslexi: muntlig eller ljudfeedback kan vara mer tillgänglig än omfattande skriftliga kommentarer.",
+        "Undvik att jämföra elever med varandra — jämför eleven med deras eget tidigare framsteg.",
+      ]},
+      { items: [
+        "ADHD: bedömning vid flera korta tillfällen snarare än ett enda långt prov. Minska distraherande stimuli i bedömningsmiljön.",
+        "Dyslexi: tillåt muntliga svar, extra tid eller användning av text-till-tal. Bedöm innehåll, inte stavning.",
+        "Autism: bedömningar med tydliga, otvetydiga skriftliga instruktioner. Varna i förväg om formatändringar.",
+        "Särbegåvning: undvik bedömningar av ren innehållsreproduktuktion — inkludera frågor om analys, syntes och skapande.",
+      ]},
+      { items: [
+        "När eleven, trots bedömningsanpassningar, inte kan visa lärande är detta ett tecken på att det kan finnas ett djupare hinder att undersöka med elevhälsan.",
+        "Bestående mönster (månader, inte dagar) av specifika svårigheter inom ett område bör formellt anmälas.",
+      ]},
+    ]},
   },
 
   da: {
@@ -3736,6 +4363,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vigtige dokumenter: individuel plan, elevdokumentation, skolens inklusionspolitik.",
         "Første skridt ved bekymring for en elev: dokumentér, drøft med PPR-vejleder, kontakt forældre — i den rækkefølge.",
         "Databeskyttelse: alle elevsupportdata er underlagt GDPR og databeskyttelsesloven; del ikke følsomme oplysninger uden for supportteamet uden samtykke.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pædagogisk differentiering betyder at tilpasse, hvordan man underviser — ikke at sænke forventningerne. Læringsmålet kan være det samme for alle elever; det er vejen, der varierer.",
+        "UDL-modellen (Universal Design for Learning) foreslår tre principper: flere midler til repræsentation (hvordan indhold præsenteres), flere midler til handling og udtryk (hvordan eleven reagerer) og flere midler til engagement (hvad der motiverer eleven).",
+        "At differentiere betyder ikke at lave en individuel undervisningsplan for hver elev — det betyder at skabe nok fleksibilitet til, at den samme lektion kan tjene forskellige elevprofiler.",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> at reducere læseplanen for elever med vanskeligheder.",
+        "<strong>Det er ikke</strong> altid at give forskellige opgaver til forskellige elever — det isolerer og stempler.",
+        "<strong>Det er ikke</strong> kun differentierede arbejdsark — differentiering inkluderer, hvordan læreren forklarer, spørger og evaluerer.",
+      ]},
+      { items: [
+        "Kontrolleret valg: tilbyde 2–3 muligheder for svarformat (skriftligt, mundtligt, skematisk tegning) — alle elever svarer på det samme indhold.",
+        "Scaffolding: tilbyde en struktureret ramme til elever med vanskeligheder; fjerne den gradvist, efterhånden som selvstændigheden vokser.",
+        "Fleksibel gruppering: grupper efter interesse, mestringsniveau eller blandede — roter for at undgå faste grupper, der bliver identiteter.",
+        "Tidsreguleringer: mere tid betyder ikke mindre strenghed. For elever med ADHD eller dyspraksi, opdel opgaven i segmenter med planlagte pauser.",
+        "Kompleksitetsniveau: for det samme emne, skab versioner med mere eller mindre sproglig støtte, med eller uden eksempler, med eller uden visuelle hints.",
+      ]},
+      { items: [
+        "Vurder, hvad eleven ved, ikke hvordan de skriver. En elev med ordblindhed/dysleksi kan demonstrere begrebsmæssig beherskelse mundtligt eller med teknologisk støtte.",
+        "Klare vurderingskriterier delt inden opgaven giver eleven mulighed for at vide, hvad der forventes, uanset det valgte format.",
+        "Portfolio eller evidensbaseret vurdering giver eleven mulighed for at vise fremskridt over tid, ikke kun ved ét testøjeblik.",
+      ]},
+      { items: [
+        "Når klassedifferentiering ikke længere er tilstrækkelig, og eleven fortsat kæmper med adgang til læseplanen, kan dette signalere behov for specialiststøtte.",
+        "Differentiering erstatter ikke skolens støtteforanstaltninger (PPR, terapeuter, specialundervisning) — det er det, der komplementært sker i den almindelige klasse.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formativ evaluering er enhver praksis, der indsamler information om læring under processen — og bruger den information til at tilpasse undervisningen eller støtten til eleven.",
+        "I modsætning til summativ evaluering (afsluttende karakterer) behøver formativ evaluering ikke en karakter — den behøver feedback.",
+        "For neurodivergente elever er formativ evaluering særligt vigtig, fordi præstationen ved en engangstest måske ikke afspejler, hvad de faktisk ved.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: ved slutningen af timen besvarer eleven et spørgsmål på 2 minutter — læreren ser straks, hvem der forstod, og hvem der ikke gjorde.",
+        "<strong>Trafiklys</strong>: grønt (jeg forstod det), gult (jeg har tvivl), rødt (jeg forstod det ikke) — kan være fysiske kort, post-its eller digitalt.",
+        "<strong>Think-Pair-Share</strong>: eleven tænker individuelt, diskuterer med en partner, deler derefter med klassen — reducerer angst for direkte svar.",
+        "<strong>Udgangsdør</strong>: inden eleven forlader, fortæller de læreren én ting, de lærte, og ét spørgsmål, de stadig har.",
+      ]},
+      { items: [
+        "Effektiv feedback er specifik, handlingsorienteret og rettidig: \'på side 2 mistes argumentet, fordi forbindelsen til beviset mangler\' er nyttigt; \'kunne være bedre\' er det ikke.",
+        "For elever med ADHD: øjeblikkelig feedback er mere effektiv end forsinket. Vent ikke til slutningen af opgaven.",
+        "For elever med ordblindhed/dysleksi: mundtlig eller lydfeedback kan være mere tilgængelig end omfattende skriftlige kommentarer.",
+        "Undgå at sammenligne elever med hinanden — sammenlign eleven med deres eget tidligere fremskridt.",
+      ]},
+      { items: [
+        "ADHD: vurdering ved flere korte øjeblikke frem for én lang prøve. Reducer forstyrrende stimuli i vurderingsmiljøet.",
+        "Ordblindhed/Dysleksi: tillad mundtlige svar, ekstra tid eller brug af tekst-til-tale. Vurder indhold, ikke stavning.",
+        "Autisme: vurderinger med klare, utvetydige skriftlige instruktioner. Advar om formatændringer på forhånd.",
+        "Høj begavelse: undgå vurderinger af ren indholdsreproduktion — inkluder spørgsmål om analyse, syntese og kreation.",
+      ]},
+      { items: [
+        "Når eleven, selv med vurderingstilpasninger, ikke kan demonstrere læring, er det et tegn på, at der muligvis er en dybere barriere, der skal undersøges med PPR.",
+        "Vedvarende mønstre (måneder, ikke dage) af specifik vanskelighed inden for et område bør anmeldes formelt.",
       ]},
     ]},
   },
@@ -4013,6 +4697,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tietosuoja: kaikki oppilastukitiedot ovat GDPR:n ja tietosuojalain alaisia; älä jaa arkaluonteisia tietoja oppilashuoltoryhmän ulkopuolelle ilman suostumusta.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoginen eriyttäminen tarkoittaa opetustavan mukauttamista — ei odotusten laskemista. Oppimistavoite voi olla sama kaikille oppilaille; se, mikä vaihtelee, on polku.",
+        "UDL-malli (Universal Design for Learning) ehdottaa kolmea periaatetta: useita esittämistapoja (miten sisältö esitetään), useita toiminta- ja ilmaisutapoja (miten oppilas vastaa) ja useita sitouttamistapoja (mikä motivoi oppilasta).",
+        "Eriyttäminen ei tarkoita yksilöllisen tuntisuunnitelman tekemistä jokaiselle oppilaalle — se tarkoittaa riittävän joustavuuden luomista, jotta sama tunti palvelee erilaisia oppilasprofiileja.",
+      ]},
+      { items: [
+        "<strong>Se ei ole</strong> opetussuunnitelman supistamista vaikeudet kohtaaville oppilaille.",
+        "<strong>Se ei ole</strong> aina erilaisten tehtävien antamista eri oppilaille — se eristää ja leimaa.",
+        "<strong>Se ei ole</strong> vain erilaisia tehtäviä paperilla — eriyttäminen sisältää tavan, jolla opettaja selittää, kysyy ja arvioi.",
+      ]},
+      { items: [
+        "Ohjattu valinta: tarjoa 2–3 vaihtoehtoa vastausformaatille (kirjallinen, suullinen, kaaviopiirros) — kaikki oppilaat vastaavat samaan sisältöön.",
+        "Scaffolding: tarjoa jäsennelty kehys vaikeudet kohtaaville oppilaille; poista se vähitellen autonomian kasvaessa.",
+        "Joustava ryhmittely: ryhmät kiinnostuksen, osaamistason tai sekoitettuina — kierrätä, jotta vältytään kiinteiden ryhmien muodostumiselta identiteeteiksi.",
+        "Aikajärjestelyt: enemmän aikaa ei tarkoita vähemmän tarkkuutta. ADHD:n tai dyspraktisuuden oppilaille jaa tehtävä osiin suunniteltujen taukojen kanssa.",
+        "Monimutkaisuustaso: samalle aiheelle luo versioita, joissa on enemmän tai vähemmän kielitukea, esimerkeillä tai ilman, visuaalisilla vihjeillä tai ilman.",
+      ]},
+      { items: [
+        "Arvioi mitä oppilas tietää, ei miten hän kirjoittaa. Dyslektinen oppilas voi osoittaa käsitteellisen hallinnan suullisesti tai teknologisella tuella.",
+        "Selkeät ennen tehtävää jaetut arviointikriteerit mahdollistavat oppilaan tietämisen, mitä odotetaan valitusta formaatista riippumatta.",
+        "Portfolio tai näyttöön perustuva arviointi mahdollistaa edistymisen osoittamisen ajan myötä, ei vain yhdessä testimomentissa.",
+      ]},
+      { items: [
+        "Kun luokkahuoneessa tapahtuva eriyttäminen ei enää riitä ja oppilas ei edelleenkään pääse käsiksi opetussuunnitelmaan, tämä voi viestittää erikoistuneen tuen tarpeesta.",
+        "Eriyttäminen ei korvaa koulun tukitoimenpiteitä (koulukuraattori, terapeutit, erityisopetus) — se on se, mitä tapahtuu täydentävästi tavallisessa luokassa.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formatiivinen arviointi on mikä tahansa käytäntö, joka kerää tietoa oppimisesta prosessin aikana — ja käyttää sitä tietoa opetuksen tai oppilaan tuen mukauttamiseen.",
+        "Toisin kuin summatiivinen arviointi (loppuarvosanat), formatiivinen ei tarvitse arvosanaa — se tarvitsee palautetta.",
+        "Neurodivergenteille oppilaille formatiivinen arviointi on erityisen tärkeää, koska suoritus kertatestissä ei välttämättä heijasta, mitä he todella tietävät.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: tunnin lopussa oppilas vastaa kysymykseen 2 minuutissa — opettaja näkee heti, kuka ymmärsi ja kuka ei.",
+        "<strong>Liikennevalot</strong>: vihreä (ymmärsin), keltainen (minulla on epäilyjä), punainen (en ymmärtänyt) — voi olla fyysisiä kortteja, post-it-lappuja tai digitaalinen.",
+        "<strong>Think-Pair-Share</strong>: oppilas ajattelee yksilöllisesti, keskustelee parin kanssa, jakaa sitten luokalle — vähentää ahdistusta suorasta vastauksesta.",
+        "<strong>Poistumisovi</strong>: ennen lähtöä oppilas kertoo opettajalle yhden oppimansa asian ja yhden epäilyn, joka hänellä on vielä.",
+      ]},
+      { items: [
+        "Tehokas palaute on spesifistä, toimintakelpoista ja oikea-aikaista: \'sivulla 2 argumentti häviää, koska yhteys todisteeseen puuttuu\' on hyödyllistä; \'voisi olla parempi\' ei ole.",
+        "ADHD-oppilaille: välitön palaute on tehokkaampaa kuin viivästetty. Älä odota tehtävän loppuun.",
+        "Dyslektisille oppilaille: suullinen tai äänipalaute voi olla saavutettavampaa kuin laajat kirjalliset kommentit.",
+        "Vältä oppilaiden vertailemista toisiinsa — vertaa oppilasta heidän omaan aiempaan edistymiseensä.",
+      ]},
+      { items: [
+        "ADHD: arviointi useissa lyhyissä hetkissä yhden pitkän kokeen sijaan. Vähennä häiritseviä ärsykkeitä arviointiympäristössä.",
+        "Dysleksia: salli suulliset vastaukset, lisäaika tai tekstistä puheeksi -muunnoksen käyttö. Arvioi sisältö, ei oikeinkirjoitus.",
+        "Autismi: arvioinnit selkeillä, yksiselitteisillä kirjallisilla ohjeilla. Varoita muutoksista etukäteen.",
+        "Lahjakkuus: vältä arviointeja, joissa vaaditaan vain sisällön toistamista — sisällytä analyysi-, synteesi- ja luomiskysymyksiä.",
+      ]},
+      { items: [
+        "Kun oppilas arviointiadaptaatioista huolimatta ei pysty osoittamaan oppimista, se on merkki siitä, että saattaa olla syvempi este tutkittavaksi koulun oppilashuollon kanssa.",
+        "Pysyvät mallit (kuukaudet, eivät päivät) tietyn alueen erityisvaikeuksista tulisi ilmoittaa virallisesti.",
+      ]},
+    ]},
   },
 
 
@@ -4285,6 +5026,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>CPPPaP</strong> — centrum poradenstva, psychológie a prevencie.",
         "<strong>IVVP</strong> — individuálny výchovno-vzdelávací program.",
         "<strong>Asistent učiteľa</strong> — podpora pre žiakov s vyššími potrebami.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Η παιδαγωγική διαφοροποίηση σημαίνει προσαρμογή του τρόπου διδασκαλίας — όχι μείωση των προσδοκιών. Ο στόχος μάθησης μπορεί να είναι ο ίδιος για όλους τους μαθητές· αυτό που ποικίλλει είναι η διαδρομή.",
+        "Το μοντέλο UDL (Καθολικός Σχεδιασμός για τη Μάθηση) προτείνει τρεις αρχές: πολλαπλά μέσα αναπαράστασης (πώς παρουσιάζεται το περιεχόμενο), πολλαπλά μέσα δράσης και έκφρασης (πώς ανταποκρίνεται ο μαθητής) και πολλαπλά μέσα δέσμευσης (τι παρακινεί τον μαθητή).",
+        "Η διαφοροποίηση δεν σημαίνει δημιουργία ατομικού σχεδίου μαθήματος για κάθε μαθητή — σημαίνει δημιουργία επαρκούς ευελιξίας ώστε το ίδιο μάθημα να εξυπηρετεί διαφορετικά προφίλ μαθητών.",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> μείωση του αναλυτικού προγράμματος για μαθητές με δυσκολίες.",
+        "<strong>Δεν είναι</strong> πάντα η ανάθεση διαφορετικών εργασιών σε διαφορετικούς μαθητές — αυτό απομονώνει και ταξινομεί.",
+        "<strong>Δεν είναι</strong> μόνο διαφοροποιημένα φύλλα εργασίας — η διαφοροποίηση περιλαμβάνει τον τρόπο που ο εκπαιδευτικός εξηγεί, ρωτά και αξιολογεί.",
+      ]},
+      { items: [
+        "Ελεγχόμενη επιλογή: προσφέρετε 2–3 επιλογές μορφής απάντησης (γραπτή, προφορική, σχηματικό σχέδιο) — όλοι οι μαθητές απαντούν στο ίδιο περιεχόμενο.",
+        "Scaffolding: παρέχετε δομημένο πλαίσιο σε μαθητές με δυσκολίες· αφαιρέστε το σταδιακά καθώς αυξάνεται η αυτονομία.",
+        "Ευέλικτη ομαδοποίηση: ομάδες κατά ενδιαφέρον, επίπεδο κατάκτησης ή μεικτές — εναλλαγή για να αποφευχθούν σταθερές ομάδες που γίνονται ταυτότητες.",
+        "Προσαρμογές χρόνου: περισσότερος χρόνος δεν σημαίνει λιγότερη αυστηρότητα. Για μαθητές με ΔΕΠΥ ή δυσπραξία, χωρίστε την εργασία σε τμήματα με προγραμματισμένα διαλείμματα.",
+        "Επίπεδο πολυπλοκότητας: για το ίδιο θέμα, δημιουργήστε εκδοχές με περισσότερη ή λιγότερη γλωσσική υποστήριξη, με παραδείγματα ή χωρίς, με οπτικές υποδείξεις ή χωρίς.",
+      ]},
+      { items: [
+        "Αξιολογήστε τι γνωρίζει ο μαθητής, όχι πώς γράφει. Ένας μαθητής με δυσλεξία μπορεί να αποδείξει εννοιολογική κατανόηση προφορικά ή με τεχνολογική υποστήριξη.",
+        "Σαφή κριτήρια αξιολόγησης που μοιράζονται πριν την εργασία επιτρέπουν στον μαθητή να γνωρίζει τι αναμένεται ανεξάρτητα από την επιλεγμένη μορφή.",
+        "Το portfolio ή η αξιολόγηση βασισμένη σε αποδείξεις επιτρέπει στον μαθητή να δείξει πρόοδο με την πάροδο του χρόνου, όχι μόνο σε μία χρονική στιγμή εξέτασης.",
+      ]},
+      { items: [
+        "Όταν η διαφοροποίηση στην τάξη δεν είναι πλέον επαρκής και ο μαθητής εξακολουθεί να δυσκολεύεται με την πρόσβαση στο πρόγραμμα σπουδών, αυτό μπορεί να σηματοδοτεί ανάγκη για εξειδικευμένη υποστήριξη.",
+        "Η διαφοροποίηση δεν αντικαθιστά τα σχολικά μέτρα υποστήριξης (σχολικός ψυχολόγος, θεραπευτές, ειδική αγωγή) — είναι αυτό που γίνεται συμπληρωματικά στην κανονική τάξη.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Η διαμορφωτική αξιολόγηση είναι κάθε πρακτική που συγκεντρώνει πληροφορίες για τη μάθηση κατά τη διάρκεια της διαδικασίας — και χρησιμοποιεί αυτές τις πληροφορίες για να προσαρμόσει τη διδασκαλία ή την υποστήριξη του μαθητή.",
+        "Σε αντίθεση με την αθροιστική αξιολόγηση (τελικοί βαθμοί), η διαμορφωτική δεν χρειάζεται βαθμό — χρειάζεται ανατροφοδότηση.",
+        "Για νευροδιαφορετικούς μαθητές, η διαμορφωτική αξιολόγηση είναι ιδιαίτερα σημαντική επειδή η επίδοση σε μια μεμονωμένη εξέταση μπορεί να μην αντικατοπτρίζει αυτό που πραγματικά γνωρίζουν.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: στο τέλος της ώρας, ο μαθητής απαντά σε μια ερώτηση σε 2 λεπτά — ο εκπαιδευτικός βλέπει αμέσως ποιος κατάλαβε και ποιος όχι.",
+        "<strong>Φωτεινός σηματοδότης</strong>: πράσινο (κατάλαβα), κίτρινο (έχω αμφιβολίες), κόκκινο (δεν κατάλαβα) — μπορεί να είναι φυσικές κάρτες, post-it ή ψηφιακό.",
+        "<strong>Think-Pair-Share</strong>: ο μαθητής σκέφτεται ατομικά, συζητά με έναν συνεργάτη, μετά μοιράζεται με την τάξη — μειώνει το άγχος για άμεση απάντηση.",
+        "<strong>Πύλη εξόδου</strong>: πριν φύγει, ο μαθητής λέει στον εκπαιδευτικό ένα πράγμα που έμαθε και μια αμφιβολία που εξακολουθεί να έχει.",
+      ]},
+      { items: [
+        "Η αποτελεσματική ανατροφοδότηση είναι συγκεκριμένη, εφαρμόσιμη και έγκαιρη: \'στη σελίδα 2 το επιχείρημα χάνεται γιατί λείπει ο σύνδεσμος με την απόδειξη\' είναι χρήσιμο· \'θα μπορούσε να είναι καλύτερο\' δεν είναι.",
+        "Για μαθητές με ΔΕΠΥ: η άμεση ανατροφοδότηση είναι πιο αποτελεσματική από την καθυστερημένη. Να μην περιμένετε μέχρι το τέλος της εργασίας.",
+        "Για μαθητές με δυσλεξία: η προφορική ή ηχητική ανατροφοδότηση μπορεί να είναι πιο προσβάσιμη από εκτεταμένα γραπτά σχόλια.",
+        "Αποφύγετε να συγκρίνετε μαθητές μεταξύ τους — συγκρίνετε τον μαθητή με τη δική του προηγούμενη πρόοδο.",
+      ]},
+      { items: [
+        "ΔΕΠΥ: αξιολόγηση σε πολλαπλές σύντομες χρονικές στιγμές αντί μιας μόνο μακράς εξέτασης. Μειώστε τα αποσπαστικά ερεθίσματα στο περιβάλλον αξιολόγησης.",
+        "Δυσλεξία: επιτρέψτε προφορικές απαντήσεις, επιπλέον χρόνο ή χρήση μετατροπής κειμένου σε ομιλία. Αξιολογήστε το περιεχόμενο, όχι την ορθογραφία.",
+        "Αυτισμός: αξιολογήσεις με σαφείς, αδιαμφισβήτητες γραπτές οδηγίες. Προειδοποιήστε εκ των προτέρων για αλλαγές μορφής.",
+        "Υψηλή νοημοσύνη: αποφύγετε αξιολογήσεις απλής αναπαραγωγής περιεχομένου — συμπεριλάβετε ερωτήσεις ανάλυσης, σύνθεσης και δημιουργίας.",
+      ]},
+      { items: [
+        "Όταν ο μαθητής, ακόμη και με προσαρμογές αξιολόγησης, δεν μπορεί να επιδείξει μάθηση, αυτό είναι σημάδι ότι μπορεί να υπάρχει βαθύτερο εμπόδιο να διερευνηθεί με τον σχολικό ψυχολόγο.",
+        "Επίμονα μοτίβα (μήνες, όχι μέρες) ειδικής δυσκολίας σε έναν τομέα πρέπει να αναφέρονται επίσημα.",
       ]},
     ]},
   },
@@ -4560,6 +5358,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>MNyI</strong> — magyar mint idegen nyelv program.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagogická diferenciácia znamená prispôsobiť spôsob vyučovania — nesnižovať očakávania. Cieľ učenia môže byť pre všetkých žiakov rovnaký; líši sa cesta.",
+        "Model UDL (Univerzálny dizajn pre učenie) navrhuje tri princípy: rôzne prostriedky reprezentácie (ako je obsah prezentovaný), rôzne prostriedky konania a vyjadrovania (ako žiak reaguje) a rôzne prostriedky zapájania (čo žiaka motivuje).",
+        "Diferencovať neznamená vytvárať individuálny plán hodiny pre každého žiaka — znamená to vytvoriť dostatok flexibility, aby tá istá hodina slúžila rôznym profilom žiakov.",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> redukovanie učiva pre žiakov s ťažkosťami.",
+        "<strong>Nie je to</strong> vždy zadávať rôzne úlohy rôznym žiakom — to izoluje a nálepkuje.",
+        "<strong>Nie sú to</strong> len diferencované pracovné listy — diferenciácia zahŕňa spôsob, akým učiteľ vysvetľuje, kladie otázky a hodnotí.",
+      ]},
+      { items: [
+        "Riadená voľba: ponúknuť 2–3 možnosti formátu odpovede (písomná, ústna, schematická kresba) — všetci žiaci reagujú na rovnaký obsah.",
+        "Scaffolding: poskytnúť štruktúrovaný rámec žiakom s ťažkosťami; postupne ho odstraňovať s rastúcou samostatnosťou.",
+        "Flexibilné zoskupovanie: skupiny podľa záujmu, úrovne zvládnutia alebo zmiešané — striedať, aby sa predišlo pevným skupinám, ktoré sa stávajú identitami.",
+        "Úpravy času: viac času neznamená menej prísnosti. Pre žiakov s ADHD alebo dyspraxiou rozdeliť úlohu na segmenty s plánovanými prestávkami.",
+        "Úroveň zložitosti: pre rovnakú tému vytvárať verzie s väčšou alebo menšou jazykovou podporou, s príkladmi alebo bez, s vizuálnymi nápovedami alebo bez.",
+      ]},
+      { items: [
+        "Hodnotiť, čo žiak vie, nie ako píše. Žiak s dyslexiou môže preukázať konceptuálne zvládnutie ústne alebo s technologickou podporou.",
+        "Jasné hodnotiace kritériá zdieľané pred úlohou umožňujú žiakovi vedieť, čo sa očakáva bez ohľadu na zvolený formát.",
+        "Portfólio alebo hodnotenie na základe dôkazov umožňuje žiakovi ukázať pokroky v čase, nie len v jednom momente skúšania.",
+      ]},
+      { items: [
+        "Keď diferenciácia v triede prestane byť dostatočná a žiak stále nemá prístup k učivu, môže to signalizovať potrebu špecializovanej podpory.",
+        "Diferenciácia nenahrádza školské podporné opatrenia (školský psychológ, terapeuti, špeciálne vzdelávanie) — je to to, čo sa komplementárne deje v bežnej triede.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formatívne hodnotenie je každá prax, ktorá zhromažďuje informácie o učení počas procesu — a tieto informácie využíva na prispôsobenie vyučovania alebo podpory žiakovi.",
+        "Na rozdiel od sumatívneho hodnotenia (záverečné známky) formatívne nepotrebuje známku — potrebuje spätnú väzbu.",
+        "Pre neurodivergentných žiakov je formatívne hodnotenie zvlášť dôležité, pretože výkon pri jednorazovom teste nemusí odrážať, čo skutočne vedia.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: na konci hodiny žiak zodpovie otázku za 2 minúty — učiteľ okamžite vidí, kto pochopil a kto nie.",
+        "<strong>Semafor</strong>: zelená (pochopil som), žltá (mám pochybnosti), červená (nepochopil som) — môžu byť fyzické kartičky, post-ity alebo digitálne.",
+        "<strong>Think-Pair-Share</strong>: žiak premýšľa individuálne, diskutuje s partnerom, potom zdieľa s triedou — znižuje úzkosť z priamej odpovede.",
+        "<strong>Výstupná brána</strong>: pred odchodom žiak povie učiteľovi jednu vec, ktorú sa naučil, a jednu pochybnosť, ktorú stále má.",
+      ]},
+      { items: [
+        "Účinná spätná väzba je konkrétna, realizovateľná a včasná: \'na strane 2 sa argument stráca, pretože chýba prepojenie s dôkazom\' je užitočné; \'mohlo by byť lepšie\' nie je.",
+        "Pre žiakov s ADHD: okamžitá spätná väzba je účinnejšia ako odložená. Nečakať do konca úlohy.",
+        "Pre žiakov s dyslexiou: ústna alebo zvuková spätná väzba môže byť dostupnejšia ako rozsiahle písomné komentáre.",
+        "Vyhýbať sa porovnávaniu žiakov navzájom — porovnávať žiaka s jeho vlastným predchádzajúcim pokrokom.",
+      ]},
+      { items: [
+        "ADHD: hodnotenie v niekoľkých krátkych momentoch namiesto jedného dlhého testu. Znížiť rušivé podnety v prostredí hodnotenia.",
+        "Dyslexia: umožniť ústne odpovede, extra čas alebo použitie prevodu textu na reč. Hodnotiť obsah, nie pravopis.",
+        "Autizmus: hodnotenia s jasnými, jednoznačnými písomnými pokynmi. Vopred upozorniť na zmeny formátu.",
+        "Nadanie: vyhnúť sa hodnoteniam samotnej reprodukcie obsahu — zahrnúť otázky analýzy, syntézy a tvorby.",
+      ]},
+      { items: [
+        "Keď žiak ani pri prispôsobeniach hodnotenia nevie preukázať učenie, je to signál, že môže existovať hlbšia prekážka na preskúmanie so školským psychológom.",
+        "Pretrvávajúce vzory (mesiace, nie dni) špecifických ťažkostí v oblasti by mali byť formálne oznámené.",
+      ]},
+    ]},
   },
 
   el: {
@@ -4831,6 +5686,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>ΚΕΣΥ</strong> — Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης.",
         "<strong>ΑΕΠ</strong> — Ατομικό Εκπαιδευτικό Πρόγραμμα.",
         "<strong>Τάξεις υποδοχής ΤΥ Ι & ΤΥ ΙΙ</strong> — για αλλόγλωσσους μαθητές.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "A pedagógiai differenciálás az oktatás módjának testreszabását jelenti — nem az elvárások csökkentését. A tanulási cél minden tanuló számára ugyanaz lehet; ami változik, az az út.",
+        "Az UDL-modell (Tanulás Egyetemes Tervezése) három elvet javasol: a reprezentáció többféle módja (hogyan mutatják be a tartalmat), a cselekvés és kifejezés többféle módja (hogyan reagál a tanuló) és az elköteleződés többféle módja (mi motiválja a tanulót).",
+        "A differenciálás nem jelenti azt, hogy minden tanulóhoz egyéni óravázlatot kell készíteni — azt jelenti, hogy elegendő rugalmasságot kell teremteni ahhoz, hogy ugyanaz az óra különböző tanulói profilokat is kiszolgáljon.",
+      ]},
+      { items: [
+        "<strong>Nem az</strong>, hogy csökkentjük a tantervet a nehézséggel küzdő tanulók számára.",
+        "<strong>Nem az</strong>, hogy mindig különböző feladatokat adunk különböző tanulóknak — ez elszigetel és megbélyegez.",
+        "<strong>Nem csupán</strong> differenciált munkalapok — a differenciálás magában foglalja azt is, ahogyan a tanár magyaráz, kérdez és értékel.",
+      ]},
+      { items: [
+        "Irányított választás: 2–3 válaszformátum-opció ajánlása (írásbeli, szóbeli, sematikus rajz) — minden tanuló ugyanarra a tartalomra reagál.",
+        "Scaffolding: strukturált keretet biztosítani a nehézséggel küzdő tanulóknak; fokozatosan eltávolítani azt, ahogy az önállóság növekszik.",
+        "Rugalmas csoportosítás: érdeklődés, elsajátítási szint vagy vegyes csoportok — forgatás a rögzített csoportok elkerülése érdekében, amelyek identitássá válnak.",
+        "Időbeli igazítások: több idő nem jelent kevesebb szigorúságot. ADHD-s vagy diszpraxiás tanulóknál osszuk részekre a feladatot tervezett szünetekkel.",
+        "Komplexitási szint: ugyanahhoz a témához különböző verziók készítése több vagy kevesebb nyelvi támogatással, példákkal vagy anélkül, vizuális jelzésekkel vagy anélkül.",
+      ]},
+      { items: [
+        "Azt értékeljük, amit a tanuló tud, nem azt, hogyan ír. Egy diszlexiás tanuló szóban vagy technológiai támogatással is bizonyíthatja fogalmi tudását.",
+        "A feladat előtt megosztott egyértelmű értékelési szempontok lehetővé teszik a tanuló számára, hogy tudja, mit várnak el tőle, függetlenül a választott formátumtól.",
+        "A portfólió vagy bizonyítékon alapuló értékelés lehetővé teszi a tanuló számára, hogy az idő múlásával mutasson fejlődést, nem csupán egyetlen tesztpillanatban.",
+      ]},
+      { items: [
+        "Ha az osztálytermi differenciálás már nem elegendő, és a tanuló továbbra sem tud hozzáférni a tantervhez, ez jelezheti, hogy szakosodott támogatásra van szükség.",
+        "A differenciálás nem helyettesíti az iskolai támogatási intézkedéseket (iskolapszichológus, terapeuták, gyógypedagógia) — ez az, ami kiegészítően történik a normál osztályban.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "A formatív értékelés minden olyan gyakorlat, amely a folyamat során gyűjt információkat a tanulásról — és ezeket az információkat felhasználja az oktatás vagy a tanuló támogatásának kiigazítására.",
+        "A szummatív értékeléssel (záróosztályzatok) ellentétben a formatív értékeléshez nem szükséges osztályzat — visszajelzésre van szüksége.",
+        "A neurodiverggens tanulók számára a formatív értékelés különösen fontos, mert az egyszeri teszten nyújtott teljesítmény nem feltétlenül tükrözi azt, amit valójában tudnak.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: az óra végén a tanuló 2 perc alatt válaszol egy kérdésre — a tanár azonnal látja, ki értette meg és ki nem.",
+        "<strong>Közlekedési lámpa</strong>: zöld (megértettem), sárga (kétségeim vannak), piros (nem értettem meg) — lehet fizikai kártyák, post-it-ok vagy digitális.",
+        "<strong>Think-Pair-Share</strong>: a tanuló egyénileg gondolkodik, megbeszéli egy partnerrel, majd megosztja az osztállyal — csökkenti a közvetlen válaszadástól való szorongást.",
+        "<strong>Kijárati kapu</strong>: mielőtt elmenne, a tanuló elmond a tanárnak egy dolgot, amit tanult, és egy kétséget, amije még van.",
+      ]},
+      { items: [
+        "A hatékony visszajelzés konkrét, megvalósítható és időszerű: \'a 2. oldalon az érvelés elvész, mert hiányzik a kapcsolat a bizonyítékkal\' hasznos; \'lehetne jobb\' nem az.",
+        "ADHD-s tanulóknak: az azonnali visszajelzés hatékonyabb a késleltetett visszajelzésnél. Ne várjunk a feladat végéig.",
+        "Diszlexiás tanulóknak: a szóbeli vagy hangos visszajelzés hozzáférhetőbb lehet, mint a kiterjedt írásbeli megjegyzések.",
+        "Kerüljük a tanulók egymással való összehasonlítását — a tanulót a saját korábbi fejlődéséhez hasonlítsuk.",
+      ]},
+      { items: [
+        "ADHD: értékelés több rövid pillanatban egyetlen hosszú teszt helyett. Csökkentsük a zavaró ingereket az értékelési környezetben.",
+        "Diszlexia: engedjük meg a szóbeli válaszokat, extra időt vagy szövegfelolvasó használatát. A tartalmat értékeljük, nem a helyesírást.",
+        "Autizmus: egyértelmű, félreérthetetlen írásbeli utasításokat tartalmazó értékelések. Előre figyelmeztessük a formatumváltozásokról.",
+        "Tehetség: kerüljük a puszta tartalomreprodukcióra irányuló értékeléseket — vonjunk be elemzési, szintézis- és alkotó kérdéseket.",
+      ]},
+      { items: [
+        "Ha a tanuló értékelési adaptációkkal sem tud tanulást bizonyítani, ez jele lehet, hogy mélyebb akadály van, amelyet az iskolapszichológussal kell vizsgálni.",
+        "Egy területen fennálló specifikus nehézség tartós mintái (hónapok, nem napok) formálisan jelzendők.",
       ]},
     ]},
   },
@@ -5107,6 +6019,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>РЦППО</strong> — Регионален център за подкрепа на приобщаващото образование.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Педагогическата диференциация означава адаптиране на начина на преподаване — не намаляване на очакванията. Учебната цел може да бъде еднаква за всички ученици; варира пътят.",
+        "Моделът UDL (Универсален дизайн за учене) предлага три принципа: множество средства за представяне (как се представя съдържанието), множество средства за действие и изразяване (как ученикът реагира) и множество средства за ангажиране (какво мотивира ученика).",
+        "Диференцирането не означава създаване на индивидуален план на урока за всеки ученик — означава създаване на достатъчна гъвкавост, така че един и същи урок да служи на различни профили на ученици.",
+      ]},
+      { items: [
+        "<strong>Не е</strong> редуциране на учебната програма за ученици с трудности.",
+        "<strong>Не е</strong> постоянно задаване на различни задачи на различни ученици — това изолира и поставя етикети.",
+        "<strong>Не е</strong> само диференцирани работни листове — диференциацията включва начина, по който учителят обяснява, пита и оценява.",
+      ]},
+      { items: [
+        "Контролиран избор: предлагайте 2–3 варианта за формат на отговор (писмен, устен, схематична рисунка) — всички ученици отговарят на едно и също съдържание.",
+        "Scaffolding: осигурявайте структурирана рамка на ученици с трудности; постепенно я премахвайте с нарастващата самостоятелност.",
+        "Гъвкаво групиране: групи по интерес, ниво на овладяване или смесени — редувайте ги, за да избегнете фиксирани групи, които стават идентичности.",
+        "Времеви корекции: повече време не означава по-малка строгост. За ученици с ADHD или диспраксия разделете задачата на сегменти с планирани почивки.",
+        "Ниво на сложност: за едно и също тема създавайте версии с повече или по-малко езикова поддръжка, с или без примери, с или без визуални подсказки.",
+      ]},
+      { items: [
+        "Оценявайте какво знае ученикът, а не как пише. Ученик с дислексия може да демонстрира концептуално владеене устно или с технологична поддръжка.",
+        "Ясни критерии за оценяване, споделени преди задачата, позволяват на ученика да знае какво се очаква независимо от избрания формат.",
+        "Портфолиото или оценяването на база доказателства позволява на ученика да показва напредък с течение на времето, а не само в един момент на изпитване.",
+      ]},
+      { items: [
+        "Когато диференциацията в клас престане да бъде достатъчна и ученикът продължава да няма достъп до учебната програма, това може да сигнализира нужда от специализирана подкрепа.",
+        "Диференциацията не замества училищните мерки за подкрепа (училищен психолог, терапевти, специално образование) — това е онова, което се случва допълнително в редовния клас.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Формативното оценяване е всяка практика, която събира информация за ученето по време на процеса — и използва тази информация за адаптиране на преподаването или подкрепата на ученика.",
+        "За разлика от суматвното оценяване (крайни оценки), формативното не се нуждае от оценка — нуждае се от обратна връзка.",
+        "За невродивергентни ученици формативното оценяване е особено важно, защото представянето на еднократен тест може да не отразява това, което всъщност знаят.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: в края на урока ученикът отговаря на въпрос за 2 минути — учителят веднага вижда кой е разбрал и кой не.",
+        "<strong>Светофар</strong>: зелено (разбрах), жълто (имам съмнения), червено (не разбрах) — могат да бъдат физически карти, post-it или цифрово.",
+        "<strong>Think-Pair-Share</strong>: ученикът мисли индивидуално, обсъжда с партньор, после споделя с класа — намалява тревожността от директен отговор.",
+        "<strong>Изходна врата</strong>: преди да излезе, ученикът казва на учителя едно нещо, което е научил, и едно съмнение, което все още има.",
+      ]},
+      { items: [
+        "Ефективната обратна връзка е конкретна, приложима и навременна: \'на страница 2 аргументът се губи, защото липсва връзката с доказателството\' е полезно; \'можеше да е по-добре\' не е.",
+        "За ученици с ADHD: незабавната обратна връзка е по-ефективна от отложената. Да не се чака до края на задачата.",
+        "За ученици с дислексия: устната или аудио обратна връзка може да е по-достъпна от обширните писмени коментари.",
+        "Избягвайте да сравнявате ученици помежду им — сравнявайте ученика с неговото собствено предишно развитие.",
+      ]},
+      { items: [
+        "ADHD: оценяване в множество кратки моменти вместо един дълъг тест. Намалете разсейващите стимули в средата за оценяване.",
+        "Дислексия: разрешете устни отговори, допълнително време или използване на преобразуване на текст в реч. Оценявайте съдържанието, а не правописа.",
+        "Аутизъм: оценявания с ясни, недвусмислени писмени инструкции. Предупреждавайте предварително за промени в формата.",
+        "Надареност: избягвайте оценявания на просто възпроизвеждане на съдържание — включете въпроси за анализ, синтез и създаване.",
+      ]},
+      { items: [
+        "Когато дори с адаптации на оценяването ученикът не може да демонстрира учене, това е знак, че може да има по-дълбока пречка за изследване с училищния психолог.",
+        "Устойчиви модели (месеци, не дни) на специфична трудност в дадена област трябва да бъдат официално докладвани.",
+      ]},
+    ]},
   },
 
   lt: {
@@ -5378,6 +6347,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>IUP</strong> — individualizuota ugdymosi programa.",
         "<strong>Specialusis pedagogas</strong> — koordinuoja pagalbą mokykloje.",
         "<strong>Pasirengimo klasė</strong> — lietuvių kalbos parama naujai atvykusiems.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoginis diferencijavimas reiškia mokymo būdo pritaikymą — ne lūkesčių mažinimą. Mokymosi tikslas gali būti vienodas visiems mokiniams; skiriasi kelias.",
+        "UDL modelis (Universalus mokymosi dizainas) siūlo tris principus: įvairias reprezentacijos priemones (kaip pateikiamas turinys), įvairias veikimo ir išraiškos priemones (kaip mokinys reaguoja) ir įvairias įsitraukimo priemones (kas motyvuoja mokinį).",
+        "Diferencijuoti nereiškia kiekvienam mokiniui kurti individualų pamokos planą — tai reiškia sukurti pakankamai lankstumo, kad ta pati pamoka tarnautų skirtingiems mokinių profiliams.",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> ugdymo programos mažinimas sunkumų turintiems mokiniams.",
+        "<strong>Tai nėra</strong> visada skirtingų užduočių skyrimas skirtingiems mokiniams — tai izoliuoja ir etiketuoja.",
+        "<strong>Tai nėra</strong> vien tik diferencijuoti darbo lapai — diferencijavimas apima tai, kaip mokytojas aiškina, klausia ir vertina.",
+      ]},
+      { items: [
+        "Kontroliuotas pasirinkimas: siūlyti 2–3 atsakymo formato variantus (raštu, žodžiu, schematinis piešinys) — visi mokiniai atsako į tą patį turinį.",
+        "Scaffolding: suteikti struktūruotą pagrindą sunkumų turintiems mokiniams; palaipsniui jį šalinti, augant savarankiškumui.",
+        "Lankstus grupavimas: grupės pagal susidomėjimą, įsisavinimo lygį arba mišrios — kaitalioti, kad išvengtume fiksuotų grupių, tampančių tapatybėmis.",
+        "Laiko koregavimas: daugiau laiko nereiškia mažiau griežtumo. ADHD ar dispraksijos mokiniams padalinkite užduotį į segmentus su suplanuotomis pertraukomis.",
+        "Sudėtingumo lygis: tai pačiai temai kurkite versijas su daugiau ar mažiau kalbinės paramos, su pavyzdžiais ar be, su vizualinėmis užuominomis ar be.",
+      ]},
+      { items: [
+        "Vertinkite, ką mokinys žino, o ne kaip rašo. Disleksijos turintis mokinys gali žodžiu arba su technologine pagalba pademonstruoti sąvokinį įvaldymą.",
+        "Aiškūs vertinimo kriterijai, pateikiami prieš užduotį, leidžia mokiniui žinoti, ko tikimasi nepriklausomai nuo pasirinkto formato.",
+        "Portfolio arba įrodymais pagrįstas vertinimas leidžia mokiniui parodyti pažangą laikui bėgant, o ne tik vienu egzamino momentu.",
+      ]},
+      { items: [
+        "Kai diferencijuotas mokymasis klasėje nebepakanka ir mokinys vis dar negali pasiekti ugdymo programos, tai gali signalizuoti apie poreikį specializuotai pagalbai.",
+        "Diferencijavimas nepakeičia mokyklinių paramos priemonių (mokyklos psichologas, terapeutai, specialusis ugdymas) — tai kas papildomai vyksta įprastoje klasėje.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formuojamasis vertinimas yra bet kokia praktika, kuri renka informaciją apie mokymąsi proceso metu — ir naudoja tą informaciją mokymo ar pagalbos mokiniui pritaikymui.",
+        "Skirtingai nuo apibendrinamojo vertinimo (galutiniai pažymiai), formuojamajam nereikia pažymio — reikia grįžtamojo ryšio.",
+        "Neurodivergenčių mokinių atveju formuojamasis vertinimas ypač svarbus, nes atlikimas vienkartinio testo gali neatspindėti to, ką jie iš tikrųjų žino.",
+      ]},
+      { items: [
+        "<strong>Išėjimo bilietas</strong>: pamokos pabaigoje mokinys 2 minutėse atsako į klausimą — mokytojas iš karto mato, kas suprato ir kas ne.",
+        "<strong>Šviesoforas</strong>: žalia (supratau), geltona (turiu abejonių), raudona (nesupratau) — gali būti fizinės kortelės, lipdukai ar skaitmeninė forma.",
+        "<strong>Think-Pair-Share</strong>: mokinys mąsto individualiai, aptaria su partneriu, tada dalijasi su klase — mažina nerimą dėl tiesioginio atsakymo.",
+        "<strong>Išėjimo vartai</strong>: prieš išeidamas mokinys pasakoja mokytojui vieną dalyką, kurio išmoko, ir vieną abejonę, kurią dar turi.",
+      ]},
+      { items: [
+        "Veiksmingas grįžtamasis ryšys yra konkretus, įgyvendinamas ir laiku: \'2 puslapyje argumentas prarandamas, nes trūksta ryšio su įrodymu\' yra naudingas; \'galėjo būti geriau\' — ne.",
+        "ADHD mokiniams: tiesioginis grįžtamasis ryšys yra veiksmingesnis už atidėtą. Nelaukite užduoties pabaigos.",
+        "Disleksijos mokiniams: žodinis ar garso grįžtamasis ryšys gali būti prieinamesnis nei išplėstiniai rašytiniai komentarai.",
+        "Vengti mokinių tarpusavio lyginimo — lyginti mokinį su jo paties ankstesne pažanga.",
+      ]},
+      { items: [
+        "ADHD: vertinimas keliais trumpais momentais, o ne vienu ilgu testu. Sumažinkite blaškančius dirgiklius vertinimo aplinkoje.",
+        "Disleksija: leiskite žodinius atsakymus, papildomą laiką ar teksto kalbos sintezės naudojimą. Vertinkite turinį, o ne rašybą.",
+        "Autizmas: vertinimai su aiškiomis, nedviprasmiškomis rašytinėmis instrukcijomis. Iš anksto įspėkite apie formato pakeitimus.",
+        "Gabumas: vengti vertinimų, kurie reikalauja vien turinio atgaminimo — įtraukti analizės, sintezės ir kūrybos klausimus.",
+      ]},
+      { items: [
+        "Kai mokinys net su vertinimo pritaikymais negali pademonstruoti mokymosi, tai yra ženklas, kad gali būti gilesnė kliūtis, kurią reikia tirti su mokyklos psichologu.",
+        "Nuolatiniai modeliai (mėnesiai, ne dienos) specifinių sunkumų tam tikroje srityje turi būti oficialiai pranešti.",
       ]},
     ]},
   },
@@ -5652,6 +6678,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sūdzības par atbalsta nodrošināšanu var iesniegt pašvaldībai vai Izglītības un zinātnes ministrijai.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoģiskā diferenciācija nozīmē pielāgot mācīšanas veidu — nevis samazināt gaidas. Mācīšanās mērķis var būt vienāds visiem skolēniem; mainās ceļš.",
+        "UDL modelis (Universālais mācīšanās dizains) piedāvā trīs principus: daudzveidīgus reprezentācijas līdzekļus (kā saturs tiek pasniegts), daudzveidīgus darbības un izteiksmes līdzekļus (kā skolēns reaģē) un daudzveidīgus iesaistīšanās līdzekļus (kas motivē skolēnu).",
+        "Diferenciēšana nenozīmē katram skolēnam veidot individuālu stundu plānu — tas nozīmē radīt pietiekami daudz elastības, lai viena un tā pati stunda kalpotu dažādiem skolēnu profiliem.",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> mācību programmas samazināšana skolēniem ar grūtībām.",
+        "<strong>Tā nav</strong> vienmēr dažādu uzdevumu piešķiršana dažādiem skolēniem — tas izolē un etiķetē.",
+        "<strong>Tā nav</strong> tikai diferencētas darba lapas — diferenciācija ietver arī veidu, kā skolotājs skaidro, uzdod jautājumus un vērtē.",
+      ]},
+      { items: [
+        "Kontrolēta izvēle: piedāvāt 2–3 atbildes formāta variantus (rakstisks, mutiski, shematisks zīmējums) — visi skolēni atbild uz vienu un to pašu saturu.",
+        "Scaffolding: nodrošināt strukturētu ietvaru skolēniem ar grūtībām; pakāpeniski to noņemt, pieaugot patstāvībai.",
+        "Elastīga grupēšana: grupas pēc interesēm, apguves līmeņa vai jauktas — rotēt, lai izvairītos no fiksētām grupām, kas kļūst par identitātēm.",
+        "Laika korekcijas: vairāk laika nenozīmē mazāku prasīgumu. Skolēniem ar ADHD vai dispraksiju sadaliet uzdevumu segmentos ar plānotajiem pārtraukumiem.",
+        "Sarežģītības līmenis: vienam un tam pašam tematam veidojiet versijas ar lielāku vai mazāku valodas atbalstu, ar piemēriem vai bez, ar vizuāliem pamudinājumiem vai bez.",
+      ]},
+      { items: [
+        "Vērtējiet to, ko skolēns zina, nevis kā viņš raksta. Skolēns ar disleksiju var demonstrēt konceptuālo apguvi mutiski vai ar tehnoloģisku atbalstu.",
+        "Skaidri vērtēšanas kritēriji, kas kopīgoti pirms uzdevuma, ļauj skolēnam zināt, kas sagaidāms neatkarīgi no izvēlētā formāta.",
+        "Portfolio vai uz pierādījumiem balstīta vērtēšana ļauj skolēnam laika gaitā parādīt progresu, nevis tikai vienā pārbaudījuma brīdī.",
+      ]},
+      { items: [
+        "Kad klasē notiekošā diferenciācija vairs nav pietiekama un skolēns joprojām nespēj piekļūt mācību programmai, tas var liecināt par specializēta atbalsta nepieciešamību.",
+        "Diferenciācija neaizstāj skolas atbalsta pasākumus (skolas psihologu, terapeitus, speciālo izglītību) — tā ir tas, kas papildinošā veidā notiek parastajā klasē.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formatīvā vērtēšana ir jebkura prakse, kas procesa laikā vāc informāciju par mācīšanos — un izmanto šo informāciju mācīšanas vai skolēna atbalsta pielāgošanai.",
+        "Atšķirībā no sumatīvās vērtēšanas (gala atzīmes), formatīvā nevajadzīga atzīme — tai vajadzīga atgriezeniskā saite.",
+        "Neirodivergentiem skolēniem formatīvā vērtēšana ir īpaši svarīga, jo sniegums vienreizējā testā var neatspoguļot to, ko viņi patiesībā zina.",
+      ]},
+      { items: [
+        "<strong>Izejas biļete</strong>: stundas beigās skolēns 2 minūtēs atbild uz jautājumu — skolotājs uzreiz redz, kurš saprata un kurš ne.",
+        "<strong>Semafors</strong>: zaļš (sapratu), dzeltens (man ir šaubas), sarkans (nesapratu) — var būt fiziskas kartītes, piezīmītes vai digitāls.",
+        "<strong>Think-Pair-Share</strong>: skolēns domā individuāli, apspriežas ar partneri, pēc tam dalās ar klasi — samazina trauksmi par tiešu atbildi.",
+        "<strong>Izejas vārti</strong>: pirms iziešanas skolēns pasaka skolotājam vienu lietu, ko iemācījās, un vienu šaubu, kas vēl ir.",
+      ]},
+      { items: [
+        "Efektīva atgriezeniskā saite ir konkrēta, īstenojama un savlaicīga: \'2. lappusē arguments zūd, jo trūkst saiknes ar pierādījumu\' ir noderīgi; \'varēja būt labāk\' nav.",
+        "Skolēniem ar ADHD: tūlītēja atgriezeniskā saite ir efektīvāka nekā aizkavēta. Negaidiet līdz uzdevuma beigām.",
+        "Skolēniem ar disleksiju: mutiska vai audio atgriezeniskā saite var būt pieejamāka nekā apjomīgi rakstveida komentāri.",
+        "Izvairieties no skolēnu savstarpējas salīdzināšanas — salīdziniet skolēnu ar viņa pašu iepriekšējo progresu.",
+      ]},
+      { items: [
+        "ADHD: vērtēšana vairākos īsos brīžos, nevis vienā garā testā. Samaziniet novērsojoša rakstura stimulus vērtēšanas vidē.",
+        "Disleksija: atļaujiet mutiskas atbildes, papildu laiku vai teksta-runas pārveidošanas izmantošanu. Vērtējiet saturu, nevis pareizrakstību.",
+        "Autisms: vērtēšana ar skaidriem, nepārprotamiem rakstveida norādījumiem. Iepriekš brīdiniet par formāta izmaiņām.",
+        "Apdāvinātība: izvairieties no vērtēšanas, kas prasa vienīgi satura reproducēšanu — iekļaujiet analīzes, sintēzes un radošos jautājumus.",
+      ]},
+      { items: [
+        "Kad skolēns pat ar vērtēšanas pielāgojumiem nespēj demonstrēt mācīšanos, tas ir zīme, ka var būt dziļāks šķērslis, kas jāpēta kopā ar skolas psihologu.",
+        "Pastāvīgi modeļi (mēneši, ne dienas) ar specifisku grūtību kādā jomā ir formāli jāpaziņo.",
+      ]},
+    ]},
   },
   et: {
     tdah: { sections: [
@@ -5920,6 +7003,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vanemad saavad pöörduda Rajaleidja keskusesse hindamis- ja nõustamisteenuseks.",
         "Koolivaidluste lahendamine toimub maavanemale (regionaalne tasand) või HTM-ile esitatud kaebuste kaudu.",
         "Õpilastel on õigus saada teavet oma õiguste kohta hariduses.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoogiline diferentseerimine tähendab õpetamisviisi kohandamist — mitte ootuste alandamist. Õpieesmärk võib olla kõigile õpilastele ühesugune; erineb tee.",
+        "UDL-mudel (Universaalne õppimise disain) pakub kolm põhimõtet: mitmekesised esitusvahendid (kuidas sisu esitatakse), mitmekesised tegevus- ja väljendusvahendid (kuidas õpilane reageerib) ning mitmekesised kaasamisvahendid (mis motiveerib õpilast).",
+        "Diferentseerimine ei tähenda iga õpilase jaoks individuaalse tunniplaani koostamist — see tähendab piisava paindlikkuse loomist, et sama tund teenindaks erinevaid õpilasprofiile.",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> õppekava vähendamine raskustes olevatele õpilastele.",
+        "<strong>See ei ole</strong> alati erinevate ülesannete andmine erinevatele õpilastele — see isoleerib ja sildistab.",
+        "<strong>See ei ole</strong> ainult diferentseeritud töölehed — diferentseerimine hõlmab ka seda, kuidas õpetaja seletab, küsib ja hindab.",
+      ]},
+      { items: [
+        "Kontrollitud valik: pakuge 2–3 vastusevormingu valikut (kirjalik, suuline, skemaatiline joonis) — kõik õpilased vastavad samale sisule.",
+        "Scaffolding: pakkuge raskustes olevatele õpilastele struktureeritud raamistikku; eemaldage see järk-järgult autonoomia kasvades.",
+        "Paindlik rühmitamine: rühmad huvi, valdamistaseme või segagruppe — roteerige, et vältida fikseeritud gruppe, mis muutuvad identiteetideks.",
+        "Ajakohandused: rohkem aega ei tähenda vähem rangust. ADHD või düpraksiga õpilaste puhul jagage ülesanne segmentideks planeeritud pausidega.",
+        "Keerukuse tase: samale teemale looge versioone rohkema või vähema keelelise toetusega, näidete ja ilma, visuaalsete vihjete ja ilma.",
+      ]},
+      { items: [
+        "Hinnake seda, mida õpilane teab, mitte kuidas kirjutab. Düsleksiaga õpilane võib suuliselt või tehnoloogilise toetusega näidata kontseptuaalset valdamist.",
+        "Selged hindamiskriteeriumid, mis jagatakse enne ülesannet, võimaldavad õpilasel teada, mida oodatakse, olenemata valitud vormingust.",
+        "Portfoolio või tõenditel põhinev hindamine võimaldab õpilasel näidata edusamme aja jooksul, mitte ainult ühes testimishetkes.",
+      ]},
+      { items: [
+        "Kui klassiruumis toimuv diferentseerimine ei ole enam piisav ja õpilane jätkuvalt ei pääse õppekavale ligi, võib see viidata vajadusele spetsialiseeritud toe järele.",
+        "Diferentseerimine ei asenda kooli toetusmeetmeid (koolipsühholoog, terapeudid, eripedagoogika) — see on see, mis täiendavalt toimub tavalises klassis.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Kujundav hindamine on iga praktika, mis kogub protsessi käigus teavet õppimise kohta — ja kasutab seda teavet õpetamise või õpilasele pakutava toe kohandamiseks.",
+        "Erinevalt summatiivsest hindamisest (lõpphinded) ei vaja kujundav hindamine hinnet — see vajab tagasisidet.",
+        "Neurodivergentsete õpilaste jaoks on kujundav hindamine eriti oluline, kuna sooritus ühekordsel testil ei pruugi peegeldada seda, mida nad tegelikult teavad.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: tunni lõpus vastab õpilane 2 minutiga küsimusele — õpetaja näeb kohe, kes sai aru ja kes ei saanud.",
+        "<strong>Foorituli</strong>: roheline (sain aru), kollane (mul on kahtlusi), punane (ei saanud aru) — võivad olla füüsilised kaardid, kleepssedelid või digitaalne.",
+        "<strong>Think-Pair-Share</strong>: õpilane mõtleb individuaalselt, arutab partneriga, jagab siis klassiga — vähendab ärevust otsese vastuse ees.",
+        "<strong>Väljumisvärav</strong>: enne lahkumist ütleb õpilane õpetajale ühe asja, mida ta õppis, ja ühe kahtluse, mis tal veel on.",
+      ]},
+      { items: [
+        "Tõhus tagasiside on konkreetne, rakendatav ja õigeaegne: \'lehel 2 läheb argument kaduma, sest seos tõendiga puudub\' on kasulik; \'võiks parem olla\' ei ole.",
+        "ADHD-ga õpilastele: vahetu tagasiside on tõhusam kui hilistatud. Ärge oodake ülesande lõpuni.",
+        "Düsleksiaga õpilastele: suuline või helitagasiside võib olla kättesaadavam kui mahukad kirjalikud kommentaarid.",
+        "Vältige õpilaste omavaheliste võrdluste tegemist — võrrelge õpilast tema enda eelneva arenguga.",
+      ]},
+      { items: [
+        "ADHD: hindamine mitmes lühikeses hetkes ühe pika testi asemel. Vähendage hindamiskeskkonnas segavaid stiimuleid.",
+        "Düsleksia: lubage suulisi vastuseid, lisaaega või teksti kõneks muutmise kasutamist. Hinnake sisu, mitte õigekirja.",
+        "Autism: hindamised selgete, ühemõtteliste kirjalike juhistega. Teavitage eelnevalt vormingu muutustest.",
+        "Andekus: vältige hindamisi, mis nõuavad ainult sisu reprodutseerimist — lisage analüüsi-, sünteesi- ja loomisküsimusi.",
+      ]},
+      { items: [
+        "Kui õpilane ei suuda isegi hindamise kohandustega õppimist demonstreerida, on see märk, et võib olla sügavam takistus, mida tuleks uurida koolipsühholoogiga.",
+        "Püsivad mustrid (kuud, mitte päevad) konkreetse raskusega teatud valdkonnas tuleks ametlikult teavitada.",
       ]},
     ]},
   },
@@ -6194,6 +7334,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pritožba zoper odločbo o usmeritvi se vloži pri Ministrstvu za izobraževanje v roku 15 dni.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Pedagoška diferenciacija pomeni prilagoditev načina poučevanja — ne zniževanje pričakovanj. Učni cilj je lahko enak za vse učence; razlikuje se pot.",
+        "Model UDL (Univerzalno oblikovanje za učenje) predlaga tri načela: večkratne načine reprezentacije (kako je vsebina predstavljena), večkratne načine delovanja in izražanja (kako učenec odgovori) in večkratne načine vključevanja (kaj motivira učenca).",
+        "Diferenciacija ne pomeni ustvarjanja individualnega učnega načrta za vsakega učenca — pomeni ustvarjanje dovolj prožnosti, da ista ura služi različnim profilom učencev.",
+      ]},
+      { items: [
+        "<strong>Ni</strong> zmanjševanje učnega načrta za učence s težavami.",
+        "<strong>Ni</strong> vedno dajanje različnih nalog različnim učencem — to izolira in etiketira.",
+        "<strong>Niso</strong> le diferencirani delovni listi — diferenciacija vključuje način, kako učitelj razlaga, sprašuje in ocenjuje.",
+      ]},
+      { items: [
+        "Nadzorovana izbira: ponuditi 2–3 možnosti formata odgovora (pisni, ustni, shematični risbi) — vsi učenci odgovarjajo na isto vsebino.",
+        "Scaffolding: učencem s težavami zagotoviti strukturiran okvir; ga postopoma odstranjujte, ko raste samostojnost.",
+        "Fleksibilno skupinsko delo: skupine po interesu, ravni obvladanja ali mešane — zamenjujte, da se izognete stalnim skupinam, ki postanejo identitete.",
+        "Časovne prilagoditve: več časa ne pomeni manj strogosti. Za učence z ADHD ali dispraksijo razdelite nalogo na segmente z načrtovanimi odmori.",
+        "Stopnja zahtevnosti: za isto temo ustvarite različice z več ali manj jezikovne podpore, s primeri ali brez, z vizualnimi namigi ali brez.",
+      ]},
+      { items: [
+        "Ocenite, kaj učenec ve, ne kako piše. Učenec z disleksijo lahko ustno ali s tehnološko podporo izkaže konceptualno obvladanje.",
+        "Jasna merila ocenjevanja, ki so deljena pred nalogo, učencu omogočajo vedeti, kaj se pričakuje, ne glede na izbrani format.",
+        "Portfelj ali ocenjevanje na podlagi dokazov učencu omogoča, da pokaže napredek skozi čas, ne le v enem testnem trenutku.",
+      ]},
+      { items: [
+        "Ko diferenciacija v razredu ni več zadostna in učenec še vedno ne more dostopati do učnega načrta, to lahko kaže na potrebo po specialistični podpori.",
+        "Diferenciacija ne nadomešča šolskih podpornih ukrepov (šolski psiholog, terapevti, specialna pedagogika) — to je tisto, kar dopolnilno poteka v rednem razredu.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Formativno ocenjevanje je vsaka praksa, ki med procesom zbira informacije o učenju — in te informacije uporablja za prilagoditev poučevanja ali podpore učencu.",
+        "Za razliko od sumativnega ocenjevanja (zaključne ocene) formativno ne potrebuje ocene — potrebuje povratno informacijo.",
+        "Za nevrodivergentne učence je formativno ocenjevanje posebej pomembno, ker uspešnost pri enkratnem preizkusu morda ne odraža tega, kar dejansko vedo.",
+      ]},
+      { items: [
+        "<strong>Izhodni listek</strong>: na koncu ure učenec v 2 minutah odgovori na vprašanje — učitelj takoj vidi, kdo je razumel in kdo ni.",
+        "<strong>Semafor</strong>: zelena (razumel sem), rumena (imam dvome), rdeča (nisem razumel) — so lahko fizične kartice, lepilni listki ali digitalno.",
+        "<strong>Think-Pair-Share</strong>: učenec razmišlja individualno, razpravlja s partnerjem, nato deli s razredom — zmanjša tesnobo ob neposrednem odgovoru.",
+        "<strong>Izhodna vrata</strong>: preden odide, učenec učitelju pove eno stvar, ki se jo je naučil, in en dvom, ki ga ima še vedno.",
+      ]},
+      { items: [
+        "Učinkovita povratna informacija je specifična, izvedljiva in pravočasna: \'na strani 2 se argument izgubi, ker manjka povezava z dokazom\' je koristno; \'lahko bi bilo boljše\' ni.",
+        "Za učence z ADHD: takojšnja povratna informacija je učinkovitejša od zakasnele. Ne čakajte do konca naloge.",
+        "Za učence z disleksijo: ustna ali zvočna povratna informacija je lahko bolj dostopna od obsežnih pisnih komentarjev.",
+        "Izogibajte se primerjanju učencev med seboj — primerjajte učenca z njegovim lastnim prejšnjim napredkom.",
+      ]},
+      { items: [
+        "ADHD: ocenjevanje v več kratkih trenutkih namesto enega dolgega preizkusa. Zmanjšajte moteče dražljaje v okolju ocenjevanja.",
+        "Disleksija: dovolite ustne odgovore, dodaten čas ali uporabo pretvorbe besedila v govor. Ocenite vsebino, ne pravopisa.",
+        "Avtizem: ocenjevanja z jasnimi, nedvoumnimi pisnimi navodili. Vnaprej opozorite na spremembe formata.",
+        "Nadarjenost: izogibajte se ocenjevanjem golega reproduciranja vsebine — vključite vprašanja analize, sinteze in ustvarjanja.",
+      ]},
+      { items: [
+        "Ko učenec kljub prilagoditvam ocenjevanja ne more izkazati učenja, je to znak, da je morda globlja ovira, ki jo je treba preiskati s šolskim psihologom.",
+        "Vztrajni vzorci (meseci, ne dnevi) specifičnih težav na nekem področju morajo biti formalno prijavljeni.",
+      ]},
+    ]},
   },
   ga: {
     tdah: { sections: [
@@ -6464,6 +7661,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tá teidlíochtaí scoláirí bunaithe ar thuarascálacha measúnaithe agus ar mholtaí NCSE.",
       ]},
     ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Is éard is difreálú oideolaíoch ann ná an bealach múinte a oiriúnú — ní hé laghdú na n-ionchais. Is féidir leis an sprioc foghlama a bheith mar an gcéanna do na foghlaimeoirí go léir; an cosán a athraíonn.",
+        "Molann múnla an UDL (Dearadh Uilíoch don Fhoghlaim) trí phrionsabal: modhanna iolracha léiriúcháin (conas a chuirtear an t-ábhar i láthair), modhanna iolracha gníomhaíochta agus léirithe (conas a fhreagraíonn an foghlaimeoir) agus modhanna iolracha rannpháirtíochta (cad a spreagann an foghlaimeoir).",
+        "Ní chiallaíonn difreálú plean ceachta aonair a chruthú do gach foghlaimeoir — ciallaíonn sé go leor solúbthachta a chruthú ionas go bhfreastalódh an ceacht céanna ar phróifílí foghlaimeoirí éagsúla.",
+      ]},
+      { items: [
+        "<strong>Ní hé</strong> laghdú an churaclaim do foghlaimeoirí a bhfuil deacrachtaí acu.",
+        "<strong>Ní hé</strong> tascanna éagsúla a thabhairt i gcónaí do foghlaimeoirí éagsúla — cuireann sin isteach ar an gcomhthreomhaireacht agus déanann sé lipéadú.",
+        "<strong>Ní</strong> obair dhifreálaithe ar pháipéar amháin é — cuimsíonn difreálú an chaoi a míníonn, a chuireann ceist agus a mheasúnaíonn an múinteoir.",
+      ]},
+      { items: [
+        "Rogha rialaithe: 2–3 rogha formáid freagartha a thairiscint (scríofa, béil, léaráid scéimreach) — freagraíonn na foghlaimeoirí go léir don ábhar céanna.",
+        "Scaffolding: creat struchtúrtha a sholáthar do foghlaimeoirí a bhfuil deacrachtaí acu; é a bhaint de réir a chéile de réir mar a fhásann an neamhspleáchas.",
+        "Grúpáil sholúbtha: grúpaí de réir spéise, leibhéal máistreachta nó measctha — rothlú chun grúpaí seasta a sheachaint a éiríonn ina bhféiniúlachtaí.",
+        "Coigeartuithe ama: ní chiallaíonn níos mó ama níos lú déine. Do foghlaimeoirí le ADHD nó dispraxia, roinn an tasc ina chodanna le sos pleanáilte.",
+        "Leibhéal castachta: don ábhar céanna, cruthaigh leaganacha le tacaíocht teanga níos mó nó níos lú, le samplaí nó gan, le leideanna amhairc nó gan.",
+      ]},
+      { items: [
+        "Measúnaigh an méid a bhfuil an foghlaimeoir ar eolas faoi, ní conas a scríobhann sé nó sí. Is féidir le foghlaimeoir a bhfuil disléicse aige nó aige máistreacht choincheapúil a léiriú go béil nó le tacaíocht teicneolaíochta.",
+        "Ligeann critéir mheasúnaithe shoiléire a roinntear roimh an tasc don fhoghlaimeoir a fháil amach cad atá ag súil leis beag beann ar an bhformáid a roghnaítear.",
+        "Ligeann an portfolio nó measúnú bunaithe ar fhianaise don fhoghlaimeoir dul chun cinn a thaispeáint le himeacht ama, ní díreach ag nóiméad amháin trialacha.",
+      ]},
+      { items: [
+        "Nuair nach bhfuil difreálú sa seomra ranga leordhóthanach a thuilleadh agus nach féidir leis an bhfoghlaimeoir fós rochtain a fháil ar an gcuraclam, is féidir go bhfuil sé ag comharthaíocht riachtanas le haghaidh tacaíochta saineolaí.",
+        "Ní chuireann difreálú in áit beart tacaíochta scoile (síceolaí scoile, teiripeoirí, oideachas speisialta) — is é sin a tharlaíonn sa ghnáth-rang mar chomhlánú.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "Is é measúnú foirmitheach aon chleachtas a bhailíonn faisnéis faoin bhfoghlaim le linn an phróisis — agus a úsáideann an fhaisnéis sin chun an teagasc nó an tacaíocht don fhoghlaimeoir a choigeartú.",
+        "Murab ionann agus measúnú suimiúil (marcanna deiridh), ní theastaíonn marc ón measúnú foirmitheach — teastaíonn aiseolas.",
+        "Do foghlaimeoirí neuroéagsúla, tá measúnú foirmitheach tábhachtach go háirithe mar go mb\'fhéidir nach léireoidh feidhmíocht ar thástáil aonuaire cad atá ar eolas acu iarbhír.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: ag deireadh an cheachta, freagraíonn an foghlaimeoir ceist i 2 nóiméad — feiceann an múinteoir láithreach cé a thuig agus cé nár thuig.",
+        "<strong>Tráchtsolas</strong>: glas (thuig mé), buí (tá amhras orm), dearg (níor thuig mé) — is féidir cártaí fisiciúla, nótaí greamaithe nó digiteach a bheith ann.",
+        "<strong>Think-Pair-Share</strong>: smaoiníonn an foghlaimeoir go haonair, pléann sé nó sí le comhpháirtí, ansin roinneann sé nó sí leis an rang — laghdaíonn sé imní faoin bhfreagra díreach.",
+        "<strong>Geata Imeachta</strong>: sula bhfágann sé nó sí, insíonn an foghlaimeoir don mhúinteoir rud amháin a d\'fhoghlaim sé nó sí agus amhras amháin atá fós aige nó aice.",
+      ]},
+      { items: [
+        "Tá aiseolas éifeachtach sonrach, gníomhach agus tráthúil: \'ar leathanach 2, cailltear an argóint toisc go bhfuil an nasc leis an bhfianaise ar iarraidh\' tá sé úsáideach; \'d\'fhéadfadh sé a bheith níos fearr\' níl.",
+        "Do foghlaimeoirí le ADHD: tá aiseolas láithreach níos éifeachtaí ná aiseolas moillithe. Ná fan go dtí deireadh an taisc.",
+        "Do foghlaimeoirí le disléicse: is féidir le haiseolas béil nó fuaime a bheith níos inrochtana ná tuairimí scríofa faidhbhiotacha.",
+        "Seachain foghlaimeoirí a chur i gcomparáid le chéile — cuir an foghlaimeoir i gcomparáid lena chuid dul chun cinn roimhe féin.",
+      ]},
+      { items: [
+        "ADHD: measúnú ag nóiméid ghearr iolracha seachas tástáil fhada amháin. Laghdaigh dreasachtaí seachránacha sa timpeallacht mheasúnaithe.",
+        "Disléicse: ceadaigh freagraí béil, am breise, nó úsáid téacs-go-caint. Measúnaigh an t-ábhar, ní an litriú.",
+        "Uathachas: measúnuithe le treoracha scríofa soiléire agus gan débhrí. Tabhair fógra roimh ré faoi athruithe formáide.",
+        "Ardacmhainneacht: seachain measúnuithe atá bunaithe ar atáirgeadh ábhair amháin — cuir ceisteanna anailíse, sintéise agus cruthaitheachta san áireamh.",
+      ]},
+      { items: [
+        "Nuair nach féidir leis an bhfoghlaimeoir foghlaim a léiriú fiú le hoiriúnuithe measúnaithe, is comhartha é go bhféadfadh bac níos doimhne a bheith ann le himscrúdú leis an síceolaí scoile.",
+        "Ba cheart patrúin leanúnacha (míonna, ní laethanta) de dheacracht shonrach i réimse a thuairisciú go foirmiúil.",
+      ]},
+    ]},
   },
   mt: {
     tdah: { sections: [
@@ -6732,6 +7986,63 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Il-ġenituri huma msejħa biex jipparteċipaw fl-SDP u fil-laqgħat ta' reviżjoni.",
         "L-istudenti għandhom id-dritt li jiġu informati dwar id-drittijiet tagħhom fl-edukazzjoni.",
         "L-ilmenti jistgħu jiġu ppreżentati lill-Kummissarju tal-Edukazzjoni jew lill-Ombudsman.",
+      ]},
+    ]},
+    diferenciacao: { sections: [
+      { items: [
+        "Id-differenzjazzjoni pedagoġika tfisser l-adattament tal-mod kif tgħallem — mhux it-tnaqqis tal-aspettattivi. L-għan tat-tagħlim jista\' jkun l-istess għall-istudenti kollha; il-mogħdija hija dik li tvarja.",
+        "Il-mudell UDL (Universal Design for Learning) jipproponi tliet prinċipji: mezzi multipli ta\' rappreżentazzjoni (kif jiġi ppreżentat il-kontenut), mezzi multipli ta\' azzjoni u espressjoni (kif l-istudent iwieġeb) u mezzi multipli ta\' involviment (x\'imotivah l-istudent).",
+        "Id-differenzjazzjoni ma tfissirx il-ħolqien ta\' pjan individwali tal-lezzjoni għal kull student — tfisser il-ħolqien ta\' flessibilità biżżejjed sabiex l-istess lezzjoni sservi profili differenti ta\' studenti.",
+      ]},
+      { items: [
+        "<strong>Mhijiex</strong> it-tnaqqis tal-kurrikulu għall-istudenti bi diffikultajiet.",
+        "<strong>Mhijiex</strong> dejjem ttagħti kompiti differenti lil studenti differenti — dan jiżola u jittikketta.",
+        "<strong>Mhijiex</strong> biss fogli ta\' ħidma differenzjata — id-differenzjazzjoni tinkludi l-mod kif l-għalliem jispjega, jistaqsi u jevalwa.",
+      ]},
+      { items: [
+        "Għażla kkontrollata: offri 2–3 għażliet ta\' format ta\' tweġiba (bil-miktub, oralment, tpinġija skematika) — l-istudenti kollha jwieġbu għall-istess kontenut.",
+        "Scaffolding: ipprovdi qafas strutturat għall-istudenti bi diffikultajiet; neħħieh gradwalment hekk kif tikber l-awtonimija.",
+        "Raggruppament flessibbli: gruppi skont l-interess, il-livell ta\' dominju jew imħallta — iddawwar biex tevita gruppi fissi li jsiru identitajiet.",
+        "Aġġustamenti tal-ħin: aktar ħin ma jfissirx inqas rigorozità. Għall-istudenti b\'ADHD jew dispraksja, aqsam il-kompitu f\'segmenti b\'waqfiet ippjanati.",
+        "Livell ta\' kumplessità: għall-istess suġġett, oħloq verżjonijiet b\'aktar jew inqas appoġġ lingwistiku, b\'eżempji jew mingħajrhom, b\'indikazzjonijiet viżwali jew mingħajrhom.",
+      ]},
+      { items: [
+        "Evalwa dak li jaf l-istudent, mhux kif jikteb. Student bid-disleksja jista\' juri dominju kunċettwali oralment jew b\'appoġġ teknoloġiku.",
+        "Kriterji ċari tal-evalwazzjoni maqsuma qabel il-kompitu jippermettu lill-istudent li jaf x\'mistenni indipendentement mill-format magħżul.",
+        "Il-portfolio jew l-evalwazzjoni bbażata fuq evidenza tippermetti lill-istudent li juri progress maż-żmien, mhux biss f\'mument ta\' test wieħed.",
+      ]},
+      { items: [
+        "Meta d-differenzjazzjoni fil-klassi ma tibqax suffiċjenti u l-istudent ikompli ma jistax jaċċessa l-kurrikulu, dan jista\' jissinjalizza l-ħtieġa ta\' appoġġ speċjalizzat.",
+        "Id-differenzjazzjoni ma tissostitwixxix il-miżuri ta\' appoġġ skolastiku (psikologu skolastiku, terapisti, edukazzjoni speċjali) — hija dak li jiġri komplementarjament fil-klassi ordinarja.",
+      ]},
+    ]},
+    avaliacao: { sections: [
+      { items: [
+        "L-evalwazzjoni formattiva hija kull prattika li tiġbor informazzjoni dwar it-tagħlim matul il-proċess — u tuża dik l-informazzjoni biex tadatta t-tagħlim jew l-appoġġ lill-istudent.",
+        "B\'differenza mill-evalwazzjoni sommattiva (gradi finali), il-formattiva ma teħtieġx grad — teħtieġ feedback.",
+        "Għall-istudenti newrodiverġenti, l-evalwazzjoni formattiva hija partikolarment importanti għax il-prestazzjoni f\'test ta\' darba waħda jista\' ma jirriflettix dak li jafuh fil-fatt.",
+      ]},
+      { items: [
+        "<strong>Exit ticket</strong>: fl-aħħar tal-lezzjoni, l-istudent iwieġeb domanda fi 2 minuti — l-għalliem jara immedjatament min fehem u min ma fehimx.",
+        "<strong>Semaforu</strong>: aħdar (fhimt), isfar (għandi dubji), aħmar (ma fhimtx) — jistgħu jkunu karti fiżiċi, post-its, jew diġitali.",
+        "<strong>Think-Pair-Share</strong>: l-istudent jaħseb individwalment, jiddiskuti ma\' sieħeb, imbagħad jaqsam mal-klassi — inaqqas l-ansjeta dwar tweġiba diretta.",
+        "<strong>Bieb tal-ħruġ</strong>: qabel joħroġ, l-istudent jgħid lill-għalliem ħaġa waħda li tgħallem u dubju wieħed li għad għandu.",
+      ]},
+      { items: [
+        "Feedback effettiv huwa speċifiku, attwabbli u f\'waqtu: \'fil-paġna 2, l-argument jintilef għax il-konnessjoni mal-evidenza nieqsa\' huwa utli; \'setgħet tkun aħjar\' mhux.",
+        "Għall-istudenti b\'ADHD: feedback immedjat huwa aktar effettiv minn dak differit. Tistenna s-sat t-tmiem tal-kompitu.",
+        "Għall-istudenti bid-disleksja: feedback orali jew awdjo jista\' jkun aktar aċċessibbli minn kummenti miktuba estensivi.",
+        "Evita li tqabbel l-istudenti ma\' xulxin — qabbel lill-istudent mal-progress preċedenti tiegħu stess.",
+      ]},
+      { items: [
+        "ADHD: evalwazzjoni f\'ħafna mumenti qosra minflok test twil wieħed. Naqqas l-istimoli li jdisturbaw fl-ambjent tal-evalwazzjoni.",
+        "Disleksja: ippermetti tweġibiet orali, ħin żejjed, jew l-użu ta\' konverżjoni test-għall-vuċi. Evalwa l-kontenut, mhux l-ispejar.",
+        "Awtiżmu: evalwazzjonijiet b\'istruzzjonijiet miktuba ċari u mingħajr ambigwità. Avża minn qabel dwar bidliet fil-format.",
+        "Talent eċċezzjonali: evita evalwazzjonijiet ta\' riproduzzjoni sempliċi tal-kontenut — inkudi mistoqsijiet ta\' analiżi, sintesi u kreazzjoni.",
+      ]},
+      { items: [
+        "Meta, anke b\'adattamenti tal-evalwazzjoni, l-istudent ma jistax juri t-tagħlim, dan huwa sinjal li jista\' jkun hemm ostaklu aktar profond x\'jiġi investigat mal-psikologu skolastiku.",
+        "Mudelli persistenti (xhur, mhux ġranet) ta\' diffikulta\' speċifika f\'qasam għandhom jiġu rrappurtati formalment.",
       ]},
     ]},
   },
