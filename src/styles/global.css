@@ -16,6 +16,7 @@
   --accent-bg: #eef2f5;
   --warning: #b8860b;
   --beam: #e8a93d;
+  --notice-bg: #fdf6e3;
 }
 
 /* Night mode: toggled by clicking the lighthouse in the header, never automatic.
@@ -34,6 +35,7 @@ html.dark {
   --accent-bg: #292213;
   --warning: #e08050;
   --beam: #e8a93d;
+  --notice-bg: #292213;
 }
 
 html.dark body { background: var(--bg); }
@@ -85,8 +87,8 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .breadcrumb-current { color: var(--ink); font-weight: 500; }
 
 /* ── Tree grid ────────────────────────────────────────────── */
-.tree { columns: 3; column-gap: 0.75rem; margin-bottom: 2rem; }
-.tree-node { background: var(--bg-elevated); padding: 1.5rem; transition: border-color 0.2s ease, box-shadow 0.2s ease; border: 1px solid var(--rule); text-align: left; position: relative; display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none; color: inherit; break-inside: avoid; margin-bottom: 0.75rem; }
+.tree { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 2rem; }
+.tree-node { background: var(--bg-elevated); padding: 1.5rem; transition: border-color 0.2s ease, box-shadow 0.2s ease; border: 1px solid var(--rule); text-align: left; position: relative; display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none; color: inherit; }
 .tree-node:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(20, 23, 26, 0.06); }
 .tree-node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .tree-node-index { font-family: 'JetBrains Mono', monospace; font-size: 2.8rem; font-weight: 700; color: var(--rule-strong); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; }
@@ -114,7 +116,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .card-section li strong { color: var(--ink); font-weight: 600; }
 
 /* ── Pending notice ───────────────────────────────────────── */
-.pending-notice { background: #fdf6e3; border-left: 3px solid var(--warning); padding: 1rem 1.2rem; margin-top: 1.5rem; color: var(--ink-soft); font-size: 0.9rem; display: flex; gap: 0.7rem; align-items: flex-start; }
+.pending-notice { background: var(--notice-bg); border-left: 3px solid var(--warning); padding: 1rem 1.2rem; margin-top: 1.5rem; color: var(--ink-soft); font-size: 0.9rem; display: flex; gap: 0.7rem; align-items: flex-start; }
 .pending-notice::before { content: 'PENDENTE'; font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; color: var(--warning); background: rgba(184, 134, 11, 0.12); padding: 0.15rem 0.5rem; flex-shrink: 0; font-weight: 600; }
 
 /* ── Footer ───────────────────────────────────────────────── */
@@ -176,7 +178,7 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 
 /* ── Tablet ───────────────────────────────────────────────── */
 @media (max-width: 860px) {
-  .tree { columns: 2; }
+  .tree { grid-template-columns: repeat(2, 1fr); }
   .intro { grid-template-columns: 1fr; gap: 1rem; }
   .card-index-large { font-size: 2.4rem; }
 }
@@ -190,7 +192,7 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
   .card-header-meta { flex-wrap: wrap; gap: 0.4rem; }
   .card-index-large { font-size: 2rem; }
   .card-title { font-size: 1.5rem; }
-  .tree { columns: 1; }
+  .tree { grid-template-columns: 1fr; }
   .prompt-question { font-size: 1.2rem; max-width: 100%; }
   .breadcrumb { font-size: 0.78rem; }
   footer { flex-direction: column; gap: 0.6rem; }
