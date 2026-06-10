@@ -35,6 +35,5 @@ sections:
       - "Estagnação na aquisição linguística após o primeiro ano."
       - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
 ai_strategies:
-  pending: true
   tools: []
 ---

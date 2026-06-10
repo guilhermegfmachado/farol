@@ -35,6 +35,5 @@ sections:
       - "Evitamento sistemático de tarefas de leitura/escrita ao ponto de comprometer outras disciplinas."
       - "Discrepância marcada entre desempenho oral e desempenho escrito sem diagnóstico formal."
 ai_strategies:
-  pending: true
   tools: []
 ---
