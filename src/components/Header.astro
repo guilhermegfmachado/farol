@@ -14,12 +14,17 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
 ---
 <header>
   <div class="header-top">
-    <a href={lang === 'pt' ? base : `${base}${lang}/`} class="logotype">
-      <span class="logotype-mark">
+    <span class="logotype">
+      <button
+        type="button"
+        class="logotype-mark night-toggle"
+        aria-label={t.night_toggle}
+        title={t.night_toggle}
+      >
         <LighthouseMark />
-      </span>
-      FAROL
-    </a>
+      </button>
+      <a href={lang === 'pt' ? base : `${base}${lang}/`} class="logotype-link">FAROL</a>
+    </span>
     <div class="header-right">
       <div class="version-tag">{t.version_tag}</div>
       <div class="lang-switcher" aria-label="Select language">
@@ -51,7 +56,18 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
   <div class="tagline">{t.tagline}</div>
 </header>
 
+<script is:inline>
+document.querySelector('.night-toggle')?.addEventListener('click', () => {
+  const dark = document.documentElement.classList.toggle('dark');
+  try { localStorage.setItem('farol-theme', dark ? 'dark' : 'light'); } catch (e) {}
+});
+</script>
+
 <style>
+.night-toggle { background: none; border: none; padding: 0; cursor: pointer; color: var(--ink); transition: transform 0.2s ease; }
+.night-toggle:hover { transform: scale(1.12); }
+.night-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.logotype-link { color: var(--ink); text-decoration: none; }
 .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; }
 .lang-switcher { display: flex; flex-wrap: wrap; align-items: center; gap: 0.2rem 0.25rem; font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.08em; max-width: 18rem; }
 .lang-current { color: var(--ink); font-weight: 700; }

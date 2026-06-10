@@ -26,6 +26,11 @@ const pageLang = Astro.url.pathname.split('/').find(p => /^[a-z]{2}$/.test(p)) ?
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
 
+    <!-- Night mode is opt-in only (lighthouse toggle in the header); restore before paint -->
+    <script is:inline>
+      try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
+    </script>
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
 

@@ -3,6 +3,7 @@
 @import "@fontsource/jetbrains-mono/500.css";
 
 :root {
+  color-scheme: light;
   --ink: #14171a;
   --ink-soft: #4a5159;
   --ink-faded: #8b939c;
@@ -17,22 +18,26 @@
   --beam: #e8a93d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #e8ecf0;
-    --ink-soft: #a8b4be;
-    --ink-faded: #6a7a87;
-    --bg: #111518;
-    --bg-elevated: #1a1f24;
-    --rule: #252c33;
-    --rule-strong: #3a444e;
-    --accent: #6fa3c0;
-    --accent-hover: #88bcd6;
-    --accent-bg: #1a2a35;
-    --warning: #d4a017;
-    --beam: #e8a93d;
-  }
+/* Night mode: toggled by clicking the lighthouse in the header, never automatic.
+   Palette: deep night-blue sky, warm cream ink, amber beam as the accent. */
+html.dark {
+  color-scheme: dark;
+  --ink: #ece7dc;
+  --ink-soft: #b5aea0;
+  --ink-faded: #837c6e;
+  --bg: #131722;
+  --bg-elevated: #1b2130;
+  --rule: #272e42;
+  --rule-strong: #3e4862;
+  --accent: #e3a63c;
+  --accent-hover: #f2bd5c;
+  --accent-bg: #292213;
+  --warning: #e08050;
+  --beam: #e8a93d;
 }
+
+html.dark body { background: var(--bg); }
+body { transition: background 0.35s ease, color 0.35s ease; }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
