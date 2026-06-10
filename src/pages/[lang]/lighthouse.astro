@@ -21,9 +21,9 @@ const sorted = [...entries].sort((a, b) =>
 const tower = [...sorted].reverse();
 
 const catColors: Record<string, string> = {
-  'Perfil':     'var(--accent)',
-  'Referência': '#4a7c59',
-  'Recurso':    '#7c5a3a',
+  'Perfil':     '#5b8a86',
+  'Referência': '#cf9633',
+  'Recurso':    '#c2602f',
 };
 
 function floorHref(entry: typeof entries[0]) {
@@ -46,18 +46,14 @@ function floorTitle(entry: typeof entries[0]) {
 
     <div class="lh-scene">
 
-      <div class="lh-sky" aria-hidden="true">
-        <div class="lh-star" style="top:14%;left:10%;animation-delay:0s"></div>
-        <div class="lh-star" style="top:7%;left:40%;animation-delay:1.1s"></div>
-        <div class="lh-star" style="top:18%;left:72%;animation-delay:0.5s"></div>
-        <div class="lh-star" style="top:5%;left:85%;animation-delay:1.9s"></div>
-      </div>
+      <div class="lh-halo" aria-hidden="true"></div>
 
       <div class="lh-lantern" aria-hidden="true">
-        <div class="lh-cap"></div>
-        <div class="lh-beacon"></div>
-        <div class="lh-cap-base"></div>
+        <div class="lh-beam lh-beam-l"></div>
+        <div class="lh-lamp"></div>
+        <div class="lh-beam lh-beam-r"></div>
       </div>
+      <div class="lh-cap" aria-hidden="true"></div>
 
       <div class="lh-tower-wrap">
         <div class="lh-tower" role="navigation" aria-label={t.lh_title}>
@@ -75,22 +71,19 @@ function floorTitle(entry: typeof entries[0]) {
         </div>
       </div>
 
-      <div class="lh-door" aria-hidden="true">
-        <div class="lh-door-arch"></div>
-      </div>
+      <div class="lh-plinth" aria-hidden="true"></div>
+      <div class="lh-plinth lh-plinth-wide" aria-hidden="true"></div>
 
-      <div class="lh-base" aria-hidden="true"></div>
-
-      <div class="lh-water" aria-hidden="true"></div>
+      <div class="lh-sea" aria-hidden="true"></div>
 
     </div>
 
     <div class="lh-panel">
       <div class="lh-legend">
         <span class="lh-legend-heading">{t.lh_categories}</span>
-        <span class="lh-legend-item" style="--c:var(--accent)">{categoryTranslations[lang]?.['Perfil'] ?? 'Perfil'}</span>
-        <span class="lh-legend-item" style="--c:#4a7c59">{categoryTranslations[lang]?.['Referência'] ?? 'Referência'}</span>
-        <span class="lh-legend-item" style="--c:#7c5a3a">{categoryTranslations[lang]?.['Recurso'] ?? 'Recurso'}</span>
+        <span class="lh-legend-item" style="--c:#5b8a86">{categoryTranslations[lang]?.['Perfil'] ?? 'Perfil'}</span>
+        <span class="lh-legend-item" style="--c:#cf9633">{categoryTranslations[lang]?.['Referência'] ?? 'Referência'}</span>
+        <span class="lh-legend-item" style="--c:#c2602f">{categoryTranslations[lang]?.['Recurso'] ?? 'Recurso'}</span>
       </div>
     </div>
 
@@ -108,29 +101,28 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-intro-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
-.lh-scene { position: relative; display: flex; flex-direction: column; align-items: center; background: linear-gradient(to bottom, #0e1c2e 0%, #152535 45%, #1a4060 75%, #1a7090 100%); border-radius: 2px; overflow: hidden; min-height: 520px; padding-bottom: 0; }
-.lh-sky { position: absolute; inset: 0; pointer-events: none; }
-.lh-star { position: absolute; width: 2px; height: 2px; background: #fff; border-radius: 50%; animation: twinkle 3.5s ease-in-out infinite; }
-@keyframes twinkle { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.8; } }
-.lh-lantern { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; margin-top: 36px; }
-.lh-cap { width: 0; height: 0; border-left: 14px solid transparent; border-right: 14px solid transparent; border-bottom: 12px solid #8a9099; }
-.lh-beacon { width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 38% 38%, #ffe57a, #e8a83c 55%, #c07010 100%); box-shadow: 0 0 18px 7px rgba(232,168,60,0.65), 0 0 40px 16px rgba(232,168,60,0.2); animation: beaconPulse 2.5s ease-in-out infinite; }
-.lh-cap-base { width: 36px; height: 5px; background: #6b7280; border-radius: 0 0 2px 2px; }
-@keyframes beaconPulse { 0%, 100% { box-shadow: 0 0 14px 5px rgba(232,168,60,0.55), 0 0 32px 12px rgba(232,168,60,0.18); } 50% { box-shadow: 0 0 26px 10px rgba(232,168,60,0.85), 0 0 56px 24px rgba(232,168,60,0.3); } }
+.lh-scene { --paper: #ede4d0; --char: #2c2b27; --cream: #f2ecdd; --sea: #3a7370; --amber: #d9a13b; position: relative; display: flex; flex-direction: column; align-items: center; background: var(--paper); border: 1px solid var(--rule); overflow: hidden; min-height: 520px; padding-top: 52px; }
+:global(html.dark) .lh-scene { --paper: #171c2a; --char: #10141f; --cream: #ece7dc; --sea: #28524f; }
+.lh-halo { position: absolute; top: -54px; left: 50%; transform: translateX(-200px); width: 250px; height: 250px; border-radius: 50%; background: var(--amber); opacity: 0.16; }
+.lh-lantern { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; }
+.lh-lamp { width: 30px; height: 30px; border-radius: 50%; background: var(--amber); flex-shrink: 0; }
+.lh-beam { width: 120px; height: 30px; background: var(--amber); opacity: 0.3; }
+.lh-beam-l { clip-path: polygon(0% 0%, 100% 36%, 100% 64%, 0% 100%); }
+.lh-beam-r { clip-path: polygon(0% 36%, 100% 0%, 100% 100%, 0% 64%); }
+.lh-cap { z-index: 2; width: 0; height: 0; margin-top: 10px; border-left: 34px solid transparent; border-right: 34px solid transparent; border-bottom: 20px solid var(--char); }
 .lh-tower-wrap { position: relative; z-index: 2; width: 100%; max-width: 272px; clip-path: polygon(7% 0%, 93% 0%, 100% 100%, 0% 100%); }
 .lh-tower { display: flex; flex-direction: column; }
-.lh-floor { display: flex; align-items: center; gap: 0.65rem; padding: 0.65rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06); border-left: 3px solid var(--fc, var(--accent)); background: rgba(14,24,38,0.72); text-decoration: none; color: #dce4ee; transition: background 0.15s ease, border-left-width 0.15s ease; }
-.lh-floor:hover { background: rgba(30,55,80,0.65); border-left-width: 5px; }
+.lh-floor { display: flex; align-items: center; gap: 0.65rem; padding: 0.7rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.07); background: var(--char); text-decoration: none; color: var(--cream); transition: background 0.15s ease, color 0.15s ease; }
+.lh-floor:hover { background: var(--fc, var(--amber)); color: #1e1d1a; }
 .lh-floor-bottom { border-bottom: none; }
-.lh-floor-num { font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; font-weight: 700; color: rgba(255,255,255,0.2); min-width: 1.5rem; flex-shrink: 0; transition: color 0.15s ease; }
-.lh-floor:hover .lh-floor-num { color: var(--fc, var(--accent)); }
+.lh-floor-num { font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; font-weight: 700; color: var(--fc, var(--amber)); min-width: 1.5rem; flex-shrink: 0; transition: color 0.15s ease; }
+.lh-floor:hover .lh-floor-num { color: rgba(0,0,0,0.45); }
 .lh-floor-name { flex: 1; font-size: 0.85rem; font-weight: 600; line-height: 1.2; }
-.lh-floor-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.18); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
-.lh-floor:hover .lh-floor-arrow { color: var(--fc, var(--accent)); transform: translateX(3px); }
-.lh-door { z-index: 2; width: 100%; max-width: 272px; height: 18px; background: rgba(14,24,38,0.82); display: flex; justify-content: center; align-items: flex-end; }
-.lh-door-arch { width: 24px; height: 18px; background: #0e1c2e; border-radius: 12px 12px 0 0; border: 1px solid rgba(255,255,255,0.08); border-bottom: none; }
-.lh-base { z-index: 2; width: 100%; max-width: 320px; height: 14px; background: linear-gradient(to bottom, #3d4a5a, #252f3d); border-top: 2px solid #5a6678; }
-.lh-water { z-index: 1; width: 100%; flex: 1; min-height: 36px; background: linear-gradient(to bottom, #1a7090 0%, #0e4f68 100%); }
+.lh-floor-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.22); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
+.lh-floor:hover .lh-floor-arrow { color: rgba(0,0,0,0.5); transform: translateX(3px); }
+.lh-plinth { z-index: 2; width: 100%; max-width: 300px; height: 12px; background: var(--char); }
+.lh-plinth-wide { max-width: 344px; height: 10px; margin-top: 4px; }
+.lh-sea { z-index: 1; width: 100%; flex: 1; min-height: 44px; margin-top: 14px; background: var(--sea); }
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .lh-legend-heading { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
@@ -141,8 +133,8 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-back-link:hover { color: var(--accent); }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }
-  .lh-tower-wrap, .lh-door { max-width: 230px; }
-  .lh-base { max-width: 274px; }
+  .lh-tower-wrap { max-width: 230px; }
+  .lh-plinth { max-width: 254px; } .lh-plinth-wide { max-width: 292px; }
   .lh-floor { padding: 0.55rem 0.75rem; gap: 0.45rem; }
   .lh-floor-num { font-size: 0.82rem; min-width: 1.2rem; }
   .lh-floor-name { font-size: 0.76rem; }
