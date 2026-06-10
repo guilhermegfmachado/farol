@@ -112,6 +112,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .card-section ul { list-style: none; padding: 0; }
 .card-section li { padding: 0.7rem 0; color: var(--ink-soft); border-bottom: 1px solid var(--rule); line-height: 1.55; display: flex; gap: 0.9rem; align-items: flex-start; }
 .card-section li:last-child { border-bottom: none; }
+.card-section li span { min-width: 0; overflow-wrap: anywhere; }
 .card-section li::before { content: ''; display: inline-block; width: 4px; height: 4px; background: var(--accent); margin-top: 0.65rem; flex-shrink: 0; }
 .card-section li strong { color: var(--ink); font-weight: 600; }
 
