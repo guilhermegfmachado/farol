@@ -35,6 +35,5 @@ sections:
       - "Recusa escolar persistente associada a sobrecarga sensorial."
       - "Isolamento social progressivo apesar de tentativas de mediação."
 ai_strategies:
-  pending: true
   tools: []
 ---

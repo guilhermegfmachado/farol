@@ -35,6 +35,5 @@ sections:
       - "Isolamento social marcado por se sentir \"diferente\" dos pares."
       - "Subdesempenho académico súbito num aluno previamente identificado como capaz."
 ai_strategies:
-  pending: true
   tools: []
 ---

@@ -35,6 +35,5 @@ sections:
       - "Sintomas de exclusão social pelos pares."
       - "Sinais de comorbilidade (ansiedade, depressão, perturbação da oposição)."
 ai_strategies:
-  pending: true
   tools: []
 ---

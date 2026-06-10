@@ -35,6 +35,5 @@ sections:
       - "Isolamento social em contextos de actividade física."
       - "Sinais de ansiedade somatizada antes de avaliações escritas."
 ai_strategies:
-  pending: true
   tools: []
 ---

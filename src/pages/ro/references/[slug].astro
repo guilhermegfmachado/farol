@@ -56,7 +56,7 @@ function entryHref(e: typeof allEntries[0]) {
         <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
       </section>
     ))}
-    {pending && <div class="pending-notice">{t.translation_notice}</div>}
+    {pending && <div class="pending-notice">{t.ai_pending}</div>}
   </article>
   <nav class="card-nav" aria-label="Navigare între intrări">
     {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
