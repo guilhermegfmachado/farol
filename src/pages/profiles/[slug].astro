@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries } from '@/lib/entries';
-import { allLangHrefs } from '@/lib/i18n';
+import { ui, allLangHrefs } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -20,6 +20,10 @@ const { title, category, subtitle, sections, ai_strategies, pending } = entry.da
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
 const langHrefs = allLangHrefs(base, 'profiles', slug);
+const t = ui['pt'];
+
+const allTools = await getCollection('tools');
+const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
 
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
@@ -36,6 +40,7 @@ function entryHref(e: typeof allEntries[0]) {
   title={`${title} — Farol`}
   description={subtitle}
   ogTitle={`${title} · ${category} — Farol`}
+  altHrefs={langHrefs}
 >
   <Header lang="pt" altHrefs={langHrefs} />
 
@@ -95,6 +100,20 @@ function entryHref(e: typeof allEntries[0]) {
     )}
 
     {pending && <div class="pending-notice">{pending}</div>}
+    {profileTools.length > 0 && (
+      <section class="card-section tools-section">
+        <h2 class="card-section-label">{t.tools_for_profile}</h2>
+        <div class="tool-chips">
+          {profileTools.map((tool) => (
+            <a href={`${base}tools/${tool.id.replace(/\.md$/, '')}/`} class="tool-chip">
+              <span class="tool-chip-name">{tool.data.name}</span>
+              {tool.data.free && <span class="tool-chip-free">free</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card}</button></div>
   </article>
 
   <nav class="card-nav" aria-label="Navegação entre entradas">
@@ -135,4 +154,16 @@ function entryHref(e: typeof allEntries[0]) {
 @media print {
   .card-nav { display: none; }
 }
+
+.tools-section { margin-top: 0; }
+.tool-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tool-chip { display: flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.7rem; border: 1px solid var(--rule); text-decoration: none; color: var(--ink-soft); font-size: 0.82rem; transition: border-color 0.15s ease, color 0.15s ease; background: var(--bg-elevated); }
+.tool-chip:hover { border-color: var(--accent); color: var(--ink); }
+.tool-chip-name { font-weight: 500; }
+.tool-chip-free { font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
+.print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
+.print-btn:hover { border-color: var(--accent); color: var(--accent); }
+@media print { .print-bar { display: none; } }
+
 </style>
