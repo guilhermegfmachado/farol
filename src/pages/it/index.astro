@@ -14,7 +14,7 @@ const categoryIt: Record<string, string> = {
   'Perfil': 'Profilo', 'Referência': 'Riferimento', 'Recurso': 'Risorsa',
 };
 ---
-<Base title="Farol — Inclusione & IA in Classe">
+<Base title="Farol — Inclusione & IA in Classe" altHrefs={allIndexHrefs(base)}>
   <Header lang="it" altHrefs={allIndexHrefs(base)} />
   <div class="intro">
     <div class="intro-label">{t.about_label}</div>
@@ -29,6 +29,7 @@ const categoryIt: Record<string, string> = {
     <div class="prompt-question">{t.start_question}</div>
   </div>
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home }]} />
+  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} /></div>
   <nav class="tree" aria-label="Profili e risorse">
     {entries.map((entry) => {
       const slug = entry.id.replace(/\.md$/, '');
@@ -58,6 +59,23 @@ const categoryIt: Record<string, string> = {
   </div>
   <Footer lang="it" />
 </Base>
+<script is:inline>
+(function() {
+  var input = document.getElementById('card-search');
+  var nodes = document.querySelectorAll('.tree-node');
+  if (!input || !nodes.length) return;
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var shown = 0;
+    nodes.forEach(function(node) {
+      var text = node.textContent.toLowerCase();
+      var match = !q || text.includes(q);
+      node.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+  });
+})();
+</script>
 <style>
 .tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
 .tree-node[data-category="Referência"] { border-left: 3px solid #4a7c59; }
@@ -70,4 +88,8 @@ const categoryIt: Record<string, string> = {
 .tools-link-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
 .tools-link-title { font-size: 1rem; font-weight: 600; color: var(--ink); }
 .tools-link-desc { font-size: 0.85rem; color: var(--ink-soft); }
+.search-bar { margin-bottom: 0.75rem; }
+.search-input { width: 100%; box-sizing: border-box; font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; padding: 0.55rem 0.9rem; border: 1px solid var(--rule); background: var(--bg-elevated); color: var(--ink); outline: none; transition: border-color 0.15s ease; }
+.search-input:focus { border-color: var(--accent); }
+.search-input::placeholder { color: var(--ink-faded); }
 </style>

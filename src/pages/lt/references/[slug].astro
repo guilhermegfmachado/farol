@@ -38,7 +38,7 @@ function entryHref(e: typeof allEntries[0]) {
   return { href: `${base}lt/${e.collection}/${s}/`, title: entryTranslations.lt?.[s]?.title ?? e.data.title };
 }
 ---
-<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${catLabel} — Farol`}>
+<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${catLabel} — Farol`} altHrefs={langHrefs}>
   <Header lang="lt" altHrefs={langHrefs} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}lt/` }, { label: title.toLowerCase() }]} />
   <article class="card animate-in">
@@ -56,7 +56,8 @@ function entryHref(e: typeof allEntries[0]) {
         <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
       </section>
     ))}
-    {pending && <div class="pending-notice">{t.ai_pending}</div>}
+    {pending && <div class="pending-notice">{t.translation_notice}</div>}
+    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card}</button></div>
   </article>
   <nav class="card-nav" aria-label="Naršymas tarp įrašų">
     {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
@@ -72,4 +73,8 @@ function entryHref(e: typeof allEntries[0]) {
 .card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
 .card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
 @media print { .card-nav { display: none; } }
+.print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
+.print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
+.print-btn:hover { border-color: var(--accent); color: var(--accent); }
+@media print { .print-bar { display: none; } }
 </style>
