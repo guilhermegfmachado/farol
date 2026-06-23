@@ -49,6 +49,7 @@ export const ui = {
     tools_for_profile: 'Ferramentas recomendadas',
     lang_suggestion: 'Este conteúdo está disponível em português',
     search_placeholder: 'Filtrar perfis...',
+    no_results: 'Nada corresponde à pesquisa.',
   },
   en: {
     tagline: 'Tools and Approaches to Recognise and Guide students, a pocket manual for the classroom that respects the learner in front of you.',
@@ -98,6 +99,7 @@ export const ui = {
     tools_for_profile: 'Recommended tools',
     lang_suggestion: 'This content is available in English',
     search_placeholder: 'Filter profiles...',
+    no_results: 'Nothing matches your search.',
   },
   es: {
     tagline: 'Herramientas y Enfoques para Reconocer y Orientar al alumnado, un manual de bolsillo para el aula que respeta al estudiante que tienes enfrente.',
@@ -147,6 +149,7 @@ export const ui = {
     tools_for_profile: 'Herramientas recomendadas',
     lang_suggestion: 'Este contenido está disponible en español',
     search_placeholder: 'Filtrar perfiles...',
+    no_results: 'Nada coincide con la búsqueda.',
   },
   fr: {
     tagline: "Outils et Approches pour Reconnaître et Orienter les élèves, un guide de poche pour la classe qui respecte l'apprenant face à vous.",
@@ -196,6 +199,7 @@ export const ui = {
     tools_for_profile: 'Outils recommandés',
     lang_suggestion: 'Ce contenu est disponible en français',
     search_placeholder: 'Filtrer les profils...',
+    no_results: 'Aucun résultat ne correspond à votre recherche.',
   },
   it: {
     tagline: 'Strumenti e Approcci per Riconoscere e Orientare gli studenti, un manuale tascabile per la classe che rispetta il discente che hai di fronte.',
@@ -245,6 +249,7 @@ export const ui = {
     tools_for_profile: 'Strumenti consigliati',
     lang_suggestion: 'Questo contenuto è disponibile in italiano',
     search_placeholder: 'Filtra i profili...',
+    no_results: 'Nessun risultato corrisponde alla ricerca.',
   },
   hr: {
     tagline: 'Alati i Pristupi za Raspoznavanje i Usmjeravanje učenika, džepni priručnik za učionicu koji poštuje svakog učenika.',
@@ -294,6 +299,7 @@ export const ui = {
     tools_for_profile: 'Preporučeni alati',
     lang_suggestion: 'Ovaj sadržaj dostupan je na hrvatskom',
     search_placeholder: 'Filtriraj profile...',
+    no_results: 'Ništa ne odgovara pretrazi.',
   },
   de: {
     tagline: 'Werkzeuge und Ansätze zum Erkennen und Begleiten von Schülerinnen und Schülern, ein Taschenhandbuch für den Unterricht, das den Lernenden in den Mittelpunkt stellt.',
@@ -343,6 +349,7 @@ export const ui = {
     tools_for_profile: 'Empfohlene Werkzeuge',
     lang_suggestion: 'Diese Inhalte sind auf Deutsch verfügbar',
     search_placeholder: 'Profile filtern...',
+    no_results: 'Keine Treffer für Ihre Suche.',
   },
   nl: {
     tagline: 'Instrumenten en Benaderingen om leerlingen te Herkennen en te Begeleiden, een zakhandboek voor het klaslokaal dat de leerling centraal stelt.',
@@ -392,6 +399,7 @@ export const ui = {
     tools_for_profile: 'Aanbevolen tools',
     lang_suggestion: 'Deze inhoud is beschikbaar in het Nederlands',
     search_placeholder: 'Profielen filteren...',
+    no_results: 'Niets komt overeen met uw zoekopdracht.',
   },
   pl: {
     tagline: 'Narzędzia i Podejścia do Rozpoznawania i Ukierunkowania uczniów, podręczny poradnik dla nauczyciela, który szanuje ucznia przed sobą.',
@@ -441,6 +449,7 @@ export const ui = {
     tools_for_profile: 'Zalecane narzędzia',
     lang_suggestion: 'Ta treść jest dostępna po polsku',
     search_placeholder: 'Filtruj profile...',
+    no_results: 'Brak wyników dla wyszukiwania.',
   },
   ro: {
     tagline: 'Instrumente și Abordări pentru Recunoașterea și Orientarea elevilor, un ghid de buzunar pentru clasă care respectă elevul din fața ta.',
@@ -490,6 +499,7 @@ export const ui = {
     tools_for_profile: 'Instrumente recomandate',
     lang_suggestion: 'Acest conținut este disponibil în română',
     search_placeholder: 'Filtrați profilurile...',
+    no_results: 'Niciun rezultat pentru căutarea ta.',
   },
   cs: {
     tagline: 'Nástroje a Přístupy k Rozpoznávání a Vedení žáků, kapesní příručka pro třídu, která respektuje žáka před vámi.',
@@ -539,6 +549,7 @@ export const ui = {
     tools_for_profile: 'Doporučené nástroje',
     lang_suggestion: 'Tento obsah je k dispozici v češtině',
     search_placeholder: 'Filtrovat profily...',
+    no_results: 'Hledání nevrátilo žádné výsledky.',
   },
   sv: {
     tagline: 'Verktyg och Tillvägagångssätt för att Känna igen och Vägleda elever, en fickhandbok för klassrummet som respekterar eleven framför dig.',
@@ -588,6 +599,7 @@ export const ui = {
     tools_for_profile: 'Rekommenderade verktyg',
     lang_suggestion: 'Det här innehållet finns på svenska',
     search_placeholder: 'Filtrera profiler...',
+    no_results: 'Inga träffar för din sökning.',
   },
   da: {
     tagline: 'Værktøjer og Tilgange til at Genkende og Vejlede elever, en lommehåndbog til klasseværelset der respekterer den elev du har foran dig.',
@@ -637,6 +649,7 @@ export const ui = {
     tools_for_profile: 'Anbefalede værktøjer',
     lang_suggestion: 'Dette indhold er tilgængeligt på dansk',
     search_placeholder: 'Filtrer profiler...',
+    no_results: 'Ingen resultater for din søgning.',
   },
   fi: {
     tagline: 'Välineitä ja Lähestymistapoja oppilaiden Tunnistamiseen ja Ohjaamiseen, taskuopas luokkahuoneeseen, joka kunnioittaa edessäsi olevaa oppijaa.',
@@ -686,6 +699,7 @@ export const ui = {
     tools_for_profile: 'Suositellut työkalut',
     lang_suggestion: 'Tämä sisältö on saatavilla suomeksi',
     search_placeholder: 'Suodata profiileja...',
+    no_results: 'Haullasi ei löytynyt tuloksia.',
   },
   sk: {
     tagline: 'Nástroje a Prístupy k Rozpoznávaniu a Vedeniu žiakov, vreckový sprievodca pre triedu, ktorý rešpektuje žiaka pred vami.',
@@ -735,6 +749,7 @@ export const ui = {
     tools_for_profile: 'Odporúčané nástroje',
     lang_suggestion: 'Tento obsah je dostupný v slovenčine',
     search_placeholder: 'Filtrovať profily...',
+    no_results: 'Hľadanie nevrátilo žiadne výsledky.',
   },
   el: {
     tagline: 'Εργαλεία και Προσεγγίσεις για την Αναγνώριση και Καθοδήγηση μαθητών, ένας τσέπης οδηγός για την τάξη που σέβεται τον μαθητή μπροστά σας.',
@@ -784,6 +799,7 @@ export const ui = {
     tools_for_profile: 'Προτεινόμενα εργαλεία',
     lang_suggestion: 'Αυτό το περιεχόμενο είναι διαθέσιμο στα ελληνικά',
     search_placeholder: 'Φιλτράρισμα προφίλ...',
+    no_results: 'Δεν βρέθηκαν αποτελέσματα.',
   },
   hu: {
     tagline: 'Eszközök és Megközelítések a tanulók Felismeréséhez és Irányításához, zsebkalauz az osztályterembe, amely tiszteli az előtted álló tanulót.',
@@ -833,6 +849,7 @@ export const ui = {
     tools_for_profile: 'Ajánlott eszközök',
     lang_suggestion: 'Ez a tartalom elérhető magyarul',
     search_placeholder: 'Profilok szűrése...',
+    no_results: 'Nincs találat a keresésre.',
   },
   bg: {
     tagline: 'Инструменти и Подходи за Разпознаване и Насочване на учениците, наръчник в джоба за класната стая, който уважава ученика срещу вас.',
@@ -882,6 +899,7 @@ export const ui = {
     tools_for_profile: 'Препоръчани инструменти',
     lang_suggestion: 'Това съдържание е налично на български',
     search_placeholder: 'Филтриране на профили...',
+    no_results: 'Няма резултати за вашето търсене.',
   },
   lt: {
     tagline: 'Priemonės ir Požiūriai mokinių Atpažinimui ir Orientavimui, kišeninis vadovas klasei, gerbiantis prieš tave esantį besimokantįjį.',
@@ -931,6 +949,7 @@ export const ui = {
     tools_for_profile: 'Rekomenduojami įrankiai',
     lang_suggestion: 'Šis turinys prieinamas lietuvių kalba',
     search_placeholder: 'Filtruoti profilius...',
+    no_results: 'Pagal jūsų paiešką nieko nerasta.',
   },
   lv: {
     tagline: 'Rīki un Pieejas skolēnu Atpazīšanai un Virzīšanai, kabatas rokasgrāmata klasei, kas ciena jūsu priekšā esošo skolēnu.',
@@ -980,6 +999,7 @@ export const ui = {
     tools_for_profile: 'Ieteicamie rīki',
     lang_suggestion: 'Šis saturs ir pieejams latviešu valodā',
     search_placeholder: 'Filtrēt profilus...',
+    no_results: 'Jūsu meklējumam nav rezultātu.',
   },
   et: {
     tagline: 'Tööriistad ja Lähenemisviisid õpilaste Äratundmiseks ja Juhendamiseks, taskujuhend klassile, mis austab sinu ees olevat õppijat.',
@@ -1029,6 +1049,7 @@ export const ui = {
     tools_for_profile: 'Soovitatud tööriistad',
     lang_suggestion: 'See sisu on saadaval eesti keeles',
     search_placeholder: 'Filtreeri profiile...',
+    no_results: 'Otsingule ei leitud tulemusi.',
   },
   sl: {
     tagline: 'Orodja in Pristopi za Prepoznavanje in Usmerjanje učencev, žepni priročnik za razred, ki spoštuje učenca pred seboj.',
@@ -1078,6 +1099,7 @@ export const ui = {
     tools_for_profile: 'Priporočena orodja',
     lang_suggestion: 'Ta vsebina je na voljo v slovenščini',
     search_placeholder: 'Filtriraj profile...',
+    no_results: 'Za vaše iskanje ni rezultatov.',
   },
   ga: {
     tagline: 'Uirlisí agus Cineálacha Cur Chuige chun Daltaí a Aithint agus a Threorú, lámhleabhar póca don seomra ranga a mheasann an foghlaimeoir os do chomhair.',
@@ -1127,6 +1149,7 @@ export const ui = {
     tools_for_profile: 'Uirlisí molta',
     lang_suggestion: 'Tá an t-ábhar seo ar fáil i nGaeilge',
     search_placeholder: 'Scag próifílí...',
+    no_results: 'Níl aon toradh ar do chuardach.',
   },
   mt: {
     tagline: 'Għodod u Approċċi biex l-istudenti jiġu Rikonoxxuti u Gwida, manwal tal-but għall-klassi li jirrispetta l-istudent li għandek quddimek.',
@@ -1176,6 +1199,7 @@ export const ui = {
     tools_for_profile: 'Ghodod rakkomandati',
     lang_suggestion: 'Dan il-kontenut huwa disponibbli bil-Malti',
     search_placeholder: 'Iffiltja profili...',
+    no_results: 'Ebda riżultat għat-tiftixa tiegħek.',
   },
 } as const;
 
