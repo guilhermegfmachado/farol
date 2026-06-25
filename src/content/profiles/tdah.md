@@ -36,4 +36,5 @@ sections:
       - "Sinais de comorbilidade (ansiedade, depressão, perturbação da oposição)."
 ai_strategies:
   tools: []
+related: ["dislexia", "autismo", "dispraxia", "sobredotacao"]
 ---

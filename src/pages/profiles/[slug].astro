@@ -25,6 +25,10 @@ const t = ui['pt'];
 const allTools = await getCollection('tools');
 const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
 
+const allProfiles = await getCollection('profiles');
+const relatedSlugs = entry.data.related ?? [];
+const relatedEntries = allProfiles.filter(p => relatedSlugs.includes(p.id.replace(/\.md$/, '')));
+
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
   (e) => e.collection === entry.collection && e.id === entry.id
@@ -75,7 +79,7 @@ function entryHref(e: typeof allEntries[0]) {
         <h2 class="card-section-label">Onde a IA entra</h2>
         {ai_strategies.pending ? (
           <div class="pending-notice">
-            A preencher após o curso em Split (Julho 2026). A estrutura já está pronta — cada ferramenta terá: caso de uso, sugestão de prompt, e nota sobre privacidade.
+            A preencher após o curso em Florença (Agosto 2026). A estrutura já está pronta — cada ferramenta terá: caso de uso, sugestão de prompt, e nota sobre privacidade.
           </div>
         ) : (
           <div class="ai-tools">
@@ -100,6 +104,18 @@ function entryHref(e: typeof allEntries[0]) {
     )}
 
     {pending && <div class="pending-notice">{pending}</div>}
+    {relatedEntries.length > 0 && (
+      <div class="related-bar">
+        <span class="related-label">Ver também</span>
+        <div class="related-chips">
+          {relatedEntries.map((rp) => (
+            <a href={`${base}profiles/${rp.id.replace(/\.md$/, '')}/`} class="related-chip">
+              {rp.data.title}
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
     {profileTools.length > 0 && (
       <section class="card-section tools-section">
         <h2 class="card-section-label">{t.tools_for_profile}</h2>
@@ -165,5 +181,11 @@ function entryHref(e: typeof allEntries[0]) {
 .print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
 .print-btn:hover { border-color: var(--accent); color: var(--accent); }
 @media print { .print-bar { display: none; } }
+
+.related-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 0.5rem; padding: 0.75rem 1rem; border: 1px dashed var(--rule); background: var(--bg-elevated); }
+.related-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); white-space: nowrap; }
+.related-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.related-chip { padding: 0.25rem 0.6rem; border: 1px solid var(--rule); font-size: 0.82rem; color: var(--ink-soft); text-decoration: none; background: var(--bg); transition: border-color 0.15s ease, color 0.15s ease; }
+.related-chip:hover { border-color: var(--accent); color: var(--ink); }
 
 </style>

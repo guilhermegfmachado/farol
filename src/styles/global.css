@@ -158,12 +158,20 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 
 /* ── Print ────────────────────────────────────────────────── */
 @media print {
+  /* Reset CSS variables to light-mode values so dark-mode doesn't print black */
+  :root, html, html.dark {
+    --bg: #fff; --bg-elevated: #f7f7f7; --ink: #111; --ink-soft: #333;
+    --ink-faded: #666; --rule: #ddd; --rule-strong: #bbb;
+    --accent: #2a4a5e; --beam: #d9a13d; --notice-bg: #fdf6e3;
+    color-scheme: light;
+  }
   body { background: #fff; color: #000; font-size: 11pt; }
   .container { padding: 1cm 1.5cm; max-width: 100%; }
   header { border-bottom: 1pt solid #000; padding-bottom: 0.5cm; margin-bottom: 0.8cm; }
   .tagline, .version-tag { display: none; }
   .logotype { font-size: 16pt; }
   .breadcrumb, .tools-link-row, .intro, .prompt-section, footer { display: none; }
+  .search-bar, .search-empty, .lang-switcher, .lang-select, .night-toggle, #lang-banner, .skip-link { display: none; }
   .card { border: 1pt solid #ccc; padding: 0; box-shadow: none; }
   .card-header { border-bottom: 1pt solid #ccc; padding-bottom: 0.4cm; margin-bottom: 0.5cm; }
   .card-title { font-size: 18pt; }
@@ -173,6 +181,8 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
   .card-section li { padding: 0.3rem 0; border-bottom: 0.5pt solid #ddd; }
   .pending-notice { border-left: 3pt solid #b8860b; background: #fdf6e3; padding: 0.3cm; font-size: 9pt; }
   .pending-notice::before { content: 'PENDENTE '; }
+  .tool-chip, .related-chip { border: 0.5pt solid #999; padding: 0.05cm 0.25cm; font-size: 8pt; text-decoration: none; color: #000; display: inline-block; margin: 0.1cm 0.1cm 0 0; }
+  .tool-chip-free, .related-label { font-size: 7pt; color: #555; }
   a { color: #000; text-decoration: none; }
   .beam { animation: none; }
 }
