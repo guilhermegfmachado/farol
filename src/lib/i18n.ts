@@ -1208,7 +1208,7 @@ export const ui = {
     tool_paid: 'Verżjoni mħallsa biss.',
     tool_privacy_label: 'Nota GDPR / Privatezza',
     tool_view: 'ara l-karta',
-    ai_pending: 'Biex jimtela wara l-kors f\'Split (Lulju 2026). L-istruttura hija lesta, kull għodda se jkollha: każ ta\' użu, suġġeriment ta\' prompt u nota ta\' privatezza.',
+    ai_pending: 'Biex jimtela wara l-kors f\'Firenze (Awwissu 2026). L-istruttura hija lesta, kull għodda se jkollha: każ ta\' użu, suġġeriment ta\' prompt u nota ta\' privatezza.',
     translation_notice: 'Kontenut bil-Portugiż, traduzzjoni Maltija fi progress.',
     lh_title: 'It-Torri',
     lh_desc: 'Kull sular huwa profil jew referenza. Il-pedamenti jġorru l-aktar komuni; il-quċċata tgħid il-qafas etiku u legali.',

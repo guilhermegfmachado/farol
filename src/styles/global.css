@@ -158,6 +158,13 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 
 /* ── Print ────────────────────────────────────────────────── */
 @media print {
+  /* Reset CSS variables to light-mode values so dark-mode doesn't print black */
+  :root, html, html.dark {
+    --bg: #fff; --bg-elevated: #f7f7f7; --ink: #111; --ink-soft: #333;
+    --ink-faded: #666; --rule: #ddd; --rule-strong: #bbb;
+    --accent: #2a4a5e; --beam: #d9a13d; --notice-bg: #fdf6e3;
+    color-scheme: light;
+  }
   body { background: #fff; color: #000; font-size: 11pt; }
   .container { padding: 1cm 1.5cm; max-width: 100%; }
   header { border-bottom: 1pt solid #000; padding-bottom: 0.5cm; margin-bottom: 0.8cm; }
