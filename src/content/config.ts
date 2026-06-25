@@ -24,6 +24,7 @@ const entrySchema = z.object({
     tools: z.array(aiToolSchema).default([]),
   }).optional(),
   pending: z.string().optional(),
+  related: z.array(z.string()).optional(),
 });
 
 const toolSchema = z.object({

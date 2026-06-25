@@ -36,4 +36,5 @@ sections:
       - "Isolamento social progressivo apesar de tentativas de mediação."
 ai_strategies:
   tools: []
+related: ["tdah", "sobredotacao", "dispraxia"]
 ---

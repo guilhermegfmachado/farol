@@ -36,4 +36,5 @@ sections:
       - "Sinais de ansiedade somatizada antes de avaliações escritas."
 ai_strategies:
   tools: []
+related: ["dislexia", "tdah", "autismo"]
 ---

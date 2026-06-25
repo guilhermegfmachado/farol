@@ -36,4 +36,5 @@ sections:
       - "Discrepância marcada entre desempenho oral e desempenho escrito sem diagnóstico formal."
 ai_strategies:
   tools: []
+related: ["tdah", "dispraxia", "plnm"]
 ---

@@ -27,6 +27,9 @@ const title = tr?.title ?? entry.data.title;
 const subtitle = tr?.subtitle ?? entry.data.subtitle;
 const langHrefs = allLangHrefs(base, 'profiles', slug);
 const allTools = await getCollection('tools');
+const allProfiles = await getCollection('profiles');
+const relatedSlugs = entry.data.related ?? [];
+const relatedEntries = allProfiles.filter(p => relatedSlugs.includes(p.id.replace(/\.md$/, '')));
 const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
 const ct = contentTranslations['it']?.[slug];
 
@@ -65,6 +68,22 @@ function entryHref(e: typeof allEntries[0]) {
       </section>
     )}
     {pending && <div class="pending-notice">{t.translation_notice}</div>}
+    {relatedEntries.length > 0 && (
+      <div class="related-bar">
+        <span class="related-label">{t.see_also}</span>
+        <div class="related-chips">
+          {relatedEntries.map((rp) => {
+            const rs = rp.id.replace(/\.md$/, '');
+            const rtr = entryTranslations.it?.[rs];
+            return (
+              <a href={`${base}it/profiles/${rs}/`} class="related-chip">
+                {rtr?.title ?? rp.data.title}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    )}
     {profileTools.length > 0 && (
       <section class="card-section tools-section">
         <h2 class="card-section-label">{t.tools_for_profile}</h2>
@@ -105,5 +124,11 @@ function entryHref(e: typeof allEntries[0]) {
 .print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
 .print-btn:hover { border-color: var(--accent); color: var(--accent); }
 @media print { .print-bar { display: none; } }
+
+.related-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 0.5rem; padding: 0.75rem 1rem; border: 1px dashed var(--rule); background: var(--bg-elevated); }
+.related-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); white-space: nowrap; }
+.related-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.related-chip { padding: 0.25rem 0.6rem; border: 1px solid var(--rule); font-size: 0.82rem; color: var(--ink-soft); text-decoration: none; background: var(--bg); transition: border-color 0.15s ease, color 0.15s ease; }
+.related-chip:hover { border-color: var(--accent); color: var(--ink); }
 
 </style>

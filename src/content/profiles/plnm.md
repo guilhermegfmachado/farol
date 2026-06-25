@@ -36,4 +36,5 @@ sections:
       - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
 ai_strategies:
   tools: []
+related: ["dislexia"]
 ---

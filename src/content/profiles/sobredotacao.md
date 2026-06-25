@@ -36,4 +36,5 @@ sections:
       - "Subdesempenho académico súbito num aluno previamente identificado como capaz."
 ai_strategies:
   tools: []
+related: ["tdah", "autismo"]
 ---
