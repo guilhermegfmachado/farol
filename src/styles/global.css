@@ -63,6 +63,20 @@ html.reading p {
   max-width: 66ch;
 }
 html.reading .card-section li { margin-bottom: 0.6rem; }
+/* Keep the monospace "stamp" chrome tight — the widened word-spacing is for prose only. */
+html.reading .version-tag,
+html.reading .lang-switcher,
+html.reading .card-category,
+html.reading .card-section-label,
+html.reading .card-index-large,
+html.reading .tree-node-category,
+html.reading .tree-node-arrow,
+html.reading .tree-node-index,
+html.reading .intro-label,
+html.reading .intro-acronym,
+html.reading .prompt-label,
+html.reading .logotype-link,
+html.reading footer { word-spacing: normal; }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
