@@ -55,11 +55,6 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
       <link rel="alternate" hreflang={lang} href={new URL(href, Astro.site)} />
     ))}
     {altHrefs['pt'] && <link rel="alternate" hreflang="x-default" href={new URL(altHrefs['pt'], Astro.site)} />}
-
-    <!-- Dark mode: restore before first paint -->
-    <script is:inline>
-      try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
-    </script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>

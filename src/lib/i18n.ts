@@ -510,7 +510,7 @@ export const ui = {
     lh_categories: 'Categorii',
     lh_back: 'Înapoi la început',
     lh_label: 'Vizualizare',
-    night_toggle: 'Mod noapte',
+    night_toggle: 'Mod nocturn',
     skip_to_content: 'Salt la conținut',
     feedback_link: 'Sugerați o corecție',
     print_card: 'Tipărește fișa',
