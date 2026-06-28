@@ -44,12 +44,13 @@ html.dark body { background: var(--bg); }
 body { transition: background 0.35s ease, color 0.35s ease; }
 
 /* Reading mode: opt-in dyslexia-friendly typography, toggled in the header.
-   Uses OpenDyslexic with widened spacing — the same adaptation the cards recommend. */
+   Uses OpenDyslexic with widened spacing — the same adaptation the cards recommend.
+   Applies to everything, including the monospace "stamp" chrome (labels, nav, numerals). */
 html.reading body,
-html.reading .card,
-html.reading .tree-node,
-html.reading .breadcrumb {
-  font-family: 'OpenDyslexic', 'Plus Jakarta Sans Variable', sans-serif;
+html.reading body * {
+  /* !important so the accessibility override also beats component-scoped
+     (Astro data-cid) monospace rules like the header logotype and Aa toggle. */
+  font-family: 'OpenDyslexic', 'Plus Jakarta Sans Variable', sans-serif !important;
 }
 html.reading body {
   letter-spacing: 0.04em;
