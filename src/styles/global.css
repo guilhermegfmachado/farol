@@ -1,6 +1,8 @@
 @import "@fontsource-variable/plus-jakarta-sans";
 @import "@fontsource/jetbrains-mono/400.css";
 @import "@fontsource/jetbrains-mono/500.css";
+@import "@fontsource/opendyslexic/400.css";
+@import "@fontsource/opendyslexic/700.css";
 
 :root {
   color-scheme: light;
@@ -40,6 +42,27 @@ html.dark {
 
 html.dark body { background: var(--bg); }
 body { transition: background 0.35s ease, color 0.35s ease; }
+
+/* Reading mode: opt-in dyslexia-friendly typography, toggled in the header.
+   Uses OpenDyslexic with widened spacing — the same adaptation the cards recommend. */
+html.reading body,
+html.reading .card,
+html.reading .tree-node,
+html.reading .breadcrumb {
+  font-family: 'OpenDyslexic', 'Plus Jakarta Sans Variable', sans-serif;
+}
+html.reading body {
+  letter-spacing: 0.04em;
+  word-spacing: 0.16em;
+  line-height: 1.9;
+}
+html.reading .card-section li,
+html.reading .card-subtitle,
+html.reading .intro,
+html.reading p {
+  max-width: 66ch;
+}
+html.reading .card-section li { margin-bottom: 0.6rem; }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }

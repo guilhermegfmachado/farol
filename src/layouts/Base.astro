@@ -32,6 +32,7 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
     <!-- Night mode is opt-in only (lighthouse toggle in the header); restore before paint -->
     <script is:inline>
       try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
+      try { if (localStorage.getItem('farol-reading') === '1') document.documentElement.classList.add('reading'); } catch (e) {}
     </script>
 
     <!-- Favicon -->
