@@ -58,9 +58,9 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
-    <div class="container" id="main-content">
+    <main class="container" id="main-content">
       <slot />
-    </div>
+    </main>
     <!-- Language suggestion banner -->
     <script is:inline>
     (function() {
