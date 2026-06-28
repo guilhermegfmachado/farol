@@ -62,6 +62,12 @@ function entryHref(e: typeof allEntries[0]) {
       <section class="card-section">
         <h2 class="card-section-label">{sectionLabelTranslations.el?.[section.label] ?? section.label}</h2>
         <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
+        {section.label === 'Estratégias sem IA' && (
+          <a class="section-ref-link" href={`${base}el/references/diferenciacao/`}>{entryTranslations.el?.diferenciacao?.title ?? 'Diferenciação Pedagógica'} →</a>
+        )}
+        {section.label === 'Sinais de alerta para referenciação' && (
+          <a class="section-ref-link" href={`${base}el/references/legislacao/`}>{entryTranslations.el?.legislacao?.title ?? 'Enquadramento Legal'} →</a>
+        )}
       </section>
     ))}
     {ai_strategies && (
@@ -127,6 +133,9 @@ function entryHref(e: typeof allEntries[0]) {
 .print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
 .print-btn:hover { border-color: var(--accent); color: var(--accent); }
 @media print { .print-bar { display: none; } }
+
+.section-ref-link { display: inline-block; margin-top: 0.6rem; font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.04em; color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 0.1rem; transition: border-color 0.15s ease; }
+.section-ref-link:hover { border-color: var(--accent); }
 
 .related-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin: 1.25rem 0 0.5rem; padding: 0.75rem 1rem; border: 1px dashed var(--rule); background: var(--bg-elevated); }
 .related-label { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); white-space: nowrap; }
