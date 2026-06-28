@@ -8,7 +8,7 @@
   color-scheme: light;
   --ink: #14171a;
   --ink-soft: #4a5159;
-  --ink-faded: #8b939c;
+  --ink-faded: #6b727a;
   --bg: #fafafa;
   --bg-elevated: #ffffff;
   --rule: #e4e6e8;
@@ -27,7 +27,7 @@ html.dark {
   color-scheme: dark;
   --ink: #ece7dc;
   --ink-soft: #b5aea0;
-  --ink-faded: #837c6e;
+  --ink-faded: #8f8879;
   --bg: #131722;
   --bg-elevated: #1b2130;
   --rule: #272e42;
