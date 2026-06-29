@@ -12,33 +12,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   en: {
     tdah: { sections: [
       { items: [
-        "Difficulty sustaining attention on long tasks; loses track during multi-step instructions.",
-        "Constant movement, cannot stay seated, fidgets with hands, stands up without apparent reason.",
-        "Answers before the question is finished; interrupts peers and the teacher.",
-        "Forgets materials, deadlines, instructions given verbally just minutes earlier.",
-        "Can hyper-focus on something of interest, giving the (mistaken) impression that \"they can do it when they want to\".",
+        "Difficulty sustaining attention on long tasks; gets lost in multi-step instructions.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Constant movement — does not stay seated, fidgets, gets up for no apparent reason.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Answers before the question is finished; interrupts peers and the teacher.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Forgets materials, deadlines, and instructions given aloud minutes ago — working memory is overloaded.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "May hyper-focus on something that interests them, giving the (false) impression that they \"could if they wanted to\"; in fact, performance varies with interest and reward.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>It is not</strong> bad manners, laziness, or a character flaw.",
-        "<strong>It is not</strong> always visible hyperactivity, there is predominantly inattentive ADHD (more common in girls, frequently under-diagnosed).",
-        "<strong>It is not</strong> resolved by \"trying harder\", the issue is neurological, not motivational.",
+        "<strong>It is not</strong> bad manners, laziness, or a lack of character: these misconceptions stigmatise and delay support.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>It is not</strong> always visible hyperactivity — there is a predominantly inattentive presentation, more common in girls and often underdiagnosed.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>It is not solved</strong> by \"trying harder\": the difficulty lies in neurological self-regulation, not willpower.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Chunked instructions: one at a time, written on the board, with a set time frame.",
-        "Allow legitimate movement (distributing materials, cleaning the board, errands to the school counsellor).",
-        "Reduce competing stimuli (seat away from the window, the door, the noisiest group).",
-        "Immediate positive reinforcement, the neurological reward cycle is shorter in ADHD.",
+        "Break instructions into pieces: one at a time, written on the board, with a set time — this reduces the load on working memory.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Allow legitimate movement (handing out materials, cleaning the board, running errands).",
+        "Reduce competing stimuli (a seat away from the window, the door, the noisiest group).",
+        "Immediate, frequent positive reinforcement: in ADHD, sensitivity to reward is altered (delay aversion), so immediate rewards work better than deferred ones.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Start with what the student does well, the meeting cannot begin as a list of complaints or parents/guardians will become defensive.",
+        "Start with what the student does well — the meeting cannot open as a list of complaints, or the parent/guardian becomes defensive.",
         "Describe observed behaviours, not diagnoses: \"when there are more than two steps in a row, they lose the thread\" rather than \"they have ADHD\".",
-        "Anticipate the reaction \"they're not like that at home\", explain that group context and the demand for sustained attention in the classroom make the symptoms more visible.",
-        "If suggesting psychological assessment, present it as a resource, not a punishment: \"there is support available that could help them a great deal\" rather than \"they need to be assessed\".",
+        "Anticipate the \"it is not like this at home\" reaction — explain that the group context and the demand for sustained attention in class make the symptoms more visible.",
+        "If you suggest an assessment, present it as a resource, not a punishment: \"there is support that could help them a lot\" rather than \"they need to be assessed\".",
       ]},
       { items: [
-        "Persistent disciplinary difficulties despite classroom adaptations.",
+        "Persistent disciplinary failure despite classroom adaptations.",
         "Signs of social exclusion by peers.",
-        "Signs of comorbidity (anxiety, depression, oppositional defiant disorder).",
+        "Signs of comorbidity (anxiety, depression, oppositional defiant disorder) — common in ADHD and warranting referral.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -346,33 +346,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   es: {
     tdah: { sections: [
       { items: [
-        "Dificultad para mantener la atención en tareas largas; se pierde en instrucciones con múltiples pasos.",
-        "Movimiento constante, no permanece sentado, se mueve con las manos, se levanta sin razón aparente.",
-        "Responde antes de que termine la pregunta; interrumpe a los compañeros y al docente.",
-        "Olvida materiales, plazos, instrucciones dadas oralmente hace apenas unos minutos.",
-        "Puede hiperfocalizarse en algo que le interesa, dando la (errónea) impresión de que «puede cuando quiere».",
+        "Dificultad para mantener la atención en tareas largas; se pierde en instrucciones de varios pasos.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Movimiento constante: no permanece sentado, juguetea con las manos, se levanta sin razón aparente.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Responde antes de que termine la pregunta; interrumpe a sus compañeros y al docente.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Olvida materiales, plazos e instrucciones dadas oralmente hace minutos: la memoria de trabajo está sobrecargada.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Puede hiperconcentrarse en lo que le interesa, dando la impresión (errónea) de que «puede cuando quiere»; en realidad, el rendimiento varía según el interés y la recompensa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>No es</strong> mala educación, vagancia ni falta de carácter.",
-        "<strong>No es</strong> siempre hiperactividad visible, existe el TDAH predominantemente desatento (más frecuente en niñas, frecuentemente infradiagnosticado).",
-        "<strong>No se resuelve</strong> con «esforzarse más», el problema es neurológico, no motivacional.",
+        "<strong>No es</strong> mala educación, pereza ni falta de carácter: estas ideas equivocadas estigmatizan y retrasan el apoyo.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>No es</strong> siempre hiperactividad visible: existe una presentación predominantemente inatenta, más frecuente en las niñas y a menudo infradiagnosticada.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>No se resuelve</strong> con «esforzarse más»: la dificultad está en la autorregulación neurológica, no en la voluntad.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Instrucciones fragmentadas: una cada vez, escritas en la pizarra, con tiempo definido.",
-        "Permitir movimiento legítimo (repartir materiales, borrar la pizarra, recados al orientador/a).",
-        "Reducir estímulos competitivos (situar al alumno lejos de la ventana, la puerta o el grupo más ruidoso).",
-        "Refuerzo positivo inmediato, el ciclo de recompensa neurológica es más corto en el TDAH.",
+        "Fragmentar las instrucciones: una a la vez, por escrito en la pizarra, con un tiempo definido; reduce la carga sobre la memoria de trabajo.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Permitir el movimiento legítimo (repartir materiales, borrar la pizarra, llevar recados).",
+        "Reducir los estímulos que compiten por la atención (un sitio alejado de la ventana, de la puerta, del grupo más ruidoso).",
+        "Refuerzo positivo inmediato y frecuente: en el TDAH la sensibilidad a la recompensa está alterada (aversión a la espera), por lo que las recompensas inmediatas funcionan mejor que las diferidas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Comenzar por lo que el alumno hace bien, la reunión no puede comenzar como una lista de quejas o las familias se pondrán a la defensiva.",
+        "Empezar por lo que el alumno hace bien: la reunión no puede abrirse como una lista de quejas, o la familia se cerrará a la defensiva.",
         "Describir comportamientos observados, no diagnósticos: «cuando hay más de dos pasos seguidos, pierde el hilo» en lugar de «tiene TDAH».",
-        "Anticipar la reacción «en casa no es así», explicar que el contexto de grupo y la exigencia de atención prolongada en el aula hacen los síntomas más visibles.",
-        "Si se sugiere evaluación psicológica, presentarla como un recurso, no como un castigo: «hay apoyos disponibles que pueden ayudarle mucho» en lugar de «necesita ser evaluado/a».",
+        "Anticipar la reacción «en casa no es así»: explicar que el contexto de grupo y la exigencia de atención prolongada en el aula hacen los síntomas más visibles.",
+        "Si se sugiere una evaluación, presentarla como un recurso, no como un castigo: «hay un apoyo que puede ayudarle mucho» en lugar de «necesita ser evaluado/a».",
       ]},
       { items: [
-        "Dificultades disciplinarias persistentes a pesar de las adaptaciones en el aula.",
-        "Indicios de exclusión social por parte de los compañeros.",
-        "Señales de comorbilidad (ansiedad, depresión, trastorno negativista desafiante).",
+        "Fracaso disciplinario persistente a pesar de las adaptaciones en el aula.",
+        "Señales de exclusión social por parte de los compañeros.",
+        "Señales de comorbilidad (ansiedad, depresión, trastorno oposicionista desafiante): frecuentes en el TDAH y que justifican la derivación.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -680,33 +680,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   fr: {
     tdah: { sections: [
       { items: [
-        "Difficulté à maintenir l'attention sur des tâches longues ; se perd dans les consignes à plusieurs étapes.",
-        "Agitation constante, ne reste pas assis, se trémousse, se lève sans raison apparente.",
-        "Répond avant la fin de la question ; interrompt les camarades et l'enseignant.",
-        "Oublie le matériel, les délais, les consignes données oralement il y a quelques minutes.",
-        "Peut entrer en hyperfocalisation sur quelque chose qui l'intéresse, donnant l'impression (erronée) qu'il « peut quand il veut ».",
+        "Difficulté à maintenir l'attention sur des tâches longues ; se perd dans les consignes comportant plusieurs étapes.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Mouvement constant : ne reste pas assis, s'agite des mains, se lève sans raison apparente.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Répond avant la fin de la question ; interrompt ses camarades et l'enseignant.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Oublie le matériel, les échéances et les consignes données oralement il y a quelques minutes : la mémoire de travail est surchargée.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Peut se concentrer de façon intense sur ce qui l'intéresse, donnant l'impression (erronée) qu'« il peut quand il veut » ; en réalité, le rendement varie selon l'intérêt et la récompense.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> de l'impolitesse, de la paresse ou un manque de caractère.",
-        "<strong>Ce n'est pas</strong> toujours une hyperactivité visible, il existe un TDAH à prédominance inattentive (plus fréquent chez les filles, souvent sous-diagnostiqué).",
-        "<strong>Ce n'est pas</strong> résolu en « faisant plus d'efforts », le problème est neurologique, pas motivationnel.",
+        "<strong>Ce n'est pas</strong> de la mauvaise éducation, de la paresse ni un manque de caractère : ces idées fausses stigmatisent et retardent l'accompagnement.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ce n'est pas</strong> toujours une hyperactivité visible : il existe une présentation à prédominance inattentive, plus fréquente chez les filles et souvent sous-diagnostiquée.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Cela ne se règle pas</strong> en « faisant plus d'efforts » : la difficulté réside dans l'autorégulation neurologique, et non dans la volonté.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Consignes fragmentées : une à la fois, écrites au tableau, avec un temps défini.",
-        "Autoriser le mouvement légitime (distribuer le matériel, effacer le tableau, messages au conseiller d'orientation).",
-        "Réduire les stimuli concurrents (place éloignée de la fenêtre, de la porte, du groupe le plus bruyant).",
-        "Renforcement positif immédiat, le cycle de récompense neurologique est plus court dans le TDAH.",
+        "Fragmenter les consignes : une à la fois, par écrit au tableau, avec un temps défini ; cela réduit la charge sur la mémoire de travail.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Autoriser un mouvement légitime (distribuer le matériel, effacer le tableau, porter des messages).",
+        "Réduire les stimuli concurrents (une place éloignée de la fenêtre, de la porte, du groupe le plus bruyant).",
+        "Renforcement positif immédiat et fréquent : dans le TDAH, la sensibilité à la récompense est altérée (aversion au délai), de sorte que les récompenses immédiates fonctionnent mieux que les récompenses différées.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Commencer par ce que l'élève fait bien, la réunion ne peut pas débuter par une liste de plaintes, au risque que les familles se ferment défensivement.",
-        "Décrire des comportements observés, pas des diagnostics : « quand il y a plus de deux étapes successives, il perd le fil » plutôt que « il a un TDAH ».",
-        "Anticiper la réaction « à la maison, ce n'est pas comme ça », expliquer que le contexte de groupe et l'exigence d'attention prolongée en classe rendent les symptômes plus visibles.",
-        "Si une évaluation psychologique est suggérée, la présenter comme une ressource, pas une punition : « il existe des aides disponibles qui peuvent beaucoup l'aider » plutôt que « il faut qu'il/elle soit évalué(e) ».",
+        "Commencer par ce que l'élève réussit : la réunion ne peut pas s'ouvrir comme une liste de plaintes, sinon le responsable légal se referme sur la défensive.",
+        "Décrire des comportements observés, et non des diagnostics : « lorsqu'il y a plus de deux étapes d'affilée, il perd le fil » plutôt que « il a un TDAH ».",
+        "Anticiper la réaction « à la maison, ce n'est pas comme ça » : expliquer que le contexte de groupe et l'exigence d'une attention prolongée en classe rendent les symptômes plus visibles.",
+        "Si l'on suggère un bilan, le présenter comme une ressource et non comme une punition : « il existe un accompagnement qui peut beaucoup l'aider » plutôt que « il/elle doit être évalué(e) ».",
       ]},
       { items: [
-        "Difficultés disciplinaires persistantes malgré les adaptations en classe.",
+        "Échec disciplinaire persistant malgré les aménagements en classe.",
         "Signes d'exclusion sociale par les pairs.",
-        "Signes de comorbidité (anxiété, dépression, trouble oppositionnel avec provocation).",
+        "Signes de comorbidité (anxiété, dépression, trouble oppositionnel) : fréquents dans le TDAH et qui justifient une orientation.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -1014,33 +1014,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   it: {
     tdah: { sections: [
       { items: [
-        "Difficoltà a mantenere l'attenzione su compiti lunghi; si perde nelle istruzioni a più passaggi.",
-        "Movimento costante, non riesce a stare seduto, si agita con le mani, si alza senza motivo apparente.",
-        "Risponde prima che la domanda sia finita; interrompe i compagni e l'insegnante.",
-        "Dimentica i materiali, le scadenze, le istruzioni date oralmente pochi minuti prima.",
-        "Può iperfocalizzarsi su qualcosa che lo interessa, dando l'(erronea) impressione che «ce la fa quando vuole».",
+        "Difficoltà a mantenere l'attenzione su compiti lunghi; si perde nelle istruzioni a più passaggi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Movimento costante: non resta seduto, armeggia con le mani, si alza senza motivo apparente.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Risponde prima che la domanda sia finita; interrompe i compagni e il docente.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Dimentica i materiali, le scadenze e le istruzioni date a voce pochi minuti prima: la memoria di lavoro è sovraccarica.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Può iperconcentrarsi su ciò che gli interessa, dando l'impressione (errata) che «riesca quando vuole»; in realtà, il rendimento varia in base all'interesse e alla ricompensa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Non è</strong> maleducazione, pigrizia o mancanza di carattere.",
-        "<strong>Non è</strong> sempre iperattività visibile, esiste un ADHD a predominanza disattentiva (più frequente nelle ragazze, spesso sottodiagnosticato).",
-        "<strong>Non si risolve</strong> con «impegnarsi di più», il problema è neurologico, non motivazionale.",
+        "<strong>Non è</strong> maleducazione, pigrizia né mancanza di carattere: queste idee sbagliate stigmatizzano e ritardano il sostegno.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Non è</strong> sempre iperattività visibile: esiste una presentazione prevalentemente disattenta, più frequente nelle bambine e spesso sottodiagnosticata.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Non si risolve</strong> con l'«impegnarsi di più»: la difficoltà sta nell'autoregolazione neurologica, non nella volontà.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Istruzioni frammentate: una alla volta, scritte alla lavagna, con un tempo definito.",
-        "Consentire il movimento legittimo (distribuire i materiali, cancellare la lavagna, messaggi allo sportello di orientamento).",
-        "Ridurre gli stimoli competitivi (posto lontano dalla finestra, dalla porta, dal gruppo più rumoroso).",
-        "Rinforzo positivo immediato, il ciclo di ricompensa neurologica è più breve nell'ADHD.",
+        "Frammentare le istruzioni: una alla volta, per iscritto alla lavagna, con un tempo definito; riduce il carico sulla memoria di lavoro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Consentire un movimento legittimo (distribuire i materiali, cancellare la lavagna, portare ambasciate).",
+        "Ridurre gli stimoli concorrenti (un posto lontano dalla finestra, dalla porta, dal gruppo più rumoroso).",
+        "Rinforzo positivo immediato e frequente: nell'ADHD la sensibilità alla ricompensa è alterata (avversione all'attesa), per cui le ricompense immediate funzionano meglio di quelle differite.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Iniziare con quello che l'alunno fa bene, la riunione non può cominciare come una lista di lamentele, altrimenti le famiglie si chiuderanno in modo difensivo.",
-        "Descrivere i comportamenti osservati, non le diagnosi: «quando ci sono più di due passaggi di fila, perde il filo» invece di «ha l'ADHD».",
-        "Anticipare la reazione «a casa non è così», spiegare che il contesto di gruppo e la richiesta di attenzione prolungata in classe rendono i sintomi più visibili.",
-        "Se si suggerisce una valutazione psicologica, presentarla come una risorsa, non come una punizione: «ci sono supporti disponibili che possono aiutarlo/a molto» invece di «ha bisogno di essere valutato/a».",
+        "Iniziare da ciò che l'alunno fa bene: l'incontro non può aprirsi come un elenco di lamentele, altrimenti il genitore si chiude sulla difensiva.",
+        "Descrivere comportamenti osservati, non diagnosi: «quando ci sono più di due passaggi di seguito, perde il filo» anziché «ha l'ADHD».",
+        "Anticipare la reazione «a casa non è così»: spiegare che il contesto di gruppo e la richiesta di attenzione prolungata in classe rendono i sintomi più visibili.",
+        "Se si suggerisce una valutazione, presentarla come una risorsa, non come una punizione: «c'è un sostegno che può aiutarlo/a molto» anziché «deve essere valutato/a».",
       ]},
       { items: [
-        "Difficoltà disciplinari persistenti nonostante gli adattamenti in classe.",
-        "Segnali di esclusione sociale da parte dei compagni.",
-        "Segni di comorbilità (ansia, depressione, disturbo oppositivo-provocatorio).",
+        "Insuccesso disciplinare persistente nonostante gli adattamenti in classe.",
+        "Segnali di esclusione sociale da parte dei pari.",
+        "Segnali di comorbilità (ansia, depressione, disturbo oppositivo provocatorio): frequenti nell'ADHD e tali da giustificare l'invio a uno specialista.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -1346,49 +1346,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   de: {
-    tdah: {
-      sections: [
-        {
-          items: [
-            "Schwierigkeiten, die Aufmerksamkeit bei langen Aufgaben aufrechtzuerhalten; verliert sich bei Anweisungen mit mehreren Schritten.",
-            "Ständige Bewegung, bleibt nicht sitzen, beschäftigt die Hände, steht ohne ersichtlichen Grund auf.",
-            "Antwortet, bevor die Frage zu Ende gestellt ist; unterbricht Mitschüler und die Lehrkraft.",
-            "Vergisst Materialien, Fristen, vor wenigen Minuten mündlich gegebene Anweisungen.",
-            "Kann sich hyperfokussieren, wenn etwas ihn interessiert, das erweckt den (falschen) Eindruck, er \"könnte es, wenn er wollte\"."
-          ]
-        },
-        {
-          items: [
-            "<strong>Es ist keine</strong> Erziehungsmängel, Faulheit oder Charakterschwäche.",
-            "<strong>Es ist nicht</strong> immer sichtbare Hyperaktivität, es gibt die vorwiegend unaufmerksame ADHS (häufiger bei Mädchen, oft unterdiagnostiziert).",
-            "<strong>Es ist nicht</strong> durch \"mehr Anstrengung\" lösbar, das Problem ist neurologisch, nicht motivational."
-          ]
-        },
-        {
-          items: [
-            "Aufgaben in Teilschritte aufteilen: jeweils eine Anweisung, schriftlich an der Tafel, mit klar definierter Zeit.",
-            "Legitime Bewegung erlauben (Materialien austeilen, Tafel wischen, Botengänge zum schulpsychologischen Dienst).",
-            "Ablenkende Reize reduzieren (Sitzplatz weg vom Fenster, von der Tür, von der lautesten Gruppe).",
-            "Sofortige positive Verstärkung, der neurologische Belohnungskreislauf ist bei ADHS kürzer."
-          ]
-        },
-        {
-          items: [
-            "Mit dem beginnen, was der Schüler gut kann, das Gespräch darf nicht als Beschwerdeliste beginnen.",
-            "Beobachtetes Verhalten beschreiben, keine Diagnosen stellen: \"Wenn es mehr als zwei aufeinanderfolgende Schritte gibt, verliert er den Faden.\"",
-            "Auf die Reaktion \"zu Hause ist es nicht so\" vorbereitet sein, der Klassenkontext macht Symptome sichtbarer.",
-            "Wenn eine psychologische Abklärung empfohlen wird, diese als Ressource präsentieren, nicht als Strafe."
-          ]
-        },
-        {
-          items: [
-            "Anhaltende Disziplinschwierigkeiten trotz Anpassungen im Unterricht.",
-            "Anzeichen sozialer Ausgrenzung durch Mitschüler.",
-            "Hinweise auf Komorbiditäten (Angst, Depression, oppositionelles Trotzverhalten)."
-          ]
-        }
-      ]
-    },
+    tdah: { sections: [
+      { items: [
+        "Schwierigkeiten, die Aufmerksamkeit bei langen Aufgaben aufrechtzuerhalten; verliert bei mehrschrittigen Anweisungen den Faden.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Ständige Bewegung — bleibt nicht sitzen, zappelt mit den Händen, steht ohne ersichtlichen Grund auf.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Antwortet, bevor die Frage zu Ende ist; unterbricht Mitschülerinnen, Mitschüler und die Lehrkraft.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vergisst Materialien, Fristen und vor wenigen Minuten mündlich gegebene Anweisungen — das Arbeitsgedächtnis ist überlastet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kann sich bei interessanten Themen hyperfokussieren und so den (falschen) Eindruck erwecken, „es zu können, wenn es nur will“; tatsächlich schwankt die Leistung mit Interesse und Belohnung.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Es ist kein</strong> schlechtes Benehmen, keine Faulheit und keine Charakterschwäche: Diese falschen Vorstellungen stigmatisieren und verzögern die Unterstützung.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Es ist nicht</strong> immer eine sichtbare Hyperaktivität — es gibt eine vorwiegend unaufmerksame Erscheinungsform, die bei Mädchen häufiger und oft unterdiagnostiziert ist.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Es lässt sich nicht</strong> durch „sich mehr anstrengen“ lösen: Die Schwierigkeit liegt in der neurologischen Selbstregulation, nicht im Willen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Anweisungen aufgliedern: eine nach der anderen, schriftlich an der Tafel, mit festgelegter Zeit — das verringert die Belastung des Arbeitsgedächtnisses.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Legitime Bewegung erlauben (Materialien austeilen, die Tafel wischen, Botengänge erledigen).",
+        "Konkurrierende Reize reduzieren (Sitzplatz fern vom Fenster, von der Tür, von der lautesten Gruppe).",
+        "Sofortige und häufige positive Verstärkung: Bei ADHS ist die Belohnungssensitivität verändert (Aversion gegen Aufschub), weshalb unmittelbare Belohnungen besser wirken als verzögerte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Mit dem beginnen, was der Schüler oder die Schülerin gut macht — das Gespräch darf nicht mit einer Liste von Beschwerden eröffnen, sonst verschließen sich die Erziehungsberechtigten abwehrend.",
+        "Beobachtete Verhaltensweisen beschreiben, keine Diagnosen: „Wenn mehr als zwei Schritte aufeinanderfolgen, verliert er oder sie den Faden“ statt „hat ADHS“.",
+        "Die Reaktion „zu Hause ist das nicht so“ vorwegnehmen — erklären, dass der Gruppenkontext und die Anforderung an anhaltende Aufmerksamkeit im Klassenraum die Symptome sichtbarer machen.",
+        "Wenn Sie eine Abklärung vorschlagen, stellen Sie sie als Ressource dar, nicht als Strafe: „Es gibt Unterstützung, die ihm oder ihr sehr helfen kann“ statt „muss abgeklärt werden“.",
+      ]},
+      { items: [
+        "Anhaltende Verstöße gegen Regeln trotz Anpassungen im Klassenraum.",
+        "Anzeichen sozialer Ausgrenzung durch Gleichaltrige.",
+        "Anzeichen von Komorbidität (Angst, Depression, Störung mit oppositionellem Trotzverhalten) — bei ADHS häufig und ein Grund für eine Überweisung.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+    ]},
     dislexia: { sections: [
       { items: [
         "Liest langsam und mühsam, mit Fehlern beim Lesen einzelner Wörter, selbst bei Texten, die das Kind gut versteht, wenn sie vorgelesen werden.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -1771,49 +1759,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   nl: {
-    tdah: {
-      sections: [
-        {
-          items: [
-            "Moeite om de aandacht bij langdurige taken te houden; raakt de draad kwijt bij instructies met meerdere stappen.",
-            "Voortdurende beweging, blijft niet zitten, beweegt de handen, staat op zonder duidelijke reden.",
-            "Antwoordt voordat de vraag is afgemaakt; onderbreekt klasgenoten en de docent.",
-            "Vergeet materialen, deadlines, mondeling gegeven instructies van een paar minuten geleden.",
-            "Kan hyperfocussen op iets wat hem interesseert, waardoor de (onjuiste) indruk ontstaat dat hij \"het kan als hij wil\"."
-          ]
-        },
-        {
-          items: [
-            "<strong>Het is geen</strong> slechte opvoeding, luiheid of karakterzwakte.",
-            "<strong>Het is niet</strong> altijd zichtbare hyperactiviteit, er bestaat ADHD met overwegend aandachtstekort (vaker bij meisjes, vaak onderdiagnostiseerd).",
-            "<strong>Het is niet</strong> op te lossen met \"meer je best doen\", het probleem is neurologisch, niet motivationeel."
-          ]
-        },
-        {
-          items: [
-            "Instructies opsplitsen: één tegelijk, schriftelijk op het bord, met een duidelijk tijdskader.",
-            "Legitieme beweging toestaan (materialen uitdelen, het bord schoonmaken, boodschappen doen voor de zorgcoördinator).",
-            "Concurrerende prikkels verminderen (zitplaats weg van het raam, van de deur, van de drukste groep).",
-            "Directe positieve bekrachtiging, de neurologische beloningscyclus is korter bij ADHD."
-          ]
-        },
-        {
-          items: [
-            "Beginnen met wat de leerling goed doet, het gesprek mag niet beginnen als een lijst met klachten.",
-            "Waargenomen gedrag beschrijven, geen diagnoses stellen: \"Als er meer dan twee opeenvolgende stappen zijn, verliest hij de draad.\"",
-            "Voorbereid zijn op de reactie \"thuis is het niet zo\", de klassenomgeving maakt symptomen zichtbaarder.",
-            "Als psychologische evaluatie wordt aangeraden, dit presenteren als een hulpbron, niet als straf."
-          ]
-        },
-        {
-          items: [
-            "Aanhoudende disciplineproblemen ondanks aanpassingen in de klas.",
-            "Tekenen van sociale uitsluiting door klasgenoten.",
-            "Signalen van comorbiditeit (angst, depressie, oppositioneel-opstandige gedragsstoornis)."
-          ]
-        }
-      ]
-    },
+    tdah: { sections: [
+      { items: [
+        "Moeite om de aandacht bij lange taken vast te houden; raakt de draad kwijt bij instructies met meerdere stappen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Voortdurend in beweging — blijft niet zitten, friemelt met de handen, staat zonder duidelijke reden op.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Antwoordt voordat de vraag af is; onderbreekt klasgenoten en de leerkracht.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vergeet materialen, deadlines en enkele minuten geleden mondeling gegeven instructies — het werkgeheugen is overbelast.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kan hyperfocussen op wat hem of haar interesseert, waardoor de (verkeerde) indruk ontstaat dat hij of zij „het kan als hij of zij wil”; in werkelijkheid wisselt de prestatie met interesse en beloning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Het is geen</strong> slechte manieren, luiheid of karakterfout: deze misvattingen stigmatiseren en vertragen de ondersteuning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Het is niet</strong> altijd zichtbare hyperactiviteit — er bestaat een overwegend onoplettende verschijningsvorm, die vaker bij meisjes voorkomt en vaak ondergediagnosticeerd is.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Het wordt niet opgelost</strong> met „meer je best doen”: de moeilijkheid ligt in de neurologische zelfregulatie, niet in de wil.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Instructies opdelen: één voor één, schriftelijk op het bord, met een vastgestelde tijd — dit vermindert de belasting van het werkgeheugen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Legitieme beweging toestaan (materialen uitdelen, het bord uitvegen, boodschappen doen).",
+        "Concurrerende prikkels verminderen (een plaats ver van het raam, van de deur, van de luidruchtigste groep).",
+        "Onmiddellijke en frequente positieve bekrachtiging: bij ADHD is de beloningsgevoeligheid veranderd (afkeer van uitstel), waardoor onmiddellijke beloningen beter werken dan uitgestelde.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Beginnen met wat de leerling goed doet — het gesprek mag niet openen als een lijst van klachten, anders sluit de ouder of verzorger zich defensief af.",
+        "Waargenomen gedrag beschrijven, geen diagnoses: „wanneer er meer dan twee stappen na elkaar komen, raakt hij of zij de draad kwijt” in plaats van „heeft ADHD”.",
+        "Anticiperen op de reactie „thuis is dat niet zo” — uitleggen dat de groepscontext en de eis van langdurige aandacht in de klas de symptomen zichtbaarder maken.",
+        "Als u een onderzoek voorstelt, presenteer het dan als een hulpmiddel, niet als een straf: „er is ondersteuning die hem of haar veel kan helpen” in plaats van „moet onderzocht worden”.",
+      ]},
+      { items: [
+        "Aanhoudend overtreden van regels ondanks aanpassingen in de klas.",
+        "Tekenen van sociale uitsluiting door leeftijdsgenoten.",
+        "Tekenen van comorbiditeit (angst, depressie, oppositioneel-opstandige gedragsstoornis) — vaak bij ADHD en een reden voor doorverwijzing.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+    ]},
     dislexia: { sections: [
       { items: [
         "Leest langzaam en met moeite, met fouten bij het lezen van losse woorden, zelfs bij teksten die het kind goed begrijpt wanneer ze worden voorgelezen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -2196,49 +2172,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   pl: {
-    tdah: {
-      sections: [
-        {
-          items: [
-            "Trudności z utrzymaniem uwagi przy długich zadaniach; gubi się w instrukcjach składających się z wielu kroków.",
-            "Ciągły ruch, nie siedzi spokojnie, porusza rękami, wstaje bez wyraźnego powodu.",
-            "Odpowiada, zanim pytanie zostanie dokończone; przerywa kolegom i nauczycielowi.",
-            "Zapomina o materiałach, terminach, ustnie podanych przed chwilą instrukcjach.",
-            "Może hiperfokusować się na czymś, co go interesuje, co stwarza (błędne) wrażenie, że \"może, kiedy chce\"."
-          ]
-        },
-        {
-          items: [
-            "<strong>To nie jest</strong> złe wychowanie, lenistwo ani brak charakteru.",
-            "<strong>To nie jest</strong> zawsze widoczna nadpobudliwość, istnieje ADHD z dominującymi trudnościami uwagowymi (częstsze u dziewcząt, często niedodiagnozowane).",
-            "<strong>Nie rozwiąże się tego</strong> przez \"większe staranie\", problem jest neurologiczny, nie motywacyjny."
-          ]
-        },
-        {
-          items: [
-            "Rozbijanie instrukcji na części: po jednej naraz, na piśmie na tablicy, z wyraźnie określonym czasem.",
-            "Zezwolenie na uzasadniony ruch (rozdawanie materiałów, ścieranie tablicy, bieganie z wiadomościami do pedagoga/psychologa szkolnego).",
-            "Ograniczenie bodźców rozpraszających (miejsce z dala od okna, drzwi, najgłośniejszej grupy).",
-            "Natychmiastowe pozytywne wzmocnienie, neurologiczny cykl nagrody jest krótszy w ADHD."
-          ]
-        },
-        {
-          items: [
-            "Zacząć od tego, co uczeń robi dobrze, rozmowa nie może zaczynać się od listy skarg.",
-            "Opisywać obserwowane zachowania, nie stawiać diagnoz: \"Gdy jest więcej niż dwa kolejne kroki, traci wątek.\"",
-            "Być przygotowanym na reakcję \"w domu tak nie jest\", kontekst klasy sprawia, że objawy są bardziej widoczne.",
-            "Jeśli sugeruje się ocenę psychologiczną, przedstawić ją jako zasób, a nie karę."
-          ]
-        },
-        {
-          items: [
-            "Utrzymujące się problemy dyscyplinarne pomimo dostosowań w klasie.",
-            "Oznaki wykluczenia społecznego przez rówieśników.",
-            "Sygnały komorbiditetu (lęk, depresja, zaburzenie opozycyjno-buntownicze)."
-          ]
-        }
-      ]
-    },
+    tdah: { sections: [
+      { items: [
+        "Trudność z utrzymaniem uwagi przy długich zadaniach; gubi się w instrukcjach złożonych z wielu kroków.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Ciągły ruch — nie siedzi spokojnie, bawi się rękami, wstaje bez wyraźnego powodu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Odpowiada, zanim pytanie się skończy; przerywa kolegom i nauczycielowi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zapomina materiały, terminy i polecenia podane ustnie kilka minut wcześniej — pamięć robocza jest przeciążona.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Może hiperskupiać się na tym, co go interesuje, sprawiając (mylne) wrażenie, że „potrafi, kiedy chce”; w rzeczywistości wykonanie zadań zależy od zainteresowania i nagrody.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nie jest</strong> to złe wychowanie, lenistwo ani brak charakteru: te błędne przekonania stygmatyzują i opóźniają wsparcie.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie zawsze</strong> jest to widoczna nadpobudliwość — istnieje postać z przewagą zaburzeń uwagi, częstsza u dziewcząt i często niedodiagnozowana.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Nie da się tego rozwiązać</strong> przez „większy wysiłek”: trudność tkwi w neurologicznej samoregulacji, a nie w woli.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Dzielenie instrukcji na części: po jednej naraz, zapisane na tablicy, z określonym czasem — zmniejsza to obciążenie pamięci roboczej.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Umożliwienie uprawnionego ruchu (rozdawanie materiałów, wycieranie tablicy, dostarczanie wiadomości).",
+        "Ograniczenie konkurencyjnych bodźców (miejsce z dala od okna, drzwi i najgłośniejszej grupy).",
+        "Natychmiastowe i częste pozytywne wzmocnienie: w ADHD wrażliwość na nagrodę jest zmieniona (awersja do oczekiwania), dlatego nagrody natychmiastowe działają lepiej niż odroczone.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Zacznij od tego, co uczeń robi dobrze — spotkanie nie może rozpoczynać się od listy skarg, bo rodzic zamknie się w obronnej postawie.",
+        "Opisuj zaobserwowane zachowania, a nie diagnozy: „gdy poleceń jest więcej niż dwa pod rząd, gubi wątek” zamiast „ma ADHD”.",
+        "Przewiduj reakcję „w domu tak nie jest” — wyjaśnij, że kontekst grupowy i wymóg długotrwałej uwagi w klasie sprawiają, że objawy są bardziej widoczne.",
+        "Jeśli proponujesz ocenę specjalistyczną, przedstaw ją jako wsparcie, a nie karę: „jest pomoc, która może mu/jej bardzo pomóc” zamiast „musi zostać zbadany/a”.",
+      ]},
+      { items: [
+        "Utrzymujące się trudności z dyscypliną mimo dostosowań w klasie.",
+        "Oznaki wykluczenia społecznego przez rówieśników.",
+        "Oznaki współwystępujących zaburzeń (lęk, depresja, zaburzenie opozycyjno-buntownicze) — częste w ADHD i uzasadniające skierowanie.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+    ]},
     dislexia: { sections: [
       { items: [
         "Czyta wolno i z wysiłkiem, popełniając błędy w odczytywaniu pojedynczych słów, nawet w tekstach, które dobrze rozumie ze słuchu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -2621,49 +2585,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   ro: {
-    tdah: {
-      sections: [
-        {
-          items: [
-            "Dificultăți în menținerea atenției la sarcini lungi; se pierde în instrucțiuni cu mai mulți pași.",
-            "Mișcare constantă, nu stă așezat, mișcă mâinile, se ridică fără un motiv aparent.",
-            "Răspunde înainte ca întrebarea să fie terminată; întrerupe colegii și profesorul.",
-            "Uită materiale, termene limită, instrucțiuni date oral cu câteva minute în urmă.",
-            "Poate hiperfocaliza pe ceva care îl interesează, creând impresia (greșită) că \"poate când vrea\"."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu este</strong> lipsă de educație, lene sau lipsă de caracter.",
-            "<strong>Nu este</strong> întotdeauna hiperactivitate vizibilă, există ADHD predominant neatent (mai frecvent la fete, adesea subdiagnosticat).",
-            "<strong>Nu se rezolvă</strong> prin \"mai mult efort\", problema este neurologică, nu motivațională."
-          ]
-        },
-        {
-          items: [
-            "Instrucțiuni fragmentate: câte una pe rând, în scris pe tablă, cu timp definit.",
-            "Permiterea mișcării legitime (distribuirea materialelor, ștergerea tablei, comisioane la consilierul școlar/CJRAE).",
-            "Reducerea stimulilor concurenți (loc departe de fereastră, de ușă, de grupul cel mai zgomotos).",
-            "Întărire pozitivă imediată, ciclul de recompensă neurologică este mai scurt în ADHD."
-          ]
-        },
-        {
-          items: [
-            "Să înceapă cu ceea ce elevul face bine, întâlnirea nu poate începe ca o listă de plângeri.",
-            "Să descrie comportamentele observate, nu diagnostice: \"Când există mai mult de doi pași consecutivi, pierde firul.\"",
-            "Să anticipeze reacția \"acasă nu este așa\", contextul clasei face simptomele mai vizibile.",
-            "Dacă sugerează o evaluare psihologică, să o prezinte ca resursă, nu ca pedeapsă."
-          ]
-        },
-        {
-          items: [
-            "Probleme disciplinare persistente în ciuda adaptărilor în clasă.",
-            "Semne de excludere socială din partea colegilor.",
-            "Semnale de comorbiditate (anxietate, depresie, tulburare de opoziție)."
-          ]
-        }
-      ]
-    },
+    tdah: { sections: [
+      { items: [
+        "Dificultate în menținerea atenției la sarcini lungi; se pierde în instrucțiunile cu mai mulți pași.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Mișcare constantă: nu stă așezat, se foiește cu mâinile, se ridică fără un motiv aparent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Răspunde înainte ca întrebarea să se termine; îi întrerupe pe colegi și pe cadrul didactic.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Uită materialele, termenele și instrucțiunile date verbal cu câteva minute în urmă: memoria de lucru este suprasolicitată.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Se poate hiperconcentra asupra a ceea ce îl interesează, dând impresia (greșită) că „poate atunci când vrea”; în realitate, performanța variază în funcție de interes și de recompensă.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> lipsă de bună-creștere, lene sau lipsă de caracter: aceste idei greșite stigmatizează și întârzie sprijinul.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nu este</strong> întotdeauna hiperactivitate vizibilă: există o prezentare predominant neatentă, mai frecventă la fete și adesea subdiagnosticată.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Nu se rezolvă</strong> prin „a depune mai mult efort”: dificultatea ține de autoreglarea neurologică, nu de voință.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Fragmentarea instrucțiunilor: câte una pe rând, scrisă pe tablă, cu un timp stabilit; reduce încărcătura asupra memoriei de lucru.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Permiterea mișcării legitime (împărțirea materialelor, ștergerea tablei, ducerea de mesaje).",
+        "Reducerea stimulilor concurenți (un loc departe de fereastră, de ușă, de grupul cel mai zgomotos).",
+        "Întărire pozitivă imediată și frecventă: în ADHD sensibilitatea la recompensă este alterată (aversiune față de așteptare), astfel încât recompensele imediate funcționează mai bine decât cele amânate.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Începeți cu ceea ce face bine elevul: întâlnirea nu poate debuta ca o listă de plângeri, altfel părintele se închide în defensivă.",
+        "Descrieți comportamente observate, nu diagnostice: „când sunt mai mult de doi pași la rând, pierde firul” în loc de „are ADHD”.",
+        "Anticipați reacția „acasă nu este așa”: explicați că, în context de grup și cu cerința unei atenții prelungite în clasă, simptomele devin mai vizibile.",
+        "Dacă sugerați o evaluare, prezentați-o ca pe o resursă, nu ca pe o pedeapsă: „există un sprijin care îl/o poate ajuta mult” în loc de „trebuie să fie evaluat/ă”.",
+      ]},
+      { items: [
+        "Eșec disciplinar persistent în pofida adaptărilor din clasă.",
+        "Semne de excludere socială din partea colegilor.",
+        "Semne de comorbiditate (anxietate, depresie, tulburare opozițională): frecvente în ADHD și care justifică trimiterea spre evaluare.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+    ]},
     dislexia: { sections: [
       { items: [
         "Citește încet și cu efort, cu erori în citirea cuvintelor izolate, chiar și în texte pe care le înțelege bine atunci când sunt ascultate.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -3051,33 +3003,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   hr: {
     tdah: { sections: [
       { items: [
-        "Teškoće održavanja pažnje na dugotrajnim zadacima; gubi nit u uputama s više koraka.",
-        "Stalni nemir, ne može ostati sjediti, fidgetira, ustaje bez razloga.",
-        "Odgovara prije nego što pitanje završi; prekida vrsnjake i nastavnika.",
-        "Zaboravlja materijale, rokove, usmene upute dane nekoliko minuta ranije.",
-        "Može se hiperfokusirati na ono što ga zanima, dajući (pogrešan) dojam da «može kad hoće».",
+        "Poteškoće s održavanjem pažnje pri dugim zadacima; gubi se u uputama s više koraka.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Stalno kretanje — ne sjedi mirno, igra se rukama, ustaje bez vidljivog razloga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Odgovara prije nego što pitanje završi; prekida kolege i nastavnika.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zaboravlja pribor, rokove i upute dane usmeno prije nekoliko minuta — radno pamćenje je preopterećeno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Može se hiperfokusirati na ono što ga zanima, ostavljajući (pogrešan) dojam da „može kad hoće“; zapravo se uspješnost mijenja ovisno o interesu i nagradi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Nije</strong> loše odgajanje, lijenost ni nedostatak karaktera.",
-        "<strong>Nije</strong> uvijek vidljiva hiperaktivnost, postoji ADHD s pretežno nepažnjom (češći kod djevojčica, često nedijagnosticiran).",
-        "<strong>Ne rješava se</strong> «više truda», problem je neurološki, ne motivacijski.",
+        "<strong>Nije</strong> riječ o lošem odgoju, lijenosti ni slabosti karaktera: te pogrešne predodžbe stigmatiziraju i odgađaju podršku.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nije</strong> uvijek vidljiva hiperaktivnost — postoji pretežno nepažljiva prezentacija, češća kod djevojčica i često nedovoljno dijagnosticirana.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Ne rješava se</strong> tako da se „više potrudi“: poteškoća je u neurološkoj samoregulaciji, a ne u volji.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Upute u koracima: jedna po jedna, napisane na ploči, s određenim vremenskim okvirom.",
-        "Dopustiti legitimno kretanje (dijeljenje materijala, poruka pedagogu/psihologu škole).",
-        "Smanjiti konkurentske podražaje (mjesto dalje od prozora, vrata, najglasnije grupe).",
-        "Neposredno pozitivno potkrepljenje, neurološki krug nagrade kraći je kod ADHD-a.",
+        "Rastaviti upute na dijelove: jednu po jednu, zapisanu na ploči, s određenim vremenom — smanjuje opterećenje radnog pamćenja.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Omogućiti dopušteno kretanje (dijeljenje pribora, brisanje ploče, prenošenje poruka).",
+        "Smanjiti konkurentske podražaje (mjesto dalje od prozora, vrata i najbučnije skupine).",
+        "Neposredno i učestalo pozitivno potkrepljenje: kod ADHD-a osjetljivost na nagradu je promijenjena (averzija prema čekanju), pa neposredne nagrade djeluju bolje od odgođenih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Početi s onim što učenik radi dobro, sastanak ne smije početi kao popis pritužbi ili će roditelji postati obrambeni.",
-        "Opisivati opažena ponašanja, ne dijagnoze: «kad ima više od dva koraka zaredom, gubi nit».",
-        "Anticipirati reakciju «kod kuće nije tako», objasniti da grupni kontekst i zahtjev za dugotrajnom pažnjom u učionici čine simptome vidljivijima.",
-        "Ako se predlaže psihologijska procjena, predstaviti je kao resurs, ne kao kaznu: «postoje podrške koje mu mogu puno pomoći».",
+        "Započnite onim što učenik radi dobro — sastanak ne smije otvoriti popisom pritužbi, inače se roditelj obrambeno zatvori.",
+        "Opisujte opažena ponašanja, ne dijagnoze: „kad ima više od dva koraka zaredom, izgubi nit“ umjesto „ima ADHD“.",
+        "Predvidite reakciju „kod kuće nije tako“ — objasnite da skupni kontekst i zahtjev za dugotrajnom pažnjom u razredu čine simptome vidljivijima.",
+        "Ako predlažete procjenu, predstavite je kao podršku, a ne kao kaznu: „postoji podrška koja mu/joj može mnogo pomoći“ umjesto „mora biti pregledan/a“.",
       ]},
       { items: [
-        "Trajne disciplinske poteškoće unatoč prilagodbama u učionici.",
+        "Ustrajne disciplinske poteškoće unatoč prilagodbama u razredu.",
         "Znakovi socijalne isključenosti od strane vršnjaka.",
-        "Znakovi komorbidnosti (anksioznost, depresija, opozicijsko prkosno ponašanje).",
+        "Znakovi komorbiditeta (anksioznost, depresija, prkosno-suprotstavljajući poremećaj) — česti kod ADHD-a i opravdavaju upućivanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -3383,33 +3335,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   cs: {
     tdah: { sections: [
       { items: [
-        "Obtíže s udržením pozornosti při delších úkolech; ztrácí se v pokynech s více kroky.",
-        "Neustálý pohyb, nedokáže zůstat sedět, vrtí se, vstává bez důvodu.",
-        "Odpovídá dříve, než otázka skončí; přerušuje spolužáky a učitele.",
-        "Zapomíná pomůcky, termíny, pokyny sdělené ústně před chvílí.",
-        "Může se hyperfokusovat na něco, co ho zajímá, a tak vytvářet (mylný) dojem, že «umí, když chce».",
+        "Obtíže s udržením pozornosti u dlouhých úkolů; ztrácí se v pokynech o více krocích.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Neustálý pohyb — nevydrží sedět, hraje si s rukama, vstává bez zjevného důvodu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Odpovídá, ještě než otázka skončí; skáče do řeči spolužákům i učiteli.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zapomíná pomůcky, termíny a pokyny sdělené ústně před několika minutami — pracovní paměť je přetížená.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Může se hyperfokusovat na to, co ho zajímá, čímž vyvolává (mylný) dojem, že „dokáže to, když chce“; ve skutečnosti se výkon mění podle zájmu a odměny.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Není</strong> to špatná výchova, lenost ani povahová vada.",
-        "<strong>Není</strong> to vždy viditelná hyperaktivita, existuje ADHD s převážně nepozorností (častější u dívek, často nediagnostikované).",
-        "<strong>Neřeší se</strong> «větším úsilím», problém je neurologický, nikoli motivační.",
+        "<strong>Nejde</strong> o špatnou výchovu, lenost ani slabost charakteru: tyto mylné představy stigmatizují a oddalují podporu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nejde</strong> vždy o viditelnou hyperaktivitu — existuje převážně nepozorná forma, častější u dívek a často poddiagnostikovaná.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Nevyřeší se to</strong> tím, že se „víc snaží“: obtíž spočívá v neurologické seberegulaci, nikoli ve vůli.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pokyny po krocích: jeden po druhém, napsané na tabuli, s určeným časovým rámcem.",
-        "Umožnit legitimní pohyb (rozdávání materiálů, pochůzky k výchovnému poradci).",
-        "Omezit konkurenční podněty (místo dál od okna, dveří, nejhlučnější skupiny).",
-        "Okamžité pozitivní posílení, neurologický cyklus odměny je u ADHD kratší.",
+        "Rozdělit pokyny na části: po jednom, písemně na tabuli, s vymezeným časem — sníží se tím zátěž pracovní paměti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Umožnit legitimní pohyb (rozdávání pomůcek, mazání tabule, vyřizování vzkazů).",
+        "Omezit konkurující podněty (místo dál od okna, dveří a nejhlučnější skupiny).",
+        "Okamžité a časté pozitivní posílení: u ADHD je citlivost na odměnu pozměněná (averze k čekání), proto okamžité odměny fungují lépe než odložené.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Začít tím, co žák dělá dobře, schůzka nesmí začínat výčtem stížností, jinak se rodiče stanou obrannými.",
-        "Popisovat pozorovaná chování, nikoli diagnózy: «když jsou za sebou více než dva kroky, ztratí nit».",
-        "Předem počítat s reakcí «doma to tak není», vysvětlit, že skupinový kontext a nároky na trvalou pozornost ve třídě příznaky zesilují.",
-        "Pokud se navrhuje psychologické vyšetření, představit ho jako zdroj pomoci, ne trest: «je dostupná podpora, která by mu/jí hodně pomohla».",
+        "Začněte tím, co žák dělá dobře — schůzka nemůže začínat seznamem stížností, jinak se rodič defenzivně uzavře.",
+        "Popisujte pozorované chování, nikoli diagnózy: „když jdou za sebou víc než dva kroky, ztratí nit“ místo „má ADHD“.",
+        "Předjímejte reakci „doma to tak není“ — vysvětlete, že skupinové prostředí a nárok na dlouhodobou pozornost ve třídě činí příznaky viditelnějšími.",
+        "Pokud navrhujete vyšetření, představte ho jako pomoc, ne jako trest: „existuje podpora, která mu/jí může hodně pomoci“ místo „musí být vyšetřen/a“.",
       ]},
       { items: [
-        "Přetrvávající kázeňské obtíže navzdory úpravám ve třídě.",
-        "Známky sociálního vyloučení ze strany spolužáků.",
-        "Příznaky komorbidity (úzkost, deprese, porucha opozičního vzdoru).",
+        "Přetrvávající kázeňské problémy navzdory úpravám ve třídě.",
+        "Známky sociálního vyloučení ze strany vrstevníků.",
+        "Známky komorbidity (úzkost, deprese, opoziční vzdorovité chování) — u ADHD časté a odůvodňující odeslání k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -3715,33 +3667,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   sv: {
     tdah: { sections: [
       { items: [
-        "Svårt att hålla uppmärksamheten på längre uppgifter; tappar tråden i instruktioner med flera steg.",
-        "Ständig rörelse, kan inte sitta still, pillar med händerna, reser sig utan anledning.",
-        "Svarar innan frågan är klar; avbryter klasskamrater och lärare.",
-        "Glömmer material, deadlines, muntliga instruktioner som gavs för några minuter sedan.",
-        "Kan hyperfokusera på något som intresserar dem och ge det (felaktiga) intrycket att de «kan när de vill».",
+        "Svårt att hålla kvar uppmärksamheten vid långa uppgifter; tappar tråden vid instruktioner med flera steg.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Ständig rörelse — sitter inte still, pillar med händerna, reser sig utan synbar anledning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Svarar innan frågan är klar; avbryter kamrater och läraren.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Glömmer material, tidsfrister och instruktioner som getts muntligt för några minuter sedan — arbetsminnet är överbelastat.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kan hyperfokusera på det som intresserar och därmed ge det (felaktiga) intrycket att hen ”kan när hen vill”; i själva verket varierar prestationen med intresse och belöning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Det är inte</strong> dålig uppfostran, lathet eller en karaktärsbrist.",
-        "<strong>Det är inte</strong> alltid synlig hyperaktivitet, det finns ADHD med övervägande ouppmärksamhet (vanligare hos flickor, ofta underdiagnostiserad).",
-        "<strong>Det löses inte</strong> med «att anstränga sig mer», problemet är neurologiskt, inte motivationsmässigt.",
+        "<strong>Det är inte</strong> dåligt uppförande, lättja eller karaktärsbrist: dessa missuppfattningar stigmatiserar och fördröjer stödet.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det är inte</strong> alltid synlig hyperaktivitet — det finns en huvudsakligen ouppmärksam form, som är vanligare hos flickor och ofta underdiagnostiserad.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Det löses inte</strong> genom att ”anstränga sig mer”: svårigheten ligger i den neurologiska självregleringen, inte i viljan.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Instruktioner i steg: en i taget, skrivna på tavlan, med en angiven tidsram.",
-        "Tillåt legitimt rörelse (dela ut material, springa ärenden till skolkuratorn).",
-        "Minska konkurrerande stimuli (placera eleven bort från fönstret, dörren och den bullrigaste gruppen).",
-        "Omedelbar positiv förstärkning, det neurologiska belöningscykeln är kortare vid ADHD.",
+        "Dela upp instruktionerna: en i taget, skriftligt på tavlan, med fastställd tid — det minskar belastningen på arbetsminnet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tillåt legitim rörelse (dela ut material, sudda tavlan, springa ärenden).",
+        "Minska konkurrerande stimuli (en plats långt från fönstret, från dörren, från den stökigaste gruppen).",
+        "Omedelbar och frekvent positiv förstärkning: vid ADHD är belöningskänsligheten förändrad (motvilja mot väntan), varför omedelbara belöningar fungerar bättre än fördröjda.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Börja med vad eleven gör bra, mötet får inte börja som en lista med klagomål, annars blir vårdnadshavarna defensiva.",
-        "Beskriv observerade beteenden, inte diagnoser: «när det är fler än två steg i rad tappar de tråden».",
-        "Förutse reaktionen «hemma är det inte så», förklara att gruppkontexten och kravet på uthållig uppmärksamhet i klassrummet gör symptomen mer synliga.",
-        "Om psykologisk utredning föreslås, presentera det som en resurs, inte ett straff: «det finns stöd tillgängligt som skulle kunna hjälpa dem mycket».",
+        "Börja med det eleven gör bra — mötet får inte inledas som en lista med klagomål, annars sluter sig vårdnadshavaren defensivt.",
+        "Beskriv observerade beteenden, inte diagnoser: ”när det är fler än två steg i rad tappar hen tråden” i stället för ”har ADHD”.",
+        "Förekom reaktionen ”hemma är det inte så” — förklara att gruppsammanhanget och kravet på långvarig uppmärksamhet i klassrummet gör symtomen mer synliga.",
+        "Om du föreslår en utredning, presentera den som en resurs, inte som ett straff: ”det finns stöd som kan hjälpa hen mycket” i stället för ”behöver utredas”.",
       ]},
       { items: [
-        "Ihållande disciplinproblem trots anpassningar i klassrummet.",
-        "Tecken på social utestängning från klasskamrater.",
-        "Tecken på samsjuklighet (ångest, depression, trots- och uppförandestörning).",
+        "Ihållande regelbrott trots anpassningar i klassrummet.",
+        "Tecken på social uteslutning av jämnåriga.",
+        "Tecken på samsjuklighet (ångest, depression, trotssyndrom) — vanliga vid ADHD och som motiverar remiss.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -4047,33 +3999,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   da: {
     tdah: { sections: [
       { items: [
-        "Vanskeligheder med at opretholde opmærksomheden ved længere opgaver; mister tråden i instruktioner med flere trin.",
-        "Konstant bevægelse, kan ikke sidde stille, piller ved ting, rejser sig uden grund.",
-        "Svarer inden spørgsmålet er slut; afbryder klassekammerater og læreren.",
-        "Glemmer materialer, deadlines, mundtlige instruktioner givet for få minutter siden.",
-        "Kan hyperfokusere på noget, der interesserer dem, og give det (fejlagtige) indtryk at de «kan, når de vil».",
+        "Svært ved at fastholde opmærksomheden ved lange opgaver; mister tråden ved instruktioner med flere trin.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Konstant bevægelse — bliver ikke siddende, piller ved hænderne, rejser sig uden synlig grund.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Svarer, før spørgsmålet er færdigt; afbryder kammerater og læreren.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Glemmer materialer, frister og instruktioner, der blev givet mundtligt for få minutter siden — arbejdshukommelsen er overbelastet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kan hyperfokusere på det, der interesserer, og dermed give det (forkerte) indtryk, at vedkommende „kan, når han eller hun vil“; i virkeligheden varierer præstationen med interesse og belønning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> dårlig opdragelse, dovenskab eller en karakterfejl.",
-        "<strong>Det er ikke</strong> altid synlig hyperaktivitet, der findes ADHD med overvejende uopmærksomhed (hyppigere hos piger, ofte underdiagnosticeret).",
-        "<strong>Det løses ikke</strong> ved at «prøve hårdere», problemet er neurologisk, ikke motivationsmæssigt.",
+        "<strong>Det er ikke</strong> dårlig opførsel, dovenskab eller karaktersvaghed: disse misforståelser stigmatiserer og forsinker støtten.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> altid synlig hyperaktivitet — der findes en overvejende uopmærksom fremtrædelsesform, som er hyppigere hos piger og ofte underdiagnosticeret.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Det løses ikke</strong> ved at „anstrenge sig mere“: vanskeligheden ligger i den neurologiske selvregulering, ikke i viljen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Opdelte instruktioner: én ad gangen, skrevet på tavlen, med en fastsat tidsramme.",
-        "Tillad legitim bevægelse (uddeling af materialer, ærinder til skolens PPR-vejleder).",
-        "Reducer konkurrerende stimuli (plads væk fra vinduet, døren og den mest støjende gruppe).",
-        "Umiddelbar positiv forstærkning, det neurologiske belønningskredsløb er kortere ved ADHD.",
+        "Opdel instruktionerne: én ad gangen, skriftligt på tavlen, med fastsat tid — det mindsker belastningen af arbejdshukommelsen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tillad legitim bevægelse (dele materialer ud, viske tavlen, gå ærinder).",
+        "Reducer konkurrerende stimuli (en plads langt fra vinduet, fra døren, fra den mest larmende gruppe).",
+        "Øjeblikkelig og hyppig positiv forstærkning: ved ADHD er belønningsfølsomheden ændret (modvilje mod at vente), hvorfor øjeblikkelige belønninger virker bedre end udskudte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Start med, hvad eleven gør godt, mødet må ikke begynde som en liste over klager, ellers bliver forældrene defensive.",
-        "Beskriv observerede adfærd, ikke diagnoser: «når der er mere end to trin i træk, mister de tråden».",
-        "Forudse reaktionen «derhjemme er det ikke sådan», forklar at gruppekonteksten og kravet om vedvarende opmærksomhed i klassen gør symptomerne mere synlige.",
-        "Hvis psykologisk undersøgelse foreslås, præsenter det som en ressource, ikke en straf: «der er støtte tilgængelig, som kan hjælpe dem meget».",
+        "Begynd med det, eleven gør godt — mødet må ikke åbne som en liste af klager, ellers lukker forælderen eller værgen sig defensivt.",
+        "Beskriv observeret adfærd, ikke diagnoser: „når der er mere end to trin i træk, mister han eller hun tråden“ i stedet for „har ADHD“.",
+        "Foregrib reaktionen „derhjemme er det ikke sådan“ — forklar, at gruppesammenhængen og kravet om vedvarende opmærksomhed i klassen gør symptomerne mere synlige.",
+        "Hvis du foreslår en udredning, så fremlæg den som en ressource, ikke som en straf: „der findes støtte, som kan hjælpe ham eller hende meget“ i stedet for „skal udredes“.",
       ]},
       { items: [
-        "Vedvarende disciplinære vanskeligheder trods tilpasninger i klassen.",
-        "Tegn på social udelukkelse fra klassekammerater.",
-        "Tegn på komorbiditet (angst, depression, oppositionel adfærdsforstyrrelse).",
+        "Vedvarende regelbrud trods tilpasninger i klassen.",
+        "Tegn på social udelukkelse fra jævnaldrende.",
+        "Tegn på komorbiditet (angst, depression, oppositionel adfærdsforstyrrelse) — hyppige ved ADHD og som begrunder henvisning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -4379,33 +4331,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   fi: {
     tdah: { sections: [
       { items: [
-        "Vaikeus ylläpitää tarkkaavuutta pitkissä tehtävissä; kadottaa punaisen langan monivaiheisissa ohjeissa.",
-        "Jatkuva liikehdintä, ei pysty istumaan paikallaan, näpräilee, nousee ylös ilman syytä.",
-        "Vastaa ennen kuin kysymys on loppunut; keskeyttää luokkatovereita ja opettajan.",
-        "Unohtaa tarvikkeet, määräajat, suulliset ohjeet, jotka annettiin minuutteja sitten.",
-        "Voi hyperfokusoida kiinnostavaan asiaan antaen (virheellisen) vaikutelman, että «osaa kyllä kun haluaa».",
+        "Vaikeus ylläpitää tarkkaavaisuutta pitkissä tehtävissä; hukkaa ajatuksensa monivaiheisissa ohjeissa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Jatkuva liikehdintä — ei pysy paikallaan, näpertää käsiään, nousee ylös ilman näkyvää syytä.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vastaa ennen kuin kysymys on loppunut; keskeyttää luokkatovereita ja opettajaa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Unohtaa välineet, määräajat ja muutama minuutti sitten suullisesti annetut ohjeet — työmuisti on ylikuormittunut.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Voi hyperkeskittyä siihen, mikä häntä kiinnostaa, antaen (virheellisen) vaikutelman, että „pystyy, kun haluaa“; todellisuudessa suoriutuminen vaihtelee kiinnostuksen ja palkkion mukaan.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Ei ole</strong> huono kasvatus, laiskuus eikä luonteenheikkous.",
-        "<strong>Ei ole</strong> aina näkyvää yliaktiivisuutta, on olemassa pääasiassa tarkkaamattomuus-ADHD (yleisempi tytöillä, usein alidiagnosoitu).",
-        "<strong>Ei ratkea</strong> «yrittämällä enemmän», ongelma on neurologinen, ei motivaatioon liittyvä.",
+        "<strong>Kyse ei ole</strong> huonosta kasvatuksesta, laiskuudesta eikä luonteen puutteesta: nämä virhekäsitykset leimaavat ja viivästyttävät tukea.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Kyse ei ole</strong> aina näkyvästä yliaktiivisuudesta — on olemassa pääosin tarkkaamaton ilmenemismuoto, joka on yleisempi tytöillä ja usein alidiagnosoitu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Se ei ratkea</strong> „yrittämällä enemmän“: vaikeus on neurologisessa itsesäätelyssä, ei tahdossa.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Ohjeet paloina: yksi kerrallaan, kirjoitettuna taululle, selkeällä aikaraamilla.",
-        "Salli laillinen liikkuminen (materiaalien jako, käynti koulun opinto-ohjaajan luona).",
-        "Vähennä kilpailevia ärsykkeitä (paikka kauempana ikkunasta, ovesta ja meluisimmasta ryhmästä).",
-        "Välitön positiivinen vahvistaminen, neurobiologinen palkitsemissykli on ADHD:ssa lyhyempi.",
+        "Pilko ohjeet: yksi kerrallaan, kirjallisesti taululle, määrätyllä ajalla — se vähentää työmuistin kuormitusta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Salli perusteltu liikkuminen (jaa välineitä, pyyhi taulu, vie viestejä).",
+        "Vähennä kilpailevia ärsykkeitä (paikka kaukana ikkunasta, ovesta, meluisimmasta ryhmästä).",
+        "Välitön ja toistuva myönteinen vahvistus: ADHD:ssä palkkioherkkyys on muuttunut (odottamisen vastenmielisyys), joten välittömät palkkiot toimivat paremmin kuin viivästetyt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Aloita siitä, mitä oppilas tekee hyvin, kokous ei voi alkaa valitusten luettelolla, muuten huoltajat käyvät puolustuskannalle.",
-        "Kuvaile havaittua käyttäytymistä, ei diagnooseja: «kun vaiheita on enemmän kuin kaksi peräkkäin, lanka katkeaa».",
-        "Varaudu reaktioon «kotona ei ole niin», selitä, että ryhmäkonteksti ja jatkuvan tarkkaavuuden vaatimus luokassa tekevät oireet näkyvämmiksi.",
-        "Jos ehdotat psykologista arviointia, esitä se resurssina, ei rangaistuksena: «on olemassa tukea, josta voisi olla paljon apua».",
+        "Aloita siitä, mitä oppilas tekee hyvin — tapaaminen ei voi avautua valitusten luettelona, tai huoltaja sulkeutuu puolustautuen.",
+        "Kuvaile havaittua käyttäytymistä, ei diagnooseja: „kun peräkkäin on enemmän kuin kaksi vaihetta, hän kadottaa langan“ eikä „hänellä on ADHD“.",
+        "Ennakoi reaktio „kotona ei ole näin“ — selitä, että ryhmäkonteksti ja luokassa vaadittu pitkäkestoinen tarkkaavaisuus tekevät oireet näkyvämmiksi.",
+        "Jos ehdotat arviointia, esitä se voimavarana, ei rangaistuksena: „on tukea, joka voi auttaa häntä paljon“ eikä „hänet on arvioitava“.",
       ]},
       { items: [
-        "Jatkuvat kurinpidolliset vaikeudet luokkahuonemuutoksista huolimatta.",
-        "Merkkejä sosiaalisesta syrjäytymisestä luokkatovereiden taholta.",
-        "Merkkejä liitännäissairauksista (ahdistus, masennus, uhmakkuushäiriö).",
+        "Jatkuvat kurinpitorikkomukset luokassa tehdyistä mukautuksista huolimatta.",
+        "Vertaisten taholta tulevan sosiaalisen syrjäytymisen merkit.",
+        "Liitännäissairauksien merkit (ahdistus, masennus, uhmakkuushäiriö) — yleisiä ADHD:ssä ja perustelevat lähetteen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -4712,33 +4664,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   sk: {
     tdah: { sections: [
       { items: [
-        "Ťažkosti so sústredením pri dlhých úlohách; stráca sa v pokynoch s viacerými krokmi.",
-        "Neustály pohyb, nevydrží sedieť, pohráva sa s rukami, vstáva bez zjavného dôvodu.",
-        "Odpovedá skôr, ako otázka skončí; vyrušuje spolužiakov a učiteľa.",
-        "Zabúda pomôcky, termíny, pokyny dané ústne pred niekoľkými minútami.",
-        "Môže sa hyperfokusovať na niečo, čo ho zaujíma, čím vyvoláva (nesprávny) dojem, že \"môže, keď chce\".",
+        "Ťažkosti s udržaním pozornosti pri dlhých úlohách; stráca sa v pokynoch o viacerých krokoch.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Neustály pohyb — nevydrží sedieť, hrá sa s rukami, vstáva bez zjavného dôvodu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Odpovedá ešte predtým, než sa otázka skončí; skáče do reči spolužiakom aj učiteľovi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zabúda pomôcky, termíny a pokyny zadané ústne pred niekoľkými minútami — pracovná pamäť je preťažená.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Môže sa hyperfokusovať na to, čo ho zaujíma, čím vyvoláva (mylný) dojem, že „dokáže to, keď chce“; v skutočnosti sa výkon mení podľa záujmu a odmeny.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Nie je to</strong> zlé vychование, lenivosť ani nedostatok charakteru.",
-        "<strong>Nie je to</strong> vždy viditeľná hyperaktivita, existuje ADHD s prevažujúcou nepozornosťou (častejšia u dievčat, často poddiagnostikovaná).",
-        "<strong>Nevyrieši sa</strong> tým, že sa bude viac snažiť, problém je neurologický, nie motivačný.",
+        "<strong>Nejde</strong> o zlú výchovu, lenivosť ani slabosť charakteru: tieto mylné predstavy stigmatizujú a oddiaľujú podporu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nejde</strong> vždy o viditeľnú hyperaktivitu — existuje prevažne nepozorná forma, častejšia u dievčat a často poddiagnostikovaná.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Nevyrieši sa to</strong> tým, že sa „viac snaží“: ťažkosť spočíva v neurologickej sebaregulácii, nie vo vôli.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Rozdeľovanie pokynov: jeden po druhom, písomne na tabuli, s určeným časom.",
-        "Umožniť legitímny pohyb (rozdávanie materiálov, správa pre školského psychológa).",
-        "Znížiť konkurenčné podnety (miesto ďaleko od okna, dverí, najhlučnejšej skupiny).",
-        "Okamžitá pozitívna spätná väzba, neurologický cyklus odmeny je pri ADHD kratší.",
+        "Rozdeliť pokyny na časti: po jednom, písomne na tabuli, s vymedzeným časom — zníži sa tým záťaž pracovnej pamäte.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Umožniť legitímny pohyb (rozdávanie pomôcok, zotieranie tabule, vybavovanie odkazov).",
+        "Obmedziť konkurujúce podnety (miesto ďalej od okna, dverí a najhlučnejšej skupiny).",
+        "Okamžité a časté pozitívne posilnenie: pri ADHD je citlivosť na odmenu zmenená (averzia k čakaniu), preto okamžité odmeny fungujú lepšie než odložené.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Začať tým, čo žiak robí dobre, stretnutie nemôže začínať ako zoznam sťažností.",
-        "Opisovať pozorované správanie, nie diagnózy: \"keď sú viac ako dva kroky za sebou, stratí nit\".",
-        "Predvídať reakciu \"doma to tak nie je\", skupinový kontext robí príznaky viditeľnejšími.",
-        "Ak navrhujete psychologické vyšetrenie, prezentujte ho ako pomoc, nie trest.",
+        "Začnite tým, čo žiak robí dobre — stretnutie nemôže začínať zoznamom sťažností, inak sa rodič defenzívne uzavrie.",
+        "Opisujte pozorované správanie, nie diagnózy: „keď idú za sebou viac než dva kroky, stratí niť“ namiesto „má ADHD“.",
+        "Predvídajte reakciu „doma to tak nie je“ — vysvetlite, že skupinové prostredie a nárok na dlhodobú pozornosť v triede robia príznaky viditeľnejšími.",
+        "Ak navrhujete vyšetrenie, predstavte ho ako pomoc, nie ako trest: „existuje podpora, ktorá mu/jej môže veľmi pomôcť“ namiesto „musí byť vyšetrený/á“.",
       ]},
       { items: [
         "Pretrvávajúce disciplinárne problémy napriek úpravám v triede.",
-        "Príznaky sociálneho vylúčenia zo strany spolužiakov.",
-        "Príznaky komorbidity (úzkosť, depresia, porucha opozičného vzdoru).",
+        "Známky sociálneho vylúčenia zo strany rovesníkov.",
+        "Známky komorbidity (úzkosť, depresia, opozičné vzdorovité správanie) — pri ADHD časté a odôvodňujúce odoslanie k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -5042,33 +4994,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   hu: {
     tdah: { sections: [
       { items: [
-        "Nehézségek a figyelem fenntartásában hosszú feladatoknál; elveszíti a fonalat többlépéses utasításoknál.",
-        "Állandó mozgás, nem marad ülve, keze folyamatosan mozog, látszólagos ok nélkül feláll.",
-        "Válaszol, mielőtt a kérdés befejeződne; megszakítja a társakat és a tanárt.",
-        "Elfelejti a felszerelést, a határidőket, a percekkel korábban szóban adott utasításokat.",
-        "Képes hiperfókuszálni az érdeklődési körébe eső dolgokra, ezzel (tévesen) azt a benyomást keltve, hogy „meg tudja csinálni, ha akar”.",
+        "Nehézség a figyelem fenntartásában hosszú feladatok során; eltéved a több lépésből álló utasításokban.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Állandó mozgás — nem marad ülve, babrál a kezével, látható ok nélkül feláll.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "A kérdés befejezése előtt válaszol; félbeszakítja a társait és a pedagógust.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Elfelejti a felszereléseket, a határidőket és a néhány perce szóban adott utasításokat — a munkamemória túlterhelt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Túlzottan rá tud összpontosítani arra, ami érdekli, azt a (téves) benyomást keltve, hogy „meg tudja csinálni, ha akarja”; valójában a teljesítménye az érdeklődéstől és a jutalomtól függően ingadozik.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Nem</strong> rossz neveltetés, lustaság vagy jellemhiba.",
-        "<strong>Nem</strong> mindig látható hiperaktivitás, létezik a főként figyelemhiányos ADHD (lányoknál gyakoribb, sokszor aluldiagnosztizált).",
-        "<strong>Nem oldódik meg</strong> azzal, hogy „jobban próbálkozik\", a probléma neurológiai, nem motivációs.",
+        "<strong>Nem</strong> rossz neveltetés, lustaság vagy jellemhiba: ezek a téves elképzelések megbélyegeznek és késleltetik a támogatást.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nem</strong> mindig látható hiperaktivitás — létezik egy túlnyomórészt figyelemzavaros megjelenési forma, amely gyakoribb a lányoknál és gyakran aluldiagnosztizált.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Nem</strong> oldódik meg azzal, hogy „jobban igyekszik”: a nehézség a neurológiai önszabályozásban van, nem az akaratban.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Lépésenként adott utasítások: egyszerre egy, táblára írva, meghatározott időkerettel.",
-        "Legális mozgás engedélyezése (anyagok osztogatása, üzenet az iskolapszichológusnak).",
-        "Versengő ingerek csökkentése (ülőhely az ablaktól, ajtótól és a leghangosabb csoporttól távolabb).",
-        "Azonnali pozitív megerősítés, a neurológiai jutalmazási ciklus az ADHD-ban rövidebb.",
+        "Bontsa fel az utasításokat: egyet egyszerre, írásban a táblán, meghatározott idővel — ez csökkenti a munkamemória terhelését.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Engedélyezzen jogos mozgást (anyagok kiosztása, a tábla letörlése, üzenetek elvitele).",
+        "Csökkentse a versengő ingereket (ablaktól, ajtótól, a leghangosabb csoporttól távol eső hely).",
+        "Azonnali és gyakori pozitív megerősítés: az ADHD esetében a jutalomérzékenység megváltozott (várakozás iránti averzió), ezért az azonnali jutalmak jobban működnek, mint a késleltetettek.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Kezdje azzal, amit a tanuló jól csinál, a megbeszélés nem kezdődhet panaszlistával.",
-        "Megfigyelt viselkedést írjon le, ne diagnózist: „ha kettőnél több lépés van egymás után, elveszíti a fonalat\".",
-        "Számítson a „otthon nem így van\" reakcióra, a csoportos kontextus láthatóbbá teszi a tüneteket.",
-        "Ha pszichológiai vizsgálatot javasol, mutassa be segítségként, ne büntetésként.",
+        "Kezdje azzal, amit a tanuló jól csinál — a megbeszélés nem nyílhat meg panaszok listájaként, különben a szülő/gondviselő védekezően bezárkózik.",
+        "Megfigyelt viselkedéseket írjon le, ne diagnózisokat: „amikor kettőnél több egymást követő lépés van, elveszíti a fonalat” a „ADHD-s” helyett.",
+        "Számítson az „otthon nem ilyen” reakcióra — magyarázza el, hogy a csoportos környezet és az osztályban szükséges tartós figyelem teszi láthatóbbá a tüneteket.",
+        "Ha vizsgálatot javasol, mutassa be erőforrásként, ne büntetésként: „van olyan támogatás, amely sokat segíthet neki” a „ki kell vizsgáltatni” helyett.",
       ]},
       { items: [
-        "Tartós fegyelmezési nehézségek az osztálytermi adaptációk ellenére.",
-        "Kortársakkal való szociális kirekesztés jelei.",
-        "Komorbiditás jelei (szorongás, depresszió, oppozíciós zavar).",
+        "Tartós fegyelmi nehézségek a tantermi alkalmazkodások ellenére.",
+        "A társak általi szociális kirekesztés jelei.",
+        "A komorbiditás jelei (szorongás, depresszió, oppozíciós zavar) — gyakoriak az ADHD-ban, és indokolják a továbbirányítást.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -5372,33 +5324,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   el: {
     tdah: { sections: [
       { items: [
-        "Δυσκολία στη διατήρηση της προσοχής σε μακροχρόνιες εργασίες· χάνεται σε οδηγίες με πολλά βήματα.",
-        "Συνεχής κίνηση, δεν μένει καθισμένος/η, ανησυχεί, σηκώνεται χωρίς φανερό λόγο.",
-        "Απαντά πριν ολοκληρωθεί η ερώτηση· διακόπτει συμμαθητές και εκπαιδευτικό.",
-        "Ξεχνά υλικά, προθεσμίες, οδηγίες που δόθηκαν προφορικά λίγα λεπτά πριν.",
-        "Μπορεί να υπερεστιάζει σε κάτι που το ενδιαφέρει, δίνοντας την (εσφαλμένη) εντύπωση ότι «τα καταφέρνει όταν θέλει».",
+        "Δυσκολία στη διατήρηση της προσοχής σε μακροσκελείς εργασίες· χάνεται σε οδηγίες με πολλά βήματα.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Συνεχής κίνηση — δεν κάθεται, κουνά τα χέρια, σηκώνεται χωρίς εμφανή λόγο.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Απαντά πριν ολοκληρωθεί η ερώτηση· διακόπτει συμμαθητές και τον εκπαιδευτικό.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Ξεχνά υλικά, προθεσμίες και οδηγίες που δόθηκαν προφορικά πριν από λίγα λεπτά — η εργαζόμενη μνήμη είναι υπερφορτωμένη.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Μπορεί να υπερεστιάζει σε ό,τι τον ενδιαφέρει, δίνοντας τη (λανθασμένη) εντύπωση ότι «μπορεί όταν θέλει»· στην πραγματικότητα, η επίδοση μεταβάλλεται ανάλογα με το ενδιαφέρον και την ανταμοιβή.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> κακή συμπεριφορά, τεμπελιά ή έλλειψη χαρακτήρα.",
-        "<strong>Δεν είναι</strong> πάντα ορατή υπερκινητικότητα, υπάρχει ΔΕΠΥ κυρίως απροσεξίας (συχνότερη στα κορίτσια, συχνά υποδιαγνωσμένη).",
-        "<strong>Δεν λύνεται</strong> με «περισσότερη προσπάθεια», το πρόβλημα είναι νευρολογικό, όχι κινητοποιητικό.",
+        "<strong>Δεν είναι</strong> κακή ανατροφή, τεμπελιά ούτε έλλειψη χαρακτήρα: αυτές οι εσφαλμένες αντιλήψεις στιγματίζουν και καθυστερούν την υποστήριξη.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Δεν είναι</strong> πάντοτε ορατή υπερκινητικότητα — υπάρχει μια κατά κύριο λόγο απρόσεκτη μορφή εκδήλωσης, συχνότερη στα κορίτσια και συχνά υποδιαγνωσμένη.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Δεν λύνεται</strong> με το «να προσπαθήσει περισσότερο»: η δυσκολία βρίσκεται στη νευρολογική αυτορρύθμιση, όχι στη βούληση.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Κατατμημένες οδηγίες: μία κάθε φορά, γραπτά στον πίνακα, με καθορισμένο χρόνο.",
-        "Να επιτρέπεται η νόμιμη κίνηση (διανομή υλικών, μήνυμα στον σχολικό ψυχολόγο).",
-        "Μείωση ανταγωνιστικών ερεθισμάτων (θέση μακριά από παράθυρο, πόρτα, πιο θορυβώδη ομάδα).",
-        "Άμεση θετική ενίσχυση, ο νευρολογικός κύκλος ανταμοιβής είναι πιο σύντομος στη ΔΕΠΥ.",
+        "Κατάτμηση των οδηγιών: μία κάθε φορά, γραπτά στον πίνακα, με καθορισμένο χρόνο — μειώνει το φορτίο στην εργαζόμενη μνήμη.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Επιτρέψτε νόμιμη κίνηση (μοίρασμα υλικών, καθάρισμα του πίνακα, μεταφορά μηνυμάτων).",
+        "Μειώστε τα ανταγωνιστικά ερεθίσματα (θέση μακριά από το παράθυρο, την πόρτα, την πιο θορυβώδη ομάδα).",
+        "Άμεση και συχνή θετική ενίσχυση: στη ΔΕΠΥ η ευαισθησία στην ανταμοιβή είναι αλλοιωμένη (αποστροφή προς την αναμονή), επομένως οι άμεσες ανταμοιβές λειτουργούν καλύτερα από τις μεταγενέστερες.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Να ξεκινάτε με ό,τι κάνει καλά ο μαθητής, η συνάντηση δεν μπορεί να αρχίζει ως κατάλογος παραπόνων.",
-        "Να περιγράφετε παρατηρούμενες συμπεριφορές, όχι διαγνώσεις: «όταν υπάρχουν πάνω από δύο βήματα, χάνει το νήμα».",
-        "Να προβλέπετε την αντίδραση «στο σπίτι δεν είναι έτσι», το ομαδικό πλαίσιο κάνει τα συμπτώματα πιο ορατά.",
-        "Αν προτείνετε ψυχολογική αξιολόγηση, παρουσιάστε την ως πόρο, όχι ως τιμωρία.",
+        "Ξεκινήστε από αυτό που κάνει καλά ο μαθητής — η συνάντηση δεν μπορεί να ανοίγει σαν κατάλογος παραπόνων, αλλιώς ο γονέας/κηδεμόνας κλείνεται αμυντικά.",
+        "Περιγράψτε συμπεριφορές που παρατηρήθηκαν, όχι διαγνώσεις: «όταν υπάρχουν περισσότερα από δύο διαδοχικά βήματα, χάνει τον ειρμό» αντί για «έχει ΔΕΠΥ».",
+        "Προβλέψτε την αντίδραση «στο σπίτι δεν είναι έτσι» — εξηγήστε ότι το πλαίσιο της ομάδας και η απαίτηση παρατεταμένης προσοχής στην τάξη καθιστούν τα συμπτώματα πιο ορατά.",
+        "Αν προτείνετε αξιολόγηση, παρουσιάστε την ως πόρο, όχι ως τιμωρία: «υπάρχει υποστήριξη που μπορεί να τον/την βοηθήσει πολύ» αντί για «πρέπει να αξιολογηθεί».",
       ]},
       { items: [
-        "Επίμονη πειθαρχική αποτυχία παρά τις προσαρμογές στην τάξη.",
-        "Συμπτώματα κοινωνικής αποκλεισμού από τους συνομηλίκους.",
-        "Ενδείξεις συννοσηρότητας (άγχος, κατάθλιψη, διαταραχή εναντιωματικής πρόκλησης).",
+        "Επίμονη παραβατική συμπεριφορά παρά τις προσαρμογές στην τάξη.",
+        "Σημάδια κοινωνικού αποκλεισμού από τους συνομηλίκους.",
+        "Σημάδια συννοσηρότητας (άγχος, κατάθλιψη, εναντιωματική διαταραχή) — συχνά στη ΔΕΠΥ και τα οποία δικαιολογούν παραπομπή.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -5703,33 +5655,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   bg: {
     tdah: { sections: [
       { items: [
-        "Затруднения в поддържането на вниманието при дълги задачи; губи нишката при инструкции с много стъпки.",
-        "Постоянно движение, не може да остане на стол, мести ръцете си, изправя се без видима причина.",
-        "Отговаря преди въпросът да е приключил; прекъсва съучениците и учителя.",
-        "Забравя материали, срокове, инструкции, дадени устно преди минути.",
-        "Може да хиперфокусира върху нещо, което го интересува, давайки (погрешното) впечатление, че \"може, когато иска\".",
+        "Затруднение да задържи вниманието при дълги задачи; губи се при инструкции с няколко стъпки.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Постоянно движение — не седи мирно, играе си с ръцете, става без видима причина.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Отговаря, преди въпросът да е завършил; прекъсва съучениците и учителя.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Забравя пособия, срокове и инструкции, дадени устно преди няколко минути — работната памет е претоварена.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Може да се хиперфокусира върху онова, което го интересува, оставяйки (погрешното) впечатление, че „може, когато поиска“; всъщност представянето се променя в зависимост от интереса и наградата.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Не е</strong> лошо възпитание, мързел или липса на характер.",
-        "<strong>Не е</strong> винаги видима хиперактивност, съществува ADHD предимно с разсеяност (по-честа при момичета, често неразпозната).",
-        "<strong>Не се решава</strong> с \"повече старание\", проблемът е неврологичен, не мотивационен.",
+        "<strong>Не е</strong> лошо възпитание, мързел или липса на характер: тези погрешни схващания стигматизират и забавят подкрепата.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Не е</strong> винаги видима хиперактивност — съществува предимно невнимателна форма, по-честа при момичетата и често недостатъчно диагностицирана.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Не се решава</strong> с „повече усилия“: затруднението е в неврологичната саморегулация, а не във волята.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Разбити инструкции: по една наведнъж, писмено на дъската, с определено време.",
-        "Разрешаване на легитимно движение (раздаване на материали, съобщение до училищния психолог).",
-        "Намаляване на конкурентни стимули (място далеч от прозореца, вратата, най-шумната група).",
-        "Незабавно положително подкрепление, неврологичният цикъл на награда е по-кратък при ADHD.",
+        "Разделяне на инструкциите на части: по една наведнъж, записани на дъската, с определено време — намалява натоварването върху работната памет.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Позволяване на допустимо движение (раздаване на материали, изтриване на дъската, изпълняване на поръчки).",
+        "Намаляване на конкуриращите стимули (място далеч от прозореца, вратата и най-шумната група).",
+        "Незабавно и често положително подкрепление: при ADHD чувствителността към наградата е променена (отвращение към чакането), затова незабавните награди действат по-добре от отложените.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Започнете с това, което ученикът прави добре, срещата не може да започва като списък от оплаквания.",
-        "Описвайте наблюдавани поведения, не диагнози: \"когато има повече от две стъпки последователно, губи нишката\".",
-        "Предвидете реакцията \"у дома не е така\", груповият контекст прави симптомите по-видими.",
-        "Ако предлагате психологическа оценка, представете я като ресурс, не като наказание.",
+        "Започнете с това, което ученикът прави добре — срещата не може да започва със списък от оплаквания, иначе родителят се затваря отбранително.",
+        "Описвайте наблюдавани поведения, а не диагнози: „когато има повече от две стъпки последователно, губи нишката“ вместо „има ADHD“.",
+        "Предвиждайте реакцията „вкъщи не е така“ — обяснете, че груповият контекст и изискването за продължително внимание в класната стая правят симптомите по-видими.",
+        "Ако предлагате оценяване, представете го като ресурс, а не като наказание: „има подкрепа, която може много да му/ѝ помогне“ вместо „трябва да бъде оценен/а“.",
       ]},
       { items: [
-        "Постоянен дисциплинарен неуспех въпреки адаптациите в класа.",
-        "Симптоми на социално изключване от страна на връстниците.",
-        "Признаци на коморбидност (тревожност, депресия, опозиционно разстройство).",
+        "Постоянни дисциплинарни проблеми въпреки адаптациите в класната стая.",
+        "Признаци на социално изключване от страна на връстниците.",
+        "Признаци на коморбидност (тревожност, депресия, опозиционно-предизвикателно разстройство) — чести при ADHD и обосноваващи насочване към специалист.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -6033,33 +5985,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   lt: {
     tdah: { sections: [
       { items: [
-        "Sunkumai išlaikant dėmesį atliekant ilgas užduotis; pasisekima nutrūksta, kai instrukcijose yra daug žingsnių.",
-        "Nuolatinis judėjimas, nesėdi ramiai, judina rankas, atsistoja be aiškios priežasties.",
-        "Atsako prieš baigiantis klausimui; pertraukia bendraklasius ir mokytoją.",
-        "Pamiršta priemones, terminus, prieš kelias minutes žodžiu duotas instrukcijas.",
-        "Gali hiperfokusuotis į tai, kas jį domina, sudarydamas (klaidingą) įspūdį, kad \"gali, kai nori\".",
+        "Sunkiai išlaiko dėmesį atliekant ilgas užduotis; pasimeta nurodymuose, kuriuose yra keli žingsniai.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Nuolatinis judėjimas — nenusėdi vietoje, kruta rankomis, atsistoja be aiškios priežasties.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Atsako nepalaukęs, kol baigsis klausimas; pertraukia bendraklasius ir mokytoją.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Pamiršta priemones, terminus ir prieš kelias minutes žodžiu duotus nurodymus — darbinė atmintis yra perkrauta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Gali itin susikaupti ties tuo, kas jį domina, sukurdamas (klaidingą) įspūdį, kad „sugeba, kai nori“; iš tikrųjų rezultatai kinta priklausomai nuo susidomėjimo ir atlygio.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> blogas elgesys, tingumas ar charakterio trūkumas.",
-        "<strong>Tai nėra</strong> visada matoma hiperaktyvumas, egzistuoja daugiausia dėmesio stokos ADHD (dažnesnė mergaitėms, dažnai nediagnozuojama).",
-        "<strong>To neišsprendžia</strong> \"daugiau stengtis\", problema yra neurologinė, ne motyvacinė.",
+        "<strong>Tai nėra</strong> blogas auklėjimas, tingumas ar charakterio stoka: šios klaidingos nuostatos stigmatizuoja ir vilkina pagalbą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tai nėra</strong> visada matomas hiperaktyvumas — esama vyraujančiai nedėmesingos raiškos, dažnesnės tarp mergaičių ir neretai per mažai diagnozuojamos.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Tai neišsprendžiama</strong> raginimu „labiau pasistengti“: sunkumas slypi neurologinėje savireguliacijoje, o ne valioje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Laipsniškos instrukcijos: po vieną, raštu ant lentos, su nustatytu laiku.",
-        "Leisti teisėtą judėjimą (dalinti medžiagas, žinutė mokyklos psichologui).",
+        "Skaidyti nurodymus: po vieną, užrašant ant lentos, su nustatytu laiku — taip mažinama darbinės atminties apkrova.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Leisti pateisinamą judėjimą (dalyti priemones, valyti lentą, nunešti žinutę).",
         "Mažinti konkuruojančius dirgiklius (vieta toliau nuo lango, durų, triukšmingiausios grupės).",
-        "Greitas teigiamas pastiprinimas, neurologinis atlygio ciklas ADHD yra trumpesnis.",
+        "Neatidėliotinas ir dažnas teigiamas paskatinimas: sergant ADHD jautrumas atlygiui yra pakitęs (laukimo vengimas), todėl neatidėliotinas atlygis veikia geriau nei atidėtas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Pradėkite nuo to, ką mokinys daro gerai, susitikimas negali prasidėti kaip skundų sąrašas.",
-        "Aprašykite stebimus elgesio veiksmus, o ne diagnozes: \"kai yra daugiau nei du žingsniai iš eilės, pameta siūlą\".",
-        "Numatykite reakciją \"namuose taip nėra\", grupinis kontekstas simptomus daro matomesnius.",
-        "Jei siūlote psichologinį įvertinimą, pateikite jį kaip išteklių, o ne bausmę.",
+        "Pradėti nuo to, ką mokinys daro gerai — susitikimas negali prasidėti nuo skundų sąrašo, antraip tėvai (globėjai) gynybiškai užsisklendžia.",
+        "Apibūdinti pastebėtą elgesį, o ne diagnozes: „kai iš eilės būna daugiau nei du žingsniai, jis pameta giją“, o ne „jis turi ADHD“.",
+        "Numatyti reakciją „namuose taip nebūna“ — paaiškinti, kad grupinis kontekstas ir reikalavimas ilgai išlaikyti dėmesį klasėje padaro simptomus labiau matomus.",
+        "Jei siūloma įvertinimas, pateikti jį kaip pagalbą, o ne kaip bausmę: „yra pagalba, kuri jam (jai) gali labai padėti“, o ne „jį (ją) reikia įvertinti“.",
       ]},
       { items: [
-        "Nuolatiniai drausminiai sunkumai, nepaisant adaptacijų klasėje.",
-        "Socialinės izoliacijos nuo bendraamžių požymiai.",
-        "Gretutinių sutrikimų požymiai (nerimas, depresija, opozicinis iššūkio sutrikimas).",
+        "Nuolatiniai drausmės pažeidimai nepaisant pritaikymų klasėje.",
+        "Bendraamžių socialinės atskirties požymiai.",
+        "Gretutinių sutrikimų požymiai (nerimas, depresija, opozicinis neklusnumas) — dažni sergant ADHD ir pateisinantys nukreipimą specialistui.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -6364,33 +6316,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   lv: {
     tdah: { sections: [
       { items: [
-        "Grūtības uzturēt uzmanību ilgos uzdevumos; pazaudē pavedienu vairākpakāpju norādījumos.",
-        "Pastāvīga kustīgums, nevar palikt sēdus, darbina rokas, pieceļas bez redzama iemesla.",
-        "Atbild, pirms jautājums pabeigts; pārtrauc klasesbiedrus un skolotāju.",
-        "Aizmirst materiālus, termiņus, mutiski sniegtos norādījumus, kas doti tikai dažas minūtes iepriekš.",
-        "Var hiper-koncentrēties uz interesējošo tēmu, radot (kļūdainu) iespaidu, ka viņš var, ja vēlas.",
+        "Grūtības noturēt uzmanību ilgstošos uzdevumos; apjūk norādījumos, kuros ir vairāki soļi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Pastāvīga kustēšanās — nesēž mierā, kustina rokas, pieceļas bez redzama iemesla.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Atbild, pirms jautājums ir beidzies; pārtrauc klasesbiedrus un skolotāju.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Aizmirst piederumus, termiņus un mutiski pirms dažām minūtēm dotus norādījumus — darba atmiņa ir pārslogota.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Var pārmērīgi koncentrēties uz to, kas viņu interesē, radot (maldīgu) iespaidu, ka „spēj, kad grib“; patiesībā sniegums mainās atkarībā no intereses un atlīdzības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Tā nav</strong> slinkums, nekārtīgums vai rakstura trūkums.",
-        "<strong>Tā nav</strong> vienmēr redzama hiperaktivitāte, pastāv galvenokārt uzmanības deficīta ADHD (biežāks meitenēm, bieži nediagnosticēts).",
-        "<strong>To neatrisina</strong> lielākas pūles, problēma ir neiroloģiska, ne motivācijas.",
+        "<strong>Tā nav</strong> slikta audzināšana, slinkums vai rakstura trūkums: šie maldīgie priekšstati stigmatizē un kavē atbalstu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tā ne vienmēr</strong> ir redzama hiperaktivitāte — pastāv pārsvarā neuzmanīga izpausme, kas biežāka meitenēm un bieži vien tiek nepietiekami diagnosticēta.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>To neatrisina</strong> ar „vairāk pacensties“: grūtības slēpjas neiroloģiskajā paškontrolē, nevis gribasspēkā.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Dalīti norādījumi: viens uzreiz, uzrakstīts uz tāfeles, ar noteiktu laika ietvaru.",
-        "Atļaut likumīgu kustību (materiālu izdalīšana, tāfeles tīrīšana, ziņas pie skolas psihologam).",
-        "Samazināt konkurējošos stimulus (sēdvieta tālu no loga, durvīm, trokšņainākās grupas).",
-        "Tūlītēja pozitīva pastiprinājums, neironu atalgojuma cikls ADHD gadījumā ir īsāks.",
+        "Sadalīt norādījumus: pa vienam, rakstiski uz tāfeles, ar noteiktu laiku — tas samazina slodzi uz darba atmiņu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Atļaut pamatotu kustēšanos (izdalīt piederumus, noslaucīt tāfeli, aiznest ziņu).",
+        "Samazināt konkurējošos kairinātājus (vieta tālāk no loga, durvīm, trokšņainākās grupas).",
+        "Tūlītējs un biežs pozitīvs pastiprinājums: AUDH gadījumā jutība pret atlīdzību ir izmainīta (gaidīšanas nepatika), tāpēc tūlītējas atlīdzības darbojas labāk nekā atliktas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Sākt ar to, ko skolēns dara labi, tikšanās nedrīkst sākties kā sūdzību saraksts, pretējā gadījumā vecāki/aizbildņi kļūs aizsargāti.",
-        "Aprakstīt novērotās uzvedības, nevis diagnozes: 'kad ir vairāk par diviem secīgiem soļiem, viņš pazaudē pavedienu'.",
-        "Paredzēt reakciju 'mājās tā nav', izskaidrot, ka grupas konteksts un prasība pēc ilgstošas uzmanības padarītu simptomus redzamākus.",
-        "Ja ieteikt psiholoģisko izvērtēšanu, uzskatīt to par resursu, nevis sodu: 'ir pieejams atbalsts, kas varētu ļoti palīdzēt'.",
+        "Sākt ar to, ko skolēns dara labi — sapulce nedrīkst sākties kā sūdzību saraksts, citādi vecāks (aizbildnis) aizvērsies aizsardzībā.",
+        "Aprakstīt novēroto uzvedību, nevis diagnozes: „kad pēc kārtas ir vairāk nekā divi soļi, viņš pazaudē domas pavedienu“, nevis „viņam ir AUDH“.",
+        "Paredzēt reakciju „mājās tā nav“ — izskaidrot, ka grupas konteksts un prasība ilgstoši noturēt uzmanību klasē padara simptomus redzamākus.",
+        "Ja ierosina izvērtēšanu, piedāvāt to kā resursu, nevis kā sodu: „ir atbalsts, kas viņam (viņai) var ļoti palīdzēt“, nevis „viņš (viņa) ir jāizvērtē“.",
       ]},
       { items: [
-        "Pastāvīgas disciplīnas grūtības, neraugoties uz klases adaptācijām.",
-        "Sociālās atstumšanas pazīmes no klasesbiedru puses.",
-        "Komorbīdu pazīmes (trauksme, depresija, pretestības traucējumi).",
+        "Pastāvīgi disciplīnas pārkāpumi, neraugoties uz pielāgojumiem klasē.",
+        "Vienaudžu sociālas atstumšanas pazīmes.",
+        "Komorbiditātes pazīmes (trauksme, depresija, opozicionāri izaicinoša uzvedība) — biežas AUDH gadījumā un kas pamato nosūtīšanu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -6691,33 +6643,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   et: {
     tdah: { sections: [
       { items: [
-        "Raskused tähelepanu hoidmisega pikkades ülesannetes; kaotab lõnga mitmeastmelistes juhistes.",
-        "Pidev liikumine, ei suuda paigal istuda, sorb kätega, tõuseb püsti ilma nähtava põhjuseta.",
-        "Vastab enne, kui küsimus on lõpetatud; katkestab klassikaaslasi ja õpetajat.",
-        "Unustab materjalid, tähtajad, suulised juhised, mis anti vaid mõni minut varem.",
-        "Võib hüperfookustuda huvipakkuvale teemale, jättes (vale) mulje, et ta saab hakkama, kui tahab.",
+        "Raskused tähelepanu hoidmisel pikkades ülesannetes; läheb mitmeastmelistes juhistes sassi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Pidev liikumine — ei püsi paigal, näppib käsi, tõuseb nähtava põhjuseta püsti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vastab enne, kui küsimus on lõppenud; segab vahele kaaslastele ja õpetajale.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Unustab vahendid, tähtajad ja mõni minut tagasi suuliselt antud juhised — töömälu on ülekoormatud.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Võib hüperkeskenduda sellele, mis teda huvitab, jättes (eksliku) mulje, et „suudab, kui tahab“; tegelikult sõltub sooritus huvist ja tasust.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> laiskus, korralagedus ega iseloomuviga.",
-        "<strong>See ei ole</strong> alati nähtav hüperaktiivsus, esineb valdavalt tähelepanupuuduliku ATH (sagedamini tüdrukutel, sageli diagnoosimata).",
-        "<strong>Seda ei lahenda</strong> suurem pingutamine, probleem on neuroloogiline, mitte motivatsiooniline.",
+        "<strong>See ei ole</strong> halb kasvatus, laiskus ega iseloomupuudus: need väärarusaamad häbimärgistavad ja viivitavad toetust.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>See ei ole</strong> alati nähtav hüperaktiivsus — esineb valdavalt tähelepanematu avaldumisvorm, mis on sagedasem tüdrukutel ja sageli aladiagnoositud.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>See ei lahene</strong> „rohkem pingutamisega“: raskus peitub neuroloogilises eneseregulatsioonis, mitte tahtes.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Tükeldatud juhised: üks korraga, tahvlile kirjutatult, kindla ajaraamiga.",
-        "Lubada seaduslikku liikumist (materjalide jagamine, tahvli puhastamine, sõnum koolipsühholoogile).",
-        "Vähendada konkureerivaid stiimuleid (istekoht akna, ukse ja mürarikkama rühma eemale).",
-        "Vahetu positiivne tugevdamine, ATH puhul on neuroloogiline tasusüsteem lühem.",
+        "Tükelda juhised: üks korraga, kirjalikult tahvlile, kindla ajaga — see vähendab töömälu koormust.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Luba põhjendatud liikumist (jaga vahendeid, pühi tahvlit, vii sõnumeid).",
+        "Vähenda konkureerivaid ärritajaid (koht eemal aknast, uksest, kõige lärmakamast rühmast).",
+        "Vahetu ja sage positiivne kinnitus: ATH puhul on tasutundlikkus muutunud (ootamise vastumeelsus), mistõttu vahetud tasud toimivad paremini kui edasilükatud.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Alusta sellest, milles õpilane hästi toime tuleb, kohtumine ei tohi alata kaebuste nimekirjaga.",
-        "Kirjelda täheldatud käitumisi, mitte diagnoose: 'kui on rohkem kui kaks järjestikust sammu, kaotab ta lõnga'.",
-        "Enneta reaktsiooni 'kodus ei ole ta selline', selgita, et rühma kontekst muudab sümptomid nähtavamaks.",
-        "Kui soovitad psühholoogilist hindamist, esita see ressursina, mitte karistusena: 'on olemas tugi, mis võiks palju aidata'.",
+        "Alusta sellest, mida õpilane teeb hästi — koosolek ei tohi avaneda kaebuste loeteluna, muidu tõmbub lapsevanem (hooldaja) kaitsvalt endasse.",
+        "Kirjelda täheldatud käitumist, mitte diagnoose: „kui järjest on rohkem kui kaks sammu, kaotab ta lõnga“, mitte „tal on ATH“.",
+        "Näe ette reaktsioon „kodus see nii ei ole“ — selgita, et rühmakontekst ja klassis nõutav pikaajaline tähelepanu muudavad sümptomid nähtavamaks.",
+        "Kui soovitad hindamist, esita see ressursina, mitte karistusena: „on olemas tugi, mis võib teda väga aidata“, mitte „teda tuleb hinnata“.",
       ]},
       { items: [
-        "Pidevad distsipliiniraskused hoolimata klassiruumi kohandustest.",
-        "Klassikaaslaste poolt tõrjumise tunnused.",
-        "Kaasuvate seisundite tunnused (ärevus, depressioon, opositsiooniline trotslik häire).",
+        "Püsivad distsipliinirikkumised vaatamata klassis tehtud kohandustele.",
+        "Eakaaslaste poolse sotsiaalse tõrjutuse märgid.",
+        "Kaasuvate häirete (ärevus, depressioon, trotslik käitumishäire) märgid — sagedased ATH puhul ja õigustavad suunamist.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -7020,33 +6972,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   sl: {
     tdah: { sections: [
       { items: [
-        "Težave z ohranjanjem pozornosti pri dolgih nalogah; izgubi nit pri večstopenjskih navodilih.",
-        "Stalno gibanje, ne more ostati pri miru, tipa z rokami, vstane brez vidnega razloga.",
-        "Odgovori, preden je vprašanje končano; prekinja sošolce in učitelja.",
-        "Pozabi materiale, roke, navodila, podana ustno le minuto ali dve prej.",
-        "Lahko se hiperfokusira na zanimivo temo, kar daje (napačen) vtis, da zmore, kadar hoče.",
+        "Težave z ohranjanjem pozornosti pri dolgih nalogah; izgubi se pri navodilih z več koraki.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Nenehno gibanje — ne zdrži pri miru, se igra z rokami, vstaja brez očitnega razloga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Odgovori, še preden se vprašanje konča; sega v besedo sošolcem in učitelju.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Pozablja pripomočke, roke in navodila, podana ustno pred nekaj minutami — delovni spomin je preobremenjen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Lahko se hiperfokusira na tisto, kar ga zanima, in daje (napačen) vtis, da „zmore, kadar hoče“; v resnici se uspešnost spreminja glede na zanimanje in nagrado.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>To ni</strong> lenoba, neurejenost ali pomanjkljivost značaja.",
-        "<strong>To ni</strong> vedno vidna hiperaktivnost, obstaja pretežno nepozorna oblika ADHD (pogostejša pri dekletih, pogosto nediagnosticirana).",
-        "<strong>Tega ne reši</strong> večje prizadevanje, težava je nevrološka, ne motivacijska.",
+        "<strong>Ni</strong> slaba vzgoja, lenoba ali pomanjkanje značaja: te napačne predstave stigmatizirajo in zavlačujejo podporo.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ni</strong> vedno vidna hiperaktivnost — obstaja pretežno nepozorna oblika, pogostejša pri deklicah in pogosto premalo prepoznana.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Ne reši se</strong> s tem, da bi se „bolj potrudil“: težava je v nevrološki samoregulaciji, ne v volji.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Razdeljena navodila: eno naenkrat, zapisano na tablo, z določenim časovnim okvirom.",
-        "Dovoli zakonito gibanje (razdelitev materialov, brisanje table, sporočilo šolskemu psihologu).",
-        "Zmanjšaj konkurenčne dražljaje (sedež stran od okna, vrat, najhrupnejše skupine).",
-        "Takojšnje pozitivno ojačanje, nevrološki krog nagrajevanja je pri ADHD krajši.",
+        "Razdeliti navodila na dele: eno naenkrat, zapisano na tabli, z določenim časom — zmanjša obremenitev delovnega spomina.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Omogočiti dovoljeno gibanje (razdeljevanje pripomočkov, brisanje table, raznašanje sporočil).",
+        "Zmanjšati konkurenčne dražljaje (mesto stran od okna, vrat in najglasnejše skupine).",
+        "Takojšnja in pogosta pozitivna okrepitev: pri ADHD je občutljivost za nagrado spremenjena (odpor do čakanja), zato takojšnje nagrade delujejo bolje kot odložene.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Začni s tem, kar učenec dela dobro, sestanek ne sme začeti s seznamom pritožb.",
-        "Opisuj opažena vedenja, ne diagnoze: 'ko ima več kot dva zaporedna koraka, izgubi nit'.",
-        "Predvidi odziv 'doma ni takšen', pojasni, da skupinski kontekst naredi simptome bolj vidne.",
-        "Če predlagaš psihološko ocenjevanje, ga predstavi kot vir, ne kazen: 'na voljo je podpora, ki bi mu zelo pomagala'.",
+        "Začnite s tem, kar učenec dela dobro — sestanek se ne sme začeti s seznamom pritožb, sicer se starš obrambno zapre.",
+        "Opisujte opažena vedenja, ne diagnoz: „kadar je več kot dva koraka zapored, izgubi nit“ namesto „ima ADHD“.",
+        "Predvidite odziv „doma ni tako“ — pojasnite, da skupinski kontekst in zahteva po dolgotrajni pozornosti v razredu naredita simptome bolj vidne.",
+        "Če predlagate ocenjevanje, ga predstavite kot pomoč, ne kot kazen: „obstaja podpora, ki mu/ji lahko zelo pomaga“ namesto „mora biti pregledan/a“.",
       ]},
       { items: [
-        "Stalne disciplinske težave kljub prilagoditvam v razredu.",
-        "Znaki socialne izključenosti s strani sošolcev.",
-        "Znaki komorbidnosti (anksioznost, depresija, opozicionalna kljubovalna motnja).",
+        "Vztrajne disciplinske težave kljub prilagoditvam v razredu.",
+        "Znaki socialne izključenosti s strani vrstnikov.",
+        "Znaki komorbidnosti (anksioznost, depresija, opozicionalno kljubovalna motnja) — pri ADHD pogosti in upravičujejo napotitev.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -7347,33 +7299,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   ga: {
     tdah: { sections: [
       { items: [
-        "Deacracht ag coinneáil airde ar thascanna fada; cailleann siad an snáithe i dtreoracha ilchéimeacha.",
-        "Gluaiseacht leanúnach, ní féidir leo fanacht ina suí, fidleann le lámha, éiríonn siad gan chúis fheiceálach.",
-        "Freagraíonn roimh dheireadh na ceiste; cuireann isteach ar scoláirí agus ar an múinteoir.",
-        "Dearmadann ábhair, spriocdháta, treoracha béil a tugadh díreach cúpla nóiméad roimhe sin.",
-        "Is féidir leo hiperfhócas a dhéanamh ar rud suimiúil, ag tabhairt an tuairim (mhícheart) gur féidir leo é nuair ba mhaith leo.",
+        "Deacracht aird a choinneáil ar thascanna fada; téann sé ar strae i dtreoracha a bhfuil céimeanna iomadúla iontu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Gluaiseacht leanúnach — ní fhanann sé ina shuí, bíonn a lámha ag corraí, éiríonn sé gan chúis fheiceálach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Freagraíonn sé sula gcríochnaítear an cheist; cuireann sé isteach ar a chomhscoláirí agus ar an múinteoir.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Déanann sé dearmad ar ábhair, ar spriocdhátaí agus ar threoracha a tugadh ó bhéal cúpla nóiméad ó shin — tá an chuimhne oibre ró-ualaithe.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "D'fhéadfadh sé hipear-fhócas a dhéanamh ar an méid a bhfuil suim aige ann, rud a thugann an tuiscint (mhícheart) gur „féidir leis nuair is mian leis”; i ndáiríre, athraíonn a fheidhmíocht de réir an spéis agus an luaíocht.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Ní hé</strong> leisciúlacht, gangaideacht ná locht carachtair é.",
-        "<strong>Ní hé</strong> hipirghníomhaíocht infheicthe i gcónaí é, tá ADHD den chineál neamhairdiúil ann (níos coitianta i measc cailíní, go minic gan diagnóis).",
-        "<strong>Ní réitíonn sé</strong> le iarrachtaí breise, is fadhb néareolaíoch í, ní drochspreagthaíocht.",
+        "<strong>Ní</strong> drochbhéasaíocht, leisce ná easpa carachtair atá ann: déanann na smaointe míchearta seo stiogmatú agus cuireann siad moill ar an tacaíocht.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní</strong> hipirghníomhaíocht fheiceálach i gcónaí atá ann — tá léiriú ann atá neamhairdiúil den chuid is mó, atá níos coitianta i gcailíní agus a ndéantar tearcdhiagnóis air go minic.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Ní</strong> réitítear é le „níos mó iarrachta”: tá an deacracht san fhéinrialáil néareolaíoch, ní san toil.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Treoracha roinnte: ceann amháin ag aon am, scríofa ar an gclár, le creatlaigh ama socraithe.",
-        "Lig gluaiseacht dlisteanach (ábhair a roinnt, an clár a ghlanadh, teachtaireacht chuig an síceolaí scoile).",
-        "Laghdaigh spreagthóirí iomaíocha (suíochán ó fhuinneog, doras, grúpa is torannaí).",
-        "Atreisiú dearfach láithreach, tá timthriall luaíochta néareolaíoch níos giorra ag ADHD.",
+        "Roinn na treoracha ina mblúiríní: ceann amháin ag an am, scríofa ar an gclár, le ham sainithe — laghdaíonn sé seo an t-ualach ar an gcuimhne oibre.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ceadaigh gluaiseacht dhlisteanach (ábhair a dháileadh, an clár a ghlanadh, teachtaireachtaí a iompar).",
+        "Laghdaigh spreagthaí iomaíocha (suíomh i bhfad ón bhfuinneog, ón doras, ón ngrúpa is callánaí).",
+        "Treisiú dearfach láithreach agus go minic: in ADHD tá an íogaireacht don luaíocht athraithe (col leis an bhfanacht), agus mar sin oibríonn luaíochtaí láithreacha níos fearr ná cinn mhoillithe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tosaigh leis an méid a dhéanann an scoláire go maith, ní féidir leis an gcruinniú tosú le liosta gearáin.",
-        "Déan cur síos ar iompar breathnaithe, ní ar dhiagnóisí: 'nuair a bhíonn níos mó ná dhá chéim as a chéile ann, cailleann siad an snáithe'.",
-        "Ínigh an freagairt 'ní mar sin atá sé sa bhaile', míniú go ndéanann comhthéacs an ghrúpa na siabhráin níos infheicthe.",
-        "Más rud é go molann tú measúnú síceolaíoch, cuir i láthair mar acmhainn é, ní mar phionós: 'tá tacaíocht ar fáil a d'fhéadfadh cabhrú go mór'.",
+        "Tosaigh leis an méid a dhéanann an dalta go maith — ní féidir leis an gcruinniú oscailt mar liosta gearán, nó dúnann an tuismitheoir/caomhnóir é féin go cosantach.",
+        "Déan cur síos ar iompraíochtaí breathnaithe, ní ar dhiagnóisí: „nuair atá níos mó ná dhá chéim as a chéile ann, cailleann sé an snáithe” in ionad „tá ADHD air”.",
+        "Bí ag súil leis an bhfreagairt „níl sé mar sin sa bhaile” — mínigh go ndéanann comhthéacs an ghrúpa agus an éileamh ar aird fhada sa seomra ranga na hairíonna níos feiceálaí.",
+        "Má mholann tú measúnú, cuir i láthair é mar acmhainn, ní mar phionós: „tá tacaíocht ann a d'fhéadfadh cabhrú go mór leis/léi” in ionad „caithfear measúnú a dhéanamh air/uirthi”.",
       ]},
       { items: [
-        "Deacrachtaí smachta leanúnacha d'ainneoin oiriúnuithe ranga.",
-        "Comharthaí eisiaimh shóisialta ag comhscoláirí.",
-        "Comharthaí comhéadarthaí (imní, dúlagar, neamhord frithsheasmhach easumhal).",
+        "Teip dhisciplíneach leanúnach in ainneoin na n-oiriúnuithe sa seomra ranga.",
+        "Comharthaí eisiaimh shóisialta ó na piaraí.",
+        "Comharthaí comhghalrachta (imní, dúlagar, neamhord freasúra) — coitianta in ADHD agus a thugann údar le hatreorú.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -7674,33 +7626,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   mt: {
     tdah: { sections: [
       { items: [
-        "Diffikultà biex iżżomm attenzjoni f'kompiti twal; titlef il-ħjut f'istruzzjonijiet b'passi multipli.",
-        "Moviment kontinwu, ma tistax tibqa' bilqiegħda, twiddeb b'idejha, tqum mingħajr raġuni apparenti.",
-        "Twieġeb qabel ma tispiċċa l-mistoqsija; tinterrompi lil sħabha u lill-għalliem.",
-        "Tinsa l-materjali, l-iskadenza, l-istruzzjonijiet verbali mogħtijin ftit minuti qabel.",
-        "Tista' tiffoka iperattivament fuq xi ħaġa ta' interess, tagħti l-impressjoni (ħażina) li tista' tagħmlu meta trid.",
+        "Diffikultà biex iżżomm l-attenzjoni f'kompiti twal; jintilef f'istruzzjonijiet b'diversi passi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Moviment kostanti — ma jibqax bilqiegħda, iħabbat idejh, iqum mingħajr raġuni apparenti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iwieġeb qabel ma tintemm il-mistoqsija; jaqta' kliem sħabu u l-għalliem.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Jinsa l-materjali, l-iskadenzi u l-istruzzjonijiet mogħtija bil-fomm ftit minuti ilu — il-memorja tax-xogħol hija mgħobbija żżejjed.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jista' jiffoka b'mod estrem fuq dak li jinteressah, u jagħti l-impressjoni (żbaljata) li „jista' meta jrid”; fil-verità, il-prestazzjoni tvarja skont l-interess u l-premju.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>Mhix</strong> għażż, negliġenza jew difett tal-karattru.",
-        "<strong>Mhix</strong> dejjem iperattività viżibbli, hemm ADHD predominantement inattentiva (aktar komuni fin-nisa, spiss mhix dijanjostikata).",
-        "<strong>Ma tisolvix</strong> b'aktar sforz, il-problema hija newroloġika, mhux motivazzjonali.",
+        "<strong>Mhux</strong> edukazzjoni ħażina, għażż jew nuqqas ta' karattru: dawn l-ideat żbaljati jistigmatizzaw u jdewmu l-appoġġ.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Mhux</strong> dejjem ipperattività viżibbli — hemm preżentazzjoni predominantement inattenta, aktar frekwenti fil-bniet u ħafna drabi sottodijanjostikata.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Ma jissolvix</strong> b'„jagħmel aktar sforz”: id-diffikultà tinsab fl-awtoregolazzjoni newroloġika, mhux fir-rieda.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Istruzzjonijiet maqsuma: waħda fil-ħin, miktuba fuq il-lavanja, b'qafas ta' żmien stabbilit.",
-        "Ippermetti moviment leġittimu (tqassim ta' materjali, tindif tal-lavanja, messaġġ lall-psikologu tal-iskola).",
-        "Naqqas l-istimuli kompetittivi (siġġu 'l bogħod mit-tieqa, il-bieb, il-grupp l-aktar storbja).",
-        "Rinforz pożittiv immedjat, iċ-ċiklu tar-riward newroloġiku hija aqsar fl-ADHD.",
+        "Aqsam l-istruzzjonijiet: waħda kull darba, bil-miktub fuq il-bord, b'ħin definit — dan inaqqas il-piż fuq il-memorja tax-xogħol.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ippermetti moviment leġittimu (tqassim ta' materjali, tħassir tal-bord, twassil ta' messaġġi).",
+        "Naqqas l-istimoli kompetittivi (post 'il bogħod mit-tieqa, mill-bieb, mill-aktar grupp storbjuż).",
+        "Tisħiħ pożittiv immedjat u frekwenti: fl-ADHD is-sensittività għall-premju hija mibdula (avversjoni għall-istennija), għalhekk il-premjijiet immedjati jaħdmu aħjar minn dawk imdewma.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ibda b'dak li l-istudent jagħmel tajjeb, il-laqgħa ma tistax tibda bi lista ta' lmenti.",
-        "Iddeskrivi mġieba osservata, mhux dijanjosi: 'meta jkun hemm aktar minn żewġ passi konsekuttivi, titlef il-ħjut'.",
-        "Anticipja r-rispons 'fid-dar mhijiex hekk', fissira li l-kuntest tal-grupp jagħmel is-sintomi aktar viżibbli.",
-        "Jekk tissuġġerixxi valutazzjoni psikoloġika, ippreżentaha bħala riżorsa, mhux kastig: 'hemm appoġġ disponibbli li jista' jgħin ħafna'.",
+        "Ibda b'dak li l-istudent jagħmel tajjeb — il-laqgħa ma tistax tinfetaħ bħala lista ta' lmenti, inkella l-ġenitur/kustodju jingħalaq b'mod difensiv.",
+        "Iddeskrivi mġiba osservata, mhux dijanjożijiet: „meta jkun hemm aktar minn żewġ passi wara xulxin, jitlef il-ħajt” minflok „għandu l-ADHD”.",
+        "Antiċipa r-reazzjoni „d-dar mhux hekk” — spjega li l-kuntest tal-grupp u l-ħtieġa ta' attenzjoni mtawla fil-klassi jagħmlu s-sintomi aktar viżibbli.",
+        "Jekk tissuġġerixxi evalwazzjoni, ippreżentaha bħala riżorsa, mhux bħala kastig: „hemm appoġġ li jista' jgħinu/jgħinha ħafna” minflok „jeħtieġ li jiġi/tiġi evalwat/a”.",
       ]},
       { items: [
-        "Diffikultajiet dixxiplinari persistenti minkejja adattamenti fil-klassi.",
-        "Sinjali ta' esklużjoni soċjali minn sħabhom.",
-        "Sinjali ta' komorbiditajiet (ansjetà, dipressjoni, disturb oppożizzjonali sfidanti).",
+        "Falliment dixxiplinari persistenti minkejja l-adattamenti fil-klassi.",
+        "Sinjali ta' esklużjoni soċjali mill-pari.",
+        "Sinjali ta' komorbidità (ansjetà, dipressjoni, disturb ta' oppożizzjoni) — frekwenti fl-ADHD u li jiġġustifikaw riferiment.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
