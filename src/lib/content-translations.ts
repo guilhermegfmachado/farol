@@ -74,33 +74,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Difficulty with unannounced changes, changes to timetable, room, or substitute teacher.",
-        "Literal communication, misses nuance, irony, idiomatic expressions.",
-        "Sensory sensitivity, fluorescent lighting, background noise, clothing labels can be intolerable.",
-        "Focused and deep interests in specific topics.",
-        "May appear disengaged or distant when overwhelmed, not switched off.",
+        "Difficulty with unannounced changes — a change of timetable, room, or substitute teacher.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Literal communication — misses nuance, irony, idiomatic expressions.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensory sensitivity — fluorescent light, background noise, clothing labels can be intolerable.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Focused, deep interests in specific topics — linked to a detail-focused cognitive style.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "May seem disengaged or distant when overwhelmed, not switched off.",
       ]},
       { items: [
-        "<strong>It is not</strong> a linear scale (\"more\" or \"less\" autistic), it is a multidimensional profile.",
-        "<strong>It is not</strong> a lack of empathy, it is often the opposite, with difficulty filtering input.",
-        "<strong>It is not</strong> bad behaviour when a routine is broken, it is a real neurological response.",
+        "<strong>It is not</strong> a linear scale (\"more\" or \"less\" autistic) — it is a multidimensional profile, with different support needs in each domain.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>It is not</strong> a lack of empathy: difficulties of mutual understanding are bidirectional — non-autistic people also struggle to read autistic people (the \"double empathy problem\").<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>It is not</strong> misbehaviour when a routine is broken — it is a genuine neurological response to the loss of predictability.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Give advance warning of any change in routine, even apparently trivial ones.",
-        "Make implicit social rules into explicit rules (what to do, what not to do, and when).",
-        "Allow sensory breaks in a quiet space when needed.",
-        "Use focused interests as an entry point into curriculum content.",
+        "Give advance warning of any change to routine, however trivial it may seem — visual supports and anticipation are empirically supported.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Turn implicit social rules into explicit ones (what is done, what is not, when).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Allow sensory breaks in a quiet space when needed.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Use the focused interest as an entry point into curricular content — a strength, not a distraction.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "If a diagnosis already exists, first ask what parents/guardians know works, parents of autistic children often know more about their child than any report.",
-        "If there is no diagnosis, be very careful: describe concrete situations without ever using the word \"autism\" in a first meeting.",
-        "Validate the parents/guardians' efforts, creating structure and predictability at home is demanding, and acknowledging it builds alliance.",
-        "Never compare with \"other students\" or with siblings, every profile on the spectrum is different and comparison is always counterproductive.",
+        "If a diagnosis already exists, first ask what the parent/guardian knows works — parents of autistic children often know more about their child than any report.",
+        "If there is no diagnosis, be very careful: describe concrete situations without ever using the word \"autism\" in a first meeting — \"when the routine changes without warning, your child becomes very distressed in a way that goes beyond the typical\".",
+        "Validate the parent/guardian's effort — building structure and predictability at home is demanding, and acknowledging it builds alliance.",
+        "Never compare with \"other students\" or with siblings — every profile on the spectrum is different and comparison is always counterproductive.",
       ]},
       { items: [
         "Frequent meltdowns after the school day.",
-        "Persistent school refusal associated with sensory overload.",
-        "Progressive social isolation despite mediation attempts.",
+        "Persistent school refusal associated with sensory overload.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Progressive social isolation despite attempts at mediation.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -408,32 +408,32 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Dificultad con los cambios no anunciados, cambio de horario, de aula o de profesor sustituto.",
-        "Comunicación literal, no capta matices, ironía ni expresiones idiomáticas.",
-        "Sensibilidad sensorial, la luz fluorescente, el ruido de fondo o las etiquetas de la ropa pueden ser intolerables.",
-        "Intereses focalizados y profundos sobre temas específicos.",
+        "Dificultad con los cambios no anunciados: cambio de horario, de aula, de profesor sustituto.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Comunicación literal: pierde los matices, la ironía, las expresiones idiomáticas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilidad sensorial: la luz fluorescente, el ruido de fondo o las etiquetas de la ropa pueden resultar intolerables.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Intereses focalizados y profundos sobre temas específicos, asociados a un estilo cognitivo orientado al detalle.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
         "Puede parecer desinteresado o distante cuando está sobrecargado, no desconectado.",
       ]},
       { items: [
-        "<strong>No es</strong> una escala lineal («más» o «menos» autista), es un perfil multidimensional.",
-        "<strong>No es</strong> falta de empatía, con frecuencia es lo contrario, con dificultad para filtrar el entorno.",
-        "<strong>No es</strong> mal comportamiento cuando se rompe una rutina, es una respuesta neurológica real.",
+        "<strong>No es</strong> una escala lineal («más» o «menos» autista): es un perfil multidimensional, con perfiles de apoyo diferentes en cada dominio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>No es</strong> falta de empatía: las dificultades de comprensión mutua son bidireccionales, también las personas no autistas tienen dificultad para leer a las autistas (el «problema de la doble empatía»).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>No es</strong> mal comportamiento cuando se rompe una rutina: es una respuesta neurológica real a la pérdida de previsibilidad.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Avisar con antelación de cualquier cambio de rutina, aunque parezca trivial.",
-        "Convertir las reglas sociales implícitas en reglas explícitas (qué se hace, qué no se hace, cuándo).",
-        "Permitir pausas sensoriales en un espacio tranquilo cuando sea necesario.",
-        "Aprovechar el interés focalizado como punto de entrada a los contenidos curriculares.",
+        "Avisar con antelación de cualquier cambio en la rutina, aunque parezca trivial: el apoyo visual y la anticipación cuentan con respaldo empírico.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Convertir las reglas sociales implícitas en reglas explícitas (qué se hace, qué no se hace, cuándo).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Permitir pausas sensoriales en un espacio silencioso cuando sea necesario.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Aprovechar el interés focalizado como punto de entrada a los contenidos curriculares: una fortaleza, no una distracción.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Si ya existe diagnóstico, preguntar primero qué saben las familias que funciona, los padres de niños autistas suelen conocer a su hijo mejor que cualquier informe.",
-        "Si no hay diagnóstico, ser muy cuidadoso/a: describir situaciones concretas sin utilizar nunca la palabra «autismo» en una primera reunión.",
-        "Validar el esfuerzo de las familias, crear estructura y previsibilidad en casa es exigente, y reconocerlo genera alianza.",
-        "Nunca comparar con «otros alumnos» o con hermanos, cada perfil del espectro es diferente y la comparación siempre es contraproducente.",
+        "Si el diagnóstico ya existe, preguntar primero qué sabe la familia que funciona: los padres de niños autistas a menudo saben más sobre su hijo que cualquier informe.",
+        "Si no hay diagnóstico, ser muy cuidadoso: describir situaciones concretas sin usar nunca la palabra «autismo» en una primera reunión: «cuando la rutina cambia sin aviso, su hijo o su hija se altera mucho de una forma que va más allá de lo típico».",
+        "Validar el esfuerzo de la familia: crear estructura y previsibilidad en casa es exigente, y reconocerlo crea alianza.",
+        "Nunca comparar con «otros alumnos» ni con hermanos: cada perfil del espectro es diferente y la comparación siempre es contraproducente.",
       ]},
       { items: [
-        "Crisis frecuentes («meltdowns») después del día escolar.",
-        "Rechazo escolar persistente asociado a sobrecarga sensorial.",
+        "Crisis («meltdowns») frecuentes tras la jornada escolar.",
+        "Rechazo escolar persistente asociado a sobrecarga sensorial.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Aislamiento social progresivo a pesar de los intentos de mediación.",
       ]},
     ]},
@@ -742,32 +742,32 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Difficulté avec les changements non annoncés, changement d'emploi du temps, de salle ou de professeur remplaçant.",
-        "Communication littérale, ne perçoit pas les nuances, l'ironie ni les expressions idiomatiques.",
-        "Sensibilité sensorielle, l'éclairage fluorescent, le bruit de fond ou les étiquettes de vêtements peuvent être intolérables.",
-        "Intérêts restreints et très approfondis sur des sujets spécifiques.",
-        "Peut paraître désintéressé ou distant quand il est en surcharge, pas déconnecté.",
+        "Difficulté face aux changements non annoncés : modification de l'emploi du temps, de salle, de professeur remplaçant.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Communication littérale : perte des nuances, de l'ironie, des expressions idiomatiques.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilité sensorielle : la lumière fluorescente, le bruit de fond ou les étiquettes de vêtements peuvent être intolérables.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Intérêts ciblés et approfondis pour des thèmes spécifiques, associés à un style cognitif orienté vers le détail.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Peut sembler désintéressé ou distant lorsqu'il est en surcharge, et non détaché.",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> une échelle linéaire (« plus » ou « moins » autiste), c'est un profil multidimensionnel.",
-        "<strong>Ce n'est pas</strong> un manque d'empathie, c'est souvent l'inverse, avec une difficulté à filtrer les informations.",
-        "<strong>Ce n'est pas</strong> un mauvais comportement quand une routine est rompue, c'est une vraie réponse neurologique.",
+        "<strong>Ce n'est pas</strong> une échelle linéaire (« plus » ou « moins » autiste) : c'est un profil multidimensionnel, avec des profils de soutien différents dans chaque domaine.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ce n'est pas</strong> un manque d'empathie : les difficultés de compréhension mutuelle sont bidirectionnelles, les personnes non autistes ont elles aussi du mal à lire les personnes autistes (le « problème de la double empathie »).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ce n'est pas</strong> un mauvais comportement lorsqu'une routine est rompue : c'est une réponse neurologique réelle à la perte de prévisibilité.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Prévenir à l'avance de tout changement de routine, même apparemment anodin.",
-        "Rendre explicites les règles sociales implicites (ce qu'on fait, ce qu'on ne fait pas, quand).",
-        "Permettre des pauses sensorielles dans un espace calme si nécessaire.",
-        "Exploiter l'intérêt restreint comme point d'entrée dans les contenus curriculaires.",
+        "Annoncer à l'avance tout changement de routine, même apparemment anodin : le support visuel et l'anticipation bénéficient d'un appui empirique.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Transformer les règles sociales implicites en règles explicites (ce qui se fait, ce qui ne se fait pas, quand).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Permettre des pauses sensorielles dans un espace silencieux lorsque c'est nécessaire.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Mettre à profit l'intérêt ciblé comme point d'entrée vers les contenus du programme : une force, et non une distraction.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Si un diagnostic existe déjà, demander d'abord aux familles ce qu'elles savent qui fonctionne, les parents d'enfants autistes connaissent souvent mieux leur enfant que n'importe quel rapport.",
-        "En l'absence de diagnostic, être très prudent : décrire des situations concrètes sans jamais utiliser le mot « autisme » lors d'une première rencontre.",
-        "Valider l'effort des familles, créer structure et prévisibilité à la maison est exigeant, et le reconnaître crée une alliance.",
-        "Ne jamais comparer avec « d'autres élèves » ni avec des frères et sœurs, chaque profil du spectre est différent et la comparaison est toujours contre-productive.",
+        "Si le diagnostic existe déjà, demander d'abord à la famille ce qui, selon elle, fonctionne : les parents d'enfants autistes en savent souvent plus sur leur enfant que n'importe quel rapport.",
+        "S'il n'y a pas de diagnostic, être très prudent : décrire des situations concrètes sans jamais employer le mot « autisme » lors d'une première rencontre : « lorsque la routine change sans prévenir, votre fils ou votre fille est très perturbé(e) d'une manière qui dépasse l'ordinaire ».",
+        "Valider l'effort de la famille : créer de la structure et de la prévisibilité à la maison est exigeant, et le reconnaître crée une alliance.",
+        "Ne jamais comparer avec « les autres élèves » ni avec les frères et sœurs : chaque profil du spectre est différent et la comparaison est toujours contre-productive.",
       ]},
       { items: [
-        "Crises fréquentes (« meltdowns ») après la journée scolaire.",
-        "Refus scolaire persistant lié à une surcharge sensorielle.",
+        "Crises (« meltdowns ») fréquentes après la journée scolaire.",
+        "Refus scolaire persistant associé à une surcharge sensorielle.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Isolement social progressif malgré les tentatives de médiation.",
       ]},
     ]},
@@ -1076,32 +1076,32 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Difficoltà con i cambiamenti non annunciati, variazione dell'orario, dell'aula o del professore supplente.",
-        "Comunicazione letterale, non coglie sfumature, ironia o espressioni idiomatiche.",
-        "Sensibilità sensoriale, l'illuminazione fluorescente, il rumore di fondo o le etichette dei vestiti possono essere intollerabili.",
-        "Interessi focalizzati e profondi su argomenti specifici.",
+        "Difficoltà con i cambiamenti non annunciati: variazione dell'orario, dell'aula, del docente supplente.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Comunicazione letterale: perde le sfumature, l'ironia, le espressioni idiomatiche.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilità sensoriale: la luce fluorescente, il rumore di fondo o le etichette dei vestiti possono risultare intollerabili.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Interessi focalizzati e profondi su temi specifici, associati a uno stile cognitivo orientato al dettaglio.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
         "Può sembrare disinteressato o distante quando è in sovraccarico, non disconnesso.",
       ]},
       { items: [
-        "<strong>Non è</strong> una scala lineare («più» o «meno» autistico), è un profilo multidimensionale.",
-        "<strong>Non è</strong> mancanza di empatia, spesso è il contrario, con difficoltà a filtrare gli stimoli.",
-        "<strong>Non è</strong> un cattivo comportamento quando una routine viene interrotta, è una risposta neurologica reale.",
+        "<strong>Non è</strong> una scala lineare («più» o «meno» autistico): è un profilo multidimensionale, con profili di supporto diversi in ciascun ambito.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Non è</strong> mancanza di empatia: le difficoltà di comprensione reciproca sono bidirezionali, anche le persone non autistiche hanno difficoltà a leggere quelle autistiche (il «problema della doppia empatia»).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Non è</strong> cattivo comportamento quando una routine viene interrotta: è una risposta neurologica reale alla perdita di prevedibilità.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Avvisare in anticipo di qualsiasi cambiamento di routine, anche apparentemente banale.",
-        "Rendere esplicite le regole sociali implicite (cosa si fa, cosa non si fa, quando).",
-        "Consentire pause sensoriali in uno spazio tranquillo quando necessario.",
-        "Sfruttare l'interesse focalizzato come punto di ingresso nei contenuti curricolari.",
+        "Avvisare in anticipo di qualsiasi cambiamento della routine, anche se apparentemente banale: il supporto visivo e l'anticipazione hanno un fondamento empirico.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Trasformare le regole sociali implicite in regole esplicite (cosa si fa, cosa non si fa, quando).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Consentire pause sensoriali in uno spazio silenzioso quando necessario.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Sfruttare l'interesse focalizzato come punto d'ingresso ai contenuti curricolari: un punto di forza, non una distrazione.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Se esiste già una diagnosi, chiedere prima alle famiglie cosa sanno che funziona, i genitori di bambini autistici spesso conoscono il proprio figlio meglio di qualsiasi relazione clinica.",
-        "In assenza di diagnosi, essere molto prudenti: descrivere situazioni concrete senza mai usare la parola «autismo» in un primo incontro.",
-        "Validare lo sforzo delle famiglie, creare struttura e prevedibilità a casa è impegnativo, e riconoscerlo crea alleanza.",
-        "Non confrontare mai con «altri alunni» o con i fratelli, ogni profilo dello spettro è diverso e il confronto è sempre controproducente.",
+        "Se la diagnosi esiste già, chiedere prima alla famiglia cosa sa che funziona: i genitori di bambini autistici spesso sanno sul proprio figlio più di qualsiasi relazione.",
+        "Se non c'è diagnosi, essere molto cauti: descrivere situazioni concrete senza mai usare la parola «autismo» in un primo incontro: «quando la routine cambia senza preavviso, suo figlio o sua figlia si turba molto in un modo che va oltre il tipico».",
+        "Validare l'impegno della famiglia: creare struttura e prevedibilità a casa è impegnativo, e riconoscerlo crea alleanza.",
+        "Non confrontare mai con «gli altri alunni» né con i fratelli: ogni profilo dello spettro è diverso e il confronto è sempre controproducente.",
       ]},
       { items: [
         "Crisi («meltdown») frequenti dopo la giornata scolastica.",
-        "Rifiuto scolastico persistente associato a sovraccarico sensoriale.",
+        "Rifiuto scolastico persistente associato a sovraccarico sensoriale.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Isolamento sociale progressivo nonostante i tentativi di mediazione.",
       ]},
     ]},
@@ -1408,49 +1408,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Deutliche Diskrepanz zwischen mündlicher und schriftlicher Leistung ohne formale Diagnose — zur psychopädagogischen Abklärung überweisen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
-    autismo: {
-      sections: [
-        {
-          items: [
-            "Schwierigkeiten mit unangekündigten Änderungen, Stundenplanänderung, anderer Raum, Vertretungslehrkraft.",
-            "Wörtliche Kommunikation, Nuancen, Ironie und idiomatische Ausdrücke werden nicht erfasst.",
-            "Sensorische Empfindlichkeit, Leuchtstofflicht, Hintergrundgeräusche, Etiketten in der Kleidung können unerträglich sein.",
-            "Fokussierte und tiefe Interessen zu bestimmten Themen.",
-            "Kann desinteressiert oder distanziert wirken, wenn er überwältigt ist, nicht desengagiert."
-          ]
-        },
-        {
-          items: [
-            "<strong>Es ist keine</strong> lineare Skala (\"mehr\" oder \"weniger\" autistisch), es ist ein mehrdimensionales Profil.",
-            "<strong>Es ist kein</strong> Empathiemangel, häufig ist das Gegenteil der Fall, mit Schwierigkeiten beim Filtern.",
-            "<strong>Es ist kein</strong> Fehlverhalten, wenn eine Routine unterbrochen wird, es ist eine echte neurologische Reaktion."
-          ]
-        },
-        {
-          items: [
-            "Jede Routineänderung, auch scheinbar geringfügige, im Voraus ankündigen.",
-            "Implizite soziale Regeln zu expliziten Regeln machen (was man tut, was man nicht tut, wann).",
-            "Bei Bedarf sensorische Pausen in einem ruhigen Raum ermöglichen.",
-            "Das fokussierte Interesse als Einstiegspunkt für Unterrichtsinhalte nutzen."
-          ]
-        },
-        {
-          items: [
-            "Wenn eine Diagnose vorliegt, zuerst fragen, was die Familie weiß, was funktioniert.",
-            "Wenn keine Diagnose vorliegt, konkrete Situationen beschreiben, ohne beim ersten Gespräch das Wort \"Autismus\" zu verwenden.",
-            "Den Aufwand der Familie wertschätzen, Struktur und Vorhersehbarkeit zu Hause zu schaffen, ist anspruchsvoll.",
-            "Niemals mit \"anderen Schülern\" oder Geschwistern vergleichen, jedes Spektrumprofil ist unterschiedlich."
-          ]
-        },
-        {
-          items: [
-            "Häufige Zusammenbrüche (\"Meltdowns\") nach dem Schultag.",
-            "Anhaltende Schulverweigerung verbunden mit sensorischer Überlastung.",
-            "Fortschreitende soziale Isolation trotz Vermittlungsversuchen."
-          ]
-        }
-      ]
-    },
+    autismo: { sections: [
+      { items: [
+        "Schwierigkeiten mit nicht angekündigten Veränderungen – Stundenplanänderung, Raumwechsel, Vertretungslehrkraft.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Wörtliches Verständnis – Nuancen, Ironie und Redewendungen gehen verloren.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorische Empfindlichkeit – Leuchtstoffröhren, Hintergrundgeräusche und Kleideretiketten können unerträglich sein.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fokussierte und tiefe Interessen an bestimmten Themen – verbunden mit einem detailorientierten kognitiven Stil.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kann desinteressiert oder distanziert wirken, wenn es überlastet ist – nicht abgeschaltet.",
+      ]},
+      { items: [
+        "<strong>Es ist keine</strong> lineare Skala („mehr“ oder „weniger“ autistisch) – es ist ein mehrdimensionales Profil mit unterschiedlichem Unterstützungsbedarf in jedem Bereich.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Es ist kein</strong> Mangel an Empathie: Die Schwierigkeiten des gegenseitigen Verständnisses sind wechselseitig – auch nicht-autistische Menschen haben Schwierigkeiten, autistische Menschen zu verstehen (das „Doppelte-Empathie-Problem“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Es ist kein</strong> Fehlverhalten, wenn eine Routine durchbrochen wird – es ist eine reale neurologische Reaktion auf den Verlust von Vorhersehbarkeit.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Jede Routineänderung frühzeitig ankündigen, auch wenn sie scheinbar trivial ist – visuelle Unterstützung und Vorausschau sind empirisch belegt.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Implizite soziale Regeln in explizite Regeln umwandeln (was man tut, was man nicht tut, wann).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Bei Bedarf sensorische Pausen in einem ruhigen Raum erlauben.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Das fokussierte Interesse als Einstieg in Lehrplaninhalte nutzen – eine Stärke, keine Ablenkung.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Wenn die Diagnose bereits vorliegt, zuerst fragen, was die Erziehungsberechtigten als hilfreich kennen – Eltern autistischer Kinder wissen oft mehr über ihr Kind als jeder Bericht.",
+        "Wenn keine Diagnose vorliegt, sehr vorsichtig sein: konkrete Situationen beschreiben, ohne in einem ersten Gespräch jemals das Wort „Autismus“ zu verwenden – „wenn sich die Routine ohne Vorwarnung ändert, gerät Ihr Kind in einer Weise aus dem Gleichgewicht, die über das Übliche hinausgeht“.",
+        "Den Einsatz der Erziehungsberechtigten würdigen – zu Hause Struktur und Vorhersehbarkeit zu schaffen ist anspruchsvoll, und das anzuerkennen schafft ein Bündnis.",
+        "Niemals mit „anderen Schülerinnen und Schülern“ oder mit Geschwistern vergleichen – jedes Profil im Spektrum ist anders, und der Vergleich ist immer kontraproduktiv.",
+      ]},
+      { items: [
+        "Häufige Krisen („Meltdowns“) nach dem Schultag.",
+        "Anhaltende Schulverweigerung in Verbindung mit sensorischer Überlastung.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fortschreitende soziale Isolation trotz Vermittlungsversuchen.",
+      ]},
+    ]},
     dispraxia: {
       sections: [
         {
@@ -1821,49 +1809,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Duidelijke discrepantie tussen mondelinge en schriftelijke prestaties zonder formele diagnose — doorverwijzen voor psychopedagogisch onderzoek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
-    autismo: {
-      sections: [
-        {
-          items: [
-            "Moeite met niet-aangekondigde veranderingen, roosterwijziging, andere klas, invalleraar.",
-            "Letterlijke communicatie, nuances, ironie en idiomatische uitdrukkingen gaan verloren.",
-            "Zintuiglijke gevoeligheid, tl-verlichting, achtergrondgeluiden, kledinglekens kunnen ondraaglijk zijn.",
-            "Gerichte en diepe interesses voor specifieke onderwerpen.",
-            "Kan desinteresseerd of afstandelijk lijken wanneer hij overprikkeld is, niet onbetrokken."
-          ]
-        },
-        {
-          items: [
-            "<strong>Het is geen</strong> lineaire schaal (\"meer\" of \"minder\" autistisch), het is een multidimensionaal profiel.",
-            "<strong>Het is geen</strong> gebrek aan empathie, vaak is het omgekeerde het geval, met moeite om te filteren.",
-            "<strong>Het is geen</strong> slecht gedrag wanneer een routine wordt doorbroken, het is een echte neurologische reactie."
-          ]
-        },
-        {
-          items: [
-            "Elke routinewijziging van tevoren aankondigen, ook ogenschijnlijk triviale.",
-            "Impliciete sociale regels omzetten in expliciete regels (wat men doet, wat men niet doet, wanneer).",
-            "Indien nodig zintuiglijke pauzes in een rustige ruimte toestaan.",
-            "De gerichte interesse gebruiken als instappunt voor leerinhouden."
-          ]
-        },
-        {
-          items: [
-            "Als er al een diagnose is, eerst vragen wat de familie weet dat werkt.",
-            "Als er geen diagnose is, concrete situaties beschrijven zonder het woord \"autisme\" in een eerste gesprek te gebruiken.",
-            "De inspanning van de familie waarderen, structuur en voorspelbaarheid thuis creëren is veeleisend.",
-            "Nooit vergelijken met \"andere leerlingen\" of broers en zussen, elk spectrumprofiel is anders."
-          ]
-        },
-        {
-          items: [
-            "Frequente crises (\"meltdowns\") na een schooldag.",
-            "Aanhoudende schoolweigering gerelateerd aan zintuiglijke overbelasting.",
-            "Progressieve sociale isolatie ondanks bemiddelingspogingen."
-          ]
-        }
-      ]
-    },
+    autismo: { sections: [
+      { items: [
+        "Moeite met niet-aangekondigde veranderingen – wijziging van het rooster, van lokaal, een vervangende leerkracht.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Letterlijke communicatie – nuances, ironie en uitdrukkingen gaan verloren.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorische gevoeligheid – tl-licht, achtergrondgeluid en kledinglabels kunnen ondraaglijk zijn.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Gerichte en diepgaande interesses in specifieke onderwerpen – verbonden met een detailgerichte cognitieve stijl.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kan ongeïnteresseerd of afstandelijk lijken wanneer het overprikkeld is, niet afgehaakt.",
+      ]},
+      { items: [
+        "<strong>Het is geen</strong> lineaire schaal („meer“ of „minder“ autistisch) – het is een multidimensionaal profiel, met verschillende ondersteuningsbehoeften per domein.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Het is geen</strong> gebrek aan empathie: de moeilijkheden in het wederzijds begrip zijn tweerichtingsverkeer – ook niet-autistische mensen hebben moeite om autistische mensen te begrijpen (het „dubbele-empathieprobleem“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Het is geen</strong> wangedrag wanneer een routine wordt doorbroken – het is een reële neurologische reactie op het verlies van voorspelbaarheid.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Elke verandering in de routine van tevoren aankondigen, ook als ze schijnbaar onbeduidend is – visuele ondersteuning en anticipatie zijn empirisch onderbouwd.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Impliciete sociale regels omzetten in expliciete regels (wat je doet, wat je niet doet, wanneer).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Indien nodig sensorische pauzes in een rustige ruimte toestaan.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "De gerichte interesse benutten als ingang voor curriculuminhoud – een kracht, geen afleiding.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Als de diagnose al bestaat, eerst vragen wat de ouder/verzorger weet dat werkt – ouders van autistische kinderen weten vaak meer over hun kind dan welk rapport ook.",
+        "Als er geen diagnose is, zeer voorzichtig zijn: concrete situaties beschrijven zonder in een eerste gesprek ooit het woord „autisme“ te gebruiken – „wanneer de routine zonder waarschuwing verandert, raakt uw kind erg van streek op een manier die verder gaat dan gebruikelijk“.",
+        "De inzet van de ouder/verzorger erkennen – thuis structuur en voorspelbaarheid creëren is veeleisend, en dat erkennen schept een bondgenootschap.",
+        "Nooit vergelijken met „andere leerlingen“ of met broers en zussen – elk profiel binnen het spectrum is anders en vergelijken werkt altijd averechts.",
+      ]},
+      { items: [
+        "Frequente crises („meltdowns“) na de schooldag.",
+        "Aanhoudende schoolweigering in verband met sensorische overbelasting.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Voortschrijdend sociaal isolement ondanks pogingen tot bemiddeling.",
+      ]},
+    ]},
     dispraxia: {
       sections: [
         {
@@ -2234,49 +2210,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Wyraźna rozbieżność między wynikami ustnymi a pisemnymi bez formalnej diagnozy — skierować na ocenę psychopedagogiczną.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
-    autismo: {
-      sections: [
-        {
-          items: [
-            "Trudności z niezapowiedzianymi zmianami, zmiana planu lekcji, sali, nauczyciel zastępczy.",
-            "Dosłowna komunikacja, gubi niuanse, ironię, idiomy.",
-            "Wrażliwość sensoryczna, światło fluorescencyjne, szum tła, metki w ubraniu mogą być nie do zniesienia.",
-            "Skupione i głębokie zainteresowania dotyczące określonych tematów.",
-            "Może wydawać się niezainteresowany lub zdystansowany, gdy jest przytłoczony, nie odłączony."
-          ]
-        },
-        {
-          items: [
-            "<strong>To nie jest</strong> liniowa skala (\"bardziej\" lub \"mniej\" autystyczny), jest to wielowymiarowy profil.",
-            "<strong>To nie jest</strong> brak empatii, często jest odwrotnie, z trudnością w filtrowaniu.",
-            "<strong>To nie jest</strong> złe zachowanie, gdy rutyna zostaje przerwana, jest to prawdziwa reakcja neurologiczna."
-          ]
-        },
-        {
-          items: [
-            "Z wyprzedzeniem informować o każdej zmianie rutyny, nawet pozornie błahej.",
-            "Przekształcać niejawne reguły społeczne w reguły jawne (co się robi, czego nie robi, kiedy).",
-            "W razie potrzeby umożliwić przerwy sensoryczne w cichym miejscu.",
-            "Wykorzystywać skupione zainteresowanie jako punkt wejścia do treści programowych."
-          ]
-        },
-        {
-          items: [
-            "Jeśli diagnoza już istnieje, najpierw zapytać, co rodzina wie, że działa.",
-            "Jeśli nie ma diagnozy, opisywać konkretne sytuacje, nie używając słowa \"autyzm\" na pierwszym spotkaniu.",
-            "Doceniać wysiłek rodziny, tworzenie struktury i przewidywalności w domu jest wymagające.",
-            "Nigdy nie porównywać z \"innymi uczniami\" ani rodzeństwem, każdy profil spektrum jest inny."
-          ]
-        },
-        {
-          items: [
-            "Częste kryzysy (\"meltdowny\") po dniu szkolnym.",
-            "Utrzymująca się odmowa chodzenia do szkoły związana z przeciążeniem sensorycznym.",
-            "Postępująca izolacja społeczna pomimo prób mediacji."
-          ]
-        }
-      ]
-    },
+    autismo: { sections: [
+      { items: [
+        "Trudność z niezapowiedzianymi zmianami — zmiana planu lekcji, sali, nauczyciela na zastępstwie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Komunikacja dosłowna — umykają niuanse, ironia, wyrażenia idiomatyczne.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Wrażliwość sensoryczna — światło jarzeniowe, hałas w tle, metki przy ubraniach mogą być nie do zniesienia.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skupione i głębokie zainteresowania konkretnymi tematami — powiązane ze stylem poznawczym zorientowanym na szczegóły.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Może sprawiać wrażenie niezainteresowanego lub nieobecnego, gdy jest przeciążony, a nie wyłączony.",
+      ]},
+      { items: [
+        "<strong>Nie jest</strong> skalą liniową („bardziej” lub „mniej” autystyczny) — to profil wielowymiarowy, z odmiennym profilem wsparcia w każdym obszarze.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nie jest</strong> brakiem empatii: trudności we wzajemnym zrozumieniu są dwukierunkowe — także osobom nieautystycznym trudno odczytać osoby autystyczne („problem podwójnej empatii”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie jest</strong> złym zachowaniem, gdy rutyna zostaje przerwana — to rzeczywista reakcja neurologiczna na utratę przewidywalności.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Uprzedzaj z wyprzedzeniem o każdej zmianie rutyny, nawet pozornie błahej — wsparcie wizualne i antycypacja mają potwierdzenie empiryczne.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Zamieniaj niejawne reguły społeczne na reguły jawne (co się robi, czego się nie robi, kiedy).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pozwalaj na przerwy sensoryczne w cichym miejscu, gdy to konieczne.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Wykorzystuj skupione zainteresowanie jako punkt wejścia do treści programowych — to siła, a nie rozproszenie.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Jeśli diagnoza już istnieje, zapytaj najpierw, co według opiekuna się sprawdza — rodzice dzieci autystycznych często wiedzą o swoim dziecku więcej niż jakikolwiek raport.",
+        "Jeśli diagnozy nie ma, zachowaj dużą ostrożność: opisuj konkretne sytuacje, nie używając nigdy słowa „autyzm” podczas pierwszego spotkania — „gdy rutyna zmienia się bez zapowiedzi, Pani/Pana dziecko bardzo się denerwuje w sposób wykraczający poza typowy”.",
+        "Doceniaj wysiłek opiekuna — tworzenie struktury i przewidywalności w domu jest wymagające, a uznanie tego buduje sojusz.",
+        "Nigdy nie porównuj z „innymi uczniami” ani z rodzeństwem — każdy profil w spektrum jest inny, a porównywanie zawsze przynosi efekt odwrotny do zamierzonego.",
+      ]},
+      { items: [
+        "Częste kryzysy („meltdowny”) po dniu szkolnym.",
+        "Uporczywa odmowa chodzenia do szkoły związana z przeciążeniem sensorycznym.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Postępująca izolacja społeczna mimo prób mediacji.",
+      ]},
+    ]},
     dispraxia: {
       sections: [
         {
@@ -2647,49 +2611,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Discrepanță marcată între performanța orală și cea scrisă fără un diagnostic formal: îndrumare către o evaluare psihopedagogică.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
-    autismo: {
-      sections: [
-        {
-          items: [
-            "Dificultăți cu schimbările neanunțate, modificarea orarului, a sălii, profesor suplinitor.",
-            "Comunicare literală, pierde nuanțele, ironia, expresiile idiomatice.",
-            "Sensibilitate senzorială, lumina fluorescentă, zgomotul de fond, etichetele de pe haine pot fi intolerabile.",
-            "Interese focalizate și profunde despre teme specifice.",
-            "Poate părea dezinteresat sau distant când este supraîncărcat, nu detașat."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu este</strong> o scală liniară (\"mai mult\" sau \"mai puțin\" autist), este un profil multidimensional.",
-            "<strong>Nu este</strong> lipsă de empatie, frecvent este opusul, cu dificultăți în filtrare.",
-            "<strong>Nu este</strong> comportament rău când o rutină este întreruptă, este un răspuns neurologic real."
-          ]
-        },
-        {
-          items: [
-            "Anunțarea în avans a oricărei schimbări de rutină, chiar și aparent banale.",
-            "Transformarea regulilor sociale implicite în reguli explicite (ce se face, ce nu se face, când).",
-            "Permiterea pauzelor senzoriale într-un spațiu liniștit când este necesar.",
-            "Valorificarea interesului focalizat ca punct de intrare pentru conținuturile curriculare."
-          ]
-        },
-        {
-          items: [
-            "Dacă diagnosticul există deja, întrebați mai întâi ce știe familia că funcționează.",
-            "Dacă nu există diagnostic, descrieți situații concrete fără a folosi cuvântul \"autism\" la prima întâlnire.",
-            "Validați efortul familiei, crearea structurii și predictibilității acasă este solicitantă.",
-            "Nu comparați niciodată cu \"alți elevi\" sau frați, fiecare profil al spectrului este diferit."
-          ]
-        },
-        {
-          items: [
-            "Crize (\"meltdown-uri\") frecvente după ziua de școală.",
-            "Refuz școlar persistent asociat cu supraîncărcarea senzorială.",
-            "Izolare socială progresivă în ciuda tentativelor de mediere."
-          ]
-        }
-      ]
-    },
+    autismo: { sections: [
+      { items: [
+        "Dificultate în fața schimbărilor neanunțate: modificarea orarului, a sălii, a profesorului suplinitor.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Comunicare literală: pierde nuanțele, ironia, expresiile idiomatice.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilitate senzorială: lumina fluorescentă, zgomotul de fond sau etichetele hainelor pot fi intolerabile.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Interese concentrate și aprofundate asupra unor teme specifice, asociate unui stil cognitiv orientat spre detaliu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Poate părea dezinteresat sau distant atunci când este suprasolicitat, nu deconectat.",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> o scală liniară („mai mult” sau „mai puțin” autist): este un profil multidimensional, cu profiluri de sprijin diferite în fiecare domeniu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nu este</strong> lipsă de empatie: dificultățile de înțelegere reciprocă sunt bidirecționale, și persoanele non-autiste au dificultăți în a citi persoanele autiste („problema dublei empatii”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nu este</strong> comportament rău atunci când o rutină este întreruptă: este un răspuns neurologic real la pierderea predictibilității.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Anunțarea din timp a oricărei schimbări de rutină, chiar dacă pare neînsemnată: sprijinul vizual și anticiparea au susținere empirică.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Transformarea regulilor sociale implicite în reguli explicite (ce se face, ce nu se face, când).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Permiterea unor pauze senzoriale într-un spațiu liniștit atunci când este necesar.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Valorificarea interesului concentrat ca punct de intrare către conținuturile curriculare: o forță, nu o distragere.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Dacă diagnosticul există deja, întrebați mai întâi familia ce știe că funcționează: părinții copiilor autiști știu adesea despre copilul lor mai mult decât orice raport.",
+        "Dacă nu există diagnostic, fiți foarte precauți: descrieți situații concrete fără a folosi vreodată cuvântul „autism” la o primă întâlnire: „atunci când rutina se schimbă fără avertisment, fiul sau fiica dumneavoastră se tulbură foarte mult într-un mod care depășește tipicul”.",
+        "Validați efortul familiei: crearea unei structuri și a predictibilității acasă este solicitantă, iar recunoașterea acestui lucru creează alianță.",
+        "Nu comparați niciodată cu „ceilalți elevi” sau cu frații: fiecare profil al spectrului este diferit, iar comparația este întotdeauna contraproductivă.",
+      ]},
+      { items: [
+        "Crize („meltdown-uri”) frecvente după ziua de școală.",
+        "Refuz școlar persistent asociat cu suprasolicitare senzorială.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Izolare socială progresivă în ciuda încercărilor de mediere.",
+      ]},
+    ]},
     dispraxia: {
       sections: [
         {
@@ -3065,33 +3017,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Teškoće s nenajavljivanim promjenama, rasporeda, učionice, zamjenskog nastavnika.",
-        "Doslovna komunikacija, propušta nijanse, ironiju, idiomatske izraze.",
-        "Senzorna osjetljivost, fluorescentno svjetlo, pozadinska buka, naljepnice na odjeći mogu biti nepodnošljivi.",
-        "Fokusirana i duboka zanimanja za specifične teme.",
-        "Može izgledati nezainteresirano ili distancirano kad je preopterećeno, a ne isključeno.",
+        "Teškoće s nenajavljenim promjenama — promjena rasporeda, učionice, zamjenskog učitelja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Doslovna komunikacija — promiču joj nijanse, ironija, idiomatski izrazi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Senzorna osjetljivost — fluorescentno svjetlo, pozadinska buka, etikete na odjeći mogu biti nepodnošljivi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Usredotočeni i duboki interesi za određene teme — povezani s kognitivnim stilom usmjerenim na detalje.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kad je preopterećen, može djelovati nezainteresirano ili odsutno, a ne isključeno.",
       ]},
       { items: [
-        "<strong>Nije</strong> linearna skala («više» ili «manje» autistično), to je višedimenzionalni profil.",
-        "<strong>Nije</strong> nedostatak empatije, često je suprotno, teškoća filtriranja.",
-        "<strong>Nije</strong> loše ponašanje kad se rutina prekine, to je stvaran neurološki odgovor.",
+        "<strong>Nije</strong> linearna ljestvica („više” ili „manje” autističan) — riječ je o višedimenzionalnom profilu s različitim profilima podrške u svakom području.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nije</strong> nedostatak empatije: teškoće u međusobnom razumijevanju dvosmjerne su — i neautističnim je osobama teško čitati autistične osobe („problem dvostruke empatije”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nije</strong> loše ponašanje kad se rutina prekine — riječ je o stvarnom neurološkom odgovoru na gubitak predvidljivosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Unaprijed obavijestiti o svakoj promjeni rutine, čak i naizgled trivijalnoj.",
-        "Implicitna socijalna pravila učiniti eksplicitnima (što raditi, što ne raditi, kada).",
-        "Dopustiti senzorne pauze u tihom prostoru kad je potrebno.",
-        "Koristiti fokusirana zanimanja kao ulaznu točku u nastavni sadržaj.",
+        "Unaprijed najavite svaku promjenu rutine, čak i naizgled beznačajnu — vizualna podrška i anticipacija imaju empirijsku potporu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pretvarajte implicitna društvena pravila u izričita pravila (što se radi, što se ne radi, kada).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Po potrebi dopustite senzorne stanke u tihom prostoru.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Iskoristite usredotočeni interes kao ulaznu točku za nastavne sadržaje — to je snaga, a ne ometanje.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ako postoji dijagnoza, najprije pitati roditelje što funkcionira, roditelji autistične djece često znaju više od bilo kojeg izvješća.",
-        "Ako nema dijagnoze, opisivati konkretne situacije bez korištenja riječi «autizam» na prvom sastanku.",
-        "Potvrditi trud obitelji, stvaranje strukture i predvidljivosti kod kuće je zahtjevno.",
-        "Nikada ne uspoređivati s «drugim učenicima», svaki profil na spektru je drugačiji.",
+        "Ako dijagnoza već postoji, najprije pitajte što prema saznanju skrbnika funkcionira — roditelji autistične djece često znaju o svome djetetu više od bilo kojeg izvješća.",
+        "Ako dijagnoze nema, budite vrlo oprezni: opisujte konkretne situacije a da na prvom sastanku nikada ne upotrijebite riječ „autizam” — „kad se rutina promijeni bez najave, vaše se dijete jako uznemiri na način koji nadilazi uobičajeno”.",
+        "Potvrdite trud skrbnika — stvarati strukturu i predvidljivost kod kuće zahtjevno je, a priznanje toga stvara savezništvo.",
+        "Nikada ne uspoređujte s „drugim učenicima” ni s braćom i sestrama — svaki je profil u spektru drukčiji i usporedba je uvijek kontraproduktivna.",
       ]},
       { items: [
-        "Česti ispadi nakon školskog dana.",
-        "Trajno odbijanje škole povezano sa senzornim preopterećenjem.",
-        "Progresivna socijalna izolacija unatoč pokušajima medijacije.",
+        "Česte krize („meltdowni”) nakon školskog dana.",
+        "Ustrajno odbijanje škole povezano sa senzornim preopterećenjem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Napredujuća socijalna izolacija unatoč pokušajima medijacije.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -3397,33 +3349,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Obtíže s neohlášenými změnami, rozvrhu, třídy, suplujícího učitele.",
-        "Doslovná komunikace, nepostřehne nuance, ironii, idiomatická vyjádření.",
-        "Smyslová citlivost, zářivkové světlo, hluk na pozadí, visačky na oblečení mohou být nesnesitelné.",
-        "Soustředěné a hluboké zájmy o specifická témata.",
-        "Může působit nezaujatě nebo odtažitě při přetížení, ne vypnutě.",
+        "Obtíže s neohlášenými změnami — změna rozvrhu, učebny, suplujícího učitele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Doslovná komunikace — uniká jí nuance, ironie, idiomatické výrazy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Smyslová citlivost — zářivkové světlo, hluk v pozadí, etikety na oblečení mohou být nesnesitelné.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zaměřené a hluboké zájmy o konkrétní témata — spojené s kognitivním stylem orientovaným na detail.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Při přetížení může působit nezaujatě nebo odtažitě, nikoli však vypnutě.",
       ]},
       { items: [
-        "<strong>Není</strong> to lineární škála («víc» nebo «méně» autistický), jde o multidimenzionální profil.",
-        "<strong>Není</strong> to nedostatek empatie, often je to opak, obtíže s filtrováním.",
-        "<strong>Není</strong> to špatné chování, když se naruší rutina, je to skutečná neurologická reakce.",
+        "<strong>Není</strong> lineární škálou („více“ nebo „méně“ autistický) — je to vícerozměrný profil s odlišnými profily podpory v každé oblasti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Není</strong> nedostatkem empatie: obtíže ve vzájemném porozumění jsou obousměrné — i neautistickým lidem činí potíže číst autistické osoby („problém dvojí empatie“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Není</strong> špatným chováním, když se naruší rutina — je to skutečná neurologická reakce na ztrátu předvídatelnosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Předem informovat o každé změně rutiny, i zdánlivě bezvýznamné.",
-        "Implicitní sociální pravidla učinit explicitními (co dělat, co nedělat, kdy).",
-        "Umožnit senzorické přestávky v klidném prostoru dle potřeby.",
-        "Využívat soustředěné zájmy jako vstupní bod do vzdělávacího obsahu.",
+        "Předem upozorňujte na jakoukoli změnu rutiny, i zdánlivě nepatrnou — vizuální podpora a předjímání mají empirickou oporu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Převádějte nevyřčená sociální pravidla na pravidla výslovná (co se dělá, co se nedělá, kdy).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Umožněte smyslové přestávky v tichém prostoru, je-li to třeba.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Využijte zaměřený zájem jako vstupní bod k učivu — je to síla, nikoli rozptýlení.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Pokud diagnóza existuje, nejprve se zeptat rodičů, co funguje, rodiče autistických dětí vědí o svém dítěti často více než jakákoli zpráva.",
-        "Pokud diagnóza neexistuje, popisovat konkrétní situace bez použití slova «autismus» na prvním setkání.",
-        "Potvrdit úsilí rodiny, vytváření struktury a předvídatelnosti doma je náročné.",
-        "Nikdy nesrovnávat s «ostatními žáky», každý profil na spektru je jiný.",
+        "Pokud diagnóza již existuje, zeptejte se nejprve, co podle zákonného zástupce funguje — rodiče autistických dětí často vědí o svém dítěti více než jakákoli zpráva.",
+        "Pokud diagnóza není, buďte velmi obezřetní: popisujte konkrétní situace, aniž byste při prvním setkání kdy použili slovo „autismus“ — „když se rutina změní bez upozornění, vaše dítě se velmi rozruší způsobem, který přesahuje běžnou míru“.",
+        "Oceňte úsilí zákonného zástupce — vytvářet doma strukturu a předvídatelnost je náročné a jeho uznání vytváří spojenectví.",
+        "Nikdy nesrovnávejte s „ostatními žáky“ ani se sourozenci — každý profil ve spektru je jiný a srovnávání je vždy kontraproduktivní.",
       ]},
       { items: [
-        "Časté záchvaty po školním dni.",
-        "Přetrvávající odpor ke škole spojený se smyslovým přetížením.",
-        "Postupná sociální izolace navzdory pokusům o zprostředkování.",
+        "Časté krize („meltdowny“) po školním dni.",
+        "Trvalé odmítání školy spojené se smyslovým přetížením.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Postupující sociální izolace navzdory pokusům o mediaci.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -3729,33 +3681,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Svårigheter med oanmälda förändringar, schema, klassrum, vikarie.",
-        "Bokstavlig kommunikation, missar nyanser, ironi, idiomatiska uttryck.",
-        "Sensorisk känslighet, lysrör, bakgrundsljud, klädetiketter kan vara outhärdliga.",
-        "Fokuserade och djupa intressen för specifika ämnen.",
-        "Kan verka ointresserad eller distanserad vid överstimulering, inte likgiltig.",
+        "Svårigheter med oannonserade förändringar – schemaändring, byte av sal, vikarierande lärare.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bokstavlig kommunikation – nyanser, ironi och idiomatiska uttryck går förlorade.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorisk känslighet – lysrörsljus, bakgrundsljud och klädlappar kan vara outhärdliga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fokuserade och djupa intressen för specifika ämnen – kopplade till en detaljinriktad kognitiv stil.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kan verka ointresserad eller frånvarande när hen är överbelastad, inte avstängd.",
       ]},
       { items: [
-        "<strong>Det är inte</strong> en linjär skala («mer» eller «mindre» autistisk), det är en multidimensionell profil.",
-        "<strong>Det är inte</strong> brist på empati, det är ofta tvärtom, svårigheter att filtrera intryck.",
-        "<strong>Det är inte</strong> dåligt beteende när en rutin bryts, det är ett verkligt neurologiskt svar.",
+        "<strong>Det är inte</strong> en linjär skala (”mer” eller ”mindre” autistisk) – det är en flerdimensionell profil med olika stödbehov inom varje domän.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det är inte</strong> brist på empati: svårigheterna med ömsesidig förståelse är ömsesidiga – även icke-autistiska personer har svårt att läsa av autistiska personer (”dubbelempatiproblemet”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det är inte</strong> dåligt uppförande när en rutin bryts – det är en verklig neurologisk reaktion på förlusten av förutsägbarhet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Ge förhandsbesked om alla rutinförändringar, även till synes triviala.",
-        "Gör implicita sociala regler explicita (vad man ska göra, vad man inte ska göra, när).",
-        "Tillåt sensoriska pauser i ett tyst utrymme vid behov.",
-        "Använd fokuserade intressen som ingångspunkt till läroplanens innehåll.",
+        "Avisera varje rutinförändring i förväg, även om den verkar obetydlig – visuellt stöd och förberedelse har empiriskt stöd.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Göra om implicita sociala regler till explicita regler (vad man gör, vad man inte gör, när).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tillåta sensoriska pauser i ett tyst utrymme vid behov.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Använda det fokuserade intresset som ingång till läroplansinnehåll – en styrka, inte en distraktion.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Om diagnos finns, fråga först vad vårdnadshavarna vet fungerar, föräldrar till autistiska barn vet ofta mer än någon utredning.",
-        "Om ingen diagnos finns, beskriv konkreta situationer utan att använda ordet «autism» vid ett första möte.",
-        "Bekräfta familjens ansträngningar, att skapa struktur och förutsägbarhet hemma är krävande.",
-        "Jämför aldrig med «andra elever», varje spektrumprofil är annorlunda.",
+        "Om diagnosen redan finns, fråga först vad vårdnadshavaren vet fungerar – föräldrar till autistiska barn vet ofta mer om sitt barn än någon rapport.",
+        "Om det inte finns någon diagnos, var mycket försiktig: beskriv konkreta situationer utan att någonsin använda ordet ”autism” vid ett första möte – ”när rutinen ändras utan förvarning blir ditt barn mycket upprört på ett sätt som går utöver det typiska”.",
+        "Bekräfta vårdnadshavarens insats – att skapa struktur och förutsägbarhet hemma är krävande, och att erkänna det skapar en allians.",
+        "Jämför aldrig med ”andra elever” eller med syskon – varje profil inom spektrumet är olik och jämförelser är alltid kontraproduktiva.",
       ]},
       { items: [
-        "Frekventa sammanbrottsepisoder efter skoldagen.",
-        "Ihållande skolvägrande kopplat till sensorisk överstimulering.",
-        "Progressiv social isolering trots medieringsförsök.",
+        "Återkommande kriser (”meltdowns”) efter skoldagen.",
+        "Ihållande skolvägran kopplad till sensorisk överbelastning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tilltagande social isolering trots försök till medling.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -4061,33 +4013,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Vanskeligheder med ikke-varslede ændringer, skema, lokale, vikar.",
-        "Bogstavelig kommunikation, opfanger ikke nuancer, ironi, idiomatiske udtryk.",
-        "Sensorisk følsomhed, lysstofrør, baggrundsstøj, tøjetiketter kan være uudholdelige.",
-        "Fokuserede og dybe interesser inden for specifikke emner.",
-        "Kan virke uinteresseret eller distanceret ved overbelastning, ikke ligegyldig.",
+        "Vanskeligheder med uanmeldte ændringer – skemaændring, lokaleskift, vikarlærer.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bogstavelig kommunikation – nuancer, ironi og talemåder går tabt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorisk følsomhed – lysstofrør, baggrundsstøj og mærker i tøjet kan være uudholdelige.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fokuserede og dybe interesser for bestemte emner – forbundet med en detaljeorienteret kognitiv stil.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kan virke uinteresseret eller fjern, når barnet er overbelastet, ikke ligeglad.",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> en lineær skala («mere» eller «mindre» autistisk), det er en flerdimensionel profil.",
-        "<strong>Det er ikke</strong> mangel på empati, det er ofte det modsatte, vanskelighed med at filtrere.",
-        "<strong>Det er ikke</strong> dårlig adfærd, når en rutine brydes, det er en reel neurologisk reaktion.",
+        "<strong>Det er ikke</strong> en lineær skala (»mere« eller »mindre« autistisk) – det er en flerdimensionel profil med forskellige støttebehov inden for hvert område.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> mangel på empati: vanskelighederne med gensidig forståelse går begge veje – også ikke-autistiske mennesker har svært ved at aflæse autistiske mennesker (»dobbeltempatiproblemet«).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> dårlig opførsel, når en rutine brydes – det er en reel neurologisk reaktion på tabet af forudsigelighed.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Giv forhåndsvarsel om enhver rutinemæssig ændring, selv tilsyneladende trivielle.",
-        "Gør implicitte sociale regler eksplicitte (hvad man skal gøre, hvad man ikke skal gøre, hvornår).",
-        "Tillad sensoriske pauser i et roligt rum efter behov.",
-        "Brug fokuserede interesser som indgang til fagligt indhold.",
+        "Varsl enhver rutineændring i god tid, selv om den umiddelbart virker ubetydelig – visuel støtte og foregribelse har empirisk støtte.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Gør implicitte sociale regler til eksplicitte regler (hvad man gør, hvad man ikke gør, hvornår).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tillad sensoriske pauser i et stille rum efter behov.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Udnyt den fokuserede interesse som indgang til det faglige indhold – en styrke, ikke en forstyrrelse.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Hvis der er en diagnose, spørg først forældrene hvad der fungerer, forældre til autistiske børn ved ofte mere end nogen rapport.",
-        "Hvis der ikke er en diagnose, beskriv konkrete situationer uden at bruge ordet «autisme» ved et første møde.",
-        "Anerkend familiens indsats, at skabe struktur og forudsigelighed hjemme er krævende.",
-        "Sammenlign aldrig med «andre elever», hver spektrumprofil er forskellig.",
+        "Hvis diagnosen allerede findes, så spørg først, hvad forælderen/værgen ved der virker – forældre til autistiske børn ved ofte mere om deres barn end nogen rapport.",
+        "Hvis der ikke er nogen diagnose, vær meget forsigtig: beskriv konkrete situationer uden nogensinde at bruge ordet »autisme« ved et første møde – »når rutinen ændres uden varsel, bliver dit barn meget oprevet på en måde, der går ud over det typiske«.",
+        "Anerkend forælderens/værgens indsats – at skabe struktur og forudsigelighed derhjemme er krævende, og at anerkende det skaber et fællesskab.",
+        "Sammenlign aldrig med »andre elever« eller med søskende – hver profil inden for spektret er forskellig, og sammenligning er altid kontraproduktiv.",
       ]},
       { items: [
-        "Hyppige sammenbrud efter skoledagen.",
-        "Vedvarende skolevægrende adfærd forbundet med sensorisk overbelastning.",
-        "Progressiv social isolation på trods af mæglingsbestræbelser.",
+        "Hyppige kriser (»meltdowns«) efter skoledagen.",
+        "Vedvarende skolevægring forbundet med sensorisk overbelastning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tiltagende social isolation trods forsøg på mægling.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -4393,33 +4345,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Vaikeudet ilmoittamattomien muutosten kanssa, lukujärjestys, luokkahuone, sijaisopettaja.",
-        "Kirjaimellinen kommunikaatio, ei tavoita vivahteita, ironiaa, idiomeja.",
-        "Sensorinen herkkyys, loistelamput, taustaäänet, vaatelappuset voivat olla sietämättömiä.",
-        "Kohdistuneet ja syvät kiinnostuksen kohteet tietyillä alueilla.",
-        "Voi vaikuttaa välinpitämättömältä tai etäiseltä ylikuormittuneena, ei poissaolevana.",
+        "Vaikeudet ilmoittamattomien muutosten kanssa – lukujärjestyksen, luokkatilan tai sijaisopettajan vaihtuminen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kirjaimellinen viestintä – vivahteet, ironia ja idiomit jäävät huomaamatta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Aistiyliherkkyys – loisteputkivalo, taustamelu ja vaatteiden etiketit voivat olla sietämättömiä.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Keskittyneet ja syvälliset kiinnostuksen kohteet tietyistä aiheista – yhteydessä yksityiskohtiin suuntautuneeseen kognitiiviseen tyyliin.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kuormittuneena voi vaikuttaa kiinnostumattomalta tai etäiseltä, ei kuitenkaan poissaolevalta.",
       ]},
       { items: [
-        "<strong>Ei ole</strong> lineaarinen asteikko («enemmän» tai «vähemmän» autistinen), kyseessä on moniulotteinen profiili.",
-        "<strong>Ei ole</strong> empatian puute, usein päinvastoin, vaikeus suodattaa.",
-        "<strong>Ei ole</strong> huonoa käyttäytymistä, kun rutiini rikkoutuu, se on todellinen neurologinen reaktio.",
+        "<strong>Se ei ole</strong> lineaarinen asteikko („enemmän“ tai „vähemmän“ autistinen) – se on moniulotteinen profiili, jossa tuen tarve vaihtelee jokaisella osa-alueella.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Se ei ole</strong> empatian puutetta: keskinäisen ymmärtämisen vaikeudet ovat kaksisuuntaisia – myös ei-autistisilla ihmisillä on vaikeuksia lukea autistisia ihmisiä (niin sanottu „kaksinkertaisen empatian ongelma“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Se ei ole</strong> huonoa käytöstä, kun rutiini rikkoutuu – se on todellinen neurologinen reaktio ennustettavuuden menettämiseen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Anna ennakkovaroitus kaikista rutiimimuutoksista, jopa näennäisen vähäisistä.",
-        "Tee implisiittiset sosiaaliset säännöt eksplisiittisiksi (mitä tehdä, mitä ei tehdä, milloin).",
-        "Salli sensorisia taukoja hiljaisessa tilassa tarvittaessa.",
-        "Käytä kohdistuneita kiinnostuksen kohteita sisäänkäyntinä opetussisältöön.",
+        "Varoita etukäteen kaikista rutiinin muutoksista, vaikka ne vaikuttaisivat vähäpätöisiltä – visuaalisella tuella ja ennakoinnilla on empiiristä näyttöä.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tee piilevistä sosiaalisista säännöistä selkeitä (mitä tehdään, mitä ei tehdä, milloin).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Salli tarvittaessa aistitauot rauhallisessa tilassa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Hyödynnä keskittynyttä kiinnostuksen kohdetta sisäänpääsynä opetussisältöihin – se on vahvuus, ei häiriötekijä.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Jos diagnoosi on olemassa, kysy ensin mitä huoltajat tietävät toimivan, autististen lasten vanhemmat tietävät usein enemmän kuin mikään raportti.",
-        "Jos diagnoosia ei ole, kuvaile konkreettisia tilanteita käyttämättä sanaa «autismi» ensimmäisessä tapaamisessa.",
-        "Vahvista perheen ponnistelut, rakenteen ja ennakoitavuuden luominen kotona on vaativaa.",
-        "Älä koskaan vertaa «muihin oppilaisiin», jokainen spektriprofiili on erilainen.",
+        "Jos diagnoosi on jo olemassa, kysy ensin huoltajalta, mikä hänen kokemuksensa mukaan toimii – autististen lasten vanhemmat tietävät lapsestaan usein enemmän kuin mikään lausunto.",
+        "Jos diagnoosia ei ole, ole hyvin varovainen: kuvaile konkreettisia tilanteita käyttämättä koskaan ensimmäisessä tapaamisessa sanaa „autismi“ – „kun rutiini muuttuu ilman varoitusta, poikanne / tyttärenne hermostuu hyvin voimakkaasti tavalla, joka ylittää tavanomaisen“.",
+        "Tunnusta huoltajan ponnistelut – rakenteen ja ennustettavuuden luominen kotona on vaativaa, ja sen tunnustaminen rakentaa yhteistyötä.",
+        "Älä koskaan vertaa „muihin oppilaisiin“ tai sisaruksiin – jokainen kirjon profiili on erilainen, ja vertailu on aina haitallista.",
       ]},
       { items: [
-        "Toistuvat sulautumiskohtaukset koulupäivän jälkeen.",
-        "Jatkuva koulunkieltäytyminen sensoriseen ylikuormitukseen liittyen.",
-        "Asteittainen sosiaalinen eristäytyminen sovitteluyrityksistä huolimatta.",
+        "Toistuvat raivokohtaukset („meltdown“) koulupäivän jälkeen.",
+        "Jatkuva koulusta kieltäytyminen, joka liittyy aistikuormitukseen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Etenevä sosiaalinen eristäytyminen välitysyrityksistä huolimatta.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -4726,33 +4678,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Ťažkosti s neohlásennými zmenami, zmena rozvrhu, triedy, zastupujúceho učiteľa.",
-        "Doslovná komunikácia, stráca nuansy, iróniu, idiomatické výrazy.",
-        "Zmyslová citlivosť, žiarivkové svetlo, hluk na pozadí, štítky na oblečení môžu byť neznesiteľné.",
-        "Sústredené a hlboké záujmy o konkrétne témy.",
-        "Môže sa zdať nezaujatý alebo vzdialený, keď je preťažený, nie nezainteresovaný.",
+        "Ťažkosti s neohlásenými zmenami — zmena rozvrhu, učebne, suplujúceho učiteľa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Doslovná komunikácia — uniká jej nuansa, irónia, idiomatické výrazy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zmyslová citlivosť — žiarivkové svetlo, hluk v pozadí, etikety na oblečení môžu byť neznesiteľné.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zamerané a hlboké záujmy o konkrétne témy — spojené s kognitívnym štýlom orientovaným na detail.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Pri preťažení môže pôsobiť nezaujato alebo odťažito, no nie vypnuto.",
       ]},
       { items: [
-        "<strong>Nie je to</strong> lineárna škála (\"viac\" alebo \"menej\" autistický), je to multidimenzionálny profil.",
-        "<strong>Nie je to</strong> nedostatok empatie, často je to opak, ťažkosti s filtráciou.",
-        "<strong>Nie je to</strong> zlé správanie, keď sa rutina preruší, je to skutočná neurologická odpoveď.",
+        "<strong>Nie je</strong> lineárnou škálou („viac“ alebo „menej“ autistický) — je to viacrozmerný profil s odlišnými profilmi podpory v každej oblasti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nie je</strong> nedostatkom empatie: ťažkosti vo vzájomnom porozumení sú obojsmerné — aj neautistickým ľuďom robí problém čítať autistické osoby („problém dvojitej empatie“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie je</strong> zlým správaním, keď sa naruší rutina — je to skutočná neurologická reakcia na stratu predvídateľnosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Vopred oznámiť akúkoľvek zmenu rutiny, aj zdanlivo triviálnu.",
-        "Urobiť implicitné sociálne pravidlá explicitnými (čo sa robí, čo nie, kedy).",
-        "Umožniť zmyslové prestávky v tichom priestore, keď je to potrebné.",
-        "Využiť sústredený záujem ako vstupný bod pre učebné obsahy.",
+        "Vopred upozorňujte na akúkoľvek zmenu rutiny, aj zdanlivo nepatrnú — vizuálna podpora a anticipácia majú empirickú oporu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Premieňajte nevyslovené sociálne pravidlá na výslovné pravidlá (čo sa robí, čo sa nerobí, kedy).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Umožnite zmyslové prestávky v tichom priestore, ak je to potrebné.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Využite zameraný záujem ako vstupný bod k učivu — je to sila, nie rozptýlenie.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ak existuje diagnóza, najprv sa opýtať, čo rodina vie, že funguje.",
-        "Ak nie je diagnóza, opísať konkrétne situácie bez použitia slova \"autizmus\" na prvom stretnutí.",
-        "Oceniť úsilie rodiny, vytváranie štruktúry a predvídateľnosti doma je náročné.",
-        "Nikdy neporovnávať s inými žiakmi, každý profil spektra je iný.",
+        "Ak diagnóza už existuje, opýtajte sa najprv, čo podľa zákonného zástupcu funguje — rodičia autistických detí často vedia o svojom dieťati viac než akákoľvek správa.",
+        "Ak diagnóza nie je, buďte veľmi opatrní: opisujte konkrétne situácie a na prvom stretnutí nikdy nepoužite slovo „autizmus“ — „keď sa rutina zmení bez upozornenia, vaše dieťa sa veľmi rozruší spôsobom, ktorý presahuje bežnú mieru“.",
+        "Oceňte úsilie zákonného zástupcu — vytvárať doma štruktúru a predvídateľnosť je náročné a jeho uznanie vytvára spojenectvo.",
+        "Nikdy neporovnávajte s „ostatnými žiakmi“ ani so súrodencami — každý profil v spektre je iný a porovnávanie je vždy kontraproduktívne.",
       ]},
       { items: [
-        "Časté záchvaty (\"meltdowns\") po školskom dni.",
-        "Pretrvávajúce odmietanie školy spojené so zmyslovým preťažením.",
-        "Progresívna sociálna izolácia napriek pokusom o mediáciu.",
+        "Časté krízy („meltdowny“) po školskom dni.",
+        "Pretrvávajúce odmietanie školy spojené so zmyslovým preťažením.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Postupujúca sociálna izolácia napriek pokusom o mediáciu.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -5056,33 +5008,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Nehézségek a bejelentés nélküli változásokkal, órarend, terem, helyettesítő tanár.",
-        "Szó szerinti kommunikáció, elvesznek az árnyalatok, az irónia, az idiómák.",
-        "Érzékszervi érzékenység, a fénycsöves lámpa, a háttérzaj, a ruha-etikettje elviselhetetlen lehet.",
-        "Fókuszált és mély érdeklődés meghatározott témák iránt.",
-        "Terheltségkor érdektelennek vagy távolinak tűnhet, nem közömbös.",
+        "Nehézség a be nem jelentett változásokkal — órarend-, terem- vagy helyettesítő tanár váltása.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Szó szerinti kommunikáció — nem érzékeli az árnyalatokat, az iróniát, az idiomatikus kifejezéseket.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Szenzoros érzékenység — a fénycső fénye, a háttérzaj, a ruhacímkék elviselhetetlenek lehetnek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bizonyos témák iránti összpontosított és mély érdeklődés — a részletekre összpontosító kognitív stílushoz kapcsolódóan.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Túlterheltség esetén érdektelennek vagy távolságtartónak tűnhet, nem pedig kikapcsoltnak.",
       ]},
       { items: [
-        "<strong>Nem</strong> lineáris skála („több\" vagy „kevesebb\" autista), multidimenzionális profil.",
-        "<strong>Nem</strong> empátiahiány, sokszor az ellenkezője, a szűrés nehézsége.",
-        "<strong>Nem</strong> rossz magatartás, amikor egy rutin megszakad, valódi neurológiai reakció.",
+        "<strong>Nem</strong> egy lineáris skála („inkább” vagy „kevésbé” autista) — hanem egy többdimenziós profil, minden területen eltérő támogatási profillal.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nem</strong> az empátia hiánya: a kölcsönös megértés nehézségei kétirányúak — a nem autista emberek számára is nehéz „olvasni” az autistákat (a „kettős empátia problémája”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nem</strong> rossz magatartás, amikor egy rutin megszakad — ez a kiszámíthatóság elvesztésére adott valódi neurológiai válasz.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Előzetesen értesítsen minden rutinváltozásról, még a látszólag triviálisokról is.",
-        "Az implicit szociális szabályokat tegye explicitté (mit kell tenni, mit nem, mikor).",
-        "Szükség esetén érzékszervi szünetet engedélyezzen csendes térben.",
-        "A fókuszált érdeklődést használja belépési pontként a tananyaghoz.",
+        "Előzetesen jelezzen minden rutinbeli változást, még ha látszólag jelentéktelennek is tűnik — a vizuális támogatásnak és az előrejelzésnek empirikus alátámasztása van.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tegye a hallgatólagos társas szabályokat kifejezett szabályokká (mit szabad, mit nem szabad, mikor).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Engedélyezzen szenzoros szüneteket csendes térben, amikor szükséges.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Használja ki az összpontosított érdeklődést a tananyaghoz való belépési pontként — ez erősség, nem pedig zavaró tényező.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ha van diagnózis, először kérdezze meg, mit tud a szülő arról, ami működik.",
-        "Ha nincs diagnózis, konkrét helyzeteket írjon le az „autizmus\" szó használata nélkül az első megbeszélésen.",
-        "Ismerje el a szülők erőfeszítéseit, a struktúra és kiszámíthatóság megteremtése otthon megterhelő.",
-        "Soha ne hasonlítsa más tanulókhoz, minden spektrumprofil különböző.",
+        "Ha a diagnózis már létezik, először kérdezze meg, mit tud a gondviselő arról, ami működik — az autista gyermekek szülei gyakran többet tudnak gyermekükről, mint bármilyen szakvélemény.",
+        "Ha nincs diagnózis, legyen nagyon óvatos: írjon le konkrét helyzeteket anélkül, hogy az első találkozón valaha kimondaná az „autizmus” szót — „amikor a rutin figyelmeztetés nélkül megváltozik, a fia/lánya nagyon felzaklatja magát olyan módon, amely meghaladja a szokásost”.",
+        "Ismerje el a gondviselő erőfeszítését — a struktúra és a kiszámíthatóság megteremtése otthon megterhelő, és ennek elismerése szövetséget teremt.",
+        "Soha ne hasonlítsa össze „más diákokkal” vagy testvérekkel — a spektrum minden profilja különböző, és az összehasonlítás mindig kontraproduktív.",
       ]},
       { items: [
-        "Gyakori összeomlások (\"meltdowns\") az iskolai nap után.",
-        "Tartós iskolakerülés érzékszervi túlterhelés miatt.",
-        "Fokozódó szociális elszigeteltség a közvetítési kísérletek ellenére.",
+        "Gyakori krízisek („meltdownok”) a tanítási nap után.",
+        "Tartós iskolakerülés szenzoros túlterheltséghez kapcsolódóan.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fokozatos társas elszigetelődés a közvetítési kísérletek ellenére.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -5386,32 +5338,32 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Δυσκολία με αναπάντεχες αλλαγές, αλλαγή προγράμματος, αίθουσας, αναπληρωτή εκπαιδευτικού.",
-        "Κυριολεκτική επικοινωνία, χάνει αποχρώσεις, ειρωνεία, ιδιωματισμούς.",
-        "Αισθητηριακή ευαισθησία, φθορίζον φως, θόρυβος παρασκηνίου, ετικέτες ρούχων μπορεί να είναι ανυπόφορα.",
-        "Εστιασμένα και βαθιά ενδιαφέροντα για συγκεκριμένα θέματα.",
-        "Μπορεί να φαίνεται αδιάφορος/η ή αποστασιοποιημένος/η όταν είναι υπερφορτωμένος/η, όχι αποσυνδεδεμένος/η.",
+        "Δυσκολία με μη προαναγγελμένες αλλαγές — αλλαγή ωραρίου, αίθουσας, αναπληρωτή εκπαιδευτικού.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Κυριολεκτική επικοινωνία — χάνει τις αποχρώσεις, την ειρωνεία, τις ιδιωματικές εκφράσεις.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Αισθητηριακή ευαισθησία — το φως φθορισμού, ο θόρυβος του περιβάλλοντος, οι ετικέτες των ρούχων μπορεί να είναι αφόρητα.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Εστιασμένα και βαθιά ενδιαφέροντα σε συγκεκριμένα θέματα — συνδεόμενα με έναν γνωστικό τρόπο προσανατολισμένο στη λεπτομέρεια.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Μπορεί να φαίνεται αδιάφορος ή απόμακρος όταν είναι υπερφορτωμένος, όχι αποσυνδεδεμένος.",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> γραμμική κλίμακα («περισσότερο» ή «λιγότερο» αυτιστικός/ή), είναι πολυδιάστατο προφίλ.",
-        "<strong>Δεν είναι</strong> έλλειψη ενσυναίσθησης, συχνά συμβαίνει το αντίθετο, δυσκολία φιλτραρίσματος.",
-        "<strong>Δεν είναι</strong> κακή συμπεριφορά όταν διακόπτεται μια ρουτίνα, είναι πραγματική νευρολογική απόκριση.",
+        "<strong>Δεν είναι</strong> μια γραμμική κλίμακα («περισσότερο» ή «λιγότερο» αυτιστικός) — είναι ένα πολυδιάστατο προφίλ, με διαφορετικά προφίλ υποστήριξης σε κάθε τομέα.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Δεν είναι</strong> έλλειψη ενσυναίσθησης: οι δυσκολίες αμοιβαίας κατανόησης είναι αμφίδρομες — και τα μη αυτιστικά άτομα δυσκολεύονται να «διαβάσουν» τα αυτιστικά (το «πρόβλημα της διπλής ενσυναίσθησης»).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Δεν είναι</strong> κακή συμπεριφορά όταν μια ρουτίνα διακόπτεται — είναι μια πραγματική νευρολογική απόκριση στην απώλεια της προβλεψιμότητας.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Να ειδοποιείτε εκ των προτέρων για οποιαδήποτε αλλαγή ρουτίνας, ακόμα και φαινομενικά ασήμαντη.",
-        "Να κάνετε σιωπηρούς κοινωνικούς κανόνες ρητούς (τι πρέπει να γίνει, τι όχι, πότε).",
-        "Να επιτρέπονται αισθητηριακά διαλείμματα σε ήσυχο χώρο όταν χρειάζεται.",
-        "Να αξιοποιείτε το εστιασμένο ενδιαφέρον ως σημείο εισόδου για το αναλυτικό πρόγραμμα.",
+        "Να προειδοποιείτε εκ των προτέρων για οποιαδήποτε αλλαγή της ρουτίνας, ακόμη και αν φαίνεται ασήμαντη — η οπτική υποστήριξη και η προετοιμασία έχουν εμπειρική τεκμηρίωση.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Να μετατρέπετε τους υπονοούμενους κοινωνικούς κανόνες σε ρητούς κανόνες (τι κάνουμε, τι δεν κάνουμε, πότε).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Να επιτρέπετε αισθητηριακά διαλείμματα σε έναν ήσυχο χώρο όταν χρειάζεται.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Να αξιοποιείτε το εστιασμένο ενδιαφέρον ως σημείο εισόδου σε περιεχόμενα του προγράμματος σπουδών — μια δύναμη, όχι μια απόσπαση.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Αν υπάρχει διάγνωση, ρωτήστε πρώτα τι γνωρίζει η οικογένεια ότι λειτουργεί.",
-        "Αν δεν υπάρχει διάγνωση, περιγράψτε συγκεκριμένες καταστάσεις χωρίς να χρησιμοποιείτε τη λέξη «αυτισμός» στην πρώτη συνάντηση.",
-        "Να αναγνωρίζετε την προσπάθεια της οικογένειας, η δημιουργία δομής και προβλεψιμότητας στο σπίτι είναι απαιτητική.",
-        "Ποτέ να μην συγκρίνετε με άλλους μαθητές, κάθε προφίλ φάσματος είναι διαφορετικό.",
+        "Αν υπάρχει ήδη διάγνωση, ρωτήστε πρώτα τι γνωρίζει ο κηδεμόνας ότι λειτουργεί — οι γονείς αυτιστικών παιδιών συχνά γνωρίζουν περισσότερα για το παιδί τους από οποιαδήποτε έκθεση.",
+        "Αν δεν υπάρχει διάγνωση, να είστε πολύ προσεκτικοί: περιγράψτε συγκεκριμένες καταστάσεις χωρίς ποτέ να χρησιμοποιήσετε τη λέξη «αυτισμός» σε μια πρώτη συνάντηση — «όταν η ρουτίνα αλλάζει χωρίς προειδοποίηση, ο γιος σας / η κόρη σας αναστατώνεται πολύ με έναν τρόπο που ξεπερνά το τυπικό».",
+        "Να επιβεβαιώνετε την προσπάθεια του κηδεμόνα — η δημιουργία δομής και προβλεψιμότητας στο σπίτι είναι απαιτητική, και η αναγνώρισή της δημιουργεί συμμαχία.",
+        "Μην συγκρίνετε ποτέ με «άλλους μαθητές» ή με αδέλφια — κάθε προφίλ του φάσματος είναι διαφορετικό και η σύγκριση είναι πάντα αντιπαραγωγική.",
       ]},
       { items: [
-        "Συχνές κρίσεις (\"meltdowns\") μετά τη σχολική ημέρα.",
-        "Επίμονη άρνηση σχολείου που συνδέεται με αισθητηριακή υπερφόρτωση.",
+        "Συχνές κρίσεις («meltdowns») μετά τη σχολική ημέρα.",
+        "Επίμονη σχολική άρνηση συνδεόμενη με αισθητηριακή υπερφόρτωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Προοδευτική κοινωνική απομόνωση παρά τις προσπάθειες διαμεσολάβησης.",
       ]},
     ]},
@@ -5717,33 +5669,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Затруднения с неанонсирани промени, промяна на разписание, стая, заместващ учител.",
-        "Буквална комуникация, пропуска нюанси, ирония, идиоматични изрази.",
-        "Сензорна чувствителност, флуоресцентна светлина, фонов шум, етикети на дрехи могат да бъдат непоносими.",
-        "Фокусирани и дълбоки интереси към конкретни теми.",
-        "Може да изглежда незаинтересован или далечен, когато е претоварен, не отделен.",
+        "Затруднения при необявени промени — промяна на разписанието, на стаята, на заместващия учител.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Буквална комуникация — изплъзват ѝ се нюанси, ирония, идиоматични изрази.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Сензорна чувствителност — флуоресцентната светлина, фоновият шум, етикетите по дрехите може да са непоносими.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Съсредоточени и задълбочени интереси към конкретни теми — свързани с когнитивен стил, ориентиран към детайла.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Когато е претоварен, може да изглежда незаинтересован или отнесен, а не изключен.",
       ]},
       { items: [
-        "<strong>Не е</strong> линейна скала (\"повече\" или \"по-малко\" аутистичен), е многоизмерен профил.",
-        "<strong>Не е</strong> липса на емпатия, често е обратното, затруднение с филтрирането.",
-        "<strong>Не е</strong> лошо поведение, когато рутина се наруши, е реална неврологична реакция.",
+        "<strong>Не е</strong> линейна скала („повече“ или „по-малко“ аутистичен) — това е многомерен профил с различни профили на подкрепа във всяка област.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Не е</strong> липса на емпатия: затрудненията във взаимното разбиране са двупосочни — и на неаутистичните хора им е трудно да разчитат аутистичните („проблемът на двойната емпатия“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Не е</strong> лошо поведение, когато рутината се наруши — това е реална неврологична реакция на загубата на предвидимост.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Предупреждавайте предварително за всяка промяна в рутината, дори привидно тривиална.",
-        "Правете имплицитните социални правила явни (какво се прави, какво не, кога).",
-        "Разрешавайте сензорни почивки в тихо пространство при необходимост.",
-        "Използвайте фокусирания интерес като входна точка към учебното съдържание.",
+        "Предупреждавайте предварително за всяка промяна в рутината, дори привидно незначителна — визуалната подкрепа и предусещането имат емпирична подкрепа.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Превръщайте неизказаните социални правила в изрични правила (какво се прави, какво не се прави, кога).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Позволявайте сензорни паузи в тихо пространство, когато е необходимо.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Използвайте съсредоточения интерес като входна точка към учебното съдържание — това е сила, а не разсейване.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ако има диагноза, първо попитайте какво знае семейството, че работи.",
-        "Ако няма диагноза, описвайте конкретни ситуации без да използвате думата \"аутизъм\" на първата среща.",
-        "Признайте усилията на семейството, създаването на структура и предвидимост у дома е взискателно.",
-        "Никога не сравнявайте с другите ученици, всеки спектрален профил е различен.",
+        "Ако диагнозата вече съществува, попитайте първо какво според родителя/настойника работи — родителите на аутистични деца често знаят за детето си повече от който и да е доклад.",
+        "Ако няма диагноза, бъдете много внимателни: описвайте конкретни ситуации, без никога да използвате думата „аутизъм“ на първа среща — „когато рутината се промени без предупреждение, детето Ви се разстройва силно по начин, който надхвърля обичайното“.",
+        "Признайте усилието на родителя/настойника — да се създава структура и предвидимост у дома е изискващо и признаването му създава съюз.",
+        "Никога не сравнявайте с „други ученици“ или с братя и сестри — всеки профил в спектъра е различен и сравнението винаги е контрапродуктивно.",
       ]},
       { items: [
-        "Чести кризи (\"мелтдаун\") след учебния ден.",
-        "Постоянен отказ от училище, свързан със сензорно претоварване.",
-        "Прогресивна социална изолация въпреки опитите за медиация.",
+        "Чести кризи („мелтдауни“) след учебния ден.",
+        "Постоянен отказ от училище, свързан със сензорно претоварване.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Прогресираща социална изолация въпреки опитите за медиация.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6047,33 +5999,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Sunkumai dėl nepranešytų pokyčių, tvarkaraščio, kambario, pakaitinio mokytojo pakeitimas.",
-        "Pažodinė komunikacija, praleidžia niuansus, ironiją, idiomatinius posakius.",
-        "Jutiminis jautrumas, fluorescencinė šviesa, foninis triukšmas, drabužių etiketės gali būti netoleruojami.",
-        "Fokusuoti ir gilūs interesai konkrečiomis temomis.",
-        "Gali atrodyti nesusidomėjęs ar tolimas, kai yra perkrautas, o ne atsijungęs.",
+        "Sunkumai dėl nepaskelbtų pokyčių – tvarkaraščio, klasės pakeitimo, pavaduojančio mokytojo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pažodinis bendravimas – nepagauna niuansų, ironijos, idiomų.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jutiminis jautrumas – fluorescencinė šviesa, foninis triukšmas, drabužių etiketės gali būti nepakeliami.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sutelkti ir gilūs interesai konkrečiomis temomis – susiję su į detales orientuotu pažinimo stiliumi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Būdamas perkrautas gali atrodyti nesidomintis ar atsiribojęs, o ne abejingas.",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> tiesinė skalė (\"labiau\" ar \"mažiau\" autiškas), tai daugiamatis profilis.",
-        "<strong>Tai nėra</strong> empatijos trūkumas, dažnai priešingai, sunkumai filtruojant.",
-        "<strong>Tai nėra</strong> blogas elgesys, kai nutrūksta rutina, tai tikra neurologinė reakcija.",
+        "<strong>Tai nėra</strong> tiesinė skalė („labiau“ ar „mažiau“ autistiškas) – tai daugiamatis profilis su skirtingais paramos poreikiais kiekvienoje srityje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tai nėra</strong> empatijos stoka: tarpusavio supratimo sunkumai yra abipusiai – ir neautistiškiems žmonėms sunku suprasti autistus (vadinamoji „dvigubos empatijos problema“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tai nėra</strong> blogas elgesys, kai sutrinka rutina – tai tikra neurologinė reakcija į nuspėjamumo praradimą.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Iš anksto informuokite apie bet kokį rutinos pakeitimą, net iš pažiūros nereikšmingą.",
-        "Padarykite numanomas socialines taisykles aiškias (ką daryti, ko nedaryti, kada).",
-        "Leiskite jutimines pertraukas tylioje erdvėje, kai reikia.",
-        "Naudokite sutelktą susidomėjimą kaip įėjimo tašką į mokymo programos turinį.",
+        "Iš anksto įspėti apie bet kokį rutinos pakeitimą, net jei jis atrodo nereikšmingas – vaizdinė parama ir išankstinis pasirengimas turi empirinį pagrindą.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Numanomas socialines taisykles paversti aiškiomis (kas daroma, kas nedaroma, kada).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Prireikus leisti jutimines pertraukas tylioje erdvėje.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pasitelkti sutelktą interesą kaip įėjimo tašką į mokymo turinį – tai stiprybė, o ne blaškymasis.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Jei yra diagnozė, pirmiausia paklauskite, ką šeima žino, kad veikia.",
-        "Jei nėra diagnozės, apibūdinkite konkrečias situacijas nenaudodami žodžio \"autizmas\" pirmame susitikime.",
-        "Įvertinkite šeimos pastangas, struktūros ir nuspėjamumo kūrimas namuose yra reiklus.",
-        "Niekada nelyginkite su kitais mokiniais, kiekvienas spektro profilis yra skirtingas.",
+        "Jei diagnozė jau yra, pirmiausia paklauskite tėvų ar globėjų, kas, jų žiniomis, padeda – autistiškų vaikų tėvai dažnai žino apie savo vaiką daugiau nei bet kuri ataskaita.",
+        "Jei diagnozės nėra, būkite labai atsargūs: aprašykite konkrečias situacijas, per pirmąjį susitikimą niekada nevartodami žodžio „autizmas“ – „kai rutina pasikeičia be įspėjimo, jūsų sūnus / jūsų dukra labai sutrinka tokiu būdu, kuris peržengia įprastas ribas“.",
+        "Pripažinkite tėvų ar globėjų pastangas – kurti struktūrą ir nuspėjamumą namuose yra reiklu, o to pripažinimas sukuria bendrystę.",
+        "Niekada nelyginkite su „kitais mokiniais“ ar broliais bei seserimis – kiekvienas spektro profilis yra skirtingas, o lyginimas visada kenkia.",
       ]},
       { items: [
-        "Dažnos krizės (\"meltdown\") po mokyklos dienos.",
-        "Nuolatinis mokyklos atsisakymas, susijęs su jutimų perkrova.",
-        "Progresuojanti socialinė izoliacija, nepaisant tarpininkavimo bandymų.",
+        "Dažni priepuoliai („meltdown“) po mokyklos dienos.",
+        "Nuolatinis atsisakymas eiti į mokyklą, susijęs su jutimine perkrova.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Progresuojanti socialinė izoliacija nepaisant tarpininkavimo bandymų.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6378,33 +6330,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Grūtības ar nepaziņotām izmaiņām, izmaiņas grafikā, telpā vai aizvietojošajā skolotājā.",
-        "Burtiski saziņas, palaiž garām niansi, ironiju, idiomātiskās izteiksmes.",
-        "Sensorā jutīgums, dienasgaismas spuldzes, fona troksnis, apģērbu etiķetes var būt nepanesamas.",
-        "Fokusētas un dziļas intereses par konkrētām tēmām.",
-        "Var šķist neatkarīgs vai attālināts, kad ir pārņemts, nevis izslēgts.",
+        "Grūtības ar nepieteiktām pārmaiņām – stundu saraksta, telpas vai aizvietojošā skolotāja maiņu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Burtiska saziņa – netver nianses, ironiju, idiomātiskus izteicienus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorā jutība – luminiscences gaisma, fona troksnis, apģērba etiķetes var būt nepanesami.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Padziļināta un mērķtiecīga interese par konkrētām tēmām – saistīta ar uz detaļām vērstu kognitīvo stilu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Pārslodzes brīžos var šķist neieinteresēts vai attālināts, taču patiesībā nav atslēdzies.",
       ]},
       { items: [
-        "<strong>Tā nav</strong> lineāra skala ('vairāk' vai 'mazāk' autistisks), tā ir daudzdimensionāls profils.",
-        "<strong>Tā nav</strong> empātijas trūkums, tas bieži ir pretēji, ar grūtībām filtrēt ievadi.",
-        "<strong>Tā nav</strong> slikta uzvedība, kad rutīna tiek pārkāpta, tā ir reāla neiroloģiska atbilde.",
+        "<strong>Tā nav</strong> lineāra skala („vairāk“ vai „mazāk“ autistisks) – tas ir daudzdimensiju profils ar atšķirīgu atbalsta nepieciešamību katrā jomā.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tas nav</strong> empātijas trūkums: savstarpējās saprašanās grūtības ir abpusējas – arī neautistiskiem cilvēkiem ir grūti nolasīt autistiskus cilvēkus (tā sauktā „dubultās empātijas problēma“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tā nav</strong> slikta uzvedība, kad tiek izjaukta ierastā kārtība – tā ir reāla neiroloģiska reakcija uz paredzamības zudumu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Iepriekš brīdināt par jebkurām rutīnas izmaiņām, pat šķietami nenozīmīgām.",
-        "Pārvērst netiešos sociālos noteikumus par tiešiem noteikumiem (ko darīt, ko nedarīt, un kad).",
-        "Atļaut sensoros pārtraukumus klusā telpā, kad nepieciešams.",
-        "Izmantot skolēna intereses kā ieejas punktus mācību saturā.",
+        "Laikus brīdināt par jebkurām ierastās kārtības izmaiņām, pat ja tās šķiet niecīgas – vizuālajam atbalstam un iepriekšējai sagatavošanai ir empīrisks pamatojums.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pārvērst neizteiktos sociālos noteikumus skaidri formulētos (kas tiek darīts, kas netiek darīts, kad).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Nepieciešamības gadījumā atļaut sensorās pauzes klusā telpā.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Izmantot mērķtiecīgo interesi kā ieejas punktu mācību saturā – tā ir stiprā puse, nevis traucēklis.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Sākt ar konkrētiem novērojumiem, nediagnosticēt tikšanās laikā.",
-        "Sniegt informāciju rakstveidā, verbāli izklāstīts daudzs nav viegli paturams atmiņā.",
-        "Izvairīties no 'normālās bērnu uzvedības' argumenta, sensorās un sociālās grūtības ir reālas.",
-        "Skaidrot, ka agrīna iejaukšanās (atbalsts, nevis paslēpšana) uzlabo ilgtermiņa rezultātus.",
+        "Ja diagnoze jau ir noteikta, vispirms jautājiet vecākiem vai aizbildņiem, kas, viņuprāt, darbojas – autistisku bērnu vecāki bieži zina par savu bērnu vairāk nekā jebkurš atzinums.",
+        "Ja diagnozes nav, esiet ļoti uzmanīgi: aprakstiet konkrētas situācijas, pirmajā tikšanās reizē nekad nelietojot vārdu „autisms“ – „kad ierastā kārtība mainās bez brīdinājuma, jūsu dēls / jūsu meita kļūst ļoti satraukts/-a tādā veidā, kas pārsniedz parasto“.",
+        "Atzīstiet vecāku vai aizbildņu pūles – radīt struktūru un paredzamību mājās ir prasīgi, un tā atzīšana veido sadarbību.",
+        "Nekad nesalīdziniet ar „citiem skolēniem“ vai brāļiem un māsām – katrs spektra profils ir atšķirīgs, un salīdzināšana vienmēr ir neproduktīva.",
       ]},
       { items: [
-        "Krīzes epizodes, kas apdraud skolēna vai citu drošību.",
-        "Pilnīga sociālā izolācija no klasesbiedriem.",
-        "Regresija iepriekš apgūtajās prasmēs.",
+        "Bieži afekta uzliesmojumi („meltdown“) pēc skolas dienas.",
+        "Pastāvīga atteikšanās iet uz skolu, kas saistīta ar sensoro pārslodzi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pieaugoša sociālā izolācija, neraugoties uz mēģinājumiem to mazināt.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6705,33 +6657,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Raskused ootamatute muutustega, muutused tunniplaanis, ruumis või asendusõpetajas.",
-        "Sõnasõnaline suhtlemine, ei märka varjundeid, irooniat, idioomaatilisi väljendeid.",
-        "Sensoorne tundlikkus, päevavalgustuslambid, taustamüra, riiete sildid võivad olla talumatud.",
-        "Fokuseeritud ja sügavad huvid konkreetsete teemade vastu.",
-        "Võib tunduda eraldunud või kaugel, kui on ülekoormatud, mitte välja lülitatud.",
+        "Raskused etteteatamata muudatustega – tunniplaani, ruumi või asendusõpetaja vahetumisega.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sõnasõnaline suhtlemine – jäävad märkamata nüansid, iroonia, kõnekäänud.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensoorne tundlikkus – luminofoorvalgus, taustamüra, riietesildid võivad olla talumatud.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Keskendunud ja sügav huvi kindlate teemade vastu – seostatav detailikeskse kognitiivse stiiliga.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Ülekoormatuna võib näida huvitu või eemalolev, kuid pole tegelikult välja lülitunud.",
       ]},
       { items: [
-        "<strong>See ei ole</strong> lineaarne skaala ('rohkem' või 'vähem' autistlik), see on mitmemõõtmeline profiil.",
-        "<strong>See ei ole</strong> empaatia puudus, sageli on vastupidi, raskused sisendi filtreerimisel.",
-        "<strong>See ei ole</strong> halb käitumine, kui rutiin katkeb, see on reaalne neuroloogiline reaktsioon.",
+        "<strong>See ei ole</strong> lineaarne skaala („rohkem“ või „vähem“ autistlik) – see on mitmemõõtmeline profiil, kus toetusvajadus on igas valdkonnas erinev.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>See ei ole</strong> empaatia puudumine: vastastikuse mõistmise raskused on kahesuunalised – ka mitteautistlikel inimestel on raske autistlikke inimesi mõista (nn „kahekordse empaatia probleem“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>See ei ole</strong> halb käitumine, kui rutiin katkeb – see on tõeline neuroloogiline reaktsioon ennustatavuse kadumisele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Anda eelnevalt teada igast rutiini muutusest, isegi näiliselt ebaolulistest.",
-        "Muuta kaudsed sotsiaalsed reeglid selgesõnalisteks (mida teha, mida mitte teha, millal).",
-        "Lubada sensoorseid pause vaikses ruumis vajadusel.",
-        "Kasutada õpilase huvisid sisenditena õppesisus.",
+        "Hoiatada aegsasti igast rutiini muudatusest, isegi kui see näib tühine – visuaalsel toel ja ettevalmistamisel on empiiriline põhjendus.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Muuta kaudsed sotsiaalsed reeglid selgesõnalisteks (mida tehakse, mida ei tehta, millal).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Lubada vajaduse korral sensoorseid pause vaikses ruumis.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kasutada keskendunud huvi sisenemispunktina õppesisusse – see on tugevus, mitte segaja.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Alusta konkreetsete tähelepanekutega, mitte diagnoosimine kohtumise ajal.",
-        "Anda infot kirjalikult, verbaalset on raske meeles pidada.",
-        "Vältida argumenti 'kõik lapsed käituvad nii', sensoorsed ja sotsiaalsed raskused on reaalsed.",
-        "Selgitada, et varajane sekkumine (tugi, mitte peitmine) parandab pikaajalisi tulemusi.",
+        "Kui diagnoos on juba olemas, küsige kõigepealt vanematelt või hooldajalt, mis nende kogemusel toimib – autistlike laste vanemad teavad oma lapse kohta sageli rohkem kui ükski aruanne.",
+        "Kui diagnoosi pole, olge väga ettevaatlik: kirjeldage konkreetseid olukordi, kasutamata esimesel kohtumisel kunagi sõna „autism“ – „kui rutiin muutub ilma hoiatuseta, läheb teie poeg / teie tütar väga endast välja viisil, mis ületab tavapärase“.",
+        "Tunnustage vanema või hooldaja pingutust – struktuuri ja ennustatavuse loomine kodus on nõudlik ning selle tunnustamine loob koostöösuhte.",
+        "Ärge kunagi võrrelge „teiste õpilastega“ ega õdede-vendadega – iga spektri profiil on erinev ja võrdlemine on alati kahjulik.",
       ]},
       { items: [
-        "Kriisiepisoodid, mis ohustavad õpilase või teiste turvalisust.",
-        "Täielik sotsiaalne isolatsioon klassikaaslastest.",
-        "Regressioon varem omandatud oskustes.",
+        "Sagedased hood („meltdown“) pärast koolipäeva.",
+        "Püsiv koolist keeldumine, mis on seotud sensoorse ülekoormusega.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Süvenev sotsiaalne isoleerumine vaatamata vahendamiskatsetele.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -7034,33 +6986,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Težave z nenapovedanimi spremembami, spremembe v urniku, prostoru ali nadomestitvenem učitelju.",
-        "Dobesedna komunikacija, ne zazna odtenkov, ironije, idiomatskih izrazov.",
-        "Senzorna občutljivost, fluorescentna svetloba, hrup v ozadju, etikete na oblačilih so lahko nevzdržne.",
-        "Fokusirani in poglobljeni interesi za določene teme.",
-        "Lahko deluje odsotno ali oddaljeno, ko je preobremenjeno, ne pa izklopljeno.",
+        "Težave z nenapovedanimi spremembami — sprememba urnika, učilnice, nadomestnega učitelja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Dobesedno sporazumevanje — uhajajo mu odtenki, ironija, idiomatski izrazi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Senzorna občutljivost — fluorescentna svetloba, hrup v ozadju, etikete na oblačilih so lahko neznosni.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Osredotočena in globoka zanimanja za določene teme — povezana s kognitivnim slogom, usmerjenim v podrobnosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Ko je preobremenjen, lahko deluje nezainteresirano ali odsotno, ne pa izklopljeno.",
       ]},
       { items: [
-        "<strong>To ni</strong> linearna lestvica ('bolj' ali 'manj' avtistično), to je večdimenzionalni profil.",
-        "<strong>To ni</strong> pomanjkanje empatije, pogosto je nasprotno, s težavami pri filtriranju vhodnih informacij.",
-        "<strong>To ni</strong> slabo vedenje, ko je rutina prekinjena, to je resnični nevrološki odziv.",
+        "<strong>Ni</strong> linearna lestvica (»bolj« ali »manj« avtističen) — je večrazsežnostni profil z različnimi profili podpore na vsakem področju.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ni</strong> pomanjkanje empatije: težave pri medsebojnem razumevanju so dvosmerne — tudi neavtističnim ljudem je avtistične osebe težko brati (»problem dvojne empatije«).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ni</strong> slabo vedenje, ko se rutina prekine — je resničen nevrološki odziv na izgubo predvidljivosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Vnaprej opozori na vsako spremembo rutine, celo na navidezno nepomembne.",
-        "Implicitna socialna pravila pretvori v eksplicitna pravila (kaj storiti, česa ne, kdaj).",
-        "Dovoli senzorne odmore v mirnem prostoru, kadar je potrebno.",
-        "Uporabi učenčeve interese kot vstopne točke v učno vsebino.",
+        "Vnaprej opozorite na vsako spremembo rutine, tudi navidez nepomembno — vizualna podpora in predvidevanje imata empirično podporo.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Neizrečena socialna pravila spreminjajte v izrecna pravila (kaj se počne, česa se ne počne, kdaj).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Po potrebi omogočite senzorne odmore v tihem prostoru.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Osredotočeno zanimanje izkoristite kot vstopno točko za učne vsebine — je moč, ne motnja.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Začni s konkretnimi opažanji, ne diagnosticiraj na sestanku.",
-        "Daj informacije v pisni obliki, ustnih navodil je težko ohraniti v spominu.",
-        "Izogibaj se argumentu 'vsi otroci se tako vedejo', senzorne in socialne težave so resnične.",
-        "Pojasni, da zgodnja intervencija (podpora, ne skrivanje) izboljša dolgoročne rezultate.",
+        "Če diagnoza že obstaja, najprej vprašajte, kaj po mnenju skrbnika deluje — starši avtističnih otrok pogosto vedo o svojem otroku več kot katero koli poročilo.",
+        "Če diagnoze ni, bodite zelo previdni: opisujte konkretne situacije in na prvem srečanju nikoli ne uporabite besede »avtizem« — »ko se rutina spremeni brez opozorila, se vaš otrok zelo vznemiri na način, ki presega običajno«.",
+        "Potrdite trud skrbnika — ustvarjati strukturo in predvidljivost doma je zahtevno, priznanje tega pa ustvarja zavezništvo.",
+        "Nikoli ne primerjajte z »drugimi učenci« ali z brati in sestrami — vsak profil v spektru je drugačen in primerjanje je vedno kontraproduktivno.",
       ]},
       { items: [
-        "Krizne epizode, ki ogrožajo varnost učenca ali drugih.",
-        "Popolna socialna izolacija od sošolcev.",
-        "Regresija pri predhodno pridobljenih spretnostih.",
+        "Pogoste krize (»meltdowni«) po šolskem dnevu.",
+        "Vztrajno zavračanje šole, povezano s senzorno preobremenitvijo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Napredujoča socialna osamitev kljub poskusom mediacije.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -7361,33 +7313,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Deacrachtaí le hathruithe gan réamhfhógra, athruithe ar amchlár, seomra nó múinteoir ionaid.",
-        "Cumarsáid liteartha, cailleann siad caolchuid, ironaíocht, nathanna idiomacha.",
-        "Íogaireacht smaoinithe, solas fluaraiseach, torann cúlra, lipéid éadaí is féidir a bheith do-fhulaingthe.",
-        "Spéiseanna dírithe agus domhain i dtopaicí sonracha.",
-        "Is cosúil go bhfuil siad as láthair nó cianfhuara nuair atá siad faoi ró-ualach, ní múchta amach.",
+        "Deacracht le hathruithe nár fógraíodh — athrú ar an amchlár, ar an seomra, ar mhúinteoir ionaid.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Cumarsáid litriúil — cailltear na céimseachtaí, an íoróin, na nathanna cainte.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Íogaireacht chéadfach — d'fhéadfadh solas fluaraiseach, torann cúlra agus lipéid éadaigh a bheith dofhulaingthe.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Suimeanna dírithe agus doimhne ar ábhair ar leith — bainteach le stíl chognaíoch atá dírithe ar mhionsonraí.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "D'fhéadfadh sé cuma neamhshuime nó fadraoin a bheith air nuair atá sé róbhrúite, ní as feidhm atá sé.",
       ]},
       { items: [
-        "<strong>Ní hé</strong> scála líneach é ('níos mó' nó 'níos lú' uathúil), is próifíl iltoiseach é.",
-        "<strong>Ní hé</strong> easpa comhbhá é, is minic a bhíonn a mhalairt ann, le deacrachtaí ag scagadh ionchuir.",
-        "<strong>Ní hé</strong> drochghiúmar é nuair a bhristear gnáthamh, is freagairt néareolaíoch fíor é.",
+        "<strong>Ní</strong> scála líneach é („níos mó” nó „níos lú” uathach) — is próifíl ilghnéitheach é, le próifílí tacaíochta éagsúla i ngach réimse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ní</strong> easpa ionbhá é: tá na deacrachtaí maidir le tuiscint fhrithpháirteach dhébhealach — bíonn deacracht ag daoine neamhuathacha freisin daoine uathacha a „léamh” (an „fhadhb na hionbhá dúbailte”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní</strong> drochiompar é nuair a bhristear gnáthamh — is freagairt néareolaíoch fhíor é ar chailliúint na hintuarthachta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Tabhair réamhrabhadh faoi aon athrú gnáthamh, fiú cinn nach bhfuil cuma thábhachtach orthu.",
-        "Déan rialacha sóisialta intuigthe ina rialacha follasacha (cad ba cheart a dhéanamh, cad nach ba cheart, cathain).",
-        "Ceadaigh sosanna smaoinithe i spás ciúin nuair is gá.",
-        "Úsáid spéiseanna an scoláire mar phointí iontrála i gcomhábhar foghlamtha.",
+        "Tabhair rabhadh roimh ré faoi aon athrú ar an ngnáthamh, fiú má tá an chuma air go bhfuil sé fánach — tá fianaise eimpíreach taobh thiar de thacaíocht amhairc agus d'ullmhúchán.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Déan rialacha sóisialta intuigthe ina rialacha follasacha (cad a dhéantar, cad nach ndéantar, cathain).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ceadaigh sosanna céadfacha i spás ciúin nuair is gá.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Bain leas as an tsuim dhírithe mar phointe iontrála chuig ábhair churaclaim — neart é, ní seachrán.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Tosaigh le breathnuithe sonracha, ná diagnósaigh ag an gcruinniú.",
-        "Tabhair faisnéis i scríbhinn, is deacair foirmiúlacht bhéil a choimeád.",
-        "Seachain an argóint 'déanann gach leanbh sin', tá deacrachtaí smaoinithe agus sóisialta fíor.",
-        "Míniú go bhfeabhsaíonn idirghabhál luath (tacaíocht, ní ceilt) torthaí fadtéarmacha.",
+        "Má tá an diagnóis ann cheana féin, fiafraigh ar dtús cad atá ar eolas ag an gcaomhnóir a oibríonn — is minic go mbíonn níos mó eolais ag tuismitheoirí leanaí uathacha faoina leanbh ná aon tuarascáil.",
+        "Mura bhfuil aon diagnóis ann, bí an-chúramach: déan cur síos ar chásanna nithiúla gan an focal „uathachas” a úsáid riamh ag an gcéad chruinniú — „nuair a athraíonn an gnáthamh gan rabhadh, éiríonn do mhac/d'iníon an-chorraithe ar bhealach a sháraíonn an gnáth”.",
+        "Cuir luach ar iarracht an chaomhnóra — tá sé dúshlánach struchtúr agus intuarthacht a chruthú sa bhaile, agus cruthaíonn aitheantas a thabhairt dó comhghuaillíocht.",
+        "Ná déan comparáid riamh le „daltaí eile” nó le siblíní — tá gach próifíl den speictream difriúil agus bíonn an chomparáid friththáirgiúil i gcónaí.",
       ]},
       { items: [
-        "Eachtraí géarchéime a chuireann sábháilteacht an scoláire nó daoine eile i gcontúirt.",
-        "Iomlán aonraithe sóisialta ó chomhscoláirí.",
-        "Cúlú i scileanna a bhí acu cheana.",
+        "Géarchéimeanna („meltdowns”) go minic tar éis an lae scoile.",
+        "Diúltú scoile leanúnach bainteach le ró-ualú céadfach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aonrú sóisialta forchéimnitheach in ainneoin iarrachtaí idirghabhála.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -7688,33 +7640,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     autismo: { sections: [
       { items: [
-        "Diffikultajiet b'bidliet mhux imħabbra, bidliet fl-orarju, fis-sala, jew fil-supplent.",
-        "Komunikazzjoni litterali, titlef in-nuance, l-ironija, l-espressjonijiet idiomatiċi.",
-        "Sensittività sensorjali, dawl fjuwrexxenti, ħoss ta' sfond, tikketti tal-ħwejjeġ jistgħu jkunu intollerabbli.",
-        "Interessi ffokati u profondi f'suġġetti speċifiċi.",
-        "Jista' jidher disenġaġġat jew distanzijar meta hija mdawra, mhux mitfija.",
+        "Diffikultà bi tibdiliet mhux imħabbra — bidla fl-iskeda, fil-kamra, f'għalliem sostitut.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Komunikazzjoni litterali — jitlef l-isfumaturi, l-ironija, l-espressjonijiet idjomatiċi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensittività sensorja — id-dawl fluworexxenti, il-ħsejjes tal-isfond, it-tikketti tal-ħwejjeġ jistgħu jkunu intollerabbli.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Interessi ffukati u profondi dwar suġġetti speċifiċi — assoċjati ma' stil konjittiv orjentat lejn id-dettall.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Jista' jidher mhux interessat jew imbiegħed meta jkun mgħobbi żżejjed, mhux maqtugħ.",
       ]},
       { items: [
-        "<strong>Mhijiex</strong> skala lineari ('aktar' jew 'inqas' awtistiku), hija profil multidimensjonali.",
-        "<strong>Mhijiex</strong> nuqqas ta' empatija, spiss huwa l-oppost, b'diffikultajiet fil-filtrazzjoni tal-input.",
-        "<strong>Mhijiex</strong> mġieba ħażina meta jinkiser ir-rutina, hija rispons newroloġiku reali.",
+        "<strong>Mhux</strong> skala lineari („aktar” jew „inqas” awtistiku) — huwa profil multidimensjonali, b'profili ta' appoġġ differenti f'kull qasam.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Mhux</strong> nuqqas ta' empatija: id-diffikultajiet ta' fehim reċiproku huma f'żewġ direzzjonijiet — anke n-nies mhux awtistiċi jsibuha diffiċli biex „jaqraw” lill-awtistiċi (il-„problema tal-empatija doppja”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Mhux</strong> imġiba ħażina meta tinkiser rutina — hija rispons newroloġiku reali għat-telf tal-prevedibbiltà.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Agħti twissija bil-quddiem dwar kwalunkwe bidla fir-rutina, anke dawk li jidhru trivjali.",
-        "Agħmel ir-regoli soċjali impliċiti f'regoli espliti (x'tagħmel, x'ma tagħmelx, meta).",
-        "Ippermetti pawżi sensorjali f'spazju kwiet meta meħtieġ.",
-        "Uża l-interessi tal-istudent bħala punti ta' dħul fil-kontenut tal-tagħlim.",
+        "Avża minn qabel dwar kwalunkwe tibdil fir-rutina, anke jekk jidher banali — l-appoġġ viżwali u l-antiċipazzjoni għandhom sostenn empiriku.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ibdel ir-regoli soċjali impliċiti f'regoli espliċiti (x'jsir, x'ma jsirx, meta).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ippermetti waqfiet sensorji f'post kwiet meta jkun meħtieġ.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Uża l-interess iffukat bħala punt ta' dħul għall-kontenut tal-kurrikulu — saħħa, mhux distrazzjoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ibda b'osservazzjonijiet konkreti, tiddijanjostikax fil-laqgħa.",
-        "Agħti informazzjoni bil-miktub, l-verbali huwa diffiċli biex tinżamm.",
-        "Evita l-argument 'kull tifel/tifla jagħmel/tagħmel hekk', id-diffikultajiet sensorjali u soċjali huma reali.",
-        "Fissira li l-intervent bikri (appoġġ, mhux ħabi) ittejjeb ir-riżultati fit-tul.",
+        "Jekk id-dijanjosi diġà teżisti, staqsi l-ewwel x'jaf il-ġenitur/kustodju li jaħdem — il-ġenituri tat-tfal awtistiċi spiss jafu aktar dwar uliedhom minn kwalunkwe rapport.",
+        "Jekk m'hemmx dijanjosi, kun attent ħafna: iddeskrivi sitwazzjonijiet konkreti mingħajr qatt ma tuża l-kelma „awtiżmu” fl-ewwel laqgħa — „meta r-rutina tinbidel mingħajr twissija, ibnek/bintek jitħawwad ħafna b'mod li jmur lil hinn mit-tipiku”.",
+        "Ivvalida l-isforz tal-ġenitur/kustodju — il-ħolqien ta' struttura u prevedibbiltà fid-dar huwa eżiġenti, u r-rikonoxximent tiegħu joħloq alleanza.",
+        "Qatt tqabbel ma' „studenti oħra” jew ma' aħwa — kull profil tal-ispettru huwa differenti u t-tqabbil huwa dejjem kontroproduttiv.",
       ]},
       { items: [
-        "Episodji ta' kriżi li jpoġġu fis-sigurtà tal-istudent jew ta' oħrajn.",
-        "Iżolament soċjali komplet minn sħabhom.",
-        "Regressjoni f'ħiliet akkwistati qabel.",
+        "Kriżijiet („meltdowns”) frekwenti wara l-jum skolastiku.",
+        "Rifjut skolastiku persistenti assoċjat ma' tagħbija sensorja żejda.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iżolament soċjali progressiv minkejja tentattivi ta' medjazzjoni.",
       ]},
     ]},
     dispraxia: { sections: [
