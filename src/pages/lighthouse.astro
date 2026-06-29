@@ -55,7 +55,7 @@ const categoryColor: Record<string, string> = {
                 class={`lh-floor${i === tower.length - 1 ? ' lh-floor-bottom' : ''}`}
                 style={`--fc: ${color};`}
               >
-                <span class="lh-floor-num">{entry.data.index}</span>
+                <span class="lh-floor-num" aria-hidden="true">{entry.data.index}</span>
                 <span class="lh-floor-name">{entry.data.title}</span>
                 <span class="lh-floor-arrow" aria-hidden="true">→</span>
               </a>
@@ -253,7 +253,7 @@ const categoryColor: Record<string, string> = {
 .lh-legend-item {
   font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
   font-size: 0.7rem;
-  color: var(--c);
+  color: var(--ink);
   display: flex;
   align-items: center;
   gap: 0.35rem;

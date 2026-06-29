@@ -37,7 +37,7 @@ const categoryFr: Record<string, string> = {
       return (
         <a href={`${base}fr/${entry.collection}/${slug}/`} class="tree-node animate-in" data-category={entry.data.category}>
           <span class="tree-node-category">{categoryFr[entry.data.category] ?? entry.data.category}</span>
-          <span class="tree-node-index">{entry.data.index}</span>
+          <span class="tree-node-index" aria-hidden="true">{entry.data.index}</span>
           <span class="tree-node-title">{tr?.title ?? entry.data.title}</span>
           <span class="tree-node-desc">{tr?.desc ?? entry.data.desc}</span>
           <span class="tree-node-arrow">{t.consult} <span aria-hidden="true">→</span></span>

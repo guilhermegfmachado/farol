@@ -45,7 +45,7 @@ function entryHref(e: typeof allEntries[0]) {
     <header class="card-header">
       <div class="card-header-meta">
         <span class="card-category">{catLabel}</span>
-        <span class="card-index-large">{entry.data.index}</span>
+        <span class="card-index-large" aria-hidden="true">{entry.data.index}</span>
       </div>
       <h1 class="card-title">{title}</h1>
       {subtitle && <p class="card-subtitle">{subtitle}</p>}
@@ -57,6 +57,16 @@ function entryHref(e: typeof allEntries[0]) {
       </section>
     ))}
     {pending && <div class="pending-notice">{t.translation_notice}</div>}
+    {(entry.data.references ?? []).length > 0 && (
+      <section class="card-section references-section">
+        <h2 class="card-section-label">{t.references_label}</h2>
+        <ol class="references-list">
+          {(entry.data.references ?? []).map((ref, i) => (
+            <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
+          ))}
+        </ol>
+      </section>
+    )}
     <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card}</button></div>
   </article>
   <nav class="card-nav" aria-label="Navigation zwischen Einträgen">

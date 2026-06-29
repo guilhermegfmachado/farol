@@ -43,33 +43,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Reads slowly and with stumbling, even in texts they understand when heard aloud.",
-        "Confuses visually similar letters (b/d, p/q); reverses the order of letters within words.",
-        "Persistent spelling errors in written work that do not respond to repeated correction.",
-        "Avoids reading aloud; may appear unwilling to participate when in fact they are self-protecting.",
-        "Oral comprehension significantly higher than written comprehension.",
+        "Reads slowly and effortfully, with errors reading single words, even in texts they understand well when heard aloud.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Letter reversals (b/d, p/q) are common in all children learning to write and are not, on their own, a sign of dyslexia; the core difficulty is <strong>phonological</strong> — linking letters to sounds.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Persistent spelling errors that do not respond to repeated correction.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tends to avoid reading aloud; may look like disinterest when it is, in fact, a protective strategy.",
+        "Oral comprehension clearly higher than reading comprehension — the difficulty is specific, not a general cognitive limitation.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>It is not</strong> a lack of intelligence, dyslexia is independent of IQ.",
-        "<strong>It is not</strong> just \"mixing up letters\", it is a phonological processing disorder.",
-        "<strong>It does not \"go away\"</strong>, it is managed with compensatory strategies throughout life.",
+        "<strong>It is not</strong> a lack of intelligence: by definition, dyslexia is unexpected relative to the student’s other cognitive abilities.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>It is not</strong> a vision problem or simply “mixing up letters”: the core deficit is in phonological processing.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>It is not “cured”</strong>, but structured intervention in phonological awareness and decoding improves reading consistently.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Provide texts with adapted typography (OpenDyslexic or similar; increased spacing).",
-        "Allow silent reading before any reading aloud, never call on someone without warning.",
-        "Assess content separately from spelling when the objective is to assess knowledge.",
-        "Offer multiple formats for the same information (video, audio, diagrams).",
+        "Increase letter and line spacing: there is experimental evidence that wider spacing improves reading in dyslexic children, with no prior training.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Evidence for special “dyslexia” fonts is, by contrast, weaker and inconsistent.",
+        "Allow silent reading before any reading aloud — never ask a student to read without warning.",
+        "When the aim is not to assess writing, assess content separately from spelling.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Offer the same information in multiple formats (audio, video, diagrams).",
       ]},
       { items: [
-        "Explicitly separate reading from intelligence from the outset: \"your son/daughter understands very well when they listen, the difficulty is specific to written reading\".",
-        "Be aware that one of the parents/guardians may have undiagnosed dyslexia, the conversation may trigger difficult memories of their own schooling.",
-        "Avoid showing worksheets covered in red corrections without context, first present what the student can do, then what they need support with.",
-        "Be concrete about the adaptations already being made and those parents/guardians can replicate at home: audio texts, reading aloud without time pressure.",
+        "Explicitly separate reading from intelligence from the outset: “they understand very well when they listen — the difficulty is specific to reading”.",
+        "Bear in mind that dyslexia is strongly heritable: one of the parents may have undiagnosed dyslexia, and the conversation may reactivate difficult memories of their own schooling.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Avoid showing worksheets full of red corrections without context — first present what the student can already do.",
+        "Be concrete about the adaptations already in place and those the family can replicate at home: audio texts, reading aloud without time pressure.",
       ]},
       { items: [
-        "Academic self-concept deteriorating (\"I'm stupid\", \"I can't do anything\").",
+        "Academic self-concept deteriorating (“I’m stupid”, “I can’t do it”).",
         "Systematic avoidance of reading/writing tasks to the point of compromising other subjects.",
-        "Marked discrepancy between oral and written performance without a formal diagnosis.",
+        "Marked discrepancy between oral and written performance without a formal diagnosis — refer for psychopedagogical assessment.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -377,33 +377,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Lee despacio y con tropiezos, incluso en textos que comprende oralmente.",
-        "Confunde letras visualmente similares (b/d, p/q); invierte el orden de las letras dentro de la palabra.",
-        "Errores ortográficos persistentes en la escritura que no responden a la corrección repetida.",
-        "Evita leer en voz alta; puede parecer que no quiere participar cuando en realidad se está protegiendo.",
-        "Comprensión oral muy superior a la comprensión escrita.",
+        "Lee despacio y con esfuerzo, con errores en la lectura de palabras aisladas, incluso en textos que comprende bien cuando los escucha.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Las inversiones de letras (b/d, p/q) son comunes en todos los niños que empiezan a escribir y no son, por sí solas, signo de dislexia; la dificultad central es <strong>fonológica</strong>: asociar letras a sonidos.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Errores ortográficos persistentes que no responden a la corrección repetida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tiende a evitar leer en voz alta; puede parecer desinterés cuando en realidad es una estrategia de protección.",
+        "Comprensión oral claramente superior a la de la lectura: la dificultad es específica, no una limitación cognitiva general.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>No es</strong> falta de inteligencia, la dislexia es independiente del cociente intelectual.",
-        "<strong>No es</strong> solo «cambiar letras», es un trastorno del procesamiento fonológico.",
-        "<strong>No se «cura»</strong>, se gestiona con estrategias compensatorias a lo largo de toda la vida.",
+        "<strong>No es</strong> falta de inteligencia: por definición, la dislexia es inesperada frente a las demás capacidades cognitivas del alumno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>No es</strong> un problema de visión ni un simple «cambiar letras»: el déficit central está en el procesamiento fonológico.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>No se «cura»</strong>, pero la intervención estructurada en la conciencia fonológica y en la descodificación mejora la lectura de forma consistente.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Proporcionar textos con tipografía adaptada (OpenDyslexic o similar; espaciado aumentado).",
-        "Permitir la lectura silenciosa antes de cualquier lectura en voz alta, nunca llamar por sorpresa.",
-        "Evaluar el contenido de forma separada de la ortografía cuando el objetivo es evaluar el conocimiento.",
-        "Ofrecer formatos múltiples para la misma información (vídeo, audio, esquemas).",
+        "Aumentar el espaciado entre letras y líneas: hay evidencia experimental de que el espaciado ampliado mejora la lectura de los niños disléxicos, sin entrenamiento previo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> La evidencia para tipos de letra específicos «para disléxicos» es, en cambio, más débil e inconsistente.",
+        "Permitir la lectura silenciosa antes de cualquier lectura en voz alta: nunca pedir que lea por sorpresa.",
+        "Cuando el objetivo no es evaluar la escritura, evaluar el contenido por separado de la ortografía.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ofrecer la misma información en varios formatos (audio, vídeo, esquemas).",
       ]},
       { items: [
-        "Separar explícitamente lectura e inteligencia desde el principio: «su hijo/hija comprende muy bien cuando escucha, la dificultad es específica a la lectura escrita».",
-        "Tener en cuenta que uno de los progenitores puede tener dislexia no diagnosticada, la conversación puede despertar recuerdos difíciles de su propia escolaridad.",
-        "Evitar mostrar fichas con muchos errores en rojo sin contexto, presentar primero lo que el alumno es capaz de hacer y después lo que necesita apoyo.",
-        "Ser concreto/a en las adaptaciones ya en marcha y en las que las familias pueden replicar en casa: textos en audio, lectura en voz alta sin presión de tiempo.",
+        "Separar explícitamente lectura e inteligencia desde el principio: «comprende muy bien cuando escucha; la dificultad es específica de la lectura».",
+        "Tener presente que la dislexia tiene un fuerte componente hereditario: uno de los progenitores puede tener dislexia no diagnosticada, y la conversación puede reactivar recuerdos difíciles de su propia escolaridad.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evitar mostrar fichas llenas de correcciones en rojo sin contexto: presentar primero lo que el alumno ya es capaz de hacer.",
+        "Ser concreto en las adaptaciones que ya están en marcha y en las que la familia puede replicar en casa: textos en audio, lectura en voz alta sin presión de tiempo.",
       ]},
       { items: [
-        "Autoconcepto académico en deterioro («soy tonto/a», «no puedo con esto»).",
+        "Autoconcepto académico en deterioro («soy tonto», «no puedo»).",
         "Evitación sistemática de tareas de lectura/escritura hasta el punto de comprometer otras asignaturas.",
-        "Discrepancia marcada entre rendimiento oral y escrito sin diagnóstico formal.",
+        "Discrepancia marcada entre el desempeño oral y el escrito sin diagnóstico formal: derivar a una evaluación psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -711,33 +711,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Lit lentement et en trébuchard, même sur des textes qu'il comprend à l'oral.",
-        "Confond les lettres visuellement similaires (b/d, p/q) ; inverse l'ordre des lettres dans les mots.",
-        "Erreurs orthographiques persistantes dans les écrits, qui ne répondent pas à la correction répétée.",
-        "Évite de lire à voix haute ; peut paraître peu participatif alors qu'il se protège.",
-        "Compréhension orale nettement supérieure à la compréhension écrite.",
+        "Il lit lentement et avec effort, avec des erreurs dans la lecture de mots isolés, même dans des textes qu'il comprend bien lorsqu'ils sont entendus.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Les inversions de lettres (b/d, p/q) sont fréquentes chez tous les enfants qui commencent à écrire et ne constituent pas, en elles-mêmes, un signe de dyslexie ; la difficulté centrale est <strong>phonologique</strong> : associer les lettres aux sons.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Des erreurs orthographiques persistantes qui ne répondent pas à une correction répétée.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Il a tendance à éviter de lire à voix haute ; cela peut sembler du désintérêt alors qu'il s'agit en réalité d'une stratégie de protection.",
+        "Une compréhension orale nettement supérieure à celle de la lecture : la difficulté est spécifique, et non une limitation cognitive générale.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> un manque d'intelligence, la dyslexie est indépendante du QI.",
-        "<strong>Ce n'est pas</strong> seulement « inverser des lettres », c'est un trouble du traitement phonologique.",
-        "<strong>Cela ne se « guérit » pas</strong>, cela se gère avec des stratégies compensatoires tout au long de la vie.",
+        "<strong>Ce n'est pas</strong> un manque d'intelligence : par définition, la dyslexie est inattendue au regard des autres capacités cognitives de l'élève.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ce n'est pas</strong> un problème de vision ni un simple « mélange de lettres » : le déficit central se situe dans le traitement phonologique.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Cela ne « se guérit » pas</strong>, mais une intervention structurée portant sur la conscience phonologique et le décodage améliore la lecture de manière constante.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Fournir des textes avec une typographie adaptée (OpenDyslexic ou similaire ; espacement augmenté).",
-        "Permettre la lecture silencieuse avant toute lecture à voix haute, ne jamais interroger à l'improviste.",
-        "Évaluer le contenu séparément de l'orthographe lorsque l'objectif est d'évaluer les connaissances.",
-        "Proposer des supports multiples pour la même information (vidéo, audio, schémas).",
+        "Augmenter l'espacement entre les lettres et les lignes : il existe des données expérimentales montrant qu'un espacement élargi améliore la lecture des enfants dyslexiques, sans entraînement préalable.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> En revanche, les données concernant les polices de caractères spécifiques « pour dyslexiques » sont plus faibles et incohérentes.",
+        "Autoriser la lecture silencieuse avant toute lecture à voix haute : ne jamais demander de lire à l'improviste.",
+        "Lorsque l'objectif n'est pas d'évaluer l'écriture, évaluer le contenu séparément de l'orthographe.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Proposer la même information sous plusieurs formats (audio, vidéo, schémas).",
       ]},
       { items: [
-        "Séparer explicitement lecture et intelligence dès le départ : « votre fils/fille comprend très bien à l'oral, la difficulté est spécifique à la lecture écrite ».",
-        "Avoir à l'esprit que l'un des parents peut avoir une dyslexie non diagnostiquée, la conversation peut réveiller des souvenirs douloureux de sa propre scolarité.",
-        "Éviter de montrer des fiches couvertes de rouge sans contexte, présenter d'abord ce que l'élève sait faire, puis ce sur quoi il a besoin d'aide.",
-        "Être concret sur les adaptations déjà en place et celles que les familles peuvent reproduire à la maison : textes en audio, lecture à voix haute sans pression de temps.",
+        "Distinguer explicitement la lecture de l'intelligence dès le début : « il comprend très bien lorsqu'il écoute ; la difficulté est spécifique à la lecture ».",
+        "Garder à l'esprit que la dyslexie a une forte composante héréditaire : l'un des parents peut présenter une dyslexie non diagnostiquée, et la conversation peut raviver des souvenirs difficiles de sa propre scolarité.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Éviter de montrer des fiches couvertes de corrections en rouge sans contexte : présenter d'abord ce que l'élève est déjà capable de faire.",
+        "Être concret quant aux aménagements déjà en place et à ceux que le responsable légal peut reproduire à la maison : textes en format audio, lecture à voix haute sans pression temporelle.",
       ]},
       { items: [
-        "Estime de soi scolaire en dégradation (« je suis nul/le », « je n'y arrive pas »).",
-        "Évitement systématique des tâches de lecture/écriture au point de compromettre d'autres matières.",
-        "Écart marqué entre les performances orales et écrites sans diagnostic formel.",
+        "Une image de soi scolaire qui se dégrade (« je suis bête », « je n'y arrive pas »).",
+        "Un évitement systématique des tâches de lecture/écriture au point de compromettre d'autres matières.",
+        "Un écart marqué entre les performances orales et écrites sans diagnostic formel : orienter vers une évaluation psychopédagogique.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -1045,33 +1045,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Legge lentamente e con incespicamenti, anche su testi che comprende oralmente.",
-        "Confonde lettere visivamente simili (b/d, p/q); inverte l'ordine delle lettere all'interno delle parole.",
-        "Errori ortografici persistenti nello scritto che non rispondono alla correzione ripetuta.",
-        "Evita la lettura ad alta voce; può sembrare poco partecipativo mentre in realtà si sta proteggendo.",
-        "Comprensione orale notevolmente superiore alla comprensione scritta.",
+        "Legge lentamente e con fatica, con errori nella lettura di parole isolate, anche in testi che comprende bene quando li ascolta.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Le inversioni di lettere (b/d, p/q) sono comuni in tutti i bambini che iniziano a scrivere e non sono, di per sé, un segno di dislessia; la difficoltà centrale è <strong>fonologica</strong>: associare le lettere ai suoni.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Errori ortografici persistenti che non rispondono alla correzione ripetuta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tende a evitare di leggere ad alta voce; può sembrare disinteresse quando in realtà è una strategia di protezione.",
+        "Comprensione orale chiaramente superiore a quella della lettura: la difficoltà è specifica, non una limitazione cognitiva generale.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Non è</strong> mancanza di intelligenza, la dislessia è indipendente dal quoziente intellettivo.",
-        "<strong>Non è</strong> solo «scambiare le lettere», è un disturbo del processamento fonologico.",
-        "<strong>Non «guarisce»</strong>, si gestisce con strategie compensative per tutta la vita.",
+        "<strong>Non è</strong> mancanza di intelligenza: per definizione, la dislessia è inattesa rispetto alle altre capacità cognitive dell'alunno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Non è</strong> un problema di vista né un semplice «scambiare le lettere»: il deficit centrale risiede nell'elaborazione fonologica.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Non si «guarisce»</strong>, ma l'intervento strutturato sulla consapevolezza fonologica e sulla decodifica migliora la lettura in modo costante.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Fornire testi con tipografia adattata (OpenDyslexic o simile; spaziatura aumentata).",
-        "Permettere la lettura silenziosa prima di qualsiasi lettura ad alta voce, non interpellare mai di sorpresa.",
-        "Valutare il contenuto separatamente dall'ortografia quando l'obiettivo è valutare la conoscenza.",
-        "Offrire formati multipli per la stessa informazione (video, audio, schemi).",
+        "Aumentare la spaziatura tra le lettere e le righe: vi sono prove sperimentali che una spaziatura ampliata migliora la lettura dei bambini dislessici, senza addestramento preventivo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Le prove relative ai caratteri tipografici specifici «per dislessici» sono, al contrario, più deboli e incoerenti.",
+        "Consentire la lettura silenziosa prima di qualsiasi lettura ad alta voce: non chiedere mai di leggere all'improvviso.",
+        "Quando l'obiettivo non è valutare la scrittura, valutare il contenuto separatamente dall'ortografia.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Offrire la stessa informazione in più formati (audio, video, schemi).",
       ]},
       { items: [
-        "Separare esplicitamente lettura e intelligenza fin dall'inizio: «suo figlio/sua figlia capisce molto bene quando ascolta, la difficoltà è specifica alla lettura scritta».",
-        "Tenere presente che uno dei genitori potrebbe avere una dislessia non diagnosticata, la conversazione può risvegliare ricordi difficili della propria esperienza scolastica.",
-        "Evitare di mostrare schede coperte di rosso senza contesto, presentare prima ciò che l'alunno sa fare, poi ciò di cui ha bisogno di supporto.",
-        "Essere concreti sugli adattamenti già in atto e su quelli che le famiglie possono replicare a casa: testi in audio, lettura ad alta voce senza pressione di tempo.",
+        "Distinguere esplicitamente la lettura dall'intelligenza fin dall'inizio: «comprende molto bene quando ascolta; la difficoltà è specifica della lettura».",
+        "Tenere presente che la dislessia ha una forte componente ereditaria: uno dei genitori può avere una dislessia non diagnosticata, e la conversazione può riattivare ricordi difficili della propria scolarità.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evitare di mostrare schede piene di correzioni in rosso senza contesto: presentare prima ciò che l'alunno è già in grado di fare.",
+        "Essere concreti riguardo agli adattamenti già in atto e a quelli che il tutore può replicare a casa: testi in formato audio, lettura ad alta voce senza pressione di tempo.",
       ]},
       { items: [
-        "Autostima scolastica in deterioramento («sono stupido/a», «non ci riesco»).",
+        "Autostima scolastica in deterioramento («sono stupido», «non ce la faccio»).",
         "Evitamento sistematico dei compiti di lettura/scrittura al punto da compromettere altre materie.",
-        "Discrepanza marcata tra performance orale e scritta senza una diagnosi formale.",
+        "Discrepanza marcata tra il rendimento orale e quello scritto in assenza di una diagnosi formale: indirizzare a una valutazione psicopedagogica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -1389,49 +1389,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         }
       ]
     },
-    dislexia: {
-      sections: [
-        {
-          items: [
-            "Liest langsam und stolpernd, auch bei Texten, die er mündlich versteht.",
-            "Verwechselt visuell ähnliche Buchstaben (b/d, p/q); vertauscht die Reihenfolge von Buchstaben innerhalb eines Wortes.",
-            "Anhaltende Rechtschreibfehler, die auf wiederholte Korrektur nicht ansprechen.",
-            "Vermeidet lautes Lesen; kann desinteressiert wirken, schützt sich dabei aber in Wirklichkeit.",
-            "Mündliches Verständnis ist dem schriftlichen weit überlegen."
-          ]
-        },
-        {
-          items: [
-            "<strong>Keine</strong> mangelnde Intelligenz, Legasthenie ist unabhängig vom IQ.",
-            "<strong>Nicht</strong> nur das \"Vertauschen von Buchstaben\", es handelt sich um eine phonologische Verarbeitungsstörung.",
-            "<strong>Sie heilt nicht</strong>, sie wird ein Leben lang mit Kompensationsstrategien bewältigt."
-          ]
-        },
-        {
-          items: [
-            "Texte mit angepasster Typografie bereitstellen (OpenDyslexic oder ähnlich; vergrößerte Abstände).",
-            "Stilles Lesen vor jedem lauten Lesen erlauben, niemals unvermittelt aufrufen.",
-            "Inhalt und Rechtschreibung getrennt bewerten, wenn das Ziel die Bewertung von Wissen ist.",
-            "Mehrere Formate für dieselbe Information anbieten (Video, Audio, Schemata)."
-          ]
-        },
-        {
-          items: [
-            "Lesen und Intelligenz von Anfang an explizit trennen: \"Ihr Kind versteht sehr gut, wenn es zuhört.\"",
-            "Bedenken, dass ein Elternteil möglicherweise eine nicht diagnostizierte Legasthenie hat.",
-            "Arbeitsblätter mit vielen roten Fehlerkorrekturen nicht ohne Kontext zeigen.",
-            "Bei Anpassungen konkret bleiben: Texte als Audio, Lesen ohne Zeitdruck."
-          ]
-        },
-        {
-          items: [
-            "Verschlechterndes schulisches Selbstbild (\"Ich bin dumm\", \"Ich schaffe das nicht\").",
-            "Systematisches Vermeiden von Lese-/Schreibaufgaben bis zur Beeinträchtigung anderer Fächer.",
-            "Ausgeprägte Diskrepanz zwischen mündlicher und schriftlicher Leistung ohne formale Diagnose."
-          ]
-        }
-      ]
-    },
+    dislexia: { sections: [
+      { items: [
+        "Liest langsam und mühsam, mit Fehlern beim Lesen einzelner Wörter, selbst bei Texten, die das Kind gut versteht, wenn sie vorgelesen werden.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Buchstabenverdrehungen (b/d, p/q) sind bei allen Kindern, die zu schreiben beginnen, üblich und für sich genommen kein Zeichen von Legasthenie; die zentrale Schwierigkeit ist <strong>phonologisch</strong> — Buchstaben mit Lauten zu verknüpfen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Anhaltende Rechtschreibfehler, die auf wiederholte Korrektur nicht ansprechen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Neigt dazu, das laute Vorlesen zu vermeiden; das kann wie Desinteresse wirken, ist in Wirklichkeit aber eine Schutzstrategie.",
+        "Das Hörverständnis ist deutlich besser als das Leseverständnis — die Schwierigkeit ist spezifisch und keine allgemeine kognitive Einschränkung.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Es ist kein</strong> Mangel an Intelligenz: Per Definition ist Legasthenie angesichts der übrigen kognitiven Fähigkeiten des Schülers unerwartet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Es ist kein</strong> Sehproblem und auch kein bloßes „Verwechseln von Buchstaben“: Das zentrale Defizit liegt in der phonologischen Verarbeitung.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Sie lässt sich nicht „heilen“</strong>, doch eine strukturierte Förderung der phonologischen Bewusstheit und der Dekodierung verbessert das Lesen beständig.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Den Abstand zwischen Buchstaben und Zeilen vergrößern: Es gibt experimentelle Belege dafür, dass ein vergrößerter Abstand das Lesen von Kindern mit Legasthenie ohne vorheriges Training verbessert.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Die Belege für bestimmte Schriftarten „für Legastheniker“ sind dagegen schwächer und uneinheitlicher.",
+        "Stilles Lesen vor jedem lauten Vorlesen erlauben — niemals überraschend zum Vorlesen auffordern.",
+        "Wenn das Ziel nicht die Bewertung des Schreibens ist, den Inhalt getrennt von der Rechtschreibung bewerten.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Dieselbe Information in verschiedenen Formaten anbieten (Audio, Video, Schaubilder).",
+      ]},
+      { items: [
+        "Lesen und Intelligenz von Anfang an ausdrücklich trennen: „Er versteht sehr gut, wenn er zuhört — die Schwierigkeit ist spezifisch auf das Lesen bezogen.“",
+        "Bedenken, dass Legasthenie eine starke erbliche Komponente hat: Ein Elternteil könnte eine nicht diagnostizierte Legasthenie haben, und das Gespräch kann schwierige Erinnerungen an die eigene Schulzeit wecken.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vermeiden, Arbeitsblätter voller roter Korrekturen ohne Kontext zu zeigen — zuerst darstellen, was der Schüler bereits kann.",
+        "Konkret sein bei den bereits laufenden Anpassungen und denen, die die Erziehungsberechtigten zu Hause übernehmen können: Texte als Audio, lautes Vorlesen ohne Zeitdruck.",
+      ]},
+      { items: [
+        "Sich verschlechterndes akademisches Selbstbild („Ich bin dumm“, „Ich schaffe das nicht“).",
+        "Systematisches Vermeiden von Lese-/Schreibaufgaben bis zu dem Punkt, dass andere Fächer beeinträchtigt werden.",
+        "Deutliche Diskrepanz zwischen mündlicher und schriftlicher Leistung ohne formale Diagnose — zur psychopädagogischen Abklärung überweisen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     autismo: {
       sections: [
         {
@@ -1826,49 +1814,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         }
       ]
     },
-    dislexia: {
-      sections: [
-        {
-          items: [
-            "Leest langzaam en struikelend, ook bij teksten die hij mondeling begrijpt.",
-            "Verwisselt visueel gelijkaardige letters (b/d, p/q); keert de volgorde van letters binnen een woord om.",
-            "Aanhoudende spelfouten die niet reageren op herhaalde correctie.",
-            "Vermijdt hardop lezen; kan lijken alsof hij niet wil meedoen, maar beschermt zichzelf in feite.",
-            "Mondeling begrip is veel beter dan schriftelijk begrip."
-          ]
-        },
-        {
-          items: [
-            "<strong>Geen</strong> gebrek aan intelligentie, dyslexie is onafhankelijk van het IQ.",
-            "<strong>Niet</strong> alleen \"letters omdraaien\", het is een stoornis in de fonologische verwerking.",
-            "<strong>Het geneest niet</strong>, het wordt een leven lang beheerd met compensatiestrategieën."
-          ]
-        },
-        {
-          items: [
-            "Teksten met aangepast lettertype aanbieden (OpenDyslexic of vergelijkbaar; vergroot tekenafstand).",
-            "Stil lezen toestaan vóór elk hardop lezen, nooit onverwacht aanwijzen.",
-            "Inhoud en spelling apart beoordelen als het doel is kennis te evalueren.",
-            "Meerdere formaten voor dezelfde informatie aanbieden (video, audio, schema's)."
-          ]
-        },
-        {
-          items: [
-            "Lezen en intelligentie expliciet scheiden van het begin af: \"Uw kind begrijpt heel goed wanneer het luistert.\"",
-            "Rekening houden met de mogelijkheid dat een van de ouders/verzorgers niet-gediagnosticeerde dyslexie heeft.",
-            "Werkbladen met veel rode correcties niet zonder context tonen.",
-            "Concreet zijn in aanpassingen: teksten als audio, lezen zonder tijdsdruk."
-          ]
-        },
-        {
-          items: [
-            "Verslechterend academisch zelfbeeld (\"Ik ben dom\", \"Ik kan het niet\").",
-            "Systematisch vermijden van lees-/schrijftaken tot het punt dat andere vakken eronder lijden.",
-            "Duidelijk verschil tussen mondelinge en schriftelijke prestaties zonder formele diagnose."
-          ]
-        }
-      ]
-    },
+    dislexia: { sections: [
+      { items: [
+        "Leest langzaam en met moeite, met fouten bij het lezen van losse woorden, zelfs bij teksten die het kind goed begrijpt wanneer ze worden voorgelezen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Het omdraaien van letters (b/d, p/q) komt bij alle kinderen voor die beginnen te schrijven en is op zichzelf geen teken van dyslexie; de centrale moeilijkheid is <strong>fonologisch</strong> — letters aan klanken koppelen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Hardnekkige spelfouten die niet reageren op herhaalde correctie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Heeft de neiging om hardop lezen te vermijden; dit kan op desinteresse lijken, terwijl het in werkelijkheid een beschermingsstrategie is.",
+        "Het luisterbegrip is duidelijk beter dan het leesbegrip — de moeilijkheid is specifiek en geen algemene cognitieve beperking.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Het is geen</strong> gebrek aan intelligentie: per definitie is dyslexie onverwacht gezien de overige cognitieve vermogens van de leerling.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Het is geen</strong> zichtprobleem en evenmin een simpel ‘letters verwisselen’: het centrale tekort ligt in de fonologische verwerking.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Het is niet te ‘genezen’</strong>, maar een gestructureerde interventie gericht op het fonologisch bewustzijn en het decoderen verbetert het lezen op consistente wijze.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Vergroot de afstand tussen letters en regels: er is experimenteel bewijs dat een grotere afstand het lezen van kinderen met dyslexie verbetert, zonder voorafgaande training.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Het bewijs voor specifieke lettertypen ‘voor dyslectici’ is daarentegen zwakker en inconsistenter.",
+        "Sta stil lezen toe vóór elk hardop lezen — vraag nooit onverwacht om voor te lezen.",
+        "Wanneer het doel niet is om het schrijven te beoordelen, beoordeel de inhoud dan los van de spelling.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Bied dezelfde informatie aan in verschillende vormen (audio, video, schema's).",
+      ]},
+      { items: [
+        "Maak vanaf het begin expliciet onderscheid tussen lezen en intelligentie: ‘hij begrijpt het heel goed wanneer hij luistert — de moeilijkheid is specifiek voor het lezen’.",
+        "Houd er rekening mee dat dyslexie een sterke erfelijke component heeft: een van de ouders kan een niet-gediagnosticeerde dyslexie hebben, en het gesprek kan moeilijke herinneringen aan de eigen schooltijd oproepen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vermijd het tonen van werkbladen vol rode correcties zonder context — laat eerst zien wat de leerling al kan.",
+        "Wees concreet over de aanpassingen die al lopen en die welke de ouder/verzorger thuis kan overnemen: teksten als audio, hardop lezen zonder tijdsdruk.",
+      ]},
+      { items: [
+        "Verslechterend academisch zelfbeeld (‘ik ben dom’, ‘ik kan het niet’).",
+        "Systematisch vermijden van lees-/schrijftaken tot het punt dat andere vakken eronder lijden.",
+        "Duidelijke discrepantie tussen mondelinge en schriftelijke prestaties zonder formele diagnose — doorverwijzen voor psychopedagogisch onderzoek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     autismo: {
       sections: [
         {
@@ -2263,49 +2239,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         }
       ]
     },
-    dislexia: {
-      sections: [
-        {
-          items: [
-            "Czyta wolno i z potknięciami, nawet w tekstach, które rozumie w formie ustnej.",
-            "Myli litery podobne wizualnie (b/d, p/q); odwraca kolejność liter wewnątrz słowa.",
-            "Utrzymujące się błędy ortograficzne, które nie reagują na powtarzaną korektę.",
-            "Unika czytania na głos; może wydawać się niezainteresowany uczestnictwem, podczas gdy w rzeczywistości się chroni.",
-            "Rozumienie ze słuchu znacznie przewyższa rozumienie tekstu pisanego."
-          ]
-        },
-        {
-          items: [
-            "<strong>To nie jest</strong> brak inteligencji, dysleksja jest niezależna od IQ.",
-            "<strong>To nie jest</strong> tylko \"przestawianie liter\", jest to zaburzenie przetwarzania fonologicznego.",
-            "<strong>Nie wylecza się</strong>, przez całe życie radzi sobie z nią przy pomocy strategii kompensacyjnych."
-          ]
-        },
-        {
-          items: [
-            "Udostępniać teksty z dostosowaną typografią (OpenDyslexic lub podobna; zwiększone odstępy).",
-            "Zezwalać na ciche czytanie przed jakimkolwiek czytaniem na głos, nigdy nie wywoływać niespodziewanie.",
-            "Oceniać treść oddzielnie od ortografii, gdy celem jest ocena wiedzy.",
-            "Oferować wiele formatów dla tej samej informacji (wideo, audio, schematy)."
-          ]
-        },
-        {
-          items: [
-            "Od początku wyraźnie oddzielić czytanie od inteligencji: \"Pana/Pani dziecko bardzo dobrze rozumie, gdy słucha.\"",
-            "Pamiętać, że jedno z rodziców/opiekunów może mieć niezdiagnozowaną dysleksję.",
-            "Nie pokazywać kart pracy z dużą ilością czerwonych poprawek bez kontekstu.",
-            "Być konkretnym w dostosowaniach: teksty w formie audio, czytanie bez presji czasowej."
-          ]
-        },
-        {
-          items: [
-            "Pogarszający się akademicki obraz siebie (\"Jestem głupi\", \"Nie daję rady\").",
-            "Systematyczne unikanie zadań związanych z czytaniem/pisaniem do tego stopnia, że wpływa to na inne przedmioty.",
-            "Wyraźna rozbieżność między wynikami ustnymi i pisemnymi bez formalnej diagnozy."
-          ]
-        }
-      ]
-    },
+    dislexia: { sections: [
+      { items: [
+        "Czyta wolno i z wysiłkiem, popełniając błędy w odczytywaniu pojedynczych słów, nawet w tekstach, które dobrze rozumie ze słuchu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Mylenie liter (b/d, p/q) jest powszechne u wszystkich dzieci rozpoczynających naukę pisania i samo w sobie nie jest oznaką dysleksji; główna trudność ma charakter <strong>fonologiczny</strong> — polega na kojarzeniu liter z dźwiękami.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Uporczywe błędy ortograficzne, które nie ustępują mimo wielokrotnej korekty.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ma tendencję do unikania czytania na głos; może to sprawiać wrażenie braku zainteresowania, gdy w rzeczywistości jest strategią obronną.",
+        "Rozumienie ze słuchu wyraźnie lepsze niż rozumienie czytanego tekstu — trudność jest specyficzna, a nie ogólnym ograniczeniem poznawczym.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>To nie jest</strong> brak inteligencji: z definicji dysleksja jest nieoczekiwana w zestawieniu z pozostałymi zdolnościami poznawczymi ucznia.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>To nie jest</strong> problem ze wzrokiem ani zwykłe „mylenie liter”: główny deficyt leży w przetwarzaniu fonologicznym.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie da się tego „wyleczyć”</strong>, ale ustrukturyzowana praca nad świadomością fonologiczną i dekodowaniem konsekwentnie poprawia czytanie.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Zwiększenie odstępów między literami i wierszami: istnieją dowody eksperymentalne, że zwiększony odstęp poprawia czytanie u dzieci z dysleksją, bez wcześniejszego treningu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dowody na skuteczność konkretnych krojów pisma „dla dyslektyków” są natomiast słabsze i niespójne.",
+        "Umożliwienie cichego czytania przed jakimkolwiek czytaniem na głos — nigdy nie prosić o czytanie z zaskoczenia.",
+        "Gdy celem nie jest ocena pisania, oceniać treść oddzielnie od ortografii.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Przekazywanie tych samych informacji w różnych formatach (audio, wideo, schematy).",
+      ]},
+      { items: [
+        "Wyraźne oddzielenie czytania od inteligencji już na samym początku: „bardzo dobrze rozumie ze słuchu — trudność dotyczy konkretnie czytania”.",
+        "Pamiętanie, że dysleksja ma silny komponent dziedziczny: jedno z rodziców może mieć niezdiagnozowaną dysleksję, a rozmowa może odżywić trudne wspomnienia z własnej edukacji.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Unikanie pokazywania kartek pełnych poprawek na czerwono bez kontekstu — przedstawić najpierw to, co uczeń już potrafi.",
+        "Konkretne wskazanie już wprowadzonych dostosowań oraz tych, które opiekun może powielić w domu: teksty w wersji audio, czytanie na głos bez presji czasu.",
+      ]},
+      { items: [
+        "Pogarszający się obraz samego siebie w sferze szkolnej („jestem głupi”, „nie dam rady”).",
+        "Systematyczne unikanie zadań związanych z czytaniem/pisaniem do tego stopnia, że odbija się to na innych przedmiotach.",
+        "Wyraźna rozbieżność między wynikami ustnymi a pisemnymi bez formalnej diagnozy — skierować na ocenę psychopedagogiczną.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     autismo: {
       sections: [
         {
@@ -2700,49 +2664,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         }
       ]
     },
-    dislexia: {
-      sections: [
-        {
-          items: [
-            "Citește lent și cu dificultăți, chiar și texte pe care le înțelege oral.",
-            "Confundă litere vizual similare (b/d, p/q); inversează ordinea literelor în interiorul cuvântului.",
-            "Greșeli ortografice persistente care nu răspund la corectarea repetată.",
-            "Evită cititul cu voce tare; poate părea că nu vrea să participe, în timp ce de fapt se protejează.",
-            "Înțelegerea orală este mult superioară înțelegerii scrise."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu este</strong> lipsă de inteligență, dislexia este independentă de IQ.",
-            "<strong>Nu este</strong> doar \"inversarea literelor\", este o tulburare a procesării fonologice.",
-            "<strong>Nu se vindecă</strong>, se gestionează toată viața cu strategii compensatorii."
-          ]
-        },
-        {
-          items: [
-            "Furnizarea de texte cu tipografie adaptată (OpenDyslexic sau similar; spațiere mărită).",
-            "Permiterea citirii silențioase înainte de orice citire cu voce tare, niciodată chemat prin surprindere.",
-            "Evaluarea conținutului separat de ortografie când obiectivul este evaluarea cunoștințelor.",
-            "Oferirea de formate multiple pentru aceeași informație (video, audio, scheme)."
-          ]
-        },
-        {
-          items: [
-            "Separarea explicită a cititului de inteligență de la început: \"Copilul dumneavoastră înțelege foarte bine când ascultă.\"",
-            "A lua în considerare că unul dintre părinți/tutori poate avea dislexie nediagnosticată.",
-            "A evita arătarea fișelor cu multe greșeli marcate în roșu fără context.",
-            "A fi concret în adaptări: texte audio, citit fără presiune de timp."
-          ]
-        },
-        {
-          items: [
-            "Autoconceptul academic în deteriorare (\"Sunt prost\", \"Nu pot\").",
-            "Evitarea sistematică a sarcinilor de citit/scris până la compromiterea altor discipline.",
-            "Discrepanță marcată între performanța orală și cea scrisă fără diagnostic formal."
-          ]
-        }
-      ]
-    },
+    dislexia: { sections: [
+      { items: [
+        "Citește încet și cu efort, cu erori în citirea cuvintelor izolate, chiar și în texte pe care le înțelege bine atunci când sunt ascultate.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Inversiunile de litere (b/d, p/q) sunt frecvente la toți copiii care încep să scrie și nu reprezintă, în sine, un semn de dislexie; dificultatea centrală este <strong>fonologică</strong>: asocierea literelor cu sunetele.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Erori ortografice persistente care nu răspund la corectarea repetată.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tinde să evite cititul cu voce tare; poate părea dezinteres, când de fapt este o strategie de protecție.",
+        "Înțelegere orală clar superioară celei a citirii: dificultatea este specifică, nu o limitare cognitivă generală.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> o lipsă de inteligență: prin definiție, dislexia este neașteptată în raport cu celelalte capacități cognitive ale elevului.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nu este</strong> o problemă de vedere și nici o simplă „încurcare a literelor”: deficitul central se află în procesarea fonologică.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nu se „vindecă”</strong>, dar intervenția structurată asupra conștiinței fonologice și a decodificării îmbunătățește citirea în mod constant.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Mărirea spațierii dintre litere și rânduri: există dovezi experimentale că spațierea mai mare îmbunătățește citirea copiilor dislexici, fără antrenament prealabil.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> În schimb, dovezile privind fonturile specifice „pentru dislexici” sunt mai slabe și inconsistente.",
+        "Permiterea citirii în gând înainte de orice citire cu voce tare: a nu cere niciodată să citească pe neașteptate.",
+        "Atunci când obiectivul nu este evaluarea scrisului, evaluarea conținutului separat de ortografie.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Oferirea aceleiași informații în mai multe formate (audio, video, scheme).",
+      ]},
+      { items: [
+        "Separarea explicită a citirii de inteligență încă de la început: „înțelege foarte bine atunci când ascultă; dificultatea este specifică citirii”.",
+        "A avea în vedere că dislexia are o puternică componentă ereditară: unul dintre părinți poate avea o dislexie nediagnosticată, iar conversația poate reactiva amintiri dificile din propria școlaritate.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evitarea prezentării fișelor pline de corecturi cu roșu fără context: a arăta mai întâi ceea ce elevul reușește deja să facă.",
+        "A fi concret în privința adaptărilor deja în curs și a celor pe care aparținătorul le poate replica acasă: texte în format audio, citit cu voce tare fără presiunea timpului.",
+      ]},
+      { items: [
+        "Imagine de sine școlară în deteriorare („sunt prost”, „nu reușesc”).",
+        "Evitare sistematică a sarcinilor de citire/scriere până la punctul de a compromite alte discipline.",
+        "Discrepanță marcată între performanța orală și cea scrisă fără un diagnostic formal: îndrumare către o evaluare psihopedagogică.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     autismo: {
       sections: [
         {
@@ -3130,33 +3082,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Čita sporo i s oklijevanjem, čak i u tekstovima koje razumije kad ih čuje.",
-        "Zamjenjuje vizualno slična slova (b/d, p/q); preokreće redoslijed slova unutar riječi.",
-        "Trajne pravopisne pogreške koje ne reagiraju na ponavljano ispravljanje.",
-        "Izbjegava glasno čitanje; može izgledati kao da ne želi sudjelovati, a zapravo se štiti.",
-        "Usmeno razumijevanje znatno nadmašuje pisano razumijevanje.",
+        "Čita sporo i s naporom, s pogreškama u čitanju izoliranih riječi, čak i u tekstovima koje dobro razumije kada ih sluša.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zamjene slova (b/d, p/q) uobičajene su kod sve djece koja počinju pisati i same po sebi nisu znak disleksije; središnja je teškoća <strong>fonološka</strong> — povezivanje slova s glasovima.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ustrajne pravopisne pogreške koje ne reagiraju na opetovano ispravljanje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sklon je izbjegavati čitanje naglas; može djelovati kao nezainteresiranost, iako je zapravo riječ o zaštitnoj strategiji.",
+        "Slušno razumijevanje očito je bolje od razumijevanja pročitanoga — teškoća je specifična, a ne opće kognitivno ograničenje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nije</strong> nedostatak inteligencije, disleksija je neovisna o IQ-u.",
-        "<strong>Nije</strong> samo «zamjena slova», to je poremećaj fonološke obrade.",
-        "<strong>Ne «liječi se»</strong>, upravlja se kompenzacijskim strategijama cijeli život.",
+        "<strong>Nije</strong> nedostatak inteligencije: po definiciji je disleksija neočekivana s obzirom na ostale kognitivne sposobnosti učenika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nije</strong> problem s vidom niti puko „zamjenjivanje slova”: središnji je deficit u fonološkoj obradi.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne „liječi se”</strong>, ali strukturirana intervencija u fonološkoj svjesnosti i dekodiranju dosljedno poboljšava čitanje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Osigurati tekstove s prilagođenom tipografijom (OpenDyslexic ili slično; povećani razmak).",
-        "Dopustiti tiho čitanje prije glasnog čitanja, nikada ne pozivati bez upozorenja.",
-        "Vrednovati sadržaj odvojeno od pravopisa kada je cilj provjera znanja.",
-        "Nuditi višestruke formate iste informacije (video, audio, dijagrami).",
+        "Povećanje razmaka među slovima i redovima: postoje eksperimentalni dokazi da povećani razmak poboljšava čitanje kod disleksične djece, i to bez prethodne uvježbanosti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dokazi za posebne fontove „za disleksičare” nasuprot tome slabiji su i nedosljedni.",
+        "Omogućiti tiho čitanje prije bilo kakvog čitanja naglas — nikada ne tražiti čitanje iznenada.",
+        "Kada cilj nije procjena pisanja, sadržaj procjenjivati odvojeno od pravopisa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ponuditi iste informacije u različitim formatima (zvuk, video, sheme).",
       ]},
       { items: [
-        "Eksplicitno odvojiti čitanje od inteligencije od samog početka: «vaše dijete odlično razumije kada sluša, teškoća je specifična za pisano čitanje».",
-        "Imati na umu da jedan od roditelja može imati nedijagnosticiranu disleksiju, razgovor može potaknuti teška sjećanja.",
-        "Izbjegavati pokazivanje listića s mnogo crvenih pogrešaka bez konteksta, prvo predstaviti što učenik može, pa što treba podršku.",
-        "Biti konkretan u prilagodbama: audio tekstovi, glasno čitanje bez vremenskog pritiska.",
+        "Već na samom početku izričito odvojiti čitanje od inteligencije: „vrlo dobro razumije kada sluša — teškoća je specifična za čitanje”.",
+        "Imati na umu da disleksija ima snažnu nasljednu komponentu: jedan od roditelja može imati nedijagnosticiranu disleksiju, a razgovor može oživjeti teška sjećanja na vlastito školovanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Izbjegavati pokazivanje radnih listova punih crvenih ispravaka bez konteksta — najprije predstaviti ono što učenik već može.",
+        "Biti konkretan u vezi s već uvedenim prilagodbama i onima koje skrbnik može ponoviti kod kuće: tekstovi u zvučnom obliku, čitanje naglas bez vremenskog pritiska.",
       ]},
       { items: [
-        "Pogoršanje akademskog samopoimanja («glup/a sam», «ne mogu ovo»).",
-        "Sustavno izbjegavanje zadataka čitanja/pisanja do mjere koja ugrožava ostale predmete.",
-        "Izrazita razlika između usmenog i pisanog postignuća bez formalne dijagnoze.",
+        "Pogoršavanje akademske slike o sebi („glup sam”, „ne mogu”).",
+        "Sustavno izbjegavanje zadataka čitanja/pisanja do mjere da ugrožava druge predmete.",
+        "Izražen nesklad između usmenog i pisanog uratka bez formalne dijagnoze — uputiti na psihopedagošku procjenu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -3462,33 +3414,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Čte pomalu a s obtížemi, i v textech, které orálně rozumí.",
-        "Zaměňuje vizuálně podobná písmena (b/d, p/q); obrací pořadí písmen ve slovech.",
-        "Přetrvávající pravopisné chyby, které nereagují na opakované opravování.",
-        "Vyhýbá se hlasitému čtení; může působit, že nechce participovat, přitom se chrání.",
-        "Ústní porozumění výrazně vyšší než písemné porozumění.",
+        "Čte pomalu a s námahou, s chybami při čtení izolovaných slov, a to i v textech, kterým při poslechu dobře rozumí.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Záměny písmen (b/d, p/q) jsou běžné u všech dětí, které začínají psát, a samy o sobě nejsou známkou dyslexie; ústřední obtíž je <strong>fonologická</strong> — spojování písmen se zvuky.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Přetrvávající pravopisné chyby, které nereagují na opakovanou opravu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Má sklon vyhýbat se hlasitému čtení; může to působit jako nezájem, ačkoli jde ve skutečnosti o obrannou strategii.",
+        "Porozumění mluvenému slovu je výrazně lepší než porozumění čtenému textu — obtíž je specifická, nikoli obecné kognitivní omezení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Není</strong> to nedostatek inteligence, dyslexie je nezávislá na IQ.",
-        "<strong>Není</strong> to jen «přehazování písmen», jde o poruchu fonologického zpracování.",
-        "<strong>Nedá se «vyléčit»</strong>, zvládá se kompenzačními strategiemi po celý život.",
+        "<strong>Nejde</strong> o nedostatek inteligence: dyslexie je z definice nečekaná vzhledem k ostatním kognitivním schopnostem žáka.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nejde</strong> o problém se zrakem ani o pouhé „zaměňování písmen“: ústřední deficit spočívá ve fonologickém zpracování.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nedá se „vyléčit“</strong>, ale strukturovaná intervence v oblasti fonologického uvědomění a dekódování čtení soustavně zlepšuje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Poskytovat texty s upravenou typografií (OpenDyslexic nebo podobné; zvětšené řádkování).",
-        "Umožnit tiché čtení před jakýmkoli hlasitým čtením, nikdy nevyvolávat bez upozornění.",
-        "Hodnotit obsah odděleně od pravopisu, když je cílem ověřit znalosti.",
-        "Nabízet více formátů pro stejnou informaci (video, audio, diagramy).",
+        "Zvětšení rozestupů mezi písmeny a řádky: existují experimentální důkazy, že zvětšený rozestup zlepšuje čtení u dyslektických dětí, a to bez předchozího nácviku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Důkazy pro konkrétní typy písma „pro dyslektiky“ jsou naproti tomu slabší a nekonzistentní.",
+        "Umožnit tiché čtení před jakýmkoli čtením nahlas — nikdy nevyžadovat čtení znenadání.",
+        "Pokud cílem není hodnotit psaní, hodnotit obsah odděleně od pravopisu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Nabízet tytéž informace v různých formátech (zvuk, video, schémata).",
       ]},
       { items: [
-        "Explicitně oddělit čtení od inteligence od začátku: «vaše dítě výborně rozumí, když poslouchá, obtíže jsou specifické pro psané čtení».",
-        "Mít na paměti, že jeden z rodičů může mít nediagnostikovanou dyslexii, rozhovor může vyvolat těžké vzpomínky.",
-        "Vyhýbat se ukazování listů plných červených oprav bez kontextu, nejprve ukázat, co žák zvládá.",
-        "Být konkrétní ohledně úprav: texty v audio podobě, čtení bez časového tlaku.",
+        "Hned na začátku výslovně oddělit čtení od inteligence: „velmi dobře rozumí, když poslouchá — obtíž se týká konkrétně čtení“.",
+        "Mít na paměti, že dyslexie má silnou dědičnou složku: jeden z rodičů může mít nediagnostikovanou dyslexii a rozhovor může oživit těžké vzpomínky z vlastní školní docházky.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vyhnout se předkládání pracovních listů plných červených oprav bez kontextu — nejprve ukázat, co už žák zvládá.",
+        "Být konkrétní ohledně již zavedených úprav i těch, které může zákonný zástupce zopakovat doma: texty ve zvukové podobě, čtení nahlas bez časového tlaku.",
       ]},
       { items: [
-        "Zhoršující se akademické sebepojetí («jsem hloupý/á», «na to nestačím»).",
-        "Systematické vyhýbání se úkolům čtení/psaní do té míry, že to ohrožuje další předměty.",
-        "Výrazný nepoměr mezi ústním a písemným výkonem bez formální diagnózy.",
+        "Zhoršující se akademické sebepojetí („jsem hloupý“, „nezvládnu to“).",
+        "Systematické vyhýbání se úkolům na čtení/psaní do té míry, že to ohrožuje další předměty.",
+        "Výrazný nesoulad mezi ústním a písemným výkonem bez formální diagnózy — doporučit k psychopedagogickému vyšetření.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -3794,33 +3746,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Läser långsamt och hackigt, även texter de förstår när de hörs.",
-        "Förväxlar visuellt liknande bokstäver (b/d, p/q); vänder ordningen på bokstäver i ord.",
-        "Ihållande stavfel som inte svarar på upprepade rättningar.",
-        "Undviker högläsning; kan verka ovillig att delta när de i själva verket skyddar sig.",
-        "Muntligt förståelse avsevärt högre än skriftlig förståelse.",
+        "Läser långsamt och med ansträngning, med fel vid läsning av enstaka ord, även i texter som barnet förstår väl när de läses upp.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Bokstavskastningar (b/d, p/q) är vanliga hos alla barn som börjar skriva och är inte i sig ett tecken på dyslexi; den centrala svårigheten är <strong>fonologisk</strong> — att koppla bokstäver till ljud.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ihållande stavfel som inte svarar på upprepad rättning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tenderar att undvika att läsa högt; det kan verka som ointresse men är i själva verket en skyddsstrategi.",
+        "Hörförståelsen är klart bättre än läsförståelsen — svårigheten är specifik och inte en allmän kognitiv begränsning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det är inte</strong> brist på intelligens, dyslexi är oberoende av IQ.",
-        "<strong>Det är inte</strong> bara «att byta bokstäver», det är en fonologisk behandlingsstörning.",
-        "<strong>Det «botas» inte</strong>, det hanteras med kompensationsstrategier hela livet.",
+        "<strong>Det är inte</strong> brist på intelligens: per definition är dyslexi oväntad med tanke på elevens övriga kognitiva förmågor.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det är inte</strong> ett synproblem och inte heller bara att ”kasta om bokstäver”: det centrala bristfälliga området är den fonologiska bearbetningen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Den går inte att ”bota”</strong>, men en strukturerad insats för den fonologiska medvetenheten och avkodningen förbättrar läsningen på ett konsekvent sätt.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Tillhandahåll texter med anpassad typografi (OpenDyslexic eller liknande; ökat radavstånd).",
-        "Tillåt tyst läsning innan någon högläsning, ropa aldrig på någon utan förvarning.",
-        "Bedöm innehåll separat från stavning när målet är att bedöma kunskaper.",
-        "Erbjud flera format för samma information (video, ljud, diagram).",
+        "Öka avståndet mellan bokstäver och rader: det finns experimentellt stöd för att ett ökat avstånd förbättrar läsningen hos barn med dyslexi, utan föregående träning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Stödet för specifika teckensnitt ”för dyslektiker” är däremot svagare och mer inkonsekvent.",
+        "Tillåt tyst läsning före all högläsning — be aldrig om läsning oannonserat.",
+        "När syftet inte är att bedöma skrivandet, bedöm innehållet skilt från stavningen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Erbjud samma information i flera format (ljud, video, scheman).",
       ]},
       { items: [
-        "Separera läsning och intelligens explicit från början: «ditt barn förstår mycket bra när de lyssnar, svårigheten är specifik för skriftlig läsning».",
-        "Var medveten om att en av vårdnadshavarna kan ha odiagnostiserad dyslexi, samtalet kan väcka svåra minnen.",
-        "Undvik att visa arbetsblad fulla av röda rättningar utan sammanhang, börja med vad eleven klarar.",
-        "Var konkret om anpassningar: ljudtexter, läsning utan tidspress.",
+        "Skilj uttryckligen på läsning och intelligens redan från början: ”han förstår mycket väl när han lyssnar — svårigheten är specifik för läsningen”.",
+        "Ha i åtanke att dyslexi har en stark ärftlig komponent: en av föräldrarna kan ha en odiagnostiserad dyslexi, och samtalet kan väcka svåra minnen från den egna skoltiden.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Undvik att visa arbetsblad fulla av röda rättningar utan sammanhang — visa först vad eleven redan klarar.",
+        "Var konkret om de anpassningar som redan pågår och de som vårdnadshavaren kan återskapa hemma: texter som ljud, högläsning utan tidspress.",
       ]},
       { items: [
-        "Försämrat akademiskt självbegrepp («jag är dum», «jag klarar inte det»).",
-        "Systematiskt undvikande av läs-/skrivuppgifter till den grad att det påverkar andra ämnen.",
-        "Tydlig diskrepans mellan muntlig och skriftlig prestation utan formell diagnos.",
+        "Försämrad akademisk självbild (”jag är dum”, ”jag klarar det inte”).",
+        "Systematiskt undvikande av läs-/skrivuppgifter i en sådan grad att andra ämnen påverkas.",
+        "Markant skillnad mellan muntlig och skriftlig prestation utan formell diagnos — remittera för psykopedagogisk utredning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -4126,33 +4078,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Læser langsomt og hakkende, selv i tekster de forstår mundtligt.",
-        "Forveksler visuelt ens bogstaver (b/d, p/q); vender rækkefølgen af bogstaver inden for ord.",
-        "Vedvarende stavefejl der ikke reagerer på gentagne rettelser.",
-        "Undgår højtlæsning; kan virke uvillig til at deltage, mens de i virkeligheden beskytter sig selv.",
-        "Mundtlig forståelse langt bedre end skriftlig forståelse.",
+        "Læser langsomt og med besvær, med fejl ved læsning af enkeltstående ord, selv i tekster, som barnet forstår godt, når de læses højt.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Bogstavombytninger (b/d, p/q) er almindelige hos alle børn, der begynder at skrive, og er ikke i sig selv et tegn på ordblindhed; den centrale vanskelighed er <strong>fonologisk</strong> — at forbinde bogstaver med lyde.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Vedvarende stavefejl, der ikke reagerer på gentagen rettelse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Har tendens til at undgå at læse højt; det kan virke som mangel på interesse, men er i virkeligheden en beskyttelsesstrategi.",
+        "Lytteforståelsen er klart bedre end læseforståelsen — vanskeligheden er specifik og ikke en generel kognitiv begrænsning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> mangel på intelligens, ordblindhed er uafhængig af IQ.",
-        "<strong>Det er ikke</strong> bare «at bytte om på bogstaver», det er en forstyrrelse i den fonologiske bearbejdning.",
-        "<strong>Det «helbredes» ikke</strong>, det håndteres med kompenserende strategier gennem hele livet.",
+        "<strong>Det er ikke</strong> mangel på intelligens: per definition er ordblindhed uventet i forhold til elevens øvrige kognitive evner.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> et synsproblem og heller ikke blot at »bytte om på bogstaver«: det centrale underskud ligger i den fonologiske bearbejdning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Den kan ikke »helbredes«</strong>, men en struktureret indsats over for den fonologiske bevidsthed og afkodningen forbedrer læsningen på en konsekvent måde.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Giv tekster med tilpasset typografi (OpenDyslexic eller lignende; øget afstand).",
-        "Tillad stille læsning før enhver højtlæsning, kald aldrig på nogen uden varsel.",
-        "Vurder indhold adskilt fra stavning, når målet er at vurdere viden.",
-        "Tilbyd flere formater for samme information (video, lyd, diagrammer).",
+        "Øg afstanden mellem bogstaver og linjer: der er eksperimentel evidens for, at en øget afstand forbedrer læsningen hos børn med ordblindhed, uden forudgående træning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Evidensen for bestemte skrifttyper »til ordblinde« er derimod svagere og mere inkonsekvent.",
+        "Tillad stillelæsning før al højtlæsning — bed aldrig om læsning uventet.",
+        "Når formålet ikke er at vurdere skrivningen, så vurder indholdet adskilt fra stavningen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tilbyd den samme information i flere formater (lyd, video, skemaer).",
       ]},
       { items: [
-        "Adskil eksplicit læsning og intelligens fra starten: «dit barn forstår meget godt, når de lytter, vanskeligheden er specifik for skriftlig læsning».",
-        "Vær opmærksom på, at en af forældrene kan have udiagnosticeret ordblindhed, samtalen kan vække svære minder.",
-        "Undgå at vise arbejdsark fulde af røde rettelser uden kontekst, start med hvad eleven kan.",
-        "Vær konkret om tilpasninger: lydtekster, læsning uden tidspres.",
+        "Skel udtrykkeligt mellem læsning og intelligens helt fra begyndelsen: »han forstår det rigtig godt, når han lytter — vanskeligheden er specifik for læsningen«.",
+        "Vær opmærksom på, at ordblindhed har en stærk arvelig komponent: en af forældrene kan have en udiagnosticeret ordblindhed, og samtalen kan vække vanskelige minder fra deres egen skoletid.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Undgå at vise arbejdsark fulde af røde rettelser uden kontekst — vis først, hvad eleven allerede kan.",
+        "Vær konkret om de tilpasninger, der allerede er i gang, og dem, som forælderen/værgen kan gentage derhjemme: tekster som lyd, højtlæsning uden tidspres.",
       ]},
       { items: [
-        "Forringet akademisk selvopfattelse («jeg er dum», «det kan jeg ikke»).",
-        "Systematisk undvigelse af læse-/skriveopgaver til det punkt, at det påvirker andre fag.",
-        "Markant diskrepans mellem mundtlig og skriftlig præstation uden formel diagnose.",
+        "Forringet akademisk selvopfattelse (»jeg er dum«, »jeg kan ikke«).",
+        "Systematisk undgåelse af læse-/skriveopgaver i en sådan grad, at andre fag påvirkes.",
+        "Markant uoverensstemmelse mellem mundtlig og skriftlig præstation uden formel diagnose — henvis til psykopædagogisk udredning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -4458,33 +4410,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Lukee hitaasti ja kankeasti, jopa teksteissä joita ymmärtää kuunnellessaan.",
-        "Sekoittaa visuaalisesti samankaltaisia kirjaimia (b/d, p/q); kääntää kirjainten järjestyksen sanoissa.",
-        "Jatkuvat kirjoitusvirheet, jotka eivät reagoi toistuvaan korjaamiseen.",
-        "Välttelee ääneen lukemista; voi vaikuttaa haluttomalta osallistua, vaikka suojelee itseään.",
-        "Suullinen ymmärtäminen selvästi parempi kuin kirjallinen ymmärtäminen.",
+        "Lukee hitaasti ja vaivalloisesti, tehden virheitä yksittäisten sanojen lukemisessa jopa teksteissä, jotka hän ymmärtää hyvin kuullessaan ne.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Kirjainten kääntyminen (b/d, p/q) on yleistä kaikilla kirjoittamista aloittavilla lapsilla eikä sinänsä ole lukihäiriön merkki; keskeinen vaikeus on <strong>fonologinen</strong> — kirjainten yhdistäminen äänteisiin.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Sitkeät oikeinkirjoitusvirheet, jotka eivät korjaannu toistuvasta korjaamisesta huolimatta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pyrkii välttämään ääneen lukemista; se voi vaikuttaa kiinnostuksen puutteelta, vaikka kyseessä on todellisuudessa suojautumiskeino.",
+        "Ymmärtää kuullen selvästi paremmin kuin lukien — vaikeus on erityinen, ei yleinen kognitiivinen rajoite.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ei ole</strong> älykkyyden puute, lukivaikeus on riippumaton älykkyysosamäärästä.",
-        "<strong>Ei ole</strong> vain «kirjainten sekoittamista», kyseessä on fonologisen prosessoinnin häiriö.",
-        "<strong>Ei «parane»</strong>, sitä hallitaan kompensoivilla strategioilla koko elämän ajan.",
+        "<strong>Kyse ei ole</strong> älykkyyden puutteesta: lukihäiriö on määritelmänsä mukaan odottamaton oppilaan muihin kognitiivisiin kykyihin nähden.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Kyse ei ole</strong> näköongelmasta eikä pelkästä „kirjainten sekoittamisesta“: keskeinen puute on fonologisessa prosessoinnissa.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Sitä ei „paranneta“</strong>, mutta jäsennelty interventio fonologiseen tietoisuuteen ja dekoodaukseen parantaa lukemista johdonmukaisesti.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Tarjoa tekstejä mukautetulla typografialla (OpenDyslexic tai vastaava; suurennettu riviväli).",
-        "Salli hiljainen lukeminen ennen ääneen lukemista, älä koskaan kutsu lukemaan varoittamatta.",
-        "Arvioi sisältö erillään oikeinkirjoituksesta, kun tavoitteena on tiedon arviointi.",
-        "Tarjoa sama informaatio useassa muodossa (video, ääni, kaaviot).",
+        "Lisätä kirjain- ja riviväliä: on olemassa kokeellista näyttöä siitä, että väljennetty välistys parantaa lukihäiriöisten lasten lukemista ilman ennakkoharjoittelua.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Sen sijaan näyttö erityisistä „lukihäiriöisille tarkoitetuista“ kirjasintyypeistä on heikompaa ja epäjohdonmukaista.",
+        "Sallia hiljainen lukeminen ennen mitään ääneen lukemista — älä koskaan pyydä lukemaan yllättäen.",
+        "Kun tavoitteena ei ole arvioida kirjoittamista, arvioi sisältö erillään oikeinkirjoituksesta.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tarjota sama tieto useassa muodossa (ääni, video, kaaviot).",
       ]},
       { items: [
-        "Erota lukeminen ja älykkyys selkeästi alusta alkaen: «lapsenne ymmärtää erinomaisesti kuunnellessaan, vaikeus on erityinen kirjallisessa lukemisessa».",
-        "Ota huomioon, että toinen vanhemmista saattaa olla diagnosoimaton dyslektikko, keskustelu voi herättää vaikeita muistoja.",
-        "Vältä arkkien näyttämistä täynnä punaisia korjauksia ilman kontekstia, aloita siitä, mitä oppilas osaa.",
-        "Ole konkreettinen mukautuksissa: äänitietostit, lukeminen ilman aikapainetta.",
+        "Erottaa jo keskustelun alussa selkeästi lukeminen älykkyydestä: „hän ymmärtää erittäin hyvin kuullessaan — vaikeus on erityinen lukemiselle“.",
+        "Pitää mielessä, että lukihäiriöllä on vahva perinnöllinen osatekijä: toisella vanhemmista voi olla diagnosoimaton lukihäiriö, ja keskustelu voi herättää vaikeita muistoja hänen omasta kouluajastaan.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vältä näyttämästä punaisilla korjauksilla täytettyjä tehtäväpapereita ilman kontekstia — esitä ensin se, mitä oppilas jo osaa tehdä.",
+        "Ole konkreettinen jo käytössä olevista mukautuksista ja niistä, joita huoltaja voi toistaa kotona: äänitekstit, ääneen lukeminen ilman aikapainetta.",
       ]},
       { items: [
-        "Heikkenevä akateeminen minäkäsitys («olen tyhmä», «en osaa»).",
-        "Luku-/kirjoitustehtävien järjestelmällinen välttely siinä määrin, että se vaikuttaa muihin aineisiin.",
-        "Selvä ero suullisen ja kirjallisen suorituksen välillä ilman virallista diagnoosia.",
+        "Heikkenevä akateeminen minäkuva („olen tyhmä“, „en osaa“).",
+        "Luku-/kirjoitustehtävien järjestelmällinen välttely siinä määrin, että se haittaa muita oppiaineita.",
+        "Selvä ristiriita suullisen ja kirjallisen suoriutumisen välillä ilman virallista diagnoosia — ohjaa psykopedagogiseen arviointiin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -4791,33 +4743,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Číta pomaly a s chybami, aj v textoch, ktorým rozumie ústne.",
-        "Zamieňa vizuálne podobné písmená (b/d, p/q); obracia poradie písmen v slovách.",
-        "Pretrvávajúce pravopisné chyby, ktoré nereagujú na opakovanú opravu.",
-        "Vyhýba sa hlasitému čítaniu; môže sa zdať, že nechce participovať, hoci sa v skutočnosti chráni.",
-        "Ústne porozumenie oveľa lepšie ako písomné.",
+        "Číta pomaly a s námahou, s chybami pri čítaní izolovaných slov, a to aj v textoch, ktorým pri počúvaní dobre rozumie.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zámeny písmen (b/d, p/q) sú bežné u všetkých detí, ktoré začínajú písať, a samy osebe nie sú znakom dyslexie; ústredná ťažkosť je <strong>fonologická</strong> — spájanie písmen so zvukmi.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Pretrvávajúce pravopisné chyby, ktoré nereagujú na opakovanú opravu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Má sklon vyhýbať sa hlasnému čítaniu; môže to pôsobiť ako nezáujem, hoci ide v skutočnosti o ochrannú stratégiu.",
+        "Porozumenie hovorenému slovu je výrazne lepšie než porozumenie čítanému textu — ťažkosť je špecifická, nie všeobecné kognitívne obmedzenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nie je to</strong> nedostatok inteligencie, dyslexia je nezávislá od IQ.",
-        "<strong>Nie je to</strong> len \"zamieňanie písmen\", je to porucha fonologického spracovania.",
-        "<strong>\"Nevylieči sa\"</strong>, celý život sa zvláda pomocou kompenzačných stratégií.",
+        "<strong>Nejde</strong> o nedostatok inteligencie: dyslexia je z definície nečakaná vzhľadom na ostatné kognitívne schopnosti žiaka.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nejde</strong> o problém so zrakom ani o obyčajné „zamieňanie písmen“: ústredný deficit spočíva vo fonologickom spracovaní.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nedá sa „vyliečiť“</strong>, ale štruktúrovaná intervencia v oblasti fonologického uvedomenia a dekódovania čítanie sústavne zlepšuje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Poskytovať texty s upravenou typografiou (OpenDyslexic alebo podobné; väčší riadkovací priestor).",
-        "Umožniť tiché čítanie pred akýmkoľvek hlasitým čítaním, nikdy nevolať bez upozornenia.",
-        "Hodnotiť obsah oddelene od pravopisu, keď je cieľom overiť vedomosti.",
-        "Ponúknuť viacero formátov pre rovnaké informácie (video, audio, schémy).",
+        "Zväčšenie rozostupov medzi písmenami a riadkami: existujú experimentálne dôkazy, že zväčšený rozostup zlepšuje čítanie u dyslektických detí, a to bez predchádzajúceho nácviku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dôkazy pre konkrétne typy písma „pre dyslektikov“ sú naproti tomu slabšie a nekonzistentné.",
+        "Umožniť tiché čítanie pred akýmkoľvek čítaním nahlas — nikdy nežiadať čítanie znenazdania.",
+        "Ak cieľom nie je hodnotiť písanie, hodnotiť obsah oddelene od pravopisu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ponúkať tie isté informácie v rôznych formátoch (zvuk, video, schémy).",
       ]},
       { items: [
-        "Explicitne oddeliť čítanie od inteligencie od začiatku: \"vaše dieťa dobre rozumie, keď počuje\".",
-        "Zvážiť, že jeden z rodičov môže mať nediagnostikovanú dyslexiu, rozhovor môže prebudiť ťažké spomienky.",
-        "Vyhnúť sa ukazovaniu pracovných listov s množstvom červených chýb bez kontextu.",
-        "Byť konkrétny v úpravách: texty v audio, čítanie bez časového tlaku.",
+        "Hneď na začiatku výslovne oddeliť čítanie od inteligencie: „veľmi dobre rozumie, keď počúva — ťažkosť sa týka konkrétne čítania“.",
+        "Mať na pamäti, že dyslexia má silnú dedičnú zložku: jeden z rodičov môže mať nediagnostikovanú dyslexiu a rozhovor môže oživiť ťažké spomienky z vlastnej školskej dochádzky.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vyhnúť sa predkladaniu pracovných listov plných červených opráv bez kontextu — najprv ukázať, čo už žiak zvláda.",
+        "Byť konkrétny pri už zavedených úpravách aj pri tých, ktoré môže zákonný zástupca zopakovať doma: texty vo zvukovej podobe, čítanie nahlas bez časového tlaku.",
       ]},
       { items: [
-        "Zhoršujúce sa akademické sebavedomie (\"som hlúpy\", \"neviem to\").",
-        "Systematické vyhýbanie sa úlohám čítania/písania natoľko, že ohrozuje iné predmety.",
-        "Výrazný rozdiel medzi ústnym a písomným výkonom bez formálnej diagnózy.",
+        "Zhoršujúce sa akademické sebaponímanie („som hlúpy“, „nezvládnem to“).",
+        "Systematické vyhýbanie sa úlohám na čítanie/písanie do takej miery, že to ohrozuje ostatné predmety.",
+        "Výrazný nesúlad medzi ústnym a písomným výkonom bez formálnej diagnózy — odporučiť na psychopedagogické vyšetrenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -5121,33 +5073,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Lassan és akadozva olvas, még szóban megértett szövegekben is.",
-        "Vizuálisan hasonló betűket kever (b/d, p/q); megfordítja a betűk sorrendjét szavakon belül.",
-        "Tartós helyesírási hibák, amelyek nem reagálnak az ismételt javításra.",
-        "Kerüli a hangos olvasást; úgy tűnhet, nem akar részt venni, valójában önmagát védi.",
-        "Szóbeli megértése sokkal jobb az írásosnál.",
+        "Lassan és erőlködve olvas, az egyes szavak olvasásakor hibázik, még olyan szövegekben is, amelyeket hallás után jól megért.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "A betűcserék (b/d, p/q) minden írni kezdő gyermeknél gyakoriak, és önmagukban nem jelei a diszlexiának; a központi nehézség <strong>fonológiai</strong> jellegű — a betűk hangokhoz kapcsolása.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Tartós helyesírási hibák, amelyek az ismételt javításra sem javulnak.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Hajlamos kerülni a hangos olvasást; érdektelenségnek tűnhet, miközben valójában védekező stratégia.",
+        "A szövegértés hallás után egyértelműen jobb, mint olvasáskor — a nehézség specifikus, nem általános kognitív korlát.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nem</strong> intelligenciahiány, a diszlexia független az IQ-tól.",
-        "<strong>Nem</strong> csak „betűcsere\", fonológiai feldolgozási zavar.",
-        "<strong>Nem \"gyógyítható\"</strong>, kompenzáló stratégiákkal kezelhető egész életen át.",
+        "<strong>Nem</strong> az értelem hiánya: a diszlexia per definitionem a tanuló többi kognitív képességéhez képest váratlan.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nem</strong> látásprobléma, és nem is egyszerű „betűk felcserélése”: a központi hiányosság a fonológiai feldolgozásban van.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nem „gyógyítható”</strong>, de a fonológiai tudatosságra és a dekódolásra irányuló strukturált beavatkozás következetesen javítja az olvasást.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Adaptált tipográfiájú szövegek biztosítása (OpenDyslexic vagy hasonló; növelt sorköz).",
-        "Csendes olvasás engedélyezése bármilyen hangos olvasás előtt, soha ne szólítsa fel váratlanul.",
-        "A tartalom értékelése elkülönítve a helyesírástól, ha a cél a tudás felmérése.",
-        "Több formátum ajánlása ugyanahhoz az információhoz (videó, hang, ábrák).",
+        "A betűk és sorok közötti térköz növelése: kísérleti bizonyíték van arra, hogy a megnövelt térköz előzetes gyakorlás nélkül is javítja a diszlexiás gyermekek olvasását.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Ezzel szemben a kifejezetten „diszlexiásoknak” szánt betűtípusok melletti bizonyíték gyengébb és ellentmondásos.",
+        "Engedélyezze a néma olvasást minden hangos olvasás előtt — soha ne kérjen váratlanul hangos olvasást.",
+        "Amikor a cél nem az írás értékelése, a tartalmat a helyesírástól külön értékelje.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kínálja ugyanazt az információt többféle formátumban (hang, videó, ábrák).",
       ]},
       { items: [
-        "Az olvasást és az intelligenciát egyértelműen szét kell választani az elejétől: „a gyermeke nagyon jól ért, amikor hallgat\".",
-        "Számoljon azzal, hogy az egyik szülőnek nem diagnosztizált diszlexiája lehet, a beszélgetés nehéz emlékeket ébreszthet.",
-        "Kerülje a sok piros javítással teli lapok megmutatását kontextus nélkül.",
-        "Legyen konkrét az alkalmazkodásban: hangos szövegek, időnyomás nélküli olvasás.",
+        "Már a beszélgetés elején válassza el kifejezetten az olvasást az értelmi képességtől: „nagyon jól megérti, amikor hallja — a nehézség kifejezetten az olvasásra vonatkozik”.",
+        "Tartsa szem előtt, hogy a diszlexiának erős örökletes összetevője van: az egyik szülőnek lehet diagnosztizálatlan diszlexiája, és a beszélgetés felidézheti saját iskolai éveinek nehéz emlékeit.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kerülje a pirossal teleírt, javításokkal teli lapok kontextus nélküli bemutatását — először azt mutassa meg, amit a tanuló már képes megtenni.",
+        "Legyen konkrét a már alkalmazott alkalmazkodásokról és azokról, amelyeket a gondviselő otthon megismételhet: hangoskönyv formátumú szövegek, hangos olvasás időkényszer nélkül.",
       ]},
       { items: [
-        "Romló akadémiai önkép („buta vagyok\", „nem megy\").",
-        "Az olvasási/írási feladatok szisztematikus kerülése más tantárgyakat is veszélyezteti.",
-        "Feltűnő különbség a szóbeli és írásos teljesítmény között formális diagnózis nélkül.",
+        "Romló tanulmányi önértékelés („buta vagyok”, „nem megy”).",
+        "Az olvasási/írási feladatok rendszeres kerülése olyan mértékben, hogy az más tantárgyakat is veszélyeztet.",
+        "Markáns eltérés a szóbeli és írásbeli teljesítmény között hivatalos diagnózis nélkül — irányítsa pszichopedagógiai vizsgálatra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -5451,33 +5403,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Διαβάζει αργά και με κόπο, ακόμα και σε κείμενα που κατανοεί προφορικά.",
-        "Μπερδεύει οπτικά παρόμοια γράμματα (β/δ, π/ρ)· αντιστρέφει τη σειρά γραμμάτων μέσα στις λέξεις.",
-        "Επίμονα ορθογραφικά λάθη που δεν βελτιώνονται με επανειλημμένη διόρθωση.",
-        "Αποφεύγει την ανάγνωση δυνατά· μπορεί να φαίνεται απρόθυμος/η να συμμετάσχει, ενώ στην πραγματικότητα αυτοπροστατεύεται.",
-        "Η προφορική κατανόηση είναι πολύ ανώτερη από τη γραπτή.",
+        "Διαβάζει αργά και με κόπο, με λάθη στην ανάγνωση μεμονωμένων λέξεων, ακόμη και σε κείμενα που κατανοεί καλά όταν τα ακούει.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Οι αντιστροφές γραμμάτων (b/d, p/q) είναι συνηθισμένες σε όλα τα παιδιά που αρχίζουν να γράφουν και δεν αποτελούν, από μόνες τους, ένδειξη δυσλεξίας· η κεντρική δυσκολία είναι <strong>φωνολογική</strong> — η συσχέτιση γραμμάτων με ήχους.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Επίμονα ορθογραφικά λάθη που δεν υποχωρούν παρά την επανειλημμένη διόρθωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Τείνει να αποφεύγει τη φωναχτή ανάγνωση· μπορεί να φαίνεται αδιαφορία ενώ στην πραγματικότητα πρόκειται για στρατηγική προστασίας.",
+        "Η προφορική κατανόηση είναι σαφώς ανώτερη από την αναγνωστική — η δυσκολία είναι ειδική, όχι μια γενική γνωστική περιοριστική κατάσταση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> έλλειψη νοημοσύνης, η δυσλεξία είναι ανεξάρτητη από το IQ.",
-        "<strong>Δεν είναι</strong> απλώς «αντικατάσταση γραμμάτων», είναι διαταραχή φωνολογικής επεξεργασίας.",
-        "<strong>Δεν «θεραπεύεται»</strong>, διαχειρίζεται με αντισταθμιστικές στρατηγικές σε όλη τη ζωή.",
+        "<strong>Δεν είναι</strong> έλλειψη ευφυΐας: εξ ορισμού, η δυσλεξία είναι απρόσμενη σε σχέση με τις άλλες γνωστικές ικανότητες του μαθητή.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Δεν είναι</strong> πρόβλημα όρασης ούτε απλώς «μπέρδεμα γραμμάτων»: το κεντρικό έλλειμμα βρίσκεται στη φωνολογική επεξεργασία.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Δεν «θεραπεύεται»</strong>, αλλά η δομημένη παρέμβαση στη φωνολογική επίγνωση και στην αποκωδικοποίηση βελτιώνει την ανάγνωση με συνέπεια.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Να παρέχετε κείμενα με προσαρμοσμένη τυπογραφία (OpenDyslexic ή παρόμοιο· αυξημένο διάστιχο).",
-        "Να επιτρέπεται η σιωπηλή ανάγνωση πριν από οποιαδήποτε ανάγνωση δυνατά, ποτέ χωρίς προειδοποίηση.",
-        "Να αξιολογείται το περιεχόμενο χωριστά από την ορθογραφία όταν στόχος είναι η αξιολόγηση γνώσεων.",
-        "Να προσφέρονται πολλαπλές μορφές για την ίδια πληροφορία (βίντεο, ήχος, διαγράμματα).",
+        "Αύξηση της απόστασης μεταξύ γραμμάτων και γραμμών: υπάρχουν πειραματικά δεδομένα ότι το διευρυμένο διάστιχο βελτιώνει την ανάγνωση των δυσλεξικών παιδιών, χωρίς προηγούμενη εξάσκηση.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Αντιθέτως, τα δεδομένα για ειδικές γραμματοσειρές «για δυσλεξικούς» είναι ασθενέστερα και ασυνεπή.",
+        "Επιτρέψτε τη σιωπηρή ανάγνωση πριν από οποιαδήποτε φωναχτή ανάγνωση — μη ζητάτε ποτέ ανάγνωση αιφνιδιαστικά.",
+        "Όταν ο στόχος δεν είναι η αξιολόγηση της γραφής, αξιολογήστε το περιεχόμενο χωριστά από την ορθογραφία.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Προσφέρετε την ίδια πληροφορία σε πολλαπλές μορφές (ήχος, βίντεο, διαγράμματα).",
       ]},
       { items: [
-        "Να διαχωρίζετε ρητά ανάγνωση και νοημοσύνη από την αρχή: «το παιδί σας κατανοεί πολύ καλά όταν ακούει».",
-        "Να λαμβάνετε υπόψη ότι ένας γονέας μπορεί να έχει αδιάγνωστη δυσλεξία, η συζήτηση μπορεί να ξυπνήσει δύσκολες αναμνήσεις.",
-        "Αποφύγετε να δείχνετε φύλλα εργασίας με πολλές κόκκινες διορθώσεις χωρίς πλαίσιο.",
-        "Να είστε συγκεκριμένοι στις προσαρμογές: ηχητικά κείμενα, ανάγνωση χωρίς χρονική πίεση.",
+        "Διαχωρίστε ρητά την ανάγνωση από την ευφυΐα ήδη από την αρχή: «κατανοεί πολύ καλά όταν ακούει — η δυσκολία είναι ειδική στην ανάγνωση».",
+        "Λάβετε υπόψη ότι η δυσλεξία έχει ισχυρή κληρονομική συνιστώσα: ένας από τους γονείς μπορεί να έχει αδιάγνωστη δυσλεξία, και η συζήτηση μπορεί να αναζωπυρώσει δύσκολες μνήμες από τη δική του σχολική πορεία.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Αποφύγετε να δείχνετε φύλλα γεμάτα κόκκινες διορθώσεις χωρίς πλαίσιο — παρουσιάστε πρώτα αυτά που ο μαθητής ήδη μπορεί να κάνει.",
+        "Να είστε συγκεκριμένοι στις προσαρμογές που ήδη εφαρμόζονται και σε εκείνες που ο κηδεμόνας μπορεί να αναπαράγει στο σπίτι: κείμενα σε ηχητική μορφή, φωναχτή ανάγνωση χωρίς πίεση χρόνου.",
       ]},
       { items: [
-        "Επιδεινούμενη ακαδημαϊκή αυτοεικόνα («είμαι χαζός/ή», «δεν τα καταφέρνω»).",
-        "Συστηματική αποφυγή εργασιών ανάγνωσης/γραφής σε βαθμό που επηρεάζει άλλα μαθήματα.",
-        "Αισθητή διαφορά μεταξύ προφορικής και γραπτής επίδοσης χωρίς επίσημη διάγνωση.",
+        "Επιδείνωση της ακαδημαϊκής αυτοαντίληψης («είμαι χαζός», «δεν τα καταφέρνω»).",
+        "Συστηματική αποφυγή εργασιών ανάγνωσης/γραφής σε σημείο που να θίγονται και άλλα μαθήματα.",
+        "Έντονη απόκλιση μεταξύ προφορικής και γραπτής επίδοσης χωρίς επίσημη διάγνωση — παραπομπή για ψυχοπαιδαγωγική αξιολόγηση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -5782,33 +5734,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Чете бавно и с препъване, дори в текстове, които разбира устно.",
-        "Бърка визуално подобни букви (б/д); обръща реда на буквите в думите.",
-        "Постоянни правописни грешки, които не реагират на повторна корекция.",
-        "Избягва четенето на глас; може да изглежда, че не иска да участва, когато всъщност се самозащитава.",
-        "Устното разбиране е много по-добро от писменото.",
+        "Чете бавно и с усилие, с грешки при четенето на изолирани думи, дори в текстове, които разбира добре, когато ги чуе.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Разместването на букви (b/d, p/q) е често срещано при всички деца, които започват да пишат, и само по себе си не е признак на дислексия; основната трудност е <strong>фонологична</strong> — свързването на букви със звукове.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Постоянни правописни грешки, които не се повлияват от многократно поправяне.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Склонно е да избягва четенето на глас; може да изглежда като незаинтересованост, докато всъщност е защитна стратегия.",
+        "Слуховото разбиране е значително по-добро от разбирането при четене — трудността е специфична, а не общо когнитивно ограничение.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Не е</strong> липса на интелигентност, дислексията е независима от IQ.",
-        "<strong>Не е</strong> само \"бъркане на букви\", е нарушение на фонологичната обработка.",
-        "<strong>Не се \"лекува\"</strong>, управлява се с компенсаторни стратегии през целия живот.",
+        "<strong>Не е</strong> липса на интелигентност: по дефиниция дислексията е неочаквана спрямо останалите когнитивни способности на ученика.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Не е</strong> проблем със зрението, нито обикновено „разместване на букви“: основният дефицит е във фонологичната обработка.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Не се „лекува“</strong>, но структурираната намеса върху фонологичното осъзнаване и декодирането последователно подобрява четенето.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Предоставяйте текстове с адаптирана типография (OpenDyslexic или подобно; увеличено разстояние).",
-        "Разрешавайте тихо четене преди всяко четене на глас, никога без предупреждение.",
-        "Оценявайте съдържанието отделно от правописа, когато целта е проверка на знания.",
-        "Предлагайте множество формати за същата информация (видео, аудио, схеми).",
+        "Увеличаване на разстоянието между буквите и редовете: има експериментални доказателства, че разширеното разстояние подобрява четенето при деца с дислексия, без предварителна подготовка.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Доказателствата за специфични шрифтове „за хора с дислексия“ за разлика от това са по-слаби и непоследователни.",
+        "Да се позволи четене наум преди каквото и да е четене на глас — никога да не се иска четене изненадващо.",
+        "Когато целта не е да се оценява писането, съдържанието да се оценява отделно от правописа.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Да се предлага една и съща информация в различни формати (аудио, видео, схеми).",
       ]},
       { items: [
-        "Ясно разделяйте четенето от интелигентността от самото начало: \"детето ви разбира много добре, когато слуша\".",
-        "Имайте предвид, че един от родителите може да има недиагностицирана дислексия, разговорът може да събуди трудни спомени.",
-        "Избягвайте да показвате листове с много червени грешки без контекст.",
-        "Бъдете конкретни за адаптациите: аудио текстове, четене без времеви натиск.",
+        "Изрично да се отдели четенето от интелигентността още в самото начало: „разбира много добре, когато слуша — трудността е специфична за четенето“.",
+        "Да се има предвид, че дислексията има силен наследствен компонент: единият от родителите може да има недиагностицирана дислексия и разговорът може да съживи трудни спомени от собственото му образование.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Да се избягва показването на листове, пълни с червени поправки, без контекст — първо да се представи това, което ученикът вече може да прави.",
+        "Да се бъде конкретен относно вече въведените адаптации и тези, които настойникът може да повтори у дома: текстове в аудиоформат, четене на глас без времеви натиск.",
       ]},
       { items: [
-        "Влошаващо се академично самочувствие (\"тъп/а съм\", \"не мога\").",
-        "Системно избягване на задачи за четене/писане до степен, засягаща другите предмети.",
-        "Значително несъответствие между устното и писменото представяне без официална диагноза.",
+        "Влошаваща се академична самооценка („глупав съм“, „не мога“).",
+        "Системно избягване на задачи за четене/писане до степен да застрашава други предмети.",
+        "Изразено несъответствие между устното и писменото представяне без формална диагноза — да се насочи към психопедагогическа оценка.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -6112,33 +6064,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Skaito lėtai ir su klaidomis, net tekstuose, kuriuos supranta žodžiu.",
-        "Painioja vizualiai panašias raides; apverčia raidžių tvarką žodžiuose.",
-        "Nuolatinės rašybos klaidos, kurios nereaguoja į pakartotinį taisymą.",
-        "Vengia skaitymo garsiai; gali atrodyti, kad nenori dalyvauti, kai iš tikrųjų apsisaugo.",
-        "Žodinis supratimas daug geresnis nei rašytinis.",
+        "Skaito lėtai ir su dideliu vargu, klysta skaitydamas atskirus žodžius net ir tuose tekstuose, kuriuos puikiai supranta, kai jie skaitomi balsu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Raidžių apvertimai (b/d, p/q) būdingi visiems rašyti pradedantiems vaikams ir savaime nėra disleksijos požymis; pagrindinis sunkumas yra <strong>fonologinis</strong> — susieti raides su garsais.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Nuolatinės rašybos klaidos, kurių nepašalina pakartotinis taisymas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Linkęs vengti skaityti balsu; tai gali atrodyti kaip nesidomėjimas, nors iš tikrųjų yra apsaugos strategija.",
+        "Klausymu suvokia akivaizdžiai geriau nei skaitydamas — sunkumas yra specifinis, o ne bendras pažintinis ribotumas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> intelekto trūkumas, disleksija nepriklauso nuo IQ.",
-        "<strong>Tai nėra</strong> tik \"raidžių maišymas\", tai fonologinio apdorojimo sutrikimas.",
-        "<strong>Tai negydomasi</strong>, valdoma kompensuojamomis strategijomis visą gyvenimą.",
+        "<strong>Tai nėra</strong> intelekto stoka: pagal apibrėžimą disleksija yra netikėta, palyginti su kitais mokinio pažintiniais gebėjimais.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tai nėra</strong> regos problema ar paprastas „raidžių painiojimas“: pagrindinis sutrikimas yra fonologinio apdorojimo srityje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Jos „neišgydoma“</strong>, tačiau struktūruota intervencija į fonologinį suvokimą ir dekodavimą nuosekliai gerina skaitymą.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pateikite tekstus su pritaikyta tipografija (OpenDyslexic ar panašu; padidintas tarpas).",
-        "Leiskite tylų skaitymą prieš bet kokį garsų skaitymą, niekada be perspėjimo.",
-        "Vertinkite turinį atskirai nuo rašybos, kai tikslas yra patikrinti žinias.",
-        "Siūlykite kelias to paties informacijos formatus (vaizdo įrašas, garsas, schemos).",
+        "Padidinti tarpus tarp raidžių ir eilučių: yra eksperimentinių įrodymų, kad platesni tarpai pagerina disleksiją turinčių vaikų skaitymą be išankstinio pasirengimo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Priešingai, įrodymai dėl specialių „disleksikams skirtų“ šriftų yra silpnesni ir nenuoseklūs.",
+        "Leisti skaityti tyliai prieš bet kokį skaitymą balsu — niekada neprašyti skaityti netikėtai.",
+        "Kai tikslas nėra įvertinti rašymą, turinį vertinti atskirai nuo rašybos.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pateikti tą pačią informaciją keliais formatais (garso įrašu, vaizdo įrašu, schemomis).",
       ]},
       { items: [
-        "Aiškiai atskirkite skaitymą nuo intelekto nuo pat pradžių: \"jūsų vaikas labai gerai supranta, kai klauso\".",
-        "Atsižvelkite į tai, kad vienas iš tėvų gali turėti nediagnozuotą disleksiją, pokalbis gali sužadinti sunkius prisiminimus.",
-        "Venkite rodyti darbo lapus su daugybe raudonų klaidų be konteksto.",
-        "Būkite konkretūs dėl adaptacijų: garso tekstai, skaitymas be laiko spaudimo.",
+        "Iš karto pokalbio pradžioje aiškiai atskirti skaitymą nuo intelekto: „klausydamas supranta labai gerai — sunkumas yra specifinis skaitymui“.",
+        "Turėti omenyje, kad disleksija turi stiprų paveldimumo komponentą: vienas iš tėvų gali turėti nediagnozuotą disleksiją, o pokalbis gali atgaivinti sunkius savo paties mokyklos prisiminimus.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vengti rodyti darbo lapus, pilnus raudonai pažymėtų taisymų, be konteksto — pirmiausia parodyti, ką mokinys jau geba padaryti.",
+        "Būti konkretiems dėl jau taikomų pritaikymų ir dėl tų, kuriuos globėjas gali pakartoti namuose: tekstai garso formatu, skaitymas balsu be laiko spaudimo.",
       ]},
       { items: [
-        "Blogėjantis akademinis savęs vertinimas (\"esu kvailas/a\", \"negaliu\").",
-        "Sistemiškas skaitymo/rašymo užduočių vengimas tiek, kad paveikia kitus dalykus.",
-        "Ryškus skirtumas tarp žodinio ir rašytinio pasiekimų be oficialios diagnozės.",
+        "Blogėjanti akademinė savivertė („esu kvailas“, „negaliu“).",
+        "Sistemingas skaitymo/rašymo užduočių vengimas tiek, kad tai trukdo kitiems dalykams.",
+        "Ryškus neatitikimas tarp žodinio ir rašytinio pasiekimo be oficialios diagnozės — nukreipti psichopedagoginiam vertinimui.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -6443,33 +6395,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Lasa lēni un ar klupšanu, pat tekstos, kurus saprot, dzirdot skaļi.",
-        "Sajauc vizuāli līdzīgus burtus (b/d, p/q); apgriež burtu secību vārdos.",
-        "Pastāvīgas pareizrakstības kļūdas rakstītos darbos, kas neatbild uz atkārtotu labošanu.",
-        "Izvairās no lasīšanas skaļi; var šķist nevēlīgs piedalīties, lai gan patiesībā sevi aizsargā.",
-        "Mutvārdu izpratne ievērojami augstāka par rakstveida izpratni.",
+        "Lasa lēni un ar piepūli, pieļaujot kļūdas atsevišķu vārdu lasīšanā pat tekstos, kurus labi saprot, kad tos dzird.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Burtu apvēršana (b/d, p/q) ir izplatīta visiem bērniem, kuri sāk rakstīt, un pati par sevi nav disleksijas pazīme; galvenā grūtība ir <strong>fonoloģiska</strong> — saistīt burtus ar skaņām.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Noturīgas pareizrakstības kļūdas, kuras nenovērš atkārtota labošana.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Mēdz izvairīties no lasīšanas skaļi; tas var izskatīties pēc neieinteresētības, lai gan patiesībā tā ir aizsardzības stratēģija.",
+        "Klausoties saprot ievērojami labāk nekā lasot — grūtība ir specifiska, nevis vispārējs kognitīvs ierobežojums.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tā nav</strong> intelekta trūkums, disleksija nav atkarīga no IQ.",
-        "<strong>Tā nav</strong> tikai 'burtu sajaukšana', tā ir fonēmiskās apstrādes traucējums.",
-        "<strong>Tā nepazūd</strong>, to pārvalda ar kompensējošām stratēģijām visu mūžu.",
+        "<strong>Tas nav</strong> inteliģences trūkums: pēc definīcijas disleksija ir negaidīta salīdzinājumā ar skolēna citām kognitīvajām spējām.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tā nav</strong> redzes problēma, ne arī vienkārša „burtu jaukšana“: galvenais deficīts ir fonoloģiskajā apstrādē.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>To „neizārstē“</strong>, taču strukturēta iejaukšanās fonoloģiskajā apzināšanā un dekodēšanā konsekventi uzlabo lasīšanu.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Nodrošināt tekstus ar pielāgotu tipogrāfiju (OpenDyslexic vai līdzīgs; palielināts atstarpe).",
-        "Atļaut klusā lasīšana pirms jebkura skaļas lasīšanas, nekad neuzaicināt bez brīdinājuma.",
-        "Vērtēt saturu atsevišķi no pareizrakstības, ja mērķis ir novērtēt zināšanas.",
-        "Piedāvāt vairākus formātus vienai informācijai (video, audio, diagrammas).",
+        "Palielināt atstarpes starp burtiem un rindām: ir eksperimentāli pierādījumi, ka palielinātas atstarpes uzlabo disleksiju skarto bērnu lasīšanu bez iepriekšējas apmācības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Turpretī pierādījumi par īpašiem „disleksiķiem paredzētiem“ burtveidoliem ir vājāki un nekonsekventi.",
+        "Atļaut klusu lasīšanu pirms jebkādas lasīšanas skaļi — nekad nelūgt lasīt pārsteiguma kārtā.",
+        "Ja mērķis nav novērtēt rakstīšanu, novērtēt saturu atsevišķi no pareizrakstības.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Piedāvāt to pašu informāciju vairākos formātos (audio, video, shēmas).",
       ]},
       { items: [
-        "Skaidri atdalīt lasīšanu no intelekta no paša sākuma: 'jūsu bērns labi saprot, kad klausās, grūtības ir specifiskas rakstveida lasīšanai'.",
-        "Ņemt vērā, ka vienam no vecākiem/aizbildņiem var būt nediagnosticēta disleksija, sarunai var būt grūtu atmiņu ietekme.",
-        "Izvairīties no darblapu rādīšanas ar sarkanajiem labojumiem bez konteksta, vispirms parādīt, ko skolēns var, tad, kam nepieciešams atbalsts.",
-        "Konkretizēt jau veiktās adaptācijas un tās, ko vecāki/aizbildņi var atkārtot mājās: audio teksti, lasīšana bez laika spiediena.",
+        "Jau sarunas sākumā skaidri nošķirt lasīšanu no inteliģences: „viņš ļoti labi saprot, kad klausās — grūtība ir specifiska lasīšanai“.",
+        "Paturēt prātā, ka disleksijai ir spēcīga iedzimtības komponente: vienam no vecākiem var būt nediagnosticēta disleksija, un saruna var atdzīvināt grūtas atmiņas par paša skolas gaitām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Izvairīties rādīt darba lapas, kas pilnas sarkani izlabotu kļūdu, bez konteksta — vispirms parādīt to, ko skolēns jau spēj izdarīt.",
+        "Būt konkrētiem par jau ieviestajiem pielāgojumiem un tiem, kurus aizbildnis var atkārtot mājās: teksti audio formātā, lasīšana skaļi bez laika spiediena.",
       ]},
       { items: [
-        "Akadēmiskā paškoncepta pasliktināšanās ('es esmu stulbs', 'es neko nevaru').",
-        "Sistemātiska lasīšanas/rakstīšanas uzdevumu izvairīšanās līdz citu priekšmetu kompromitēšanai.",
-        "Izteikta neatbilstība starp mutvārdu un rakstveida sniegumu bez formālas diagnozes.",
+        "Pasliktinošs akadēmiskais paštēls („esmu muļķis“, „es nespēju“).",
+        "Sistemātiska izvairīšanās no lasīšanas/rakstīšanas uzdevumiem tādā mērā, ka tas apdraud citus mācību priekšmetus.",
+        "Izteikta neatbilstība starp mutvārdu un rakstisko sniegumu bez formālas diagnozes — nosūtīt uz psihopedagoģisko novērtējumu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -6770,33 +6722,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Loeb aeglaselt ja komistades, isegi tekstides, mida kuulates mõistab.",
-        "Ajab segamini visuaalselt sarnased tähed (b/d, p/q); pöörab tähtede järjekorda sõnades.",
-        "Püsivad õigekirjavead kirjalikes töödes, mis ei reageeri korduvatele parandustele.",
-        "Väldib valjusti lugemist; võib tunduda osaleda ei taha, kuigi tegelikult kaitseb ennast.",
-        "Suuline mõistmine on oluliselt kõrgem kui kirjalik mõistmine.",
+        "Loeb aeglaselt ja pingutusega, tehes vigu üksikute sõnade lugemisel isegi tekstides, mida ta kuuldes hästi mõistab.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Tähtede ümberpööramine (b/d, p/q) on tavaline kõigil kirjutamist alustavatel lastel ega ole iseenesest düsleksia tunnus; keskne raskus on <strong>fonoloogiline</strong> — tähtede sidumine häälikutega.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Püsivad õigekirjavead, mis ei kao korduva parandamise tulemusel.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kaldub vältima valjusti lugemist; see võib näida huvipuudusena, kuigi tegelikult on tegemist kaitsestrateegiaga.",
+        "Kuuldes mõistab selgelt paremini kui lugedes — raskus on spetsiifiline, mitte üldine kognitiivne piirang.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> intelligentsuse puudus, düsleksia on IQ-st sõltumatu.",
-        "<strong>See ei ole</strong> ainult tähtede segamine, see on fonoloogilise töötlemise häire.",
-        "<strong>See ei kao ära</strong>, seda hallata kompenseerivate strateegiatega kogu elu.",
+        "<strong>See ei ole</strong> intelligentsuse puudumine: düsleksia on määratluse järgi ootamatu õpilase teiste kognitiivsete võimetega võrreldes.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>See ei ole</strong> nägemisprobleem ega lihtne „tähtede segiajamine“: keskne puudujääk on fonoloogilises töötluses.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Seda ei „ravita“</strong>, kuid struktureeritud sekkumine fonoloogilisse teadlikkusse ja dekodeerimisse parandab lugemist järjepidevalt.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pakkuda kohandatud tüpograafiaga tekste (OpenDyslexic või sarnane; suurendatud vahed).",
-        "Lubada vaikne lugemine enne valjusti lugemist, mitte kunagi kutsuda ilma hoiatuseta.",
-        "Hinnata sisu eraldi õigekirjast, kui eesmärk on teadmiste hindamine.",
-        "Pakkuda sama informatsiooni mitmes formaadis (video, heli, diagrammid).",
+        "Suurendada tähtede- ja reavahesid: on olemas eksperimentaalsed tõendid, et laiendatud vahed parandavad düsleksiaga laste lugemist ilma eelneva harjutamiseta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Seevastu tõendid spetsiaalsete „düsleksikutele mõeldud“ kirjatüüpide kohta on nõrgemad ja ebajärjekindlad.",
+        "Lubada vaikset lugemist enne mis tahes valjusti lugemist — mitte kunagi paluda üllatuslugemist.",
+        "Kui eesmärk ei ole kirjutamise hindamine, hinnata sisu õigekirjast eraldi.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pakkuda sama teavet mitmes vormingus (heli, video, skeemid).",
       ]},
       { items: [
-        "Eraldada lugemine intelligentsusest algusest peale: 'teie laps mõistab kuulates väga hästi, raskus on spetsiifiline kirjaliku lugemise suhtes'.",
-        "Arvestada, et ühel vanematest võib olla diagnoosimata düsleksia, vestlus võib vallandada raskeid mälestusi.",
-        "Vältida punaste parandustega töölehtede näitamist ilma kontekstita, esmalt näita, mida õpilane suudab.",
-        "Olla konkreetne juba tehtavate kohanduste osas: helitekstid, lugemine ajasurveta.",
+        "Eristada juba vestluse alguses selgelt lugemist intelligentsusest: „ta mõistab kuuldes väga hästi — raskus on spetsiifiline lugemisele“.",
+        "Pidada meeles, et düsleksial on tugev pärilik komponent: ühel vanematest võib olla diagnoosimata düsleksia ja vestlus võib taaselustada raskeid mälestusi tema enda kooliajast.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vältida punaste parandustega täidetud töölehtede näitamist ilma kontekstita — esitada esmalt see, mida õpilane juba oskab teha.",
+        "Olla konkreetne juba kasutusel olevate kohanduste ja nende osas, mida hooldaja saab kodus korrata: helitekstid, valjusti lugemine ilma ajasurveta.",
       ]},
       { items: [
-        "Halvenev akadeemiline enesekäsitlus ('ma olen loll', 'ma ei suuda mitte midagi').",
-        "Lugemis-/kirjutamisülesannete süstemaatiline vältimine teiste ainete kahjuks.",
-        "Märkimisväärne erinevus suulise ja kirjaliku soorituse vahel ilma ametliku diagnoosita.",
+        "Halvenev akadeemiline minapilt („ma olen rumal“, „ma ei suuda“).",
+        "Lugemis-/kirjutamisülesannete süstemaatiline vältimine sel määral, et see kahjustab teisi õppeaineid.",
+        "Märgatav lahknevus suulise ja kirjaliku soorituse vahel ilma formaalse diagnoosita — suunata psühhopedagoogilisele hindamisele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -7099,33 +7051,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Bere počasi in s spotikanjem, celo pri besedilih, ki jih razume, ko jih sliši.",
-        "Meša vizualno podobne črke (b/d, p/q); obrne vrstni red črk v besedah.",
-        "Vztrajne pravopisne napake v pisnih delih, ki se ne odzivajo na ponavljajočo se korekcijo.",
-        "Izogiba se glasnemu branju; zdi se, da noče sodelovati, čeprav se v resnici zaščiti.",
-        "Ustno razumevanje je bistveno višje od pisnega razumevanja.",
+        "Bere počasi in z naporom, z napakami pri branju posameznih besed, tudi pri besedilih, ki jih ob poslušanju dobro razume.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Zamenjave črk (b/d, p/q) so pogoste pri vseh otrocih, ki začenjajo pisati, in same po sebi niso znak disleksije; osrednja težava je <strong>fonološka</strong> — povezovanje črk z glasovi.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Vztrajne pravopisne napake, ki se ne odzivajo na ponavljajoče se popravljanje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nagiba se k izogibanju glasnemu branju; lahko deluje kot nezanimanje, čeprav gre v resnici za zaščitno strategijo.",
+        "Razumevanje govorjenega je očitno boljše od razumevanja prebranega — težava je specifična, ne pa splošna kognitivna omejitev.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>To ni</strong> pomanjkanje inteligentnosti, disleksija je neodvisna od IQ.",
-        "<strong>To ni</strong> le 'mešanje črk', to je motnja fonološke predelave.",
-        "<strong>To ne izgine</strong>, obvladuje se s kompenzacijskimi strategijami vse življenje.",
+        "<strong>Ne gre</strong> za pomanjkanje inteligence: disleksija je po definiciji nepričakovana glede na druge kognitivne sposobnosti učenca.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ne gre</strong> za težavo z vidom niti za zgolj »zamenjevanje črk«: osrednji primanjkljaj je v fonološki obdelavi.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne da se je »pozdraviti«</strong>, vendar strukturirana obravnava fonološkega zavedanja in dekodiranja dosledno izboljšuje branje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Zagotovi besedila s prilagojeno tipografijo (OpenDyslexic ali podobno; povečani razmiki).",
-        "Dovoli tiho branje pred glasnim branjem, nikoli ne pokliči brez opozorila.",
-        "Ocenjuj vsebino ločeno od pravopisa, kadar je cilj oceniti znanje.",
-        "Ponudi več formatov za isto informacijo (video, avdio, diagrami).",
+        "Povečanje razmika med črkami in vrsticami: obstajajo eksperimentalni dokazi, da povečan razmik izboljša branje pri disleksičnih otrocih, in to brez predhodnega treninga.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dokazi za posebne pisave »za disleksike« so v nasprotju s tem šibkejši in neskladni.",
+        "Omogočiti tiho branje pred kakršnim koli glasnim branjem — nikoli ne zahtevati branja brez napovedi.",
+        "Kadar cilj ni ocenjevanje pisanja, vsebino ocenjevati ločeno od pravopisa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ponuditi iste informacije v različnih oblikah (zvok, video, sheme).",
       ]},
       { items: [
-        "Eksplicitno ločiti branje od inteligentnosti: 'vaš otrok zelo dobro razume, ko posluša, težava je specifična za pisno branje'.",
-        "Upoštevaj, da ima morda eden od staršev nediagnosticirano disleksijo, pogovor lahko sproži težke spomine.",
-        "Izogibaj se pokazovanju delovnih listov, prekritih z rdečimi popravki brez konteksta.",
-        "Bodi konkreten glede prilagoditev: zvočna besedila, branje brez časovnega pritiska.",
+        "Že na samem začetku izrecno ločiti branje od inteligence: »zelo dobro razume, ko posluša — težava se nanaša prav na branje«.",
+        "Imeti v mislih, da ima disleksija močno dedno komponento: eden od staršev ima morda nediagnosticirano disleksijo, pogovor pa lahko obudi težke spomine na lastno šolanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Izogibati se prikazovanju delovnih listov, polnih rdečih popravkov, brez konteksta — najprej predstaviti, kar učenec že zmore.",
+        "Biti konkreten glede že uvedenih prilagoditev in tistih, ki jih lahko skrbnik ponovi doma: besedila v zvočni obliki, glasno branje brez časovnega pritiska.",
       ]},
       { items: [
-        "Slabšanje akademskega samopodobe ('sem neumen', 'ne zmorem ničesar').",
+        "Slabšajoča se učna samopodoba (»neumen sem«, »ne zmorem«).",
         "Sistematično izogibanje nalogam branja/pisanja do te mere, da ogroža druge predmete.",
-        "Izrazita neskladnost med ustnim in pisnim uspehom brez uradne diagnoze.",
+        "Izrazito neskladje med ustno in pisno uspešnostjo brez formalne diagnoze — napotiti na psihopedagoško oceno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -7426,33 +7378,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Léann go mall agus le bacadh, fiú i dtéacsanna a thuigeann siad nuair a chloiseann siad iad.",
-        "Meascann litreacha atá cosúil go físiúil (b/d, p/q); aisiompóidh ord na litreacha i bhfocail.",
-        "Earráidí litrithe leanúnacha i saothair scríofa nach bhfreagraíonn do cheartú athlua.",
-        "Seachnaíonn léamh os ard; is cosúil nach bhfuil siad sásta páirt a ghlacadh ach cosnaíonn siad iad féin.",
-        "Tá tuiscint ó bhéal i bhfad níos airde ná tuiscint scríofa.",
+        "Léann sé go mall agus le dua, le hearráidí agus focail aonair á léamh aige, fiú i dtéacsanna a thuigeann sé go maith nuair a chloiseann sé iad.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Tá iompú litreacha (b/d, p/q) coitianta i ngach leanbh atá ag tosú ar scríobh agus ní comhartha disléicse iad astu féin; is deacracht <strong>fhóineolaíoch</strong> í an phríomhdheacracht — litreacha a cheangal le fuaimeanna.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Earráidí leanúnacha litrithe nach bhfeabhsaíonn in ainneoin ceartú arís agus arís eile.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bíonn claonadh aige léamh os ard a sheachaint; d'fhéadfadh sé go bhfeicfí mar easpa suime é cé gur straitéis chosanta atá ann i ndáiríre.",
+        "Bíonn an tuiscint ó bhéal go soiléir níos fearr ná an tuiscint léitheoireachta — tá an deacracht sonrach, ní teorannú cognaíoch ginearálta atá ann.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ní hé</strong> easpa intleachta é, tá disléicse neamhspleách ar IQ.",
-        "<strong>Ní hé</strong> ach 'litreacha a mheascadh' é, is neamhord próiseála fóineolaíche é.",
-        "<strong>Ní imíonn sé</strong>, bainistear é le straitéisí cúitimh ar feadh an tsaoil.",
+        "<strong>Ní</strong> easpa éirime atá ann: de réir sainmhínithe, bíonn an disléicse gan choinne i gcomparáid le cumais chognaíocha eile an dalta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ní</strong> fadhb radhairc atá ann ná „litreacha a mhalartú\" go simplí: tá an príomheasnamh sa phróiseáil fhóineolaíoch.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní féidir é a „leigheas\"</strong>, ach feabhsaíonn idirghabháil struchtúrtha ar an bhfeasacht fhóineolaíoch agus ar an díchódú an léitheoireacht go comhsheasmhach.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Cuir téacsanna le cló-chumadóireacht oiriúnaithe ar fáil (OpenDyslexic nó cosúil; méadú ar spásáil).",
-        "Ceadaigh léamh ciúin roimh aon léamh os ard, ná glaoigh ar dhuine riamh gan rabhadh.",
-        "Measúnaigh ábhar ar leithligh ó litriú nuair is é an cuspóir eolas a mheasúnú.",
-        "Tairg formáidí iolracha don fhaisnéis chéanna (físeán, fuaim, léaráidí).",
+        "An spásáil idir litreacha agus línte a mhéadú: tá fianaise thurgnamhach ann go bhfeabhsaíonn spásáil leathnaithe léitheoireacht leanaí disléicseacha, gan oiliúint roimh ré.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Os a choinne sin, tá an fhianaise i bhfabhar clófhoirne ar leith „do dhaoine disléicseacha\" níos laige agus neamh-chomhsheasmhach.",
+        "Ceadaigh léitheoireacht thostach roimh aon léitheoireacht os ard — ná hiarr léitheoireacht riamh gan choinne.",
+        "Nuair nach é an scríbhneoireacht a mheas an cuspóir, déan an t-ábhar a mheas ar leithligh ón litriú.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Cuir an t-eolas céanna ar fáil i bhformáidí éagsúla (fuaim, físeán, léaráidí).",
       ]},
       { items: [
-        "Scaradh léamh ón intleacht ón tús go follasach: 'tuigeann do leanbh go maith nuair a éisteann siad, tá an deacracht sonrach do léamh scríofa'.",
-        "Bí ar an airdeall go bhféadfadh disléicse gan diagnóis a bheith ar thuismitheoir, d'fhéadfadh an comhrá cuimhní crua a spreagadh.",
-        "Seachain bileoga oibre le deargcheartuithe a thaispeáint gan comhthéacs.",
-        "Bí sonrach faoi na hoiriúnuithe: téacsanna fuaime, léamh gan bhrú ama.",
+        "Scaradh sonrach a dhéanamh idir an léitheoireacht agus an éirim ag tús an chomhrá: „tuigeann sé go han-mhaith nuair a chloiseann sé — baineann an deacracht go sonrach leis an léitheoireacht\".",
+        "Cuimhnigh go bhfuil comhpháirt láidir oidhreachtúil ag baint leis an disléicse: d'fhéadfadh disléicse neamhdhiagnóisithe a bheith ag duine de na tuismitheoirí, agus d'fhéadfadh an comhrá cuimhní deacra óna scolaíocht féin a athmhúscailt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Seachain bileoga lán de cheartúcháin dhearga a thaispeáint gan comhthéacs — taispeáin ar dtús an méid is féidir leis an dalta a dhéanamh cheana féin.",
+        "Bí cruinn faoi na hoiriúnuithe atá ar siúl cheana agus faoi na cinn is féidir leis an gcaomhnóir a athdhéanamh sa bhaile: téacsanna i bhformáid fuaime, léitheoireacht os ard gan brú ama.",
       ]},
       { items: [
-        "Féinsmaoineamh acadúil ag dul in olcas ('táim amaideach', 'ní féidir liom aon rud a dhéanamh').",
-        "Seachaint chórasach ar thascanna léamh/scríbhneoireachta go dtí pointe ina gcuireann sé isteach ar ábhair eile.",
-        "Éagsúlacht mharcáilte idir feidhmíocht bhéil agus scríofa gan diagnóis oifigiúil.",
+        "Féinchoincheap acadúil ag dul in olcas („táim dúr\", „ní féidir liom\").",
+        "Seachaint chórasach ar thascanna léitheoireachta/scríbhneoireachta a mhéid is go gcuireann sé isteach ar ábhair eile.",
+        "Difríocht shuntasach idir feidhmíocht ó bhéal agus feidhmíocht scríofa gan diagnóis fhoirmiúil — atreoraigh chuig measúnú síocoideolaíoch.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -7753,33 +7705,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dislexia: { sections: [
       { items: [
-        "Taqra bil-mod u b'tfixkil, anke fi testi li tifhem meta tismagħhom.",
-        "Tħawwad ittri viżwalment simili (b/d, p/q); tinverti l-ordni tal-ittri fi kliem.",
-        "Żbalji persistenti fl-ittografija f'xogħlijiet miktuba li ma jirrispondux għal korrezzjoni ripetuta.",
-        "Tevita l-qari bl-ovħer; jidher li ma tridx tipparteċipa meta fil-fatt tipproteġi lilha nnifisha.",
-        "Il-fehim verbali hija ferm ogħla mill-fehim bil-miktub.",
+        "Jaqra bil-mod u bi sforz, b'żbalji fil-qari ta' kelmiet iżolati, anke f'testi li jifhem tajjeb meta jismagħhom.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "L-inverżjonijiet tal-ittri (b/d, p/q) huma komuni fit-tfal kollha li jibdew jiktbu u mhumiex, fihom infushom, sinjal ta' dislessja; id-diffikultà ċentrali hija <strong>fonoloġika</strong> — li wieħed jassoċja l-ittri mal-ħsejjes.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Żbalji ortografiċi persistenti li ma jirrispondux għall-korrezzjoni ripetuta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Għandu t-tendenza li jevita l-qari b'leħen għoli; jista' jidher nuqqas ta' interess meta fil-fatt hija strateġija ta' protezzjoni.",
+        "Il-fehim orali huwa b'mod ċar superjuri għal dak tal-qari — id-diffikultà hija speċifika, mhux limitazzjoni konjittiva ġenerali.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Mhijiex</strong> nuqqas ta' intelliġenza, id-dislexia hija indipendenti mill-IQ.",
-        "<strong>Mhijiex</strong> biss 'tħawwad l-ittri', hija disturb tal-ipproċessar fonoloġiku.",
-        "<strong>Ma tgħibx</strong>, tiġi mmaniġġjata b'strateġiji kumpensatorji matul il-ħajja kollha.",
+        "<strong>Mhijiex</strong> nuqqas ta' intelliġenza: bid-definizzjoni, id-dislessja hija mhux mistennija meta mqabbla mal-kapaċitajiet konjittivi l-oħra tal-istudent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Mhijiex</strong> problema tal-vista u lanqas sempliċi „taħwid tal-ittri”: id-defiċit ċentrali jinsab fl-ipproċessar fonoloġiku.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ma „titfejjaqx”</strong>, iżda l-intervent strutturat fuq il-kuxjenza fonoloġika u d-dekodifikazzjoni jtejjeb il-qari b'mod konsistenti.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pprovdi testi b'tipografija adattata (OpenDyslexic jew simili; spazjar akbar).",
-        "Ippermetti qari siekta qabel kwalunkwe qari bl-ovħer, qatt ma ssejjaħ lil ħadd mingħajr twissija.",
-        "Evalwa l-kontenut separatament mill-ittografija meta l-objettiv huwa li tevalwa l-għarfien.",
-        "Offri formati multipli għall-istess informazzjoni (vidjo, awdjo, dijagrami).",
+        "Iżżid l-ispazju bejn l-ittri u l-linji: hemm evidenza sperimentali li l-ispazjar imwessa' jtejjeb il-qari tat-tfal dislessiċi, mingħajr taħriġ minn qabel.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> B'kuntrast, l-evidenza għal tipi ta' ittri speċifiċi „għad-dislessiċi” hija aktar dgħajfa u inkonsistenti.",
+        "Ippermetti l-qari fis-skiet qabel kwalunkwe qari b'leħen għoli — qatt titlob qari għal għarrieda.",
+        "Meta l-għan ma jkunx li tevalwa l-kitba, evalwa l-kontenut separatament mill-ortografija.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Offri l-istess informazzjoni f'diversi formati (awdjo, vidjo, dijagrammi).",
       ]},
       { items: [
-        "Issepara l-qari mill-intelliġenza mill-bidu: 'ibnek/bintok jifhem/tifhem tajjeb meta jisma'/tisma', id-diffikultà hija speċifika għall-qari bil-miktub'.",
-        "Oqgħod attent li ġenitur wieħed jista' jkollu dislexia mhux dijanjostikata, il-konversazzjoni tista' tqanqal memorji diffiċli.",
-        "Evita li turi fogli tax-xogħol mimlija korrezzjonijiet ħomor mingħajr kuntest.",
-        "Kun speċifiku dwar l-adattamenti: testi bl-awdjo, qari mingħajr pressjoni ta' żmien.",
+        "Issepara b'mod espliċitu l-qari mill-intelliġenza sa mill-bidu nett: „jifhem tajjeb ħafna meta jisma' — id-diffikultà hija speċifika għall-qari”.",
+        "Żomm f'moħħok li d-dislessja għandha komponent ereditarju qawwi: wieħed mill-ġenituri jista' jkollu dislessja mhux dijanjostikata, u d-diskussjoni tista' terġa' tqajjem memorji diffiċli mill-iskola tiegħu stess.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evita li turi karti mimlija b'korrezzjonijiet bl-aħmar mingħajr kuntest — l-ewwel uri dak li l-istudent diġà kapaċi jagħmel.",
+        "Kun konkret dwar l-adattamenti li diġà qegħdin isiru u dwar dawk li l-kustodju jista' jirreplika d-dar: testi f'format awdjo, qari b'leħen għoli mingħajr pressjoni ta' ħin.",
       ]},
       { items: [
-        "Konċett akkademiku tagħha stess li qed idgħajjef ('jiena stupidu/a', 'ma nistax nagħmel xejn').",
-        "Evitar sistematiku ta' kompiti ta' qari/kitba sa punt li jikkomprometti suġġetti oħra.",
-        "Diverġenza mmarkjata bejn il-prestazzjoni verbali u bil-miktub mingħajr dijanjosi uffiċjali.",
+        "Awtokonċett akkademiku li qed jiddeterjora („jien stupidu”, „ma niflaħx”).",
+        "Evitar sistematiku ta' kompiti ta' qari/kitba sal-punt li jikkomprometti suġġetti oħra.",
+        "Diskrepanza notevoli bejn il-prestazzjoni orali u dik bil-miktub mingħajr dijanjosi formali — irreferi għal evalwazzjoni psikopedagoġika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
