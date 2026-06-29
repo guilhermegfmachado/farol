@@ -80,6 +80,14 @@ html.reading .intro-label,
 html.reading .intro-acronym,
 html.reading .prompt-label,
 html.reading .logotype-link,
+html.reading .breadcrumb,
+html.reading .card-nav-dir,
+html.reading .ai-tool-name,
+html.reading .ai-tool-prompt-label,
+html.reading .related-label,
+html.reading .tools-link-label,
+html.reading .search-empty,
+html.reading .search-input,
 html.reading footer { word-spacing: normal; }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -199,6 +207,8 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 
 /* ── Print ────────────────────────────────────────────────── */
 @media print {
+  /* Reading mode shrinks the root to 91%; restore full size for print. */
+  html.reading { font-size: 100%; }
   /* Reset CSS variables to light-mode values so dark-mode doesn't print black */
   :root, html, html.dark {
     --bg: #fff; --bg-elevated: #f7f7f7; --ink: #111; --ink-soft: #333;
