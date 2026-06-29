@@ -98,7 +98,7 @@ function floorTitle(entry: typeof entries[0]) {
 <style>
 .lh-page { max-width: 520px; margin: 0 auto; }
 .lh-intro { margin-bottom: 2rem; }
-.lh-intro-label { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
+.lh-intro-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
 .lh-scene { --paper: #ede4d0; --char: #2c2b27; --cream: #f2ecdd; --sea: #3a7370; --amber: #d9a13b; position: relative; display: flex; flex-direction: column; align-items: center; background: var(--paper); border: 1px solid var(--rule); overflow: hidden; min-height: 520px; padding-top: 52px; }
@@ -115,21 +115,21 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-floor { display: flex; align-items: center; gap: 0.65rem; padding: 0.7rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.07); background: var(--char); text-decoration: none; color: var(--cream); transition: background 0.15s ease, color 0.15s ease; }
 .lh-floor:hover { background: var(--fc, var(--amber)); color: #1e1d1a; }
 .lh-floor-bottom { border-bottom: none; }
-.lh-floor-num { font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; font-weight: 700; color: var(--fc, var(--amber)); min-width: 1.5rem; flex-shrink: 0; transition: color 0.15s ease; }
+.lh-floor-num { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.95rem; font-weight: 700; color: var(--fc, var(--amber)); min-width: 1.5rem; flex-shrink: 0; transition: color 0.15s ease; }
 .lh-floor:hover .lh-floor-num { color: rgba(0,0,0,0.45); }
 .lh-floor-name { flex: 1; font-size: 0.85rem; font-weight: 600; line-height: 1.2; }
-.lh-floor-arrow { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.22); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
+.lh-floor-arrow { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.22); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
 .lh-floor:hover .lh-floor-arrow { color: rgba(0,0,0,0.5); transform: translateX(3px); }
 .lh-plinth { z-index: 2; width: 100%; max-width: 300px; height: 12px; background: var(--char); }
 .lh-plinth-wide { max-width: 344px; height: 10px; margin-top: 4px; }
 .lh-sea { z-index: 1; width: 100%; flex: 1; min-height: 44px; margin-top: 14px; background: var(--sea); }
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-.lh-legend-heading { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
-.lh-legend-item { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--c); display: flex; align-items: center; gap: 0.35rem; }
+.lh-legend-heading { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
+.lh-legend-item { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: var(--c); display: flex; align-items: center; gap: 0.35rem; }
 .lh-legend-item::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--c); border-radius: 1px; }
 .lh-back { margin-top: 2rem; margin-bottom: 0.5rem; }
-.lh-back-link { font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; letter-spacing: 0.03em; }
+.lh-back-link { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.75rem; color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; letter-spacing: 0.03em; }
 .lh-back-link:hover { color: var(--accent); }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }

@@ -114,7 +114,7 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
   background: var(--accent);
   color: #fff;
   padding: 0.5rem 1rem;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
   font-size: 0.8rem;
   z-index: 9999;
   border-radius: 2px;
@@ -131,7 +131,7 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
   font-size: 0.72rem;
   color: var(--ink-soft);
   z-index: 100;

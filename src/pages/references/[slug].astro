@@ -94,14 +94,14 @@ function entryHref(e: typeof allEntries[0]) {
 .card-nav-item { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; max-width: 48%; }
 .card-nav-item:hover { border-color: var(--accent); }
 .card-nav-next { text-align: right; margin-left: auto; }
-.card-nav-dir { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
+.card-nav-dir { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
 .card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
 
 @media print {
   .card-nav { display: none; }
 }
 .print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
-.print-btn { font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
+.print-btn { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
 .print-btn:hover { border-color: var(--accent); color: var(--accent); }
 @media print { .print-bar { display: none; } }
 </style>
