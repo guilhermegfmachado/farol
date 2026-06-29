@@ -52,10 +52,13 @@ html.reading body * {
      (Astro data-cid) monospace rules like the header logotype and Aa toggle. */
   font-family: 'OpenDyslexic', 'Plus Jakarta Sans Variable', sans-serif !important;
 }
+/* OpenDyslexic has large glyphs and the widened spacing adds bulk, so scale the
+   root down a touch in reading mode — the result reads close to the normal size. */
+html.reading { font-size: 91%; }
 html.reading body {
-  letter-spacing: 0.04em;
-  word-spacing: 0.16em;
-  line-height: 1.9;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+  line-height: 1.7;
 }
 html.reading .card-section li,
 html.reading .card-subtitle,
