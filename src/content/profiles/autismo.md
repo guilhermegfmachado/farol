@@ -7,22 +7,22 @@ desc: "Diferenças na comunicação social, processamento sensorial, e padrões 
 sections:
   - label: "Como se manifesta na sala"
     items:
-      - "Dificuldade com mudanças não anunciadas — alteração de horário, de sala, de professor substituto."
-      - "Comunicação literal — perde nuances, ironia, expressões idiomáticas."
-      - "Sensibilidade sensorial — luz fluorescente, ruído de fundo, etiquetas de roupa podem ser intoleráveis."
-      - "Interesses focados e profundos sobre temas específicos."
+      - "Dificuldade com mudanças não anunciadas — alteração de horário, de sala, de professor substituto.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Comunicação literal — perde nuances, ironia, expressões idiomáticas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "Sensibilidade sensorial — luz fluorescente, ruído de fundo, etiquetas de roupa podem ser intoleráveis.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Interesses focados e profundos sobre temas específicos — associados a um estilo cognitivo orientado para o detalhe.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>"
       - "Pode parecer desinteressado ou distante quando está sobrecarregado, não desligado."
   - label: "O que não é"
     items:
-      - "<strong>Não é</strong> uma escala linear (\"mais\" ou \"menos\" autista) — é um perfil multidimensional."
-      - "<strong>Não é</strong> falta de empatia — frequentemente é o oposto, com dificuldade em filtrar."
-      - "<strong>Não é</strong> mau comportamento quando uma rotina é quebrada — é uma resposta neurológica real."
+      - "<strong>Não é</strong> uma escala linear (\"mais\" ou \"menos\" autista) — é um perfil multidimensional, com perfis de apoio diferentes em cada domínio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "<strong>Não é</strong> falta de empatia: as dificuldades de compreensão mútua são bidireccionais — também as pessoas não-autistas têm dificuldade em ler as autistas (o \"problema da dupla empatia\").<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> mau comportamento quando uma rotina é quebrada — é uma resposta neurológica real à perda de previsibilidade.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "Estratégias sem IA"
     items:
-      - "Avisar com antecedência qualquer alteração de rotina, mesmo que aparentemente trivial."
-      - "Tornar regras sociais implícitas em regras explícitas (o que se faz, o que não se faz, quando)."
-      - "Permitir pausas sensoriais em espaço silencioso quando necessário."
-      - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares."
+      - "Avisar com antecedência qualquer alteração de rotina, mesmo que aparentemente trivial — o apoio visual e a antecipação têm suporte empírico.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "Tornar regras sociais implícitas em regras explícitas (o que se faz, o que não se faz, quando).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "Permitir pausas sensoriais em espaço silencioso quando necessário.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares — uma força, não uma distracção.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>"
   - label: "Como comunicar com o EE"
     items:
       - "Se o diagnóstico já existe, perguntar primeiro o que o EE sabe que funciona — os pais de crianças autistas frequentemente sabem mais sobre o seu filho do que qualquer relatório."
@@ -31,10 +31,16 @@ sections:
       - "Nunca comparar com \"outros alunos\" ou com irmãos — cada perfil do espectro é diferente e a comparação é sempre contraproducente."
   - label: "Sinais de alerta para referenciação"
     items:
-      - "Crises (\"meltdowns\") frequentes após dia escolar."
-      - "Recusa escolar persistente associada a sobrecarga sensorial."
+      - "Crises (\"meltdowns\") frequentes após o dia escolar."
+      - "Recusa escolar persistente associada a sobrecarga sensorial.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Isolamento social progressivo apesar de tentativas de mediação."
 ai_strategies:
   tools: []
 related: ["tdah", "sobredotacao", "dispraxia"]
+references:
+  - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Autism Spectrum Disorder. Arlington, VA: American Psychiatric Publishing."
+  - "Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a \"theory of mind\"? <em>Cognition</em>, 21(1), 37–46."
+  - "Milton, D. E. M. (2012). On the ontological status of autism: the \"double empathy problem\". <em>Disability & Society</em>, 27(6), 883–887."
+  - "Happé, F., & Frith, U. (2006). The weak coherence account: detail-focused cognitive style in autism spectrum disorders. <em>Journal of Autism and Developmental Disorders</em>, 36(1), 5–25."
+  - "Wong, C., Odom, S. L., Hume, K. A., et al. (2015). Evidence-based practices for children, youth, and young adults with autism spectrum disorder. <em>Journal of Autism and Developmental Disorders</em>, 45(7), 1951–1966."
 ---
