@@ -113,6 +113,15 @@ html.reading footer { word-spacing: normal; }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 
+/* Academic citations: inline superscript markers + references list */
+.cite { font-size: 0.7em; line-height: 0; white-space: nowrap; }
+.cite a { color: var(--accent); text-decoration: none; padding: 0 0.05em; font-weight: 600; }
+.cite a:hover { text-decoration: underline; }
+.references-section { margin-top: 0; }
+.references-list { margin: 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.references-list li { font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft); }
+.references-list li:target { background: var(--accent-bg); outline: 2px solid var(--accent); outline-offset: 2px; }
+
 body {
   background: var(--bg);
   color: var(--ink);

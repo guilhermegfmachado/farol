@@ -63,7 +63,7 @@ function floorTitle(entry: typeof entries[0]) {
               class={`lh-floor${i === tower.length - 1 ? ' lh-floor-bottom' : ''}`}
               style={`--fc: ${catColors[entry.data.category] || 'var(--accent)'};`}
             >
-              <span class="lh-floor-num">{entry.data.index}</span>
+              <span class="lh-floor-num" aria-hidden="true">{entry.data.index}</span>
               <span class="lh-floor-name">{floorTitle(entry)}</span>
               <span class="lh-floor-arrow" aria-hidden="true">→</span>
             </a>
@@ -126,7 +126,7 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .lh-legend-heading { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
-.lh-legend-item { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: var(--c); display: flex; align-items: center; gap: 0.35rem; }
+.lh-legend-item { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: var(--ink); display: flex; align-items: center; gap: 0.35rem; }
 .lh-legend-item::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--c); border-radius: 1px; }
 .lh-back { margin-top: 2rem; margin-bottom: 0.5rem; }
 .lh-back-link { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.75rem; color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; letter-spacing: 0.03em; }

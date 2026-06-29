@@ -25,6 +25,7 @@ const entrySchema = z.object({
   }).optional(),
   pending: z.string().optional(),
   related: z.array(z.string()).optional(),
+  references: z.array(z.string()).optional(),
 });
 
 const toolSchema = z.object({
