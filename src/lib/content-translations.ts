@@ -137,32 +137,32 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     sobredotacao: { sections: [
       { items: [
         "Finishes tasks in minutes while the class takes the whole lesson.",
-        "Asks questions that go beyond the scope of the topic, or actively challenges what is being taught.",
-        "May appear disinterested, disruptive, or apathetic, often signs of chronic boredom.",
-        "Heightened emotional sensitivity; may be anxious, perfectionist, or unfairly demanding of themselves.",
-        "Real risk of underperformance, learns to hide ability so as not to stand out socially.",
+        "Asks questions beyond the scope of the material — or actively challenges what is being taught.",
+        "May appear disengaged, disruptive, or apathetic — often signs of chronic boredom and underachievement.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Heightened emotional sensitivity; may be anxious or perfectionistic — psychosocial factors are decisive in the development of talent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Real risk of underachievement — may learn to hide their ability so as not to stand out socially.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>It is not</strong> synonymous with good behaviour or good results, many gifted students have average results through disengagement.",
-        "<strong>It is not</strong> \"doesn't need help\", they need different challenges, not less attention.",
-        "<strong>It is not</strong> incompatible with neurodivergence, twice-exceptional (2e) exists and is common.",
+        "<strong>It is not</strong> a synonym for good behaviour or good grades — many gifted students perform around the average out of disinterest.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>It is not</strong> \"does not need help\": they need different challenges, because ability only becomes achievement when it is deliberately developed.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>It is not</strong> incompatible with neurodivergence — twice-exceptionality (2e) exists, is common, and is often masked.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Always have extension tasks ready, not more of the same, but deeper or applied material.",
-        "Allow independent research on topics of the student's interest within the curriculum.",
-        "Assess by challenge, not ease, ask for more demanding work in exchange for less volume.",
-        "Acknowledge and validate emotional sensitivity without pathologising.",
+        "Always have extension tasks ready — not more of the same, but deeper or applied material.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Allow independent investigation of topics that interest the student within the curriculum.",
+        "Assess by challenge, not by ease — ask for more demanding work in exchange for less volume.",
+        "Acknowledge and validate emotional sensitivity without pathologising it.",
       ]},
       { items: [
-        "Anticipate pride and redirect it: \"your son/daughter is clearly very capable, and it is precisely because of this that boredom is creating problems\".",
-        "Explain the giftedness paradox: good results do not mean everything is fine.",
-        "If the student hides their ability to fit in socially, name it carefully, it is a sign of distress, not modesty.",
-        "Encourage parents/guardians to value process over results at home: curiosity, depth, and difficult questions are worth more than high marks on easy tasks.",
+        "Anticipate the pride and redirect it: \"they are clearly very able — and that is precisely why the boredom is causing problems\".",
+        "Explain the paradox of giftedness: good grades do not mean all is well, and underachievement through disinterest is common and reversible.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "If the student hides their ability to fit in socially, name it carefully — it is a sign of distress, not modesty.",
+        "Suggest the parent/guardian value process over result at home: curiosity, depth, and hard questions matter more than high marks on easy tasks.",
       ]},
       { items: [
-        "Signs of anxiety or depression associated with extreme perfectionism.",
+        "Signs of anxiety or depression associated with extreme perfectionism.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Marked social isolation from feeling \"different\" from peers.",
-        "Sudden academic underperformance in a student previously identified as capable.",
+        "Sudden academic underachievement in a student previously identified as able.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -470,33 +470,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Termina las tareas en minutos mientras la clase tarda toda la sesión.",
-        "Hace preguntas que salen del ámbito de la materia, o desafía activamente lo que se está enseñando.",
-        "Puede aparentar desinterés, indisciplina o apatía, con frecuencia son señales de aburrimiento crónico.",
-        "Sensibilidad emocional acentuada; puede ser ansioso/a, perfeccionista o injustamente exigente consigo mismo/a.",
-        "Riesgo real de bajo rendimiento, aprende a ocultar la capacidad para no destacar socialmente.",
+        "Termina las tareas en minutos mientras el resto de la clase necesita toda la sesión.",
+        "Hace preguntas que se salen del temario, o cuestiona activamente lo que se está enseñando.",
+        "Puede aparentar desinterés, indisciplina o apatía, a menudo señales de aburrimiento crónico y de bajo rendimiento (underachievement).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilidad emocional acentuada; puede mostrarse ansioso o perfeccionista, ya que los factores psicosociales son determinantes en el desarrollo del talento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riesgo real de bajo rendimiento: puede aprender a ocultar su capacidad para no destacar socialmente.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>No es</strong> sinónimo de buen comportamiento o buenos resultados, muchos alumnos con altas capacidades tienen resultados mediocres por desinterés.",
-        "<strong>No es</strong> «no necesita ayuda», necesita desafíos diferentes, no menos atención.",
-        "<strong>No es</strong> incompatible con la neurodivergencia, la doble excepcionalidad (2e) existe y es frecuente.",
+        "<strong>No es</strong> sinónimo de buen comportamiento ni de buenos resultados: muchos alumnos con altas capacidades tienen un rendimiento mediocre por desinterés.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>No es</strong> «no necesita ayuda»: necesita desafíos distintos, porque la capacidad solo se convierte en logro cuando se desarrolla de forma deliberada.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>No es</strong> incompatible con la neurodivergencia: la doble excepcionalidad (2e) existe, es frecuente y a menudo queda enmascarada.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Tener siempre tareas de ampliación preparadas, no más de lo mismo, sino materia más profunda o aplicada.",
-        "Permitir investigación independiente sobre temas de interés del alumno dentro del currículo.",
-        "Evaluar por el nivel de desafío, no por la facilidad, pedir trabajos más exigentes a cambio de menor volumen.",
+        "Tener siempre preparadas tareas de ampliación, no más de lo mismo, sino contenidos más profundos o aplicados.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Permitir la investigación independiente sobre temas de interés del alumno dentro del programa.",
+        "Evaluar por el desafío, no por la facilidad: pedir trabajos más exigentes a cambio de un menor volumen.",
         "Reconocer y validar la sensibilidad emocional sin patologizarla.",
       ]},
       { items: [
-        "Anticipar el orgullo y redirigirlo: «su hijo/hija es claramente muy capaz, y es precisamente por eso que el aburrimiento está creando problemas».",
-        "Explicar la paradoja de las altas capacidades: buenos resultados no significan que todo esté bien.",
-        "Si el alumno oculta su capacidad para integrarse socialmente, nombrarlo con cuidado, es una señal de sufrimiento, no de modestia.",
-        "Proponer a las familias que valoren el proceso en lugar del resultado en casa: la curiosidad, la profundidad y las preguntas difíciles valen más que las notas altas en tareas fáciles.",
+        "Anticipar el orgullo y reorientarlo: «es claramente muy capaz, y precisamente por eso el aburrimiento está generando problemas».",
+        "Explicar la paradoja de las altas capacidades: los buenos resultados no significan que esté bien, y el bajo rendimiento por desinterés es común y reversible.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Si el alumno oculta su capacidad para integrarse socialmente, nombrarlo con cuidado: es una señal de sufrimiento, no de modestia.",
+        "Proponer a las familias que valoren el proceso en lugar del resultado en casa: la curiosidad, la profundidad y las preguntas difíciles valen más que las buenas notas en tareas fáciles.",
       ]},
       { items: [
-        "Señales de ansiedad o depresión asociadas a un perfeccionismo extremo.",
-        "Aislamiento social marcado por sentirse «diferente» de los compañeros.",
-        "Bajo rendimiento académico repentino en un alumno previamente identificado como muy capaz.",
+        "Señales de ansiedad o depresión asociadas a un perfeccionismo extremo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aislamiento social marcado por sentirse «diferente» de sus iguales.",
+        "Bajo rendimiento académico repentino en un alumno previamente identificado como capaz.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -804,33 +804,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Termine les tâches en quelques minutes pendant que la classe met toute la séance.",
-        "Pose des questions qui dépassent le cadre de la leçon, ou remet activement en question ce qui est enseigné.",
-        "Peut paraître désintéressé, indiscipliné ou apathique, souvent signes d'ennui chronique.",
-        "Sensibilité émotionnelle accentuée ; peut être anxieux/se, perfectionniste ou injustement exigeant(e) envers lui/elle-même.",
-        "Risque réel de sous-performance, apprend à cacher sa capacité pour ne pas se démarquer socialement.",
+        "Termine les tâches en quelques minutes alors que le reste de la classe y consacre toute la séance.",
+        "Pose des questions qui sortent du cadre du programme, ou conteste activement ce qui est enseigné.",
+        "Peut sembler désintéressé, indiscipliné ou apathique, ces signes traduisant souvent un ennui chronique et un sous-rendement (underachievement).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilité émotionnelle marquée ; peut se montrer anxieux ou perfectionniste, car les facteurs psychosociaux sont déterminants dans le développement du talent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Risque réel de sous-rendement : il peut apprendre à dissimuler ses capacités pour ne pas se démarquer socialement.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> synonyme de bon comportement ou de bons résultats, de nombreux élèves à haut potentiel ont des résultats moyens par désintérêt.",
-        "<strong>Ce n'est pas</strong> « n'a pas besoin d'aide », il a besoin de défis différents, pas de moins d'attention.",
-        "<strong>Ce n'est pas</strong> incompatible avec la neurodivergence, la double exceptionnalité (2e) existe et est fréquente.",
+        "<strong>Ce n'est pas</strong> synonyme de bon comportement ni de bons résultats : beaucoup d'élèves à haut potentiel ont un rendement médiocre par désintérêt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ce n'est pas</strong> « il n'a pas besoin d'aide » : il a besoin de défis différents, car le potentiel ne se transforme en réussite que lorsqu'il est développé de manière délibérée.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ce n'est pas</strong> incompatible avec la neurodivergence : la double exceptionnalité (2e) existe, elle est fréquente et souvent masquée.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Toujours avoir des tâches d'approfondissement prêtes, pas davantage de la même chose, mais une matière plus profonde ou appliquée.",
-        "Permettre des recherches indépendantes sur des sujets d'intérêt dans le cadre du programme.",
-        "Évaluer par le défi, pas par la facilité, demander un travail plus exigeant en échange d'un moindre volume.",
+        "Toujours avoir des tâches d'approfondissement prêtes, non pas davantage de la même chose, mais des contenus plus approfondis ou appliqués.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Permettre une recherche autonome sur des sujets qui intéressent l'élève dans le cadre du programme.",
+        "Évaluer en fonction du défi, non de la facilité : demander des travaux plus exigeants en échange d'un volume moindre.",
         "Reconnaître et valider la sensibilité émotionnelle sans la pathologiser.",
       ]},
       { items: [
-        "Anticiper la fierté et la rediriger : « votre fils/fille est clairement très capable, et c'est précisément pour cela que l'ennui crée des problèmes ».",
-        "Expliquer le paradoxe du haut potentiel : de bons résultats ne signifient pas que tout va bien.",
-        "Si l'élève cache ses capacités pour s'intégrer socialement, le nommer avec précaution, c'est un signe de souffrance, pas de modestie.",
-        "Encourager les familles à valoriser le processus plutôt que le résultat à la maison : la curiosité, la profondeur et les questions difficiles valent plus que de bonnes notes sur des tâches faciles.",
+        "Anticiper la fierté et la réorienter : « il est manifestement très capable, et c'est précisément pour cela que l'ennui crée des problèmes ».",
+        "Expliquer le paradoxe du haut potentiel : de bons résultats ne signifient pas que tout va bien, et le sous-rendement par désintérêt est courant et réversible.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Si l'élève dissimule ses capacités pour s'intégrer socialement, le nommer avec délicatesse : c'est un signe de souffrance, non de modestie.",
+        "Proposer aux parents de valoriser le processus plutôt que le résultat à la maison : la curiosité, la profondeur et les questions difficiles valent plus que de bonnes notes obtenues sur des tâches faciles.",
       ]},
       { items: [
-        "Signes d'anxiété ou de dépression associés à un perfectionnisme extrême.",
-        "Isolement social marqué par un sentiment d'être « différent » des camarades.",
-        "Chute soudaine des résultats scolaires chez un élève précédemment identifié comme très capable.",
+        "Signes d'anxiété ou de dépression associés à un perfectionnisme extrême.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Isolement social marqué par le sentiment d'être « différent » de ses pairs.",
+        "Chute soudaine du rendement scolaire chez un élève auparavant identifié comme capable.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -1138,33 +1138,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Termina i compiti in pochi minuti mentre la classe impiega l'intera ora.",
-        "Pone domande che esulano dall'argomento, o sfida attivamente ciò che viene insegnato.",
-        "Può sembrare disinteressato, indisciplinato o apatico, spesso segnali di noia cronica.",
-        "Sensibilità emotiva accentuata; può essere ansioso/a, perfezionista o ingiustamente esigente con se stesso/a.",
-        "Rischio reale di scarso rendimento, impara a nascondere le proprie capacità per non distinguersi socialmente.",
+        "Finisce i compiti in pochi minuti mentre il resto della classe impiega l'intera lezione.",
+        "Pone domande che esulano dal programma, o mette attivamente in discussione ciò che viene insegnato.",
+        "Può apparire disinteressato, indisciplinato o apatico, spesso segnali di noia cronica e di sottorendimento (underachievement).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Spiccata sensibilità emotiva; può mostrarsi ansioso o perfezionista, poiché i fattori psicosociali sono determinanti nello sviluppo del talento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Rischio reale di sottorendimento: può imparare a nascondere le proprie capacità per non distinguersi socialmente.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Non è</strong> sinonimo di buon comportamento o buoni risultati, molti alunni plusdotati hanno risultati nella media per disinteresse.",
-        "<strong>Non è</strong> «non ha bisogno di aiuto», ha bisogno di sfide diverse, non di meno attenzione.",
-        "<strong>Non è</strong> incompatibile con la neurodivergenza, la doppia eccezionalità (2e) esiste ed è frequente.",
+        "<strong>Non è</strong> sinonimo di buon comportamento né di buoni risultati: molti alunni plusdotati hanno un rendimento mediocre per disinteresse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Non è</strong> «non ha bisogno di aiuto»: ha bisogno di sfide diverse, perché la capacità si trasforma in risultato solo quando viene sviluppata in modo deliberato.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Non è</strong> incompatibile con la neurodivergenza: la doppia eccezionalità (2e) esiste, è frequente ed è spesso mascherata.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Avere sempre pronti compiti di approfondimento, non più della stessa cosa, ma materiale più profondo o applicato.",
-        "Permettere la ricerca indipendente su argomenti di interesse dell'alunno nell'ambito del programma.",
-        "Valutare per il livello di sfida, non per la facilità, richiedere un lavoro più impegnativo in cambio di minor volume.",
+        "Avere sempre pronti compiti di approfondimento, non altro dello stesso tipo, ma contenuti più approfonditi o applicati.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Consentire una ricerca autonoma su argomenti di interesse dell'alunno all'interno del programma.",
+        "Valutare in base alla sfida, non alla facilità: richiedere lavori più impegnativi a fronte di un volume minore.",
         "Riconoscere e validare la sensibilità emotiva senza patologizzarla.",
       ]},
       { items: [
-        "Anticipare l'orgoglio e reindirizzarlo: «suo figlio/sua figlia è chiaramente molto capace, ed è proprio per questo che la noia sta creando problemi».",
-        "Spiegare il paradosso della plusdotazione: buoni risultati non significano che vada tutto bene.",
-        "Se l'alunno nasconde le proprie capacità per integrarsi socialmente, nominarlo con cautela, è un segnale di sofferenza, non di modestia.",
-        "Proporre alle famiglie di valorizzare il processo piuttosto che il risultato a casa: la curiosità, la profondità e le domande difficili valgono più che voti alti in compiti facili.",
+        "Anticipare l'orgoglio e reindirizzarlo: «è chiaramente molto capace, ed è proprio per questo che la noia sta creando problemi».",
+        "Spiegare il paradosso della plusdotazione: i buoni risultati non significano che stia bene, e il sottorendimento per disinteresse è comune e reversibile.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Se l'alunno nasconde le proprie capacità per integrarsi socialmente, nominarlo con delicatezza: è un segno di sofferenza, non di modestia.",
+        "Proporre ai genitori di valorizzare il processo anziché il risultato a casa: la curiosità, la profondità e le domande difficili valgono più di voti alti ottenuti in compiti facili.",
       ]},
       { items: [
-        "Segnali di ansia o depressione associati a un perfezionismo estremo.",
-        "Isolamento sociale marcato dal sentirsi «diverso» dai compagni.",
-        "Calo improvviso del rendimento scolastico in un alunno precedentemente identificato come capace.",
+        "Segnali di ansia o depressione associati a un perfezionismo estremo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Isolamento sociale segnato dal sentirsi «diverso» dai coetanei.",
+        "Calo improvviso del rendimento scolastico in un alunno precedentemente identificato come capace.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -1470,49 +1470,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Anzeichen somatisierter Angst vor schriftlichen Prüfungen – das psychosoziale Leiden ist Teil des Krankheitsbildes.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    sobredotacao: {
-      sections: [
-        {
-          items: [
-            "Beendet Aufgaben in Minuten, während die Klasse die gesamte Stunde braucht.",
-            "Stellt Fragen, die über den Unterrichtsstoff hinausgehen, oder stellt aktiv das Gelehrte in Frage.",
-            "Kann desinteressiert, undiszipliniert oder apathisch wirken, häufig Zeichen von chronischer Unterforderung.",
-            "Ausgeprägte emotionale Sensibilität; kann ängstlich, perfektionistisch oder sich selbst gegenüber ungerecht anspruchsvoll sein.",
-            "Echtes Risiko von Minderleistung, lernt, die eigenen Fähigkeiten zu verbergen, um sozial nicht aufzufallen."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nicht</strong> gleichbedeutend mit gutem Verhalten oder guten Ergebnissen.",
-            "<strong>Nicht</strong> \"braucht keine Hilfe\", braucht andere Herausforderungen, nicht weniger Aufmerksamkeit.",
-            "<strong>Nicht</strong> unvereinbar mit Neurodivergenz, zweifache Außergewöhnlichkeit (2e) existiert und ist häufig."
-          ]
-        },
-        {
-          items: [
-            "Immer Erweiterungsaufgaben bereithalten, nicht mehr vom Gleichen, sondern tiefere oder angewandte Inhalte.",
-            "Unabhängige Recherche zu Themen des Schülerinteresses im Rahmen des Lehrplans ermöglichen.",
-            "Nach Schwierigkeit bewerten, nicht nach Leichtigkeit, anspruchsvollere Arbeiten im Austausch gegen geringeres Volumen verlangen.",
-            "Die emotionale Sensibilität anerkennen und wertschätzen, ohne sie zu pathologisieren."
-          ]
-        },
-        {
-          items: [
-            "Den Stolz der Erziehungsberechtigten vorwegnehmen und umlenken: Gerade weil das Kind fähig ist, verursacht die Unterforderung Probleme.",
-            "Das Paradox erklären: Gute Ergebnisse bedeuten nicht, dass es ihm gut geht.",
-            "Wenn der Schüler seine Fähigkeiten versteckt, um sich sozial zu integrieren, dies behutsam ansprechen.",
-            "Erziehungsberechtigte vorschlagen, den Prozess statt das Ergebnis zu schätzen: Neugier, Tiefe, schwierige Fragen."
-          ]
-        },
-        {
-          items: [
-            "Anzeichen von Angst oder Depression, die mit extremem Perfektionismus zusammenhängen.",
-            "Ausgeprägte soziale Isolation durch das Gefühl, unter Gleichaltrigen \"anders\" zu sein.",
-            "Plötzlicher akademischer Leistungsabfall bei einem zuvor als fähig identifizierten Schüler."
-          ]
-        }
-      ]
-    },
+    sobredotacao: { sections: [
+      { items: [
+        "Erledigt die Aufgaben in Minuten, während die Klasse die ganze Stunde dafür braucht.",
+        "Stellt Fragen, die über den Stoff hinausgehen — oder fordert das Gelehrte aktiv heraus.",
+        "Kann desinteressiert, undiszipliniert oder apathisch wirken — oft Zeichen chronischer Langeweile und von Underachievement.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ausgeprägte emotionale Sensibilität; kann ängstlich oder perfektionistisch sein — psychosoziale Faktoren sind entscheidend für die Talententwicklung.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reales Risiko von Underachievement — kann lernen, die Begabung zu verbergen, um sozial nicht aufzufallen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Ist nicht</strong> gleichbedeutend mit gutem Verhalten oder guten Leistungen — viele hochbegabte Schülerinnen und Schüler erbringen aus Desinteresse durchschnittliche Leistungen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ist nicht</strong> „braucht keine Hilfe“: Es braucht andere Herausforderungen, denn Begabung wird nur dann zu Leistung, wenn sie bewusst gefördert wird.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ist nicht</strong> unvereinbar mit Neurodivergenz — Zweifachausnahmebegabung (2e) existiert, ist häufig und wird oft verdeckt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Stets vorbereitete Vertiefungsaufgaben bereithalten — nicht mehr vom Gleichen, sondern tiefer gehender oder angewandter Stoff.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Eigenständiges Forschen zu Themen ermöglichen, die das Kind innerhalb des Lehrplans interessieren.",
+        "An der Herausforderung messen, nicht an der Leichtigkeit — anspruchsvollere Arbeiten im Gegenzug für geringeren Umfang verlangen.",
+        "Die emotionale Sensibilität anerkennen und bestätigen, ohne sie zu pathologisieren.",
+      ]},
+      { items: [
+        "Den Stolz vorwegnehmen und umlenken: „Es ist eindeutig sehr begabt — und genau deshalb verursacht die Langeweile Probleme.“",
+        "Das Paradox der Hochbegabung erklären: Gute Leistungen bedeuten nicht, dass es dem Kind gut geht, und Underachievement aus Desinteresse ist häufig und umkehrbar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Wenn das Kind seine Begabung verbirgt, um sich sozial einzufügen, dies behutsam ansprechen — es ist ein Zeichen von Leid, nicht von Bescheidenheit.",
+        "Den Eltern vorschlagen, zu Hause den Prozess statt das Ergebnis zu würdigen: Neugier, Tiefe und schwierige Fragen wiegen mehr als gute Noten bei leichten Aufgaben.",
+      ]},
+      { items: [
+        "Anzeichen von Angst oder Depression in Verbindung mit extremem Perfektionismus.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ausgeprägte soziale Isolation, geprägt vom Gefühl, „anders“ als die Gleichaltrigen zu sein.",
+        "Plötzliches schulisches Underachievement bei einem zuvor als begabt erkannten Kind.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     plnm: {
       sections: [
         {
@@ -1859,49 +1847,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tekenen van gesomatiseerde angst vóór schriftelijke toetsen – het psychosociale lijden maakt deel uit van het beeld.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    sobredotacao: {
-      sections: [
-        {
-          items: [
-            "Rondt taken in minuten af terwijl de klas de hele les nodig heeft.",
-            "Stelt vragen buiten de stof, of daagt actief het onderwezene uit.",
-            "Kan desinteresseerd, ongedisciplineerd of apathisch lijken, vaak tekenen van chronische onderstimulering.",
-            "Uitgesproken emotionele gevoeligheid; kan angstig, perfectionistisch of onrechtvaardig veeleisend jegens zichzelf zijn.",
-            "Echt risico op onderprestatatie, leert zijn capaciteiten te verbergen om sociaal niet op te vallen."
-          ]
-        },
-        {
-          items: [
-            "<strong>Niet</strong> synoniem met goed gedrag of goede resultaten.",
-            "<strong>Niet</strong> \"heeft geen hulp nodig\", heeft andere uitdagingen nodig, niet minder aandacht.",
-            "<strong>Niet</strong> onverenigbaar met neurodivergentie, dubbele exceptionelheid (2e) bestaat en komt vaak voor."
-          ]
-        },
-        {
-          items: [
-            "Altijd verdiepingstaken klaar hebben, niet meer van hetzelfde, maar diepgaandere of toegepaste inhoud.",
-            "Onafhankelijk onderzoek mogelijk maken over onderwerpen die de leerling interesseren binnen het programma.",
-            "Beoordelen naar moeilijkheidsgraad, niet naar gemak, veeleisendere opdrachten vragen in ruil voor minder volume.",
-            "De emotionele gevoeligheid erkennen en waarderen zonder te pathologiseren."
-          ]
-        },
-        {
-          items: [
-            "De trots van de ouders/verzorgers anticiperen en ombuigen: juist omdat het kind capabel is, veroorzaakt de onderstimulering problemen.",
-            "De paradox uitleggen: goede resultaten betekenen niet dat het goed met hem gaat.",
-            "Als de leerling zijn capaciteiten verbergt om sociaal te integreren, dit voorzichtig benoemen.",
-            "Ouders/verzorgers voorstellen het proces te waarderen in plaats van het resultaat: nieuwsgierigheid, diepgang, moeilijke vragen."
-          ]
-        },
-        {
-          items: [
-            "Tekenen van angst of depressie in verband met extreem perfectionisme.",
-            "Uitgesproken sociale isolatie doordat de leerling zich \"anders\" voelt dan leeftijdgenoten.",
-            "Plotselinge academische prestatievermindering bij een leerling die eerder als capabel was geïdentificeerd."
-          ]
-        }
-      ]
-    },
+    sobredotacao: { sections: [
+      { items: [
+        "Maakt de taken in enkele minuten af, terwijl de klas er de hele les over doet.",
+        "Stelt vragen die buiten de leerstof vallen — of daagt actief uit wat er wordt onderwezen.",
+        "Kan ongeïnteresseerd, ongedisciplineerd of apathisch lijken — vaak tekenen van chronische verveling en van onderpresteren.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sterk uitgesproken emotionele gevoeligheid; kan angstig of perfectionistisch zijn — psychosociale factoren zijn bepalend voor talentontwikkeling.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reëel risico op onderpresteren — kan leren de eigen capaciteit te verbergen om sociaal niet op te vallen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Is niet</strong> synoniem met goed gedrag of goede resultaten — veel hoogbegaafde leerlingen presteren middelmatig uit desinteresse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Is niet</strong> „heeft geen hulp nodig“: het kind heeft andere uitdagingen nodig, want capaciteit wordt pas prestatie wanneer ze doelbewust wordt ontwikkeld.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Is niet</strong> onverenigbaar met neurodivergentie — dubbel uitzonderlijk zijn (2e) bestaat, komt vaak voor en wordt vaak gemaskeerd.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Altijd verdiepingstaken klaar hebben — niet meer van hetzelfde, maar diepere of toegepaste leerstof.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zelfstandig onderzoek toestaan naar onderwerpen die de leerling interesseren binnen het lesprogramma.",
+        "Beoordelen op uitdaging, niet op gemak — veeleisender werk vragen in ruil voor minder volume.",
+        "De emotionele gevoeligheid erkennen en valideren zonder ze te pathologiseren.",
+      ]},
+      { items: [
+        "De trots anticiperen en ombuigen: „Het kind is duidelijk zeer begaafd — en juist daarom zorgt de verveling voor problemen.“",
+        "De paradox van hoogbegaafdheid uitleggen: goede resultaten betekenen niet dat het goed gaat, en onderpresteren uit desinteresse is gangbaar en omkeerbaar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Als de leerling de eigen capaciteit verbergt om sociaal mee te draaien, dit voorzichtig benoemen — het is een teken van lijden, niet van bescheidenheid.",
+        "De ouders voorstellen om thuis het proces te waarderen in plaats van het resultaat: nieuwsgierigheid, diepgang en moeilijke vragen wegen zwaarder dan hoge cijfers voor makkelijke taken.",
+      ]},
+      { items: [
+        "Tekenen van angst of depressie die samenhangen met extreem perfectionisme.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Uitgesproken sociaal isolement, gekenmerkt door het gevoel „anders“ te zijn dan leeftijdsgenoten.",
+        "Plotseling academisch onderpresteren bij een leerling die eerder als begaafd was geïdentificeerd.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     plnm: {
       sections: [
         {
@@ -2248,49 +2224,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Objawy somatyzowanego lęku przed sprawdzianami pisemnymi — cierpienie psychospołeczne jest częścią obrazu klinicznego.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    sobredotacao: {
-      sections: [
-        {
-          items: [
-            "Kończy zadania w ciągu kilku minut, podczas gdy klasa potrzebuje całej lekcji.",
-            "Zadaje pytania wykraczające poza zakres materiału, lub aktywnie kwestionuje to, co jest nauczane.",
-            "Może sprawiać wrażenie niezainteresowanego, zdyscyplinowanego lub apatycznego, często są to oznaki przewlekłej nudy.",
-            "Wyraźna wrażliwość emocjonalna; może być lękliwy, perfekcjonistyczny lub niesprawiedliwie wymagający wobec siebie.",
-            "Realne ryzyko słabszych wyników, uczy się ukrywać swoje zdolności, by nie wyróżniać się społecznie."
-          ]
-        },
-        {
-          items: [
-            "<strong>To nie jest</strong> synonim dobrego zachowania ani dobrych wyników.",
-            "<strong>To nie jest</strong> \"nie potrzebuje pomocy\", potrzebuje innych wyzwań, a nie mniej uwagi.",
-            "<strong>To nie jest</strong> niezgodne z neuroróżnorodnością, podwójna wyjątkowość (2e) istnieje i jest częsta."
-          ]
-        },
-        {
-          items: [
-            "Zawsze mieć przygotowane zadania rozszerzające, nie więcej tego samego, lecz głębsze lub zastosowane treści.",
-            "Umożliwiać samodzielne badanie tematów interesujących ucznia w ramach programu.",
-            "Oceniać według poziomu trudności, a nie łatwości, wymagać bardziej wymagających prac w zamian za mniejszą objętość.",
-            "Uznawać i doceniać wrażliwość emocjonalną bez jej patologizowania."
-          ]
-        },
-        {
-          items: [
-            "Antycypować dumę rodziców/opiekunów i skierować ją we właściwym kierunku: właśnie dlatego, że dziecko jest zdolne, nuda stwarza problemy.",
-            "Wyjaśnić paradoks: dobre wyniki nie oznaczają, że dziecku jest dobrze.",
-            "Jeśli uczeń ukrywa swoje zdolności, by się zintegrować społecznie, mówić o tym z wyczuciem.",
-            "Zaproponować rodzicom/opiekunom, by cenili proces zamiast wyniku: ciekawość, głębię, trudne pytania."
-          ]
-        },
-        {
-          items: [
-            "Oznaki lęku lub depresji związane z ekstremalnym perfekcjonizmem.",
-            "Wyraźna izolacja społeczna wynikająca z poczucia bycia \"innym\" wśród rówieśników.",
-            "Nagłe pogorszenie wyników akademickich u ucznia wcześniej zidentyfikowanego jako zdolny."
-          ]
-        }
-      ]
-    },
+    sobredotacao: { sections: [
+      { items: [
+        "Kończy zadania w kilka minut, podczas gdy reszta klasy potrzebuje całej lekcji.",
+        "Zadaje pytania wykraczające poza zakres materiału — albo aktywnie kwestionuje to, czego się go uczy.",
+        "Może sprawiać wrażenie braku zainteresowania, niezdyscyplinowania lub apatii — często są to oznaki chronicznej nudy i niewykorzystywania potencjału.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Wyraźna wrażliwość emocjonalna; może być lękliwy lub perfekcjonistyczny — czynniki psychospołeczne mają decydujące znaczenie w rozwijaniu talentu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Realne ryzyko niewykorzystywania potencjału — może nauczyć się ukrywać swoje zdolności, aby nie wyróżniać się społecznie.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nie jest</strong> tożsama z dobrym zachowaniem ani z dobrymi wynikami — wielu uczniów zdolnych osiąga przeciętne wyniki z powodu braku zainteresowania.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nie oznacza</strong> „nie potrzebuje pomocy”: uczeń potrzebuje innych wyzwań, ponieważ zdolności przekładają się na osiągnięcia tylko wtedy, gdy są celowo rozwijane.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nie jest</strong> niemożliwa do pogodzenia z neuroróżnorodnością — podwójna wyjątkowość (2e) istnieje, jest częsta i bywa często maskowana.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Zawsze mieć przygotowane zadania rozszerzające — nie więcej tego samego, lecz materiał głębszy lub bardziej praktyczny.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pozwalać na samodzielne badanie tematów interesujących ucznia w ramach programu nauczania.",
+        "Oceniać według poziomu wyzwania, a nie łatwości — wymagać trudniejszych prac w zamian za ich mniejszą liczbę.",
+        "Dostrzegać i uznawać wrażliwość emocjonalną, nie patologizując jej.",
+      ]},
+      { items: [
+        "Uprzedzić dumę i przekierować ją: „jest wyraźnie bardzo zdolny — i właśnie dlatego nuda zaczyna powodować problemy”.",
+        "Wyjaśnić paradoks zdolności: dobre wyniki nie oznaczają, że wszystko jest w porządku, a niewykorzystywanie potencjału z powodu braku zainteresowania jest powszechne i odwracalne.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jeśli uczeń ukrywa swoje zdolności, by zintegrować się społecznie, nazwać to z wyczuciem — to oznaka cierpienia, a nie skromności.",
+        "Zaproponować rodzicom, by w domu doceniali proces, a nie wynik: ciekawość, dociekliwość i trudne pytania są warte więcej niż wysokie oceny za łatwe zadania.",
+      ]},
+      { items: [
+        "Oznaki lęku lub depresji związane ze skrajnym perfekcjonizmem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Wyraźna izolacja społeczna wynikająca z poczucia bycia „innym” niż rówieśnicy.",
+        "Nagłe pogorszenie wyników w nauce u ucznia wcześniej zidentyfikowanego jako zdolny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     plnm: {
       sections: [
         {
@@ -2637,49 +2601,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Semne de anxietate somatizată înaintea evaluărilor scrise; suferința psihosocială face parte din tablou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    sobredotacao: {
-      sections: [
-        {
-          items: [
-            "Termină sarcinile în câteva minute în timp ce clasa are nevoie de toată ora.",
-            "Pune întrebări care depășesc sfera materiei, sau contestă activ ceea ce se predă.",
-            "Poate părea dezinteresat, indisciplinat sau apatic, frecvent semne de plictiseală cronică.",
-            "Sensibilitate emoțională accentuată; poate fi anxios, perfecționist sau nedrept de exigent cu sine însuși.",
-            "Risc real de subperformanță, învață să-și ascundă capacitatea pentru a nu ieși în evidență social."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu este</strong> sinonim cu comportament bun sau rezultate bune.",
-            "<strong>Nu este</strong> \"nu are nevoie de ajutor\", are nevoie de provocări diferite, nu de mai puțină atenție.",
-            "<strong>Nu este</strong> incompatibil cu neurodivergența, dubla excepționalitate (2e) există și este frecventă."
-          ]
-        },
-        {
-          items: [
-            "Să aibă întotdeauna pregătite sarcini de extindere, nu mai mult din același lucru, ci materie mai profundă sau aplicată.",
-            "Să permită cercetarea independentă pe teme de interes ale elevului în cadrul programei.",
-            "Să evalueze după dificultate, nu după ușurință, să ceară lucrări mai solicitante în schimbul unui volum mai mic.",
-            "Să recunoască și să valideze sensibilitatea emoțională fără a o patologiza."
-          ]
-        },
-        {
-          items: [
-            "Anticipați mândria părinților/tutorilor și redirecționați-o: tocmai pentru că este capabil, plictiseala creează probleme.",
-            "Explicați paradoxul: rezultatele bune nu înseamnă că este bine.",
-            "Dacă elevul își ascunde capacitatea pentru a se integra social, numiți acest lucru cu grijă.",
-            "Propuneți părinților/tutorilor să valorifice procesul în loc de rezultat: curiozitatea, profunzimea, întrebările dificile."
-          ]
-        },
-        {
-          items: [
-            "Semne de anxietate sau depresie asociate cu perfecționismul extrem.",
-            "Izolare socială marcată prin sentimentul de a fi \"diferit\" față de colegi.",
-            "Scădere bruscă a performanțelor academice la un elev identificat anterior ca capabil."
-          ]
-        }
-      ]
-    },
+    sobredotacao: { sections: [
+      { items: [
+        "Termină sarcinile în câteva minute, în timp ce restul clasei are nevoie de toată ora.",
+        "Pune întrebări care depășesc cadrul materiei sau contestă activ ceea ce se predă.",
+        "Poate părea dezinteresat, indisciplinat sau apatic, adesea semne ale plictiselii cronice și ale subperformanței (underachievement).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensibilitate emoțională accentuată; poate fi anxios sau perfecționist, deoarece factorii psihosociali sunt determinanți în dezvoltarea talentului.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Risc real de subperformanță: poate învăța să își ascundă capacitatea pentru a nu se evidenția social.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> sinonim cu un comportament bun sau cu rezultate bune: mulți elevi supradotați au o performanță mediocră din lipsă de interes.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nu este</strong> „nu are nevoie de ajutor”: are nevoie de provocări diferite, deoarece capacitatea se transformă în realizare doar atunci când este dezvoltată în mod deliberat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nu este</strong> incompatibil cu neurodivergența: dubla excepționalitate (2e) există, este frecventă și este adesea mascată.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Să existe mereu sarcini de aprofundare pregătite, nu mai mult din același lucru, ci conținuturi mai profunde sau aplicate.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Permiterea cercetării independente pe teme de interes ale elevului în cadrul programei.",
+        "Evaluarea în funcție de provocare, nu de ușurință: solicitarea unor lucrări mai exigente în schimbul unui volum mai mic.",
+        "Recunoașterea și validarea sensibilității emoționale fără a o patologiza.",
+      ]},
+      { items: [
+        "Anticiparea mândriei și reorientarea ei: „este în mod evident foarte capabil, și tocmai de aceea plictiseala creează probleme”.",
+        "Explicarea paradoxului supradotării: rezultatele bune nu înseamnă că îi este bine, iar subperformanța din lipsă de interes este frecventă și reversibilă.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Dacă elevul își ascunde capacitatea pentru a se integra social, numirea acestui fapt cu grijă: este un semn de suferință, nu de modestie.",
+        "Propunerea către părinți de a valoriza procesul în locul rezultatului acasă: curiozitatea, profunzimea și întrebările dificile valorează mai mult decât notele mari obținute la sarcini ușoare.",
+      ]},
+      { items: [
+        "Semne de anxietate sau depresie asociate cu un perfecționism extrem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Izolare socială marcată de sentimentul de a fi „diferit” de colegi.",
+        "Scădere bruscă a performanței școlare la un elev identificat anterior ca fiind capabil.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     plnm: {
       sections: [
         {
@@ -3031,33 +2983,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Završava zadatke za nekoliko minuta dok ostatak razreda treba cijeli sat.",
-        "Postavlja pitanja izvan okvira teme, ili aktivno dovodi u pitanje ono što se poučava.",
-        "Može izgledati nezainteresirano, nedisciplinirano ili apatično, često znakovi kronične dosade.",
-        "Pojačana emocionalna osjetljivost; može biti anksiozno, perfekcionistično ili nepravedno zahtjevno prema sebi.",
-        "Stvaran rizik od neuspjeha, uči skrivati sposobnosti kako ne bi isticalo socijalno.",
+        "Zadatke dovrši u nekoliko minuta dok razredu treba cijeli školski sat.",
+        "Postavlja pitanja koja izlaze iz okvira gradiva — ili aktivno preispituje ono što se upravo poučava.",
+        "Može djelovati nezainteresirano, nedisciplinirano ili apatično — često su to znakovi kronične dosade i neostvarivanja potencijala.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Izražena emocionalna osjetljivost; može biti tjeskoban ili perfekcionistički — psihosocijalni čimbenici presudni su za razvoj darovitosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Stvaran rizik od neostvarivanja potencijala — može naučiti skrivati svoje sposobnosti kako se ne bi društveno isticao.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Nije</strong> sinonim za dobro ponašanje ili dobre rezultate, mnogi daroviti učenici imaju prosječne ocjene zbog nezainteresiranosti.",
-        "<strong>Nije</strong> «ne treba pomoć», treba različite izazove, ne manje pažnje.",
-        "<strong>Nije</strong> nespojivo s neurodivergencijom, dvostruka iznimnost (2e) postoji i česta je.",
+        "<strong>Nije</strong> isto što i dobro ponašanje ni dobri rezultati — mnogi daroviti učenici postižu prosječan uspjeh zbog nezainteresiranosti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ne znači</strong> „ne treba pomoć”: treba mu drukčije izazove, jer se sposobnost pretvara u postignuće samo kada se namjerno razvija.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nije</strong> nespojiva s neurodivergentnošću — dvostruka iznimnost (2e) postoji, česta je i često ostaje prikrivena.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Uvijek imati pripremljene zadatke za proširenje, ne više istog, već dublje ili primijenjeno.",
-        "Dopustiti samostalno istraživanje tema od interesa unutar kurikuluma.",
-        "Vrednovati prema izazovu, ne prema lakoći, tražiti zahtjevniji rad u zamjenu za manji volumen.",
-        "Prepoznati i potvrditi emocionalnu osjetljivost bez patologiziranja.",
+        "Uvijek imati pripremljene zadatke za proširivanje — ne više istoga, nego dublje ili primjenjivije gradivo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Omogućiti samostalno istraživanje tema koje učenika zanimaju unutar nastavnog programa.",
+        "Ocjenjivati prema zahtjevnosti, a ne prema lakoći — tražiti zahtjevnije radove u zamjenu za manji opseg.",
+        "Prepoznati i priznati emocionalnu osjetljivost, a da je se ne patologizira.",
       ]},
       { items: [
-        "Anticipirati ponos roditelja i preusmjeriti ga: upravo sposobnost čini dosadu problemom.",
-        "Objasniti paradoks: dobri rezultati ne znače da je sve u redu.",
-        "Ako učenik skriva sposobnosti da bi se uklopio socijalno, pažljivo to nazvati, znak je uznemirenosti.",
-        "Predložiti roditeljima da cijene proces više od rezultata: radoznalost i dubina važniji su od visokih ocjena na lakim zadacima.",
+        "Predvidjeti ponos i preusmjeriti ga: „očito je vrlo sposoban — i upravo zato dosada počinje stvarati probleme”.",
+        "Objasniti paradoks darovitosti: dobri rezultati ne znače da je sve u redu, a neostvarivanje potencijala zbog nezainteresiranosti uobičajeno je i može se preokrenuti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ako učenik skriva svoje sposobnosti kako bi se društveno uklopio, to imenovati s pažnjom — to je znak patnje, a ne skromnosti.",
+        "Predložiti roditeljima da kod kuće vrednuju proces umjesto rezultata: znatiželja, dubina i teška pitanja vrijede više od visokih ocjena na lakim zadacima.",
       ]},
       { items: [
-        "Znakovi anksioznosti ili depresije povezani s ekstremnim perfekcionizmom.",
-        "Socijalna izolacija zbog osjećaja «drugačijosti» od vršnjaka.",
-        "Nagli akademski pad u učenika koji je prethodno prepoznat kao sposoban.",
+        "Znakovi tjeskobe ili depresije povezani s krajnjim perfekcionizmom.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Izražena društvena izolacija zbog osjećaja da je „drukčiji” od vršnjaka.",
+        "Nagli pad školskog uspjeha kod učenika koji je prije bio prepoznat kao sposoban.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -3363,33 +3315,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Dokončí úkoly za minuty, zatímco třída potřebuje celou hodinu.",
-        "Klade otázky přesahující rámec tématu, nebo aktivně zpochybňuje to, co se vyučuje.",
-        "Může působit nezainteresovaně, neukázněně nebo apaticky, často jde o příznaky chronické nudy.",
-        "Zvýšená emocionální citlivost; může být úzkostný/á, perfekcionistický/á nebo vůči sobě nepřiměřeně náročný/á.",
-        "Reálné riziko podvýkonu, naučí se skrývat schopnosti, aby sociálně nevynikal/a.",
+        "Dokončí úkoly během několika minut, zatímco třídě to trvá celou vyučovací hodinu.",
+        "Klade otázky, které přesahují rámec látky — nebo aktivně zpochybňuje to, co se právě učí.",
+        "Může působit nezájem, nekázeň nebo apatii — často jde o příznaky chronické nudy a nevyužívání potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Výrazná emoční citlivost; může být úzkostný nebo perfekcionistický — psychosociální faktory jsou pro rozvoj nadání rozhodující.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reálné riziko nevyužívání potenciálu — může se naučit skrývat své schopnosti, aby společensky nevyčníval.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Není</strong> synonymem pro dobré chování nebo dobré výsledky, mnoho nadaných žáků má průměrné výsledky z důvodu odpojení.",
-        "<strong>Neznamená</strong> «nepotřebuje pomoc», potřebuje jiné výzvy, ne méně pozornosti.",
-        "<strong>Není</strong> neslučitelné s neurodivergencí, dvojitá výjimečnost (2e) existuje a je běžná.",
+        "<strong>Není</strong> totéž co dobré chování ani dobré výsledky — mnoho nadaných žáků podává průměrné výkony kvůli nezájmu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Neznamená</strong> „nepotřebuje pomoc“: potřebuje jiné výzvy, protože schopnost se promění ve výkon jen tehdy, je-li cíleně rozvíjena.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Není</strong> neslučitelné s neurodivergencí — dvojí výjimečnost (2e) existuje, je častá a bývá často maskovaná.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Mít vždy připraveny rozšiřující úkoly, ne více téhož, ale hlubší nebo aplikovaný obsah.",
-        "Umožnit samostatný výzkum témat zájmu v rámci kurikula.",
-        "Hodnotit podle náročnosti, ne snadnosti, požadovat náročnější práci výměnou za menší objem.",
-        "Uznávat a potvrzovat emocionální citlivost bez patologizování.",
+        "Mít vždy připravené rozšiřující úkoly — ne více téhož, ale látku hlubší nebo více aplikovanou.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Umožnit samostatné zkoumání témat, která žáka zajímají, v rámci učiva.",
+        "Hodnotit podle náročnosti, ne podle snadnosti — zadávat náročnější práce výměnou za menší objem.",
+        "Rozpoznat a uznat emoční citlivost, aniž bychom ji patologizovali.",
       ]},
       { items: [
-        "Předem počítat s rodičovskou hrdostí a přesměrovat ji: právě schopnost dělá z nudy problém.",
-        "Vysvětlit paradox: dobré výsledky neznamenají, že je vše v pořádku.",
-        "Pokud žák skrývá schopnosti, aby zapadl sociálně, pojmenovat to citlivě, je to znak tísně.",
-        "Navrhnout rodičům, aby ocenili proces nad výsledky: zvídavost a hloubka jsou důležitější než vysoké známky za snadné úkoly.",
+        "Předejít pýše a přesměrovat ji: „je zjevně velmi schopný — a právě proto nuda začíná působit problémy“.",
+        "Vysvětlit paradox nadání: dobré výsledky neznamenají, že je vše v pořádku, a nevyužívání potenciálu z nezájmu je běžné a zvratné.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Pokud žák skrývá své schopnosti, aby se společensky začlenil, pojmenovat to citlivě — je to známka trápení, ne skromnosti.",
+        "Navrhnout rodičům, aby doma oceňovali proces místo výsledku: zvídavost, hloubka a obtížné otázky mají větší hodnotu než vysoké známky ze snadných úkolů.",
       ]},
       { items: [
-        "Příznaky úzkosti nebo deprese spojené s extrémním perfekcionismem.",
-        "Sociální izolace z pocitu «odlišnosti» od spolužáků.",
-        "Náhlý pokles výkonu u žáka dříve identifikovaného jako schopného.",
+        "Příznaky úzkosti nebo deprese spojené s extrémním perfekcionismem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Výrazná sociální izolace daná pocitem, že je „jiný“ než vrstevníci.",
+        "Náhlý pokles školního výkonu u žáka dříve identifikovaného jako schopný.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -3695,33 +3647,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Avslutar uppgifter på minuter medan klassen tar hela lektionen.",
-        "Ställer frågor utanför ämnets ramar, eller ifrågasätter aktivt det som undervisas.",
-        "Kan verka ointresserad, odisciplinerad eller apatisk, ofta tecken på kronisk tristess.",
-        "Förhöjd emotionell känslighet; kan vara ängslig, perfektionistisk eller orättvist krävande mot sig själv.",
-        "Verklig risk för underprestationer, lär sig dölja förmåga för att inte sticka ut socialt.",
+        "Avslutar uppgifterna på några minuter medan klassen behöver hela lektionen.",
+        "Ställer frågor som ligger utanför ämnet — eller utmanar aktivt det som lärs ut.",
+        "Kan framstå som ointresserad, odisciplinerad eller apatisk — ofta tecken på kronisk leda och på underprestation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Uttalad emotionell känslighet; kan vara ängslig eller perfektionistisk — psykosociala faktorer är avgörande för talangutvecklingen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Verklig risk för underprestation — kan lära sig att dölja sin förmåga för att inte sticka ut socialt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Det är inte</strong> synonymt med gott uppförande eller goda resultat, många begåvade elever har genomsnittliga betyg på grund av ointresse.",
-        "<strong>Det innebär inte</strong> «behöver inte hjälp», de behöver andra utmaningar, inte mindre uppmärksamhet.",
-        "<strong>Det är inte</strong> oförenligt med neurodivergens, dubbelexceptionell (2e) existerar och är vanlig.",
+        "<strong>Är inte</strong> liktydigt med gott uppförande eller goda resultat — många särbegåvade elever presterar medelmåttigt på grund av ointresse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Är inte</strong> ”behöver ingen hjälp”: eleven behöver andra utmaningar, eftersom förmåga blir prestation först när den medvetet utvecklas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Är inte</strong> oförenligt med neurodivergens — dubbel exceptionalitet (2e) finns, är vanlig och är ofta maskerad.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Ha alltid fördjupningsuppgifter redo, inte mer av samma, utan djupare eller tillämpad materia.",
-        "Tillåt självständig forskning om intresseämnen inom läroplanen.",
-        "Bedöm efter utmaning, inte lätthet, begär mer krävande arbete i utbyte mot lägre volym.",
-        "Erkänn och bekräfta emotionell känslighet utan att patologisera.",
+        "Ha alltid fördjupningsuppgifter förberedda — inte mer av samma sak, utan djupare eller mer tillämpat stoff.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tillåt självständig undersökning av ämnen som eleven är intresserad av inom kursplanen.",
+        "Bedöm efter utmaning, inte efter enkelhet — be om mer krävande arbeten i utbyte mot mindre mängd.",
+        "Erkänn och bekräfta den emotionella känsligheten utan att patologisera den.",
       ]},
       { items: [
-        "Förutse föräldrastolthet och omdirigera den: det är precis förmågan som gör tristessen till ett problem.",
-        "Förklara paradoxen: goda resultat innebär inte att allt är bra.",
-        "Om eleven döljer sin förmåga för att passa in socialt, namnge det varsamt, det är ett tecken på stress.",
-        "Uppmuntra vårdnadshavare att värdera process framför resultat: nyfikenhet och djup är viktigare än höga betyg på lätta uppgifter.",
+        "Föregrip stoltheten och styr om den: ”Hen är uppenbart mycket begåvad — och det är just därför ledan skapar problem.”",
+        "Förklara begåvningens paradox: goda resultat betyder inte att allt står väl till, och underprestation av ointresse är vanlig och reversibel.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Om eleven döljer sin förmåga för att passa in socialt, benämn det varsamt — det är ett tecken på lidande, inte på blygsamhet.",
+        "Föreslå för vårdnadshavarna att de värderar processen framför resultatet hemma: nyfikenhet, djup och svåra frågor väger tyngre än höga betyg på lätta uppgifter.",
       ]},
       { items: [
-        "Tecken på ångest eller depression kopplade till extrem perfektionism.",
-        "Social isolering från en känsla av att vara «annorlunda» än kamraterna.",
-        "Plötslig prestationsförsämring hos en elev som tidigare identifierats som kapabel.",
+        "Tecken på ångest eller depression kopplade till extrem perfektionism.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Uttalad social isolering präglad av att känna sig ”annorlunda” än jämnåriga.",
+        "Plötslig akademisk underprestation hos en elev som tidigare identifierats som begåvad.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -4027,33 +3979,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Afslutter opgaver på minutter, mens klassen bruger hele lektionen.",
-        "Stiller spørgsmål ud over emnets rammer, eller udfordrer aktivt det, der undervises i.",
-        "Kan virke uinteresseret, udisciplineret eller apatisk, ofte tegn på kronisk kedsomhed.",
-        "Forhøjet følelsesmæssig sensitivitet; kan være angstpræget, perfektionistisk eller urimeligt selvkrævende.",
-        "Reel risiko for underpræstation, lærer at skjule evner for ikke at skille sig ud socialt.",
+        "Færdiggør opgaverne på få minutter, mens klassen bruger hele timen.",
+        "Stiller spørgsmål, der ligger uden for stoffet — eller udfordrer aktivt det, der bliver undervist i.",
+        "Kan virke uinteresseret, udisciplineret eller apatisk — ofte tegn på kronisk kedsomhed og på underpræstation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Udtalt følelsesmæssig sensitivitet; kan være ængstelig eller perfektionistisk — psykosociale faktorer er afgørende for talentudviklingen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reel risiko for underpræstation — kan lære at skjule sin evne for ikke at skille sig ud socialt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> synonymt med god opførsel eller gode resultater, mange begavede elever har gennemsnitlige karakterer grundet engagement.",
-        "<strong>Det betyder ikke</strong> «har ikke brug for hjælp», de har brug for andre udfordringer, ikke mindre opmærksomhed.",
-        "<strong>Det er ikke</strong> uforeneligt med neurodivergens, dobbelt exceptionel (2e) eksisterer og er hyppig.",
+        "<strong>Er ikke</strong> ensbetydende med god opførsel eller gode resultater — mange højtbegavede elever præsterer middelmådigt på grund af manglende interesse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Er ikke</strong> „har ikke brug for hjælp“: eleven har brug for andre udfordringer, for evne bliver først til præstation, når den bevidst udvikles.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Er ikke</strong> uforenelig med neurodivergens — dobbelt exceptionalitet (2e) findes, er hyppig og bliver ofte maskeret.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Hav altid udvidelsesopgaver klar, ikke mere af det samme, men dybere eller anvendt indhold.",
-        "Tillad selvstændig forskning i interesseemner inden for læreplanen.",
-        "Vurder efter udfordring, ikke lethed, bed om mere krævende arbejde mod lavere volumen.",
-        "Anerkend og bekræft følelsesmæssig sensitivitet uden at patologisere.",
+        "Hav altid fordybelsesopgaver klar — ikke mere af det samme, men dybere eller anvendt stof.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tillad selvstændig undersøgelse af emner, som eleven interesserer sig for inden for læseplanen.",
+        "Vurder efter udfordring, ikke efter lethed — bed om mere krævende arbejde til gengæld for mindre mængde.",
+        "Anerkend og valider den følelsesmæssige sensitivitet uden at patologisere den.",
       ]},
       { items: [
-        "Forudse forældrenes stolthed og omlede den: det er netop evnen, der gør kedsomhed til et problem.",
-        "Forklar paradokset: gode resultater betyder ikke, at alt er fint.",
-        "Hvis eleven skjuler evner for at passe ind socialt, navngiv det forsigtigt, det er et tegn på nød.",
-        "Opfordr forældrene til at værdsætte proces over resultater: nysgerrighed og dybde er vigtigere end høje karakterer for lette opgaver.",
+        "Foregrib stoltheden og omdirigér den: „Eleven er tydeligvis meget begavet — og netop derfor skaber kedsomheden problemer.“",
+        "Forklar begavelsens paradoks: gode resultater betyder ikke, at alt er i orden, og underpræstation af manglende interesse er almindelig og reversibel.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Hvis eleven skjuler sin evne for at passe ind socialt, så benævn det varsomt — det er et tegn på lidelse, ikke på beskedenhed.",
+        "Foreslå forældrene at værdsætte processen frem for resultatet derhjemme: nysgerrighed, dybde og svære spørgsmål vejer tungere end høje karakterer i lette opgaver.",
       ]},
       { items: [
-        "Tegn på angst eller depression forbundet med ekstrem perfektionisme.",
-        "Social isolation af en følelse af at være «anderledes» end kammeraterne.",
-        "Pludselig underpræstation hos en elev, der tidligere er identificeret som kapabel.",
+        "Tegn på angst eller depression forbundet med ekstrem perfektionisme.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Udtalt social isolation præget af at føle sig „anderledes“ end jævnaldrende.",
+        "Pludselig faglig underpræstation hos en elev, der tidligere er identificeret som begavet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -4359,33 +4311,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Viimeistelee tehtävät minuuteissa kun luokka vie koko oppitunnin.",
-        "Esittää kysymyksiä aiheen rajojen ulkopuolelta, tai haastaa aktiivisesti opetettavaa sisältöä.",
-        "Voi vaikuttaa kiinnostumattomalta, kurittomalta tai apaattiselta, usein merkkejä kroonisesta pitkästymisestä.",
-        "Kohonnut emotionaalinen herkkyys; voi olla ahdistunut, perfektionistinen tai kohtuuttoman vaativa itseään kohtaan.",
-        "Todellinen alisuoriutumisen riski, oppii piilottamaan kyvyt, jotta ei erottu sosiaalisesti.",
+        "Saa tehtävät valmiiksi muutamassa minuutissa, kun koko luokalta menee siihen koko oppitunti.",
+        "Esittää kysymyksiä, jotka menevät oppiaineen rajojen ulkopuolelle – tai haastaa aktiivisesti sen, mitä opetetaan.",
+        "Voi vaikuttaa kiinnostumattomalta, kurittomalta tai apaattiselta – usein nämä ovat kroonisen tylsistymisen ja alisuoriutumisen merkkejä.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Voimakas tunneherkkyys; voi olla ahdistunut tai perfektionistinen – psykososiaaliset tekijät ovat ratkaisevia lahjakkuuden kehittymisessä.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Todellinen alisuoriutumisen riski – oppilas voi oppia piilottamaan kykynsä, jotta ei erottuisi sosiaalisesti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Ei ole</strong> synonyymi hyvälle käyttäytymiselle tai hyville tuloksille, monilla lahjakkailla oppilailla on keskinkertaiset arvosanat sitoutumattomuuden vuoksi.",
-        "<strong>Ei tarkoita</strong> «ei tarvitse apua», tarvitsee erilaisia haasteita, ei vähempää huomiota.",
-        "<strong>Ei ole</strong> yhteensopimaton neurodivergenssiin, kaksoispoikkeavuus (2e) on olemassa ja yleistä.",
+        "<strong>Ei ole</strong> hyvän käytöksen eikä hyvien tulosten synonyymi – monet lahjakkaat oppilaat suoriutuvat keskinkertaisesti kiinnostuksen puutteen vuoksi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ei tarkoita</strong>, ettei tarvitse apua: tarvitaan erilaisia haasteita, koska kyky muuttuu saavutukseksi vasta, kun sitä kehitetään tietoisesti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ei ole</strong> ristiriidassa neurokirjon kanssa – kaksoispoikkeavuus (2e) on olemassa, yleinen ja usein peittynyt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pidä aina laajennustehtäviä valmiina, ei lisää samaa, vaan syvempää tai soveltavaa sisältöä.",
-        "Salli itsenäinen tutkimustyö kiinnostavista aiheista opetussuunnitelman puitteissa.",
-        "Arvioi haasteen, ei helppouden perusteella, pyydä vaativampaa työtä vähemmän volyymin vastineeksi.",
-        "Tunnusta ja vahvista emotionaalinen herkkyys patologisoimatta.",
+        "Pidä aina valmiina syventäviä tehtäviä – ei lisää samaa, vaan syvällisempää tai soveltavaa ainesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Salli itsenäinen tutkiminen oppilasta kiinnostavista aiheista opetussuunnitelman puitteissa.",
+        "Arvioi haasteen, ei helppouden mukaan – pyydä vaativampia töitä pienempää määrää vastaan.",
+        "Tunnista ja vahvista tunneherkkyys patologisoimatta sitä.",
       ]},
       { items: [
-        "Varaudu vanhempien ylpeyteen ja ohjaa se: juuri kyky tekee pitkästymisestä ongelman.",
-        "Selitä paradoksi: hyvät tulokset eivät tarkoita, että kaikki on hyvin.",
-        "Jos oppilas piilottaa kykyjään sopeutuakseen sosiaalisesti, nimeä se varovaisesti, se on merkki ahdistuksesta.",
-        "Kannusta huoltajia arvostamaan prosessia tulosten edelle: uteliaisuus ja syvyys ovat tärkeämpiä kuin korkeat arvosanat helpoissa tehtävissä.",
+        "Ennakoi ylpeyttä ja suuntaa se uudelleen: ”hän on selvästi hyvin kyvykäs – ja juuri siksi tylsistyminen aiheuttaa ongelmia”.",
+        "Selitä lahjakkuuden paradoksi: hyvät tulokset eivät tarkoita, että kaikki on hyvin, ja kiinnostuksen puutteesta johtuva alisuoriutuminen on yleistä ja korjattavissa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jos oppilas piilottaa kykynsä sopeutuakseen sosiaalisesti, nimeä se varovasti – se on kärsimyksen, ei vaatimattomuuden merkki.",
+        "Ehdota huoltajille, että he arvostavat kotona prosessia tuloksen sijaan: uteliaisuus, syvällisyys ja vaikeat kysymykset ovat arvokkaampia kuin korkeat arvosanat helpoista tehtävistä.",
       ]},
       { items: [
-        "Merkkejä ahdistuksesta tai masennuksesta, jotka liittyvät äärimmäiseen perfektionismiin.",
-        "Sosiaalinen eristäytyminen tuntemisesta «erilaiseksi» kuin vertaiset.",
-        "Äkillinen suoritustason lasku oppilaalla, joka on aiemmin tunnistettu kyvykkääksi.",
+        "Ahdistuksen tai masennuksen merkkejä, jotka liittyvät äärimmäiseen perfektionismiin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Voimakas sosiaalinen eristäytyminen, joka johtuu kokemuksesta olla ”erilainen” kuin ikätoverit.",
+        "Äkillinen akateemisen suoriutumisen lasku oppilaalla, joka oli aiemmin tunnistettu kyvykkääksi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -4692,33 +4644,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Dokončí úlohy za minúty, kým triede trvá celá hodina.",
-        "Kladie otázky presahujúce rozsah učiva, alebo aktívne spochybňuje to, čo sa vyučuje.",
-        "Môže sa zdať nezaujatý, nedisciplinovaný alebo apatický, často znaky chronickej nudy.",
-        "Zvýšená emocionálna citlivosť; môže byť úzkostlivý, perfekcionistický alebo neprimerane náročný na seba.",
-        "Skutočné riziko nedostatočného výkonu, naučí sa skrývať schopnosti, aby nevynikal sociálne.",
+        "Dokončí úlohy za pár minút, zatiaľ čo triede to trvá celú vyučovaciu hodinu.",
+        "Kladie otázky, ktoré presahujú rámec učiva — alebo aktívne spochybňuje to, čo sa práve učí.",
+        "Môže pôsobiť nezáujem, nedisciplinovanosť alebo apatiu — často ide o príznaky chronickej nudy a nevyužívania potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Výrazná emocionálna citlivosť; môže byť úzkostlivý alebo perfekcionistický — psychosociálne faktory sú pre rozvoj nadania rozhodujúce.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reálne riziko nevyužívania potenciálu — môže sa naučiť skrývať svoje schopnosti, aby spoločensky nevyčnieval.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Nie je</strong> synonymom dobrého správania alebo dobrých výsledkov, mnohí nadaní žiaci majú priemerné známky pre nezáujem.",
-        "<strong>Nie je</strong> \"nepotrebuje pomoc\", potrebuje iné výzvy, nie menej pozornosti.",
-        "<strong>Nie je</strong> nezlučiteľné s neurodivergenciou, dvojnásobne výnimočný (2e) existuje a je bežný.",
+        "<strong>Nie je</strong> to isté ako dobré správanie ani dobré výsledky — mnohí nadaní žiaci podávajú priemerné výkony pre nezáujem.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Neznamená</strong> „nepotrebuje pomoc“: potrebuje iné výzvy, pretože schopnosť sa premení na výkon len vtedy, keď sa cielene rozvíja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nie je</strong> nezlučiteľné s neurodivergenciou — dvojitá výnimočnosť (2e) existuje, je častá a býva často maskovaná.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Vždy mať pripravené rozširujúce úlohy, nie viac toho istého, ale hlbší alebo aplikovaný obsah.",
-        "Umožniť nezávislý výskum na témy záujmu žiaka v rámci programu.",
-        "Hodnotiť podľa náročnosti, nie jednoduchosti, žiadať náročnejšie práce výmenou za menší objem.",
-        "Uznávať a potvrdzovať emocionálnu citlivosť bez patologizovania.",
+        "Mať vždy pripravené rozširujúce úlohy — nie viac toho istého, ale učivo hlbšie alebo viac aplikované.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Umožniť samostatné skúmanie tém, ktoré žiaka zaujímajú, v rámci učebných osnov.",
+        "Hodnotiť podľa náročnosti, nie podľa ľahkosti — zadávať náročnejšie práce výmenou za menší objem.",
+        "Rozpoznať a uznať emocionálnu citlivosť bez toho, aby sme ju patologizovali.",
       ]},
       { items: [
-        "Predvídať rodičovskú hrdosť a presmerovať ju: práve schopnosť robí nudu problémom.",
-        "Vysvetliť paradox: dobré výsledky neznamenajú, že sa mu/jej darí.",
-        "Ak žiak skrýva schopnosti, aby sa sociálne zaradil, pomenovať to opatrne, je to znak trápenia.",
-        "Navrhnúť rodičom, aby cenili proces viac ako výsledok: zvedavosť a hĺbka sú dôležitejšie ako jednoduché vysoké známky.",
+        "Predísť pýche a presmerovať ju: „je zjavne veľmi schopný — a práve preto nuda začína spôsobovať problémy“.",
+        "Vysvetliť paradox nadania: dobré výsledky neznamenajú, že je všetko v poriadku, a nevyužívanie potenciálu z nezáujmu je bežné a zvratné.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ak žiak skrýva svoje schopnosti, aby sa spoločensky začlenil, pomenovať to citlivo — je to znak trápenia, nie skromnosti.",
+        "Navrhnúť rodičom, aby doma oceňovali proces namiesto výsledku: zvedavosť, hĺbka a náročné otázky majú väčšiu hodnotu než vysoké známky za ľahké úlohy.",
       ]},
       { items: [
-        "Príznaky úzkosti alebo depresie spojené s extrémnym perfekcionizmom.",
-        "Sociálna izolácia z pocitu \"odlišnosti\" od rovesníkov.",
-        "Náhly pokles výkonu u žiaka predtým identifikovaného ako schopného.",
+        "Príznaky úzkosti alebo depresie spojené s extrémnym perfekcionizmom.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Výrazná sociálna izolácia daná pocitom, že je „iný“ než rovesníci.",
+        "Náhly pokles školského výkonu u žiaka, ktorý bol predtým identifikovaný ako schopný.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -5022,33 +4974,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Percek alatt befejezi a feladatokat, miközben az osztálynak az egész óra kell.",
-        "A tananyag keretein kívülre mutató kérdéseket tesz fel, vagy aktívan megkérdőjelezi, amit tanítanak.",
-        "Érdektelennek, fegyelmezetlennek vagy apátiásnak tűnhet, ez gyakran a krónikus unalom jele.",
-        "Fokozott érzelmi érzékenység; szorongó, perfekcionista, vagy igazságtalanul sokat vár magától.",
-        "Valódi alulteljesítési kockázat, megtanulja elrejteni képességeit, hogy ne tűnjön ki szociálisan.",
+        "Percek alatt befejezi a feladatokat, miközben az osztály egész órát igényel.",
+        "Olyan kérdéseket tesz fel, amelyek kívül esnek a tananyagon — vagy aktívan megkérdőjelezi azt, amit tanítanak.",
+        "Tűnhet érdektelennek, fegyelmezetlennek vagy apatikusnak — ezek gyakran a krónikus unalom és az alulteljesítés jelei.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kifejezett érzelmi érzékenység; lehet szorongó vagy perfekcionista — a pszichoszociális tényezők meghatározóak a tehetség fejlődésében.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Az alulteljesítés valós kockázata — megtanulhatja elrejteni a képességeit, hogy társas szempontból ne tűnjön ki.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Nem</strong> szinonimája a jó viselkedésnek vagy jó eredményeknek, sok tehetséges diáknak közepes jegyei vannak az érdektelenség miatt.",
-        "<strong>Nem</strong> „nincs szüksége segítségre\", más kihívásokra van szüksége, nem kevesebb figyelemre.",
-        "<strong>Nem</strong> összeegyeztethetetlen a neurodiverziával, a kétszeresen kivételes (2e) létezik és gyakori.",
+        "<strong>Nem</strong> egyenlő a jó magatartással vagy a jó eredményekkel — sok tehetséges tanuló átlagosan teljesít érdektelenségből.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nem</strong> azt jelenti, hogy „nincs szüksége segítségre”: másfajta kihívásokra van szüksége, mert a képesség csak akkor válik teljesítménnyé, ha tudatosan fejlesztik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nem</strong> összeegyeztethetetlen a neurodivergenciával — a kétszeresen kivételes (2e) állapot létezik, gyakori, és sokszor elfedett.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Mindig legyen kész bővítő feladat, nem több ugyanabból, hanem mélyebb vagy alkalmazott tartalom.",
-        "Engedje meg az önálló kutatást az érdeklődési körébe eső témákban a tanterv keretein belül.",
-        "A kihívás szerint értékelje, ne a könnyűség szerint, igényesebb munkát kérjen kisebb mennyiségért cserébe.",
-        "Ismerje el és erősítse meg az érzelmi érzékenységet anélkül, hogy patologizálná.",
+        "Mindig legyenek előkészített elmélyítő feladatok — ne ugyanabból több, hanem mélyebb vagy alkalmazottabb anyag.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tegye lehetővé a tanuló érdeklődésének megfelelő témák önálló kutatását a tananyagon belül.",
+        "Értékeljen a kihívás, ne a könnyűség alapján — kérjen igényesebb munkákat kisebb mennyiségért cserébe.",
+        "Ismerje el és fogadja el az érzelmi érzékenységet anélkül, hogy patologizálná.",
       ]},
       { items: [
-        "Számítson a szülői büszkeségre és irányítsa át: éppen a képesség teszi az unalmat problémává.",
-        "Magyarázza el a paradoxont: a jó eredmények nem azt jelentik, hogy jól van.",
-        "Ha a tanuló elrejti képességét a beilleszkedés érdekében, nevesítse óvatosan, ez szenvedés jele.",
-        "Javasolja a szülőknek, hogy az eredmény helyett az folyamatot értékeljék: a kíváncsiság és a mélység fontosabb az egyszerű jó jegyeknél.",
+        "Számítson a büszkeségre, és terelje át: „nyilvánvalóan nagyon képes — és éppen ezért okoz problémákat az unalom”.",
+        "Magyarázza el a tehetség paradoxonát: a jó eredmények nem jelentik azt, hogy jól van, és az érdektelenségből fakadó alulteljesítés gyakori és visszafordítható.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ha a tanuló elrejti a képességeit, hogy beilleszkedjen, nevezze ezt meg óvatosan — ez a szenvedés jele, nem a szerénységé.",
+        "Javasolja a szülőknek/gondviselőknek, hogy otthon a folyamatot értékeljék az eredmény helyett: a kíváncsiság, a mélység és a nehéz kérdések többet érnek, mint a magas jegyek könnyű feladatokban.",
       ]},
       { items: [
-        "Szorongás vagy depresszió jelei extrém perfekcionizmushoz kapcsolódva.",
-        "Szociális elszigeteltség a társaitól való „különbözőség\" érzése miatt.",
-        "Hirtelen alulteljesítés egy korábban képesnek azonosított tanulónál.",
+        "A szélsőséges perfekcionizmushoz kapcsolódó szorongás vagy depresszió jelei.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kifejezett társas elszigetelődés, amelyet a kortársaktól való „másság” érzése jellemez.",
+        "Hirtelen tanulmányi alulteljesítés egy korábban képesnek azonosított tanulónál.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -5352,33 +5304,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Ολοκληρώνει εργασίες σε λίγα λεπτά ενώ η τάξη χρειάζεται ολόκληρη την ώρα.",
-        "Κάνει ερωτήσεις πέρα από το πεδίο του μαθήματος, ή αμφισβητεί ενεργά αυτό που διδάσκεται.",
-        "Μπορεί να φαίνεται αδιάφορος/η, αταξίες ή απαθής/η, συχνά σημάδια χρόνιας πλήξης.",
-        "Έντονη συναισθηματική ευαισθησία· μπορεί να είναι αγχώδης/ης, τελειομανής ή άδικα απαιτητικός/ή με τον εαυτό του/της.",
-        "Πραγματικός κίνδυνος υποεπίδοσης, μαθαίνει να κρύβει τις δυνατότητές του/της για να μην ξεχωρίζει κοινωνικά.",
+        "Τελειώνει τις εργασίες σε λίγα λεπτά, ενώ η υπόλοιπη τάξη χρειάζεται ολόκληρη τη διδακτική ώρα.",
+        "Κάνει ερωτήσεις που ξεφεύγουν από το αντικείμενο του μαθήματος — ή αμφισβητεί ενεργά αυτό που διδάσκεται.",
+        "Μπορεί να φαίνεται αδιάφορος, απείθαρχος ή απαθής — συχνά πρόκειται για σημάδια χρόνιας ανίας και υποεπίδοσης.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Έντονη συναισθηματική ευαισθησία· μπορεί να είναι αγχώδης ή τελειομανής — οι ψυχοκοινωνικοί παράγοντες είναι καθοριστικοί στην ανάπτυξη του ταλέντου.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Πραγματικός κίνδυνος υποεπίδοσης — μπορεί να μάθει να κρύβει τις ικανότητές του για να μην ξεχωρίζει κοινωνικά.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> συνώνυμο καλής συμπεριφοράς ή καλών αποτελεσμάτων, πολλοί ταλαντούχοι μαθητές έχουν μέτριους βαθμούς λόγω αποδέσμευσης.",
-        "<strong>Δεν είναι</strong> «δεν χρειάζεται βοήθεια», χρειάζεται διαφορετικές προκλήσεις, όχι λιγότερη προσοχή.",
-        "<strong>Δεν είναι</strong> ασύμβατο με νευροαπόκλιση, ο διπλά εξαιρετικός/ή (2e) υπάρχει και είναι συχνός.",
+        "<strong>Δεν είναι</strong> συνώνυμο της καλής συμπεριφοράς ούτε των καλών αποτελεσμάτων — πολλοί χαρισματικοί μαθητές έχουν μέτρια επίδοση λόγω αδιαφορίας.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Δεν σημαίνει</strong> «δεν χρειάζεται βοήθεια»: χρειάζεται διαφορετικές προκλήσεις, γιατί η ικανότητα μετατρέπεται σε επίτευξη μόνο όταν αναπτύσσεται σκόπιμα.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Δεν είναι</strong> ασυμβίβαστη με τη νευροαποκλίνουσα — η διπλή εξαιρετικότητα (2e) υπάρχει, είναι συχνή και συχνά συγκαλύπτεται.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Να έχετε πάντα έτοιμες εργασίες επέκτασης, όχι περισσότερα από τα ίδια, αλλά βαθύτερο ή εφαρμοσμένο περιεχόμενο.",
-        "Να επιτρέπεται ανεξάρτητη έρευνα σε θέματα ενδιαφέροντος του μαθητή εντός του προγράμματος.",
-        "Να αξιολογείτε βάσει πρόκλησης, όχι ευκολίας, να ζητάτε πιο απαιτητικές εργασίες σε αντάλλαγμα μικρότερου όγκου.",
-        "Να αναγνωρίζετε και να επικυρώνετε τη συναισθηματική ευαισθησία χωρίς παθολογοποίηση.",
+        "Να έχετε πάντα έτοιμες εργασίες εμβάθυνσης — όχι περισσότερα από τα ίδια, αλλά ύλη πιο βαθιά ή πιο εφαρμοσμένη.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Επιτρέψτε ανεξάρτητη διερεύνηση θεμάτων που ενδιαφέρουν τον μαθητή εντός του προγράμματος.",
+        "Αξιολογήστε με βάση την πρόκληση, όχι την ευκολία — ζητήστε πιο απαιτητικές εργασίες με αντάλλαγμα μικρότερο όγκο.",
+        "Αναγνωρίστε και επικυρώστε τη συναισθηματική ευαισθησία χωρίς να την παθολογικοποιείτε.",
       ]},
       { items: [
-        "Να αναμένετε τη γονεϊκή υπερηφάνεια και να την ανακατευθύνετε: η ικανότητα είναι αυτή ακριβώς που κάνει την πλήξη πρόβλημα.",
-        "Να εξηγείτε το παράδοξο: τα καλά αποτελέσματα δεν σημαίνουν ότι τα πάει καλά.",
-        "Αν ο μαθητής κρύβει τις δυνατότητες για να ενταχθεί κοινωνικά, να το ονομάζετε προσεκτικά, είναι σημάδι ταλαιπωρίας.",
-        "Να προτείνετε στους γονείς να εκτιμούν τη διαδικασία αντί για το αποτέλεσμα: η περιέργεια και το βάθος είναι πιο σημαντικά από εύκολους υψηλούς βαθμούς.",
+        "Προβλέψτε την υπερηφάνεια και κατευθύνετέ την αλλού: «είναι σαφώς πολύ ικανός — και ακριβώς γι’ αυτό η ανία δημιουργεί προβλήματα».",
+        "Εξηγήστε το παράδοξο της χαρισματικότητας: τα καλά αποτελέσματα δεν σημαίνουν ότι είναι καλά, και η υποεπίδοση λόγω αδιαφορίας είναι συνηθισμένη και αναστρέψιμη.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Αν ο μαθητής κρύβει τις ικανότητές του για να ενταχθεί κοινωνικά, ονομάστε το με προσοχή — είναι σημάδι δυσφορίας, όχι μετριοφροσύνης.",
+        "Προτείνετε στους γονείς/κηδεμόνες να εκτιμούν τη διαδικασία αντί για το αποτέλεσμα στο σπίτι: η περιέργεια, η εμβάθυνση και οι δύσκολες ερωτήσεις αξίζουν περισσότερο από τους υψηλούς βαθμούς σε εύκολες εργασίες.",
       ]},
       { items: [
-        "Ενδείξεις άγχους ή κατάθλιψης που συνδέονται με ακραίο τελειομανισμό.",
-        "Κοινωνική απομόνωση από το αίσθημα «διαφορετικότητας» από τους συνομηλίκους.",
-        "Αιφνίδια υποεπίδοση σε μαθητή που είχε προηγουμένως αναγνωριστεί ως ικανός/ή.",
+        "Σημάδια άγχους ή κατάθλιψης που συνδέονται με ακραίο τελειομανία.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Έντονη κοινωνική απομόνωση με αίσθημα «διαφορετικότητας» από τους συνομηλίκους.",
+        "Αιφνίδια ακαδημαϊκή υποεπίδοση σε μαθητή που είχε προηγουμένως αναγνωριστεί ως ικανός.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -5683,33 +5635,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Завършва задачите за минути, докато класът отнема цял час.",
-        "Задава въпроси извън обхвата на урока, или активно оспорва това, което се преподава.",
-        "Може да изглежда незаинтересован, недисциплиниран или апатичен, често признаци на хронична скука.",
-        "Изразена емоционална чувствителност; може да е тревожен, перфекционист или несправедливо взискателен към себе си.",
-        "Реален риск от недостатъчно представяне, научава се да крие способностите си, за да не се откроява социално.",
+        "Завършва задачите за минути, докато на класа му е нужен цял учебен час.",
+        "Задава въпроси, които излизат извън обхвата на материала — или активно оспорва това, което се преподава.",
+        "Може да изглежда незаинтересован, недисциплиниран или апатичен — често това са признаци на хронична скука и неоползотворен потенциал.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Подчертана емоционална чувствителност; може да е тревожен или перфекционист — психосоциалните фактори са определящи за развитието на таланта.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Реален риск от неоползотворен потенциал — може да се научи да крие способностите си, за да не изпъква в социален план.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Не е</strong> синоним на добро поведение или добри резултати, много надарени ученици имат средни оценки поради незаинтересованост.",
-        "<strong>Не е</strong> \"не се нуждае от помощ\", нуждае се от различни предизвикателства, не от по-малко внимание.",
-        "<strong>Не е</strong> несъвместимо с невроразличието, двойно изключителните (2e) съществуват и са чести.",
+        "<strong>Не е</strong> синоним на добро поведение, нито на добри резултати — много надарени ученици постигат среден успех поради незаинтересованост.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Не означава</strong> „няма нужда от помощ“: нуждае се от различни предизвикателства, защото способността се превръща в постижение само когато се развива целенасочено.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Не е</strong> несъвместима с невроразнообразието — двойната изключителност (2e) съществува, среща се често и нерядко остава прикрита.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Винаги имайте готови задачи за разширение, не повече от същото, а по-задълбочено или приложено съдържание.",
-        "Разрешавайте независимо проучване на теми от интерес на ученика в рамките на учебната програма.",
-        "Оценявайте по предизвикателство, не по лекота, изисквайте по-взискателни работи срещу по-малък обем.",
-        "Признавайте и утвърждавайте емоционалната чувствителност без патологизиране.",
+        "Винаги да има подготвени задачи за разширяване — не повече от същото, а по-задълбочен или приложен материал.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Да се позволи самостоятелно проучване на теми, които интересуват ученика, в рамките на учебната програма.",
+        "Да се оценява според предизвикателството, а не според лекотата — да се изискват по-взискателни работи в замяна на по-малък обем.",
+        "Да се разпознае и признае емоционалната чувствителност, без тя да се патологизира.",
       ]},
       { items: [
-        "Предвидете родителската гордост и я пренасочете: именно способността прави скуката проблем.",
-        "Обяснете парадокса: добрите резултати не означават, че всичко е наред.",
-        "Ако ученикът крие способностите си, за да се впише социално, назовете го внимателно, това е знак на страдание.",
-        "Предложете на родителите да ценят процеса вместо резултата: любопитството и дълбочината са по-важни от лесните високи оценки.",
+        "Да се предусети гордостта и да се пренасочи: „той очевидно е много способен — и точно затова скуката започва да създава проблеми“.",
+        "Да се обясни парадоксът на надареността: добрите резултати не означават, че всичко е наред, а неоползотвореният потенциал поради незаинтересованост е често срещан и обратим.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ако ученикът крие способностите си, за да се впише социално, това да се назове внимателно — то е признак на страдание, а не на скромност.",
+        "Да се предложи на родителите вкъщи да ценят процеса вместо резултата: любопитството, задълбочеността и трудните въпроси струват повече от високите оценки на лесни задачи.",
       ]},
       { items: [
-        "Признаци на тревожност или депресия, свързани с екстремен перфекционизъм.",
-        "Социална изолация от чувство за \"различност\" спрямо връстниците.",
-        "Внезапно влошаване на представянето при ученик, предишно идентифициран като способен.",
+        "Признаци на тревожност или депресия, свързани с краен перфекционизъм.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Изразена социална изолация поради усещането, че е „различен“ от връстниците си.",
+        "Внезапен спад в академичните постижения при ученик, който преди това е бил определен като способен.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -6013,33 +5965,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Baigia užduotis per kelias minutes, kai klasei prireikia viso pamokos laiko.",
-        "Užduoda klausimus, peržengiančius pamokos ribas, arba aktyviai ginčija tai, kas mokoma.",
-        "Gali atrodyti nesusidomėjęs, nedrausmingas ar apatiškas, dažnai lėtinio nuobodulio požymiai.",
-        "Ryškus emocinis jautrumas; gali būti nerimo, perfekcionizmo ar neteisingai sau reiklus.",
-        "Tikra nepakankamo pasiekimo rizika, mokosi slėpti gebėjimus, kad neišsiskirtų socialiai.",
+        "Užduotis atlieka per kelias minutes, o visai klasei reikia viso pamokos laiko.",
+        "Užduoda klausimų, peržengiančių dalyko ribas, arba aktyviai ginčija tai, ko mokoma.",
+        "Gali atrodyti nesidomintis, nedrausmingas ar apatiškas – dažnai tai lėtinio nuobodulio ir nepakankamo pasiekimų lygio ženklai.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ryškus emocinis jautrumas; gali būti nerimastingas ar perfekcionistiškas – psichosocialiniai veiksniai yra lemiami plėtojant gabumus.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Realus nepakankamo pasiekimų lygio pavojus – vaikas gali išmokti slėpti savo gebėjimus, kad socialiai neišsiskirtų.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> gero elgesio ar gerų rezultatų sinonimas, daugelis gabių mokinių turi vidutinius pažymius dėl nesusidomėjimo.",
-        "<strong>Tai nėra</strong> \"nereikia pagalbos\", reikia skirtingų iššūkių, ne mažiau dėmesio.",
-        "<strong>Tai nėra</strong> nesuderinama su neurodivergencija, dvigubai išskirtiniai (2e) egzistuoja ir yra dažni.",
+        "<strong>Tai nėra</strong> gero elgesio ar gerų rezultatų sinonimas – daugelis gabių mokinių mokosi vidutiniškai dėl susidomėjimo stokos.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tai nereiškia</strong> „pagalbos nereikia“: reikia kitokių iššūkių, nes gebėjimas virsta pasiekimu tik tada, kai yra sąmoningai plėtojamas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tai nėra</strong> nesuderinama su neuroįvairove – dviguba išskirtinumas (2e) egzistuoja, yra dažnas ir dažnai būna užmaskuotas.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Visada turėkite paruoštas pratęsimo užduotis, ne daugiau to paties, o gilesnį ar taikomą turinį.",
-        "Leiskite savarankišką tyrimą domimomis temomis mokymosi programos ribose.",
-        "Vertinkite pagal iššūkį, o ne lengvumą, prašykite sudėtingesnių darbų mainais už mažesnį kiekį.",
-        "Atpažinkite ir patvirtinkite emocinį jautrumą nepatologizuodami.",
+        "Visada turėti parengtų plėtojimo užduočių – ne daugiau to paties, o gilesnės ar pritaikytos medžiagos.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Leisti savarankiškai tyrinėti mokinį dominančias programos temas.",
+        "Vertinti pagal iššūkį, o ne pagal lengvumą – prašyti reiklesnių darbų mainais į mažesnę apimtį.",
+        "Pripažinti ir patvirtinti emocinį jautrumą, jo nepaverčiant patologija.",
       ]},
       { items: [
-        "Numatykite tėvų pasididžiavimą ir nukreipkite jį: kaip tik gebėjimas nuobodulį paverčia problema.",
-        "Paaiškinkite paradoksą: geri rezultatai nereiškia, kad viskas gerai.",
-        "Jei mokinys slepia gebėjimus, norėdamas socialiai integruotis, pavadinkite tai atsargiai, tai kančios ženklas.",
-        "Siūlykite tėvams vertinti procesą, o ne rezultatą: smalsumas ir gilumas svarbiau nei lengvi aukšti pažymiai.",
+        "Numatyti pasididžiavimą ir nukreipti jį: „jis akivaizdžiai labai gabus – ir kaip tik dėl to nuobodulys kelia problemų“.",
+        "Paaiškinti gabumų paradoksą: geri rezultatai nereiškia, kad vaikui viskas gerai, o nepakankamas pasiekimų lygis dėl susidomėjimo stokos yra dažnas ir grįžtamas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jei mokinys slepia savo gebėjimus, kad socialiai pritaptų, įvardyti tai atsargiai – tai kančios, o ne kuklumo ženklas.",
+        "Pasiūlyti tėvams ir globėjams namuose vertinti procesą, o ne rezultatą: smalsumas, gilumas ir sunkūs klausimai vertingesni už aukštus pažymius už lengvas užduotis.",
       ]},
       { items: [
-        "Nerimo ar depresijos požymiai, susiję su kraštutinumu perfekcionizmu.",
-        "Socialinė izoliacija dėl jausmo, kad esi \"kitoks\" nei bendraamžiai.",
-        "Staigus pasiekimų pablogėjimas mokiniui, anksčiau identifikuotam kaip gabiam.",
+        "Nerimo ar depresijos požymiai, susiję su kraštutiniu perfekcionizmu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ryški socialinė izoliacija, kylanti iš jausmo esant „kitokiam“ nei bendraamžiai.",
+        "Staigus akademinių pasiekimų kritimas mokiniui, anksčiau pripažintam gabiu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -6344,33 +6296,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Ātri apgūst jaunu saturu un zaudē interesi atkārtošanas uzdevumos.",
-        "Uzdod dziļus, nevietā šķietamus jautājumus, kas traucē stundu.",
-        "Var demonstrēt nevienmērīgu attīstību, ārkārtējs intelekts ar sociālu vai emocionālu nezrelitāti.",
-        "Var pretestēties rutīnai un strukturētai uzdevumiem, ja tos uzskata par pārāk viegliem.",
-        "Var justies izolēts no vienaudžiem, jo intereses un komunikācijas stils atšķiras.",
+        "Pabeidz uzdevumus dažās minūtēs, kamēr pārējai klasei tam vajadzīga visa stunda.",
+        "Uzdod jautājumus, kas pārsniedz mācību vielas robežas, vai aktīvi apstrīd to, kas tiek mācīts.",
+        "Var šķist neieinteresēts, nedisciplinēts vai apātisks – bieži tās ir hroniska garlaicīguma un nepietiekamu sasniegumu pazīmes.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Izteikta emocionālā jutība; var būt nemierīgs vai perfekcionistisks – psihosociālie faktori ir izšķiroši talanta attīstībā.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reāls nepietiekamu sasniegumu risks – var iemācīties slēpt savas spējas, lai sociāli neizceltos.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Tā nav</strong> garantija akadēmiskiem panākumiem, var neizpildīt potenciālu, ja nav atbilstoša izaicinājuma.",
-        "<strong>Tas nav</strong> vienāds ar lieliskiem atzīmēm, daži augsti spējas bērni tīši nekveido.",
-        "<strong>Tas neizslēdz</strong> citas vajadzības, divkārtēja izņēmumainība (augsta spēja + disleksija, ADHD utt.) ir bieži.",
+        "<strong>Tas nav</strong> labas uzvedības vai labu rezultātu sinonīms – daudzi apdāvināti skolēni mācās viduvēji intereses trūkuma dēļ.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tas nenozīmē</strong> „nav vajadzīga palīdzība“: ir vajadzīgi citādi izaicinājumi, jo spējas pārvēršas sasniegumos tikai tad, kad tās tiek apzināti attīstītas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tas nav</strong> nesavienojams ar neirodaudzveidību – dubultā izņēmuma stāvoklis (2e) pastāv, ir biežs un bieži tiek maskēts.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Piedāvāt bagātinātu vai paātrinātu saturu, nevis vairāk no tā paša.",
-        "Ļaut neatkarīgus projektus vai padziļinātu izpēti.",
-        "Izmantot skolēna intereses kā ieejas punktus sarežģītākā saturā.",
-        "Apvienot ar citiem augsti spējas bērniem projektu darbā, kad iespējams.",
+        "Vienmēr sagatavot paplašinājuma uzdevumus – ne vairāk no tā paša, bet dziļāku vai praktiski piemērotu vielu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ļaut patstāvīgi pētīt skolēnu interesējošas tēmas programmas ietvaros.",
+        "Vērtēt pēc izaicinājuma, nevis pēc viegluma – lūgt prasīgākus darbus apmaiņā pret mazāku apjomu.",
+        "Atzīt un apstiprināt emocionālo jutību, to nepatoloģizējot.",
       ]},
       { items: [
-        "Izvairīties no 'viņš ir tik gudrs, viņam tas nav vajadzīgs', visiem bērniem ir nepieciešams izaicinājums.",
-        "Izskaidrot, ka bez piemērotas stimulācijas var attīstīties motivācijas problēmas.",
-        "Apspriest bagātināšanas iespējas, ko var ieviest mājās vai papildu aktivitātēs.",
-        "Uzsvērt emocionālās vajadzības: augsti spējas bērni var ciest no perfekcionisma, trauksmes, savstarpējas neatbilstības.",
+        "Paredzēt lepnumu un to pārvirzīt: „viņš nepārprotami ir ļoti spējīgs – un tieši tāpēc garlaicība rada problēmas“.",
+        "Izskaidrot apdāvinātības paradoksu: labi rezultāti nenozīmē, ka viss ir labi, un nepietiekami sasniegumi intereses trūkuma dēļ ir izplatīti un atgriezeniski.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ja skolēns slēpj savas spējas, lai sociāli iekļautos, nosaukt to uzmanīgi – tā ir ciešanu, nevis pieticības pazīme.",
+        "Ieteikt vecākiem un aizbildņiem mājās novērtēt procesu, nevis rezultātu: zinātkāre, dziļums un grūti jautājumi ir vērtīgāki par augstām atzīmēm vieglos uzdevumos.",
       ]},
       { items: [
-        "Pilnīga skolas neapmeklēšana vai atteikums piedalīties.",
-        "Depresija, izolācija vai emocionālas krīzes.",
-        "Izteikts neatbilstība starp spēju un sniegumu bez skaidra iemesla.",
+        "Trauksmes vai depresijas pazīmes, kas saistītas ar galēju perfekcionismu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Izteikta sociālā izolācija, ko rada sajūta, ka esi „atšķirīgs“ no vienaudžiem.",
+        "Pēkšņa akadēmisko sasniegumu pasliktināšanās skolēnam, kurš iepriekš atzīts par spējīgu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -6671,33 +6623,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Omandab uue sisu kiiresti ja kaotab huvi kordamisülesannete vastu.",
-        "Esitab sügavaid, kohatu tunduvaid küsimusi, mis segavad tundi.",
-        "Võib näidata ebaühtlast arengut, erakordne intellekt koos sotsiaalse või emotsionaalse ebaküpsusega.",
-        "Võib vastu seista rutiinitele ja struktureeritud ülesannetele, kui peab neid liiga lihtsateks.",
-        "Võib tunda end eakaaslastest eraldatuna, kuna huvid ja suhtlusstiil erinevad.",
+        "Lõpetab ülesanded mõne minutiga, samal ajal kui kogu klassil kulub selleks terve tund.",
+        "Esitab küsimusi, mis väljuvad õppeaine raamidest, või vaidlustab aktiivselt seda, mida õpetatakse.",
+        "Võib näida huvitu, distsiplineerimatu või apaatne – sageli on need kroonilise igavuse ja alasoorituse märgid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tugev emotsionaalne tundlikkus; võib olla ärev või perfektsionistlik – psühhosotsiaalsed tegurid on andekuse arengus määravad.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reaalne alasoorituse oht – laps võib õppida oma võimeid varjama, et sotsiaalselt mitte silma paista.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> garantii akadeemiliseks edukuseks, võib potentsiaali mitte realiseerida, kui pole piisavat väljakutset.",
-        "<strong>See ei ole</strong> sama mis suurepärased hinded, mõned kõrge võimekusega lapsed jätavad teadlikult pingutamata.",
-        "<strong>See ei välista</strong> muid vajadusi, kahekordsed erandlikkused (kõrge võimekus + düsleksia, ATH jne) on sagedased.",
+        "<strong>See ei ole</strong> hea käitumise ega heade tulemuste sünonüüm – paljud andekad õpilased sooritavad keskpäraselt huvipuuduse tõttu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>See ei tähenda</strong> „abi pole vaja“: vaja on teistsuguseid väljakutseid, sest võime muutub saavutuseks alles siis, kui seda teadlikult arendatakse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>See ei ole</strong> vastuolus neuroerisusega – kahekordne erilisus (2e) on olemas, sageli esinev ja sageli varjatud.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pakkuda rikastatud või kiirendatud sisu, mitte rohkem sama.",
-        "Lubada iseseisvaid projekte või süvauurimist.",
-        "Kasutada õpilase huvisid sisenditena keerukamasse sisusse.",
-        "Ühendada teiste kõrge võimekusega lastega projekttöös, kui võimalik.",
+        "Hoida alati valmis süvendavaid ülesandeid – mitte rohkem sama, vaid sügavamat või rakenduslikku ainet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Lubada iseseisvat uurimist õpilast huvitavatel teemadel õppekava piires.",
+        "Hinnata väljakutse, mitte lihtsuse järgi – paluda nõudlikumaid töid väiksema mahu eest.",
+        "Tunnustada ja kinnitada emotsionaalset tundlikkust, seda patologiseerimata.",
       ]},
       { items: [
-        "Vältida argumenti 'ta on nii tark, tal seda vaja ei ole', kõik lapsed vajavad väljakutset.",
-        "Selgitada, et ilma sobiva stimulatsioonita võivad tekkida motivatsiooniprobleemid.",
-        "Arutada rikastamisvõimalusi, mida saab kodus rakendada.",
-        "Rõhutada emotsionaalseid vajadusi: kõrge võimekusega lapsed võivad kannatada perfektsionismi, ärevuse all.",
+        "Ennetada uhkust ja suunata see ümber: „ta on selgelt väga võimekas – ja just seetõttu tekitab igavus probleeme“.",
+        "Selgitada andekuse paradoksi: head tulemused ei tähenda, et kõik on hästi, ning huvipuudusest tingitud alasooritus on tavaline ja pöörduv.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kui õpilane varjab oma võimeid, et sotsiaalselt sobituda, nimetada seda ettevaatlikult – see on kannatuse, mitte tagasihoidlikkuse märk.",
+        "Soovitada vanematel ja hooldajatel väärtustada kodus protsessi, mitte tulemust: uudishimu, sügavus ja rasked küsimused on väärtuslikumad kui kõrged hinded lihtsate ülesannete eest.",
       ]},
       { items: [
-        "Täielik koolist keeldumine või osalemisest keeldumine.",
-        "Depressioon, isolatsioon või emotsionaalsed kriisid.",
-        "Märkimisväärne erinevus võimekuse ja soorituse vahel ilma selge põhjuseta.",
+        "Ärevuse või depressiooni märgid, mis on seotud äärmusliku perfektsionismiga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Väljendunud sotsiaalne isolatsioon, mis tuleneb tundest, et ollakse eakaaslastest „erinev“.",
+        "Äkiline akadeemilise soorituse langus õpilasel, keda varem peeti võimekaks.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -7000,33 +6952,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Hitro usvoji novo vsebino in izgubi zanimanje za naloge ponavljanja.",
-        "Postavlja globoka, navidezno neprimerna vprašanja, ki motijo pouk.",
-        "Lahko kaže neenakomeren razvoj, izjemen intelekt skupaj s socialno ali čustveno nezrelostjo.",
-        "Lahko se upira rutini in strukturiranim nalogam, ki se mu zdijo prelahke.",
-        "Lahko se počuti izoliranega od vrstnikov, ker se interesi in komunikacijski slog razlikujeta.",
+        "Naloge dokonča v nekaj minutah, medtem ko razred potrebuje celo učno uro.",
+        "Postavlja vprašanja, ki presegajo okvir učne snovi — ali pa dejavno izziva to, kar se ravnokar poučuje.",
+        "Lahko deluje nezainteresirano, nedisciplinirano ali apatično — pogosto so to znaki kroničnega dolgočasja in neizkoriščanja potenciala.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Izrazita čustvena občutljivost; lahko je tesnoben ali perfekcionističen — psihosocialni dejavniki so odločilni za razvoj nadarjenosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Resnično tveganje neizkoriščanja potenciala — lahko se nauči skrivati svoje sposobnosti, da socialno ne izstopa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>To ni</strong> zagotovilo akademskega uspeha, potencial se morda ne uresniči brez ustreznih izzivov.",
-        "<strong>To ni</strong> isto kot odlične ocene, nekateri visoko sposobni otroci namerno ne vlagajo truda.",
-        "<strong>To ne izključuje</strong> drugih potreb, dvojne izjemnosti (visoka sposobnost + disleksija, ADHD itd.) so pogoste.",
+        "<strong>Ni</strong> isto kot dobro vedenje ali dobri rezultati — mnogi nadarjeni učenci dosegajo povprečne rezultate zaradi nezainteresiranosti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ne pomeni</strong> »ne potrebuje pomoči«: potrebuje drugačne izzive, saj se sposobnost spremeni v dosežek le, kadar se namensko razvija.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ni</strong> nezdružljiva z nevrodivergentnostjo — dvojna izjemnost (2e) obstaja, je pogosta in je pogosto prikrita.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Ponudi obogajeno ali pospešeno vsebino, ne le več istega.",
-        "Dovoli neodvisne projekte ali poglobljeno raziskovanje.",
-        "Uporabi učenčeve interese kot vstopne točke v zahtevnejšo vsebino.",
-        "Poveži z drugimi visoko sposobnimi otroki pri projektnem delu, kadar je mogoče.",
+        "Vedno imeti pripravljene poglobitvene naloge — ne več istega, temveč snov, ki je globlja ali bolj uporabna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Omogočiti samostojno raziskovanje tem, ki učenca zanimajo, v okviru učnega načrta.",
+        "Ocenjevati po zahtevnosti, ne po lahkotnosti — zahtevati zahtevnejše naloge v zameno za manjši obseg.",
+        "Prepoznati in priznati čustveno občutljivost, ne da bi jo patologizirali.",
       ]},
       { items: [
-        "Izogibaj se argumentu 'je tako pameten, tega ne potrebuje', vsi otroci potrebujejo izziv.",
-        "Pojasni, da brez ustrezne stimulacije se lahko razvijejo motivacijske težave.",
-        "Razpravi o možnostih obogatitve, ki jih je mogoče uvesti doma.",
-        "Poudari čustvene potrebe: visoko sposobni otroci lahko trpijo za perfekcionizmom, anksioznostjo.",
+        "Predvideti ponos in ga preusmeriti: »očitno je zelo sposoben — in prav zato dolgočasje začenja povzročati težave«.",
+        "Pojasniti paradoks nadarjenosti: dobri rezultati ne pomenijo, da je vse v redu, neizkoriščanje potenciala zaradi nezainteresiranosti pa je pogosto in obrnljivo.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Če učenec skriva svoje sposobnosti, da bi se socialno vključil, to občutljivo poimenovati — to je znak stiske, ne skromnosti.",
+        "Staršem predlagati, naj doma cenijo proces namesto rezultata: radovednost, poglobljenost in težka vprašanja so vredni več kot visoke ocene pri lahkih nalogah.",
       ]},
       { items: [
-        "Popolna zavrnitev šole ali zavrnitev sodelovanja.",
-        "Depresija, izolacija ali čustvene krize.",
-        "Izrazita neskladnost med sposobnostjo in uspehom brez jasnega razloga.",
+        "Znaki tesnobe ali depresije, povezani s skrajnim perfekcionizmom.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Izrazita socialna osamljenost, ki izvira iz občutka, da je »drugačen« od vrstnikov.",
+        "Nenaden upad učnega uspeha pri učencu, ki je bil prej prepoznan kot sposoben.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -7327,33 +7279,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Foghlaimíonn ábhar nua go tapa agus cailleann spéis i dtascanna athrua.",
-        "Ceisteanna domhna, mícheart de chosúlacht a dhéanann cur isteach ar an gceacht.",
-        "Is féidir forbairt mhíchothrom a thaispeáint, intleacht iontach agus aibíocht shóisialta nó mhothúchánach íseal.",
-        "Is féidir leo cur i gcoinne gnáthaimh agus tascanna struchtúrtha má cheapann siad go bhfuil siad ró-éasca.",
-        "Is féidir leo a mhothú aonraithe ó chomhghleacaithe mar go bhfuil difríocht idir spéiseanna agus stíl cumarsáide.",
+        "Críochnaíonn sé na tascanna i mbomaite agus an rang iomlán ag tógáil an ranga ar fad.",
+        "Cuireann sé ceisteanna a théann thar raon an ábhair — nó tugann sé dúshlán gníomhach don rud atá á mhúineadh.",
+        "D'fhéadfadh sé easpa suime, mí-iompar nó fuarchúis a léiriú — comharthaí leadráin ainsealaigh agus tearcfheidhmíochta go minic.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Íogaireacht mhothúchánach láidir; d'fhéadfadh sé a bheith imníoch nó foirfeachtaíoch — tá na fachtóirí síceasóisialta cinntitheach i bhforbairt na tallainne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riosca fíor tearcfheidhmíochta — d'fhéadfadh sé foghlaim conas a chumas a cheilt ionas nach seasfadh sé amach go sóisialta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Ní ráthaíonn sé</strong> rath acadúil, is féidir nach gcomhlíonfar an cumas mura bhfuil dúshlán cuí ann.",
-        "<strong>Ní hionann é</strong> agus marcanna iontacha, déanann roinnt leanaí ardchumais iarracht d'aon ghnó gan a gcumas a léiriú.",
-        "<strong>Ní eisiann sé</strong> riachtanais eile, tá sé coitianta go mbíonn eisceachtúlacht dhúbailte (ardcumas + disléicse, ADHD srl.).",
+        "<strong>Ní hionann é</strong> agus dea-iompar ná dea-thorthaí — bíonn feidhmíocht mheánach ag go leor daltaí cumasacha mar gheall ar easpa suime.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ní hé</strong> „níl cabhair de dhíth air”: tá dúshláin éagsúla de dhíth air, mar ní iompaítear an cumas ina ghnóthachtáil ach amháin nuair a fhorbraítear go feasach é.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Níl sé</strong> ar neamhréir leis an néaréagsúlacht — tá an déchéimseacht (2e) ann, tá sé coitianta agus is minic a bhíonn sé faoi cheilt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Tairg ábhar saibhrithe nó luasaithe, ní níos mó den rud céanna.",
-        "Ceadaigh tionscadail neamhspleácha nó taighde domhain.",
-        "Úsáid spéiseanna an scoláire mar phointí iontrála i gcomhábhar níos casta.",
-        "Ceangail le leanaí ardchumais eile i dtionscadal-obair, nuair is féidir.",
+        "Bíodh tascanna breisithe ullamh i gcónaí — ní níos mó den rud céanna, ach ábhar níos doimhne nó níos feidhmí.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ceadaigh taighde neamhspleách ar thopaicí a bhfuil suim ag an dalta iontu laistigh den churaclam.",
+        "Déan measúnú de réir an dúshláin, ní de réir na héascaíochta — iarr saothair níos déine mar mhalairt ar mhéid níos lú.",
+        "Aithin agus bailíochtaigh an íogaireacht mhothúchánach gan í a phaiteolaíochtú.",
       ]},
       { items: [
-        "Seachain an argóint 'tá sé chomh cliste sin, ní gá dó é', teastaíonn dúshlán ó gach leanbh.",
-        "Míniú go bhféadfadh fadhbanna spreagtha forbairt gan spreagadh cuí.",
-        "Pléigh deiseanna saibhrithe is féidir a thabhairt isteach sa bhaile.",
-        "Béim a leagan ar riachtanais mothúchánacha: is féidir le leanaí ardchumais fulaingt ó phearsantacht foirfe, imní.",
+        "Réamh-mheas an bród agus atreoraigh é: „tá sé an-chumasach go soiléir — agus is dá bharr sin go díreach atá an leadrán ag cruthú fadhbanna”.",
+        "Mínigh paradacsa na buanna: ní chiallaíonn dea-thorthaí go bhfuil sé go maith, agus tá tearcfheidhmíocht de bharr easpa suime coitianta agus inchúlaithe.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Má cheileann an dalta a chumas chun é féin a chomhtháthú go sóisialta, ainmnigh é sin go cúramach — is comhartha fulaingthe é, ní comhartha modhúlachta.",
+        "Mol do na tuismitheoirí/caomhnóirí luach a chur ar an bpróiseas seachas ar an toradh sa bhaile: is fiú níos mó an fhiosracht, an doimhneacht agus na ceisteanna deacra ná ardmharcanna i dtascanna éasca.",
       ]},
       { items: [
-        "Iomlán diúltú don scoil nó diúltú páirt a ghlacadh.",
-        "Dúlagar, aonrú nó géarchéimeanna mothúchánacha.",
-        "Éagsúlacht shuntasach idir cumas agus feidhmíocht gan chúis shoiléir.",
+        "Comharthaí imní nó dúlagair a bhaineann le foirfeachtaíocht antoisceach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aonrú sóisialta suntasach a léirítear le mothú go bhfuil sé „difriúil” óna phiaraí.",
+        "Tearcfheidhmíocht acadúil thobann i ndalta a aithníodh roimhe seo mar dhuine cumasach.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
@@ -7654,33 +7606,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     sobredotacao: { sections: [
       { items: [
-        "Titgħallem kontenut ġdid malajr u titlef l-interess fil-kompiti ta' ripetizzjoni.",
-        "Tagħmel mistoqsijiet profondi, li jidhru barra l-post, li jinterrompu l-lezzjoni.",
-        "Tista' turi żvilupp mhux ugwali, intellett straordinarju b'immaturi soċjali jew emozzjonali.",
-        "Tista' tirreżisti r-rutini u l-kompiti strutturati jekk iqishom faċli wisq.",
-        "Tista' tħoss ruħha iżolata mill-pari minħabba li l-interessi u l-istil ta' komunikazzjoni huma differenti.",
+        "Itemm il-kompiti f'minuti waqt li l-klassi kollha ddum il-lezzjoni sħiħa.",
+        "Jagħmel mistoqsijiet li joħorġu mill-ambitu tas-suġġett — jew jisfida b'mod attiv dak li qed jiġi mgħallem.",
+        "Jista' jidher diżinteressat, indixxiplinat jew apatiku — spiss dawn huma sinjali ta' dwejjaq kroniku u ta' prestazzjoni baxxa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensittività emozzjonali qawwija; jista' jkun anzjuż jew perfezzjonista — il-fatturi psikosoċjali huma determinanti fl-iżvilupp tat-talent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riskju reali ta' prestazzjoni baxxa — jista' jitgħallem jaħbi l-ħila tiegħu biex ma jispikkax soċjalment.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "<strong>Mhijiex</strong> garanzija ta' suċċess akkademiku, il-potenzjal jista' ma jintlaħaqx mingħajr sfida adegwata.",
-        "<strong>Mhijiex</strong> l-istess bħal gradi eċċellenti, xi tfal bi kapaċità għolja jippruvaw deliberatament ftit.",
-        "<strong>Ma teskludi</strong> bżonnijiet oħra, l-eċċezzjonalità doppja (kapaċità għolja + dislexia, ADHD eċċ.) hija komuni.",
+        "<strong>Mhuwiex</strong> sinonimu ta' mġiba tajba u lanqas ta' riżultati tajbin — ħafna studenti b'kapaċità għolja jkollhom prestazzjoni medja minħabba nuqqas ta' interess.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Mhuwiex</strong> „ma jeħtieġx għajnuna”: jeħtieġ sfidi differenti, għax il-ħila ssir kisba biss meta tiġi żviluppata b'mod deliberat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Mhuwiex</strong> inkompatibbli man-newrodiverġenza — l-eċċezzjonalità doppja (2e) teżisti, hija frekwenti u spiss tkun moħbija.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Offri kontenut arrikkit jew aċċellerat, mhux aktar tal-istess.",
-        "Ippermetti proġetti indipendenti jew riċerka fil-fond.",
-        "Uża l-interessi tal-istudent bħala punti ta' dħul fi kontenut aktar kumpless.",
-        "Qabbad ma' tfal oħra ta' kapaċità għolja fil-proġetti meta possibbli.",
+        "Dejjem ħejji kompiti ta' estensjoni — mhux aktar mill-istess, iżda materjal aktar profond jew applikat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ippermetti riċerka indipendenti dwar suġġetti li jinteressaw lill-istudent fi ħdan il-programm.",
+        "Evalwa skont l-isfida, mhux skont il-faċilità — itlob xogħlijiet aktar eżiġenti bi skambju għal volum iżgħar.",
+        "Irrikonoxxi u valida s-sensittività emozzjonali mingħajr ma tippatoloġizzaha.",
       ]},
       { items: [
-        "Evita l-argument 'huwa/hija daqshekk intelliġenti, ma jeħtieġx', kull tifel/tifla jeħtieġ sfida.",
-        "Fissira li mingħajr stimolazzjoni adegwata jistgħu jiżviluppaw problemi ta' motivazzjoni.",
-        "Iddiskuti opportunitajiet ta' arrikiment li jistgħu jiġu introdotti d-dar.",
-        "Enfasizza l-bżonnijiet emozzjonali: tfal ta' kapaċità għolja jistgħu jsofru minn perfezzjoniżmu, ansjetà.",
+        "Antiċipa l-kburija u rreġiha mill-ġdid: „huwa b'mod ċar kapaċi ħafna — u huwa preċiżament għalhekk li d-dwejjaq qed joħloq problemi”.",
+        "Spjega l-paradoss tal-kapaċità għolja: ir-riżultati tajbin ma jfissrux li hu tajjeb, u l-prestazzjoni baxxa minħabba nuqqas ta' interess hija komuni u riversibbli.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jekk l-istudent jaħbi l-ħila tiegħu biex jintegra ruħu soċjalment, semmi dan b'attenzjoni — huwa sinjal ta' tbatija, mhux ta' modestja.",
+        "Issuġġerixxi lill-ġenituri/kustodji biex japprezzaw il-proċess minflok ir-riżultat id-dar: il-kurżità, il-profondità u l-mistoqsijiet diffiċli jiswew aktar mill-marki għoljin f'kompiti faċli.",
       ]},
       { items: [
-        "Rifjut komplet tal-iskola jew rifjut li tipparteċipa.",
-        "Dipressjoni, iżolament jew kriżijiet emozzjonali.",
-        "Diverġenza sinifikanti bejn il-kapaċità u l-prestazzjoni mingħajr raġuni ċara.",
+        "Sinjali ta' ansjetà jew dipressjoni assoċjati ma' perfezzjoniżmu estrem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iżolament soċjali mmarkat minn sens li hu „differenti” mill-pari tiegħu.",
+        "Prestazzjoni akkademika baxxa f'daqqa fi student li qabel kien identifikat bħala kapaċi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     plnm: { sections: [
