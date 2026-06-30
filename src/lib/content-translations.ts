@@ -247,10 +247,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "UN Convention on the Rights of Persons with Disabilities (UNCRPD, 2006), ratified by Ireland and all EU Member States; establishes inclusive education as a right under Article 24.",
+        "UN Convention on the Rights of Persons with Disabilities (UNCRPD, 2006), ratified by Ireland and all EU Member States; establishes inclusive education as a right under Article 24.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "EU Strategy for the Rights of Persons with Disabilities 2021–2030, commits Member States to accessible education, reasonable accommodation, and anti-discrimination measures.",
-        "Education for Persons with Special Educational Needs Act 2004 (EPSEN Act), Ireland's primary SEN legislation; establishes the right to an inclusive education and to an Individual Education Plan (IEP).",
-        "National Council for Special Education (NCSE), statutory body that allocates Special Education Teachers (SET) and Special Needs Assistants (SNA) to schools; publishes guidelines and policies.",
+        "Education for Persons with Special Educational Needs Act 2004 (EPSEN Act), Ireland's primary SEN legislation; establishes the right to an inclusive education and to an Individual Education Plan (IEP).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "National Council for Special Education (NCSE), statutory body that allocates Special Education Teachers (SET) and Special Needs Assistants (SNA) to schools; publishes guidelines and policies.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Circular 0014/2017 (DES), allocates SET hours to schools using a profile-based model; hours are managed by the school to respond flexibly to identified needs.",
       ]},
       { items: [
@@ -262,12 +262,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Consult the Special Education Teacher (SET) when a student is not responding to whole-class strategies after a reasonable period.",
         "A Student Support Team (SST) meeting can be convened to review the student's profile and decide on targeted or intensive supports.",
-        "An Individual Education Plan (IEP) is developed collaboratively (teacher, SET, SENO, parents/guardians, and where appropriate the student) for students with complex needs.",
+        "An Individual Education Plan (IEP) is developed collaboratively (teacher, SET, SENO, parents/guardians, and where appropriate the student) for students with complex needs.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Refer to an Educational Psychologist (NEPS) via the school's NEPS plan when a formal assessment is required to inform the level of support.",
-        "For students with significant and complex needs, a Special Educational Needs Organiser (SENO) from the NCSE is the key external contact.",
+        "For students with significant and complex needs, a Special Educational Needs Organiser (SENO) from the NCSE is the key external contact.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "There is no specific legislation for gifted education in Ireland; however, EPSEN Act provisions apply where giftedness co-occurs with a special educational need (twice-exceptional).",
+        "There is no specific legislation for gifted education in Ireland; however, EPSEN Act provisions apply where giftedness co-occurs with a special educational need (twice-exceptional).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "The NCSE policy advice (2017) acknowledges that highly able students may need differentiated provision; schools are encouraged to use SET time flexibly to support extension and enrichment.",
         "Teachers should document evidence of advanced ability and ensure challenge tasks are embedded in planning, not treated as extras.",
       ]},
@@ -279,11 +279,18 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Key contacts: Special Education Teacher (SET), Special Educational Needs Organiser (SENO/NCSE), NEPS Educational Psychologist, EAL Support Teacher.",
-        "Key documents to know: IEP (Individual Education Plan), Student Support File, School Inclusion Policy, EPSEN Act 2004.",
+        "Key documents to know: IEP (Individual Education Plan), Student Support File, School Inclusion Policy, EPSEN Act 2004.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "First step when concerned about a student: document, discuss with SET, contact parents/guardians, in that order.",
-        "Data protection: all student support data is subject to GDPR and the Data Protection Act 2018; do not share sensitive information outside the student support team without consent.",
+        "Data protection: all student support data is subject to GDPR and the Data Protection Act 2018; do not share sensitive information outside the student support team without consent.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>UN Convention on the Rights of Persons with Disabilities</em> (UNCRPD, 2006), ratified by Ireland in 2018; Article 24 establishes inclusive education as a right.",
+      "<em>Education Act 1998</em>; the general statutory framework for the education system, giving parents statutory rights and obliging schools to provide for a diversity of needs.",
+      "<em>Education for Persons with Special Educational Needs Act 2004</em> (EPSEN Act); Ireland's primary SEN legislation, establishing the National Council for Special Education (NCSE) and the right to an inclusive education and an Individual Education Plan (IEP).",
+      "<em>Disability Act 2005</em> and the <em>Equal Status Acts 2000–2018</em>; place statutory obligations on public service providers and prohibit discrimination in the provision of educational services.",
+      "<em>Data Protection Act 2018</em>, which gives effect to the General Data Protection Regulation (GDPR) in Ireland; all student data is protected and must not be shared without consent.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagogical differentiation is adjusting how you teach — not lowering expectations. The learning objective can be the same for everyone; it is the route that varies.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -581,14 +588,14 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Convención de la ONU sobre los Derechos de las Personas con Discapacidad (CDPD, 2006), ratificada por España; el artículo 24 establece la educación inclusiva como derecho.",
-        "Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), marco normativo vigente del sistema educativo español; incorpora el enfoque DUA (Diseño Universal para el Aprendizaje) y refuerza la equidad e inclusión.",
-        "Real Decreto 984/2021, regula la evaluación y promoción del alumnado; establece que las medidas de respuesta educativa deben estar recogidas en un Plan de Actuación Específico (PAE) para el alumnado con necesidades específicas de apoyo educativo (ACNEAE).",
-        "Real Decreto 126/2014 y decretos autonómicos de desarrollo curricular, la educación es competencia compartida; cada comunidad autónoma regula los procedimientos de identificación y atención al ACNEAE.",
+        "Convención de la ONU sobre los Derechos de las Personas con Discapacidad (CDPD, 2006), ratificada por España; el artículo 24 establece la educación inclusiva como derecho.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ley Orgánica 3/2020, de 29 de diciembre (LOMLOE), marco normativo vigente del sistema educativo español; incorpora el enfoque DUA (Diseño Universal para el Aprendizaje) y refuerza la equidad e inclusión.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Real Decreto 984/2021, regula la evaluación y promoción del alumnado; establece que las medidas de respuesta educativa deben estar recogidas en un Plan de Actuación Específico (PAE) para el alumnado con necesidades específicas de apoyo educativo (ACNEAE).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Real Decreto 126/2014 y decretos autonómicos de desarrollo curricular, la educación es competencia compartida; cada comunidad autónoma regula los procedimientos de identificación y atención al ACNEAE.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Resolución de la Secretaría de Estado de Educación sobre orientación educativa, establece los equipos de orientación educativa (EOE) en primaria y los departamentos de orientación en secundaria como referentes del proceso de evaluación psicopedagógica.",
       ]},
       { items: [
-        "Aplicar el Diseño Universal para el Aprendizaje (DUA): ofrecer múltiples formas de representación, acción, expresión e implicación para todo el alumnado.",
+        "Aplicar el Diseño Universal para el Aprendizaje (DUA): ofrecer múltiples formas de representación, acción, expresión e implicación para todo el alumnado.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Usar ajustes razonables en el aula sin necesidad de diagnóstico previo: tiempo ampliado, respuesta oral, acceso a tecnología de apoyo.",
         "Mantener un entorno de aula inclusivo que reduzca barreras sensoriales, organizativas y lingüísticas para todo el alumnado.",
         "Registrar observaciones informales de cualquier alumno/a que pueda tener necesidades no atendidas, es el punto de partida de cualquier proceso de orientación.",
@@ -597,11 +604,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Consultar con el orientador/a educativo/a cuando un alumno/a no responde a las estrategias de aula tras un período razonable.",
         "La Comisión de Coordinación Pedagógica (CCP) o el equipo docente puede solicitar una evaluación psicopedagógica al departamento de orientación.",
         "El Dictamen de Escolarización es el documento técnico que determina las necesidades del alumno y las medidas ordinarias, específicas o extraordinarias de respuesta educativa.",
-        "El Plan de Actuación Específico (PAE), equivalente al plan individualizado, es elaborado conjuntamente por el equipo docente, el orientador/a y las familias.",
+        "El Plan de Actuación Específico (PAE), equivalente al plan individualizado, es elaborado conjuntamente por el equipo docente, el orientador/a y las familias.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Para necesidades complejas o cambio de modalidad de escolarización, interviene la inspección educativa y, en su caso, la administración autonómica.",
       ]},
       { items: [
-        "La LOMLOE reconoce al alumnado con altas capacidades intelectuales como ACNEAE y obliga a los centros a identificarlos y atenderlos.",
+        "La LOMLOE reconoce al alumnado con altas capacidades intelectuales como ACNEAE y obliga a los centros a identificarlos y atenderlos.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "La evaluación psicopedagógica determina el nivel de competencia curricular y las medidas de enriquecimiento, aceleración o flexibilización del período de escolarización.",
         "Los centros pueden solicitar a la administración educativa la flexibilización del período de escolarización obligatoria (anticipación de inicio o reducción de un curso) previa evaluación y autorización.",
       ]},
@@ -615,9 +622,16 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Figuras clave: orientador/a educativo/a, tutor/a, jefe/a de estudios, equipo de orientación educativa (EOE) de zona.",
         "Documentos clave: informe psicopedagógico, Dictamen de Escolarización, Plan de Actuación Específico (PAE), actas del equipo docente.",
         "Primer paso ante una preocupación por un alumno/a: registrar, hablar con el orientador/a, contactar a las familias, en ese orden.",
-        "Protección de datos: todos los datos del alumnado están sujetos al RGPD y a la Ley Orgánica 3/2018 (LOPDGDD); no compartir información sensible fuera del equipo sin consentimiento.",
+        "Protección de datos: todos los datos del alumnado están sujetos al RGPD y a la Ley Orgánica 3/2018 (LOPDGDD); no compartir información sensible fuera del equipo sin consentimiento.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Convención sobre los Derechos de las Personas con Discapacidad</em> (ONU, 2006), ratificada por España (BOE de 21 de abril de 2008); su artículo 24 reconoce el derecho a la educación inclusiva.",
+      "<em>Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación</em> (LOMLOE); marco vigente del sistema educativo, incorpora el Diseño Universal para el Aprendizaje y refuerza la equidad e inclusión, reconociendo al alumnado con altas capacidades como ACNEAE.",
+      "<em>Real Decreto 984/2021, de 16 de noviembre</em>, por el que se regulan la evaluación y la promoción en la educación primaria, así como la evaluación, la promoción y la titulación en la ESO, el bachillerato y la formación profesional.",
+      "<em>Real Decreto 126/2014, de 28 de febrero</em>, por el que se establece el currículo básico de la Educación Primaria, desarrollado por los decretos autonómicos; la educación es competencia compartida con las comunidades autónomas.",
+      "<em>Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales</em> (LOPDGDD), en aplicación del Reglamento General de Protección de Datos (RGPD).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "La diferenciación pedagógica consiste en ajustar la forma de enseñar, no en rebajar las expectativas. El objetivo de aprendizaje puede ser el mismo para todos; lo que varía es el camino.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -915,10 +929,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Convention de l'ONU relative aux droits des personnes handicapées (CDPH, 2006), ratifiée par la France ; l'article 24 établit l'éducation inclusive comme un droit.",
-        "Loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées, texte fondateur de la scolarisation inclusive en France ; crée le droit à la scolarisation en milieu ordinaire et institue la MDPH (Maison Départementale des Personnes Handicapées).",
-        "Loi du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République, renforce l'école inclusive et la lutte contre les inégalités ; crée l'ESPE (devenu INSPE).",
-        "Loi du 26 juillet 2019 pour une école de la confiance, inscrit l'école inclusive dans le code de l'éducation ; généralise les ULIS (Unités Localisées pour l'Inclusion Scolaire) et les PIAL (Pôles Inclusifs d'Accompagnement Localisé) pour la gestion des AESH.",
+        "Convention de l'ONU relative aux droits des personnes handicapées (CDPH, 2006), ratifiée par la France ; l'article 24 établit l'éducation inclusive comme un droit.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Loi du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées, texte fondateur de la scolarisation inclusive en France ; crée le droit à la scolarisation en milieu ordinaire et institue la MDPH (Maison Départementale des Personnes Handicapées).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Loi du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République, renforce l'école inclusive et la lutte contre les inégalités ; crée l'ESPE (devenu INSPE).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Loi du 26 juillet 2019 pour une école de la confiance, inscrit l'école inclusive dans le code de l'éducation ; généralise les ULIS (Unités Localisées pour l'Inclusion Scolaire) et les PIAL (Pôles Inclusifs d'Accompagnement Localisé) pour la gestion des AESH.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Circulaire du 3 mai 2017 relative à l'instruction obligatoire, rappelle que tout enfant a droit à l'instruction, y compris les EANA (élèves allophones nouvellement arrivés).",
       ]},
       { items: [
@@ -930,8 +944,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Consulter le psychologue de l'Éducation nationale (Psy-EN) lorsqu'un élève ne répond pas aux stratégies de classe après une période raisonnable.",
         "Le Plan d'Accompagnement Personnalisé (PAP) peut être mis en place par le chef d'établissement, sur proposition du médecin scolaire, pour les élèves ayant des troubles des apprentissages sans reconnaissance MDPH.",
-        "Le Projet Personnalisé de Scolarisation (PPS) est élaboré par l'équipe pluridisciplinaire de la MDPH pour les élèves reconnus en situation de handicap ; il ouvre droit à la notification d'un AESH.",
-        "La demande de reconnaissance du handicap et des mesures associées est déposée par les familles auprès de la MDPH ; l'école accompagne mais ne décide pas.",
+        "Le Projet Personnalisé de Scolarisation (PPS) est élaboré par l'équipe pluridisciplinaire de la MDPH pour les élèves reconnus en situation de handicap ; il ouvre droit à la notification d'un AESH.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "La demande de reconnaissance du handicap et des mesures associées est déposée par les familles auprès de la MDPH ; l'école accompagne mais ne décide pas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "L'équipe éducative se réunit pour faire le point sur la situation d'un élève et décider d'une orientation vers le Psy-EN, la MDPH ou un autre dispositif.",
       ]},
       { items: [
@@ -949,9 +963,16 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Personnes-ressources clés : Psy-EN (psychologue de l'Éducation nationale), directeur/proviseur, enseignant référent (ASH), coordinateur UPE2A.",
         "Documents clés à connaître : PAP (Plan d'Accompagnement Personnalisé), PPS (Projet Personnalisé de Scolarisation), notification MDPH, compte rendu d'équipe éducative.",
         "Première étape en cas de préoccupation : documenter, en parler avec le Psy-EN, contacter les familles, dans cet ordre.",
-        "Protection des données : toutes les données élèves sont soumises au RGPD et à la loi Informatique et Libertés ; ne pas partager d'informations sensibles hors de l'équipe sans consentement.",
+        "Protection des données : toutes les données élèves sont soumises au RGPD et à la loi Informatique et Libertés ; ne pas partager d'informations sensibles hors de l'équipe sans consentement.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Convention relative aux droits des personnes handicapées</em> (ONU, 2006), ratifiée par la France ; son article 24 consacre le droit à une éducation inclusive.",
+      "<em>Loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées</em> ; texte fondateur de la scolarisation inclusive, elle institue les MDPH et le droit à la scolarisation en milieu ordinaire assortie d'un projet personnalisé de scolarisation.",
+      "<em>Loi n° 2013-595 du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République</em> ; elle renforce l'école inclusive et crée les ESPE (devenues INSPE).",
+      "<em>Loi n° 2019-791 du 26 juillet 2019 pour une école de la confiance</em> ; elle inscrit l'école inclusive dans le code de l'éducation et accompagne le déploiement des ULIS, des PIAL et des AESH.",
+      "<em>Règlement général sur la protection des données</em> (RGPD) et <em>loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés</em> (loi Informatique et Libertés).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "La différenciation pédagogique consiste à ajuster la manière d'enseigner, et non à revoir les attentes à la baisse. L'objectif d'apprentissage peut être le même pour tous ; c'est le chemin qui varie.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -1249,11 +1270,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Convenzione ONU sui diritti delle persone con disabilità (CRPD, 2006), ratificata dall'Italia con la Legge 18/2009; l'articolo 24 sancisce l'istruzione inclusiva come diritto.",
-        "Legge 104/1992 (Legge-quadro per l'assistenza, l'integrazione sociale e i diritti delle persone handicappate), testo fondamentale dell'inclusione scolastica italiana; prevede il Piano Educativo Individualizzato (PEI) e il sostegno didattico per gli alunni con disabilità certificata.",
-        "Legge 170/2010 (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico), riconosce ufficialmente dislessia, disgrafia, disortografia e discalculia (DSA); obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP) per questi alunni.",
-        "D.Lgs. 66/2017 e successive modifiche (D.Lgs. 96/2019), riformano l'inclusione scolastica degli alunni con disabilità; introducono il Profilo di Funzionamento (in sostituzione della diagnosi funzionale) e ridefiniscono il PEI secondo un approccio bio-psico-sociale (ICF).",
-        "Direttiva MIUR del 27 dicembre 2012 e Circolare 8/2013, ampliano le tutele ai Bisogni Educativi Speciali (BES), includendo difficoltà socio-economiche, linguistiche e culturali; ogni scuola elabora un Piano Annuale per l'Inclusione (PAI) e un Piano di Inclusione.",
+        "Convenzione ONU sui diritti delle persone con disabilità (CRPD, 2006), ratificata dall'Italia con la Legge 18/2009; l'articolo 24 sancisce l'istruzione inclusiva come diritto.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Legge 104/1992 (Legge-quadro per l'assistenza, l'integrazione sociale e i diritti delle persone handicappate), testo fondamentale dell'inclusione scolastica italiana; prevede il Piano Educativo Individualizzato (PEI) e il sostegno didattico per gli alunni con disabilità certificata.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Legge 170/2010 (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico), riconosce ufficialmente dislessia, disgrafia, disortografia e discalculia (DSA); obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP) per questi alunni.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "D.Lgs. 66/2017 e successive modifiche (D.Lgs. 96/2019), riformano l'inclusione scolastica degli alunni con disabilità; introducono il Profilo di Funzionamento (in sostituzione della diagnosi funzionale) e ridefiniscono il PEI secondo un approccio bio-psico-sociale (ICF).<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Direttiva MIUR del 27 dicembre 2012 e Circolare 8/2013, ampliano le tutele ai Bisogni Educativi Speciali (BES), includendo difficoltà socio-economiche, linguistiche e culturali; ogni scuola elabora un Piano Annuale per l'Inclusione (PAI) e un Piano di Inclusione.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
         "Applicare i principi della Progettazione Universale per l'Apprendimento (UDL): offrire molteplici modalità di rappresentazione, azione ed espressione per tutti gli alunni.",
@@ -1262,14 +1283,14 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Annotare le osservazioni informali su qualsiasi alunno che possa avere bisogni non soddisfatti, è il punto di partenza per qualsiasi percorso di segnalazione.",
       ]},
       { items: [
-        "Consultare il referente BES o il coordinatore del GLI (Gruppo di Lavoro per l'Inclusione) quando un alunno non risponde alle strategie di classe dopo un periodo ragionevole.",
-        "Il Consiglio di Classe può elaborare un PDP per alunni con DSA (su segnalazione della famiglia con diagnosi di uno specialista) o per altri BES (con delibera motivata anche in assenza di diagnosi).",
-        "Per gli alunni con disabilità certificata (Legge 104), la certificazione è rilasciata dall'unità di valutazione multidisciplinare dell'ASL; il PEI è redatto collegialmente da insegnanti, insegnante di sostegno, famiglia e figure sanitarie.",
-        "Il GLO (Gruppo di Lavoro Operativo per l'inclusione) si riunisce almeno una volta l'anno per verificare e aggiornare il PEI; la partecipazione delle famiglie è prevista per legge.",
+        "Consultare il referente BES o il coordinatore del GLI (Gruppo di Lavoro per l'Inclusione) quando un alunno non risponde alle strategie di classe dopo un periodo ragionevole.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Il Consiglio di Classe può elaborare un PDP per alunni con DSA (su segnalazione della famiglia con diagnosi di uno specialista) o per altri BES (con delibera motivata anche in assenza di diagnosi).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Per gli alunni con disabilità certificata (Legge 104), la certificazione è rilasciata dall'unità di valutazione multidisciplinare dell'ASL; il PEI è redatto collegialmente da insegnanti, insegnante di sostegno, famiglia e figure sanitarie.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Il GLO (Gruppo di Lavoro Operativo per l'inclusione) si riunisce almeno una volta l'anno per verificare e aggiornare il PEI; la partecipazione delle famiglie è prevista per legge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Per situazioni complesse o per il passaggio di grado, è possibile richiedere la consulenza del CTS (Centro Territoriale di Supporto) o dello sportello di consulenza dell'USR (Ufficio Scolastico Regionale).",
       ]},
       { items: [
-        "Non esiste in Italia una legge specifica per gli alunni plusdotati o ad alto potenziale; tuttavia, la Direttiva BES del 2012 consente di attivare un PDP per questi alunni se si riscontrano difficoltà scolastiche significative.",
+        "Non esiste in Italia una legge specifica per gli alunni plusdotati o ad alto potenziale; tuttavia, la Direttiva BES del 2012 consente di attivare un PDP per questi alunni se si riscontrano difficoltà scolastiche significative.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
         "Il MIUR ha avviato progetti pilota per l'identificazione e il supporto degli alunni con alto potenziale cognitivo (APC); alcune regioni hanno linee guida specifiche.",
         "I docenti sono incoraggiati a documentare le evidenze di capacità avanzate e a proporre attività di arricchimento e approfondimento; l'anticipo scolastico è possibile su richiesta motivata delle famiglie.",
       ]},
@@ -1283,9 +1304,17 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Figure di riferimento chiave: insegnante di sostegno, referente BES/DSA, coordinatore del GLI, dirigente scolastico, psicologo scolastico (ove presente).",
         "Documenti chiave da conoscere: PEI (Piano Educativo Individualizzato), PDP (Piano Didattico Personalizzato), PAI (Piano Annuale per l'Inclusione), Protocollo di Accoglienza.",
         "Primo passo in caso di preoccupazione per un alunno: documentare, confrontarsi con il referente BES, contattare le famiglie, in quest'ordine.",
-        "Tutela dei dati: tutti i dati degli alunni sono soggetti al GDPR e al D.Lgs. 196/2003 (Codice della privacy) come modificato dal D.Lgs. 101/2018; non condividere informazioni sensibili fuori dal team senza consenso.",
+        "Tutela dei dati: tutti i dati degli alunni sono soggetti al GDPR e al D.Lgs. 196/2003 (Codice della privacy) come modificato dal D.Lgs. 101/2018; non condividere informazioni sensibili fuori dal team senza consenso.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Convenzione ONU sui diritti delle persone con disabilità</em> (CRPD, 2006), ratificata dall'Italia con la <em>Legge 3 marzo 2009, n. 18</em>; l'articolo 24 sancisce il diritto all'istruzione inclusiva.",
+      "<em>Legge 5 febbraio 1992, n. 104</em> (Legge-quadro per l'assistenza, l'integrazione sociale e i diritti delle persone handicappate); testo fondamentale dell'inclusione scolastica, prevede il Piano Educativo Individualizzato (PEI) e il sostegno didattico per gli alunni con disabilità certificata.",
+      "<em>Legge 8 ottobre 2010, n. 170</em> (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico); riconosce dislessia, disgrafia, disortografia e discalculia (DSA) e obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP).",
+      "<em>Decreto Legislativo 13 aprile 2017, n. 66</em>, e successive modifiche (<em>Decreto Legislativo 7 agosto 2019, n. 96</em>); riformano l'inclusione scolastica, introducono il Profilo di Funzionamento secondo il modello ICF e ridefiniscono il PEI e il GLO.",
+      "<em>Direttiva ministeriale del 27 dicembre 2012</em> (Strumenti d'intervento per alunni con bisogni educativi speciali) e relativa <em>Circolare ministeriale n. 8 del 6 marzo 2013</em>; estendono le tutele all'area dei Bisogni Educativi Speciali (BES) e prevedono il Piano Annuale per l'Inclusione (PAI).",
+      "<em>Regolamento generale sulla protezione dei dati</em> (GDPR) e <em>Decreto Legislativo 30 giugno 2003, n. 196</em> (Codice in materia di protezione dei dati personali), come modificato dal <em>Decreto Legislativo 10 agosto 2018, n. 101</em>.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "La differenziazione didattica consiste nell'adattare il modo di insegnare, non nell'abbassare le aspettative. L'obiettivo di apprendimento può essere lo stesso per tutti; ciò che cambia è il percorso.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -1581,57 +1610,50 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Mindestens ein in der Sitzung erstelltes Material wird als gemeinsame Ressource der Fachschaft übernommen.",
       ]},
     ]},
-    legislacao: {
-      sections: [
-        {
-          items: [
-            "Kerngesetze: UN-BRK (UN-Behindertenrechtskonvention, ratifiziert 2009), KMK-Empfehlungen zur inklusiven Bildung (2011/2020), jedes Bundesland hat ein eigenes Schulgesetz (z. B. SchulG NRW §20, BayEUG Art. 41).",
-            "Die Schulgesetze der Länder regeln die konkrete Umsetzung inklusiver Bildung, der Handlungsspielraum variiert je nach Bundesland.",
-            "Inklusive Bildung ist ein Rechtsanspruch, der sich aus der UN-BRK ergibt; die Ausgestaltung liegt bei den Bundesländern."
-          ]
-        },
-        {
-          items: [
-            "Nachteilsausgleich: zeitliche, räumliche oder materielle Kompensationsmaßnahmen, die alle Lehrkräfte ohne formale Diagnose anwenden können.",
-            "Differenzierter Unterricht und Lehrplan-Flexibilität sind Bestandteil des regulären Unterrichts.",
-            "Förderplan: kann auf Grundlage pädagogischer Beobachtung ohne AO-SF-Verfahren erstellt werden."
-          ]
-        },
-        {
-          items: [
-            "Förderbedarf-Feststellung durch das AO-SF-Verfahren (Ausbildungsordnung sonderpädagogische Förderung), durchgeführt vom schulpsychologischen Dienst oder der Sonderpädagogin/dem Sonderpädagogen.",
-            "Förderplan als Grundlage individueller sonderpädagogischer Unterstützung.",
-            "Möglichkeit der Beschulung in der Regelschule mit sonderpädagogischer Unterstützung oder in der Förderschule, Eltern haben ein Wunsch- und Wahlrecht.",
-            "Der schulpsychologische Dienst (Schulpsychologin/Schulpsychologe) begleitet den Prozess und berät Eltern und Lehrkräfte."
-          ]
-        },
-        {
-          items: [
-            "Keine einheitliche Bundesregelung für Hochbegabung, jedes Bundesland regelt dies eigenständig.",
-            "DGhK (Deutsche Gesellschaft für das hochbegabte Kind) und Karg-Stiftung bieten Beratung und Ressourcen.",
-            "Überspringen von Klassen ist nach den meisten Schulgesetzen möglich.",
-            "Enrichment-Programme und begabungsfördernde Schulen (z. B. Begabtenförderung der Bundesländer) als ergänzende Maßnahmen."
-          ]
-        },
-        {
-          items: [
-            "DaZ (Deutsch als Zweitsprache): Vorbereitungsklassen (Willkommensklassen) für Schülerinnen und Schüler ohne Deutschkenntnisse.",
-            "Sprachstandstest zur Einschätzung des Niveaus und zur Zuweisung zu Sprachfördermaßnahmen.",
-            "Eine Sprachbarriere allein begründet keinen sonderpädagogischen Förderbedarf.",
-            "DaZ-Lehrkräfte sind für die sprachliche Unterstützung zuständig."
-          ]
-        },
-        {
-          items: [
-            "UN-BRK (ratifiziert 2009)",
-            "KMK-Empfehlungen zur inklusiven Bildung 2011 und 2020",
-            "Schulgesetze der Länder (§§ zu Inklusion, z. B. SchulG NRW §20, BayEUG Art. 41)",
-            "AO-SF (Ausbildungsordnung sonderpädagogische Förderung)",
-            "Förderplan, schulpsychologischer Dienst"
-          ]
-        }
-      ]
-    },
+    legislacao: { sections: [
+      { items: [
+        "Kerngesetze: UN-BRK (UN-Behindertenrechtskonvention, ratifiziert 2009), KMK-Empfehlungen zur inklusiven Bildung (2011/2020), jedes Bundesland hat ein eigenes Schulgesetz (z. B. SchulG NRW §20, BayEUG Art. 41).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Die Schulgesetze der Länder regeln die konkrete Umsetzung inklusiver Bildung, der Handlungsspielraum variiert je nach Bundesland.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Inklusive Bildung ist ein Rechtsanspruch, der sich aus der UN-BRK ergibt; die Ausgestaltung liegt bei den Bundesländern.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Nachteilsausgleich: zeitliche, räumliche oder materielle Kompensationsmaßnahmen, die alle Lehrkräfte ohne formale Diagnose anwenden können.",
+        "Differenzierter Unterricht und Lehrplan-Flexibilität sind Bestandteil des regulären Unterrichts.",
+        "Förderplan: kann auf Grundlage pädagogischer Beobachtung ohne AO-SF-Verfahren erstellt werden.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Förderbedarf-Feststellung durch das AO-SF-Verfahren (Ausbildungsordnung sonderpädagogische Förderung), durchgeführt vom schulpsychologischen Dienst oder der Sonderpädagogin/dem Sonderpädagogen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Förderplan als Grundlage individueller sonderpädagogischer Unterstützung.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Möglichkeit der Beschulung in der Regelschule mit sonderpädagogischer Unterstützung oder in der Förderschule, Eltern haben ein Wunsch- und Wahlrecht.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Der schulpsychologische Dienst (Schulpsychologin/Schulpsychologe) begleitet den Prozess und berät Eltern und Lehrkräfte.",
+      ]},
+      { items: [
+        "Keine einheitliche Bundesregelung für Hochbegabung, jedes Bundesland regelt dies eigenständig.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "DGhK (Deutsche Gesellschaft für das hochbegabte Kind) und Karg-Stiftung bieten Beratung und Ressourcen.",
+        "Überspringen von Klassen ist nach den meisten Schulgesetzen möglich.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Enrichment-Programme und begabungsfördernde Schulen (z. B. Begabtenförderung der Bundesländer) als ergänzende Maßnahmen.",
+      ]},
+      { items: [
+        "DaZ (Deutsch als Zweitsprache): Vorbereitungsklassen (Willkommensklassen) für Schülerinnen und Schüler ohne Deutschkenntnisse.",
+        "Sprachstandstest zur Einschätzung des Niveaus und zur Zuweisung zu Sprachfördermaßnahmen.",
+        "Eine Sprachbarriere allein begründet keinen sonderpädagogischen Förderbedarf.",
+        "DaZ-Lehrkräfte sind für die sprachliche Unterstützung zuständig.",
+      ]},
+      { items: [
+        "UN-BRK (ratifiziert 2009)<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "KMK-Empfehlungen zur inklusiven Bildung 2011 und 2020<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Schulgesetze der Länder (§§ zu Inklusion, z. B. SchulG NRW §20, BayEUG Art. 41)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "AO-SF (Ausbildungsordnung sonderpädagogische Förderung)<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Förderplan, schulpsychologischer Dienst; Datenschutz nach DSGVO und BDSG<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+    ],
+    references: [
+      "<em>Übereinkommen über die Rechte von Menschen mit Behinderungen</em> (UN-Behindertenrechtskonvention, UN-BRK, 2006), von Deutschland ratifiziert am 24. Februar 2009, in Kraft getreten am 26. März 2009 (BGBl. 2008 II S. 1419); Artikel 24 verbürgt das Recht auf inklusive Bildung.",
+      "<em>Empfehlungen der Kultusministerkonferenz (KMK) zur inklusiven Bildung von Kindern und Jugendlichen mit Behinderungen in Schulen</em> (Beschluss vom 20. Oktober 2011) sowie die nachfolgenden KMK-Empfehlungen (2020); konkretisieren die Umsetzung der UN-BRK im Schulwesen.",
+      "<em>Schulgesetze der Länder</em>, die die schulische Inklusion eigenständig regeln, u. a. das <em>Schulgesetz für das Land Nordrhein-Westfalen (SchulG NRW)</em>, § 20 (Förderorte), und das <em>Bayerische Gesetz über das Erziehungs- und Unterrichtswesen (BayEUG)</em>, Art. 41; Bildung ist Ländersache.",
+      "<em>Verordnung über die sonderpädagogische Förderung, den Hausunterricht und die Schule für Kranke (AO-SF)</em> in der jeweiligen Landesfassung (z. B. NRW); regelt das Verfahren zur Feststellung des sonderpädagogischen Unterstützungsbedarfs.",
+      "<em>Datenschutz-Grundverordnung</em> (DSGVO, Verordnung (EU) 2016/679) und <em>Bundesdatenschutzgesetz</em> (BDSG vom 30. Juni 2017, in Kraft seit 25. Mai 2018) sowie die Landesdatenschutzgesetze; maßgeblich für den Umgang mit Schülerdaten.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pädagogische Differenzierung bedeutet, die Art und Weise des Unterrichtens anzupassen — nicht, die Erwartungen zu senken. Das Lernziel kann für alle dasselbe sein; was variiert, ist der Weg dorthin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -1926,57 +1948,49 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Minstens één materiaal dat tijdens de sessie is gemaakt, wordt overgenomen als gedeelde bron van de vakgroep.",
       ]},
     ]},
-    legislacao: {
-      sections: [
-        {
-          items: [
-            "Kernwet: Wet passend onderwijs (2014), elke school is verplicht een passend onderwijsaanbod te doen voor elke leerling.",
-            "Samenwerkingsverbanden passend onderwijs coördineren de extra ondersteuning in de regio.",
-            "Zorgplicht: scholen zijn wettelijk verplicht een passende plek te vinden voor elke leerling, ook bij complexe ondersteuningsbehoeften."
-          ]
-        },
-        {
-          items: [
-            "Basisondersteuning: elke school biedt een basisniveau van ondersteuning zonder formele indicatie.",
-            "Differentiëren en groepsplan aanpassen zijn onderdeel van goed regulier onderwijs.",
-            "Geen formele indicatie nodig voor pedagogische differentiatie en aanpassingen in de klas."
-          ]
-        },
-        {
-          items: [
-            "Extra ondersteuning via het samenwerkingsverband: arrangement aanvragen bij de ondersteuningscoördinator.",
-            "Ontwikkelingsperspectief (OPP): verplicht bij leerlingen die de referentieniveaus niet zullen halen; opgesteld met ouders/verzorgers.",
-            "Toelaatbaarheidsverklaring (TLV): nodig voor plaatsing in het speciaal basisonderwijs (SBO) of speciaal onderwijs (SO).",
-            "De schoolpsycholoog of zorgcoördinator begeleidt het doorverwijzingsproces."
-          ]
-        },
-        {
-          items: [
-            "Geen aparte wet voor hoogbegaafdheid in Nederland.",
-            "Leonardo-scholen en plusklassen bieden verdieping en verrijking voor hoogbegaafde leerlingen.",
-            "SLO-richtlijnen en het Nationaal Expertisecentrum Onderwijs (NEO) bieden handvatten voor begaafdheidsondersteuning.",
-            "Compacten en verrijken zijn de gangbare aanpak; dubbelspringen is mogelijk met toestemming."
-          ]
-        },
-        {
-          items: [
-            "NT2 (Nederlands als Tweede Taal): Internationale Schakelklas (ISK) voor leerlingen van 12+ zonder Nederlands.",
-            "Schakelklas in het basisonderwijs voor intensieve taalverwerving.",
-            "Taaltoets bij aankomst voor plaatsing; DUO-registratie als nieuwkomer.",
-            "NT2-docent verantwoordelijk voor taalondersteuning; school heeft zorgplicht ook voor nieuwkomers."
-          ]
-        },
-        {
-          items: [
-            "Wet passend onderwijs 2014",
-            "Samenwerkingsverbanden passend onderwijs",
-            "Ontwikkelingsperspectief (OPP)",
-            "Zorgplicht school",
-            "Toelaatbaarheidsverklaring (TLV) voor SBO/SO-plaatsing"
-          ]
-        }
-      ]
-    },
+    legislacao: { sections: [
+      { items: [
+        "Kernwet: Wet passend onderwijs (2014), elke school is verplicht een passend onderwijsaanbod te doen voor elke leerling.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Samenwerkingsverbanden passend onderwijs coördineren de extra ondersteuning in de regio.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zorgplicht: scholen zijn wettelijk verplicht een passende plek te vinden voor elke leerling, ook bij complexe ondersteuningsbehoeften.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Basisondersteuning: elke school biedt een basisniveau van ondersteuning zonder formele indicatie.",
+        "Differentiëren en groepsplan aanpassen zijn onderdeel van goed regulier onderwijs.",
+        "Geen formele indicatie nodig voor pedagogische differentiatie en aanpassingen in de klas.",
+      ]},
+      { items: [
+        "Extra ondersteuning via het samenwerkingsverband: arrangement aanvragen bij de ondersteuningscoördinator.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ontwikkelingsperspectief (OPP): verplicht bij leerlingen die de referentieniveaus niet zullen halen; opgesteld met ouders/verzorgers.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Toelaatbaarheidsverklaring (TLV): nodig voor plaatsing in het speciaal basisonderwijs (SBO) of speciaal onderwijs (SO).<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "De schoolpsycholoog of zorgcoördinator begeleidt het doorverwijzingsproces.",
+      ]},
+      { items: [
+        "Geen aparte wet voor hoogbegaafdheid in Nederland.",
+        "Leonardo-scholen en plusklassen bieden verdieping en verrijking voor hoogbegaafde leerlingen.",
+        "SLO-richtlijnen en het Nationaal Expertisecentrum Onderwijs (NEO) bieden handvatten voor begaafdheidsondersteuning.",
+        "Compacten en verrijken zijn de gangbare aanpak; dubbelspringen is mogelijk met toestemming.",
+      ]},
+      { items: [
+        "NT2 (Nederlands als Tweede Taal): Internationale Schakelklas (ISK) voor leerlingen van 12+ zonder Nederlands.",
+        "Schakelklas in het basisonderwijs voor intensieve taalverwerving.",
+        "Taaltoets bij aankomst voor plaatsing; DUO-registratie als nieuwkomer.",
+        "NT2-docent verantwoordelijk voor taalondersteuning; school heeft zorgplicht ook voor nieuwkomers.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Wet passend onderwijs 2014<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Samenwerkingsverbanden passend onderwijs<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ontwikkelingsperspectief (OPP)<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zorgplicht school<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Toelaatbaarheidsverklaring (TLV) voor SBO/SO-plaatsing; gegevensbescherming volgens AVG en UAVG<sup class=\"cite\"><a href=\"#ref-3\">3</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+    ],
+    references: [
+      "<em>Verdrag inzake de rechten van personen met een handicap</em> (VN-verdrag handicap / UNCRPD, 2006), door Nederland geratificeerd in 2016; artikel 24 erkent het recht op inclusief onderwijs.",
+      "<em>Wet passend onderwijs</em> (Wet van 11 oktober 2012 tot wijziging van enkele onderwijswetten in verband met een herziening van de organisatie en financiering van de ondersteuning van leerlingen, in werking getreden op 1 augustus 2014); verankert de zorgplicht, de samenwerkingsverbanden en het ontwikkelingsperspectief (OPP).",
+      "<em>Wet op het primair onderwijs (WPO)</em> en <em>Wet op de expertisecentra (WEC)</em>; regelen onder meer het speciaal basisonderwijs (SBO), het speciaal onderwijs (SO) en de toelaatbaarheidsverklaring (TLV).",
+      "<em>Algemene verordening gegevensbescherming</em> (AVG / Verordening (EU) 2016/679) en de <em>Uitvoeringswet AVG (UAVG)</em> (van kracht sinds 25 mei 2018); van toepassing op alle persoonsgegevens van leerlingen.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagogische differentiatie betekent dat je aanpast hoe je lesgeeft — niet dat je de verwachtingen verlaagt. Het leerdoel kan voor iedereen hetzelfde zijn; het is de weg ernaartoe die verschilt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -2271,57 +2285,49 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Co najmniej jeden materiał stworzony podczas sesji zostaje przyjęty jako wspólny zasób wydziału.",
       ]},
     ]},
-    legislacao: {
-      sections: [
-        {
-          items: [
-            "Podstawa prawna: Ustawa Prawo Oświatowe z 2016 r. (Dz.U. 2016 poz. 59) oraz Rozporządzenie MEN w sprawie warunków organizowania kształcenia specjalnego (2017).",
-            "Orzeczenie o potrzebie kształcenia specjalnego wydaje poradnia psychologiczno-pedagogiczna (PPP), jest niezbędne do sformalizowanego wsparcia specjalnego.",
-            "Konstytucja RP i ratyfikowana Konwencja ONZ o prawach osób z niepełnosprawnościami stanowią ramy prawa do edukacji włączającej."
-          ]
-        },
-        {
-          items: [
-            "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia, odpowiedzialność każdego nauczyciela.",
-            "Metody aktywizujące i zróżnicowane podejście dydaktyczne są elementem dobrego nauczania.",
-            "Wsparcie nauczyciela wspomagającego dostępne bez orzeczenia, na podstawie opinii PPP."
-          ]
-        },
-        {
-          items: [
-            "Poradnia psychologiczno-pedagogiczna (PPP): wydaje opinie i orzeczenia, prowadzi diagnozy.",
-            "Orzeczenie o kształceniu specjalnym: podstawa do opracowania IPET (Indywidualnego Programu Edukacyjno-Terapeutycznego).",
-            "IPET opracowywany przez zespół nauczycieli i specjalistów we współpracy z rodzicami/opiekunami.",
-            "Wielospecjalistyczna ocena poziomu funkcjonowania ucznia przeprowadzana co najmniej dwa razy w roku."
-          ]
-        },
-        {
-          items: [
-            "Brak szczegółowej ustawy regulującej kształcenie uczniów zdolnych, zagadnienie ujęte w Krajowym Programie Wspierania Uczniów Zdolnych MEN.",
-            "Klasy autorskie i indywidualny tok nauki dostępne dla uczniów wybitnie zdolnych.",
-            "Olimpiady przedmiotowe jako forma stymulacji i uznania zdolności uczniów.",
-            "Możliwość wcześniejszego ukończenia szkoły lub przyspieszenia nauki za zgodą dyrektora i rodziców/opiekunów."
-          ]
-        },
-        {
-          items: [
-            "Uczniowie cudzoziemcy nieznający języka polskiego: klasy przygotowawcze zgodnie z rozporządzeniem MEN 2017.",
-            "Dodatkowe zajęcia z języka polskiego jako obcego organizowane przez szkołę.",
-            "Wsparcie asystenta kulturowego dla uczniów z trudnościami adaptacyjnymi.",
-            "Bariera językowa nie uzasadnia sama w sobie orzeczenia o kształceniu specjalnym."
-          ]
-        },
-        {
-          items: [
-            "Ustawa Prawo Oświatowe 2016 (Dz.U. 2016 poz. 59)",
-            "Rozporządzenie MEN o kształceniu specjalnym 2017",
-            "Poradnia psychologiczno-pedagogiczna (PPP)",
-            "IPET (Indywidualny Program Edukacyjno-Terapeutyczny)",
-            "Opinia PPP, orzeczenie o potrzebie kształcenia specjalnego"
-          ]
-        }
-      ]
-    },
+    legislacao: { sections: [
+      { items: [
+        "Podstawa prawna: <strong>Ustawa Prawo oświatowe z 14 grudnia 2016 r.</strong> (Dz.U. 2017 poz. 59) oraz Rozporządzenie MEN w sprawie warunków organizowania kształcenia specjalnego (2017).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup><sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Orzeczenie o potrzebie kształcenia specjalnego wydaje poradnia psychologiczno-pedagogiczna (PPP), jest niezbędne do sformalizowanego wsparcia specjalnego.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Konstytucja RP i ratyfikowana Konwencja ONZ o prawach osób z niepełnosprawnościami stanowią ramy prawa do edukacji włączającej.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia, odpowiedzialność każdego nauczyciela.",
+        "Metody aktywizujące i zróżnicowane podejście dydaktyczne są elementem dobrego nauczania.",
+        "Wsparcie nauczyciela wspomagającego dostępne bez orzeczenia, na podstawie opinii PPP.",
+      ]},
+      { items: [
+        "Poradnia psychologiczno-pedagogiczna (PPP): wydaje opinie i orzeczenia, prowadzi diagnozy.",
+        "Orzeczenie o kształceniu specjalnym: podstawa do opracowania IPET (Indywidualnego Programu Edukacyjno-Terapeutycznego).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "IPET opracowywany przez zespół nauczycieli i specjalistów we współpracy z rodzicami/opiekunami.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Wielospecjalistyczna ocena poziomu funkcjonowania ucznia przeprowadzana co najmniej dwa razy w roku.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Brak szczegółowej ustawy regulującej kształcenie uczniów zdolnych, zagadnienie ujęte w Krajowym Programie Wspierania Uczniów Zdolnych MEN.",
+        "Klasy autorskie i indywidualny tok nauki dostępne dla uczniów wybitnie zdolnych.",
+        "Olimpiady przedmiotowe jako forma stymulacji i uznania zdolności uczniów.",
+        "Możliwość wcześniejszego ukończenia szkoły lub przyspieszenia nauki za zgodą dyrektora i rodziców/opiekunów.",
+      ]},
+      { items: [
+        "Uczniowie cudzoziemcy nieznający języka polskiego: klasy przygotowawcze zgodnie z rozporządzeniem MEN 2017.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Dodatkowe zajęcia z języka polskiego jako obcego organizowane przez szkołę.",
+        "Wsparcie asystenta kulturowego dla uczniów z trudnościami adaptacyjnymi.",
+        "Bariera językowa nie uzasadnia sama w sobie orzeczenia o kształceniu specjalnym.",
+      ]},
+      { items: [
+        "Ustawa Prawo oświatowe 2016 (Dz.U. 2017 poz. 59)<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Rozporządzenie MEN o kształceniu specjalnym 2017<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Poradnia psychologiczno-pedagogiczna (PPP)",
+        "IPET (Indywidualny Program Edukacyjno-Terapeutyczny)",
+        "Ochrona danych: dane uczniów podlegają RODO i Ustawie o ochronie danych osobowych z 2018 r.; nie udostępniać informacji wrażliwych poza zespołem bez zgody.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+    ],
+    references: [
+      "<em>Konwencja ONZ o prawach osób niepełnosprawnych</em> (2006), ratyfikowana przez Polskę (Dz.U. 2012 poz. 1169); art. 24 gwarantuje prawo do edukacji włączającej.",
+      "<em>Ustawa z dnia 14 grudnia 2016 r. – Prawo oświatowe</em> (Dz.U. 2017 poz. 59, z późn. zm.); podstawowy akt regulujący system oświaty i kształcenie uczniów ze specjalnymi potrzebami edukacyjnymi.",
+      "<em>Rozporządzenie Ministra Edukacji Narodowej z dnia 9 sierpnia 2017 r. w sprawie warunków organizowania kształcenia, wychowania i opieki dla dzieci i młodzieży niepełnosprawnych, niedostosowanych społecznie i zagrożonych niedostosowaniem społecznym</em> (Dz.U. 2017 poz. 1578); określa zasady kształcenia specjalnego oraz opracowywania IPET.",
+      "<em>Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych</em> (Dz.U. 2018 poz. 1000), w związku ze stosowaniem ogólnego rozporządzenia o ochronie danych (RODO).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Różnicowanie pedagogiczne to dostosowywanie sposobu nauczania — a nie obniżanie oczekiwań. Cel uczenia się może być taki sam dla wszystkich; to droga do niego jest różna.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -2616,57 +2622,51 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Cel puțin un material produs în cadrul sesiunii este adoptat ca resursă comună a departamentului.",
       ]},
     ]},
-    legislacao: {
-      sections: [
-        {
-          items: [
-            "Baza legală principală: Legea Educației Naționale nr. 1/2011 (cu modificările ulterioare) și Ordinul MEC nr. 5.574/2011 privind metodologia pentru protecția copiilor cu cerințe educaționale speciale (CES).",
-            "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului completează cadrul de drepturi educaționale.",
-            "România a ratificat Convenția ONU privind drepturile persoanelor cu dizabilități, care stă la baza politicilor de educație incluzivă."
-          ]
-        },
-        {
-          items: [
-            "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice, fără documentație specială.",
-            "Măsurile compensatorii pot fi aplicate de profesor pe baza observației pedagogice.",
-            "Cadrul didactic de sprijin poate fi solicitat fără certificat de orientare școlară, prin recomandarea CJRAE."
-          ]
-        },
-        {
-          items: [
-            "CJRAE (Centrul Județean de Resurse și Asistență Educațională): realizează evaluarea complexă și coordonează sprijinul educațional.",
-            "Certificatul de orientare școlară și profesională: emis de CJRAE, stă la baza încadrării în educație incluzivă sau specială.",
-            "Plan de Servicii Individualizat (PSI): document de planificare pentru elevii cu CES, elaborat cu familia.",
-            "Programul de Intervenție Personalizat (PIP): instrument de intervenție concretă în clasă, elaborat de echipa didactică."
-          ]
-        },
-        {
-          items: [
-            "Legea nr. 17/2007 privind educația tinerilor supraperformanți reglementează sprijinul pentru elevii supradotați.",
-            "Centrele de Excelență oferă programe de accelerare sau îmbogățire curriculară.",
-            "Programele de accelerare (trecerea mai rapidă prin ani de studiu) și îmbogățire (aprofundare, extindere) sunt prevăzute legal.",
-            "Identificarea supradotării se realizează prin evaluare psihologică la CJRAE sau cabinete specializate."
-          ]
-        },
-        {
-          items: [
-            "Elevii alofoni beneficiază de suport lingvistic în limba română și pot fi incluși în clase de inițiere.",
-            "CJRAE coordonează protocoalele de primire a elevilor cu altă limbă maternă.",
-            "Mediatorul școlar sprijină comunicarea cu familiile din comunități rome sau imigrante.",
-            "Nu există un regim juridic separat pentru alofoni, sprijinul se acordă prin mecanismele generale de incluziune."
-          ]
-        },
-        {
-          items: [
-            "Legea Educației Naționale nr. 1/2011",
-            "Ordinul MEC nr. 5.574/2011",
-            "CJRAE (Centrul Județean de Resurse și Asistență Educațională)",
-            "PSI (Plan de Servicii Individualizat) și PIP (Program de Intervenție Personalizat)",
-            "Certificat de orientare școlară și profesională"
-          ]
-        }
-      ]
-    },
+    legislacao: { sections: [
+      { items: [
+        "Baza legală principală: Legea învățământului preuniversitar nr. 198/2023 (care a abrogat Legea Educației Naționale nr. 1/2011) și Ordinul comun nr. 1985/1305/5805/2016 privind metodologia de orientare școlară și profesională a copiilor cu cerințe educaționale speciale (CES).<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului completează cadrul de drepturi educaționale.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "România a ratificat, prin Legea nr. 221/2010, Convenția ONU privind drepturile persoanelor cu dizabilități, care stă la baza politicilor de educație incluzivă.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice, fără documentație specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Măsurile compensatorii pot fi aplicate de profesor pe baza observației pedagogice.",
+        "Cadrul didactic de sprijin poate fi solicitat fără certificat de orientare școlară, prin recomandarea CJRAE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "CJRAE (Centrul Județean de Resurse și Asistență Educațională): realizează evaluarea complexă și coordonează sprijinul educațional.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Certificatul de orientare școlară și profesională: emis de CJRAE (prin COSP), stă la baza încadrării în educație incluzivă sau specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Plan de Servicii Individualizat (PSI): document de planificare pentru elevii cu CES, elaborat cu familia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Programul de Intervenție Personalizat (PIP): instrument de intervenție concretă în clasă, elaborat de echipa didactică.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Legea nr. 17/2007 privind educația tinerilor supradotați, capabili de performanță înaltă, reglementează sprijinul pentru elevii supradotați.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Centrele de Excelență oferă programe de accelerare sau îmbogățire curriculară.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Programele de accelerare (trecerea mai rapidă prin ani de studiu) și îmbogățire (aprofundare, extindere) sunt prevăzute legal.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Identificarea supradotării se realizează prin evaluare psihologică la CJRAE sau cabinete specializate.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Elevii alofoni beneficiază de suport lingvistic în limba română și pot fi incluși în clase de inițiere.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "CJRAE coordonează protocoalele de primire a elevilor cu altă limbă maternă.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Mediatorul școlar sprijină comunicarea cu familiile din comunități rome sau imigrante.",
+        "Nu există un regim juridic separat pentru alofoni, sprijinul se acordă prin mecanismele generale de incluziune.",
+      ]},
+      { items: [
+        "Legea învățământului preuniversitar nr. 198/2023<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ordinul comun nr. 1985/1305/5805/2016 (orientarea școlară și profesională a copiilor cu CES)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "CJRAE (Centrul Județean de Resurse și Asistență Educațională)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "PSI (Plan de Servicii Individualizat) și PIP (Program de Intervenție Personalizat)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Certificat de orientare școlară și profesională<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+    ],
+    references: [
+      "Legea nr. 221/2010 pentru ratificarea Convenției ONU privind drepturile persoanelor cu dizabilități (adoptată la New York la 13 decembrie 2006, semnată de România la 26 septembrie 2007) — consacră dreptul la educație incluzivă (art. 24).",
+      "Legea învățământului preuniversitar nr. 198/2023 (publicată în M. Of. nr. 613 din 5 iulie 2023) — cadrul legal în vigoare al învățământului preuniversitar; reglementează educația elevilor cu cerințe educaționale speciale (CES) și educația specială. A abrogat Legea Educației Naționale nr. 1/2011.",
+      "Ordinul comun nr. 1985/1305/5805/2016 (MMFPSPV, MS, MENCS) privind aprobarea metodologiei pentru evaluarea și intervenția integrată în vederea încadrării copiilor cu dizabilități în grad de handicap, a orientării școlare și profesionale a copiilor cu CES — stabilește rolul CJRAE/COSP, certificatul de orientare școlară și profesională, PSI și PIP.",
+      "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului (republicată) — garantează dreptul copilului la educație și la măsuri de protecție.",
+      "Legea nr. 17/2007 privind educația tinerilor supradotați, capabili de performanță înaltă — reglementează identificarea, formarea diferențiată și programele de accelerare și îmbogățire pentru elevii supradotați.",
+      "Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679 (GDPR) — legea națională de implementare a GDPR; reglementează prelucrarea datelor cu caracter personal, inclusiv ale elevilor.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Diferențierea pedagogică înseamnă ajustarea modului în care se predă, nu coborârea așteptărilor. Obiectivul de învățare poate fi același pentru toți; ceea ce variază este parcursul.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -2966,9 +2966,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Pravilnik o osnovnoškolskom i SŠ odgoju učenika s teškoćama (NN 24/2015), Zakon o odgoju i obrazovanju u OŠ i SŠ (NN 87/2008 i izmjene), ZUOPP (Zakon o odgoju i obrazovanju u osnovnoj školi, inkluzivne odredbe)",
-        "Konvencija UN-a o pravima osoba s invaliditetom (2006.), ratificirala Hrvatska; uspostavlja inkluzivno obrazovanje kao pravo.",
-        "Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi, temelj hrvatskog obrazovnog sustava s obvezom inkluzije.",
+        "Pravilnik o osnovnoškolskom i SŠ odgoju učenika s teškoćama (NN 24/2015), Zakon o odgoju i obrazovanju u OŠ i SŠ (NN 87/2008 i izmjene), ZUOPP (Zakon o odgoju i obrazovanju u osnovnoj školi, inkluzivne odredbe)<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Konvencija UN-a o pravima osoba s invaliditetom (2006.), ratificirala Hrvatska; uspostavlja inkluzivno obrazovanje kao pravo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi, temelj hrvatskog obrazovnog sustava s obvezom inkluzije.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Strategija obrazovanja, znanosti i tehnologije RH, smjernice za inkluzivno obrazovanje i potporu učenicima s posebnim potrebama.",
       ]},
       { items: [
@@ -2979,12 +2979,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Stručna služba škole (pedagog, psiholog, logoped, rehabilitator), prvi kontakt pri prepoznavanju teškoća.",
-        "IOOP (Individualizirani odgojno-obrazovni program), izrađuje se suradnjom nastavnika, stručne službe, roditelja i učenika.",
+        "IOOP (Individualizirani odgojno-obrazovni program), izrađuje se suradnjom nastavnika, stručne službe, roditelja i učenika.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Suradnja s centrom za odgoj i obrazovanje kada su potrebne dublje specijalizirane procjene.",
-        "Upućivanje na vanjsku procjenu kada prilagodbe u školi nisu dostatne.",
+        "Upućivanje na vanjsku procjenu kada prilagodbe u školi nisu dostatne.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Daroviti učenici: Pravilnik o izvođenju nastave za darovite (NN 34/1991 i izmjene), mentorstvo, natjecanja, ubrzano napredovanje.",
+        "Daroviti učenici: Pravilnik o izvođenju nastave za darovite (NN 34/1991 i izmjene), mentorstvo, natjecanja, ubrzano napredovanje.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Nema posebnog zakona za darovite; IOOP odredbe primjenjuju se kad darovitost supostoji s posebnim odgojno-obrazovnim potrebama.",
         "Nastavnici trebaju dokumentirati dokaze naprednih sposobnosti i osigurati izazovne zadatke u planiranju.",
       ]},
@@ -2995,12 +2995,19 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Škole s većim brojem učenika govornika drugih jezika trebaju imati plan interkulturalne podrške.",
       ]},
       { items: [
-        "Brzi vodič: Pravilnik o teškoćama NN 24/2015, Zakon o OOŠ NN 87/2008, IOOP, pedagog/psiholog škole, integracijski program za HJ2.",
+        "Brzi vodič: Pravilnik o teškoćama NN 24/2015, Zakon o OOŠ NN 87/2008, IOOP, pedagog/psiholog škole, integracijski program za HJ2.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Ključni dokumenti: IOOP, pedagoška dokumentacija, školski plan inkluzivnog obrazovanja.",
         "Prvi korak pri zabrinutosti: dokumentirati, razgovarati s pedagogom/psihologom, kontaktirati roditelje, tim redoslijedom.",
-        "Zaštita podataka: svi podaci o potpori učenicima podliježu GDPR-u i Zakonu o zaštiti osobnih podataka.",
+        "Zaštita podataka: svi podaci o potpori učenicima podliježu GDPR-u i Zakonu o zaštiti osobnih podataka.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Konvencija o pravima osoba s invaliditetom</em> (UN, 2006.), koju je Hrvatska potvrdila <em>Zakonom o potvrđivanju Konvencije o pravima osoba s invaliditetom i Fakultativnog protokola</em> (Narodne novine – Međunarodni ugovori, br. 6/2007); članak 24. priznaje pravo na inkluzivno obrazovanje.",
+      "<em>Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi</em> (Narodne novine, br. 87/2008, s kasnijim izmjenama i dopunama); temeljni propis hrvatskog sustava osnovnoškolskog i srednjoškolskog odgoja i obrazovanja koji uređuje inkluzivno obrazovanje i primjereni oblik školovanja učenika s teškoćama.",
+      "<em>Pravilnik o osnovnoškolskom i srednjoškolskom odgoju i obrazovanju učenika s teškoćama u razvoju</em> (Narodne novine, br. 24/2015); utvrđuje vrste teškoća te primjerene programe i oblike pomoći, uključujući individualizirani odgojno-obrazovni program (IOOP).",
+      "<em>Pravilnik o odgoju i obrazovanju darovite djece i učenika</em> (Narodne novine, br. 71/2025), kojim je zamijenjen raniji <em>Pravilnik o osnovnoškolskom odgoju i obrazovanju darovitih učenika</em> (Narodne novine, br. 34/1991); uređuje prepoznavanje, identifikaciju i podršku darovitim učenicima.",
+      "<em>Zakon o provedbi Opće uredbe o zaštiti podataka</em> (Narodne novine, br. 42/2018), u primjeni Opće uredbe (EU) 2016/679 (GDPR); uređuje zaštitu osobnih podataka i nadležnost Agencije za zaštitu osobnih podataka (AZOP).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoška diferencijacija znači prilagoditi način poučavanja — a ne snižavati očekivanja. Cilj učenja može biti isti za sve; ono što se razlikuje jest put do njega.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -3298,30 +3305,30 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Zákon č. 561/2004 Sb. (Školský zákon), základní právní rámec vzdělávání v ČR.",
-        "Vyhláška č. 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami, podpůrná opatření 1.–5. stupně.",
+        "<strong>Zákon č. 561/2004 Sb.</strong> (Školský zákon), základní právní rámec vzdělávání v ČR.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Vyhláška č. 27/2016 Sb.</strong> o vzdělávání žáků se speciálními vzdělávacími potřebami, podpůrná opatření 1.–5. stupně.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Akční plán inkluzivního vzdělávání MŠMT, závazek k inkluzivnímu přístupu.",
-        "Úmluva OSN o právech osob se zdravotním postižením (2006), ratifikovaná ČR; zakotvuje právo na inkluzivní vzdělávání.",
+        "Úmluva OSN o právech osob se zdravotním postižením (2006), ratifikovaná ČR; zakotvuje právo na inkluzivní vzdělávání.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Plán pedagogické podpory (PLPP): každý učitel jej může zavést bez doporučení PPP; zahrnuje úpravy metod, organizace a hodnocení.",
+        "Plán pedagogické podpory (PLPP): každý učitel jej může zavést bez doporučení PPP; zahrnuje úpravy metod, organizace a hodnocení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Uplatňovat principy Univerzálního designu pro učení: více způsobů prezentace, vyjadřování a zapojení.",
         "Bez formální diagnózy lze aplikovat rozumné úpravy: prodloužený čas, ústní odpovědi, alternativní formáty.",
         "Zaznamenávat neformální pozorování žáků s možnými neuspokojenými potřebami, výchozí bod pro doporučení.",
       ]},
       { items: [
         "Pedagogicko-psychologická poradna (PPP) nebo Speciálně pedagogické centrum (SPC), první kontakt při identifikaci obtíží.",
-        "Doporučení PPP/SPC, základ pro přiznání podpůrných opatření.",
-        "Individuální vzdělávací plán (IVP), vypracovává se ve spolupráci učitele, PPP/SPC, rodičů a žáka.",
-        "Podpůrná opatření 1.–5. stupně, od úprav ve třídě až po speciální školy.",
+        "Doporučení PPP/SPC, základ pro přiznání podpůrných opatření.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Individuální vzdělávací plán (IVP), vypracovává se ve spolupráci učitele, PPP/SPC, rodičů a žáka.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Podpůrná opatření 1.–5. stupně, od úprav ve třídě až po speciální školy.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Nadaní žáci: §17 Školského zákona, právo na vzdělávání odpovídající jejich možnostem.",
+        "Nadaní žáci: §17 Školského zákona, právo na vzdělávání odpovídající jejich možnostem.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Systém podpory nadaných žáků NPI ČR, přeřazení do vyššího ročníku, kroužky a rozšiřující programy.",
         "Dokumentovat projevy nadání a začlenit rozšiřující úkoly do plánování výuky.",
       ]},
       { items: [
-        "Žáci cizinci: přípravné třídy (§ 46 Školský zákon), bezplatná jazyková podpora češtiny.",
+        "Žáci cizinci: přípravné třídy (§ 46 Školský zákon), bezplatná jazyková podpora češtiny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Metodické doporučení MŠMT pro vzdělávání cizinců, rámec pro jazykovou a integrační podporu.",
         "Jazyková bariéra musí být jasně oddělena od vzdělávacích obtíží, žák nesmí být doporučen k vyšetření jen kvůli neznalosti jazyka.",
         "Školy s větším podílem žáků cizinců by měly mít plán interkulturální výchovy.",
@@ -3330,9 +3337,15 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rychlý přehled: Školský zákon 561/2004, Vyhl. 27/2016, PLPP, IVP, PPP, SPC, podpůrná opatření 1–5. stupně.",
         "Klíčové dokumenty: IVP, žákovská dokumentace, školní plán inkluzivního vzdělávání.",
         "První krok při obavách o žáka: dokumentovat, poradit se s výchovným poradcem, kontaktovat rodiče, v tomto pořadí.",
-        "Ochrana dat: veškerá data o podpoře žáků podléhají GDPR a zákonu o ochraně osobních údajů.",
+        "Ochrana dat: veškerá data o podpoře žáků podléhají GDPR a zákonu č. 110/2019 Sb. o zpracování osobních údajů; nesdílet citlivé informace mimo tým bez souhlasu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Úmluva OSN o právech osob se zdravotním postižením</em> (2006), ratifikovaná Českou republikou (č. 10/2010 Sb. m. s.); článek 24 zakotvuje právo na inkluzivní vzdělávání.",
+      "<em>Zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon)</em>; základní právní rámec vzdělávání v ČR, včetně vzdělávání nadaných žáků (§ 17) a žáků se speciálními vzdělávacími potřebami (§ 16).",
+      "<em>Vyhláška č. 27/2016 Sb., o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných</em>; upravuje podpůrná opatření 1.–5. stupně, plán pedagogické podpory (PLPP) a individuální vzdělávací plán (IVP).",
+      "<em>Zákon č. 110/2019 Sb., o zpracování osobních údajů</em>, v návaznosti na obecné nařízení o ochraně osobních údajů (GDPR).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagogická diferenciace znamená přizpůsobit způsob, jakým se vyučuje — nikoli snižovat očekávání. Cíl učení může být pro všechny stejný; liší se cesta k němu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -3630,41 +3643,47 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Skollagen (2010:800) kap. 3, alla elever har rätt till ledning och stimulans för att nå så långt som möjligt.",
-        "Läroplan för grundskolan Lgr22, styr undervisningens mål och innehåll.",
+        "Skollagen (2010:800) kap. 3, alla elever har rätt till ledning och stimulans för att nå så långt som möjligt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Läroplan för grundskolan Lgr22, styr undervisningens mål och innehåll.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Specialpedagogiska skolmyndigheten (SPSM), nationell myndighet med rådgivning, stöd och resursskolor.",
-        "FN:s konvention om rättigheter för personer med funktionsnedsättning (2006), ratificerad av Sverige; artikel 24 om inkluderande utbildning.",
+        "FN:s konvention om rättigheter för personer med funktionsnedsättning (2006), ratificerad av Sverige; artikel 24 om inkluderande utbildning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Extra anpassningar (kap. 3 §5a): alla lärare kan göra utan utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.",
+        "Extra anpassningar (kap. 3 §5a): alla lärare kan göra utan utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tillämpa principer för Universell Design för lärande: flera sätt att representera, uttrycka och engagera.",
         "Utan formell diagnos kan rimliga anpassningar göras: förlängd tid, muntliga svar, alternativa format.",
         "Dokumentera informella observationer av elever med möjliga oupptäckta behov, startpunkt för eventuell utredning.",
       ]},
       { items: [
-        "Särskilt stöd (kap. 3 §7): utredning av rektor, åtgärdsprogram (ÅP), formell plan med uppföljning.",
-        "Elevhälsoteam (EHT) med kurator, psykolog, specialpedagog och skolsköterska, samordnar stöd.",
-        "Åtgärdsprogram utarbetas i samarbete med lärare, specialpedagog, vårdnadshavare och elev.",
+        "Särskilt stöd (kap. 3 §7): utredning av rektor, åtgärdsprogram (ÅP), formell plan med uppföljning.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Elevhälsoteam (EHT) med kurator, psykolog, specialpedagog och skolsköterska, samordnar stöd.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Åtgärdsprogram utarbetas i samarbete med lärare, specialpedagog, vårdnadshavare och elev.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Vid komplexa behov kan SPSM konsulteras för rådgivning och bedömning.",
       ]},
       { items: [
         "Särbegåvade elever: Skolverkets stödmaterial (2019), inga enskilda särbegåvningslagar.",
-        "Flexibel studiegång, acceleration och mentorskap möjliga inom ramen för Skollagen.",
+        "Flexibel studiegång, acceleration och mentorskap möjliga inom ramen för Skollagen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Dokumentera tecken på avancerad förmåga och inkludera utmaningsuppgifter i planeringen.",
       ]},
       { items: [
-        "Nyanlända elever: obligatorisk kartläggning (Skolverket), förberedelseklass (max 2 år), svenska som andraspråk (SVA).",
-        "Studiehandledning på modersmålet, rätt för elever som behöver det för att nå kunskapskraven.",
+        "Nyanlända elever: obligatorisk kartläggning (Skolverket), förberedelseklass (max 2 år), svenska som andraspråk (SVA).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Studiehandledning på modersmålet, rätt för elever som behöver det för att nå kunskapskraven.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Språkbarriär ska tydligt separeras från inlärningssvårigheter, eleven ska inte utredas enbart p.g.a. språket.",
         "Skolor med många nyanlända bör ha en plan för interkulturellt lärande.",
       ]},
       { items: [
-        "Snabbguide: Skollagen 2010:800 kap. 3, Lgr22, Extra anpassningar, Åtgärdsprogram, SPSM, SVA, förberedelseklass.",
+        "Snabbguide: Skollagen 2010:800 kap. 3, Lgr22, Extra anpassningar, Åtgärdsprogram, SPSM, SVA, förberedelseklass.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Viktiga dokument: Åtgärdsprogram (ÅP), elevakt, skolans inkluderingspolicy.",
         "Första steget vid oro för en elev: dokumentera, diskutera med specialpedagog, kontakta vårdnadshavare, i den ordningen.",
-        "Dataskydd: all elevstöddata omfattas av GDPR och Dataskyddslagen; dela inte känslig information utanför elevhälsoteamet utan samtycke.",
+        "Dataskydd: all elevstöddata omfattas av GDPR och Dataskyddslagen; dela inte känslig information utanför elevhälsoteamet utan samtycke.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>FN:s konvention om rättigheter för personer med funktionsnedsättning</em> (CRPD, 2006), ratificerad av Sverige 2008 (i kraft 14 januari 2009); artikel 24 slår fast rätten till inkluderande utbildning.",
+      "<em>Skollag (2010:800)</em>, särskilt kapitel 3 om barns och elevers utveckling mot målen och särskilt stöd (bl.a. ledning och stimulans, extra anpassningar enligt 3 kap. 5 a §, åtgärdsprogram enligt 3 kap. 7 §) samt bestämmelserna om elevhälsa.",
+      "<em>Läroplan för grundskolan, förskoleklassen och fritidshemmet (Lgr22)</em>, fastställd genom förordning av regeringen; styr undervisningens mål, innehåll och kunskapskrav.",
+      "<em>Dataskyddsförordningen</em> (GDPR, förordning (EU) 2016/679) och <em>lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning</em> (dataskyddslagen); gäller all behandling av elevers personuppgifter.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagogisk differentiering innebär att anpassa hur man undervisar — inte att sänka förväntningarna. Lärandemålet kan vara detsamma för alla; det är vägen dit som varierar.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -3962,22 +3981,22 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Folkeskoleloven (LBK nr. 1510 af 14/12/2017), grundloven for dansk folkeskole med ret til undervisningsdifferentiering.",
-        "Bekendtgørelse om folkeskolens specialpædagogiske bistand, rammen for specialpædagogisk støtte.",
-        "FN's konvention om rettigheder for personer med handicap (2006), ratificeret af Danmark; artikel 24 om inkluderende uddannelse.",
-        "Kommunernes PPR (Pædagogisk Psykologisk Rådgivning), central rådgivende instans for elever med særlige behov.",
+        "Folkeskoleloven (LBK nr. 1510 af 14/12/2017), grundloven for dansk folkeskole med ret til undervisningsdifferentiering.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Bekendtgørelse om folkeskolens specialpædagogiske bistand, rammen for specialpædagogisk støtte.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "FN's konvention om rettigheder for personer med handicap (2006), ratificeret af Danmark; artikel 24 om inkluderende uddannelse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kommunernes PPR (Pædagogisk Psykologisk Rådgivning), central rådgivende instans for elever med særlige behov.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Støtte i almenundervisningen: undervisningsdifferentiering, to-lærerordning, it-hjælpemidler, ingen formel vedtagelse nødvendig; alle læreres ansvar.",
+        "Støtte i almenundervisningen: undervisningsdifferentiering, to-lærerordning, it-hjælpemidler, ingen formel vedtagelse nødvendig; alle læreres ansvar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Anvend principperne for Universelt Design for Læring: multiple repræsentationsmåder, udtryksformer og engagementsformer.",
         "Uden formel diagnose kan rimelige tilpasninger anvendes: forlænget tid, mundtlige svar, alternative formater.",
         "Dokumenter uformelle observationer af elever med mulige uopfyldte behov, udgangspunkt for eventuel henvisning.",
       ]},
       { items: [
-        "Specialpædagogisk bistand (SPB) via PPR, formel støtte efter visitation.",
-        "Individuel plan, udarbejdes i samarbejde med lærer, PPR, forældre og elev.",
+        "Specialpædagogisk bistand (SPB) via PPR, formel støtte efter visitation.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Individuel plan, udarbejdes i samarbejde med lærer, PPR, forældre og elev.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Ressourcecenter på skolen, koordinerer støttetilbud og rådgiver lærere.",
-        "Specialklasse eller specialskole ved behov, efter grundig udredning og samtykke fra forældre.",
+        "Specialklasse eller specialskole ved behov, efter grundig udredning og samtykke fra forældre.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Elever med særlige evner: ingen særlig lovgivning; Danish Center for Gifted Education, talentklasser, acceleration.",
@@ -3985,18 +4004,24 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Dokumentér tegn på fremragende evner og integrér udfordringer i undervisningsplanlægningen.",
       ]},
       { items: [
-        "Tosprogede elever / dansk som andetsprog (DSA): modtagelsesklasse, basisundervisning i DSA.",
+        "Tosprogede elever / dansk som andetsprog (DSA): modtagelsesklasse, basisundervisning i DSA.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Undervisningsministeriets vejledning om tosprogede elever, ramme for sproglig og interkulturel støtte.",
         "Sprogbarrieren skal tydeligt adskilles fra faglige vanskeligheder, eleven må ikke udredes alene pga. manglende danskkundskaber.",
         "Skoler med mange tosprogede elever bør have en plan for interkulturel undervisning.",
       ]},
       { items: [
-        "Hurtigguide: Folkeskoleloven LBK 1510/2017, PPR, SPB, individuel plan, DSA, modtagelsesklasse.",
+        "Hurtigguide: Folkeskoleloven LBK 1510/2017, PPR, SPB, individuel plan, DSA, modtagelsesklasse.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Vigtige dokumenter: individuel plan, elevdokumentation, skolens inklusionspolitik.",
         "Første skridt ved bekymring for en elev: dokumentér, drøft med PPR-vejleder, kontakt forældre, i den rækkefølge.",
-        "Databeskyttelse: alle elevsupportdata er underlagt GDPR og databeskyttelsesloven; del ikke følsomme oplysninger uden for supportteamet uden samtykke.",
+        "Databeskyttelse: alle elevsupportdata er underlagt GDPR og databeskyttelsesloven; del ikke følsomme oplysninger uden for supportteamet uden samtykke.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>FN's konvention om rettigheder for personer med handicap</em> (handicapkonventionen / CRPD, 2006), ratificeret af Danmark i 2009; artikel 24 fastslår retten til inkluderende uddannelse.",
+      "<em>Bekendtgørelse af lov om folkeskolen (folkeskoleloven), LBK nr. 1510 af 14. december 2017</em>; den grundlæggende lov for den danske folkeskole, herunder undervisningsdifferentiering, inklusion og specialpædagogisk bistand.",
+      "<em>Bekendtgørelse om folkeskolens specialundervisning og anden specialpædagogisk bistand, BEK nr. 693 af 20. juni 2014</em>; rammen for visitation, specialpædagogisk bistand (SPB) og PPR's rolle.",
+      "<em>Databeskyttelsesforordningen</em> (GDPR, forordning (EU) 2016/679) og <em>databeskyttelsesloven (lov nr. 502 af 23. maj 2018)</em>; gælder for al behandling af elevers personoplysninger.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pædagogisk differentiering handler om at tilpasse måden, man underviser på — ikke om at sænke forventningerne. Læringsmålet kan være det samme for alle; det er vejen derhen, der varierer.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -4294,21 +4319,21 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Perusopetuslaki 628/1998, velvoittaa antamaan jokaiselle oppilaalle riittävän tuen.",
-        "Oppilas- ja opiskelijahuoltolaki 1287/2013, monialainen oppilashuolto koulussa.",
-        "Opetushallituksen kolmiportainen tukimalli: yleinen tuki, tehostettu tuki, erityinen tuki.",
-        "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; artikla 24 inklusiivisesta koulutuksesta.",
+        "Perusopetuslaki 628/1998, velvoittaa antamaan jokaiselle oppilaalle riittävän tuen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Oppilas- ja opiskelijahuoltolaki 1287/2013, monialainen oppilashuolto koulussa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Opetushallituksen kolmiportainen tukimalli: yleinen tuki, tehostettu tuki, erityinen tuki.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; artikla 24 inklusiivisesta koulutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Yleinen tuki: jokaisen opettajan velvollisuus ilman päätöstä, tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.",
+        "Yleinen tuki: jokaisen opettajan velvollisuus ilman päätöstä, tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Sovella Universaalin oppimisen suunnittelun periaatteita: useita esittämisen, ilmaisemisen ja sitoutumisen tapoja.",
         "Ilman virallista diagnoosia voidaan tehdä kohtuulliset mukautukset: lisäaika, suulliset vastaukset, vaihtoehtoiset formaatit.",
         "Dokumentoi epäviralliset havainnot oppilaista, joilla voi olla täyttämättömiä tarpeita, lähtökohta mahdollisille jatkotoimille.",
       ]},
       { items: [
-        "Tehostettu tuki: oppimissuunnitelma, moniammatillinen tiimi, oppilashuolto.",
-        "Erityinen tuki: HOJKS (Henkilökohtainen opetuksen järjestämistä koskeva suunnitelma), hallintopäätös, erityisluokka tai -koulu.",
-        "Oppilashuoltoryhmä koordinoi tukitoimia ja neuvoo opettajia.",
+        "Tehostettu tuki: oppimissuunnitelma, moniammatillinen tiimi, oppilashuolto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Erityinen tuki: HOJKS (Henkilökohtainen opetuksen järjestämistä koskeva suunnitelma), hallintopäätös, erityisluokka tai -koulu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Oppilashuoltoryhmä koordinoi tukitoimia ja neuvoo opettajia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Psykologinen arviointi tarvittaessa erityisen tuen tarpeen selvittämiseksi.",
       ]},
       { items: [
@@ -4323,12 +4348,18 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Monikulttuurinen ohjaaja voi tukea kodin ja koulun välistä yhteistyötä.",
       ]},
       { items: [
-        "Pikaohjeet: Perusopetuslaki 628/1998, kolmiportainen tuki, HOJKS, oppilashuolto, S2-opetus, valmistava opetus.",
+        "Pikaohjeet: Perusopetuslaki 628/1998, kolmiportainen tuki, HOJKS, oppilashuolto, S2-opetus, valmistava opetus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tärkeät asiakirjat: HOJKS, oppilashuollon kirjaukset, koulun inklusiivinen oppimissuunnitelma.",
         "Ensimmäinen askel huolen herätessä: dokumentoi, keskustele erityisopettajan kanssa, ota yhteyttä huoltajiin, tässä järjestyksessä.",
-        "Tietosuoja: kaikki oppilastukitiedot ovat GDPR:n ja tietosuojalain alaisia; älä jaa arkaluonteisia tietoja oppilashuoltoryhmän ulkopuolelle ilman suostumusta.",
+        "Tietosuoja: kaikki oppilastukitiedot ovat GDPR:n ja tietosuojalain alaisia; älä jaa arkaluonteisia tietoja oppilashuoltoryhmän ulkopuolelle ilman suostumusta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>YK:n yleissopimus vammaisten henkilöiden oikeuksista</em> (YK, 2006), jonka Suomi ratifioi vuonna 2016; sen 24 artikla turvaa oikeuden inklusiiviseen koulutukseen.",
+      "<em>Perusopetuslaki 628/1998</em>; velvoittaa antamaan jokaiselle oppilaalle riittävän tuen ja sisältää kolmiportaisen tuen (yleinen, tehostettu ja erityinen tuki) sekä henkilökohtaisen opetuksen järjestämistä koskevan suunnitelman (HOJKS).",
+      "<em>Oppilas- ja opiskelijahuoltolaki 1287/2013</em>; sääntelee monialaista oppilashuoltoa ja oppilashuoltoryhmän toimintaa kouluissa.",
+      "<em>Tietosuojalaki 1050/2018</em>, joka täydentää ja täsmentää Euroopan unionin yleistä tietosuoja-asetusta (GDPR / asetus (EU) 2016/679).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoginen eriyttäminen tarkoittaa opetustavan mukauttamista – ei odotusten laskemista. Oppimistavoite voi olla kaikilla sama; vain reitti sinne vaihtelee.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -4627,9 +4658,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Zákon č. 245/2008 Z.z. (Školský zákon) tvorí základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami (ŠVVP); inkluzívne vzdelávanie je štátnou politikou.",
-        "Vyhláška č. 325/2008 Z.z. o špeciálnych výchovno-vzdelávacích potrebách upravuje podmienky vzdelávania žiakov s postihnutím a vývojovými poruchami učenia.",
-        "Slovensko ratifikovalo Dohovor OSN o právach osôb so zdravotným postihnutím; školy sú povinné vytvárať inkluzívne podmienky.",
+        "<strong>Zákon č. 245/2008 Z.z.</strong> (Školský zákon) tvorí základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami (ŠVVP); inkluzívne vzdelávanie je štátnou politikou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Vyhláška č. 325/2008 Z.z.</strong> o špeciálnych výchovno-vzdelávacích potrebách upravuje podmienky vzdelávania žiakov s postihnutím a vývojovými poruchami učenia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Slovensko ratifikovalo Dohovor OSN o právach osôb so zdravotným postihnutím; školy sú povinné vytvárať inkluzívne podmienky.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Individuálny prístup a diferenciácia vyučovania sú základnou povinnosťou každého pedagóga bez formálnej dokumentácie.",
@@ -4638,12 +4669,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Centrum pedagogicko-psychologického poradenstva a prevencie (CPPPaP) vykonáva odborné hodnotenie a vydáva odporúčania pre školu.",
-        "Individuálny výchovno-vzdelávací program (IVVP) vypracúva škola v spolupráci s CPPPaP a rodičmi; je záväzný pre všetkých vyučujúcich.",
-        "Asistent učiteľa môže byť pridelený žiakom s vyššími potrebami na základe odporúčania CPPPaP.",
+        "Individuálny výchovno-vzdelávací program (IVVP) vypracúva škola v spolupráci s CPPPaP a rodičmi; je záväzný pre všetkých vyučujúcich.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Asistent učiteľa môže byť pridelený žiakom s vyššími potrebami na základe odporúčania CPPPaP.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Špeciálny pedagóg v škole alebo v CPPPaP koordinuje podporu a metodicky usmerňuje ostatných učiteľov.",
       ]},
       { items: [
-        "Nadaní žiaci sú zahrnutí v §105–106 Školského zákona 245/2008; majú nárok na IVVP prispôsobený ich potrebám.",
+        "Nadaní žiaci sú zahrnutí v §105–106 Školského zákona 245/2008; majú nárok na IVVP prispôsobený ich potrebám.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Gymnáziá pre mimoriadne nadaných žiakov ponúkajú špecializované programy; rozširujúce programy a krúžky sú dostupné na bežných školách.",
         "V praxi je identifikácia nadania nedostatočná, CPPPaP môže vykonať hodnotenie a odporučiť vhodné opatrenia.",
       ]},
@@ -4653,13 +4684,19 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Jazyková bariéra nie je dôvodom na zaradenie do špeciálneho vzdelávania, pred referenciou je potrebné vylúčiť jazykovú príčinu ťažkostí.",
       ]},
       { items: [
-        "<strong>Zákon č. 245/2008 Z.z.</strong>, základný rámec vzdelávania žiakov so ŠVVP.",
-        "<strong>Vyhláška č. 325/2008 Z.z.</strong>, špeciálne výchovno-vzdelávacie potreby.",
+        "<strong>Zákon č. 245/2008 Z.z.</strong>, základný rámec vzdelávania žiakov so ŠVVP.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Vyhláška č. 325/2008 Z.z.</strong>, špeciálne výchovno-vzdelávacie potreby.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>CPPPaP</strong>, centrum poradenstva, psychológie a prevencie.",
         "<strong>IVVP</strong>, individuálny výchovno-vzdelávací program.",
-        "<strong>Asistent učiteľa</strong>, podpora pre žiakov s vyššími potrebami.",
+        "<strong>Ochrana údajov</strong>: údaje žiakov podliehajú GDPR a zákonu č. 18/2018 Z.z. o ochrane osobných údajov; citlivé informácie nezdieľať mimo tímu bez súhlasu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Dohovor OSN o právach osôb so zdravotným postihnutím</em> (2006), ratifikovaný Slovenskou republikou (č. 317/2010 Z.z.); článok 24 zakotvuje právo na inkluzívne vzdelávanie.",
+      "<em>Zákon č. 245/2008 Z. z. o výchove a vzdelávaní (školský zákon) a o zmene a doplnení niektorých zákonov</em>; základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami i nadaných žiakov (§ 105–106).",
+      "<em>Vyhláška Ministerstva školstva SR č. 325/2008 Z. z. o školských zariadeniach výchovného poradenstva a prevencie</em>, upravujúca podmienky vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami a činnosť CPPPaP.",
+      "<em>Zákon č. 18/2018 Z. z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov</em>, v nadväznosti na všeobecné nariadenie o ochrane údajov (GDPR).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagogická diferenciácia znamená prispôsobiť spôsob, akým sa vyučuje — nie znižovať očakávania. Cieľ učenia môže byť pre všetkých rovnaký; líši sa cesta k nemu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -4957,9 +4994,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "A 2011. évi CXC. törvény a nemzeti köznevelésről (Nkt.) meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit és intézményi kötelezettségeit.",
-        "A 32/2012. (X. 8.) EMMI rendelet az SNI tanulók iskolai oktatásának irányelvéről részletesen szabályozza a különböző fogyatékossági típusokhoz szükséges feltételeket.",
-        "Magyarország ratifikálta az ENSZ Egyezményt a fogyatékossággal élők jogairól; az inkluzív oktatás állami célkitűzés.",
+        "A 2011. évi CXC. törvény a nemzeti köznevelésről (Nkt.) meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit és intézményi kötelezettségeit.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "A 32/2012. (X. 8.) EMMI rendelet az SNI tanulók iskolai oktatásának irányelvéről részletesen szabályozza a különböző fogyatékossági típusokhoz szükséges feltételeket.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Magyarország ratifikálta az ENSZ Egyezményt a fogyatékossággal élők jogairól; az inkluzív oktatás állami célkitűzés.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "A differenciált oktatás és adaptív pedagógia minden pedagógus kötelessége diagnózis nélkül is, az intézmény köteles befogadó környezetet biztosítani.",
@@ -4967,29 +5004,36 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Az iskolának pedagógiai módszerek tekintetében rugalmasnak kell lennie minden tanuló igényeire.",
       ]},
       { items: [
-        "A Pedagógiai Szakszolgálat (PSZI) végzi a szakértői vizsgálatot és adja ki a szakértői véleményt, amely meghatározza a szükséges támogatásokat.",
-        "Az egyéni fejlesztési terv (EFT) az iskola és a PSZI közreműködésével, a szülők bevonásával készül; minden érintett pedagógusra kötelező.",
-        "Gyógypedagógiai asszisztens és utazótanár igényelhető a jelentősebb szükségletű tanulók esetén a szakértői vélemény alapján.",
+        "A Pedagógiai Szakszolgálat (PSZI) végzi a szakértői vizsgálatot és adja ki a szakértői véleményt, amely meghatározza a szükséges támogatásokat.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Az egyéni fejlesztési terv (EFT) az iskola és a PSZI közreműködésével, a szülők bevonásával készül; minden érintett pedagógusra kötelező.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Gyógypedagógiai asszisztens és utazótanár igényelhető a jelentősebb szükségletű tanulók esetén a szakértői vélemény alapján.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "A szülő/gondviselő aláírása kötelező az egyéni fejlesztési terven; éves felülvizsgálat szükséges.",
       ]},
       { items: [
-        "Az Nkt. 4. §25 alapján a tehetséggondozás az iskola kötelessége; a MATEHETSZ Tehetségpont hálózat módszertani támogatást nyújt.",
-        "Osztályugratás az Nkt. alapján lehetséges; az iskola döntése, amelyhez a szülő és a tanuló hozzájárulása szükséges.",
+        "Az Nkt. 4. §25 alapján a tehetséggondozás az iskola kötelessége; a MATEHETSZ Tehetségpont hálózat módszertani támogatást nyújt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Osztályugratás az Nkt. alapján lehetséges; az iskola döntése, amelyhez a szülő és a tanuló hozzájárulása szükséges.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "A tehetséges tanulók azonosítása és támogatása a gyakorlatban hiányos, a PSZI tehetségdiagnosztikát végezhet.",
       ]},
       { items: [
-        "Az Nkt. 45. § alapján felkészítő foglalkozás szervezhető a magyar nyelvet nem ismerő tanulók számára az iskolakezdés előtt vagy az első időszakban.",
+        "Az Nkt. 45. § alapján felkészítő foglalkozás szervezhető a magyar nyelvet nem ismerő tanulók számára az iskolakezdés előtt vagy az első időszakban.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "A magyar mint idegen nyelv (MNyI) oktatása elérhető, koordinálja az Oktatási Hivatal; nem állítható ki SNI-vélemény kizárólag a nyelvi akadály alapján.",
         "A szülőkkel való kommunikációhoz szükséges esetén tolmács igénybevétele a befogadó iskola felelőssége.",
       ]},
       { items: [
-        "<strong>Nkt. 2011. évi CXC.</strong>, nemzeti köznevelési törvény, SNI-rendelkezésekkel.",
-        "<strong>32/2012. EMMI rendelet</strong>, SNI tanulók oktatásának irányelvei.",
+        "<strong>Nkt. 2011. évi CXC.</strong>, nemzeti köznevelési törvény, SNI-rendelkezésekkel.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>32/2012. EMMI rendelet</strong>, SNI tanulók oktatásának irányelvei.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>PSZI</strong>, Pedagógiai Szakszolgálat, szakértői vizsgálatokhoz.",
         "<strong>Egyéni fejlesztési terv (EFT)</strong>, kötelező dokumentum SNI tanulóknál.",
         "<strong>MNyI</strong>, magyar mint idegen nyelv program.",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Az ENSZ Egyezménye a fogyatékossággal élő személyek jogairól</em> (CRPD, 2006), amelyet Magyarország a <em>2007. évi XCII. törvénnyel</em> hirdetett ki; 24. cikke az inkluzív oktatáshoz való jogot rögzíti.",
+      "<em>2011. évi CXC. törvény a nemzeti köznevelésről</em> (Nkt.); a köznevelési rendszer alaptörvénye, amely meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit, a tehetséggondozást és az intézményi kötelezettségeket.",
+      "<em>32/2012. (X. 8.) EMMI rendelet a Sajátos nevelési igényű gyermekek óvodai nevelésének irányelve és a Sajátos nevelési igényű tanulók iskolai oktatásának irányelve kiadásáról</em>; részletesen szabályozza az egyes fogyatékossági típusokhoz szükséges feltételeket.",
+      "<em>15/2013. (II. 26.) EMMI rendelet a pedagógiai szakszolgálati intézmények működéséről</em>; szabályozza a Pedagógiai Szakszolgálat (PSZI) szakértői vizsgálatát és a szakértői vélemény kiadását.",
+      "<em>2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról</em> (Infotv.), az általános adatvédelmi rendelet (GDPR) hazai kiegészítője; a tanulók adatai csak hozzájárulással kezelhetők és oszthatók meg.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "A pedagógiai differenciálás azt jelenti, hogy a tanítás módját igazítjuk hozzá — nem pedig az elvárásokat csökkentjük. A tanulási cél mindenki számára azonos lehet; ami változik, az az út.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -5287,9 +5331,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.",
-        "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΣΥ ως κεντρικά σημεία συντονισμού.",
-        "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η ινκλουσίβ εκπαίδευση είναι κρατική πολιτική.",
+        "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΣΥ ως κεντρικά σημεία συντονισμού.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η ινκλουσίβ εκπαίδευση είναι κρατική πολιτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Η παράλληλη στήριξη και η ενισχυτική διδασκαλία αποτελούν βασικές υποστηρικτικές δομές· οι γενικές προσαρμογές είναι ευθύνη κάθε εκπαιδευτικού χωρίς ειδικά έγγραφα.",
@@ -5297,9 +5341,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Πρακτικά παραδείγματα: επιπλέον χρόνος σε αξιολογήσεις, γραπτές οδηγίες επιπλέον των προφορικών, εναλλακτική προφορική αξιολόγηση.",
       ]},
       { items: [
-        "Τα ΚΕΣΥ (Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης) αξιολογούν τις εκπαιδευτικές ανάγκες και εκδίδουν γνωματεύσεις.",
-        "Το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ) συντάσσεται από τον εκπαιδευτικό παράλληλης στήριξης σε συνεργασία με τον/την εκπαιδευτικό τάξης και τους γονείς.",
-        "Ο εκπαιδευτικός παράλληλης στήριξης (ΕΠΣ) παρέχεται σε μαθητές με γνωμάτευση από ΚΕΣΥ· η υπαγωγή σε ειδικό σχολείο αποτελεί έσχατη επιλογή.",
+        "Τα ΚΕΣΥ (Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης) αξιολογούν τις εκπαιδευτικές ανάγκες και εκδίδουν γνωματεύσεις.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ) συντάσσεται από τον εκπαιδευτικό παράλληλης στήριξης σε συνεργασία με τον/την εκπαιδευτικό τάξης και τους γονείς.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ο εκπαιδευτικός παράλληλης στήριξης (ΕΠΣ) παρέχεται σε μαθητές με γνωμάτευση από ΚΕΣΥ· η υπαγωγή σε ειδικό σχολείο αποτελεί έσχατη επιλογή.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Η υπογραφή των γονέων είναι απαραίτητη για το ΑΕΠ και για οποιαδήποτε αλλαγή εκπαιδευτικού πλαισίου.",
       ]},
       { items: [
@@ -5313,13 +5357,20 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Η γλωσσική εμπόδιο δεν αποτελεί λόγο παραπομπής σε ειδική αγωγή, πρέπει πρώτα να αποκλειστούν άλλες αιτίες.",
       ]},
       { items: [
-        "<strong>Ν. 3699/2008</strong>, βασικό πλαίσιο ειδικής αγωγής.",
-        "<strong>Ν. 4823/2021</strong>, αναβάθμιση σχολείου, νέα ΚΕΣΥ.",
+        "<strong>Ν. 3699/2008</strong>, βασικό πλαίσιο ειδικής αγωγής.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ν. 4823/2021</strong>, αναβάθμιση σχολείου, νέα ΚΕΣΥ.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>ΚΕΣΥ</strong>, Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης.",
         "<strong>ΑΕΠ</strong>, Ατομικό Εκπαιδευτικό Πρόγραμμα.",
-        "<strong>Τάξεις υποδοχής ΤΥ Ι & ΤΥ ΙΙ</strong>, για αλλόγλωσσους μαθητές.",
+        "<strong>Τάξεις υποδοχής ΤΥ Ι & ΤΥ ΙΙ</strong>, για αλλόγλωσσους μαθητές.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Σύμβαση των Ηνωμένων Εθνών για τα Δικαιώματα των Ατόμων με Αναπηρία</em> (CRPD, 2006), που κυρώθηκε από την Ελλάδα με τον <em>Ν. 4074/2012</em>· το άρθρο 24 κατοχυρώνει το δικαίωμα στη συμπεριληπτική εκπαίδευση.",
+      "<em>Νόμος 3699/2008</em> «Ειδική Αγωγή και Εκπαίδευση ατόμων με αναπηρία ή με ειδικές εκπαιδευτικές ανάγκες»· βασικό νομοθετικό πλαίσιο που προβλέπει την παράλληλη στήριξη και το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ).",
+      "<em>Νόμος 4823/2021</em> «Αναβάθμιση του σχολείου, ενδυνάμωση των εκπαιδευτικών και άλλες διατάξεις»· ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης (ΚΕΣΥ/ΚΕΔΑΣΥ).",
+      "<em>Νόμος 2413/1996</em> για τη Διαπολιτισμική Εκπαίδευση και οι σχετικές υπουργικές αποφάσεις για τις Τάξεις Υποδοχής (ΤΥ Ι & ΤΥ ΙΙ) και τα προγράμματα διαπολιτισμικής αγωγής για αλλόγλωσσους μαθητές.",
+      "<em>Νόμος 4624/2019</em> για την Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα και την εφαρμογή του Γενικού Κανονισμού (ΕΕ) 2016/679 (GDPR)· όλα τα δεδομένα των μαθητών προστατεύονται και δεν κοινοποιούνται χωρίς συγκατάθεση.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Η παιδαγωγική διαφοροποίηση σημαίνει να προσαρμόζουμε τον τρόπο διδασκαλίας — όχι να χαμηλώνουμε τις προσδοκίες. Ο μαθησιακός στόχος μπορεί να είναι κοινός για όλους· αυτό που αλλάζει είναι η διαδρομή.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -5618,9 +5669,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Законът за предучилищното и училищното образование (ЗПУО, ДВ бр. 79/2015 г.) установява приобщаващото образование като принцип и задължение на всяко училище в България.",
-        "Наредбата за приобщаващото образование (ДВ бр. 86/2016 г.) урежда дейността на екипите за подкрепа и видовете подкрепящи мерки.",
-        "България е ратифицирала Конвенцията на ООН за правата на хората с увреждания; приобщаващото образование е национална политика.",
+        "Законът за предучилищното и училищното образование (ЗПУО, ДВ бр. 79/2015 г.) установява приобщаващото образование като принцип и задължение на всяко училище в България.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Наредбата за приобщаващото образование (ДВ бр. 86/2016 г.) урежда дейността на екипите за подкрепа и видовете подкрепящи мерки.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "България е ратифицирала Конвенцията на ООН за правата на хората с увреждания; приобщаващото образование е национална политика.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Приобщаващото образование се осъществява чрез екипна работа и диференциран подход, всеки учител може да прилага базови адаптации без специален документ.",
@@ -5628,13 +5679,13 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Практически примери: допълнително време при оценявания, писмени инструкции допълващи устните, алтернативно устно оценяване.",
       ]},
       { items: [
-        "Екипът за подкрепа на личностното развитие (ЕПЛР) в училище координира подкрепата и включва педагог, психолог, логопед и ресурсен учител.",
-        "Индивидуалният образователен план (ИОП) се изготвя от ЕПЛР в сътрудничество с родителите и е задължителен за всички преподаватели.",
+        "Екипът за подкрепа на личностното развитие (ЕПЛР) в училище координира подкрепата и включва педагог, психолог, логопед и ресурсен учител.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Индивидуалният образователен план (ИОП) се изготвя от ЕПЛР в сътрудничество с родителите и е задължителен за всички преподаватели.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Регионалният център за подкрепа на процеса на приобщаващото образование (РЦППО) предоставя специализирана методическа подкрепа.",
         "Подписът на родителите е задължителен за ИОП; годишен преглед се изисква.",
       ]},
       { items: [
-        "Деца с изявени дарби са обхванати от Закона за закрила на детето (чл. 11а) и Наредба № 2 за работа с надарени ученици.",
+        "Деца с изявени дарби са обхванати от Закона за закрила на детето (чл. 11а) и Наредба № 2 за работа с надарени ученици.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Специализирани паралелки, творчески конкурси и олимпиади са основните инструменти за развитие на талантите.",
         "В практиката идентификацията на надареност е недостатъчна, ЕПЛР може да насочи за допълнителна оценка.",
       ]},
@@ -5644,13 +5695,20 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "При необходимост от превод за среща с родители, осигуряването на такъв е отговорност на приемащото училище.",
       ]},
       { items: [
-        "<strong>ЗПУО (2015 г.)</strong>, основна рамка за приобщаващо образование.",
-        "<strong>Наредба приобщаващо образование (2016 г.)</strong>, ЕПЛР и ИОП.",
+        "<strong>ЗПУО (2015 г.)</strong>, основна рамка за приобщаващо образование.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Наредба приобщаващо образование (2016 г.)</strong>, ЕПЛР и ИОП.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>ЕПЛР</strong>, Екип за подкрепа на личностното развитие.",
         "<strong>ИОП</strong>, Индивидуален образователен план.",
         "<strong>РЦППО</strong>, Регионален център за подкрепа на приобщаващото образование.",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Конвенция на ООН за правата на хората с увреждания</em> (2006 г.), ратифицирана от Република България със закон (ДВ бр. 12/2012 г.); член 24 признава правото на приобщаващо образование.",
+      "<em>Закон за предучилищното и училищното образование</em> (ЗПУО, обн. ДВ бр. 79 от 13.10.2015 г., в сила от 01.08.2016 г.); основната рамка, която установява приобщаващото образование като принцип и урежда общата и допълнителната подкрепа за личностно развитие.",
+      "<em>Наредба за приобщаващото образование</em> (приета с ПМС № 232/2017 г., обн. ДВ бр. 86 от 27.10.2017 г.); урежда дейността на екипите за подкрепа на личностното развитие (ЕПЛР), индивидуалния образователен план (ИОП) и работата на регионалните центрове (РЦПППО).",
+      "<em>Закон за закрила на детето</em> (чл. 10а и насл., обн. ДВ бр. 48/2000 г.) и <em>Наредба за условията и реда за осъществяване на закрила на деца с изявени дарби</em> (ПМС № 298/2003 г.); уреждат мерките за насърчаване на децата с изявени дарби.",
+      "<em>Закон за защита на личните данни</em> (ЗЗЛД, обн. ДВ бр. 1/2002 г., изм. ДВ бр. 17/2019 г.), в изпълнение на Общия регламент относно защитата на данните (Регламент (ЕС) 2016/679 – GDPR); урежда защитата на личните данни и правомощията на Комисията за защита на личните данни (КЗЛД).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Педагогическата диференциация означава да се приспособи начинът на преподаване — а не да се занижават очакванията. Целта на ученето може да е една и съща за всички; различава се пътят към нея.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -5948,9 +6006,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.",
-        "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.",
-        "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; inkliuzinis ugdymas yra valstybinė politika.",
+        "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; inkliuzinis ugdymas yra valstybinė politika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Individualizuotas ugdymas ir diferenciacija yra kiekvieno mokytojo pareiga be jokios specialios dokumentacijos.",
@@ -5958,14 +6016,14 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Specialioji pedagoginė pagalba (logopedo, specialiojo pedagogo) teikiama pagal poreikį, mokyklos specialistų sprendimu.",
       ]},
       { items: [
-        "Pedagoginė psichologinė tarnyba (PPT) atlieka specialiųjų ugdymosi poreikių įvertinimą ir skiria pagalbą.",
+        "Pedagoginė psichologinė tarnyba (PPT) atlieka specialiųjų ugdymosi poreikių įvertinimą ir skiria pagalbą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Individualizuota ugdymosi programa (IUP) sudaroma drauge su PPT, tėvais ir mokytojais; privaloma visiems mokytojams.",
         "Mokyklos psichologas, specialusis pedagogas ir logopedas koordinuoja pagalbą ir teikia metodinę paramą.",
         "Tėvų sutikimas reikalingas IUP; kasmetinis peržiūrėjimas privalomas.",
       ]},
       { items: [
         "Talentų akademija ir Jaunųjų talentų programa teikia papildomą paramą gabiems mokiniams.",
-        "Pagreičio (klasių praleidimo) galimybė egzistuoja pagal įstatymą, tačiau naudojama retai.",
+        "Pagreičio (klasių praleidimo) galimybė egzistuoja pagal įstatymą, tačiau naudojama retai.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Praktikoje gabių mokinių atpažinimas yra nepakankamas, PPT gali atlikti gabumo įvertinimą.",
       ]},
       { items: [
@@ -5974,13 +6032,19 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kalbos barjeras nėra pagrindas specialiajam ugdymui, pirmiau reikia pašalinti kitas priežastis.",
       ]},
       { items: [
-        "<strong>Švietimo įstatymas 2011</strong>, SUP ir inkliuzinio ugdymo pagrindas.",
+        "<strong>Švietimo įstatymas 2011</strong>, SUP ir inkliuzinio ugdymo pagrindas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>PPT</strong>, Pedagoginė psichologinė tarnyba.",
         "<strong>IUP</strong>, individualizuota ugdymosi programa.",
         "<strong>Specialusis pedagogas</strong>, koordinuoja pagalbą mokykloje.",
-        "<strong>Pasirengimo klasė</strong>, lietuvių kalbos parama naujai atvykusiems.",
+        "<strong>Pasirengimo klasė</strong>, lietuvių kalbos parama naujai atvykusiems. Duomenų apsauga: visi mokinių duomenys tvarkomi pagal BDAR ir Asmens duomenų teisinės apsaugos įstatymą.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Jungtinių Tautų neįgaliųjų teisių konvencija</em> (JT, 2006), ratifikuota Lietuvos Respublikos (2010 m. įstatymas Nr. XI-854); jos 24 straipsnis įtvirtina teisę į įtraukųjį švietimą.",
+      "<em>Lietuvos Respublikos švietimo įstatymas</em> (pradinė redakcija Nr. I-1489, 1991 m.; nauja redakcija – 2011 m. kovo 17 d. įstatymas Nr. XI-1281); nustato švietimo sistemos principus, specialiųjų ugdymosi poreikių (SUP) tenkinimą ir įtraukųjį ugdymą.",
+      "<em>Mokinio specialiųjų ugdymosi poreikių (išskyrus atsirandančius dėl išskirtinių gabumų) pedagoginiu, psichologiniu, medicininiu ir socialiniu pedagoginiu aspektais įvertinimo ir specialiojo ugdymosi skyrimo tvarkos aprašas</em> (švietimo ir mokslo ministro 2011 m. įsakymas Nr. V-1795); reglamentuoja SUP vertinimą Pedagoginėje psichologinėje tarnyboje (PPT).",
+      "<em>Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymas</em> (Nr. I-1374, 1996 m.; iš esmės pakeistas 2018 m. įgyvendinant Bendrąjį duomenų apsaugos reglamentą (BDAR), Reglamentą (ES) 2016/679).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoginė diferenciacija – tai mokymo būdo pritaikymas, o ne lūkesčių mažinimas. Mokymosi tikslas gali būti vienodas visiems; skiriasi tik kelias jo link.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -6279,12 +6343,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.",
-        "Speciālās izglītības likums (1995, grozījumi) regulē atbalstu skolēniem ar speciālām vajadzībām.",
-        "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.",
+        "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Speciālās izglītības likums (1995, grozījumi) regulē atbalstu skolēniem ar speciālām vajadzībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "VPMC (Valsts pedagoģiski medicīniskā komisija) veic skolēnu novērtēšanu un piešķir speciālās izglītības statusu.",
+        "VPMC (Valsts pedagoģiski medicīniskā komisija) veic skolēnu novērtēšanu un piešķir speciālās izglītības statusu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "RPMC (rajona pedagoģiski medicīniskā komisija) koordinē atbalstu vietējā līmenī.",
         "Skolas psihologs (PPK, pedagoģiski psiholoģiskais centrs) nodrošina psiholoģisko atbalstu.",
       ]},
@@ -6300,16 +6364,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Integrācijas atbalsts ir pieejams jaunierašanās skolēniem caur pašvaldību dienestiem.",
       ]},
       { items: [
-        "Latvija ir ratificējusi ANO Konvenciju par personu ar invaliditāti tiesībām (CRPD).",
+        "Latvija ir ratificējusi ANO Konvenciju par personu ar invaliditāti tiesībām (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "ES direktīvas par iekļaujošo izglītību tiek ieviestas ar nacionālo tiesību aktiem.",
         "Ombuds ir tiesīgs izskatīt sūdzības par diskrimināciju izglītībā.",
       ]},
       { items: [
         "Vecākiem/aizbildņiem ir tiesības piedalīties IIP izstrādē un pārskatīšanā.",
         "Skolēns, sasniedzot 15 gadus, ir tiesīgs paust savu viedokli izglītības lēmumos.",
-        "Sūdzības par atbalsta nodrošināšanu var iesniegt pašvaldībai vai Izglītības un zinātnes ministrijai.",
+        "Sūdzības par atbalsta nodrošināšanu var iesniegt pašvaldībai vai Izglītības un zinātnes ministrijai. Datu aizsardzība: visi skolēnu dati tiek apstrādāti saskaņā ar VDAR un Fizisko personu datu apstrādes likumu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>ANO Konvencija par personu ar invaliditāti tiesībām</em> (ANO, 2006), ratificēta Latvijā (2010); tās 24. pants nosaka tiesības uz iekļaujošu izglītību.",
+      "<em>Izglītības likums</em> (pieņemts Saeimā 1998. gada 29. oktobrī, ar grozījumiem); nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām un veselības stāvokļa.",
+      "<em>Vispārējās izglītības likums</em> (1999) un agrākais Speciālās izglītības regulējums; nosaka atbalstu skolēniem ar speciālām vajadzībām un speciālās izglītības programmu īstenošanu.",
+      "<em>Ministru kabineta 2019. gada 19. novembra noteikumi Nr. 556</em> „Prasības vispārējās izglītības iestādēm, lai to īstenotajās izglītības programmās uzņemtu izglītojamos ar speciālām vajadzībām”; nosaka iekļaujošās izglītības principus valsts skolās.",
+      "<em>Fizisko personu datu apstrādes likums</em> (2018), kas piemēro Eiropas Savienības Vispārīgo datu aizsardzības regulu (VDAR / Regula (ES) 2016/679).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoģiskā diferenciācija ir veida pielāgošana, kā māca, nevis prasību pazemināšana. Mācīšanās mērķis var būt vienāds visiem; atšķiras tikai ceļš uz to.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -6606,9 +6677,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Põhikooli- ja gümnaasiumiseadus (PGS, 2010) reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist.",
-        "Koolieelse lasteasutuse seadus ja lastekaitse seadus täiendavad HEV-õpilaste kaitset.",
-        "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).",
+        "Põhikooli- ja gümnaasiumiseadus (PGS, 2010) reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Koolieelse lasteasutuse seadus ja lastekaitse seadus täiendavad HEV-õpilaste kaitset.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Rajaleidja, haridus- ja nõustamiskeskuste võrgustik, mis hindab HEV-õpilasi ja koostab soovitused.",
@@ -6616,7 +6687,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Koolipsühholoog ja sotsiaalpedagoog on kohustuslikud suurtes koolides.",
       ]},
       { items: [
-        "IÕK (individuaalne õppekava) koostatakse õpilastele, kes vajavad kohandatud õpet.",
+        "IÕK (individuaalne õppekava) koostatakse õpilastele, kes vajavad kohandatud õpet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tugiisik abistab õpilast igapäevases koolis toimetulekus.",
         "Individuaalne arenguvestlus toimub igal aastal iga õpilasega.",
         "Õpiabirühm pakub väiksemat gruppi tuge põhiainetes.",
@@ -6628,15 +6699,21 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Haridus- ja Teadusministeerium (HTM) vastutab hariduspoliitika ja HEV-suuniste eest.",
-        "Koolid peavad tagama juurdepääsetavuse ja kohandused vastavalt seadusele.",
+        "Koolid peavad tagama juurdepääsetavuse ja kohandused vastavalt seadusele.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Vanematel on õigus osaleda IÕK koostamisel ja hindamisotsustes.",
       ]},
       { items: [
         "Vanemad saavad pöörduda Rajaleidja keskusesse hindamis- ja nõustamisteenuseks.",
         "Koolivaidluste lahendamine toimub maavanemale (regionaalne tasand) või HTM-ile esitatud kaebuste kaudu.",
-        "Õpilastel on õigus saada teavet oma õiguste kohta hariduses.",
+        "Õpilastel on õigus saada teavet oma õiguste kohta hariduses. Andmekaitse: kõiki õpilaste andmeid töödeldakse vastavalt isikuandmete kaitse üldmäärusele (GDPR) ja isikuandmete kaitse seadusele.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>ÜRO puuetega inimeste õiguste konventsioon</em> (ÜRO, 2006), Eesti ratifitseeris 2012; selle artikkel 24 sätestab õiguse kaasavale haridusele.",
+      "<em>Põhikooli- ja gümnaasiumiseadus</em> (PGS; vastu võetud 9. juunil 2010, RT I 2010, 41, 240); reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist ja tugiteenuseid.",
+      "<em>Koolieelse lasteasutuse seadus</em> ja <em>lastekaitseseadus</em> (2014); täiendavad hariduslike erivajadustega laste kaitset ja tugimeetmeid.",
+      "<em>Isikuandmete kaitse seadus</em> (IKS, 2018), mis rakendab Euroopa Liidu isikuandmete kaitse üldmäärust (GDPR / määrus (EL) 2016/679).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoogiline diferentseerimine tähendab õpetamisviisi kohandamist, mitte ootuste alandamist. Õpieesmärk võib olla kõigil sama; erinev on üksnes tee selleni.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -6935,24 +7012,24 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Zakon o usmerjanju otrok s posebnimi potrebami (ZUOPP-1, 2011) ureja postopek usmerjanja in pravice otrok s posebnimi potrebami.",
-        "Zakon o osnovni šoli in Zakon o organizaciji in financiranju vzgoje in izobraževanja dopolnjujeta inkluzivno izobraževanje.",
-        "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).",
+        "<strong>Zakon o usmerjanju otrok s posebnimi potrebami</strong> (ZUOPP-1, 2011) ureja postopek usmerjanja in pravice otrok s posebnimi potrebami.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zakon o osnovni šoli in Zakon o organizaciji in financiranju vzgoje in izobraževanja dopolnjujeta inkluzivno izobraževanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Komisija za usmerjanje (pri Zavodu RS za šolstvo) oceni potrebe otroka in izda odločbo o usmeritvi.",
+        "Komisija za usmerjanje (pri Zavodu RS za šolstvo) oceni potrebe otroka in izda odločbo o usmeritvi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zavod RS za šolstvo (ZRSŠ) zagotavlja strokovno podporo šolam pri inkluziji.",
         "Šolska svetovalna služba (šolski psiholog, socialni pedagog, specialni pedagog) je ključna pri oblikovanju podpore.",
       ]},
       { items: [
-        "Individualiziran program (IP) se pripravi za vsakega otroka, usmerjenega v izobraževalni program s prilagojenim izvajanjem.",
-        "Dodatna strokovna pomoč (DSP) je financirana s strani ministrstva in se izvaja individualno ali v skupinah.",
+        "Individualiziran program (IP) se pripravi za vsakega otroka, usmerjenega v izobraževalni program s prilagojenim izvajanjem.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Dodatna strokovna pomoč (DSP) je financirana s strani ministrstva in se izvaja individualno ali v skupinah.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Asistent se lahko dodeli za podporo pri vsakodnevnem funkcioniranju v šoli.",
-        "Prilagojena šolska obveznost omogoča fleksibilnejše izvajanje obveznega šolanja.",
+        "Prilagojena šolska obveznost omogoča fleksibilnejše izvajanje obveznega šolanja.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Slovenščina kot drugi in tuji jezik (SDTJ) je namenjena učencem, katerih materinščina ni slovenščina.",
-        "Program za integracijo otrok priseljencev zagotavlja začetno jezykovno podporo.",
+        "Program za integracijo otrok priseljencev zagotavlja začetno jezikovno podporo.",
         "Medkulturni asistenti so na voljo v nekaterih šolah za podporo migrantskim učencem in njihovim družinam.",
       ]},
       { items: [
@@ -6961,11 +7038,17 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Šole morajo zagotoviti fizično dostopnost in prilagoditve v skladu z zakonodajo.",
       ]},
       { items: [
-        "Starši so enakovredni partnerji v postopku usmerjanja in pri oblikovanju IP.",
+        "Starši so enakovredni partnerji v postopku usmerjanja in pri oblikovanju IP.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Otrok je vključen v oblikovanje IP glede na starost in zmožnosti.",
-        "Pritožba zoper odločbo o usmeritvi se vloži pri Ministrstvu za izobraževanje v roku 15 dni.",
+        "Varstvo podatkov: podatki o učencih so urejeni z GDPR in Zakonom o varstvu osebnih podatkov (ZVOP-2); občutljivih informacij ne delite zunaj tima brez privolitve.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Konvencija ZN o pravicah invalidov</em> (CRPD, 2006), ki jo je Slovenija ratificirala (Uradni list RS – MP, št. 10/08); 24. člen določa pravico do vključujočega izobraževanja.",
+      "<em>Zakon o usmerjanju otrok s posebnimi potrebami (ZUOPP-1)</em> (Uradni list RS, št. 58/11 in nasl.); ureja postopek usmerjanja, individualizirani program (IP) in dodatno strokovno pomoč (DSP).",
+      "<em>Zakon o osnovni šoli (ZOsn)</em> in <em>Zakon o organizaciji in financiranju vzgoje in izobraževanja (ZOFVI)</em>; dopolnjujeta okvir vključujočega izobraževanja in delovanje šolske svetovalne službe.",
+      "<em>Zakon o varstvu osebnih podatkov (ZVOP-2)</em> (Uradni list RS, št. 163/22), ki v slovenski pravni red prenaša Splošno uredbo o varstvu podatkov (GDPR).",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Pedagoška diferenciacija pomeni prilagajanje načina poučevanja — ne pa zniževanje pričakovanj. Učni cilj je lahko za vse enak; razlikuje se pot do njega.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -7262,17 +7345,17 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Acht Oideachais 1998 bunaíonn creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.",
-        "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.",
-        "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).",
+        "Acht Oideachais 1998 bunaíonn creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "NCSE (An Chomhairle Náisiúnta um Oideachas Speisialta) comhordaíonn seirbhísí agus foirgníonn beartais cuimsiúcháin.",
+        "NCSE (An Chomhairle Náisiúnta um Oideachas Speisialta) comhordaíonn seirbhísí agus foirgníonn beartais cuimsiúcháin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Baill foirne tacaíochta scoile (SNA, Cúntóir Riachtanas Speisialta) tacaíonn le scoláirí i dtimpeallacht an ranga.",
         "NEPS (An tSeirbhís Náisiúnta Síceolaíochta Oideachais) déanann measúnú agus tacaíonn le scoláirí.",
       ]},
       { items: [
-        "IEP (Plean Oideachais Aonair) réamhshocraithe ag múinteoir acmhainne, tuismitheoirí agus NCSE.",
+        "IEP (Plean Oideachais Aonair) réamhshocraithe ag múinteoir acmhainne, tuismitheoirí agus NCSE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Múinteoirí Acmhainne agus Foghlaim-Tacaíochta cuireann tacaíocht dhíreach ar fáil laistigh den rang agus lasmuigh de.",
         "Cúntóirí Riachtanas Speisialta (SNAnna) cuireann cúnamh pearsanta ar fáil leis an scoláire.",
         "Measúnú síceolaíoch tríd NEPS nó trí chleachtas príobháideach mar shíol don IEP.",
@@ -7280,7 +7363,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Béarla mar Theanga Bhreise (EAL) ar fáil le haghaidh scoláirí a dtéann Gaeilge nó Béarla ar a gcomhscoláire.",
         "Cláir chuideachta teanga tacaíonn le scoláirí imirceacha agus dídeanaithe.",
-        "Tá an NCSE freagrach as tacaíocht a eagrú do scoláirí ón gcoigríoch.",
+        "Tá an NCSE freagrach as tacaíocht a eagrú do scoláirí ón gcoigríoch.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Roinn Oideachais agus Scileanna (DES) maoirsíonn beartas agus maoiniú le haghaidh scoláirí le riachtanais speisialta.",
@@ -7288,11 +7371,18 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ombudsman do Leanaí imscrúdaíonn gearáin ó thuismitheoirí faoi sheirbhísí oideachais.",
       ]},
       { items: [
-        "Tá tuismitheoirí ina bpáirtithe bunúsacha san IEP agus caithfear a dtoiliú a fháil do mheasúnú.",
+        "Tá tuismitheoirí ina bpáirtithe bunúsacha san IEP agus caithfear a dtoiliú a fháil do mheasúnú.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Is féidir le tuismitheoirí gearán a dhéanamh le NCSE nó leis an Ombudsman do Leanaí mura bhfuil siad sásta.",
-        "Tá teidlíochtaí scoláirí bunaithe ar thuarascálacha measúnaithe agus ar mholtaí NCSE.",
+        "Tá teidlíochtaí scoláirí bunaithe ar thuarascálacha measúnaithe agus ar mholtaí NCSE· tá cosc ar idirdhealú faoi na hAchtanna um Stádas Comhionann 2000–2018 agus tá sonraí na scoláirí faoi chosaint an Achta um Chosaint Sonraí 2018.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Coinbhinsiún na Náisiún Aontaithe ar Chearta Daoine faoi Mhíchumas</em> (CRPD, 2006), arna dhaingniú ag Éirinn in 2018; aithníonn Airteagal 24 an ceart chun oideachais chuimsithigh.",
+      "<em>An tAcht Oideachais 1998</em>; bunaíonn sé an creat reachtúil ginearálta don chóras oideachais agus tugann sé cearta do thuismitheoirí maidir le hoideachas a gcuid leanaí.",
+      "<em>An tAcht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu 2004</em> (EPSEN Act); príomhreachtaíocht na hÉireann maidir le riachtanais speisialta oideachais, a bhunaíonn an Chomhairle Náisiúnta um Oideachas Speisialta (NCSE) agus an ceart chun Plean Oideachais Aonair (IEP).",
+      "<em>An tAcht Míchumais 2005</em> agus na <em>hAchtanna um Stádas Comhionann 2000–2018</em>; leagann siad oibleagáidí ar sholáthraithe seirbhíse poiblí agus cuireann siad cosc ar idirdhealú i seirbhísí oideachais.",
+      "<em>An tAcht um Chosaint Sonraí 2018</em>, a chuireann an Rialachán Ginearálta maidir le Cosaint Sonraí (RGCS/GDPR) i bhfeidhm in Éirinn; tá sonraí uile na scoláirí faoina chosaint agus ní roinntear iad gan toiliú.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Is éard atá i gceist le difreálú oideolaíoch ná an chaoi a múintear a choigeartú — ní hé na hionchais a ísliú. Is féidir leis an sprioc foghlama a bheith mar an gcéanna do chách; is é an conair a athraíonn.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -7589,17 +7679,17 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "L-Att dwar l-Edukazzjoni (Kap. 327, 1988, emendat) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.",
-        "Il-Politika tal-Edukazzjoni Inklussiva (2019, ibbażata fuq ir-Rapport Bellerate) tartikolà l-approċċ Malti għall-bżonnijiet speċjali.",
-        "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).",
+        "L-Att dwar l-Edukazzjoni (Kap. 327, 1988, emendat) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Il-Politika tal-Edukazzjoni Inklussiva (2019, ibbażata fuq ir-Rapport Bellerate) tartikolà l-approċċ Malti għall-bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tibbenefikja mill-politika nazzjonali.",
+        "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tibbenefikja mill-politika nazzjonali.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "LSE (Learning Support Educator) jappoġġja lill-istudenti b'bżonnijiet speċjali fil-klassi regolari.",
-        "Id-Dipartiment tal-Inklużjoni u r-Riżorsi tal-Edukazzjoni (DIER) jimmaniġġja s-servizzi ta' bżonnijiet speċjali.",
+        "Id-Dipartiment tal-Inklużjoni u r-Riżorsi tal-Edukazzjoni (DIER) jimmaniġġja s-servizzi ta' bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Student Development Programme (SDP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.",
+        "Student Development Programme (SDP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Statement of Needs: dokument li jidentifika l-bżonnijiet ta' student wara stħarriġ professjonali.",
         "LSEs jappoġġjaw in-needful students fiċ-ċirkustanzi tal-klassi ordinarja.",
         "Psikologi skolastiċi huma disponibbli permezz tal-Iskejjel tal-Gvern u l-Ispjega tal-Edukazzjoni.",
@@ -7610,16 +7700,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Programmi ta' integrazzjon għal studenti migranti u refuġjati huma koordinati mill-Aġenzija tal-Inklużjoni.",
       ]},
       { items: [
-        "Il-Ministeru tal-Edukazzjoni u l-Impjieg jissorvelja l-politika u l-implimentazzjoni tal-inklużjoni.",
+        "Il-Ministeru tal-Edukazzjoni u l-Impjieg jissorvelja l-politika u l-implimentazzjoni tal-inklużjoni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Il-Kummissarju tal-Edukazzjoni jieħu l-ilmenti dwar id-drittijiet tal-edukazzjoni.",
         "L-iskejjel għandhom jipproduċu Pjan ta' Inklużjoni u jirreġistraw l-adattamenti li jsiru.",
       ]},
       { items: [
         "Il-ġenituri huma msejħa biex jipparteċipaw fl-SDP u fil-laqgħat ta' reviżjoni.",
         "L-istudenti għandhom id-dritt li jiġu informati dwar id-drittijiet tagħhom fl-edukazzjoni.",
-        "L-ilmenti jistgħu jiġu ppreżentati lill-Kummissarju tal-Edukazzjoni jew lill-Ombudsman.",
+        "L-ilmenti jistgħu jiġu ppreżentati lill-Kummissarju tal-Edukazzjoni jew lill-Ombudsman· id-data kollha tal-istudenti hija protetta taħt l-Att dwar il-Protezzjoni tad-Data (Kap. 586).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
-    ]},
+    ],
+    references: [
+      "<em>Il-Konvenzjoni tan-Nazzjonijiet Uniti dwar id-Drittijiet tal-Persuni b'Diżabilità</em> (CRPD, 2006), irratifikata minn Malta fl-2012; l-Artikolu 24 jistabbilixxi d-dritt għal edukazzjoni inklussiva.",
+      "<em>L-Att dwar l-Edukazzjoni (Kapitolu 327 tal-Liġijiet ta' Malta)</em>; il-qafas legali ġenerali tal-edukazzjoni li jobbliga l-aċċess u l-inklużjoni għat-tfal kollha ta' età skolastika.",
+      "<em>Politika dwar l-Edukazzjoni Inklussiva fl-Iskejjel</em> (Ministeru tal-Edukazzjoni, 2019); tartikola l-approċċ Malti għall-bżonnijiet edukattivi individwali, il-Learning Support Educators (LSE) u s-Student Development Programme (SDP).",
+      "<em>L-Att dwar l-Opportunitajiet Indaqs (Persuni b'Diżabilità) (Kapitolu 413 tal-Liġijiet ta' Malta)</em>; jiżgura li l-persuni b'diżabilità jgawdu l-istess drittijiet fundamentali mingħajr diskriminazzjoni u jistabbilixxi l-KNPD.",
+      "<em>L-Att dwar il-Protezzjoni tad-Data 2018 (Kapitolu 586 tal-Liġijiet ta' Malta)</em>, li jimplimenta r-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR); id-data kollha tal-istudenti hija protetta u ma tinqasamx mingħajr kunsens.",
+    ] },
     diferenciacao: { sections: [
       { items: [
         "Id-differenzjazzjoni pedagoġika tfisser li naġġustaw il-mod kif ngħallmu — mhux li nbaxxu l-aspettattivi. L-għan tat-tagħlim jista' jkun l-istess għal kulħadd; dak li jvarja huwa l-mogħdija.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
