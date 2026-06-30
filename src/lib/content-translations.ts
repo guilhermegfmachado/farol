@@ -105,33 +105,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Handwriting is difficult, slow, and frequently illegible, not through carelessness but due to genuine motor difficulty.",
-        "Difficulty with spatial organisation of notebook, managing materials, and sequencing steps.",
-        "May appear \"clumsy\", knocking over cups, bumping into furniture, difficulty in sports.",
-        "Disproportionate fatigue after tasks requiring sustained fine coordination.",
-        "The cognitive component is generally intact, frequent frustration between knowing and being able to show it.",
+        "Handwriting that is difficult, slow, and often illegible — from genuine motor difficulty, not carelessness.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Difficulty with the spatial organisation of the notebook, managing materials, and sequences of steps.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "May seem \"clumsy\" — spills cups, bumps into furniture, struggles in sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Disproportionate fatigue after tasks requiring sustained fine motor coordination.",
+        "Cognitive ability is usually intact — hence the frequent frustration between knowing and being able to show it.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>It is not</strong> laziness or lack of effort.",
-        "<strong>It is not</strong> just poor handwriting, it affects planning and sequencing of tasks.",
-        "<strong>It is not</strong> resolved by \"practising handwriting more\".",
+        "<strong>It is not</strong> laziness or a lack of effort.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>It is not</strong> just poor handwriting: the clinical term is Developmental Coordination Disorder (DCD), and it affects planning and motor sequencing, not only writing.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>It is not solved</strong> by \"practising handwriting more\": effective intervention is task-oriented, not rote repetition.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Allow use of keyboard/tablet for extended written work.",
-        "Reduce mechanical copying from the board, provide notes where relevant.",
-        "Provide explicit checklists for tasks with multiple steps.",
-        "Assess the product by its content, not its physical presentation.",
+        "Allow the use of a keyboard/tablet for longer pieces of writing.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Reduce mechanical copying from the board — provide notes where relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Provide explicit checklists for multi-step tasks.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Assess the work by its content, not its physical presentation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Explain what dyspraxia is in plain language, most parents/guardians have never heard the term.",
-        "Illegible handwriting is the biggest point of friction with parents/guardians, show that assessment now values content over form.",
-        "Suggest practical tools for home: voice dictation on a mobile phone for notes, keyboard for extended written work.",
-        "If there is a history of \"they're lazy\" or \"they don't try\" from previous years, name that directly.",
+        "Explain what dyspraxia is in plain language — most parents/guardians have never heard the term: \"it is a neurological difficulty with coordinating movement, not carelessness or a lack of effort\".",
+        "Illegible handwriting is the biggest point of friction with parents/guardians — showing that assessment now values content over form helps ease anxiety on both sides.",
+        "Suggest practical tools for home: voice dictation on the phone for notes, a keyboard for longer written work.",
+        "If there is a history of \"he/she is lazy\" or \"does not try\" in previous years, name it directly: \"I know you have heard that before — my reading is different\".",
       ]},
       { items: [
-        "Complete refusal to produce written work.",
-        "Social isolation in physical activity contexts.",
-        "Signs of somatised anxiety before written assessments.",
+        "Total refusal to produce written work.",
+        "Social isolation in physical-activity contexts.",
+        "Signs of somatised anxiety before written assessments — psychosocial distress is part of the picture.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -439,33 +439,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Escritura a mano difícil, lenta, frecuentemente ilegible, no por descuido sino por una dificultad motora real.",
-        "Dificultad en la organización espacial del cuaderno, gestión de materiales y secuenciación de pasos.",
-        "Puede parecer «torpe», derrama vasos, choca con muebles, tiene dificultades en educación física.",
-        "Cansancio desproporcionado tras tareas que requieren coordinación fina sostenida.",
-        "La componente cognitiva suele estar preservada, frustración frecuente entre saber y poder demostrarlo.",
+        "Escritura a mano difícil, lenta y a menudo ilegible, por una dificultad motora real, no por descuido.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Dificultad en la organización espacial del cuaderno, en la gestión de los materiales y en las secuencias de pasos.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Puede parecer «torpe»: derrama vasos, choca con los muebles, tiene dificultades en el deporte.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Cansancio desproporcionado tras tareas que exigen una coordinación motora fina sostenida.",
+        "El componente cognitivo suele estar preservado, de ahí la frecuente frustración entre saber y poder demostrarlo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>No es</strong> vagancia ni falta de esfuerzo.",
-        "<strong>No es</strong> simplemente mala caligrafía, afecta a la planificación y secuenciación de tareas.",
-        "<strong>No se resuelve</strong> con «practicar más la escritura».",
+        "<strong>No es</strong> pereza ni falta de aplicación.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>No es</strong> solo mala caligrafía: el término clínico es Trastorno del Desarrollo de la Coordinación (TDC) y afecta a la planificación y a la secuenciación motora, no solo a la escritura.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>No se resuelve</strong> «practicando más la escritura»: la intervención eficaz está orientada a la tarea, no a la repetición mecánica.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Permitir el uso de teclado/tableta en producciones escritas extensas.",
-        "Reducir la copia mecánica de la pizarra, proporcionar apuntes cuando sea relevante.",
-        "Facilitar listas de verificación explícitas para tareas con múltiples pasos.",
-        "Evaluar el producto por su contenido, no por su presentación física.",
+        "Permitir el uso del teclado o la tableta en producciones escritas extensas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Reducir la copia mecánica de la pizarra y facilitar apuntes cuando sea pertinente.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Proporcionar listas de verificación explícitas para las tareas de varios pasos.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evaluar el producto por su contenido, no por su presentación física.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Explicar qué es la dispraxia en lenguaje sencillo, la mayoría de las familias nunca han oído el término.",
-        "La caligrafía ilegible es el mayor punto de fricción con las familias, mostrar que la evaluación ahora valora el contenido y no la forma.",
-        "Sugerir herramientas prácticas para casa: dictado por voz en el móvil para apuntes, teclado para trabajos escritos extensos.",
-        "Si existe historial de «es vago/a» o «no se esfuerza» en cursos anteriores, nombrarlo directamente.",
+        "Explicar qué es la dispraxia en un lenguaje sencillo, ya que la mayoría de las familias nunca ha oído el término: «es una dificultad neurológica en la coordinación de los movimientos, no es descuido ni falta de esfuerzo».",
+        "La caligrafía ilegible es el punto de mayor fricción con las familias; mostrar que la evaluación ha pasado a valorar el contenido y no la forma ayuda a aliviar la ansiedad de ambas partes.",
+        "Sugerir herramientas prácticas para casa: el dictado por voz en el móvil para tomar apuntes y el teclado para los trabajos escritos extensos.",
+        "Si en años anteriores existió un historial de «es perezoso/a» o «no se esfuerza», nombrarlo directamente: «sé que ya ha oído eso antes; mi lectura es diferente».",
       ]},
       { items: [
-        "Rechazo total a producir trabajo escrito.",
+        "Rechazo total de la producción escrita.",
         "Aislamiento social en contextos de actividad física.",
-        "Señales de ansiedad somatizada antes de las evaluaciones escritas.",
+        "Signos de ansiedad somatizada antes de las evaluaciones escritas; el sufrimiento psicosocial forma parte del cuadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -773,33 +773,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Écriture manuscrite difficile, lente, souvent illisible, non par négligence mais par une vraie difficulté motrice.",
-        "Difficultés d'organisation spatiale du cahier, de gestion du matériel et de séquençage des étapes.",
-        "Peut paraître « maladroit », renverse des verres, se cogne dans les meubles, a des difficultés en sport.",
-        "Fatigue disproportionnée après les tâches exigeant une coordination fine soutenue.",
-        "La composante cognitive est généralement intacte, frustration fréquente entre savoir et pouvoir le montrer.",
+        "Écriture manuscrite difficile, lente et souvent illisible, en raison d'une réelle difficulté motrice, et non d'un manque de soin.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Difficulté dans l'organisation spatiale du cahier, dans la gestion du matériel et dans les séquences d'étapes.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Peut sembler « maladroit » : renverse des verres, se cogne aux meubles, éprouve des difficultés en sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fatigue disproportionnée après des tâches exigeant une coordination motrice fine soutenue.",
+        "La composante cognitive est généralement préservée, d'où la frustration fréquente entre savoir et pouvoir le montrer.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> de la paresse ou un manque d'application.",
-        "<strong>Ce n'est pas</strong> seulement une mauvaise écriture, cela affecte la planification et le séquençage des tâches.",
-        "<strong>Ce n'est pas</strong> résolu en « s'entraînant davantage à écrire ».",
+        "<strong>Ce n'est pas</strong> de la paresse ni un manque d'application.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ce n'est pas</strong> seulement une mauvaise écriture : le terme clinique est trouble développemental de la coordination (TDC) et il affecte la planification et la séquenciation motrice, pas seulement l'écriture.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Cela ne se résout pas</strong> en « s'entraînant davantage à écrire » : l'intervention efficace est orientée vers la tâche, et non vers la répétition mécanique.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Autoriser l'utilisation d'un clavier/tablette pour les productions écrites longues.",
-        "Réduire la copie mécanique au tableau, fournir des notes quand c'est pertinent.",
-        "Fournir des listes de contrôle explicites pour les tâches à plusieurs étapes.",
-        "Évaluer la production par son contenu, pas par sa présentation physique.",
+        "Autoriser l'usage du clavier ou de la tablette pour les productions écrites longues.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Réduire la copie mécanique du tableau et fournir des notes lorsque cela est pertinent.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Fournir des listes de contrôle explicites pour les tâches comportant plusieurs étapes.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Évaluer le travail sur son contenu, et non sur sa présentation matérielle.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Expliquer ce qu'est la dyspraxie en langage simple, la plupart des familles n'ont jamais entendu ce terme.",
-        "L'écriture illisible est le principal point de friction avec les familles, montrer que l'évaluation valorise désormais le contenu et non la forme.",
-        "Suggérer des outils pratiques pour la maison : dictée vocale sur le téléphone pour les notes, clavier pour les productions écrites longues.",
-        "S'il existe un historique de « il/elle est paresseux/se » ou « il/elle ne fait pas d'efforts » dans les années précédentes, le nommer directement.",
+        "Expliquer ce qu'est la dyspraxie dans un langage simple, car la plupart des parents n'ont jamais entendu ce terme : « c'est une difficulté neurologique dans la coordination des mouvements, ce n'est ni de la négligence ni un manque d'effort ».",
+        "L'écriture illisible est le point de friction le plus important avec les parents ; montrer que l'évaluation valorise désormais le contenu et non la forme aide à apaiser l'anxiété de part et d'autre.",
+        "Suggérer des outils pratiques à la maison : la dictée vocale sur le téléphone pour la prise de notes, le clavier pour les travaux écrits longs.",
+        "S'il existe un historique de « il/elle est paresseux·se » ou « il/elle ne fait pas d'efforts » au cours des années précédentes, le nommer directement : « je sais que vous avez déjà entendu cela ; mon interprétation est différente ».",
       ]},
       { items: [
-        "Refus total de produire un travail écrit.",
+        "Refus total de toute production écrite.",
         "Isolement social dans les contextes d'activité physique.",
-        "Signes d'anxiété somatisée avant les évaluations écrites.",
+        "Signes d'anxiété somatisée avant les évaluations écrites ; la souffrance psychosociale fait partie du tableau.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -1107,33 +1107,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Scrittura a mano difficile, lenta, spesso illeggibile, non per negligenza ma per una reale difficoltà motoria.",
-        "Difficoltà nell'organizzazione spaziale del quaderno, nella gestione dei materiali e nella sequenza dei passaggi.",
-        "Può sembrare «goffo», rovescia bicchieri, urta i mobili, ha difficoltà nelle attività fisiche.",
-        "Affaticamento sproporzionato dopo compiti che richiedono coordinazione fine sostenuta.",
-        "La componente cognitiva è generalmente intatta, frequente frustrazione tra il sapere e il riuscire a dimostrarlo.",
+        "Scrittura a mano difficile, lenta e spesso illeggibile, per una reale difficoltà motoria, non per trascuratezza.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Difficoltà nell'organizzazione spaziale del quaderno, nella gestione dei materiali e nelle sequenze di passaggi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Può sembrare «goffo»: rovescia i bicchieri, urta i mobili, ha difficoltà nello sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Stanchezza sproporzionata dopo compiti che richiedono una coordinazione motoria fine prolungata.",
+        "La componente cognitiva è generalmente preservata, da cui la frequente frustrazione tra il sapere e il riuscire a dimostrarlo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Non è</strong> pigrizia o mancanza di impegno.",
-        "<strong>Non è</strong> solo una cattiva calligrafia, riguarda la pianificazione e il sequenziamento dei compiti.",
-        "<strong>Non si risolve</strong> con «esercitarsi di più nella scrittura».",
+        "<strong>Non è</strong> pigrizia né mancanza di impegno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Non è</strong> solo una cattiva calligrafia: il termine clinico è disturbo dello sviluppo della coordinazione (DSC) e riguarda la pianificazione e la sequenziazione motoria, non solo la scrittura.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Non si risolve</strong> «esercitandosi di più nella scrittura»: l'intervento efficace è orientato al compito, non alla ripetizione meccanica.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Consentire l'uso di tastiera/tablet nelle produzioni scritte estese.",
-        "Ridurre la copia meccanica dalla lavagna, fornire appunti quando è opportuno.",
-        "Fornire checklist esplicite per i compiti con più passaggi.",
-        "Valutare il prodotto per il suo contenuto, non per la sua presentazione fisica.",
+        "Consentire l'uso della tastiera o del tablet nelle produzioni scritte estese.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ridurre la copiatura meccanica dalla lavagna e fornire appunti quando è opportuno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Fornire liste di controllo esplicite per i compiti a più passaggi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Valutare l'elaborato in base al contenuto, non alla presentazione fisica.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Spiegare cos'è la disprassia in linguaggio semplice, la maggior parte delle famiglie non ha mai sentito questo termine.",
-        "La calligrafia illeggibile è il principale punto di attrito con le famiglie, mostrare che la valutazione valorizza ora il contenuto e non la forma.",
-        "Suggerire strumenti pratici per casa: dettatura vocale sul cellulare per gli appunti, tastiera per le produzioni scritte estese.",
-        "Se esiste una storia di «è pigro/a» o «non si impegna» negli anni precedenti, nominarla direttamente.",
+        "Spiegare che cos'è la disprassia con un linguaggio semplice, poiché la maggior parte dei genitori non ha mai sentito questo termine: «è una difficoltà neurologica nella coordinazione dei movimenti, non è trascuratezza né mancanza di impegno».",
+        "La calligrafia illeggibile è il punto di maggiore attrito con i genitori; mostrare che la valutazione ora dà valore al contenuto e non alla forma aiuta ad alleviare l'ansia di entrambe le parti.",
+        "Suggerire strumenti pratici per casa: la dettatura vocale sul cellulare per prendere appunti, la tastiera per i lavori scritti estesi.",
+        "Se negli anni precedenti vi è stato un passato di «è pigro/a» o «non si impegna», nominarlo direttamente: «so che l'ha già sentito dire; la mia lettura è diversa».",
       ]},
       { items: [
-        "Rifiuto totale di produrre elaborati scritti.",
+        "Rifiuto totale della produzione scritta.",
         "Isolamento sociale nei contesti di attività fisica.",
-        "Segni di ansia somatizzata prima delle verifiche scritte.",
+        "Segni di ansia somatizzata prima delle verifiche scritte; la sofferenza psicosociale fa parte del quadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -1439,49 +1439,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Fortschreitende soziale Isolation trotz Vermittlungsversuchen.",
       ]},
     ]},
-    dispraxia: {
-      sections: [
-        {
-          items: [
-            "Handschrift ist schwierig, langsam und häufig unleserlich, nicht aus Nachlässigkeit, sondern aufgrund echter motorischer Schwierigkeiten.",
-            "Schwierigkeiten bei der räumlichen Organisation des Heftes, der Materialverwaltung und dem Befolgen von Schrittabfolgen.",
-            "Kann \"tollpatschig\" wirken, verschüttet Getränke, stößt gegen Möbel, hat Schwierigkeiten im Sport.",
-            "Unverhältnismäßige Müdigkeit nach Aufgaben, die anhaltende Feinmotorik erfordern.",
-            "Die kognitive Komponente ist in der Regel erhalten, häufige Frustration über die Lücke zwischen Wissen und Zeigen können."
-          ]
-        },
-        {
-          items: [
-            "<strong>Keine</strong> Faulheit oder mangelnder Einsatz.",
-            "<strong>Nicht</strong> nur schlechte Handschrift, betrifft die Planung und Sequenzierung von Aufgaben.",
-            "<strong>Nicht</strong> durch \"mehr Schreiben üben\" lösbar."
-          ]
-        },
-        {
-          items: [
-            "Verwendung von Tastatur/Tablet bei längeren schriftlichen Arbeiten erlauben.",
-            "Mechanisches Abschreiben von der Tafel reduzieren, ggf. Notizen bereitstellen.",
-            "Explizite Checklisten für Aufgaben mit mehreren Schritten bereitstellen.",
-            "Das Ergebnis nach dem Inhalt bewerten, nicht nach der äußeren Darstellung."
-          ]
-        },
-        {
-          items: [
-            "Erklären, was Dyspraxie ist, in einfacher Sprache, die meisten Erziehungsberechtigten haben den Begriff noch nie gehört.",
-            "Die unleserliche Handschrift ist der häufigste Reibungspunkt mit den Erziehungsberechtigten.",
-            "Praktische Hilfsmittel für zu Hause vorschlagen: Spracheingabe, Tastatur für längere Arbeiten.",
-            "Wenn in früheren Jahren von \"Faulheit\" gesprochen wurde, dies direkt ansprechen."
-          ]
-        },
-        {
-          items: [
-            "Vollständige Verweigerung schriftlicher Produktion.",
-            "Soziale Isolation in körperlichen Aktivitätskontexten.",
-            "Anzeichen von somatisierter Angst vor schriftlichen Prüfungen."
-          ]
-        }
-      ]
-    },
+    dispraxia: { sections: [
+      { items: [
+        "Die Handschrift ist mühsam, langsam und oft unleserlich – aufgrund einer echten motorischen Schwierigkeit, nicht aus Nachlässigkeit.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Schwierigkeiten bei der räumlichen Organisation des Heftes, beim Umgang mit Materialien und bei Handlungsabfolgen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kann „ungeschickt“ wirken – verschüttet Getränke, stößt an Möbel, hat Schwierigkeiten im Sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Unverhältnismäßige Erschöpfung nach Aufgaben, die eine anhaltende feinmotorische Koordination erfordern.",
+        "Die kognitive Komponente ist in der Regel erhalten – daher die häufige Frustration zwischen Wissen und der Fähigkeit, es zeigen zu können.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Es ist keine</strong> Faulheit oder mangelnder Einsatz.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Es ist nicht</strong> nur eine schlechte Handschrift: Der klinische Begriff lautet Entwicklungsbezogene Koordinationsstörung (UEMF) und betrifft die motorische Planung und Sequenzierung, nicht nur das Schreiben.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Es lässt sich nicht</strong> durch „mehr Schreibübungen“ beheben: Eine wirksame Intervention ist aufgabenorientiert, nicht mechanische Wiederholung.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Den Einsatz von Tastatur/Tablet bei umfangreichen schriftlichen Arbeiten erlauben.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Das mechanische Abschreiben von der Tafel reduzieren – bei Bedarf Notizen bereitstellen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Explizite Checklisten für mehrschrittige Aufgaben bereitstellen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Das Ergebnis nach dem Inhalt bewerten, nicht nach der äußeren Darstellung.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Erklären Sie in einfacher Sprache, was Dyspraxie ist – die meisten Erziehungsberechtigten haben den Begriff noch nie gehört: „Es ist eine neurologische Schwierigkeit bei der Koordination von Bewegungen, keine Nachlässigkeit und kein mangelnder Einsatz“.",
+        "Die unleserliche Handschrift ist der größte Reibungspunkt mit den Erziehungsberechtigten – zu zeigen, dass die Bewertung nun den Inhalt und nicht die Form gewichtet, hilft, die Angst auf beiden Seiten zu lindern.",
+        "Schlagen Sie praktische Hilfsmittel für zu Hause vor: Spracheingabe am Handy für Notizen, Tastatur für umfangreiche schriftliche Arbeiten.",
+        "Wenn es in früheren Jahren ein „er/sie ist faul“ oder „er/sie strengt sich nicht an“ gab, benennen Sie das direkt: „Ich weiß, dass Sie das schon einmal gehört haben – meine Einschätzung ist eine andere“.",
+      ]},
+      { items: [
+        "Vollständige Verweigerung schriftlicher Arbeiten.",
+        "Soziale Isolation in Kontexten körperlicher Aktivität.",
+        "Anzeichen somatisierter Angst vor schriftlichen Prüfungen – das psychosoziale Leiden ist Teil des Krankheitsbildes.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     sobredotacao: {
       sections: [
         {
@@ -1840,49 +1828,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Voortschrijdend sociaal isolement ondanks pogingen tot bemiddeling.",
       ]},
     ]},
-    dispraxia: {
-      sections: [
-        {
-          items: [
-            "Handschrift is moeilijk, traag en vaak onleesbaar, niet door onzorgvuldigheid, maar door echte motorische moeilijkheden.",
-            "Moeite met ruimtelijke organisatie van het schrift, materiaalbeheersing en het volgen van stappenreeksen.",
-            "Kan \"onhandig\" lijken, morst dranken, botst tegen meubilair, heeft moeite met sport.",
-            "Onevenredige vermoeidheid na taken die aanhoudende fijne motoriek vereisen.",
-            "De cognitieve component is over het algemeen intact, frequente frustratie over de kloof tussen weten en kunnen laten zien."
-          ]
-        },
-        {
-          items: [
-            "<strong>Geen</strong> luiheid of gebrek aan inzet.",
-            "<strong>Niet</strong> alleen slechte handschrift, het beïnvloedt de planning en volgordebepaling van taken.",
-            "<strong>Niet</strong> op te lossen met \"meer handschriftoefening\"."
-          ]
-        },
-        {
-          items: [
-            "Gebruik van toetsenbord/tablet bij langere schriftelijke opdrachten toestaan.",
-            "Mechanisch kopiëren van het bord verminderen, indien relevant aantekeningen verstrekken.",
-            "Expliciete checklists bieden voor taken met meerdere stappen.",
-            "Het product beoordelen op inhoud, niet op uiterlijke presentatie."
-          ]
-        },
-        {
-          items: [
-            "In eenvoudige taal uitleggen wat dyspraxie is, de meeste ouders/verzorgers hebben de term nog nooit gehoord.",
-            "Het onleesbare handschrift is het grootste frictiepunt met ouders/verzorgers.",
-            "Praktische hulpmiddelen voor thuis voorstellen: spraakdicteerfunctie, toetsenbord voor langere opdrachten.",
-            "Als in eerdere jaren van \"luiheid\" werd gesproken, dit direct aanspreken."
-          ]
-        },
-        {
-          items: [
-            "Volledig weigeren van schriftelijke productie.",
-            "Sociale isolatie in contexten van lichamelijke activiteit.",
-            "Tekenen van gesomatiseerde angst vóór schriftelijke toetsen."
-          ]
-        }
-      ]
-    },
+    dispraxia: { sections: [
+      { items: [
+        "Het handschrift is moeizaam, traag en vaak onleesbaar – door een echte motorische moeilijkheid, niet door slordigheid.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Moeite met de ruimtelijke ordening van het schrift, met het beheer van materialen en met stappenreeksen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan ‘onhandig’ lijken – morst drankjes, stoot tegen meubels, heeft moeite met sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Onevenredige vermoeidheid na taken die een aanhoudende fijnmotorische coördinatie vereisen.",
+        "De cognitieve component is doorgaans intact – vandaar de veelvuldige frustratie tussen het weten en het kunnen tonen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Het is geen</strong> luiheid of gebrek aan inzet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Het is niet</strong> alleen een slecht handschrift: de klinische term is Developmental Coordination Disorder (DCD) en het treft de motorische planning en sequencing, niet alleen het schrijven.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Het wordt niet opgelost</strong> met ‘meer schrijven oefenen’: een doeltreffende interventie is taakgericht, geen mechanische herhaling.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Het gebruik van toetsenbord/tablet toestaan bij uitgebreide schrijfopdrachten.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Het mechanisch overschrijven van het bord beperken – notities verstrekken wanneer relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Expliciete checklists bieden voor taken met meerdere stappen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Het product beoordelen op de inhoud, niet op de fysieke presentatie.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Leg in eenvoudige taal uit wat dyspraxie is – de meeste ouders/verzorgers hebben de term nog nooit gehoord: ‘het is een neurologische moeilijkheid in de coördinatie van bewegingen, geen slordigheid en geen gebrek aan inspanning’.",
+        "Het onleesbare handschrift is het grootste wrijvingspunt met ouders/verzorgers – laten zien dat de beoordeling nu de inhoud waardeert en niet de vorm, helpt de angst aan beide kanten te verlichten.",
+        "Stel praktische hulpmiddelen voor thuis voor: spraakdictee op de telefoon voor notities, een toetsenbord voor uitgebreide schrijfopdrachten.",
+        "Als er in voorgaande jaren een geschiedenis is van ‘hij/zij is lui’ of ‘doet geen moeite’, benoem dat dan rechtstreeks: ‘ik weet dat u dit al eerder hebt gehoord – mijn beeld is anders’.",
+      ]},
+      { items: [
+        "Volledige weigering van schriftelijk werk.",
+        "Sociaal isolement in contexten van lichamelijke activiteit.",
+        "Tekenen van gesomatiseerde angst vóór schriftelijke toetsen – het psychosociale lijden maakt deel uit van het beeld.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     sobredotacao: {
       sections: [
         {
@@ -2241,49 +2217,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Postępująca izolacja społeczna mimo prób mediacji.",
       ]},
     ]},
-    dispraxia: {
-      sections: [
-        {
-          items: [
-            "Pismo odręczne jest trudne, wolne i często nieczytelne, nie z powodu niedbałości, lecz z powodu rzeczywistych trudności motorycznych.",
-            "Trudności z przestrzenną organizacją zeszytu, zarządzaniem materiałami, sekwencjami kroków.",
-            "Może sprawiać wrażenie \"niezdarnego\", przelewa napoje, wchodzi w meble, ma trudności w sporcie.",
-            "Nieproporcjonalne zmęczenie po zadaniach wymagających długotrwałej motoryki precyzyjnej.",
-            "Komponent poznawczy jest zazwyczaj zachowany, częsta frustracja między wiedzą a możliwością jej pokazania."
-          ]
-        },
-        {
-          items: [
-            "<strong>To nie jest</strong> lenistwo ani brak zaangażowania.",
-            "<strong>To nie jest</strong> tylko złe pismo, dotyczy planowania i sekwencjonowania zadań.",
-            "<strong>Nie rozwiąże się tego</strong> przez \"więcej ćwiczeń w pisaniu\"."
-          ]
-        },
-        {
-          items: [
-            "Zezwalać na używanie klawiatury/tabletu przy dłuższych pracach pisemnych.",
-            "Ograniczać mechaniczne przepisywanie z tablicy, w razie potrzeby dostarczać notatki.",
-            "Dostarczać wyraźne listy kontrolne do zadań składających się z wielu kroków.",
-            "Oceniać produkt według treści, a nie wyglądu zewnętrznego."
-          ]
-        },
-        {
-          items: [
-            "Wyjaśnić, czym jest dyspraksja, prostym językiem, większość rodziców/opiekunów nigdy nie słyszała tego terminu.",
-            "Nieczytelne pismo jest największym źródłem tarcia z rodzicami/opiekunami.",
-            "Proponować praktyczne narzędzia do użytku w domu: dyktowanie głosowe, klawiatura do dłuższych prac.",
-            "Jeśli w poprzednich latach mówiono o \"lenistwie\", odnieść się do tego bezpośrednio."
-          ]
-        },
-        {
-          items: [
-            "Całkowita odmowa pisemnej produkcji.",
-            "Izolacja społeczna w kontekstach aktywności fizycznej.",
-            "Oznaki somatyzowanego lęku przed pisemnymi sprawdzianami."
-          ]
-        }
-      ]
-    },
+    dispraxia: { sections: [
+      { items: [
+        "Pismo odręczne trudne, powolne i często nieczytelne — z powodu rzeczywistej trudności motorycznej, a nie niedbalstwa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Trudność w przestrzennej organizacji zeszytu, w zarządzaniu materiałami oraz w sekwencjach kroków.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Może sprawiać wrażenie „niezdarnego” — rozlewa napoje, wpada na meble, ma trudności w sporcie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nieproporcjonalne zmęczenie po zadaniach wymagających długotrwałej precyzyjnej koordynacji.",
+        "Sfera poznawcza jest zazwyczaj zachowana — stąd częsta frustracja między wiedzą a możliwością jej okazania.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>To nie</strong> lenistwo ani brak zaangażowania.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>To nie</strong> tylko brzydki charakter pisma: termin kliniczny to rozwojowe zaburzenie koordynacji (DCD) i dotyczy ono planowania oraz sekwencjonowania ruchowego, a nie tylko pisania.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie rozwiązuje się</strong> tego przez „więcej ćwiczenia pisania”: skuteczna interwencja jest ukierunkowana na zadanie, a nie na mechaniczne powtarzanie.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Pozwalać na korzystanie z klawiatury/tabletu przy obszerniejszych pracach pisemnych.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ograniczać mechaniczne przepisywanie z tablicy — udostępniać notatki, gdy to istotne.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Dostarczać jasnych list kontrolnych do zadań wieloetapowych.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Oceniać efekt według treści, a nie według fizycznej prezentacji.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Wyjaśnić, czym jest dyspraksja, prostym językiem — większość rodziców nigdy nie słyszała tego terminu: „to neurologiczna trudność w koordynacji ruchów, a nie niedbalstwo ani brak wysiłku”.",
+        "Nieczytelne pismo jest punktem największego napięcia z rodzicami — pokazanie, że ocena zaczęła doceniać treść, a nie formę, pomaga złagodzić niepokój po obu stronach.",
+        "Sugerować praktyczne narzędzia do domu: dyktowanie głosowe w telefonie do robienia notatek, klawiaturę do obszernych prac pisemnych.",
+        "Jeśli w poprzednich latach pojawiały się określenia „jest leniwy/a” lub „nie stara się”, nazwać to wprost: „wiem, że słyszał(a) pan(i) to już wcześniej — moja interpretacja jest inna”.",
+      ]},
+      { items: [
+        "Całkowita odmowa wykonywania prac pisemnych.",
+        "Izolacja społeczna w kontekstach aktywności fizycznej.",
+        "Objawy somatyzowanego lęku przed sprawdzianami pisemnymi — cierpienie psychospołeczne jest częścią obrazu klinicznego.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     sobredotacao: {
       sections: [
         {
@@ -2642,49 +2606,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izolare socială progresivă în ciuda încercărilor de mediere.",
       ]},
     ]},
-    dispraxia: {
-      sections: [
-        {
-          items: [
-            "Scriere de mână dificilă, lentă, frecvent ilizibilă, nu din neglijență, ci din cauza unor dificultăți motorii reale.",
-            "Dificultăți în organizarea spațială a caietului, gestionarea materialelor, secvențele de pași.",
-            "Poate părea \"neîndemânatic\", varsă pahare, se lovește de mobilă, are dificultăți la sport.",
-            "Oboseală disproporționată după sarcini care necesită motricitate fină susținută.",
-            "Componenta cognitivă este în general păstrată, frustrare frecventă între a ști și a putea arăta."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu este</strong> lene sau lipsă de aplicare.",
-            "<strong>Nu este</strong> doar scris de mână prost, afectează planificarea și secvențierea sarcinilor.",
-            "<strong>Nu se rezolvă</strong> prin \"mai mult antrenament în scriere\"."
-          ]
-        },
-        {
-          items: [
-            "Permiterea utilizării tastaturii/tabletei la lucrări scrise extinse.",
-            "Reducerea copierii mecanice de pe tablă, furnizarea de notițe când este relevant.",
-            "Furnizarea de liste de verificare explicite pentru sarcini cu mai mulți pași.",
-            "Evaluarea produsului după conținut, nu după prezentarea fizică."
-          ]
-        },
-        {
-          items: [
-            "Explicarea în limbaj simplu ce este dispraxia, majoritatea părinților/tutorilor nu au auzit niciodată termenul.",
-            "Scrierea ilizibilă este punctul de cea mai mare fricțiune cu părinții/tutorii.",
-            "Sugerearea unor instrumente practice pentru acasă: dictare vocală, tastatură pentru lucrări extinse.",
-            "Dacă există un istoric de \"este leneș/leneșă\" în anii precedenți, abordați acest lucru direct."
-          ]
-        },
-        {
-          items: [
-            "Refuz total al producției scrise.",
-            "Izolare socială în contexte de activitate fizică.",
-            "Semne de anxietate somatizată înaintea evaluărilor scrise."
-          ]
-        }
-      ]
-    },
+    dispraxia: { sections: [
+      { items: [
+        "Scris de mână dificil, lent și adesea ilizibil, din cauza unei dificultăți motorii reale, nu din neglijență.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Dificultate în organizarea spațială a caietului, în gestionarea materialelor și în secvențele de pași.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Poate părea „neîndemânatic”: varsă paharele, se lovește de mobilier, are dificultăți la sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Oboseală disproporționată după sarcini care necesită o coordonare motorie fină susținută.",
+        "Componenta cognitivă este de obicei păstrată, de aici frustrarea frecventă dintre a ști și a putea demonstra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> lene sau lipsă de implicare.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nu este</strong> doar un scris urât: termenul clinic este tulburare de dezvoltare a coordonării (TDC) și afectează planificarea și secvențierea motorie, nu doar scrisul.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nu se rezolvă</strong> prin „exersarea mai intensă a scrisului”: intervenția eficientă este orientată către sarcină, nu către repetiția mecanică.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Permiterea utilizării tastaturii sau a tabletei în producțiile scrise extinse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Reducerea copierii mecanice de pe tablă și furnizarea de notițe atunci când este relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Furnizarea de liste de verificare explicite pentru sarcinile cu mai mulți pași.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evaluarea lucrării după conținut, nu după prezentarea fizică.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Explicarea în termeni simpli a ceea ce este dispraxia, deoarece majoritatea părinților nu au auzit niciodată acest termen: „este o dificultate neurologică în coordonarea mișcărilor, nu este neglijență și nici lipsă de efort”.",
+        "Scrisul ilizibil este punctul de cel mai mare conflict cu părinții; a arăta că evaluarea valorizează acum conținutul și nu forma ajută la diminuarea anxietății ambelor părți.",
+        "Sugerarea unor instrumente practice pentru acasă: dictarea vocală pe telefon pentru notițe, tastatura pentru lucrările scrise extinse.",
+        "Dacă în anii anteriori a existat un istoric de „este leneș/leneșă” sau „nu depune efort”, numiți acest lucru direct: „știu că ați mai auzit asta; interpretarea mea este diferită”.",
+      ]},
+      { items: [
+        "Refuzul total al producției scrise.",
+        "Izolare socială în contextele de activitate fizică.",
+        "Semne de anxietate somatizată înaintea evaluărilor scrise; suferința psihosocială face parte din tablou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+    ]},
     sobredotacao: {
       sections: [
         {
@@ -3048,33 +3000,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Rukopis je težak, spor i često nečitak, ne zbog nemara, već zbog stvarnih motoričkih teškoća.",
-        "Teškoće s prostornom organizacijom bilježnice, upravljanjem materijalima, slijedom koraka.",
-        "Može izgledati nespretno, prelijeva čaše, udara u namještaj, teškoće u tjelesnom odgoju.",
-        "Nerazmjerni umor nakon zadataka koji zahtijevaju dugotrajnu finu motoričku koordinaciju.",
-        "Kognitivna komponenta je općenito očuvana, česta frustracija između znanja i izvedbe.",
+        "Rukopis je otežan, spor i često nečitak — zbog stvarne motoričke teškoće, a ne nemara.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Teškoća u prostornoj organizaciji bilježnice, u upravljanju priborom i u nizovima koraka.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Može djelovati „nespretno” — prolijeva piće, zalijeće se u namještaj, ima teškoće u sportu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nesrazmjeran umor nakon zadataka koji zahtijevaju dugotrajnu finu koordinaciju.",
+        "Spoznajna je sastavnica obično očuvana — otuda česta frustracija između onoga što dijete zna i onoga što može pokazati.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nije</strong> lijenost ni nedostatak truda.",
-        "<strong>Nije</strong> samo loš rukopis, utječe na planiranje i slijed zadataka.",
-        "<strong>Ne rješava se</strong> «više vježbanja pisanja».",
+        "<strong>Nije</strong> lijenost ni nedostatak truda.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nije</strong> samo loš rukopis: klinički je naziv razvojni poremećaj koordinacije (DCD) i zahvaća planiranje i motoričko nizanje, ne samo pisanje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne rješava se</strong> tako da se „više vježba pisanje”: učinkovita je intervencija usmjerena na zadatak, a ne na mehaničko ponavljanje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Dopustiti tipkovnicu/tablet za dulje pisane radove.",
-        "Smanjiti mehaničko prepisivanje s ploče, osigurati bilješke kad je potrebno.",
-        "Osigurati eksplicitne kontrolne liste za zadatke s više koraka.",
-        "Vrednovati rad prema sadržaju, a ne prema fizičkoj prezentaciji.",
+        "Dopustiti uporabu tipkovnice/tableta u opsežnijim pisanim radovima.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Smanjiti mehaničko prepisivanje s ploče — pružiti bilješke kada je to relevantno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Pružati jasne kontrolne popise za zadatke s više koraka.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Procjenjivati uradak prema sadržaju, a ne prema fizičkom izgledu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Objasniti dispraksiju jednostavnim riječima, većina roditelja nikad nije čula taj termin.",
-        "Nečitak rukopis je najveća točka trenja s roditeljima, pokazati da vrednovanje sada cijeni sadržaj.",
-        "Predložiti praktične alate za kuću: glasovni unos za bilješke, tipkovnicu za dulje pisanje.",
-        "Ako postoji povijest etikete «lijen/a» iz prethodnih godina, izravno to nazvati.",
+        "Objasniti što je dispraksija jednostavnim jezikom — većina roditelja nikada nije čula taj naziv: „to je neurološka teškoća u koordinaciji pokreta, a ne nemar ni nedostatak truda”.",
+        "Nečitak je rukopis točka najvećeg trvenja s roditeljima — pokazati da vrednovanje sada cijeni sadržaj, a ne oblik, pomaže ublažiti tjeskobu s obje strane.",
+        "Predložiti praktične alate za kod kuće: glasovni diktat na mobitelu za bilješke, tipkovnicu za opsežne pisane radove.",
+        "Ako su se prethodnih godina pojavljivale oznake „lijen je/lijena je” ili „ne trudi se”, imenovati to izravno: „znam da ste to već čuli — moje je tumačenje drukčije”.",
       ]},
       { items: [
-        "Potpuno odbijanje pisanog rada.",
-        "Socijalna izolacija u kontekstu tjelesnih aktivnosti.",
-        "Znakovi somatizacijske anksioznosti prije pisanih provjera.",
+        "Potpuno odbijanje pisane produkcije.",
+        "Socijalna izolacija u kontekstima tjelesne aktivnosti.",
+        "Znakovi somatizirane tjeskobe prije pisanih provjera — psihosocijalna patnja dio je kliničke slike.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -3380,33 +3332,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Písmo je obtížné, pomalé a často nečitelné, ne z nedbalosti, ale kvůli skutečným motorickým obtížím.",
-        "Obtíže s prostorovou organizací sešitu, práci s pomůckami a sekvencováním kroků.",
-        "Může působit «neobratně», převrhuje hrníčky, naráží do nábytku, obtíže v tělesné výchově.",
-        "Nepřiměřená únava po úkolech vyžadujících trvalou jemnou motorickou koordinaci.",
-        "Kognitivní složka je obecně zachována, časté frustrace mezi věděním a předvedením.",
+        "Rukopis obtížný, pomalý a často nečitelný — kvůli skutečné motorické obtíži, nikoli z nedbalosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Obtíž v prostorovém uspořádání sešitu, ve správě pomůcek a v sekvencích kroků.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Může působit „nešikovně“ — rozlévá nápoje, naráží do nábytku, má potíže ve sportu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nepřiměřená únava po úkolech, které vyžadují dlouhodobou jemnou koordinaci.",
+        "Poznávací složka bývá obvykle zachována — odtud častá frustrace mezi tím, co dítě umí, a tím, co dokáže ukázat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Není</strong> to lenost ani nedostatek snahy.",
-        "<strong>Není</strong> to jen špatné písmo, ovlivňuje plánování a sekvencování úkolů.",
-        "<strong>Neřeší se</strong> «více procvičovat psaní».",
+        "<strong>Není to</strong> lenost ani nedostatek snahy.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Není to</strong> jen špatný rukopis: klinickým termínem je vývojová porucha koordinace (DCD) a postihuje plánování a motorické sekvencování, nejen psaní.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nevyřeší se to</strong> tím, že se „bude víc trénovat psaní“: účinná intervence je zaměřená na úkol, nikoli na mechanické opakování.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Umožnit použití klávesnice/tabletu pro delší písemné práce.",
-        "Omezit mechanické opisování z tabule, poskytnout poznámky tam, kde je to relevantní.",
-        "Poskytovat explicitní kontrolní seznamy pro úkoly s více kroky.",
-        "Hodnotit práci podle obsahu, nikoli fyzické prezentace.",
+        "Umožnit používání klávesnice/tabletu u rozsáhlejších písemných prací.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Omezit mechanické opisování z tabule — poskytnout poznámky, je-li to relevantní.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Poskytovat jasné kontrolní seznamy pro úkoly s více kroky.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Hodnotit výsledek podle obsahu, nikoli podle fyzické úpravy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Vysvětlit dyspraxii jednoduchými slovy, většina rodičů tento termín nikdy neslyšela.",
-        "Nečitelné písmo je největším třecím bodem s rodiči, ukázat, že hodnocení nyní oceňuje obsah.",
-        "Navrhnout praktické nástroje pro domácnost: hlasový diktát pro poznámky, klávesnici pro delší psaní.",
-        "Pokud existuje historie nálepky «líný/á» z předchozích let, pojmenovat to přímo.",
+        "Vysvětlit, co je dyspraxie, jednoduchým jazykem — většina rodičů tento termín nikdy neslyšela: „je to neurologická obtíž v koordinaci pohybů, není to nedbalost ani nedostatek snahy“.",
+        "Nečitelný rukopis je bodem největšího napětí s rodiči — ukázat, že hodnocení nyní oceňuje obsah, a ne formu, pomáhá zmírnit úzkost na obou stranách.",
+        "Navrhnout praktické nástroje pro domácí použití: hlasový diktát v mobilu na poznámky, klávesnici na rozsáhlé písemné práce.",
+        "Pokud se v předchozích letech objevila označení „je líný/líná“ nebo „nesnaží se“, pojmenovat to přímo: „vím, že jste to už slyšel/a dříve — můj pohled je jiný“.",
       ]},
       { items: [
-        "Úplné odmítání písemného výstupu.",
-        "Sociální izolace v kontextu tělesných aktivit.",
-        "Příznaky somatizované úzkosti před písemnými zkouškami.",
+        "Úplné odmítání písemné produkce.",
+        "Sociální izolace v kontextech fyzické aktivity.",
+        "Známky somatizované úzkosti před písemnými testy — psychosociální utrpení je součástí klinického obrazu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -3712,33 +3664,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Handstil är svår, långsam och ofta oläslig, inte av slarv utan på grund av verkliga motoriska svårigheter.",
-        "Svårigheter med rumslig organisation i häften, hantering av material och sekvensering av steg.",
-        "Kan verka «klumpig», välter koppar, stöter i möbler, svårigheter på idrotten.",
-        "Oproportionerlig trötthet efter uppgifter som kräver uthållig finmotorisk koordination.",
-        "Den kognitiva komponenten är generellt bevarad, frekvent frustration mellan att veta och att visa.",
+        "Handstilen är mödosam, långsam och ofta oläslig – på grund av en verklig motorisk svårighet, inte på grund av slarv.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Svårigheter med den rumsliga organiseringen av skrivboken, med hanteringen av material och med stegvisa sekvenser.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan verka ”klumpig” – spiller ut drycker, krockar med möbler, har svårt med idrott.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Oproportionerlig trötthet efter uppgifter som kräver ihållande finmotorisk koordination.",
+        "Den kognitiva komponenten är vanligtvis bevarad – därav den vanliga frustrationen mellan att veta och att kunna visa det.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det är inte</strong> lathet eller brist på ansträngning.",
-        "<strong>Det är inte</strong> bara dålig handstil, det påverkar planering och sekvensering av uppgifter.",
-        "<strong>Det löses inte</strong> med «att öva mer på handstil».",
+        "<strong>Det är inte</strong> lättja eller bristande engagemang.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det är inte</strong> bara dålig handstil: den kliniska termen är utvecklingsrelaterad koordinationsstörning (DCD) och den påverkar den motoriska planeringen och sekvenseringen, inte bara skrivandet.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det löses inte</strong> med ”att träna mer på att skriva”: en effektiv intervention är uppgiftsorienterad, inte mekanisk upprepning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tillåt användning av tangentbord/platta för längre skriftliga arbeten.",
-        "Minska mekanisk avskrivning från tavlan, ge anteckningar när det är relevant.",
-        "Tillhandahåll explicita checklistor för uppgifter med flera steg.",
-        "Bedöm produkten efter innehåll, inte fysisk presentation.",
+        "Tillåta användning av tangentbord/surfplatta vid omfattande skriftliga arbeten.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Minska det mekaniska avskrivandet från tavlan – tillhandahålla anteckningar när det är relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tillhandahålla tydliga checklistor för uppgifter med flera steg.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Bedöma produkten efter innehållet, inte efter den fysiska presentationen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Förklara dyspraxi i enkla termer, de flesta vårdnadshavare har aldrig hört ordet.",
-        "Oläslig handstil är den största friktionspunkten med vårdnadshavare, visa att bedömning nu värderar innehåll.",
-        "Föreslå praktiska verktyg hemma: röstdiktering för anteckningar, tangentbord för längre skrivande.",
-        "Om det finns en historia av «lat»-etiketter från tidigare år, namnge det direkt.",
+        "Förklara i enkelt språk vad dyspraxi är – de flesta vårdnadshavare har aldrig hört termen: ”det är en neurologisk svårighet i koordinationen av rörelser, inte slarv och inte bristande ansträngning”.",
+        "Den oläsliga handstilen är den största friktionspunkten med vårdnadshavarna – att visa att bedömningen numera värdesätter innehållet och inte formen hjälper till att lindra oron på båda sidor.",
+        "Föreslå praktiska verktyg för hemmet: rösttext på mobilen för anteckningar, tangentbord för omfattande skriftliga arbeten.",
+        "Om det finns en historik av ”han/hon är lat” eller ”anstränger sig inte” från tidigare år, benämn det direkt: ”jag vet att ni har hört det förut – min tolkning är en annan”.",
       ]},
       { items: [
-        "Fullständigt vägrande av skriftlig produktion.",
+        "Total vägran att producera skriftligt arbete.",
         "Social isolering i sammanhang med fysisk aktivitet.",
-        "Tecken på somatiserad ångest inför skriftliga prov.",
+        "Tecken på somatiserad ångest före skriftliga prov – det psykosociala lidandet är en del av bilden.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -4044,33 +3996,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Håndskrift er vanskelig, langsom og ofte ulæselig, ikke af uagtsomhed, men på grund af reelle motoriske vanskeligheder.",
-        "Vanskeligheder med rumlig organisering i notesbogen, håndtering af materialer og rækkefølge af trin.",
-        "Kan virke «klodet», vælter kopper, støder ind i møbler, vanskeligheder i idræt.",
+        "Håndskriften er besværlig, langsom og ofte ulæselig – på grund af en reel motorisk vanskelighed, ikke på grund af sjusk.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vanskeligheder med den rumlige organisering af hæftet, med håndteringen af materialer og med trinvise sekvenser.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan virke »kluntet« – spilder drikkevarer, støder ind i møbler, har svært ved sport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Uforholdsmæssig træthed efter opgaver, der kræver vedvarende finmotorisk koordination.",
-        "Den kognitive komponent er generelt bevaret, hyppig frustration mellem viden og udførelse.",
+        "Den kognitive komponent er som regel bevaret – deraf den hyppige frustration mellem at vide og at kunne vise det.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> dovenskab eller mangel på indsats.",
-        "<strong>Det er ikke</strong> bare dårlig håndskrift, det påvirker planlægning og rækkefølge af opgaver.",
-        "<strong>Det løses ikke</strong> ved at «øve håndskrift mere».",
+        "<strong>Det er ikke</strong> dovenskab eller manglende engagement.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> blot dårlig håndskrift: den kliniske betegnelse er udviklingsmæssig koordinationsforstyrrelse (DCD), og den påvirker den motoriske planlægning og sekvensering, ikke kun skrivningen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det løses ikke</strong> med »at træne skrivningen mere«: en effektiv indsats er opgaveorienteret, ikke mekanisk gentagelse.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tillad brug af tastatur/tablet til længere skriftlige arbejder.",
-        "Reducer mekanisk afskrivning fra tavlen, giv noter, hvor det er relevant.",
-        "Giv eksplicitte tjeklister til opgaver med flere trin.",
-        "Vurder produktet efter indhold, ikke fysisk præsentation.",
+        "Tillade brug af tastatur/tablet ved omfattende skriftlige opgaver.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Reducere den mekaniske afskrivning fra tavlen – stille noter til rådighed, når det er relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Stille eksplicitte tjeklister til rådighed for opgaver med flere trin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vurdere produktet ud fra indholdet, ikke ud fra den fysiske præsentation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Forklar dyspraksi i enkle vendinger, de fleste forældre har aldrig hørt ordet.",
-        "Ulæselig håndskrift er det største friktionspunkt med forældrene, vis at vurdering nu værdsætter indhold.",
-        "Foreslå praktiske redskaber hjemme: stemmediktion til noter, tastatur til længere skrivning.",
-        "Hvis der er en historie med «doven»-etiketter fra tidligere år, navngiv det direkte.",
+        "Forklar i et enkelt sprog, hvad dyspraksi er – de fleste forældre/værger har aldrig hørt betegnelsen: »det er en neurologisk vanskelighed i koordinationen af bevægelser, ikke sjusk og ikke manglende indsats«.",
+        "Den ulæselige håndskrift er det største gnidningspunkt med forældre/værger – at vise, at bedømmelsen nu vægter indholdet og ikke formen, hjælper med at lindre bekymringen på begge sider.",
+        "Foreslå praktiske værktøjer til hjemmet: stemmediktering på mobilen til noter, tastatur til omfattende skriftlige opgaver.",
+        "Hvis der er en historik med »han/hun er doven« eller »gør sig ikke umage« fra tidligere år, så sæt direkte ord på det: »jeg ved, at De har hørt det før – min vurdering er en anden«.",
       ]},
       { items: [
-        "Fuldstændig afvisning af skriftlig produktion.",
-        "Social isolation i forbindelse med fysiske aktiviteter.",
-        "Tegn på somatiseret angst inden skriftlige prøver.",
+        "Fuldstændig afvisning af skriftligt arbejde.",
+        "Social isolation i sammenhænge med fysisk aktivitet.",
+        "Tegn på somatiseret angst før skriftlige prøver – den psykosociale lidelse er en del af billedet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -4376,33 +4328,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Käsiala on vaikeaa, hidasta ja usein lukukelvotonta, ei huolimattomuudesta vaan todellisista motorisista vaikeuksista.",
-        "Vaikeudet vihkon tilallisessa organisoinnissa, tarvikkeiden hallinnassa ja vaiheiden sekvensoimisessa.",
-        "Voi vaikuttaa «kömpelöltä», kaataa mukeja, törmäilee huonekaluihin, vaikeuksia liikunnassa.",
-        "Suhteettoman suuri väsymys tehtävistä, jotka vaativat jatkuvaa hienomotorista koordinaatiota.",
-        "Kognitiivinen komponentti on yleensä säilynyt, toistuva turhautuminen tietämisen ja esittämisen välillä.",
+        "Vaikeaa, hidasta ja usein lukukelvotonta käsin kirjoittamista – todellisten motoristen vaikeuksien, ei huolimattomuuden vuoksi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vaikeuksia vihkon tilallisessa jäsentämisessä, materiaalien hallinnassa ja toimintojen sarjoittamisessa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Voi vaikuttaa ”kömpelöltä” – kaataa laseja, törmäilee huonekaluihin, kokee liikunnan vaikeaksi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Suhteeton väsymys tehtävien jälkeen, jotka vaativat jatkuvaa hienomotorista koordinaatiota.",
+        "Kognitiivinen puoli on yleensä säilynyt – siitä toistuva turhautuminen sen välillä, mitä lapsi tietää ja mitä hän pystyy osoittamaan.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ei ole</strong> laiskuutta tai yrityksen puutetta.",
-        "<strong>Ei ole</strong> pelkästään huono käsiala, vaikuttaa tehtävien suunnitteluun ja sekvensoimiseen.",
-        "<strong>Ei ratkea</strong> «harjoittelemalla kirjoittamista enemmän».",
+        "<strong>Kyse ei ole</strong> laiskuudesta tai yrittämisen puutteesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Kyse ei ole</strong> pelkästään huonosta käsialasta: kliininen termi on kehityksellinen koordinaatiohäiriö (DCD), ja se vaikuttaa motoriseen suunnitteluun ja sarjoittamiseen, ei vain kirjoittamiseen.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Se ei ratkea</strong> ”kirjoittamista enemmän harjoittelemalla”: vaikuttava tukitoimi on tehtäväsuuntautunut, ei mekaaninen toisto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Salli näppäimistön/tabletin käyttö pitkiin kirjallisiin töihin.",
-        "Vähennä mekaanista taululta kopiointia, tarjoa muistiinpanoja tarvittaessa.",
-        "Tarjoa eksplisiittisiä tarkistuslistoja monivaiheisiin tehtäviin.",
-        "Arvioi työ sisällön, ei fyysisen esityksen perusteella.",
+        "Salli näppäimistön tai tabletin käyttö laajoissa kirjallisissa tuotoksissa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Vähennä mekaanista taululta jäljentämistä – tarjoa muistiinpanot, kun se on tarkoituksenmukaista.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tarjoa selkeät tarkistuslistat monivaiheisiin tehtäviin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Arvioi tuotos sisällön, ei fyysisen ulkoasun perusteella.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Selitä dyspraksia yksinkertaisesti, useimmat huoltajat eivät ole koskaan kuulleet sanaa.",
-        "Lukukelvoton käsiala on suurin kitkakohta huoltajien kanssa, näytä, että arviointi arvostaa nyt sisältöä.",
-        "Ehdota käytännön työkaluja kotiin: äänikirjoitus muistiinpanoihin, näppäimistö pidempään kirjoittamiseen.",
-        "Jos on historia «laiska»-leimoista aiemmilta vuosilta, nimeä se suoraan.",
+        "Selitä yksinkertaisella kielellä, mitä dyspraksia on – useimmat huoltajat eivät ole koskaan kuulleet termiä: ”se on neurologinen vaikeus liikkeiden koordinoinnissa, ei huolimattomuutta eikä yrittämisen puutetta”.",
+        "Lukukelvoton käsiala on suurin kitkakohta huoltajien kanssa – sen osoittaminen, että arviointi arvostaa nyt sisältöä eikä muotoa, auttaa lievittämään molempien osapuolten ahdistusta.",
+        "Ehdota käytännön työkaluja kotiin: puhesanelua puhelimessa muistiinpanoja varten, näppäimistöä laajoihin kirjallisiin töihin.",
+        "Jos aiempina vuosina on kuultu ”hän on laiska” tai ”hän ei yritä”, nimeä se suoraan: ”tiedän, että olette kuulleet tämän aiemmin – minun tulkintani on toisenlainen”.",
       ]},
       { items: [
-        "Täydellinen kirjallisen tuotoksen kieltäytyminen.",
-        "Sosiaalinen eristäytyminen fyysisen aktiivisuuden yhteyksissä.",
-        "Merkkejä somatisoidusta ahdistuksesta ennen kirjallisia kokeita.",
+        "Täydellinen kieltäytyminen kirjallisesta tuottamisesta.",
+        "Sosiaalinen eristäytyminen liikunnallisissa tilanteissa.",
+        "Somatisoituneen ahdistuksen merkit ennen kirjallisia arviointeja – psykososiaalinen kärsimys on osa kokonaiskuvaa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -4709,33 +4661,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Rukopis ťažký, pomalý, často nečitateľný, nie z nedbalosti, ale pre skutočné motorické ťažkosti.",
-        "Ťažkosti s priestorovou organizáciou zošita, správou pomôcok, sekvenciami krokov.",
-        "Môže sa zdať \"nemotorný\", prelieva poháre, naráža do nábytku, má ťažkosti v športe.",
-        "Neprimeraná únava po úlohách vyžadujúcich dlhodobú jemnú motorickú koordináciu.",
-        "Kognitívna zložka je zvyčajne zachovaná, časté frustrácie medzi vedieť a ukázať.",
+        "Rukopis ťažký, pomalý a často nečitateľný — pre skutočnú motorickú ťažkosť, nie z nedbanlivosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Ťažkosť v priestorovom usporiadaní zošita, v správe pomôcok a v sekvenciách krokov.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Môže pôsobiť „nešikovne“ — rozlieva nápoje, naráža do nábytku, má ťažkosti v športe.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Neprimeraná únava po úlohách, ktoré vyžadujú dlhodobú jemnú koordináciu.",
+        "Poznávacia zložka býva zvyčajne zachovaná — odtiaľ častá frustrácia medzi tým, čo dieťa vie, a tým, čo dokáže ukázať.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nie je to</strong> lenivosť ani nedostatok snahy.",
-        "<strong>Nie je to</strong> len zlý rukopis, ovplyvňuje plánovanie a sekvencovanie úloh.",
-        "<strong>Nevyrieši sa</strong> tým, že bude viac \"cvičiť písanie\".",
+        "<strong>Nie je to</strong> lenivosť ani nedostatok snahy.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nie je to</strong> len zlý rukopis: klinickým termínom je vývinová porucha koordinácie (DCD) a postihuje plánovanie a motorické sekvencovanie, nielen písanie.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nevyrieši sa to</strong> tým, že sa „bude viac trénovať písanie“: účinná intervencia je zameraná na úlohu, nie na mechanické opakovanie.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Umožniť používanie klávesnice/tabletu pri rozsiahlej písomnej tvorbe.",
-        "Znížiť mechanické prepisovanie z tabule, poskytnúť poznámky, keď je to relevantné.",
-        "Poskytnúť explicitné kontrolné zoznamy pre úlohy s viacerými krokmi.",
-        "Hodnotiť produkt podľa obsahu, nie podľa fyzickej prezentácie.",
+        "Umožniť používanie klávesnice/tabletu pri rozsiahlejších písomných prácach.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Obmedziť mechanické odpisovanie z tabule — poskytnúť poznámky, ak je to relevantné.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Poskytovať jasné kontrolné zoznamy pre úlohy s viacerými krokmi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Hodnotiť výsledok podľa obsahu, nie podľa fyzickej úpravy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Vysvetliť, čo je dyspraxia, jednoduchým jazykom, väčšina rodičov tento termín nikdy nepočula.",
-        "Nečitateľný rukopis je najväčším konfliktným bodom, ukázať, že hodnotenie teraz oceňuje obsah, pomáha.",
-        "Navrhnúť praktické nástroje: diktovanie hlasom pre poznámky, klávesnica pre rozsiahlejšie práce.",
-        "Ak existuje história \"je lenivý/á\" z predchádzajúcich rokov, pomenovať to priamo.",
+        "Vysvetliť, čo je dyspraxia, jednoduchým jazykom — väčšina rodičov tento termín nikdy nepočula: „je to neurologická ťažkosť v koordinácii pohybov, nie je to nedbanlivosť ani nedostatok snahy“.",
+        "Nečitateľný rukopis je bodom najväčšieho napätia s rodičmi — ukázať, že hodnotenie teraz oceňuje obsah, a nie formu, pomáha zmierniť úzkosť na oboch stranách.",
+        "Navrhnúť praktické nástroje na domáce použitie: hlasový diktát v mobile na poznámky, klávesnicu na rozsiahle písomné práce.",
+        "Ak sa v predchádzajúcich rokoch objavili označenia „je lenivý/lenivá“ alebo „nesnaží sa“, pomenovať to priamo: „viem, že ste to už počuli predtým — môj pohľad je iný“.",
       ]},
       { items: [
         "Úplné odmietanie písomnej produkcie.",
-        "Sociálna izolácia v kontexte fyzickej aktivity.",
-        "Príznaky somatizovanej úzkosti pred písomnými skúškami.",
+        "Sociálna izolácia v kontextoch fyzickej aktivity.",
+        "Príznaky somatizovanej úzkosti pred písomnými testami — psychosociálne utrpenie je súčasťou klinického obrazu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -5039,33 +4991,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Kézírás nehéz, lassú, sokszor olvashatatlan, nem hanyagságból, hanem valódi motoros nehézség miatt.",
-        "Nehézségek a füzet térbeli szervezésével, az eszközök kezelésével, a lépések sorba rendezésével.",
-        "Ügyetlennek tűnhet, feldönti a poharakat, beütközik a bútorokba, nehezére esik a testnevelés.",
-        "Aránytalanul fáradt tartós finommotoros koordinációt igénylő feladatok után.",
-        "A kognitív összetevő általában megmarad, a tudás és a megmutatás közötti frusztráció állandó.",
+        "Nehézkes, lassú és gyakran olvashatatlan kézírás — valódi mozgási nehézség, nem hanyagság miatt.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Nehézség a füzet térbeli rendezésében, az eszközök kezelésében és a lépéssorozatokban.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Tűnhet „ügyetlennek” — feldönti a poharakat, nekimegy a bútoroknak, nehézségei vannak a sportban.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aránytalan fáradtság a tartós finommozgásos koordinációt igénylő feladatok után.",
+        "A kognitív komponens általában ép — innen ered a gyakori frusztráció a tudás és a megmutatás képessége között.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nem</strong> lustaság vagy igyekezethiány.",
-        "<strong>Nem</strong> csak rossz kézírás, érinti a tervezést és a feladatok sorba rendezését.",
-        "<strong>Nem oldódik meg</strong> azzal, hogy „többet gyakorolja az írást\".",
+        "<strong>Nem</strong> lustaság vagy igyekezet hiánya.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nem</strong> pusztán rossz kézírás: a klinikai megnevezés a fejlődési koordinációs zavar (DCD), és a tervezést, valamint a mozgásos szekvenálást érinti, nemcsak az írást.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nem oldódik meg</strong> azzal, hogy „többet kell gyakorolni az írást”: a hatékony beavatkozás feladatorientált, nem mechanikus ismétlés.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Billentyűzet/táblagép használatának engedélyezése hosszabb írásos munkáknál.",
-        "A tábláról való mechanikus másolás csökkentése, szükség esetén jegyzetek biztosítása.",
-        "Explicit ellenőrzőlisták biztosítása többlépéses feladatokhoz.",
-        "A termék értékelése tartalom szerint, nem fizikai megjelenés alapján.",
+        "Engedélyezni a billentyűzet/tablet használatát a terjedelmes írásbeli munkáknál.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Csökkenteni a tábláról való mechanikus másolást — releváns esetben jegyzeteket biztosítani.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kifejezett ellenőrzőlistákat biztosítani a több lépésből álló feladatokhoz.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "A munkát a tartalom, ne a fizikai megjelenés alapján értékelni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "A diszpraxiát egyszerű nyelven magyarázza el, a szülők többsége soha nem hallotta a szót.",
-        "Az olvashatatlan kézírás a legnagyobb konfliktuspont, annak megmutatása, hogy az értékelés most a tartalmat értékeli, segít.",
-        "Javasoljon praktikus otthoni eszközöket: hangrögzítés jegyzetekhez, billentyűzet hosszabb írásokhoz.",
-        "Ha előző évekből „lusta\" jelzők vannak, nevesítse azt közvetlenül.",
+        "Egyszerű nyelven elmagyarázni, mi a diszpraxia — a legtöbb gondviselő soha nem hallotta a kifejezést: „ez egy neurológiai eredetű nehézség a mozgások koordinálásában, nem hanyagság és nem az igyekezet hiánya”.",
+        "Az olvashatatlan kézírás a legnagyobb súrlódási pont a gondviselőkkel — annak megmutatása, hogy az értékelés immár a tartalmat és nem a formát helyezi előtérbe, mindkét fél szorongásának enyhítésében segít.",
+        "Gyakorlati eszközöket javasolni az otthoni használatra: hangdiktálás a telefonon a jegyzetekhez, billentyűzet a terjedelmes írásbeli munkákhoz.",
+        "Ha korábbi években előfordult a „lusta” vagy „nem igyekszik” minősítés, ezt nevezzük néven közvetlenül: „tudom, hogy ezt már hallotta korábban — én másképp olvasom a helyzetet”.",
       ]},
       { items: [
-        "Az írásos produkció teljes elutasítása.",
-        "Szociális elszigeteltség fizikai aktivitás összefüggésében.",
-        "Szomatizált szorongás jelei írásos értékelések előtt.",
+        "Az írásbeli munka teljes megtagadása.",
+        "Társas elszigetelődés a fizikai tevékenység helyzeteiben.",
+        "Szomatizált szorongás jelei az írásbeli értékelések előtt — a pszichoszociális szenvedés a kórkép része.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -5369,33 +5321,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Γραφή δύσκολη, αργή, συχνά δυσανάγνωστη, όχι από αμέλεια αλλά λόγω πραγματικής κινητικής δυσκολίας.",
-        "Δυσκολία στη χωρική οργάνωση του τετραδίου, τη διαχείριση υλικών, την ακολουθία βημάτων.",
-        "Μπορεί να φαίνεται «άτσαλος/η», ανατρέπει ποτήρια, χτυπάει σε έπιπλα, δυσκολεύεται στη γυμναστική.",
-        "Δυσανάλογη κόπωση μετά από εργασίες που απαιτούν συνεχή λεπτή κινητική συντονισμό.",
-        "Η γνωστική συνιστώσα διατηρείται γενικά, συχνή απογοήτευση μεταξύ «ξέρω» και «μπορώ να δείξω».",
+        "Δύσκολος, αργός και συχνά δυσανάγνωστος γραπτός λόγος — λόγω πραγματικής κινητικής δυσκολίας, όχι από αμέλεια.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Δυσκολία στη χωρική οργάνωση του τετραδίου, στη διαχείριση του υλικού και σε ακολουθίες βημάτων.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Μπορεί να φαίνεται «αδέξιος/-η» — χύνει ποτήρια, σκοντάφτει στα έπιπλα, δυσκολεύεται στον αθλητισμό.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Δυσανάλογη κόπωση μετά από εργασίες που απαιτούν παρατεταμένο λεπτό κινητικό συντονισμό.",
+        "Η γνωστική συνιστώσα είναι γενικά διατηρημένη — εξ ου και η συχνή ματαίωση ανάμεσα στο να γνωρίζει και στο να μπορεί να το δείξει.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> τεμπελιά ή έλλειψη προσπάθειας.",
-        "<strong>Δεν είναι</strong> απλώς κακή γραφή, επηρεάζει τον σχεδιασμό και την ακολουθία εργασιών.",
-        "<strong>Δεν λύνεται</strong> με «περισσότερη εξάσκηση γραφής».",
+        "<strong>Δεν είναι</strong> τεμπελιά ή έλλειψη προσπάθειας.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Δεν είναι</strong> απλώς κακός γραφικός χαρακτήρας: ο κλινικός όρος είναι Αναπτυξιακή Διαταραχή Συντονισμού (ΑΔΣ) και επηρεάζει τον σχεδιασμό και την κινητική αλληλουχία, όχι μόνο τη γραφή.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Δεν λύνεται</strong> με το «να εξασκείται περισσότερο στη γραφή»: η αποτελεσματική παρέμβαση είναι προσανατολισμένη στο έργο, όχι η μηχανική επανάληψη.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Να επιτρέπεται η χρήση πληκτρολογίου/tablet σε εκτεταμένες γραπτές εργασίες.",
-        "Να μειώνεται η μηχανική αντιγραφή από τον πίνακα, να παρέχονται σημειώσεις όταν είναι σκόπιμο.",
-        "Να παρέχονται ρητές λίστες ελέγχου για εργασίες με πολλά βήματα.",
-        "Να αξιολογείται το προϊόν βάσει περιεχομένου, όχι φυσικής παρουσίασης.",
+        "Να επιτρέπεται η χρήση πληκτρολογίου/tablet σε εκτενείς γραπτές παραγωγές.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Να μειωθεί η μηχανική αντιγραφή από τον πίνακα — να παρέχονται σημειώσεις όταν είναι σχετικό.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Να παρέχονται ρητές λίστες ελέγχου για εργασίες με πολλαπλά βήματα.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Να αξιολογείται το προϊόν με βάση το περιεχόμενο, όχι τη φυσική παρουσίαση.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Να εξηγείτε τη δυσπραξία με απλή γλώσσα, οι περισσότεροι γονείς δεν έχουν ακούσει τον όρο.",
-        "Η δυσανάγνωστη γραφή είναι το μεγαλύτερο σημείο τριβής, το να δείξετε ότι η αξιολόγηση πλέον εκτιμά το περιεχόμενο βοηθά.",
-        "Να προτείνετε πρακτικά εργαλεία για το σπίτι: υπαγόρευση φωνής για σημειώσεις, πληκτρολόγιο για εκτεταμένες εργασίες.",
-        "Αν υπάρχει ιστορικό ετικετών «τεμπέλης» από προηγούμενες χρονιές, να το ονομάζετε άμεσα.",
+        "Να εξηγηθεί τι είναι η δυσπραξία σε απλή γλώσσα — οι περισσότεροι κηδεμόνες δεν έχουν ακούσει ποτέ τον όρο: «είναι μια νευρολογική δυσκολία στον συντονισμό των κινήσεων, δεν είναι αμέλεια ούτε έλλειψη προσπάθειας».",
+        "Ο δυσανάγνωστος γραφικός χαρακτήρας είναι το σημείο μεγαλύτερης τριβής με τους κηδεμόνες — το να δείξετε ότι η αξιολόγηση δίνει πλέον αξία στο περιεχόμενο και όχι στη μορφή βοηθά να ανακουφιστεί το άγχος και των δύο πλευρών.",
+        "Να προτείνετε πρακτικά εργαλεία για το σπίτι: υπαγόρευση με φωνή στο κινητό για σημειώσεις, πληκτρολόγιο για εκτενείς γραπτές εργασίες.",
+        "Αν υπάρχει ιστορικό «είναι τεμπέλης/-α» ή «δεν προσπαθεί» από προηγούμενα έτη, να το ονομάσετε ευθέως: «ξέρω ότι το έχετε ξανακούσει αυτό — η δική μου ανάγνωση είναι διαφορετική».",
       ]},
       { items: [
         "Πλήρης άρνηση γραπτής παραγωγής.",
         "Κοινωνική απομόνωση σε πλαίσια σωματικής δραστηριότητας.",
-        "Ενδείξεις σωματοποιημένου άγχους πριν από γραπτές αξιολογήσεις.",
+        "Σημάδια σωματοποιημένου άγχους πριν από γραπτές αξιολογήσεις — η ψυχοκοινωνική δυσφορία είναι μέρος της εικόνας.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -5700,33 +5652,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Почерк труден, бавен, често нечетлив, не от небрежност, а поради реални двигателни затруднения.",
-        "Затруднения с пространствената организация на тетрадката, управлението на материалите, последователностите от стъпки.",
-        "Може да изглежда \"непохватен\", разлива чаши, удря се в мебелите, затруднен/а в спорта.",
-        "Непропорционална умора след задачи, изискващи продължителна фина моторна координация.",
-        "Когнитивният компонент обикновено е запазен, честа фрустрация между знанието и демонстрирането.",
+        "Почеркът е затруднен, бавен и често нечетлив — поради реална двигателна трудност, а не от немарливост.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Затруднение в пространственото организиране на тетрадката, в управлението на материалите и в последователностите от стъпки.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Може да изглежда „непохватен“ — разлива чаши, блъска се в мебели, има трудности в спорта.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Несъразмерна умора след задачи, изискващи продължителна фина координация.",
+        "Познавателният компонент обикновено е запазен — оттук и честата фрустрация между това да знаеш и да можеш да го покажеш.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Не е</strong> мързел или липса на старание.",
-        "<strong>Не е</strong> само лош почерк, засяга планирането и последователността на задачите.",
-        "<strong>Не се решава</strong> с \"повече практикуване на писането\".",
+        "<strong>Не е</strong> мързел или липса на старание.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Не е</strong> само лош почерк: клиничният термин е разстройство в развитието на координацията (DCD) и засяга планирането и двигателната последователност, а не само писането.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Не се решава</strong> с „повече упражняване на писане“: ефективната интервенция е насочена към задачата, а не към механично повторение.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Разрешавайте използване на клавиатура/таблет при обширни писмени задачи.",
-        "Намалявайте механичното преписване от дъската, предоставяйте бележки, когато е уместно.",
-        "Предоставяйте явни контролни списъци за задачи с много стъпки.",
-        "Оценявайте продукта по съдържание, не по физическо представяне.",
+        "Да се позволи използването на клавиатура/таблет при по-обемни писмени работи.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Да се намали механичното преписване от дъската — да се предоставят записки, когато е уместно.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Да се предоставят ясни контролни списъци за задачи с няколко стъпки.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Да се оценява продуктът по съдържанието, а не по физическото оформление.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Обяснявайте диспраксията с прост език, повечето родители никога не са чували термина.",
-        "Нечетливият почерк е най-голямата точка на конфликт, показването, че оценяването сега цени съдържанието, помага.",
-        "Предлагайте практически инструменти за вкъщи: гласово диктуване за бележки, клавиатура за по-обемни работи.",
-        "Ако има история с етикети \"мързелив/а\" от предишни години, назовете го директно.",
+        "Да се обясни какво е диспраксията на прост език — повечето родители никога не са чували термина: „това е неврологична трудност в координацията на движенията, не е немарливост, нито липса на усилие“.",
+        "Нечетливият почерк е точката на най-голямо напрежение с родителите — да се покаже, че оценяването вече цени съдържанието, а не формата, помага да се облекчи тревожността от двете страни.",
+        "Да се предложат практически инструменти за вкъщи: гласово диктуване на телефона за записки, клавиатура за обемни писмени работи.",
+        "Ако в предходни години е имало определения „мързелив е“ или „не се старае“, това да се назове директно: „знам, че вече сте го чували — моят прочит е различен“.",
       ]},
       { items: [
         "Пълен отказ от писмена продукция.",
         "Социална изолация в контекст на физическа активност.",
-        "Признаци на соматизирана тревожност преди писмени оценявания.",
+        "Признаци на соматизирана тревожност преди писмени изпитвания — психосоциалното страдание е част от клиничната картина.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -6030,33 +5982,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Rašysena sunki, lėta, dažnai neįskaitoma, ne dėl aplaidumo, o dėl tikrų motorinių sunkumų.",
-        "Sunkumai erdvinį sąsiuvinio organizuojant, valdant medžiagas, atliekant žingsnių sekas.",
-        "Gali atrodyti \"nerangus\", išverčia taures, atsitrenkia į baldus, sunkumai sportuojant.",
-        "Neproporcingas nuovargis po užduočių, reikalaujančių ilgalaikio smulkiosios motorikos koordinacijos.",
-        "Kognityvinė sudedamoji dažniausiai išlikusi, dažna frustracija tarp žinojimo ir gebėjimo parodyti.",
+        "Sunkus, lėtas ir dažnai neįskaitomas rašymas ranka – dėl realių motorinių sunkumų, o ne dėl neatidumo.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Sunkumai erdviškai tvarkant sąsiuvinį, valdant mokymo priemones ir atliekant veiksmų sekas.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Gali atrodyti „nerangus“ – išverčia stiklines, atsitrenkia į baldus, sunkiai sekasi sportuoti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Neproporcingas nuovargis po užduočių, reikalaujančių nuolatinės smulkiosios motorikos koordinacijos.",
+        "Pažintinė sritis paprastai būna išlikusi – todėl dažna frustracija tarp to, ką vaikas žino, ir to, ką sugeba parodyti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> tingumas ar pastangų trūkumas.",
-        "<strong>Tai nėra</strong> tik blogas rašysena, tai paveikia planavimą ir užduočių seką.",
-        "<strong>To neišsprendžia</strong> \"daugiau praktikuoti rašymą\".",
+        "<strong>Tai nėra</strong> tinginystė ar pastangų stoka.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tai nėra</strong> tik prasta rašysena: klinikinis terminas yra raidos koordinacijos sutrikimas (RKS), kuris veikia motorinį planavimą ir sekos sudarymą, o ne vien rašymą.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tai neišsprendžiama</strong> „daugiau treniruojant rašymą“: veiksminga intervencija yra orientuota į užduotį, o ne mechaninis kartojimas.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Leiskite naudoti klaviatūrą/planšetinį kompiuterį atliekant didelius rašytinius darbus.",
-        "Mažinkite mechaninį nurašymą nuo lentos, pateikite užrašus, kai tinka.",
-        "Pateikite aiškius kontrolinius sąrašus užduotims su keliais žingsniais.",
-        "Vertinkite produktą pagal turinį, o ne fizinę pateiktį.",
+        "Leisti naudoti klaviatūrą ar planšetę rengiant ilgesnius rašto darbus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sumažinti mechanišką nurašinėjimą nuo lentos – pateikti užrašus, kai tai aktualu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Pateikti aiškius kontrolinius sąrašus daugiapakopėms užduotims.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vertinti darbą pagal turinį, o ne pagal fizinį pateikimą.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Paaiškinkite, kas yra dispraksija, paprastais žodžiais, dauguma tėvų šio termino niekada negirdėjo.",
-        "Neįskaitoma rašysena yra didžiausias konflikto taškas, parodymas, kad dabar vertinime vertinamas turinys, padeda.",
-        "Siūlykite praktinius namų įrankius: balso diktuotojas užrašams, klaviatūra didesnių darbų.",
-        "Jei ankstesniais metais buvo etikečių \"tingus/a\", pavadinkite tai tiesiogiai.",
+        "Paprasta kalba paaiškinti, kas yra dispraksija – dauguma tėvų niekada nėra girdėję šio termino: „tai neurologinis judesių koordinacijos sunkumas, o ne neatidumas ar pastangų stoka“.",
+        "Neįskaitoma rašysena yra didžiausios įtampos su tėvais taškas – parodymas, kad vertinant dabar svarbiausias turinys, o ne forma, padeda sumažinti abiejų pusių nerimą.",
+        "Pasiūlyti praktiškų priemonių namams: balso diktavimą telefone užrašams, klaviatūrą ilgesniems rašto darbams.",
+        "Jei ankstesniais metais būta sakymų „jis (-i) tinginys (-ė)“ ar „nesistengia“, įvardyti tai tiesiai: „žinau, kad tai jau girdėjote – mano vertinimas yra kitoks“.",
       ]},
       { items: [
-        "Visiškas rašytinės produkcijos atsisakymas.",
-        "Socialinė izoliacija fizinės veiklos kontekstuose.",
-        "Somatizuotos nerimo požymiai prieš rašytinius vertinimus.",
+        "Visiškas atsisakymas atlikti rašto darbus.",
+        "Socialinė izoliacija fizinio aktyvumo situacijose.",
+        "Somatizuoto nerimo požymiai prieš rašto darbų vertinimus – psichosocialinis kentėjimas yra šio sutrikimo dalis.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -6361,33 +6313,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Grūtības ar uzdevumiem, kas prasa precīzu roku koordināciju: rakstīšana, zīmēšana, šķēru lietošana.",
-        "Vāja telpiskā orientācija, pazūd gaitenī, nevar organizēt materiālus uz galda.",
-        "Neveiklas kustības, biežas krišanas vai sadursmes ar priekšmetiem.",
-        "Grūtības ar pašapkalpošanās uzdevumiem (pogu aizdare, apavu sasiešana).",
-        "Var būt aizkavēta runa vai grūtības ar secīguma uzdevumiem.",
+        "Apgrūtināta, lēna un bieži nesalasāma rakstīšana ar roku – patiesu motorisku grūtību, nevis nevērības dēļ.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Grūtības burtnīcas telpiskajā organizēšanā, mācību materiālu pārvaldīšanā un darbību secībās.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Var šķist “neveikls” – izgāž glāzes, atsitas pret mēbelēm, ar grūtībām piedalās sportā.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nesamērīgs nogurums pēc uzdevumiem, kas prasa noturīgu smalkās motorikas koordināciju.",
+        "Kognitīvā joma parasti ir saglabāta – tāpēc bieža neapmierinātība starp to, ko bērns zina, un to, ko spēj parādīt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tā nav</strong> neuzmanība vai slinkums, motoriskā plānošana ir neiroloģiski traucēta.",
-        "<strong>Tas nav</strong> redzams no ārpuses, grūtības bieži tiek sajauktas ar 'neveiklību'.",
-        "<strong>Tas neuzlabojas</strong> ar vairāk praksi vien, nepieciešama strukturēta terapija.",
+        "<strong>Tas nav</strong> slinkums vai centības trūkums.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Tas nav</strong> tikai slikts rokraksts: klīniskais termins ir attīstības koordinācijas traucējumi (AKT), un tie skar motorisko plānošanu un secības veidošanu, ne tikai rakstīšanu.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>To neatrisina</strong> ar “vairāk vingrināt rakstīšanu”: efektīva iejaukšanās ir vērsta uz uzdevumu, nevis mehāniska atkārtošana.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Piedāvāt alternatīvas rakstīšanai (datora tastatūra, balss ieraksts).",
-        "Atļaut papildu laiku uzdevumiem, kas prasa roku meistarību.",
-        "Samazināt rakstīšanas apjomu, doties uz saturu, nevis prezentāciju.",
-        "Apspriesties ar ergoterapeitu par klases vides pielāgošanu.",
+        "Atļaut izmantot tastatūru vai planšetdatoru apjomīgos rakstu darbos.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Samazināt mehānisku norakstīšanu no tāfeles – sniegt pierakstus, kad tas ir nozīmīgi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Nodrošināt skaidrus kontrolsarakstus daudzpakāpju uzdevumiem.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vērtēt darbu pēc satura, nevis pēc fiziskā noformējuma.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Paskaidrot, ka tas nav slinkums, skolēns cenšas, taču plānošanas process ir traucēts.",
-        "Izcelt kompensēšanas stratēģijas, ko skolēns jau izmanto.",
-        "Apspriest mājas uzdevumu pielāgojumus: mazāk, fokusēts, izmantojot tehnoloģiju.",
-        "Mudināt uz ergoterapeita vai fizioterapeita konsultāciju caur skolas atbalstu.",
+        "Vienkāršā valodā izskaidrot, kas ir dispraksija – vairums vecāku šo terminu nekad nav dzirdējuši: “tās ir neiroloģiskas grūtības kustību koordinācijā, nevis nevērība vai centības trūkums”.",
+        "Nesalasāms rokraksts ir lielākais saspīlējuma punkts ar vecākiem – parādot, ka vērtēšanā tagad svarīgākais ir saturs, nevis forma, palīdz mazināt abu pušu trauksmi.",
+        "Ieteikt praktiskus rīkus mājām: balss diktēšanu telefonā pierakstiem, tastatūru apjomīgiem rakstu darbiem.",
+        "Ja iepriekšējos gados ir skanējis “viņš/viņa ir slinks(-a)” vai “necenšas”, nosaukt to tieši: “es zinu, ka jūs to jau esat dzirdējuši – mans vērtējums ir citāds”.",
       ]},
       { items: [
-        "Nopietna pašapziņas pasliktināšanās vai sociālā izolācija.",
-        "Fiziskā drošība apdraudēta fiziskās audzināšanas laikā.",
-        "Neviens progress trots pastāvīgas atbalsta stratēģijas.",
+        "Pilnīga atteikšanās no rakstu darbu veikšanas.",
+        "Sociāla izolēšanās fiziskas aktivitātes situācijās.",
+        "Somatizētas trauksmes pazīmes pirms rakstu darbu pārbaudēm – psihosociālās ciešanas ir daļa no kopainas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -6688,33 +6640,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Raskused ülesannetega, mis nõuavad täpset käte koordinatsiooni: kirjutamine, joonistamine, kääride kasutamine.",
-        "Nõrk ruumiorientatsioon, eksib koridoris, ei suuda materjale laual organiseerida.",
-        "Kohmakad liigutused, sagedased kukkumised või kokkupõrked esemetega.",
-        "Raskused eneseteenindusülesannetega (nuppude kinnitamine, kingapaelte sidumine).",
-        "Võib esineda hilinenenud kõne või raskused järjestamisülesannetega.",
+        "Raske, aeglane ja sageli loetamatu käsitsi kirjutamine – tegelike motoorsete raskuste, mitte hooletuse tõttu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Raskused vihiku ruumilisel korraldamisel, õppevahendite haldamisel ja tegevuste järjestamisel.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Võib tunduda „kohmakas“ – ajab klaase ümber, põrkab vastu mööblit, tal on spordis raskusi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ebaproportsionaalne väsimus pärast ülesandeid, mis nõuavad püsivat peenmotoorset koordinatsiooni.",
+        "Kognitiivne pool on tavaliselt säilinud – sellest ka sage frustratsioon teadmise ja näitamisoskuse vahel.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> tähelepanematust ega laiskust, motoorne planeerimine on neuroloogiliselt häiritud.",
-        "<strong>See ei ole</strong> väljastpoolt nähtav, raskused aetakse sageli segamini kohmaklikkusega.",
-        "<strong>See ei parane</strong> ainult rohkem harjutades, vaja on struktureeritud teraapiat.",
+        "<strong>See ei ole</strong> laiskus ega pingutuse puudumine.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>See ei ole</strong> ainult halb käekiri: kliiniline termin on arenguline koordinatsioonihäire (AKH) ja see mõjutab motoorset planeerimist ja järjestamist, mitte ainult kirjutamist.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Seda ei lahenda</strong> „kirjutamise rohkem harjutamine“: tõhus sekkumine on ülesandele suunatud, mitte mehaaniline kordamine.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Pakkuda alternatiive kirjutamisele (arvuti klaviatuur, häälsalvestis).",
-        "Lubada lisaaeg ülesannetele, mis nõuavad käelist osavust.",
-        "Vähendada kirjutamise mahtu, fokuseerida sisule, mitte esitlusele.",
-        "Konsulteerida tegevusterapeudiga klassiruumi keskkonna kohandamise osas.",
+        "Lubada klaviatuuri või tahvelarvuti kasutamist mahukate kirjalike tööde puhul.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Vähendada mehaanilist tahvlilt ärakirjutamist – anda märkmed, kui see on asjakohane.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Pakkuda selgeid kontroll-loendeid mitmeetapiliste ülesannete jaoks.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Hinnata tööd sisu, mitte füüsilise esituse järgi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Selgita, et see ei ole laiskus, õpilane pingutab, kuid planeerimisprotsess on häiritud.",
-        "Tõsta esile kompensatsioonistrateegiaid, mida õpilane juba kasutab.",
-        "Aruta kodutöö kohandusi: vähem, fokuseeritud, kasutades tehnoloogiat.",
-        "Julgusta tegevusterapeudi või füsioterapeudi konsultatsiooni koolitugi kaudu.",
+        "Selgitada lihtsas keeles, mis on düspraksia – enamik vanemaid pole seda terminit kunagi kuulnud: „see on neuroloogiline raskus liigutuste koordineerimisel, mitte hooletus ega pingutuse puudumine“.",
+        "Loetamatu käekiri on suurim hõõrdepunkt vanematega – näidata, et hindamine väärtustab nüüd sisu, mitte vormi, aitab leevendada mõlema poole ärevust.",
+        "Soovitada praktilisi vahendeid koju: häälega dikteerimist telefonis märkmete jaoks, klaviatuuri mahukate kirjalike tööde jaoks.",
+        "Kui varasematel aastatel on kõlanud „ta on laisk“ või „ta ei pinguta“, nimetada seda otse: „ma tean, et olete seda varem kuulnud – minu tõlgendus on teistsugune“.",
       ]},
       { items: [
-        "Tõsine enesehinnang langus või sotsiaalne isolatsioon.",
-        "Füüsiline turvalisus ohustatud kehalise kasvatuse ajal.",
-        "Puudub progress hoolimata pidevast toetusest.",
+        "Täielik kirjalike tööde tegemisest keeldumine.",
+        "Sotsiaalne eraldumine kehalise tegevuse olukordades.",
+        "Somatiseeritud ärevuse märgid enne kirjalikke hindamisi – psühhosotsiaalne kannatus on osa tervikpildist.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -7017,33 +6969,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Težave z nalogami, ki zahtevajo natančno koordinacijo rok: pisanje, risanje, uporaba škarij.",
-        "Slaba prostorska orientacija, se izgubi v hodniku, ne more organizirati materialov na mizi.",
-        "Nerodni gibi, pogosto padanje ali trčanje s predmeti.",
-        "Težave z nalogami samooskrbe (zapenjanje gumbov, vezanje čevljev).",
-        "Lahko je zakasnjen govor ali težave z nalogami zaporedja.",
+        "Pisava je težavna, počasna in pogosto nečitljiva — zaradi resnične motorične težave, ne iz malomarnosti.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Težave pri prostorski organizaciji zvezka, pri ravnanju s pripomočki in pri zaporedjih korakov.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Lahko deluje »nerodno« — razliva pijačo, zaletava se v pohištvo, ima težave pri športu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nesorazmerna utrujenost po nalogah, ki zahtevajo dolgotrajno fino koordinacijo.",
+        "Spoznavna komponenta je običajno ohranjena — od tod pogosta frustracija med tem, kar otrok zna, in tem, kar zmore pokazati.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>To ni</strong> nepazljivost ali lenoba, motorično načrtovanje je nevrološko moteno.",
-        "<strong>To ni</strong> vidno od zunaj, težave se pogosto zamenjuje z nerodnošto.",
-        "<strong>To se ne izboljša</strong> samo z večjo prakso, potrebna je strukturirana terapija.",
+        "<strong>Ni</strong> lenoba ali pomanjkanje prizadevanja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ni</strong> le slaba pisava: klinični izraz je razvojna motnja koordinacije (DCD) in prizadene načrtovanje ter gibalno zaporedje, ne le pisanja.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne reši se</strong> z »več vaje pisanja«: učinkovita obravnava je usmerjena v nalogo, ne v mehansko ponavljanje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ponudi alternative pisanju (računalniška tipkovnica, glasovni posnetek).",
-        "Dovoli dodatni čas za naloge, ki zahtevajo ročno spretnost.",
-        "Zmanjšaj obseg pisanja, osredotoči se na vsebino, ne na prezentacijo.",
-        "Posvetuj se z delovnim terapevtom glede prilagoditve razrednega okolja.",
+        "Dovoliti uporabo tipkovnice/tablice pri obsežnejših pisnih izdelkih.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zmanjšati mehansko prepisovanje s table — zagotoviti zapiske, kadar je to ustrezno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zagotoviti jasne kontrolne sezname za naloge z več koraki.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Izdelek ocenjevati po vsebini, ne po fizični predstavitvi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Pojasni, da to ni lenoba, učenec se trudi, toda proces načrtovanja je moten.",
-        "Izpostavi kompenzacijske strategije, ki jih učenec že uporablja.",
-        "Razpravi o prilagoditvah domačih nalog: manj, osredotočeno, z uporabo tehnologije.",
-        "Spodbudi posvet z delovnim terapevtom ali fizioterapevtom prek šolske podpore.",
+        "Pojasniti, kaj je dispraksija, s preprostim jezikom — večina staršev tega izraza še nikoli ni slišala: »gre za nevrološko težavo pri koordinaciji gibov, ne za malomarnost ali pomanjkanje truda«.",
+        "Nečitljiva pisava je točka največje napetosti s starši — pokazati, da ocenjevanje zdaj ceni vsebino in ne oblike, pomaga ublažiti tesnobo na obeh straneh.",
+        "Predlagati praktična orodja za doma: glasovno narekovanje na telefonu za zapiske, tipkovnico za obsežne pisne naloge.",
+        "Če so se v prejšnjih letih pojavile oznake »je len/lena« ali »se ne trudi«, to neposredno poimenovati: »vem, da ste to že slišali — moja razlaga je drugačna«.",
       ]},
       { items: [
-        "Resno poslabšanje samozavesti ali socialna izolacija.",
-        "Fizična varnost ogrožena med telesno vzgojo.",
-        "Brez napredka kljub stalni podpori.",
+        "Popolna zavrnitev pisne produkcije.",
+        "Socialna izolacija v kontekstih telesne dejavnosti.",
+        "Znaki somatizirane tesnobe pred pisnimi ocenjevanji — psihosocialna stiska je del klinične slike.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -7344,33 +7296,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Deacrachtaí le tascanna a éilíonn comhordú cruinn lámh: scríbhneoireacht, líníocht, siosúir a úsáid.",
-        "Treoshuíomh spásúil lag, cailltear sa halla, ní féidir ábhair a eagrú ar dheasc.",
-        "Gluaiseachtaí ciotacha, titim go minic nó baint le rudaí.",
-        "Deacrachtaí le tascanna féincúraim (cnaipí a dhaingniú, lásaí a cheangal).",
-        "D'fhéadfadh moill urlabhra a bheith ann nó deacrachtaí le tascanna sraitheacha.",
+        "Lámhscríbhneoireacht atá deacair, mall agus doléite go minic — de bharr deacrachta luaileach iarbhír, ní de bharr faillí.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Deacracht le heagrú spásúil an chóipleabhair, le bainistiú ábhar agus le seichimh céimeanna.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "D'fhéadfadh sé/sí cuma „amscaí” a bheith air/uirthi — doirteann sé/sí gloiní, buaileann sé/sí in éadan troscáin, bíonn deacracht aige/aici leis an spórt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tuirse atá as cuimse i ndiaidh tascanna a éilíonn comhordú mín luaileach buanaithe.",
+        "Bíonn an chomhpháirt chognaíoch caomhnaithe go ginearálta — sin an chúis leis an bhfrustrachas minic idir an t-eolas a bheith aige/aici agus é a chur in iúl.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ní hé</strong> neamhairde ná leisciúlacht é, tá pleanáil mhótarach truaillithe go néareolaíoch.",
-        "<strong>Ní féidir é a fheiceáil</strong> ón taobh amuigh, is minic a bhíonn deacrachtaí measctha le ciotaíocht.",
-        "<strong>Ní fheabhsaíonn sé</strong> le cleachtas amháin, teastaíonn teiripe struchtúrtha.",
+        "<strong>Ní</strong> leisce ná easpa dúthrachta atá ann.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Ní</strong> drochpheannaireacht amháin atá ann: is é an téarma cliniciúil ná Neamhord Forbartha Comhordúcháin (DCD), agus téann sé i bhfeidhm ar an bpleanáil agus ar an seicheamhú luaileach, ní hamháin ar an scríbhneoireacht.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní réitítear</strong> é trí „níos mó cleachtaidh scríbhneoireachta”: bíonn an idirghabháil éifeachtach dírithe ar an tasc, ní hí an athrá mheicniúil í.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tairg roghanna seachas scríbhneoireacht (méarchlár ríomhaire, taifead gutha).",
-        "Ceadaigh am breise do thascanna a éilíonn lámhoilteacht.",
-        "Laghdaigh méid na scríbhneoireachta, dírigh ar ábhar, ní ar chur i láthair.",
-        "Comhairliú le teiripí saothair faoi oiriúnú timpeallacht an ranga.",
+        "Ceadú méarchlár/táibléad a úsáid i saothair scríofa fhairsinge.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Cóipeáil mheicniúil ón gclár a laghdú — nótaí a chur ar fáil nuair is ábhartha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Seicliostaí follasacha a chur ar fáil do thascanna a bhfuil ilchéimeanna iontu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "An saothar a mheas de réir an ábhair, ní de réir an chuma fhisiciúil.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Mínigh nach leisciúlacht é, tá an scoláire ag iarraidh, ach tá próiseas pleanála truaillithe.",
-        "Aibhsigh straitéisí cúitimh atá á n-úsáid ag an scoláire cheana féin.",
-        "Pléigh oiriúnuithe obair bhaile: níos lú, dírithe, ag baint úsáide as teicneolaíocht.",
-        "Spreag dul i gcomhairle le teiripí saothair nó fisiteiripeoir tríd an tacaíocht scoile.",
+        "A mhíniú cad is dispraicse ann i dteanga shimplí — níor chuala formhór na gcaomhnóirí an téarma riamh: „is deacracht néareolaíoch í i gcomhordú na ngluaiseachtaí, ní faillí ná easpa iarrachta í”.",
+        "Is í an lámhscríbhneoireacht dholéite an pointe is mó coimhlinte leis na caomhnóirí — cuidíonn sé le himní an dá thaobh a mhaolú a thaispeáint go bhfuil an mheasúnacht ag tabhairt tús áite don ábhar anois seachas don fhoirm.",
+        "Uirlisí praiticiúla a mholadh don bhaile: deachtú gutha ar an bhfón do nótaí, méarchlár do shaothair scríofa fhairsinge.",
+        "Má bhí stair ann de „tá sé/sí leisciúil” nó „ní dhéanann sé/sí iarracht” i mblianta roimhe seo, é sin a ainmniú go díreach: „tá a fhios agam gur chuala tú é sin cheana — tá léamh difriúil agamsa air”.",
       ]},
       { items: [
-        "Laghdú tromchúiseach ar féinmheas nó aonrú sóisialta.",
-        "Sábháilteacht fhisiciúil i gcontúirt le linn corpoideachas.",
-        "Gan dul chun cinn d'ainneoin tacaíochta leanúnaí.",
+        "Diúltú iomlán do shaothar scríofa.",
+        "Aonrú sóisialta i gcomhthéacsanna gníomhaíochta fisiciúla.",
+        "Comharthaí imní sómaithe roimh mheasúnachtaí scríofa — is cuid den phictiúr í an fhulaingt shíceasóisialta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
@@ -7671,33 +7623,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     dispraxia: { sections: [
       { items: [
-        "Diffikultajiet bil-kompiti li jeħtieġu koordinament preċiż tal-idejn: kitba, tpinġija, użu ta' qxur.",
-        "Orjentament spazjali dgħajjef, jintilef fil-kuridur, ma jistax jorganizza materjali fuq l-iskrivanija.",
-        "Movimenti mhux eleganti, waqgħat frekwenti jew taħbita ma' oġġetti.",
-        "Diffikultajiet bil-kompiti ta' awto-kura (jgħalleq il-buttuni, jorbot il-qraben).",
-        "Jista' jkun hemm dewmien fil-kliem jew diffikultajiet bil-kompiti ta' sekwenzar.",
+        "Kitba bl-idejn diffiċli, bil-mod u ħafna drabi illeġġibbli — minħabba diffikultà motorja reali, mhux minħabba traskuraġni.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Diffikultà fl-organizzazzjoni spazjali tal-pitazz, fil-ġestjoni tal-materjal u fis-sekwenzi ta' passi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Jista' jidher “goff” — ixerred it-tazzi, jaħbat mal-għamara, isib diffikultà fl-isport.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Għeja sproporzjonata wara kompiti li jeħtieġu koordinazzjoni motorja fina sostnuta.",
+        "Il-komponent konjittiv ġeneralment ikun ippreservat — minn hawn il-frustrazzjoni frekwenti bejn li jaf u li jirnexxielu juri.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Mhijiex</strong> inattenzjoni jew għażż, il-pjanifikazzjoni motorja hija mfixkla newroloġikament.",
-        "<strong>Ma tidhirx</strong> minn barra, id-diffikultajiet spiss jintbdlu mal-goffaġni.",
-        "<strong>Ma ttejjibx</strong> bil-prattika waħedha, tista' jeħtieġ terapija strutturata.",
+        "<strong>Mhijiex</strong> għażż jew nuqqas ta' applikazzjoni.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Mhijiex</strong> biss kitba ħażina: it-terminu kliniku huwa Disturb tal-Iżvilupp tal-Koordinazzjoni (DCD) u jaffettwa l-ippjanar u s-sekwenzjar motorju, mhux biss il-kitba.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ma tissolviex</strong> billi “tħarreġ aktar il-kitba”: l-intervent effettiv huwa orjentat lejn il-kompitu, mhux ir-ripetizzjoni mekkanika.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Offri alternattivi għall-kitba (tastiera tal-kompjuter, reġistrazzjoni bil-vuċi).",
-        "Ippermetti aktar żmien għall-kompiti li jeħtieġu abilità manwali.",
-        "Naqqas il-kwantità tal-kitba, iffoka fuq il-kontenut, mhux il-preżentazzjoni.",
-        "Ikkonsulta terapeuta okkupazzjonali dwar adattament tal-ambjent tal-klassi.",
+        "Tħalli l-użu ta' tastiera/tablet f'produzzjonijiet bil-miktub estensivi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tnaqqas il-kkupjar mekkaniku mill-bord — tipprovdi noti meta jkun rilevanti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tipprovdi listi ta' kontroll espliċiti għal kompiti b'ħafna passi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Tevalwa l-prodott skont il-kontenut, mhux skont il-preżentazzjoni fiżika.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Fissira li mhux għażż, l-istudent qed jipprova, iżda l-proċess ta' pjanifikazzjoni huwa mfixkel.",
-        "Agħraf l-istrateġiji kumpensatorji li l-istudent diġà juża.",
-        "Iddiskuti adattamenti tad-devoirs: inqas, iffukati, bl-użu tat-teknoloġija.",
-        "Ħeġġeġ konsultazzjoni ma' terapeuta okkupazzjonali jew fisjoterapeuta permezz tal-appoġġ tal-iskola.",
+        "Tispjega x'inhi d-dispraksja b'lingwaġġ sempliċi — il-biċċa l-kbira tal-ġenituri/kustodji qatt ma semgħu t-terminu: “hija diffikultà newroloġika fil-koordinazzjoni tal-movimenti, mhix traskuraġni u lanqas nuqqas ta' sforz”.",
+        "Il-kitba illeġġibbli hija l-punt ta' l-akbar frizzjoni mal-ġenituri/kustodji — turi li l-evalwazzjoni issa qed tagħti valur lill-kontenut u mhux lill-forma tgħin biex ittaffi l-ansjetà taż-żewġ naħat.",
+        "Tissuġġerixxi għodod prattiċi għad-dar: dettatura bil-vuċi fuq il-mowbajl għan-noti, tastiera għal xogħlijiet bil-miktub estensivi.",
+        "Jekk ikun hemm storja ta' “huwa/hija għażżien/a” jew “ma jagħmilx sforz” fis-snin ta' qabel, semmiha direttament: “naf li diġà smajt dan qabel — il-qari tiegħi huwa differenti”.",
       ]},
       { items: [
-        "Tnaqqis serju fl-istima tagħha stess jew iżolament soċjali.",
-        "Sigurtà fiżika fir-riskju waqt l-edukazzjoni fiżika.",
-        "L-ebda progress minkejja appoġġ kontinwu.",
+        "Rifjut totali ta' produzzjoni bil-miktub.",
+        "Iżolament soċjali f'kuntesti ta' attività fiżika.",
+        "Sinjali ta' ansjetà somatizzata qabel l-evalwazzjonijiet bil-miktub — it-tbatija psikosoċjali hija parti mill-kwadru.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
     sobredotacao: { sections: [
