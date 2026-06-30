@@ -57,11 +57,11 @@ function entryHref(e: typeof allEntries[0]) {
       </section>
     ))}
     {pending && <div class="pending-notice">{t.translation_notice}</div>}
-    {(entry.data.references ?? []).length > 0 && (
+    {((ct?.references ?? entry.data.references) ?? []).length > 0 && (
       <section class="card-section references-section">
         <h2 class="card-section-label">{t.references_label}</h2>
         <ol class="references-list">
-          {(entry.data.references ?? []).map((ref, i) => (
+          {((ct?.references ?? entry.data.references) ?? []).map((ref, i) => (
             <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
           ))}
         </ol>
