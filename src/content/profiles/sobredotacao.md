@@ -7,34 +7,38 @@ desc: "Capacidade acima da média, frequentemente acompanhada de tédio e sub-es
 sections:
   - label: "Como se manifesta na sala"
     items:
-      - "Termina tarefas em minutos enquanto a turma demora a aula inteira."
+      - "Termina as tarefas em minutos enquanto a turma demora a aula inteira."
       - "Faz perguntas que saem do âmbito da matéria — ou desafia activamente o que está a ser ensinado."
-      - "Pode aparentar desinteresse, indisciplina, ou apatia — frequentemente sinais de tédio crónico."
-      - "Sensibilidade emocional acentuada; pode ser ansioso, perfeccionista, ou injustamente exigente consigo próprio."
-      - "Risco real de subdesempenho — aprende a esconder a capacidade para não se destacar socialmente."
+      - "Pode aparentar desinteresse, indisciplina ou apatia — muitas vezes sinais de tédio crónico e de subdesempenho.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "Sensibilidade emocional acentuada; pode ser ansioso ou perfeccionista — os factores psicossociais são determinantes no desenvolvimento do talento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Risco real de subdesempenho — pode aprender a esconder a capacidade para não se destacar socialmente.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
   - label: "O que não é"
     items:
-      - "<strong>Não é</strong> sinónimo de bom comportamento ou bons resultados — muitos alunos sobredotados têm resultados medianos por desinteresse."
-      - "<strong>Não é</strong> \"não precisa de ajuda\" — precisa de desafios diferentes, não de menos atenção."
-      - "<strong>Não é</strong> incompatível com neuro-divergência — duplamente excepcional (2e) existe e é frequente."
+      - "<strong>Não é</strong> sinónimo de bom comportamento nem de bons resultados — muitos alunos sobredotados têm desempenho mediano por desinteresse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "<strong>Não é</strong> \"não precisa de ajuda\": precisa de desafios diferentes, porque a capacidade só se converte em realização quando é deliberadamente desenvolvida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "<strong>Não é</strong> incompatível com a neuro-divergência — a dupla excepcionalidade (2e) existe, é frequente e é muitas vezes mascarada.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
   - label: "Estratégias sem IA"
     items:
-      - "Ter sempre tarefas de extensão preparadas — não mais do mesmo, mas matéria mais profunda ou aplicada."
+      - "Ter sempre tarefas de extensão preparadas — não mais do mesmo, mas matéria mais profunda ou aplicada.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Permitir investigação independente sobre tópicos do interesse do aluno dentro do programa."
       - "Avaliar pelo desafio, não pela facilidade — pedir trabalhos mais exigentes em troca de menor volume."
-      - "Reconhecer e validar a sensibilidade emocional sem patologizar."
+      - "Reconhecer e validar a sensibilidade emocional sem a patologizar."
   - label: "Como comunicar com o EE"
     items:
-      - "Antecipar o orgulho e reencaminhá-lo: \"o seu filho/a sua filha é claramente muito capaz — e é precisamente por isso que o tédio está a criar problemas\"."
-      - "Explicar o paradoxo da sobredotação: bons resultados não significam que está bem — muitos alunos sobredotados têm resultados medianos por desinteresse, não por falta de capacidade."
+      - "Antecipar o orgulho e reencaminhá-lo: \"é claramente muito capaz — e é precisamente por isso que o tédio está a criar problemas\"."
+      - "Explicar o paradoxo da sobredotação: bons resultados não significam que está bem, e o subdesempenho por desinteresse é comum e reversível.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "Se o aluno esconde a capacidade para se integrar socialmente, nomear isso com cuidado — é um sinal de sofrimento, não de modéstia."
-      - "Propor ao EE que valorize o processo em vez do resultado em casa: curiosidade, profundidade, perguntas difíceis valem mais do que notas altas em tarefas fáceis."
+      - "Propor ao EE que valorize o processo em vez do resultado em casa: curiosidade, profundidade e perguntas difíceis valem mais do que notas altas em tarefas fáceis."
   - label: "Sinais de alerta para referenciação"
     items:
-      - "Sinais de ansiedade ou depressão associados a perfeccionismo extremo."
+      - "Sinais de ansiedade ou depressão associados a perfeccionismo extremo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Isolamento social marcado por se sentir \"diferente\" dos pares."
-      - "Subdesempenho académico súbito num aluno previamente identificado como capaz."
+      - "Subdesempenho académico súbito num aluno previamente identificado como capaz.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
 ai_strategies:
   tools: []
 related: ["tdah", "autismo"]
+references:
+  - "Subotnik, R. F., Olszewski-Kubilius, P., & Worrell, F. C. (2011). Rethinking giftedness and gifted education: a proposed direction forward based on psychological science. <em>Psychological Science in the Public Interest</em>, 12(1), 3–54."
+  - "Reis, S. M., & McCoach, D. B. (2000). The underachievement of gifted students: what do we know and where do we go? <em>Gifted Child Quarterly</em>, 44(3), 152–170."
+  - "Reis, S. M., Baum, S. M., & Burke, E. (2014). An operational definition of twice-exceptional learners: implications and applications. <em>Gifted Child Quarterly</em>, 58(3), 217–230."
 ---
