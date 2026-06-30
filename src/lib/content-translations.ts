@@ -198,27 +198,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Data relating to minors is subject to enhanced protection (Art. 8 GDPR). Consent from parents/guardians is mandatory.",
-        "Verify where the tool stores data, European or non-European servers, anonymised or not.",
-        "Never enter full names, addresses, identification numbers, or clinical diagnoses into generative AI tools.",
-        "Distinguish institutional use (the school signs a contract) from personal use by the teacher (individual responsibility).",
+        "Minors' data are subject to reinforced protection (Art. 8 GDPR). Consent from parents/guardians is mandatory.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Check where the tool stores data — European servers, non-European, anonymised or not.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Never enter full names, addresses, ID numbers, or clinical diagnoses into generative AI tools.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Distinguish institutional use (the school signs a contract) from a teacher's personal use (individual responsibility).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systems trained predominantly on English-language data may perform poorly in other languages and non-anglophone contexts.",
-        "Automated recommendations may amplify gender, ethnic, or class stereotypes, verify critically.",
-        "\"Academic risk prediction\" models are particularly problematic, they frequently reproduce existing inequalities.",
+        "Systems trained on predominantly English-language data may perform worse in Portuguese and Lusophone contexts.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automated recommendations can amplify stereotypes of gender, ethnicity, or class — check them critically.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "\"Academic risk prediction\" models are particularly problematic — they frequently reproduce existing inequalities rather than identifying needs.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "The objective is to increase the student's autonomy, not to replace the cognitive work that develops it.",
-        "Distinguish an <strong>access tool</strong> (text-to-speech for a student with dyslexia) from a <strong>substitution tool</strong> (ChatGPT writing the essay).",
-        "Assess regularly: is the student developing competence, or developing dependency on the tool?",
+        "The goal is to increase the student's autonomy, not to replace the cognitive work that develops it.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Distinguish an <strong>access tool</strong> (text-to-speech for a student with dyslexia) from a <strong>substitution tool</strong> (ChatGPT writing the essay).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Assess regularly: is the student developing competence, or developing dependence on the tool?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Does the tool resolve a real barrier or create a shortcut that bypasses learning?",
-        "<strong>2.</strong> Is the data entered protected and does consent exist?",
-        "<strong>3.</strong> Will the tool's output be verified by a human before reaching the student?",
+        "<strong>1.</strong> Does the tool solve a real barrier, or create a shortcut that bypasses the learning?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Is the data entered protected, and does consent exist?",
+        "<strong>3.</strong> Will the tool's output be checked by a human before it reaches the student?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Is there a non-AI alternative that works equally well?",
-        "<strong>5.</strong> If the tool ceases to exist tomorrow, will the student be left helpless?",
+        "<strong>5.</strong> If the tool disappeared tomorrow, would the student be left stranded?",
       ]},
     ]},
     oficina: { sections: [
@@ -532,27 +532,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Los datos de menores están sujetos a protección reforzada (Art. 8 RGPD). El consentimiento de las familias es obligatorio.",
-        "Verificar dónde almacena datos la herramienta, servidores europeos o no europeos, anonimizados o no.",
-        "Nunca introducir nombres completos, domicilios, números de identificación ni diagnósticos clínicos en herramientas de IA generativa.",
-        "Distinguir el uso institucional (el centro firma un contrato) del uso personal del docente (responsabilidad individual).",
+        "Los datos de menores están sujetos a una protección reforzada (Art. 8 RGPD). El consentimiento de los tutores legales es obligatorio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Comprobar dónde almacena los datos la herramienta: servidores europeos, no europeos, anonimizados o no.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nunca introducir nombres completos, domicilios, números de identificación ni diagnósticos clínicos en herramientas de IA generativa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Distinguir el uso institucional (el centro firma un contrato) del uso personal del docente (responsabilidad individual).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Los sistemas entrenados principalmente con datos en inglés pueden tener un rendimiento inferior en español y en contextos hispanohablantes.",
-        "Las recomendaciones automáticas pueden amplificar estereotipos de género, etnia o clase, verificar de forma crítica.",
-        "Los modelos de «predicción de riesgo académico» son especialmente problemáticos, frecuentemente reproducen desigualdades existentes.",
+        "Los sistemas entrenados con datos mayoritariamente anglófonos pueden tener un rendimiento inferior en portugués y en contextos lusófonos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Las recomendaciones automáticas pueden amplificar estereotipos de género, etnia o clase: hay que verificarlas con sentido crítico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Los modelos de «predicción del riesgo académico» son especialmente problemáticos: a menudo reproducen las desigualdades existentes en lugar de identificar necesidades.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "El objetivo es aumentar la autonomía del alumno, no sustituir el trabajo cognitivo que la desarrolla.",
-        "Distinguir una <strong>herramienta de acceso</strong> (texto a voz para un alumno con dislexia) de una <strong>herramienta de sustitución</strong> (ChatGPT redactando la composición).",
-        "Evaluar regularmente: ¿el alumno está desarrollando competencia o está desarrollando dependencia de la herramienta?",
+        "El objetivo es aumentar la autonomía del alumno, no sustituir el trabajo cognitivo que la desarrolla.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Distinguir la <strong>herramienta de acceso</strong> (text-to-speech para un alumno con dislexia) de la <strong>herramienta de sustitución</strong> (ChatGPT escribiendo la redacción).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evaluar con regularidad: ¿el alumno está desarrollando competencia o está desarrollando dependencia de la herramienta?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> ¿La herramienta resuelve una barrera real o crea un atajo que omite el aprendizaje?",
+        "<strong>1.</strong> ¿La herramienta resuelve una barrera real o crea un atajo que omite el aprendizaje?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>2.</strong> ¿Los datos introducidos están protegidos y existe consentimiento?",
-        "<strong>3.</strong> ¿El resultado de la herramienta será verificado por un humano antes de llegar al alumno?",
+        "<strong>3.</strong> ¿El resultado de la herramienta será verificado por una persona antes de llegar al alumno?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> ¿Existe una alternativa sin IA que funcione igual de bien?",
-        "<strong>5.</strong> Si la herramienta deja de existir mañana, ¿el alumno queda desamparado?",
+        "<strong>5.</strong> Si la herramienta dejara de existir mañana, ¿el alumno quedaría desamparado?",
       ]},
     ]},
     oficina: { sections: [
@@ -866,27 +866,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Les données concernant des mineurs font l'objet d'une protection renforcée (art. 8 RGPD). Le consentement des familles est obligatoire.",
-        "Vérifier où l'outil stocke les données, serveurs européens ou non, anonymisés ou non.",
-        "Ne jamais saisir des noms complets, adresses, numéros d'identification ou diagnostics cliniques dans des outils d'IA générative.",
-        "Distinguer l'usage institutionnel (l'établissement signe un contrat) de l'usage personnel de l'enseignant (responsabilité individuelle).",
+        "Les données des mineurs font l'objet d'une protection renforcée (art. 8 RGPD). Le consentement des responsables légaux est obligatoire.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vérifier où l'outil stocke les données : serveurs européens, non européens, anonymisés ou non.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ne jamais saisir de noms complets, d'adresses, de numéros d'identification ni de diagnostics cliniques dans des outils d'IA générative.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Distinguer l'usage institutionnel (l'établissement signe un contrat) de l'usage personnel de l'enseignant (responsabilité individuelle).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Les systèmes entraînés principalement sur des données en anglais peuvent avoir des performances moindres en français et dans les contextes francophones.",
-        "Les recommandations automatiques peuvent amplifier des stéréotypes de genre, d'origine ou de classe, vérifier de manière critique.",
-        "Les modèles de « prédiction de risque scolaire » sont particulièrement problématiques, ils reproduisent souvent des inégalités existantes.",
+        "Les systèmes entraînés sur des données majoritairement anglophones peuvent présenter des performances inférieures en portugais et dans les contextes lusophones.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Les recommandations automatiques peuvent amplifier les stéréotypes de genre, d'origine ethnique ou de classe : à vérifier d'un œil critique.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Les modèles de « prédiction du risque scolaire » sont particulièrement problématiques : ils reproduisent souvent les inégalités existantes au lieu d'identifier les besoins.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "L'objectif est d'accroître l'autonomie de l'élève, pas de se substituer au travail cognitif qui la développe.",
-        "Distinguer un <strong>outil d'accès</strong> (synthèse vocale pour un élève dyslexique) d'un <strong>outil de substitution</strong> (ChatGPT rédigeant la rédaction).",
-        "Évaluer régulièrement : l'élève développe-t-il une compétence ou une dépendance à l'outil ?",
+        "L'objectif est d'accroître l'autonomie de l'élève, et non de remplacer le travail cognitif qui la développe.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Distinguer l'<strong>outil d'accès</strong> (text-to-speech pour un élève dyslexique) de l'<strong>outil de substitution</strong> (ChatGPT qui rédige la dissertation).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Évaluer régulièrement : l'élève développe-t-il une compétence ou développe-t-il une dépendance à l'outil ?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> L'outil résout-il une vraie barrière ou crée-t-il un raccourci qui contourne l'apprentissage ?",
+        "<strong>1.</strong> L'outil résout-il un obstacle réel ou crée-t-il un raccourci qui escamote l'apprentissage ?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>2.</strong> Les données saisies sont-elles protégées et le consentement existe-t-il ?",
-        "<strong>3.</strong> Le résultat produit par l'outil sera-t-il vérifié par un humain avant d'arriver à l'élève ?",
+        "<strong>3.</strong> Le résultat de l'outil sera-t-il vérifié par un humain avant de parvenir à l'élève ?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Existe-t-il une alternative sans IA qui fonctionne tout aussi bien ?",
-        "<strong>5.</strong> Si l'outil disparaît demain, l'élève se retrouvera-t-il démuni ?",
+        "<strong>5.</strong> Si l'outil cessait d'exister demain, l'élève se retrouverait-il démuni ?",
       ]},
     ]},
     oficina: { sections: [
@@ -1200,27 +1200,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "I dati relativi ai minori sono soggetti a protezione rafforzata (art. 8 GDPR). Il consenso delle famiglie è obbligatorio.",
-        "Verificare dove lo strumento archivia i dati, server europei o non europei, anonimizzati o no.",
-        "Non inserire mai nomi completi, indirizzi, numeri di identificazione o diagnosi cliniche in strumenti di IA generativa.",
-        "Distinguere l'uso istituzionale (la scuola firma un contratto) dall'uso personale del docente (responsabilità individuale).",
+        "I dati dei minori sono soggetti a una protezione rafforzata (art. 8 GDPR). Il consenso di chi esercita la responsabilità genitoriale è obbligatorio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Verificare dove lo strumento archivia i dati: server europei, non europei, anonimizzati o meno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Non inserire mai nomi completi, indirizzi, numeri identificativi o diagnosi cliniche negli strumenti di IA generativa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Distinguere l'uso istituzionale (la scuola firma un contratto) dall'uso personale del docente (responsabilità individuale).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "I sistemi addestrati prevalentemente su dati in lingua inglese possono avere prestazioni inferiori in italiano e nei contesti italofoni.",
-        "Le raccomandazioni automatiche possono amplificare stereotipi di genere, etnia o classe, verificare in modo critico.",
-        "I modelli di «previsione del rischio scolastico» sono particolarmente problematici, riproducono spesso le disuguaglianze esistenti.",
+        "I sistemi addestrati prevalentemente su dati in lingua inglese possono offrire prestazioni inferiori in portoghese e nei contesti lusofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Le raccomandazioni automatiche possono amplificare stereotipi di genere, etnia o classe: vanno verificate con spirito critico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "I modelli di «previsione del rischio scolastico» sono particolarmente problematici: spesso riproducono le disuguaglianze esistenti invece di individuare i bisogni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "L'obiettivo è aumentare l'autonomia dell'alunno, non sostituire il lavoro cognitivo che la sviluppa.",
-        "Distinguere uno <strong>strumento di accesso</strong> (sintesi vocale per un alunno con dislessia) da uno <strong>strumento di sostituzione</strong> (ChatGPT che scrive il tema).",
-        "Valutare regolarmente: l'alunno sta sviluppando competenza o sta sviluppando dipendenza dallo strumento?",
+        "L'obiettivo è aumentare l'autonomia dell'alunno, non sostituire il lavoro cognitivo che la sviluppa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Distinguere lo <strong>strumento di accesso</strong> (text-to-speech per un alunno con dislessia) dallo <strong>strumento di sostituzione</strong> (ChatGPT che scrive il tema).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Valutare regolarmente: l'alunno sta sviluppando una competenza o sta sviluppando una dipendenza dallo strumento?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Lo strumento risolve una barriera reale o crea una scorciatoia che bypassa l'apprendimento?",
-        "<strong>2.</strong> I dati inseriti sono protetti e il consenso esiste?",
-        "<strong>3.</strong> Il risultato prodotto dallo strumento verrà verificato da un umano prima di raggiungere l'alunno?",
+        "<strong>1.</strong> Lo strumento risolve un ostacolo reale o crea una scorciatoia che salta l'apprendimento?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> I dati inseriti sono protetti ed esiste il consenso?",
+        "<strong>3.</strong> Il risultato dello strumento sarà verificato da un essere umano prima di arrivare all'alunno?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Esiste un'alternativa senza IA che funziona altrettanto bene?",
-        "<strong>5.</strong> Se lo strumento dovesse smettere di esistere domani, l'alunno rimarrebbe senza risorse?",
+        "<strong>5.</strong> Se lo strumento smettesse di esistere domani, l'alunno resterebbe in difficoltà?",
       ]},
     ]},
     oficina: { sections: [
@@ -1532,41 +1532,31 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Anzeichen eines Traumas im Zusammenhang mit dem Migrationskontext (insbesondere bei Geflüchteten).",
       ]},
     ]},
-    etica: {
-      sections: [
-        {
-          items: [
-            "Daten von Minderjährigen unterliegen einem verstärkten Schutz (Art. 8 DSGVO). Die Einwilligung der Erziehungsberechtigten ist obligatorisch.",
-            "Überprüfen, wo das Tool Daten speichert, europäische oder nicht-europäische Server, anonymisiert oder nicht.",
-            "Niemals vollständige Namen, Adressen, Ausweisnummern oder klinische Diagnosen in generative KI-Tools eingeben.",
-            "Institutionelle Nutzung von persönlicher Nutzung der Lehrkraft unterscheiden (individuelle Verantwortung)."
-          ]
-        },
-        {
-          items: [
-            "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in anderen sprachlichen Kontexten schlechter abschneiden.",
-            "Automatische Empfehlungen können Geschlechter-, Ethnie- oder Klassenstereotype verstärken, kritisch überprüfen.",
-            "Modelle zur \"Vorhersage akademischer Risiken\" reproduzieren häufig bestehende Ungleichheiten."
-          ]
-        },
-        {
-          items: [
-            "Das Ziel ist die Stärkung der Autonomie des Schülers, nicht der Ersatz der kognitiven Arbeit, die seine Entwicklung fördert.",
-            "Zwischen <strong>Zugangs-Tool</strong> (Text-to-Speech bei Legasthenie) und <strong>Ersetzungs-Tool</strong> (KI schreibt den Aufsatz) unterscheiden.",
-            "Regelmäßig überprüfen: Entwickelt der Schüler Kompetenz oder Abhängigkeit vom Tool?"
-          ]
-        },
-        {
-          items: [
-            "<strong>1.</strong> Löst das Tool eine echte Barriere oder schafft es eine Abkürzung, die das Lernen auslässt?",
-            "<strong>2.</strong> Sind die eingegebenen Daten geschützt und liegt eine Einwilligung vor?",
-            "<strong>3.</strong> Wird das Ergebnis von einem Menschen überprüft, bevor es den Schüler erreicht?",
-            "<strong>4.</strong> Gibt es eine Nicht-KI-Alternative, die genauso gut funktioniert?",
-            "<strong>5.</strong> Wenn das Tool morgen nicht mehr existiert, ist der Schüler dann hilflos?"
-          ]
-        }
-      ]
-    },
+    etica: { sections: [
+      { items: [
+        "Daten Minderjähriger unterliegen einem verstärkten Schutz (Art. 8 DSGVO). Die Einwilligung der Erziehungsberechtigten ist verpflichtend.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Prüfen Sie, wo das Werkzeug die Daten speichert – auf europäischen oder außereuropäischen Servern, anonymisiert oder nicht.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Geben Sie niemals vollständige Namen, Adressen, Identifikationsnummern oder klinische Diagnosen in generative KI-Werkzeuge ein.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Unterscheiden Sie zwischen institutioneller Nutzung (die Schule schließt einen Vertrag ab) und privater Nutzung durch die Lehrkraft (individuelle Verantwortung).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in der portugiesischen Sprache und in lusophonen Kontexten eine schlechtere Leistung erbringen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatische Empfehlungen können Stereotype in Bezug auf Geschlecht, Ethnie oder soziale Schicht verstärken – prüfen Sie sie kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modelle zur „Vorhersage des akademischen Risikos“ sind besonders problematisch – häufig reproduzieren sie bestehende Ungleichheiten, anstatt Bedürfnisse zu erkennen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Das Ziel ist es, die Autonomie der Schülerin oder des Schülers zu stärken, nicht die kognitive Arbeit zu ersetzen, die diese Autonomie entwickelt.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Unterscheiden Sie zwischen einem <strong>Zugangswerkzeug</strong> (Text-to-Speech für eine Schülerin oder einen Schüler mit Legasthenie) und einem <strong>Ersatzwerkzeug</strong> (ChatGPT, das den Aufsatz schreibt).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Bewerten Sie regelmäßig: Entwickelt die Schülerin oder der Schüler Kompetenz oder eine Abhängigkeit vom Werkzeug?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Beseitigt das Werkzeug eine reale Barriere oder schafft es eine Abkürzung, die das Lernen umgeht?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Sind die eingegebenen Daten geschützt und liegt eine Einwilligung vor?",
+        "<strong>3.</strong> Wird das Ergebnis des Werkzeugs von einem Menschen überprüft, bevor es die Schülerin oder den Schüler erreicht?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Gibt es eine Alternative ohne KI, die genauso gut funktioniert?",
+        "<strong>5.</strong> Wenn das Werkzeug morgen nicht mehr existieren würde, stünde die Schülerin oder der Schüler hilflos da?",
+      ]},
+    ]},
     oficina: {
       sections: [
         {
@@ -1897,41 +1887,31 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tekenen van trauma die samenhangen met de migratiecontext (in het bijzonder bij vluchtelingen).",
       ]},
     ]},
-    etica: {
-      sections: [
-        {
-          items: [
-            "Gegevens van minderjarigen zijn onderworpen aan versterkte bescherming (Art. 8 AVG). Toestemming van ouders/verzorgers is verplicht.",
-            "Controleren waar de tool gegevens opslaat, Europese of niet-Europese servers, geanonimiseerd of niet.",
-            "Nooit volledige namen, adressen, identificatienummers of klinische diagnosen invoeren in generatieve AI-tools.",
-            "Institutioneel gebruik onderscheiden van persoonlijk gebruik door de docent (individuele verantwoordelijkheid)."
-          ]
-        },
-        {
-          items: [
-            "Systemen die voornamelijk met Engelstalige data zijn getraind, kunnen in andere taalkundige contexten slechter presteren.",
-            "Automatische aanbevelingen kunnen stereotypen op basis van gender, etniciteit of klasse versterken, kritisch controleren.",
-            "Modellen voor \"voorspelling van academisch risico\" reproduceren vaak bestaande ongelijkheden."
-          ]
-        },
-        {
-          items: [
-            "Het doel is de autonomie van de leerling te vergroten, niet het cognitieve werk te vervangen dat zijn ontwikkeling bevordert.",
-            "Onderscheid maken tussen <strong>toegangstool</strong> (text-to-speech bij dyslexie) en <strong>vervangingstool</strong> (AI schrijft het opstel).",
-            "Regelmatig evalueren: ontwikkelt de leerling competentie of afhankelijkheid van de tool?"
-          ]
-        },
-        {
-          items: [
-            "<strong>1.</strong> Lost de tool een echte barrière op of creëert het een snelkoppeling die het leren omzeilt?",
-            "<strong>2.</strong> Zijn de ingevoerde gegevens beschermd en is er toestemming gegeven?",
-            "<strong>3.</strong> Wordt het resultaat door een mens gecontroleerd voordat het de leerling bereikt?",
-            "<strong>4.</strong> Is er een niet-AI-alternatief dat even goed werkt?",
-            "<strong>5.</strong> Als de tool morgen niet meer bestaat, is de leerling dan hulpeloos?"
-          ]
-        }
-      ]
-    },
+    etica: { sections: [
+      { items: [
+        "Gegevens van minderjarigen zijn onderworpen aan verhoogde bescherming (art. 8 AVG). Toestemming van de wettelijke vertegenwoordigers is verplicht.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Controleer waar het hulpmiddel gegevens opslaat – op Europese of niet-Europese servers, geanonimiseerd of niet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Voer nooit volledige namen, adressen, identificatienummers of klinische diagnoses in generatieve AI-hulpmiddelen in.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Maak onderscheid tussen institutioneel gebruik (de school sluit een contract af) en persoonlijk gebruik door de docent (individuele verantwoordelijkheid).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Systemen die hoofdzakelijk met Engelstalige gegevens zijn getraind, kunnen slechter presteren in het Portugees en in Portugeestalige contexten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatische aanbevelingen kunnen stereotypen over gender, etniciteit of klasse versterken – beoordeel ze kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modellen voor het „voorspellen van academisch risico” zijn bijzonder problematisch – vaak reproduceren ze bestaande ongelijkheden in plaats van behoeften te identificeren.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Het doel is de autonomie van de leerling te vergroten, niet om het cognitieve werk te vervangen dat die autonomie ontwikkelt.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Maak onderscheid tussen een <strong>toegangshulpmiddel</strong> (text-to-speech voor een leerling met dyslexie) en een <strong>vervangingshulpmiddel</strong> (ChatGPT die het opstel schrijft).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evalueer regelmatig: ontwikkelt de leerling competentie, of ontwikkelt hij of zij afhankelijkheid van het hulpmiddel?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Lost het hulpmiddel een reële barrière op of creëert het een sluiproute die het leren omzeilt?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Zijn de ingevoerde gegevens beschermd en is er toestemming?",
+        "<strong>3.</strong> Wordt het resultaat van het hulpmiddel door een mens gecontroleerd voordat het de leerling bereikt?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Bestaat er een alternatief zonder AI dat even goed werkt?",
+        "<strong>5.</strong> Als het hulpmiddel morgen zou verdwijnen, staat de leerling dan hulpeloos?",
+      ]},
+    ]},
     oficina: {
       sections: [
         {
@@ -2262,41 +2242,31 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Oznaki traumy związanej z kontekstem migracyjnym (zwłaszcza u uchodźców).",
       ]},
     ]},
-    etica: {
-      sections: [
-        {
-          items: [
-            "Dane nieletnich podlegają wzmocnionej ochronie (art. 8 RODO). Zgoda rodziców/opiekunów jest obowiązkowa.",
-            "Sprawdzić, gdzie narzędzie przechowuje dane, serwery europejskie lub pozaeuropejskie, zanonimizowane lub nie.",
-            "Nigdy nie wprowadzać pełnych imion i nazwisk, adresów, numerów identyfikacyjnych ani klinicznych diagnoz do narzędzi generatywnej AI.",
-            "Odróżniać użycie instytucjonalne od osobistego użytku nauczyciela (indywidualna odpowiedzialność)."
-          ]
-        },
-        {
-          items: [
-            "Systemy wytrenowane głównie na danych anglojęzycznych mogą działać gorzej w innych kontekstach językowych.",
-            "Automatyczne rekomendacje mogą wzmacniać stereotypy dotyczące płci, etniczności lub klasy, weryfikować krytycznie.",
-            "Modele \"przewidywania ryzyka akademickiego\" często reprodukują istniejące nierówności."
-          ]
-        },
-        {
-          items: [
-            "Celem jest zwiększenie autonomii ucznia, a nie zastępowanie pracy poznawczej, która go rozwija.",
-            "Rozróżniać <strong>narzędzie dostępu</strong> (zamiana tekstu na mowę przy dysleksji) od <strong>narzędzia zastępczego</strong> (AI pisze wypracowanie).",
-            "Regularnie oceniać: czy uczeń rozwija kompetencję, czy uzależnienie od narzędzia?"
-          ]
-        },
-        {
-          items: [
-            "<strong>1.</strong> Czy narzędzie rozwiązuje prawdziwą barierę, czy tworzy skrót omijający uczenie się?",
-            "<strong>2.</strong> Czy wprowadzone dane są chronione i czy istnieje zgoda?",
-            "<strong>3.</strong> Czy wynik zostanie sprawdzony przez człowieka przed dotarciem do ucznia?",
-            "<strong>4.</strong> Czy istnieje alternatywa bez AI, która działa równie dobrze?",
-            "<strong>5.</strong> Jeśli narzędzie jutro przestanie istnieć, czy uczeń będzie bezradny?"
-          ]
-        }
-      ]
-    },
+    etica: { sections: [
+      { items: [
+        "Dane osób niepełnoletnich podlegają wzmocnionej ochronie (art. 8 RODO). Zgoda opiekunów prawnych jest obowiązkowa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Należy sprawdzić, gdzie narzędzie przechowuje dane — na serwerach europejskich, pozaeuropejskich, w formie zanonimizowanej lub nie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nigdy nie wprowadzaj pełnych imion i nazwisk, adresów, numerów identyfikacyjnych ani diagnoz klinicznych do narzędzi generatywnej SI.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Należy odróżniać użytkowanie instytucjonalne (szkoła podpisuje umowę) od osobistego użytkowania przez nauczyciela (odpowiedzialność indywidualna).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Systemy trenowane na danych pochodzących głównie z obszaru anglojęzycznego mogą działać gorzej w języku portugalskim i kontekstach luzofońskich.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatyczne rekomendacje mogą wzmacniać stereotypy dotyczące płci, pochodzenia etnicznego lub klasy społecznej — należy je krytycznie weryfikować.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modele „przewidywania ryzyka edukacyjnego” są szczególnie problematyczne — często odtwarzają istniejące nierówności, zamiast rozpoznawać potrzeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Celem jest zwiększenie autonomii ucznia, a nie zastąpienie pracy poznawczej, która tę autonomię rozwija.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Należy odróżniać <strong>narzędzie dostępu</strong> (text-to-speech dla ucznia z dysleksją) od <strong>narzędzia zastępującego</strong> (ChatGPT piszący wypracowanie).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Regularnie oceniaj: czy uczeń rozwija kompetencję, czy też rozwija zależność od narzędzia?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Czy narzędzie usuwa rzeczywistą barierę, czy tworzy skrót pomijający uczenie się?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Czy wprowadzane dane są chronione i czy istnieje zgoda?",
+        "<strong>3.</strong> Czy wynik narzędzia zostanie zweryfikowany przez człowieka, zanim dotrze do ucznia?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Czy istnieje alternatywa bez SI, która działa równie dobrze?",
+        "<strong>5.</strong> Jeśli narzędzie przestanie istnieć jutro, czy uczeń zostanie bez wsparcia?",
+      ]},
+    ]},
     oficina: {
       sections: [
         {
@@ -2627,41 +2597,31 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Semne de traumă asociate contextului migrației (în special la refugiați).",
       ]},
     ]},
-    etica: {
-      sections: [
-        {
-          items: [
-            "Datele minorilor sunt supuse unei protecții consolidate (Art. 8 RGPD). Consimțământul părinților/tutorilor este obligatoriu.",
-            "Verificați unde instrumentul stochează datele, servere europene sau extraeuropene, anonimizate sau nu.",
-            "Nu introduceți niciodată nume complete, adrese, numere de identificare sau diagnostice clinice în instrumente de IA generativă.",
-            "Distingeți utilizarea instituțională de utilizarea personală a cadrului didactic (responsabilitate individuală)."
-          ]
-        },
-        {
-          items: [
-            "Sistemele antrenate predominant cu date anglofone pot performa mai slab în alte contexte lingvistice.",
-            "Recomandările automate pot amplifica stereotipuri de gen, etnie sau clasă, verificați critic.",
-            "Modelele de \"predicție a riscului academic\" reproduc frecvent inegalitățile existente."
-          ]
-        },
-        {
-          items: [
-            "Obiectivul este creșterea autonomiei elevului, nu înlocuirea muncii cognitive care îl dezvoltă.",
-            "Distingeți <strong>instrumentul de acces</strong> (text-to-speech pentru dislexie) de <strong>instrumentul de substituire</strong> (IA scrie eseul).",
-            "Evaluați regulat: elevul dezvoltă competență sau dependență față de instrument?"
-          ]
-        },
-        {
-          items: [
-            "<strong>1.</strong> Instrumentul rezolvă o barieră reală sau creează o scurtătură care omite învățarea?",
-            "<strong>2.</strong> Datele introduse sunt protejate și există consimțământul?",
-            "<strong>3.</strong> Rezultatul va fi verificat de un om înainte de a ajunge la elev?",
-            "<strong>4.</strong> Există o alternativă non-IA care funcționează la fel de bine?",
-            "<strong>5.</strong> Dacă instrumentul nu mai există mâine, elevul rămâne neajutorat?"
-          ]
-        }
-      ]
-    },
+    etica: { sections: [
+      { items: [
+        "Datele minorilor beneficiază de o protecție sporită (art. 8 RGPD). Consimțământul reprezentanților legali este obligatoriu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Verificați unde stochează instrumentul datele: servere europene, neeuropene, anonimizate sau nu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nu introduceți niciodată nume complete, adrese, numere de identificare sau diagnostice clinice în instrumentele de IA generativă.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Distingeți utilizarea instituțională (școala semnează un contract) de utilizarea personală a cadrului didactic (răspundere individuală).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Sistemele antrenate preponderent pe date în limba engleză pot avea performanțe inferioare în portugheză și în contexte lusofone.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Recomandările automate pot amplifica stereotipuri de gen, etnie sau clasă socială: trebuie verificate critic.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modelele de „predicție a riscului școlar” sunt deosebit de problematice: adesea reproduc inegalitățile existente în loc să identifice nevoile.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Obiectivul este creșterea autonomiei elevului, nu înlocuirea muncii cognitive care o dezvoltă.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Distingeți <strong>instrumentul de acces</strong> (text-to-speech pentru un elev cu dislexie) de <strong>instrumentul de substituire</strong> (ChatGPT care scrie compunerea).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evaluați periodic: elevul își dezvoltă o competență sau își dezvoltă o dependență de instrument?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Instrumentul rezolvă o barieră reală sau creează o scurtătură care omite învățarea?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Datele introduse sunt protejate și există consimțământul?",
+        "<strong>3.</strong> Rezultatul instrumentului va fi verificat de un om înainte de a ajunge la elev?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Există o alternativă fără IA care funcționează la fel de bine?",
+        "<strong>5.</strong> Dacă instrumentul ar dispărea mâine, elevul ar rămâne fără sprijin?",
+      ]},
+    ]},
     oficina: {
       sections: [
         {
@@ -2997,27 +2957,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Podaci o maloljetnicima podliježu pojačanoj zaštiti (Čl. 8 GDPR-a). Pristanak roditelja je obvezan.",
-        "Provjeriti gdje alat pohranjuje podatke, europski ili neeuropski serveri, anonimizirani ili ne.",
-        "Nikada ne unositi puna imena, adrese, OIB-ove ili kliničke dijagnoze u generativne AI alate.",
-        "Razlikovati institucionalnu upotrebu (škola potpisuje ugovor) od osobne upotrebe nastavnika (individualna odgovornost).",
+        "Podaci maloljetnika podliježu pojačanoj zaštiti (čl. 8. GDPR). Privola zakonskih zastupnika je obvezna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Provjerite gdje alat pohranjuje podatke — na europskim poslužiteljima, neeuropskim, anonimizirano ili ne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "U alate generativne UI nikada ne unosite puna imena, adrese, identifikacijske brojeve ni kliničke dijagnoze.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Razlikujte institucionalnu uporabu (ugovor sklapa škola) od osobne uporabe nastavnika (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sustavi trenirani pretežno na engleskim podacima mogu slabije funkcionirati u hrvatskom jezičnom kontekstu.",
-        "Automatizirane preporuke mogu pojačavati rodne, etničke ili klasne stereotipe, kritički provjeriti.",
-        "Modeli «predviđanja akademskog rizika» često reproduciraju postojeće nejednakosti.",
+        "Sustavi trenirani pretežno na podacima na engleskome jeziku mogu imati slabiji učinak na portugalskome i u luzofonskim kontekstima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatske preporuke mogu pojačati stereotipe o spolu, etničkoj pripadnosti ili društvenome sloju — kritički ih provjeravajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modeli „predviđanja akademskog rizika” osobito su problematični — često reproduciraju postojeće nejednakosti umjesto da prepoznaju potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Cilj je povećati autonomiju učenika, ne zamijeniti kognitivni rad koji je razvija.",
-        "Razlikovati <strong>alat za pristup</strong> (tekst u govor za disleksiju) od <strong>alata za supstituciju</strong> (AI piše esej).",
-        "Redovito procjenjivati: razvija li učenik kompetenciju ili ovisnost o alatu?",
+        "Cilj je povećati učenikovu samostalnost, a ne zamijeniti kognitivni rad koji je razvija.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Razlikujte <strong>alat za pristup</strong> (text-to-speech za učenika s disleksijom) od <strong>alata za zamjenu</strong> (ChatGPT koji piše sastavak).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Redovito procjenjujte: razvija li učenik kompetenciju ili razvija ovisnost o alatu?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Rješava li alat stvarnu barijeru ili stvara prečac koji zaobilazi učenje?",
-        "<strong>2.</strong> Jesu li uneseni podaci zaštićeni i postoji li pristanak?",
-        "<strong>3.</strong> Hoće li izlaz alata provjeriti čovjek prije nego dospije do učenika?",
-        "<strong>4.</strong> Postoji li ne-AI alternativa koja funkcionira jednako dobro?",
-        "<strong>5.</strong> Ako alat sutra prestane postojati, hoće li učenik biti bespomoćan?",
+        "<strong>1.</strong> Rješava li alat stvarnu prepreku ili stvara prečac koji izostavlja učenje?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Jesu li uneseni podaci zaštićeni i postoji li privola?",
+        "<strong>3.</strong> Hoće li rezultat alata provjeriti čovjek prije nego što dođe do učenika?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Postoji li alternativa bez UI koja funkcionira jednako dobro?",
+        "<strong>5.</strong> Ako alat sutra prestane postojati, hoće li učenik ostati bez podrške?",
       ]},
     ]},
     oficina: { sections: [
@@ -3329,27 +3289,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Data o nezletilých podléhají posílené ochraně (čl. 8 GDPR). Souhlas rodičů je povinný.",
-        "Ověřit, kde nástroj ukládá data, evropské nebo mimoevropské servery, anonymizovaná nebo ne.",
-        "Nikdy nezadávat celá jména, adresy, rodná čísla ani klinické diagnózy do generativních AI nástrojů.",
-        "Odlišit institucionální použití (škola podepisuje smlouvu) od osobního použití učitele (individuální odpovědnost).",
+        "Údaje nezletilých podléhají zvýšené ochraně (čl. 8 GDPR). Souhlas zákonných zástupců je povinný.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ověřte, kde nástroj ukládá data — na evropských serverech, mimoevropských, anonymizovaně či nikoli.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Do nástrojů generativní UI nikdy nevkládejte celá jména, adresy, identifikační čísla ani klinické diagnózy.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Rozlišujte institucionální využití (smlouvu uzavírá škola) od osobního využití učitele (individuální odpovědnost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systémy trénované převážně na anglických datech mohou v českém jazykovém kontextu fungovat hůře.",
-        "Automatizovaná doporučení mohou zesilovat genderové, etnické nebo třídní stereotypy, kriticky ověřovat.",
-        "Modely «predikce akademického rizika» často reprodukují existující nerovnosti.",
+        "Systémy trénované převážně na anglojazyčných datech mohou mít horší výkon v portugalštině a v lusofonních kontextech.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatická doporučení mohou zesilovat stereotypy týkající se pohlaví, etnicity nebo společenské třídy — kriticky je ověřujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modely „predikce akademického rizika“ jsou obzvláště problematické — často reprodukují existující nerovnosti, místo aby rozpoznávaly potřeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Cílem je zvyšovat autonomii žáka, nikoli nahrazovat kognitivní práci, která ji rozvíjí.",
-        "Odlišit <strong>nástroj pro přístup</strong> (text na řeč pro dyslexii) od <strong>nástroje pro substituci</strong> (AI píše esej).",
-        "Pravidelně vyhodnocovat: rozvíjí žák kompetenci, nebo závislost na nástroji?",
+        "Cílem je posílit autonomii žáka, nikoli nahradit kognitivní práci, která ji rozvíjí.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Rozlišujte <strong>nástroj přístupu</strong> (text-to-speech pro žáka s dyslexií) od <strong>nástroje náhrady</strong> (ChatGPT píšící sloh).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Pravidelně vyhodnocujte: rozvíjí žák kompetenci, nebo si rozvíjí závislost na nástroji?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Řeší nástroj skutečnou bariéru, nebo vytváří zkratku, která obchází učení?",
-        "<strong>2.</strong> Jsou zadaná data chráněna a existuje souhlas?",
-        "<strong>3.</strong> Bude výstup nástroje před dosažením žáka ověřen člověkem?",
-        "<strong>4.</strong> Existuje alternativa bez AI, která funguje stejně dobře?",
-        "<strong>5.</strong> Pokud nástroj zítra přestane existovat, bude žák bezradný?",
+        "<strong>1.</strong> Řeší nástroj skutečnou překážku, nebo vytváří zkratku, která vynechává učení?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Jsou vložená data chráněna a existuje souhlas?",
+        "<strong>3.</strong> Bude výstup nástroje ověřen člověkem, než se dostane k žákovi?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Existuje alternativa bez UI, která funguje stejně dobře?",
+        "<strong>5.</strong> Pokud nástroj zítra přestane existovat, zůstane žák bez pomoci?",
       ]},
     ]},
     oficina: { sections: [
@@ -3661,27 +3621,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Data om minderåriga omfattas av förstärkt skydd (Art. 8 GDPR). Samtycke från vårdnadshavare är obligatoriskt.",
-        "Kontrollera var verktyget lagrar data, europeiska eller icke-europeiska servrar, anonymiserade eller inte.",
-        "Ange aldrig fullständiga namn, adresser, personnummer eller kliniska diagnoser i generativa AI-verktyg.",
-        "Skilja på institutionell användning (skolan tecknar avtal) och lärarens personliga användning (individuellt ansvar).",
+        "Uppgifter om minderåriga omfattas av förstärkt skydd (art. 8 GDPR). Samtycke från vårdnadshavarna är obligatoriskt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kontrollera var verktyget lagrar uppgifter – på europeiska eller icke-europeiska servrar, anonymiserade eller inte.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ange aldrig fullständiga namn, adresser, identifikationsnummer eller kliniska diagnoser i generativa AI-verktyg.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Skilj mellan institutionell användning (skolan tecknar avtal) och lärarens personliga användning (individuellt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "System tränade övervägande på engelskspråkiga data kan prestera sämre i svenska och andra språkliga sammanhang.",
-        "Automatiserade rekommendationer kan förstärka kön-, etnicitets- eller klassstereotyper, granska kritiskt.",
-        "Modeller för «akademisk riskprediktion» reproducerar ofta befintliga ojämlikheter.",
+        "System som tränats huvudsakligen på engelskspråkiga data kan prestera sämre på portugisiska och i portugisisktalande sammanhang.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatiska rekommendationer kan förstärka stereotyper om kön, etnicitet eller klass – granska dem kritiskt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modeller för ”prognos av akademisk risk” är särskilt problematiska – ofta reproducerar de befintliga ojämlikheter i stället för att identifiera behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Målet är att öka elevens autonomi, inte att ersätta det kognitiva arbete som utvecklar den.",
-        "Skilja på ett <strong>tillgänglighetsverktyg</strong> (text-till-tal för dyslexi) och ett <strong>substitutionsverktyg</strong> (AI skriver uppsatsen).",
-        "Utvärdera regelbundet: utvecklar eleven kompetens eller beroende av verktyget?",
+        "Målet är att öka elevens självständighet, inte att ersätta det kognitiva arbete som utvecklar den.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Skilj mellan ett <strong>tillgångsverktyg</strong> (text-to-speech för en elev med dyslexi) och ett <strong>ersättningsverktyg</strong> (ChatGPT som skriver uppsatsen).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Utvärdera regelbundet: utvecklar eleven kompetens, eller utvecklar eleven ett beroende av verktyget?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Löser verktyget ett verkligt hinder eller skapar det en genväg som kringgår lärandet?",
-        "<strong>2.</strong> Är de inmatade uppgifterna skyddade och finns samtycke?",
-        "<strong>3.</strong> Kommer verktygets output att granskas av en människa innan den når eleven?",
-        "<strong>4.</strong> Finns det ett icke-AI-alternativ som fungerar lika bra?",
-        "<strong>5.</strong> Om verktyget försvinner imorgon, kommer eleven att vara hjälplös?",
+        "<strong>1.</strong> Löser verktyget ett verkligt hinder eller skapar det en genväg som hoppar över lärandet?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Är de inmatade uppgifterna skyddade och finns det samtycke?",
+        "<strong>3.</strong> Kommer verktygets resultat att granskas av en människa innan det når eleven?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Finns det ett alternativ utan AI som fungerar lika bra?",
+        "<strong>5.</strong> Om verktyget skulle sluta finnas i morgon, står eleven då utan stöd?",
       ]},
     ]},
     oficina: { sections: [
@@ -3993,27 +3953,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Data om mindreårige er underlagt forstærket beskyttelse (Art. 8 GDPR). Samtykke fra forældre er obligatorisk.",
-        "Tjek, hvor værktøjet lagrer data, europæiske eller ikke-europæiske servere, anonymiserede eller ej.",
-        "Angiv aldrig fulde navne, adresser, CPR-numre eller kliniske diagnoser i generative AI-værktøjer.",
-        "Sondre mellem institutionel brug (skolen underskriver kontrakt) og lærerens personlige brug (individuelt ansvar).",
+        "Oplysninger om mindreårige er underlagt forstærket beskyttelse (art. 8 GDPR). Samtykke fra forældremyndighedsindehaverne er obligatorisk.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kontrollér, hvor værktøjet lagrer data – på europæiske eller ikke-europæiske servere, anonymiseret eller ej.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Indtast aldrig fulde navne, adresser, identifikationsnumre eller kliniske diagnoser i generative AI-værktøjer.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Skeln mellem institutionel brug (skolen indgår en kontrakt) og lærerens personlige brug (individuelt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systemer trænet overvejende på engelsksprogede data kan præstere dårligere i dansk og andre sproglige sammenhænge.",
-        "Automatiserede anbefalinger kan forstærke køns-, etnicitets- eller klassestereotyper, vurder kritisk.",
-        "Modeller til «akademisk risikoforudsigelse» reproducerer ofte eksisterende uligheder.",
+        "Systemer, der hovedsageligt er trænet på engelsksprogede data, kan præstere dårligere på portugisisk og i portugisisktalende sammenhænge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatiske anbefalinger kan forstærke stereotyper om køn, etnicitet eller klasse – vurdér dem kritisk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modeller til »forudsigelse af akademisk risiko« er særligt problematiske – ofte reproducerer de eksisterende uligheder i stedet for at identificere behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Målet er at øge elevens autonomi, ikke at erstatte det kognitive arbejde, der udvikler den.",
-        "Sondre mellem et <strong>adgangsværktøj</strong> (tekst-til-tale for ordblinde) og et <strong>substitutionsværktøj</strong> (AI skriver opgaven).",
-        "Evaluer regelmæssigt: udvikler eleven kompetence eller afhængighed af værktøjet?",
+        "Målet er at øge elevens selvstændighed, ikke at erstatte det kognitive arbejde, der udvikler den.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Skeln mellem et <strong>adgangsværktøj</strong> (text-to-speech til en elev med ordblindhed) og et <strong>erstatningsværktøj</strong> (ChatGPT, der skriver stilen).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evaluér regelmæssigt: udvikler eleven kompetence, eller udvikler eleven en afhængighed af værktøjet?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Løser værktøjet en reel barriere eller skaber det en genvej, der omgår læring?",
-        "<strong>2.</strong> Er de indtastede data beskyttede, og foreligger der samtykke?",
-        "<strong>3.</strong> Vil værktøjets output blive verificeret af et menneske, inden det når eleven?",
-        "<strong>4.</strong> Findes der et ikke-AI-alternativ, der fungerer lige så godt?",
-        "<strong>5.</strong> Hvis værktøjet forsvinder i morgen, vil eleven da stå hjælpeløs?",
+        "<strong>1.</strong> Løser værktøjet en reel barriere, eller skaber det en genvej, der springer læringen over?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Er de indtastede data beskyttet, og foreligger der samtykke?",
+        "<strong>3.</strong> Bliver værktøjets resultat kontrolleret af et menneske, før det når frem til eleven?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Findes der et alternativ uden AI, der fungerer lige så godt?",
+        "<strong>5.</strong> Hvis værktøjet holdt op med at eksistere i morgen, ville eleven så stå uden hjælp?",
       ]},
     ]},
     oficina: { sections: [
@@ -4325,27 +4285,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Alaikäisten tiedot ovat tehostetun suojan alaisia (GDPR art. 8). Huoltajien suostumus on pakollinen.",
-        "Tarkista, mihin työkalu tallentaa tietoja, eurooppalaiset tai ei-eurooppalaiset palvelimet, anonymisoitu vai ei.",
-        "Älä koskaan syötä kokonaisia nimiä, osoitteita, henkilötunnuksia tai klinisiä diagnooseja generatiivisiin AI-työkaluihin.",
-        "Erottele institutionaalinen käyttö (koulu allekirjoittaa sopimuksen) opettajan henkilökohtaisesta käytöstä (yksilöllinen vastuu).",
+        "Alaikäisten tietoja koskee vahvistettu suoja (GDPR:n 8 artikla). Huoltajien suostumus on pakollinen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tarkista, missä työkalu säilyttää tietoja – eurooppalaisilla vai Euroopan ulkopuolisilla palvelimilla, anonymisoituina vai ei.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Älä koskaan syötä generatiivisen tekoälyn työkaluihin koko nimiä, osoitteita, henkilötunnuksia tai kliinisiä diagnooseja.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Erota institutionaalinen käyttö (koulu allekirjoittaa sopimuksen) opettajan henkilökohtaisesta käytöstä (yksilöllinen vastuu).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Pääasiassa englanninkielisillä aineistoilla koulutetut järjestelmät voivat toimia heikommin suomalaisessa kielikontekstissa.",
-        "Automaattiset suositukset voivat vahvistaa sukupuoli-, etnisyys- tai luokkastereotypioita, arvioi kriittisesti.",
-        "«Akateemisen riskin ennustamisen» mallit toistavat usein olemassa olevia epätasa-arvoja.",
+        "Pääosin englanninkielisellä aineistolla koulutetut järjestelmät voivat toimia heikommin portugalin kielellä ja portugalinkielisissä konteksteissa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automaattiset suositukset voivat vahvistaa sukupuoleen, etniseen taustaan tai yhteiskuntaluokkaan liittyviä stereotypioita – arvioi kriittisesti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "”Akateemisen riskin ennustamisen” mallit ovat erityisen ongelmallisia – ne toistavat usein olemassa olevaa eriarvoisuutta sen sijaan, että tunnistaisivat tarpeita.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tavoitteena on lisätä oppilaan autonomiaa, ei korvata sitä kehittävää kognitiivista työtä.",
-        "Erottele <strong>saavutettavuustyökalu</strong> (teksti puheeksi dysleksialle) <strong>substituutiotyökalusta</strong> (AI kirjoittaa esseen).",
-        "Arvioi säännöllisesti: kehittääkö oppilas osaamista vai riippuvuutta työkalusta?",
+        "Tavoitteena on lisätä oppilaan itsenäisyyttä, ei korvata kognitiivista työtä, joka sitä kehittää.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Erota <strong>saavutettavuustyökalu</strong> (text-to-speech lukihäiriöiselle oppilaalle) <strong>korvaavasta työkalusta</strong> (ChatGPT, joka kirjoittaa aineen).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Arvioi säännöllisesti: kehittääkö oppilas osaamista vai kehittääkö hän riippuvuutta työkalusta?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Ratkaiseeko työkalu todellisen esteen vai luoko se oppimisen ohittavan oikotien?",
-        "<strong>2.</strong> Ovatko syötetyt tiedot suojattuja ja onko suostumus olemassa?",
-        "<strong>3.</strong> Tarkistaako ihminen työkalun tulosteen ennen kuin se saavuttaa oppilaan?",
-        "<strong>4.</strong> Onko olemassa AI-vaihtoehto, joka toimii yhtä hyvin?",
-        "<strong>5.</strong> Jos työkalu lakkaa olemasta huomenna, jääkö oppilas avuttomaksi?",
+        "<strong>1.</strong> Poistaako työkalu todellisen esteen vai luoko se oikotien, joka sivuuttaa oppimisen?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Ovatko syötetyt tiedot suojattu ja onko suostumus olemassa?",
+        "<strong>3.</strong> Tarkistaako ihminen työkalun tuloksen ennen kuin se päätyy oppilaalle?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Onko olemassa tekoälytön vaihtoehto, joka toimii yhtä hyvin?",
+        "<strong>5.</strong> Jos työkalu lakkaisi olemasta huomenna, jäisikö oppilas avuttomaksi?",
       ]},
     ]},
     oficina: { sections: [
@@ -4658,26 +4618,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Údaje maloletých podliehajú posilnenej ochrane (čl. 8 GDPR). Súhlas rodičov je povinný.",
-        "Overiť, kde nástroj uchováva údaje, európske alebo neeurópske servery, anonymizované alebo nie.",
-        "Nikdy nezadávať celé mená, adresy, identifikačné čísla ani klinické diagnózy do generatívnych nástrojov AI.",
-        "Rozlišovať inštitucionálne použitie (škola podpisuje zmluvu) od osobného použitia učiteľa (individuálna zodpovednosť).",
+        "Údaje neplnoletých osôb podliehajú zvýšenej ochrane (čl. 8 GDPR). Súhlas zákonných zástupcov je povinný.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Overte, kde nástroj uchováva údaje — na európskych serveroch, mimoeurópskych, anonymizovane alebo nie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Do nástrojov generatívnej UI nikdy nevkladajte celé mená, adresy, identifikačné čísla ani klinické diagnózy.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Rozlišujte inštitucionálne používanie (zmluvu uzatvára škola) od osobného používania učiteľa (individuálna zodpovednosť).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systémy trénované prevažne na anglickom jazyku môžu mať horší výkon v iných jazykových kontextoch.",
-        "Automatické odporúčania môžu zosilňovať stereotypy rodu, etnicity alebo triedy, kriticky overovať.",
-        "Modely \"predikcie akademického rizika\" často reprodukujú existujúce nerovnosti.",
+        "Systémy trénované prevažne na anglojazyčných údajoch môžu mať horší výkon v portugalčine a v luzofónnych kontextoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatické odporúčania môžu zosilňovať stereotypy týkajúce sa pohlavia, etnicity alebo spoločenskej triedy — kriticky ich overujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modely „predikcie akademického rizika“ sú obzvlášť problematické — často reprodukujú existujúce nerovnosti namiesto toho, aby rozpoznávali potreby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Cieľom je zvyšovanie autonómie žiaka, nie nahradenie kognitívnej práce, ktorá ho rozvíja.",
-        "Rozlišovať <strong>prístupový nástroj</strong> (text na reč pre dyslexiu) od <strong>substitučného nástroja</strong> (AI píše sloh).",
-        "Pravidelne vyhodnocovať: rozvíja žiak kompetenciu, alebo závislosť od nástroja?",
+        "Cieľom je posilniť autonómiu žiaka, nie nahradiť kognitívnu prácu, ktorá ju rozvíja.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Rozlišujte <strong>nástroj prístupu</strong> (text-to-speech pre žiaka s dyslexiou) od <strong>nástroja náhrady</strong> (ChatGPT píšuci sloh).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Pravidelne vyhodnocujte: rozvíja žiak kompetenciu, alebo si rozvíja závislosť od nástroja?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Rieši nástroj skutočnú bariéru alebo vytvára skratku, ktorá obchádza učenie?",
-        "<strong>2.</strong> Sú zadané údaje chránené a existuje súhlas?",
-        "<strong>3.</strong> Bude výstup nástroja overený človekom pred doručením žiakovi?",
-        "<strong>4.</strong> Existuje alternatíva bez AI, ktorá funguje rovnako dobre?",
+        "<strong>1.</strong> Rieši nástroj skutočnú prekážku, alebo vytvára skratku, ktorá vynecháva učenie?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Sú vložené údaje chránené a existuje súhlas?",
+        "<strong>3.</strong> Bude výstup nástroja overený človekom, skôr než sa dostane k žiakovi?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Existuje alternatíva bez UI, ktorá funguje rovnako dobre?",
         "<strong>5.</strong> Ak nástroj zajtra prestane existovať, zostane žiak bez pomoci?",
       ]},
     ]},
@@ -4988,27 +4948,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "A kiskorúak adatai fokozott védelemnek vannak alávetve (GDPR 8. cikk). A szülői hozzájárulás kötelező.",
-        "Ellenőrizze, hol tárolja az eszköz az adatokat, európai vagy nem európai szerverek, anonimizált-e.",
-        "Soha ne adjon meg teljes neveket, lakcímeket, személyi azonosítókat vagy klinikai diagnózisokat generatív AI eszközökhöz.",
-        "Különböztesse meg az intézményi használatot (iskola szerződést köt) a személyes tanári használattól (egyéni felelősség).",
+        "A kiskorúak adatai fokozott védelem alá esnek (GDPR 8. cikk). A gondviselők hozzájárulása kötelező.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ellenőrizze, hol tárolja az eszköz az adatokat — európai vagy nem európai szervereken, anonimizálva vagy sem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Soha ne adjon meg teljes neveket, lakcímeket, azonosító számokat vagy klinikai diagnózisokat generatív MI-eszközökben.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Különböztesse meg az intézményi használatot (az iskola szerződést köt) a pedagógus személyes használatától (egyéni felelősség).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "A túlnyomórészt angol nyelvű adatokkal betanított rendszerek más nyelvi kontextusokban gyengébben teljesíthetnek.",
-        "Az automatikus ajánlások felerősíthetnek nemi, etnikai vagy osztályalapú sztereotípiákat, kritikusan ellenőrizze.",
-        "Az „akadémiai kockázat-előrejelzési\" modellek gyakran reprodukálják a meglévő egyenlőtlenségeket.",
+        "A túlnyomórészt angol nyelvű adatokon betanított rendszerek gyengébben teljesíthetnek portugál nyelven és luzofón kontextusokban.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Az automatikus ajánlások felerősíthetik a nemi, etnikai vagy osztálybeli sztereotípiákat — vizsgálja meg őket kritikusan.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "A „tanulmányi kockázat előrejelzésére” szolgáló modellek különösen problémásak — gyakran a meglévő egyenlőtlenségeket reprodukálják, ahelyett hogy szükségleteket azonosítanának.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "A cél a tanuló autonómiájának növelése, nem a fejlesztő kognitív munka helyettesítése.",
-        "Különböztesse meg a <strong>hozzáférési eszközt</strong> (szöveg-felolvasó diszlexiásoknak) a <strong>helyettesítési eszköztől</strong> (AI írja a dolgozatot).",
-        "Rendszeresen értékelje: a tanuló kompetenciát fejleszt, vagy függőséget az eszköztől?",
+        "A cél a tanuló önállóságának növelése, nem pedig az őt fejlesztő kognitív munka helyettesítése.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Különböztesse meg a <strong>hozzáférési eszközt</strong> (text-to-speech egy diszlexiás tanuló számára) a <strong>helyettesítő eszköztől</strong> (a ChatGPT írja meg a fogalmazást).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Rendszeresen értékelje: a tanuló kompetenciát fejleszt, vagy függőséget alakít ki az eszköztől?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Az eszköz valódi akadályt old meg, vagy olyan rövidítést teremt, amely kikerüli a tanulást?",
-        "<strong>2.</strong> A bevitt adatok védve vannak és a hozzájárulás megvan?",
-        "<strong>3.</strong> Az eszköz eredményét egy ember ellenőrzi, mielőtt a tanulóhoz kerül?",
-        "<strong>4.</strong> Van AI nélküli alternatíva, amely ugyanolyan jól működik?",
-        "<strong>5.</strong> Ha az eszköz holnap megszűnik, a tanuló magára marad?",
+        "<strong>1.</strong> Az eszköz egy valós akadályt old meg, vagy olyan kiskaput hoz létre, amely megkerüli a tanulást?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> A bevitt adatok védettek, és megvan a hozzájárulás?",
+        "<strong>3.</strong> Ellenőrzi-e egy ember az eszköz eredményét, mielőtt az eljutna a tanulóhoz?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Létezik-e olyan MI nélküli alternatíva, amely ugyanolyan jól működik?",
+        "<strong>5.</strong> Ha az eszköz holnap megszűnne, magára maradna a tanuló?",
       ]},
     ]},
     oficina: { sections: [
@@ -5318,27 +5278,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Τα δεδομένα ανηλίκων υπόκεινται σε ενισχυμένη προστασία (αρθρ. 8 ΓΚΠΔ). Η συγκατάθεση γονέων είναι υποχρεωτική.",
-        "Να ελέγχετε πού αποθηκεύει δεδομένα το εργαλείο, ευρωπαϊκοί ή μη ευρωπαϊκοί διακομιστές, ανωνυμοποιημένα ή όχι.",
-        "Ποτέ να μην εισάγετε πλήρη ονόματα, διευθύνσεις, αριθμούς ταυτότητας ή κλινικές διαγνώσεις σε εργαλεία γεννητικής ΑΙ.",
-        "Να διακρίνετε τη θεσμική χρήση (σχολείο υπογράφει σύμβαση) από την προσωπική χρήση εκπαιδευτικού (ατομική ευθύνη).",
+        "Τα δεδομένα ανηλίκων υπόκεινται σε ενισχυμένη προστασία (Άρθρο 8 ΓΚΠΔ). Η συγκατάθεση των κηδεμόνων είναι υποχρεωτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ελέγξτε πού αποθηκεύει τα δεδομένα το εργαλείο — σε ευρωπαϊκούς ή μη ευρωπαϊκούς διακομιστές, ανωνυμοποιημένα ή όχι.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Μην εισάγετε ποτέ πλήρη ονόματα, διευθύνσεις, αριθμούς ταυτότητας ή κλινικές διαγνώσεις σε εργαλεία παραγωγικής ΤΝ.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Διακρίνετε τη θεσμική χρήση (το σχολείο υπογράφει σύμβαση) από την προσωπική χρήση του εκπαιδευτικού (ατομική ευθύνη).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Συστήματα εκπαιδευμένα κυρίως με αγγλόφωνα δεδομένα μπορεί να έχουν χειρότερη απόδοση σε άλλα γλωσσικά πλαίσια.",
-        "Αυτοματοποιημένες συστάσεις μπορεί να ενισχύουν στερεότυπα φύλου, εθνικότητας ή τάξης, να ελέγχετε κριτικά.",
-        "Τα μοντέλα «πρόβλεψης ακαδημαϊκού κινδύνου» συχνά αναπαράγουν υπάρχουσες ανισότητες.",
+        "Συστήματα που έχουν εκπαιδευτεί κυρίως με αγγλόφωνα δεδομένα ενδέχεται να έχουν χαμηλότερη απόδοση στα πορτογαλικά και σε λουσοφωνικά περιβάλλοντα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Οι αυτόματες συστάσεις μπορούν να ενισχύσουν στερεότυπα φύλου, εθνότητας ή κοινωνικής τάξης — ελέγξτε τα κριτικά.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Τα μοντέλα «πρόβλεψης ακαδημαϊκού κινδύνου» είναι ιδιαίτερα προβληματικά — συχνά αναπαράγουν υφιστάμενες ανισότητες αντί να εντοπίζουν ανάγκες.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ο στόχος είναι η αύξηση της αυτονομίας του μαθητή, όχι η αντικατάσταση της γνωστικής εργασίας που τον αναπτύσσει.",
-        "Να διακρίνετε το <strong>εργαλείο πρόσβασης</strong> (κείμενο-σε-ομιλία για δυσλεξία) από το <strong>εργαλείο υποκατάστασης</strong> (ΑΙ γράφει την έκθεση).",
-        "Να αξιολογείτε τακτικά: ο μαθητής αναπτύσσει ικανότητα ή εξάρτηση από το εργαλείο;",
+        "Ο στόχος είναι να αυξηθεί η αυτονομία του μαθητή, όχι να αντικατασταθεί η νοητική εργασία που τον αναπτύσσει.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Διακρίνετε το <strong>εργαλείο πρόσβασης</strong> (text-to-speech για μαθητή με δυσλεξία) από το <strong>εργαλείο υποκατάστασης</strong> (ChatGPT που γράφει την έκθεση).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Αξιολογείτε τακτικά: ο μαθητής αναπτύσσει δεξιότητα ή αναπτύσσει εξάρτηση από το εργαλείο;<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Λύνει το εργαλείο ένα πραγματικό εμπόδιο ή δημιουργεί συντόμευση που παρακάμπτει τη μάθηση;",
-        "<strong>2.</strong> Τα εισαγόμενα δεδομένα προστατεύονται και υπάρχει συγκατάθεση;",
-        "<strong>3.</strong> Το αποτέλεσμα του εργαλείου θα ελεγχθεί από άνθρωπο πριν φτάσει στον μαθητή;",
-        "<strong>4.</strong> Υπάρχει εναλλακτική χωρίς ΑΙ που λειτουργεί εξίσου καλά;",
-        "<strong>5.</strong> Αν το εργαλείο σταματήσει να υπάρχει αύριο, ο μαθητής θα μείνει αβοήθητος;",
+        "<strong>1.</strong> Το εργαλείο επιλύει ένα πραγματικό εμπόδιο ή δημιουργεί μια συντόμευση που παρακάμπτει τη μάθηση;<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Τα δεδομένα που εισάγονται είναι προστατευμένα και υπάρχει συγκατάθεση;",
+        "<strong>3.</strong> Θα ελεγχθεί το αποτέλεσμα του εργαλείου από άνθρωπο πριν φτάσει στον μαθητή;<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Υπάρχει εναλλακτική λύση χωρίς ΤΝ που λειτουργεί εξίσου καλά;",
+        "<strong>5.</strong> Αν το εργαλείο πάψει να υπάρχει αύριο, ο μαθητής μένει αβοήθητος;",
       ]},
     ]},
     oficina: { sections: [
@@ -5649,27 +5609,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Данните на непълнолетни подлежат на засилена защита (чл. 8 ОРЗД). Съгласието на родителите е задължително.",
-        "Проверявайте къде инструментът съхранява данните, европейски или неевропейски сървъри, анонимизирани или не.",
-        "Никога не въвеждайте пълни имена, адреси, идентификационни номера или клинични диагнози в генеративни AI инструменти.",
-        "Разграничавайте институционалното използване (училището подписва договор) от личното използване на учителя (индивидуална отговорност).",
+        "Данните на непълнолетни лица подлежат на засилена защита (чл. 8 от ОРЗД). Съгласието на лицата, упражняващи родителски права, е задължително.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Проверете къде инструментът съхранява данните — на европейски сървъри, на неевропейски, анонимизирани или не.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Никога не въвеждайте пълни имена, адреси, идентификационни номера или клинични диагнози в инструменти за генеративен ИИ.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Разграничавайте институционалната употреба (училището сключва договор) от личната употреба на преподавателя (индивидуална отговорност).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Системи, обучени предимно върху англоезични данни, може да имат по-слабо представяне в други езикови контексти.",
-        "Автоматичните препоръки могат да усилват стереотипи за пол, етничност или класа, проверявайте критично.",
-        "Моделите за \"прогнозиране на академичен риск\" често възпроизвеждат съществуващи неравенства.",
+        "Системи, обучени предимно с англоезични данни, могат да се представят по-слабо на португалски и в португалоезични контексти.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Автоматичните препоръки могат да усилват стереотипи, свързани с пол, етнос или социална класа — проверявайте ги критично.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Моделите за „прогнозиране на академичен риск“ са особено проблематични — често възпроизвеждат съществуващи неравенства, вместо да разпознават потребности.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Целта е увеличаване на автономията на ученика, не замяна на когнитивната работа, която го развива.",
-        "Разграничавайте <strong>инструмент за достъп</strong> (текст-в-реч за дислексия) от <strong>инструмент за заместване</strong> (AI пише съчинението).",
-        "Редовно оценявайте: ученикът развива компетентност или зависимост от инструмента?",
+        "Целта е да се увеличи самостоятелността на ученика, а не да се замени когнитивната работа, която я развива.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Разграничавайте <strong>инструмент за достъп</strong> (text-to-speech за ученик с дислексия) от <strong>инструмент за заместване</strong> (ChatGPT, който пише съчинението).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Оценявайте редовно: ученикът развива ли компетентност, или развива зависимост от инструмента?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Инструментът решава ли реална бариера или създава пряк път, заобикалящ ученето?",
-        "<strong>2.</strong> Въведените данни защитени ли са и налице ли е съгласие?",
-        "<strong>3.</strong> Резултатът от инструмента ще бъде ли проверен от човек преди да стигне до ученика?",
-        "<strong>4.</strong> Има ли алтернатива без AI, която работи еднакво добре?",
-        "<strong>5.</strong> Ако инструментът спре да съществува утре, ученикът ще остане ли без помощ?",
+        "<strong>1.</strong> Инструментът премахва ли реална пречка, или създава пряк път, който пропуска ученето?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Защитени ли са въведените данни и налице ли е съгласие?",
+        "<strong>3.</strong> Ще бъде ли резултатът на инструмента проверен от човек, преди да достигне до ученика?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Съществува ли алтернатива без ИИ, която работи също толкова добре?",
+        "<strong>5.</strong> Ако инструментът престане да съществува утре, ученикът ще остане ли без опора?",
       ]},
     ]},
     oficina: { sections: [
@@ -5979,27 +5939,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Nepilnamečių duomenys turi sustiprintą apsaugą (BDAR 8 str.). Tėvų sutikimas yra privalomas.",
-        "Patikrinkite, kur įrankis saugo duomenis, Europos ar ne Europos serveriai, anoniminiai ar ne.",
-        "Niekada neįveskite pilnų vardų, adresų, asmens kodų ar klinikinių diagnozių į generatyvinius AI įrankius.",
-        "Skirkite institucinį naudojimą (mokykla pasirašo sutartį) nuo asmeninio mokytojo naudojimo (individuali atsakomybė).",
+        "Nepilnamečių duomenims taikoma sustiprinta apsauga (BDAR 8 straipsnis). Tėvų ar globėjų sutikimas yra privalomas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Patikrinkite, kur įrankis saugo duomenis – Europos ar ne Europos serveriuose, anonimizuotai ar ne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Niekada neįveskite pilnų vardų ir pavardžių, adresų, asmens kodų ar klinikinių diagnozių į generatyvinio DI įrankius.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Atskirkite institucinį naudojimą (mokykla pasirašo sutartį) nuo asmeninio mokytojo naudojimo (individuali atsakomybė).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistemos, apmokytos daugiausia anglakalbiais duomenimis, gali veikti blogiau kitokiuose kalbiniuose kontekstuose.",
-        "Automatinės rekomendacijos gali sustiprinti lyties, etninės ar klasės stereotipus, kritiškai tikrinkite.",
-        "\"Akademinės rizikos prognozavimo\" modeliai dažnai atkuria esamas nelygoves.",
+        "Sistemos, apmokytos daugiausia angliškais duomenimis, gali veikti prasčiau portugalų kalba ir portugališkai kalbančiuose kontekstuose.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatinės rekomendacijos gali sustiprinti lyties, etninės kilmės ar socialinės klasės stereotipus – vertinkite kritiškai.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "„Akademinės rizikos prognozavimo“ modeliai yra ypač problemiški – jie dažnai atkartoja esamą nelygybę, o ne nustato poreikius.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tikslas yra didinti mokinio autonomiją, o ne pakeisti kognityvinį darbą, kuris jį ugdo.",
-        "Skirkite <strong>prieigos įrankį</strong> (tekstas-kalbai disleksikai) nuo <strong>pakaitinio įrankio</strong> (AI rašo referatą).",
-        "Reguliariai vertinkite: mokinys ugdo kompetenciją ar priklausomybę nuo įrankio?",
+        "Tikslas yra didinti mokinio savarankiškumą, o ne pakeisti kognityvinį darbą, kuris jį ugdo.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Atskirkite <strong>prieigos įrankį</strong> (text-to-speech mokiniui, turinčiam disleksiją) nuo <strong>pakeitimo įrankio</strong> (ChatGPT, rašantis rašinį).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Reguliariai vertinkite: ar mokinys ugdo gebėjimą, ar ugdo priklausomybę nuo įrankio?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> Ar įrankis išsprendžia realią kliūtį, ar sukuria nuorodą, apeinančią mokymąsi?",
-        "<strong>2.</strong> Ar įvesti duomenys apsaugoti ir ar yra sutikimas?",
-        "<strong>3.</strong> Ar įrankio rezultatą patikrins žmogus prieš pasiekiant mokinį?",
-        "<strong>4.</strong> Ar yra be AI alternatyva, kuri veikia vienodai gerai?",
-        "<strong>5.</strong> Jei įrankis neegzistuotų rytoj, ar mokinys liktų be pagalbos?",
+        "<strong>1.</strong> Ar įrankis pašalina realią kliūtį, ar sukuria nuorodą, kuri praleidžia mokymąsi?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Ar įvesti duomenys yra apsaugoti ir ar yra gautas sutikimas?",
+        "<strong>3.</strong> Ar įrankio rezultatą prieš pateikiant mokiniui patikrins žmogus?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Ar yra ne DI alternatyva, kuri veikia lygiai taip pat gerai?",
+        "<strong>5.</strong> Jei įrankis rytoj išnyktų, ar mokinys liktų bejėgis?",
       ]},
     ]},
     oficina: { sections: [
@@ -6310,27 +6270,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Konfidencialitāte ir pamats, diagnozes, ģimenes apstākļi un atbalsta pasākumi nav jākopīgo ar kolēģiem bez vajadzības.",
-        "Birka var aizsargāt (atbalsta piekļuve) vai kaitēt (stigma, samazinātas cerības), apzinies kontekstu.",
-        "Runā ar skolēnu, nevis par skolēnu, pat jauni bērni ir tiesīgi piedalīties lēmumos par savām vajadzībām.",
-        "Izvairīties no publiski pieejamu adaptāciju padarīšanas, diskrētums aizsargā cieņu.",
+        "Nepilngadīgo dati ir pakļauti pastiprinātai aizsardzībai (VDAR 8. pants). Vecāku vai aizbildņu piekrišana ir obligāta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pārbaudiet, kur rīks glabā datus – Eiropas vai ārpuseiropas serveros, anonimizēti vai ne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nekad neievadiet pilnus vārdus un uzvārdus, adreses, identifikācijas numurus vai klīniskās diagnozes ģeneratīvā MI rīkos.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Nošķiriet institucionālu lietojumu (skola paraksta līgumu) no skolotāja personīga lietojuma (individuāla atbildība).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Neiznest diagnozes vai ģimenes informāciju ārpus strādājošajiem speciālistiem.",
-        "Dokumenti par atbalstu glabājami saskaņā ar VDAR (Vispārīgā datu aizsardzības regula) un skolas politiku.",
-        "Vecākiem/aizbildņiem ir tiesības piekļūt informācijai par sava bērna atbalsta pasākumiem.",
+        "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk portugāļu valodā un portugāliski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automātiskie ieteikumi var pastiprināt dzimuma, etniskās piederības vai sociālās klases stereotipus – izvērtējiet kritiski.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "„Akadēmiskā riska prognozēšanas” modeļi ir īpaši problemātiski – tie bieži atkārto pastāvošo nevienlīdzību, nevis identificē vajadzības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Dažādība klasē nav slogs, tā ir dabiska un mācīšanas kvalitāti uzlabo visiem.",
-        "Izvairīties no salabot vai normalizēt skolēnu, viņu uzdevums ir attīstīties, ne atbilst normai.",
-        "Uzdot sev jautājumu: kuru intereses kalpo šim lēmumam, skolēnam vai iestādei?",
+        "Mērķis ir palielināt skolēna autonomiju, nevis aizstāt kognitīvo darbu, kas to attīsta.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Nošķiriet <strong>piekļuves rīku</strong> (text-to-speech skolēnam ar disleksiju) no <strong>aizstāšanas rīka</strong> (ChatGPT, kas raksta sacerējumu).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Regulāri izvērtējiet: vai skolēns attīsta prasmi, vai arī attīsta atkarību no rīka?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Nereālistiskas cerības var kaitēt tāpat kā zemas cerības, meklēt to, kas ir izaicinošs, bet sasniedzams.",
-        "Atzīt savus aizspriedumus: vai jūs sagaidāt mazāk no noteiktas grupas skolēniem?",
-        "Atbalsts nav privilēģija, tā ir tiesība, un tam vajadzētu būt pieejamam bez papildu šķēršļiem.",
-        "Pašaprūpe nav savtīga, pedagogs, kas izjūt izdegšanu, nevar efektīvi atbalstīt nevienu.",
-        "Konsultēties ar kolēģiem ētiski sarežģītos gadījumos, iekļaušana prasa komandas pieeju.",
+        "<strong>1.</strong> Vai rīks novērš reālu šķērsli, vai arī rada saīsni, kas izlaiž mācīšanos?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Vai ievadītie dati ir aizsargāti un vai piekrišana pastāv?",
+        "<strong>3.</strong> Vai rīka rezultātu pirms nonākšanas pie skolēna pārbaudīs cilvēks?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Vai pastāv alternatīva bez MI, kas darbojas tikpat labi?",
+        "<strong>5.</strong> Ja rīks rīt pārstātu pastāvēt, vai skolēns paliktu bezpalīdzīgs?",
       ]},
     ]},
     oficina: { sections: [
@@ -6637,27 +6597,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Konfidentsiaalsus on alus, diagnoosid, perekondlikud asjaolud ja tugimeetmed ei tohi vajaduseta kolleegidega jagada.",
-        "Silt võib kaitsta (ligipääs toele) või kahjustada (stigma, vähenenud ootused), ole kontekstist teadlik.",
-        "Räägi õpilasega, mitte õpilasest, isegi väikesed lapsed on õigustatud osalema oma vajadusi puudutavates otsustes.",
-        "Väldi kohanduste avalikuks tegemist, diskreetsus kaitseb väärikust.",
+        "Alaealiste andmetele kohaldatakse tugevdatud kaitset (isikuandmete kaitse üldmääruse artikkel 8). Vanemate või hooldajate nõusolek on kohustuslik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kontrollige, kus tööriist andmeid säilitab – Euroopa või väljaspool Euroopat asuvates serverites, anonüümitult või mitte.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ärge kunagi sisestage generatiivse tehisintellekti tööriistadesse täisnimesid, aadresse, isikukoode ega kliinilisi diagnoose.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Eristage institutsioonilist kasutust (kool sõlmib lepingu) õpetaja isiklikust kasutusest (individuaalne vastutus).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Mitte jagada diagnoose ega perekonna informatsiooni väljaspool töötavaid spetsialiste.",
-        "Tugidokumendid hoida vastavalt GDPR-ile (isikuandmete kaitse üldmäärus) ja kooli poliitikale.",
-        "Vanematel/hooldajatel on õigus pääseda ligi infole oma lapse tugimeetmete kohta.",
+        "Peamiselt ingliskeelsete andmetega treenitud süsteemid võivad portugali keeles ja portugalikeelsetes kontekstides toimida halvemini.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automaatsed soovitused võivad võimendada soolisi, etnilisi või klassilisi stereotüüpe – hinnake kriitiliselt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "„Akadeemilise riski prognoosimise” mudelid on eriti problemaatilised – need taastoodavad sageli olemasolevat ebavõrdsust, selle asemel et tuvastada vajadusi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Mitmekesisus klassis ei ole koorem, see on loomulik ja parandab kõigi jaoks õpetamise kvaliteeti.",
-        "Väldi õpilase parandamist või normaliseerimist, nende ülesanne on areneda, mitte normile vastata.",
-        "Esita endale küsimus: kelle huve see otsus teenib, õpilast või asutust?",
+        "Eesmärk on suurendada õpilase iseseisvust, mitte asendada kognitiivset tööd, mis seda arendab.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Eristage <strong>juurdepääsuvahendit</strong> (text-to-speech düsleksiaga õpilasele) <strong>asendusvahendist</strong> (ChatGPT, mis kirjutab kirjandi).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Hinnake regulaarselt: kas õpilane arendab oskust või arendab sõltuvust tööriistast?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Ebareaalsed ootused võivad kahjustada sama palju kui madalad ootused, otsi väljakutset, kuid saavutatavat.",
-        "Tunnusta oma eelarvamusi: kas ootad teatud õpilaste rühmalt vähem?",
-        "Tugi ei ole privileeg, see on õigus, ja sellele peaks olema juurdepääs ilma täiendavate takistusteta.",
-        "Enesehool ei ole isekas, läbipõlenud pedagoog ei suuda kedagi tõhusalt toetada.",
-        "Konsulteeri kolleegidega eetiliselt keerulistes juhtumites, kaasamine nõuab meeskonnatöö lähenemist.",
+        "<strong>1.</strong> Kas tööriist kõrvaldab tegeliku takistuse või loob otsetee, mis jätab õppimise vahele?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Kas sisestatud andmed on kaitstud ja kas nõusolek on olemas?",
+        "<strong>3.</strong> Kas inimene kontrollib tööriista tulemust enne, kui see jõuab õpilaseni?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Kas on olemas tehisintellektita alternatiiv, mis toimib sama hästi?",
+        "<strong>5.</strong> Kui tööriist homme kaoks, kas õpilane jääks abituks?",
       ]},
     ]},
     oficina: { sections: [
@@ -6966,27 +6926,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Zaupnost je temelj, diagnoze, družinski okoliščini in podporni ukrepi se brez potrebe ne delijo s kolegi.",
-        "Oznaka lahko ščiti (dostop do podpore) ali škoduje (stigma, znižana pričakovanja), zavedaj se konteksta.",
-        "Govori z učencem, ne o učencu, celo majhni otroci so upravičeni sodelovati pri odločitvah o svojih potrebah.",
-        "Izogibaj se javnemu razkrivanju prilagoditev, diskretnost ščiti dostojanstvo.",
+        "Podatki mladoletnikov so predmet okrepljenega varstva (8. člen GDPR). Soglasje zakonitih zastopnikov je obvezno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Preverite, kje orodje shranjuje podatke — na evropskih strežnikih, neevropskih, anonimizirano ali ne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "V orodja generativne UI nikoli ne vnašajte polnih imen, naslovov, identifikacijskih številk ali kliničnih diagnoz.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Razlikujte med institucionalno uporabo (pogodbo sklene šola) in osebno uporabo učitelja (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Ne deli diagnoz ali informacij o družini zunaj delujoče strokovne ekipe.",
-        "Dokumenti o podpori se hranijo v skladu z GDPR (Splošna uredba o varstvu podatkov) in politiko šole.",
-        "Starši/skrbniki imajo pravico dostopati do informacij o podpornih ukrepih za svojega otroka.",
+        "Sistemi, naučeni pretežno na angleško govorečih podatkih, lahko slabše delujejo v portugalščini in v luzofonskih kontekstih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Samodejna priporočila lahko ojačajo stereotipe glede spola, etnične pripadnosti ali družbenega razreda — kritično jih preverjajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modeli za „napovedovanje učnega tveganja“ so še posebej problematični — pogosto reproducirajo obstoječe neenakosti, namesto da bi prepoznavali potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Raznolikost v razredu ni breme, je naravna in izboljšuje kakovost poučevanja za vse.",
-        "Izogibaj se popravljanju ali normaliziranju učenca, njihova naloga je razvoj, ne skladnost z normo.",
-        "Postavi si vprašanje: čigave interese ta odločitev služi, učencu ali instituciji?",
+        "Cilj je povečati učenčevo samostojnost, ne pa nadomestiti kognitivnega dela, ki jo razvija.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Razlikujte <strong>orodje za dostop</strong> (text-to-speech za učenca z disleksijo) od <strong>orodja za nadomeščanje</strong> (ChatGPT, ki piše spis).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Redno presojajte: ali učenec razvija kompetenco ali pa razvija odvisnost od orodja?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Nerealna pričakovanja so lahko škodljiva enako kot nizka pričakovanja, iščemo izzivno, a dosegljivo.",
-        "Priznavaj lastne predsodke: ali od učencev določene skupine pričakuješ manj?",
-        "Podpora ni privilegij, je pravica, in dostopna mora biti brez dodatnih ovir.",
-        "Samooskrba ni sebičnost, učitelj, ki doživlja izgorelost, ne more učinkovito podpirati nikogar.",
-        "Posvetuj se s kolegi v etično zapletenih primerih, inkluzija zahteva timski pristop.",
+        "<strong>1.</strong> Ali orodje odpravlja resnično oviro ali ustvarja bližnjico, ki izpušča učenje?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Ali so vneseni podatki zaščiteni in ali soglasje obstaja?",
+        "<strong>3.</strong> Ali bo rezultat orodja preveril človek, preden doseže učenca?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Ali obstaja alternativa brez UI, ki deluje enako dobro?",
+        "<strong>5.</strong> Če bi orodje jutri prenehalo obstajati, ali bi učenec ostal brez opore?",
       ]},
     ]},
     oficina: { sections: [
@@ -7293,27 +7253,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Is bunús é an rúndacht, ní chóir diagnóisí, imthosca teaghlaigh agus bearta tacaíochta a roinnt le comhghleacaithe gan gá.",
-        "Is féidir le lipéad cosaint (rochtain ar thacaíocht) nó dochar (stigma, laghdú súil) a dhéanamh, bí feasach ar an gcomhthéacs.",
-        "Labhair leis an scoláire, ní fúthu, tá fiú leanaí óga i dteideal páirt a ghlacadh i gcinntí faoina riachtanais.",
-        "Seachain na hoiriúnuithe a nochtadh go poiblí, cosnaíonn discréid dínit.",
+        "Tá sonraí mionaoiseach faoi réir cosanta neartaithe (Airteagal 8 RGCS). Tá toiliú na gcaomhnóirí riachtanach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Seiceáil cá stórálann an uirlis sonraí — ar fhreastalaithe Eorpacha nó neamh-Eorpacha, gan ainm nó nach ea.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ná cuir ainmneacha iomlána, seoltaí, uimhreacha aitheantais ná fáthmheasanna cliniciúla isteach in uirlisí IS gineadúla riamh.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Déan idirdhealú idir úsáid institiúideach (síníonn an scoil conradh) agus úsáid phearsanta an mhúinteora (freagracht aonair).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Ná roinn diagnóisí nó faisnéis teaghlaigh lasmuigh den fhoireann ghairmiúil oibre.",
-        "Coinnítear doiciméid tacaíochta de réir GDPR (An Rialachán Ginearálta um Chosaint Sonraí) agus polasaí na scoile.",
-        "Tá ceart ag tuismitheoirí/caomhnóirí rochtain a fháil ar fhaisnéis faoi bhearta tacaíochta a gclainne.",
+        "D'fhéadfadh feidhmíocht níos ísle a bheith ag córais a oileadh go príomha ar shonraí Béarla i bPortaingéilis agus i gcomhthéacsanna Lusafónacha.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "D'fhéadfadh moltaí uathoibríocha steiréitíopaí inscne, eitneachais nó aicme a mhéadú — déan iniúchadh criticiúil orthu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tá samhlacha „tuar riosca acadúil” fadhbach go háirithe — is minic a atáirgeann siad neamhionannais atá ann cheana in ionad riachtanais a aithint.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ní hualach é éagsúlacht sa rang, tá sé nádúrtha agus feabhsaíonn sé cáilíocht an teagaisc do chách.",
-        "Seachain an scoláire a dheisiú nó a normalú, is é a gcúram forbairt a dhéanamh, ní cloí leis an norm.",
-        "Cuir ceist ort féin: cé leis a fhreastalaíonn an cinneadh seo, ar an scoláire nó ar an institiúid?",
+        "Is é an aidhm neamhspleáchas an dalta a mhéadú, ní an obair chognaíoch a fhorbraíonn é a ionadú.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Déan idirdhealú idir <strong>uirlis rochtana</strong> (text-to-speech do dhalta a bhfuil disléicse air) agus <strong>uirlis ionadaíochta</strong> (ChatGPT ag scríobh na haiste).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Déan measúnú go rialta: an bhfuil an dalta ag forbairt inniúlachta, nó an bhfuil sé ag forbairt spleáchais ar an uirlis?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "Is féidir le súile neamhréadúla dochar a dhéanamh chomh maith le súile ísle, cuardaigh an méid atá dúshlánach ach inbhainte amach.",
-        "Aithin do chlaontachtaí féin: an bhfuil tú ag súil le níos lú ó ghrúpa áirithe scoláirí?",
-        "Ní pribhléid é tacaíocht, is ceart é, agus ba cheart rochtain air a bheith ar fáil gan bac breise.",
-        "Ní leithleachas é féincúram, ní féidir le múinteoir atá ag fulaingt ó bhreoslú amach tacú go héifeachtach le duine ar bith.",
-        "Comhairliú le comhghleacaithe i gcásanna deacra ó thaobh na heitice, éilíonn cuimsiú cur chuige foirne.",
+        "<strong>1.</strong> An réitíonn an uirlis fíorbhac, nó an gcruthaíonn sí aicearra a fhágann an fhoghlaim ar lár?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> An bhfuil na sonraí a chuirtear isteach cosanta agus an bhfuil toiliú ann?",
+        "<strong>3.</strong> An ndéanfaidh duine seiceáil ar thoradh na huirlise sula sroicheann sé an dalta?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> An bhfuil rogha eile gan IS ann a oibríonn chomh maith céanna?",
+        "<strong>5.</strong> Dá scoirfeadh an uirlis de bheith ann amárach, an bhfágfaí an dalta gan tacaíocht?",
       ]},
     ]},
     oficina: { sections: [
@@ -7620,27 +7580,27 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     etica: { sections: [
       { items: [
-        "Il-kunfidenzjalità hija l-bażi, id-dijanjosi, iċ-ċirkostanzi tal-familja u l-miżuri ta' appoġġ ma għandhomx jinqasmu mal-kollegi mingħajr ħtieġa.",
-        "It-tikketta tista' tipproteġi (aċċess għall-appoġġ) jew tagħmel ħsara (stigma, aspettattivi mnaqqsa), kun konxju tal-kuntest.",
-        "Tkellem mal-istudent, mhux dwaru, anke t-tfal żgħar għandhom id-dritt jipparteċipaw fid-deċiżjonijiet dwar il-bżonnijiet tagħhom.",
-        "Evita li tagħmel l-adattamenti pubbliċi, id-diskrezzjoni tipproteġi d-dinjità.",
+        "Id-data tal-minorenni hija soġġetta għal protezzjoni msaħħa (Artikolu 8 GDPR). Il-kunsens tal-ġenituri jew tuturi huwa obbligatorju.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iċċekkja fejn l-għodda taħżen id-data — fuq servers Ewropej jew mhux Ewropej, anonimizzata jew le.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Qatt iddaħħal ismijiet sħaħ, indirizzi, numri ta' identifikazzjoni jew dijanjosijiet kliniċi f'għodod tal-IA ġenerattiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Iddistingwi l-użu istituzzjonali (l-iskola tiffirma kuntratt) mill-użu personali tal-għalliem (responsabbiltà individwali).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Taqsamx id-dijanjosi jew informazzjoni tal-familja barra t-tim professjonali li jaħdem.",
-        "Id-dokumenti ta' appoġġ jinżammu skont ir-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR) u l-politika tal-iskola.",
-        "Il-ġenituri/kustodji għandhom id-dritt tal-aċċess għall-informazzjoni dwar il-miżuri ta' appoġġ ta' wliedhom.",
+        "Sistemi mħarrġa l-aktar fuq data bl-Ingliż jistgħu jkollhom prestazzjoni inqas tajba bil-Portugiż u f'kuntesti Lusofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Ir-rakkomandazzjonijiet awtomatiċi jistgħu jkabbru sterjotipi ta' ġeneru, etniċità jew klassi — iċċekkjahom b'mod kritiku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Il-mudelli ta' „tbassir tar-riskju akkademiku” huma partikolarment problematiċi — spiss jirriproduċu inugwaljanzi eżistenti minflok ma jidentifikaw il-ħtiġijiet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Id-diversità fil-klassi mhijiex piż, hija naturali u ttejjeb il-kwalità tat-tagħlim għal kulħadd.",
-        "Evita li tissewwi jew tormalizza l-istudent, il-kompitu tagħhom huwa li jiżviluppaw, mhux li jikkonformaw man-norma.",
-        "Staqsi lilek innifsek: l-interessi ta' min qed iservi din id-deċiżjoni, tal-istudent jew tal-istituzzjoni?",
+        "L-għan huwa li tiżdied l-awtonomija tal-istudent, mhux li tissostitwixxi x-xogħol konjittiv li jiżviluppah.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Iddistingwi <strong>għodda ta' aċċess</strong> (text-to-speech għal student bid-disleksja) minn <strong>għodda ta' sostituzzjoni</strong> (ChatGPT jikteb il-kompożizzjoni).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evalwa regolarment: l-istudent qed jiżviluppa kompetenza, jew qed jiżviluppa dipendenza fuq l-għodda?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "L-aspettattivi mhux realistiċi jistgħu jagħmlu ħsara daqs l-aspettattivi baxxi, fittex dak li huwa sfidanti iżda attenwabbli.",
-        "Agħraf il-preġudizzji tiegħek stess: qed tistenna inqas minn grupp partikolari ta' studenti?",
-        "L-appoġġ mhux privileġġ, huwa dritt, u l-aċċess għalih għandu jkun disponibbli mingħajr ostakli addizzjonali.",
-        "Il-kura ta' nfisk mhix egoiżmu, l-għalliem li qed ibati minn burnout ma jistax jappoġġja lil ħadd b'mod effettiv.",
-        "Ikkonsulta lill-kollegi f'każi diffiċli etikament, l-inklużjoni teħtieġ approċċ ta' tim.",
+        "<strong>1.</strong> L-għodda ssolvi ostaklu reali jew toħloq xortcut li jaqbeż it-tagħlim?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Id-data mdaħħla hija protetta u jeżisti l-kunsens?",
+        "<strong>3.</strong> Ir-riżultat tal-għodda se jiġi vverifikat minn bniedem qabel ma jasal għand l-istudent?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Teżisti alternattiva mingħajr IA li taħdem daqstant tajjeb?",
+        "<strong>5.</strong> Jekk l-għodda tieqaf teżisti għada, l-istudent jibqa' bla appoġġ?",
       ]},
     ]},
     oficina: { sections: [
