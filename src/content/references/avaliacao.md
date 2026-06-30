@@ -7,21 +7,21 @@ desc: "Estratégias de avaliação contínua que informam o ensino e apoiam todo
 sections:
   - label: "O que é"
     items:
-      - "Avaliação formativa é qualquer prática que recolhe informação sobre a aprendizagem durante o processo — e usa essa informação para ajustar o ensino ou o apoio ao aluno."
-      - "Ao contrário da avaliação sumativa (classificações finais), a formativa não tem de ter nota — tem de ter feedback."
-      - "Para alunos neurodivergentes, a avaliação formativa é especialmente importante porque o desempenho num teste pontual pode não refletir o que sabem de facto."
+      - "Avaliação formativa é qualquer prática que recolhe informação sobre a aprendizagem durante o processo — e usa essa informação para ajustar o ensino ou o apoio ao aluno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Ao contrário da avaliação sumativa (classificações finais), a formativa não tem de ter nota — tem de ter feedback.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "Para alunos neurodivergentes, a avaliação formativa é especialmente importante porque o desempenho num teste pontual pode não refletir o que sabem de facto.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "Técnicas rápidas"
     items:
-      - "<strong>Exit ticket</strong>: no final da aula, o aluno responde a uma pergunta em 2 minutos — o docente vê imediatamente quem percebeu e quem não percebeu."
+      - "<strong>Exit ticket</strong>: no final da aula, o aluno responde a uma pergunta em 2 minutos — o docente vê imediatamente quem percebeu e quem não percebeu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
       - "<strong>Semáforo</strong>: verde (percebi), amarelo (tenho dúvidas), vermelho (não percebi) — pode ser cartões físicos, post-its, ou digital."
       - "<strong>Think-Pair-Share</strong>: o aluno pensa individualmente, discute com um par, depois partilha com a turma — reduz ansiedade de resposta direta."
       - "<strong>Porta de saída</strong>: antes de sair, o aluno diz ao docente uma coisa que aprendeu e uma dúvida que ainda tem."
   - label: "Feedback eficaz"
     items:
-      - "Feedback eficaz é específico, acionável e dado a tempo: 'na página 2, o argumento perde-se porque falta a ligação à evidência' é útil; 'podia estar melhor' não é."
-      - "Para alunos com TDAH: feedback imediato é mais eficaz do que diferido. Não esperar pelo fim da tarefa."
+      - "Feedback eficaz é específico, acionável e dado a tempo: 'na página 2, o argumento perde-se porque falta a ligação à evidência' é útil; 'podia estar melhor' não é.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>"
+      - "Para alunos com TDAH: feedback imediato é mais eficaz do que diferido. Não esperar pelo fim da tarefa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "Para alunos com dislexia: feedback oral ou em áudio pode ser mais acessível do que comentários escritos extensos."
-      - "Evitar comparar alunos entre si — comparar o aluno com a sua própria progressão anterior."
+      - "Evitar comparar alunos entre si — comparar o aluno com a sua própria progressão anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
   - label: "Adaptações por perfil"
     items:
       - "TDAH: avaliação em múltiplos momentos curtos em vez de um único teste longo. Reduzir estímulos distratores no ambiente de avaliação."
@@ -32,4 +32,9 @@ sections:
     items:
       - "Quando, mesmo com adaptações de avaliação, o aluno não consegue demonstrar aprendizagem, é sinal de que pode haver uma barreira mais profunda a investigar com o SPO."
       - "Padrões persistentes (meses, não dias) de dificuldade específica numa área devem ser sinalizados formalmente."
+references:
+  - "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. <em>Assessment in Education: Principles, Policy & Practice</em>, 5(1), 7–74."
+  - "Hattie, J., & Timperley, H. (2007). The power of feedback. <em>Review of Educational Research</em>, 77(1), 81–112."
+  - "Wiliam, D. (2011). <em>Embedded Formative Assessment</em>. Bloomington, IN: Solution Tree Press."
+  - "Sadler, D. R. (1989). Formative assessment and the design of instructional systems. <em>Instructional Science</em>, 18(2), 119–144."
 ---
