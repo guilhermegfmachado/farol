@@ -7,34 +7,39 @@ desc: "Aluno sem proficiência em português ou na língua de ensino. Frequentem
 sections:
   - label: "Como se manifesta na sala"
     items:
-      - "Compreende muito menos do que aparenta — pode acenar afirmativamente sem ter percebido."
-      - "Desempenho académico aparentemente baixo, frequentemente desproporcional à capacidade real."
-      - "Silêncio em sala — pode ser estratégia adaptativa, não desinteresse."
-      - "Pode estar exausto ao final do dia por traduzir mentalmente em tempo real."
-      - "Risco de subdiagnóstico de necessidades educativas reais (dislexia, TDAH, etc.) por se atribuir tudo à barreira linguística."
+      - "Compreende muito menos do que aparenta — a língua de conversação desenvolve-se muito antes da língua académica, pelo que pode parecer fluente sem acompanhar os conteúdos.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Desempenho académico aparentemente baixo, muitas vezes desproporcional à capacidade real.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "Silêncio em sala — pode ser um \"período silencioso\" normal na aquisição de uma língua, não desinteresse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "Pode estar exausto ao final do dia por processar a língua em tempo real."
+      - "Risco de subdiagnóstico de necessidades educativas reais (dislexia, TDAH) por se atribuir tudo à barreira linguística.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "O que não é"
     items:
-      - "<strong>Não é</strong> falta de inteligência ou capacidade."
-      - "<strong>Não é</strong> apenas uma questão de tempo — sem apoio explícito, muitos alunos estabilizam num nível funcional baixo."
-      - "<strong>Não é</strong> resolvido com tradução automática durante a aula — é um processo de anos."
+      - "<strong>Não é</strong> falta de inteligência ou de capacidade.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "<strong>Não é</strong> apenas uma questão de tempo: a língua académica leva anos a desenvolver e, sem apoio explícito, muitos alunos estabilizam num nível funcional baixo.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "<strong>Não se resolve</strong> com tradução automática durante a aula — é um processo de anos, e a língua materna é um recurso, não um obstáculo.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>"
   - label: "Estratégias sem IA"
     items:
-      - "Fornecer materiais com vocabulário-chave traduzido para a língua materna."
-      - "Avaliar conhecimento por demonstração visual ou prática sempre que possível."
-      - "Emparelhar com um colega bilingue para mediação informal em momentos críticos."
-      - "Aceitar produções iniciais com erros gramaticais — corrigir conteúdo, não forma, na primeira fase."
+      - "Fornecer materiais com vocabulário-chave traduzido para a língua materna.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "Avaliar o conhecimento por demonstração visual ou prática sempre que possível."
+      - "Emparelhar com um colega bilingue para mediação informal em momentos críticos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "Aceitar produções iniciais com erros gramaticais — corrigir o conteúdo, não a forma, na primeira fase.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
   - label: "Como comunicar com o EE"
     items:
       - "A reunião em si é uma barreira — o EE pode não falar português com proficiência suficiente para uma conversa complexa. Preparar materiais escritos simples antecipadamente, ou pedir apoio de tradução."
       - "Não assumir que o EE conhece o sistema educativo português — explicar o que é o SPO, o que é uma medida de suporte, o que implica uma avaliação, sem dar nada por adquirido."
-      - "Separar claramente barreira linguística de capacidade académica: \"o seu filho/a sua filha é capaz — está a aprender a língua ao mesmo tempo que aprende os conteúdos, o que é muito exigente\"."
+      - "Separar claramente barreira linguística de capacidade académica: \"o seu filho/a sua filha é capaz — está a aprender a língua ao mesmo tempo que aprende os conteúdos, o que é muito exigente\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Ser sensível ao contexto migratório: famílias refugiadas ou em situação irregular podem ter desconfiança de instituições. Construir confiança antes de pedir documentação ou encaminhamentos."
   - label: "Sinais de alerta para referenciação"
     items:
       - "Sinais de isolamento social ou bullying associados à condição de aluno estrangeiro."
-      - "Estagnação na aquisição linguística após o primeiro ano."
+      - "Estagnação na aquisição linguística após o primeiro ano.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
 ai_strategies:
   tools: []
 related: ["dislexia"]
+references:
+  - "Cummins, J. (1979). Linguistic interdependence and the educational development of bilingual children. <em>Review of Educational Research</em>, 49(2), 222–251."
+  - "Thomas, W. P., & Collier, V. P. (2002). <em>A National Study of School Effectiveness for Language Minority Students' Long-Term Academic Achievement</em>. Santa Cruz, CA: Center for Research on Education, Diversity & Excellence, University of California."
+  - "Krashen, S. D. (1982). <em>Principles and Practice in Second Language Acquisition</em>. Oxford: Pergamon Press."
+  - "García, O., & Wei, L. (2014). <em>Translanguaging: Language, Bilingualism and Education</em>. Basingstoke: Palgrave Macmillan."
 ---
