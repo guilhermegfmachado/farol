@@ -7,8 +7,8 @@ desc: "Estrutura de 90 minutos para sessão de departamento sobre integração r
 sections:
   - label: "Objectivo"
     items:
-      - "Capacitar colegas para integração responsável de IA no ensino de língua estrangeira, com produção de materiais adaptáveis a múltiplos perfis de aprendizagem."
-      - "Não é uma apresentação — é uma co-construção. Cada participante sai com pelo menos um recurso pronto a testar."
+      - "Capacitar colegas para a integração responsável de IA no ensino de língua estrangeira, com produção de materiais adaptáveis a múltiplos perfis de aprendizagem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Não é uma apresentação — é uma co-construção. Cada participante sai com pelo menos um recurso pronto a testar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "Estrutura proposta (90 min)"
     items:
       - "<strong>0–10 min:</strong> Enquadramento — o problema da turma heterogénea e porque é que mais do mesmo não funciona."
@@ -25,7 +25,10 @@ sections:
   - label: "Indicadores de sucesso"
     items:
       - "Cada participante produz pelo menos um material adaptado durante a sessão."
-      - "Sessão de feedback a 30 dias com pelo menos 60% dos participantes a relatar implementação efectiva."
+      - "Sessão de feedback a 30 dias com pelo menos 60% dos participantes a relatar implementação efectiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>"
       - "Pelo menos um material produzido na sessão é adoptado como recurso partilhado do departamento."
 pending: "Conteúdo das ferramentas específicas e casos de uso serão preenchidos após o curso em Florença."
+references:
+  - "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). <em>Effective Teacher Professional Development</em>. Palo Alto, CA: Learning Policy Institute."
+  - "Desimone, L. M. (2009). Improving impact studies of teachers' professional development: toward better conceptualizations and measures. <em>Educational Researcher</em>, 38(3), 181–199."
 ---

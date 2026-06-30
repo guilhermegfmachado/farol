@@ -223,26 +223,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Equip colleagues for the responsible integration of AI in language teaching, producing materials adaptable to multiple learning profiles.",
-        "This is not a presentation, it is a co-construction. Each participant leaves with at least one resource ready to test.",
+        "Equip colleagues for the responsible integration of AI in foreign-language teaching, producing materials adaptable to multiple learning profiles.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "It is not a presentation — it is a co-construction. Each participant leaves with at least one resource ready to test.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Framing, the problem of the mixed-ability class and why more of the same doesn't work.",
-        "<strong>10–25 min:</strong> Profile mapping, presentation of the six Farol cards, with real (anonymised) cases.",
-        "<strong>25–45 min:</strong> Practical demonstration, three tools, three use cases, three distinct profiles.",
-        "<strong>45–75 min:</strong> Pair work, each pair adapts an existing material for a specific profile.",
-        "<strong>75–85 min:</strong> Quick share, each pair presents their product in 1 minute.",
-        "<strong>85–90 min:</strong> Commitments, each participant identifies a material to test and a feedback session is scheduled for 30 days' time.",
+        "<strong>0–10 min:</strong> Framing — the problem of the mixed-needs classroom and why more of the same does not work.",
+        "<strong>10–25 min:</strong> Map of the profiles — presenting Farol's six cards, with real (anonymised) cases.",
+        "<strong>25–45 min:</strong> Practical demonstration — three tools, three use cases, three distinct profiles.",
+        "<strong>45–75 min:</strong> Pair work — each pair adapts an existing material for a specific profile.",
+        "<strong>75–85 min:</strong> Quick share — each pair shows its product in 1 minute.",
+        "<strong>85–90 min:</strong> Commitments — each participant chooses a material to test, and a feedback session is set for 30 days later.",
       ]},
       { items: [
-        "Internet access and institutional accounts on the tools being demonstrated.",
-        "Existing materials from each participant (a worksheet, a test, or a lesson plan).",
-        "Printed Farol profile cards for reference.",
+        "Internet access and institutional accounts for the tools demonstrated.",
+        "Each participant's existing materials (a worksheet, a test, or a lesson plan).",
+        "Printed copies of the Farol profile cards for reference.",
       ]},
       { items: [
         "Each participant produces at least one adapted material during the session.",
-        "Feedback session at 30 days with at least 60% of participants reporting effective implementation.",
-        "At least one material produced in the session is adopted as a shared departmental resource.",
+        "A 30-day feedback session with at least 60% of participants reporting effective implementation.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "At least one material produced in the session is adopted as a shared department resource.",
       ]},
     ]},
     legislacao: { sections: [
@@ -557,26 +557,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Capacitar a los compañeros para la integración responsable de la IA en la enseñanza de lengua extranjera, produciendo materiales adaptables a múltiples perfiles de aprendizaje.",
-        "No es una presentación, es una co-construcción. Cada participante sale con al menos un recurso listo para probar.",
+        "Capacitar a los compañeros para la integración responsable de la IA en la enseñanza de lengua extranjera, con producción de materiales adaptables a múltiples perfiles de aprendizaje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "No es una presentación: es una co-construcción. Cada participante sale con al menos un recurso listo para probar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Encuadre, el problema del aula heterogénea y por qué más de lo mismo no funciona.",
-        "<strong>10–25 min:</strong> Mapa de perfiles, presentación de las seis tarjetas del Farol con casos reales (anonimizados).",
-        "<strong>25–45 min:</strong> Demostración práctica, tres herramientas, tres casos de uso, tres perfiles distintos.",
-        "<strong>45–75 min:</strong> Trabajo en parejas, cada pareja adapta un material existente para un perfil específico.",
-        "<strong>75–85 min:</strong> Puesta en común rápida, cada pareja presenta su producto en 1 minuto.",
-        "<strong>85–90 min:</strong> Compromisos, cada participante define un material a probar y se programa una sesión de seguimiento a los 30 días.",
+        "<strong>0–10 min:</strong> Encuadre — el problema del aula heterogénea y por qué más de lo mismo no funciona.",
+        "<strong>10–25 min:</strong> Mapa de perfiles — presentación de las seis tarjetas de Farol, con casos reales (anonimizados).",
+        "<strong>25–45 min:</strong> Demostración práctica — tres herramientas, tres casos de uso, tres perfiles distintos.",
+        "<strong>45–75 min:</strong> Trabajo en parejas — cada pareja adapta un material existente a un perfil específico.",
+        "<strong>75–85 min:</strong> Puesta en común rápida — cada pareja muestra su producto en 1 minuto.",
+        "<strong>85–90 min:</strong> Compromisos — cada participante define un material que probar y se fija una sesión de retroalimentación a los 30 días.",
       ]},
       { items: [
-        "Acceso a internet y a cuentas institucionales en las herramientas que se van a demostrar.",
-        "Materiales existentes de cada participante (una ficha, un examen o una programación de aula).",
-        "Tarjetas impresas de los perfiles del Farol para consulta.",
+        "Acceso a internet y a cuentas institucionales en las herramientas demostradas.",
+        "Materiales existentes de cada participante (una ficha, una prueba o un plan de clase).",
+        "Tarjetas impresas de los perfiles de Farol para consulta.",
       ]},
       { items: [
         "Cada participante produce al menos un material adaptado durante la sesión.",
-        "Sesión de seguimiento a los 30 días con al menos el 60 % de los participantes reportando una implementación efectiva.",
-        "Al menos un material producido en la sesión es adoptado como recurso compartido del departamento.",
+        "Sesión de retroalimentación a los 30 días con al menos un 60 % de los participantes que informan de una implementación efectiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Al menos un material producido en la sesión se adopta como recurso compartido del departamento.",
       ]},
     ]},
     legislacao: { sections: [
@@ -891,26 +891,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Outiller les collègues pour l'intégration responsable de l'IA dans l'enseignement des langues, en produisant des matériaux adaptables à de multiples profils d'apprentissage.",
-        "Ce n'est pas une présentation, c'est une co-construction. Chaque participant repart avec au moins une ressource prête à tester.",
+        "Outiller les collègues pour une intégration responsable de l’IA dans l’enseignement des langues étrangères, avec la production de supports adaptables à de multiples profils d’apprentissage.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ce n’est pas une présentation : c’est une co-construction. Chaque participant repart avec au moins une ressource prête à tester.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min :</strong> Cadrage, le problème de la classe hétérogène et pourquoi faire toujours plus de la même chose ne fonctionne pas.",
-        "<strong>10–25 min :</strong> Cartographie des profils, présentation des six fiches du Farol avec des cas réels (anonymisés).",
-        "<strong>25–45 min :</strong> Démonstration pratique, trois outils, trois cas d'usage, trois profils distincts.",
-        "<strong>45–75 min :</strong> Travail en binômes, chaque binôme adapte un matériau existant à un profil spécifique.",
-        "<strong>75–85 min :</strong> Mise en commun rapide, chaque binôme présente sa production en 1 minute.",
-        "<strong>85–90 min :</strong> Engagements, chaque participant définit un matériau à tester et une session de retour d'expérience est planifiée à 30 jours.",
+        "<strong>0–10 min:</strong> Cadrage — le problème de la classe hétérogène et pourquoi « plus de la même chose » ne fonctionne pas.",
+        "<strong>10–25 min:</strong> Cartographie des profils — présentation des six cartes de Farol, avec des cas réels (anonymisés).",
+        "<strong>25–45 min:</strong> Démonstration pratique — trois outils, trois cas d’usage, trois profils distincts.",
+        "<strong>45–75 min:</strong> Travail en binômes — chaque binôme adapte un support existant à un profil précis.",
+        "<strong>75–85 min:</strong> Partage rapide — chaque binôme présente son produit en 1 minute.",
+        "<strong>85–90 min:</strong> Engagements — chaque participant définit un support à tester et fixe une séance de retour d’expérience à 30 jours.",
       ]},
       { items: [
         "Accès à internet et aux comptes institutionnels sur les outils présentés.",
-        "Matériaux existants de chaque participant (une fiche, un contrôle ou une fiche de préparation de cours).",
-        "Fiches imprimées des profils du Farol pour consultation.",
+        "Les supports existants de chaque participant (une fiche, un test ou un plan de cours).",
+        "Cartes imprimées des profils de Farol pour consultation.",
       ]},
       { items: [
-        "Chaque participant produit au moins un matériau adapté pendant la session.",
-        "Session de retour d'expérience à 30 jours avec au moins 60 % des participants signalant une mise en œuvre effective.",
-        "Au moins un matériau produit lors de la session est adopté comme ressource partagée du département.",
+        "Chaque participant produit au moins un support adapté pendant la séance.",
+        "Séance de retour d’expérience à 30 jours avec au moins 60 % des participants faisant état d’une mise en œuvre effective.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Au moins un support produit pendant la séance est adopté comme ressource partagée du département.",
       ]},
     ]},
     legislacao: { sections: [
@@ -1225,25 +1225,25 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Mettere i colleghi in condizione di integrare responsabilmente l'IA nell'insegnamento delle lingue, producendo materiali adattabili a molteplici profili di apprendimento.",
-        "Non è una presentazione, è una co-costruzione. Ogni partecipante esce con almeno una risorsa pronta da sperimentare.",
+        "Mettere i colleghi in grado di integrare responsabilmente l’IA nell’insegnamento della lingua straniera, con la produzione di materiali adattabili a molteplici profili di apprendimento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Non è una presentazione: è una co-costruzione. Ogni partecipante esce con almeno una risorsa pronta da sperimentare.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Inquadramento, il problema della classe eterogenea e perché fare sempre di più dello stesso non funziona.",
-        "<strong>10–25 min:</strong> Mappa dei profili, presentazione delle sei schede del Farol con casi reali (anonimizzati).",
-        "<strong>25–45 min:</strong> Dimostrazione pratica, tre strumenti, tre casi d'uso, tre profili distinti.",
-        "<strong>45–75 min:</strong> Lavoro in coppia, ogni coppia adatta un materiale esistente a un profilo specifico.",
-        "<strong>75–85 min:</strong> Condivisione rapida, ogni coppia presenta il proprio prodotto in 1 minuto.",
-        "<strong>85–90 min:</strong> Impegni, ogni partecipante individua un materiale da sperimentare e si pianifica una sessione di feedback a 30 giorni.",
+        "<strong>0–10 min:</strong> Inquadramento — il problema della classe eterogenea e perché «più della stessa cosa» non funziona.",
+        "<strong>10–25 min:</strong> Mappa dei profili — presentazione delle sei schede di Farol, con casi reali (anonimizzati).",
+        "<strong>25–45 min:</strong> Dimostrazione pratica — tre strumenti, tre casi d’uso, tre profili diversi.",
+        "<strong>45–75 min:</strong> Lavoro in coppia — ogni coppia adatta un materiale esistente a un profilo specifico.",
+        "<strong>75–85 min:</strong> Condivisione rapida — ogni coppia mostra il proprio prodotto in 1 minuto.",
+        "<strong>85–90 min:</strong> Impegni — ogni partecipante definisce un materiale da sperimentare e fissa una sessione di feedback a 30 giorni.",
       ]},
       { items: [
-        "Accesso a internet e agli account istituzionali sugli strumenti dimostrati.",
-        "Materiali esistenti di ciascun partecipante (una scheda, una verifica o una programmazione di lezione).",
-        "Schede stampate dei profili del Farol per consultazione.",
+        "Accesso a internet e agli account istituzionali negli strumenti presentati.",
+        "Materiali esistenti di ciascun partecipante (una scheda, una verifica o un piano di lezione).",
+        "Schede stampate dei profili di Farol per la consultazione.",
       ]},
       { items: [
         "Ogni partecipante produce almeno un materiale adattato durante la sessione.",
-        "Sessione di feedback a 30 giorni con almeno il 60% dei partecipanti che riferisce un'implementazione effettiva.",
+        "Sessione di feedback a 30 giorni con almeno il 60 % dei partecipanti che riferisce un’implementazione effettiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
         "Almeno un materiale prodotto nella sessione viene adottato come risorsa condivisa del dipartimento.",
       ]},
     ]},
@@ -1557,40 +1557,30 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>5.</strong> Wenn das Werkzeug morgen nicht mehr existieren würde, stünde die Schülerin oder der Schüler hilflos da?",
       ]},
     ]},
-    oficina: {
-      sections: [
-        {
-          items: [
-            "Kolleginnen und Kollegen zur verantwortungsvollen Integration von KI im Unterricht befähigen, mit der Erstellung von Materialien, die an mehrere Lernprofile anpassbar sind.",
-            "Dies ist keine Präsentation, es ist eine Ko-Konstruktion. Jede teilnehmende Person geht mit mindestens einer Ressource, die sofort getestet werden kann."
-          ]
-        },
-        {
-          items: [
-            "<strong>0–10 Min:</strong> Einführung, das Problem der heterogenen Klasse und warum mehr vom Gleichen nicht funktioniert.",
-            "<strong>10–25 Min:</strong> Profilkarte, Vorstellung der sechs Farol-Karten mit echten (anonymisierten) Fallbeispielen.",
-            "<strong>25–45 Min:</strong> Praktische Demonstration, drei Tools, drei Anwendungsfälle, drei unterschiedliche Profile.",
-            "<strong>45–75 Min:</strong> Partnerarbeit, jedes Paar passt ein vorhandenes Material für ein bestimmtes Profil an.",
-            "<strong>75–85 Min:</strong> Schnelles Teilen, jedes Paar präsentiert sein Ergebnis in 1 Minute.",
-            "<strong>85–90 Min:</strong> Verpflichtungen, jede teilnehmende Person legt ein Material fest, das in der nächsten Woche getestet wird."
-          ]
-        },
-        {
-          items: [
-            "Internetzugang und institutionelle Konten bei den vorgestellten Tools.",
-            "Vorhandene Materialien jeder teilnehmenden Person (ein Arbeitsblatt, ein Test oder ein Unterrichtsplan).",
-            "Gedruckte Farol-Profilkarten zur Einsicht."
-          ]
-        },
-        {
-          items: [
-            "Jede teilnehmende Person erstellt während der Sitzung mindestens ein angepasstes Material.",
-            "Feedback-Sitzung nach 30 Tagen, bei der mindestens 60 % der Teilnehmenden eine effektive Umsetzung berichten.",
-            "Mindestens ein in der Sitzung erstelltes Material wird als gemeinsame Ressource des Fachbereichs übernommen."
-          ]
-        }
-      ]
-    },
+    oficina: { sections: [
+      { items: [
+        "Kolleginnen und Kollegen befähigen, KI verantwortungsvoll in den Fremdsprachenunterricht zu integrieren, und dabei Materialien erstellen, die an unterschiedliche Lernprofile anpassbar sind.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Das ist keine Präsentation – es ist eine Ko-Konstruktion. Jede teilnehmende Person geht mit mindestens einer einsatzbereiten Ressource zum Ausprobieren nach Hause.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 Min.:</strong> Einstieg – das Problem der heterogenen Lerngruppe und warum „mehr vom Gleichen“ nicht funktioniert.",
+        "<strong>10–25 Min.:</strong> Profilkarte – Vorstellung der sechs Farol-Karten anhand realer (anonymisierter) Fälle.",
+        "<strong>25–45 Min.:</strong> Praktische Demonstration – drei Werkzeuge, drei Anwendungsfälle, drei unterschiedliche Profile.",
+        "<strong>45–75 Min.:</strong> Partnerarbeit – jedes Paar passt ein vorhandenes Material an ein bestimmtes Profil an.",
+        "<strong>75–85 Min.:</strong> Kurzer Austausch – jedes Paar stellt sein Ergebnis in einer Minute vor.",
+        "<strong>85–90 Min.:</strong> Verpflichtungen – jede teilnehmende Person legt ein zu erprobendes Material fest, und eine Feedback-Sitzung nach 30 Tagen wird vereinbart.",
+      ]},
+      { items: [
+        "Internetzugang und institutionelle Konten für die vorgestellten Werkzeuge.",
+        "Vorhandene Materialien jeder teilnehmenden Person (ein Arbeitsblatt, ein Test oder ein Unterrichtsplan).",
+        "Ausgedruckte Karten der Farol-Profile zum Nachschlagen.",
+      ]},
+      { items: [
+        "Jede teilnehmende Person erstellt während der Sitzung mindestens ein angepasstes Material.",
+        "Feedback-Sitzung nach 30 Tagen, bei der mindestens 60 % der Teilnehmenden eine tatsächliche Umsetzung berichten.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Mindestens ein in der Sitzung erstelltes Material wird als gemeinsame Ressource der Fachschaft übernommen.",
+      ]},
+    ]},
     legislacao: {
       sections: [
         {
@@ -1912,40 +1902,30 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>5.</strong> Als het hulpmiddel morgen zou verdwijnen, staat de leerling dan hulpeloos?",
       ]},
     ]},
-    oficina: {
-      sections: [
-        {
-          items: [
-            "Collega's toerusten voor de verantwoorde integratie van AI in het onderwijs, met de productie van materialen die aanpasbaar zijn aan meerdere leerprofielen.",
-            "Dit is geen presentatie, het is een co-constructie. Elke deelnemer vertrekt met ten minste één resource die meteen getest kan worden."
-          ]
-        },
-        {
-          items: [
-            "<strong>0–10 min:</strong> Kader, het probleem van de heterogene klas en waarom meer van hetzelfde niet werkt.",
-            "<strong>10–25 min:</strong> Profielkaart, presentatie van de zes Farol-kaarten met echte (geanonimiseerde) casussen.",
-            "<strong>25–45 min:</strong> Praktische demonstratie, drie tools, drie gebruikscases, drie verschillende profielen.",
-            "<strong>45–75 min:</strong> Samenwerking in tweetallen, elk tweetal past een bestaand materiaal aan voor een specifiek profiel.",
-            "<strong>75–85 min:</strong> Snel delen, elk tweetal presenteert zijn product in 1 minuut.",
-            "<strong>85–90 min:</strong> Verbintenissen, elke deelnemer bepaalt één materiaal om de volgende week te testen."
-          ]
-        },
-        {
-          items: [
-            "Internettoegang en institutionele accounts bij de gedemonstreerde tools.",
-            "Bestaande materialen van elke deelnemer (een werkblad, een toets of een lesplan).",
-            "Gedrukte Farol-profielkaarten ter raadpleging."
-          ]
-        },
-        {
-          items: [
-            "Elke deelnemer produceert tijdens de sessie ten minste één aangepast materiaal.",
-            "Feedbacksessie na 30 dagen waarbij ten minste 60% van de deelnemers effectieve implementatie rapporteert.",
-            "Ten minste één tijdens de sessie geproduceerd materiaal wordt overgenomen als gedeelde resource van de afdeling."
-          ]
-        }
-      ]
-    },
+    oficina: { sections: [
+      { items: [
+        "Collega’s in staat stellen om AI op een verantwoorde manier te integreren in het vreemdetalenonderwijs, met de productie van materiaal dat aan te passen is aan uiteenlopende leerprofielen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Dit is geen presentatie – het is een co-creatie. Elke deelnemer gaat naar huis met minstens één kant-en-klare bron om uit te proberen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 min.:</strong> Kadering – het probleem van de heterogene klas en waarom meer van hetzelfde niet werkt.",
+        "<strong>10–25 min.:</strong> Profielenkaart – presentatie van de zes Farol-kaarten, met echte (geanonimiseerde) gevallen.",
+        "<strong>25–45 min.:</strong> Praktische demonstratie – drie tools, drie gebruiksscenario’s, drie verschillende profielen.",
+        "<strong>45–75 min.:</strong> Werken in tweetallen – elk tweetal past bestaand materiaal aan voor een specifiek profiel.",
+        "<strong>75–85 min.:</strong> Snelle uitwisseling – elk tweetal toont zijn resultaat in 1 minuut.",
+        "<strong>85–90 min.:</strong> Afspraken – elke deelnemer bepaalt een materiaal om uit te proberen en er wordt een feedbacksessie na 30 dagen ingepland.",
+      ]},
+      { items: [
+        "Internettoegang en institutionele accounts voor de gedemonstreerde tools.",
+        "Bestaand materiaal van elke deelnemer (een werkblad, een toets of een lesplan).",
+        "Afgedrukte kaarten van de Farol-profielen om te raadplegen.",
+      ]},
+      { items: [
+        "Elke deelnemer produceert tijdens de sessie minstens één aangepast materiaal.",
+        "Feedbacksessie na 30 dagen waarbij minstens 60% van de deelnemers een daadwerkelijke toepassing rapporteert.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Minstens één materiaal dat tijdens de sessie is gemaakt, wordt overgenomen als gedeelde bron van de vakgroep.",
+      ]},
+    ]},
     legislacao: {
       sections: [
         {
@@ -2267,40 +2247,30 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>5.</strong> Jeśli narzędzie przestanie istnieć jutro, czy uczeń zostanie bez wsparcia?",
       ]},
     ]},
-    oficina: {
-      sections: [
-        {
-          items: [
-            "Wyposażenie kolegów w umiejętności odpowiedzialnej integracji AI w nauczaniu, z tworzeniem materiałów dostosowanych do wielu profili uczenia się.",
-            "To nie jest prezentacja, to ko-konstrukcja. Każdy uczestnik wychodzi z co najmniej jednym zasobem gotowym do przetestowania."
-          ]
-        },
-        {
-          items: [
-            "<strong>0–10 min:</strong> Wprowadzenie, problem heterogenicznej klasy i dlaczego więcej tego samego nie działa.",
-            "<strong>10–25 min:</strong> Mapa profili, prezentacja sześciu kart Farol z prawdziwymi (zanonimizowanymi) przypadkami.",
-            "<strong>25–45 min:</strong> Demonstracja praktyczna, trzy narzędzia, trzy przypadki użycia, trzy różne profile.",
-            "<strong>45–75 min:</strong> Praca w parach, każda para dostosowuje istniejący materiał do określonego profilu.",
-            "<strong>75–85 min:</strong> Szybkie dzielenie się, każda para prezentuje swój produkt w 1 minutę.",
-            "<strong>85–90 min:</strong> Zobowiązania, każdy uczestnik wyznacza jeden materiał do przetestowania w następnym tygodniu."
-          ]
-        },
-        {
-          items: [
-            "Dostęp do internetu i konta instytucjonalne w demonstrowanych narzędziach.",
-            "Istniejące materiały każdego uczestnika (karta pracy, sprawdzian lub plan lekcji).",
-            "Wydrukowane karty profili Farol do wglądu."
-          ]
-        },
-        {
-          items: [
-            "Każdy uczestnik tworzy podczas sesji co najmniej jeden dostosowany materiał.",
-            "Sesja informacji zwrotnej po 30 dniach, w której co najmniej 60% uczestników zgłasza skuteczne wdrożenie.",
-            "Co najmniej jeden materiał wyprodukowany podczas sesji zostaje przyjęty jako wspólny zasób departamentu."
-          ]
-        }
-      ]
-    },
+    oficina: { sections: [
+      { items: [
+        "Przygotować nauczycieli do odpowiedzialnej integracji SI w nauczaniu języka obcego, wraz z tworzeniem materiałów dostosowywanych do wielu profili uczenia się.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "To nie jest prezentacja — to współtworzenie. Każdy uczestnik wychodzi z co najmniej jednym gotowym do przetestowania zasobem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 min:</strong> Wprowadzenie — problem zróżnicowanej klasy i dlaczego „więcej tego samego” nie działa.",
+        "<strong>10–25 min:</strong> Mapa profili — prezentacja sześciu kart Farol, z prawdziwymi (zanonimizowanymi) przypadkami.",
+        "<strong>25–45 min:</strong> Pokaz praktyczny — trzy narzędzia, trzy przypadki użycia, trzy różne profile.",
+        "<strong>45–75 min:</strong> Praca w parach — każda para dostosowuje istniejący materiał do konkretnego profilu.",
+        "<strong>75–85 min:</strong> Szybkie dzielenie się — każda para prezentuje swój produkt w 1 minutę.",
+        "<strong>85–90 min:</strong> Zobowiązania — każdy uczestnik wybiera materiał do przetestowania i ustala sesję informacji zwrotnej za 30 dni.",
+      ]},
+      { items: [
+        "Dostęp do internetu oraz do kont instytucjonalnych w prezentowanych narzędziach.",
+        "Istniejące materiały każdego uczestnika (karta pracy, test lub konspekt lekcji).",
+        "Wydrukowane karty profili Farol do wglądu.",
+      ]},
+      { items: [
+        "Każdy uczestnik tworzy podczas sesji co najmniej jeden dostosowany materiał.",
+        "Sesja informacji zwrotnej po 30 dniach, podczas której co najmniej 60% uczestników zgłasza skuteczne wdrożenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Co najmniej jeden materiał stworzony podczas sesji zostaje przyjęty jako wspólny zasób wydziału.",
+      ]},
+    ]},
     legislacao: {
       sections: [
         {
@@ -2622,40 +2592,30 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>5.</strong> Dacă instrumentul ar dispărea mâine, elevul ar rămâne fără sprijin?",
       ]},
     ]},
-    oficina: {
-      sections: [
-        {
-          items: [
-            "Capacitarea colegilor pentru integrarea responsabilă a IA în predare, cu producerea de materiale adaptabile la mai multe profiluri de învățare.",
-            "Nu este o prezentare, este o co-construcție. Fiecare participant pleacă cu cel puțin o resursă gata de testat."
-          ]
-        },
-        {
-          items: [
-            "<strong>0–10 min:</strong> Cadru, problema clasei eterogene și de ce mai mult din același lucru nu funcționează.",
-            "<strong>10–25 min:</strong> Harta profilurilor, prezentarea celor șase carduri Farol, cu cazuri reale (anonimizate).",
-            "<strong>25–45 min:</strong> Demonstrație practică, trei instrumente, trei cazuri de utilizare, trei profiluri distincte.",
-            "<strong>45–75 min:</strong> Lucru în perechi, fiecare pereche adaptează un material existent pentru un profil specific.",
-            "<strong>75–85 min:</strong> Partajare rapidă, fiecare pereche prezintă produsul său în 1 minut.",
-            "<strong>85–90 min:</strong> Angajamente, fiecare participant definește un material de testat în săptămâna următoare."
-          ]
-        },
-        {
-          items: [
-            "Acces la internet și conturi instituționale în instrumentele demonstrate.",
-            "Materiale existente ale fiecărui participant (o fișă, un test sau un plan de lecție).",
-            "Carduri imprimate ale profilurilor Farol pentru consultare."
-          ]
-        },
-        {
-          items: [
-            "Fiecare participant produce cel puțin un material adaptat în timpul sesiunii.",
-            "Sesiune de feedback la 30 de zile, cu cel puțin 60% din participanți raportând implementare efectivă.",
-            "Cel puțin un material produs în sesiune este adoptat ca resursă comună a departamentului."
-          ]
-        }
-      ]
-    },
+    oficina: { sections: [
+      { items: [
+        "Pregătirea colegilor pentru integrarea responsabilă a IA în predarea limbii străine, cu producerea de materiale adaptabile la multiple profiluri de învățare.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nu este o prezentare, ci o co-construcție. Fiecare participant pleacă cu cel puțin o resursă gata de testat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 min:</strong> Încadrare — problema clasei eterogene și de ce „mai mult din același lucru” nu funcționează.",
+        "<strong>10–25 min:</strong> Harta profilurilor — prezentarea celor șase cartonașe Farol, cu cazuri reale (anonimizate).",
+        "<strong>25–45 min:</strong> Demonstrație practică — trei instrumente, trei cazuri de utilizare, trei profiluri diferite.",
+        "<strong>45–75 min:</strong> Lucru în perechi — fiecare pereche adaptează un material existent la un profil specific.",
+        "<strong>75–85 min:</strong> Împărtășire rapidă — fiecare pereche își prezintă produsul în 1 minut.",
+        "<strong>85–90 min:</strong> Angajamente — fiecare participant stabilește un material de testat și fixează o sesiune de feedback la 30 de zile.",
+      ]},
+      { items: [
+        "Acces la internet și la conturile instituționale pe instrumentele prezentate.",
+        "Materialele existente ale fiecărui participant (o fișă, un test sau un plan de lecție).",
+        "Cartonașe tipărite cu profilurile Farol pentru consultare.",
+      ]},
+      { items: [
+        "Fiecare participant produce cel puțin un material adaptat în timpul sesiunii.",
+        "Sesiune de feedback la 30 de zile, cu cel puțin 60 % dintre participanți care raportează o implementare efectivă.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Cel puțin un material produs în cadrul sesiunii este adoptat ca resursă comună a departamentului.",
+      ]},
+    ]},
     legislacao: {
       sections: [
         {
@@ -2982,26 +2942,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Opremiti kolege za odgovornu integraciju AI-a u nastavu, izrađujući materijale prilagodljive višestrukim profilima učenja.",
-        "Nije predavanje, to je ko-konstrukcija. Svaki sudionik odlazi s barem jednim resursom spremnim za testiranje.",
+        "Osposobiti kolege za odgovornu integraciju UI u nastavu stranog jezika, uključujući izradu materijala prilagodljivih različitim profilima učenja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ovo nije predavanje — ovo je zajedničko stvaranje. Svaki sudionik odlazi s barem jednim resursom spremnim za isprobavanje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Okvir, problem heterogene razredne zajednice i zašto više istog ne funkcionira.",
-        "<strong>10–25 min:</strong> Karta profila, predstavljanje šest Farol kartica sa stvarnim (anonimiziranim) slučajevima.",
-        "<strong>25–45 min:</strong> Praktična demonstracija, tri alata, tri slučaja uporabe, tri različita profila.",
-        "<strong>45–75 min:</strong> Rad u parovima, svaki par prilagođava postojeći materijal za određeni profil.",
-        "<strong>75–85 min:</strong> Brza razmjena, svaki par predstavlja svoj produkt za 1 minutu.",
-        "<strong>85–90 min:</strong> Obveze, svaki sudionik definira jedan materijal za testiranje i zakazuje povratnu informaciju za 30 dana.",
+        "<strong>0–10 min:</strong> Uvod — problem heterogenog razreda i zašto „više istoga” ne funkcionira.",
+        "<strong>10–25 min:</strong> Karta profila — predstavljanje šest kartica Farol sa stvarnim (anonimiziranim) slučajevima.",
+        "<strong>25–45 min:</strong> Praktični prikaz — tri alata, tri slučaja upotrebe, tri različita profila.",
+        "<strong>45–75 min:</strong> Rad u parovima — svaki par prilagođava postojeći materijal određenom profilu.",
+        "<strong>75–85 min:</strong> Brza razmjena — svaki par predstavlja svoj uradak u 1 minuti.",
+        "<strong>85–90 min:</strong> Obveze — svaki sudionik određuje materijal za isprobavanje i dogovara susret s povratnim informacijama za 30 dana.",
       ]},
       { items: [
-        "Internetski pristup i institucionalni računi u demonstriranim alatima.",
-        "Postojeći materijali svakog sudionika (radni list, test ili plan lekcije).",
-        "Ispisane Farol kartice profila za referencu.",
+        "Pristup internetu i institucionalnim računima u prikazanim alatima.",
+        "Postojeći materijali svakog sudionika (radni list, test ili priprema za nastavni sat).",
+        "Tiskane kartice profila Farol za uvid.",
       ]},
       { items: [
-        "Svaki sudionik izrađuje barem jedan prilagođeni materijal tijekom sesije.",
-        "Sesija povratnih informacija nakon 30 dana s barem 60% sudionika koji prijavljuju učinkovitu primjenu.",
-        "Barem jedan materijal izrađen na sesiji usvojen je kao zajednički resurs odjela.",
+        "Svaki sudionik tijekom susreta izrađuje barem jedan prilagođeni materijal.",
+        "Susret s povratnim informacijama za 30 dana na kojem barem 60 % sudionika izvještava o stvarnoj primjeni.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Barem jedan materijal izrađen na susretu prihvaća se kao zajednički resurs odjela.",
       ]},
     ]},
     legislacao: { sections: [
@@ -3314,26 +3274,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Vybavit kolegy pro zodpovědnou integraci AI do jazykové výuky a vytvořit materiály přizpůsobitelné různým vzdělávacím profilům.",
-        "Není to prezentace, je to ko-konstrukce. Každý účastník odchází s alespoň jedním zdrojem připraveným k otestování.",
+        "Připravit kolegy na odpovědné začlenění UI do výuky cizího jazyka, včetně tvorby materiálů přizpůsobitelných různým profilům učení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Není to prezentace — je to společná tvorba. Každý účastník odchází s alespoň jedním zdrojem připraveným k vyzkoušení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Rámec, problém heterogenní třídy a proč více téhož nefunguje.",
-        "<strong>10–25 min:</strong> Mapa profilů, představení šesti karet Farol se skutečnými (anonymizovanými) případy.",
-        "<strong>25–45 min:</strong> Praktická ukázka, tři nástroje, tři případy použití, tři odlišné profily.",
-        "<strong>45–75 min:</strong> Práce ve dvojicích, každá dvojice přizpůsobí existující materiál pro konkrétní profil.",
-        "<strong>75–85 min:</strong> Rychlé sdílení, každá dvojice představí svůj produkt za 1 minutu.",
-        "<strong>85–90 min:</strong> Závazky, každý účastník určí jeden materiál k otestování a naplánuje zpětnovazební sezení za 30 dní.",
+        "<strong>0–10 min:</strong> Uvedení do problému — heterogenní třída a proč „více téhož“ nefunguje.",
+        "<strong>10–25 min:</strong> Mapa profilů — představení šesti karet Farol s reálnými (anonymizovanými) případy.",
+        "<strong>25–45 min:</strong> Praktická ukázka — tři nástroje, tři případy užití, tři odlišné profily.",
+        "<strong>45–75 min:</strong> Práce ve dvojicích — každá dvojice přizpůsobí stávající materiál konkrétnímu profilu.",
+        "<strong>75–85 min:</strong> Rychlé sdílení — každá dvojice představí svůj výtvor za 1 minutu.",
+        "<strong>85–90 min:</strong> Závazky — každý účastník si vybere materiál k vyzkoušení a domluví se sezení se zpětnou vazbou za 30 dní.",
       ]},
       { items: [
-        "Přístup k internetu a institucionální účty v demonstrovaných nástrojích.",
-        "Existující materiály každého účastníka (pracovní list, test nebo plán hodiny).",
-        "Vytištěné karty profilů Farol pro referenci.",
+        "Přístup k internetu a k institucionálním účtům v předváděných nástrojích.",
+        "Stávající materiály každého účastníka (pracovní list, test nebo plán hodiny).",
+        "Vytištěné karty profilů Farol k nahlédnutí.",
       ]},
       { items: [
         "Každý účastník vytvoří během sezení alespoň jeden přizpůsobený materiál.",
-        "Zpětnovazební sezení po 30 dnech s alespoň 60 % účastníků hlásících účinnou implementaci.",
-        "Alespoň jeden materiál vytvořený na sezení je přijat jako sdílený zdroj oddělení.",
+        "Sezení se zpětnou vazbou po 30 dnech, při kterém alespoň 60 % účastníků uvádí skutečné zavedení do praxe.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Alespoň jeden materiál vytvořený během sezení je přijat jako sdílený zdroj katedry.",
       ]},
     ]},
     legislacao: { sections: [
@@ -3646,26 +3606,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Rusta kollegor för ansvarsfull AI-integration i språkundervisning och producera material anpassningsbart till flera lärandeprofiler.",
-        "Det är inte en presentation, det är en samkonstruktion. Varje deltagare lämnar med minst en resurs redo att testa.",
+        "Ge kollegor förutsättningar att integrera AI på ett ansvarsfullt sätt i undervisningen i främmande språk, med framställning av material som kan anpassas till olika inlärningsprofiler.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Det här är ingen presentation – det är ett gemensamt skapande. Varje deltagare går därifrån med minst en färdig resurs att testa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Ramverk, problemet med den heterogena klassen och varför mer av samma inte fungerar.",
-        "<strong>10–25 min:</strong> Profilkarta, presentation av de sex Farol-korten med verkliga (anonymiserade) fall.",
-        "<strong>25–45 min:</strong> Praktisk demonstration, tre verktyg, tre användningsfall, tre distinkta profiler.",
-        "<strong>45–75 min:</strong> Pararbete, varje par anpassar ett befintligt material för en specifik profil.",
-        "<strong>75–85 min:</strong> Snabb delning, varje par presenterar sin produkt på 1 minut.",
-        "<strong>85–90 min:</strong> Åtaganden, varje deltagare definierar ett material att testa och schemalägger en återkoppling om 30 dagar.",
+        "<strong>0–10 min:</strong> Inramning – problemet med den heterogena klassen och varför mer av samma sak inte fungerar.",
+        "<strong>10–25 min:</strong> Profilkarta – presentation av Farols sex kort, med verkliga (anonymiserade) fall.",
+        "<strong>25–45 min:</strong> Praktisk demonstration – tre verktyg, tre användningsfall, tre olika profiler.",
+        "<strong>45–75 min:</strong> Pararbete – varje par anpassar ett befintligt material till en specifik profil.",
+        "<strong>75–85 min:</strong> Snabb delning – varje par visar sitt resultat på 1 minut.",
+        "<strong>85–90 min:</strong> Åtaganden – varje deltagare bestämmer ett material att testa, och en uppföljningssession bokas in efter 30 dagar.",
       ]},
       { items: [
-        "Internetåtkomst och institutionskonton i de demonstrerade verktygen.",
-        "Befintliga material från varje deltagare (ett arbetsblad, ett prov eller en lektionsplan).",
-        "Utskrivna Farol-profilkort för referens.",
+        "Internetuppkoppling och institutionella konton i de verktyg som demonstreras.",
+        "Befintligt material från varje deltagare (ett arbetsblad, ett prov eller en lektionsplanering).",
+        "Utskrivna kort med Farols profiler att ha till hands.",
       ]},
       { items: [
-        "Varje deltagare producerar minst ett anpassat material under sessionen.",
-        "Återkopplingssession efter 30 dagar med minst 60 % av deltagarna som rapporterar effektiv implementering.",
-        "Minst ett material producerat under sessionen antas som en gemensam avdelningsresurs.",
+        "Varje deltagare framställer minst ett anpassat material under sessionen.",
+        "Uppföljningssession efter 30 dagar där minst 60 % av deltagarna rapporterar faktisk tillämpning.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Minst ett material som tagits fram under sessionen antas som en gemensam resurs för ämneslaget.",
       ]},
     ]},
     legislacao: { sections: [
@@ -3978,26 +3938,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Ruste kolleger til ansvarlig AI-integration i sprogundervisningen og producere materialer tilpasselige til multiple lærlingsprofiler.",
-        "Det er ikke en præsentation, det er en samkonstruktion. Hver deltager forlader med mindst én ressource klar til afprøvning.",
+        "Klæde kolleger på til at integrere AI ansvarligt i fremmedsprogsundervisningen og fremstille materialer, der kan tilpasses forskellige læringsprofiler.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Det er ikke et oplæg – det er en fælles skabelse. Hver deltager går hjem med mindst én færdig ressource, der er klar til at blive afprøvet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Ramme, problemet med den heterogene klasse og hvorfor mere af det samme ikke virker.",
-        "<strong>10–25 min:</strong> Profilkort, præsentation af de seks Farol-kort med virkelige (anonymiserede) cases.",
-        "<strong>25–45 min:</strong> Praktisk demonstration, tre værktøjer, tre use cases, tre adskilte profiler.",
-        "<strong>45–75 min:</strong> Pararbejde, hvert par tilpasser et eksisterende materiale til en specifik profil.",
-        "<strong>75–85 min:</strong> Hurtig deling, hvert par præsenterer sit produkt på 1 minut.",
-        "<strong>85–90 min:</strong> Forpligtelser, hver deltager definerer et materiale at afprøve og planlægger en feedbacksession om 30 dage.",
+        "<strong>0–10 min.:</strong> Rammesætning – problemet med den heterogene klasse, og hvorfor mere af det samme ikke virker.",
+        "<strong>10–25 min.:</strong> Profilkort – præsentation af Farols seks kort med virkelige (anonymiserede) eksempler.",
+        "<strong>25–45 min.:</strong> Praktisk demonstration – tre værktøjer, tre anvendelsestilfælde, tre forskellige profiler.",
+        "<strong>45–75 min.:</strong> Pararbejde – hvert par tilpasser et eksisterende materiale til en bestemt profil.",
+        "<strong>75–85 min.:</strong> Hurtig deling – hvert par viser sit resultat på 1 minut.",
+        "<strong>85–90 min.:</strong> Forpligtelser – hver deltager fastlægger et materiale, der skal afprøves, og der aftales en feedbacksession efter 30 dage.",
       ]},
       { items: [
         "Internetadgang og institutionelle konti i de demonstrerede værktøjer.",
-        "Eksisterende materialer fra hver deltager (et arbejdsark, en prøve eller en lektionsplan).",
-        "Udprintede Farol-profilkort til reference.",
+        "Hver deltagers eksisterende materialer (et arbejdsark, en test eller en lektionsplan).",
+        "Udskrevne kort med Farols profiler til opslag.",
       ]},
       { items: [
-        "Hver deltager producerer mindst ét tilpasset materiale under sessionen.",
-        "Feedbacksession efter 30 dage med mindst 60 % af deltagerne, der rapporterer effektiv implementering.",
-        "Mindst ét materiale produceret i sessionen adopteres som en fælles afdelingsressource.",
+        "Hver deltager fremstiller mindst ét tilpasset materiale i løbet af sessionen.",
+        "Feedbacksession efter 30 dage, hvor mindst 60 % af deltagerne rapporterer faktisk implementering.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Mindst ét materiale, der er produceret i sessionen, vedtages som en delt ressource for faggruppen.",
       ]},
     ]},
     legislacao: { sections: [
@@ -4310,26 +4270,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Varustaa kollegat vastuulliseen tekoälyn integrointiin kieltenopetuksessa tuottamalla materiaaleja, jotka soveltuvat useille oppimisprofiileille.",
-        "Ei ole esitys, se on yhteisrakentamista. Jokainen osallistuja lähtee vähintään yhden testausvalmiuden resurssin kanssa.",
+        "Antaa kollegoille valmiudet tekoälyn vastuulliseen integroimiseen vieraan kielen opetukseen tuottamalla materiaaleja, jotka ovat mukautettavissa useisiin oppimisprofiileihin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tämä ei ole esitys – se on yhteistä rakentamista. Jokainen osallistuja lähtee mukanaan vähintään yksi valmis resurssi kokeiltavaksi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Kehys, heterogeenisen luokan ongelma ja miksi lisää samaa ei toimi.",
-        "<strong>10–25 min:</strong> Profiilikartta, kuuden Farol-kortin esittely todellisilla (anonymisoiduilla) tapauksilla.",
-        "<strong>25–45 min:</strong> Käytännön demonstraatio, kolme työkalua, kolme käyttötapausta, kolme erillistä profiilia.",
-        "<strong>45–75 min:</strong> Parityöskentely, jokainen pari mukauttaa olemassa olevaa materiaalia tietylle profiilille.",
-        "<strong>75–85 min:</strong> Pikajako, jokainen pari esittää tuotoksensa 1 minuutissa.",
-        "<strong>85–90 min:</strong> Sitoumukset, jokainen osallistuja määrittelee yhden testattavan materiaalin ja aikatauluttaa palauteistunnon 30 päivän päähän.",
+        "<strong>0–10 min:</strong> Taustoitus – heterogeenisen ryhmän ongelma ja miksi sama suuremmassa määrin ei toimi.",
+        "<strong>10–25 min:</strong> Profiilikartta – Farolin kuuden kortin esittely todellisten (anonymisoitujen) tapausten kanssa.",
+        "<strong>25–45 min:</strong> Käytännön demonstraatio – kolme työkalua, kolme käyttötapausta, kolme eri profiilia.",
+        "<strong>45–75 min:</strong> Parityöskentely – kukin pari mukauttaa olemassa olevan materiaalin tietylle profiilille.",
+        "<strong>75–85 min:</strong> Nopea jakaminen – kukin pari esittelee tuotoksensa minuutissa.",
+        "<strong>85–90 min:</strong> Sitoumukset – kukin osallistuja määrittää kokeiltavan materiaalin ja palautetapaaminen sovitaan 30 päivän päähän.",
       ]},
       { items: [
-        "Internetyhteys ja institutionaaliset tilit demonstroitavissa työkaluissa.",
-        "Kunkin osallistujan olemassa olevat materiaalit (tehtävämoniste, koe tai oppituntisuunnitelma).",
-        "Tulostetut Farol-profiilkortit referenssiksi.",
+        "Internetyhteys ja institutionaaliset tilit esiteltäviin työkaluihin.",
+        "Kunkin osallistujan omat materiaalit (tehtävämoniste, koe tai tuntisuunnitelma).",
+        "Tulostetut Farolin profiilikortit tarkasteltaviksi.",
       ]},
       { items: [
-        "Jokainen osallistuja tuottaa vähintään yhden mukautetun materiaalin istunnon aikana.",
-        "Palauteistunto 30 päivän kuluttua, vähintään 60 % osallistujista raportoiden tehokkaan toteutuksen.",
-        "Vähintään yksi istunnossa tuotettu materiaali otetaan käyttöön yhteisenä osaston resurssina.",
+        "Kukin osallistuja tuottaa istunnon aikana vähintään yhden mukautetun materiaalin.",
+        "Palautetapaaminen 30 päivän päästä, jossa vähintään 60 % osallistujista raportoi tehokkaasta toteutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vähintään yksi istunnossa tuotettu materiaali otetaan käyttöön osaston yhteisenä resurssina.",
       ]},
     ]},
     legislacao: { sections: [
@@ -4643,26 +4603,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Vybaviť kolegov pre zodpovednú integráciu AI vo vyučovaní, s tvorbou materiálov prispôsobiteľných rôznym profilom učenia.",
-        "Nie je to prezentácia, je to spoločná tvorba. Každý účastník odchádza s aspoň jedným zdrojom pripraveným na testovanie.",
+        "Pripraviť kolegov na zodpovednú integráciu UI do vyučovania cudzieho jazyka vrátane tvorby materiálov prispôsobiteľných rôznym profilom učenia sa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nie je to prezentácia — je to spoločná tvorba. Každý účastník odchádza s aspoň jedným zdrojom pripraveným na vyskúšanie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Rámovanie, problém heterogénnej triedy a prečo viac toho istého nefunguje.",
-        "<strong>10–25 min:</strong> Mapa profilov, prezentácia šiestich kariet Farol so skutočnými (anonymizovanými) prípadmi.",
-        "<strong>25–45 min:</strong> Praktická ukážka, tri nástroje, tri prípady použitia, tri odlišné profily.",
-        "<strong>45–75 min:</strong> Práca vo dvojiciach, každá dvojica prispôsobuje existujúci materiál pre konkrétny profil.",
-        "<strong>75–85 min:</strong> Rýchle zdieľanie, každá dvojica prezentuje svoj produkt za 1 minútu.",
-        "<strong>85–90 min:</strong> Záväzky, každý účastník definuje jeden materiál na testovanie a naplánuje spätnú väzbu za 30 dní.",
+        "<strong>0–10 min:</strong> Uvedenie do problému — heterogénna trieda a prečo „viac toho istého“ nefunguje.",
+        "<strong>10–25 min:</strong> Mapa profilov — predstavenie šiestich kariet Farol s reálnymi (anonymizovanými) prípadmi.",
+        "<strong>25–45 min:</strong> Praktická ukážka — tri nástroje, tri prípady použitia, tri odlišné profily.",
+        "<strong>45–75 min:</strong> Práca vo dvojiciach — každá dvojica prispôsobí existujúci materiál konkrétnemu profilu.",
+        "<strong>75–85 min:</strong> Rýchle zdieľanie — každá dvojica predstaví svoj výtvor za 1 minútu.",
+        "<strong>85–90 min:</strong> Záväzky — každý účastník si vyberie materiál na vyskúšanie a dohodne sa stretnutie so spätnou väzbou o 30 dní.",
       ]},
       { items: [
-        "Prístup na internet a inštitucionálne účty v demonštrovaných nástrojoch.",
+        "Prístup na internet a k inštitucionálnym kontám v predvádzaných nástrojoch.",
         "Existujúce materiály každého účastníka (pracovný list, test alebo plán hodiny).",
-        "Vytlačené profilové karty Farol na konzultáciu.",
+        "Vytlačené karty profilov Farol na nahliadnutie.",
       ]},
       { items: [
-        "Každý účastník vytvorí aspoň jeden prispôsobený materiál počas sedenia.",
-        "Spätnoväzobné sedenie za 30 dní s aspoň 60 % účastníkov hlásiaci efektívnu implementáciu.",
-        "Aspoň jeden materiál vytvorený počas sedenia je prijatý ako zdieľaný zdroj katedry.",
+        "Každý účastník vytvorí počas stretnutia aspoň jeden prispôsobený materiál.",
+        "Stretnutie so spätnou väzbou po 30 dňoch, na ktorom aspoň 60 % účastníkov uvádza skutočné zavedenie do praxe.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Aspoň jeden materiál vytvorený počas stretnutia je prijatý ako zdieľaný zdroj katedry.",
       ]},
     ]},
     legislacao: { sections: [
@@ -4973,26 +4933,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Felkészíteni a kollégákat az AI felelős integrálására az oktatásban, különböző tanulási profilokhoz igazítható anyagok készítésével.",
-        "Ez nem előadás, közös alkotás. Minden résztvevő legalább egy tesztelésre kész anyaggal távozik.",
+        "A kollégák felkészítése az IA felelős integrálására az idegennyelv-oktatásban, többféle tanulási profilhoz igazítható anyagok készítésével.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ez nem előadás — ez közös alkotás. Minden résztvevő legalább egy kipróbálásra kész anyaggal távozik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 perc:</strong> Keretezés, a heterogén osztály problémája és miért nem működik a több ugyanolyan.",
-        "<strong>10–25 perc:</strong> Profilok térképe, a hat Farol kártya bemutatása valódi (anonimizált) esetekkel.",
-        "<strong>25–45 perc:</strong> Gyakorlati bemutató, három eszköz, három felhasználási eset, három különböző profil.",
-        "<strong>45–75 perc:</strong> Páros munka, minden pár egy meglévő anyagot igazít egy adott profilhoz.",
-        "<strong>75–85 perc:</strong> Gyors megosztás, minden pár 1 percben bemutatja a termékét.",
-        "<strong>85–90 perc:</strong> Vállalások, minden résztvevő meghatároz egy tesztelendő anyagot és 30 napos visszajelzési alkalmat tervez.",
+        "<strong>0–10 perc:</strong> Keretezés — a heterogén osztály problémája, és hogy miért nem működik a „még több ugyanabból”.",
+        "<strong>10–25 perc:</strong> A profilok térképe — a Farol hat kártyájának bemutatása valós (anonimizált) esetekkel.",
+        "<strong>25–45 perc:</strong> Gyakorlati bemutató — három eszköz, három felhasználási eset, három különböző profil.",
+        "<strong>45–75 perc:</strong> Páros munka — minden pár egy meglévő anyagot igazít egy konkrét profilhoz.",
+        "<strong>75–85 perc:</strong> Gyors megosztás — minden pár 1 perc alatt bemutatja az elkészült anyagát.",
+        "<strong>85–90 perc:</strong> Vállalások — minden résztvevő kijelöl egy kipróbálandó anyagot, és 30 napra visszajelző alkalmat tűznek ki.",
       ]},
       { items: [
-        "Internetelérés és intézményi fiókok a bemutatott eszközökhöz.",
-        "Minden résztvevő meglévő anyagai (egy feladatlap, egy dolgozat vagy egy óravázlat).",
-        "Kinyomtatott Farol profil kártyák a konzultációhoz.",
+        "Internet-hozzáférés és intézményi fiókok a bemutatott eszközökben.",
+        "A résztvevők meglévő anyagai (egy feladatlap, egy teszt vagy egy óraterv).",
+        "A Farol profiljainak kinyomtatott kártyái a tájékozódáshoz.",
       ]},
       { items: [
-        "Minden résztvevő legalább egy adaptált anyagot készít az ülés során.",
-        "30 napos visszajelzési alkalom a résztvevők legalább 60%-ával, akik hatékony implementációt jelentenek.",
-        "Az ülés során készített legalább egy anyagot osztott tanszéki erőforrásként fogadják el.",
+        "Minden résztvevő legalább egy adaptált anyagot készít a foglalkozás során.",
+        "30 napos visszajelző alkalom, amelyen a résztvevők legalább 60%-a tényleges megvalósításról számol be.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "A foglalkozáson készült anyagok közül legalább egyet a tanszék közös erőforrásként vesz át.",
       ]},
     ]},
     legislacao: { sections: [
@@ -5303,26 +5263,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Να εξοπλίσουμε τους συναδέλφους για υπεύθυνη ενσωμάτωση ΑΙ στη διδασκαλία, παράγοντας υλικά προσαρμόσιμα σε πολλαπλά προφίλ μάθησης.",
-        "Δεν είναι παρουσίαση, είναι συν-δημιουργία. Κάθε συμμετέχων φεύγει με τουλάχιστον έναν πόρο έτοιμο για δοκιμή.",
+        "Ενδυνάμωση των συναδέλφων για την υπεύθυνη ενσωμάτωση της IA στη διδασκαλία ξένων γλωσσών, με παραγωγή υλικού προσαρμόσιμου σε πολλαπλά προφίλ μάθησης.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Δεν πρόκειται για παρουσίαση — είναι μια συν-δημιουργία. Κάθε συμμετέχων φεύγει με τουλάχιστον έναν έτοιμο προς δοκιμή πόρο.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 λεπτά:</strong> Πλαισίωση, το πρόβλημα της ετερογενούς τάξης και γιατί το «περισσότερο ίδιο» δεν λειτουργεί.",
-        "<strong>10–25 λεπτά:</strong> Χάρτης προφίλ, παρουσίαση των έξι καρτών Farol με πραγματικές (ανωνυμοποιημένες) περιπτώσεις.",
-        "<strong>25–45 λεπτά:</strong> Πρακτική επίδειξη, τρία εργαλεία, τρεις χρήσεις, τρία διαφορετικά προφίλ.",
-        "<strong>45–75 λεπτά:</strong> Εργασία σε ζεύγη, κάθε ζεύγος προσαρμόζει ένα υπάρχον υλικό για ένα συγκεκριμένο προφίλ.",
-        "<strong>75–85 λεπτά:</strong> Γρήγορη ανταλλαγή, κάθε ζεύγος παρουσιάζει το προϊόν του σε 1 λεπτό.",
-        "<strong>85–90 λεπτά:</strong> Δεσμεύσεις, κάθε συμμετέχων ορίζει ένα υλικό προς δοκιμή και προγραμματίζει ανατροφοδότηση σε 30 ημέρες.",
+        "<strong>0–10 min:</strong> Πλαισίωση — το πρόβλημα της ετερογενούς τάξης και γιατί «περισσότερο από το ίδιο» δεν λειτουργεί.",
+        "<strong>10–25 min:</strong> Χάρτης των προφίλ — παρουσίαση των έξι καρτών του Farol, με πραγματικά περιστατικά (ανωνυμοποιημένα).",
+        "<strong>25–45 min:</strong> Πρακτική επίδειξη — τρία εργαλεία, τρεις περιπτώσεις χρήσης, τρία διαφορετικά προφίλ.",
+        "<strong>45–75 min:</strong> Εργασία σε ζευγάρια — κάθε ζευγάρι προσαρμόζει ένα υπάρχον υλικό σε ένα συγκεκριμένο προφίλ.",
+        "<strong>75–85 min:</strong> Γρήγορος διαμοιρασμός — κάθε ζευγάρι παρουσιάζει το προϊόν του σε 1 λεπτό.",
+        "<strong>85–90 min:</strong> Δεσμεύσεις — κάθε συμμετέχων ορίζει ένα υλικό προς δοκιμή και κανονίζεται συνάντηση ανατροφοδότησης σε 30 ημέρες.",
       ]},
       { items: [
-        "Πρόσβαση στο διαδίκτυο και θεσμικοί λογαριασμοί στα εργαλεία που παρουσιάζονται.",
-        "Υπάρχοντα υλικά κάθε συμμετέχοντα (ένα φύλλο εργασίας, ένα τεστ ή ένα σχέδιο μαθήματος).",
-        "Εκτυπωμένες κάρτες προφίλ Farol για αναφορά.",
+        "Πρόσβαση στο διαδίκτυο και σε θεσμικούς λογαριασμούς στα εργαλεία που παρουσιάζονται.",
+        "Υπάρχον υλικό κάθε συμμετέχοντα (ένα φύλλο εργασίας, ένα τεστ ή ένα σχέδιο μαθήματος).",
+        "Εκτυπωμένες κάρτες των προφίλ του Farol για αναφορά.",
       ]},
       { items: [
         "Κάθε συμμετέχων παράγει τουλάχιστον ένα προσαρμοσμένο υλικό κατά τη διάρκεια της συνεδρίας.",
-        "Συνεδρία ανατροφοδότησης σε 30 ημέρες με τουλάχιστον το 60% των συμμετεχόντων να αναφέρουν αποτελεσματική εφαρμογή.",
-        "Τουλάχιστον ένα υλικό που παράχθηκε κατά τη συνεδρία υιοθετείται ως κοινός πόρος τμήματος.",
+        "Συνάντηση ανατροφοδότησης σε 30 ημέρες με τουλάχιστον 60% των συμμετεχόντων να αναφέρουν ουσιαστική εφαρμογή.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Τουλάχιστον ένα υλικό που παρήχθη στη συνεδρία υιοθετείται ως κοινός πόρος του τμήματος.",
       ]},
     ]},
     legislacao: { sections: [
@@ -5634,26 +5594,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Да подготвим колегите за отговорна интеграция на AI в обучението, произвеждайки материали, адаптируеми към множество профили на учене.",
-        "Не е презентация, е съвместно творчество. Всеки участник напуска с поне един ресурс, готов за тестване.",
+        "Да подготвим колегите за отговорно интегриране на ИИ в обучението по чужд език, включително създаване на материали, които могат да се адаптират към различни профили на учене.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Това не е презентация — това е съвместно създаване. Всеки участник си тръгва с поне един ресурс, готов за изпробване.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 мин:</strong> Рамкиране, проблемът с хетерогенния клас и защо повече от същото не работи.",
-        "<strong>10–25 мин:</strong> Карта на профилите, представяне на шестте карти Farol с реални (анонимизирани) случаи.",
-        "<strong>25–45 мин:</strong> Практическа демонстрация, три инструмента, три случая на употреба, три различни профила.",
-        "<strong>45–75 мин:</strong> Работа по двойки, всяка двойка адаптира съществуващ материал за конкретен профил.",
-        "<strong>75–85 мин:</strong> Бързо споделяне, всяка двойка представя своя продукт за 1 минута.",
-        "<strong>85–90 мин:</strong> Ангажименти, всеки участник определя един материал за тестване и планира сесия за обратна връзка след 30 дни.",
+        "<strong>0–10 мин:</strong> Въведение — проблемът с разнородния клас и защо „повече от същото“ не работи.",
+        "<strong>10–25 мин:</strong> Карта на профилите — представяне на шестте карти на Farol с реални (анонимизирани) случаи.",
+        "<strong>25–45 мин:</strong> Практическа демонстрация — три инструмента, три случая на употреба, три различни профила.",
+        "<strong>45–75 мин:</strong> Работа по двойки — всяка двойка адаптира съществуващ материал към конкретен профил.",
+        "<strong>75–85 мин:</strong> Бърз обмен — всяка двойка представя своя продукт за 1 минута.",
+        "<strong>85–90 мин:</strong> Ангажименти — всеки участник определя материал за изпробване и се уговаря среща за обратна връзка след 30 дни.",
       ]},
       { items: [
-        "Достъп до интернет и институционални акаунти в демонстрираните инструменти.",
-        "Съществуващи материали на всеки участник (работен лист, тест или план за урок).",
-        "Отпечатани карти с профили Farol за справка.",
+        "Достъп до интернет и до институционални акаунти в демонстрираните инструменти.",
+        "Съществуващи материали на всеки участник (работен лист, тест или план на урок).",
+        "Отпечатани карти на профилите на Farol за справка.",
       ]},
       { items: [
-        "Всеки участник произвежда поне един адаптиран материал по време на сесията.",
-        "Сесия за обратна връзка след 30 дни с поне 60% от участниците, докладващи ефективно прилагане.",
-        "Поне един материал, произведен по време на сесията, се приема като споделен ресурс на отдела.",
+        "Всеки участник създава по време на сесията поне един адаптиран материал.",
+        "Среща за обратна връзка след 30 дни, на която поне 60% от участниците съобщават за реално прилагане.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Поне един материал, създаден по време на сесията, се приема като споделен ресурс на катедрата.",
       ]},
     ]},
     legislacao: { sections: [
@@ -5964,26 +5924,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Parengti kolegas atsakingai AI integracijai mokymo, gaminant medžiagas, pritaikomas keliems mokymosi profiliams.",
-        "Tai ne pristatymas, tai bendras kūrimas. Kiekvienas dalyvis išeina turėdamas bent vieną išteklių, paruoštą išbandyti.",
+        "Padėti kolegoms atsakingai integruoti DI į užsienio kalbos mokymą, kuriant medžiagą, pritaikomą įvairiems mokymosi profiliams.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tai ne pristatymas – tai bendras kūrimas. Kiekvienas dalyvis išsineša bent vieną parengtą išbandyti išteklių.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>0–10 min:</strong> Rėminimas, heterogeniškos klasės problema ir kodėl daugiau to paties neveikia.",
-        "<strong>10–25 min:</strong> Profilių žemėlapis, šešių Farol kortelių pristatymas su realiais (anoniminiais) atvejais.",
-        "<strong>25–45 min:</strong> Praktinė demonstracija, trys įrankiai, trys naudojimo atvejai, trys skirtingi profiliai.",
-        "<strong>45–75 min:</strong> Darbas poromis, kiekviena pora pritaiko esamą medžiagą konkrečiam profiliui.",
-        "<strong>75–85 min:</strong> Greitas pasidalijimas, kiekviena pora per 1 minutę pristato savo produktą.",
-        "<strong>85–90 min:</strong> Įsipareigojimai, kiekvienas dalyvis apibrėžia vieną medžiagą išbandyti ir planuoja atsiliepimų sesiją po 30 dienų.",
+        "<strong>0–10 min:</strong> Įvadas – nevienalytės klasės problema ir kodėl daugiau to paties neveikia.",
+        "<strong>10–25 min:</strong> Profilių žemėlapis – šešių „Farol“ kortelių pristatymas su realiais (anonimintais) atvejais.",
+        "<strong>25–45 min:</strong> Praktinė demonstracija – trys įrankiai, trys naudojimo atvejai, trys skirtingi profiliai.",
+        "<strong>45–75 min:</strong> Darbas poromis – kiekviena pora pritaiko esamą medžiagą konkrečiam profiliui.",
+        "<strong>75–85 min:</strong> Greitas dalijimasis – kiekviena pora per 1 minutę parodo savo rezultatą.",
+        "<strong>85–90 min:</strong> Įsipareigojimai – kiekvienas dalyvis pasirenka medžiagą išbandyti ir suplanuojama grįžtamojo ryšio sesija po 30 dienų.",
       ]},
       { items: [
-        "Prieiga prie interneto ir institucinių paskyrų demonstruojamų įrankių.",
-        "Kiekvieno dalyvio turima medžiaga (darbo lapas, testas ar pamokos planas).",
-        "Atspausdintos Farol profilių kortelės konsultacijai.",
+        "Interneto prieiga ir institucinės paskyros demonstruojamuose įrankiuose.",
+        "Kiekvieno dalyvio turima medžiaga (užduočių lapas, testas ar pamokos planas).",
+        "Atspausdintos „Farol“ profilių kortelės susipažinimui.",
       ]},
       { items: [
-        "Kiekvienas dalyvis sesijos metu sukuria bent vieną pritaikytą medžiagą.",
-        "Atsiliepimų sesija po 30 dienų su bent 60% dalyvių, pranešančių apie efektyvų įgyvendinimą.",
-        "Bent viena sesijos metu sukurta medžiaga priimama kaip bendras katedros išteklius.",
+        "Kiekvienas dalyvis sesijos metu parengia bent vieną pritaikytą medžiagą.",
+        "Grįžtamojo ryšio sesija po 30 dienų, kurioje bent 60 % dalyvių praneša apie veiksmingą įgyvendinimą.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Bent viena sesijos metu parengta medžiaga priimama kaip bendras katedros išteklius.",
       ]},
     ]},
     legislacao: { sections: [
@@ -6295,26 +6255,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Šis modulis ir paredzēts adaptācijai un praktiskajai lietošanai klasē, nevis pasīvai lasīšanai.",
-        "Katra stratēģija ir balstīta uz pierādījumiem un pielāgojama jūsu kontekstam.",
+        "Sniegt kolēģiem prasmes atbildīgi integrēt MI svešvalodas mācīšanā, veidojot materiālus, kas pielāgojami dažādiem mācīšanās profiliem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tā nav prezentācija – tā ir kopīga veidošana. Katrs dalībnieks aiziet ar vismaz vienu gatavu resursu, ko izmēģināt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Teksta formāts: fonta izmērs vismaz 12pt; rindstarpa 1,5; Times New Roman vietā Arial vai Calibri.",
-        "Krāsu kodi un vizuālie rutīnas radīt paredzamību un samazina kognitīvo slodzi.",
-        "Eksāmenu pielāgojumi: papildu laiks, atsevišķa telpa, lasītājs vai rakstītājs.",
-        "Digitālie rīki: teksts uz runas, runas uz tekstu, digitālās vārdnīcas.",
-        "Diferenciācija: vieni un tie paši mācīšanās mērķi, bet dažādi attēlojumi un snieguma veidi.",
-        "Universāls dizains mācīšanai (UDL): plānot iekļaušanai no sākuma, nevis adaptēt pēc tam.",
+        "<strong>0–10 min:</strong> Ievads – neviendabīgas klases problēma un kāpēc vairāk tā paša nedarbojas.",
+        "<strong>10–25 min:</strong> Profilu karte – sešu „Farol” kartīšu prezentācija ar reāliem (anonimizētiem) gadījumiem.",
+        "<strong>25–45 min:</strong> Praktiska demonstrācija – trīs rīki, trīs lietojuma gadījumi, trīs atšķirīgi profili.",
+        "<strong>45–75 min:</strong> Darbs pāros – katrs pāris pielāgo esošu materiālu konkrētam profilam.",
+        "<strong>75–85 min:</strong> Ātra dalīšanās – katrs pāris 1 minūtē parāda savu rezultātu.",
+        "<strong>85–90 min:</strong> Apņemšanās – katrs dalībnieks nosaka materiālu, ko izmēģināt, un tiek ieplānota atgriezeniskās saites sesija pēc 30 dienām.",
       ]},
       { items: [
-        "Savienojiet ar skolas psiholoģisko dienestu (PPK vai RPMC) savlaicīgas iejaukšanās nodrošināšanai.",
-        "Iesaistiet multidisciplināro komandu (klašu audzinātājs, atbalsta skolotājs, vecāki).",
-        "Dokumentējiet adaptācijas, rakstiski pieraksti aizsargā gan skolēnu, gan skolotāju.",
+        "Interneta piekļuve un institucionālie konti demonstrētajos rīkos.",
+        "Katra dalībnieka esošie materiāli (darba lapa, tests vai stundas plāns).",
+        "Izdrukātas „Farol” profilu kartītes uzziņai.",
       ]},
       { items: [
-        "Izmantot formatīvo novērtēšanu, bieži, mazie soļi ir labāki par gada eksāmenu.",
-        "Izvairīties no salīdzināšanas ar klasi, novērtēt individuālo progresu.",
-        "Atgriezeniskā saite jābūt specifiskai, savlaicīgai un uz izaugsmi orientētai.",
+        "Katrs dalībnieks sesijas laikā izveido vismaz vienu pielāgotu materiālu.",
+        "Atgriezeniskās saites sesija pēc 30 dienām, kurā vismaz 60 % dalībnieku ziņo par efektīvu ieviešanu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vismaz viens sesijā izveidotais materiāls tiek pieņemts kā kopīgs katedras resurss.",
       ]},
     ]},
     legislacao: { sections: [
@@ -6622,26 +6582,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "See moodul on mõeldud kohandamiseks ja praktiliseks kasutamiseks klassiruumis, mitte passiivseks lugemiseks.",
-        "Iga strateegia põhineb tõenditel ja on kohandatav teie kontekstile.",
+        "Anda kolleegidele oskused tehisintellekti vastutustundlikuks lõimimiseks võõrkeeleõppesse, luues materjale, mida saab kohandada erinevatele õppimisprofiilidele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "See ei ole esitlus – see on ühisloome. Iga osaleja lahkub vähemalt ühe valmis ressursiga, mida proovida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Teksti vorming: fondi suurus vähemalt 12pt; reavahe 1,5; Times New Roman asemel Arial või Calibri.",
-        "Värvikoodid ja visuaalsed rutiinid loovad etteaimatavust ja vähendavad kognitiivset koormust.",
-        "Eksami kohandused: lisaaeg, eraldi ruum, lugeja või kirjutaja.",
-        "Digitaalsed tööriistad: tekst kõneks, kõne tekstiks, digitaalsed sõnaraamatud.",
-        "Differentseerimine: samad õpieesmärgid, kuid erinevad esitusviisid ja soorituse tüübid.",
-        "Universaalne õpimudel (UDL): planeerida kaasavust algusest, mitte kohandada hiljem.",
+        "<strong>0–10 min:</strong> Sissejuhatus – heterogeense klassi probleem ja miks sama asja rohkem ei toimi.",
+        "<strong>10–25 min:</strong> Profiilide kaart – „Faroli” kuue kaardi tutvustus koos reaalsete (anonüümitud) juhtumitega.",
+        "<strong>25–45 min:</strong> Praktiline demonstratsioon – kolm tööriista, kolm kasutusjuhtu, kolm erinevat profiili.",
+        "<strong>45–75 min:</strong> Paaristöö – iga paar kohandab olemasoleva materjali konkreetsele profiilile.",
+        "<strong>75–85 min:</strong> Kiire jagamine – iga paar näitab oma tulemust 1 minutiga.",
+        "<strong>85–90 min:</strong> Kokkulepped – iga osaleja valib materjali, mida proovida, ja planeeritakse tagasisidesessioon 30 päeva pärast.",
       ]},
       { items: [
-        "Ühenduda koolipsühholoogiga (Rajaleidja võrgustik) varajase sekkumise tagamiseks.",
-        "Kaasata multidistsiplinaarne meeskond (klassijuhataja, tugiõpetaja, vanemad).",
-        "Dokumenteerida kohandused, kirjalikud ülestähendused kaitsevad nii õpilast kui ka õpetajat.",
+        "Internetiühendus ja asutuse kontod tutvustatavates tööriistades.",
+        "Iga osaleja olemasolevad materjalid (tööleht, test või tunnikava).",
+        "Väljatrükitud „Faroli” profiilikaardid tutvumiseks.",
       ]},
       { items: [
-        "Kasutada kujundavat hindamist, sagedased, väikesed sammud on paremad kui aastane eksam.",
-        "Vältida klassiga võrdlemist, hinnata individuaalset edenemist.",
-        "Tagasiside peab olema spetsiifiline, õigeaegne ja kasvule suunatud.",
+        "Iga osaleja loob sessiooni jooksul vähemalt ühe kohandatud materjali.",
+        "Tagasisidesessioon 30 päeva pärast, kus vähemalt 60 % osalejatest teatab tõhusast rakendamisest.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vähemalt üks sessioonil loodud materjal võetakse kasutusele osakonna ühise ressursina.",
       ]},
     ]},
     legislacao: { sections: [
@@ -6951,26 +6911,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Ta modul je namenjen prilagajanju in praktični uporabi v razredu, ne pasivnemu branju.",
-        "Vsaka strategija temelji na dokazih in je prilagodljiva vašemu kontekstu.",
+        "Usposobiti kolege za odgovorno vključevanje UI v poučevanje tujega jezika, vključno z izdelavo gradiv, ki jih je mogoče prilagoditi različnim profilom učenja.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "To ni predstavitev — je sodelovalno ustvarjanje. Vsak udeleženec odide z vsaj enim virom, pripravljenim za preizkušanje.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Format besedila: velikost pisave vsaj 12pt; razmak med vrsticami 1,5; Arial ali Calibri namesto Times New Roman.",
-        "Barvne kode in vizualne rutine ustvarjajo predvidljivost in zmanjšujejo kognitivno obremenitev.",
-        "Prilagoditve izpitov: dodatni čas, ločena soba, bralec ali pisec.",
-        "Digitalna orodja: besedilo v govor, govor v besedilo, digitalni slovarji.",
-        "Diferenciacija: isti učni cilji, toda različni načini predstavitve in vrste nastopa.",
-        "Univerzalni dizajn za učenje (UDL): načrtovati inkluzivnost od začetka, ne prilagajati naknadno.",
+        "<strong>0–10 min:</strong> Umestitev — problem heterogenega razreda in zakaj „več istega“ ne deluje.",
+        "<strong>10–25 min:</strong> Zemljevid profilov — predstavitev šestih kartic Farol z resničnimi (anonimiziranimi) primeri.",
+        "<strong>25–45 min:</strong> Praktični prikaz — trije orodja, trije primeri uporabe, trije različni profili.",
+        "<strong>45–75 min:</strong> Delo v parih — vsak par prilagodi obstoječe gradivo določenemu profilu.",
+        "<strong>75–85 min:</strong> Hitra delitev — vsak par predstavi svoj izdelek v 1 minuti.",
+        "<strong>85–90 min:</strong> Zaveze — vsak udeleženec določi gradivo za preizkušanje in dogovori se srečanje s povratnimi informacijami čez 30 dni.",
       ]},
       { items: [
-        "Poveži se s šolsko svetovalno službo (šolski psiholog, socialni pedagog) za zgodnjo intervencijo.",
-        "Vključi multidisciplinarno ekipo (razrednik, učitelj podpore, starši).",
-        "Dokumentiraj prilagoditve, pisni zapisi ščitijo tako učenca kot učitelja.",
+        "Dostop do interneta in do institucionalnih računov v prikazanih orodjih.",
+        "Obstoječa gradiva vsakega udeleženca (učni list, preizkus ali učna priprava).",
+        "Natisnjene kartice profilov Farol za vpogled.",
       ]},
       { items: [
-        "Uporabi formativno ocenjevanje, pogostejši, majhni koraki so boljši od letnega izpita.",
-        "Izogibaj se primerjanju z razredom, ocenjuj individualni napredek.",
-        "Povratne informacije morajo biti specifične, pravočasne in usmerjene v rast.",
+        "Vsak udeleženec med srečanjem izdela vsaj eno prilagojeno gradivo.",
+        "Srečanje s povratnimi informacijami čez 30 dni, na katerem vsaj 60 % udeležencev poroča o dejanski uvedbi v prakso.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vsaj eno gradivo, izdelano na srečanju, je sprejeto kot skupni vir oddelka.",
       ]},
     ]},
     legislacao: { sections: [
@@ -7278,26 +7238,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Tá an modúl seo ceaptha le haghaidh oiriúnaithe agus úsáide praiticiúla sa rang, ní le léamh passively.",
-        "Tá gach straitéis bunaithe ar fhianaise agus oiriúnaithe do do chomhthéacs.",
+        "Comhghleacaithe a chumasú chun IA a chomhtháthú go freagrach i dteagasc teangacha iasachta, le hábhair a tháirgeadh atá inoiriúnaithe do líon próifílí foghlama.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ní cur i láthair é — is comhthógáil é. Fágann gach rannpháirtí le hacmhainn amháin ar a laghad atá réidh le tástáil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Formáid téacs: méid cló ar a laghad 12pt; spásáil línte 1.5; Arial nó Calibri in ionad Times New Roman.",
-        "Cóid dathanna agus gnáthamha amhairc cruthaíonn intuartha agus laghdaíonn ualach cognaíoch.",
-        "Oiriúnuithe scrúdaithe: am breise, seomra ar leith, léitheoir nó scríobhaí.",
-        "Uirlisí digiteacha: téacs go caint, caint go téacs, foclóirí digiteacha.",
-        "Difreálú: na spriocanna foghlama céanna, ach cur i láthair éagsúil agus cineálacha feidhmíochta.",
-        "Dearadh Uilíoch don Fhoghlaim (UDL): pleanáil le haghaidh cuimsithe ón tús, ní oiriúnú ina dhiaidh.",
+        "<strong>0–10 nóim:</strong> Fráma — fadhb an ranga ilchineálaigh agus an fáth nach n-oibríonn níos mó den rud céanna.",
+        "<strong>10–25 nóim:</strong> Léarscáil na bpróifílí — cur i láthair sé chárta Farol, le cásanna fíora (gan ainm).",
+        "<strong>25–45 nóim:</strong> Taispeántas praiticiúil — trí uirlis, trí chás úsáide, trí phróifíl ar leith.",
+        "<strong>45–75 nóim:</strong> Obair i mbeirteanna — oiriúnaíonn gach beirt ábhar atá ann cheana do phróifíl ar leith.",
+        "<strong>75–85 nóim:</strong> Comhroinnt thapa — taispeánann gach beirt a dtáirge i nóiméad amháin.",
+        "<strong>85–90 nóim:</strong> Gealltanais — roghnaíonn gach rannpháirtí ábhar le tástáil agus socraítear seisiún aiseolais i gceann 30 lá.",
       ]},
       { items: [
-        "Ceangail le Seirbhís Náisiúnta Síceolaíochta Oideachais (NEPS) le haghaidh idirghabhála luaithe.",
-        "Áirigh foireann ildisciplíneach (múinteoir ranga, múinteoir acmhainne, tuismitheoirí).",
-        "Doiciméadaigh oiriúnuithe, cosnaíonn taifid scríofa an scoláire agus an múinteoir araon.",
+        "Rochtain ar an idirlíon agus ar chuntais institiúideacha sna huirlisí a léirítear.",
+        "Ábhair atá ag gach rannpháirtí cheana (bileog, scrúdú, nó plean ceachta).",
+        "Cártaí clóite de phróifílí Farol le ceadú.",
       ]},
       { items: [
-        "Úsáid measúnú foirmitheach, céimeanna beaga, minice níos fearr ná scrúdú bliantúil.",
-        "Seachain comparáid leis an rang, measúnaigh dul chun cinn aonair.",
-        "Caithfidh aiseolas a bheith sonrach, tráthúil agus dírithe ar fhás.",
+        "Táirgeann gach rannpháirtí ábhar oiriúnaithe amháin ar a laghad le linn an tseisiúin.",
+        "Seisiún aiseolais i gceann 30 lá ina dtuairiscíonn 60% de na rannpháirtithe ar a laghad cur i bhfeidhm éifeachtach.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Glactar le hábhar amháin ar a laghad a táirgeadh sa seisiún mar acmhainn chomhroinnte na roinne.",
       ]},
     ]},
     legislacao: { sections: [
@@ -7605,26 +7565,26 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     oficina: { sections: [
       { items: [
-        "Dan il-modulu huwa maħsub għall-adattament u l-użu prattiku fil-klassi, mhux għal qari passiv.",
-        "Kull strateġija hija bbażata fuq evidenza u adattabbli għall-kuntest tiegħek.",
+        "Insaħħu lill-kollegi biex jintegraw l-IA b'mod responsabbli fit-tagħlim ta' lingwa barranija, bil-produzzjoni ta' materjali adattabbli għal diversi profili ta' tagħlim.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "M'huwiex preżentazzjoni — huwa ko-kostruzzjoni. Kull parteċipant joħroġ b'tal-inqas riżorsa waħda lesta biex tiġi ttestjata.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Format tat-test: daqs tal-font ta' mill-anqas 12pt; spazjar bejn il-linji 1.5; Arial jew Calibri minflok Times New Roman.",
-        "Kodiċi ta' kuluri u rutini viżwali joħolqu prevedibbiltà u jnaqqsu l-piż konjittiv.",
-        "Adattamenti tal-eżami: żmien żejjed, kamra separata, qarrej jew kittieb.",
-        "Għodod diġitali: test għall-vuċi, vuċi għat-test, dizzjunarji diġitali.",
-        "Differenzjazzjoni: l-istess objettivi ta' tagħlim, iżda rappreżentazzjonijiet differenti u tipi ta' prestazzjoni.",
-        "Disinn Universali għat-Tagħlim (UDL): ppjanar għall-inklużjoni mill-bidu, mhux adattament wara.",
+        "<strong>0–10 min:</strong> Qafas — il-problema tal-klassi eteroġenja u għaliex aktar mill-istess ma jaħdimx.",
+        "<strong>10–25 min:</strong> Mappa tal-profili — preżentazzjoni tas-sitt karti tal-Farol, b'każijiet reali (anonimizzati).",
+        "<strong>25–45 min:</strong> Wirja prattika — tliet għodod, tliet każijiet ta' użu, tliet profili distinti.",
+        "<strong>45–75 min:</strong> Xogħol fil-pari — kull par jadatta materjal eżistenti għal profil speċifiku.",
+        "<strong>75–85 min:</strong> Qsim mgħaġġel — kull par juri l-prodott tiegħu f'minuta waħda.",
+        "<strong>85–90 min:</strong> Impenji — kull parteċipant jiddetermina materjal biex jittestja u tiġi ffissata sessjoni ta' feedback fi żmien 30 jum.",
       ]},
       { items: [
-        "Aqta' l-kuntatt mal-Aġenzija tal-Inklużjoni fl-Edukazzjoni (Inclusion Education Agency) jew mal-LSE tal-iskola.",
-        "Inkludix tim multidisċiplinarji (għalliem tal-klassi, LSE, ġenituri).",
-        "Iddomentika l-adattamenti, ir-rekords bil-miktub jipproteġu lill-istudent u lill-għalliem.",
+        "Aċċess għall-internet u għal kontijiet istituzzjonali fl-għodod murija.",
+        "Materjali eżistenti ta' kull parteċipant (skeda, test, jew pjan ta' lezzjoni).",
+        "Karti stampati tal-profili tal-Farol għal konsultazzjoni.",
       ]},
       { items: [
-        "Uża evalwazzjoni formattiva, passi żgħar, frekwenti aħjar minn eżami annwali.",
-        "Evita l-paragun mal-klassi, evalwa l-progress individwali.",
-        "Il-feedback irid ikun speċifiku, fil-waqt u dwar it-tkabbir.",
+        "Kull parteċipant jipproduċi tal-inqas materjal adattat wieħed matul is-sessjoni.",
+        "Sessjoni ta' feedback fi żmien 30 jum b'tal-inqas 60% tal-parteċipanti jirrapportaw implimentazzjoni effettiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Tal-inqas materjal wieħed prodott fis-sessjoni jiġi adottat bħala riżorsa kondiviża tad-dipartiment.",
       ]},
     ]},
     legislacao: { sections: [
