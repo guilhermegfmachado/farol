@@ -167,33 +167,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Understands far less than they appear to, may nod without having understood.",
-        "Apparently low academic performance, frequently disproportionate to actual ability.",
-        "Silence in class, may be an adaptive strategy, not disengagement.",
-        "May be exhausted by the end of the day from mentally translating in real time.",
-        "Risk of under-diagnosis of genuine educational needs by attributing everything to the language barrier.",
+        "Understands much less than they appear to — conversational language develops long before academic language, so a student can seem fluent without following the content.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Apparently low academic performance, often out of proportion to actual ability.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Silence in class — this may be a normal \"silent period\" in language acquisition, not disinterest.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "May be exhausted by the end of the day from processing the language in real time.",
+        "Risk of underdiagnosing genuine educational needs (dyslexia, ADHD) by attributing everything to the language barrier.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>It is not</strong> a lack of intelligence or ability.",
-        "<strong>It is not</strong> just a matter of time, without explicit support, many EAL learners plateau at a low functional level.",
-        "<strong>It is not</strong> resolved by automatic translation during the lesson, it is a process of years.",
+        "<strong>It is not</strong> a lack of intelligence or ability.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>It is not</strong> merely a matter of time: academic language takes years to develop, and without explicit support many students plateau at a low functional level.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>It is not solved</strong> by automatic translation during the lesson — it is a process of years, and the home language is a resource, not an obstacle.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Provide materials with key vocabulary translated into the home language.",
+        "Provide materials with key vocabulary translated into the home language.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Assess knowledge through visual or practical demonstration wherever possible.",
-        "Pair with a bilingual peer for informal mediation at critical moments.",
-        "Accept early written work with grammatical errors, correct content, not form, in the first phase.",
+        "Pair the student with a bilingual classmate for informal mediation at critical moments.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Accept early work with grammatical errors — correct content, not form, in the first phase.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "The meeting itself is a barrier, parents/guardians may not speak English with sufficient proficiency.",
-        "Do not assume parents/guardians know the school system, explain what the school counsellor does, what a support measure is, what an IEP entails.",
-        "Clearly separate language barrier from academic ability.",
-        "Be sensitive to the migration context: refugee families or those in irregular status may have distrust of institutions.",
+        "The meeting itself is a barrier — the parent/guardian may not speak the language of instruction well enough for a complex conversation. Prepare simple written materials in advance, or arrange translation support.",
+        "Do not assume the parent/guardian knows the local education system — explain what the school guidance service is, what a support measure is, what an assessment involves, taking nothing for granted.",
+        "Clearly separate the language barrier from academic ability: \"your child is capable — they are learning the language at the same time as the content, which is very demanding\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Be sensitive to the migration context: refugee or undocumented families may distrust institutions. Build trust before requesting documentation or referrals.",
       ]},
       { items: [
-        "Signs of social isolation or bullying associated with being a foreign-language learner.",
-        "Stagnation in language acquisition after the first year.",
-        "Signs of trauma associated with migration context (especially refugees).",
+        "Signs of social isolation or bullying linked to being a foreign student.",
+        "Stagnation in language acquisition after the first year.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Signs of trauma linked to the migration context (especially refugees).",
       ]},
     ]},
     etica: { sections: [
@@ -501,33 +501,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Comprende mucho menos de lo que aparenta, puede asentir sin haber entendido.",
-        "Rendimiento académico aparentemente bajo, frecuentemente desproporcionado a su capacidad real.",
-        "Silencio en el aula, puede ser una estrategia adaptativa, no desinterés.",
-        "Puede estar agotado/a al final del día por traducir mentalmente en tiempo real.",
-        "Riesgo de infradiagnóstico de necesidades educativas reales al atribuir todo a la barrera lingüística.",
+        "Comprende mucho menos de lo que aparenta: la lengua de conversación se desarrolla mucho antes que la lengua académica, por lo que puede parecer fluido sin seguir los contenidos.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Rendimiento académico aparentemente bajo, a menudo desproporcionado respecto a su capacidad real.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Silencio en clase: puede tratarse de un «periodo silencioso» normal en la adquisición de una lengua, no de desinterés.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Puede acabar agotado al final del día por procesar la lengua en tiempo real.",
+        "Riesgo de infradiagnóstico de necesidades educativas reales (dislexia, TDAH) al atribuirlo todo a la barrera lingüística.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>No es</strong> falta de inteligencia ni de capacidad.",
-        "<strong>No es</strong> solo cuestión de tiempo, sin apoyo explícito, muchos alumnos ANCE se estabilizan en un nivel funcional bajo.",
-        "<strong>No se resuelve</strong> con traducción automática durante la clase, es un proceso de años.",
+        "<strong>No es</strong> falta de inteligencia ni de capacidad.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>No es</strong> solo una cuestión de tiempo: la lengua académica tarda años en desarrollarse y, sin apoyo explícito, muchos alumnos se estabilizan en un nivel funcional bajo.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>No se resuelve</strong> con traducción automática durante la clase: es un proceso de años, y la lengua materna es un recurso, no un obstáculo.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Proporcionar materiales con vocabulario clave traducido a la lengua materna.",
+        "Proporcionar materiales con el vocabulario clave traducido a la lengua materna.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Evaluar el conocimiento mediante demostración visual o práctica siempre que sea posible.",
-        "Emparejar con un compañero bilingüe para mediación informal en momentos críticos.",
-        "Aceptar producciones iniciales con errores gramaticales, corregir el contenido, no la forma, en la primera fase.",
+        "Emparejar con un compañero bilingüe para una mediación informal en momentos críticos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Aceptar las producciones iniciales con errores gramaticales: corregir el contenido, no la forma, en la primera fase.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "La propia reunión es una barrera, las familias pueden no hablar castellano con suficiente fluidez.",
-        "No asumir que las familias conocen el sistema educativo español, explicar qué es el equipo de orientación, qué es una medida de apoyo lingüístico, qué implica un Plan de Apoyo.",
-        "Separar claramente barrera lingüística de capacidad académica.",
-        "Ser sensible al contexto migratorio: las familias refugiadas o en situación irregular pueden desconfiar de las instituciones.",
+        "La reunión en sí misma es una barrera: el padre/la madre o tutor puede no hablar la lengua de instrucción con la fluidez suficiente para una conversación compleja. Conviene preparar materiales escritos sencillos con antelación, o solicitar apoyo de traducción.",
+        "No dar por hecho que la familia conoce el sistema educativo: explicar qué es el servicio de orientación psicopedagógica, qué es una medida de apoyo y qué implica una evaluación, sin dar nada por sabido.",
+        "Separar claramente la barrera lingüística de la capacidad académica: «su hijo/su hija es capaz; está aprendiendo la lengua al mismo tiempo que aprende los contenidos, lo cual resulta muy exigente».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ser sensible al contexto migratorio: las familias refugiadas o en situación irregular pueden desconfiar de las instituciones. Conviene generar confianza antes de pedir documentación o de hacer derivaciones.",
       ]},
       { items: [
-        "Señales de aislamiento social o acoso vinculado a la condición de alumno extranjero.",
-        "Estancamiento en la adquisición lingüística tras el primer año.",
-        "Señales de trauma asociadas al contexto migratorio (especialmente refugiados).",
+        "Señales de aislamiento social o acoso escolar asociadas a la condición de alumno extranjero.",
+        "Estancamiento en la adquisición lingüística tras el primer año.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Señales de trauma asociadas al contexto migratorio (especialmente en personas refugiadas).",
       ]},
     ]},
     etica: { sections: [
@@ -835,33 +835,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Comprend bien moins qu'il n'y paraît, peut hocher la tête sans avoir compris.",
-        "Performances scolaires apparemment faibles, souvent disproportionnées par rapport à ses capacités réelles.",
-        "Silence en classe, peut être une stratégie adaptative, pas du désintérêt.",
-        "Peut être épuisé en fin de journée à force de traduire mentalement en temps réel.",
-        "Risque de sous-diagnostic de besoins éducatifs réels en attribuant tout à la barrière linguistique.",
+        "Il comprend bien moins qu'il n'y paraît : la langue de communication se développe bien avant la langue scolaire, de sorte qu'il peut sembler fluide sans suivre les contenus.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Des résultats scolaires apparemment faibles, souvent sans rapport avec ses capacités réelles.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Le silence en classe : il peut s'agir d'une « période de silence » normale dans l'acquisition d'une langue, et non d'un désintérêt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Il peut être épuisé en fin de journée à force de traiter la langue en temps réel.",
+        "Risque de sous-diagnostic de besoins éducatifs réels (dyslexie, TDAH) parce que tout est attribué à la barrière de la langue.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ce n'est pas</strong> un manque d'intelligence ou de capacités.",
-        "<strong>Ce n'est pas</strong> seulement une question de temps, sans soutien explicite, de nombreux EANA se stabilisent à un niveau fonctionnel bas.",
-        "<strong>Ce n'est pas</strong> résolu par la traduction automatique pendant la classe, c'est un processus de plusieurs années.",
+        "<strong>Ce n'est pas</strong> un manque d'intelligence ou de capacités.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ce n'est pas</strong> qu'une question de temps : la langue scolaire met des années à se développer et, sans soutien explicite, de nombreux élèves se stabilisent à un niveau fonctionnel faible.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Cela ne se règle pas</strong> par une traduction automatique pendant le cours : c'est un processus de plusieurs années, et la langue maternelle est une ressource, non un obstacle.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Fournir des supports avec le vocabulaire clé traduit dans la langue maternelle.",
-        "Évaluer les connaissances par démonstration visuelle ou pratique autant que possible.",
-        "Jumeler avec un camarade bilingue pour une médiation informelle dans les moments critiques.",
-        "Accepter les premières productions avec des erreurs grammaticales, corriger le contenu, pas la forme, dans un premier temps.",
+        "Fournir des supports avec le vocabulaire clé traduit dans la langue maternelle.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Évaluer les connaissances par une démonstration visuelle ou pratique chaque fois que possible.",
+        "Associer l'élève à un camarade bilingue pour une médiation informelle aux moments critiques.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Accepter les premières productions comportant des erreurs grammaticales : corriger le contenu, et non la forme, dans un premier temps.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "La réunion elle-même est un obstacle, les familles peuvent ne pas maîtriser suffisamment le français.",
-        "Ne pas supposer que les familles connaissent le système éducatif, expliquer ce qu'est le conseiller principal d'éducation (CPE), ce qu'est une mesure de soutien, ce qu'implique un PAP ou un PPS.",
-        "Séparer clairement barrière linguistique et capacité académique.",
-        "Être sensible au contexte migratoire : les familles réfugiées ou en situation irrégulière peuvent se méfier des institutions.",
+        "La réunion elle-même constitue un obstacle : le parent ou le tuteur peut ne pas maîtriser suffisamment la langue d'enseignement pour une conversation complexe. Préparer à l'avance des documents écrits simples, ou demander un soutien en traduction.",
+        "Ne pas présumer que la famille connaît le système éducatif : expliquer ce qu'est le service de psychologie et d'orientation scolaire, ce qu'est une mesure de soutien et ce qu'implique une évaluation, sans rien tenir pour acquis.",
+        "Distinguer clairement la barrière de la langue de la capacité scolaire : « votre fils/votre fille en est capable ; il/elle apprend la langue en même temps que les contenus, ce qui est très exigeant ».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Être sensible au contexte migratoire : les familles réfugiées ou en situation irrégulière peuvent se méfier des institutions. Instaurer la confiance avant de demander des documents ou de proposer des orientations.",
       ]},
       { items: [
-        "Signes d'isolement social ou de harcèlement liés à la condition d'élève allophone.",
-        "Stagnation dans l'acquisition linguistique après la première année.",
-        "Signes de traumatisme liés au contexte migratoire (particulièrement pour les réfugiés).",
+        "Signes d'isolement social ou de harcèlement liés au statut d'élève étranger.",
+        "Stagnation de l'acquisition de la langue après la première année.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Signes de traumatisme liés au contexte migratoire (en particulier chez les réfugiés).",
       ]},
     ]},
     etica: { sections: [
@@ -1169,33 +1169,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Capisce molto meno di quanto sembri, può annuire senza aver capito.",
-        "Rendimento scolastico apparentemente basso, spesso sproporzionato rispetto alle capacità reali.",
-        "Silenzio in classe, può essere una strategia adattiva, non disinteresse.",
-        "Può essere esausto a fine giornata per aver tradotto mentalmente in tempo reale.",
-        "Rischio di sottodiagnosi di bisogni educativi reali attribuendo tutto alla barriera linguistica.",
+        "Comprende molto meno di quanto sembri: la lingua della conversazione si sviluppa molto prima della lingua accademica, perciò può apparire fluente senza seguire i contenuti.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Rendimento scolastico apparentemente basso, spesso sproporzionato rispetto alle reali capacità.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Silenzio in classe: può trattarsi di un «periodo silenzioso» normale nell'acquisizione di una lingua, non di disinteresse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Può essere esausto a fine giornata per aver elaborato la lingua in tempo reale.",
+        "Rischio di sottodiagnosi di bisogni educativi reali (dislessia, ADHD) perché si attribuisce tutto alla barriera linguistica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Non è</strong> mancanza di intelligenza o capacità.",
-        "<strong>Non è</strong> solo una questione di tempo, senza un supporto esplicito, molti studenti con italiano come L2 si stabilizzano a un livello funzionale basso.",
-        "<strong>Non si risolve</strong> con la traduzione automatica durante la lezione, è un processo di anni.",
+        "<strong>Non è</strong> mancanza di intelligenza o di capacità.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Non è</strong> solo una questione di tempo: la lingua accademica richiede anni per svilupparsi e, senza un sostegno esplicito, molti alunni si stabilizzano a un livello funzionale basso.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Non si risolve</strong> con la traduzione automatica durante la lezione: è un processo di anni, e la lingua madre è una risorsa, non un ostacolo.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Fornire materiali con il vocabolario chiave tradotto nella lingua madre.",
-        "Valutare le conoscenze attraverso la dimostrazione visiva o pratica ove possibile.",
-        "Affiancare un compagno bilingue per la mediazione informale nei momenti critici.",
-        "Accettare le prime produzioni con errori grammaticali, correggere il contenuto, non la forma, nella prima fase.",
+        "Fornire materiali con il vocabolario chiave tradotto nella lingua madre.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Valutare le conoscenze tramite dimostrazione visiva o pratica ogni volta che è possibile.",
+        "Abbinare l'alunno a un compagno bilingue per una mediazione informale nei momenti critici.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Accettare le prime produzioni con errori grammaticali: correggere il contenuto, non la forma, nella prima fase.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "La riunione stessa è una barriera, le famiglie possono non padroneggiare sufficientemente l'italiano.",
-        "Non presumere che le famiglie conoscano il sistema scolastico italiano, spiegare cos'è lo sportello di ascolto psicologico, cos'è una misura di supporto, cosa prevede il Protocollo di Accoglienza.",
-        "Separare chiaramente barriera linguistica e capacità accademica.",
-        "Essere sensibili al contesto migratorio: le famiglie rifugiate o in condizione irregolare possono diffidare delle istituzioni.",
+        "L'incontro in sé è un ostacolo: il genitore o tutore può non parlare la lingua d'insegnamento con una padronanza sufficiente per una conversazione complessa. Preparare in anticipo materiali scritti semplici, oppure richiedere un supporto di traduzione.",
+        "Non dare per scontato che la famiglia conosca il sistema scolastico: spiegare che cos'è il servizio di psicologia e orientamento scolastico, che cos'è una misura di sostegno e che cosa comporta una valutazione, senza dare nulla per acquisito.",
+        "Distinguere chiaramente la barriera linguistica dalla capacità scolastica: «suo figlio/sua figlia ne è capace; sta imparando la lingua mentre apprende i contenuti, il che è molto impegnativo».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Essere sensibili al contesto migratorio: le famiglie rifugiate o in situazione irregolare possono diffidare delle istituzioni. Costruire un rapporto di fiducia prima di chiedere documenti o di proporre invii ad altri servizi.",
       ]},
       { items: [
-        "Segnali di isolamento sociale o bullismo legati alla condizione di alunno straniero.",
-        "Stagnazione nell'acquisizione linguistica dopo il primo anno.",
-        "Segnali di trauma associati al contesto migratorio (in particolare per i rifugiati).",
+        "Segnali di isolamento sociale o di bullismo legati alla condizione di alunno straniero.",
+        "Stagnazione nell'acquisizione della lingua dopo il primo anno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Segnali di trauma legati al contesto migratorio (in particolare nei rifugiati).",
       ]},
     ]},
     etica: { sections: [
@@ -1501,49 +1501,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Plötzliches schulisches Underachievement bei einem zuvor als begabt erkannten Kind.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    plnm: {
-      sections: [
-        {
-          items: [
-            "Schüler, die Deutsch als Zweitsprache (DaZ) lernen, können im Unterricht langsamer erscheinen, dies spiegelt eine Sprachbarriere wider, keine kognitive Einschränkung.",
-            "Vorbereitungsklassen (Willkommensklassen) ermöglichen erste Deutschkenntnisse vor der Regelklassenintegration.",
-            "Sprachstandstests helfen, das aktuelle Niveau zu bestimmen und angemessene Fördermaßnahmen einzuleiten.",
-            "Eine Sprachbarriere begründet allein keinen sonderpädagogischen Förderbedarf.",
-            "Die DaZ-Lehrkraft ist die erste Ansprechperson für sprachliche Unterstützung und Differenzierungsstrategien."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nicht</strong> jede Sprachschwierigkeit ist ein Lernproblem, zunächst ist immer der DaZ-Kontext zu berücksichtigen.",
-            "<strong>Nicht</strong> davon ausgehen, dass mangelnde mündliche Beteiligung auf Desinteresse hindeutet.",
-            "<strong>Nicht</strong> Sprachförderung und sonderpädagogische Förderung verwechseln, sie haben unterschiedliche Rechtsgrundlagen."
-          ]
-        },
-        {
-          items: [
-            "Scaffolding-Techniken einsetzen: Wortschatzlisten, Bildunterstützung, vereinfachte Aufgabenstellungen.",
-            "Muttersprache als Ressource anerkennen, nicht als Hindernis betrachten.",
-            "Bei Bedarf den schulpsychologischen Dienst einbeziehen, um Sprachbarriere und Förderbedarf voneinander zu trennen.",
-            "Eltern-Gespräche ggf. mit Dolmetscher oder mehrsprachigen Schulbegleitern führen."
-          ]
-        },
-        {
-          items: [
-            "Den Erziehungsberechtigten erklären, dass Deutsch als Zweitsprache Zeit braucht, akademische Sprachkompetenz (CALP) entwickelt sich über 5–7 Jahre.",
-            "Unterschied zwischen Alltagssprache und Unterrichtssprache verdeutlichen.",
-            "Konkrete Unterstützungsangebote nennen: Willkommensklasse, DaZ-Förderung, Sprachkurs.",
-            "Kulturellen Hintergrund und Schulsystem des Herkunftslandes als Ressource einbeziehen."
-          ]
-        },
-        {
-          items: [
-            "Keine Fortschritte in der deutschen Sprache trotz Sprachfördermaßnahmen über 6–12 Monate.",
-            "Hinweise auf Lernschwierigkeiten, die unabhängig von der Sprachbarriere bestehen.",
-            "Anzeichen von emotionalem Rückzug oder Schulangst, die über Sprachunsicherheit hinausgehen."
-          ]
-        }
-      ]
-    },
+    plnm: { sections: [
+      { items: [
+        "Versteht deutlich weniger, als es den Anschein hat – die Umgangssprache entwickelt sich weit früher als die Bildungssprache, weshalb ein Kind fließend wirken kann, ohne den Unterrichtsinhalten folgen zu können.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Scheinbar schwache schulische Leistungen, die oft in keinem Verhältnis zu den tatsächlichen Fähigkeiten stehen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Schweigen im Unterricht – dies kann eine normale „Schweigephase“ beim Zweitspracherwerb sein und kein Desinteresse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kann am Ende des Tages erschöpft sein, weil die Sprache in Echtzeit verarbeitet werden muss.",
+        "Gefahr einer Unterdiagnostik tatsächlicher Förderbedarfe (Legasthenie, ADHS), weil alles der sprachlichen Barriere zugeschrieben wird.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Es ist kein</strong> Mangel an Intelligenz oder Fähigkeit.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Es ist nicht</strong> nur eine Frage der Zeit: Die Bildungssprache braucht Jahre, um sich zu entwickeln, und ohne gezielte Förderung verharren viele Schülerinnen und Schüler auf einem niedrigen funktionalen Niveau.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Es lässt sich nicht</strong> durch automatische Übersetzung während des Unterrichts lösen – es ist ein jahrelanger Prozess, und die Erstsprache ist eine Ressource, kein Hindernis.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Materialien mit in die Erstsprache übersetztem Schlüsselwortschatz bereitstellen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Das Wissen wann immer möglich durch visuelle oder praktische Demonstration überprüfen.",
+        "Mit einer zweisprachigen Mitschülerin oder einem zweisprachigen Mitschüler zur informellen Vermittlung in kritischen Momenten zusammenbringen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Erste Sprachproduktionen mit grammatikalischen Fehlern akzeptieren – in der ersten Phase den Inhalt korrigieren, nicht die Form.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Das Gespräch selbst ist eine Barriere – die Eltern bzw. Erziehungsberechtigten beherrschen das Deutsche möglicherweise nicht ausreichend für ein komplexes Gespräch. Einfache schriftliche Materialien im Voraus vorbereiten oder Unterstützung bei der Übersetzung anfordern.",
+        "Nicht voraussetzen, dass die Eltern bzw. Erziehungsberechtigten das deutsche Bildungssystem kennen – erklären, was der schulpsychologische Dienst (SPO) ist, was eine Fördermaßnahme bedeutet und was eine Abklärung beinhaltet, ohne etwas als selbstverständlich anzunehmen.",
+        "Sprachliche Barriere und schulische Fähigkeit klar voneinander trennen: „Ihr Kind ist fähig – es lernt die Sprache zur gleichen Zeit wie die Inhalte, was sehr anspruchsvoll ist.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sensibel für den migrationsbedingten Kontext sein: Geflüchtete Familien oder Familien ohne geregelten Aufenthaltsstatus können Institutionen gegenüber misstrauisch sein. Vertrauen aufbauen, bevor Dokumente oder Verweisungen verlangt werden.",
+      ]},
+      { items: [
+        "Anzeichen sozialer Isolation oder von Mobbing, die mit dem Status als ausländisches Kind in Verbindung stehen.",
+        "Stillstand beim Spracherwerb nach dem ersten Jahr.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Anzeichen eines Traumas im Zusammenhang mit dem Migrationskontext (insbesondere bei Geflüchteten).",
+      ]},
+    ]},
     etica: {
       sections: [
         {
@@ -1878,49 +1866,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Plotseling academisch onderpresteren bij een leerling die eerder als begaafd was geïdentificeerd.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    plnm: {
-      sections: [
-        {
-          items: [
-            "Leerlingen die Nederlands als Tweede Taal (NT2) leren, kunnen in de klas langzamer lijken, dit weerspiegelt een taalbarrière, geen cognitieve beperking.",
-            "De Internationale Schakelklas (ISK, voor 12+) en de schakelklas (basisonderwijs) bieden intensieve taalontwikkeling vóór instroom in het reguliere onderwijs.",
-            "Een taaltoets bij aankomst helpt het niveau te bepalen en passende ondersteuning te organiseren.",
-            "NT2-leerlingen worden geregistreerd bij DUO als nieuwkomer; school heeft zorgplicht.",
-            "De NT2-docent is de eerste aanspreekpersoon voor taalondersteuning en differentiatiestrategie."
-          ]
-        },
-        {
-          items: [
-            "<strong>Niet</strong> elke taalmoeilijkheid is een leerprobleem, de NT2-context moet altijd eerst worden meegewogen.",
-            "<strong>Niet</strong> aannemen dat gebrek aan mondelinge deelname wijst op desinteresse.",
-            "<strong>Niet</strong> taalondersteuning en speciale onderwijszorg verwarren, ze hebben verschillende juridische grondslagen."
-          ]
-        },
-        {
-          items: [
-            "Scaffoldingtechnieken inzetten: woordenlijsten, visuele ondersteuning, vereenvoudigde opdrachtformuleringen.",
-            "De moedertaal erkennen als hulpbron, niet als belemmering.",
-            "Bij twijfel de schoolpsycholoog of zorgcoördinator inschakelen om taalbarrière en eventuele ondersteuningsbehoefte van elkaar te onderscheiden.",
-            "Oudergesprekken indien nodig met tolk of meertalige schoolbegeleider voeren."
-          ]
-        },
-        {
-          items: [
-            "Ouders/verzorgers uitleggen dat NT2 tijd kost, academische taalvaardigheid (CALP) ontwikkelt zich over 5–7 jaar.",
-            "Verschil tussen alledaagse taal en schooltaal verduidelijken.",
-            "Concrete ondersteuningsopties benoemen: schakelklas, ISK, NT2-lessen, taalportfolio.",
-            "De culturele achtergrond en het schoolsysteem van het herkomstland als hulpbron meenemen."
-          ]
-        },
-        {
-          items: [
-            "Geen voortgang in het Nederlands ondanks taalondersteuning over 6–12 maanden.",
-            "Aanwijzingen voor leerproblemen die los staan van de taalbarrière.",
-            "Tekenen van emotioneel terugtrekken of schoolangst die verder gaan dan taalunsicherheid."
-          ]
-        }
-      ]
-    },
+    plnm: { sections: [
+      { items: [
+        "Begrijpt veel minder dan het lijkt – de omgangstaal ontwikkelt zich veel eerder dan de schooltaal, waardoor een leerling vloeiend kan lijken zonder de lesinhoud te kunnen volgen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ogenschijnlijk zwakke schoolprestaties, vaak niet in verhouding tot de werkelijke capaciteiten.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Stilte in de klas – dit kan een normale ‘stille periode’ zijn bij het verwerven van een tweede taal, en geen desinteresse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan aan het einde van de dag uitgeput zijn door het in real time verwerken van de taal.",
+        "Risico op onderdiagnose van werkelijke onderwijsbehoeften (dyslexie, ADHD) doordat alles aan de taalbarrière wordt toegeschreven.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Het is geen</strong> gebrek aan intelligentie of vermogen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Het is niet</strong> alleen een kwestie van tijd: de schooltaal heeft jaren nodig om zich te ontwikkelen, en zonder gerichte ondersteuning blijven veel leerlingen op een laag functioneel niveau steken.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Het is niet op te lossen</strong> met automatische vertaling tijdens de les – het is een proces van jaren, en de moedertaal is een hulpbron, geen obstakel.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Materiaal aanbieden met de kernwoordenschat vertaald naar de moedertaal.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "De kennis waar mogelijk toetsen via visuele of praktische demonstratie.",
+        "Koppelen aan een tweetalige medeleerling voor informele bemiddeling op cruciale momenten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Eerste taaluitingen met grammaticale fouten accepteren – in de eerste fase de inhoud corrigeren, niet de vorm.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Het gesprek zelf is een barrière – de ouders of verzorgers beheersen het Nederlands mogelijk onvoldoende voor een complex gesprek. Bereid vooraf eenvoudig schriftelijk materiaal voor, of vraag om vertaalondersteuning.",
+        "Ga er niet van uit dat de ouders of verzorgers het Nederlandse onderwijssysteem kennen – leg uit wat de schoolpsychologische dienst (SPO) is, wat een ondersteuningsmaatregel inhoudt en wat een onderzoek met zich meebrengt, zonder iets als vanzelfsprekend te beschouwen.",
+        "Maak een duidelijk onderscheid tussen taalbarrière en schoolse capaciteit: ‘uw kind is capabel – het leert de taal tegelijk met de inhoud, wat zeer veeleisend is’.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Wees gevoelig voor de migratiecontext: gevluchte gezinnen of gezinnen zonder verblijfsstatus kunnen wantrouwen koesteren tegenover instellingen. Bouw vertrouwen op voordat u documenten of doorverwijzingen vraagt.",
+      ]},
+      { items: [
+        "Tekenen van sociaal isolement of pesten die samenhangen met de status van buitenlandse leerling.",
+        "Stagnatie in de taalverwerving na het eerste jaar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tekenen van trauma die samenhangen met de migratiecontext (in het bijzonder bij vluchtelingen).",
+      ]},
+    ]},
     etica: {
       sections: [
         {
@@ -2255,49 +2231,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nagłe pogorszenie wyników w nauce u ucznia wcześniej zidentyfikowanego jako zdolny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    plnm: {
-      sections: [
-        {
-          items: [
-            "Uczniowie uczący się języka polskiego jako drugiego mogą w klasie wydawać się wolniejsi, odzwierciedla to barierę językową, a nie ograniczenie poznawcze.",
-            "Klasy przygotowawcze umożliwiają opanowanie podstaw języka polskiego przed integracją z klasą regularną.",
-            "Dodatkowe zajęcia z języka polskiego są przewidziane w rozporządzeniu MEN 2017 o kształceniu cudzoziemców.",
-            "Bariera językowa sama w sobie nie uzasadnia orzeczenia o potrzebie kształcenia specjalnego.",
-            "Nauczyciel wspomagający lub asystent kulturowy to pierwsza osoba kontaktowa w zakresie wsparcia językowego."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nie</strong> każda trudność językowa jest problemem edukacyjnym, należy zawsze uwzględniać kontekst nauki polskiego jako drugiego języka.",
-            "<strong>Nie</strong> zakładać, że brak aktywności ustnej wskazuje na brak zainteresowania.",
-            "<strong>Nie</strong> mylić wsparcia językowego z kształceniem specjalnym, mają one inne podstawy prawne."
-          ]
-        },
-        {
-          items: [
-            "Stosować techniki rusztowania: listy słownikowe, wsparcie wizualne, uproszczone polecenia.",
-            "Traktować język ojczysty jako zasób, a nie przeszkodę.",
-            "W razie wątpliwości włączyć pedagoga lub psychologa szkolnego, by odróżnić barierę językową od ewentualnych specjalnych potrzeb edukacyjnych.",
-            "Rozmowy z rodzicami/opiekunami prowadzić w razie potrzeby z tłumaczem lub asystentem kulturowym."
-          ]
-        },
-        {
-          items: [
-            "Wyjaśnić rodzicom/opiekunom, że nauka języka polskiego wymaga czasu, akademicka kompetencja językowa (CALP) rozwija się przez 5–7 lat.",
-            "Wyjaśnić różnicę między językiem codziennym a językiem szkolnym.",
-            "Wskazać konkretne formy wsparcia: klasa przygotowawcza, dodatkowe lekcje polskiego, wsparcie asystenta kulturowego.",
-            "Uwzględnić kontekst kulturowy i system szkolny kraju pochodzenia jako zasób."
-          ]
-        },
-        {
-          items: [
-            "Brak postępów w języku polskim mimo wsparcia językowego przez 6–12 miesięcy.",
-            "Wskazania na trudności edukacyjne niezależne od bariery językowej.",
-            "Oznaki emocjonalnego wycofania lub lęku szkolnego wykraczające poza niepewność językową."
-          ]
-        }
-      ]
-    },
+    plnm: { sections: [
+      { items: [
+        "Rozumie znacznie mniej, niż się wydaje — język konwersacyjny rozwija się znacznie wcześniej niż język akademicki, więc uczeń może sprawiać wrażenie biegłego, mimo że nie nadąża za treściami.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pozornie słabe wyniki w nauce, często nieproporcjonalne do rzeczywistych możliwości.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Milczenie na lekcji — może to być normalny „okres milczenia” w przyswajaniu języka, a nie brak zainteresowania.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Pod koniec dnia może być wyczerpany przetwarzaniem języka w czasie rzeczywistym.",
+        "Ryzyko niedodiagnozowania rzeczywistych specjalnych potrzeb edukacyjnych (dysleksja, ADHD), gdy wszystko przypisuje się barierze językowej.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>To nie jest</strong> brak inteligencji ani zdolności.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>To nie jest</strong> jedynie kwestia czasu: rozwój języka akademickiego trwa latami, a bez wyraźnego wsparcia wielu uczniów zatrzymuje się na niskim poziomie funkcjonalnym.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nie rozwiąże tego</strong> automatyczne tłumaczenie w trakcie lekcji — to proces trwający lata, a język ojczysty jest zasobem, a nie przeszkodą.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Zapewnianie materiałów z kluczowym słownictwem przetłumaczonym na język ojczysty.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sprawdzanie wiedzy poprzez demonstrację wizualną lub praktyczną, gdy tylko jest to możliwe.",
+        "Łączenie w pary z dwujęzycznym kolegą w celu nieformalnej mediacji w kluczowych momentach.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Akceptowanie początkowych wypowiedzi z błędami gramatycznymi — w pierwszej fazie poprawiać treść, a nie formę.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Samo spotkanie stanowi barierę — rodzic lub opiekun może nie znać języka polskiego na poziomie wystarczającym do złożonej rozmowy. Należy wcześniej przygotować proste materiały pisemne lub poprosić o wsparcie tłumaczeniowe.",
+        "Nie zakładaj, że rodzic lub opiekun zna polski system edukacji — wyjaśnij, czym jest poradnia psychologiczno-pedagogiczna (SPO), czym jest środek wsparcia, co oznacza ocena, niczego nie uznając za oczywiste.",
+        "Wyraźnie oddzielaj barierę językową od zdolności akademickich: „Pani/Pana dziecko jest zdolne — uczy się języka jednocześnie z przyswajaniem treści, co jest bardzo wymagające”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bądź wrażliwy na kontekst migracyjny: rodziny uchodźcze lub w sytuacji nieuregulowanej mogą nie ufać instytucjom. Buduj zaufanie, zanim poprosisz o dokumenty lub skierowania.",
+      ]},
+      { items: [
+        "Oznaki izolacji społecznej lub nękania związane z byciem uczniem cudzoziemskim.",
+        "Zastój w przyswajaniu języka po pierwszym roku.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Oznaki traumy związanej z kontekstem migracyjnym (zwłaszcza u uchodźców).",
+      ]},
+    ]},
     etica: {
       sections: [
         {
@@ -2632,49 +2596,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Scădere bruscă a performanței școlare la un elev identificat anterior ca fiind capabil.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
     ]},
-    plnm: {
-      sections: [
-        {
-          items: [
-            "Elevii alofoni (cu altă limbă maternă decât româna) pot părea mai lenți în clasă, aceasta reflectă o barieră lingvistică, nu o limitare cognitivă.",
-            "Clasele de inițiere în limba română oferă suport lingvistic intensiv înainte de integrarea în clasa obișnuită.",
-            "CJRAE (Centrul Județean de Resurse și Asistență Educațională) coordonează protocoalele de primire și sprijinul pentru elevii alofoni.",
-            "Mediatorul școlar poate sprijini comunicarea cu familiile din comunități rome sau imigrante.",
-            "Bariera lingvistică singură nu justifică un certificat de orientare școlară spre învățământ special."
-          ]
-        },
-        {
-          items: [
-            "<strong>Nu</strong> orice dificultate lingvistică este o problemă de învățare, contextul alofoniei trebuie întotdeauna luat în considerare.",
-            "<strong>Nu</strong> presupuneți că lipsa participării orale indică lipsă de interes.",
-            "<strong>Nu</strong> confundați sprijinul lingvistic cu educația specială, au baze juridice diferite."
-          ]
-        },
-        {
-          items: [
-            "Utilizați tehnici de scaffolding: liste de vocabular, suport vizual, formulări simplificate ale sarcinilor.",
-            "Recunoașteți limba maternă ca resursă, nu ca obstacol.",
-            "Implicați consilierul școlar sau CJRAE pentru a distinge bariera lingvistică de eventualele nevoi educaționale speciale.",
-            "Desfășurați discuțiile cu părinții/tutorii cu interpret sau mediator școlar, dacă este necesar."
-          ]
-        },
-        {
-          items: [
-            "Explicați părinților/tutorilor că dobândirea limbii române necesită timp, competența academică lingvistică (CALP) se dezvoltă pe parcursul a 5–7 ani.",
-            "Clarificați diferența dintre limba cotidiană și limba școlară.",
-            "Menționați formele concrete de sprijin: clasă de inițiere, lecții suplimentare de română, mediator școlar.",
-            "Includeți contextul cultural și sistemul școlar din țara de origine ca resursă."
-          ]
-        },
-        {
-          items: [
-            "Niciun progres în limba română în ciuda sprijinului lingvistic timp de 6–12 luni.",
-            "Indicii de dificultăți de învățare independente de bariera lingvistică.",
-            "Semne de retragere emoțională sau anxietate școlară care depășesc nesiguranța lingvistică."
-          ]
-        }
-      ]
-    },
+    plnm: { sections: [
+      { items: [
+        "Înțelege mult mai puțin decât pare: limbajul conversațional se dezvoltă cu mult înaintea celui academic, astfel încât poate părea fluent fără a urmări conținuturile.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Rezultate școlare aparent slabe, adesea disproporționate față de capacitatea reală.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tăcerea în clasă: poate fi o „perioadă de tăcere” normală în achiziția unei limbi, nu lipsă de interes.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Poate fi epuizat la sfârșitul zilei din cauza procesării limbii în timp real.",
+        "Risc de subdiagnosticare a unor nevoi educative reale (dislexie, ADHD), prin atribuirea a tot ce ține de acestea barierei lingvistice.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> o lipsă de inteligență sau de capacitate.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nu este</strong> doar o chestiune de timp: limbajul academic se dezvoltă în ani, iar fără sprijin explicit mulți elevi se stabilizează la un nivel funcțional scăzut.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nu se rezolvă</strong> prin traducere automată în timpul orei: este un proces de ani de zile, iar limba maternă este o resursă, nu un obstacol.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Furnizarea de materiale cu vocabularul-cheie tradus în limba maternă.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Evaluarea cunoștințelor prin demonstrație vizuală sau practică ori de câte ori este posibil.",
+        "Asocierea elevului cu un coleg bilingv pentru o mediere informală în momentele critice.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Acceptarea primelor producții cu greșeli gramaticale: corectarea conținutului, nu a formei, în prima etapă.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Întâlnirea în sine este o barieră: părintele sau tutorele poate să nu vorbească limba de predare suficient de bine pentru o conversație complexă. Pregătiți din timp materiale scrise simple sau solicitați sprijin pentru traducere.",
+        "Nu presupuneți că familia cunoaște sistemul de învățământ: explicați ce este serviciul de psihologie și consiliere școlară, ce este o măsură de sprijin și ce presupune o evaluare, fără a considera nimic ca fiind de la sine înțeles.",
+        "Separați clar bariera lingvistică de capacitatea școlară: „fiul dumneavoastră/fiica dumneavoastră este capabil(ă); învață limba în același timp în care învață conținuturile, ceea ce este foarte solicitant”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Fiți sensibili la contextul migrației: familiile de refugiați sau aflate în situație neregulamentară pot avea neîncredere în instituții. Construiți încrederea înainte de a solicita documente sau de a face trimiteri către alte servicii.",
+      ]},
+      { items: [
+        "Semne de izolare socială sau de hărțuire (bullying) asociate statutului de elev străin.",
+        "Stagnare în achiziția lingvistică după primul an.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Semne de traumă asociate contextului migrației (în special la refugiați).",
+      ]},
+    ]},
     etica: {
       sections: [
         {
@@ -3014,33 +2966,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Razumije puno manje nego što izgleda, može klimati glavom bez da je razumjelo.",
-        "Naizgled nisko akademsko postignuće, često nerazmjerno stvarnoj sposobnosti.",
-        "Šutnja u razredu, može biti adaptacijska strategija, ne nezainteresiranost.",
-        "Do kraja dana može biti iscrpljeno od mentalnog prevođenja u stvarnom vremenu.",
-        "Rizik od nedijagnosticiranja stvarnih obrazovnih potreba pripisivanjem svega jezičnoj barijeri.",
+        "Razumije mnogo manje nego što se čini — konverzacijski se jezik razvija mnogo prije od akademskoga, pa može djelovati tečno, a da pritom ne prati gradivo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Naizgled slab školski uspjeh, često nesrazmjeran stvarnim sposobnostima.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Šutnja u razredu — može biti uobičajeno „razdoblje šutnje“ pri usvajanju jezika, a ne nezainteresiranost.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Na kraju dana može biti iscrpljen od obrade jezika u stvarnom vremenu.",
+        "Rizik od poddijagnosticiranja stvarnih posebnih odgojno-obrazovnih potreba (disleksija, ADHD) jer se sve pripisuje jezičnoj barijeri.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nije</strong> nedostatak inteligencije ili sposobnosti.",
-        "<strong>Nije</strong> samo pitanje vremena, bez eksplicitne podrške mnogi učenici stagniraju na niskoj funkcionalnoj razini.",
-        "<strong>Ne rješava se</strong> automatskim prevođenjem tijekom nastave, to je proces koji traje godinama.",
+        "<strong>Nije riječ o</strong> nedostatku inteligencije ili sposobnosti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nije riječ</strong> samo o pitanju vremena: razvoj akademskoga jezika traje godinama, a bez izričite podrške mnogi se učenici ustale na niskoj funkcionalnoj razini.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ne rješava se</strong> automatskim prijevodom tijekom nastave — to je višegodišnji proces, a materinski je jezik resurs, a ne prepreka.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Osigurati materijale s ključnim rječnikom prevedenim na materinski jezik.",
-        "Procjenjivati znanje vizualnom ili praktičnom demonstracijom gdje god je moguće.",
-        "Spariti s dvojezičnim vršnjakom za neformalnu medijaciju u ključnim trenucima.",
-        "Prihvatiti početne radove s gramatičkim pogreškama, ispravljati sadržaj, ne formu, u prvoj fazi.",
+        "Osigurati materijale s ključnim rječnikom prevedenim na materinski jezik.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Provjeravati znanje vizualnom ili praktičnom demonstracijom kad god je to moguće.",
+        "Upariti s dvojezičnim kolegom radi neformalnoga posredovanja u ključnim trenucima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Prihvaćati prve uratke s gramatičkim pogreškama — u prvoj fazi ispravljati sadržaj, a ne oblik.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Sam sastanak je prepreka, roditelji možda ne govore hrvatski dovoljno dobro.",
-        "Ne pretpostavljati da roditelji poznaju hrvatski obrazovni sustav, objasniti svaki proces od početka.",
-        "Jasno odvojiti jezičnu barijeru od akademske sposobnosti.",
-        "Biti osjetljiv na migracijski kontekst, obitelji izbjeglica mogu imati nepovjerenje prema institucijama.",
+        "Sam sastanak predstavlja barijeru — roditelj ili skrbnik možda ne govori hrvatski dovoljno dobro za složen razgovor. Unaprijed pripremite jednostavne pisane materijale ili zatražite prevoditeljsku podršku.",
+        "Nemojte pretpostaviti da roditelj ili skrbnik poznaje hrvatski obrazovni sustav — objasnite što je stručna služba (SPO), što je mjera podrške i što podrazumijeva procjena, ne uzimajući ništa zdravo za gotovo.",
+        "Jasno razdvojite jezičnu barijeru od školskih sposobnosti: „Vaše je dijete sposobno — uči jezik istodobno dok uči gradivo, što je vrlo zahtjevno.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Budite osjetljivi na migracijski kontekst: izbjegličke obitelji ili obitelji u neuređenom statusu mogu biti nepovjerljive prema institucijama. Izgradite povjerenje prije nego što zatražite dokumentaciju ili upućivanja.",
       ]},
       { items: [
-        "Znakovi socijalne izolacije ili zlostavljanja povezani s tim da je učenik stranac.",
-        "Stagnacija u usvajanju jezika nakon prve godine.",
-        "Znakovi traume povezane s migracijskim kontekstom.",
+        "Znakovi socijalne izolacije ili vršnjačkog nasilja povezani sa statusom učenika stranca.",
+        "Stagnacija u usvajanju jezika nakon prve godine.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Znakovi traume povezane s migracijskim kontekstom (osobito kod izbjeglica).",
       ]},
     ]},
     etica: { sections: [
@@ -3346,33 +3298,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Rozumí mnohem méně, než se zdá, může kývat hlavou, aniž by pochopil/a.",
-        "Zdánlivě nízký akademický výkon, často neúměrný skutečné schopnosti.",
-        "Ticho ve třídě, může být adaptační strategií, ne nezájmem.",
-        "Na konci dne může být vyčerpaný/á z mentálního překladu v reálném čase.",
-        "Riziko poddiagnostikování skutečných vzdělávacích potřeb připisováním všeho jazykové bariéře.",
+        "Rozumí mnohem méně, než se zdá — konverzační jazyk se rozvíjí mnohem dříve než jazyk akademický, takže žák může působit plynule, aniž by stačil sledovat učivo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zdánlivě slabý studijní výkon, často neúměrný skutečným schopnostem.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Mlčení ve třídě — může jít o normální „tiché období“ při osvojování jazyka, nikoli o nezájem.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Na konci dne může být vyčerpaný ze zpracovávání jazyka v reálném čase.",
+        "Riziko poddiagnostikování skutečných speciálních vzdělávacích potřeb (dyslexie, ADHD), když se vše připisuje jazykové bariéře.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Není</strong> to nedostatek inteligence nebo schopností.",
-        "<strong>Není</strong> to jen otázka času, bez explicitní podpory mnoho žáků stagnuje na nízké funkční úrovni.",
-        "<strong>Neřeší se</strong> automatickým překladem v hodině, je to proces na celé roky.",
+        "<strong>Nejde o</strong> nedostatek inteligence ani schopností.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nejde</strong> pouze o otázku času: rozvoj akademického jazyka trvá roky a bez explicitní podpory se mnozí žáci ustálí na nízké funkční úrovni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nevyřeší to</strong> automatický překlad během hodiny — je to proces trvající roky a mateřský jazyk je zdrojem, nikoli překážkou.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Poskytovat materiály s klíčovou slovní zásobou přeloženou do mateřského jazyka.",
-        "Hodnotit znalosti vizuální nebo praktickou demonstrací kdykoli je to možné.",
-        "Spárovat s dvojjazyčným spolužákem pro neformální zprostředkování v klíčových momentech.",
-        "Přijímat počáteční písemné práce s gramatickými chybami, opravovat obsah, ne formu, v první fázi.",
+        "Poskytovat materiály s klíčovou slovní zásobou přeloženou do mateřského jazyka.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Ověřovat znalosti pomocí vizuální nebo praktické ukázky, kdykoli je to možné.",
+        "Spárovat s dvojjazyčným spolužákem pro neformální zprostředkování v klíčových okamžicích.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Přijímat počáteční projevy s gramatickými chybami — v první fázi opravovat obsah, nikoli formu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Samotná schůzka je bariérou, rodiče možná nemluví česky dostatečně dobře.",
-        "Nepředpokládat, že rodiče znají český vzdělávací systém, vysvětlovat každý proces od začátku.",
-        "Jasně oddělit jazykovou bariéru od akademických schopností.",
-        "Být citlivý/á na migrační kontext, rodiny uprchlíků mohou nedůvěřovat institucím.",
+        "Samotná schůzka je bariérou — zákonný zástupce nemusí ovládat češtinu na úrovni dostatečné pro složitý rozhovor. Připravte si předem jednoduché písemné materiály nebo požádejte o tlumočnickou podporu.",
+        "Nepředpokládejte, že zákonný zástupce zná český vzdělávací systém — vysvětlete, co je školní poradenské pracoviště (SPO), co je podpůrné opatření, co obnáší vyšetření, aniž byste cokoli považovali za samozřejmé.",
+        "Jasně oddělujte jazykovou bariéru od studijních schopností: „Vaše dítě je schopné — učí se jazyk zároveň s učivem, což je velmi náročné.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Buďte citliví k migračnímu kontextu: rodiny uprchlíků nebo v neregulérní situaci mohou institucím nedůvěřovat. Budujte důvěru dříve, než budete žádat o dokumenty nebo doporučení.",
       ]},
       { items: [
-        "Příznaky sociální izolace nebo šikany spojené s tím, že je žák cizinec.",
-        "Stagnace v osvojování jazyka po prvním roce.",
-        "Příznaky traumatu spojené s migračním kontextem.",
+        "Známky sociální izolace nebo šikany spojené s postavením zahraničního žáka.",
+        "Stagnace v osvojování jazyka po prvním roce.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Známky traumatu spojeného s migračním kontextem (zejména u uprchlíků).",
       ]},
     ]},
     etica: { sections: [
@@ -3678,33 +3630,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Förstår mycket mindre än det verkar, kan nicka utan att ha förstått.",
-        "Till synes låg akademisk prestation, ofta oproportionerlig till verklig förmåga.",
-        "Tystnad i klassen, kan vara en adaptiv strategi, inte ointresse.",
-        "Kan vara utmattad i slutet av dagen av att mentalt översätta i realtid.",
-        "Risk för underdiagnostisering av verkliga utbildningsbehov genom att tillskriva allt språkbarriären.",
+        "Förstår mycket mindre än det verkar – vardagsspråket utvecklas långt tidigare än skolspråket, vilket gör att en elev kan verka flytande utan att hänga med i undervisningens innehåll.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skenbart svaga skolprestationer, ofta oproportionerliga i förhållande till den verkliga förmågan.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tystnad i klassrummet – det kan vara en normal ”tyst period” vid andraspråksinlärning och inte ointresse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan vara utmattad i slutet av dagen av att bearbeta språket i realtid.",
+        "Risk för underdiagnostik av verkliga stödbehov (dyslexi, ADHD) genom att allt tillskrivs språkbarriären.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det är inte</strong> brist på intelligens eller förmåga.",
-        "<strong>Det är inte</strong> bara en tidsfråga, utan explicit stöd planar många elever ut på en låg funktionell nivå.",
-        "<strong>Det löses inte</strong> med automatisk översättning under lektionen, det är en process på flera år.",
+        "<strong>Det är inte</strong> brist på intelligens eller förmåga.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det är inte</strong> enbart en fråga om tid: skolspråket tar år att utveckla, och utan uttalat stöd stannar många elever på en låg funktionell nivå.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det löses inte</strong> med automatisk översättning under lektionen – det är en process som tar år, och modersmålet är en resurs, inte ett hinder.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tillhandahåll material med nyckelordförråd översatt till modersmålet.",
-        "Bedöm kunskaper genom visuell eller praktisk demonstration när det är möjligt.",
-        "Para ihop med en tvåspråkig klasskamrat för informell medling vid kritiska tillfällen.",
-        "Acceptera inledande arbeten med grammatikfel, rätta innehåll, inte form, i första fasen.",
+        "Tillhandahålla material med centralt ordförråd översatt till modersmålet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Bedöma kunskaperna genom visuell eller praktisk demonstration när det är möjligt.",
+        "Para ihop med en tvåspråkig klasskamrat för informell stöttning i kritiska stunder.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Acceptera tidiga språkproduktioner med grammatiska fel – i det första skedet korrigera innehållet, inte formen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Mötet i sig är ett hinder, vårdnadshavare kanske inte talar svenska tillräckligt väl.",
-        "Antag inte att vårdnadshavare känner till det svenska utbildningssystemet, förklara varje process från grunden.",
-        "Separera tydligt språkbarriär från akademisk förmåga.",
-        "Var känslig för migrationssammanhanget, flyktingfamiljer kan ha misstroende mot myndigheter.",
+        "Själva mötet är en barriär – vårdnadshavaren behärskar kanske inte svenska tillräckligt väl för ett komplext samtal. Förbered enkelt skriftligt material i förväg, eller be om översättningsstöd.",
+        "Förutsätt inte att vårdnadshavaren känner till det svenska utbildningssystemet – förklara vad elevhälsans psykolog- och vägledningstjänst (SPO) är, vad en stödåtgärd innebär och vad en utredning medför, utan att ta något för givet.",
+        "Skilj tydligt på språkbarriär och skolförmåga: ”ditt barn är kapabelt – det lär sig språket samtidigt som det lär sig innehållet, vilket är mycket krävande”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Var lyhörd för migrationskontexten: familjer som är flyktingar eller saknar uppehållstillstånd kan hysa misstro mot institutioner. Bygg förtroende innan du ber om dokumentation eller hänvisningar.",
       ]},
       { items: [
-        "Tecken på social isolering eller mobbning kopplat till att vara nyanlända.",
-        "Stagnation i språkinlärning efter det första året.",
-        "Tecken på trauma kopplat till migrationssammanhanget.",
+        "Tecken på social isolering eller mobbning kopplade till situationen som utländsk elev.",
+        "Stagnation i språkinlärningen efter det första året.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tecken på trauma kopplade till migrationskontexten (särskilt flyktingar).",
       ]},
     ]},
     etica: { sections: [
@@ -4010,33 +3962,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Forstår langt mindre end det ser ud til, kan nikke uden at have forstået.",
-        "Tilsyneladende lav faglig præstation, ofte uforholdsmæssig i forhold til faktisk evne.",
-        "Stilhed i klassen, kan være en adaptiv strategi, ikke uinteresse.",
-        "Kan være udmattet ved dagens slutning af mental oversættelse i realtid.",
-        "Risiko for underdiagnosticering af reelle uddannelsesbehov ved at tilskrive alt sprogbarrieren.",
+        "Forstår langt mindre, end det ser ud til – hverdagssproget udvikles langt tidligere end skolesproget, hvorfor en elev kan virke flydende uden at kunne følge med i undervisningens indhold.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tilsyneladende svage faglige præstationer, ofte uden proportioner med den reelle formåen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tavshed i klassen – det kan være en normal »tavs periode« ved tilegnelsen af et andetsprog og ikke manglende interesse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan være udmattet ved dagens slutning på grund af at skulle bearbejde sproget i realtid.",
+        "Risiko for underdiagnosticering af reelle støttebehov (ordblindhed, ADHD), fordi alt tilskrives sprogbarrieren.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Det er ikke</strong> mangel på intelligens eller evne.",
-        "<strong>Det er ikke</strong> bare et spørgsmål om tid, uden eksplicit støtte når mange elever et plateau på et lavt funktionsniveau.",
-        "<strong>Det løses ikke</strong> med automatisk oversættelse i timen, det er en proces over mange år.",
+        "<strong>Det er ikke</strong> mangel på intelligens eller evner.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det er ikke</strong> blot et spørgsmål om tid: skolesproget tager år at udvikle, og uden eksplicit støtte stabiliserer mange elever sig på et lavt funktionelt niveau.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det løses ikke</strong> med automatisk oversættelse under undervisningen – det er en proces, der tager år, og modersmålet er en ressource, ikke en forhindring.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Giv materialer med nøgleordforråd oversat til modersmålet.",
-        "Vurder viden ved visuel eller praktisk demonstration, hvor det er muligt.",
-        "Par med en tosproglig klassekammerat til uformel mægling i kritiske øjeblikke.",
-        "Accepter indledende arbejder med grammatiske fejl, ret indhold, ikke form, i første fase.",
+        "Stille materialer til rådighed med centralt ordforråd oversat til modersmålet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Vurdere viden gennem visuel eller praktisk demonstration, når det er muligt.",
+        "Sætte sammen med en tosproget klassekammerat til uformel formidling i kritiske situationer.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Acceptere tidlige sprogproduktioner med grammatiske fejl – i den første fase rette indholdet, ikke formen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Selve mødet er en barriere, forældrene taler måske ikke dansk godt nok.",
-        "Antag ikke at forældrene kender det danske uddannelsessystem, forklar hver proces fra grunden.",
-        "Adskil tydeligt sprogbarriere fra faglig evne.",
-        "Vær sensitiv over for migrationskonteksten, flygtningefamilier kan have mistillid til myndigheder.",
+        "Selve mødet er en barriere – forældrene/værgerne behersker måske ikke dansk tilstrækkeligt til en kompleks samtale. Forbered enkelt skriftligt materiale på forhånd, eller bed om oversættelsesstøtte.",
+        "Gå ikke ud fra, at forældrene/værgerne kender det danske uddannelsessystem – forklar, hvad den skolepsykologiske rådgivning (SPO) er, hvad en støtteforanstaltning indebærer, og hvad en udredning medfører, uden at tage noget for givet.",
+        "Skil tydeligt sprogbarriere fra faglig formåen: »dit barn er i stand til det – det lærer sproget samtidig med, at det lærer indholdet, hvilket er meget krævende«.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vær lydhør over for migrationskonteksten: familier, der er flygtninge eller uden lovligt ophold, kan nære mistillid til institutioner. Opbyg tillid, før du beder om dokumentation eller henvisninger.",
       ]},
       { items: [
-        "Tegn på social isolation eller mobning forbundet med at være fremmedsprogselev.",
-        "Stagnation i sproglig tilegnelse efter det første år.",
-        "Tegn på traume forbundet med migrationskontekst.",
+        "Tegn på social isolation eller mobning forbundet med situationen som udenlandsk elev.",
+        "Stagnation i sprogtilegnelsen efter det første år.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tegn på traume forbundet med migrationskonteksten (især flygtninge).",
       ]},
     ]},
     etica: { sections: [
@@ -4342,33 +4294,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Ymmärtää paljon vähemmän kuin näyttää, voi nyökätä ymmärtämättä.",
-        "Näennäisesti heikko akateeminen suoriutuminen, usein suhteettoman alhainen todellisiin kykyihin nähden.",
-        "Hiljaisuus luokassa, voi olla mukautumisstrategia, ei kiinnostumattomuus.",
-        "Voi olla uupunut päivän lopussa reaaliaikaisesta mentaalisesta kääntämisestä.",
-        "Riski todellisten oppimisvaikeuksien alidiagnosoinnista, kun kaikki liitetään kielimuurroon.",
+        "Ymmärtää huomattavasti vähemmän kuin miltä näyttää — arkikieli kehittyy paljon ennen akateemista kieltä, joten oppilas voi vaikuttaa sujuvalta, vaikka ei pysy sisällöissä mukana.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Näennäisesti heikko koulumenestys, joka ei usein vastaa todellisia kykyjä.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Hiljaisuus tunnilla — se voi olla kielenoppimiseen kuuluva tavanomainen ”hiljainen kausi”, ei kiinnostuksen puute.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Oppilas voi olla päivän päätteeksi uupunut, koska hän käsittelee kieltä reaaliajassa.",
+        "Vaarana on, että todelliset oppimisen erityistarpeet (lukihäiriö, ADHD) jäävät tunnistamatta, kun kaikki selitetään kielimuurilla.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ei ole</strong> älykkyyden tai kyvyn puute.",
-        "<strong>Ei ole</strong> pelkästään aikakysymys, ilman eksplisiittistä tukea monet oppilaat tasaantuvat matalalle toimintatasolle.",
-        "<strong>Ei ratkea</strong> automaattisella kääntämisellä tunnin aikana, se on vuosien prosessi.",
+        "<strong>Kyse ei ole</strong> älykkyyden tai kykyjen puutteesta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Kyse ei ole</strong> pelkästään ajasta: akateemisen kielen kehittyminen kestää vuosia, ja ilman tietoista tukea monet oppilaat jäävät matalalle toiminnalliselle tasolle.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tämä ei ratkea</strong> tunnin aikaisella konekäännöksellä — kyse on vuosia kestävästä prosessista, ja äidinkieli on voimavara, ei este.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tarjoa materiaaleja, joissa ydinsanasto on käännetty äidinkielelle.",
-        "Arvioi tietoa visuaalisen tai käytännöllisen demonstraation avulla aina kun mahdollista.",
-        "Parittele kaksikielisen luokkatoverin kanssa epäviralliseen välitykseen kriittisinä hetkinä.",
-        "Hyväksy alkuvaiheessa kielioppivirheellisiä töitä, korjaa sisältö, ei muoto, ensimmäisessä vaiheessa.",
+        "Tarjoa oppimateriaaleja, joiden keskeinen sanasto on käännetty äidinkielelle.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Arvioi osaamista aina kun mahdollista visuaalisen tai käytännön näytön avulla.",
+        "Muodosta pari kaksikielisen luokkatoverin kanssa epäviralliseen tulkkausapuun kriittisillä hetkillä.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Hyväksy ensimmäisessä vaiheessa kieliopillisia virheitä sisältävät ensimmäiset tuotokset — korjaa sisältöä, älä muotoa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Kokous itsessään on este, huoltajat eivät ehkä puhu suomea riittävän hyvin.",
-        "Älä oleta, että huoltajat tuntevat suomalaisen koulutusjärjestelmän, selitä jokainen prosessi alusta.",
-        "Erota selkeästi kielimuuri akateemisesta kyvystä.",
-        "Ole herkkä maahanmuuttokontekstin suhteen, pakolaisperheillä voi olla epäluottamusta viranomaisiin.",
+        "Itse tapaaminen on este — huoltaja ei välttämättä osaa portugalia riittävän hyvin monimutkaista keskustelua varten. Valmistele etukäteen yksinkertaista kirjallista materiaalia tai pyydä käännösapua.",
+        "Älä oleta, että huoltaja tuntee Portugalin koulutusjärjestelmän — selitä, mikä on koulun psykologis-pedagoginen tukipalvelu (SPO), mikä on tukitoimi ja mitä arviointi tarkoittaa, pitämättä mitään itsestäänselvyytenä.",
+        "Erota selvästi kielimuuri ja oppimiskyky toisistaan: ”poikanne / tyttärenne on kyvykäs — hän opettelee kieltä samalla kun opiskelee sisältöjä, mikä on hyvin vaativaa”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ole herkkä muuttoliikkeen kontekstille: pakolaisperheillä tai paperittomassa tilanteessa olevilla perheillä voi olla epäluottamusta viranomaisia kohtaan. Rakenna luottamusta ennen kuin pyydät asiakirjoja tai teet jatko-ohjauksia.",
       ]},
       { items: [
-        "Merkkejä sosiaalisesta eristäytymisestä tai kiusaamisesta, joka liittyy vieraskielisyyteen.",
-        "Kielen omaksumisen pysähtyminen ensimmäisen vuoden jälkeen.",
-        "Merkkejä traumasta, joka liittyy maahanmuuttokontekstiin.",
+        "Ulkomaalaisen oppilaan asemaan liittyvät sosiaalisen eristäytymisen tai kiusaamisen merkit.",
+        "Kielenoppimisen pysähtyminen ensimmäisen vuoden jälkeen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Muuttoliikkeen kontekstiin liittyvät trauman merkit (erityisesti pakolaisilla).",
       ]},
     ]},
     etica: { sections: [
@@ -4675,33 +4627,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Rozumie oveľa menej, ako sa zdá, môže prikývnuť bez toho, aby pochopil.",
-        "Zdanlivo nízky akademický výkon, často neúmerný skutočnej schopnosti.",
-        "Ticho v triede, môže byť adaptívna stratégia, nie nezáujem.",
-        "Môže byť vyčerpaný na konci dňa z duševného prekladu v reálnom čase.",
-        "Riziko poddiagnosovania skutočných vzdelávacích potrieb pripisovaním všetkého jazykovej bariére.",
+        "Rozumie oveľa menej, než sa zdá — konverzačný jazyk sa rozvíja oveľa skôr než akademický jazyk, takže žiak môže pôsobiť plynule, hoci nestíha sledovať učivo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Zdanlivo slabý študijný výkon, často neúmerný skutočným schopnostiam.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Mlčanie v triede — môže ísť o normálne „tiché obdobie“ pri osvojovaní jazyka, nie o nezáujem.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Na konci dňa môže byť vyčerpaný zo spracovávania jazyka v reálnom čase.",
+        "Riziko poddiagnostikovania skutočných špeciálnych výchovno-vzdelávacích potrieb (dyslexia, ADHD), keď sa všetko pripisuje jazykovej bariére.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nie je to</strong> nedostatok inteligencie alebo schopností.",
-        "<strong>Nie je to</strong> len otázka času, bez explicitnej podpory sa mnohí žiaci stabilizujú na nízkej funkčnej úrovni.",
-        "<strong>Nevyrieši sa</strong> automatickým prekladom počas hodiny, je to proces na roky.",
+        "<strong>Nejde o</strong> nedostatok inteligencie ani schopností.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nejde</strong> len o otázku času: rozvoj akademického jazyka trvá roky a bez explicitnej podpory sa mnohí žiaci ustália na nízkej funkčnej úrovni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nevyrieši to</strong> automatický preklad počas hodiny — je to proces trvajúci roky a materinský jazyk je zdrojom, nie prekážkou.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Poskytovať materiály s kľúčovou slovnou zásobou preloženou do materinského jazyka.",
-        "Hodnotiť vedomosti vizuálnou alebo praktickou demonštráciou, kedykoľvek je to možné.",
-        "Sparovať s dvojjazyčným spolužiakom pre neformálnu mediáciu v kľúčových momentoch.",
-        "Prijímať počiatočné výstupy s gramatickými chybami, v prvej fáze opravovať obsah, nie formu.",
+        "Poskytovať materiály s kľúčovou slovnou zásobou preloženou do materinského jazyka.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Overovať vedomosti prostredníctvom vizuálnej alebo praktickej ukážky, kedykoľvek je to možné.",
+        "Spárovať s dvojjazyčným spolužiakom na neformálne sprostredkovanie v kľúčových momentoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Akceptovať počiatočné prejavy s gramatickými chybami — v prvej fáze opravovať obsah, nie formu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Samotné stretnutie je bariéra, rodičia nemusia hovoriť slovenčinu dostatočne plynule; pripraviť písomné materiály vopred alebo zabezpečiť tlmočenie.",
-        "Nepredpokladať, že rodičia poznajú slovenský vzdelávací systém, vysvetliť, čo je CPPPaP, čo je opatrenie podpory, čo obnáša hodnotenie.",
-        "Jasne oddeliť jazykovú bariéru od akademickej schopnosti: \"vaše dieťa je schopné, učí sa jazyk súčasne s obsahom, čo je veľmi náročné\".",
-        "Byť citlivý na migračný kontext, rodiny utečencov alebo v neistej situácii môžu nedôverovať inštitúciám.",
+        "Samotné stretnutie je bariérou — zákonný zástupca nemusí ovládať slovenčinu na úrovni dostatočnej pre zložitý rozhovor. Pripravte si vopred jednoduché písomné materiály alebo požiadajte o tlmočnícku podporu.",
+        "Nepredpokladajte, že zákonný zástupca pozná slovenský vzdelávací systém — vysvetlite, čo je školské poradenské pracovisko (SPO), čo je podporné opatrenie, čo obnáša vyšetrenie, bez toho, aby ste čokoľvek považovali za samozrejmé.",
+        "Jasne oddeľujte jazykovú bariéru od študijných schopností: „Vaše dieťa je schopné — učí sa jazyk zároveň s učivom, čo je veľmi náročné.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Buďte citliví na migračný kontext: utečenecké rodiny alebo rodiny v neregulárnej situácii môžu inštitúciám nedôverovať. Budujte dôveru skôr, než požiadate o dokumenty alebo odporúčania.",
       ]},
       { items: [
-        "Príznaky sociálnej izolácie alebo šikanovania spojené so statusom zahraničného žiaka.",
-        "Stagnácia v jazykovej akvizícii po prvom roku.",
-        "Príznaky traumy spojené s migračným kontextom (najmä utečenci).",
+        "Známky sociálnej izolácie alebo šikany spojené s postavením zahraničného žiaka.",
+        "Stagnácia v osvojovaní jazyka po prvom roku.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Známky traumy spojenej s migračným kontextom (najmä u utečencov).",
       ]},
     ]},
     etica: { sections: [
@@ -5005,33 +4957,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Sokkal kevesebbet ért, mint amennyit mutat, bólinthat anélkül, hogy megértett volna.",
-        "Látszólag alacsony tanulmányi teljesítmény, sokszor aránytalanul alacsony a valódi képességhez képest.",
-        "Csend az osztályban, adaptív stratégia lehet, nem érdektelenség.",
-        "A nap végére kimerülhet a valós idejű mentális fordítástól.",
-        "A valódi tanulási szükségletek (diszlexia, ADHD stb.) aluldiagnosztizálásának kockázata, mert mindent a nyelvi akadálynak tulajdonítanak.",
+        "Sokkal kevesebbet ért, mint amennyit mutat — a társalgási nyelv jóval előbb fejlődik ki, mint a tanulmányi nyelv, ezért tűnhet folyékonyan beszélőnek anélkül, hogy követné a tananyagot.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Látszólag gyenge tanulmányi teljesítmény, amely gyakran aránytalan a valódi képességeihez.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Hallgatás az órán — ez lehet a nyelvelsajátítás során megszokott „néma időszak”, nem pedig érdektelenség.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "A nap végére kimerülhet, mert valós időben dolgozza fel a nyelvet.",
+        "Fennáll a valós oktatási szükségletek (diszlexia, ADHD) aluldiagnosztizálásának kockázata, mert mindent a nyelvi akadálynak tulajdonítanak.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Nem</strong> intelligencia- vagy képességhiány.",
-        "<strong>Nem</strong> csupán idő kérdése, kifejezett támogatás nélkül sok tanuló alacsony funkcionális szinten marad.",
-        "<strong>Nem oldódik meg</strong> automatikus fordítással az óra alatt, ez évekig tartó folyamat.",
+        "<strong>Nem</strong> az intelligencia vagy a képesség hiányáról van szó.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nem</strong> pusztán idő kérdése: a tanulmányi nyelv kialakulása évekig tart, és kifejezett támogatás nélkül sok tanuló alacsony funkcionális szinten stabilizálódik.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nem oldható meg</strong> az óra alatti gépi fordítással — ez évekig tartó folyamat, és az anyanyelv erőforrás, nem akadály.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Anyanyelvére lefordított kulcsszókinccsel ellátott anyagok biztosítása.",
-        "Vizuális vagy gyakorlati demonstrációval való tudásértékelés, ahol lehetséges.",
-        "Kétnyelvű diáktárssal való párosítás informális közvetítéshez a kritikus pillanatokban.",
-        "A grammatikai hibákkal teli kezdeti produktumok elfogadása, az első fázisban a tartalmat javítsa, ne a formát.",
+        "Olyan tananyagok biztosítása, amelyekben a kulcsszókincs anyanyelvre van fordítva.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "A tudás felmérése – amikor csak lehetséges – vizuális vagy gyakorlati bemutatás útján.",
+        "Kétnyelvű osztálytárssal való párba állítás a kritikus pillanatokban történő informális közvetítés érdekében.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "A nyelvtani hibákat tartalmazó kezdeti megnyilatkozások elfogadása — az első szakaszban a tartalmat javítsuk, ne a formát.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Maga a megbeszélés is akadály, a szülők nem feltétlenül beszélnek magyarul elégséges szinten; tolmács vagy írásos anyagok szükségesek.",
-        "Ne tételezze fel, hogy a szülők ismerik a magyar oktatási rendszert, magyarázza el, mi a PSZI, mi egy támogató intézkedés.",
-        "Egyértelműen különítse el a nyelvi akadályt az akadémiai képességtől.",
-        "Legyen érzékeny a migrációs kontextusra, menekült vagy bizonytalan helyzetű családok bizalmatlanok lehetnek az intézményekkel szemben.",
+        "Maga a megbeszélés is akadályt jelent — előfordulhat, hogy a szülő/gondviselő nem beszéli kellő szinten a tanítás nyelvét egy összetett beszélgetéshez. Készítsen elő előre egyszerű írásos anyagokat, vagy kérjen tolmácstámogatást.",
+        "Ne feltételezze, hogy a szülő/gondviselő ismeri az oktatási rendszert — magyarázza el, mi az iskolapszichológiai és tanácsadó szolgálat (SPO), mi az a támogató intézkedés, mivel jár egy felmérés, anélkül hogy bármit is magától értetődőnek venne.",
+        "Egyértelműen válassza el a nyelvi akadályt a tanulmányi képességtől: „a gyermeke képes rá — egyszerre tanulja a nyelvet és a tananyagot, ami rendkívül megterhelő”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Legyen érzékeny a migrációs háttérre: a menekült vagy rendezetlen jogi helyzetben lévő családok bizalmatlanok lehetnek az intézményekkel szemben. Építsen ki bizalmat, mielőtt dokumentumokat vagy beutalókat kérne.",
       ]},
       { items: [
-        "Szociális elszigeteltség vagy zaklatás jelei a külföldi tanuló státuszához kapcsolódva.",
-        "Stagnálás a nyelvi elsajátításban az első év után.",
-        "Traumára utaló jelek a migrációs kontextusban (különösen menekülteknél).",
+        "A külföldi tanulói helyzettel összefüggő társas elszigeteltség vagy zaklatás jelei.",
+        "A nyelvelsajátítás megrekedése az első év után.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "A migrációs háttérrel összefüggő trauma jelei (különösen menekültek esetében).",
       ]},
     ]},
     etica: { sections: [
@@ -5335,33 +5287,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Κατανοεί πολύ λιγότερα από όσα φαίνεται, μπορεί να γνέφει καταφατικά χωρίς να έχει καταλάβει.",
-        "Φαινομενικά χαμηλή ακαδημαϊκή επίδοση, συχνά δυσανάλογη με τις πραγματικές δυνατότητες.",
-        "Σιωπή στην τάξη, μπορεί να είναι προσαρμοστική στρατηγική, όχι αδιαφορία.",
-        "Μπορεί να είναι εξαντλημένος/η στο τέλος της ημέρας από την νοερή μετάφραση σε πραγματικό χρόνο.",
-        "Κίνδυνος υποδιάγνωσης πραγματικών εκπαιδευτικών αναγκών αποδίδοντας τα πάντα στο γλωσσικό εμπόδιο.",
+        "Καταλαβαίνει πολύ λιγότερα από όσα φαίνεται — η γλώσσα της καθημερινής συνομιλίας αναπτύσσεται πολύ νωρίτερα από την ακαδημαϊκή γλώσσα, γι' αυτό μπορεί να φαίνεται ότι μιλά άνετα χωρίς να παρακολουθεί το περιεχόμενο του μαθήματος.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Φαινομενικά χαμηλή σχολική επίδοση, συχνά δυσανάλογη προς τις πραγματικές του ικανότητες.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Σιωπή μέσα στην τάξη — μπορεί να πρόκειται για μια φυσιολογική «σιωπηλή περίοδο» κατά την κατάκτηση της γλώσσας, όχι για αδιαφορία.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Στο τέλος της ημέρας μπορεί να είναι εξαντλημένος, επειδή επεξεργάζεται τη γλώσσα σε πραγματικό χρόνο.",
+        "Κίνδυνος υποδιάγνωσης πραγματικών εκπαιδευτικών αναγκών (δυσλεξία, ΔΕΠΥ), επειδή τα πάντα αποδίδονται στο γλωσσικό εμπόδιο.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Δεν είναι</strong> έλλειψη νοημοσύνης ή ικανότητας.",
-        "<strong>Δεν είναι</strong> απλώς θέμα χρόνου, χωρίς ρητή υποστήριξη, πολλοί μαθητές σταθεροποιούνται σε χαμηλό λειτουργικό επίπεδο.",
-        "<strong>Δεν λύνεται</strong> με αυτόματη μετάφραση κατά τη διάρκεια της τάξης, είναι διαδικασία ετών.",
+        "<strong>Δεν είναι</strong> έλλειψη ευφυΐας ή ικανότητας.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Δεν είναι</strong> απλώς ζήτημα χρόνου: η ακαδημαϊκή γλώσσα χρειάζεται χρόνια για να αναπτυχθεί και, χωρίς ρητή υποστήριξη, πολλοί μαθητές σταθεροποιούνται σε ένα χαμηλό λειτουργικό επίπεδο.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Δεν λύνεται</strong> με αυτόματη μετάφραση κατά τη διάρκεια του μαθήματος — είναι μια διαδικασία ετών, και η μητρική γλώσσα αποτελεί πόρο, όχι εμπόδιο.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Να παρέχετε υλικά με βασικό λεξιλόγιο μεταφρασμένο στη μητρική γλώσσα.",
-        "Να αξιολογείτε τις γνώσεις μέσω οπτικής ή πρακτικής επίδειξης όπου είναι δυνατόν.",
-        "Να συνδυάζετε με δίγλωσσο συμμαθητή για ανεπίσημη διαμεσολάβηση σε κρίσιμες στιγμές.",
-        "Να αποδέχεστε αρχικές παραγωγές με γραμματικά λάθη, στην πρώτη φάση να διορθώνετε περιεχόμενο, όχι μορφή.",
+        "Παροχή υλικού με το βασικό λεξιλόγιο μεταφρασμένο στη μητρική γλώσσα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Αξιολόγηση των γνώσεων μέσω οπτικής ή πρακτικής επίδειξης όποτε είναι δυνατόν.",
+        "Συνεργασία με έναν δίγλωσσο συμμαθητή για άτυπη διαμεσολάβηση σε κρίσιμες στιγμές.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Αποδοχή των πρώτων παραγωγών λόγου με γραμματικά λάθη — διόρθωση του περιεχομένου, όχι της μορφής, στην πρώτη φάση.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Η ίδια η συνάντηση αποτελεί εμπόδιο, οι γονείς μπορεί να μην μιλούν ελληνικά με επαρκή επάρκεια· να προετοιμάζετε γραπτά υλικά ή να ζητάτε διερμηνεία.",
-        "Μην υποθέτετε ότι οι γονείς γνωρίζουν το ελληνικό εκπαιδευτικό σύστημα, να εξηγείτε τι είναι ΚΕΣΥ, τι μέτρο υποστήριξης.",
-        "Να διαχωρίζετε σαφώς γλωσσικό εμπόδιο από ακαδημαϊκή ικανότητα.",
-        "Να είστε ευαίσθητοι στο μεταναστευτικό πλαίσιο, οικογένειες προσφύγων ή σε αβέβαιη κατάσταση μπορεί να δυσπιστούν στα θεσμικά όργανα.",
+        "Η ίδια η συνάντηση αποτελεί εμπόδιο — ο γονέας/κηδεμόνας ίσως δεν μιλά ελληνικά με επαρκή επάρκεια για μια σύνθετη συζήτηση. Προετοιμάστε εκ των προτέρων απλό γραπτό υλικό ή ζητήστε υποστήριξη διερμηνείας.",
+        "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι η υπηρεσία σχολικής ψυχολογίας και προσανατολισμού (SPO), τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
+        "Διαχωρίστε με σαφήνεια το γλωσσικό εμπόδιο από τη σχολική ικανότητα: «το παιδί σας είναι ικανό — μαθαίνει τη γλώσσα ταυτόχρονα με το περιεχόμενο, κάτι που είναι ιδιαίτερα απαιτητικό».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Δείξτε ευαισθησία απέναντι στο μεταναστευτικό πλαίσιο: οικογένειες προσφύγων ή σε καθεστώς χωρίς νομιμοποιητικά έγγραφα ενδέχεται να δυσπιστούν προς τους θεσμούς. Χτίστε εμπιστοσύνη προτού ζητήσετε έγγραφα ή παραπομπές.",
       ]},
       { items: [
         "Ενδείξεις κοινωνικής απομόνωσης ή εκφοβισμού που συνδέονται με την ιδιότητα του αλλοδαπού μαθητή.",
-        "Στασιμότητα στην απόκτηση γλώσσας μετά τον πρώτο χρόνο.",
-        "Ενδείξεις τραύματος που συνδέονται με μεταναστευτικό πλαίσιο (ειδικά πρόσφυγες).",
+        "Στασιμότητα στην κατάκτηση της γλώσσας μετά τον πρώτο χρόνο.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ενδείξεις τραύματος που συνδέονται με το μεταναστευτικό πλαίσιο (ιδίως σε πρόσφυγες).",
       ]},
     ]},
     etica: { sections: [
@@ -5666,33 +5618,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Разбира много по-малко, отколкото изглежда, може да кима утвърдително без да е разбрал/а.",
-        "Привидно ниско академично представяне, често несъразмерно с реалните способности.",
-        "Мълчание в класа, може да е адаптивна стратегия, не незаинтересованост.",
-        "Може да е изтощен/а в края на деня от мисленото превеждане в реално време.",
-        "Риск от недостатъчна диагностика на реални образователни потребности, приписвайки всичко на езиковата бариера.",
+        "Разбира много по-малко, отколкото изглежда — разговорният език се развива много преди академичния, затова ученикът може да изглежда владеещ езика, без да следва учебното съдържание.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Привидно слаби академични резултати, често несъразмерни с реалните способности.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Мълчание в клас — може да е нормален „мълчалив период“ при усвояването на езика, а не липса на интерес.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "В края на деня може да е изтощен от обработването на езика в реално време.",
+        "Риск от недодиагностициране на реални специални образователни потребности (дислексия, ADHD), когато всичко се отдава на езиковата бариера.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Не е</strong> липса на интелигентност или способности.",
-        "<strong>Не е</strong> само въпрос на време, без явна подкрепа много ученици се стабилизират на ниско функционално ниво.",
-        "<strong>Не се решава</strong> с автоматичен превод по време на час, това е процес от години.",
+        "<strong>Не е</strong> липса на интелигентност или способности.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Не е</strong> просто въпрос на време: развитието на академичния език отнема години и без изрична подкрепа много ученици се установяват на ниско функционално ниво.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Не се решава</strong> с автоматичен превод по време на часа — това е процес, който отнема години, а майчиният език е ресурс, а не пречка.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Предоставяйте материали с ключов речник, преведен на майчиния език.",
-        "Оценявайте знанията чрез визуална или практическа демонстрация, когато е възможно.",
-        "Сдвоявайте с двуезичен съученик за неформална медиация в критични моменти.",
-        "Приемайте начални резултати с граматически грешки, в първата фаза коригирайте съдържанието, не формата.",
+        "Осигуряване на материали с ключова лексика, преведена на майчиния език.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Проверка на знанията чрез визуална или практическа демонстрация, когато това е възможно.",
+        "Сдвояване с двуезичен съученик за неформално посредничество в ключови моменти.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Приемане на първоначалните изказвания с граматически грешки — в първата фаза да се коригира съдържанието, а не формата.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Самата среща е бариера, родителите може да не говорят достатъчно добре български; подгответе писмени материали или осигурете превод.",
-        "Не приемайте, че родителите познават българската образователна система, обяснете какво е РЦППО, какво е мярка за подкрепа.",
-        "Ясно разделяйте езиковата бариера от академичните способности.",
-        "Бъдете чувствителни към миграционния контекст, бежански семейства или такива в несигурно положение може да не се доверяват на институциите.",
+        "Самата среща е бариера — родителят или настойникът може да не владее български достатъчно добре за сложен разговор. Подгответе предварително прости писмени материали или поискайте преводаческа подкрепа.",
+        "Не приемайте за даденост, че родителят или настойникът познава българската образователна система — обяснете какво е училищната психологическа и консултативна служба (SPO), какво е мярка за подкрепа и какво включва оценяването, без да считате нищо за подразбиращо се.",
+        "Ясно разграничавайте езиковата бариера от учебните способности: „Вашето дете е способно — то учи езика едновременно с учебното съдържание, което е много взискателно.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Бъдете чувствителни към миграционния контекст: бежанските семейства или тези в нередовно положение може да изпитват недоверие към институциите. Изградете доверие, преди да поискате документи или насочвания.",
       ]},
       { items: [
-        "Признаци на социална изолация или тормоз, свързани с положението на чуждестранен ученик.",
-        "Застой в езиковото усвояване след първата година.",
-        "Признаци на травма, свързани с миграционния контекст (особено бежанци).",
+        "Признаци на социална изолация или тормоз, свързани със статута на ученик чужденец.",
+        "Застой в усвояването на езика след първата година.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Признаци на травма, свързана с миграционния контекст (особено при бежанци).",
       ]},
     ]},
     etica: { sections: [
@@ -5996,33 +5948,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Supranta daug mažiau, nei atrodo, gali linkčioti pritardamas, nesupratęs.",
-        "Iš pažiūros žemi akademiniai pasiekimai, dažnai neproporcingi tikroms galimybėms.",
-        "Tyla klasėje, gali būti prisitaikymo strategija, o ne nesusidomėjimas.",
-        "Dienos pabaigoje gali būti išsekęs dėl realaus laiko mentalinio vertimo.",
-        "Tikrų ugdymosi poreikių (disleksija, ADHD ir kt.) nepakankamos diagnozės rizika, priskiriant viską kalbos barjerui.",
+        "Supranta gerokai mažiau, nei atrodo — pokalbio kalba išsivysto daug anksčiau nei akademinė kalba, todėl mokinys gali atrodyti laisvai kalbantis, nors nespėja įsisavinti turinio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iš pažiūros žemi akademiniai pasiekimai, dažnai neproporcingi tikriesiems gebėjimams.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tyla pamokoje — tai gali būti įprastas „tylos laikotarpis“ kalbos įsisavinimo metu, o ne nesidomėjimas.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Dienos pabaigoje mokinys gali būti išsekęs, nes kalbą apdoroja realiuoju laiku.",
+        "Kyla rizika nepastebėti realių specialiųjų ugdymosi poreikių (disleksijos, ADHD), nes viskas priskiriama kalbos barjerui.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tai nėra</strong> intelekto ar gebėjimų trūkumas.",
-        "<strong>Tai nėra</strong> tik laiko klausimas, be aiškios paramos daugelis mokinių stabilizuojasi žemame funkciniame lygyje.",
-        "<strong>To neišsprendžia</strong> automatinis vertimas pamokos metu, tai metų procesas.",
+        "<strong>Tai nėra</strong> intelekto ar gebėjimų stoka.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tai nėra</strong> vien laiko klausimas: akademinė kalba vystosi metų metus, o be aiškios pagalbos daugelis mokinių sustoja žemame funkciniame lygyje.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>To neišspręs</strong> automatinis vertimas pamokos metu — tai metus trunkantis procesas, o gimtoji kalba yra išteklius, o ne kliūtis.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Pateikite medžiagą su pagrindiniu žodynu, išverstu į gimtąją kalbą.",
-        "Vertinkite žinias per vizualinę ar praktinę demonstraciją, kai įmanoma.",
-        "Supažindinkite su dvikalbe bendraamže neformaliems tarpininkavimui kritiniais momentais.",
-        "Priimkite pradines produkcijas su gramatinėmis klaidomis, pirmajame etape taisykite turinį, ne formą.",
+        "Pateikti mokomąją medžiagą su pagrindiniu žodynu, išverstu į gimtąją kalbą.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Kai tik įmanoma, vertinti žinias vaizdiniu arba praktiniu pademonstravimu.",
+        "Suporuoti su dvikalbiu klasės draugu neformaliam tarpininkavimui svarbiausiais momentais.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Pirmuoju etapu priimti pirmuosius darbus su gramatinėmis klaidomis — taisyti turinį, o ne formą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pats susitikimas yra kliūtis, tėvai gali kalbėti lietuviškai nepakankamai gerai; iš anksto parenkite rašytinius materiaus ar užtikrinkite vertimą.",
-        "Nedarykite prielaidos, kad tėvai pažįsta Lietuvos švietimo sistemą, paaiškinkite, kas yra PPT, kas yra paramos priemonė.",
-        "Aiškiai atskirkite kalbos barjerą nuo akademinių gebėjimų.",
-        "Jautriai elgkitės su migracijos kontekstu, pabėgėlių šeimos gali nepasitikėti institucijomis.",
+        "Pats susitikimas yra barjeras — tėvai ar globėjai gali nemokėti portugalų kalbos pakankamai gerai sudėtingam pokalbiui. Iš anksto parengti paprastą rašytinę medžiagą arba pasirūpinti vertimo pagalba.",
+        "Nereikėtų manyti, kad tėvai ar globėjai pažįsta Portugalijos švietimo sistemą — paaiškinti, kas yra mokyklos psichologinė ir pedagoginė tarnyba (SPO), kas yra pagalbos priemonė, ką reiškia vertinimas, nieko nelaikant savaime suprantamu.",
+        "Aiškiai atskirti kalbos barjerą nuo akademinių gebėjimų: „jūsų sūnus / jūsų dukra yra gabus(-i) — jis (ji) mokosi kalbos tuo pat metu, kai mokosi turinio, o tai labai reiklu“.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Būti jautriam migracijos kontekstui: pabėgėlių arba neteisėtoje padėtyje esančios šeimos gali nepasitikėti institucijomis. Sukurti pasitikėjimą prieš prašant dokumentų ar nukreipiant į kitas tarnybas.",
       ]},
       { items: [
-        "Socialinės izoliacijos ar patyčių požymiai, susiję su užsienio mokinio statusu.",
-        "Kalbos įsisavinimo stagnacija po pirmų metų.",
-        "Traumos požymiai, susiję su migracijos kontekstu (ypač pabėgėliai).",
+        "Socialinės izoliacijos ar patyčių požymiai, susiję su užsieniečio mokinio padėtimi.",
+        "Kalbos įsisavinimo sąstingis po pirmųjų metų.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Traumos požymiai, susiję su migracijos kontekstu (ypač pabėgėlių atveju).",
       ]},
     ]},
     etica: { sections: [
@@ -6327,33 +6279,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Var runāt tekoši, bet cīnās ar akadēmisko valodas lietojumu priekšmetu stundās.",
-        "Klusā perioda uzvedība, nerunā, bet uztver un saprot.",
-        "Kļūdas, kas atspoguļo dzimtās valodas ietekmi (transferi), nevis izpratnes trūkumu.",
-        "Var izskatīties noguris vai novērsts, kognitīvā slodze mācīties otrajā valodā ir liela.",
-        "Snieguma neatbilstība starp mutvārdu un rakstveidā vai starp priekšmetiem.",
+        "Saprot ievērojami mazāk, nekā šķiet — sarunvaloda attīstās daudz agrāk nekā akadēmiskā valoda, tāpēc skolēns var izklausīties brīvi runājošs, lai gan nespēj sekot līdzi mācību saturam.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Šķietami zemi mācību sasniegumi, kas bieži nav samērojami ar patiesajām spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Klusums stundā — tas var būt normāls „klusuma periods” valodas apguvē, nevis neieinteresētība.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Dienas beigās skolēns var būt izsmelts, jo valodu apstrādā reāllaikā.",
+        "Pastāv risks nepamanīt patiesās izglītības vajadzības (disleksiju, UDHS), jo viss tiek attiecināts uz valodas barjeru.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Tā nav</strong> mācīšanās grūtība, valodas apguves process ir normāls.",
-        "<strong>Nav</strong> piemēroti novērtēt PLNM skolēnu tāpat kā dzimtās valodas runātāju.",
-        "<strong>Dzimtā valoda nav šķērslis</strong>, divvalodīgums ir kognitīvs ieguvums.",
+        "<strong>Tas nav</strong> inteliģences vai spēju trūkums.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tas nav</strong> tikai laika jautājums: akadēmiskā valoda attīstās gadiem ilgi, un bez mērķtiecīga atbalsta daudzi skolēni apstājas zemā funkcionālā līmenī.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>To neatrisina</strong> automātiska tulkošana stundas laikā — tas ir gadiem ilgs process, un dzimtā valoda ir resurss, nevis šķērslis.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Izmantot vizuālos atbalstus, diagrammas, divvalodīgas vārdnīcas stundu laikā.",
-        "Atļaut vairāk laiku uzdevumiem un eksāmenos.",
-        "Novērtēt saturu atsevišķi no valodas formas, ja mērķis ir zināšanas.",
-        "Sadarboties ar latviešu valodas kā otrās valodas (LV2) speciālistu vai atbalsta skolotāju.",
+        "Nodrošināt mācību materiālus ar dzimtajā valodā iztulkotu pamatvārdu krājumu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Kad vien iespējams, novērtēt zināšanas ar vizuālu vai praktisku demonstrējumu.",
+        "Savienot pārī ar divvalodīgu klasesbiedru neformālai starpniecībai kritiskos brīžos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Pirmajā posmā pieņemt sākotnējos darbus ar gramatiskām kļūdām — labot saturu, nevis formu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Iesaistīt tulkotāju vai starpnieku sapulcēm, ja nepieciešams.",
-        "Izvairīties no pieņēmumiem par ģimenes izglītību vai valodas kompetencēm.",
-        "Skaidrot valodas apguves posmus, klusā perioda parādība, akadēmiskā valoda prasa ilgāku laiku.",
-        "Uzsvērt, ka divvalodīgums ir ieguvums, nevis problēma.",
+        "Pati tikšanās ir barjera — vecāki vai aizbildņi var nerunāt portugāļu valodā pietiekami labi sarežģītai sarunai. Iepriekš sagatavot vienkāršus rakstiskus materiālus vai lūgt tulkošanas atbalstu.",
+        "Nepieņemt, ka vecāki vai aizbildņi pārzina Portugāles izglītības sistēmu — izskaidrot, kas ir skolas psiholoģiskā un pedagoģiskā dienesta (SPO) funkcija, kas ir atbalsta pasākums, ko nozīmē izvērtējums, neuzskatot neko par pašsaprotamu.",
+        "Skaidri nošķirt valodas barjeru no mācīšanās spējām: „jūsu dēls / jūsu meita ir spējīgs(-a) — viņš (viņa) apgūst valodu vienlaikus ar mācību saturu, kas ir ļoti prasīgi”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Būt iejūtīgam pret migrācijas kontekstu: bēgļu vai nelegālā situācijā esošas ģimenes var neuzticēties iestādēm. Veidot uzticēšanos, pirms lūgt dokumentus vai novirzīt pie citiem speciālistiem.",
       ]},
       { items: [
-        "Pastāvīgas grūtības pēc 2 gadu atbalsta bez progresa.",
-        "Aizdomas par latentām mācīšanās grūtībām blakus valodas barjerai.",
-        "Izolācija vai atstumšana no vienaudžiem valodas dēļ.",
+        "Sociālas izolācijas vai vardarbības (mobinga) pazīmes, kas saistītas ar ārvalstu skolēna statusu.",
+        "Valodas apguves stagnācija pēc pirmā gada.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Traumas pazīmes, kas saistītas ar migrācijas kontekstu (īpaši bēgļiem).",
       ]},
     ]},
     etica: { sections: [
@@ -6654,33 +6606,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Võib ladusalt rääkida, kuid võitleb akadeemilise keelekasutusega ainete tundides.",
-        "Vaikse perioodi käitumine, ei räägi, kuid tajub ja mõistab.",
-        "Vead, mis peegeldavad emakeele mõju (ülekanne), mitte arusaamatust.",
-        "Võib tunduda väsinud või hajameelne, kognitiivne koormus teises keeles õppimisel on suur.",
-        "Soorituse erinevus suulise ja kirjaliku vahel või ainete vahel.",
+        "Mõistab tunduvalt vähem, kui paistab — kõnekeel areneb ammu enne akadeemilist keelt, mistõttu õpilane võib tunduda soravalt rääkivat, kuigi ei suuda õppesisul järge pidada.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Näiliselt madalad õpitulemused, mis sageli ei vasta tegelikele võimetele.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Vaikimine tunnis — see võib olla tavapärane keeleomandamise „vaikiv periood”, mitte huvipuudus.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Päeva lõpuks võib õpilane olla kurnatud, sest töötleb keelt reaalajas.",
+        "Oht jätta tegelikud hariduslikud erivajadused (düsleksia, ATH) märkamata, kuna kõik omistatakse keelebarjäärile.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> õpiraskus, keeleomandamise protsess on normaalne.",
-        "<strong>Ei ole</strong> asjakohane hinnata emakeelena mitte-eesti õpilast samamoodi kui eesti emakeelega õpilast.",
-        "<strong>Emakeel ei ole takistus</strong>, kakskeelsus on kognitiivne eelis.",
+        "<strong>See ei ole</strong> intelligentsuse ega võimete puudumine.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>See ei ole</strong> üksnes aja küsimus: akadeemiline keel areneb aastaid ning ilma sihipärase toeta jäävad paljud õpilased pidama madalale funktsionaalsele tasemele.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Seda ei lahenda</strong> automaattõlge tunni ajal — see on aastatepikkune protsess ning emakeel on ressurss, mitte takistus.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Kasutada visuaalseid toetusi, diagramme, kakskeelseid sõnastikke tundides.",
-        "Lubada rohkem aega ülesannetele ja eksamitel.",
-        "Hinnata sisu eraldi keele vormist, kui eesmärk on teadmised.",
-        "Teha koostööd eesti keele teise keelena (E2) spetsialisti või tugiõpetajaga.",
+        "Pakkuda õppematerjale, mille võtmesõnavara on emakeelde tõlgitud.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Hinnata teadmisi võimaluse korral visuaalse või praktilise esitluse kaudu.",
+        "Siduda õpilane kakskeelse klassikaaslasega, et kriitilistel hetkedel toimuks mitteametlik vahendamine.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Võtta esimeses etapis vastu grammatiliste vigadega esmased tööd — parandada sisu, mitte vormi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Kaasata tõlk või vahendaja kohtumistele vajadusel.",
-        "Vältida eeldusi perekonna hariduse või keelekompetentsi kohta.",
-        "Selgitada keeleomandamise etappe, vaikne periood, akadeemiline keel võtab rohkem aega.",
-        "Rõhutada, et kakskeelsus on eelis, mitte probleem.",
+        "Kohtumine ise on barjäär — vanem või hooldaja ei pruugi osata portugali keelt piisavalt hästi keeruka vestluse jaoks. Valmistada eelnevalt ette lihtsad kirjalikud materjalid või paluda tõlkeabi.",
+        "Mitte eeldada, et vanem või hooldaja tunneb Portugali haridussüsteemi — selgitada, mis on kooli psühholoogilis-pedagoogiline tugiteenistus (SPO), mis on tugimeede ja mida tähendab hindamine, pidamata midagi iseenesestmõistetavaks.",
+        "Eristada selgelt keelebarjääri ja õppimisvõimet: „teie poeg / teie tütar on võimekas — ta õpib keelt samal ajal kui õppesisu, mis on väga nõudlik”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Olla tundlik rändekonteksti suhtes: pagulasperedel või ebaseaduslikus olukorras peredel võib olla usaldamatus asutuste vastu. Luua usaldus enne dokumentide küsimist või edasisuunamist.",
       ]},
       { items: [
-        "Püsivad raskused pärast 2-aastast tuge ilma edusammudeta.",
-        "Kahtlus varjatud õpiraskuste kohta keelebarjääri kõrval.",
-        "Isolatsioon või tõrjumine eakaaslaste poolt keele tõttu.",
+        "Sotsiaalse isolatsiooni või kiusamise märgid, mis on seotud välismaalasest õpilase staatusega.",
+        "Keeleomandamise seiskumine pärast esimest aastat.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Rändekontekstiga seotud trauma märgid (eriti pagulastel).",
       ]},
     ]},
     etica: { sections: [
@@ -6983,33 +6935,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Lahko govori tekoče, a se bori z akademsko rabo jezika pri predmetnih urah.",
-        "Vedenje tihega obdobja, ne govori, a zaznava in razume.",
-        "Napake, ki odražajo vpliv maternega jezika (transfer), ne nerazumevanja.",
-        "Lahko se zdi utrujeno ali raztreseno, kognitivna obremenitev učenja v drugem jeziku je velika.",
-        "Neskladnost med ustnim in pisnim uspehom ali med predmeti.",
+        "Razume veliko manj, kot je videti — pogovorni jezik se razvije veliko prej kot akademski, zato lahko deluje tekoče, ne da bi sledil učni snovi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Navidezno slaba učna uspešnost, pogosto nesorazmerna z dejanskimi sposobnostmi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Molk v razredu — lahko gre za običajno „tiho obdobje“ pri usvajanju jezika, ne za nezanimanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Ob koncu dneva je lahko izčrpan zaradi sprotnega procesiranja jezika.",
+        "Tveganje premajhne prepoznave dejanskih posebnih izobraževalnih potreb (disleksija, ADHD), ker se vse pripiše jezikovni oviri.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>To ni</strong> učna težava, proces usvajanja jezika je normalen.",
-        "<strong>Ni primerno</strong> ocenjevati učenca s slovenščino kot tujim jezikom enako kot govorca maternega jezika.",
-        "<strong>Materni jezik ni ovira</strong>, dvojezičnost je kognitivna prednost.",
+        "<strong>Ne gre za</strong> pomanjkanje inteligence ali sposobnosti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ne gre</strong> zgolj za vprašanje časa: razvoj akademskega jezika traja leta in brez izrecne podpore se mnogi učenci ustalijo na nizki funkcionalni ravni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tega ne reši</strong> samodejno prevajanje med poukom — to je večletni proces, materni jezik pa je vir in ne ovira.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Uporabi vizualne podpore, diagrame, dvojezične slovarje pri pouku.",
-        "Dovoli več časa za naloge in pri izpitih.",
-        "Ocenjuj vsebino ločeno od jezikovne forme, kadar je cilj znanje.",
-        "Sodeluj s specialistom za slovenščino kot drugi in tuji jezik (SDTJ) ali učiteljem podpore.",
+        "Zagotavljanje gradiv s ključnim besediščem, prevedenim v materni jezik.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Preverjanje znanja z vizualnim ali praktičnim prikazom, kadar koli je to mogoče.",
+        "Združevanje v par z dvojezičnim sošolcem za neformalno posredovanje v ključnih trenutkih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sprejemanje začetnih izdelkov s slovničnimi napakami — v prvi fazi popravljajte vsebino, ne oblike.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Vključi tolmača ali posrednika na sestanke, kadar je potrebno.",
-        "Izogibaj se predpostavkam o izobrazbeni ravni ali jezikovnih kompetencah družine.",
-        "Pojasni stopnje usvajanja jezika, tiho obdobje, akademski jezik zahteva dlje.",
-        "Poudari, da je dvojezičnost prednost, ne problem.",
+        "Sam sestanek je ovira — starš ali skrbnik morda ne obvlada slovenščine na ravni, ki bi zadoščala za zapleten pogovor. Vnaprej pripravite preprosta pisna gradiva ali zaprosite za prevajalsko podporo.",
+        "Ne predpostavljajte, da starš ali skrbnik pozna slovenski izobraževalni sistem — pojasnite, kaj je svetovalna služba (SPO), kaj je podporni ukrep in kaj pomeni ocenjevanje, ne da bi karkoli imeli za samoumevno.",
+        "Jasno ločujte jezikovno oviro od učnih sposobnosti: „Vaš otrok je sposoben — jezika se uči hkrati z učno snovjo, kar je zelo zahtevno.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bodite občutljivi za migracijski kontekst: begunske družine ali družine v neurejenem položaju lahko nezaupajo ustanovam. Gradite zaupanje, preden zaprosite za dokumentacijo ali napotitve.",
       ]},
       { items: [
-        "Vztrajne težave po 2 letih podpore brez napredka.",
-        "Sum na latentne učne težave poleg jezikovne ovire.",
-        "Izolacija ali zavračanje s strani vrstnikov zaradi jezika.",
+        "Znaki socialne izolacije ali medvrstniškega nasilja, povezani s položajem tujega učenca.",
+        "Zastoj pri usvajanju jezika po prvem letu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Znaki travme, povezane z migracijskim kontekstom (zlasti pri beguncih).",
       ]},
     ]},
     etica: { sections: [
@@ -7310,33 +7262,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Is féidir labhairt go líofa, ach bíonn deacracht le húsáid acadúil na teanga i ranganna ábhar.",
-        "Iompar na tréimhse ciúine, ní labhraíonn, ach braithean agus tuigeann.",
-        "Earráidí a léiríonn tionchar na máthairgha (aistriú), ní easpa tuisceana.",
-        "Is cosúil go bhfuil siad tuirseach nó dearmadach, tá ualach cognaíoch foghlama i dteanga eile mór.",
-        "Éagsúlacht feidhmíochta idir béil agus scríofa nó idir ábhair.",
+        "Tuigeann sé i bhfad níos lú ná mar a chuirtear in iúl — forbraítear an teanga chomhrá i bhfad níos luaithe ná an teanga acadúil, agus mar sin d'fhéadfadh sé a bheith líofa de réir cosúlachta gan an t-ábhar a leanúint.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Feidhmíocht acadúil íseal de réir dealraimh, atá go minic díréireach lena fhíorchumas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tost sa seomra ranga — d'fhéadfadh sé gur „tréimhse chiúin\" nádúrtha le linn shealbhú na teanga atá ann, seachas easpa suime.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "D'fhéadfadh sé a bheith traochta ag deireadh an lae toisc go bhfuil an teanga á próiseáil aige i bhfíor-am.",
+        "Baol go ndéanfaí tearcdhiagnóisiú ar fhíorriachtanais oideachais (disléicse, NEAH) toisc go gcuirtear gach rud i leith an bhacainn teanga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Ní hé</strong> deacracht foghlama é, tá próiseas sealbhaithe teanga gnách.",
-        "<strong>Ní cuí</strong> scoláire PLNM a mheasúnú ar an gcaoi chéanna le cainteoir dúchais.",
-        "<strong>Ní constaicí</strong> an mháthairtheanga, is buntáiste cognaíoch é dátheangachas.",
+        "<strong>Ní</strong> easpa intleachta ná cumais atá ann.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ní</strong> ceist ama amháin atá ann: tógann sé blianta ar an teanga acadúil forbairt, agus, gan tacaíocht fhollasach, socraíonn go leor scoláirí ag leibhéal feidhmiúil íseal.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ní réitítear</strong> é le haistriúchán uathoibríoch le linn an ranga — próiseas blianta atá ann, agus is acmhainn í an mháthairtheanga, ní bacainn.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Úsáid tacaí amhairc, léaráidí, foclóirí dátheangacha i rith na gceachtanna.",
-        "Ceadaigh am breise do thascanna agus scrúduithe.",
-        "Measúnaigh ábhar ar leithligh ó fhoirm teanga nuair is é an cuspóir eolas.",
-        "Comhoibrigh le speisialtóir Béarla mar Theanga Bhreise (EAL) nó le múinteoir tacaíochta.",
+        "Ábhair a sholáthar a bhfuil an príomhfhoclóir aistrithe go dtí an mháthairtheanga iontu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "An t-eolas a mheas trí thaispeántas amhairc nó praiticiúil aon uair is féidir.",
+        "É a phéireáil le comhscoláire dátheangach le haghaidh idirghabhála neamhfhoirmiúla ag nóiméid chriticiúla.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Glacadh le luath-tháirgí cainte ina bhfuil earráidí gramadaí — an t-ábhar a cheartú, ní an fhoirm, sa chéad chéim.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Áirigh ateangaire nó idirghabhálaí do chruinnithe nuair is gá.",
-        "Seachain toimhdí faoi leibhéal oideachais nó inniúlachtaí teanga an teaghlaigh.",
-        "Míniú céimeanna sealbhaithe teanga, tréimhse chiúin, teanga acadúil i bhfad níos faide.",
-        "Béim a leagan air gur buntáiste, ní fadhb, é dátheangachas.",
+        "Is bacainn é an cruinniú féin — d'fhéadfadh nach mbeadh teanga an teagaisc ar a thoil ag an tuismitheoir/caomhnóir a dhóthain le haghaidh comhrá casta. Ullmhaigh ábhair scríofa shimplí roimh ré, nó iarr tacaíocht aistriúcháin.",
+        "Ná glac leis go bhfuil eolas ag an tuismitheoir/caomhnóir ar an gcóras oideachais — mínigh cad is seirbhís síceolaíochta agus treoshuímh scoile (SPO) ann, cad is beart tacaíochta ann, cad a bhaineann le measúnú, gan aon rud a thógáil ar deontas.",
+        "Scar go soiléir an bhacainn teanga ón gcumas acadúil: „tá do pháiste ábalta — tá an teanga á foghlaim aige ag an am céanna leis an ábhar, rud atá an-dúshlánach\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bí íogair don chomhthéacs imirce: d'fhéadfadh amhras a bheith ag teaghlaigh dhídeanaithe nó atá i staid neamhrialta ar institiúidí. Cothaigh muinín sula n-iarrann tú cáipéisíocht nó atreoruithe.",
       ]},
       { items: [
-        "Deacrachtaí leanúnacha tar éis 2 bliana tacaíochta gan dul chun cinn.",
-        "Amhras faoi dheacrachtaí foghlama folaigh in aice leis an mbacainn teanga.",
-        "Aonrú nó diúltú ó chomhghleacaithe mar gheall ar theanga.",
+        "Comharthaí aonrú sóisialta nó bulaíochta a bhaineann le stádas an scoláire eachtraigh.",
+        "Marbhántacht i sealbhú na teanga tar éis na chéad bhliana.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Comharthaí tráma a bhaineann le comhthéacs imirce (go háirithe dídeanaithe).",
       ]},
     ]},
     etica: { sections: [
@@ -7637,33 +7589,33 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     plnm: { sections: [
       { items: [
-        "Tista' titkellem fluwenti, iżda tiġġieled mal-użu akkademiku tal-lingwa fis-suġġetti.",
-        "Imġieba tal-perjodu kwiet, ma tgħidx, iżda tipperċepixxi u tifhem.",
-        "Żbalji li jirriflettu l-influwenza tal-lingwa materna (trasferiment), mhux nuqqas ta' fehim.",
-        "Tista' tidher għajjiena jew distratta, il-piż konjittiv tat-tagħlim f'lingwa oħra huwa kbir.",
-        "Diverġenza fil-prestazzjoni bejn il-verbali u l-miktub jew bejn is-suġġetti.",
+        "Jifhem ferm inqas milli jidher — il-lingwa ta' kuljum tiżviluppa ferm qabel il-lingwa akkademika, u għalhekk jista' jidher li jitkellem b'mod fluwenti mingħajr ma jsegwi l-kontenut.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Prestazzjoni akkademika baxxa fid-dehra, ħafna drabi sproporzjonata mal-kapaċità reali tiegħu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Skiet fil-klassi — jista' jkun „perjodu sieket\" normali matul l-akkwist tal-lingwa, mhux nuqqas ta' interess.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Sa tmiem il-jum jista' jkun eżawrit minħabba li jkun qed jipproċessa l-lingwa f'ħin reali.",
+        "Riskju ta' sottodijanjożi ta' bżonnijiet edukattivi reali (disleksja, ADHD) minħabba li kollox jiġi attribwit lill-ostakolu lingwistiku.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "<strong>Mhijiex</strong> diffikultà fl-apprendiment, il-proċess tal-akkwiżizzjoni tal-lingwa huwa normali.",
-        "<strong>Mhix xieraq</strong> li tevalwa student PLNM bl-istess mod bħal kelliem nattiv.",
-        "<strong>Il-lingwa materna mhijiex ostaklu</strong>, il-bilingwaliżmu huwa vantaġġ konjittiv.",
+        "<strong>Mhuwiex</strong> nuqqas ta' intelliġenza jew ta' kapaċità.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Mhijiex</strong> biss kwistjoni ta' żmien: il-lingwa akkademika tieħu snin biex tiżviluppa u, mingħajr appoġġ espliċitu, ħafna studenti jistabbilizzaw f'livell funzjonali baxx.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ma tissolviex</strong> bi traduzzjoni awtomatika waqt il-lezzjoni — huwa proċess ta' snin, u l-lingwa materna hija riżorsa, mhux ostakolu.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Uża appoġġi viżwali, dijagrami, dizzjunarji bilingwi waqt il-lezzjonijiet.",
-        "Ippermetti aktar żmien għall-kompiti u l-eżamijiet.",
-        "Evalwa l-kontenut separatament mill-forma tal-lingwa meta l-għan huwa l-għarfien.",
-        "Agħmel kollaborazzjoni ma' speċjalista f'Malti jew Ingliż bħala lingwa tal-istruzzjoni.",
+        "Forniment ta' materjali bil-vokabolarju ewlieni tradott għal-lingwa materna.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Valutazzjoni tal-għarfien permezz ta' dimostrazzjoni viżiva jew prattika kull meta jkun possibbli.",
+        "Tqabbil ma' sieħeb tal-klassi bilingwi għal medjazzjoni informali f'mumenti kritiċi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Aċċettazzjoni tal-produzzjonijiet inizjali bi żbalji grammatikali — fl-ewwel fażi, ikkoreġi l-kontenut, mhux il-forma.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Inkludix interpretu jew medjatur għal-laqgħat meta meħtieġ.",
-        "Evita l-assunzjonijiet dwar il-livell ta' edukazzjoni jew il-kompetenza lingwistika tal-familja.",
-        "Fissira l-istadji tal-akkwiżizzjoni tal-lingwa, perjodu kwiet, il-lingwa akkademika tieħu aktar żmien.",
-        "Enfasizza li l-bilingwaliżmu huwa vantaġġ, mhux problema.",
+        "Il-laqgħa nnifisha hija ostakolu — il-ġenitur/kustodju jista' ma jkunx jitkellem il-lingwa tat-tagħlim biżżejjed għal konverżazzjoni kumplessa. Ħejji minn qabel materjali bil-miktub sempliċi, jew itlob appoġġ ta' traduzzjoni.",
+        "Tassumix li l-ġenitur/kustodju jaf is-sistema edukattiva — spjega x'inhu s-servizz tal-psikoloġija u l-gwida tal-iskola (SPO), x'inhi miżura ta' appoġġ, x'tinvolvi valutazzjoni, mingħajr ma tagħti xejn bħala fatt magħruf.",
+        "Iddistingwi b'mod ċar l-ostakolu lingwistiku mill-kapaċità akkademika: „ibnek/bintek kapaċi — qed jitgħallem il-lingwa fl-istess ħin li jitgħallem il-kontenut, li huwa ferm impenjattiv\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kun sensittiv għall-kuntest tal-migrazzjoni: familji refuġjati jew f'sitwazzjoni irregolari jista' jkollhom nuqqas ta' fiduċja fl-istituzzjonijiet. Ibni l-fiduċja qabel ma titlob dokumentazzjoni jew riferimenti.",
       ]},
       { items: [
-        "Diffikultajiet persistenti wara 2 snin appoġġ mingħajr progress.",
-        "Suspett ta' diffikultajiet ta' tagħlim latenti flimkien mal-barriera lingwistika.",
-        "Iżolament jew rifjut mill-pari minħabba l-lingwa.",
+        "Sinjali ta' iżolament soċjali jew bullizmu marbuta mal-istatus ta' student barrani.",
+        "Staġnar fl-akkwist tal-lingwa wara l-ewwel sena.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sinjali ta' trawma marbuta mal-kuntest tal-migrazzjoni (speċjalment refuġjati).",
       ]},
     ]},
     etica: { sections: [
