@@ -33,6 +33,9 @@
   --bg-elevated: #ffffff;
   --rule: #e4e6e8;
   --rule-strong: #c8ccd0;
+  /* Decorative index numerals — darkened enough to clear WCAG 3:1 for large text
+     while staying visually quiet against the surrounding copy. */
+  --numeral: #828a92;
   --accent: #2a4a5e;
   --accent-hover: #3a5d73;
   --accent-bg: #eef2f5;
@@ -52,6 +55,7 @@ html.dark {
   --bg-elevated: #1b2130;
   --rule: #272e42;
   --rule-strong: #3e4862;
+  --numeral: #5c6780;
   --accent: #e3a63c;
   --accent-hover: #f2bd5c;
   --accent-bg: #292213;
@@ -186,7 +190,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .tree-node { background: var(--bg-elevated); padding: 1.5rem; transition: border-color 0.2s ease, box-shadow 0.2s ease; border: 1px solid var(--rule); text-align: left; position: relative; display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none; color: inherit; }
 .tree-node:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(20, 23, 26, 0.06); }
 .tree-node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.tree-node-index { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 2.8rem; font-weight: 700; color: var(--rule-strong); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; }
+.tree-node-index { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 2.8rem; font-weight: 700; color: var(--numeral); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; }
 .tree-node-title { font-size: 1.05rem; font-weight: 600; color: var(--ink); line-height: 1.25; margin-bottom: 0.2rem; }
 .tree-node-desc { font-size: 0.82rem; color: var(--ink-soft); line-height: 1.5; flex: 1; }
 .tree-node-arrow { margin-top: 0.8rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.75rem; color: var(--ink-faded); display: flex; align-items: center; gap: 0.4rem; letter-spacing: 0.03em; transition: color 0.2s ease, gap 0.2s ease; }
@@ -198,7 +202,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .card-header { padding-bottom: 1.5rem; margin-bottom: 2rem; border-bottom: 1px solid var(--rule); }
 .card-header-meta { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.6rem; }
 .card-category { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); }
-.card-index-large { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 3.5rem; font-weight: 700; color: var(--rule-strong); letter-spacing: -0.05em; line-height: 1; }
+.card-index-large { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 3.5rem; font-weight: 700; color: var(--numeral); letter-spacing: -0.05em; line-height: 1; }
 .card-title { font-size: 1.8rem; font-weight: 700; line-height: 1.15; color: var(--ink); margin-bottom: 0.4rem; }
 .card-subtitle { color: var(--ink-soft); font-size: 1rem; }
 .card-section { margin-bottom: 2rem; }
@@ -258,7 +262,7 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
   /* Reset CSS variables to light-mode values so dark-mode doesn't print black */
   :root, html, html.dark {
     --bg: #fff; --bg-elevated: #f7f7f7; --ink: #111; --ink-soft: #333;
-    --ink-faded: #666; --rule: #ddd; --rule-strong: #bbb;
+    --ink-faded: #666; --rule: #ddd; --rule-strong: #bbb; --numeral: #828a92;
     --accent: #2a4a5e; --beam: #d9a13d; --notice-bg: #fdf6e3;
     color-scheme: light;
   }

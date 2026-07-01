@@ -21,9 +21,9 @@ const sorted = [...entries].sort((a, b) =>
 const tower = [...sorted].reverse();
 
 const catColors: Record<string, string> = {
-  'Perfil':     '#5b8a86',
+  'Perfil':     '#6fa8a3',
   'Referência': '#cf9633',
-  'Recurso':    '#c2602f',
+  'Recurso':    '#e08a5a',
 };
 
 function floorHref(entry: typeof entries[0]) {
@@ -81,9 +81,9 @@ function floorTitle(entry: typeof entries[0]) {
     <div class="lh-panel">
       <div class="lh-legend">
         <span class="lh-legend-heading">{t.lh_categories}</span>
-        <span class="lh-legend-item" style="--c:#5b8a86">{categoryTranslations[lang]?.['Perfil'] ?? 'Perfil'}</span>
+        <span class="lh-legend-item" style="--c:#6fa8a3">{categoryTranslations[lang]?.['Perfil'] ?? 'Perfil'}</span>
         <span class="lh-legend-item" style="--c:#cf9633">{categoryTranslations[lang]?.['Referência'] ?? 'Referência'}</span>
-        <span class="lh-legend-item" style="--c:#c2602f">{categoryTranslations[lang]?.['Recurso'] ?? 'Recurso'}</span>
+        <span class="lh-legend-item" style="--c:#e08a5a">{categoryTranslations[lang]?.['Recurso'] ?? 'Recurso'}</span>
       </div>
     </div>
 
