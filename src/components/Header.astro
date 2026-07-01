@@ -132,7 +132,9 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
 .lang-current { color: var(--ink); font-weight: 700; }
 .lang-link { color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; }
 .lang-link:hover { color: var(--accent); }
-.lang-unavail { color: var(--rule-strong); }
+/* Unavailable languages: same AA-passing ink as the live links, but struck
+   through so they stay visually distinct without dropping below 4.5:1 contrast. */
+.lang-unavail { color: var(--ink-faded); text-decoration: line-through; text-decoration-thickness: 1px; }
 .lang-select { display: none; }
 @media (max-width: 520px) {
   .lang-switcher { display: none; }
