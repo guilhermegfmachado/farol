@@ -125,6 +125,20 @@ html { scroll-behavior: smooth; }
 .ref-doi:hover { text-decoration: underline; }
 @media print { .ref-doi { display: none; } }
 
+/* Collapsible "recommended tools" section — progressive disclosure, no JS */
+details.tools-section > summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 0.5rem; padding: 0.2rem 0; }
+details.tools-section > summary::-webkit-details-marker { display: none; }
+details.tools-section > summary::before { content: '▸'; color: var(--ink-faded); font-size: 0.75rem; transition: transform 0.15s ease; }
+details.tools-section[open] > summary::before { transform: rotate(90deg); }
+details.tools-section > summary .card-section-label { margin-bottom: 0; }
+details.tools-section > summary .tools-count { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; color: var(--ink-faded); background: var(--bg-elevated); border: 1px solid var(--rule); border-radius: 999px; padding: 0.05rem 0.45rem; }
+details.tools-section > .tool-chips { margin-top: 0.9rem; }
+/* Collapse the chips when closed — needs higher specificity than the scoped
+   `.tool-chips { display: flex }`, which otherwise overrides the UA hide. */
+details.tools-section:not([open]) > .tool-chips { display: none; }
+/* Always print/PDF the tools expanded, even if collapsed on screen */
+@media print { details.tools-section > .tool-chips { display: flex !important; } details.tools-section > summary::before { display: none; } details.tools-section > summary .tools-count { display: none; } }
+
 body {
   background: var(--bg);
   color: var(--ink);
