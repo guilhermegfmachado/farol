@@ -1,5 +1,9 @@
 ---
 import '../styles/global.css';
+// Preload the primary body font (Plus Jakarta Sans, latin) so it is available at
+// first paint on every entry page — the Portuguese root included — keeping the
+// typography consistent across all languages and avoiding a fallback-font flash.
+import jakartaWoff2 from '@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2?url';
 
 interface Props {
   title: string;
@@ -28,6 +32,9 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+
+    <!-- Preload the primary body font so the same typography renders on first paint everywhere -->
+    <link rel="preload" href={jakartaWoff2} as="font" type="font/woff2" crossorigin />
 
     <!-- Night mode is opt-in only (lighthouse toggle in the header); restore before paint -->
     <script is:inline>
