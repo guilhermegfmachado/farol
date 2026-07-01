@@ -38,8 +38,8 @@ ai_strategies:
   tools: []
 related: ["dislexia"]
 references:
-  - "Cummins, J. (1979). Linguistic interdependence and the educational development of bilingual children. <em>Review of Educational Research</em>, 49(2), 222–251."
-  - "Thomas, W. P., & Collier, V. P. (2002). <em>A National Study of School Effectiveness for Language Minority Students' Long-Term Academic Achievement</em>. Santa Cruz, CA: Center for Research on Education, Diversity & Excellence, University of California."
-  - "Krashen, S. D. (1982). <em>Principles and Practice in Second Language Acquisition</em>. Oxford: Pergamon Press."
-  - "García, O., & Wei, L. (2014). <em>Translanguaging: Language, Bilingualism and Education</em>. Basingstoke: Palgrave Macmillan."
+  - "Cummins, J. (1979). Linguistic interdependence and the educational development of bilingual children. <em>Review of Educational Research</em>, 49(2), 222–251. <a href=\"https://doi.org/10.3102/00346543049002222\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Thomas, W. P., & Collier, V. P. (2002). <em>A National Study of School Effectiveness for Language Minority Students' Long-Term Academic Achievement</em>. Santa Cruz, CA: Center for Research on Education, Diversity & Excellence, University of California. <a href=\"https://escholarship.org/uc/item/65j213pt\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Krashen, S. D. (1982). <em>Principles and Practice in Second Language Acquisition</em>. Oxford: Pergamon Press. <a href=\"https://sdkrashen.com/content/books/principles_and_practice.pdf\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "García, O., & Wei, L. (2014). <em>Translanguaging: Language, Bilingualism and Education</em>. Basingstoke: Palgrave Macmillan. <a href=\"https://doi.org/10.1057/9781137385765\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
 ---

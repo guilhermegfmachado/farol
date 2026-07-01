@@ -38,7 +38,7 @@ ai_strategies:
   tools: []
 related: ["tdah", "autismo"]
 references:
-  - "Subotnik, R. F., Olszewski-Kubilius, P., & Worrell, F. C. (2011). Rethinking giftedness and gifted education: a proposed direction forward based on psychological science. <em>Psychological Science in the Public Interest</em>, 12(1), 3–54."
-  - "Reis, S. M., & McCoach, D. B. (2000). The underachievement of gifted students: what do we know and where do we go? <em>Gifted Child Quarterly</em>, 44(3), 152–170."
-  - "Reis, S. M., Baum, S. M., & Burke, E. (2014). An operational definition of twice-exceptional learners: implications and applications. <em>Gifted Child Quarterly</em>, 58(3), 217–230."
+  - "Subotnik, R. F., Olszewski-Kubilius, P., & Worrell, F. C. (2011). Rethinking giftedness and gifted education: a proposed direction forward based on psychological science. <em>Psychological Science in the Public Interest</em>, 12(1), 3–54. <a href=\"https://doi.org/10.1177/1529100611418056\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Reis, S. M., & McCoach, D. B. (2000). The underachievement of gifted students: what do we know and where do we go? <em>Gifted Child Quarterly</em>, 44(3), 152–170. <a href=\"https://doi.org/10.1177/001698620004400302\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Reis, S. M., Baum, S. M., & Burke, E. (2014). An operational definition of twice-exceptional learners: implications and applications. <em>Gifted Child Quarterly</em>, 58(3), 217–230. <a href=\"https://doi.org/10.1177/0016986214534976\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
 ---
