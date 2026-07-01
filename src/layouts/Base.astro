@@ -100,6 +100,56 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
       } catch (e) {}
     })();
     </script>
+
+    <!-- PDF export: works on every device (incl. mobile, where window.print() is a no-op).
+         The generator is loaded ONLY when the button is clicked, so page loads stay zero-JS. -->
+    <script>
+      (function () {
+        var btn = document.querySelector('.print-btn');
+        if (!btn) return;
+        btn.removeAttribute('onclick'); // replace the fragile window.print() with a real download
+        var busy = false;
+        btn.addEventListener('click', async function () {
+          if (busy) return;
+          var card = document.querySelector('.card') || document.getElementById('main-content');
+          if (!card) { try { window.print(); } catch (e) {} return; }
+          busy = true;
+          var root = document.documentElement;
+          var hadDark = root.classList.contains('dark');
+          var hadReading = root.classList.contains('reading');
+          var bar = card.querySelector('.print-bar');
+          var opened = [];
+          var label = btn.textContent;
+          btn.setAttribute('aria-busy', 'true');
+          btn.textContent = label.replace(/\s*·.*$/, '') + ' …';
+          root.classList.remove('dark', 'reading');            // always export light
+          card.querySelectorAll('details:not([open])').forEach(function (d) { d.open = true; opened.push(d); });
+          if (bar) bar.style.display = 'none';
+          try {
+            var html2pdf = (await import('html2pdf.js')).default;
+            var name = (document.title || 'farol').replace(/\s*—.*$/, '').replace(/[^\p{L}\p{N}]+/gu, '_').replace(/^_+|_+$/g, '') || 'farol';
+            await html2pdf().set({
+              margin: [10, 12, 12, 12],
+              filename: name + '.pdf',
+              image: { type: 'jpeg', quality: 0.98 },
+              html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 820 },
+              jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+              pagebreak: { mode: ['css', 'legacy'] }
+            }).from(card).save();
+          } catch (err) {
+            try { window.print(); } catch (e) {}   // fallback to the print dialog
+          } finally {
+            if (bar) bar.style.display = '';
+            opened.forEach(function (d) { d.open = false; });
+            if (hadDark) root.classList.add('dark');
+            if (hadReading) root.classList.add('reading');
+            btn.removeAttribute('aria-busy');
+            btn.textContent = label;
+            busy = false;
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
 
