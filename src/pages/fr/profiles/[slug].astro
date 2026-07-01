@@ -91,8 +91,8 @@ function entryHref(e: typeof allEntries[0]) {
       </div>
     )}
     {profileTools.length > 0 && (
-      <section class="card-section tools-section">
-        <h2 class="card-section-label">{t.tools_for_profile}</h2>
+      <details class="card-section tools-section">
+        <summary><span class="card-section-label">{t.tools_for_profile}</span><span class="tools-count">{profileTools.length}</span></summary>
         <div class="tool-chips">
           {profileTools.map((tool) => (
             <a href={`${base}fr/tools/${tool.id.replace(/\.md$/, '')}/`} class="tool-chip">
@@ -101,7 +101,7 @@ function entryHref(e: typeof allEntries[0]) {
             </a>
           ))}
         </div>
-      </section>
+      </details>
     )}
     {(entry.data.references ?? []).length > 0 && (
       <section class="card-section references-section">
@@ -113,7 +113,7 @@ function entryHref(e: typeof allEntries[0]) {
         </ol>
       </section>
     )}
-    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card}</button></div>
+    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
   </article>
   <nav class="card-nav" aria-label="Navigation entre les entrées">
     {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
