@@ -4257,8 +4257,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Hyväksy ensimmäisessä vaiheessa kieliopillisia virheitä sisältävät ensimmäiset tuotokset — korjaa sisältöä, älä muotoa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Itse tapaaminen on este — huoltaja ei välttämättä osaa portugalia riittävän hyvin monimutkaista keskustelua varten. Valmistele etukäteen yksinkertaista kirjallista materiaalia tai pyydä käännösapua.",
-        "Älä oleta, että huoltaja tuntee Portugalin koulutusjärjestelmän — selitä, mikä on koulun psykologis-pedagoginen tukipalvelu (SPO), mikä on tukitoimi ja mitä arviointi tarkoittaa, pitämättä mitään itsestäänselvyytenä.",
+        "Itse tapaaminen on este — huoltaja ei välttämättä osaa suomea riittävän hyvin monimutkaista keskustelua varten. Valmistele etukäteen yksinkertaista kirjallista materiaalia tai pyydä käännösapua.",
+        "Älä oleta, että huoltaja tuntee Suomen koulutusjärjestelmän — selitä, mikä on koulun psykologis-pedagoginen tukipalvelu (SPO), mikä on tukitoimi ja mitä arviointi tarkoittaa, pitämättä mitään itsestäänselvyytenä.",
         "Erota selvästi kielimuuri ja oppimiskyky toisistaan: ”poikanne / tyttärenne on kyvykäs — hän opettelee kieltä samalla kun opiskelee sisältöjä, mikä on hyvin vaativaa”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Ole herkkä muuttoliikkeen kontekstille: pakolaisperheillä tai paperittomassa tilanteessa olevilla perheillä voi olla epäluottamusta viranomaisia kohtaan. Rakenna luottamusta ennen kuin pyydät asiakirjoja tai teet jatko-ohjauksia.",
       ]},
@@ -5131,7 +5131,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Οι αντιστροφές γραμμάτων (b/d, p/q) είναι συνηθισμένες σε όλα τα παιδιά που αρχίζουν να γράφουν και δεν αποτελούν, από μόνες τους, ένδειξη δυσλεξίας· η κεντρική δυσκολία είναι <strong>φωνολογική</strong> — η συσχέτιση γραμμάτων με ήχους.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Επίμονα ορθογραφικά λάθη που δεν υποχωρούν παρά την επανειλημμένη διόρθωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Τείνει να αποφεύγει τη φωναχτή ανάγνωση· μπορεί να φαίνεται αδιαφορία ενώ στην πραγματικότητα πρόκειται για στρατηγική προστασίας.",
-        "Η προφορική κατανόηση είναι σαφώς ανώτερη από την αναγνωστική — η δυσκολία είναι ειδική, όχι μια γενική γνωστική περιοριστική κατάσταση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Η προφορική κατανόηση είναι σαφώς ανώτερη από την αναγνωστική — η δυσκολία είναι ειδική, όχι μια γενικός γνωστικός περιορισμός.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>Δεν είναι</strong> έλλειψη ευφυΐας: εξ ορισμού, η δυσλεξία είναι απρόσμενη σε σχέση με τις άλλες γνωστικές ικανότητες του μαθητή.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -5269,7 +5269,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Αποδοχή των πρώτων παραγωγών λόγου με γραμματικά λάθη — διόρθωση του περιεχομένου, όχι της μορφής, στην πρώτη φάση.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Η ίδια η συνάντηση αποτελεί εμπόδιο — ο γονέας/κηδεμόνας ίσως δεν μιλά ελληνικά με επαρκή επάρκεια για μια σύνθετη συζήτηση. Προετοιμάστε εκ των προτέρων απλό γραπτό υλικό ή ζητήστε υποστήριξη διερμηνείας.",
+        "Η ίδια η συνάντηση αποτελεί εμπόδιο — ο γονέας/κηδεμόνας ίσως δεν μιλά ελληνικά με επαρκή γνώση για μια σύνθετη συζήτηση. Προετοιμάστε εκ των προτέρων απλό γραπτό υλικό ή ζητήστε υποστήριξη διερμηνείας.",
         "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι η υπηρεσία σχολικής ψυχολογίας και προσανατολισμού (SPO), τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
         "Διαχωρίστε με σαφήνεια το γλωσσικό εμπόδιο από τη σχολική ικανότητα: «το παιδί σας είναι ικανό — μαθαίνει τη γλώσσα ταυτόχρονα με το περιεχόμενο, κάτι που είναι ιδιαίτερα απαιτητικό».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Δείξτε ευαισθησία απέναντι στο μεταναστευτικό πλαίσιο: οικογένειες προσφύγων ή σε καθεστώς χωρίς νομιμοποιητικά έγγραφα ενδέχεται να δυσπιστούν προς τους θεσμούς. Χτίστε εμπιστοσύνη προτού ζητήσετε έγγραφα ή παραπομπές.",
@@ -5944,8 +5944,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pirmuoju etapu priimti pirmuosius darbus su gramatinėmis klaidomis — taisyti turinį, o ne formą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pats susitikimas yra barjeras — tėvai ar globėjai gali nemokėti portugalų kalbos pakankamai gerai sudėtingam pokalbiui. Iš anksto parengti paprastą rašytinę medžiagą arba pasirūpinti vertimo pagalba.",
-        "Nereikėtų manyti, kad tėvai ar globėjai pažįsta Portugalijos švietimo sistemą — paaiškinti, kas yra mokyklos psichologinė ir pedagoginė tarnyba (SPO), kas yra pagalbos priemonė, ką reiškia vertinimas, nieko nelaikant savaime suprantamu.",
+        "Pats susitikimas yra barjeras — tėvai ar globėjai gali nemokėti lietuvių kalbos pakankamai gerai sudėtingam pokalbiui. Iš anksto parengti paprastą rašytinę medžiagą arba pasirūpinti vertimo pagalba.",
+        "Nereikėtų manyti, kad tėvai ar globėjai pažįsta Lietuvos švietimo sistemą — paaiškinti, kas yra mokyklos psichologinė ir pedagoginė tarnyba (SPO), kas yra pagalbos priemonė, ką reiškia vertinimas, nieko nelaikant savaime suprantamu.",
         "Aiškiai atskirti kalbos barjerą nuo akademinių gebėjimų: „jūsų sūnus / jūsų dukra yra gabus(-i) — jis (ji) mokosi kalbos tuo pat metu, kai mokosi turinio, o tai labai reiklu“.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Būti jautriam migracijos kontekstui: pabėgėlių arba neteisėtoje padėtyje esančios šeimos gali nepasitikėti institucijomis. Sukurti pasitikėjimą prieš prašant dokumentų ar nukreipiant į kitas tarnybas.",
       ]},
@@ -6267,7 +6267,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Šķietami zemi mācību sasniegumi, kas bieži nav samērojami ar patiesajām spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Klusums stundā — tas var būt normāls „klusuma periods” valodas apguvē, nevis neieinteresētība.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Dienas beigās skolēns var būt izsmelts, jo valodu apstrādā reāllaikā.",
-        "Pastāv risks nepamanīt patiesās izglītības vajadzības (disleksiju, UDHS), jo viss tiek attiecināts uz valodas barjeru.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pastāv risks nepamanīt patiesās izglītības vajadzības (disleksiju, ADHD), jo viss tiek attiecināts uz valodas barjeru.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>Tas nav</strong> inteliģences vai spēju trūkums.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -6281,8 +6281,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pirmajā posmā pieņemt sākotnējos darbus ar gramatiskām kļūdām — labot saturu, nevis formu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Pati tikšanās ir barjera — vecāki vai aizbildņi var nerunāt portugāļu valodā pietiekami labi sarežģītai sarunai. Iepriekš sagatavot vienkāršus rakstiskus materiālus vai lūgt tulkošanas atbalstu.",
-        "Nepieņemt, ka vecāki vai aizbildņi pārzina Portugāles izglītības sistēmu — izskaidrot, kas ir skolas psiholoģiskā un pedagoģiskā dienesta (SPO) funkcija, kas ir atbalsta pasākums, ko nozīmē izvērtējums, neuzskatot neko par pašsaprotamu.",
+        "Pati tikšanās ir barjera — vecāki vai aizbildņi var nerunāt latviešu valodā pietiekami labi sarežģītai sarunai. Iepriekš sagatavot vienkāršus rakstiskus materiālus vai lūgt tulkošanas atbalstu.",
+        "Nepieņemt, ka vecāki vai aizbildņi pārzina Latvijas izglītības sistēmu — izskaidrot, kas ir skolas psiholoģiskā un pedagoģiskā dienesta (SPO) funkcija, kas ir atbalsta pasākums, ko nozīmē izvērtējums, neuzskatot neko par pašsaprotamu.",
         "Skaidri nošķirt valodas barjeru no mācīšanās spējām: „jūsu dēls / jūsu meita ir spējīgs(-a) — viņš (viņa) apgūst valodu vienlaikus ar mācību saturu, kas ir ļoti prasīgi”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Būt iejūtīgam pret migrācijas kontekstu: bēgļu vai nelegālā situācijā esošas ģimenes var neuzticēties iestādēm. Veidot uzticēšanos, pirms lūgt dokumentus vai novirzīt pie citiem speciālistiem.",
       ]},
@@ -6300,7 +6300,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nošķiriet institucionālu lietojumu (skola paraksta līgumu) no skolotāja personīga lietojuma (individuāla atbildība).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk portugāļu valodā un portugāliski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk latviešu valodā un portugāliski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automātiskie ieteikumi var pastiprināt dzimuma, etniskās piederības vai sociālās klases stereotipus – izvērtējiet kritiski.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akadēmiskā riska prognozēšanas” modeļi ir īpaši problemātiski – tie bieži atkārto pastāvošo nevienlīdzību, nevis identificē vajadzības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -6615,8 +6615,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Võtta esimeses etapis vastu grammatiliste vigadega esmased tööd — parandada sisu, mitte vormi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Kohtumine ise on barjäär — vanem või hooldaja ei pruugi osata portugali keelt piisavalt hästi keeruka vestluse jaoks. Valmistada eelnevalt ette lihtsad kirjalikud materjalid või paluda tõlkeabi.",
-        "Mitte eeldada, et vanem või hooldaja tunneb Portugali haridussüsteemi — selgitada, mis on kooli psühholoogilis-pedagoogiline tugiteenistus (SPO), mis on tugimeede ja mida tähendab hindamine, pidamata midagi iseenesestmõistetavaks.",
+        "Kohtumine ise on barjäär — vanem või hooldaja ei pruugi osata eesti keelt piisavalt hästi keeruka vestluse jaoks. Valmistada eelnevalt ette lihtsad kirjalikud materjalid või paluda tõlkeabi.",
+        "Mitte eeldada, et vanem või hooldaja tunneb Eesti haridussüsteemi — selgitada, mis on kooli psühholoogilis-pedagoogiline tugiteenistus (SPO), mis on tugimeede ja mida tähendab hindamine, pidamata midagi iseenesestmõistetavaks.",
         "Eristada selgelt keelebarjääri ja õppimisvõimet: „teie poeg / teie tütar on võimekas — ta õpib keelt samal ajal kui õppesisu, mis on väga nõudlik”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Olla tundlik rändekonteksti suhtes: pagulasperedel või ebaseaduslikus olukorras peredel võib olla usaldamatus asutuste vastu. Luua usaldus enne dokumentide küsimist või edasisuunamist.",
       ]},
@@ -7167,7 +7167,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Féinchoincheap acadúil ag dul in olcas („táim dúr\", „ní féidir liom\").",
         "Seachaint chórasach ar thascanna léitheoireachta/scríbhneoireachta a mhéid is go gcuireann sé isteach ar ábhair eile.",
-        "Difríocht shuntasach idir feidhmíocht ó bhéal agus feidhmíocht scríofa gan diagnóis fhoirmiúil — atreoraigh chuig measúnú síocoideolaíoch.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Difríocht shuntasach idir feidhmíocht ó bhéal agus feidhmíocht scríofa gan diagnóis fhoirmiúil — atreoraigh chuig measúnú síceoideachasúil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -7284,7 +7284,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Is bacainn é an cruinniú féin — d'fhéadfadh nach mbeadh teanga an teagaisc ar a thoil ag an tuismitheoir/caomhnóir a dhóthain le haghaidh comhrá casta. Ullmhaigh ábhair scríofa shimplí roimh ré, nó iarr tacaíocht aistriúcháin.",
-        "Ná glac leis go bhfuil eolas ag an tuismitheoir/caomhnóir ar an gcóras oideachais — mínigh cad is seirbhís síceolaíochta agus treoshuímh scoile (SPO) ann, cad is beart tacaíochta ann, cad a bhaineann le measúnú, gan aon rud a thógáil ar deontas.",
+        "Ná glac leis go bhfuil eolas ag an tuismitheoir/caomhnóir ar an gcóras oideachais — mínigh cad is seirbhís síceolaíochta agus treoshuímh scoile (SPO) ann, cad is beart tacaíochta ann, cad a bhaineann le measúnú, gan glacadh le haon rud gan cheist.",
         "Scar go soiléir an bhacainn teanga ón gcumas acadúil: „tá do pháiste ábalta — tá an teanga á foghlaim aige ag an am céanna leis an ábhar, rud atá an-dúshlánach\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Bí íogair don chomhthéacs imirce: d'fhéadfadh amhras a bheith ag teaghlaigh dhídeanaithe nó atá i staid neamhrialta ar institiúidí. Cothaigh muinín sula n-iarrann tú cáipéisíocht nó atreoruithe.",
       ]},
