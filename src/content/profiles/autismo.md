@@ -39,8 +39,8 @@ ai_strategies:
 related: ["tdah", "sobredotacao", "dispraxia"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Autism Spectrum Disorder. Arlington, VA: American Psychiatric Publishing."
-  - "Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a \"theory of mind\"? <em>Cognition</em>, 21(1), 37–46."
-  - "Milton, D. E. M. (2012). On the ontological status of autism: the \"double empathy problem\". <em>Disability & Society</em>, 27(6), 883–887."
-  - "Happé, F., & Frith, U. (2006). The weak coherence account: detail-focused cognitive style in autism spectrum disorders. <em>Journal of Autism and Developmental Disorders</em>, 36(1), 5–25."
-  - "Wong, C., Odom, S. L., Hume, K. A., et al. (2015). Evidence-based practices for children, youth, and young adults with autism spectrum disorder. <em>Journal of Autism and Developmental Disorders</em>, 45(7), 1951–1966."
+  - "Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a \"theory of mind\"? <em>Cognition</em>, 21(1), 37–46. <a href=\"https://doi.org/10.1016/0010-0277(85)90022-8\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Milton, D. E. M. (2012). On the ontological status of autism: the \"double empathy problem\". <em>Disability & Society</em>, 27(6), 883–887. <a href=\"https://doi.org/10.1080/09687599.2012.710008\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Happé, F., & Frith, U. (2006). The weak coherence account: detail-focused cognitive style in autism spectrum disorders. <em>Journal of Autism and Developmental Disorders</em>, 36(1), 5–25. <a href=\"https://doi.org/10.1007/s10803-005-0039-0\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Wong, C., Odom, S. L., Hume, K. A., et al. (2015). Evidence-based practices for children, youth, and young adults with autism spectrum disorder. <em>Journal of Autism and Developmental Disorders</em>, 45(7), 1951–1966. <a href=\"https://doi.org/10.1007/s10803-014-2351-z\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
 ---

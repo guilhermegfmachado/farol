@@ -121,6 +121,9 @@ html { scroll-behavior: smooth; }
 .references-list { margin: 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .references-list li { font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft); }
 .references-list li:target { background: var(--accent-bg); outline: 2px solid var(--accent); outline-offset: 2px; }
+.ref-doi { color: var(--accent); text-decoration: none; font-weight: 600; padding: 0 0.15em; white-space: nowrap; }
+.ref-doi:hover { text-decoration: underline; }
+@media print { .ref-doi { display: none; } }
 
 body {
   background: var(--bg);

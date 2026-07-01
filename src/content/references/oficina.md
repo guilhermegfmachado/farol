@@ -29,6 +29,6 @@ sections:
       - "Pelo menos um material produzido na sessão é adoptado como recurso partilhado do departamento."
 pending: "Conteúdo das ferramentas específicas e casos de uso serão preenchidos após o curso em Florença."
 references:
-  - "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). <em>Effective Teacher Professional Development</em>. Palo Alto, CA: Learning Policy Institute."
-  - "Desimone, L. M. (2009). Improving impact studies of teachers' professional development: toward better conceptualizations and measures. <em>Educational Researcher</em>, 38(3), 181–199."
+  - "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). <em>Effective Teacher Professional Development</em>. Palo Alto, CA: Learning Policy Institute. <a href=\"https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Desimone, L. M. (2009). Improving impact studies of teachers' professional development: toward better conceptualizations and measures. <em>Educational Researcher</em>, 38(3), 181–199. <a href=\"https://doi.org/10.3102/0013189X08331140\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
 ---
