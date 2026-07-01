@@ -57,7 +57,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Increase letter and line spacing: there is experimental evidence that wider spacing improves reading in dyslexic children, with no prior training.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Evidence for special “dyslexia” fonts is, by contrast, weaker and inconsistent.",
         "Allow silent reading before any reading aloud — never ask a student to read without warning.",
-        "When the aim is not to assess writing, assess content separately from spelling.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "When the aim is not to assess writing, assess content separately from spelling.",
         "Offer the same information in multiple formats (audio, video, diagrams).",
       ]},
       { items: [
@@ -398,7 +398,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Aumentar el espaciado entre letras y líneas: hay evidencia experimental de que el espaciado ampliado mejora la lectura de los niños disléxicos, sin entrenamiento previo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> La evidencia para tipos de letra específicos «para disléxicos» es, en cambio, más débil e inconsistente.",
         "Permitir la lectura silenciosa antes de cualquier lectura en voz alta: nunca pedir que lea por sorpresa.",
-        "Cuando el objetivo no es evaluar la escritura, evaluar el contenido por separado de la ortografía.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Cuando el objetivo no es evaluar la escritura, evaluar el contenido por separado de la ortografía.",
         "Ofrecer la misma información en varios formatos (audio, vídeo, esquemas).",
       ]},
       { items: [
@@ -739,7 +739,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Augmenter l'espacement entre les lettres et les lignes : il existe des données expérimentales montrant qu'un espacement élargi améliore la lecture des enfants dyslexiques, sans entraînement préalable.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> En revanche, les données concernant les polices de caractères spécifiques « pour dyslexiques » sont plus faibles et incohérentes.",
         "Autoriser la lecture silencieuse avant toute lecture à voix haute : ne jamais demander de lire à l'improviste.",
-        "Lorsque l'objectif n'est pas d'évaluer l'écriture, évaluer le contenu séparément de l'orthographe.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Lorsque l'objectif n'est pas d'évaluer l'écriture, évaluer le contenu séparément de l'orthographe.",
         "Proposer la même information sous plusieurs formats (audio, vidéo, schémas).",
       ]},
       { items: [
@@ -1080,7 +1080,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Aumentare la spaziatura tra le lettere e le righe: vi sono prove sperimentali che una spaziatura ampliata migliora la lettura dei bambini dislessici, senza addestramento preventivo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Le prove relative ai caratteri tipografici specifici «per dislessici» sono, al contrario, più deboli e incoerenti.",
         "Consentire la lettura silenziosa prima di qualsiasi lettura ad alta voce: non chiedere mai di leggere all'improvviso.",
-        "Quando l'obiettivo non è valutare la scrittura, valutare il contenuto separatamente dall'ortografia.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Quando l'obiettivo non è valutare la scrittura, valutare il contenuto separatamente dall'ortografia.",
         "Offrire la stessa informazione in più formati (audio, video, schemi).",
       ]},
       { items: [
@@ -1422,7 +1422,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Den Abstand zwischen Buchstaben und Zeilen vergrößern: Es gibt experimentelle Belege dafür, dass ein vergrößerter Abstand das Lesen von Kindern mit Legasthenie ohne vorheriges Training verbessert.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Die Belege für bestimmte Schriftarten „für Legastheniker“ sind dagegen schwächer und uneinheitlicher.",
         "Stilles Lesen vor jedem lauten Vorlesen erlauben — niemals überraschend zum Vorlesen auffordern.",
-        "Wenn das Ziel nicht die Bewertung des Schreibens ist, den Inhalt getrennt von der Rechtschreibung bewerten.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Wenn das Ziel nicht die Bewertung des Schreibens ist, den Inhalt getrennt von der Rechtschreibung bewerten.",
         "Dieselbe Information in verschiedenen Formaten anbieten (Audio, Video, Schaubilder).",
       ]},
       { items: [
@@ -1760,7 +1760,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Vergroot de afstand tussen letters en regels: er is experimenteel bewijs dat een grotere afstand het lezen van kinderen met dyslexie verbetert, zonder voorafgaande training.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Het bewijs voor specifieke lettertypen ‘voor dyslectici’ is daarentegen zwakker en inconsistenter.",
         "Sta stil lezen toe vóór elk hardop lezen — vraag nooit onverwacht om voor te lezen.",
-        "Wanneer het doel niet is om het schrijven te beoordelen, beoordeel de inhoud dan los van de spelling.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Wanneer het doel niet is om het schrijven te beoordelen, beoordeel de inhoud dan los van de spelling.",
         "Bied dezelfde informatie aan in verschillende vormen (audio, video, schema's).",
       ]},
       { items: [
@@ -2097,7 +2097,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Zwiększenie odstępów między literami i wierszami: istnieją dowody eksperymentalne, że zwiększony odstęp poprawia czytanie u dzieci z dysleksją, bez wcześniejszego treningu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dowody na skuteczność konkretnych krojów pisma „dla dyslektyków” są natomiast słabsze i niespójne.",
         "Umożliwienie cichego czytania przed jakimkolwiek czytaniem na głos — nigdy nie prosić o czytanie z zaskoczenia.",
-        "Gdy celem nie jest ocena pisania, oceniać treść oddzielnie od ortografii.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Gdy celem nie jest ocena pisania, oceniać treść oddzielnie od ortografii.",
         "Przekazywanie tych samych informacji w różnych formatach (audio, wideo, schematy).",
       ]},
       { items: [
@@ -2434,7 +2434,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Mărirea spațierii dintre litere și rânduri: există dovezi experimentale că spațierea mai mare îmbunătățește citirea copiilor dislexici, fără antrenament prealabil.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> În schimb, dovezile privind fonturile specifice „pentru dislexici” sunt mai slabe și inconsistente.",
         "Permiterea citirii în gând înainte de orice citire cu voce tare: a nu cere niciodată să citească pe neașteptate.",
-        "Atunci când obiectivul nu este evaluarea scrisului, evaluarea conținutului separat de ortografie.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Atunci când obiectivul nu este evaluarea scrisului, evaluarea conținutului separat de ortografie.",
         "Oferirea aceleiași informații în mai multe formate (audio, video, scheme).",
       ]},
       { items: [
@@ -2776,7 +2776,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Povećanje razmaka među slovima i redovima: postoje eksperimentalni dokazi da povećani razmak poboljšava čitanje kod disleksične djece, i to bez prethodne uvježbanosti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dokazi za posebne fontove „za disleksičare” nasuprot tome slabiji su i nedosljedni.",
         "Omogućiti tiho čitanje prije bilo kakvog čitanja naglas — nikada ne tražiti čitanje iznenada.",
-        "Kada cilj nije procjena pisanja, sadržaj procjenjivati odvojeno od pravopisa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kada cilj nije procjena pisanja, sadržaj procjenjivati odvojeno od pravopisa.",
         "Ponuditi iste informacije u različitim formatima (zvuk, video, sheme).",
       ]},
       { items: [
@@ -3115,7 +3115,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Zvětšení rozestupů mezi písmeny a řádky: existují experimentální důkazy, že zvětšený rozestup zlepšuje čtení u dyslektických dětí, a to bez předchozího nácviku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Důkazy pro konkrétní typy písma „pro dyslektiky“ jsou naproti tomu slabší a nekonzistentní.",
         "Umožnit tiché čtení před jakýmkoli čtením nahlas — nikdy nevyžadovat čtení znenadání.",
-        "Pokud cílem není hodnotit psaní, hodnotit obsah odděleně od pravopisu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Pokud cílem není hodnotit psaní, hodnotit obsah odděleně od pravopisu.",
         "Nabízet tytéž informace v různých formátech (zvuk, video, schémata).",
       ]},
       { items: [
@@ -3453,7 +3453,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Öka avståndet mellan bokstäver och rader: det finns experimentellt stöd för att ett ökat avstånd förbättrar läsningen hos barn med dyslexi, utan föregående träning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Stödet för specifika teckensnitt ”för dyslektiker” är däremot svagare och mer inkonsekvent.",
         "Tillåt tyst läsning före all högläsning — be aldrig om läsning oannonserat.",
-        "När syftet inte är att bedöma skrivandet, bedöm innehållet skilt från stavningen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "När syftet inte är att bedöma skrivandet, bedöm innehållet skilt från stavningen.",
         "Erbjud samma information i flera format (ljud, video, scheman).",
       ]},
       { items: [
@@ -3791,7 +3791,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Øg afstanden mellem bogstaver og linjer: der er eksperimentel evidens for, at en øget afstand forbedrer læsningen hos børn med ordblindhed, uden forudgående træning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Evidensen for bestemte skrifttyper »til ordblinde« er derimod svagere og mere inkonsekvent.",
         "Tillad stillelæsning før al højtlæsning — bed aldrig om læsning uventet.",
-        "Når formålet ikke er at vurdere skrivningen, så vurder indholdet adskilt fra stavningen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Når formålet ikke er at vurdere skrivningen, så vurder indholdet adskilt fra stavningen.",
         "Tilbyd den samme information i flere formater (lyd, video, skemaer).",
       ]},
       { items: [
@@ -4129,7 +4129,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Lisätä kirjain- ja riviväliä: on olemassa kokeellista näyttöä siitä, että väljennetty välistys parantaa lukihäiriöisten lasten lukemista ilman ennakkoharjoittelua.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Sen sijaan näyttö erityisistä „lukihäiriöisille tarkoitetuista“ kirjasintyypeistä on heikompaa ja epäjohdonmukaista.",
         "Sallia hiljainen lukeminen ennen mitään ääneen lukemista — älä koskaan pyydä lukemaan yllättäen.",
-        "Kun tavoitteena ei ole arvioida kirjoittamista, arvioi sisältö erillään oikeinkirjoituksesta.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kun tavoitteena ei ole arvioida kirjoittamista, arvioi sisältö erillään oikeinkirjoituksesta.",
         "Tarjota sama tieto useassa muodossa (ääni, video, kaaviot).",
       ]},
       { items: [
@@ -4468,7 +4468,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Zväčšenie rozostupov medzi písmenami a riadkami: existujú experimentálne dôkazy, že zväčšený rozostup zlepšuje čítanie u dyslektických detí, a to bez predchádzajúceho nácviku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dôkazy pre konkrétne typy písma „pre dyslektikov“ sú naproti tomu slabšie a nekonzistentné.",
         "Umožniť tiché čítanie pred akýmkoľvek čítaním nahlas — nikdy nežiadať čítanie znenazdania.",
-        "Ak cieľom nie je hodnotiť písanie, hodnotiť obsah oddelene od pravopisu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ak cieľom nie je hodnotiť písanie, hodnotiť obsah oddelene od pravopisu.",
         "Ponúkať tie isté informácie v rôznych formátoch (zvuk, video, schémy).",
       ]},
       { items: [
@@ -4804,7 +4804,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "A betűk és sorok közötti térköz növelése: kísérleti bizonyíték van arra, hogy a megnövelt térköz előzetes gyakorlás nélkül is javítja a diszlexiás gyermekek olvasását.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Ezzel szemben a kifejezetten „diszlexiásoknak” szánt betűtípusok melletti bizonyíték gyengébb és ellentmondásos.",
         "Engedélyezze a néma olvasást minden hangos olvasás előtt — soha ne kérjen váratlanul hangos olvasást.",
-        "Amikor a cél nem az írás értékelése, a tartalmat a helyesírástól külön értékelje.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Amikor a cél nem az írás értékelése, a tartalmat a helyesírástól külön értékelje.",
         "Kínálja ugyanazt az információt többféle formátumban (hang, videó, ábrák).",
       ]},
       { items: [
@@ -5141,7 +5141,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Αύξηση της απόστασης μεταξύ γραμμάτων και γραμμών: υπάρχουν πειραματικά δεδομένα ότι το διευρυμένο διάστιχο βελτιώνει την ανάγνωση των δυσλεξικών παιδιών, χωρίς προηγούμενη εξάσκηση.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Αντιθέτως, τα δεδομένα για ειδικές γραμματοσειρές «για δυσλεξικούς» είναι ασθενέστερα και ασυνεπή.",
         "Επιτρέψτε τη σιωπηρή ανάγνωση πριν από οποιαδήποτε φωναχτή ανάγνωση — μη ζητάτε ποτέ ανάγνωση αιφνιδιαστικά.",
-        "Όταν ο στόχος δεν είναι η αξιολόγηση της γραφής, αξιολογήστε το περιεχόμενο χωριστά από την ορθογραφία.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Όταν ο στόχος δεν είναι η αξιολόγηση της γραφής, αξιολογήστε το περιεχόμενο χωριστά από την ορθογραφία.",
         "Προσφέρετε την ίδια πληροφορία σε πολλαπλές μορφές (ήχος, βίντεο, διαγράμματα).",
       ]},
       { items: [
@@ -5479,7 +5479,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Увеличаване на разстоянието между буквите и редовете: има експериментални доказателства, че разширеното разстояние подобрява четенето при деца с дислексия, без предварителна подготовка.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Доказателствата за специфични шрифтове „за хора с дислексия“ за разлика от това са по-слаби и непоследователни.",
         "Да се позволи четене наум преди каквото и да е четене на глас — никога да не се иска четене изненадващо.",
-        "Когато целта не е да се оценява писането, съдържанието да се оценява отделно от правописа.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Когато целта не е да се оценява писането, съдържанието да се оценява отделно от правописа.",
         "Да се предлага една и съща информация в различни формати (аудио, видео, схеми).",
       ]},
       { items: [
@@ -5816,7 +5816,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Padidinti tarpus tarp raidžių ir eilučių: yra eksperimentinių įrodymų, kad platesni tarpai pagerina disleksiją turinčių vaikų skaitymą be išankstinio pasirengimo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Priešingai, įrodymai dėl specialių „disleksikams skirtų“ šriftų yra silpnesni ir nenuoseklūs.",
         "Leisti skaityti tyliai prieš bet kokį skaitymą balsu — niekada neprašyti skaityti netikėtai.",
-        "Kai tikslas nėra įvertinti rašymą, turinį vertinti atskirai nuo rašybos.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kai tikslas nėra įvertinti rašymą, turinį vertinti atskirai nuo rašybos.",
         "Pateikti tą pačią informaciją keliais formatais (garso įrašu, vaizdo įrašu, schemomis).",
       ]},
       { items: [
@@ -6153,7 +6153,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Palielināt atstarpes starp burtiem un rindām: ir eksperimentāli pierādījumi, ka palielinātas atstarpes uzlabo disleksiju skarto bērnu lasīšanu bez iepriekšējas apmācības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Turpretī pierādījumi par īpašiem „disleksiķiem paredzētiem“ burtveidoliem ir vājāki un nekonsekventi.",
         "Atļaut klusu lasīšanu pirms jebkādas lasīšanas skaļi — nekad nelūgt lasīt pārsteiguma kārtā.",
-        "Ja mērķis nav novērtēt rakstīšanu, novērtēt saturu atsevišķi no pareizrakstības.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Ja mērķis nav novērtēt rakstīšanu, novērtēt saturu atsevišķi no pareizrakstības.",
         "Piedāvāt to pašu informāciju vairākos formātos (audio, video, shēmas).",
       ]},
       { items: [
@@ -6487,7 +6487,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Suurendada tähtede- ja reavahesid: on olemas eksperimentaalsed tõendid, et laiendatud vahed parandavad düsleksiaga laste lugemist ilma eelneva harjutamiseta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Seevastu tõendid spetsiaalsete „düsleksikutele mõeldud“ kirjatüüpide kohta on nõrgemad ja ebajärjekindlad.",
         "Lubada vaikset lugemist enne mis tahes valjusti lugemist — mitte kunagi paluda üllatuslugemist.",
-        "Kui eesmärk ei ole kirjutamise hindamine, hinnata sisu õigekirjast eraldi.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kui eesmärk ei ole kirjutamise hindamine, hinnata sisu õigekirjast eraldi.",
         "Pakkuda sama teavet mitmes vormingus (heli, video, skeemid).",
       ]},
       { items: [
@@ -6822,7 +6822,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Povečanje razmika med črkami in vrsticami: obstajajo eksperimentalni dokazi, da povečan razmik izboljša branje pri disleksičnih otrocih, in to brez predhodnega treninga.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Dokazi za posebne pisave »za disleksike« so v nasprotju s tem šibkejši in neskladni.",
         "Omogočiti tiho branje pred kakršnim koli glasnim branjem — nikoli ne zahtevati branja brez napovedi.",
-        "Kadar cilj ni ocenjevanje pisanja, vsebino ocenjevati ločeno od pravopisa.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Kadar cilj ni ocenjevanje pisanja, vsebino ocenjevati ločeno od pravopisa.",
         "Ponuditi iste informacije v različnih oblikah (zvok, video, sheme).",
       ]},
       { items: [
@@ -7155,7 +7155,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "An spásáil idir litreacha agus línte a mhéadú: tá fianaise thurgnamhach ann go bhfeabhsaíonn spásáil leathnaithe léitheoireacht leanaí disléicseacha, gan oiliúint roimh ré.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Os a choinne sin, tá an fhianaise i bhfabhar clófhoirne ar leith „do dhaoine disléicseacha\" níos laige agus neamh-chomhsheasmhach.",
         "Ceadaigh léitheoireacht thostach roimh aon léitheoireacht os ard — ná hiarr léitheoireacht riamh gan choinne.",
-        "Nuair nach é an scríbhneoireacht a mheas an cuspóir, déan an t-ábhar a mheas ar leithligh ón litriú.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Nuair nach é an scríbhneoireacht a mheas an cuspóir, déan an t-ábhar a mheas ar leithligh ón litriú.",
         "Cuir an t-eolas céanna ar fáil i bhformáidí éagsúla (fuaim, físeán, léaráidí).",
       ]},
       { items: [
@@ -7489,7 +7489,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Iżżid l-ispazju bejn l-ittri u l-linji: hemm evidenza sperimentali li l-ispazjar imwessa' jtejjeb il-qari tat-tfal dislessiċi, mingħajr taħriġ minn qabel.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> B'kuntrast, l-evidenza għal tipi ta' ittri speċifiċi „għad-dislessiċi” hija aktar dgħajfa u inkonsistenti.",
         "Ippermetti l-qari fis-skiet qabel kwalunkwe qari b'leħen għoli — qatt titlob qari għal għarrieda.",
-        "Meta l-għan ma jkunx li tevalwa l-kitba, evalwa l-kontenut separatament mill-ortografija.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Meta l-għan ma jkunx li tevalwa l-kitba, evalwa l-kontenut separatament mill-ortografija.",
         "Offri l-istess informazzjoni f'diversi formati (awdjo, vidjo, dijagrammi).",
       ]},
       { items: [

@@ -21,7 +21,7 @@ sections:
     items:
       - "Aumentar o espaçamento entre letras e linhas: há evidência experimental de que o espaçamento alargado melhora a leitura de crianças disléxicas, sem treino prévio.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> A evidência para tipos de letra específicos \"para disléxicos\" é, em contraste, mais fraca e inconsistente."
       - "Permitir leitura silenciosa antes de qualquer leitura em voz alta — nunca pedir leitura de surpresa."
-      - "Quando o objectivo não é avaliar a escrita, avaliar o conteúdo separadamente da ortografia.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "Quando o objectivo não é avaliar a escrita, avaliar o conteúdo separadamente da ortografia."
       - "Oferecer a mesma informação em vários formatos (áudio, vídeo, esquemas)."
   - label: "Como comunicar com o EE"
     items:
@@ -42,5 +42,4 @@ references:
   - "Vellutino, F. R., Fletcher, J. M., Snowling, M. J., & Scanlon, D. M. (2004). Specific reading disability (dyslexia): What have we learned in the past four decades? <em>Journal of Child Psychology and Psychiatry</em>, 45(1), 2–40."
   - "Snowling, M. J., Hulme, C., & Nation, K. (2020). Defining and understanding dyslexia: past, present and future. <em>Oxford Review of Education</em>, 46(4), 501–513."
   - "Zorzi, M., Barbiero, C., Facoetti, A., Lonciari, I., Carrozzi, M., Montico, M., Bravar, L., George, F., Pech-Georgel, C., & Ziegler, J. C. (2012). Extra-large letter spacing improves reading in dyslexia. <em>Proceedings of the National Academy of Sciences</em>, 109(28), 11455–11459."
-  - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Specific Learning Disorder. Arlington, VA: American Psychiatric Publishing."
 ---
