@@ -2463,13 +2463,13 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Întărire pozitivă imediată și frecventă: în ADHD sensibilitatea la recompensă este alterată (aversiune față de așteptare), astfel încât recompensele imediate funcționează mai bine decât cele amânate.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Începeți cu ceea ce face bine elevul: întâlnirea nu poate debuta ca o listă de plângeri, altfel părintele se închide în defensivă.",
+        "Începeți cu ceea ce face bine elevul: întâlnirea nu trebuie să înceapă cu o listă de plângeri, altfel părintele se închide în defensivă.",
         "Descrieți comportamente observate, nu diagnostice: „când sunt mai mult de doi pași la rând, pierde firul” în loc de „are ADHD”.",
         "Anticipați reacția „acasă nu este așa”: explicați că, în context de grup și cu cerința unei atenții prelungite în clasă, simptomele devin mai vizibile.",
         "Dacă sugerați o evaluare, prezentați-o ca pe o resursă, nu ca pe o pedeapsă: „există un sprijin care îl/o poate ajuta mult” în loc de „trebuie să fie evaluat/ă”.",
       ]},
       { items: [
-        "Eșec disciplinar persistent în pofida adaptărilor din clasă.",
+        "Eșec școlar persistent (corigențe repetate) în pofida adaptărilor din clasă.",
         "Semne de excludere socială din partea colegilor.",
         "Semne de comorbiditate (anxietate, depresie, tulburare opozițională): frecvente în ADHD și care justifică trimiterea spre evaluare.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
@@ -2604,7 +2604,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rezultate școlare aparent slabe, adesea disproporționate față de capacitatea reală.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tăcerea în clasă: poate fi o „perioadă de tăcere” normală în achiziția unei limbi, nu lipsă de interes.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Poate fi epuizat la sfârșitul zilei din cauza procesării limbii în timp real.",
-        "Risc de subdiagnosticare a unor nevoi educative reale (dislexie, ADHD), prin atribuirea a tot ce ține de acestea barierei lingvistice.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Risc de subdiagnosticare a unor nevoi educative reale (dislexie, ADHD), deoarece totul este pus pe seama barierei lingvistice.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>Nu este</strong> o lipsă de inteligență sau de capacitate.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -2695,13 +2695,13 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice, fără documentație specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Măsurile compensatorii pot fi aplicate de profesor pe baza observației pedagogice.",
-        "Cadrul didactic de sprijin poate fi solicitat fără certificat de orientare școlară, prin recomandarea CJRAE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Cadrul didactic de sprijin se acordă pe baza certificatului de orientare școlară și profesională emis prin CJRAE/COSP.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "CJRAE (Centrul Județean de Resurse și Asistență Educațională): realizează evaluarea complexă și coordonează sprijinul educațional.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Certificatul de orientare școlară și profesională: emis de CJRAE (prin COSP), stă la baza încadrării în educație incluzivă sau specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Plan de Servicii Individualizat (PSI): document de planificare pentru elevii cu CES, elaborat cu familia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Programul de Intervenție Personalizat (PIP): instrument de intervenție concretă în clasă, elaborat de echipa didactică.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Planul de intervenție personalizat (PIP): instrument de intervenție concretă în clasă, elaborat de echipa didactică.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Legea nr. 17/2007 privind educația tinerilor supradotați, capabili de performanță înaltă, reglementează sprijinul pentru elevii supradotați.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
@@ -2719,7 +2719,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Legea învățământului preuniversitar nr. 198/2023<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Ordinul comun nr. 1985/1305/5805/2016 (orientarea școlară și profesională a copiilor cu CES)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "CJRAE (Centrul Județean de Resurse și Asistență Educațională)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "PSI (Plan de Servicii Individualizat) și PIP (Program de Intervenție Personalizat)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "PSI (Plan de Servicii Individualizat) și PIP (Plan de intervenție personalizat)<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Certificat de orientare școlară și profesională<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
     ],
@@ -3160,7 +3160,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Okamžité a časté pozitivní posílení: u ADHD je citlivost na odměnu pozměněná (averze k čekání), proto okamžité odměny fungují lépe než odložené.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Začněte tím, co žák dělá dobře — schůzka nemůže začínat seznamem stížností, jinak se rodič defenzivně uzavře.",
+        "Začněte tím, co žák dělá dobře — schůzka by neměla začínat výčtem stížností, jinak se rodič defenzivně uzavře.",
         "Popisujte pozorované chování, nikoli diagnózy: „když jdou za sebou víc než dva kroky, ztratí nit“ místo „má ADHD“.",
         "Předjímejte reakci „doma to tak není“ — vysvětlete, že skupinové prostředí a nárok na dlouhodobou pozornost ve třídě činí příznaky viditelnějšími.",
         "Pokud navrhujete vyšetření, představte ho jako pomoc, ne jako trest: „existuje podpora, která mu/jí může hodně pomoci“ místo „musí být vyšetřen/a“.",
@@ -3199,7 +3199,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Zhoršující se akademické sebepojetí („jsem hloupý“, „nezvládnu to“).",
         "Systematické vyhýbání se úkolům na čtení/psaní do té míry, že to ohrožuje další předměty.",
-        "Výrazný nesoulad mezi ústním a písemným výkonem bez formální diagnózy — doporučit k psychopedagogickému vyšetření.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Výrazný nesoulad mezi ústním a písemným výkonem bez formální diagnózy — doporučit vyšetření v pedagogicko-psychologické poradně (PPP).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -3330,7 +3330,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Údaje nezletilých podléhají zvýšené ochraně (čl. 8 GDPR). Souhlas zákonných zástupců je povinný.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Ověřte, kde nástroj ukládá data — na evropských serverech, mimoevropských, anonymizovaně či nikoli.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "Do nástrojů generativní UI nikdy nevkládejte celá jména, adresy, identifikační čísla ani klinické diagnózy.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Do nástrojů generativní AI nikdy nevkládejte celá jména, adresy, identifikační čísla ani klinické diagnózy.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
         "Rozlišujte institucionální využití (smlouvu uzavírá škola) od osobního využití učitele (individuální odpovědnost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -3408,10 +3408,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Dokumentovat projevy nadání a začlenit rozšiřující úkoly do plánování výuky.",
       ]},
       { items: [
-        "Žáci cizinci: přípravné třídy (§ 46 Školský zákon), bezplatná jazyková podpora češtiny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Žáci cizinci: přípravné třídy (§ 46 školského zákona), bezplatná jazyková podpora češtiny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Metodické doporučení MŠMT pro vzdělávání cizinců, rámec pro jazykovou a integrační podporu.",
         "Jazyková bariéra musí být jasně oddělena od vzdělávacích obtíží, žák nesmí být doporučen k vyšetření jen kvůli neznalosti jazyka.",
-        "Školy s větším podílem žáků cizinců by měly mít plán interkulturální výchovy.",
+        "Školy s větším podílem žáků cizinců by měly mít plán interkulturní výchovy.",
       ]},
       { items: [
         "Rychlý přehled: Školský zákon 561/2004, Vyhl. 27/2016, PLPP, IVP, PPP, SPC, podpůrná opatření 1–5. stupně.",
@@ -3506,14 +3506,14 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Omedelbar och frekvent positiv förstärkning: vid ADHD är belöningskänsligheten förändrad (motvilja mot väntan), varför omedelbara belöningar fungerar bättre än fördröjda.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Börja med det eleven gör bra — mötet får inte inledas som en lista med klagomål, annars sluter sig vårdnadshavaren defensivt.",
+        "Börja med det eleven gör bra — mötet bör inte inledas med en uppräkning av klagomål, annars sluter sig vårdnadshavaren defensivt.",
         "Beskriv observerade beteenden, inte diagnoser: ”när det är fler än två steg i rad tappar hen tråden” i stället för ”har ADHD”.",
         "Förekom reaktionen ”hemma är det inte så” — förklara att gruppsammanhanget och kravet på långvarig uppmärksamhet i klassrummet gör symtomen mer synliga.",
         "Om du föreslår en utredning, presentera den som en resurs, inte som ett straff: ”det finns stöd som kan hjälpa hen mycket” i stället för ”behöver utredas”.",
       ]},
       { items: [
         "Ihållande regelbrott trots anpassningar i klassrummet.",
-        "Tecken på social uteslutning av jämnåriga.",
+        "Tecken på utfrysning från jämnåriga.",
         "Tecken på samsjuklighet (ångest, depression, trotssyndrom) — vanliga vid ADHD och som motiverar remiss.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
@@ -3545,7 +3545,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Försämrad akademisk självbild (”jag är dum”, ”jag klarar det inte”).",
         "Systematiskt undvikande av läs-/skrivuppgifter i en sådan grad att andra ämnen påverkas.",
-        "Markant skillnad mellan muntlig och skriftlig prestation utan formell diagnos — remittera för psykopedagogisk utredning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Markant skillnad mellan muntlig och skriftlig prestation utan formell diagnos — remittera för läs- och skrivutredning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
     ]},
     autismo: { sections: [
@@ -3662,7 +3662,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Själva mötet är en barriär – vårdnadshavaren behärskar kanske inte svenska tillräckligt väl för ett komplext samtal. Förbered enkelt skriftligt material i förväg, eller be om översättningsstöd.",
-        "Förutsätt inte att vårdnadshavaren känner till det svenska utbildningssystemet – förklara vad elevhälsans psykolog- och vägledningstjänst är, vad en stödåtgärd innebär och vad en utredning medför, utan att ta något för givet.",
+        "Förutsätt inte att vårdnadshavaren känner till det svenska utbildningssystemet – förklara vad elevhälsan är, vad en stödåtgärd innebär och vad en utredning medför, utan att ta något för givet.",
         "Skilj tydligt på språkbarriär och skolförmåga: ”ditt barn är kapabelt – det lär sig språket samtidigt som det lär sig innehållet, vilket är mycket krävande”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Var lyhörd för migrationskontexten: familjer som är flyktingar eller saknar uppehållstillstånd kan hysa misstro mot institutioner. Bygg förtroende innan du ber om dokumentation eller hänvisningar.",
       ]},
@@ -3737,8 +3737,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "FN:s konvention om rättigheter för personer med funktionsnedsättning (2006), ratificerad av Sverige; artikel 24 om inkluderande utbildning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Extra anpassningar (kap. 3 §5a): alla lärare kan göra utan utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Tillämpa principer för Universell Design för lärande: flera sätt att representera, uttrycka och engagera.",
+        "Extra anpassningar (3 kap. 5 a §): kan sättas in av alla lärare utan föregående utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tillämpa principer för Universell design för lärande: flera sätt att representera, uttrycka och engagera.",
         "Utan formell diagnos kan rimliga anpassningar göras: förlängd tid, muntliga svar, alternativa format.",
         "Dokumentera informella observationer av elever med möjliga oupptäckta behov, startpunkt för eventuell utredning.",
       ]},
@@ -4198,7 +4198,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Välitön ja toistuva myönteinen vahvistus: ADHD:ssä palkkioherkkyys on muuttunut (odottamisen vastenmielisyys), joten välittömät palkkiot toimivat paremmin kuin viivästetyt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Aloita siitä, mitä oppilas tekee hyvin — tapaaminen ei voi avautua valitusten luettelona, tai huoltaja sulkeutuu puolustautuen.",
+        "Aloita siitä, mitä oppilas tekee hyvin — älä aloita tapaamista valituslistalla, muuten huoltaja menee puolustuskannalle.",
         "Kuvaile havaittua käyttäytymistä, ei diagnooseja: „kun peräkkäin on enemmän kuin kaksi vaihetta, hän kadottaa langan“ eikä „hänellä on ADHD“.",
         "Ennakoi reaktio „kotona ei ole näin“ — selitä, että ryhmäkonteksti ja luokassa vaadittu pitkäkestoinen tarkkaavaisuus tekevät oireet näkyvämmiksi.",
         "Jos ehdotat arviointia, esitä se voimavarana, ei rangaistuksena: „on tukea, joka voi auttaa häntä paljon“ eikä „hänet on arvioitava“.",
@@ -4426,7 +4426,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Perusopetuslaki 628/1998, velvoittaa antamaan jokaiselle oppilaalle riittävän tuen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oppilas- ja opiskelijahuoltolaki 1287/2013, monialainen oppilashuolto koulussa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Opetushallituksen kolmiportainen tukimalli: yleinen tuki, tehostettu tuki, erityinen tuki.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; artikla 24 inklusiivisesta koulutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; 24 artikla inklusiivisesta koulutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Yleinen tuki: jokaisen opettajan velvollisuus ilman päätöstä, tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -4889,8 +4889,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Azonnali és gyakori pozitív megerősítés: az ADHD esetében a jutalomérzékenység megváltozott (várakozás iránti averzió), ezért az azonnali jutalmak jobban működnek, mint a késleltetettek.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Kezdje azzal, amit a tanuló jól csinál — a megbeszélés nem nyílhat meg panaszok listájaként, különben a szülő/gondviselő védekezően bezárkózik.",
-        "Megfigyelt viselkedéseket írjon le, ne diagnózisokat: „amikor kettőnél több egymást követő lépés van, elveszíti a fonalat” a „ADHD-s” helyett.",
+        "Kezdje azzal, amit a tanuló jól csinál — a megbeszélés nem kezdődhet panaszlistával, különben a szülő/gondviselő védekezően bezárkózik.",
+        "Megfigyelt viselkedéseket írjon le, ne diagnózisokat: „amikor kettőnél több egymást követő lépés van, elveszíti a fonalat” az „ADHD-s” helyett.",
         "Számítson az „otthon nem ilyen” reakcióra — magyarázza el, hogy a csoportos környezet és az osztályban szükséges tartós figyelem teszi láthatóbbá a tüneteket.",
         "Ha vizsgálatot javasol, mutassa be erőforrásként, ne büntetésként: „van olyan támogatás, amely sokat segíthet neki” a „ki kell vizsgáltatni” helyett.",
       ]},
@@ -5124,34 +5124,34 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Az iskolának pedagógiai módszerek tekintetében rugalmasnak kell lennie minden tanuló igényeire.",
       ]},
       { items: [
-        "A Pedagógiai Szakszolgálat (PSZI) végzi a szakértői vizsgálatot és adja ki a szakértői véleményt, amely meghatározza a szükséges támogatásokat.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Az egyéni fejlesztési terv (EFT) az iskola és a PSZI közreműködésével, a szülők bevonásával készül; minden érintett pedagógusra kötelező.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "A pedagógiai szakszolgálat szakértői bizottsága végzi a szakértői vizsgálatot és adja ki a szakértői véleményt, amely meghatározza a szükséges támogatásokat.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Az egyéni fejlesztési terv (EFT) az iskola és a szakértői bizottság közreműködésével, a szülők bevonásával készül; minden érintett pedagógusra kötelező.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Gyógypedagógiai asszisztens és utazótanár igényelhető a jelentősebb szükségletű tanulók esetén a szakértői vélemény alapján.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "A szülő/gondviselő aláírása kötelező az egyéni fejlesztési terven; éves felülvizsgálat szükséges.",
       ]},
       { items: [
-        "Az Nkt. 4. §25 alapján a tehetséggondozás az iskola kötelessége; a MATEHETSZ Tehetségpont hálózat módszertani támogatást nyújt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Osztályugratás az Nkt. alapján lehetséges; az iskola döntése, amelyhez a szülő és a tanuló hozzájárulása szükséges.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "A tehetséges tanulók azonosítása és támogatása a gyakorlatban hiányos, a PSZI tehetségdiagnosztikát végezhet.",
+        "Az Nkt. 4. § 25. pontja alapján a tehetséggondozás az iskola kötelessége; a MATEHETSZ Tehetségpont hálózat módszertani támogatást nyújt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Évfolyamugrás az Nkt. alapján lehetséges; az iskola döntése, amelyhez a szülő és a tanuló hozzájárulása szükséges.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "A tehetséges tanulók azonosítása és támogatása a gyakorlatban hiányos, a szakértői bizottság tehetségdiagnosztikát végezhet.",
       ]},
       { items: [
         "Az Nkt. 45. § alapján felkészítő foglalkozás szervezhető a magyar nyelvet nem ismerő tanulók számára az iskolakezdés előtt vagy az első időszakban.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "A magyar mint idegen nyelv (MNyI) oktatása elérhető, koordinálja az Oktatási Hivatal; nem állítható ki SNI-vélemény kizárólag a nyelvi akadály alapján.",
+        "A magyar mint idegen nyelv (MID) oktatása elérhető, koordinálja az Oktatási Hivatal; nem állítható ki SNI-vélemény kizárólag a nyelvi akadály alapján.",
         "A szülőkkel való kommunikációhoz szükséges esetén tolmács igénybevétele a befogadó iskola felelőssége.",
       ]},
       { items: [
         "<strong>Nkt. 2011. évi CXC.</strong>, nemzeti köznevelési törvény, SNI-rendelkezésekkel.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>32/2012. EMMI rendelet</strong>, SNI tanulók oktatásának irányelvei.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "<strong>PSZI</strong>, Pedagógiai Szakszolgálat, szakértői vizsgálatokhoz.",
+        "<strong>szakértői bizottság</strong>, Pedagógiai Szakszolgálat, szakértői vizsgálatokhoz.",
         "<strong>Egyéni fejlesztési terv (EFT)</strong>, kötelező dokumentum SNI tanulóknál.",
-        "<strong>MNyI</strong>, magyar mint idegen nyelv program.",
+        "<strong>MID</strong>, magyar mint idegen nyelv program.",
       ]},
     ],
     references: [
       "<em>Az ENSZ Egyezménye a fogyatékossággal élő személyek jogairól</em> (CRPD, 2006), amelyet Magyarország a <em>2007. évi XCII. törvénnyel</em> hirdetett ki; 24. cikke az inkluzív oktatáshoz való jogot rögzíti.",
       "<em>2011. évi CXC. törvény a nemzeti köznevelésről</em> (Nkt.); a köznevelési rendszer alaptörvénye, amely meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit, a tehetséggondozást és az intézményi kötelezettségeket.",
       "<em>32/2012. (X. 8.) EMMI rendelet a Sajátos nevelési igényű gyermekek óvodai nevelésének irányelve és a Sajátos nevelési igényű tanulók iskolai oktatásának irányelve kiadásáról</em>; részletesen szabályozza az egyes fogyatékossági típusokhoz szükséges feltételeket.",
-      "<em>15/2013. (II. 26.) EMMI rendelet a pedagógiai szakszolgálati intézmények működéséről</em>; szabályozza a Pedagógiai Szakszolgálat (PSZI) szakértői vizsgálatát és a szakértői vélemény kiadását.",
+      "<em>15/2013. (II. 26.) EMMI rendelet a pedagógiai szakszolgálati intézmények működéséről</em>; szabályozza a Pedagógiai Szakszolgálat (szakértői bizottság) szakértői vizsgálatát és a szakértői vélemény kiadását.",
       "<em>2011. évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról</em> (Infotv.), az általános adatvédelmi rendelet (GDPR) hazai kiegészítője; a tanulók adatai csak hozzájárulással kezelhetők és oszthatók meg.",
     ] },
     diferenciacao: { sections: [
@@ -5234,7 +5234,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Άμεση και συχνή θετική ενίσχυση: στη ΔΕΠΥ η ευαισθησία στην ανταμοιβή είναι αλλοιωμένη (αποστροφή προς την αναμονή), επομένως οι άμεσες ανταμοιβές λειτουργούν καλύτερα από τις μεταγενέστερες.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ξεκινήστε από αυτό που κάνει καλά ο μαθητής — η συνάντηση δεν μπορεί να ανοίγει σαν κατάλογος παραπόνων, αλλιώς ο γονέας/κηδεμόνας κλείνεται αμυντικά.",
+        "Ξεκινήστε από αυτό που κάνει καλά ο μαθητής — η συνάντηση δεν πρέπει να ξεκινά με κατάλογο παραπόνων, αλλιώς ο γονέας/κηδεμόνας κλείνεται αμυντικά.",
         "Περιγράψτε συμπεριφορές που παρατηρήθηκαν, όχι διαγνώσεις: «όταν υπάρχουν περισσότερα από δύο διαδοχικά βήματα, χάνει τον ειρμό» αντί για «έχει ΔΕΠΥ».",
         "Προβλέψτε την αντίδραση «στο σπίτι δεν είναι έτσι» — εξηγήστε ότι το πλαίσιο της ομάδας και η απαίτηση παρατεταμένης προσοχής στην τάξη καθιστούν τα συμπτώματα πιο ορατά.",
         "Αν προτείνετε αξιολόγηση, παρουσιάστε την ως πόρο, όχι ως τιμωρία: «υπάρχει υποστήριξη που μπορεί να τον/την βοηθήσει πολύ» αντί για «πρέπει να αξιολογηθεί».",
@@ -5251,7 +5251,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Οι αντιστροφές γραμμάτων (b/d, p/q) είναι συνηθισμένες σε όλα τα παιδιά που αρχίζουν να γράφουν και δεν αποτελούν, από μόνες τους, ένδειξη δυσλεξίας· η κεντρική δυσκολία είναι <strong>φωνολογική</strong> — η συσχέτιση γραμμάτων με ήχους.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Επίμονα ορθογραφικά λάθη που δεν υποχωρούν παρά την επανειλημμένη διόρθωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Τείνει να αποφεύγει τη φωναχτή ανάγνωση· μπορεί να φαίνεται αδιαφορία ενώ στην πραγματικότητα πρόκειται για στρατηγική προστασίας.",
-        "Η προφορική κατανόηση είναι σαφώς ανώτερη από την αναγνωστική — η δυσκολία είναι ειδική, όχι μια γενικός γνωστικός περιορισμός.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Η προφορική κατανόηση είναι σαφώς ανώτερη από την αναγνωστική — η δυσκολία είναι ειδική, όχι ένας γενικός γνωστικός περιορισμός.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>Δεν είναι</strong> έλλειψη ευφυΐας: εξ ορισμού, η δυσλεξία είναι απρόσμενη σε σχέση με τις άλλες γνωστικές ικανότητες του μαθητή.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -5390,7 +5390,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Η ίδια η συνάντηση αποτελεί εμπόδιο — ο γονέας/κηδεμόνας ίσως δεν μιλά ελληνικά με επαρκή γνώση για μια σύνθετη συζήτηση. Προετοιμάστε εκ των προτέρων απλό γραπτό υλικό ή ζητήστε υποστήριξη διερμηνείας.",
-        "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι η υπηρεσία σχολικής ψυχολογίας και προσανατολισμού, τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
+        "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι το ΚΕΔΑΣΥ και η ΕΔΥ, τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
         "Διαχωρίστε με σαφήνεια το γλωσσικό εμπόδιο από τη σχολική ικανότητα: «το παιδί σας είναι ικανό — μαθαίνει τη γλώσσα ταυτόχρονα με το περιεχόμενο, κάτι που είναι ιδιαίτερα απαιτητικό».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Δείξτε ευαισθησία απέναντι στο μεταναστευτικό πλαίσιο: οικογένειες προσφύγων ή σε καθεστώς χωρίς νομιμοποιητικά έγγραφα ενδέχεται να δυσπιστούν προς τους θεσμούς. Χτίστε εμπιστοσύνη προτού ζητήσετε έγγραφα ή παραπομπές.",
       ]},
@@ -5460,8 +5460,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     legislacao: { sections: [
       { items: [
         "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΣΥ ως κεντρικά σημεία συντονισμού.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η ινκλουσίβ εκπαίδευση είναι κρατική πολιτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΔΑΣΥ ως κεντρικά σημεία συντονισμού.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η συμπεριληπτική εκπαίδευση είναι κρατική πολιτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Η παράλληλη στήριξη και η ενισχυτική διδασκαλία αποτελούν βασικές υποστηρικτικές δομές· οι γενικές προσαρμογές είναι ευθύνη κάθε εκπαιδευτικού χωρίς ειδικά έγγραφα.",
@@ -5469,8 +5469,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Πρακτικά παραδείγματα: επιπλέον χρόνος σε αξιολογήσεις, γραπτές οδηγίες επιπλέον των προφορικών, εναλλακτική προφορική αξιολόγηση.",
       ]},
       { items: [
-        "Τα ΚΕΣΥ (Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης) αξιολογούν τις εκπαιδευτικές ανάγκες και εκδίδουν γνωματεύσεις.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ) συντάσσεται από τον εκπαιδευτικό παράλληλης στήριξης σε συνεργασία με τον/την εκπαιδευτικό τάξης και τους γονείς.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Τα ΚΕΔΑΣΥ (Κέντρα Διεπιστημονικής Αξιολόγησης, Συμβουλευτικής και Υποστήριξης) αξιολογούν τις εκπαιδευτικές ανάγκες και εκδίδουν γνωματεύσεις.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Το Εξατομικευμένο Πρόγραμμα Εκπαίδευσης (ΕΠΕ) συντάσσεται από τον εκπαιδευτικό παράλληλης στήριξης σε συνεργασία με τον/την εκπαιδευτικό τάξης και τους γονείς.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Ο εκπαιδευτικός παράλληλης στήριξης (ΕΠΣ) παρέχεται σε μαθητές με γνωμάτευση από ΚΕΣΥ· η υπαγωγή σε ειδικό σχολείο αποτελεί έσχατη επιλογή.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Η υπογραφή των γονέων είναι απαραίτητη για το ΑΕΠ και για οποιαδήποτε αλλαγή εκπαιδευτικού πλαισίου.",
       ]},
@@ -5481,8 +5481,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Οι τάξεις υποδοχής (ΤΥ Ι & ΤΥ ΙΙ) παρέχουν ελληνόγλωσση εκπαίδευση για νεοαφιχθέντες αλλόγλωσσους μαθητές.",
-        "Το Πρόγραμμα Διαπολιτισμικής Αγωγής (ΔΑΠ) υποστηρίζει την ένταξη μαθητών διαφορετικής πολιτισμικής προέλευσης.",
-        "Η γλωσσική εμπόδιο δεν αποτελεί λόγο παραπομπής σε ειδική αγωγή, πρέπει πρώτα να αποκλειστούν άλλες αιτίες.",
+        "Το πλαίσιο διαπολιτισμικής εκπαίδευσης (Ν. 2413/1996) υποστηρίζει την ένταξη μαθητών διαφορετικής πολιτισμικής προέλευσης.",
+        "Το γλωσσικό εμπόδιο δεν αποτελεί λόγο παραπομπής σε ειδική αγωγή, πρέπει πρώτα να αποκλειστούν άλλες αιτίες.",
       ]},
       { items: [
         "<strong>Ν. 3699/2008</strong>, βασικό πλαίσιο ειδικής αγωγής.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -5494,7 +5494,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ],
     references: [
       "<em>Σύμβαση των Ηνωμένων Εθνών για τα Δικαιώματα των Ατόμων με Αναπηρία</em> (CRPD, 2006), που κυρώθηκε από την Ελλάδα με τον <em>Ν. 4074/2012</em>· το άρθρο 24 κατοχυρώνει το δικαίωμα στη συμπεριληπτική εκπαίδευση.",
-      "<em>Νόμος 3699/2008</em> «Ειδική Αγωγή και Εκπαίδευση ατόμων με αναπηρία ή με ειδικές εκπαιδευτικές ανάγκες»· βασικό νομοθετικό πλαίσιο που προβλέπει την παράλληλη στήριξη και το Ατομικό Εκπαιδευτικό Πρόγραμμα (ΑΕΠ).",
+      "<em>Νόμος 3699/2008</em> «Ειδική Αγωγή και Εκπαίδευση ατόμων με αναπηρία ή με ειδικές εκπαιδευτικές ανάγκες»· βασικό νομοθετικό πλαίσιο που προβλέπει την παράλληλη στήριξη και το Εξατομικευμένο Πρόγραμμα Εκπαίδευσης (ΕΠΕ).",
       "<em>Νόμος 4823/2021</em> «Αναβάθμιση του σχολείου, ενδυνάμωση των εκπαιδευτικών και άλλες διατάξεις»· ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης (ΚΕΣΥ/ΚΕΔΑΣΥ).",
       "<em>Νόμος 2413/1996</em> για τη Διαπολιτισμική Εκπαίδευση και οι σχετικές υπουργικές αποφάσεις για τις Τάξεις Υποδοχής (ΤΥ Ι & ΤΥ ΙΙ) και τα προγράμματα διαπολιτισμικής αγωγής για αλλόγλωσσους μαθητές.",
       "<em>Νόμος 4624/2019</em> για την Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα και την εφαρμογή του Γενικού Κανονισμού (ΕΕ) 2016/679 (GDPR)· όλα τα δεδομένα των μαθητών προστατεύονται και δεν κοινοποιούνται χωρίς συγκατάθεση.",
@@ -5928,7 +5928,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pradėti nuo to, ką mokinys daro gerai — susitikimas negali prasidėti nuo skundų sąrašo, antraip tėvai (globėjai) gynybiškai užsisklendžia.",
         "Apibūdinti pastebėtą elgesį, o ne diagnozes: „kai iš eilės būna daugiau nei du žingsniai, jis pameta giją“, o ne „jis turi ADHD“.",
         "Numatyti reakciją „namuose taip nebūna“ — paaiškinti, kad grupinis kontekstas ir reikalavimas ilgai išlaikyti dėmesį klasėje padaro simptomus labiau matomus.",
-        "Jei siūloma įvertinimas, pateikti jį kaip pagalbą, o ne kaip bausmę: „yra pagalba, kuri jam (jai) gali labai padėti“, o ne „jį (ją) reikia įvertinti“.",
+        "Jei siūlomas įvertinimas, pateikti jį kaip pagalbą, o ne kaip bausmę: „yra pagalba, kuri jam (jai) gali labai padėti“, o ne „jį (ją) reikia įvertinti“.",
       ]},
       { items: [
         "Nuolatiniai drausmės pažeidimai nepaisant pritaikymų klasėje.",
@@ -6152,7 +6152,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; inkliuzinis ugdymas yra valstybinė politika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; įtraukusis ugdymas yra valstybinė politika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "Individualizuotas ugdymas ir diferenciacija yra kiekvieno mokytojo pareiga be jokios specialios dokumentacijos.",
@@ -6166,17 +6166,17 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tėvų sutikimas reikalingas IUP; kasmetinis peržiūrėjimas privalomas.",
       ]},
       { items: [
-        "Talentų akademija ir Jaunųjų talentų programa teikia papildomą paramą gabiems mokiniams.",
+        "nacionalinės gabiųjų ugdymo programos (pvz., Nacionalinė moksleivių akademija) teikia papildomą paramą gabiems mokiniams.",
         "Pagreičio (klasių praleidimo) galimybė egzistuoja pagal įstatymą, tačiau naudojama retai.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Praktikoje gabių mokinių atpažinimas yra nepakankamas, PPT gali atlikti gabumo įvertinimą.",
       ]},
       { items: [
-        "Pasirengimo klasės yra skirtos mokiniams, nemokantis lietuvių kalbos.",
-        "Lietuvių kalba kaip svetimoji kalbą mokomasi papildomose pamokose; mokyklos psichologas koordinuoja adaptaciją.",
+        "Pasirengimo klasės yra skirtos mokiniams, nemokantiems lietuvių kalbos.",
+        "Lietuvių kalbos kaip svetimosios mokomasi papildomose pamokose; mokyklos psichologas koordinuoja adaptaciją.",
         "Kalbos barjeras nėra pagrindas specialiajam ugdymui, pirmiau reikia pašalinti kitas priežastis.",
       ]},
       { items: [
-        "<strong>Švietimo įstatymas 2011</strong>, SUP ir inkliuzinio ugdymo pagrindas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Švietimo įstatymas 2011</strong>, SUP ir įtraukiojo ugdymo pagrindas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>PPT</strong>, Pedagoginė psichologinė tarnyba.",
         "<strong>IUP</strong>, individualizuota ugdymosi programa.",
         "<strong>Specialusis pedagogas</strong>, koordinuoja pagalbą mokykloje.",
@@ -6267,18 +6267,18 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sadalīt norādījumus: pa vienam, rakstiski uz tāfeles, ar noteiktu laiku — tas samazina slodzi uz darba atmiņu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Atļaut pamatotu kustēšanos (izdalīt piederumus, noslaucīt tāfeli, aiznest ziņu).",
         "Samazināt konkurējošos kairinātājus (vieta tālāk no loga, durvīm, trokšņainākās grupas).",
-        "Tūlītējs un biežs pozitīvs pastiprinājums: AUDH gadījumā jutība pret atlīdzību ir izmainīta (gaidīšanas nepatika), tāpēc tūlītējas atlīdzības darbojas labāk nekā atliktas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tūlītējs un biežs pozitīvs pastiprinājums: ADHD gadījumā jutība pret atlīdzību ir izmainīta (gaidīšanas nepatika), tāpēc tūlītējas atlīdzības darbojas labāk nekā atliktas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Sākt ar to, ko skolēns dara labi — sapulce nedrīkst sākties kā sūdzību saraksts, citādi vecāks (aizbildnis) aizvērsies aizsardzībā.",
-        "Aprakstīt novēroto uzvedību, nevis diagnozes: „kad pēc kārtas ir vairāk nekā divi soļi, viņš pazaudē domas pavedienu“, nevis „viņam ir AUDH“.",
+        "Sākt ar to, ko skolēns dara labi — saruna nedrīkst sākties ar sūdzību uzskaitījumu, citādi vecāks (aizbildnis) aizvērsies aizsardzībā.",
+        "Aprakstīt novēroto uzvedību, nevis diagnozes: „kad pēc kārtas ir vairāk nekā divi soļi, viņš pazaudē domas pavedienu“, nevis „viņam ir ADHD“.",
         "Paredzēt reakciju „mājās tā nav“ — izskaidrot, ka grupas konteksts un prasība ilgstoši noturēt uzmanību klasē padara simptomus redzamākus.",
         "Ja ierosina izvērtēšanu, piedāvāt to kā resursu, nevis kā sodu: „ir atbalsts, kas viņam (viņai) var ļoti palīdzēt“, nevis „viņš (viņa) ir jāizvērtē“.",
       ]},
       { items: [
         "Pastāvīgi disciplīnas pārkāpumi, neraugoties uz pielāgojumiem klasē.",
         "Vienaudžu sociālas atstumšanas pazīmes.",
-        "Komorbiditātes pazīmes (trauksme, depresija, opozicionāri izaicinoša uzvedība) — biežas AUDH gadījumā un kas pamato nosūtīšanu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Komorbiditātes pazīmes (trauksme, depresija, opozicionāri izaicinoša uzvedība) — biežas ADHD gadījumā un kas pamato nosūtīšanu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
     ]},
     dislexia: { sections: [
@@ -6307,7 +6307,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Būt konkrētiem par jau ieviestajiem pielāgojumiem un tiem, kurus aizbildnis var atkārtot mājās: teksti audio formātā, lasīšana skaļi bez laika spiediena.",
       ]},
       { items: [
-        "Pasliktinošs akadēmiskais paštēls („esmu muļķis“, „es nespēju“).",
+        "Pasliktinājies akadēmiskais paštēls („esmu muļķis“, „es nespēju“).",
         "Sistemātiska izvairīšanās no lasīšanas/rakstīšanas uzdevumiem tādā mērā, ka tas apdraud citus mācību priekšmetus.",
         "Izteikta neatbilstība starp mutvārdu un rakstisko sniegumu bez formālas diagnozes — nosūtīt uz psihopedagoģisko novērtējumu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
@@ -6455,7 +6455,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "<strong>1.</strong> Vai rīks novērš reālu šķērsli, vai arī rada saīsni, kas izlaiž mācīšanos?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "<strong>2.</strong> Vai ievadītie dati ir aizsargāti un vai piekrišana pastāv?",
+        "<strong>2.</strong> Vai ievadītie dati ir aizsargāti un vai ir saņemta piekrišana?",
         "<strong>3.</strong> Vai rīka rezultātu pirms nonākšanas pie skolēna pārbaudīs cilvēks?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Vai pastāv alternatīva bez MI, kas darbojas tikpat labi?",
         "<strong>5.</strong> Ja rīks rīt pārstātu pastāvēt, vai skolēns paliktu bezpalīdzīgs?",
@@ -6496,7 +6496,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     legislacao: { sections: [
       { items: [
         "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Speciālās izglītības likums (1995, grozījumi) regulē atbalstu skolēniem ar speciālām vajadzībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vispārējās izglītības likums (1999) regulē atbalstu skolēniem ar speciālām vajadzībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
@@ -6513,12 +6513,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Latviešu valoda kā otrā valoda (LV2) ir paredzēta skolēniem, kuru dzimtā valoda nav latviešu.",
         "Divvalodīgā izglītība ir pieejama dažās skolās mazākumtautību kopienām.",
-        "Integrācijas atbalsts ir pieejams jaunierašanās skolēniem caur pašvaldību dienestiem.",
+        "Integrācijas atbalsts ir pieejams jaunatbraukušajiem skolēniem caur pašvaldību dienestiem.",
       ]},
       { items: [
         "Latvija ir ratificējusi ANO Konvenciju par personu ar invaliditāti tiesībām (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "ES direktīvas par iekļaujošo izglītību tiek ieviestas ar nacionālo tiesību aktiem.",
-        "Ombuds ir tiesīgs izskatīt sūdzības par diskrimināciju izglītībā.",
+        "Tiesībsargs ir tiesīgs izskatīt sūdzības par diskrimināciju izglītībā.",
       ]},
       { items: [
         "Vecākiem/aizbildņiem ir tiesības piedalīties IIP izstrādē un pārskatīšanā.",
@@ -6601,7 +6601,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Võib hüperkeskenduda sellele, mis teda huvitab, jättes (eksliku) mulje, et „suudab, kui tahab“; tegelikult sõltub sooritus huvist ja tasust.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "<strong>See ei ole</strong> halb kasvatus, laiskus ega iseloomupuudus: need väärarusaamad häbimärgistavad ja viivitavad toetust.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>See ei ole</strong> halb kasvatus, laiskus ega iseloomupuudus: need väärarusaamad häbimärgistavad ja lükkavad abi edasi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>See ei ole</strong> alati nähtav hüperaktiivsus — esineb valdavalt tähelepanematu avaldumisvorm, mis on sagedasem tüdrukutel ja sageli aladiagnoositud.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
         "<strong>See ei lahene</strong> „rohkem pingutamisega“: raskus peitub neuroloogilises eneseregulatsioonis, mitte tahtes.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
@@ -6612,8 +6612,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vahetu ja sage positiivne kinnitus: ATH puhul on tasutundlikkus muutunud (ootamise vastumeelsus), mistõttu vahetud tasud toimivad paremini kui edasilükatud.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Alusta sellest, mida õpilane teeb hästi — koosolek ei tohi avaneda kaebuste loeteluna, muidu tõmbub lapsevanem (hooldaja) kaitsvalt endasse.",
-        "Kirjelda täheldatud käitumist, mitte diagnoose: „kui järjest on rohkem kui kaks sammu, kaotab ta lõnga“, mitte „tal on ATH“.",
+        "Alusta sellest, mida õpilane teeb hästi — kohtumine ei tohi alata kaebuste loeteluga, muidu tõmbub lapsevanem (hooldaja) kaitsvalt endasse.",
+        "Kirjelda täheldatud käitumist, mitte diagnoose: „kui järjest on rohkem kui kaks sammu, kaotab ta järje“, mitte „tal on ATH“.",
         "Näe ette reaktsioon „kodus see nii ei ole“ — selgita, et rühmakontekst ja klassis nõutav pikaajaline tähelepanu muudavad sümptomid nähtavamaks.",
         "Kui soovitad hindamist, esita see ressursina, mitte karistusena: „on olemas tugi, mis võib teda väga aidata“, mitte „teda tuleb hinnata“.",
       ]},
@@ -7282,12 +7282,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Gluaiseacht leanúnach — ní fhanann sé ina shuí, bíonn a lámha ag corraí, éiríonn sé gan chúis fheiceálach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Freagraíonn sé sula gcríochnaítear an cheist; cuireann sé isteach ar a chomhscoláirí agus ar an múinteoir.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
         "Déanann sé dearmad ar ábhair, ar spriocdhátaí agus ar threoracha a tugadh ó bhéal cúpla nóiméad ó shin — tá an chuimhne oibre ró-ualaithe.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "D'fhéadfadh sé hipear-fhócas a dhéanamh ar an méid a bhfuil suim aige ann, rud a thugann an tuiscint (mhícheart) gur „féidir leis nuair is mian leis”; i ndáiríre, athraíonn a fheidhmíocht de réir an spéis agus an luaíocht.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "D'fhéadfadh sé hipear-fhócas a dhéanamh ar an méid a bhfuil suim aige ann, rud a thugann an tuiscint (mhícheart) gur „féidir leis nuair is mian leis”; i ndáiríre, athraíonn a fheidhmíocht de réir na spéise agus na luaíochta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
         "<strong>Ní</strong> drochbhéasaíocht, leisce ná easpa carachtair atá ann: déanann na smaointe míchearta seo stiogmatú agus cuireann siad moill ar an tacaíocht.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>Ní</strong> hipirghníomhaíocht fheiceálach i gcónaí atá ann — tá léiriú ann atá neamhairdiúil den chuid is mó, atá níos coitianta i gcailíní agus a ndéantar tearcdhiagnóis air go minic.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
-        "<strong>Ní</strong> réitítear é le „níos mó iarrachta”: tá an deacracht san fhéinrialáil néareolaíoch, ní san toil.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní</strong> réitítear é le „níos mó iarrachta”: tá an deacracht san fhéinrialáil néareolaíoch, ní sa toil.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Roinn na treoracha ina mblúiríní: ceann amháin ag an am, scríofa ar an gclár, le ham sainithe — laghdaíonn sé seo an t-ualach ar an gcuimhne oibre.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -7296,7 +7296,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Treisiú dearfach láithreach agus go minic: in ADHD tá an íogaireacht don luaíocht athraithe (col leis an bhfanacht), agus mar sin oibríonn luaíochtaí láithreacha níos fearr ná cinn mhoillithe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Tosaigh leis an méid a dhéanann an dalta go maith — ní féidir leis an gcruinniú oscailt mar liosta gearán, nó dúnann an tuismitheoir/caomhnóir é féin go cosantach.",
+        "Tosaigh leis an méid a dhéanann an dalta go maith — ná tosaigh an cruinniú le liosta gearán, nó dúnann an tuismitheoir/caomhnóir é féin go cosantach.",
         "Déan cur síos ar iompraíochtaí breathnaithe, ní ar dhiagnóisí: „nuair atá níos mó ná dhá chéim as a chéile ann, cailleann sé an snáithe” in ionad „tá ADHD air”.",
         "Bí ag súil leis an bhfreagairt „níl sé mar sin sa bhaile” — mínigh go ndéanann comhthéacs an ghrúpa agus an éileamh ar aird fhada sa seomra ranga na hairíonna níos feiceálaí.",
         "Má mholann tú measúnú, cuir i láthair é mar acmhainn, ní mar phionós: „tá tacaíocht ann a d'fhéadfadh cabhrú go mór leis/léi” in ionad „caithfear measúnú a dhéanamh air/uirthi”.",
@@ -7466,7 +7466,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Tá sonraí mionaoiseach faoi réir cosanta neartaithe (Airteagal 8 RGCS). Tá toiliú na gcaomhnóirí riachtanach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Seiceáil cá stórálann an uirlis sonraí — ar fhreastalaithe Eorpacha nó neamh-Eorpacha, gan ainm nó nach ea.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "Ná cuir ainmneacha iomlána, seoltaí, uimhreacha aitheantais ná fáthmheasanna cliniciúla isteach in uirlisí IS gineadúla riamh.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ná cuir ainmneacha iomlána, seoltaí, uimhreacha aitheantais ná fáthmheasanna cliniciúla isteach in uirlisí giniúnacha IS riamh.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
         "Déan idirdhealú idir úsáid institiúideach (síníonn an scoil conradh) agus úsáid phearsanta an mhúinteora (freagracht aonair).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -7521,7 +7521,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "Acht Oideachais 1998 bunaíonn creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Bunaíonn an tAcht Oideachais 1998 creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
@@ -7531,13 +7531,13 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "NEPS (An tSeirbhís Náisiúnta Síceolaíochta Oideachais) déanann measúnú agus tacaíonn le scoláirí.",
       ]},
       { items: [
-        "IEP (Plean Oideachais Aonair) réamhshocraithe ag múinteoir acmhainne, tuismitheoirí agus NCSE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Dréachtaítear an IEP (Plean Oideachais Aonair) ag an múinteoir acmhainne, na tuismitheoirí agus an NCSE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Múinteoirí Acmhainne agus Foghlaim-Tacaíochta cuireann tacaíocht dhíreach ar fáil laistigh den rang agus lasmuigh de.",
         "Cúntóirí Riachtanas Speisialta (SNAnna) cuireann cúnamh pearsanta ar fáil leis an scoláire.",
-        "Measúnú síceolaíoch tríd NEPS nó trí chleachtas príobháideach mar shíol don IEP.",
+        "Measúnú síceolaíoch trí NEPS nó trí chleachtas príobháideach mar bhunús don IEP.",
       ]},
       { items: [
-        "Béarla mar Theanga Bhreise (EAL) ar fáil le haghaidh scoláirí a dtéann Gaeilge nó Béarla ar a gcomhscoláire.",
+        "Béarla mar Theanga Bhreise (EAL) do scoláirí nach í an Ghaeilge ná an Béarla a gcéad teanga.",
         "Cláir chuideachta teanga tacaíonn le scoláirí imirceacha agus dídeanaithe.",
         "Tá an NCSE freagrach as tacaíocht a eagrú do scoláirí ón gcoigríoch.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
@@ -7628,7 +7628,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "<strong>Mhux</strong> edukazzjoni ħażina, għażż jew nuqqas ta' karattru: dawn l-ideat żbaljati jistigmatizzaw u jdewmu l-appoġġ.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "<strong>Mhux</strong> dejjem ipperattività viżibbli — hemm preżentazzjoni predominantement inattenta, aktar frekwenti fil-bniet u ħafna drabi sottodijanjostikata.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Mhux</strong> dejjem iperattività viżibbli — hemm preżentazzjoni predominantement inattenta, aktar frekwenti fil-bniet u ħafna drabi sottodijanjostikata.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
         "<strong>Ma jissolvix</strong> b'„jagħmel aktar sforz”: id-diffikultà tinsab fl-awtoregolazzjoni newroloġika, mhux fir-rieda.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
@@ -7638,8 +7638,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tisħiħ pożittiv immedjat u frekwenti: fl-ADHD is-sensittività għall-premju hija mibdula (avversjoni għall-istennija), għalhekk il-premjijiet immedjati jaħdmu aħjar minn dawk imdewma.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
-        "Ibda b'dak li l-istudent jagħmel tajjeb — il-laqgħa ma tistax tinfetaħ bħala lista ta' lmenti, inkella l-ġenitur/kustodju jingħalaq b'mod difensiv.",
-        "Iddeskrivi mġiba osservata, mhux dijanjożijiet: „meta jkun hemm aktar minn żewġ passi wara xulxin, jitlef il-ħajt” minflok „għandu l-ADHD”.",
+        "Ibda b'dak li l-istudent jagħmel tajjeb — m'għandekx tibda l-laqgħa b'lista ta' ilmenti, inkella l-ġenitur/kustodju jingħalaq b'mod difensiv.",
+        "Iddeskrivi mġiba osservata, mhux dijanjożijiet: „meta jkun hemm aktar minn żewġ passi wara xulxin, jitlef it-tarf” minflok „għandu l-ADHD”.",
         "Antiċipa r-reazzjoni „d-dar mhux hekk” — spjega li l-kuntest tal-grupp u l-ħtieġa ta' attenzjoni mtawla fil-klassi jagħmlu s-sintomi aktar viżibbli.",
         "Jekk tissuġġerixxi evalwazzjoni, ippreżentaha bħala riżorsa, mhux bħala kastig: „hemm appoġġ li jista' jgħinu/jgħinha ħafna” minflok „jeħtieġ li jiġi/tiġi evalwat/a”.",
       ]},
@@ -7779,7 +7779,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Prestazzjoni akkademika baxxa fid-dehra, ħafna drabi sproporzjonata mal-kapaċità reali tiegħu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Skiet fil-klassi — jista' jkun „perjodu sieket\" normali matul l-akkwist tal-lingwa, mhux nuqqas ta' interess.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Sa tmiem il-jum jista' jkun eżawrit minħabba li jkun qed jipproċessa l-lingwa f'ħin reali.",
-        "Riskju ta' sottodijanjożi ta' bżonnijiet edukattivi reali (disleksja, ADHD) minħabba li kollox jiġi attribwit lill-ostakolu lingwistiku.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riskju ta' sottodijanjożi ta' bżonnijiet edukattivi reali (dislessja, ADHD) minħabba li kollox jiġi attribwit lill-ostakolu lingwistiku.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>Mhuwiex</strong> nuqqas ta' intelliġenza jew ta' kapaċità.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -7808,7 +7808,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Id-data tal-minorenni hija soġġetta għal protezzjoni msaħħa (Artikolu 8 GDPR). Il-kunsens tal-ġenituri jew tuturi huwa obbligatorju.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Iċċekkja fejn l-għodda taħżen id-data — fuq servers Ewropej jew mhux Ewropej, anonimizzata jew le.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "Qatt iddaħħal ismijiet sħaħ, indirizzi, numri ta' identifikazzjoni jew dijanjosijiet kliniċi f'għodod tal-IA ġenerattiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Qatt iddaħħal ismijiet sħaħ, indirizzi, numri ta' identifikazzjoni jew dijanjosijiet kliniċi f'għodod tal-AI ġenerattiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
         "Iddistingwi l-użu istituzzjonali (l-iskola tiffirma kuntratt) mill-użu personali tal-għalliem (responsabbiltà individwali).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -7818,14 +7818,14 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "L-għan huwa li tiżdied l-awtonomija tal-istudent, mhux li tissostitwixxi x-xogħol konjittiv li jiżviluppah.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
-        "Iddistingwi <strong>għodda ta' aċċess</strong> (text-to-speech għal student bid-disleksja) minn <strong>għodda ta' sostituzzjoni</strong> (ChatGPT jikteb il-kompożizzjoni).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Iddistingwi <strong>għodda ta' aċċess</strong> (text-to-speech għal student bid-dislessja) minn <strong>għodda ta' sostituzzjoni</strong> (ChatGPT jikteb il-kompożizzjoni).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Evalwa regolarment: l-istudent qed jiżviluppa kompetenza, jew qed jiżviluppa dipendenza fuq l-għodda?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
       ]},
       { items: [
-        "<strong>1.</strong> L-għodda ssolvi ostaklu reali jew toħloq xortcut li jaqbeż it-tagħlim?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>1.</strong> L-għodda ssolvi ostaklu reali jew toħloq shortcut li jaqbeż it-tagħlim?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "<strong>2.</strong> Id-data mdaħħla hija protetta u jeżisti l-kunsens?",
         "<strong>3.</strong> Ir-riżultat tal-għodda se jiġi vverifikat minn bniedem qabel ma jasal għand l-istudent?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "<strong>4.</strong> Teżisti alternattiva mingħajr IA li taħdem daqstant tajjeb?",
+        "<strong>4.</strong> Teżisti alternattiva mingħajr AI li taħdem daqstant tajjeb?",
         "<strong>5.</strong> Jekk l-għodda tieqaf teżisti għada, l-istudent jibqa' bla appoġġ?",
       ]},
     ],
@@ -7863,20 +7863,20 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
     legislacao: { sections: [
       { items: [
-        "L-Att dwar l-Edukazzjoni (Kap. 327, 1988, emendat) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Il-Politika tal-Edukazzjoni Inklussiva (2019, ibbażata fuq ir-Rapport Bellerate) tartikolà l-approċċ Malti għall-bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "L-Att dwar l-Edukazzjoni (Kap. 605, 2019) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Il-Politika tal-Edukazzjoni Inklussiva (2019, „Route to Quality Inclusion”) tartikola l-approċċ Malti għall-bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tibbenefikja mill-politika nazzjonali.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tinforma l-politika nazzjonali.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "LSE (Learning Support Educator) jappoġġja lill-istudenti b'bżonnijiet speċjali fil-klassi regolari.",
         "Id-Dipartiment tal-Inklużjoni u r-Riżorsi tal-Edukazzjoni (DIER) jimmaniġġja s-servizzi ta' bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Student Development Programme (SDP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Individual Educational Programme (IEP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Statement of Needs: dokument li jidentifika l-bżonnijiet ta' student wara stħarriġ professjonali.",
-        "LSEs jappoġġjaw in-needful students fiċ-ċirkustanzi tal-klassi ordinarja.",
-        "Psikologi skolastiċi huma disponibbli permezz tal-Iskejjel tal-Gvern u l-Ispjega tal-Edukazzjoni.",
+        "L-LSEs jappoġġjaw lill-istudenti li jeħtieġu appoġġ fil-klassi ordinarja.",
+        "Psikologi skolastiċi huma disponibbli permezz tal-Iskejjel tal-Gvern u id-Direttorat għas-Servizzi Edukattivi.",
       ]},
       { items: [
         "Il-Malti u l-Ingliż huma l-ilsna uffiċjali tal-istruzzjoni f'Malta.",
@@ -7896,8 +7896,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ],
     references: [
       "<em>Il-Konvenzjoni tan-Nazzjonijiet Uniti dwar id-Drittijiet tal-Persuni b'Diżabilità</em> (CRPD, 2006), irratifikata minn Malta fl-2012; l-Artikolu 24 jistabbilixxi d-dritt għal edukazzjoni inklussiva.",
-      "<em>L-Att dwar l-Edukazzjoni (Kapitolu 327 tal-Liġijiet ta' Malta)</em>; il-qafas legali ġenerali tal-edukazzjoni li jobbliga l-aċċess u l-inklużjoni għat-tfal kollha ta' età skolastika.",
-      "<em>Politika dwar l-Edukazzjoni Inklussiva fl-Iskejjel</em> (Ministeru tal-Edukazzjoni, 2019); tartikola l-approċċ Malti għall-bżonnijiet edukattivi individwali, il-Learning Support Educators (LSE) u s-Student Development Programme (SDP).",
+      "<em>L-Att dwar l-Edukazzjoni (Kapitolu 605 tal-Liġijiet ta' Malta)</em>; il-qafas legali ġenerali tal-edukazzjoni li jobbliga l-aċċess u l-inklużjoni għat-tfal kollha ta' età skolastika.",
+      "<em>Politika dwar l-Edukazzjoni Inklussiva fl-Iskejjel</em> (Ministeru tal-Edukazzjoni, 2019); tartikola l-approċċ Malti għall-bżonnijiet edukattivi individwali, il-Learning Support Educators (LSE) u s-Individual Educational Programme (IEP).",
       "<em>L-Att dwar l-Opportunitajiet Indaqs (Persuni b'Diżabilità) (Kapitolu 413 tal-Liġijiet ta' Malta)</em>; jiżgura li l-persuni b'diżabilità jgawdu l-istess drittijiet fundamentali mingħajr diskriminazzjoni u jistabbilixxi l-KNPD.",
       "<em>L-Att dwar il-Protezzjoni tad-Data 2018 (Kapitolu 586 tal-Liġijiet ta' Malta)</em>, li jimplimenta r-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR); id-data kollha tal-istudenti hija protetta u ma tinqasamx mingħajr kunsens.",
     ] },
