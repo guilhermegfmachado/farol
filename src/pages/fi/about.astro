@@ -8,7 +8,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const t = ui['fi'];
 ---
-<Base title="Tietoja — Farol" description="Mitä Farol on, miten sitä käytetään ja mitä tekoälysektiioilta voi odottaa.">
+<Base title="Tietoja — Farol" description="Mitä Farol on, miten sitä käytetään ja mitä tekoälyosioilta voi odottaa.">
   <Header lang="fi" altHrefs={allAboutHrefs(base)} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}fi/` }, { label: t.breadcrumb_about }]} />
   <article class="card animate-in">
@@ -38,12 +38,12 @@ const t = ui['fi'];
       <ul>
         <li><span>Valitse etusivulta profiili, joka vastaa eniten mielessäsi olevaa oppilasta. Kortilla olevat lyhyet kuvaukset ovat tarkoituksellisesti suorat, valitse sen mukaan, mitä tunnistat, ei teknisen nimen perusteella.</span></li>
         <li><span>Jokaisen kortin sisällä osiot on järjestetty kiireellisyyden mukaan: <strong>mitä ilmenee</strong> ensin, <strong>mitä tehdä</strong> sen jälkeen, <strong>milloin lähettää</strong> viimeisenä.</span></li>
-        <li><span>Osio <em>Keskustelu vanhempien kanssa</em> on tarkoitettu nimenomaan vanhempainkokouksiin, sinun ei tarvitse lukea sitä, jos se ei ole yhteytesi.</span></li>
-        <li><span><a href={`${base}tools/`}>työkaluluettelo</a> on erillinen viite, työkalu-kortit yksityisyyshuomautuksilla ja profiilikartoituksella.</span></li>
+        <li><span>Osio <em>Keskustelu vanhempien kanssa</em> on tarkoitettu nimenomaan vanhempainkokouksiin, sinun ei tarvitse lukea sitä, jos se ei koske omaa tilannettasi.</span></li>
+        <li><span><a href={`${base}tools/`}>Työkaluluettelo</a> on erillinen viite, työkalu-kortit yksityisyyshuomautuksilla ja profiilikartoituksella.</span></li>
       </ul>
     </section>
     <section class="card-section">
-      <h2 class="card-section-label">Tekoälysektioista</h2>
+      <h2 class="card-section-label">Tekoälyosioista</h2>
       <ul>
         <li><span>Osiot <em>Missä tekoäly sopii</em> ovat tässä versiossa tarkoituksella tyhjiä. Kirjoittaja käy erikoiskoulutuksen Firenzessä (elokuu 2026) ennen kuin suosittelee tiettyjä työkaluja.</span></li>
         <li><span>Rakenne on jo paikallaan, jokaisella työkalulla on käyttötapaus, prompt-ehdotus ja yksityisyyshuomautus. Sisältö tulee <strong>v0.2</strong>-versioon, suunniteltu syyskuulle 2026.</span></li>

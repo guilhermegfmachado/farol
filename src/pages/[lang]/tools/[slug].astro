@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { ui, entryTranslations, type Lang, allIndexHrefs } from '@/lib/i18n';
 import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
@@ -56,7 +56,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
         <h2 class="card-section-label">{t.tool_profiles_label}</h2>
         <div class="tool-profiles">
           {profiles.map((slug: string) => (
-            <a href={`${base}${lang}/profiles/${slug}/`} class="tool-profile-tag">{slug}</a>
+            <a href={`${base}${lang}/profiles/${slug}/`} class="tool-profile-tag">{entryTranslations[lang]?.[slug]?.title ?? slug}</a>
           ))}
         </div>
       </section>
