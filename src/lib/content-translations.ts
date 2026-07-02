@@ -204,7 +204,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguish institutional use (the school signs a contract) from a teacher's personal use (individual responsibility).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systems trained on predominantly English-language data may perform worse in Portuguese and Lusophone contexts.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systems trained on predominantly English-language data may perform worse in languages other than English and in multilingual classrooms.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automated recommendations can amplify stereotypes of gender, ethnicity, or class — check them critically.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "\"Academic risk prediction\" models are particularly problematic — they frequently reproduce existing inequalities rather than identifying needs.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -545,7 +545,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguir el uso institucional (el centro firma un contrato) del uso personal del docente (responsabilidad individual).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Los sistemas entrenados con datos mayoritariamente anglófonos pueden tener un rendimiento inferior en portugués y en contextos lusófonos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Los sistemas entrenados con datos mayoritariamente anglófonos pueden tener un rendimiento inferior en español y en contextos hispanohablantes.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Las recomendaciones automáticas pueden amplificar estereotipos de género, etnia o clase: hay que verificarlas con sentido crítico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Los modelos de «predicción del riesgo académico» son especialmente problemáticos: a menudo reproducen las desigualdades existentes en lugar de identificar necesidades.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -886,7 +886,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguer l'usage institutionnel (l'établissement signe un contrat) de l'usage personnel de l'enseignant (responsabilité individuelle).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Les systèmes entraînés sur des données majoritairement anglophones peuvent présenter des performances inférieures en portugais et dans les contextes lusophones.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Les systèmes entraînés sur des données majoritairement anglophones peuvent présenter des performances inférieures en français et dans les contextes francophones.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Les recommandations automatiques peuvent amplifier les stéréotypes de genre, d'origine ethnique ou de classe : à vérifier d'un œil critique.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Les modèles de « prédiction du risque scolaire » sont particulièrement problématiques : ils reproduisent souvent les inégalités existantes au lieu d'identifier les besoins.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -1227,7 +1227,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguere l'uso istituzionale (la scuola firma un contratto) dall'uso personale del docente (responsabilità individuale).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "I sistemi addestrati prevalentemente su dati in lingua inglese possono offrire prestazioni inferiori in portoghese e nei contesti lusofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "I sistemi addestrati prevalentemente su dati in lingua inglese possono offrire prestazioni inferiori in italiano e nei contesti italofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Le raccomandazioni automatiche possono amplificare stereotipi di genere, etnia o classe: vanno verificate con spirito critico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "I modelli di «previsione del rischio scolastico» sono particolarmente problematici: spesso riproducono le disuguaglianze esistenti invece di individuare i bisogni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -1551,7 +1551,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Das Gespräch selbst ist eine Barriere – die Eltern bzw. Erziehungsberechtigten beherrschen das Deutsche möglicherweise nicht ausreichend für ein komplexes Gespräch. Einfache schriftliche Materialien im Voraus vorbereiten oder Unterstützung bei der Übersetzung anfordern.",
-        "Nicht voraussetzen, dass die Eltern bzw. Erziehungsberechtigten das deutsche Bildungssystem kennen – erklären, was der schulpsychologische Dienst (SPO) ist, was eine Fördermaßnahme bedeutet und was eine Abklärung beinhaltet, ohne etwas als selbstverständlich anzunehmen.",
+        "Nicht voraussetzen, dass die Eltern bzw. Erziehungsberechtigten das deutsche Bildungssystem kennen – erklären, was der schulpsychologische Dienst ist, was eine Fördermaßnahme bedeutet und was eine Abklärung beinhaltet, ohne etwas als selbstverständlich anzunehmen.",
         "Sprachliche Barriere und schulische Fähigkeit klar voneinander trennen: „Ihr Kind ist fähig – es lernt die Sprache zur gleichen Zeit wie die Inhalte, was sehr anspruchsvoll ist.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Sensibel für den migrationsbedingten Kontext sein: Geflüchtete Familien oder Familien ohne geregelten Aufenthaltsstatus können Institutionen gegenüber misstrauisch sein. Vertrauen aufbauen, bevor Dokumente oder Verweisungen verlangt werden.",
       ]},
@@ -1569,7 +1569,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Unterscheiden Sie zwischen institutioneller Nutzung (die Schule schließt einen Vertrag ab) und privater Nutzung durch die Lehrkraft (individuelle Verantwortung).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in der portugiesischen Sprache und in lusophonen Kontexten eine schlechtere Leistung erbringen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in der deutschen Sprache und in deutschsprachigen Kontexten eine schlechtere Leistung erbringen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatische Empfehlungen können Stereotype in Bezug auf Geschlecht, Ethnie oder soziale Schicht verstärken – prüfen Sie sie kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modelle zur „Vorhersage des akademischen Risikos“ sind besonders problematisch – häufig reproduzieren sie bestehende Ungleichheiten, anstatt Bedürfnisse zu erkennen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -1889,7 +1889,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Het gesprek zelf is een barrière – de ouders of verzorgers beheersen het Nederlands mogelijk onvoldoende voor een complex gesprek. Bereid vooraf eenvoudig schriftelijk materiaal voor, of vraag om vertaalondersteuning.",
-        "Ga er niet van uit dat de ouders of verzorgers het Nederlandse onderwijssysteem kennen – leg uit wat de schoolpsychologische dienst (SPO) is, wat een ondersteuningsmaatregel inhoudt en wat een onderzoek met zich meebrengt, zonder iets als vanzelfsprekend te beschouwen.",
+        "Ga er niet van uit dat de ouders of verzorgers het Nederlandse onderwijssysteem kennen – leg uit wat de schoolpsychologische dienst is, wat een ondersteuningsmaatregel inhoudt en wat een onderzoek met zich meebrengt, zonder iets als vanzelfsprekend te beschouwen.",
         "Maak een duidelijk onderscheid tussen taalbarrière en schoolse capaciteit: ‘uw kind is capabel – het leert de taal tegelijk met de inhoud, wat zeer veeleisend is’.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Wees gevoelig voor de migratiecontext: gevluchte gezinnen of gezinnen zonder verblijfsstatus kunnen wantrouwen koesteren tegenover instellingen. Bouw vertrouwen op voordat u documenten of doorverwijzingen vraagt.",
       ]},
@@ -1907,7 +1907,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Maak onderscheid tussen institutioneel gebruik (de school sluit een contract af) en persoonlijk gebruik door de docent (individuele verantwoordelijkheid).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systemen die hoofdzakelijk met Engelstalige gegevens zijn getraind, kunnen slechter presteren in het Portugees en in Portugeestalige contexten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systemen die hoofdzakelijk met Engelstalige gegevens zijn getraind, kunnen slechter presteren in het Nederlands en in Nederlandstalige contexten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatische aanbevelingen kunnen stereotypen over gender, etniciteit of klasse versterken – beoordeel ze kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modellen voor het „voorspellen van academisch risico” zijn bijzonder problematisch – vaak reproduceren ze bestaande ongelijkheden in plaats van behoeften te identificeren.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -2071,7 +2071,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Zacznij od tego, co uczeń robi dobrze — spotkanie nie może rozpoczynać się od listy skarg, bo rodzic zamknie się w obronnej postawie.",
-        "Opisuj zaobserwowane zachowania, a nie diagnozy: „gdy poleceń jest więcej niż dwa pod rząd, gubi wątek” zamiast „ma ADHD”.",
+        "Opisuj zaobserwowane zachowania, a nie diagnozy: „gdy otrzymuje więcej niż dwa polecenia z rzędu, gubi wątek” zamiast „ma ADHD”.",
         "Przewiduj reakcję „w domu tak nie jest” — wyjaśnij, że kontekst grupowy i wymóg długotrwałej uwagi w klasie sprawiają, że objawy są bardziej widoczne.",
         "Jeśli proponujesz ocenę specjalistyczną, przedstaw ją jako wsparcie, a nie karę: „jest pomoc, która może mu/jej bardzo pomóc” zamiast „musi zostać zbadany/a”.",
       ]},
@@ -2102,7 +2102,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Wyraźne oddzielenie czytania od inteligencji już na samym początku: „bardzo dobrze rozumie ze słuchu — trudność dotyczy konkretnie czytania”.",
-        "Pamiętanie, że dysleksja ma silny komponent dziedziczny: jedno z rodziców może mieć niezdiagnozowaną dysleksję, a rozmowa może odżywić trudne wspomnienia z własnej edukacji.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Pamiętanie, że dysleksja ma silny komponent dziedziczny: jedno z rodziców może mieć niezdiagnozowaną dysleksję, a rozmowa może ożywić trudne wspomnienia z własnej edukacji.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Unikanie pokazywania kartek pełnych poprawek na czerwono bez kontekstu — przedstawić najpierw to, co uczeń już potrafi.",
         "Konkretne wskazanie już wprowadzonych dostosowań oraz tych, które opiekun może powielić w domu: teksty w wersji audio, czytanie na głos bez presji czasu.",
       ]},
@@ -2226,7 +2226,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Samo spotkanie stanowi barierę — rodzic lub opiekun może nie znać języka polskiego na poziomie wystarczającym do złożonej rozmowy. Należy wcześniej przygotować proste materiały pisemne lub poprosić o wsparcie tłumaczeniowe.",
-        "Nie zakładaj, że rodzic lub opiekun zna polski system edukacji — wyjaśnij, czym jest poradnia psychologiczno-pedagogiczna (SPO), czym jest środek wsparcia, co oznacza ocena, niczego nie uznając za oczywiste.",
+        "Nie zakładaj, że rodzic lub opiekun zna polski system edukacji — wyjaśnij, czym jest poradnia psychologiczno-pedagogiczna (PPP), czym jest środek wsparcia, co oznacza ocena, niczego nie uznając za oczywiste.",
         "Wyraźnie oddzielaj barierę językową od zdolności akademickich: „Pani/Pana dziecko jest zdolne — uczy się języka jednocześnie z przyswajaniem treści, co jest bardzo wymagające”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Bądź wrażliwy na kontekst migracyjny: rodziny uchodźcze lub w sytuacji nieuregulowanej mogą nie ufać instytucjom. Buduj zaufanie, zanim poprosisz o dokumenty lub skierowania.",
       ]},
@@ -2244,7 +2244,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Należy odróżniać użytkowanie instytucjonalne (szkoła podpisuje umowę) od osobistego użytkowania przez nauczyciela (odpowiedzialność indywidualna).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systemy trenowane na danych pochodzących głównie z obszaru anglojęzycznego mogą działać gorzej w języku portugalskim i kontekstach luzofońskich.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systemy trenowane na danych pochodzących głównie z obszaru anglojęzycznego mogą działać gorzej w języku polskim i kontekstach polskojęzycznych.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatyczne rekomendacje mogą wzmacniać stereotypy dotyczące płci, pochodzenia etnicznego lub klasy społecznej — należy je krytycznie weryfikować.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modele „przewidywania ryzyka edukacyjnego” są szczególnie problematyczne — często odtwarzają istniejące nierówności, zamiast rozpoznawać potrzeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -2294,7 +2294,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia, odpowiedzialność każdego nauczyciela.",
         "Metody aktywizujące i zróżnicowane podejście dydaktyczne są elementem dobrego nauczania.",
-        "Wsparcie nauczyciela wspomagającego dostępne bez orzeczenia, na podstawie opinii PPP.",
+        "Wsparcie nauczyciela wspomagającego wymaga orzeczenia o potrzebie kształcenia specjalnego; opinia PPP uprawnia do dostosowania wymagań edukacyjnych.",
       ]},
       { items: [
         "Poradnia psychologiczno-pedagogiczna (PPP): wydaje opinie i orzeczenia, prowadzi diagnozy.",
@@ -2581,7 +2581,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distingeți utilizarea instituțională (școala semnează un contract) de utilizarea personală a cadrului didactic (răspundere individuală).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistemele antrenate preponderent pe date în limba engleză pot avea performanțe inferioare în portugheză și în contexte lusofone.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistemele antrenate preponderent pe date în limba engleză pot avea performanțe inferioare în română și în contexte românofone.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Recomandările automate pot amplifica stereotipuri de gen, etnie sau clasă socială: trebuie verificate critic.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modelele de „predicție a riscului școlar” sunt deosebit de problematice: adesea reproduc inegalitățile existente în loc să identifice nevoile.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -2905,7 +2905,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Sam sastanak predstavlja barijeru — roditelj ili skrbnik možda ne govori hrvatski dovoljno dobro za složen razgovor. Unaprijed pripremite jednostavne pisane materijale ili zatražite prevoditeljsku podršku.",
-        "Nemojte pretpostaviti da roditelj ili skrbnik poznaje hrvatski obrazovni sustav — objasnite što je stručna služba (SPO), što je mjera podrške i što podrazumijeva procjena, ne uzimajući ništa zdravo za gotovo.",
+        "Nemojte pretpostaviti da roditelj ili skrbnik poznaje hrvatski obrazovni sustav — objasnite što je stručna služba, što je mjera podrške i što podrazumijeva procjena, ne uzimajući ništa zdravo za gotovo.",
         "Jasno razdvojite jezičnu barijeru od školskih sposobnosti: „Vaše je dijete sposobno — uči jezik istodobno dok uči gradivo, što je vrlo zahtjevno.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Budite osjetljivi na migracijski kontekst: izbjegličke obitelji ili obitelji u neuređenom statusu mogu biti nepovjerljive prema institucijama. Izgradite povjerenje prije nego što zatražite dokumentaciju ili upućivanja.",
       ]},
@@ -2923,7 +2923,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Razlikujte institucionalnu uporabu (ugovor sklapa škola) od osobne uporabe nastavnika (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sustavi trenirani pretežno na podacima na engleskome jeziku mogu imati slabiji učinak na portugalskome i u luzofonskim kontekstima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sustavi trenirani pretežno na podacima na engleskome jeziku mogu imati slabiji učinak na hrvatskome i u hrvatskim govornim kontekstima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatske preporuke mogu pojačati stereotipe o spolu, etničkoj pripadnosti ili društvenome sloju — kritički ih provjeravajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeli „predviđanja akademskog rizika” osobito su problematični — često reproduciraju postojeće nejednakosti umjesto da prepoznaju potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -3244,7 +3244,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Samotná schůzka je bariérou — zákonný zástupce nemusí ovládat češtinu na úrovni dostatečné pro složitý rozhovor. Připravte si předem jednoduché písemné materiály nebo požádejte o tlumočnickou podporu.",
-        "Nepředpokládejte, že zákonný zástupce zná český vzdělávací systém — vysvětlete, co je školní poradenské pracoviště (SPO), co je podpůrné opatření, co obnáší vyšetření, aniž byste cokoli považovali za samozřejmé.",
+        "Nepředpokládejte, že zákonný zástupce zná český vzdělávací systém — vysvětlete, co je školní poradenské pracoviště (ŠPP), co je podpůrné opatření, co obnáší vyšetření, aniž byste cokoli považovali za samozřejmé.",
         "Jasně oddělujte jazykovou bariéru od studijních schopností: „Vaše dítě je schopné — učí se jazyk zároveň s učivem, což je velmi náročné.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Buďte citliví k migračnímu kontextu: rodiny uprchlíků nebo v neregulérní situaci mohou institucím nedůvěřovat. Budujte důvěru dříve, než budete žádat o dokumenty nebo doporučení.",
       ]},
@@ -3262,7 +3262,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rozlišujte institucionální využití (smlouvu uzavírá škola) od osobního využití učitele (individuální odpovědnost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systémy trénované převážně na anglojazyčných datech mohou mít horší výkon v portugalštině a v lusofonních kontextech.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systémy trénované převážně na anglojazyčných datech mohou mít horší výkon v češtině a v českojazyčných kontextech.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatická doporučení mohou zesilovat stereotypy týkající se pohlaví, etnicity nebo společenské třídy — kriticky je ověřujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modely „predikce akademického rizika“ jsou obzvláště problematické — často reprodukují existující nerovnosti, místo aby rozpoznávaly potřeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -3582,7 +3582,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Själva mötet är en barriär – vårdnadshavaren behärskar kanske inte svenska tillräckligt väl för ett komplext samtal. Förbered enkelt skriftligt material i förväg, eller be om översättningsstöd.",
-        "Förutsätt inte att vårdnadshavaren känner till det svenska utbildningssystemet – förklara vad elevhälsans psykolog- och vägledningstjänst (SPO) är, vad en stödåtgärd innebär och vad en utredning medför, utan att ta något för givet.",
+        "Förutsätt inte att vårdnadshavaren känner till det svenska utbildningssystemet – förklara vad elevhälsans psykolog- och vägledningstjänst är, vad en stödåtgärd innebär och vad en utredning medför, utan att ta något för givet.",
         "Skilj tydligt på språkbarriär och skolförmåga: ”ditt barn är kapabelt – det lär sig språket samtidigt som det lär sig innehållet, vilket är mycket krävande”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Var lyhörd för migrationskontexten: familjer som är flyktingar eller saknar uppehållstillstånd kan hysa misstro mot institutioner. Bygg förtroende innan du ber om dokumentation eller hänvisningar.",
       ]},
@@ -3600,7 +3600,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Skilj mellan institutionell användning (skolan tecknar avtal) och lärarens personliga användning (individuellt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "System som tränats huvudsakligen på engelskspråkiga data kan prestera sämre på portugisiska och i portugisisktalande sammanhang.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "System som tränats huvudsakligen på engelskspråkiga data kan prestera sämre på svenska och i svenskspråkiga sammanhang.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatiska rekommendationer kan förstärka stereotyper om kön, etnicitet eller klass – granska dem kritiskt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeller för ”prognos av akademisk risk” är särskilt problematiska – ofta reproducerar de befintliga ojämlikheter i stället för att identifiera behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -3920,7 +3920,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Selve mødet er en barriere – forældrene/værgerne behersker måske ikke dansk tilstrækkeligt til en kompleks samtale. Forbered enkelt skriftligt materiale på forhånd, eller bed om oversættelsesstøtte.",
-        "Gå ikke ud fra, at forældrene/værgerne kender det danske uddannelsessystem – forklar, hvad den skolepsykologiske rådgivning (SPO) er, hvad en støtteforanstaltning indebærer, og hvad en udredning medfører, uden at tage noget for givet.",
+        "Gå ikke ud fra, at forældrene/værgerne kender det danske uddannelsessystem – forklar, hvad den skolepsykologiske rådgivning er, hvad en støtteforanstaltning indebærer, og hvad en udredning medfører, uden at tage noget for givet.",
         "Skil tydeligt sprogbarriere fra faglig formåen: »dit barn er i stand til det – det lærer sproget samtidig med, at det lærer indholdet, hvilket er meget krævende«.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Vær lydhør over for migrationskonteksten: familier, der er flygtninge eller uden lovligt ophold, kan nære mistillid til institutioner. Opbyg tillid, før du beder om dokumentation eller henvisninger.",
       ]},
@@ -3938,7 +3938,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Skeln mellem institutionel brug (skolen indgår en kontrakt) og lærerens personlige brug (individuelt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systemer, der hovedsageligt er trænet på engelsksprogede data, kan præstere dårligere på portugisisk og i portugisisktalende sammenhænge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systemer, der hovedsageligt er trænet på engelsksprogede data, kan præstere dårligere på dansk og i dansksprogede sammenhænge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatiske anbefalinger kan forstærke stereotyper om køn, etnicitet eller klasse – vurdér dem kritisk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeller til »forudsigelse af akademisk risiko« er særligt problematiske – ofte reproducerer de eksisterende uligheder i stedet for at identificere behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -4258,7 +4258,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Itse tapaaminen on este — huoltaja ei välttämättä osaa suomea riittävän hyvin monimutkaista keskustelua varten. Valmistele etukäteen yksinkertaista kirjallista materiaalia tai pyydä käännösapua.",
-        "Älä oleta, että huoltaja tuntee Suomen koulutusjärjestelmän — selitä, mikä on koulun psykologis-pedagoginen tukipalvelu (SPO), mikä on tukitoimi ja mitä arviointi tarkoittaa, pitämättä mitään itsestäänselvyytenä.",
+        "Älä oleta, että huoltaja tuntee Suomen koulutusjärjestelmän — selitä, mikä on koulun psykologis-pedagoginen tukipalvelu, mikä on tukitoimi ja mitä arviointi tarkoittaa, pitämättä mitään itsestäänselvyytenä.",
         "Erota selvästi kielimuuri ja oppimiskyky toisistaan: ”poikanne / tyttärenne on kyvykäs — hän opettelee kieltä samalla kun opiskelee sisältöjä, mikä on hyvin vaativaa”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Ole herkkä muuttoliikkeen kontekstille: pakolaisperheillä tai paperittomassa tilanteessa olevilla perheillä voi olla epäluottamusta viranomaisia kohtaan. Rakenna luottamusta ennen kuin pyydät asiakirjoja tai teet jatko-ohjauksia.",
       ]},
@@ -4276,7 +4276,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Erota institutionaalinen käyttö (koulu allekirjoittaa sopimuksen) opettajan henkilökohtaisesta käytöstä (yksilöllinen vastuu).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Pääosin englanninkielisellä aineistolla koulutetut järjestelmät voivat toimia heikommin portugalin kielellä ja portugalinkielisissä konteksteissa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Pääosin englanninkielisellä aineistolla koulutetut järjestelmät voivat toimia heikommin suomen kielellä ja suomenkielisissä konteksteissa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automaattiset suositukset voivat vahvistaa sukupuoleen, etniseen taustaan tai yhteiskuntaluokkaan liittyviä stereotypioita – arvioi kriittisesti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "”Akateemisen riskin ennustamisen” mallit ovat erityisen ongelmallisia – ne toistavat usein olemassa olevaa eriarvoisuutta sen sijaan, että tunnistaisivat tarpeita.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -4597,7 +4597,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Samotné stretnutie je bariérou — zákonný zástupca nemusí ovládať slovenčinu na úrovni dostatočnej pre zložitý rozhovor. Pripravte si vopred jednoduché písomné materiály alebo požiadajte o tlmočnícku podporu.",
-        "Nepredpokladajte, že zákonný zástupca pozná slovenský vzdelávací systém — vysvetlite, čo je školské poradenské pracovisko (SPO), čo je podporné opatrenie, čo obnáša vyšetrenie, bez toho, aby ste čokoľvek považovali za samozrejmé.",
+        "Nepredpokladajte, že zákonný zástupca pozná slovenský vzdelávací systém — vysvetlite, čo je školské poradenské pracovisko, čo je podporné opatrenie, čo obnáša vyšetrenie, bez toho, aby ste čokoľvek považovali za samozrejmé.",
         "Jasne oddeľujte jazykovú bariéru od študijných schopností: „Vaše dieťa je schopné — učí sa jazyk zároveň s učivom, čo je veľmi náročné.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Buďte citliví na migračný kontext: utečenecké rodiny alebo rodiny v neregulárnej situácii môžu inštitúciám nedôverovať. Budujte dôveru skôr, než požiadate o dokumenty alebo odporúčania.",
       ]},
@@ -4615,7 +4615,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rozlišujte inštitucionálne používanie (zmluvu uzatvára škola) od osobného používania učiteľa (individuálna zodpovednosť).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Systémy trénované prevažne na anglojazyčných údajoch môžu mať horší výkon v portugalčine a v luzofónnych kontextoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Systémy trénované prevažne na anglojazyčných údajoch môžu mať horší výkon v slovenčine a v slovenskojazyčných kontextoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatické odporúčania môžu zosilňovať stereotypy týkajúce sa pohlavia, etnicity alebo spoločenskej triedy — kriticky ich overujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modely „predikcie akademického rizika“ sú obzvlášť problematické — často reprodukujú existujúce nerovnosti namiesto toho, aby rozpoznávali potreby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -4933,7 +4933,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Maga a megbeszélés is akadályt jelent — előfordulhat, hogy a szülő/gondviselő nem beszéli kellő szinten a tanítás nyelvét egy összetett beszélgetéshez. Készítsen elő előre egyszerű írásos anyagokat, vagy kérjen tolmácstámogatást.",
-        "Ne feltételezze, hogy a szülő/gondviselő ismeri az oktatási rendszert — magyarázza el, mi az iskolapszichológiai és tanácsadó szolgálat (SPO), mi az a támogató intézkedés, mivel jár egy felmérés, anélkül hogy bármit is magától értetődőnek venne.",
+        "Ne feltételezze, hogy a szülő/gondviselő ismeri az oktatási rendszert — magyarázza el, mi az iskolapszichológiai és tanácsadó szolgálat, mi az a támogató intézkedés, mivel jár egy felmérés, anélkül hogy bármit is magától értetődőnek venne.",
         "Egyértelműen válassza el a nyelvi akadályt a tanulmányi képességtől: „a gyermeke képes rá — egyszerre tanulja a nyelvet és a tananyagot, ami rendkívül megterhelő”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Legyen érzékeny a migrációs háttérre: a menekült vagy rendezetlen jogi helyzetben lévő családok bizalmatlanok lehetnek az intézményekkel szemben. Építsen ki bizalmat, mielőtt dokumentumokat vagy beutalókat kérne.",
       ]},
@@ -4951,7 +4951,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Különböztesse meg az intézményi használatot (az iskola szerződést köt) a pedagógus személyes használatától (egyéni felelősség).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "A túlnyomórészt angol nyelvű adatokon betanított rendszerek gyengébben teljesíthetnek portugál nyelven és luzofón kontextusokban.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "A túlnyomórészt angol nyelvű adatokon betanított rendszerek gyengébben teljesíthetnek magyar nyelven és magyar nyelvű kontextusokban.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Az automatikus ajánlások felerősíthetik a nemi, etnikai vagy osztálybeli sztereotípiákat — vizsgálja meg őket kritikusan.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "A „tanulmányi kockázat előrejelzésére” szolgáló modellek különösen problémásak — gyakran a meglévő egyenlőtlenségeket reprodukálják, ahelyett hogy szükségleteket azonosítanának.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -5270,7 +5270,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Η ίδια η συνάντηση αποτελεί εμπόδιο — ο γονέας/κηδεμόνας ίσως δεν μιλά ελληνικά με επαρκή γνώση για μια σύνθετη συζήτηση. Προετοιμάστε εκ των προτέρων απλό γραπτό υλικό ή ζητήστε υποστήριξη διερμηνείας.",
-        "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι η υπηρεσία σχολικής ψυχολογίας και προσανατολισμού (SPO), τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
+        "Μην υποθέτετε ότι ο γονέας/κηδεμόνας γνωρίζει το εκπαιδευτικό σύστημα — εξηγήστε τι είναι η υπηρεσία σχολικής ψυχολογίας και προσανατολισμού, τι είναι ένα μέτρο υποστήριξης, τι συνεπάγεται μια αξιολόγηση, χωρίς να θεωρείτε τίποτα δεδομένο.",
         "Διαχωρίστε με σαφήνεια το γλωσσικό εμπόδιο από τη σχολική ικανότητα: «το παιδί σας είναι ικανό — μαθαίνει τη γλώσσα ταυτόχρονα με το περιεχόμενο, κάτι που είναι ιδιαίτερα απαιτητικό».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Δείξτε ευαισθησία απέναντι στο μεταναστευτικό πλαίσιο: οικογένειες προσφύγων ή σε καθεστώς χωρίς νομιμοποιητικά έγγραφα ενδέχεται να δυσπιστούν προς τους θεσμούς. Χτίστε εμπιστοσύνη προτού ζητήσετε έγγραφα ή παραπομπές.",
       ]},
@@ -5288,7 +5288,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Διακρίνετε τη θεσμική χρήση (το σχολείο υπογράφει σύμβαση) από την προσωπική χρήση του εκπαιδευτικού (ατομική ευθύνη).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Συστήματα που έχουν εκπαιδευτεί κυρίως με αγγλόφωνα δεδομένα ενδέχεται να έχουν χαμηλότερη απόδοση στα πορτογαλικά και σε λουσοφωνικά περιβάλλοντα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Συστήματα που έχουν εκπαιδευτεί κυρίως με αγγλόφωνα δεδομένα ενδέχεται να έχουν χαμηλότερη απόδοση στα ελληνικά και σε ελληνόφωνα περιβάλλοντα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Οι αυτόματες συστάσεις μπορούν να ενισχύσουν στερεότυπα φύλου, εθνότητας ή κοινωνικής τάξης — ελέγξτε τα κριτικά.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Τα μοντέλα «πρόβλεψης ακαδημαϊκού κινδύνου» είναι ιδιαίτερα προβληματικά — συχνά αναπαράγουν υφιστάμενες ανισότητες αντί να εντοπίζουν ανάγκες.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -5608,7 +5608,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Самата среща е бариера — родителят или настойникът може да не владее български достатъчно добре за сложен разговор. Подгответе предварително прости писмени материали или поискайте преводаческа подкрепа.",
-        "Не приемайте за даденост, че родителят или настойникът познава българската образователна система — обяснете какво е училищната психологическа и консултативна служба (SPO), какво е мярка за подкрепа и какво включва оценяването, без да считате нищо за подразбиращо се.",
+        "Не приемайте за даденост, че родителят или настойникът познава българската образователна система — обяснете какво е училищната психологическа и консултативна служба, какво е мярка за подкрепа и какво включва оценяването, без да считате нищо за подразбиращо се.",
         "Ясно разграничавайте езиковата бариера от учебните способности: „Вашето дете е способно — то учи езика едновременно с учебното съдържание, което е много взискателно.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Бъдете чувствителни към миграционния контекст: бежанските семейства или тези в нередовно положение може да изпитват недоверие към институциите. Изградете доверие, преди да поискате документи или насочвания.",
       ]},
@@ -5626,7 +5626,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Разграничавайте институционалната употреба (училището сключва договор) от личната употреба на преподавателя (индивидуална отговорност).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Системи, обучени предимно с англоезични данни, могат да се представят по-слабо на португалски и в португалоезични контексти.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Системи, обучени предимно с англоезични данни, могат да се представят по-слабо на български и в българоезични контексти.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Автоматичните препоръки могат да усилват стереотипи, свързани с пол, етнос или социална класа — проверявайте ги критично.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Моделите за „прогнозиране на академичен риск“ са особено проблематични — често възпроизвеждат съществуващи неравенства, вместо да разпознават потребности.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -5945,7 +5945,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Pats susitikimas yra barjeras — tėvai ar globėjai gali nemokėti lietuvių kalbos pakankamai gerai sudėtingam pokalbiui. Iš anksto parengti paprastą rašytinę medžiagą arba pasirūpinti vertimo pagalba.",
-        "Nereikėtų manyti, kad tėvai ar globėjai pažįsta Lietuvos švietimo sistemą — paaiškinti, kas yra mokyklos psichologinė ir pedagoginė tarnyba (SPO), kas yra pagalbos priemonė, ką reiškia vertinimas, nieko nelaikant savaime suprantamu.",
+        "Nereikėtų manyti, kad tėvai ar globėjai pažįsta Lietuvos švietimo sistemą — paaiškinti, kas yra mokyklos psichologinė ir pedagoginė tarnyba, kas yra pagalbos priemonė, ką reiškia vertinimas, nieko nelaikant savaime suprantamu.",
         "Aiškiai atskirti kalbos barjerą nuo akademinių gebėjimų: „jūsų sūnus / jūsų dukra yra gabus(-i) — jis (ji) mokosi kalbos tuo pat metu, kai mokosi turinio, o tai labai reiklu“.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Būti jautriam migracijos kontekstui: pabėgėlių arba neteisėtoje padėtyje esančios šeimos gali nepasitikėti institucijomis. Sukurti pasitikėjimą prieš prašant dokumentų ar nukreipiant į kitas tarnybas.",
       ]},
@@ -5963,7 +5963,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Atskirkite institucinį naudojimą (mokykla pasirašo sutartį) nuo asmeninio mokytojo naudojimo (individuali atsakomybė).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistemos, apmokytos daugiausia angliškais duomenimis, gali veikti prasčiau portugalų kalba ir portugališkai kalbančiuose kontekstuose.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistemos, apmokytos daugiausia angliškais duomenimis, gali veikti prasčiau lietuvių kalba ir lietuviškai kalbančiuose kontekstuose.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatinės rekomendacijos gali sustiprinti lyties, etninės kilmės ar socialinės klasės stereotipus – vertinkite kritiškai.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akademinės rizikos prognozavimo“ modeliai yra ypač problemiški – jie dažnai atkartoja esamą nelygybę, o ne nustato poreikius.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -6282,7 +6282,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Pati tikšanās ir barjera — vecāki vai aizbildņi var nerunāt latviešu valodā pietiekami labi sarežģītai sarunai. Iepriekš sagatavot vienkāršus rakstiskus materiālus vai lūgt tulkošanas atbalstu.",
-        "Nepieņemt, ka vecāki vai aizbildņi pārzina Latvijas izglītības sistēmu — izskaidrot, kas ir skolas psiholoģiskā un pedagoģiskā dienesta (SPO) funkcija, kas ir atbalsta pasākums, ko nozīmē izvērtējums, neuzskatot neko par pašsaprotamu.",
+        "Nepieņemt, ka vecāki vai aizbildņi pārzina Latvijas izglītības sistēmu — izskaidrot, kas ir skolas psiholoģiskā un pedagoģiskā dienesta funkcija, kas ir atbalsta pasākums, ko nozīmē izvērtējums, neuzskatot neko par pašsaprotamu.",
         "Skaidri nošķirt valodas barjeru no mācīšanās spējām: „jūsu dēls / jūsu meita ir spējīgs(-a) — viņš (viņa) apgūst valodu vienlaikus ar mācību saturu, kas ir ļoti prasīgi”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Būt iejūtīgam pret migrācijas kontekstu: bēgļu vai nelegālā situācijā esošas ģimenes var neuzticēties iestādēm. Veidot uzticēšanos, pirms lūgt dokumentus vai novirzīt pie citiem speciālistiem.",
       ]},
@@ -6300,7 +6300,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nošķiriet institucionālu lietojumu (skola paraksta līgumu) no skolotāja personīga lietojuma (individuāla atbildība).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk latviešu valodā un portugāliski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk latviešu valodā un latviski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automātiskie ieteikumi var pastiprināt dzimuma, etniskās piederības vai sociālās klases stereotipus – izvērtējiet kritiski.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akadēmiskā riska prognozēšanas” modeļi ir īpaši problemātiski – tie bieži atkārto pastāvošo nevienlīdzību, nevis identificē vajadzības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -6616,7 +6616,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Kohtumine ise on barjäär — vanem või hooldaja ei pruugi osata eesti keelt piisavalt hästi keeruka vestluse jaoks. Valmistada eelnevalt ette lihtsad kirjalikud materjalid või paluda tõlkeabi.",
-        "Mitte eeldada, et vanem või hooldaja tunneb Eesti haridussüsteemi — selgitada, mis on kooli psühholoogilis-pedagoogiline tugiteenistus (SPO), mis on tugimeede ja mida tähendab hindamine, pidamata midagi iseenesestmõistetavaks.",
+        "Mitte eeldada, et vanem või hooldaja tunneb Eesti haridussüsteemi — selgitada, mis on kooli psühholoogilis-pedagoogiline tugiteenistus, mis on tugimeede ja mida tähendab hindamine, pidamata midagi iseenesestmõistetavaks.",
         "Eristada selgelt keelebarjääri ja õppimisvõimet: „teie poeg / teie tütar on võimekas — ta õpib keelt samal ajal kui õppesisu, mis on väga nõudlik”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Olla tundlik rändekonteksti suhtes: pagulasperedel või ebaseaduslikus olukorras peredel võib olla usaldamatus asutuste vastu. Luua usaldus enne dokumentide küsimist või edasisuunamist.",
       ]},
@@ -6634,7 +6634,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Eristage institutsioonilist kasutust (kool sõlmib lepingu) õpetaja isiklikust kasutusest (individuaalne vastutus).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Peamiselt ingliskeelsete andmetega treenitud süsteemid võivad portugali keeles ja portugalikeelsetes kontekstides toimida halvemini.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Peamiselt ingliskeelsete andmetega treenitud süsteemid võivad eesti keeles ja eestikeelsetes kontekstides toimida halvemini.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automaatsed soovitused võivad võimendada soolisi, etnilisi või klassilisi stereotüüpe – hinnake kriitiliselt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akadeemilise riski prognoosimise” mudelid on eriti problemaatilised – need taastoodavad sageli olemasolevat ebavõrdsust, selle asemel et tuvastada vajadusi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -6951,7 +6951,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Sam sestanek je ovira — starš ali skrbnik morda ne obvlada slovenščine na ravni, ki bi zadoščala za zapleten pogovor. Vnaprej pripravite preprosta pisna gradiva ali zaprosite za prevajalsko podporo.",
-        "Ne predpostavljajte, da starš ali skrbnik pozna slovenski izobraževalni sistem — pojasnite, kaj je svetovalna služba (SPO), kaj je podporni ukrep in kaj pomeni ocenjevanje, ne da bi karkoli imeli za samoumevno.",
+        "Ne predpostavljajte, da starš ali skrbnik pozna slovenski izobraževalni sistem — pojasnite, kaj je svetovalna služba, kaj je podporni ukrep in kaj pomeni ocenjevanje, ne da bi karkoli imeli za samoumevno.",
         "Jasno ločujte jezikovno oviro od učnih sposobnosti: „Vaš otrok je sposoben — jezika se uči hkrati z učno snovjo, kar je zelo zahtevno.“<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Bodite občutljivi za migracijski kontekst: begunske družine ali družine v neurejenem položaju lahko nezaupajo ustanovam. Gradite zaupanje, preden zaprosite za dokumentacijo ali napotitve.",
       ]},
@@ -6969,7 +6969,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Razlikujte med institucionalno uporabo (pogodbo sklene šola) in osebno uporabo učitelja (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistemi, naučeni pretežno na angleško govorečih podatkih, lahko slabše delujejo v portugalščini in v luzofonskih kontekstih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistemi, naučeni pretežno na angleško govorečih podatkih, lahko slabše delujejo v slovenščini in v slovensko govorečih kontekstih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Samodejna priporočila lahko ojačajo stereotipe glede spola, etnične pripadnosti ali družbenega razreda — kritično jih preverjajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeli za „napovedovanje učnega tveganja“ so še posebej problematični — pogosto reproducirajo obstoječe neenakosti, namesto da bi prepoznavali potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -7284,7 +7284,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Is bacainn é an cruinniú féin — d'fhéadfadh nach mbeadh teanga an teagaisc ar a thoil ag an tuismitheoir/caomhnóir a dhóthain le haghaidh comhrá casta. Ullmhaigh ábhair scríofa shimplí roimh ré, nó iarr tacaíocht aistriúcháin.",
-        "Ná glac leis go bhfuil eolas ag an tuismitheoir/caomhnóir ar an gcóras oideachais — mínigh cad is seirbhís síceolaíochta agus treoshuímh scoile (SPO) ann, cad is beart tacaíochta ann, cad a bhaineann le measúnú, gan glacadh le haon rud gan cheist.",
+        "Ná glac leis go bhfuil eolas ag an tuismitheoir/caomhnóir ar an gcóras oideachais — mínigh cad is seirbhís síceolaíochta agus treoshuímh scoile ann, cad is beart tacaíochta ann, cad a bhaineann le measúnú, gan glacadh le haon rud gan cheist.",
         "Scar go soiléir an bhacainn teanga ón gcumas acadúil: „tá do pháiste ábalta — tá an teanga á foghlaim aige ag an am céanna leis an ábhar, rud atá an-dúshlánach\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Bí íogair don chomhthéacs imirce: d'fhéadfadh amhras a bheith ag teaghlaigh dhídeanaithe nó atá i staid neamhrialta ar institiúidí. Cothaigh muinín sula n-iarrann tú cáipéisíocht nó atreoruithe.",
       ]},
@@ -7302,7 +7302,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Déan idirdhealú idir úsáid institiúideach (síníonn an scoil conradh) agus úsáid phearsanta an mhúinteora (freagracht aonair).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "D'fhéadfadh feidhmíocht níos ísle a bheith ag córais a oileadh go príomha ar shonraí Béarla i bPortaingéilis agus i gcomhthéacsanna Lusafónacha.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "D'fhéadfadh feidhmíocht níos ísle a bheith ag córais a oileadh go príomha ar shonraí Béarla i nGaeilge agus i gcomhthéacsanna Gaeilge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "D'fhéadfadh moltaí uathoibríocha steiréitíopaí inscne, eitneachais nó aicme a mhéadú — déan iniúchadh criticiúil orthu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Tá samhlacha „tuar riosca acadúil” fadhbach go háirithe — is minic a atáirgeann siad neamhionannais atá ann cheana in ionad riachtanais a aithint.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -7618,7 +7618,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Il-laqgħa nnifisha hija ostakolu — il-ġenitur/kustodju jista' ma jkunx jitkellem il-lingwa tat-tagħlim biżżejjed għal konverżazzjoni kumplessa. Ħejji minn qabel materjali bil-miktub sempliċi, jew itlob appoġġ ta' traduzzjoni.",
-        "Tassumix li l-ġenitur/kustodju jaf is-sistema edukattiva — spjega x'inhu s-servizz tal-psikoloġija u l-gwida tal-iskola (SPO), x'inhi miżura ta' appoġġ, x'tinvolvi valutazzjoni, mingħajr ma tagħti xejn bħala fatt magħruf.",
+        "Tassumix li l-ġenitur/kustodju jaf is-sistema edukattiva — spjega x'inhu s-servizz tal-psikoloġija u l-gwida tal-iskola, x'inhi miżura ta' appoġġ, x'tinvolvi valutazzjoni, mingħajr ma tagħti xejn bħala fatt magħruf.",
         "Iddistingwi b'mod ċar l-ostakolu lingwistiku mill-kapaċità akkademika: „ibnek/bintek kapaċi — qed jitgħallem il-lingwa fl-istess ħin li jitgħallem il-kontenut, li huwa ferm impenjattiv\".<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Kun sensittiv għall-kuntest tal-migrazzjoni: familji refuġjati jew f'sitwazzjoni irregolari jista' jkollhom nuqqas ta' fiduċja fl-istituzzjonijiet. Ibni l-fiduċja qabel ma titlob dokumentazzjoni jew riferimenti.",
       ]},
@@ -7636,7 +7636,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Iddistingwi l-użu istituzzjonali (l-iskola tiffirma kuntratt) mill-użu personali tal-għalliem (responsabbiltà individwali).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Sistemi mħarrġa l-aktar fuq data bl-Ingliż jistgħu jkollhom prestazzjoni inqas tajba bil-Portugiż u f'kuntesti Lusofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sistemi mħarrġa l-aktar fuq data bl-Ingliż jistgħu jkollhom prestazzjoni inqas tajba bil-Malti u f'kuntesti Maltin.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Ir-rakkomandazzjonijiet awtomatiċi jistgħu jkabbru sterjotipi ta' ġeneru, etniċità jew klassi — iċċekkjahom b'mod kritiku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Il-mudelli ta' „tbassir tar-riskju akkademiku” huma partikolarment problematiċi — spiss jirriproduċu inugwaljanzi eżistenti minflok ma jidentifikaw il-ħtiġijiet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
