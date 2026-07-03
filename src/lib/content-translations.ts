@@ -673,7 +673,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Cuando la diferenciación en el aula deja de ser suficiente y el alumno sigue sin poder acceder al currículo, es señal de que puede ser necesario un apoyo especializado.",
-        "La diferenciación no sustituye las medidas de apoyo del centro (SPO, terapeutas, educación especial): es lo que ocurre en el aula ordinaria como complemento.",
+        "La diferenciación no sustituye las medidas de apoyo del centro (orientación educativa, terapeutas, educación especial): es lo que ocurre en el aula ordinaria como complemento.",
       ]},
     ]},
     avaliacao: { sections: [
@@ -701,7 +701,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Altas capacidades: evitar evaluaciones de mera reproducción de contenido; incluir preguntas de análisis, síntesis y creación.",
       ]},
       { items: [
-        "Cuando, incluso con adaptaciones de la evaluación, el alumno no consigue demostrar su aprendizaje, es señal de que puede haber una barrera más profunda que investigar con el SPO.",
+        "Cuando, incluso con adaptaciones de la evaluación, el alumno no consigue demostrar su aprendizaje, es señal de que puede haber una barrera más profunda que investigar con el servicio de orientación.",
         "Los patrones persistentes (meses, no días) de dificultad específica en un área deben señalarse formalmente.",
       ]},
     ]},
@@ -1022,7 +1022,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Lorsque la différenciation en classe ne suffit plus et que l'élève reste sans accès au programme, c'est le signe qu'un accompagnement spécialisé peut s'avérer nécessaire.",
-        "La différenciation ne remplace pas les dispositifs de soutien de l'établissement (SPO, thérapeutes, enseignement spécialisé) : elle est ce qui se passe en classe ordinaire, en complément.",
+        "La différenciation ne remplace pas les dispositifs de soutien de l'établissement (service d'orientation, thérapeutes, enseignement spécialisé) : elle est ce qui se passe en classe ordinaire, en complément.",
       ]},
     ]},
     avaliacao: { sections: [
@@ -1050,7 +1050,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Haut potentiel : éviter les évaluations de simple restitution du contenu ; inclure des questions d'analyse, de synthèse et de création.",
       ]},
       { items: [
-        "Lorsque, même avec des adaptations de l'évaluation, l'élève ne parvient pas à démontrer ses apprentissages, c'est le signe qu'il peut exister un obstacle plus profond à explorer avec le SPO.",
+        "Lorsque, même avec des adaptations de l'évaluation, l'élève ne parvient pas à démontrer ses apprentissages, c'est le signe qu'il peut exister un obstacle plus profond à explorer avec le service d'orientation.",
         "Des schémas persistants (des mois, pas des jours) de difficulté spécifique dans un domaine doivent être signalés formellement.",
       ]},
     ]},
@@ -1372,7 +1372,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Quando la differenziazione in classe non è più sufficiente e l'alunno continua a non poter accedere al curricolo, è segno che può essere necessario un supporto specializzato.",
-        "La differenziazione non sostituisce le misure di supporto della scuola (SPO, terapisti, istruzione speciale): è ciò che avviene nella classe ordinaria, a complemento.",
+        "La differenziazione non sostituisce le misure di supporto della scuola (servizio di orientamento, terapisti, istruzione speciale): è ciò che avviene nella classe ordinaria, a complemento.",
       ]},
     ]},
     avaliacao: { sections: [
@@ -1400,7 +1400,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Plusdotazione: evitare valutazioni di mera riproduzione dei contenuti; includere domande di analisi, sintesi e creazione.",
       ]},
       { items: [
-        "Quando, anche con adattamenti della valutazione, l'alunno non riesce a dimostrare l'apprendimento, è segno che può esserci una barriera più profonda da indagare con lo SPO.",
+        "Quando, anche con adattamenti della valutazione, l'alunno non riesce a dimostrare l'apprendimento, è segno che può esserci una barriera più profonda da indagare con il servizio di orientamento.",
         "Pattern persistenti (mesi, non giorni) di difficoltà specifica in un'area devono essere segnalati formalmente.",
       ]},
     ]},
@@ -1510,7 +1510,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "<strong>Es ist keine</strong> Faulheit oder mangelnder Einsatz.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "<strong>Es ist nicht</strong> nur eine schlechte Handschrift: Der klinische Begriff lautet Entwicklungsbezogene Koordinationsstörung (UEMF) und betrifft die motorische Planung und Sequenzierung, nicht nur das Schreiben.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Es ist nicht</strong> nur eine schlechte Handschrift: Der klinische Begriff lautet Umschriebene Entwicklungsstörung motorischer Funktionen (UEMF) und betrifft die motorische Planung und Sequenzierung, nicht nur das Schreiben.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "<strong>Es lässt sich nicht</strong> durch „mehr Schreibübungen“ beheben: Eine wirksame Intervention ist aufgabenorientiert, nicht mechanische Wiederholung.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
@@ -2437,7 +2437,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Zdolności wybitne: unikanie oceniania polegającego na zwykłym odtwarzaniu treści — włączanie pytań wymagających analizy, syntezy i tworzenia.",
       ]},
       { items: [
-        "Gdy mimo dostosowań w ocenianiu uczeń nie jest w stanie wykazać się uczeniem się, jest to sygnał, że może istnieć głębsza bariera, którą należy zbadać wraz z SPO.",
+        "Gdy mimo dostosowań w ocenianiu uczeń nie jest w stanie wykazać się uczeniem się, jest to sygnał, że może istnieć głębsza bariera, którą należy zbadać wraz z poradnią psychologiczno-pedagogiczną.",
         "Utrwalone wzorce (miesiące, nie dni) specyficznych trudności w danym obszarze powinny zostać formalnie zgłoszone.",
       ]},
     ]},
@@ -3268,7 +3268,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Dokončí úkoly během několika minut, zatímco třídě to trvá celou vyučovací hodinu.",
         "Klade otázky, které přesahují rámec látky — nebo aktivně zpochybňuje to, co se právě učí.",
-        "Může působit nezájem, nekázeň nebo apatii — často jde o příznaky chronické nudy a nevyužívání potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Může působit nezaujatě, neukázněně nebo apaticky — často jde o příznaky chronické nudy a nevyužívání potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Výrazná emoční citlivost; může být úzkostný nebo perfekcionistický — psychosociální faktory jsou pro rozvoj nadání rozhodující.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Reálné riziko nevyužívání potenciálu — může se naučit skrývat své schopnosti, aby společensky nevyčníval.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
@@ -3479,7 +3479,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Mimořádné nadání: vyhýbat se hodnocení založenému na pouhé reprodukci obsahu — zařadit otázky vyžadující analýzu, syntézu a tvorbu.",
       ]},
       { items: [
-        "Když ani s úpravami hodnocení žák nedokáže prokázat učení, je to signál, že může existovat hlubší bariéra, kterou je třeba prozkoumat se SPO.",
+        "Když ani s úpravami hodnocení žák nedokáže prokázat učení, je to signál, že může existovat hlubší bariéra, kterou je třeba prozkoumat se školním poradenským pracovištěm (ŠPP).",
         "Přetrvávající vzorce (měsíce, nikoli dny) specifických obtíží v určité oblasti by měly být formálně nahlášeny.",
       ]},
     ]},
@@ -4400,7 +4400,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     oficina: { sections: [
       { items: [
         "Antaa kollegoille valmiudet tekoälyn vastuulliseen integroimiseen vieraan kielen opetukseen tuottamalla materiaaleja, jotka ovat mukautettavissa useisiin oppimisprofiileihin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "Tämä ei ole esitys – se on yhteistä rakentamista. Jokainen osallistuja lähtee mukanaan vähintään yksi valmis resurssi kokeiltavaksi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tämä ei ole esitys – se on yhteistä rakentamista. Jokainen osallistuja vie mukanaan vähintään yhden valmiin resurssin kokeiltavaksi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
         "<strong>0–10 min:</strong> Taustoitus – heterogeenisen ryhmän ongelma ja miksi sama suuremmassa määrin ei toimi.",
@@ -4653,7 +4653,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Dokončí úlohy za pár minút, zatiaľ čo triede to trvá celú vyučovaciu hodinu.",
         "Kladie otázky, ktoré presahujú rámec učiva — alebo aktívne spochybňuje to, čo sa práve učí.",
-        "Môže pôsobiť nezáujem, nedisciplinovanosť alebo apatiu — často ide o príznaky chronickej nudy a nevyužívania potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Môže pôsobiť nezaujato, nedisciplinovane alebo apaticky — často ide o príznaky chronickej nudy a nevyužívania potenciálu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Výrazná emocionálna citlivosť; môže byť úzkostlivý alebo perfekcionistický — psychosociálne faktory sú pre rozvoj nadania rozhodujúce.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Reálne riziko nevyužívania potenciálu — môže sa naučiť skrývať svoje schopnosti, aby spoločensky nevyčnieval.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
@@ -4862,7 +4862,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Mimoriadne nadanie: vyhýbať sa hodnoteniu založenému na obyčajnej reprodukcii obsahu — zaradiť otázky vyžadujúce analýzu, syntézu a tvorbu.",
       ]},
       { items: [
-        "Keď ani s úpravami hodnotenia žiak nedokáže preukázať učenie, je to signál, že môže existovať hlbšia bariéra, ktorú treba preskúmať so SPO.",
+        "Keď ani s úpravami hodnotenia žiak nedokáže preukázať učenie, je to signál, že môže existovať hlbšia bariéra, ktorú treba preskúmať so školským poradenským zariadením.",
         "Pretrvávajúce vzorce (mesiace, nie dni) špecifických ťažkostí v určitej oblasti by mali byť formálne nahlásené.",
       ]},
     ]},
@@ -5090,7 +5090,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     },
     oficina: { sections: [
       { items: [
-        "A kollégák felkészítése az IA felelős integrálására az idegennyelv-oktatásban, többféle tanulási profilhoz igazítható anyagok készítésével.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "A kollégák felkészítése az MI felelős integrálására az idegennyelv-oktatásban, többféle tanulási profilhoz igazítható anyagok készítésével.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Ez nem előadás — ez közös alkotás. Minden résztvevő legalább egy kipróbálásra kész anyaggal távozik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -5365,7 +5365,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Προτείνετε στους γονείς/κηδεμόνες να εκτιμούν τη διαδικασία αντί για το αποτέλεσμα στο σπίτι: η περιέργεια, η εμβάθυνση και οι δύσκολες ερωτήσεις αξίζουν περισσότερο από τους υψηλούς βαθμούς σε εύκολες εργασίες.",
       ]},
       { items: [
-        "Σημάδια άγχους ή κατάθλιψης που συνδέονται με ακραίο τελειομανία.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Σημάδια άγχους ή κατάθλιψης που συνδέονται με ακραία τελειομανία.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Έντονη κοινωνική απομόνωση με αίσθημα «διαφορετικότητας» από τους συνομηλίκους.",
         "Αιφνίδια ακαδημαϊκή υποεπίδοση σε μαθητή που είχε προηγουμένως αναγνωριστεί ως ικανός.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
@@ -5436,7 +5436,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     },
     oficina: { sections: [
       { items: [
-        "Ενδυνάμωση των συναδέλφων για την υπεύθυνη ενσωμάτωση της IA στη διδασκαλία ξένων γλωσσών, με παραγωγή υλικού προσαρμόσιμου σε πολλαπλά προφίλ μάθησης.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ενδυνάμωση των συναδέλφων για την υπεύθυνη ενσωμάτωση της ΤΝ στη διδασκαλία ξένων γλωσσών, με παραγωγή υλικού προσαρμόσιμου σε πολλαπλά προφίλ μάθησης.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Δεν πρόκειται για παρουσίαση — είναι μια συν-δημιουργία. Κάθε συμμετέχων φεύγει με τουλάχιστον έναν έτοιμο προς δοκιμή πόρο.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -5553,7 +5553,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Χαρισματικότητα: αποφύγετε αξιολογήσεις απλής αναπαραγωγής περιεχομένου — συμπεριλάβετε ερωτήσεις ανάλυσης, σύνθεσης και δημιουργίας.",
       ]},
       { items: [
-        "Όταν, ακόμη και με προσαρμογές στην αξιολόγηση, ο μαθητής δεν καταφέρνει να επιδείξει μάθηση, αυτό είναι ένδειξη ότι μπορεί να υπάρχει ένα βαθύτερο εμπόδιο που πρέπει να διερευνηθεί με το SPO.",
+        "Όταν, ακόμη και με προσαρμογές στην αξιολόγηση, ο μαθητής δεν καταφέρνει να επιδείξει μάθηση, αυτό είναι ένδειξη ότι μπορεί να υπάρχει ένα βαθύτερο εμπόδιο που πρέπει να διερευνηθεί με το ΣΠΟ.",
         "Επίμονα μοτίβα (μήνες, όχι ημέρες) συγκεκριμένης δυσκολίας σε έναν τομέα πρέπει να επισημαίνονται επίσημα.",
       ]},
     ]},
