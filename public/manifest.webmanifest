@@ -1,0 +1,17 @@
+{
+  "name": "Farol — Inclusão e IA na sala de aula",
+  "short_name": "Farol",
+  "description": "Manual de bolso para docentes: reconhecer perfis de aprendizagem e orientar, com apoio de IA. Disponível em 24 línguas.",
+  "lang": "pt",
+  "start_url": "/farol/",
+  "scope": "/farol/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fafafa",
+  "theme_color": "#2a4a5e",
+  "icons": [
+    { "src": "/farol/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/farol/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/farol/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
