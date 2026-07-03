@@ -5145,6 +5145,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>szakértői bizottság</strong>, Pedagógiai Szakszolgálat, szakértői vizsgálatokhoz.",
         "<strong>Egyéni fejlesztési terv (EFT)</strong>, kötelező dokumentum SNI tanulóknál.",
         "<strong>MID</strong>, magyar mint idegen nyelv program.",
+        "BTMN (beilleszkedési, tanulási, magatartási nehézség): a pedagógiai szakszolgálat szakértői véleménye alapján fejlesztő pedagógiai ellátás jár, és egyes tantárgyakból az értékelés alóli mentesítés kérhető (Nkt. 56. §) — az SNI-nél enyhébb, de külön kategória.",
       ]},
     ],
     references: [
@@ -6500,15 +6501,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
       { items: [
+        "Individuāla pieeja mācību procesā ir katra skolotāja kompetencē — pielāgoti materiāli, skaidrākas instrukcijas un papildu laiks neprasa formālu atzinumu.",
+        "Atbalsta pasākumus ikdienas mācībās un valsts pārbaudes darbos (piemēram, pagarinātu laiku) skola var piešķirt, pamatojoties uz skolas atbalsta komandas lēmumu.",
+        "Skolas atbalsta komanda (psihologs, logopēds, speciālais pedagogs) ir pirmais solis, pirms tiek piesaistīta valsts komisija.",
+      ]},
+      { items: [
         "VPMC (Valsts pedagoģiski medicīniskā komisija) veic skolēnu novērtēšanu un piešķir speciālās izglītības statusu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "RPMC (rajona pedagoģiski medicīniskā komisija) koordinē atbalstu vietējā līmenī.",
         "Skolas psihologs (PPK, pedagoģiski psiholoģiskais centrs) nodrošina psiholoģisko atbalstu.",
-      ]},
-      { items: [
         "IIP (individuālais izglītības plāns), dokuments, kas nosaka mācīšanās mērķus, adaptācijas un atbalsta pasākumus.",
         "Atbalsta skolotājs (speciālais pedagogs) strādā ar skolēniem, kuriem ir speciālas vajadzības.",
         "Logopēds, sociālais pedagogs un psihologs var būt daļa no atbalsta komandas.",
         "Resursu centrs nodrošina metodisko atbalstu un papildu resursus.",
+      ]},
+      { items: [
+        "Latvijā nav atsevišķa likuma par apdāvinātiem skolēniem — atbalsts balstās Izglītības likuma principā par izglītību atbilstoši katra spējām.",
+        "Valsts mācību priekšmetu olimpiādes, interešu izglītība un skolēnu zinātniskās pētniecības darbi ir galvenie institucionalizētie talantu attīstības ceļi.",
+        "Skola var piemērot individuālu pieeju un paātrinātu mācību apguvi, taču vienotas valsts programmas apdāvinātajiem pašlaik nav.",
       ]},
       { items: [
         "Latviešu valoda kā otrā valoda (LV2) ir paredzēta skolēniem, kuru dzimtā valoda nav latviešu.",
@@ -6519,8 +6528,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Latvija ir ratificējusi ANO Konvenciju par personu ar invaliditāti tiesībām (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "ES direktīvas par iekļaujošo izglītību tiek ieviestas ar nacionālo tiesību aktiem.",
         "Tiesībsargs ir tiesīgs izskatīt sūdzības par diskrimināciju izglītībā.",
-      ]},
-      { items: [
         "Vecākiem/aizbildņiem ir tiesības piedalīties IIP izstrādē un pārskatīšanā.",
         "Skolēns, sasniedzot 15 gadus, ir tiesīgs paust savu viedokli izglītības lēmumos.",
         "Sūdzības par atbalsta nodrošināšanu var iesniegt pašvaldībai vai Izglītības un zinātnes ministrijai. Datu aizsardzība: visi skolēnu dati tiek apstrādāti saskaņā ar VDAR un Fizisko personu datu apstrādes likumu.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
@@ -6842,15 +6849,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Üldist tuge pakub kool ilma koolivälise hindamiseta: õpetaja individuaalne juhendamine, õpiabitunnid ja tugispetsialistide esmane nõustamine.",
+        "Diferentseeritud õpe ja jõukohastatud materjalid on iga õpetaja igapäevatöö osa ega eelda ühtegi otsust.",
+        "Tõhustatud tugi ja eritugi eeldavad koolivälise nõustamismeeskonna (Rajaleidja) soovitust — üldine tugi mitte.",
+      ]},
+      { items: [
         "Rajaleidja, haridus- ja nõustamiskeskuste võrgustik, mis hindab HEV-õpilasi ja koostab soovitused.",
         "Nõustamiskomisjon koostab soovitused sobiva õppe korraldamiseks.",
         "Koolipsühholoog ja sotsiaalpedagoog on kohustuslikud suurtes koolides.",
-      ]},
-      { items: [
         "IÕK (individuaalne õppekava) koostatakse õpilastele, kes vajavad kohandatud õpet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tugiisik abistab õpilast igapäevases koolis toimetulekus.",
         "Individuaalne arenguvestlus toimub igal aastal iga õpilasega.",
         "Õpiabirühm pakub väiksemat gruppi tuge põhiainetes.",
+      ]},
+      { items: [
+        "Andekus on põhikooli- ja gümnaasiumiseaduse käsitluses haridusliku erivajaduse vorm: kool peab andeka õpilase arengut märkama ja toetama.",
+        "Individuaalne õppekava (IÕK) võimaldab kiirendatud või süvendatud õpet; võimalik on ka klassi vahelejätmine.",
+        "Riiklikud olümpiaadid, Tartu Ülikooli teaduskool ja huvikoolid on peamised tugistruktuurid väljaspool kooli.",
       ]},
       { items: [
         "Eesti keel teise keelena (E2) on ette nähtud õpilastele, kelle emakeel ei ole eesti keel.",
@@ -6861,8 +6876,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Haridus- ja Teadusministeerium (HTM) vastutab hariduspoliitika ja HEV-suuniste eest.",
         "Koolid peavad tagama juurdepääsetavuse ja kohandused vastavalt seadusele.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Vanematel on õigus osaleda IÕK koostamisel ja hindamisotsustes.",
-      ]},
-      { items: [
         "Vanemad saavad pöörduda Rajaleidja keskusesse hindamis- ja nõustamisteenuseks.",
         "Koolivaidluste lahendamine toimub maavanemale (regionaalne tasand) või HTM-ile esitatud kaebuste kaudu.",
         "Õpilastel on õigus saada teavet oma õiguste kohta hariduses. Andmekaitse: kõiki õpilaste andmeid töödeldakse vastavalt isikuandmete kaitse üldmäärusele (GDPR) ja isikuandmete kaitse seadusele.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -7185,15 +7198,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Notranja diferenciacija pouka je pravica in dolžnost vsakega učitelja — prilagajanje razlage, gradiv in preverjanja ne zahteva nobene odločbe.",
+        "Petstopenjski model pomoči (koncept Učne težave v osnovni šoli) se začne pri učitelju: pomoč pri pouku, dopolnilni pouk in vključitev šolske svetovalne službe pred vsakim formalnim postopkom.",
+        "Dopolnilni pouk ter individualna in skupinska pomoč so na voljo vsem učencem, ki potrebujejo podporo, brez postopka usmerjanja.",
+      ]},
+      { items: [
         "Komisija za usmerjanje (pri Zavodu RS za šolstvo) oceni potrebe otroka in izda odločbo o usmeritvi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zavod RS za šolstvo (ZRSŠ) zagotavlja strokovno podporo šolam pri inkluziji.",
         "Šolska svetovalna služba (šolski psiholog, socialni pedagog, specialni pedagog) je ključna pri oblikovanju podpore.",
-      ]},
-      { items: [
         "Individualiziran program (IP) se pripravi za vsakega otroka, usmerjenega v izobraževalni program s prilagojenim izvajanjem.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Dodatna strokovna pomoč (DSP) je financirana s strani ministrstva in se izvaja individualno ali v skupinah.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Asistent se lahko dodeli za podporo pri vsakodnevnem funkcioniranju v šoli.",
         "Prilagojena šolska obveznost omogoča fleksibilnejše izvajanje obveznega šolanja.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Zakon o osnovni šoli (11. člen) opredeljuje nadarjene učence kot učence, ki potrebujejo prilagojene vsebine in metode dela — ne urejajo jih postopki usmerjanja po ZUOPP-1.",
+        "Odkrivanje poteka po Konceptu odkrivanja in dela z nadarjenimi učenci (1999): evidentiranje s strani učiteljev, identifikacija s testi in ocenjevalnimi lestvicami ter soglasje staršev.",
+        "Za identificirane nadarjene učence šola pripravi individualiziran program dela (INDEP); mogoče je tudi hitrejše napredovanje.",
       ]},
       { items: [
         "Slovenščina kot drugi in tuji jezik (SDTJ) je namenjena učencem, katerih materinščina ni slovenščina.",
@@ -7204,8 +7225,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ministrstvo za vzgojo in izobraževanje (MVI) usmerja politiko inkluzivnega izobraževanja.",
         "Varuh človekovih pravic obravnava pritožbe glede kršitev pravic v izobraževanju.",
         "Šole morajo zagotoviti fizično dostopnost in prilagoditve v skladu z zakonodajo.",
-      ]},
-      { items: [
         "Starši so enakovredni partnerji v postopku usmerjanja in pri oblikovanju IP.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Otrok je vključen v oblikovanje IP glede na starost in zmožnosti.",
         "Varstvo podatkov: podatki o učencih so urejeni z GDPR in Zakonom o varstvu osebnih podatkov (ZVOP-2); občutljivih informacij ne delite zunaj tima brez privolitve.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -7526,15 +7545,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Is é an múinteoir ranga an chéad chéim sa Chontanam Tacaíochta (NEPS): tacaíocht sa seomra ranga — idirdhealú, socruithe simplí agus breathnóireacht dhoiciméadaithe, gan aon atreorú foirmiúil.",
+        "Is féidir le gach múinteoir Comhad Tacaíochta Dalta a oscailt chun buarthaí agus idirghabhálacha a thaifeadadh.",
+        "Ní gá diagnóis ná measúnú chun idirdhealú agus socruithe réasúnta a chur i bhfeidhm sa rang.",
+      ]},
+      { items: [
         "NCSE (An Chomhairle Náisiúnta um Oideachas Speisialta) comhordaíonn seirbhísí agus foirgníonn beartais cuimsiúcháin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Baill foirne tacaíochta scoile (SNA, Cúntóir Riachtanas Speisialta) tacaíonn le scoláirí i dtimpeallacht an ranga.",
         "NEPS (An tSeirbhís Náisiúnta Síceolaíochta Oideachais) déanann measúnú agus tacaíonn le scoláirí.",
-      ]},
-      { items: [
         "Dréachtaítear an IEP (Plean Oideachais Aonair) ag an múinteoir acmhainne, na tuismitheoirí agus an NCSE.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Múinteoirí Acmhainne agus Foghlaim-Tacaíochta cuireann tacaíocht dhíreach ar fáil laistigh den rang agus lasmuigh de.",
         "Cúntóirí Riachtanas Speisialta (SNAnna) cuireann cúnamh pearsanta ar fáil leis an scoláire.",
         "Measúnú síceolaíoch trí NEPS nó trí chleachtas príobháideach mar bhunús don IEP.",
+      ]},
+      { items: [
+        "Níl aon fhoráil reachtúil ar leith do dhaltaí ardchumais in Éirinn — ní chlúdaíonn an tAcht EPSEN 2004 an t-ardchumas.",
+        "Is iad treoirlínte an NCCA do dhaltaí atá thar a bheith cumasach (2007) an phríomhthagairt do scoileanna: saibhriú, doimhniú agus difreálú aníos.",
+        "Cuireann CTYI (Ionad na nÓg Tréitheach in Éirinn, DCU) cláir sheach-churaclaim ar fáil; is ar leibhéal na scoile a socraítear luasghéarú.",
       ]},
       { items: [
         "Béarla mar Theanga Bhreise (EAL) do scoláirí nach í an Ghaeilge ná an Béarla a gcéad teanga.",
@@ -7545,8 +7572,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Roinn Oideachais agus Scileanna (DES) maoirsíonn beartas agus maoiniú le haghaidh scoláirí le riachtanais speisialta.",
         "Cigireacht scoile ag Cigireacht na Roinne measúnaíonn caighdeán cuimsiúcháin.",
         "Ombudsman do Leanaí imscrúdaíonn gearáin ó thuismitheoirí faoi sheirbhísí oideachais.",
-      ]},
-      { items: [
         "Tá tuismitheoirí ina bpáirtithe bunúsacha san IEP agus caithfear a dtoiliú a fháil do mheasúnú.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Is féidir le tuismitheoirí gearán a dhéanamh le NCSE nó leis an Ombudsman do Leanaí mura bhfuil siad sásta.",
         "Tá teidlíochtaí scoláirí bunaithe ar thuarascálacha measúnaithe agus ar mholtaí NCSE· tá cosc ar idirdhealú faoi na hAchtanna um Stádas Comhionann 2000–2018 agus tá sonraí na scoláirí faoi chosaint an Achta um Chosaint Sonraí 2018.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
@@ -7868,15 +7893,23 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Id-differenzjazzjoni fil-klassi hija responsabbiltà ta' kull għalliem — materjal adattat, struzzjonijiet aktar ċari u ħin addizzjonali ma jeħtieġu l-ebda deċiżjoni formali.",
+        "L-għalliem jista' jikkonsulta lill-INCO (Koordinatur tal-Inklużjoni) u lill-SMT qabel kull proċess formali.",
+        "L-LSE fil-klassi jappoġġja lill-istudenti fil-ħidma ta' kuljum bħala parti mill-provvista ordinarja.",
+      ]},
+      { items: [
         "KNPD (Kummissjoni Nazzjonali Persuni b'Diżabilità) timmonitorja d-drittijiet u tinforma l-politika nazzjonali.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "LSE (Learning Support Educator) jappoġġja lill-istudenti b'bżonnijiet speċjali fil-klassi regolari.",
         "Id-Dipartiment tal-Inklużjoni u r-Riżorsi tal-Edukazzjoni (DIER) jimmaniġġja s-servizzi ta' bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-      ]},
-      { items: [
         "Individual Educational Programme (IEP) jistabbilixxi l-objettivi u l-adattamenti individwalizzati għal kull student.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Statement of Needs: dokument li jidentifika l-bżonnijiet ta' student wara stħarriġ professjonali.",
         "L-LSEs jappoġġjaw lill-istudenti li jeħtieġu appoġġ fil-klassi ordinarja.",
         "Psikologi skolastiċi huma disponibbli permezz tal-Iskejjel tal-Gvern u id-Direttorat għas-Servizzi Edukattivi.",
+      ]},
+      { items: [
+        "F'Malta m'hemmx leġiżlazzjoni speċifika għall-istudenti b'abbiltà għolja — il-qafas huwa wieħed ta' politika, mhux ta' liġi.",
+        "Il-Qafas Nazzjonali tal-Kurrikulu (2012) jitlob provvista differenzjata li tinkludi lil min juri abbiltà għolja.",
+        "L-iskejjel joffru arrikkiment permezz ta' programmi u klabbs; l-aċċelerazzjoni tiġi deċiża fil-livell tal-iskola.",
       ]},
       { items: [
         "Il-Malti u l-Ingliż huma l-ilsna uffiċjali tal-istruzzjoni f'Malta.",
@@ -7887,8 +7920,6 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Il-Ministeru tal-Edukazzjoni u l-Impjieg jissorvelja l-politika u l-implimentazzjoni tal-inklużjoni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Il-Kummissarju tal-Edukazzjoni jieħu l-ilmenti dwar id-drittijiet tal-edukazzjoni.",
         "L-iskejjel għandhom jipproduċu Pjan ta' Inklużjoni u jirreġistraw l-adattamenti li jsiru.",
-      ]},
-      { items: [
         "Il-ġenituri huma msejħa biex jipparteċipaw fl-SDP u fil-laqgħat ta' reviżjoni.",
         "L-istudenti għandhom id-dritt li jiġu informati dwar id-drittijiet tagħhom fl-edukazzjoni.",
         "L-ilmenti jistgħu jiġu ppreżentati lill-Kummissarju tal-Edukazzjoni jew lill-Ombudsman· id-data kollha tal-istudenti hija protetta taħt l-Att dwar il-Protezzjoni tad-Data (Kap. 586).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
