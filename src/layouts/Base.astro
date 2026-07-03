@@ -47,6 +47,14 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
 
+    <!-- Installable PWA: works offline once a page has been visited -->
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
+    <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131722" media="(prefers-color-scheme: dark)" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Farol" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
@@ -151,6 +159,18 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
           }
         });
       })();
+    </script>
+
+    <!-- Register the service worker so the manual is installable and works
+         offline. Registered after load so it never competes with first paint. -->
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          var base = document.querySelector('link[rel="manifest"]');
+          var scope = base ? base.href.replace(/manifest\.webmanifest.*$/, '') : '/farol/';
+          navigator.serviceWorker.register(scope + 'sw.js', { scope: scope }).catch(function () {});
+        });
+      }
     </script>
   </body>
 </html>
