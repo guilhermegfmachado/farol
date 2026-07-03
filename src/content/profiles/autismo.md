@@ -15,14 +15,14 @@ sections:
   - label: "O que não é"
     items:
       - "<strong>Não é</strong> uma escala linear (\"mais\" ou \"menos\" autista) — é um perfil multidimensional, com perfis de apoio diferentes em cada domínio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
-      - "<strong>Não é</strong> falta de empatia: as dificuldades de compreensão mútua são bidireccionais — também as pessoas não-autistas têm dificuldade em ler as autistas (o \"problema da dupla empatia\").<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> falta de empatia: as dificuldades de compreensão mútua são bidirecionais — também as pessoas não-autistas têm dificuldade em ler as autistas (o \"problema da dupla empatia\").<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
       - "<strong>Não é</strong> mau comportamento quando uma rotina é quebrada — é uma resposta neurológica real à perda de previsibilidade.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "Estratégias sem IA"
     items:
       - "Avisar com antecedência qualquer alteração de rotina, mesmo que aparentemente trivial — o apoio visual e a antecipação têm suporte empírico.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
       - "Tornar regras sociais implícitas em regras explícitas (o que se faz, o que não se faz, quando).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
       - "Permitir pausas sensoriais em espaço silencioso quando necessário.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
-      - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares — uma força, não uma distracção.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>"
+      - "Aproveitar o interesse focado como ponto de entrada para conteúdos curriculares — uma força, não uma distração.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>"
   - label: "Como comunicar com o EE"
     items:
       - "Se o diagnóstico já existe, perguntar primeiro o que o EE sabe que funciona — os pais de crianças autistas frequentemente sabem mais sobre o seu filho do que qualquer relatório."

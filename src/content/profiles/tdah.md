@@ -2,7 +2,7 @@
 index: "01"
 title: "TDAH"
 category: "Perfil"
-subtitle: "Perturbação de Hiperactividade e Défice de Atenção"
+subtitle: "Perturbação de Hiperatividade e Défice de Atenção"
 desc: "Défice de atenção, hiperatividade, ou ambos. Inquieto, impulsivo, distrai-se com facilidade."
 sections:
   - label: "Como se manifesta na sala"
@@ -11,12 +11,12 @@ sections:
       - "Movimento constante — não fica sentado, mexe nas mãos, levanta-se sem razão aparente.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Responde antes de a pergunta terminar; interrompe colegas e o docente.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>"
       - "Esquece materiais, prazos e instruções dadas oralmente há minutos — a memória de trabalho está sobrecarregada.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
-      - "Pode hiper-focar no que lhe interessa, dando a impressão (errada) de que \"consegue quando quer\"; na verdade, o desempenho varia com o interesse e a recompensa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "Pode hiperfocar no que lhe interessa, dando a impressão (errada) de que \"consegue quando quer\"; na verdade, o desempenho varia com o interesse e a recompensa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
   - label: "O que não é"
     items:
-      - "<strong>Não é</strong> má educação, preguiça nem falta de carácter: estas ideias erradas estigmatizam e atrasam o apoio.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
-      - "<strong>Não é</strong> sempre hiperactividade visível — há uma apresentação predominantemente desatenta, mais frequente nas raparigas e muitas vezes sub-diagnosticada.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>"
-      - "<strong>Não se resolve</strong> com \"esforçar-se mais\": a dificuldade está na auto-regulação neurológica, não na vontade.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> má educação, preguiça nem falta de caráter: estas ideias erradas estigmatizam e atrasam o apoio.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> sempre hiperatividade visível — há uma apresentação predominantemente desatenta, mais frequente nas raparigas e muitas vezes subdiagnosticada.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>"
+      - "<strong>Não se resolve</strong> com \"esforçar-se mais\": a dificuldade está na autorregulação neurológica, não na vontade.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>"
   - label: "Estratégias sem IA"
     items:
       - "Fragmentar as instruções: uma de cada vez, por escrito no quadro, com tempo definido — reduz a carga sobre a memória de trabalho.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
@@ -27,7 +27,7 @@ sections:
     items:
       - "Começar pelo que o aluno faz bem — a reunião não pode abrir como uma lista de queixas, ou o EE fecha-se defensivamente."
       - "Descrever comportamentos observados, não diagnósticos: \"quando há mais do que dois passos seguidos, perde o fio\" em vez de \"tem TDAH\"."
-      - "Antecipar a reacção \"em casa não é assim\" — explicar que o contexto de grupo e a exigência de atenção prolongada na sala tornam os sintomas mais visíveis."
+      - "Antecipar a reação \"em casa não é assim\" — explicar que o contexto de grupo e a exigência de atenção prolongada na sala tornam os sintomas mais visíveis."
       - "Se sugerir avaliação, apresentá-la como recurso, não como punição: \"há apoio que o/a pode ajudar muito\" em vez de \"precisa de ser avaliado/a\"."
   - label: "Sinais de alerta para referenciação"
     items:

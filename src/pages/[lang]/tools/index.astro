@@ -34,7 +34,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     <div class="prompt-question">{t.tools_question}</div>
   </div>
 
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} /></div>
+  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.tools_search_placeholder} aria-label={t.tools_search_placeholder} /></div>
   <nav class="tree" aria-label={t.breadcrumb_tools}>
     {tools.map((tool) => (
       <a

@@ -29,8 +29,8 @@ sections:
       - "Na prática, a sobredotação é frequentemente sub-referenciada por falta de formação docente e por não estar associada a dificuldades visíveis — o DL 54/2018 não resolve este problema estrutural."
   - label: "PLNM — enquadramento específico"
     items:
-      - "O Despacho Normativo 7/2006 e posteriores regulam o ensino do Português Língua Não-Materna. Alunos PLNM são integrados em níveis A1 a C2 (QECR) após avaliação diagnóstica.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
-      - "A avaliação de alunos PLNM nas restantes disciplinas deve ter em conta a barreira linguística — as classificações não devem penalizar o domínio linguístico quando o objectivo é avaliar conhecimento de conteúdo.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
+      - "O Despacho Normativo 7/2006 e posteriores regulam o ensino do Português Língua Não Materna. Alunos PLNM são integrados em níveis A1 a C2 (QECR) após avaliação diagnóstica.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
+      - "A avaliação de alunos PLNM nas restantes disciplinas deve ter em conta a barreira linguística — as classificações não devem penalizar o domínio linguístico quando o objetivo é avaliar conhecimento de conteúdo.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
       - "Alunos com menos de dois anos de escolaridade em Portugal têm direito a apoio específico de PLNM — verificar disponibilidade no agrupamento.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
   - label: "O que guardar como referência rápida"
     items:

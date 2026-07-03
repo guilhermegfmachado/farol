@@ -7,7 +7,7 @@ desc: "A grelha que toda a ferramenta de IA tem de passar antes de entrar na sal
 sections:
   - label: "Privacidade & RGPD"
     items:
-      - "Dados de menores estão sujeitos a protecção reforçada (Art. 8.º RGPD). Consentimento dos encarregados de educação é obrigatório.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Dados de menores estão sujeitos a proteção reforçada (Art. 8.º RGPD). Consentimento dos encarregados de educação é obrigatório.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Verificar onde a ferramenta armazena dados — servidores europeus, não europeus, anonimizados ou não.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Nunca inserir nomes completos, moradas, números de identificação, ou diagnósticos clínicos em ferramentas de IA generativa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>"
       - "Distinguir uso institucional (escola assina contrato) de uso pessoal do docente (responsabilidade individual).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
@@ -18,8 +18,8 @@ sections:
       - "Modelos de \"previsão de risco académico\" são particularmente problemáticos — frequentemente reproduzem desigualdades existentes em vez de identificar necessidades.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
   - label: "Dependência cognitiva"
     items:
-      - "O objectivo é aumentar a autonomia do aluno, não substituir o trabalho cognitivo que o desenvolve.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
-      - "Distinguir <strong>ferramenta de acesso</strong> (text-to-speech para um aluno com dislexia) de <strong>ferramenta de substituição</strong> (ChatGPT a escrever a redacção).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "O objetivo é aumentar a autonomia do aluno, não substituir o trabalho cognitivo que o desenvolve.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "Distinguir <strong>ferramenta de acesso</strong> (text-to-speech para um aluno com dislexia) de <strong>ferramenta de substituição</strong> (ChatGPT a escrever a redação).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
       - "Avaliar regularmente: o aluno está a desenvolver competência, ou está a desenvolver dependência da ferramenta?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
   - label: "A grelha de decisão"
     items:

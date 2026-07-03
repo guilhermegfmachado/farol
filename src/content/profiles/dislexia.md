@@ -9,8 +9,8 @@ sections:
     items:
       - "Lê devagar e com esforço, com erros na leitura de palavras isoladas, mesmo em textos que compreende bem quando ouvidos.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>"
       - "As inversões de letras (b/d, p/q) são comuns em todas as crianças que começam a escrever e não são, por si só, sinal de dislexia; a dificuldade central é <strong>fonológica</strong> — associar letras a sons.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>"
-      - "Erros ortográficos persistentes que não respondem à correcção repetida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
-      - "Tende a evitar ler em voz alta; pode parecer desinteresse quando é, na verdade, uma estratégia de protecção."
+      - "Erros ortográficos persistentes que não respondem à correção repetida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Tende a evitar ler em voz alta; pode parecer desinteresse quando é, na verdade, uma estratégia de proteção."
       - "Compreensão oral claramente superior à da leitura — a dificuldade é específica, não uma limitação cognitiva geral.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
   - label: "O que não é"
     items:
@@ -21,13 +21,13 @@ sections:
     items:
       - "Aumentar o espaçamento entre letras e linhas: há evidência experimental de que o espaçamento alargado melhora a leitura de crianças disléxicas, sem treino prévio.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> A evidência para tipos de letra específicos \"para disléxicos\" é, em contraste, mais fraca e inconsistente."
       - "Permitir leitura silenciosa antes de qualquer leitura em voz alta — nunca pedir leitura de surpresa."
-      - "Quando o objectivo não é avaliar a escrita, avaliar o conteúdo separadamente da ortografia."
+      - "Quando o objetivo não é avaliar a escrita, avaliar o conteúdo separadamente da ortografia."
       - "Oferecer a mesma informação em vários formatos (áudio, vídeo, esquemas)."
   - label: "Como comunicar com o EE"
     items:
       - "Separar explicitamente leitura de inteligência logo no início: \"compreende muito bem quando ouve — a dificuldade é específica à leitura\"."
       - "Ter presente que a dislexia tem forte componente hereditária: um dos progenitores pode ter dislexia não diagnosticada, e a conversa pode reactivar memórias difíceis da própria escolaridade.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
-      - "Evitar mostrar fichas cheias de correcções a vermelho sem contexto — apresentar primeiro o que o aluno já consegue fazer."
+      - "Evitar mostrar fichas cheias de correções a vermelho sem contexto — apresentar primeiro o que o aluno já consegue fazer."
       - "Ser concreto nas adaptações já em curso e nas que o EE pode replicar em casa: textos em áudio, leitura em voz alta sem pressão de tempo."
   - label: "Sinais de alerta para referenciação"
     items:

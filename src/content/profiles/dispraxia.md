@@ -3,7 +3,7 @@ index: "03"
 title: "Dispraxia"
 category: "Perfil"
 subtitle: "Perturbação do desenvolvimento da coordenação"
-desc: "Dificuldade de coordenação motora que afecta a escrita, organização e tarefas sequenciais."
+desc: "Dificuldade de coordenação motora que afeta a escrita, organização e tarefas sequenciais."
 sections:
   - label: "Como se manifesta na sala"
     items:
@@ -15,7 +15,7 @@ sections:
   - label: "O que não é"
     items:
       - "<strong>Não é</strong> preguiça ou falta de aplicação.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
-      - "<strong>Não é</strong> apenas má caligrafia: o termo clínico é Perturbação do Desenvolvimento da Coordenação (PDC) e afecta o planeamento e a sequenciação motora, não só a escrita.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> apenas má caligrafia: o termo clínico é Perturbação do Desenvolvimento da Coordenação (PDC) e afeta o planeamento e a sequenciação motora, não só a escrita.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>"
       - "<strong>Não se resolve</strong> com \"treinar mais a escrita\": a intervenção eficaz é orientada para a tarefa, não a repetição mecânica.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>"
   - label: "Estratégias sem IA"
     items:
@@ -32,7 +32,7 @@ sections:
   - label: "Sinais de alerta para referenciação"
     items:
       - "Recusa total de produção escrita."
-      - "Isolamento social em contextos de actividade física."
+      - "Isolamento social em contextos de atividade física."
       - "Sinais de ansiedade somatizada antes de avaliações escritas — o sofrimento psicossocial é parte do quadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
 ai_strategies:
   tools: []
