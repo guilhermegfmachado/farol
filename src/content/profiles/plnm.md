@@ -2,7 +2,7 @@
 index: "06"
 title: "Aprendente PLNM"
 category: "Perfil"
-subtitle: "Português Língua Não-Materna — aluno sem proficiência na língua de ensino"
+subtitle: "Português Língua Não Materna — aluno sem proficiência na língua de ensino"
 desc: "Aluno sem proficiência em português ou na língua de ensino. Frequentemente com origem migrante."
 sections:
   - label: "Como se manifesta na sala"

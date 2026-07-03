@@ -2,21 +2,21 @@
 index: "05"
 title: "Sobredotação"
 category: "Perfil"
-subtitle: "Capacidade significativamente acima da média, frequentemente sub-estimulada"
-desc: "Capacidade acima da média, frequentemente acompanhada de tédio e sub-estimulação."
+subtitle: "Capacidade significativamente acima da média, frequentemente subestimulada"
+desc: "Capacidade acima da média, frequentemente acompanhada de tédio e subestimulação."
 sections:
   - label: "Como se manifesta na sala"
     items:
       - "Termina as tarefas em minutos enquanto a turma demora a aula inteira."
       - "Faz perguntas que saem do âmbito da matéria — ou desafia activamente o que está a ser ensinado."
       - "Pode aparentar desinteresse, indisciplina ou apatia — muitas vezes sinais de tédio crónico e de subdesempenho.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
-      - "Sensibilidade emocional acentuada; pode ser ansioso ou perfeccionista — os factores psicossociais são determinantes no desenvolvimento do talento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "Sensibilidade emocional acentuada; pode ser ansioso ou perfeccionista — os fatores psicossociais são determinantes no desenvolvimento do talento.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Risco real de subdesempenho — pode aprender a esconder a capacidade para não se destacar socialmente.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
   - label: "O que não é"
     items:
       - "<strong>Não é</strong> sinónimo de bom comportamento nem de bons resultados — muitos alunos sobredotados têm desempenho mediano por desinteresse.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "<strong>Não é</strong> \"não precisa de ajuda\": precisa de desafios diferentes, porque a capacidade só se converte em realização quando é deliberadamente desenvolvida.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
-      - "<strong>Não é</strong> incompatível com a neuro-divergência — a dupla excepcionalidade (2e) existe, é frequente e é muitas vezes mascarada.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+      - "<strong>Não é</strong> incompatível com a neurodivergência — a dupla excecionalidade (2e) existe, é frequente e é muitas vezes mascarada.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
   - label: "Estratégias sem IA"
     items:
       - "Ter sempre tarefas de extensão preparadas — não mais do mesmo, mas matéria mais profunda ou aplicada.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
