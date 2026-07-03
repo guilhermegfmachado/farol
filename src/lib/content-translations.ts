@@ -1542,7 +1542,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "<strong>Ist nicht</strong> gleichbedeutend mit gutem Verhalten oder guten Leistungen — viele hochbegabte Schülerinnen und Schüler erbringen aus Desinteresse durchschnittliche Leistungen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>Ist nicht</strong> „braucht keine Hilfe“: Es braucht andere Herausforderungen, denn Begabung wird nur dann zu Leistung, wenn sie bewusst gefördert wird.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
-        "<strong>Ist nicht</strong> unvereinbar mit Neurodivergenz — Zweifachausnahmebegabung (2e) existiert, ist häufig und wird oft verdeckt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ist nicht</strong> unvereinbar mit Neurodivergenz — doppelte Ausnahmebegabung (2e) existiert, ist häufig und wird oft verdeckt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
         "Stets vorbereitete Vertiefungsaufgaben bereithalten — nicht mehr vom Gleichen, sondern tiefer gehender oder angewandter Stoff.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -2319,7 +2319,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     },
     oficina: { sections: [
       { items: [
-        "Przygotować nauczycieli do odpowiedzialnej integracji SI w nauczaniu języka obcego, wraz z tworzeniem materiałów dostosowywanych do wielu profili uczenia się.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Przygotować nauczycieli do odpowiedzialnej integracji AI w nauczaniu języka obcego, wraz z tworzeniem materiałów dostosowywanych do wielu profili uczenia się.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "To nie jest prezentacja — to współtworzenie. Każdy uczestnik wychodzi z co najmniej jednym gotowym do przetestowania zasobem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -3361,7 +3361,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     },
     oficina: { sections: [
       { items: [
-        "Připravit kolegy na odpovědné začlenění UI do výuky cizího jazyka, včetně tvorby materiálů přizpůsobitelných různým profilům učení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Připravit kolegy na odpovědné začlenění AI do výuky cizího jazyka, včetně tvorby materiálů přizpůsobitelných různým profilům učení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Není to prezentace — je to společná tvorba. Každý účastník odchází s alespoň jedním zdrojem připraveným k vyzkoušení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
@@ -3601,7 +3601,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Förklara i enkelt språk vad dyspraxi är – de flesta vårdnadshavare har aldrig hört termen: ”det är en neurologisk svårighet i koordinationen av rörelser, inte slarv och inte bristande ansträngning”.",
         "Den oläsliga handstilen är den största friktionspunkten med vårdnadshavarna – att visa att bedömningen numera värdesätter innehållet och inte formen hjälper till att lindra oron på båda sidor.",
-        "Föreslå praktiska verktyg för hemmet: rösttext på mobilen för anteckningar, tangentbord för omfattande skriftliga arbeten.",
+        "Föreslå praktiska verktyg för hemmet: tal-till-text på mobilen för anteckningar, tangentbord för omfattande skriftliga arbeten.",
         "Om det finns en historik av ”han/hon är lat” eller ”anstränger sig inte” från tidigare år, benämn det direkt: ”jag vet att ni har hört det förut – min tolkning är en annan”.",
       ]},
       { items: [
@@ -3948,7 +3948,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Forklar i et enkelt sprog, hvad dyspraksi er – de fleste forældre/værger har aldrig hørt betegnelsen: »det er en neurologisk vanskelighed i koordinationen af bevægelser, ikke sjusk og ikke manglende indsats«.",
         "Den ulæselige håndskrift er det største gnidningspunkt med forældre/værger – at vise, at bedømmelsen nu vægter indholdet og ikke formen, hjælper med at lindre bekymringen på begge sider.",
         "Foreslå praktiske værktøjer til hjemmet: stemmediktering på mobilen til noter, tastatur til omfattende skriftlige opgaver.",
-        "Hvis der er en historik med »han/hun er doven« eller »gør sig ikke umage« fra tidligere år, så sæt direkte ord på det: »jeg ved, at De har hørt det før – min vurdering er en anden«.",
+        "Hvis der er en historik med »han/hun er doven« eller »gør sig ikke umage« fra tidligere år, så sæt direkte ord på det: »jeg ved, at du har hørt det før – min vurdering er en anden«.",
       ]},
       { items: [
         "Fuldstændig afvisning af skriftligt arbejde.",
@@ -4130,7 +4130,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Det er ikke</strong> kun differentieret arbejde på papir — differentiering omfatter også, hvordan læreren forklarer, spørger og evaluerer.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Styret valg: tilbyde 2–3 muligheder for svarformat (skreven tekst, mundtligt, skematisk tegning) — alle arbejder med det samme indhold.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Styret valg: tilbyde 2–3 muligheder for svarformat (skriftlig tekst, mundtligt, skematisk tegning) — alle arbejder med det samme indhold.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Stilladsering (scaffolding): give elever, der har det sværere, en struktureret vejledning; fjerne vejledningen gradvist, efterhånden som selvstændigheden vokser.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Fleksibel gruppering: grupper efter interesse, efter mestringsniveau eller blandede — rotere for at undgå faste grupper, der bliver til identiteter.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Tidsmæssige tilpasninger: mere tid betyder ikke mindre faglig stringens. For elever med ADHD eller dyspraksi opdeles opgaven i segmenter med planlagte pauser.",
@@ -4746,7 +4746,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     },
     oficina: { sections: [
       { items: [
-        "Pripraviť kolegov na zodpovednú integráciu UI do vyučovania cudzieho jazyka vrátane tvorby materiálov prispôsobiteľných rôznym profilom učenia sa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Pripraviť kolegov na zodpovednú integráciu AI do vyučovania cudzieho jazyka vrátane tvorby materiálov prispôsobiteľných rôznym profilom učenia sa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Nie je to prezentácia — je to spoločná tvorba. Každý účastník odchádza s aspoň jedným zdrojom pripraveným na vyskúšanie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
