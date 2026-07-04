@@ -1,9 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
+import { ui } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import SaveStar from '../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const tools = await getCollection('tools');
@@ -16,6 +18,8 @@ export async function getStaticPaths() {
 const { tool } = Astro.props;
 const { name, url, category, desc, profiles, free, rgpd_note } = tool.data;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['pt'];
+const slug = tool.id.replace(/\.md$/, '');
 
 const allProfiles = await getCollection('profiles');
 const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''), p.data.title]));
@@ -38,6 +42,7 @@ const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''),
           <a href={url} target="_blank" rel="noopener noreferrer" class="tool-url">{url.replace(/^https?:\/\//, '')}</a>
         </p>
       )}
+      <div class="card-actions"><SaveStar type="tool" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
 
     <section class="card-section">

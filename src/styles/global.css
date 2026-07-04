@@ -356,3 +356,32 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 .browse-divider::before, .browse-divider::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
 @media (max-width: 560px) { .observe-grid { grid-template-columns: 1fr; } }
 @media print { .observe, .browse-divider { display: none; } }
+
+/* ── My toolkit (localStorage favourites) ─────────────────────── */
+.toolkit-link {
+  display: inline-flex; align-items: center; gap: 0.2rem;
+  color: var(--ink-faded); text-decoration: none; padding: 0.15rem 0.3rem;
+  border-radius: 3px; transition: color 0.15s ease;
+}
+.toolkit-link:hover { color: var(--beam); }
+.toolkit-link svg { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.toolkit-count {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.6rem; font-weight: 600;
+  background: var(--beam); color: #1e1d1a; border-radius: 999px; min-width: 1rem;
+  padding: 0.05rem 0.3rem; text-align: center; line-height: 1.3;
+}
+.card-actions { margin-top: 1.1rem; }
+.toolkit-intro { color: var(--ink-soft); font-size: 0.9rem; max-width: 60ch; margin: 0 0 1rem; line-height: 1.6; }
+.toolkit-empty {
+  margin: 1.5rem 0; padding: 1.1rem 1.3rem; border: 1px dashed var(--rule);
+  background: var(--bg-elevated); color: var(--ink-soft); font-size: 0.9rem; line-height: 1.6;
+}
+.toolkit-row { display: flex; align-items: stretch; gap: 0.4rem; }
+.toolkit-row .tree-node { flex: 1; }
+.toolkit-remove {
+  flex-shrink: 0; background: none; border: 1px solid var(--rule); color: var(--ink-faded);
+  cursor: pointer; padding: 0 0.8rem; font-size: 0.9rem; border-radius: 2px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.toolkit-remove:hover { border-color: var(--warning); color: var(--warning); }
+html.reading .toolkit-link, html.reading .toolkit-count { word-spacing: normal; }

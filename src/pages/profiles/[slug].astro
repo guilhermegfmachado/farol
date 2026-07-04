@@ -6,6 +6,7 @@ import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import SaveStar from '../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('profiles');
@@ -62,6 +63,7 @@ function entryHref(e: typeof allEntries[0]) {
       </div>
       <h1 class="card-title">{title}</h1>
       <p class="card-subtitle">{subtitle}</p>
+      <div class="card-actions"><SaveStar type="profile" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
 
     {sections.map((section) => (

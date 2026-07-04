@@ -6,6 +6,7 @@ import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SaveStar from '../../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const langs: Lang[] = ['en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
@@ -44,6 +45,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
           <a href={url} target="_blank" rel="noopener noreferrer" class="tool-url">{url.replace(/^https?:\/\//, '')}</a>
         </p>
       )}
+    <div class="card-actions"><SaveStar type="tool" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
 
     <section class="card-section">
