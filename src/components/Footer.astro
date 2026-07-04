@@ -9,8 +9,15 @@ const { lang = 'pt' } = Astro.props;
 const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const sobreHref = allAboutHrefs(base)[lang];
+const p = lang === 'pt' ? base : `${base}${lang}/`;
 ---
 <footer>
+  <nav class="footer-nav" aria-label={t.footer_manual}>
+    <a href={p}>{t.breadcrumb_home}</a>
+    <a href={`${p}lighthouse/`}>{t.lh_title}</a>
+    <a href={`${p}tools/`}>{t.breadcrumb_tools}</a>
+    <a href={`${p}toolkit/`}>{t.toolkit_nav}</a>
+  </nav>
   <div>{t.footer_manual}</div>
   <div><a href={sobreHref}>{t.footer_how}</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer license">{t.footer_licence}</a></div>
   <div>{t.footer_by} <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a></div>
@@ -21,6 +28,9 @@ const sobreHref = allAboutHrefs(base)[lang];
 footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
 footer a { color: var(--ink-faded); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
 footer a:hover { color: var(--accent); }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-bottom: 1rem; padding-bottom: 0.9rem; border-bottom: 1px dashed var(--rule); }
+.footer-nav a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.72rem; letter-spacing: 0.04em; border-bottom: none; color: var(--ink-soft); }
+.footer-nav a:hover { color: var(--accent); }
 .footer-feedback { margin-top: 0.5rem; }
 .footer-feedback a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem; letter-spacing: 0.05em; }
 </style>
