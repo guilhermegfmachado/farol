@@ -85,6 +85,7 @@ const categoryColor: Record<string, string> = {
 
     <div class="lh-back">
       <a href={base} class="lh-back-link">← {t.lh_back}</a>
+      <a href={`${base}tools/`} class="lh-back-link">{t.breadcrumb_tools} →</a>
     </div>
   </div>
 
@@ -267,7 +268,7 @@ const categoryColor: Record<string, string> = {
 }
 
 /* ── Back link ────────────────────────────────────────────── */
-.lh-back { margin-top: 2rem; margin-bottom: 0.5rem; }
+.lh-back { margin-top: 2rem; margin-bottom: 0.5rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
 .lh-back-link {
   font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
   font-size: 0.75rem;
