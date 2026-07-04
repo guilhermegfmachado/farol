@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import { ui } from '@/lib/i18n';
+import { strategyTags, STRATEGY_SECTION_INDEX, ALL_TAGS, type StrategyTag } from '@/lib/strategy-tags';
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['pt'];
+const profiles = await getCollection('profiles');
+const strip = (s: string) => s.replace(/<sup[\s\S]*?<\/sup>/g, '').trim();
+const tagLabel: Record<StrategyTag, string> = { quick: t.tag_quick, 'no-prep': t.tag_noprep, 'no-tech': t.tag_notech };
+
+const groups = profiles.map((p) => {
+  const slug = p.id.replace(/\.md$/, '');
+  const items = p.data.sections?.[STRATEGY_SECTION_INDEX]?.items ?? [];
+  return {
+    title: p.data.title,
+    href: `${base}profiles/${slug}/`,
+    strategies: items.map((it: string, i: number) => ({ text: strip(it), tags: strategyTags[slug]?.[i] ?? [] })),
+  };
+}).filter((g) => g.strategies.length);
+---
+<Base title={`${t.strategies_title} — Farol`} description={t.strategies_intro}>
+  <Header lang="pt" />
+  <Breadcrumb crumbs={[{ label: 'início', href: base }, { label: t.strategies_title.toLowerCase() }]} />
+
+  <div class="prompt-section">
+    <div class="prompt-label">✎</div>
+    <div class="prompt-question">{t.strategies_title}</div>
+  </div>
+  <p class="strat-intro">{t.strategies_intro}</p>
+
+  <div class="strat-filter">
+    <span class="strat-filter-label">{t.strategies_filter}</span>
+    {ALL_TAGS.map((tag) => (
+      <button type="button" class="strat-chip" data-filter-tag={tag} aria-pressed="false">{tagLabel[tag]}</button>
+    ))}
+  </div>
+
+  <article class="card">
+    <p class="strat-none" id="strat-none" hidden>{t.strategies_none}</p>
+    {groups.map((g) => (
+      <section class="strat-group" data-strat-group>
+        <h2 class="card-section-label"><a href={g.href} class="strat-group-link">{g.title}</a></h2>
+        <ul class="strat-list">
+          {g.strategies.map((s) => (
+            <li class="strategy-item" data-tags={s.tags.join(' ')}>
+              <span class="strategy-text" set:html={s.text} />
+              {s.tags.length > 0 && (
+                <span class="strategy-tags">
+                  {s.tags.map((tg) => <span class={`strategy-tag tag-${tg}`}>{tagLabel[tg]}</span>)}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.strategies_print} · PDF</button></div>
+  </article>
+
+  <Footer lang="pt" />
+</Base>
+
+<script is:inline>
+  (function () {
+    var active = [];
+    var chips = Array.prototype.slice.call(document.querySelectorAll('.strat-chip'));
+    var items = Array.prototype.slice.call(document.querySelectorAll('.strategy-item'));
+    var groups = Array.prototype.slice.call(document.querySelectorAll('[data-strat-group]'));
+    var none = document.getElementById('strat-none');
+    function apply() {
+      var shown = 0;
+      items.forEach(function (li) {
+        var tags = (li.getAttribute('data-tags') || '').split(' ');
+        var ok = active.every(function (a) { return tags.indexOf(a) !== -1; });
+        li.style.display = ok ? '' : 'none';
+        if (ok) shown++;
+      });
+      groups.forEach(function (g) {
+        var any = Array.prototype.some.call(g.querySelectorAll('.strategy-item'), function (li) { return li.style.display !== 'none'; });
+        g.style.display = any ? '' : 'none';
+      });
+      if (none) none.hidden = shown !== 0;
+    }
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        var tag = c.getAttribute('data-filter-tag');
+        var i = active.indexOf(tag);
+        if (i === -1) { active.push(tag); c.setAttribute('aria-pressed', 'true'); }
+        else { active.splice(i, 1); c.setAttribute('aria-pressed', 'false'); }
+        apply();
+      });
+    });
+  })();
+</script>
