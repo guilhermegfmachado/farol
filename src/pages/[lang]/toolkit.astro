@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import { ui, entryTranslations, type Lang, allIndexHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export async function getStaticPaths() {
+  const langs: Lang[] = ['en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  return langs.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui[lang];
+
+const profiles = await getCollection('profiles');
+const tools = await getCollection('tools');
+const slugOf = (e: any) => e.id.replace(/\.md$/, '');
+const catalogue = [
+  ...profiles.map((p) => ({
+    type: 'profile', id: slugOf(p),
+    title: entryTranslations[lang]?.[slugOf(p)]?.title ?? p.data.title,
+    href: `${base}${lang}/profiles/${slugOf(p)}/`,
+  })),
+  ...tools.map((tl) => ({ type: 'tool', id: slugOf(tl), title: tl.data.name, href: `${base}${lang}/tools/${slugOf(tl)}/` })),
+];
+const labels = { profiles: t.toolkit_profiles, tools: t.toolkit_tools, remove: t.save_remove };
+---
+<Base title={`${t.toolkit_title} — Farol`} description={t.toolkit_intro}>
+  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.toolkit_title.toLowerCase() }]} />
+
+  <div class="prompt-section">
+    <div class="prompt-label">★</div>
+    <div class="prompt-question">{t.toolkit_title}</div>
+  </div>
+  <p class="toolkit-intro">{t.toolkit_intro}</p>
+
+  <p class="toolkit-empty" id="toolkit-empty">{t.toolkit_empty}</p>
+  <div id="toolkit-content"></div>
+
+  <Footer lang={lang} />
+</Base>
+
+<script is:inline define:vars={{ catalogue, labels }}>
+  (function () {
+    var KEY = 'farol-saved';
+    function read() {
+      try { var v = JSON.parse(localStorage.getItem(KEY) || '{}'); return { profile: v.profile || [], tool: v.tool || [] }; }
+      catch (e) { return { profile: [], tool: [] }; }
+    }
+    function write(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} }
+    var content = document.getElementById('toolkit-content');
+    var empty = document.getElementById('toolkit-empty');
+    function render() {
+      var saved = read();
+      content.innerHTML = '';
+      var any = false;
+      [['profile', labels.profiles], ['tool', labels.tools]].forEach(function (g) {
+        var items = catalogue.filter(function (it) { return it.type === g[0] && saved[g[0]].indexOf(it.id) !== -1; });
+        if (!items.length) return;
+        any = true;
+        var h = document.createElement('h2');
+        h.className = 'card-section-label'; h.style.marginTop = '2rem'; h.textContent = g[1];
+        content.appendChild(h);
+        var nav = document.createElement('nav'); nav.className = 'tree';
+        items.forEach(function (it) {
+          var row = document.createElement('div'); row.className = 'toolkit-row';
+          var a = document.createElement('a'); a.className = 'tree-node'; a.href = it.href;
+          var title = document.createElement('span'); title.className = 'tree-node-title'; title.textContent = it.title;
+          var arrow = document.createElement('span'); arrow.className = 'tree-node-arrow'; arrow.setAttribute('aria-hidden', 'true'); arrow.textContent = '→';
+          a.appendChild(title); a.appendChild(arrow);
+          var rm = document.createElement('button');
+          rm.type = 'button'; rm.className = 'toolkit-remove'; rm.setAttribute('aria-label', labels.remove + ' ✕'); rm.title = labels.remove; rm.textContent = '✕';
+          rm.addEventListener('click', function () {
+            var s = read(); var arr = s[it.type]; var i = arr.indexOf(it.id);
+            if (i !== -1) arr.splice(i, 1); write(s);
+            document.dispatchEvent(new CustomEvent('farol-saved-changed', { detail: s }));
+            render();
+          });
+          row.appendChild(a); row.appendChild(rm); nav.appendChild(row);
+        });
+        content.appendChild(nav);
+      });
+      empty.hidden = any;
+    }
+    render();
+    document.addEventListener('farol-saved-changed', render);
+  })();
+</script>

@@ -35,6 +35,15 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
           aria-pressed="false"
           title={t.reading_mode}
         >Aa</button>
+        <a
+          href={`${base}${lang === 'pt' ? '' : lang + '/'}toolkit/`}
+          class="toolkit-link"
+          aria-label={t.toolkit_nav}
+          title={t.toolkit_nav}
+        >
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 2.6l2.85 5.98 6.55.92-4.78 4.6 1.16 6.5L12 18.9l-5.94 2.7 1.16-6.5-4.78-4.6 6.55-.92z"/></svg>
+          <span class="toolkit-count" data-toolkit-count hidden></span>
+        </a>
         <div class="version-tag">{t.version_tag}</div>
       </div>
       <div class="lang-switcher" aria-label="Select language">
