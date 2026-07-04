@@ -221,6 +221,56 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
       })();
     </script>
 
+    <!-- Full-text search: only on pages whose search box opts in via
+         data-search-index. Fetches a per-language index (lazily, on first
+         keystroke) and shows matches across profiles, references and tools. -->
+    <script is:inline>
+      (function () {
+        var input = document.querySelector('#card-search[data-search-index]');
+        var results = document.getElementById('search-results');
+        if (!input || !results) return;
+        var lang = input.getAttribute('data-search-lang') || 'pt';
+        var idxBase = input.getAttribute('data-search-base') || '/farol/';
+        var empty = document.getElementById('search-empty');
+        var browseEls = ['.tree', '.observe', '.browse-divider', '.tools-link-row'].map(function (s) { return document.querySelector(s); });
+        var index = null, loading = false, pending = null;
+        function setBrowse(v) { browseEls.forEach(function (el) { if (el) el.style.display = v ? '' : 'none'; }); }
+        function ensure(cb) {
+          if (index) { cb(); return; }
+          pending = cb;
+          if (loading) return;
+          loading = true;
+          fetch(idxBase + 'search/' + lang + '.json')
+            .then(function (r) { return r.json(); })
+            .then(function (d) { index = d; loading = false; if (pending) pending(); })
+            .catch(function () { loading = false; });
+        }
+        function render(q) {
+          var toks = q.split(/\s+/).filter(Boolean);
+          var hits = index.filter(function (it) { return toks.every(function (tk) { return it.x.indexOf(tk) !== -1; }); });
+          results.innerHTML = '';
+          if (!hits.length) { if (empty) empty.hidden = false; results.hidden = true; return; }
+          if (empty) empty.hidden = true;
+          hits.slice(0, 40).forEach(function (it) {
+            var a = document.createElement('a'); a.className = 'search-result'; a.href = it.u;
+            a.setAttribute('data-category', it.k || '');
+            var c = document.createElement('span'); c.className = 'search-result-cat'; c.textContent = it.c;
+            var t = document.createElement('span'); t.className = 'search-result-title'; t.textContent = it.t;
+            var s = document.createElement('span'); s.className = 'search-result-snip'; s.textContent = it.s;
+            a.appendChild(c); a.appendChild(t); if (it.s) a.appendChild(s);
+            results.appendChild(a);
+          });
+          results.hidden = false;
+        }
+        input.addEventListener('input', function () {
+          var q = this.value.trim().toLowerCase();
+          if (q.length < 2) { setBrowse(true); results.hidden = true; results.innerHTML = ''; if (empty) empty.hidden = true; return; }
+          setBrowse(false);
+          ensure(function () { render(q); });
+        });
+      })();
+    </script>
+
     <!-- Register the service worker so the manual is installable and works
          offline. Registered after load so it never competes with first paint. -->
     <script is:inline>

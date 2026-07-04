@@ -49,7 +49,7 @@ const categoryLabel: Record<string, string> = {
   </section>
   <div class="browse-divider"><span>{t.browse_label}</span></div>
 
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.tools_search_placeholder} aria-label={t.tools_search_placeholder} /></div>
+  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.tools_search_placeholder} aria-label={t.tools_search_placeholder} data-search-index data-search-lang="pt" data-search-base={base} /></div>
   <nav class="tree" aria-label="Ferramentas">
     {tools.map((tool) => (
       <a
@@ -68,28 +68,11 @@ const categoryLabel: Record<string, string> = {
     ))}
   </nav>
   <p class="search-empty" id="search-empty" hidden>{t.no_results}</p>
+  <div id="search-results" class="search-results" hidden></div>
 
   <Footer />
 </Base>
 
-<script is:inline>
-(function() {
-  var input = document.getElementById('card-search');
-  var nodes = document.querySelectorAll('.tree-node');
-  var empty = document.getElementById('search-empty');
-  if (!input || !nodes.length) return;
-  input.addEventListener('input', function() {
-    var q = this.value.trim().toLowerCase();
-    var shown = 0;
-    nodes.forEach(function(node) {
-      var match = !q || node.textContent.toLowerCase().includes(q);
-      node.style.display = match ? '' : 'none';
-      if (match) shown++;
-    });
-    if (empty) empty.hidden = shown !== 0;
-  });
-})();
-</script>
 
 <style>
 .search-bar { margin-bottom: 0.75rem; }

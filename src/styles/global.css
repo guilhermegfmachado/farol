@@ -413,3 +413,28 @@ html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-recurso: #d0
 .tree-node[data-category="Referência"] { border-left-color: var(--cat-referencia); }
 .tree-node[data-category="Recurso"]    { border-left-color: var(--cat-recurso); }
 .tree-node[data-category="Ferramenta"] { border-left-color: var(--cat-ferramenta); }
+
+/* ── Full-text search results ─────────────────────────────────── */
+.search-results { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem; }
+.search-result {
+  display: grid; grid-template-columns: auto 1fr; grid-template-areas: "cat title" "cat snip";
+  gap: 0.1rem 0.9rem; align-items: baseline;
+  padding: 0.8rem 1rem; background: var(--bg-elevated);
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  text-decoration: none; color: var(--ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.search-result:hover { border-color: var(--accent); background: var(--accent-bg); }
+.search-result-cat {
+  grid-area: cat; align-self: center;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.6rem;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded);
+  writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;
+}
+.search-result-title { grid-area: title; font-weight: 600; font-size: 0.98rem; }
+.search-result-snip { grid-area: snip; color: var(--ink-soft); font-size: 0.82rem; line-height: 1.4; }
+.search-result[data-category="Perfil"]     { border-left-color: var(--cat-perfil); }
+.search-result[data-category="Referência"] { border-left-color: var(--cat-referencia); }
+.search-result[data-category="Recurso"]     { border-left-color: var(--cat-recurso); }
+html.reading .search-result-cat { word-spacing: normal; }
+@media print { .search-results { display: none; } }

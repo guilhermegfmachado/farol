@@ -45,7 +45,7 @@ const categoryLang: Record<string, string> = {
 
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home }]} />
 
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} /></div>
+  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} data-search-index data-search-lang="fi" data-search-base={base} /></div>
   <nav class="tree" aria-label="Profiilit ja resurssit">
     {entries.map((entry) => {
       const slug = entry.id.replace(/\.md$/, '');
@@ -66,6 +66,7 @@ const categoryLang: Record<string, string> = {
     })}
   </nav>
   <p class="search-empty" id="search-empty" hidden>{t.no_results}</p>
+  <div id="search-results" class="search-results" hidden></div>
 
   <div class="tools-link-row">
     <a href={`${base}fi/lighthouse/`} class="tools-link tools-link-lighthouse">
@@ -82,25 +83,6 @@ const categoryLang: Record<string, string> = {
 
   <Footer lang="fi" />
 </Base>
-<script is:inline>
-(function() {
-  var input = document.getElementById('card-search');
-  var nodes = document.querySelectorAll('.tree-node');
-  var empty = document.getElementById('search-empty');
-  if (!input || !nodes.length) return;
-  input.addEventListener('input', function() {
-    var q = this.value.trim().toLowerCase();
-    var shown = 0;
-    nodes.forEach(function(node) {
-      var text = node.textContent.toLowerCase();
-      var match = !q || text.includes(q);
-      node.style.display = match ? '' : 'none';
-      if (match) shown++;
-    });
-    if (empty) empty.hidden = shown !== 0;
-  });
-})();
-</script>
 
 <style>
 .tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
