@@ -385,3 +385,31 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 }
 .toolkit-remove:hover { border-color: var(--warning); color: var(--warning); }
 html.reading .toolkit-link, html.reading .toolkit-count { word-spacing: normal; }
+
+/* ── Reader text-size control (composes with reading mode) ─────── */
+html.text-lg { font-size: 112%; }
+html.text-xl { font-size: 125%; }
+html.reading.text-lg { font-size: 102%; }
+html.reading.text-xl { font-size: 114%; }
+.textsize-toggle {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.78rem; font-weight: 600;
+  background: none; border: 1px solid var(--rule); color: var(--ink-faded);
+  padding: 0.1rem 0.4rem; cursor: pointer; border-radius: 2px; line-height: 1;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.textsize-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.textsize-toggle[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.textsize-plus { font-size: 0.6rem; vertical-align: super; }
+@media print { .textsize-toggle { display: none; } }
+html.reading .textsize-toggle { word-spacing: normal; }
+
+/* ── Category colour, turned up ───────────────────────────────── */
+:root { --cat-perfil: #2a4a5e; --cat-referencia: #4a7c59; --cat-recurso: #9a6a3a; --cat-ferramenta: #7a6aa0; }
+html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-recurso: #d0a06a; --cat-ferramenta: #b3a6df; }
+.tree-node[data-category="Perfil"]      .tree-node-category { color: var(--cat-perfil); }
+.tree-node[data-category="Referência"]  .tree-node-category { color: var(--cat-referencia); }
+.tree-node[data-category="Recurso"]     .tree-node-category { color: var(--cat-recurso); }
+.tree-node[data-category="Ferramenta"]  .tree-node-category { color: var(--cat-ferramenta); }
+.tree-node[data-category="Referência"] { border-left-color: var(--cat-referencia); }
+.tree-node[data-category="Recurso"]    { border-left-color: var(--cat-recurso); }
+.tree-node[data-category="Ferramenta"] { border-left-color: var(--cat-ferramenta); }

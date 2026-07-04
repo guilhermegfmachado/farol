@@ -35,6 +35,12 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
           aria-pressed="false"
           title={t.reading_mode}
         >Aa</button>
+        <button
+          type="button"
+          class="textsize-toggle"
+          aria-label={t.text_size}
+          title={t.text_size}
+        >A<span class="textsize-plus" aria-hidden="true">+</span></button>
         <a
           href={`${base}${lang === 'pt' ? '' : lang + '/'}toolkit/`}
           class="toolkit-link"
@@ -96,6 +102,23 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
     var on = document.documentElement.classList.toggle('reading');
     rbtn.setAttribute('aria-pressed', String(on));
     try { localStorage.setItem('farol-reading', on ? '1' : '0'); } catch (e) {}
+  });
+})();
+(function() {
+  var tbtn = document.querySelector('.textsize-toggle');
+  if (!tbtn) return;
+  var steps = ['', 'lg', 'xl'];          // normal → large → x-large → normal
+  var root = document.documentElement;
+  function current() { return root.classList.contains('text-xl') ? 'xl' : root.classList.contains('text-lg') ? 'lg' : ''; }
+  function apply(s) {
+    root.classList.remove('text-lg', 'text-xl');
+    if (s) root.classList.add('text-' + s);
+    tbtn.setAttribute('aria-pressed', String(s !== ''));
+    try { s ? localStorage.setItem('farol-textsize', s) : localStorage.removeItem('farol-textsize'); } catch (e) {}
+  }
+  tbtn.setAttribute('aria-pressed', String(current() !== ''));
+  tbtn.addEventListener('click', function() {
+    apply(steps[(steps.indexOf(current()) + 1) % steps.length]);
   });
 })();
 </script>

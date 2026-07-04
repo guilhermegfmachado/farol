@@ -42,6 +42,7 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
     <script is:inline>
       try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
       try { if (localStorage.getItem('farol-reading') === '1') document.documentElement.classList.add('reading'); } catch (e) {}
+      try { var ts = localStorage.getItem('farol-textsize'); if (ts === 'lg' || ts === 'xl') document.documentElement.classList.add('text-' + ts); } catch (e) {}
     </script>
 
     <!-- Favicon -->
