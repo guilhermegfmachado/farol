@@ -103,6 +103,8 @@ html.reading .tree-node-index,
 html.reading .intro-label,
 html.reading .intro-acronym,
 html.reading .prompt-label,
+html.reading .observe-label,
+html.reading .browse-divider,
 html.reading .logotype-link,
 html.reading .breadcrumb,
 html.reading .card-nav-dir,
@@ -318,3 +320,39 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── Observation-first entry ──────────────────────────────────────
+   Teachers reason from what they see, not from a label. The observe
+   grid is the primary door; the profile list below is the second. */
+.observe { margin: 0.5rem 0 1.5rem; }
+.observe-head { margin-bottom: 0.9rem; }
+.observe-label {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.4rem;
+}
+.observe-hint { font-size: 0.9rem; color: var(--ink-soft); margin: 0; line-height: 1.5; }
+.observe-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem; }
+.observe-chip {
+  display: flex; align-items: center; justify-content: space-between; gap: 0.6rem;
+  padding: 0.75rem 0.9rem; background: var(--bg-elevated);
+  border: 1px solid var(--rule); border-left: 3px solid var(--accent);
+  text-decoration: none; color: var(--ink);
+  font-size: 0.9rem; line-height: 1.35;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+}
+.observe-chip:hover { border-color: var(--accent); background: var(--accent-bg); }
+.observe-chip:active { transform: translateY(1px); }
+.observe-chip-arrow {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  color: var(--ink-faded); flex-shrink: 0; transition: transform 0.15s ease;
+}
+.observe-chip:hover .observe-chip-arrow { transform: translateX(3px); color: var(--accent); }
+.browse-divider {
+  display: flex; align-items: center; gap: 0.75rem; margin: 0 0 0.75rem;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded);
+}
+.browse-divider::before, .browse-divider::after { content: ''; flex: 1; height: 1px; background: var(--rule); }
+@media (max-width: 560px) { .observe-grid { grid-template-columns: 1fr; } }
+@media print { .observe, .browse-divider { display: none; } }

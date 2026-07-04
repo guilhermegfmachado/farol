@@ -1,6 +1,7 @@
 ---
 import { getAllEntries } from '@/lib/entries';
 import { ui, entryTranslations, allIndexHrefs } from '@/lib/i18n';
+import { observations, obsText } from '@/lib/observations';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -26,10 +27,21 @@ const categoryLang: Record<string, string> = {
     </div>
   </div>
 
-  <div class="prompt-section">
-    <div class="prompt-label">{t.start_label}</div>
-    <div class="prompt-question">{t.start_question}</div>
-  </div>
+  <section class="observe">
+    <div class="observe-head">
+      <div class="observe-label">{t.observe_label}</div>
+      <p class="observe-hint">{t.observe_hint}</p>
+    </div>
+    <div class="observe-grid">
+      {observations.map((o) => (
+        <a class="observe-chip" href={`${base}sv/profiles/${o.profile}/`}>
+          <span class="observe-chip-text">{obsText(o, 'sv')}</span>
+          <span class="observe-chip-arrow" aria-hidden="true">→</span>
+        </a>
+      ))}
+    </div>
+  </section>
+  <div class="browse-divider"><span>{t.browse_label}</span></div>
 
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home }]} />
 
