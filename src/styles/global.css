@@ -438,3 +438,32 @@ html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-recurso: #d0
 .search-result[data-category="Recurso"]     { border-left-color: var(--cat-recurso); }
 html.reading .search-result-cat { word-spacing: normal; }
 @media print { .search-results { display: none; } }
+
+/* ── Composable strategies page ───────────────────────────────── */
+.strat-intro { color: var(--ink-soft); font-size: 0.9rem; max-width: 62ch; margin: 0 0 1.2rem; line-height: 1.6; }
+.strat-filter { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+.strat-filter-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); }
+.strat-chip {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.03em;
+  background: var(--bg-elevated); border: 1px solid var(--rule); color: var(--ink-soft);
+  padding: 0.3rem 0.75rem; border-radius: 999px; cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+.strat-chip:hover { border-color: var(--accent); color: var(--accent); }
+.strat-chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+html.dark .strat-chip[aria-pressed="true"] { color: #14171a; }
+.strat-group { margin-bottom: 1.5rem; }
+.strat-group-link { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.strat-group-link:hover { border-color: var(--accent); color: var(--accent); }
+.strat-list { list-style: none; margin: 0.7rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.7rem; }
+.strategy-item { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.8rem; padding-left: 1rem; border-left: 2px solid var(--rule); }
+.strategy-text { flex: 1 1 60%; color: var(--ink-soft); font-size: 0.92rem; line-height: 1.5; }
+.strategy-tags { display: inline-flex; gap: 0.3rem; flex-wrap: wrap; }
+.strategy-tag { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.58rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; }
+.tag-quick   { background: var(--accent-bg); color: var(--accent); }
+.tag-no-prep { background: #eaf3ec; color: #3f6b4d; }
+.tag-no-tech { background: #f4ede2; color: #8a6a3a; }
+html.dark .tag-no-prep { background: #1e2b22; color: #7fc396; }
+html.dark .tag-no-tech { background: #2b2418; color: #d0a06a; }
+.strat-none { color: var(--ink-soft); font-style: italic; padding: 1rem 0; }
+@media print { .strat-filter, .prompt-section, .strat-intro { display: none; } }
