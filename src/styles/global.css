@@ -26,19 +26,23 @@
 
 :root {
   color-scheme: light;
-  --ink: #14171a;
-  --ink-soft: #4a5159;
-  --ink-faded: #6b727a;
-  --bg: #fafafa;
-  --bg-elevated: #ffffff;
-  --rule: #e4e6e8;
-  --rule-strong: #c8ccd0;
+  /* Warm-paper neutrals: a restrained shift from cool grey toward a soft,
+     warm off-white — friendlier without touching the calm editorial identity.
+     Luminance is held close to the original so the tuned WCAG contrast ratios
+     (faded ink 4.5:1, decorative numerals 3:1) still clear. */
+  --ink: #16150f;
+  --ink-soft: #4c4a42;
+  --ink-faded: #6c6a60;
+  --bg: #faf8f3;
+  --bg-elevated: #fffdf8;
+  --rule: #e9e4da;
+  --rule-strong: #cbc5b8;
   /* Decorative index numerals — darkened enough to clear WCAG 3:1 for large text
      while staying visually quiet against the surrounding copy. */
-  --numeral: #828a92;
+  --numeral: #8a867b;
   --accent: #2a4a5e;
   --accent-hover: #3a5d73;
-  --accent-bg: #eef2f5;
+  --accent-bg: #eef1f2;
   --warning: #b8860b;
   --beam: #e8a93d;
   --notice-bg: #fdf6e3;
