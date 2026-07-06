@@ -2925,6 +2925,15 @@ export function allIndexHrefs(base: string): Record<Lang, string> {
   };
 }
 
+
+// hreflang alternates for the flat per-language section pages (toolkit, strategies)
+export function allSectionHrefs(base: string, section: string): Record<Lang, string> {
+  const out = {} as Record<Lang, string>;
+  const langs: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  for (const l of langs) out[l] = l === 'pt' ? `${base}${section}/` : `${base}${l}/${section}/`;
+  return out;
+}
+
 export function allAboutHrefs(base: string): Record<Lang, string> {
   return {
     pt: `${base}sobre/`,
