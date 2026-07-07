@@ -170,6 +170,9 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
 .lang-select { display: none; }
 @media (max-width: 520px) {
   .lang-switcher { display: none; }
+  /* On phones the wrapped right column shrinks to its content and sits
+     mid-header; stretch it so the controls and language box hug the right edge. */
+  .header-right { width: 100%; }
   .lang-select {
     display: block;
     font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
