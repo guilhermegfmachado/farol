@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui } from '@/lib/i18n';
+import { ui, allSectionHrefs } from '@/lib/i18n';
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -18,8 +18,8 @@ const catalogue = [
 ];
 const labels = { profiles: t.toolkit_profiles, tools: t.toolkit_tools, remove: t.save_remove };
 ---
-<Base title={`${t.toolkit_title} — Farol`} description={t.toolkit_intro}>
-  <Header lang="pt" />
+<Base title={`${t.toolkit_title} — Farol`} description={t.toolkit_intro} altHrefs={allSectionHrefs(base, 'toolkit')}>
+  <Header lang="pt" altHrefs={allSectionHrefs(base, 'toolkit')} />
   <Breadcrumb crumbs={[{ label: 'início', href: base }, { label: t.toolkit_title.toLowerCase() }]} />
 
   <div class="prompt-section">

@@ -10,13 +10,16 @@ const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const sobreHref = allAboutHrefs(base)[lang];
 const p = lang === 'pt' ? base : `${base}${lang}/`;
+// Footer nav mixes lowercase breadcrumb labels with capitalized section names;
+// normalize to sentence case (safe in every language, incl. German nouns).
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 ---
 <footer>
   <nav class="footer-nav" aria-label={t.footer_manual}>
-    <a href={p}>{t.breadcrumb_home}</a>
+    <a href={p}>{cap(t.breadcrumb_home)}</a>
     <a href={`${p}strategies/`}>{t.strategies_nav}</a>
     <a href={`${p}lighthouse/`}>{t.lh_title}</a>
-    <a href={`${p}tools/`}>{t.breadcrumb_tools}</a>
+    <a href={`${p}tools/`}>{cap(t.breadcrumb_tools)}</a>
     <a href={`${p}toolkit/`}>{t.toolkit_nav}</a>
   </nav>
   <div>{t.footer_manual}</div>

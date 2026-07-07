@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui, entryTranslations, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { ui, entryTranslations, type Lang, allSectionHrefs } from '@/lib/i18n';
 import { contentTranslations } from '@/lib/content-translations';
 import { strategyTags, STRATEGY_SECTION_INDEX, ALL_TAGS, type StrategyTag } from '@/lib/strategy-tags';
 import Base from '../../layouts/Base.astro';
@@ -31,8 +31,8 @@ const groups = profiles.map((p) => {
   };
 }).filter((g) => g.strategies.length);
 ---
-<Base title={`${t.strategies_title} — Farol`} description={t.strategies_intro}>
-  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+<Base title={`${t.strategies_title} — Farol`} description={t.strategies_intro} altHrefs={allSectionHrefs(base, 'strategies')}>
+  <Header lang={lang} altHrefs={allSectionHrefs(base, 'strategies')} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.strategies_title.toLowerCase() }]} />
 
   <div class="prompt-section">
