@@ -481,3 +481,16 @@ html.dark .tag-no-prep { background: #1e2b22; color: #7fc396; }
 html.dark .tag-no-tech { background: #2b2418; color: #d0a06a; }
 .strat-none { color: var(--ink-soft); font-style: italic; padding: 1rem 0; }
 @media print { .strat-filter, .prompt-section, .strat-intro { display: none; } }
+
+/* Client-side PDF capture (html2pdf): the warm-paper palette's soft inks read
+   grey and faded once rasterised, so swap to solid print-black for the snapshot.
+   Base.astro toggles this class only for the duration of the capture. */
+html.pdf-export {
+  --bg: #ffffff;
+  --bg-elevated: #ffffff;
+  --ink: #111111;
+  --ink-soft: #1d1d1d;
+  --ink-faded: #333333;
+  --numeral: #444444;
+  --accent: #1d3648;
+}

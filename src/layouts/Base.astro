@@ -133,25 +133,46 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
           var label = btn.textContent;
           btn.setAttribute('aria-busy', 'true');
           btn.textContent = label.replace(/\s*·.*$/, '') + ' …';
+          // Open the viewer tab NOW, inside the user gesture, so popup blockers
+          // allow it; it gets the PDF blob URL once generation finishes and the
+          // browser's own PDF viewer takes over (view first, then print/save).
+          var viewer = null;
+          try {
+            viewer = window.open('', '_blank');
+            if (viewer) {
+              viewer.document.write('<title>PDF…</title><body style="font-family:sans-serif;color:#444;display:grid;place-items:center;height:100vh;margin:0"><p>… PDF …</p></body>');
+            }
+          } catch (e) { viewer = null; }
           root.classList.remove('dark', 'reading');            // always export light
+          root.classList.add('pdf-export');                    // solid print-black ink for the capture
           card.querySelectorAll('details:not([open])').forEach(function (d) { d.open = true; opened.push(d); });
           if (bar) bar.style.display = 'none';
           try {
             var html2pdf = (await import('html2pdf.js')).default;
             var name = (document.title || 'farol').replace(/\s*—.*$/, '').replace(/[^\p{L}\p{N}]+/gu, '_').replace(/^_+|_+$/g, '') || 'farol';
-            await html2pdf().set({
+            var blobUrl = await html2pdf().set({
               margin: [10, 12, 12, 12],
               filename: name + '.pdf',
               image: { type: 'jpeg', quality: 0.98 },
               html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 820 },
               jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
               pagebreak: { mode: ['css', 'legacy'] }
-            }).from(card).save();
+            }).from(card).toPdf().output('bloburl');
+            if (viewer && !viewer.closed) {
+              viewer.location = blobUrl;                       // native PDF viewer: read → print/download
+            } else {
+              // popup blocked: fall back to a direct download
+              var a = document.createElement('a');
+              a.href = blobUrl; a.download = name + '.pdf';
+              document.body.appendChild(a); a.click(); a.remove();
+            }
           } catch (err) {
+            if (viewer && !viewer.closed) { try { viewer.close(); } catch (e) {} }
             try { window.print(); } catch (e) {}   // fallback to the print dialog
           } finally {
             if (bar) bar.style.display = '';
             opened.forEach(function (d) { d.open = false; });
+            root.classList.remove('pdf-export');
             if (hadDark) root.classList.add('dark');
             if (hadReading) root.classList.add('reading');
             btn.removeAttribute('aria-busy');
