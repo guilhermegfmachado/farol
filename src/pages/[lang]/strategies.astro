@@ -102,6 +102,17 @@ const groups = profiles.map((p) => {
         else { active.splice(i, 1); c.setAttribute('aria-pressed', 'false'); }
         apply();
       });
+    // The tag badges on each strategy look like the filter chips — make them
+    // work as filters too: tapping a badge toggles the matching filter chip.
+    document.addEventListener('click', function (e) {
+      var badge = e.target.closest ? e.target.closest('.strategy-tag') : null;
+      if (!badge) return;
+      var m = (badge.className.match(/tag-([a-z-]+)/) || [])[1];
+      if (!m) return;
+      var chip = document.querySelector('.strat-chip[data-filter-tag="' + m + '"]');
+      if (chip) chip.click();
+    });
+
     });
   })();
 </script>

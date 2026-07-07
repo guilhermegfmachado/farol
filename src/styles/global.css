@@ -129,7 +129,14 @@ html { scroll-behavior: smooth; }
 .cite a:hover { text-decoration: underline; }
 .references-section { margin-top: 0; }
 .references-list { margin: 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
-.references-list li { font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft); }
+.references-list li,
+.card-section .references-list li {
+  /* .card-section li sets display:flex (declared later), which suppresses the
+     <ol> marker — the higher-specificity selector restores list-item so the
+     reference numbers render next to each entry. */
+  display: list-item;
+  font-size: 0.82rem; line-height: 1.5; color: var(--ink-soft);
+}
 .references-list li:target { background: var(--accent-bg); outline: 2px solid var(--accent); outline-offset: 2px; }
 .ref-doi { color: var(--accent); text-decoration: none; font-weight: 600; padding: 0 0.15em; white-space: nowrap; }
 .ref-doi:hover { text-decoration: underline; }
@@ -219,6 +226,8 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .card-section li:last-child { border-bottom: none; }
 .card-section li span { min-width: 0; overflow-wrap: anywhere; }
 .card-section li::before { content: ''; display: inline-block; width: 4px; height: 4px; background: var(--accent); margin-top: 0.65rem; flex-shrink: 0; }
+/* Numbered references use the <ol> marker instead of the square bullet */
+.card-section .references-list li::before { content: none; }
 .card-section li strong { color: var(--ink); font-weight: 600; }
 
 /* ── Pending notice ───────────────────────────────────────── */
@@ -454,6 +463,7 @@ html.reading .search-result-cat { word-spacing: normal; }
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
 }
 .strat-chip:hover { border-color: var(--accent); color: var(--accent); }
+.strategy-tag { cursor: pointer; }
 .strat-chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
 html.dark .strat-chip[aria-pressed="true"] { color: #14171a; }
 .strat-group { margin-bottom: 1.5rem; }
