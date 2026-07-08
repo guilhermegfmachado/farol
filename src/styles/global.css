@@ -494,3 +494,6 @@ html.pdf-export {
   --numeral: #444444;
   --accent: #1d3648;
 }
+/* Screen-only controls make no sense on paper. @media print already hides them,
+   but html2canvas rasterises the screen view, so hide them for the capture too. */
+html.pdf-export .star-btn { display: none !important; }
