@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui } from '@/lib/i18n';
+import { ui, allSectionHrefs } from '@/lib/i18n';
 import { observations, obsText } from '@/lib/observations';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
@@ -25,8 +25,9 @@ const categoryLabel: Record<string, string> = {
 <Base
   title="Ferramentas — Farol"
   description="Catálogo de ferramentas de IA para uso em contexto educativo, com notas de privacidade e mapeamento por perfil de aluno."
+  altHrefs={allSectionHrefs(base, 'tools')}
 >
-  <Header />
+  <Header altHrefs={allSectionHrefs(base, 'tools')} />
 
   <Breadcrumb crumbs={[
     { label: 'início', href: base },

@@ -1,6 +1,6 @@
 ---
 import { getAllEntries } from '@/lib/entries';
-import { allIndexHrefs, ui } from '@/lib/i18n';
+import { allSectionHrefs, ui } from '@/lib/i18n';
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -20,8 +20,8 @@ const categoryColor: Record<string, string> = {
   'Recurso':    '#e08a5a',
 };
 ---
-<Base title="A Torre — Farol" description="Visualização em farol dos perfis e referências de sala de aula inclusiva.">
-  <Header lang="pt" altHrefs={allIndexHrefs(base)} />
+<Base title="A Torre — Farol" description="Visualização em farol dos perfis e referências de sala de aula inclusiva." altHrefs={allSectionHrefs(base, 'lighthouse')}>
+  <Header lang="pt" altHrefs={allSectionHrefs(base, 'lighthouse')} />
 
   <div class="lh-page">
     <div class="lh-intro">

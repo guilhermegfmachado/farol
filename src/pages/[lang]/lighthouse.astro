@@ -1,6 +1,6 @@
 ---
 import { getAllEntries } from '@/lib/entries';
-import { ui, type Lang, allIndexHrefs, entryTranslations, categoryTranslations } from '@/lib/i18n';
+import { ui, type Lang, allSectionHrefs, entryTranslations, categoryTranslations } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -34,8 +34,8 @@ function floorTitle(entry: typeof entries[0]) {
   return entryTranslations[lang]?.[slug]?.title ?? entry.data.title;
 }
 ---
-<Base title={`${t.lh_title} — Farol`} description={t.lh_desc}>
-  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+<Base title={`${t.lh_title} — Farol`} description={t.lh_desc} altHrefs={allSectionHrefs(base, 'lighthouse')}>
+  <Header lang={lang} altHrefs={allSectionHrefs(base, 'lighthouse')} />
 
   <div class="lh-page">
     <div class="lh-intro">
