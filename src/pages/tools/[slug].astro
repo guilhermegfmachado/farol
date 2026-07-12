@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui } from '@/lib/i18n';
+import { ui, allLangHrefs } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -24,8 +24,8 @@ const slug = tool.id.replace(/\.md$/, '');
 const allProfiles = await getCollection('profiles');
 const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''), p.data.title]));
 ---
-<Base title={`${name} — Ferramentas — Farol`} description={desc}>
-  <Header />
+<Base title={`${name} — Ferramentas — Farol`} description={desc} altHrefs={allLangHrefs(base, 'tools', slug)}>
+  <Header altHrefs={allLangHrefs(base, 'tools', slug)} />
 
   <Breadcrumb crumbs={[
     { label: 'início', href: base },

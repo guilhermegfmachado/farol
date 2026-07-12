@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui, entryTranslations, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { ui, entryTranslations, type Lang, allLangHrefs } from '@/lib/i18n';
 import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
@@ -28,8 +28,8 @@ const rgpd_note = tTool?.rgpd_note ?? tool.data.rgpd_note;
 const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
-<Base title={`${name} — ${t.breadcrumb_tools} — Farol`} description={desc}>
-  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+<Base title={`${name} — ${t.breadcrumb_tools} — Farol`} description={desc} altHrefs={allLangHrefs(base, 'tools', slug)}>
+  <Header lang={lang} altHrefs={allLangHrefs(base, 'tools', slug)} />
 
   <Breadcrumb crumbs={[
     { label: t.breadcrumb_home, href: `${base}${lang}/` },

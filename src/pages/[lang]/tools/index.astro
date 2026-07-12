@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui, type Lang, allIndexHrefs } from '@/lib/i18n';
+import { ui, type Lang, allSectionHrefs } from '@/lib/i18n';
 import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
@@ -21,8 +21,9 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 <Base
   title={`${t.tools_question} — Farol`}
   description={t.tools_desc}
+  altHrefs={allSectionHrefs(base, 'tools')}
 >
-  <Header lang={lang} altHrefs={allIndexHrefs(base)} />
+  <Header lang={lang} altHrefs={allSectionHrefs(base, 'tools')} />
 
   <Breadcrumb crumbs={[
     { label: t.breadcrumb_home, href: `${base}${lang}/` },

@@ -8,7 +8,7 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const t = ui['ro'];
 ---
-<Base title="Despre — Farol" description="Ce este Farol, cum să îl folosiți și ce să așteptați de la secțiunile IA.">
+<Base title="Despre — Farol" description="Ce este Farol, cum să îl folosiți și ce să așteptați de la secțiunile IA." altHrefs={allAboutHrefs(base)}>
   <Header lang="ro" altHrefs={allAboutHrefs(base)} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}ro/` }, { label: t.breadcrumb_about }]} />
   <article class="card animate-in">
