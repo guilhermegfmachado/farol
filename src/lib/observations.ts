@@ -330,3 +330,93 @@ export const observations: Observation[] = [
 export function obsText(o: Observation, lang: Lang): string {
   return o.text[lang] ?? o.text.en ?? o.text.pt ?? '';
 }
+
+// Homepage grouping: twelve identical-looking chips read as a wall, so they are
+// presented under three scannable themes. Each theme covers exactly two profiles;
+// the grouping is a navigation heuristic, not a clinical taxonomy.
+export interface ObservationTheme {
+  key: string;
+  profiles: string[];
+  label: Record<Lang, string>;
+}
+
+export const obsThemes: ObservationTheme[] = [
+  { key: 'focus', profiles: ['tdah', 'sobredotacao'], label: {
+    pt: 'Atenção, ritmo e comportamento',
+    en: 'Attention, pace and behaviour',
+    es: 'Atención, ritmo y comportamiento',
+    fr: 'Attention, rythme et comportement',
+    it: 'Attenzione, ritmo e comportamento',
+    hr: 'Pažnja, tempo i ponašanje',
+    de: 'Aufmerksamkeit, Tempo und Verhalten',
+    nl: 'Aandacht, tempo en gedrag',
+    pl: 'Uwaga, tempo i zachowanie',
+    ro: 'Atenție, ritm și comportament',
+    cs: 'Pozornost, tempo a chování',
+    sv: 'Uppmärksamhet, tempo och beteende',
+    da: 'Opmærksomhed, tempo og adfærd',
+    fi: 'Tarkkaavaisuus, tahti ja käyttäytyminen',
+    sk: 'Pozornosť, tempo a správanie',
+    el: 'Προσοχή, ρυθμός και συμπεριφορά',
+    hu: 'Figyelem, tempó és viselkedés',
+    bg: 'Внимание, темпо и поведение',
+    lt: 'Dėmesys, tempas ir elgesys',
+    lv: 'Uzmanība, temps un uzvedība',
+    et: 'Tähelepanu, tempo ja käitumine',
+    sl: 'Pozornost, tempo in vedenje',
+    ga: 'Aird, luas agus iompar',
+    mt: 'Attenzjoni, ritmu u mġiba',
+  }},
+  { key: 'written', profiles: ['dislexia', 'dispraxia'], label: {
+    pt: 'Leitura, escrita e organização',
+    en: 'Reading, writing and organisation',
+    es: 'Lectura, escritura y organización',
+    fr: 'Lecture, écriture et organisation',
+    it: 'Lettura, scrittura e organizzazione',
+    hr: 'Čitanje, pisanje i organizacija',
+    de: 'Lesen, Schreiben und Organisation',
+    nl: 'Lezen, schrijven en organisatie',
+    pl: 'Czytanie, pisanie i organizacja',
+    ro: 'Citit, scris și organizare',
+    cs: 'Čtení, psaní a organizace',
+    sv: 'Läsning, skrivning och organisation',
+    da: 'Læsning, skrivning og organisering',
+    fi: 'Lukeminen, kirjoittaminen ja organisointi',
+    sk: 'Čítanie, písanie a organizácia',
+    el: 'Ανάγνωση, γραφή και οργάνωση',
+    hu: 'Olvasás, írás és szervezettség',
+    bg: 'Четене, писане и организация',
+    lt: 'Skaitymas, rašymas ir organizuotumas',
+    lv: 'Lasīšana, rakstīšana un organizētība',
+    et: 'Lugemine, kirjutamine ja organiseeritus',
+    sl: 'Branje, pisanje in organiziranost',
+    ga: 'Léitheoireacht, scríbhneoireacht agus eagrúchán',
+    mt: 'Qari, kitba u organizzazzjoni',
+  }},
+  { key: 'language', profiles: ['autismo', 'plnm'], label: {
+    pt: 'Comunicação e língua',
+    en: 'Communication and language',
+    es: 'Comunicación y lengua',
+    fr: 'Communication et langue',
+    it: 'Comunicazione e lingua',
+    hr: 'Komunikacija i jezik',
+    de: 'Kommunikation und Sprache',
+    nl: 'Communicatie en taal',
+    pl: 'Komunikacja i język',
+    ro: 'Comunicare și limbă',
+    cs: 'Komunikace a jazyk',
+    sv: 'Kommunikation och språk',
+    da: 'Kommunikation og sprog',
+    fi: 'Vuorovaikutus ja kieli',
+    sk: 'Komunikácia a jazyk',
+    el: 'Επικοινωνία και γλώσσα',
+    hu: 'Kommunikáció és nyelv',
+    bg: 'Комуникация и език',
+    lt: 'Bendravimas ir kalba',
+    lv: 'Saziņa un valoda',
+    et: 'Suhtlus ja keel',
+    sl: 'Komunikacija in jezik',
+    ga: 'Cumarsáid agus teanga',
+    mt: 'Komunikazzjoni u lingwa',
+  }},
+];

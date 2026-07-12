@@ -497,3 +497,29 @@ html.pdf-export {
 /* Screen-only controls make no sense on paper. @media print already hides them,
    but html2canvas rasterises the screen view, so hide them for the capture too. */
 html.pdf-export .star-btn { display: none !important; }
+
+/* ── Homepage restructure: grouped chips, sectioned grid, compact intro ── */
+.observe-group { margin-bottom: 1.1rem; }
+.observe-group:last-child { margin-bottom: 0; }
+.observe-theme {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-faded); margin-bottom: 0.45rem;
+}
+.tree-section-label {
+  grid-column: 1 / -1;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--ink-faded);
+  padding-bottom: 0.35rem; border-bottom: 1px solid var(--rule);
+  margin-top: 0.5rem;
+}
+.tree-section-label:first-child { margin-top: 0; }
+.intro-more {
+  display: inline-block; margin-top: 0.5rem;
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.72rem; letter-spacing: 0.05em;
+  color: var(--accent); text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+.intro-more:hover { border-color: var(--accent); }
