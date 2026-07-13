@@ -34,9 +34,12 @@ sections:
       - "Falha disciplinar persistente apesar das adaptações na sala."
       - "Sinais de exclusão social pelos pares."
       - "Sinais de comorbilidade (ansiedade, depressão, perturbação de oposição) — frequentes na TDAH e que justificam encaminhamento.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
+  - label: "Perfis sobrepostos"
+    items:
+      - "A TDAH raramente vem sozinha: uma parte substancial dos alunos tem também uma perturbação da aprendizagem — dislexia e discalculia são as sobreposições mais comuns, e a dispraxia é frequente. Na prática: quando as adaptações de atenção não chegam, procurar um padrão específico na leitura ou no cálculo antes de concluir que é \"falta de esforço\"."
 ai_strategies:
   tools: []
-related: ["dislexia", "autismo", "dispraxia", "sobredotacao"]
+related: ["dislexia", "discalculia", "autismo", "dispraxia", "sobredotacao"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Attention-Deficit/Hyperactivity Disorder. Arlington, VA: American Psychiatric Publishing."
   - "Barkley, R. A. (1997). Behavioral inhibition, sustained attention, and executive functions: constructing a unifying theory of ADHD. <em>Psychological Bulletin</em>, 121(1), 65–94. <a href=\"https://doi.org/10.1037/0033-2909.121.1.65\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"

@@ -34,6 +34,9 @@ sections:
       - "Sinais de isolamento social ou bullying associados à condição de aluno estrangeiro."
       - "Estagnação na aquisição linguística após o primeiro ano.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "Sinais de trauma associados a contexto migratório (especialmente refugiados)."
+  - label: "Perfis sobrepostos"
+    items:
+      - "Não é uma perturbação, mas a barreira linguística pode esconder — ou imitar — dislexia, TDAH ou discalculia. Se as dificuldades persistirem também na língua materna, ou não melhorarem com o progresso na língua de ensino, justifica-se avaliação em vez de continuar à espera."
 ai_strategies:
   tools: []
 related: ["dislexia"]

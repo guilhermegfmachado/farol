@@ -34,6 +34,9 @@ sections:
       - "Crises (\"meltdowns\") frequentes após o dia escolar."
       - "Recusa escolar persistente associada a sobrecarga sensorial.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Isolamento social progressivo apesar de tentativas de mediação."
+  - label: "Perfis sobrepostos"
+    items:
+      - "A combinação com a sobredotação — a chamada dupla excecionalidade — é fácil de falhar: a capacidade mascara o apoio necessário e as dificuldades mascaram a capacidade. TDAH e ansiedade também coocorrem com frequência; desempenho muito irregular entre disciplinas merece um olhar duplo."
 ai_strategies:
   tools: []
 related: ["tdah", "sobredotacao", "dispraxia"]

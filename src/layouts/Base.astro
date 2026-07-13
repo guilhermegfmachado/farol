@@ -183,6 +183,91 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
       })();
     </script>
 
+    <!-- "Ficha A4" — condensed one-page cheat-sheet per profile: manifestations,
+         top strategies and referral signs, exported via the same html2pdf
+         mechanism (viewer-first, light theme, guaranteed single page). -->
+    <script>
+      (function () {
+        var btn = document.querySelector('.print-btn-a4');
+        if (!btn) return;
+        var busy = false;
+        btn.addEventListener('click', async function () {
+          if (busy) return;
+          var card = document.querySelector('.card');
+          if (!card) return;
+          busy = true;
+          var root = document.documentElement;
+          var hadDark = root.classList.contains('dark');
+          var hadReading = root.classList.contains('reading');
+          var label = btn.textContent;
+          btn.setAttribute('aria-busy', 'true');
+          btn.textContent = label.replace(/\s*·.*$/, '') + ' …';
+          var viewer = null;
+          try {
+            viewer = window.open('', '_blank');
+            if (viewer) viewer.document.write('<title>PDF…</title><body style="font-family:sans-serif;color:#444;display:grid;place-items:center;height:100vh;margin:0"><p>… PDF …</p></body>');
+          } catch (e) { viewer = null; }
+          root.classList.remove('dark', 'reading');
+          root.classList.add('pdf-export');
+          // Build the condensed sheet: header + the three data-a4 sections,
+          // top 5 strategies, no cite markers or cross links.
+          var sheet = document.createElement('div');
+          sheet.className = 'a4-sheet';
+          var head = card.querySelector('.card-header');
+          if (head) sheet.appendChild(head.cloneNode(true));
+          card.querySelectorAll('section[data-a4]').forEach(function (sec) {
+            var c = sec.cloneNode(true);
+            c.querySelectorAll('.cite, .section-ref-link, .star-btn').forEach(function (n) { n.remove(); });
+            var items = c.querySelectorAll('ul > li');
+            for (var i = 5; i < items.length; i++) items[i].remove();
+            sheet.appendChild(c);
+          });
+          // Hide the live sheet inside a zero-size clipping holder — html2pdf
+          // clones the sheet itself, so the clone renders unclipped.
+          var holder = document.createElement('div');
+          holder.style.cssText = 'position:fixed;left:0;top:0;width:0;height:0;overflow:hidden;';
+          holder.appendChild(sheet);
+          document.body.appendChild(holder);
+          // Shrink type until the sheet fits one A4 page (186×275mm content
+          // box at 720px render width → max ~1064px tall).
+          var maxH = Math.floor(720 * 275 / 186);
+          var fs = 15;
+          sheet.style.fontSize = fs + 'px';
+          while (sheet.scrollHeight > maxH && fs > 9) { fs -= 0.5; sheet.style.fontSize = fs + 'px'; }
+          try {
+            var html2pdf = (await import('html2pdf.js')).default;
+            var name = ((document.title || 'farol').replace(/\s*—.*$/, '').replace(/[^\p{L}\p{N}]+/gu, '_').replace(/^_+|_+$/g, '') || 'farol') + '_A4';
+            var blobUrl = await html2pdf().set({
+              margin: [10, 12, 12, 12],
+              filename: name + '.pdf',
+              image: { type: 'jpeg', quality: 0.98 },
+              html2canvas: { scale: 2, useCORS: true, backgroundColor: '#ffffff', windowWidth: 820 },
+              jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+              pagebreak: { mode: ['avoid-all'] }
+            }).from(sheet).toPdf().output('bloburl');
+            if (viewer && !viewer.closed) {
+              viewer.location = blobUrl;
+            } else {
+              var a = document.createElement('a');
+              a.href = blobUrl; a.download = name + '.pdf';
+              document.body.appendChild(a); a.click(); a.remove();
+            }
+          } catch (err) {
+            if (viewer && !viewer.closed) { try { viewer.close(); } catch (e) {} }
+            try { window.print(); } catch (e) {}
+          } finally {
+            holder.remove();
+            root.classList.remove('pdf-export');
+            if (hadDark) root.classList.add('dark');
+            if (hadReading) root.classList.add('reading');
+            btn.removeAttribute('aria-busy');
+            btn.textContent = label;
+            busy = false;
+          }
+        });
+      })();
+    </script>
+
     <!-- "My toolkit" — save profiles/tools to this device only (localStorage).
          Nothing is sent anywhere; works offline. Powers the star buttons and the
          header count badge; the toolkit page reads the same store. -->
@@ -239,56 +324,6 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
         window.farolSaved = read;
         if (document.readyState !== 'loading') init();
         else document.addEventListener('DOMContentLoaded', init);
-      })();
-    </script>
-
-    <!-- Full-text search: only on pages whose search box opts in via
-         data-search-index. Fetches a per-language index (lazily, on first
-         keystroke) and shows matches across profiles, references and tools. -->
-    <script is:inline>
-      (function () {
-        var input = document.querySelector('#card-search[data-search-index]');
-        var results = document.getElementById('search-results');
-        if (!input || !results) return;
-        var lang = input.getAttribute('data-search-lang') || 'pt';
-        var idxBase = input.getAttribute('data-search-base') || '/farol/';
-        var empty = document.getElementById('search-empty');
-        var browseEls = ['.tree', '.observe', '.browse-divider', '.tools-link-row'].map(function (s) { return document.querySelector(s); });
-        var index = null, loading = false, pending = null;
-        function setBrowse(v) { browseEls.forEach(function (el) { if (el) el.style.display = v ? '' : 'none'; }); }
-        function ensure(cb) {
-          if (index) { cb(); return; }
-          pending = cb;
-          if (loading) return;
-          loading = true;
-          fetch(idxBase + 'search/' + lang + '.json')
-            .then(function (r) { return r.json(); })
-            .then(function (d) { index = d; loading = false; if (pending) pending(); })
-            .catch(function () { loading = false; });
-        }
-        function render(q) {
-          var toks = q.split(/\s+/).filter(Boolean);
-          var hits = index.filter(function (it) { return toks.every(function (tk) { return it.x.indexOf(tk) !== -1; }); });
-          results.innerHTML = '';
-          if (!hits.length) { if (empty) empty.hidden = false; results.hidden = true; return; }
-          if (empty) empty.hidden = true;
-          hits.slice(0, 40).forEach(function (it) {
-            var a = document.createElement('a'); a.className = 'search-result'; a.href = it.u;
-            a.setAttribute('data-category', it.k || '');
-            var c = document.createElement('span'); c.className = 'search-result-cat'; c.textContent = it.c;
-            var t = document.createElement('span'); t.className = 'search-result-title'; t.textContent = it.t;
-            var s = document.createElement('span'); s.className = 'search-result-snip'; s.textContent = it.s;
-            a.appendChild(c); a.appendChild(t); if (it.s) a.appendChild(s);
-            results.appendChild(a);
-          });
-          results.hidden = false;
-        }
-        input.addEventListener('input', function () {
-          var q = this.value.trim().toLowerCase();
-          if (q.length < 2) { setBrowse(true); results.hidden = true; results.innerHTML = ''; if (empty) empty.hidden = true; return; }
-          setBrowse(false);
-          ensure(function () { render(q); });
-        });
       })();
     </script>
 
