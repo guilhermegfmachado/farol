@@ -68,6 +68,9 @@ function entryHref(e: typeof allEntries[0]) {
           <a class="section-ref-link" href={`${base}el/references/diferenciacao/`}>{entryTranslations.el?.diferenciacao?.title ?? 'Diferenciação Pedagógica'} →</a>
         )}
         {section.label === 'Sinais de alerta para referenciação' && (
+          <p class="referral-note">{t.referral_note}</p>
+        )}
+        {section.label === 'Sinais de alerta para referenciação' && (
           <a class="section-ref-link" href={`${base}el/references/legislacao/`}>{entryTranslations.el?.legislacao?.title ?? 'Enquadramento Legal'} →</a>
         )}
       </section>

@@ -552,3 +552,6 @@ html.pdf-export .star-btn { display: none !important; }
 /* The A4 button matches the full-export button. */
 .print-btn-a4 { margin-right: 0.6rem; }
 .a4-sheet .card-index-large { display: none; }
+
+/* Referral-signs disclaimer: one quiet line closing the section. */
+.referral-note { font-size: 0.78rem; font-style: italic; color: var(--ink-faded); margin: 0.6rem 0 0; line-height: 1.5; }
