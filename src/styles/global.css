@@ -523,3 +523,16 @@ html.pdf-export .star-btn { display: none !important; }
   border-bottom: 1px solid var(--rule);
 }
 .intro-more:hover { border-color: var(--accent); }
+
+/* Measure-tier tags (DL 54/2018): outline style separates the framework tier
+   from the practical quick/no-prep/no-tech tags. */
+.tag-universal { background: transparent; border: 1px solid var(--rule-strong); color: var(--ink-faded); }
+.tag-selective { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.strat-chip-tier { border-style: dashed; }
+.strat-tiers-note {
+  font-size: 0.78rem; color: var(--ink-faded); line-height: 1.5;
+  margin: -0.4rem 0 1rem; max-width: 72ch;
+}
+.strat-tiers-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.strat-tiers-note a:hover { border-color: var(--accent); }
+@media print { .strat-tiers-note { display: none; } }

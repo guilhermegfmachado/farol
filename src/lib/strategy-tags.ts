@@ -27,3 +27,28 @@ export const strategyTags: Record<string, StrategyTag[][]> = {
 };
 
 export const ALL_TAGS: StrategyTag[] = ['quick', 'no-prep', 'no-tech'];
+
+// Measure tier per Portugal's Decreto-Lei 54/2018 (multi-tiered measures).
+// The concept is PT law, but the tiering reads universally: 'universal' =
+// whole-class practice, 'selective' = targeted support for this student.
+// 'Additional' measures (formal, individualised, team-decided) are beyond
+// the scope of in-class strategy cards, so no strategy carries that tier —
+// the legend on the strategies page explains all three and links to the
+// Legal Framework card.
+export type StrategyTier = 'universal' | 'selective';
+
+const U: StrategyTier = 'universal';
+const S: StrategyTier = 'selective';
+
+// Position-aligned with strategyTags: strategyTiers[slug][i] tiers the i-th strategy.
+export const strategyTiers: Record<string, StrategyTier[]> = {
+  tdah:         [U, S, S, S],
+  dislexia:     [S, U, U, U],
+  dispraxia:    [S, S, U, U],
+  autismo:      [U, U, S, S],
+  sobredotacao: [S, S, S, U],
+  plnm:         [S, U, S, S],
+  discalculia:  [U, S, S, U],
+};
+
+export const ALL_TIERS: StrategyTier[] = ['universal', 'selective'];

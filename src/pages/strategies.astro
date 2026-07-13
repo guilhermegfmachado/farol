@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { ui, allSectionHrefs } from '@/lib/i18n';
-import { strategyTags, STRATEGY_SECTION_INDEX, ALL_TAGS, type StrategyTag } from '@/lib/strategy-tags';
+import { strategyTags, strategyTiers, STRATEGY_SECTION_INDEX, ALL_TAGS, ALL_TIERS, type StrategyTag, type StrategyTier } from '@/lib/strategy-tags';
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -12,6 +12,7 @@ const t = ui['pt'];
 const profiles = await getCollection('profiles');
 const strip = (s: string) => s.replace(/<sup[\s\S]*?<\/sup>/g, '').trim();
 const tagLabel: Record<StrategyTag, string> = { quick: t.tag_quick, 'no-prep': t.tag_noprep, 'no-tech': t.tag_notech };
+const tierLabel: Record<StrategyTier, string> = { universal: t.tier_universal, selective: t.tier_selective };
 
 const groups = profiles.map((p) => {
   const slug = p.id.replace(/\.md$/, '');
@@ -19,7 +20,7 @@ const groups = profiles.map((p) => {
   return {
     title: p.data.title,
     href: `${base}profiles/${slug}/`,
-    strategies: items.map((it: string, i: number) => ({ text: strip(it), tags: strategyTags[slug]?.[i] ?? [] })),
+    strategies: items.map((it: string, i: number) => ({ text: strip(it), tags: strategyTags[slug]?.[i] ?? [], tier: (strategyTiers[slug]?.[i] ?? 'universal') as StrategyTier })),
   };
 }).filter((g) => g.strategies.length);
 ---
@@ -32,11 +33,15 @@ const groups = profiles.map((p) => {
     <div class="prompt-question">{t.strategies_title}</div>
   </div>
   <p class="strat-intro">{t.strategies_intro}</p>
+  <p class="strat-tiers-note">{t.tiers_legend} <a href={`${base}references/legislacao/`}>Enquadramento Legal →</a></p>
 
   <div class="strat-filter">
     <span class="strat-filter-label">{t.strategies_filter}</span>
     {ALL_TAGS.map((tag) => (
       <button type="button" class="strat-chip" data-filter-tag={tag} aria-pressed="false">{tagLabel[tag]}</button>
+    ))}
+    {ALL_TIERS.map((tier) => (
+      <button type="button" class="strat-chip strat-chip-tier" data-filter-tag={tier} aria-pressed="false">{tierLabel[tier]}</button>
     ))}
   </div>
 
@@ -47,13 +52,12 @@ const groups = profiles.map((p) => {
         <h2 class="card-section-label"><a href={g.href} class="strat-group-link">{g.title}</a></h2>
         <ul class="strat-list">
           {g.strategies.map((s) => (
-            <li class="strategy-item" data-tags={s.tags.join(' ')}>
+            <li class="strategy-item" data-tags={[...s.tags, s.tier].join(' ')}>
               <span class="strategy-text" set:html={s.text} />
-              {s.tags.length > 0 && (
-                <span class="strategy-tags">
-                  {s.tags.map((tg) => <span class={`strategy-tag tag-${tg}`}>{tagLabel[tg]}</span>)}
-                </span>
-              )}
+              <span class="strategy-tags">
+                {s.tags.map((tg) => <span class={`strategy-tag tag-${tg}`}>{tagLabel[tg]}</span>)}
+                <span class={`strategy-tag strategy-tag-tier tag-${s.tier}`}>{tierLabel[s.tier]}</span>
+              </span>
             </li>
           ))}
         </ul>
