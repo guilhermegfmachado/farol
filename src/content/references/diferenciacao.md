@@ -1,5 +1,5 @@
 ---
-index: "10"
+index: "11"
 title: "Diferenciação Pedagógica"
 category: "Referência"
 subtitle: "Adaptar o ensino sem diferenciar o que se espera de cada aluno"
