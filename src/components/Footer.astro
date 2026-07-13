@@ -7,6 +7,14 @@ interface Props {
 
 const { lang = 'pt' } = Astro.props;
 const t = ui[lang];
+
+// Feedback delivery, in order of preference — all backend-free:
+// 1. Formspree (or compatible) endpoint: paste it below, e.g. 'https://formspree.io/f/xxxxxxxx'
+// 2. mailto: fallback: set an address to open the visitor's mail client instead
+// 3. If both stay empty, submitting opens a prefilled GitHub issue.
+const FORMSPREE_ENDPOINT = '';
+const FEEDBACK_EMAIL = '';
+const GITHUB_ISSUE_URL = 'https://github.com/guilhermegfmachado/farol/issues/new?template=correction.md';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const sobreHref = allAboutHrefs(base)[lang];
 const p = lang === 'pt' ? base : `${base}${lang}/`;
@@ -25,8 +33,62 @@ const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   <div>{t.footer_manual} · {t.version_tag}</div>
   <div><a href={sobreHref}>{t.footer_how}</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer license">{t.footer_licence}</a></div>
   <div>{t.footer_by} <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a></div>
-  <div class="footer-feedback"><a href="https://github.com/guilhermegfmachado/farol/issues/new?template=correction.md" target="_blank" rel="noopener noreferrer">{t.feedback_link}</a></div>
+  <details class="footer-feedback">
+    <summary>{t.feedback_link}</summary>
+    <form
+      class="fb-form"
+      data-endpoint={FORMSPREE_ENDPOINT}
+      data-email={FEEDBACK_EMAIL}
+      data-github={GITHUB_ISSUE_URL}
+      data-sent={t.fb_sent}
+      data-error={t.fb_error}
+    >
+      <textarea name="message" required rows="3" placeholder={t.fb_placeholder} aria-label={t.fb_placeholder}></textarea>
+      <div class="fb-row">
+        <button type="submit">{t.fb_send}</button>
+        <a href={GITHUB_ISSUE_URL} target="_blank" rel="noopener noreferrer">{t.fb_via_github} ↗</a>
+      </div>
+      <p class="fb-status" role="status" hidden></p>
+    </form>
+  </details>
 </footer>
+
+<script is:inline>
+(function () {
+  var form = document.querySelector('.fb-form');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = form.querySelector('textarea').value.trim();
+    if (!msg) return;
+    var page = location.href;
+    var endpoint = form.getAttribute('data-endpoint');
+    var email = form.getAttribute('data-email');
+    var github = form.getAttribute('data-github');
+    var status = form.querySelector('.fb-status');
+    function say(txt) { if (status) { status.textContent = txt; status.hidden = false; } }
+    if (endpoint) {
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: msg, page: page })
+      }).then(function (r) {
+        if (r.ok) { say(form.getAttribute('data-sent')); form.querySelector('textarea').value = ''; }
+        else { say(form.getAttribute('data-error')); }
+      }).catch(function () { say(form.getAttribute('data-error')); });
+    } else if (email) {
+      location.href = 'mailto:' + email +
+        '?subject=' + encodeURIComponent('Farol — feedback') +
+        '&body=' + encodeURIComponent(msg + '\n\n— ' + page);
+    } else {
+      // No endpoint configured: open a prefilled GitHub issue instead.
+      var url = github.split('?')[0] + '?title=' + encodeURIComponent('Feedback') +
+        '&body=' + encodeURIComponent(msg + '\n\n— ' + page);
+      window.open(url, '_blank', 'noopener');
+    }
+  });
+})();
+</script>
 
 <style>
 footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
@@ -36,5 +98,30 @@ footer a:hover { color: var(--accent); }
 .footer-nav a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.72rem; letter-spacing: 0.04em; border-bottom: none; color: var(--ink-soft); }
 .footer-nav a:hover { color: var(--accent); }
 .footer-feedback { margin-top: 0.5rem; }
-.footer-feedback a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem; letter-spacing: 0.05em; }
+.footer-feedback summary {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem;
+  letter-spacing: 0.05em; color: var(--ink-faded); cursor: pointer; width: fit-content;
+  border-bottom: 1px solid var(--rule);
+}
+.footer-feedback summary:hover { color: var(--accent); border-color: var(--accent); }
+.fb-form { margin-top: 0.7rem; max-width: 34rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.fb-form textarea {
+  font-family: inherit; font-size: 0.85rem; line-height: 1.5;
+  background: var(--bg-elevated); border: 1px solid var(--rule); border-radius: 3px;
+  color: var(--ink); padding: 0.55rem 0.7rem; resize: vertical;
+}
+.fb-form textarea:focus { outline: none; border-color: var(--accent); }
+.fb-form textarea::placeholder { color: var(--ink-faded); }
+.fb-row { display: flex; align-items: center; gap: 1rem; }
+.fb-form button {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem;
+  letter-spacing: 0.05em; background: var(--accent); color: #fff; border: none;
+  border-radius: 3px; padding: 0.45rem 1rem; cursor: pointer;
+}
+html.dark .fb-form button { color: #14171a; }
+.fb-form button:hover { background: var(--accent-hover); }
+.fb-form button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fb-row a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem; letter-spacing: 0.05em; }
+.fb-status { font-size: 0.8rem; color: var(--ink-soft); margin: 0; }
+@media print { .footer-feedback { display: none; } }
 </style>
