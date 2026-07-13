@@ -61,7 +61,7 @@ function entryHref(e: typeof allEntries[0]) {
     <div class="card-actions"><SaveStar type="profile" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
     {sections.map((section, i) => (
-      <section class="card-section">
+      <section class="card-section" data-a4={['Como se manifesta na sala', 'Estratégias sem IA', 'Sinais de alerta para referenciação'].includes(section.label) ? '' : undefined}>
         <h2 class="card-section-label">{sectionLabelTranslations.sv?.[section.label] ?? section.label}</h2>
         <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
         {section.label === 'Estratégias sem IA' && (
@@ -118,7 +118,7 @@ function entryHref(e: typeof allEntries[0]) {
         </ol>
       </section>
     )}
-    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
+    <div class="print-bar"><button type="button" class="print-btn-a4">{t.a4_sheet} · PDF</button><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
   </article>
   <nav class="card-nav" aria-label="Navigering mellan poster">
     {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
@@ -142,8 +142,8 @@ function entryHref(e: typeof allEntries[0]) {
 .tool-chip-name { font-weight: 500; }
 .tool-chip-free { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
 .print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
-.print-btn { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
-.print-btn:hover { border-color: var(--accent); color: var(--accent); }
+.print-btn, .print-btn-a4 { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.05em; background: none; border: 1px solid var(--rule); color: var(--ink-faded); padding: 0.4rem 0.9rem; cursor: pointer; transition: border-color 0.15s ease, color 0.15s ease; }
+.print-btn:hover, .print-btn-a4:hover { border-color: var(--accent); color: var(--accent); }
 @media print { .print-bar { display: none; } }
 
 .section-ref-link { display: inline-block; margin-top: 0.6rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.04em; color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 0.1rem; transition: border-color 0.15s ease; }
