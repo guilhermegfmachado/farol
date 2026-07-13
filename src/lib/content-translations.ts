@@ -10,6 +10,37 @@ export type ContentLang = Record<string, SlugTranslation>;
 export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
   en: {
+    discalculia: { sections: [
+      { items: [
+        "Persistent difficulty with number sense: comparing quantities, estimating results, seeing without counting that 9 is bigger than 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Counts on their fingers long after classmates have automatised basic mental arithmetic.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Does not retain number facts (times tables) despite repeated practice — every calculation starts from scratch.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Gets lost in multi-step problems even when they understand the concept; swaps or forgets intermediate steps.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Performance in mathematics clearly below what verbal reasoning and other subjects would predict.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>It is not</strong> \"being bad at maths\" or a lack of study: it is a specific learning disorder with a neurobiological basis, just as dyslexia is for reading.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>It is not</strong> maths anxiety, although the two feed each other: anxiety worsens performance, but dyscalculia exists independently of it.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>It does not go away</strong> with more of the same exercises: it improves with explicit, structured intervention on number sense, not with repetition of what has already failed.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Keep concrete materials and visual representations (number lines, blocks, diagrams) available without stigma — the move from concrete to abstract happens in explicit stages.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Allow a number-facts table or a calculator when calculation is not the point of the task — assess reasoning separately from arithmetic.",
+        "Reduce the load: fewer, well-chosen exercises with extended time — speed is not the goal.",
+        "Say the steps out loud and leave a worked example visible during the task — explicit instruction, with modelling.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Separate mathematics from intelligence from the outset: \"the reasoning is intact — the difficulty is specific to numbers\".",
+        "Explain that supports such as a calculator or a printed times table are not \"going easy on them\": they are the equivalent of glasses for someone who cannot see at a distance.",
+        "Suggest short, concrete practice at home (board games with dice, real money while shopping) instead of lists of repeated exercises.",
+        "Bear in mind that dyscalculia is heritable and far less well known than dyslexia: the family may never have heard the term — naming the pattern helps.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Self-concept declining specifically around mathematics (\"I'm stupid with numbers\").",
+        "Avoidance or refusal of tasks involving numbers to the point of compromising their school path.",
+        "Persistent discrepancy between general reasoning and mathematical performance without a formal assessment — refer for psychopedagogical assessment.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Difficulty sustaining attention on long tasks; gets lost in multi-step instructions.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -359,6 +390,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   es: {
+    discalculia: { sections: [
+      { items: [
+        "Dificultad persistente con el sentido numérico: comparar cantidades, estimar resultados, ver sin contar que 9 es mayor que 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Cuenta con los dedos mucho después de que sus compañeros hayan automatizado el cálculo mental básico.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "No retiene los hechos numéricos (las tablas) a pesar de la práctica repetida: cada cálculo empieza de cero.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Se pierde en problemas de varios pasos incluso cuando comprende el concepto; intercambia u olvida pasos intermedios.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Rendimiento en matemáticas claramente por debajo de lo que el razonamiento verbal y las demás asignaturas harían esperar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>No es</strong> «ser malo en mates» ni falta de estudio: es un trastorno específico del aprendizaje con base neurobiológica, igual que la dislexia lo es para la lectura.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>No es</strong> ansiedad matemática, aunque ambas se alimentan mutuamente: la ansiedad empeora el rendimiento, pero la discalculia existe independientemente de ella.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>No desaparece</strong> con más ejercicios iguales: mejora con una intervención explícita y estructurada sobre el sentido numérico, no repitiendo lo que ya falló.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Mantener materiales concretos y representaciones visuales (rectas numéricas, bloques, esquemas) disponibles sin estigma: el paso de lo concreto a lo abstracto se hace por etapas explícitas.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Permitir una tabla de hechos numéricos o la calculadora cuando el cálculo no es el objetivo de la tarea: evaluar el razonamiento por separado de la aritmética.",
+        "Reducir la carga: menos ejercicios, bien elegidos, con tiempo ampliado; la velocidad no es el objetivo.",
+        "Verbalizar los pasos en voz alta y dejar un ejemplo resuelto visible durante la tarea: instrucción explícita, con modelado.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Separar matemáticas e inteligencia desde el principio: «el razonamiento está intacto; la dificultad es específica de los números».",
+        "Explicar que apoyos como la calculadora o la tabla impresa no son «facilismo»: son el equivalente de las gafas para quien no ve de lejos.",
+        "Sugerir prácticas en casa cortas y concretas (juegos de mesa con dados, dinero real en las compras) en lugar de listas de ejercicios repetidos.",
+        "Tener presente que la discalculia es hereditaria y mucho menos conocida que la dislexia: puede que la familia nunca haya oído el término; nombrar el patrón ayuda.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Autoconcepto en declive ligado específicamente a las matemáticas («soy tonto para los números»).",
+        "Evitación o rechazo de tareas con números hasta el punto de comprometer su trayectoria escolar.",
+        "Discrepancia persistente entre el razonamiento general y el rendimiento matemático sin evaluación formal: derivar a evaluación psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Dificultad para mantener la atención en tareas largas; se pierde en instrucciones de varios pasos.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -708,6 +770,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   fr: {
+    discalculia: { sections: [
+      { items: [
+        "Difficulté persistante avec le sens du nombre : comparer des quantités, estimer des résultats, voir sans compter que 9 est plus grand que 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Compte sur ses doigts bien après que ses camarades ont automatisé le calcul mental de base.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ne retient pas les faits numériques (les tables) malgré une pratique répétée — chaque calcul repart de zéro.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Se perd dans les problèmes à plusieurs étapes, même lorsqu'il comprend le concept ; intervertit ou oublie des étapes intermédiaires.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Résultats en mathématiques nettement en dessous de ce que le raisonnement verbal et les autres matières laisseraient attendre.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Ce n'est pas</strong> « être nul en maths » ni un manque de travail : c'est un trouble spécifique des apprentissages, à base neurobiologique, comme la dyslexie l'est pour la lecture.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ce n'est pas</strong> de l'anxiété mathématique, même si les deux se nourrissent mutuellement : l'anxiété aggrave les résultats, mais la dyscalculie existe indépendamment d'elle.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Cela ne disparaît pas</strong> avec davantage d'exercices identiques : cela s'améliore par une intervention explicite et structurée sur le sens du nombre, pas en répétant ce qui a déjà échoué.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Garder du matériel concret et des représentations visuelles (droites numériques, cubes, schémas) disponibles sans stigmatisation — le passage du concret à l'abstrait se fait par étapes explicites.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Autoriser une table de faits numériques ou la calculatrice quand le calcul n'est pas l'objectif de la tâche — évaluer le raisonnement séparément de l'arithmétique.",
+        "Réduire la charge : moins d'exercices, bien choisis, avec un temps allongé — la vitesse n'est pas l'objectif.",
+        "Verbaliser les étapes à voix haute et laisser un exemple résolu visible pendant la tâche — un enseignement explicite, avec modelage.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Dissocier d'emblée mathématiques et intelligence : « le raisonnement est intact — la difficulté est spécifique aux nombres ».",
+        "Expliquer que des aides comme la calculatrice ou la table imprimée ne sont pas de la « facilité » : c'est l'équivalent des lunettes pour qui ne voit pas de loin.",
+        "Proposer des pratiques courtes et concrètes à la maison (jeux de société avec dés, argent réel lors des courses) plutôt que des listes d'exercices répétés.",
+        "Garder à l'esprit que la dyscalculie est héréditaire et bien moins connue que la dyslexie : la famille n'a peut-être jamais entendu le terme — nommer le schéma aide.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Estime de soi en baisse spécifiquement liée aux mathématiques (« je suis nul avec les chiffres »).",
+        "Évitement ou refus des tâches avec des nombres au point de compromettre le parcours scolaire.",
+        "Écart persistant entre le raisonnement général et les résultats en mathématiques sans évaluation formelle — orienter vers un bilan psychopédagogique.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Difficulté à maintenir l'attention sur des tâches longues ; se perd dans les consignes comportant plusieurs étapes.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -1057,6 +1150,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   it: {
+    discalculia: { sections: [
+      { items: [
+        "Difficoltà persistente con il senso del numero: confrontare quantità, stimare risultati, vedere senza contare che 9 è maggiore di 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Conta sulle dita molto dopo che i compagni hanno automatizzato il calcolo mentale di base.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Non memorizza i fatti numerici (le tabelline) nonostante la pratica ripetuta — ogni calcolo ricomincia da zero.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Si perde nei problemi a più passaggi anche quando comprende il concetto; scambia o dimentica i passaggi intermedi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Rendimento in matematica chiaramente inferiore a quanto il ragionamento verbale e le altre materie farebbero prevedere.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Non è</strong> \"essere negati in matematica\" né mancanza di studio: è un disturbo specifico dell'apprendimento, su base neurobiologica, come la dislessia lo è per la lettura.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Non è</strong> ansia da matematica, anche se le due si alimentano a vicenda: l'ansia peggiora il rendimento, ma la discalculia esiste indipendentemente da essa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Non scompare</strong> con altri esercizi uguali: migliora con un intervento esplicito e strutturato sul senso del numero, non ripetendo ciò che è già fallito.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Tenere disponibili materiali concreti e rappresentazioni visive (linee dei numeri, blocchi, schemi) senza stigma — il passaggio dal concreto all'astratto avviene per tappe esplicite.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Consentire una tabella dei fatti numerici o la calcolatrice quando il calcolo non è l'obiettivo del compito — valutare il ragionamento separatamente dall'aritmetica.",
+        "Ridurre il carico: meno esercizi, scelti bene, con tempo aggiuntivo — la velocità non è l'obiettivo.",
+        "Verbalizzare i passaggi ad alta voce e lasciare un esempio svolto visibile durante il compito — istruzione esplicita, con modellamento.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Separare fin dall'inizio matematica e intelligenza: \"il ragionamento è intatto — la difficoltà è specifica dei numeri\".",
+        "Spiegare che supporti come la calcolatrice o la tabellina stampata non sono \"facilitazioni indebite\": sono l'equivalente degli occhiali per chi non vede da lontano.",
+        "Suggerire pratiche a casa brevi e concrete (giochi da tavolo con i dadi, denaro reale durante la spesa) invece di liste di esercizi ripetuti.",
+        "Tenere presente che la discalculia è ereditaria e molto meno conosciuta della dislessia: la famiglia potrebbe non aver mai sentito il termine — dare un nome allo schema aiuta.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Autostima in calo legata specificamente alla matematica (\"sono negato con i numeri\").",
+        "Evitamento o rifiuto dei compiti con i numeri al punto da compromettere il percorso scolastico.",
+        "Discrepanza persistente tra ragionamento generale e rendimento matematico senza una valutazione formale — inviare a valutazione psicopedagogica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Difficoltà a mantenere l'attenzione su compiti lunghi; si perde nelle istruzioni a più passaggi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -1407,6 +1531,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   de: {
+    discalculia: { sections: [
+      { items: [
+        "Anhaltende Schwierigkeiten mit dem Zahlensinn: Mengen vergleichen, Ergebnisse schätzen, ohne Zählen erkennen, dass 9 größer ist als 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Zählt noch an den Fingern, lange nachdem die Mitschüler das kleine Kopfrechnen automatisiert haben.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Behält Zahlenfakten (Einmaleins) trotz wiederholten Übens nicht — jede Rechnung beginnt wieder bei null.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Verliert sich in mehrschrittigen Aufgaben, selbst wenn das Konzept verstanden ist; vertauscht oder vergisst Zwischenschritte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Mathematikleistung deutlich unter dem, was das sprachliche Denken und die anderen Fächer erwarten ließen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Es ist nicht</strong> „schlecht in Mathe sein\" oder mangelnder Fleiß: Es ist eine spezifische Lernstörung mit neurobiologischer Grundlage, so wie die Legasthenie beim Lesen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Es ist keine</strong> Mathematikangst, auch wenn sich beide gegenseitig verstärken: Angst verschlechtert die Leistung, aber die Dyskalkulie besteht unabhängig davon.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Sie verschwindet nicht</strong> durch mehr gleichartige Übungen: Sie bessert sich durch explizite, strukturierte Förderung des Zahlensinns, nicht durch Wiederholen dessen, was bereits gescheitert ist.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Konkretes Material und visuelle Darstellungen (Zahlenstrahl, Blöcke, Schemata) ohne Stigma verfügbar halten — der Übergang vom Konkreten zum Abstrakten erfolgt in expliziten Schritten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Eine Zahlenfakten-Tabelle oder den Taschenrechner erlauben, wenn das Rechnen nicht das Ziel der Aufgabe ist — das Denken getrennt vom Rechnen bewerten.",
+        "Die Last verringern: weniger, gut gewählte Aufgaben mit mehr Zeit — Tempo ist nicht das Ziel.",
+        "Die Schritte laut aussprechen und ein gelöstes Beispiel während der Aufgabe sichtbar lassen — explizite Instruktion mit Modellieren.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Mathematik von Anfang an von Intelligenz trennen: „Das Denken ist intakt — die Schwierigkeit betrifft nur die Zahlen.\"",
+        "Erklären, dass Hilfen wie Taschenrechner oder gedrucktes Einmaleins keine „Bevorzugung\" sind: Sie entsprechen der Brille für jemanden, der in die Ferne nicht scharf sieht.",
+        "Kurze, konkrete Übungen für zu Hause vorschlagen (Brettspiele mit Würfeln, echtes Geld beim Einkaufen) statt Listen sich wiederholender Aufgaben.",
+        "Bedenken, dass Dyskalkulie erblich und weit weniger bekannt ist als Legasthenie: Die Familie hat den Begriff vielleicht nie gehört — das Muster zu benennen hilft.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Sinkendes Selbstbild speziell in Bezug auf Mathematik („Ich bin zu dumm für Zahlen\").",
+        "Vermeidung oder Verweigerung von Aufgaben mit Zahlen, bis der Schulweg gefährdet ist.",
+        "Anhaltende Diskrepanz zwischen allgemeinem Denkvermögen und Mathematikleistung ohne formale Diagnostik — zur psychopädagogischen Abklärung überweisen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Schwierigkeiten, die Aufmerksamkeit bei langen Aufgaben aufrechtzuerhalten; verliert bei mehrschrittigen Anweisungen den Faden.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -1753,6 +1908,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   nl: {
+    discalculia: { sections: [
+      { items: [
+        "Aanhoudende moeite met getalbegrip: hoeveelheden vergelijken, uitkomsten schatten, zonder tellen zien dat 9 groter is dan 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Telt nog op de vingers lang nadat klasgenoten het eenvoudige hoofdrekenen hebben geautomatiseerd.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Onthoudt rekenfeiten (de tafels) niet ondanks herhaald oefenen — elke som begint weer bij nul.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Raakt de weg kwijt in opgaven met meerdere stappen, ook als het concept begrepen is; verwisselt of vergeet tussenstappen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Rekenprestaties duidelijk onder wat het verbale redeneren en de andere vakken zouden doen verwachten.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Het is niet</strong> \"slecht zijn in rekenen\" of te weinig oefenen: het is een specifieke leerstoornis met een neurobiologische basis, zoals dyslexie dat is voor lezen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Het is geen</strong> rekenangst, al versterken beide elkaar: angst verslechtert de prestaties, maar dyscalculie bestaat er los van.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Het verdwijnt niet</strong> door meer van dezelfde oefeningen: het verbetert door expliciete, gestructureerde interventie op getalbegrip, niet door te herhalen wat al mislukte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Houd concreet materiaal en visuele voorstellingen (getallenlijnen, blokken, schema's) zonder stigma beschikbaar — de stap van concreet naar abstract verloopt in expliciete fasen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sta een tafelkaart of rekenmachine toe wanneer rekenen niet het doel van de taak is — beoordeel het redeneren los van het rekenwerk.",
+        "Verminder de belasting: minder, goed gekozen opgaven met extra tijd — snelheid is niet het doel.",
+        "Zeg de stappen hardop en laat een uitgewerkt voorbeeld zichtbaar tijdens de taak — expliciete instructie, met voordoen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Scheid rekenen van intelligentie vanaf het begin: \"het redeneren is intact — de moeite is specifiek voor getallen\".",
+        "Leg uit dat hulpmiddelen zoals een rekenmachine of een gedrukte tafelkaart geen \"verwennerij\" zijn: ze zijn het equivalent van een bril voor wie in de verte niet scherp ziet.",
+        "Stel korte, concrete oefening thuis voor (bordspellen met dobbelstenen, echt geld bij het boodschappen doen) in plaats van lijsten herhaalde sommen.",
+        "Houd er rekening mee dat dyscalculie erfelijk is en veel minder bekend dan dyslexie: het gezin heeft de term misschien nooit gehoord — het patroon benoemen helpt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Dalend zelfbeeld dat specifiek aan rekenen gekoppeld is (\"ik ben dom met getallen\").",
+        "Vermijden of weigeren van taken met getallen, zozeer dat de schoolloopbaan in gevaar komt.",
+        "Aanhoudend verschil tussen algemeen redeneren en rekenprestaties zonder formele diagnose — doorverwijzen voor psychopedagogisch onderzoek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Moeite om de aandacht bij lange taken vast te houden; raakt de draad kwijt bij instructies met meerdere stappen.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -2098,6 +2284,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   pl: {
+    discalculia: { sections: [
+      { items: [
+        "Utrwalona trudność ze zmysłem liczby: porównywaniem ilości, szacowaniem wyników, dostrzeżeniem bez liczenia, że 9 jest większe od 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Liczy na palcach długo po tym, jak rówieśnicy zautomatyzowali proste liczenie w pamięci.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Nie utrwala faktów liczbowych (tabliczki mnożenia) mimo wielokrotnych ćwiczeń — każde obliczenie zaczyna się od zera.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Gubi się w zadaniach wieloetapowych, nawet gdy rozumie pojęcie; przestawia lub pomija kroki pośrednie.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Wyniki z matematyki wyraźnie poniżej tego, czego kazałyby oczekiwać rozumowanie werbalne i inne przedmioty.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>To nie jest</strong> „bycie słabym z matmy\" ani brak nauki: to specyficzne zaburzenie uczenia się o podłożu neurobiologicznym — tak jak dysleksja w przypadku czytania.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>To nie jest</strong> lęk przed matematyką, choć oba zjawiska się nawzajem napędzają: lęk pogarsza wyniki, ale dyskalkulia istnieje niezależnie od niego.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nie znika</strong> po kolejnych takich samych ćwiczeniach: poprawia się dzięki jawnej, ustrukturyzowanej pracy nad zmysłem liczby, a nie przez powtarzanie tego, co już zawiodło.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Trzymać pod ręką konkretne materiały i reprezentacje wizualne (osie liczbowe, klocki, schematy) bez stygmatyzacji — przejście od konkretu do abstrakcji odbywa się jawnymi etapami.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Pozwolić na tabelę faktów liczbowych lub kalkulator, gdy liczenie nie jest celem zadania — oceniać rozumowanie oddzielnie od arytmetyki.",
+        "Zmniejszyć obciążenie: mniej zadań, dobrze dobranych, z wydłużonym czasem — szybkość nie jest celem.",
+        "Wypowiadać kroki na głos i zostawić rozwiązany przykład widoczny podczas zadania — jawna instrukcja z modelowaniem.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Od początku oddzielać matematykę od inteligencji: „rozumowanie jest nienaruszone — trudność dotyczy konkretnie liczb\".",
+        "Wyjaśnić, że wsparcie takie jak kalkulator czy wydrukowana tabliczka to nie „ułatwianie\": to odpowiednik okularów dla kogoś, kto nie widzi z daleka.",
+        "Zaproponować krótkie, konkretne ćwiczenia w domu (gry planszowe z kostką, prawdziwe pieniądze na zakupach) zamiast list powtarzanych zadań.",
+        "Pamiętać, że dyskalkulia jest dziedziczna i znacznie mniej znana niż dysleksja: rodzina mogła nigdy nie słyszeć tego terminu — nazwanie wzorca pomaga.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Obniżająca się samoocena związana konkretnie z matematyką („jestem głupi z liczb\").",
+        "Unikanie lub odmowa zadań z liczbami w stopniu zagrażającym dalszej nauce.",
+        "Utrzymująca się rozbieżność między ogólnym rozumowaniem a wynikami z matematyki bez formalnej diagnozy — skierować na ocenę psychopedagogiczną.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Trudność z utrzymaniem uwagi przy długich zadaniach; gubi się w instrukcjach złożonych z wielu kroków.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -2443,6 +2660,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   ro: {
+    discalculia: { sections: [
+      { items: [
+        "Dificultate persistentă cu simțul numeric: compararea cantităților, estimarea rezultatelor, sesizarea fără a număra că 9 e mai mare decât 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Numără pe degete mult după ce colegii au automatizat calculul mintal de bază.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Nu reține faptele numerice (tabla înmulțirii) în ciuda exersării repetate — fiecare calcul o ia de la zero.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Se pierde în problemele cu mai mulți pași, chiar și când înțelege conceptul; inversează sau uită pașii intermediari.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Performanță la matematică vizibil sub ceea ce raționamentul verbal și celelalte materii ar lăsa să se aștepte.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nu este</strong> „a fi slab la mate\" și nici lipsă de învățat: este o tulburare specifică de învățare, cu bază neurobiologică, așa cum e dislexia pentru citit.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nu este</strong> anxietate matematică, deși cele două se alimentează reciproc: anxietatea înrăutățește performanța, dar discalculia există independent de ea.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nu dispare</strong> cu și mai multe exerciții identice: se ameliorează prin intervenție explicită și structurată asupra simțului numeric, nu prin repetarea a ceea ce a eșuat deja.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Păstrați materiale concrete și reprezentări vizuale (axe numerice, cuburi, scheme) disponibile fără stigmat — trecerea de la concret la abstract se face în etape explicite.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Permiteți un tabel cu fapte numerice sau calculatorul când calculul nu e scopul sarcinii — evaluați raționamentul separat de aritmetică.",
+        "Reduceți încărcătura: mai puține exerciții, bine alese, cu timp prelungit — viteza nu e scopul.",
+        "Verbalizați pașii cu voce tare și lăsați un exemplu rezolvat vizibil în timpul sarcinii — instruire explicită, cu modelare.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Separați de la început matematica de inteligență: „raționamentul e intact — dificultatea e specifică numerelor\".",
+        "Explicați că sprijinul precum calculatorul sau tabla înmulțirii tipărită nu e „ușurare nemeritată\": e echivalentul ochelarilor pentru cine nu vede la distanță.",
+        "Sugerați exerciții scurte și concrete acasă (jocuri de societate cu zaruri, bani reali la cumpărături) în locul listelor de exerciții repetate.",
+        "Aveți în vedere că discalculia e ereditară și mult mai puțin cunoscută decât dislexia: familia poate să nu fi auzit niciodată termenul — a numi tiparul ajută.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Imagine de sine în scădere, legată specific de matematică („sunt prost la numere\").",
+        "Evitarea sau refuzul sarcinilor cu numere până la a compromite parcursul școlar.",
+        "Discrepanță persistentă între raționamentul general și performanța matematică fără evaluare formală — îndrumați către evaluare psihopedagogică.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Dificultate în menținerea atenției la sarcini lungi; se pierde în instrucțiunile cu mai mulți pași.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -2793,6 +3041,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
 
   hr: {
+    discalculia: { sections: [
+      { items: [
+        "Trajna teškoća s osjećajem za broj: uspoređivanje količina, procjenjivanje rezultata, uočavanje bez brojenja da je 9 veće od 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Broji na prste dugo nakon što su vršnjaci automatizirali osnovno računanje napamet.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ne pamti brojevne činjenice (tablicu množenja) unatoč opetovanom vježbanju — svaki izračun počinje ispočetka.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Gubi se u zadacima s više koraka, čak i kada razumije pojam; zamjenjuje ili preskače međukorake.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Uspjeh u matematici izrazito ispod onoga što bi verbalno rasuđivanje i ostali predmeti dali očekivati.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nije</strong> „biti loš u matematici\" ni premalo učenja: to je specifični poremećaj učenja s neurobiološkom osnovom, kao što je disleksija za čitanje.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nije</strong> matematička anksioznost, iako se međusobno pojačavaju: anksioznost pogoršava uspjeh, ali diskalkulija postoji neovisno o njoj.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne nestaje</strong> s još istih vježbi: poboljšava se eksplicitnom, strukturiranom intervencijom usmjerenom na osjećaj za broj, a ne ponavljanjem onoga što je već zakazalo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Držati pri ruci konkretne materijale i vizualne prikaze (brojevne crte, kocke, sheme) bez stigme — prijelaz s konkretnog na apstraktno ide u eksplicitnim koracima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Dopustiti tablicu brojevnih činjenica ili kalkulator kada računanje nije cilj zadatka — rasuđivanje procjenjivati odvojeno od aritmetike.",
+        "Smanjiti opterećenje: manje zadataka, dobro odabranih, s produljenim vremenom — brzina nije cilj.",
+        "Izgovarati korake naglas i ostaviti riješeni primjer vidljivim tijekom zadatka — eksplicitna poduka s modeliranjem.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Od početka odvajati matematiku od inteligencije: „rasuđivanje je netaknuto — teškoća je specifična za brojeve\".",
+        "Objasniti da potpore poput kalkulatora ili ispisane tablice nisu „popuštanje\": one su ekvivalent naočala za onoga tko ne vidi na daljinu.",
+        "Predložiti kratke, konkretne vježbe kod kuće (društvene igre s kockicama, pravi novac u kupovini) umjesto popisa ponavljanih zadataka.",
+        "Imati na umu da je diskalkulija nasljedna i mnogo manje poznata od disleksije: obitelj možda nikad nije čula taj pojam — imenovanje obrasca pomaže.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Slabljenje samopoimanja vezano upravo uz matematiku („glup sam za brojeve\").",
+        "Izbjegavanje ili odbijanje zadataka s brojevima do te mjere da ugrožava školovanje.",
+        "Trajni raskorak između općeg rasuđivanja i matematičkog uspjeha bez formalne procjene — uputiti na psihopedagošku procjenu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Poteškoće s održavanjem pažnje pri dugim zadacima; gubi se u uputama s više koraka.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -3140,6 +3419,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   cs: {
+    discalculia: { sections: [
+      { items: [
+        "Přetrvávající obtíže s číselným citem: porovnávání množství, odhadování výsledků, poznání bez počítání, že 9 je víc než 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Počítá na prstech dlouho poté, co si spolužáci zautomatizovali základní počítání zpaměti.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Neukládá si číselná fakta (násobilku) navzdory opakovanému procvičování — každý výpočet začíná od nuly.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Ztrácí se ve vícekrokových úlohách, i když pojmu rozumí; zaměňuje nebo vynechává mezikroky.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Výkon v matematice zřetelně pod úrovní, kterou by slovní uvažování a ostatní předměty daly čekat.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Není to</strong> „být špatný na matiku\" ani málo učení: je to specifická porucha učení s neurobiologickým základem, tak jako dyslexie u čtení.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Není to</strong> úzkost z matematiky, i když se obě navzájem přiživují: úzkost výkon zhoršuje, ale dyskalkulie existuje nezávisle na ní.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nezmizí</strong> dalšími stejnými cvičeními: zlepšuje se explicitní, strukturovanou intervencí zaměřenou na číselný cit, ne opakováním toho, co už selhalo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Mít po ruce konkrétní pomůcky a vizuální znázornění (číselné osy, kostky, schémata) bez stigmatu — přechod od konkrétního k abstraktnímu probíhá v explicitních krocích.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Povolit tabulku číselných faktů nebo kalkulačku, když počítání není cílem úlohy — hodnotit uvažování odděleně od aritmetiky.",
+        "Snížit zátěž: méně úloh, dobře vybraných, s prodlouženým časem — rychlost není cíl.",
+        "Říkat kroky nahlas a nechat vyřešený vzorový příklad viditelný po dobu úlohy — explicitní výuka s modelováním.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Od začátku oddělovat matematiku od inteligence: „myšlení je v pořádku — obtíž se týká konkrétně čísel\".",
+        "Vysvětlit, že podpora jako kalkulačka nebo vytištěná násobilka není „ulevování\": je to obdoba brýlí pro toho, kdo nevidí na dálku.",
+        "Doporučit doma krátká, konkrétní cvičení (deskové hry s kostkami, skutečné peníze při nákupu) místo seznamů opakovaných příkladů.",
+        "Mít na paměti, že dyskalkulie je dědičná a mnohem méně známá než dyslexie: rodina možná ten pojem nikdy neslyšela — pojmenovat vzorec pomáhá.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Klesající sebepojetí vázané konkrétně na matematiku („na čísla jsem hloupý\").",
+        "Vyhýbání se úlohám s čísly nebo jejich odmítání do té míry, že ohrožuje školní dráhu.",
+        "Přetrvávající rozpor mezi obecným uvažováním a matematickým výkonem bez formálního vyšetření — doporučit psychopedagogické posouzení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Obtíže s udržením pozornosti u dlouhých úkolů; ztrácí se v pokynech o více krocích.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -3486,6 +3796,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   sv: {
+    discalculia: { sections: [
+      { items: [
+        "Ihållande svårigheter med taluppfattning: att jämföra mängder, uppskatta resultat, se utan att räkna att 9 är större än 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Räknar på fingrarna långt efter att klasskamraterna automatiserat enkel huvudräkning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Befäster inte talfakta (multiplikationstabellen) trots upprepad övning — varje uträkning börjar om från noll.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Går vilse i problem med flera steg, även när begreppet är förstått; kastar om eller glömmer mellansteg.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Prestationer i matematik klart under vad det verbala resonemanget och övriga ämnen skulle förutsäga.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det är inte</strong> att \"vara dålig på matte\" eller för lite plugg: det är en specifik inlärningssvårighet med neurobiologisk grund, precis som dyslexi är det för läsning.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det är inte</strong> matematikångest, även om de förstärker varandra: ångest försämrar prestationen, men dyskalkyli finns oberoende av den.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det försvinner inte</strong> med fler likadana övningar: det förbättras genom explicit, strukturerad träning av taluppfattningen, inte genom att upprepa det som redan misslyckats.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Ha konkret material och visuella representationer (tallinjer, klossar, scheman) tillgängliga utan stigma — steget från konkret till abstrakt tas i explicita etapper.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tillåt en tabell över talfakta eller miniräknare när beräkningen inte är uppgiftens mål — bedöm resonemanget skilt från aritmetiken.",
+        "Minska belastningen: färre, väl valda uppgifter med förlängd tid — hastighet är inte målet.",
+        "Säg stegen högt och låt ett löst exempel vara synligt under uppgiften — explicit undervisning, med modellering.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Skilj matematik från intelligens från början: \"tänkandet är intakt — svårigheten gäller specifikt siffror\".",
+        "Förklara att stöd som miniräknare eller en utskriven tabell inte är att \"gå lätt fram\": de motsvarar glasögon för den som inte ser på långt håll.",
+        "Föreslå korta, konkreta övningar hemma (brädspel med tärningar, riktiga pengar vid inköp) i stället för listor med upprepade uppgifter.",
+        "Kom ihåg att dyskalkyli är ärftlig och långt mindre känd än dyslexi: familjen kanske aldrig hört ordet — att sätta namn på mönstret hjälper.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Sjunkande självbild specifikt kopplad till matematik (\"jag är dum med siffror\").",
+        "Undvikande eller vägran inför uppgifter med tal, så till den grad att skolgången äventyras.",
+        "Ihållande skillnad mellan allmänt resonemang och matematikprestation utan formell utredning — hänvisa till psykopedagogisk bedömning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Svårt att hålla kvar uppmärksamheten vid långa uppgifter; tappar tråden vid instruktioner med flera steg.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -3832,6 +4173,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   da: {
+    discalculia: { sections: [
+      { items: [
+        "Vedvarende vanskeligheder med talforståelse: at sammenligne mængder, skønne resultater, se uden at tælle at 9 er større end 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tæller på fingrene længe efter, at klassekammeraterne har automatiseret simpel hovedregning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Fastholder ikke talfakta (tabellerne) trods gentagen øvelse — hver udregning begynder forfra.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Farer vild i opgaver med flere trin, selv når begrebet er forstået; bytter om på eller glemmer mellemtrin.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Præstationer i matematik klart under, hvad det sproglige ræsonnement og de andre fag ville forudsige.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> at \"være dårlig til matematik\" eller manglende flid: det er en specifik indlæringsvanskelighed med neurobiologisk grundlag, ligesom ordblindhed er det for læsning.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det er ikke</strong> matematikangst, selv om de to nærer hinanden: angst forværrer præstationen, men dyskalkuli findes uafhængigt af den.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det forsvinder ikke</strong> med flere ens øvelser: det bedres med eksplicit, struktureret indsats omkring talforståelsen, ikke ved at gentage det, der allerede slog fejl.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Hav konkrete materialer og visuelle repræsentationer (tallinjer, klodser, diagrammer) tilgængelige uden stigma — skridtet fra konkret til abstrakt tages i eksplicitte etaper.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tillad en tabel over talfakta eller lommeregner, når beregningen ikke er opgavens mål — bedøm ræsonnementet adskilt fra aritmetikken.",
+        "Reducér belastningen: færre, velvalgte opgaver med udvidet tid — fart er ikke målet.",
+        "Sig trinnene højt, og lad et løst eksempel være synligt under opgaven — eksplicit undervisning med modellering.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Adskil matematik fra intelligens fra starten: \"tænkningen er intakt — vanskeligheden gælder specifikt tallene\".",
+        "Forklar, at støtte som lommeregner eller en trykt tabel ikke er \"at slippe for let\": det svarer til briller for den, der ikke kan se på afstand.",
+        "Foreslå korte, konkrete aktiviteter derhjemme (brætspil med terninger, rigtige penge ved indkøb) i stedet for lister med gentagne opgaver.",
+        "Husk, at dyskalkuli er arvelig og langt mindre kendt end ordblindhed: familien har måske aldrig hørt ordet — det hjælper at sætte navn på mønsteret.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Faldende selvopfattelse specifikt knyttet til matematik (\"jeg er dum til tal\").",
+        "Undgåelse eller afvisning af opgaver med tal i en grad, der truer skolegangen.",
+        "Vedvarende forskel mellem almindeligt ræsonnement og matematikpræstation uden formel udredning — henvis til psykopædagogisk vurdering.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Svært ved at fastholde opmærksomheden ved lange opgaver; mister tråden ved instruktioner med flere trin.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -4178,6 +4550,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   fi: {
+    discalculia: { sections: [
+      { items: [
+        "Sitkeä vaikeus lukumäärän tajussa: määrien vertailu, tulosten arviointi, sen näkeminen laskematta, että 9 on suurempi kuin 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Laskee sormilla vielä kauan sen jälkeen, kun luokkakaverit ovat automatisoineet peruspäässälaskun.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ei muista aritmeettisia faktoja (kertotauluja) toistuvasta harjoittelusta huolimatta — jokainen lasku alkaa alusta.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Eksyy monivaiheisissa tehtävissä, vaikka ymmärtäisi käsitteen; vaihtaa tai unohtaa välivaiheita.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Matematiikan suoriutuminen selvästi heikompaa kuin kielellinen päättely ja muut oppiaineet antaisivat odottaa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Kyse ei ole</strong> siitä, että olisi \"huono matikassa\", eikä harjoittelun puutteesta: se on erityinen oppimisvaikeus, jolla on neurobiologinen perusta — kuten lukivaikeus on lukemiselle.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Se ei ole</strong> matematiikka-ahdistusta, vaikka ne ruokkivat toisiaan: ahdistus heikentää suoriutumista, mutta laskemiskyvyn häiriö on olemassa siitä riippumatta.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Se ei katoa</strong> lisäämällä samanlaisia tehtäviä: se lievittyy eksplisiittisellä, jäsennellyllä lukumäärän tajun harjoittelulla, ei toistamalla sitä, mikä jo epäonnistui.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Pidä konkreettisia välineitä ja visuaalisia esityksiä (lukusuorat, palikat, kaaviot) saatavilla ilman leimaa — siirtymä konkreettisesta abstraktiin tapahtuu eksplisiittisin vaihein.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Salli laskutaulukko tai laskin, kun laskeminen ei ole tehtävän tavoite — arvioi päättely erillään aritmetiikasta.",
+        "Kevennä kuormaa: vähemmän, hyvin valittuja tehtäviä ja lisäaikaa — nopeus ei ole tavoite.",
+        "Sano vaiheet ääneen ja jätä ratkaistu malliesimerkki näkyville tehtävän ajaksi — eksplisiittistä opetusta mallintamalla.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Erota matematiikka ja älykkyys alusta alkaen: \"päättely on kunnossa — vaikeus koskee nimenomaan numeroita\".",
+        "Selitä, että tuet kuten laskin tai tulostettu kertotaulu eivät ole \"helpolla päästämistä\": ne vastaavat silmälaseja sille, joka ei näe kauas.",
+        "Ehdota kotiin lyhyitä, konkreettisia harjoituksia (lautapelit nopilla, oikea raha kaupassa) toistuvien tehtävälistojen sijaan.",
+        "Muista, että laskemiskyvyn häiriö on perinnöllinen ja paljon tuntemattomampi kuin lukivaikeus: perhe ei ehkä ole koskaan kuullut termiä — ilmiön nimeäminen auttaa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Heikkenevä minäkuva, joka liittyy nimenomaan matematiikkaan (\"olen tyhmä numeroiden kanssa\").",
+        "Numeroita sisältävien tehtävien välttely tai niistä kieltäytyminen niin, että koulupolku vaarantuu.",
+        "Pysyvä ristiriita yleisen päättelyn ja matematiikan suoriutumisen välillä ilman virallista arviota — ohjaa psykopedagogiseen arviointiin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Vaikeus ylläpitää tarkkaavaisuutta pitkissä tehtävissä; hukkaa ajatuksensa monivaiheisissa ohjeissa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -4525,6 +4928,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
 
   sk: {
+    discalculia: { sections: [
+      { items: [
+        "Pretrvávajúce ťažkosti s číselným citom: porovnávanie množstiev, odhadovanie výsledkov, rozpoznanie bez počítania, že 9 je viac než 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Počíta na prstoch ešte dlho po tom, čo si spolužiaci zautomatizovali základné počítanie spamäti.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Neukladá si číselné fakty (násobilku) napriek opakovanému precvičovaniu — každý výpočet začína od nuly.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Stráca sa vo viackrokových úlohách, aj keď pojmu rozumie; zamieňa alebo vynecháva medzikroky.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Výkon v matematike zreteľne pod úrovňou, ktorú by slovné uvažovanie a ostatné predmety dali očakávať.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nie je to</strong> „byť zlý na matiku\" ani málo učenia: je to špecifická porucha učenia s neurobiologickým základom, tak ako dyslexia pri čítaní.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nie je to</strong> úzkosť z matematiky, hoci sa navzájom priživujú: úzkosť výkon zhoršuje, ale dyskalkúlia existuje nezávisle od nej.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nezmizne</strong> ďalšími rovnakými cvičeniami: zlepšuje sa explicitnou, štruktúrovanou intervenciou zameranou na číselný cit, nie opakovaním toho, čo už zlyhalo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Mať poruke konkrétne pomôcky a vizuálne znázornenia (číselné osi, kocky, schémy) bez stigmy — prechod od konkrétneho k abstraktnému prebieha v explicitných krokoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Povoliť tabuľku číselných faktov alebo kalkulačku, keď počítanie nie je cieľom úlohy — hodnotiť uvažovanie oddelene od aritmetiky.",
+        "Znížiť záťaž: menej úloh, dobre vybraných, s predĺženým časom — rýchlosť nie je cieľ.",
+        "Hovoriť kroky nahlas a nechať vyriešený vzorový príklad viditeľný počas úlohy — explicitné vyučovanie s modelovaním.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Od začiatku oddeľovať matematiku od inteligencie: „myslenie je v poriadku — ťažkosť sa týka konkrétne čísel\".",
+        "Vysvetliť, že podpora ako kalkulačka či vytlačená násobilka nie je „uľahčovanie\": je to obdoba okuliarov pre toho, kto nevidí do diaľky.",
+        "Odporučiť doma krátke, konkrétne cvičenia (spoločenské hry s kockami, skutočné peniaze pri nákupe) namiesto zoznamov opakovaných príkladov.",
+        "Mať na pamäti, že dyskalkúlia je dedičná a oveľa menej známa než dyslexia: rodina možno ten pojem nikdy nepočula — pomenovať vzorec pomáha.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Klesajúce sebahodnotenie viazané konkrétne na matematiku („na čísla som hlúpy\").",
+        "Vyhýbanie sa úlohám s číslami alebo ich odmietanie do tej miery, že ohrozuje školskú dráhu.",
+        "Pretrvávajúci rozpor medzi všeobecným uvažovaním a matematickým výkonom bez formálneho vyšetrenia — odporučiť psychopedagogické posúdenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Ťažkosti s udržaním pozornosti pri dlhých úlohách; stráca sa v pokynoch o viacerých krokoch.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -4869,6 +5303,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   hu: {
+    discalculia: { sections: [
+      { items: [
+        "Tartós nehézség a számérzékkel: mennyiségek összehasonlítása, eredmények becslése, annak felismerése számolás nélkül, hogy a 9 nagyobb a 7-nél.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Az ujjain számol még jóval azután is, hogy társai automatizálták az alapvető fejszámolást.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Nem rögzülnek a számtények (a szorzótábla) az ismételt gyakorlás ellenére — minden számolás nulláról indul.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Elvész a többlépéses feladatokban, még ha érti is a fogalmat; felcseréli vagy kihagyja a közbülső lépéseket.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Matematikai teljesítménye jóval az alatt van, amit a verbális gondolkodás és a többi tantárgy alapján várni lehetne.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Nem</strong> „gyengeség matekból\" és nem a tanulás hiánya: specifikus tanulási zavar, neurobiológiai alapokkal — ahogyan a diszlexia az olvasásnál.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Nem</strong> matematikai szorongás, bár a kettő erősíti egymást: a szorongás rontja a teljesítményt, de a diszkalkulia attól függetlenül létezik.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Nem múlik el</strong> még több ugyanolyan feladattól: explicit, strukturált, a számérzékre irányuló fejlesztéssel javul, nem annak ismételgetésével, ami már kudarcot vallott.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Legyenek kéznél konkrét eszközök és vizuális ábrázolások (számegyenes, építőkockák, ábrák) megbélyegzés nélkül — a konkréttól az absztraktig explicit lépésekben vezet az út.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Engedélyezzük a számtény-táblázatot vagy a számológépet, ha nem a számolás a feladat célja — a gondolkodást az aritmetikától külön értékeljük.",
+        "Csökkentsük a terhelést: kevesebb, jól megválasztott feladat, hosszabb idővel — nem a sebesség a cél.",
+        "Mondjuk ki hangosan a lépéseket, és hagyjunk egy kidolgozott mintapéldát láthatóan a feladat alatt — explicit tanítás, modellálással.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Kezdettől válasszuk szét a matematikát és az intelligenciát: „a gondolkodás ép — a nehézség kifejezetten a számokat érinti\".",
+        "Magyarázzuk el, hogy az olyan támogatás, mint a számológép vagy a nyomtatott szorzótábla, nem „kivételezés\": olyan, mint a szemüveg annak, aki távolra nem lát.",
+        "Javasoljunk otthonra rövid, kézzelfogható gyakorlást (társasjáték dobókockával, valódi pénz a bevásárlásnál) ismétlődő feladatsorok helyett.",
+        "Tartsuk szem előtt, hogy a diszkalkulia örökletes, és sokkal kevésbé ismert, mint a diszlexia: a család talán sosem hallotta a kifejezést — segít, ha nevet adunk a mintázatnak.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Kifejezetten a matematikához kötődő, romló önértékelés („buta vagyok a számokhoz\").",
+        "A számokkal járó feladatok kerülése vagy megtagadása olyan mértékben, hogy az az iskolai pályafutást veszélyezteti.",
+        "Tartós eltérés az általános gondolkodás és a matematikai teljesítmény között hivatalos felmérés nélkül — irányítsuk pszichopedagógiai vizsgálatra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Nehézség a figyelem fenntartásában hosszú feladatok során; eltéved a több lépésből álló utasításokban.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -5215,6 +5680,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   el: {
+    discalculia: { sections: [
+      { items: [
+        "Επίμονη δυσκολία με την αίσθηση του αριθμού: σύγκριση ποσοτήτων, εκτίμηση αποτελεσμάτων, αναγνώριση χωρίς μέτρημα ότι το 9 είναι μεγαλύτερο από το 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Μετρά με τα δάχτυλα πολύ αφότου οι συμμαθητές έχουν αυτοματοποιήσει τον βασικό νοερό υπολογισμό.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Δεν συγκρατεί τα αριθμητικά δεδομένα (προπαίδεια) παρά την επανειλημμένη εξάσκηση — κάθε υπολογισμός ξεκινά από το μηδέν.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Χάνεται σε προβλήματα πολλών βημάτων, ακόμη κι όταν κατανοεί την έννοια· αντιστρέφει ή ξεχνά ενδιάμεσα βήματα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Επίδοση στα μαθηματικά σαφώς χαμηλότερη από ό,τι θα προμήνυαν ο λεκτικός συλλογισμός και τα άλλα μαθήματα.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Δεν είναι</strong> «το να είσαι κακός στα μαθηματικά» ούτε έλλειψη μελέτης: είναι ειδική μαθησιακή διαταραχή με νευροβιολογική βάση, όπως η δυσλεξία για την ανάγνωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Δεν είναι</strong> μαθηματικό άγχος, αν και τα δύο αλληλοτροφοδοτούνται: το άγχος επιδεινώνει την επίδοση, αλλά η δυσαριθμησία υπάρχει ανεξάρτητα από αυτό.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Δεν εξαφανίζεται</strong> με περισσότερες ίδιες ασκήσεις: βελτιώνεται με ρητή, δομημένη παρέμβαση στην αίσθηση του αριθμού, όχι με επανάληψη αυτού που ήδη απέτυχε.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Διατηρήστε διαθέσιμα χειροπιαστά υλικά και οπτικές αναπαραστάσεις (αριθμογραμμές, κύβους, σχήματα) χωρίς στίγμα — το πέρασμα από το συγκεκριμένο στο αφηρημένο γίνεται με ρητά στάδια.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Επιτρέψτε πίνακα αριθμητικών δεδομένων ή αριθμομηχανή όταν ο υπολογισμός δεν είναι ο στόχος της εργασίας — αξιολογήστε τον συλλογισμό χωριστά από την αριθμητική.",
+        "Μειώστε τον φόρτο: λιγότερες, καλά επιλεγμένες ασκήσεις με παράταση χρόνου — η ταχύτητα δεν είναι ο στόχος.",
+        "Εκφωνήστε τα βήματα δυνατά και αφήστε ένα λυμένο παράδειγμα ορατό κατά τη διάρκεια της εργασίας — ρητή διδασκαλία, με υπόδειξη προτύπου.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Διαχωρίστε εξαρχής τα μαθηματικά από τη νοημοσύνη: «ο συλλογισμός είναι άθικτος — η δυσκολία αφορά ειδικά τους αριθμούς».",
+        "Εξηγήστε ότι στηρίγματα όπως η αριθμομηχανή ή η τυπωμένη προπαίδεια δεν είναι «διευκόλυνση»: είναι το αντίστοιχο των γυαλιών για όποιον δεν βλέπει μακριά.",
+        "Προτείνετε σύντομες, χειροπιαστές πρακτικές στο σπίτι (επιτραπέζια με ζάρια, αληθινά χρήματα στα ψώνια) αντί για λίστες επαναλαμβανόμενων ασκήσεων.",
+        "Έχετε υπόψη ότι η δυσαριθμησία είναι κληρονομική και πολύ λιγότερο γνωστή από τη δυσλεξία: η οικογένεια ίσως δεν έχει ακούσει ποτέ τον όρο — το να ονομάσετε το μοτίβο βοηθά.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Αυτοεκτίμηση σε πτώση, συνδεδεμένη ειδικά με τα μαθηματικά («είμαι χαζός με τους αριθμούς»).",
+        "Αποφυγή ή άρνηση εργασιών με αριθμούς σε βαθμό που θέτει σε κίνδυνο τη σχολική πορεία.",
+        "Επίμονη απόκλιση μεταξύ γενικού συλλογισμού και μαθηματικής επίδοσης χωρίς επίσημη αξιολόγηση — παραπέμψτε για ψυχοπαιδαγωγική εκτίμηση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Δυσκολία στη διατήρηση της προσοχής σε μακροσκελείς εργασίες· χάνεται σε οδηγίες με πολλά βήματα.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -5561,6 +6057,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
 
   bg: {
+    discalculia: { sections: [
+      { items: [
+        "Устойчиво затруднение с усета за число: сравняване на количества, преценка на резултати, разпознаване без броене, че 9 е по-голямо от 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Брои на пръсти дълго след като съучениците са автоматизирали основното смятане наум.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Не запаметява числовите факти (таблицата за умножение) въпреки многократното упражняване — всяко пресмятане започва от нулата.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Губи се в задачи с няколко стъпки дори когато разбира понятието; разменя или пропуска междинни стъпки.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Постижения по математика видимо под това, което словесното разсъждение и другите предмети биха предвещали.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Не е</strong> „да си слаб по математика\", нито липса на учене: това е специфично разстройство на ученето с невробиологична основа, както дислексията при четенето.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Не е</strong> математическа тревожност, макар двете взаимно да се подхранват: тревожността влошава постиженията, но дискалкулията съществува независимо от нея.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Не изчезва</strong> с още от същите упражнения: подобрява се с явна, структурирана интервенция върху усета за число, а не с повтаряне на това, което вече се е провалило.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Дръжте под ръка нагледни материали и визуални представяния (числови оси, кубчета, схеми) без стигма — преходът от конкретното към абстрактното става на явни етапи.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Разрешавайте таблица с числови факти или калкулатор, когато смятането не е целта на задачата — оценявайте разсъждението отделно от аритметиката.",
+        "Намалете натоварването: по-малко, добре подбрани задачи с удължено време — скоростта не е целта.",
+        "Изговаряйте стъпките на глас и оставете решен образец видим по време на задачата — явно преподаване с моделиране.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Разделяйте от самото начало математиката от интелигентността: „разсъждението е незасегнато — затруднението е специфично за числата\".",
+        "Обяснете, че подкрепа като калкулатора или разпечатаната таблица не е „улеснение\": тя е еквивалентът на очилата за човек, който не вижда надалеч.",
+        "Предложете кратки, конкретни занимания у дома (настолни игри със зарове, истински пари при пазаруване) вместо списъци с повтарящи се задачи.",
+        "Имайте предвид, че дискалкулията е наследствена и много по-малко позната от дислексията: семейството може никога да не е чувало термина — назоваването на модела помага.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Спадаща самооценка, свързана конкретно с математиката („глупав съм с числата\").",
+        "Избягване или отказ от задачи с числа до степен, застрашаваща училищния път.",
+        "Устойчиво разминаване между общото разсъждение и математическите постижения без официална оценка — насочете към психопедагогическа оценка.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Затруднение да задържи вниманието при дълги задачи; губи се при инструкции с няколко стъпки.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -5906,6 +6433,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
   },
 
   lt: {
+    discalculia: { sections: [
+      { items: [
+        "Nuolatiniai sunkumai su skaičiaus pojūčiu: palyginti kiekius, apytiksliai įvertinti rezultatus, nesuskaičiavus pamatyti, kad 9 yra daugiau už 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Skaičiuoja pirštais dar ilgai po to, kai bendraklasiai automatizavo paprastą skaičiavimą mintinai.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Neįsimena skaičių faktų (daugybos lentelės) nepaisant kartojamų pratybų — kiekvienas skaičiavimas prasideda nuo nulio.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Pasimeta kelių žingsnių uždaviniuose net tada, kai supranta sąvoką; sukeičia arba praleidžia tarpinius žingsnius.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Matematikos rezultatai aiškiai žemesni, nei leistų tikėtis žodinis mąstymas ir kiti dalykai.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Tai nėra</strong> „prastumas matematikoje\" ar mokymosi stoka: tai specifinis mokymosi sutrikimas, turintis neurobiologinį pagrindą, kaip disleksija skaitymui.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tai nėra</strong> matematikos nerimas, nors jie vienas kitą stiprina: nerimas blogina rezultatus, bet diskalkulija egzistuoja nepriklausomai nuo jo.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ji neišnyksta</strong> nuo dar daugiau tokių pačių pratimų: gerėja taikant aiškią, struktūruotą intervenciją, nukreiptą į skaičiaus pojūtį, o ne kartojant tai, kas jau nepavyko.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Laikyti po ranka konkrečias priemones ir vaizdines reprezentacijas (skaičių tieses, kaladėles, schemas) be stigmos — perėjimas nuo konkretaus prie abstraktaus vyksta aiškiais etapais.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Leisti skaičių faktų lentelę arba skaičiuotuvą, kai skaičiavimas nėra užduoties tikslas — mąstymą vertinti atskirai nuo aritmetikos.",
+        "Sumažinti krūvį: mažiau, gerai parinktų užduočių su pailgintu laiku — greitis nėra tikslas.",
+        "Garsiai įvardyti žingsnius ir palikti išspręstą pavyzdį matomą per užduotį — aiškus mokymas su modeliavimu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Nuo pat pradžių atskirti matematiką nuo intelekto: „mąstymas nepažeistas — sunkumas susijęs būtent su skaičiais\".",
+        "Paaiškinti, kad pagalba, tokia kaip skaičiuotuvas ar atspausdinta lentelė, nėra „nuolaidžiavimas\": tai atitikmuo akinių tam, kas nemato į tolį.",
+        "Pasiūlyti trumpas, konkrečias veiklas namie (stalo žaidimai su kauliukais, tikri pinigai perkant) vietoj kartojamų pratimų sąrašų.",
+        "Turėti omenyje, kad diskalkulija paveldima ir daug mažiau žinoma nei disleksija: šeima gal niekada negirdėjo šio termino — įvardyti dėsningumą padeda.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Smunkantis savęs vertinimas, susijęs būtent su matematika („esu kvailas skaičiams\").",
+        "Užduočių su skaičiais vengimas ar atsisakymas tiek, kad kyla grėsmė mokymosi keliui.",
+        "Nuolatinis neatitikimas tarp bendro mąstymo ir matematikos rezultatų be formalaus įvertinimo — nukreipti psichopedagoginiam įvertinimui.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Sunkiai išlaiko dėmesį atliekant ilgas užduotis; pasimeta nurodymuose, kuriuose yra keli žingsniai.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -6251,6 +6809,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
 
   lv: {
+    discalculia: { sections: [
+      { items: [
+        "Noturīgas grūtības ar skaitļa izjūtu: salīdzināt daudzumus, aptuveni novērtēt rezultātus, bez skaitīšanas saskatīt, ka 9 ir lielāks par 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Skaita uz pirkstiem vēl ilgi pēc tam, kad klasesbiedri automatizējuši vienkāršo rēķināšanu galvā.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Neiegaumē skaitļu faktus (reizrēķinu), neraugoties uz atkārtotu vingrināšanos — katrs aprēķins sākas no nulles.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Apjūk vairāku soļu uzdevumos pat tad, kad jēdzienu saprot; samaina vai izlaiž starpsoļus.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sniegums matemātikā izteikti zemāks, nekā verbālā spriešana un citi mācību priekšmeti liktu gaidīt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Tā nav</strong> „vājība matemātikā\" vai mācīšanās trūkums: tie ir specifiski mācīšanās traucējumi ar neirobioloģisku pamatu — tāpat kā disleksija lasīšanā.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Tā nav</strong> matemātikas trauksme, lai gan abas viena otru pastiprina: trauksme pasliktina sniegumu, bet diskalkulija pastāv neatkarīgi no tās.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Tā nepazūd</strong> no vēl vairāk tādu pašu vingrinājumu: tā uzlabojas ar skaidru, strukturētu intervenci skaitļa izjūtas attīstīšanai, nevis atkārtojot to, kas jau nav izdevies.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Turēt pa rokai uzskates materiālus un vizuālus attēlojumus (skaitļu taisnes, klucīšus, shēmas) bez stigmas — pāreja no konkrētā uz abstrakto notiek skaidros posmos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Atļaut skaitļu faktu tabulu vai kalkulatoru, kad rēķināšana nav uzdevuma mērķis — spriešanu vērtēt atsevišķi no aritmētikas.",
+        "Samazināt slodzi: mazāk, labi izvēlētu uzdevumu ar pagarinātu laiku — ātrums nav mērķis.",
+        "Izrunāt soļus skaļi un atstāt atrisinātu paraugu redzamu uzdevuma laikā — skaidra mācīšana ar modelēšanu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Jau no sākuma nodalīt matemātiku no intelekta: „spriešana ir neskarta — grūtības attiecas tieši uz skaitļiem\".",
+        "Paskaidrot, ka atbalsts, piemēram, kalkulators vai izdrukāts reizrēķins, nav „atvieglojumi\": tas ir līdzvērtīgs brillēm tam, kurš neredz tālumā.",
+        "Ieteikt mājās īsas, konkrētas nodarbes (galda spēles ar metamajiem kauliņiem, īsta nauda iepirkšanās laikā) atkārtotu uzdevumu sarakstu vietā.",
+        "Paturēt prātā, ka diskalkulija ir pārmantojama un daudz mazāk pazīstama nekā disleksija: ģimene šo terminu var nebūt dzirdējusi — palīdz nosaukt šo modeli vārdā.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Krītošs pašvērtējums, kas saistīts tieši ar matemātiku („es esmu dumjš ar skaitļiem\").",
+        "Izvairīšanās no uzdevumiem ar skaitļiem vai atteikšanās no tiem tiktāl, ka tiek apdraudēta skolas gaita.",
+        "Noturīga neatbilstība starp vispārējo spriešanu un sniegumu matemātikā bez formāla izvērtējuma — nosūtīt uz psihopedagoģisko izvērtēšanu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Grūtības noturēt uzmanību ilgstošos uzdevumos; apjūk norādījumos, kuros ir vairāki soļi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -6599,6 +7188,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   et: {
+    discalculia: { sections: [
+      { items: [
+        "Püsiv raskus arvutajuga: koguste võrdlemine, tulemuste hindamine, ilma loendamata märkamine, et 9 on suurem kui 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Loeb sõrmedel veel kaua pärast seda, kui klassikaaslased on lihtsa peastarvutamise automatiseerinud.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ei jäta arvufakte (korrutustabelit) meelde hoolimata korduvast harjutamisest — iga arvutus algab nullist.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Eksib mitmeastmelistes ülesannetes ka siis, kui mõistest aru saab; vahetab või unustab vahesamme.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Matemaatika sooritus selgelt madalam, kui verbaalne arutlusvõime ja teised õppeained lubaksid eeldada.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>See ei ole</strong> „matemaatikas kehv olemine\" ega vähene õppimine: see on spetsiifiline õpiraskus, millel on neurobioloogiline alus — nagu düsleksia lugemisel.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>See ei ole</strong> matemaatikaärevus, kuigi need kaks toidavad teineteist: ärevus halvendab sooritust, kuid düskalkuulia on sellest sõltumatu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>See ei kao</strong> veel suurema hulga samasuguste harjutustega: see paraneb selgesõnalise, struktureeritud arvutaju arendamisega, mitte juba läbikukkunu kordamisega.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Hoia käepärast konkreetseid vahendeid ja visuaalseid kujutisi (arvteljed, klotsid, skeemid) ilma sildistamata — üleminek konkreetselt abstraktsele käib selgete etappide kaupa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Luba arvufaktide tabelit või kalkulaatorit, kui arvutamine pole ülesande eesmärk — hinda arutlemist aritmeetikast eraldi.",
+        "Vähenda koormust: vähem, hästi valitud ülesandeid pikendatud ajaga — kiirus ei ole eesmärk.",
+        "Ütle sammud valjusti välja ja jäta lahendatud näide ülesande ajaks nähtavale — selgesõnaline õpetamine koos ettenäitamisega.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Erista algusest peale matemaatika ja intelligentsus: „arutlusvõime on terve — raskus puudutab just arve\".",
+        "Selgita, et toed nagu kalkulaator või väljatrükitud korrutustabel ei ole „järeleandmine\": need on prillide vaste sellele, kes kaugele ei näe.",
+        "Soovita koju lühikesi, konkreetseid tegevusi (täringumängud, päris raha poeskäigul) korduvate harjutuste nimekirjade asemel.",
+        "Pea meeles, et düskalkuulia on pärilik ja palju vähem tuntud kui düsleksia: pere ei pruugi olla seda terminit kuulnudki — mustrile nime andmine aitab.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Langev enesehinnang, mis on seotud just matemaatikaga („ma olen arvudega rumal\").",
+        "Arvudega ülesannete vältimine või neist keeldumine määral, mis ohustab koolitee jätkumist.",
+        "Püsiv lahknevus üldise arutlusvõime ja matemaatikasoorituse vahel ilma ametliku hindamiseta — suuna psühhopedagoogilisele hindamisele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Raskused tähelepanu hoidmisel pikkades ülesannetes; läheb mitmeastmelistes juhistes sassi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -6948,6 +7568,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
 
 
   sl: {
+    discalculia: { sections: [
+      { items: [
+        "Vztrajna težava z občutkom za število: primerjanje količin, ocenjevanje rezultatov, prepoznanje brez štetja, da je 9 večje od 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Šteje na prste še dolgo po tem, ko so sošolci avtomatizirali osnovno računanje na pamet.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ne zapomni si številskih dejstev (poštevanke) kljub ponavljajoči se vadbi — vsak izračun se začne znova.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Izgubi se v večstopenjskih nalogah, tudi kadar pojem razume; zamenja ali izpusti vmesne korake.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Uspeh pri matematiki očitno pod tem, kar bi verbalno sklepanje in drugi predmeti dali pričakovati.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Ni</strong> „biti slab pri matematiki\" niti premalo učenja: gre za specifično učno motnjo z nevrobiološko osnovo, tako kot je disleksija pri branju.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ni</strong> matematična anksioznost, čeprav se med seboj krepita: anksioznost poslabša uspeh, a diskalkulija obstaja neodvisno od nje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ne izgine</strong> z več enakimi vajami: izboljša se z eksplicitno, strukturirano obravnavo občutka za število, ne s ponavljanjem tistega, kar je že spodletelo.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Imeti pri roki konkretne pripomočke in vizualne prikaze (številske premice, kocke, sheme) brez stigme — prehod od konkretnega k abstraktnemu poteka v eksplicitnih korakih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Dovoliti tabelo številskih dejstev ali kalkulator, kadar računanje ni cilj naloge — sklepanje ocenjevati ločeno od aritmetike.",
+        "Zmanjšati obremenitev: manj nalog, dobro izbranih, s podaljšanim časom — hitrost ni cilj.",
+        "Korake izgovarjati naglas in med nalogo pustiti viden rešen zgled — eksplicitno poučevanje z modeliranjem.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Od začetka ločevati matematiko od inteligentnosti: „sklepanje je nedotaknjeno — težava je specifična za števila\".",
+        "Pojasniti, da opore, kot sta kalkulator ali natisnjena poštevanka, niso „popuščanje\": so ustreznica očal za tistega, ki ne vidi na daljavo.",
+        "Predlagati kratke, konkretne vaje doma (družabne igre s kockami, pravi denar pri nakupih) namesto seznamov ponavljajočih se nalog.",
+        "Upoštevati, da je diskalkulija dedna in veliko manj poznana od disleksije: družina izraza morda še ni slišala — poimenovanje vzorca pomaga.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Upadajoča samopodoba, vezana prav na matematiko („za številke sem neumen\").",
+        "Izogibanje nalogam s števili ali njihovo zavračanje do te mere, da ogroža šolsko pot.",
+        "Vztrajno razhajanje med splošnim sklepanjem in matematičnim uspehom brez formalne ocene — napotiti na psihopedagoško oceno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Težave z ohranjanjem pozornosti pri dolgih nalogah; izgubi se pri navodilih z več koraki.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -7295,6 +7946,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   ga: {
+    discalculia: { sections: [
+      { items: [
+        "Deacracht leanúnach le ciall uimhreach: cainníochtaí a chur i gcomparáid, torthaí a mheas, a fheiceáil gan chomhaireamh gur mó 9 ná 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Comhaireamh ar na méara i bhfad tar éis dá chomhscoláirí an ríomh meabhrach bunúsach a uathoibriú.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ní choinníonn sé fíricí uimhreacha (na táblaí) in ainneoin cleachtadh arís agus arís eile — tosaíonn gach ríomh ón tús.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Téann sé amú i bhfadhbanna ilchéimeanna fiú nuair a thuigeann sé an coincheap; malartaíonn nó déanann dearmad ar chéimeanna idirmheánacha.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Feidhmíocht sa mhatamaitic i bhfad faoi bhun a mbeifí ag súil leis ón réasúnaíocht bhriathartha agus ó na hábhair eile.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Ní hionann é</strong> agus „a bheith go dona ag mata\" ná easpa staidéir: is neamhord sonrach foghlama é le bunús néarbhitheolaíoch, díreach mar atá an disléicse don léitheoireacht.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ní himní matamaitice é</strong>, cé go gcothaíonn an dá rud a chéile: cuireann imní as don fheidhmíocht, ach maireann an dioscalcúile go neamhspleách uirthi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ní imíonn sé</strong> le tuilleadh de na cleachtaí céanna: feabhsaíonn sé le hidirghabháil fhollasach, struchtúrtha ar chiall uimhreach, ní trí athrá ar an rud ar theip air cheana.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Ábhair nithiúla agus léirithe amhairc (línte uimhreacha, bloic, léaráidí) a choinneáil ar fáil gan stiogma — déantar an t-aistriú ón nithiúil go dtí an teibí i gcéimeanna follasacha.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tábla fíricí uimhreacha nó áireamhán a cheadú nuair nach é an ríomh cuspóir na tasc — an réasúnaíocht a mheas ar leithligh ón uimhríocht.",
+        "An t-ualach a laghdú: níos lú cleachtaí, roghnaithe go maith, le ham breise — ní hé an luas an sprioc.",
+        "Na céimeanna a rá os ard agus sampla réitithe a fhágáil le feiceáil le linn na tasc — teagasc follasach, le múnlú.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "An mhatamaitic a scaradh ón intleacht ón tús: „tá an réasúnaíocht slán — baineann an deacracht go sonrach leis na huimhreacha\".",
+        "A mhíniú nach „bogásaíocht\" iad tacaíochtaí ar nós an áireamháin nó an tábla chlóite: is ionann iad agus spéaclaí don té nach bhfeiceann i bhfad uaidh.",
+        "Cleachtais ghearra, nithiúla a mholadh don bhaile (cluichí boird le díslí, airgead ceart ag siopadóireacht) in ionad liostaí de chleachtaí athráiteacha.",
+        "Cuimhnigh gur oidhreachtúil an dioscalcúile agus i bhfad níos lú aithne uirthi ná ar an disléicse: seans nár chuala an teaghlach an téarma riamh — cabhraíonn sé ainm a thabhairt ar an bpatrún.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Féinmheas ag titim atá ceangailte go sonrach leis an matamaitic („táim dúr le huimhreacha\").",
+        "Seachaint nó diúltú tascanna le huimhreacha go pointe a chuireann an chonair scoile i mbaol.",
+        "Neamhréir leanúnach idir an réasúnaíocht ghinearálta agus feidhmíocht na matamaitice gan mheasúnú foirmiúil — atreorú chuig measúnú síceoideachasúil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Deacracht aird a choinneáil ar thascanna fada; téann sé ar strae i dtreoracha a bhfuil céimeanna iomadúla iontu.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
@@ -7643,6 +8325,37 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
   mt: {
+    discalculia: { sections: [
+      { items: [
+        "Diffikultà persistenti mas-sens tan-numru: iqabbel kwantitajiet, jistma riżultati, jara mingħajr ma jgħodd li 9 hu akbar minn 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Jgħodd fuq subgħajh ħafna wara li sħabu jkunu awtomatizzaw il-kalkolu mentali bażiku.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Ma jżommx il-fatti numeriċi (il-multiplikazzjonijiet) minkejja prattika ripetuta — kull kalkolu jerġa' jibda mix-xejn.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Jintilef fi problemi b'diversi passi anke meta jifhem il-kunċett; ipartat jew jinsa passi intermedji.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Prestazzjoni fil-matematika ċara taħt dak li r-raġunament verbali u s-suġġetti l-oħra jistennew.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Mhuwiex</strong> \"li tkun ħażin fil-matematika\" u lanqas nuqqas ta' studju: hu diżordni speċifiku tat-tagħlim b'bażi newrobijoloġika, bħalma d-dislessija hi għall-qari.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Mhuwiex</strong> ansjetà tal-matematika, għalkemm it-tnejn isaħħu lil xulxin: l-ansjetà taggrava l-prestazzjoni, imma d-diskalkulija teżisti indipendentement minnha.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Ma jgħibx</strong> b'aktar eżerċizzji tal-istess tip: jitjieb b'intervent espliċitu u strutturat fuq is-sens tan-numru, mhux bir-ripetizzjoni ta' dak li diġà falla.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Żomm materjali konkreti u rappreżentazzjonijiet viżwali (linji tan-numri, blokok, skemi) disponibbli mingħajr stigma — il-pass mill-konkret għall-astratt isir f'passi espliċiti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Ippermetti tabella tal-fatti numeriċi jew kalkulatriċi meta l-kalkolu mhuwiex l-għan tal-biċċa xogħol — evalwa r-raġunament separatament mill-aritmetika.",
+        "Naqqas it-tagħbija: inqas eżerċizzji, magħżula tajjeb, b'ħin estiż — il-veloċità mhijiex l-għan.",
+        "Għid il-passi b'vuċi għolja u ħalli eżempju solvut viżibbli waqt il-biċċa xogħol — tagħlim espliċitu, bl-immudellar.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Ifred il-matematika mill-intelliġenza mill-bidu: \"ir-raġunament hu intatt — id-diffikultà hi speċifika għan-numri\".",
+        "Spjega li appoġġi bħall-kalkulatriċi jew it-tabella stampata mhumiex \"faċilitajiet żejda\": huma l-ekwivalenti tan-nuċċali għal min ma jarax fil-bogħod.",
+        "Issuġġerixxi prattiki qosra u konkreti d-dar (logħob tal-mejda bid-dadi, flus veri fix-xiri) minflok listi ta' eżerċizzji ripetuti.",
+        "Żomm f'moħħok li d-diskalkulija hi ereditarja u ħafna inqas magħrufa mid-dislessija: il-familja jista' jkun li qatt ma semgħet it-terminu — li ssemmi x-xejra tgħin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Awtostima nieżla marbuta speċifikament mal-matematika (\"jien injorant man-numri\").",
+        "Evitar jew rifjut ta' xogħol bin-numri sal-punt li jipperikola l-mixja skolastika.",
+        "Diskrepanza persistenti bejn ir-raġunament ġenerali u l-prestazzjoni matematika mingħajr evalwazzjoni formali — irreferi għal evalwazzjoni psikopedagoġika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+    ]},
     tdah: { sections: [
       { items: [
         "Diffikultà biex iżżomm l-attenzjoni f'kompiti twal; jintilef f'istruzzjonijiet b'diversi passi.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",

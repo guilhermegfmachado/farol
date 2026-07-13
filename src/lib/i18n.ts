@@ -1879,6 +1879,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   en: {
     tdah:         { title: 'ADHD',              subtitle: 'Attention Deficit Hyperactivity Disorder',                          desc: 'Attention deficit, hyperactivity, or both. Restless, impulsive, easily distracted.' },
     dislexia:     { title: 'Dyslexia',          subtitle: 'Specific learning disorder in reading',                              desc: 'Specific difficulty with reading and writing, despite preserved intelligence.' },
+    discalculia:  { title: 'Dyscalculia', subtitle: 'Specific learning disorder in mathematics', desc: 'Specific difficulty with numbers and calculation, unexpected relative to other cognitive abilities.' },
     dispraxia:    { title: 'Dyspraxia',         subtitle: 'Developmental coordination disorder',                                desc: 'Motor coordination difficulty affecting writing, organisation, and sequential tasks.' },
     autismo:      { title: 'Autism Spectrum',   subtitle: 'Differences in social, sensory, and communicative processing',      desc: 'Differences in social communication, sensory processing, and patterns of interest.' },
     sobredotacao: { title: 'Giftedness',        subtitle: 'Significantly above-average ability, frequently under-stimulated',  desc: 'Above-average ability, frequently accompanied by boredom and under-stimulation.' },
@@ -1892,6 +1893,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   es: {
     tdah:         { title: 'TDAH',              subtitle: 'Trastorno por Déficit de Atención e Hiperactividad',                desc: 'Déficit de atención, hiperactividad o ambos. Inquieto, impulsivo, fácilmente distraído.' },
     dislexia:     { title: 'Dislexia',          subtitle: 'Trastorno específico del aprendizaje de la lectura',                desc: 'Dificultad específica de lectura y escritura, con inteligencia preservada.' },
+    discalculia:  { title: 'Discalculia', subtitle: 'Trastorno específico del aprendizaje de las matemáticas', desc: 'Dificultad específica con los números y el cálculo, inesperada frente a las demás capacidades cognitivas.' },
     dispraxia:    { title: 'Dispraxia',         subtitle: 'Trastorno del desarrollo de la coordinación',                       desc: 'Dificultad de coordinación motora que afecta la escritura, organización y tareas secuenciales.' },
     autismo:      { title: 'Espectro Autista',  subtitle: 'Diferencias en el procesamiento social, sensorial y comunicativo',  desc: 'Diferencias en la comunicación social, el procesamiento sensorial y los patrones de interés.' },
     sobredotacao: { title: 'Altas Capacidades', subtitle: 'Capacidad significativamente superior a la media, frecuentemente infraestimulada', desc: 'Capacidad superior a la media, frecuentemente acompañada de aburrimiento y falta de estimulación.' },
@@ -1905,6 +1907,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   fr: {
     tdah:         { title: 'TDAH',              subtitle: "Trouble du Déficit de l'Attention avec ou sans Hyperactivité",     desc: "Déficit d'attention, hyperactivité ou les deux. Agité, impulsif, facilement distrait." },
     dislexia:     { title: 'Dyslexie',          subtitle: "Trouble spécifique de l'apprentissage de la lecture",              desc: "Difficulté spécifique de lecture et d'écriture, malgré une intelligence préservée." },
+    discalculia:  { title: 'Dyscalculie', subtitle: 'Trouble spécifique des apprentissages en mathématiques', desc: 'Difficulté spécifique avec les nombres et le calcul, inattendue au regard des autres capacités cognitives.' },
     dispraxia:    { title: 'Dyspraxie',         subtitle: 'Trouble du développement de la coordination',                       desc: "Difficulté de coordination motrice affectant l'écriture, l'organisation et les tâches séquentielles." },
     autismo:      { title: 'Spectre Autistique', subtitle: 'Différences dans le traitement social, sensoriel et communicatif', desc: "Différences dans la communication sociale, le traitement sensoriel et les centres d'intérêt." },
     sobredotacao: { title: 'Haut Potentiel',    subtitle: 'Capacités significativement supérieures à la moyenne, souvent sous-stimulées', desc: "Capacités supérieures à la moyenne, souvent accompagnées d'ennui et de sous-stimulation." },
@@ -1918,6 +1921,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   it: {
     tdah:         { title: 'ADHD',              subtitle: 'Disturbo da Deficit di Attenzione e Iperattività',                  desc: 'Deficit di attenzione, iperattività o entrambi. Irrequieto, impulsivo, facilmente distratto.' },
     dislexia:     { title: 'Dislessia',         subtitle: "Disturbo specifico dell'apprendimento della lettura",              desc: 'Difficoltà specifica di lettura e scrittura, con intelligenza preservata.' },
+    discalculia:  { title: 'Discalculia', subtitle: 'Disturbo specifico dell’apprendimento della matematica', desc: 'Difficoltà specifica con i numeri e il calcolo, inattesa rispetto alle altre capacità cognitive.' },
     dispraxia:    { title: 'Disprassia',        subtitle: 'Disturbo dello sviluppo della coordinazione',                       desc: 'Difficoltà di coordinazione motoria che influisce su scrittura, organizzazione e compiti sequenziali.' },
     autismo:      { title: 'Spettro Autistico', subtitle: 'Differenze nell’elaborazione sociale, sensoriale e comunicativa',   desc: 'Differenze nella comunicazione sociale, nel elaborazione sensoriale e nei modelli di interesse.' },
     sobredotacao: { title: 'Plusdotazione',     subtitle: 'Capacità significativamente superiori alla media, spesso sotto-stimolate', desc: 'Capacità superiori alla media, spesso accompagnate da noia e mancanza di stimolazione.' },
@@ -1931,6 +1935,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   hr: {
     tdah:         { title: 'ADHD',              subtitle: 'Poremećaj pažnje s hiperaktivnošću',                                desc: 'Deficit pažnje, hiperaktivnost ili oboje. Nemirno, impulzivno, lako se omete.' },
     dislexia:     { title: 'Disleksija',        subtitle: 'Specifični poremećaj učenja čitanja',                               desc: 'Specifična teškoća čitanja i pisanja uz očuvanu inteligenciju.' },
+    discalculia:  { title: 'Diskalkulija', subtitle: 'Specifični poremećaj učenja matematike', desc: 'Specifična teškoća s brojevima i računanjem, neočekivana s obzirom na ostale kognitivne sposobnosti.' },
     dispraxia:    { title: 'Dispraksija',       subtitle: 'Razvojni poremećaj koordinacije',                                   desc: 'Teškoća motoričke koordinacije koja utječe na pisanje, organizaciju i sekvencijalne zadatke.' },
     autismo:      { title: 'Autistični spektar', subtitle: 'Razlike u socijalnoj, senzoričkoj i komunikacijskoj obradi',       desc: 'Razlike u socijalnoj komunikaciji, senzoričkoj obradi i obrascima interesa.' },
     sobredotacao: { title: 'Darovitost',        subtitle: 'Sposobnosti značajno iznad prosjeka, često nedovoljno stimulirane', desc: 'Iznadprosječne sposobnosti, često praćene dosadom i nedostatkom stimulacije.' },
@@ -1944,6 +1949,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   de: {
     tdah:         { title: 'ADHS',              subtitle: 'Aufmerksamkeitsdefizit-Hyperaktivitätsstörung',                     desc: 'Aufmerksamkeitsdefizit, Hyperaktivität oder beides. Unruhig, impulsiv, leicht ablenkbar.' },
     dislexia:     { title: 'Legasthenie',       subtitle: 'Spezifische Lernstörung beim Lesen',                                desc: 'Spezifische Schwierigkeit beim Lesen und Schreiben, bei erhaltener Intelligenz.' },
+    discalculia:  { title: 'Dyskalkulie', subtitle: 'Spezifische Lernstörung im Bereich Mathematik', desc: 'Spezifische Schwierigkeit mit Zahlen und Rechnen, unerwartet angesichts der übrigen kognitiven Fähigkeiten.' },
     dispraxia:    { title: 'Dyspraxie',         subtitle: 'Entwicklungsstörung der Koordination',                              desc: 'Motorische Koordinationsschwierigkeit, die Schreiben, Organisation und sequenzielle Aufgaben beeinträchtigt.' },
     autismo:      { title: 'Autismus-Spektrum', subtitle: 'Unterschiede in sozialer, sensorischer und kommunikativer Verarbeitung', desc: 'Unterschiede in sozialer Kommunikation, sensorischer Verarbeitung und Interessenmustern.' },
     sobredotacao: { title: 'Hochbegabung',      subtitle: 'Deutlich überdurchschnittliche Fähigkeiten, häufig unterfordert',   desc: 'Überdurchschnittliche Fähigkeiten, häufig begleitet von Langeweile und Unterforderung.' },
@@ -1957,6 +1963,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   nl: {
     tdah:         { title: 'ADHD',              subtitle: 'Aandachtstekortstoornis met hyperactiviteit',                       desc: 'Aandachtstekort, hyperactiviteit of beide. Rusteloos, impulsief, gemakkelijk afgeleid.' },
     dislexia:     { title: 'Dyslexie',          subtitle: 'Specifieke leerstoornis in lezen',                                  desc: 'Specifieke moeilijkheid met lezen en schrijven, met behouden intelligentie.' },
+    discalculia:  { title: 'Dyscalculie', subtitle: 'Specifieke leerstoornis in rekenen en wiskunde', desc: 'Specifieke moeite met getallen en rekenen, onverwacht gezien de overige cognitieve vaardigheden.' },
     dispraxia:    { title: 'Dyspraxie',         subtitle: 'Ontwikkelingsstoornis van de coördinatie',                          desc: 'Motorische coördinatiemoeilijkheid die schrijven, organisatie en sequentiële taken beïnvloedt.' },
     autismo:      { title: 'Autismespectrumstoornis', subtitle: 'Verschillen in sociale, sensorische en communicatieve verwerking', desc: 'Verschillen in sociale communicatie, sensorische verwerking en interessepatronen.' },
     sobredotacao: { title: 'Hoogbegaafdheid',   subtitle: 'Significant bovengemiddelde capaciteiten, vaak onderstimuleerd',    desc: 'Bovengemiddelde capaciteiten, vaak vergezeld van verveling en gebrek aan stimulering.' },
@@ -1970,6 +1977,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   pl: {
     tdah:         { title: 'ADHD',              subtitle: 'Zespół nadpobudliwości psychoruchowej z deficytem uwagi',           desc: 'Deficyt uwagi, nadpobudliwość lub oba. Niespokojny, impulsywny, łatwo rozpraszający się.' },
     dislexia:     { title: 'Dysleksja',         subtitle: 'Specyficzne zaburzenie uczenia się czytania',                       desc: 'Specyficzna trudność z czytaniem i pisaniem przy zachowanej inteligencji.' },
+    discalculia:  { title: 'Dyskalkulia', subtitle: 'Specyficzne zaburzenie uczenia się matematyki', desc: 'Specyficzna trudność z liczbami i liczeniem, nieoczekiwana wobec pozostałych zdolności poznawczych.' },
     dispraxia:    { title: 'Dyspraksja',        subtitle: 'Zaburzenie rozwoju koordynacji',                                    desc: 'Trudność z koordynacją motoryczną wpływająca na pisanie, organizację i zadania sekwencyjne.' },
     autismo:      { title: 'Spektrum autyzmu',  subtitle: 'Różnice w przetwarzaniu społecznym, sensorycznym i komunikacyjnym', desc: 'Różnice w komunikacji społecznej, przetwarzaniu sensorycznym i wzorcach zainteresowań.' },
     sobredotacao: { title: 'Uzdolnienie',       subtitle: 'Zdolności znacznie powyżej średniej, często niedostymulowane',     desc: 'Zdolności powyżej średniej, często towarzyszące nudzie i brakowi stymulacji.' },
@@ -1983,6 +1991,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   ro: {
     tdah:         { title: 'ADHD',              subtitle: 'Tulburare de deficit de atenție și hiperactivitate',                desc: 'Deficit de atenție, hiperactivitate sau ambele. Agitat, impulsiv, ușor de distras.' },
     dislexia:     { title: 'Dislexie',          subtitle: 'Tulburare specifică de învățare la citit',                          desc: 'Dificultate specifică de citire și scriere, cu inteligență păstrată.' },
+    discalculia:  { title: 'Discalculie', subtitle: 'Tulburare specifică de învățare a matematicii', desc: 'Dificultate specifică cu numerele și calculul, neașteptată față de celelalte capacități cognitive.' },
     dispraxia:    { title: 'Dispraxie',         subtitle: 'Tulburare de dezvoltare a coordonării',                             desc: 'Dificultate de coordonare motorie care afectează scrisul, organizarea și sarcinile secvențiale.' },
     autismo:      { title: 'Spectrul autist',   subtitle: 'Diferențe în procesarea socială, senzorială și comunicativă',      desc: 'Diferențe în comunicarea socială, procesarea senzorială și tiparele de interes.' },
     sobredotacao: { title: 'Supradotare',       subtitle: 'Capacități semnificativ peste medie, frecvent insuficient stimulate',       desc: 'Capacități peste medie, frecvent însoțite de plictiseală și substimulare.' },
@@ -1996,6 +2005,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   cs: {
     tdah:         { title: 'ADHD',              subtitle: 'Porucha pozornosti s hyperaktivitou',                               desc: 'Deficit pozornosti, hyperaktivita nebo obojí. Neklidný, impulzivní, snadno rozptylovaný.' },
     dislexia:     { title: 'Dyslexie',          subtitle: 'Specifická porucha učení ve čtení',                                 desc: 'Specifická obtíž se čtením a psaním při zachované inteligenci.' },
+    discalculia:  { title: 'Dyskalkulie', subtitle: 'Specifická porucha učení v matematice', desc: 'Specifická obtíž s čísly a počítáním, nečekaná vzhledem k ostatním kognitivním schopnostem.' },
     dispraxia:    { title: 'Dyspraxie',         subtitle: 'Vývojová porucha koordinace',                                       desc: 'Obtíž s motorickou koordinací ovlivňující psaní, organizaci a sekvenční úkoly.' },
     autismo:      { title: 'Autistické spektrum', subtitle: 'Rozdíly ve sociálním, senzorickém a komunikativním zpracování',  desc: 'Rozdíly v sociální komunikaci, senzorickém zpracování a vzorcích zájmů.' },
     sobredotacao: { title: 'Nadání',            subtitle: 'Výrazně nadprůměrné schopnosti, často nedostatečně stimulované',   desc: 'Nadprůměrné schopnosti, často provázené nudou a nedostatkem stimulace.' },
@@ -2009,6 +2019,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   sv: {
     tdah:         { title: 'ADHD',              subtitle: 'Uppmärksamhetsstörning med hyperaktivitet',                         desc: 'Uppmärksamhetsunderskott, hyperaktivitet eller båda. Rastlös, impulsiv, lätt distraherad.' },
     dislexia:     { title: 'Dyslexi',           subtitle: 'Specifika läs- och skrivsvårigheter',                           desc: 'Specifik svårighet med läsning och skrivning med bibehållen intelligens.' },
+    discalculia:  { title: 'Dyskalkyli', subtitle: 'Specifik inlärningssvårighet i matematik', desc: 'Specifik svårighet med tal och beräkning, oväntad i förhållande till övriga kognitiva förmågor.' },
     dispraxia:    { title: 'Dyspraxi',          subtitle: 'Koordinationsutvecklingsstörning',                                  desc: 'Motorisk koordinationssvårighet som påverkar skrivning, organisation och sekventiella uppgifter.' },
     autismo:      { title: 'Autismspektrum',    subtitle: 'Skillnader i social, sensorisk och kommunikativ bearbetning',       desc: 'Skillnader i social kommunikation, sensorisk bearbetning och intressemönster.' },
     sobredotacao: { title: 'Högbegåvning',      subtitle: 'Avsevärt ovanliga förmågor, ofta understimulerade',                desc: 'Förmågor över genomsnittet, ofta åtföljda av tristess och understimulering.' },
@@ -2022,6 +2033,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   da: {
     tdah:         { title: 'ADHD',              subtitle: 'Opmærksomhedsunderskudsforstyrrelse med hyperaktivitet',             desc: 'Opmærksomhedsunderskud, hyperaktivitet eller begge dele. Rastløs, impulsiv, let distraheret.' },
     dislexia:     { title: 'Ordblindhed',       subtitle: 'Specifik indlæringsforstyrrelse ved læsning',                        desc: 'Specifik vanskelighed med læsning og skrivning med bevaret intelligens.' },
+    discalculia:  { title: 'Dyskalkuli', subtitle: 'Specifik indlæringsvanskelighed i matematik', desc: 'Specifik vanskelighed med tal og beregning, uventet i forhold til de øvrige kognitive evner.' },
     dispraxia:    { title: 'Dyspraksi',         subtitle: 'Udviklingsforstyrrelse af koordination',                             desc: 'Motorisk koordinationsforstyrrelse, der påvirker skrivning, organisering og sekventielle opgaver.' },
     autismo:      { title: 'Autismespektrum',   subtitle: 'Forskelle i social, sensorisk og kommunikativ behandling',           desc: 'Forskelle i social kommunikation, sensorisk bearbejdning og interessemønstre.' },
     sobredotacao: { title: 'Høj begavelse',     subtitle: 'Væsentligt over gennemsnitlige evner, ofte understimulerede',        desc: 'Evner over gennemsnittet, ofte ledsaget af kedsomhed og understimulering.' },
@@ -2035,6 +2047,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   fi: {
     tdah:         { title: 'ADHD',              subtitle: 'Tarkkaavaisuus- ja ylivilkkaushäiriö',                              desc: 'Tarkkaavaisuusvajaus, ylivilkkaus tai molemmat. Levoton, impulsiivinen, helposti häiriintyvä.' },
     dislexia:     { title: 'Lukihäiriö',        subtitle: 'Erityinen oppimisvaikeus lukemisessa',                              desc: 'Erityinen vaikeus lukemisessa ja kirjoittamisessa säilyneestä älykkyydestä huolimatta.' },
+    discalculia:  { title: 'Laskemiskyvyn häiriö', subtitle: 'Matematiikan erityinen oppimisvaikeus', desc: 'Erityinen vaikeus numeroiden ja laskemisen kanssa, odottamaton muihin kognitiivisiin taitoihin nähden.' },
     dispraxia:    { title: 'Dyspraksia',        subtitle: 'Kehityksellinen koordinaatiohäiriö',                                desc: 'Motorinen koordinointivaikeus, joka vaikuttaa kirjoittamiseen, järjestelyyn ja peräkkäisiin tehtäviin.' },
     autismo:      { title: 'Autismikirjo',      subtitle: 'Erot sosiaalisessa, aistillisessa ja viestinnällisessä käsittelyssä', desc: 'Erot sosiaalisessa kommunikaatiossa, aistikäsittelyssä ja kiinnostuksen kohteissa.' },
     sobredotacao: { title: 'Lahjakkuus',        subtitle: 'Huomattavasti keskimääräistä suuremmat kyvyt, usein alistimuloituja',  desc: 'Keskimääräistä suuremmat kyvyt, joihin liittyy usein tylsistymistä ja alivirikkeisyyttä.' },
@@ -2048,6 +2061,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   sk: {
     tdah:         { title: 'ADHD',              subtitle: 'Porucha pozornosti s hyperaktivitou',                               desc: 'Deficit pozornosti, hyperaktivita alebo oboje. Nepokojný, impulzívny, ľahko rozptyľovaný.' },
     dislexia:     { title: 'Dyslexia',          subtitle: 'Špecifická porucha učenia pri čítaní',                              desc: 'Špecifická ťažkosť s čítaním a písaním pri zachovanej inteligencii.' },
+    discalculia:  { title: 'Dyskalkúlia', subtitle: 'Špecifická porucha učenia v matematike', desc: 'Špecifická ťažkosť s číslami a počítaním, nečakaná vzhľadom na ostatné kognitívne schopnosti.' },
     dispraxia:    { title: 'Dyspraxia',         subtitle: 'Vývinová porucha koordinácie',                                      desc: 'Ťažkosť s motorickou koordináciou ovplyvňujúca písanie, organizáciu a sekvenčné úlohy.' },
     autismo:      { title: 'Autistické spektrum', subtitle: 'Rozdiely v sociálnom, senzorickom a komunikatívnom spracovaní',  desc: 'Rozdiely v sociálnej komunikácii, senzorickom spracovaní a vzorcoch záujmov.' },
     sobredotacao: { title: 'Nadanie',           subtitle: 'Výrazne nadpriemerné schopnosti, často nedostatočne stimulované',   desc: 'Nadpriemerné schopnosti, často sprevádzané nudou a nedostatkom stimulácie.' },
@@ -2061,6 +2075,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   el: {
     tdah:         { title: 'ΔΕΠΥ',             subtitle: 'Διαταραχή Ελλειμματικής Προσοχής και Υπερκινητικότητας',           desc: 'Έλλειμμα προσοχής, υπερκινητικότητα ή και τα δύο. Ανήσυχος, παρορμητικός, εύκολα αποσπάται.' },
     dislexia:     { title: 'Δυσλεξία',         subtitle: 'Ειδική μαθησιακή δυσκολία στην ανάγνωση',                          desc: 'Ειδική δυσκολία στην ανάγνωση και γραφή με διατηρημένη νοημοσύνη.' },
+    discalculia:  { title: 'Δυσαριθμησία', subtitle: 'Ειδική μαθησιακή διαταραχή στα μαθηματικά', desc: 'Ειδική δυσκολία με τους αριθμούς και τους υπολογισμούς, απροσδόκητη σε σχέση με τις άλλες γνωστικές ικανότητες.' },
     dispraxia:    { title: 'Δυσπραξία',        subtitle: 'Αναπτυξιακή διαταραχή συντονισμού',                                desc: 'Δυσκολία κινητικού συντονισμού που επηρεάζει τη γραφή, οργάνωση και διαδοχικές εργασίες.' },
     autismo:      { title: 'Φάσμα αυτισμού',  subtitle: 'Διαφορές στην κοινωνική, αισθητηριακή και επικοινωνιακή επεξεργασία', desc: 'Διαφορές στην κοινωνική επικοινωνία, αισθητηριακή επεξεργασία και πρότυπα ενδιαφέροντος.' },
     sobredotacao: { title: 'Υψηλή νοημοσύνη', subtitle: 'Ικανότητες σημαντικά πάνω από τον μέσο όρο, συχνά ανεπαρκώς αξιοποιούμενες', desc: 'Ικανότητες πάνω από τον μέσο όρο, συχνά συνοδευόμενες από πλήξη και έλλειψη ερεθισμάτων.' },
@@ -2074,6 +2089,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   hu: {
     tdah:         { title: 'ADHD',              subtitle: 'Figyelemhiányos hiperaktivitás-zavar',                    desc: 'Figyelemhiány, hiperaktivitás vagy mindkettő. Nyugtalan, impulzív, könnyen elterelhető.' },
     dislexia:     { title: 'Diszlexia',         subtitle: 'Olvasási specifikus tanulási zavar',                               desc: 'Specifikus olvasási és írási nehézség megőrzött intelligencia mellett.' },
+    discalculia:  { title: 'Diszkalkulia', subtitle: 'A matematikatanulás specifikus zavara', desc: 'Specifikus nehézség a számokkal és a számolással, váratlan a többi kognitív képességhez képest.' },
     dispraxia:    { title: 'Diszpraxia',        subtitle: 'Fejlődési koordinációs zavar',                                     desc: 'Motoros koordinációs nehézség, amely befolyásolja az írást, szervezést és szekvenciális feladatokat.' },
     autismo:      { title: 'Autizmusspektrum',  subtitle: 'Különbségek a szociális, érzékszervi és kommunikációs feldolgozásban', desc: 'Különbségek a szociális kommunikációban, érzékszervi feldolgozásban és érdeklődési mintákban.' },
     sobredotacao: { title: 'Tehetség',          subtitle: 'Jelentősen átlag feletti képességek, gyakran alulstimuláltak',     desc: 'Átlag feletti képességek, gyakran unalommal és alulstimuláltsággal kísérve.' },
@@ -2087,6 +2103,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   bg: {
     tdah:         { title: 'ADHD',              subtitle: 'Разстройство с дефицит на вниманието и хиперактивност',            desc: 'Дефицит на внимание, хиперактивност или и двете. Неспокоен, импулсивен, лесно разсейващ се.' },
     dislexia:     { title: 'Дислексия',         subtitle: 'Специфично нарушение на ученето при четене',                       desc: 'Специфична трудност при четене и писане при запазена интелигентност.' },
+    discalculia:  { title: 'Дискалкулия', subtitle: 'Специфично разстройство на ученето по математика', desc: 'Специфично затруднение с числата и смятането, неочаквано на фона на останалите когнитивни способности.' },
     dispraxia:    { title: 'Диспраксия',        subtitle: 'Разстройство в развитието на координацията',                         desc: 'Трудност с двигателната координация, засягаща писане, организация и последователни задачи.' },
     autismo:      { title: 'Аутистичен спектър', subtitle: 'Различия в социалната, сензорната и комуникативната обработка',  desc: 'Различия в социалната комуникация, сензорната обработка и моделите на интерес.' },
     sobredotacao: { title: 'Надареност',        subtitle: 'Значително над средните способности, често недостатъчно стимулирани', desc: 'Над средните способности, често придружени от скука и липса на стимулация.' },
@@ -2100,6 +2117,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   lt: {
     tdah:         { title: 'ADHD',              subtitle: 'Dėmesio deficito ir hiperaktyvumo sutrikimas',                     desc: 'Dėmesio deficitas, hiperaktyvumas arba abu. Neramūs, impulsyvūs, lengvai atitraukiami.' },
     dislexia:     { title: 'Disleksija',        subtitle: 'Specifinis mokymosi sutrikimas skaitant',                           desc: 'Specifinis skaitymo ir rašymo sunkumas išlaikant intelektą.' },
+    discalculia:  { title: 'Diskalkulija', subtitle: 'Specifinis matematikos mokymosi sutrikimas', desc: 'Specifinis sunkumas su skaičiais ir skaičiavimu, netikėtas turint omenyje kitus kognityvinius gebėjimus.' },
     dispraxia:    { title: 'Dispraksija',       subtitle: 'Raidos koordinacijos sutrikimas',                                   desc: 'Motorinės koordinacijos sunkumas, veikiantis rašymą, organizavimą ir nuoseklias užduotis.' },
     autismo:      { title: 'Autizmo spektras',  subtitle: 'Skirtumai socialiniame, jutiminiame ir komunikaciniame apdorojime', desc: 'Skirtumai socialinėje komunikacijoje, jutiminiame apdorojime ir interesų modeliuose.' },
     sobredotacao: { title: 'Gabumas',           subtitle: 'Gerokai aukštesnės nei vidutinės gebos, dažnai nepakankamai stimuliuojamos', desc: 'Aukštesni nei vidutiniai gebėjimai, dažnai lydimos nuobodulio ir nepakankamo stimuliavimo.' },
@@ -2113,6 +2131,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   lv: {
     tdah:         { title: 'ADHD',              subtitle: 'Uzmanības deficīta un hiperaktivitātes traucējumi',                 desc: 'Uzmanības deficīts, hiperaktivitāte vai abi. Nemierīgs, impulsīvs, viegli novēršams.' },
     dislexia:     { title: 'Disleksija',        subtitle: 'Specifisks mācīšanās traucējums lasīšanā',                         desc: 'Specifiska grūtība lasīšanā un rakstīšanā ar saglabātu intelektu.' },
+    discalculia:  { title: 'Diskalkulija', subtitle: 'Specifiski matemātikas mācīšanās traucējumi', desc: 'Specifiskas grūtības ar skaitļiem un rēķināšanu, negaidītas uz pārējo kognitīvo spēju fona.' },
     dispraxia:    { title: 'Dispraksija',       subtitle: 'Attīstības koordinācijas traucējumi',                               desc: 'Motorikas koordinācijas grūtības, kas ietekmē rakstīšanu, organizāciju un secīgus uzdevumus.' },
     autismo:      { title: 'Autisma spektrs',   subtitle: 'Atšķirības sociālajā, sensorajā un komunikatīvajā apstrādē',       desc: 'Atšķirības sociālajā komunikācijā, sensorajā apstrādē un interešu modeļos.' },
     sobredotacao: { title: 'Apdāvinātība',      subtitle: 'Ievērojami virs vidējā spējas, bieži nepietiekami stimulētas',     desc: 'Virs vidējā spējas, bieži pavadītas ar garlaicību un nepietiekamu stimulēšanu.' },
@@ -2126,6 +2145,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   et: {
     tdah:         { title: 'ADHD',              subtitle: 'Tähelepanu puudujäägi ja hiperaktiivsuse häire',                    desc: 'Tähelepanu puudujääk, hiperaktiivsus või mõlemad. Rahutu, impulsiivne, kergesti hajutatav.' },
     dislexia:     { title: 'Düsleksia',         subtitle: 'Spetsiifiline lugemisõppimise häire',                               desc: 'Spetsiifiline raskus lugemisel ja kirjutamisel säilinud intelligentsusega.' },
+    discalculia:  { title: 'Düskalkuulia', subtitle: 'Matemaatika spetsiifiline õpiraskus', desc: 'Spetsiifiline raskus arvude ja arvutamisega, ootamatu muude kognitiivsete võimete taustal.' },
     dispraxia:    { title: 'Düspraksia',        subtitle: 'Arengulise koordinatsiooni häire',                                  desc: 'Motoorse koordinatsiooni raskus, mis mõjutab kirjutamist, korraldust ja järjestikuseid ülesandeid.' },
     autismo:      { title: 'Autismispektrum',   subtitle: 'Erinevused sotsiaalses, sensoorses ja kommunikatiivses töötlemises', desc: 'Erinevused sotsiaalses kommunikatsioonis, sensoorses töötlemises ja huvimustrites.' },
     sobredotacao: { title: 'Andekus',           subtitle: 'Märkimisväärselt keskmisest kõrgemad võimed, tihti alastimuleeritud', desc: 'Keskmisest kõrgemad võimed, millega sageli kaasnevad igavus ja alastimulatsioon.' },
@@ -2139,6 +2159,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   sl: {
     tdah:         { title: 'ADHD',              subtitle: 'Motnja pozornosti s hiperaktivnostjo',                              desc: 'Primanjkljaj pozornosti, hiperaktivnost ali oboje. Nemiren, impulziven, zlahka zamoti.' },
     dislexia:     { title: 'Disleksija',        subtitle: 'Specifična učna motnja pri branju',                                 desc: 'Specifična težava z branjem in pisanjem pri ohranjeni inteligenci.' },
+    discalculia:  { title: 'Diskalkulija', subtitle: 'Specifična učna motnja pri matematiki', desc: 'Specifična težava s števili in računanjem, nepričakovana glede na druge kognitivne sposobnosti.' },
     dispraxia:    { title: 'Dispraksija',       subtitle: 'Razvojna motnja koordinacije',                                      desc: 'Težava z motorično koordinacijo, ki vpliva na pisanje, organizacijo in zaporedne naloge.' },
     autismo:      { title: 'Avtistični spekter', subtitle: 'Razlike v socialnem, čutnem in komunikacijskem procesiranju',     desc: 'Razlike v socialni komunikaciji, čutnem procesiranju in vzorcih interesov.' },
     sobredotacao: { title: 'Nadarjenost',       subtitle: 'Zmožnosti bistveno nad povprečjem, pogosto premalo stimulirane',   desc: 'Nadpovprečne zmožnosti, pogosto ju spremljata dolgčas in premajhna spodbuda.' },
@@ -2152,6 +2173,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   ga: {
     tdah:         { title: 'ADHD',              subtitle: 'Neamhord Easnaimh Airde agus Hipeargníomhaíochta',                  desc: 'Easnamh airde, hipeargníomhaíocht nó an dá rud. Corrthónach, impulsach, seachránach go héasca.' },
     dislexia:     { title: 'Disléicse',         subtitle: 'Neamhord foghlama sonrach i léamh',                                 desc: 'Deacracht shonrach le léamh agus scríobh le hintleacht chaomhnaithe.' },
+    discalculia:  { title: 'Dioscalcúile', subtitle: 'Neamhord sonrach foghlama sa mhatamaitic', desc: 'Deacracht shonrach le huimhreacha agus le ríomhaireacht, gan choinne i bhfianaise na gcumas cognaíoch eile.' },
     dispraxia:    { title: 'Dispraicse',       subtitle: 'Neamhord forbartha comhordúcháin',                                  desc: 'Deacracht chomhordúcháin mótarachta a théann i bhfeidhm ar scríobh, eagraíocht agus tascanna seicheamhacha.' },
     autismo:      { title: 'Speictream Uathachais', subtitle: 'Difríochtaí san idirghníomhú sóisialta, céadfach agus cumarsáide', desc: 'Difríochtaí i gcumarsáid shóisialta, próiseáil chéadfach agus patrúin spéise.' },
     sobredotacao: { title: 'Ardchumas',         subtitle: 'Cumais shuntasacha os cionn an mheáin, tearcspreagtha go minic',        desc: 'Cumais os cionn an mheáin, minic in éineacht le leadrán agus easpa spreagtha.' },
@@ -2165,6 +2187,7 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
   mt: {
     tdah:         { title: 'ADHD',              subtitle: 'Disturb ta\' Defiċit ta\' Attenzjoni u Iperattività',                desc: 'Defiċit ta\' attenzjoni, iperattività jew it-tnejn. Bla kwiet, impulsiv, faċilment distratt.' },
     dislexia:     { title: 'Dislessja',          subtitle: 'Disturb speċifiku tat-tagħlim fil-qari',                            desc: 'Diffikultà speċifika fil-qari u kitba b\'intelliġenza miżmuma.' },
+    discalculia:  { title: 'Diskalkulija', subtitle: 'Diżordni speċifiku tat-tagħlim fil-matematika', desc: 'Diffikultà speċifika man-numri u l-kalkolu, mhux mistennija meta mqabbla mal-kapaċitajiet konjittivi l-oħra.' },
     dispraxia:    { title: 'Dispraksja',        subtitle: 'Disturb tal-iżvilupp tal-koordinazzjoni',                           desc: 'Diffikultà ta\' koordinazzjoni motorja li taffettwa l-kitba, l-organizzazzjoni u il-kompiti sekwenzjali.' },
     autismo:      { title: 'Spettru tal-Awtiżmu', subtitle: 'Differenzi fl-ipproċessar soċjali, sensorjali u komunikattiv',   desc: 'Differenzi fil-komunikazzjoni soċjali, l-ipproċessar sensorjali u l-mudelli ta\' interess.' },
     sobredotacao: { title: 'Abbiltà għolja',            subtitle: 'Kapaċitajiet sinifikament fuq il-medja, spiss ma jingħatawx biżżejjed stimolu', desc: 'Kapaċitajiet fuq il-medja, spiss akkumpanjati minn dwejjaq u nuqqas ta\' stimolu.' },

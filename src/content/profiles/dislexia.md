@@ -36,7 +36,7 @@ sections:
       - "Discrepância marcada entre desempenho oral e escrito sem diagnóstico formal — encaminhar para avaliação psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
 ai_strategies:
   tools: []
-related: ["tdah", "dispraxia", "plnm"]
+related: ["tdah", "dispraxia", "discalculia", "plnm"]
 references:
   - "Lyon, G. R., Shaywitz, S. E., & Shaywitz, B. A. (2003). A definition of dyslexia. <em>Annals of Dyslexia</em>, 53, 1–14. <a href=\"https://doi.org/10.1007/s11881-003-0001-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
   - "Vellutino, F. R., Fletcher, J. M., Snowling, M. J., & Scanlon, D. M. (2004). Specific reading disability (dyslexia): What have we learned in the past four decades? <em>Journal of Child Psychology and Psychiatry</em>, 45(1), 2–40. <a href=\"https://doi.org/10.1046/j.0021-9630.2003.00305.x\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"

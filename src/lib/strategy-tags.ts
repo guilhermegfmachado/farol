@@ -23,6 +23,7 @@ export const strategyTags: Record<string, StrategyTag[][]> = {
   autismo:      [[R, P, T], [R, P, T], [R, P, T], [T]],
   sobredotacao: [[T],       [R, P, T], [R, P, T], [R, P, T]],
   plnm:         [[T],       [R, P, T], [R, P, T], [R, P, T]],
+  discalculia:  [[T],       [R, P],    [R, P, T], [R, P, T]],
 };
 
 export const ALL_TAGS: StrategyTag[] = ['quick', 'no-prep', 'no-tech'];
