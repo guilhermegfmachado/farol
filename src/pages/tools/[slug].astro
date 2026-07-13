@@ -5,7 +5,6 @@ import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import SaveStar from '../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const tools = await getCollection('tools');
@@ -42,7 +41,6 @@ const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''),
           <a href={url} target="_blank" rel="noopener noreferrer" class="tool-url">{url.replace(/^https?:\/\//, '')}</a>
         </p>
       )}
-      <div class="card-actions"><SaveStar type="tool" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
 
     <section class="card-section">

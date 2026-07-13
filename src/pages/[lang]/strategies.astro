@@ -63,7 +63,6 @@ const groups = profiles.map((p) => {
             <li class="strategy-item" data-tags={[...s.tags, s.tier].join(' ')}>
               <span class="strategy-text" set:html={s.text} />
               <span class="strategy-tags">
-                {s.tags.map((tg) => <span class={`strategy-tag tag-${tg}`}>{tagLabel[tg]}</span>)}
                 <span class={`strategy-tag strategy-tag-tier tag-${s.tier}`}>{tierLabel[s.tier]}</span>
               </span>
             </li>

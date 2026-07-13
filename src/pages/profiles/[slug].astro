@@ -6,7 +6,6 @@ import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
-import SaveStar from '../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('profiles');
@@ -63,7 +62,6 @@ function entryHref(e: typeof allEntries[0]) {
       </div>
       <h1 class="card-title">{title}</h1>
       <p class="card-subtitle">{subtitle}</p>
-      <div class="card-actions"><SaveStar type="profile" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
 
     {sections.map((section) => (
@@ -154,20 +152,6 @@ function entryHref(e: typeof allEntries[0]) {
     <div class="print-bar"><button type="button" class="print-btn-a4">{t.a4_sheet} · PDF</button><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
   </article>
 
-  <nav class="card-nav" aria-label="Navegação entre entradas">
-    {prev ? (
-      <a href={entryHref(prev)} class="card-nav-item card-nav-prev">
-        <span class="card-nav-dir">← anterior</span>
-        <span class="card-nav-title">{prev.data.title}</span>
-      </a>
-    ) : <span />}
-    {next ? (
-      <a href={entryHref(next)} class="card-nav-item card-nav-next">
-        <span class="card-nav-dir">seguinte →</span>
-        <span class="card-nav-title">{next.data.title}</span>
-      </a>
-    ) : <span />}
-  </nav>
 
   <Footer lang="pt" />
 </Base>

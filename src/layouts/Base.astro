@@ -42,7 +42,6 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
     <script is:inline>
       try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
       try { if (localStorage.getItem('farol-reading') === '1') document.documentElement.classList.add('reading'); } catch (e) {}
-      try { var ts = localStorage.getItem('farol-textsize'); if (ts === 'lg' || ts === 'xl') document.documentElement.classList.add('text-' + ts); } catch (e) {}
     </script>
 
     <!-- Favicon -->
@@ -265,65 +264,6 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
             busy = false;
           }
         });
-      })();
-    </script>
-
-    <!-- "My toolkit" — save profiles/tools to this device only (localStorage).
-         Nothing is sent anywhere; works offline. Powers the star buttons and the
-         header count badge; the toolkit page reads the same store. -->
-    <script is:inline>
-      (function () {
-        var KEY = 'farol-saved';
-        function read() {
-          try { var v = JSON.parse(localStorage.getItem(KEY) || '{}'); return { profile: v.profile || [], tool: v.tool || [] }; }
-          catch (e) { return { profile: [], tool: [] }; }
-        }
-        function write(s) { try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {} }
-        function total(s) { return s.profile.length + s.tool.length; }
-        function updateCounts(s) {
-          var n = total(s);
-          document.querySelectorAll('[data-toolkit-count]').forEach(function (el) {
-            el.textContent = n ? String(n) : '';
-            el.hidden = n === 0;
-          });
-        }
-        function reflect(btn, on) {
-          btn.setAttribute('aria-pressed', on ? 'true' : 'false');
-          var lbl = on ? btn.getAttribute('data-label-saved') : btn.getAttribute('data-label');
-          if (lbl) { btn.setAttribute('aria-label', lbl); btn.setAttribute('title', lbl); }
-          var span = btn.querySelector('.star-label');
-          if (span && lbl) span.textContent = lbl;
-        }
-        function init() {
-          var s = read();
-          document.querySelectorAll('.star-btn').forEach(function (btn) {
-            var type = btn.getAttribute('data-save-type');
-            var id = btn.getAttribute('data-save-id');
-            reflect(btn, (s[type] || []).indexOf(id) !== -1);
-          });
-          updateCounts(s);
-        }
-        document.addEventListener('click', function (e) {
-          var btn = e.target.closest ? e.target.closest('.star-btn') : null;
-          if (!btn) return;
-          var type = btn.getAttribute('data-save-type');
-          var id = btn.getAttribute('data-save-id');
-          var s = read();
-          var arr = s[type] || (s[type] = []);
-          var i = arr.indexOf(id);
-          if (i === -1) arr.push(id); else arr.splice(i, 1);
-          write(s);
-          reflect(btn, i === -1);
-          updateCounts(s);
-          // let the toolkit page re-render if it is listening
-          document.dispatchEvent(new CustomEvent('farol-saved-changed', { detail: s }));
-        });
-        // keep the header badge in sync when the toolkit page removes items
-        document.addEventListener('farol-saved-changed', function (e) { updateCounts(e.detail || read()); });
-        // expose the reader for the toolkit page
-        window.farolSaved = read;
-        if (document.readyState !== 'loading') init();
-        else document.addEventListener('DOMContentLoaded', init);
       })();
     </script>
 
