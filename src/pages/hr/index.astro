@@ -43,7 +43,6 @@ const categoryHr: Record<string, string> = {
     ))}
   </section>
   <div class="browse-divider"><span>{t.browse_label}</span></div>
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} data-search-index data-search-lang="hr" data-search-base={base} /></div>
   <nav class="tree" aria-label="Profili i resursi">
     <div class="tree-section-label">{t.home_profiles}</div>
     {entries.filter((entry) => entry.data.category === 'Perfil').map((entry) => {
@@ -75,8 +74,6 @@ const categoryHr: Record<string, string> = {
     })}
   
   </nav>
-  <p class="search-empty" id="search-empty" hidden>{t.no_results}</p>
-  <div id="search-results" class="search-results" hidden></div>
   <div class="tools-link-row">
     <a href={`${base}hr/lighthouse/`} class="tools-link tools-link-lighthouse">
       <span class="tools-link-label">{t.lh_label}</span>

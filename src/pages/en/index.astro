@@ -50,7 +50,6 @@ const categoryEn: Record<string, string> = {
   <div class="browse-divider"><span>{t.browse_label}</span></div>
 
 
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.search_placeholder} aria-label={t.search_placeholder} data-search-index data-search-lang="en" data-search-base={base} /></div>
   <nav class="tree" aria-label="Profiles and resources">
     <div class="tree-section-label">{t.home_profiles}</div>
     {entries.filter((entry) => entry.data.category === 'Perfil').map((entry) => {
@@ -90,8 +89,6 @@ const categoryEn: Record<string, string> = {
     })}
   
   </nav>
-  <p class="search-empty" id="search-empty" hidden>{t.no_results}</p>
-  <div id="search-results" class="search-results" hidden></div>
 
   <div class="tools-link-row">
     <a href={`${base}en/lighthouse/`} class="tools-link tools-link-lighthouse">
