@@ -34,6 +34,9 @@ sections:
       - "Recusa total de produção escrita."
       - "Isolamento social em contextos de atividade física."
       - "Sinais de ansiedade somatizada antes de avaliações escritas — o sofrimento psicossocial é parte do quadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+  - label: "Perfis sobrepostos"
+    items:
+      - "Sobrepõe-se com frequência à TDAH e à dislexia; a escrita lenta e desorganizada pode mascarar qualquer uma delas — ou ser mascarada por elas. Distinguir o que é motor do que é atencional muda as adaptações: teclado e tempo extra ajudam no motor; fragmentar instruções ajuda na atenção."
 ai_strategies:
   tools: []
 related: ["dislexia", "tdah", "autismo"]

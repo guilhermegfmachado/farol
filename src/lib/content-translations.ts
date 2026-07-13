@@ -40,6 +40,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Avoidance or refusal of tasks involving numbers to the point of compromising their school path.",
         "Persistent discrepancy between general reasoning and mathematical performance without a formal assessment — refer for psychopedagogical assessment.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Frequently overlaps with dyslexia — the phonological and numerical deficits coexist — and with ADHD, where an overloaded working memory makes calculation worse. When reading and numbers fail together, adaptations must cover both fronts, not pick one.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -70,6 +73,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Persistent disciplinary failure despite classroom adaptations.",
         "Signs of social exclusion by peers.",
         "Signs of comorbidity (anxiety, depression, oppositional defiant disorder) — common in ADHD and warranting referral.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD rarely comes alone: a substantial share of these students also have a learning disorder — dyslexia and dyscalculia are the most common overlaps, and dyspraxia is frequent. In practice: when attention adaptations are not enough, look for a specific pattern in reading or calculation before concluding it is \"lack of effort\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -102,6 +108,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematic avoidance of reading/writing tasks to the point of compromising other subjects.",
         "Marked discrepancy between oral and written performance without a formal diagnosis — refer for psychopedagogical assessment.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Frequently co-occurs with ADHD, dyscalculia and dyspraxia — learning disorders rarely come in isolation. If the difficulties clearly go beyond reading and writing (attention, calculation, coordination), widen the observation instead of attributing everything to dyslexia.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -132,6 +141,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Frequent meltdowns after the school day.",
         "Persistent school refusal associated with sensory overload.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Progressive social isolation despite attempts at mediation.",
+      ]},
+      { items: [
+        "The combination with giftedness — so-called twice-exceptionality — is easy to miss: the ability masks the support needed and the difficulties mask the ability. ADHD and anxiety also co-occur frequently; a very uneven performance across subjects deserves a second look.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -164,6 +176,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Social isolation in physical-activity contexts.",
         "Signs of somatised anxiety before written assessments — psychosocial distress is part of the picture.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Frequently overlaps with ADHD and dyslexia; slow, disorganised handwriting can mask either of them — or be masked by them. Separating what is motor from what is attentional changes the adaptations: a keyboard and extra time help the motor side; breaking up instructions helps attention.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -195,6 +210,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Marked social isolation from feeling \"different\" from peers.",
         "Sudden academic underachievement in a student previously identified as able.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Giftedness does not rule out needs: twice-exceptionality (with autism, ADHD or dyslexia) is precisely the coexistence of the two. A student can compensate for years and \"look like\" neither — average marks with exceptional reasoning are a signal, not a contradiction.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -225,6 +243,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Signs of social isolation or bullying linked to being a foreign student.",
         "Stagnation in language acquisition after the first year.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Signs of trauma linked to the migration context (especially refugees).",
+      ]},
+      { items: [
+        "It is not a disorder, but the language barrier can hide — or mimic — dyslexia, ADHD or dyscalculia. If the difficulties persist in the home language too, or do not improve as the language of instruction progresses, an assessment is warranted rather than waiting longer.",
       ]},
     ]},
     etica: { sections: [
@@ -420,6 +441,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitación o rechazo de tareas con números hasta el punto de comprometer su trayectoria escolar.",
         "Discrepancia persistente entre el razonamiento general y el rendimiento matemático sin evaluación formal: derivar a evaluación psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Se superpone con frecuencia a la dislexia —los déficits fonológico y numérico coexisten— y al TDAH, donde la memoria de trabajo sobrecargada agrava el cálculo. Cuando la lectura y los números fallan a la vez, las adaptaciones deben cubrir ambos frentes, no elegir uno.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -450,6 +474,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Fracaso escolar persistente (suspensos reiterados) a pesar de las adaptaciones en el aula.",
         "Señales de exclusión social por parte de los compañeros.",
         "Señales de comorbilidad (ansiedad, depresión, trastorno negativista desafiante): frecuentes en el TDAH y que justifican la derivación.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "El TDAH rara vez viene solo: una parte sustancial de estos alumnos tiene además un trastorno del aprendizaje; la dislexia y la discalculia son las superposiciones más comunes, y la dispraxia es frecuente. En la práctica: cuando las adaptaciones de atención no bastan, buscar un patrón específico en la lectura o el cálculo antes de concluir que es «falta de esfuerzo».",
       ]},
     ]},
     dislexia: { sections: [
@@ -482,6 +509,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitación sistemática de tareas de lectura/escritura hasta el punto de comprometer otras asignaturas.",
         "Discrepancia marcada entre el desempeño oral y el escrito sin diagnóstico formal: derivar a una evaluación psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Coocurre con frecuencia con TDAH, discalculia y dispraxia: los trastornos del aprendizaje rara vez vienen aislados. Si las dificultades van claramente más allá de la lectura y la escritura (atención, cálculo, coordinación), ampliar la observación en lugar de atribuirlo todo a la dislexia.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -512,6 +542,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Crisis («meltdowns») frecuentes tras la jornada escolar.",
         "Rechazo escolar persistente asociado a sobrecarga sensorial.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Aislamiento social progresivo a pesar de los intentos de mediación.",
+      ]},
+      { items: [
+        "La combinación con las altas capacidades —la llamada doble excepcionalidad— es fácil de pasar por alto: la capacidad enmascara el apoyo necesario y las dificultades enmascaran la capacidad. El TDAH y la ansiedad también coocurren con frecuencia; un rendimiento muy irregular entre asignaturas merece una segunda mirada.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -544,6 +577,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aislamiento social en contextos de actividad física.",
         "Signos de ansiedad somatizada antes de las evaluaciones escritas; el sufrimiento psicosocial forma parte del cuadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Se superpone con frecuencia al TDAH y a la dislexia; la escritura lenta y desorganizada puede enmascarar cualquiera de los dos, o quedar enmascarada por ellos. Distinguir lo motor de lo atencional cambia las adaptaciones: el teclado y el tiempo extra ayudan a lo motor; fragmentar las instrucciones ayuda a la atención.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -575,6 +611,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aislamiento social marcado por sentirse «diferente» de sus iguales.",
         "Bajo rendimiento académico repentino en un alumno previamente identificado como capaz.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Las altas capacidades no excluyen necesidades: la doble excepcionalidad (con autismo, TDAH o dislexia) es precisamente la coexistencia de ambas. El alumno puede compensar durante años y «no parecer» ni una cosa ni la otra: notas medias con un razonamiento excepcional son una señal, no una contradicción.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -605,6 +644,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Señales de aislamiento social o acoso escolar asociadas a la condición de alumno extranjero.",
         "Estancamiento en la adquisición lingüística tras el primer año.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Señales de trauma asociadas al contexto migratorio (especialmente en personas refugiadas).",
+      ]},
+      { items: [
+        "No es un trastorno, pero la barrera lingüística puede ocultar —o imitar— dislexia, TDAH o discalculia. Si las dificultades persisten también en la lengua materna, o no mejoran con el progreso en la lengua de instrucción, se justifica una evaluación en lugar de seguir esperando.",
       ]},
     ]},
     etica: { sections: [
@@ -800,6 +842,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Évitement ou refus des tâches avec des nombres au point de compromettre le parcours scolaire.",
         "Écart persistant entre le raisonnement général et les résultats en mathématiques sans évaluation formelle — orienter vers un bilan psychopédagogique.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Se recoupe souvent avec la dyslexie — les déficits phonologique et numérique coexistent — et avec le TDAH, où la mémoire de travail surchargée aggrave le calcul. Quand la lecture et les nombres échouent ensemble, les adaptations doivent couvrir les deux fronts, pas en choisir un.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -830,6 +875,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Échec scolaire persistant malgré les aménagements en classe.",
         "Signes d'exclusion sociale par les pairs.",
         "Signes de comorbidité (anxiété, dépression, trouble oppositionnel) : fréquents dans le TDAH et qui justifient une orientation.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Le TDAH vient rarement seul : une part importante de ces élèves présente aussi un trouble des apprentissages — la dyslexie et la dyscalculie sont les recoupements les plus fréquents, et la dyspraxie est courante. En pratique : quand les adaptations de l'attention ne suffisent pas, chercher un schéma spécifique en lecture ou en calcul avant de conclure à un « manque d'efforts ».",
       ]},
     ]},
     dislexia: { sections: [
@@ -862,6 +910,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Un évitement systématique des tâches de lecture/écriture au point de compromettre d'autres matières.",
         "Un écart marqué entre les performances orales et écrites sans diagnostic formel : orienter vers une évaluation psychopédagogique.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Coexiste souvent avec le TDAH, la dyscalculie et la dyspraxie — les troubles des apprentissages viennent rarement isolés. Si les difficultés dépassent clairement la lecture et l'écriture (attention, calcul, coordination), élargir l'observation plutôt que de tout attribuer à la dyslexie.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -892,6 +943,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Crises (« meltdowns ») fréquentes après la journée scolaire.",
         "Refus scolaire persistant associé à une surcharge sensorielle.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Isolement social progressif malgré les tentatives de médiation.",
+      ]},
+      { items: [
+        "La combinaison avec le haut potentiel — la « double exceptionnalité » — est facile à manquer : la capacité masque le besoin d'appui et les difficultés masquent la capacité. Le TDAH et l'anxiété coexistent aussi fréquemment ; des résultats très inégaux selon les matières méritent un second regard.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -924,6 +978,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Isolement social dans les contextes d'activité physique.",
         "Signes d'anxiété somatisée avant les évaluations écrites ; la souffrance psychosociale fait partie du tableau.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Se recoupe souvent avec le TDAH et la dyslexie ; une écriture lente et désorganisée peut masquer l'un ou l'autre — ou être masquée par eux. Distinguer le moteur de l'attentionnel change les adaptations : le clavier et le temps supplémentaire aident le versant moteur ; fractionner les consignes aide l'attention.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -955,6 +1012,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Isolement social marqué par le sentiment d'être « différent » de ses pairs.",
         "Chute soudaine du rendement scolaire chez un élève auparavant identifié comme capable.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Le haut potentiel n'exclut pas les besoins : la double exceptionnalité (avec autisme, TDAH ou dyslexie) est précisément la coexistence des deux. L'élève peut compenser pendant des années et ne « ressembler » ni à l'un ni à l'autre — des notes moyennes avec un raisonnement exceptionnel sont un signal, pas une contradiction.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -985,6 +1045,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Signes d'isolement social ou de harcèlement liés au statut d'élève étranger.",
         "Stagnation de l'acquisition de la langue après la première année.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Signes de traumatisme liés au contexte migratoire (en particulier chez les réfugiés).",
+      ]},
+      { items: [
+        "Ce n'est pas un trouble, mais la barrière de la langue peut cacher — ou imiter — une dyslexie, un TDAH ou une dyscalculie. Si les difficultés persistent aussi dans la langue maternelle, ou ne s'améliorent pas avec les progrès dans la langue d'enseignement, un bilan se justifie plutôt que d'attendre encore.",
       ]},
     ]},
     etica: { sections: [
@@ -1180,6 +1243,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitamento o rifiuto dei compiti con i numeri al punto da compromettere il percorso scolastico.",
         "Discrepanza persistente tra ragionamento generale e rendimento matematico senza una valutazione formale — inviare a valutazione psicopedagogica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Si sovrappone spesso alla dislessia — i deficit fonologico e numerico coesistono — e all'ADHD, in cui la memoria di lavoro sovraccarica peggiora il calcolo. Quando lettura e numeri falliscono insieme, gli adattamenti devono coprire entrambi i fronti, non sceglierne uno.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -1210,6 +1276,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Insuccesso scolastico persistente nonostante gli adattamenti in classe.",
         "Segnali di esclusione sociale da parte dei pari.",
         "Segnali di comorbilità (ansia, depressione, disturbo oppositivo provocatorio): frequenti nell'ADHD e tali da giustificare l'invio a uno specialista.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "L'ADHD raramente arriva da solo: una parte consistente di questi alunni ha anche un disturbo dell'apprendimento — dislessia e discalculia sono le sovrapposizioni più comuni, e la disprassia è frequente. In pratica: quando gli adattamenti per l'attenzione non bastano, cercare uno schema specifico nella lettura o nel calcolo prima di concludere che è \"mancanza di impegno\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -1242,6 +1311,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitamento sistematico dei compiti di lettura/scrittura al punto da compromettere altre materie.",
         "Discrepanza marcata tra il rendimento orale e quello scritto in assenza di una diagnosi formale: indirizzare a una valutazione psicopedagogica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Coesiste spesso con ADHD, discalculia e disprassia — i disturbi dell'apprendimento raramente arrivano isolati. Se le difficoltà vanno chiaramente oltre lettura e scrittura (attenzione, calcolo, coordinazione), ampliare l'osservazione invece di attribuire tutto alla dislessia.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -1272,6 +1344,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Crisi («meltdown») frequenti dopo la giornata scolastica.",
         "Rifiuto scolastico persistente associato a sovraccarico sensoriale.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Isolamento sociale progressivo nonostante i tentativi di mediazione.",
+      ]},
+      { items: [
+        "La combinazione con la plusdotazione — la cosiddetta doppia eccezionalità — è facile da mancare: la capacità maschera il bisogno di supporto e le difficoltà mascherano la capacità. Anche ADHD e ansia coesistono di frequente; un rendimento molto disuguale tra le materie merita un secondo sguardo.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -1304,6 +1379,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Isolamento sociale nei contesti di attività fisica.",
         "Segni di ansia somatizzata prima delle verifiche scritte; la sofferenza psicosociale fa parte del quadro.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Si sovrappone spesso a ADHD e dislessia; una scrittura lenta e disorganizzata può mascherare l'uno o l'altra — o esserne mascherata. Distinguere ciò che è motorio da ciò che è attentivo cambia gli adattamenti: tastiera e tempo extra aiutano il versante motorio; spezzare le consegne aiuta l'attenzione.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -1335,6 +1413,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Isolamento sociale segnato dal sentirsi «diverso» dai coetanei.",
         "Calo improvviso del rendimento scolastico in un alunno precedentemente identificato come capace.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "La plusdotazione non esclude i bisogni: la doppia eccezionalità (con autismo, ADHD o dislessia) è precisamente la coesistenza delle due. L'alunno può compensare per anni e non \"sembrare\" né l'una né l'altra cosa — voti nella media con un ragionamento eccezionale sono un segnale, non una contraddizione.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -1365,6 +1446,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Segnali di isolamento sociale o di bullismo legati alla condizione di alunno straniero.",
         "Stagnazione nell'acquisizione della lingua dopo il primo anno.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Segnali di trauma legati al contesto migratorio (in particolare nei rifugiati).",
+      ]},
+      { items: [
+        "Non è un disturbo, ma la barriera linguistica può nascondere — o imitare — dislessia, ADHD o discalculia. Se le difficoltà persistono anche nella lingua madre, o non migliorano con i progressi nella lingua di istruzione, è giustificata una valutazione invece di aspettare ancora.",
       ]},
     ]},
     etica: { sections: [
@@ -1561,6 +1645,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vermeidung oder Verweigerung von Aufgaben mit Zahlen, bis der Schulweg gefährdet ist.",
         "Anhaltende Diskrepanz zwischen allgemeinem Denkvermögen und Mathematikleistung ohne formale Diagnostik — zur psychopädagogischen Abklärung überweisen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Überlappt häufig mit der Legasthenie — das phonologische und das numerische Defizit bestehen nebeneinander — und mit ADHS, wo das überlastete Arbeitsgedächtnis das Rechnen zusätzlich erschwert. Wenn Lesen und Zahlen gemeinsam scheitern, müssen die Anpassungen beide Fronten abdecken, nicht eine auswählen.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -1591,6 +1678,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Anhaltende Verstöße gegen Regeln trotz Anpassungen im Klassenraum.",
         "Anzeichen sozialer Ausgrenzung durch Gleichaltrige.",
         "Anzeichen von Komorbidität (Angst, Depression, Störung mit oppositionellem Trotzverhalten) — bei ADHS häufig und ein Grund für eine Überweisung.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHS kommt selten allein: Ein erheblicher Teil dieser Schüler hat zusätzlich eine Lernstörung — Legasthenie und Dyskalkulie sind die häufigsten Überlappungen, Dyspraxie ist verbreitet. Praktisch heißt das: Wenn die Aufmerksamkeits-Anpassungen nicht reichen, nach einem spezifischen Muster beim Lesen oder Rechnen suchen, bevor man auf „mangelnden Einsatz\" schließt.",
       ]},
     ]},
     dislexia: { sections: [
@@ -1623,6 +1713,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematisches Vermeiden von Lese-/Schreibaufgaben bis zu dem Punkt, dass andere Fächer beeinträchtigt werden.",
         "Deutliche Diskrepanz zwischen mündlicher und schriftlicher Leistung ohne formale Diagnose — zur psychopädagogischen Abklärung überweisen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Tritt häufig zusammen mit ADHS, Dyskalkulie und Dyspraxie auf — Lernstörungen kommen selten isoliert. Gehen die Schwierigkeiten klar über Lesen und Schreiben hinaus (Aufmerksamkeit, Rechnen, Koordination), die Beobachtung erweitern, statt alles der Legasthenie zuzuschreiben.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -1653,6 +1746,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Häufige Krisen („Meltdowns“) nach dem Schultag.",
         "Anhaltende Schulverweigerung in Verbindung mit sensorischer Überlastung.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Fortschreitende soziale Isolation trotz Vermittlungsversuchen.",
+      ]},
+      { items: [
+        "Die Kombination mit Hochbegabung — die sogenannte doppelte Außergewöhnlichkeit — wird leicht übersehen: Die Begabung verdeckt den Unterstützungsbedarf, die Schwierigkeiten verdecken die Begabung. Auch ADHS und Angst treten häufig gemeinsam auf; stark ungleichmäßige Leistungen zwischen den Fächern verdienen einen zweiten Blick.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -1685,6 +1781,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Soziale Isolation in Kontexten körperlicher Aktivität.",
         "Anzeichen somatisierter Angst vor schriftlichen Prüfungen – das psychosoziale Leiden ist Teil des Krankheitsbildes.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Überlappt häufig mit ADHS und Legasthenie; langsames, unordentliches Schreiben kann beides verdecken — oder von ihnen verdeckt werden. Motorisches von Aufmerksamkeitsbedingtem zu trennen verändert die Anpassungen: Tastatur und Zusatzzeit helfen der Motorik; zerlegte Arbeitsaufträge helfen der Aufmerksamkeit.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -1716,6 +1815,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ausgeprägte soziale Isolation, geprägt vom Gefühl, „anders“ als die Gleichaltrigen zu sein.",
         "Plötzliches schulisches Underachievement bei einem zuvor als begabt erkannten Kind.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Hochbegabung schließt Bedarfe nicht aus: Doppelte Außergewöhnlichkeit (mit Autismus, ADHS oder Legasthenie) ist genau das Nebeneinander von beidem. Ein Schüler kann jahrelang kompensieren und nach keinem von beiden „aussehen\" — durchschnittliche Noten bei außergewöhnlichem Denken sind ein Signal, kein Widerspruch.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -1746,6 +1848,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Anzeichen sozialer Isolation oder von Mobbing, die mit der Zuwanderungsgeschichte des Kindes zusammenhängen.",
         "Stillstand beim Spracherwerb nach dem ersten Jahr.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Anzeichen eines Traumas im Zusammenhang mit dem Migrationskontext (insbesondere bei Geflüchteten).",
+      ]},
+      { items: [
+        "Keine Störung — aber die Sprachbarriere kann Legasthenie, ADHS oder Dyskalkulie verbergen oder nachahmen. Bestehen die Schwierigkeiten auch in der Familiensprache oder bessern sie sich trotz Fortschritten in der Unterrichtssprache nicht, ist eine Abklärung angezeigt, statt weiter zu warten.",
       ]},
     ]},
     etica: { sections: [
@@ -1938,6 +2043,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vermijden of weigeren van taken met getallen, zozeer dat de schoolloopbaan in gevaar komt.",
         "Aanhoudend verschil tussen algemeen redeneren en rekenprestaties zonder formele diagnose — doorverwijzen voor psychopedagogisch onderzoek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Overlapt vaak met dyslexie — het fonologische en het numerieke tekort bestaan naast elkaar — en met ADHD, waar een overbelast werkgeheugen het rekenen verergert. Als lezen en getallen samen falen, moeten de aanpassingen beide fronten dekken, niet één kiezen.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -1968,6 +2076,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aanhoudend overtreden van regels ondanks aanpassingen in de klas.",
         "Tekenen van sociale uitsluiting door leeftijdsgenoten.",
         "Tekenen van comorbiditeit (angst, depressie, oppositioneel-opstandige gedragsstoornis) — vaak bij ADHD en een reden voor doorverwijzing.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD komt zelden alleen: een aanzienlijk deel van deze leerlingen heeft ook een leerstoornis — dyslexie en dyscalculie zijn de meest voorkomende overlappingen, en dyspraxie komt vaak voor. In de praktijk: als aandachtsaanpassingen niet volstaan, zoek dan een specifiek patroon in lezen of rekenen voordat je besluit dat het \"te weinig inzet\" is.",
       ]},
     ]},
     dislexia: { sections: [
@@ -2000,6 +2111,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematisch vermijden van lees-/schrijftaken tot het punt dat andere vakken eronder lijden.",
         "Duidelijke discrepantie tussen mondelinge en schriftelijke prestaties zonder formele diagnose — doorverwijzen voor psychopedagogisch onderzoek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Komt vaak samen voor met ADHD, dyscalculie en dyspraxie — leerstoornissen komen zelden geïsoleerd. Gaan de moeilijkheden duidelijk verder dan lezen en schrijven (aandacht, rekenen, coördinatie), verbreed dan de observatie in plaats van alles aan dyslexie toe te schrijven.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -2030,6 +2144,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Frequente crises („meltdowns“) na de schooldag.",
         "Aanhoudende schoolweigering in verband met sensorische overbelasting.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Voortschrijdend sociaal isolement ondanks pogingen tot bemiddeling.",
+      ]},
+      { items: [
+        "De combinatie met hoogbegaafdheid — de zogeheten dubbele bijzonderheid — wordt makkelijk gemist: het vermogen maskeert de nodige ondersteuning en de moeilijkheden maskeren het vermogen. ADHD en angst komen ook vaak samen voor; sterk wisselende prestaties tussen vakken verdienen een tweede blik.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -2062,6 +2179,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sociaal isolement in contexten van lichamelijke activiteit.",
         "Tekenen van gesomatiseerde angst vóór schriftelijke toetsen – het psychosociale lijden maakt deel uit van het beeld.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Overlapt vaak met ADHD en dyslexie; traag, rommelig handschrift kan beide maskeren — of erdoor gemaskeerd worden. Het motorische van het aandachtsmatige scheiden verandert de aanpassingen: toetsenbord en extra tijd helpen het motorische; instructies opdelen helpt de aandacht.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -2093,6 +2213,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Uitgesproken sociaal isolement, gekenmerkt door het gevoel „anders“ te zijn dan leeftijdsgenoten.",
         "Plotseling academisch onderpresteren bij een leerling die eerder als begaafd was geïdentificeerd.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Hoogbegaafdheid sluit behoeften niet uit: dubbele bijzonderheid (met autisme, ADHD of dyslexie) is precies het samengaan van beide. Een leerling kan jaren compenseren en op geen van beide \"lijken\" — gemiddelde cijfers met uitzonderlijk redeneren zijn een signaal, geen tegenspraak.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -2123,6 +2246,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tekenen van sociaal isolement of pesten die samenhangen met de status van buitenlandse leerling.",
         "Stagnatie in de taalverwerving na het eerste jaar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tekenen van trauma die samenhangen met de migratiecontext (in het bijzonder bij vluchtelingen).",
+      ]},
+      { items: [
+        "Het is geen stoornis, maar de taalbarrière kan dyslexie, ADHD of dyscalculie verbergen — of nabootsen. Blijven de moeilijkheden ook in de thuistaal bestaan, of verbeteren ze niet terwijl de instructietaal vooruitgaat, dan is onderzoek gerechtvaardigd in plaats van langer afwachten.",
       ]},
     ]},
     etica: { sections: [
@@ -2314,6 +2440,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Unikanie lub odmowa zadań z liczbami w stopniu zagrażającym dalszej nauce.",
         "Utrzymująca się rozbieżność między ogólnym rozumowaniem a wynikami z matematyki bez formalnej diagnozy — skierować na ocenę psychopedagogiczną.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Często nakłada się na dysleksję — deficyt fonologiczny i numeryczny współistnieją — oraz na ADHD, gdzie przeciążona pamięć robocza pogarsza liczenie. Gdy czytanie i liczby zawodzą razem, dostosowania muszą objąć oba fronty, a nie wybierać jeden.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -2344,6 +2473,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Utrzymujące się trudności z dyscypliną mimo dostosowań w klasie.",
         "Oznaki wykluczenia społecznego przez rówieśników.",
         "Oznaki współwystępujących zaburzeń (lęk, depresja, zaburzenie opozycyjno-buntownicze) — częste w ADHD i uzasadniające skierowanie.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD rzadko występuje samo: znaczna część tych uczniów ma także zaburzenie uczenia się — dysleksja i dyskalkulia to najczęstsze nakładania, a dyspraksja jest częsta. W praktyce: gdy dostosowania dotyczące uwagi nie wystarczają, szukać specyficznego wzorca w czytaniu lub liczeniu, zanim uzna się to za „brak wysiłku\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -2376,6 +2508,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematyczne unikanie zadań związanych z czytaniem/pisaniem do tego stopnia, że odbija się to na innych przedmiotach.",
         "Wyraźna rozbieżność między wynikami ustnymi a pisemnymi bez formalnej diagnozy — skierować na ocenę psychopedagogiczną.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Często współwystępuje z ADHD, dyskalkulią i dyspraksją — zaburzenia uczenia się rzadko występują pojedynczo. Jeśli trudności wyraźnie wykraczają poza czytanie i pisanie (uwaga, liczenie, koordynacja), poszerzyć obserwację, zamiast przypisywać wszystko dysleksji.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -2406,6 +2541,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Częste kryzysy („meltdowny”) po dniu szkolnym.",
         "Uporczywa odmowa chodzenia do szkoły związana z przeciążeniem sensorycznym.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Postępująca izolacja społeczna mimo prób mediacji.",
+      ]},
+      { items: [
+        "Połączenie ze szczególnymi uzdolnieniami — tzw. podwójną wyjątkowością — łatwo przeoczyć: zdolności maskują potrzebne wsparcie, a trudności maskują zdolności. ADHD i lęk także często współwystępują; bardzo nierówne wyniki między przedmiotami zasługują na drugie spojrzenie.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -2438,6 +2576,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izolacja społeczna w kontekstach aktywności fizycznej.",
         "Objawy somatyzowanego lęku przed sprawdzianami pisemnymi — cierpienie psychospołeczne jest częścią obrazu klinicznego.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Często nakłada się na ADHD i dysleksję; wolne, nieuporządkowane pismo może maskować każde z nich — lub być przez nie maskowane. Odróżnienie tego, co motoryczne, od tego, co uwagowe, zmienia dostosowania: klawiatura i dodatkowy czas pomagają stronie motorycznej; dzielenie poleceń pomaga uwadze.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -2469,6 +2610,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Wyraźna izolacja społeczna wynikająca z poczucia bycia „innym” niż rówieśnicy.",
         "Nagłe pogorszenie wyników w nauce u ucznia wcześniej zidentyfikowanego jako zdolny.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Uzdolnienia nie wykluczają potrzeb: podwójna wyjątkowość (z autyzmem, ADHD lub dysleksją) to właśnie współistnienie obu. Uczeń może latami kompensować i „nie wyglądać\" ani na jedno, ani na drugie — przeciętne oceny przy wyjątkowym rozumowaniu to sygnał, nie sprzeczność.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -2499,6 +2643,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Oznaki izolacji społecznej lub nękania związane z byciem uczniem cudzoziemskim.",
         "Zastój w przyswajaniu języka po pierwszym roku.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oznaki traumy związanej z kontekstem migracyjnym (zwłaszcza u uchodźców).",
+      ]},
+      { items: [
+        "To nie zaburzenie, ale bariera językowa może ukrywać — lub naśladować — dysleksję, ADHD czy dyskalkulię. Jeśli trudności utrzymują się także w języku ojczystym albo nie ustępują mimo postępów w języku nauczania, uzasadniona jest diagnoza zamiast dalszego czekania.",
       ]},
     ]},
     etica: { sections: [
@@ -2690,6 +2837,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitarea sau refuzul sarcinilor cu numere până la a compromite parcursul școlar.",
         "Discrepanță persistentă între raționamentul general și performanța matematică fără evaluare formală — îndrumați către evaluare psihopedagogică.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Se suprapune frecvent cu dislexia — deficitul fonologic și cel numeric coexistă — și cu ADHD-ul, unde memoria de lucru supraîncărcată agravează calculul. Când cititul și numerele cedează împreună, adaptările trebuie să acopere ambele fronturi, nu să aleagă unul.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -2720,6 +2870,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Eșec școlar persistent (corigențe repetate) în pofida adaptărilor din clasă.",
         "Semne de excludere socială din partea colegilor.",
         "Semne de comorbiditate (anxietate, depresie, tulburare opozițională): frecvente în ADHD și care justifică trimiterea spre evaluare.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD-ul vine rareori singur: o parte substanțială dintre acești elevi are și o tulburare de învățare — dislexia și discalculia sunt suprapunerile cele mai frecvente, iar dispraxia e des întâlnită. Practic: când adaptările pentru atenție nu ajung, căutați un tipar specific la citit sau la calcul înainte de a conchide că e „lipsă de efort\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -2752,6 +2905,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitare sistematică a sarcinilor de citire/scriere până la punctul de a compromite alte discipline.",
         "Discrepanță marcată între performanța orală și cea scrisă fără un diagnostic formal: îndrumare către o evaluare psihopedagogică.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Apare frecvent împreună cu ADHD, discalculie și dispraxie — tulburările de învățare vin rareori izolat. Dacă dificultățile depășesc clar cititul și scrisul (atenție, calcul, coordonare), lărgiți observația în loc să atribuiți totul dislexiei.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -2782,6 +2938,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Crize („meltdown-uri”) frecvente după ziua de școală.",
         "Refuz școlar persistent asociat cu suprasolicitare senzorială.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Izolare socială progresivă în ciuda încercărilor de mediere.",
+      ]},
+      { items: [
+        "Combinația cu supradotarea — așa-numita dublă excepționalitate — e ușor de ratat: capacitatea maschează sprijinul necesar, iar dificultățile maschează capacitatea. ADHD-ul și anxietatea apar și ele frecvent împreună; performanțele foarte inegale între materii merită o a doua privire.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -2814,6 +2973,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izolare socială în contextele de activitate fizică.",
         "Semne de anxietate somatizată înaintea evaluărilor scrise; suferința psihosocială face parte din tablou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Se suprapune frecvent cu ADHD și dislexia; scrisul lent și dezordonat poate masca oricare dintre ele — sau poate fi mascat de ele. A distinge ce e motric de ce ține de atenție schimbă adaptările: tastatura și timpul suplimentar ajută partea motrică; fragmentarea instrucțiunilor ajută atenția.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -2845,6 +3007,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izolare socială marcată de sentimentul de a fi „diferit” de colegi.",
         "Scădere bruscă a performanței școlare la un elev identificat anterior ca fiind capabil.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Supradotarea nu exclude nevoile: dubla excepționalitate (cu autism, ADHD sau dislexie) este tocmai coexistența celor două. Elevul poate compensa ani întregi și „nu pare\" nici una, nici alta — note medii cu raționament excepțional sunt un semnal, nu o contradicție.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -2875,6 +3040,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Semne de izolare socială sau de hărțuire (bullying) asociate statutului de elev străin.",
         "Stagnare în achiziția lingvistică după primul an.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Semne de traumă asociate contextului migrației (în special la refugiați).",
+      ]},
+      { items: [
+        "Nu e o tulburare, dar bariera lingvistică poate ascunde — sau imita — dislexia, ADHD-ul ori discalculia. Dacă dificultățile persistă și în limba maternă, sau nu se ameliorează odată cu progresul în limba de predare, se justifică o evaluare în loc de a mai aștepta.",
       ]},
     ]},
     etica: { sections: [
@@ -3071,6 +3239,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izbjegavanje ili odbijanje zadataka s brojevima do te mjere da ugrožava školovanje.",
         "Trajni raskorak između općeg rasuđivanja i matematičkog uspjeha bez formalne procjene — uputiti na psihopedagošku procjenu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Često se preklapa s disleksijom — fonološki i numerički deficiti supostoje — i s ADHD-om, gdje preopterećeno radno pamćenje pogoršava računanje. Kad čitanje i brojevi zakazuju zajedno, prilagodbe moraju pokriti oba fronta, a ne birati jedan.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -3101,6 +3272,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ustrajne disciplinske poteškoće unatoč prilagodbama u razredu.",
         "Znakovi socijalne isključenosti od strane vršnjaka.",
         "Znakovi komorbiditeta (anksioznost, depresija, poremećaj s prkošenjem i suprotstavljanjem) — česti kod ADHD-a i opravdavaju upućivanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD rijetko dolazi sam: znatan dio tih učenika ima i poremećaj učenja — disleksija i diskalkulija najčešća su preklapanja, a dispraksija je česta. U praksi: kad prilagodbe za pažnju nisu dovoljne, potražiti specifičan obrazac u čitanju ili računanju prije zaključka da je riječ o \"manjku truda\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -3133,6 +3307,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sustavno izbjegavanje zadataka čitanja/pisanja do mjere da ugrožava druge predmete.",
         "Izražen nesklad između usmenog i pisanog uratka bez formalne dijagnoze — uputiti na psihopedagošku procjenu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Često se javlja zajedno s ADHD-om, diskalkulijom i dispraksijom — poremećaji učenja rijetko dolaze izolirano. Ako teškoće jasno nadilaze čitanje i pisanje (pažnja, računanje, koordinacija), proširiti promatranje umjesto da se sve pripiše disleksiji.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -3163,6 +3340,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Česte krize („meltdowni”) nakon školskog dana.",
         "Ustrajno odbijanje škole povezano sa senzornim preopterećenjem.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Napredujuća socijalna izolacija unatoč pokušajima medijacije.",
+      ]},
+      { items: [
+        "Kombinaciju s darovitošću — takozvanu dvostruku iznimnost — lako je previdjeti: sposobnost prikriva potrebnu podršku, a teškoće prikrivaju sposobnost. ADHD i anksioznost također se često javljaju zajedno; vrlo neujednačen uspjeh po predmetima zaslužuje drugi pogled.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -3195,6 +3375,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Socijalna izolacija u kontekstima tjelesne aktivnosti.",
         "Znakovi somatizirane tjeskobe prije pisanih provjera — psihosocijalna patnja dio je kliničke slike.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Često se preklapa s ADHD-om i disleksijom; sporo i neuredno pisanje može prikriti bilo koje od njih — ili njima biti prikriveno. Razlikovanje motoričkog od pažnje mijenja prilagodbe: tipkovnica i dodatno vrijeme pomažu motorici; usitnjavanje uputa pomaže pažnji.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -3226,6 +3409,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izražena društvena izolacija zbog osjećaja da je „drukčiji” od vršnjaka.",
         "Nagli pad školskog uspjeha kod učenika koji je prije bio prepoznat kao sposoban.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Darovitost ne isključuje potrebe: dvostruka iznimnost (s autizmom, ADHD-om ili disleksijom) upravo je supostojanje obojega. Učenik može godinama kompenzirati i \"ne izgledati\" ni kao jedno ni kao drugo — prosječne ocjene uz iznimno rasuđivanje znak su, a ne proturječje.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -3256,6 +3442,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Znakovi socijalne izolacije ili vršnjačkog nasilja povezani sa statusom učenika stranca.",
         "Stagnacija u usvajanju jezika nakon prve godine.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Znakovi traume povezane s migracijskim kontekstom (osobito kod izbjeglica).",
+      ]},
+      { items: [
+        "Nije poremećaj, ali jezična barijera može sakriti — ili oponašati — disleksiju, ADHD ili diskalkuliju. Ako teškoće postoje i na materinskom jeziku, ili se ne popravljaju s napretkom u jeziku poučavanja, opravdana je procjena umjesto daljnjeg čekanja.",
       ]},
     ]},
     etica: { sections: [
@@ -3449,6 +3638,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vyhýbání se úlohám s čísly nebo jejich odmítání do té míry, že ohrožuje školní dráhu.",
         "Přetrvávající rozpor mezi obecným uvažováním a matematickým výkonem bez formálního vyšetření — doporučit psychopedagogické posouzení.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Často se překrývá s dyslexií — fonologický a numerický deficit koexistují — a s ADHD, kde přetížená pracovní paměť počítání dále zhoršuje. Když selhává čtení i čísla zároveň, úpravy musejí pokrýt obě fronty, ne si vybrat jednu.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -3479,6 +3671,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Přetrvávající kázeňské problémy navzdory úpravám ve třídě.",
         "Známky sociálního vyloučení ze strany vrstevníků.",
         "Známky komorbidity (úzkost, deprese, opoziční vzdorovité chování) — u ADHD časté a odůvodňující odeslání k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD zřídka přichází samo: podstatná část těchto žáků má i poruchu učení — dyslexie a dyskalkulie jsou nejčastější překryvy, dyspraxie je běžná. V praxi: když úpravy pro pozornost nestačí, hledat specifický vzorec ve čtení nebo počítání, než usoudíme, že jde o „málo snahy\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -3511,6 +3706,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematické vyhýbání se úkolům na čtení/psaní do té míry, že to ohrožuje další předměty.",
         "Výrazný nesoulad mezi ústním a písemným výkonem bez formální diagnózy — doporučit vyšetření v pedagogicko-psychologické poradně (PPP).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Často se vyskytuje spolu s ADHD, dyskalkulií a dyspraxií — poruchy učení zřídka přicházejí izolovaně. Pokud obtíže zjevně přesahují čtení a psaní (pozornost, počítání, koordinace), rozšířit pozorování, místo aby se vše přičítalo dyslexii.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -3541,6 +3739,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Časté krize („meltdowny“) po školním dni.",
         "Trvalé odmítání školy spojené se smyslovým přetížením.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Postupující sociální izolace navzdory pokusům o mediaci.",
+      ]},
+      { items: [
+        "Kombinaci s nadáním — takzvanou dvojí výjimečnost — lze snadno přehlédnout: schopnosti maskují potřebnou podporu a obtíže maskují schopnosti. ADHD a úzkost se také často vyskytují společně; velmi nevyrovnané výsledky mezi předměty si zaslouží druhý pohled.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -3573,6 +3774,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sociální izolace v kontextech fyzické aktivity.",
         "Známky somatizované úzkosti před písemnými testy — psychosociální utrpení je součástí klinického obrazu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Často se překrývá s ADHD a dyslexií; pomalé, neuspořádané písmo může obojí maskovat — nebo jimi být maskováno. Odlišit motorické od pozornostního mění úpravy: klávesnice a čas navíc pomáhají motorice; členění pokynů pomáhá pozornosti.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -3604,6 +3808,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Výrazná sociální izolace daná pocitem, že je „jiný“ než vrstevníci.",
         "Náhlý pokles školního výkonu u žáka dříve identifikovaného jako schopný.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Nadání nevylučuje potřeby: dvojí výjimečnost (s autismem, ADHD nebo dyslexií) je právě soužití obojího. Žák může léta kompenzovat a „nevypadat\" ani na jedno — průměrné známky při výjimečném uvažování jsou signál, ne rozpor.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -3634,6 +3841,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Známky sociální izolace nebo šikany spojené s postavením zahraničního žáka.",
         "Stagnace v osvojování jazyka po prvním roce.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Známky traumatu spojeného s migračním kontextem (zejména u uprchlíků).",
+      ]},
+      { items: [
+        "Není to porucha, ale jazyková bariéra může skrývat — nebo napodobovat — dyslexii, ADHD či dyskalkulii. Pokud obtíže přetrvávají i v mateřském jazyce, nebo se nelepší s pokroky ve vyučovacím jazyce, je namístě vyšetření, ne další čekání.",
       ]},
     ]},
     etica: { sections: [
@@ -3826,6 +4036,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Undvikande eller vägran inför uppgifter med tal, så till den grad att skolgången äventyras.",
         "Ihållande skillnad mellan allmänt resonemang och matematikprestation utan formell utredning — hänvisa till psykopedagogisk bedömning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Överlappar ofta med dyslexi — den fonologiska och den numeriska bristen samexisterar — och med ADHD, där ett överbelastat arbetsminne försvårar räknandet ytterligare. När läsning och siffror sviktar samtidigt måste anpassningarna täcka båda fronterna, inte välja en.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -3856,6 +4069,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ihållande regelbrott trots anpassningar i klassrummet.",
         "Tecken på utfrysning från jämnåriga.",
         "Tecken på samsjuklighet (ångest, depression, trotssyndrom) — vanliga vid ADHD och som motiverar remiss.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD kommer sällan ensamt: en betydande andel av dessa elever har också en inlärningssvårighet — dyslexi och dyskalkyli är de vanligaste överlappningarna, och dyspraxi är vanligt. I praktiken: när anpassningarna för uppmärksamhet inte räcker, leta efter ett specifikt mönster i läsning eller räkning innan slutsatsen blir \"bristande ansträngning\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -3888,6 +4104,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematiskt undvikande av läs-/skrivuppgifter i en sådan grad att andra ämnen påverkas.",
         "Markant skillnad mellan muntlig och skriftlig prestation utan formell diagnos — remittera för läs- och skrivutredning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Förekommer ofta tillsammans med ADHD, dyskalkyli och dyspraxi — inlärningssvårigheter kommer sällan isolerade. Om svårigheterna tydligt går utöver läsning och skrivning (uppmärksamhet, räkning, koordination), vidga observationen i stället för att tillskriva allt dyslexin.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -3918,6 +4137,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Återkommande kriser (”meltdowns”) efter skoldagen.",
         "Ihållande skolvägran kopplad till sensorisk överbelastning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Tilltagande social isolering trots försök till medling.",
+      ]},
+      { items: [
+        "Kombinationen med särbegåvning — så kallad dubbel exceptionalitet — är lätt att missa: förmågan maskerar stödbehovet och svårigheterna maskerar förmågan. ADHD och ångest förekommer också ofta samtidigt; mycket ojämna resultat mellan ämnen förtjänar en andra titt.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -3950,6 +4172,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Social isolering i sammanhang med fysisk aktivitet.",
         "Tecken på somatiserad ångest före skriftliga prov – det psykosociala lidandet är en del av bilden.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Överlappar ofta med ADHD och dyslexi; långsam, oordnad handstil kan maskera båda — eller maskeras av dem. Att skilja det motoriska från det uppmärksamhetsmässiga ändrar anpassningarna: tangentbord och extra tid hjälper motoriken; uppdelade instruktioner hjälper uppmärksamheten.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -3981,6 +4206,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Uttalad social isolering präglad av att känna sig ”annorlunda” än jämnåriga.",
         "Plötslig akademisk underprestation hos en elev som tidigare identifierats som begåvad.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Särbegåvning utesluter inte behov: dubbel exceptionalitet (med autism, ADHD eller dyslexi) är just de bådas samexistens. En elev kan kompensera i åratal och \"se ut som\" ingetdera — medelbetyg med exceptionellt resonemang är en signal, inte en motsägelse.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -4011,6 +4239,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tecken på social isolering eller mobbning kopplade till situationen som utländsk elev.",
         "Stagnation i språkinlärningen efter det första året.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tecken på trauma kopplade till migrationskontexten (särskilt flyktingar).",
+      ]},
+      { items: [
+        "Det är ingen funktionsnedsättning, men språkbarriären kan dölja — eller efterlikna — dyslexi, ADHD eller dyskalkyli. Om svårigheterna kvarstår även på modersmålet, eller inte förbättras i takt med undervisningsspråket, är en utredning motiverad i stället för att vänta längre.",
       ]},
     ]},
     etica: { sections: [
@@ -4203,6 +4434,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Undgåelse eller afvisning af opgaver med tal i en grad, der truer skolegangen.",
         "Vedvarende forskel mellem almindeligt ræsonnement og matematikpræstation uden formel udredning — henvis til psykopædagogisk vurdering.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Overlapper ofte med ordblindhed — det fonologiske og det numeriske underskud sameksisterer — og med ADHD, hvor en overbelastet arbejdshukommelse gør regning endnu sværere. Når læsning og tal svigter sammen, skal tilpasningerne dække begge fronter, ikke vælge én.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -4233,6 +4467,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vedvarende regelbrud trods tilpasninger i klassen.",
         "Tegn på social udelukkelse fra jævnaldrende.",
         "Tegn på komorbiditet (angst, depression, oppositionel adfærdsforstyrrelse) — de er hyppige ved ADHD og begrunder henvisning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD kommer sjældent alene: en betydelig del af disse elever har også en indlæringsvanskelighed — ordblindhed og dyskalkuli er de hyppigste overlap, og dyspraksi er almindeligt. I praksis: når tilpasningerne for opmærksomhed ikke rækker, så led efter et specifikt mønster i læsning eller regning, før konklusionen bliver \"manglende indsats\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -4265,6 +4502,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematisk undgåelse af læse-/skriveopgaver i en sådan grad, at andre fag påvirkes.",
         "Markant uoverensstemmelse mellem mundtlig og skriftlig præstation uden formel diagnose — henvis til pædagogisk-psykologisk udredning (PPR).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Optræder ofte sammen med ADHD, dyskalkuli og dyspraksi — indlæringsvanskeligheder kommer sjældent isoleret. Hvis vanskelighederne klart rækker ud over læsning og skrivning (opmærksomhed, regning, koordination), så udvid observationen i stedet for at tilskrive alt ordblindheden.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -4295,6 +4535,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Hyppige kriser (»meltdowns«) efter skoledagen.",
         "Vedvarende skolevægring forbundet med sensorisk overbelastning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Tiltagende social isolation trods forsøg på mægling.",
+      ]},
+      { items: [
+        "Kombinationen med høj begavelse — den såkaldte dobbelte exceptionalitet — er let at overse: evnerne maskerer støttebehovet, og vanskelighederne maskerer evnerne. ADHD og angst optræder også ofte sammen; meget ujævne præstationer på tværs af fag fortjener et ekstra blik.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -4327,6 +4570,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Social isolation i sammenhænge med fysisk aktivitet.",
         "Tegn på somatiseret angst før skriftlige prøver – den psykosociale lidelse er en del af billedet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Overlapper ofte med ADHD og ordblindhed; langsom, rodet håndskrift kan maskere begge — eller maskeres af dem. At skille det motoriske fra det opmærksomhedsmæssige ændrer tilpasningerne: tastatur og ekstra tid hjælper motorikken; opdelte instruktioner hjælper opmærksomheden.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -4358,6 +4604,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Udtalt social isolation præget af at føle sig „anderledes“ end jævnaldrende.",
         "Pludselig faglig underpræstation hos en elev, der tidligere er identificeret som begavet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Høj begavelse udelukker ikke behov: dobbelt exceptionalitet (med autisme, ADHD eller ordblindhed) er netop sameksistensen af begge. Eleven kan kompensere i årevis og \"ligne\" ingen af delene — middelkarakterer med exceptionelt ræsonnement er et signal, ikke en modsigelse.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -4388,6 +4637,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tegn på social isolation eller mobning forbundet med situationen som udenlandsk elev.",
         "Stagnation i sprogtilegnelsen efter det første år.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Tegn på traume forbundet med migrationskonteksten (især flygtninge).",
+      ]},
+      { items: [
+        "Det er ikke en forstyrrelse, men sprogbarrieren kan skjule — eller efterligne — ordblindhed, ADHD eller dyskalkuli. Hvis vanskelighederne også findes på modersmålet eller ikke bedres i takt med undervisningssproget, er en udredning berettiget frem for at vente længere.",
       ]},
     ]},
     etica: { sections: [
@@ -4580,6 +4832,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Numeroita sisältävien tehtävien välttely tai niistä kieltäytyminen niin, että koulupolku vaarantuu.",
         "Pysyvä ristiriita yleisen päättelyn ja matematiikan suoriutumisen välillä ilman virallista arviota — ohjaa psykopedagogiseen arviointiin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Menee usein päällekkäin lukivaikeuden kanssa — fonologinen ja numeerinen vaje esiintyvät rinnakkain — sekä ADHD:n kanssa, jossa ylikuormittunut työmuisti vaikeuttaa laskemista entisestään. Kun lukeminen ja numerot pettävät yhdessä, tukitoimien on katettava molemmat rintamat, ei valittava toista.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -4610,6 +4865,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Jatkuvat kurinpitorikkomukset luokassa tehdyistä mukautuksista huolimatta.",
         "Vertaisten taholta tulevan sosiaalisen syrjäytymisen merkit.",
         "Liitännäissairauksien merkit (ahdistus, masennus, uhmakkuushäiriö) — yleisiä ADHD:ssä ja perustelevat lähetteen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD tulee harvoin yksin: huomattavalla osalla näistä oppilaista on myös oppimisvaikeus — lukivaikeus ja laskemiskyvyn häiriö ovat yleisimmät päällekkäisyydet, ja motorisen oppimisen vaikeus on tavallinen. Käytännössä: kun tarkkaavaisuuden tuet eivät riitä, etsi erityistä kaavaa lukemisesta tai laskemisesta ennen kuin päättelet, että kyse on \"yrittämisen puutteesta\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -4642,6 +4900,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Luku-/kirjoitustehtävien järjestelmällinen välttely siinä määrin, että se haittaa muita oppiaineita.",
         "Selvä ristiriita suullisen ja kirjallisen suoriutumisen välillä ilman virallista diagnoosia — ohjaa psykopedagogiseen arviointiin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Esiintyy usein yhdessä ADHD:n, laskemiskyvyn häiriön ja motorisen oppimisen vaikeuden kanssa — oppimisvaikeudet tulevat harvoin yksinään. Jos vaikeudet ulottuvat selvästi lukemista ja kirjoittamista laajemmalle (tarkkaavaisuus, laskeminen, koordinaatio), laajenna havainnointia sen sijaan, että kaikki pantaisiin lukivaikeuden piikkiin.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -4672,6 +4933,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Toistuvat raivokohtaukset („meltdown“) koulupäivän jälkeen.",
         "Jatkuva koulusta kieltäytyminen, joka liittyy aistikuormitukseen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Etenevä sosiaalinen eristäytyminen välitysyrityksistä huolimatta.",
+      ]},
+      { items: [
+        "Yhdistelmä erityislahjakkuuden kanssa — niin sanottu kaksois-poikkeuksellisuus — jää helposti huomaamatta: kyvyt peittävät tuen tarpeen ja vaikeudet peittävät kyvyt. Myös ADHD ja ahdistuneisuus esiintyvät usein samanaikaisesti; hyvin epätasainen suoriutuminen eri aineissa ansaitsee toisen katseen.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -4704,6 +4968,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sosiaalinen eristäytyminen liikunnallisissa tilanteissa.",
         "Somatisoituneen ahdistuksen merkit ennen kirjallisia arviointeja – psykososiaalinen kärsimys on osa kokonaiskuvaa.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Menee usein päällekkäin ADHD:n ja lukivaikeuden kanssa; hidas, sekava käsiala voi peittää kumman tahansa — tai peittyä niiden alle. Motorisen erottaminen tarkkaavaisuudesta muuttaa tukitoimia: näppäimistö ja lisäaika auttavat motoriikkaa; ohjeiden pilkkominen auttaa tarkkaavaisuutta.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -4735,6 +5002,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Voimakas sosiaalinen eristäytyminen, joka johtuu kokemuksesta olla ”erilainen” kuin ikätoverit.",
         "Äkillinen akateemisen suoriutumisen lasku oppilaalla, joka oli aiemmin tunnistettu kyvykkääksi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Lahjakkuus ei sulje pois tuen tarvetta: kaksois-poikkeuksellisuus (autismin, ADHD:n tai lukivaikeuden kanssa) on juuri näiden kahden rinnakkaiseloa. Oppilas voi kompensoida vuosia eikä \"näytä\" kummaltakaan — keskinkertaiset arvosanat ja poikkeuksellinen päättely ovat merkki, eivät ristiriita.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -4765,6 +5035,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ulkomaalaisen oppilaan asemaan liittyvät sosiaalisen eristäytymisen tai kiusaamisen merkit.",
         "Kielenoppimisen pysähtyminen ensimmäisen vuoden jälkeen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Muuttoliikkeen kontekstiin liittyvät trauman merkit (erityisesti pakolaisilla).",
+      ]},
+      { items: [
+        "Kyse ei ole häiriöstä, mutta kielimuuri voi kätkeä — tai jäljitellä — lukivaikeutta, ADHD:ta tai laskemiskyvyn häiriötä. Jos vaikeudet jatkuvat myös äidinkielellä tai eivät helpotu opetuskielen edistyessä, arviointi on aiheellinen sen sijaan, että odotettaisiin pidempään.",
       ]},
     ]},
     etica: { sections: [
@@ -4958,6 +5231,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vyhýbanie sa úlohám s číslami alebo ich odmietanie do tej miery, že ohrozuje školskú dráhu.",
         "Pretrvávajúci rozpor medzi všeobecným uvažovaním a matematickým výkonom bez formálneho vyšetrenia — odporučiť psychopedagogické posúdenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Často sa prekrýva s dyslexiou — fonologický a numerický deficit koexistujú — a s ADHD, kde preťažená pracovná pamäť počítanie ďalej zhoršuje. Keď zlyháva čítanie aj čísla naraz, úpravy musia pokryť oba fronty, nie si vybrať jeden.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -4988,6 +5264,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pretrvávajúce disciplinárne problémy napriek úpravám v triede.",
         "Známky sociálneho vylúčenia zo strany rovesníkov.",
         "Známky komorbidity (úzkosť, depresia, opozičné vzdorovité správanie) — pri ADHD časté a odôvodňujúce odoslanie k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD prichádza zriedka samo: podstatná časť týchto žiakov má aj poruchu učenia — dyslexia a dyskalkúlia sú najčastejšie prekryvy, dyspraxia je bežná. V praxi: keď úpravy pre pozornosť nestačia, hľadať špecifický vzorec v čítaní alebo počítaní skôr, než usúdime, že ide o „málo snahy\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -5020,6 +5299,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Systematické vyhýbanie sa úlohám na čítanie/písanie do takej miery, že to ohrozuje ostatné predmety.",
         "Výrazný nesúlad medzi ústnym a písomným výkonom bez formálnej diagnózy — odporučiť na psychopedagogické vyšetrenie.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Často sa vyskytuje spolu s ADHD, dyskalkúliou a dyspraxiou — poruchy učenia zriedka prichádzajú izolovane. Ak ťažkosti zjavne presahujú čítanie a písanie (pozornosť, počítanie, koordinácia), rozšíriť pozorovanie namiesto pripisovania všetkého dyslexii.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -5050,6 +5332,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Časté krízy („meltdowny“) po školskom dni.",
         "Pretrvávajúce odmietanie školy spojené so zmyslovým preťažením.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Postupujúca sociálna izolácia napriek pokusom o mediáciu.",
+      ]},
+      { items: [
+        "Kombináciu s nadaním — takzvanú dvojitú výnimočnosť — je ľahké prehliadnuť: schopnosti maskujú potrebnú podporu a ťažkosti maskujú schopnosti. ADHD a úzkosť sa tiež často vyskytujú spolu; veľmi nevyrovnané výsledky medzi predmetmi si zaslúžia druhý pohľad.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -5082,6 +5367,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sociálna izolácia v kontextoch fyzickej aktivity.",
         "Príznaky somatizovanej úzkosti pred písomnými testami — psychosociálne utrpenie je súčasťou klinického obrazu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Často sa prekrýva s ADHD a dyslexiou; pomalé, neusporiadané písmo môže maskovať ktorúkoľvek z nich — alebo byť nimi maskované. Odlíšiť motorické od pozornostného mení úpravy: klávesnica a čas navyše pomáhajú motorike; členenie pokynov pomáha pozornosti.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -5113,6 +5401,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Výrazná sociálna izolácia daná pocitom, že je „iný“ než rovesníci.",
         "Náhly pokles školského výkonu u žiaka, ktorý bol predtým identifikovaný ako schopný.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Nadanie nevylučuje potreby: dvojitá výnimočnosť (s autizmom, ADHD alebo dyslexiou) je práve spolužitím oboch. Žiak môže roky kompenzovať a „nevyzerať\" ani na jedno — priemerné známky pri výnimočnom uvažovaní sú signál, nie protirečenie.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -5143,6 +5434,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Známky sociálnej izolácie alebo šikany spojené s postavením zahraničného žiaka.",
         "Stagnácia v osvojovaní jazyka po prvom roku.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Známky traumy spojenej s migračným kontextom (najmä u utečencov).",
+      ]},
+      { items: [
+        "Nie je to porucha, ale jazyková bariéra môže skrývať — alebo napodobňovať — dyslexiu, ADHD či dyskalkúliu. Ak ťažkosti pretrvávajú aj v materinskom jazyku, alebo sa nezlepšujú s pokrokmi vo vyučovacom jazyku, je namieste vyšetrenie, nie ďalšie čakanie.",
       ]},
     ]},
     etica: { sections: [
@@ -5333,6 +5627,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A számokkal járó feladatok kerülése vagy megtagadása olyan mértékben, hogy az az iskolai pályafutást veszélyezteti.",
         "Tartós eltérés az általános gondolkodás és a matematikai teljesítmény között hivatalos felmérés nélkül — irányítsuk pszichopedagógiai vizsgálatra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Gyakran átfed a diszlexiával — a fonológiai és a numerikus deficit együtt jár — és az ADHD-val, ahol a túlterhelt munkamemória tovább rontja a számolást. Ha az olvasás és a számok együtt mondanak csődöt, az alkalmazkodásnak mindkét frontot le kell fednie, nem választania kell.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -5363,6 +5660,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tartós fegyelmi nehézségek a tantermi alkalmazkodások ellenére.",
         "A társak általi szociális kirekesztés jelei.",
         "A komorbiditás jelei (szorongás, depresszió, oppozíciós zavar) — gyakoriak az ADHD-ban, és indokolják a továbbirányítást.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Az ADHD ritkán jár egyedül: e tanulók jelentős részének tanulási zavara is van — a diszlexia és a diszkalkulia a leggyakoribb átfedés, a diszpraxia pedig gyakori. A gyakorlatban: ha a figyelmet segítő alkalmazkodások nem elegendők, keressünk sajátos mintázatot az olvasásban vagy a számolásban, mielőtt „kevés igyekezetre\" következtetnénk.",
       ]},
     ]},
     dislexia: { sections: [
@@ -5395,6 +5695,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Az olvasási/írási feladatok rendszeres kerülése olyan mértékben, hogy az más tantárgyakat is veszélyeztet.",
         "Markáns eltérés a szóbeli és írásbeli teljesítmény között hivatalos diagnózis nélkül — irányítsa pszichopedagógiai vizsgálatra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Gyakran együtt jár ADHD-val, diszkalkuliával és diszpraxiával — a tanulási zavarok ritkán jelentkeznek elszigetelten. Ha a nehézségek egyértelműen túlmutatnak az olvasáson és íráson (figyelem, számolás, koordináció), bővítsük a megfigyelést, ahelyett hogy mindent a diszlexiának tulajdonítanánk.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -5425,6 +5728,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Gyakori krízisek („meltdownok”) a tanítási nap után.",
         "Tartós iskolakerülés szenzoros túlterheltséghez kapcsolódóan.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Fokozatos társas elszigetelődés a közvetítési kísérletek ellenére.",
+      ]},
+      { items: [
+        "A tehetséggel való együttállást — az úgynevezett kettős különlegességet — könnyű elvéteni: a képesség elfedi a szükséges támogatást, a nehézségek pedig elfedik a képességet. Az ADHD és a szorongás szintén gyakran társul; a tantárgyak közti nagyon egyenetlen teljesítmény második pillantást érdemel.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -5457,6 +5763,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Társas elszigetelődés a fizikai tevékenység helyzeteiben.",
         "Szomatizált szorongás jelei az írásbeli értékelések előtt — a pszichoszociális szenvedés a kórkép része.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Gyakran átfed az ADHD-val és a diszlexiával; a lassú, rendezetlen írás bármelyiket elfedheti — vagy elfedhetik őt. A motoros és a figyelmi különválasztása megváltoztatja az alkalmazkodást: a billentyűzet és a többletidő a motorosat segíti; az utasítások tagolása a figyelmet.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -5488,6 +5797,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kifejezett társas elszigetelődés, amelyet a kortársaktól való „másság” érzése jellemez.",
         "Hirtelen tanulmányi alulteljesítés egy korábban képesnek azonosított tanulónál.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "A tehetség nem zárja ki a szükségleteket: a kettős különlegesség (autizmussal, ADHD-val vagy diszlexiával) éppen a kettő együttélése. A tanuló évekig kompenzálhat, és „nem látszik\" egyiknek sem — az átlagos jegyek kivételes gondolkodással jelzés, nem ellentmondás.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -5518,6 +5830,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A külföldi tanulói helyzettel összefüggő társas elszigeteltség vagy zaklatás jelei.",
         "A nyelvelsajátítás megrekedése az első év után.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "A migrációs háttérrel összefüggő trauma jelei (különösen menekültek esetében).",
+      ]},
+      { items: [
+        "Nem zavar, de a nyelvi akadály elrejtheti — vagy utánozhatja — a diszlexiát, az ADHD-t vagy a diszkalkuliát. Ha a nehézségek az anyanyelven is fennállnak, vagy nem javulnak a tanítási nyelv fejlődésével, indokolt a felmérés a további várakozás helyett.",
       ]},
     ]},
     etica: { sections: [
@@ -5710,6 +6025,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Αποφυγή ή άρνηση εργασιών με αριθμούς σε βαθμό που θέτει σε κίνδυνο τη σχολική πορεία.",
         "Επίμονη απόκλιση μεταξύ γενικού συλλογισμού και μαθηματικής επίδοσης χωρίς επίσημη αξιολόγηση — παραπέμψτε για ψυχοπαιδαγωγική εκτίμηση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Επικαλύπτεται συχνά με τη δυσλεξία — το φωνολογικό και το αριθμητικό έλλειμμα συνυπάρχουν — και με τη ΔΕΠ-Υ, όπου η υπερφορτωμένη εργαζόμενη μνήμη επιδεινώνει τον υπολογισμό. Όταν η ανάγνωση και οι αριθμοί αποτυγχάνουν μαζί, οι προσαρμογές πρέπει να καλύπτουν και τα δύο μέτωπα, όχι να διαλέγουν ένα.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -5740,6 +6058,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Επίμονη παραβατική συμπεριφορά παρά τις προσαρμογές στην τάξη.",
         "Σημάδια κοινωνικού αποκλεισμού από τους συνομηλίκους.",
         "Σημάδια συννοσηρότητας (άγχος, κατάθλιψη, εναντιωματική διαταραχή) — συχνά στη ΔΕΠΥ και τα οποία δικαιολογούν παραπομπή.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Η ΔΕΠ-Υ σπάνια έρχεται μόνη: σημαντικό μέρος αυτών των μαθητών έχει και μαθησιακή διαταραχή — η δυσλεξία και η δυσαριθμησία είναι οι συχνότερες επικαλύψεις, και η δυσπραξία είναι συχνή. Στην πράξη: όταν οι προσαρμογές για την προσοχή δεν αρκούν, αναζητήστε ειδικό μοτίβο στην ανάγνωση ή στον υπολογισμό πριν συμπεράνετε ότι πρόκειται για «έλλειψη προσπάθειας».",
       ]},
     ]},
     dislexia: { sections: [
@@ -5772,6 +6093,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Συστηματική αποφυγή εργασιών ανάγνωσης/γραφής σε σημείο που να θίγονται και άλλα μαθήματα.",
         "Έντονη απόκλιση μεταξύ προφορικής και γραπτής επίδοσης χωρίς επίσημη διάγνωση — παραπομπή για ψυχοπαιδαγωγική αξιολόγηση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Συνυπάρχει συχνά με ΔΕΠ-Υ, δυσαριθμησία και δυσπραξία — οι μαθησιακές διαταραχές σπάνια έρχονται μεμονωμένες. Αν οι δυσκολίες ξεπερνούν σαφώς την ανάγνωση και τη γραφή (προσοχή, υπολογισμός, συντονισμός), διευρύνετε την παρατήρηση αντί να αποδίδετε τα πάντα στη δυσλεξία.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -5802,6 +6126,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Συχνές κρίσεις («meltdowns») μετά τη σχολική ημέρα.",
         "Επίμονη σχολική άρνηση συνδεόμενη με αισθητηριακή υπερφόρτωση.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Προοδευτική κοινωνική απομόνωση παρά τις προσπάθειες διαμεσολάβησης.",
+      ]},
+      { items: [
+        "Ο συνδυασμός με τη χαρισματικότητα — η λεγόμενη διπλή εξαιρετικότητα — χάνεται εύκολα: η ικανότητα συγκαλύπτει την ανάγκη στήριξης και οι δυσκολίες συγκαλύπτουν την ικανότητα. Η ΔΕΠ-Υ και το άγχος επίσης συνυπάρχουν συχνά· πολύ ανομοιογενής επίδοση μεταξύ μαθημάτων αξίζει δεύτερη ματιά.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -5834,6 +6161,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Κοινωνική απομόνωση σε πλαίσια σωματικής δραστηριότητας.",
         "Σημάδια σωματοποιημένου άγχους πριν από γραπτές αξιολογήσεις — η ψυχοκοινωνική δυσφορία είναι μέρος της εικόνας.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Επικαλύπτεται συχνά με τη ΔΕΠ-Υ και τη δυσλεξία· η αργή, ακατάστατη γραφή μπορεί να συγκαλύψει οποιαδήποτε από τις δύο — ή να συγκαλυφθεί από αυτές. Το να ξεχωρίσετε το κινητικό από το προσοχικό αλλάζει τις προσαρμογές: το πληκτρολόγιο και ο επιπλέον χρόνος βοηθούν το κινητικό· ο τεμαχισμός των οδηγιών βοηθά την προσοχή.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -5865,6 +6195,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Έντονη κοινωνική απομόνωση με αίσθημα «διαφορετικότητας» από τους συνομηλίκους.",
         "Αιφνίδια ακαδημαϊκή υποεπίδοση σε μαθητή που είχε προηγουμένως αναγνωριστεί ως ικανός.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Η χαρισματικότητα δεν αποκλείει ανάγκες: η διπλή εξαιρετικότητα (με αυτισμό, ΔΕΠ-Υ ή δυσλεξία) είναι ακριβώς η συνύπαρξη των δύο. Ο μαθητής μπορεί να αντισταθμίζει επί χρόνια και να μη «μοιάζει» με τίποτα από τα δύο — μέτριοι βαθμοί με εξαιρετικό συλλογισμό είναι σήμα, όχι αντίφαση.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -5895,6 +6228,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ενδείξεις κοινωνικής απομόνωσης ή εκφοβισμού που συνδέονται με την ιδιότητα του αλλοδαπού μαθητή.",
         "Στασιμότητα στην κατάκτηση της γλώσσας μετά τον πρώτο χρόνο.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Ενδείξεις τραύματος που συνδέονται με το μεταναστευτικό πλαίσιο (ιδίως σε πρόσφυγες).",
+      ]},
+      { items: [
+        "Δεν είναι διαταραχή, αλλά το γλωσσικό εμπόδιο μπορεί να κρύψει — ή να μιμηθεί — δυσλεξία, ΔΕΠ-Υ ή δυσαριθμησία. Αν οι δυσκολίες επιμένουν και στη μητρική γλώσσα, ή δεν βελτιώνονται με την πρόοδο στη γλώσσα διδασκαλίας, δικαιολογείται αξιολόγηση αντί για περαιτέρω αναμονή.",
       ]},
     ]},
     etica: { sections: [
@@ -6087,6 +6423,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Избягване или отказ от задачи с числа до степен, застрашаваща училищния път.",
         "Устойчиво разминаване между общото разсъждение и математическите постижения без официална оценка — насочете към психопедагогическа оценка.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Често се припокрива с дислексията — фонологичният и числовият дефицит съществуват заедно — и с ХАДВ, където претоварената работна памет допълнително влошава смятането. Когато четенето и числата отказват заедно, адаптациите трябва да покрият и двата фронта, а не да избират един.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -6117,6 +6456,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Постоянни дисциплинарни проблеми въпреки адаптациите в класната стая.",
         "Признаци на социално изключване от страна на връстниците.",
         "Признаци на коморбидност (тревожност, депресия, опозиционно-предизвикателно разстройство) — чести при ADHD и обосноваващи насочване към специалист.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ХАДВ рядко идва само: значителна част от тези ученици имат и разстройство на ученето — дислексията и дискалкулията са най-честите припокривания, а диспраксията е честа. На практика: когато адаптациите за внимание не стигат, потърсете специфичен модел в четенето или смятането, преди да заключите, че е „липса на старание\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -6149,6 +6491,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Системно избягване на задачи за четене/писане до степен да застрашава други предмети.",
         "Изразено несъответствие между устното и писменото представяне без формална диагноза — да се насочи към психопедагогическа оценка.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Често се среща заедно с ХАДВ, дискалкулия и диспраксия — разстройствата на ученето рядко идват изолирано. Ако затрудненията явно надхвърлят четенето и писането (внимание, смятане, координация), разширете наблюдението, вместо да приписвате всичко на дислексията.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -6179,6 +6524,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Чести кризи („мелтдауни“) след учебния ден.",
         "Постоянен отказ от училище, свързан със сензорно претоварване.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Прогресираща социална изолация въпреки опитите за медиация.",
+      ]},
+      { items: [
+        "Комбинацията с надареността — така наречената двойна изключителност — лесно се пропуска: способността прикрива нужната подкрепа, а затрудненията прикриват способността. ХАДВ и тревожността също често съпътстват; много неравномерни постижения между предметите заслужават втори поглед.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6211,6 +6559,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Социална изолация в контекст на физическа активност.",
         "Признаци на соматизирана тревожност преди писмени изпитвания — психосоциалното страдание е част от клиничната картина.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Често се припокрива с ХАДВ и дислексията; бавното, разхвърляно писане може да прикрие всяко от тях — или да бъде прикрито от тях. Разграничаването на моторното от вниманието променя адаптациите: клавиатурата и допълнителното време помагат на моторното; раздробяването на инструкциите помага на вниманието.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -6242,6 +6593,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Изразена социална изолация поради усещането, че е „различен“ от връстниците си.",
         "Внезапен спад в академичните постижения при ученик, който преди това е бил определен като способен.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Надареността не изключва потребности: двойната изключителност (с аутизъм, ХАДВ или дислексия) е именно съжителството на двете. Ученикът може да компенсира с години и да „не прилича\" на нито едно от двете — средни оценки при изключително разсъждение са сигнал, не противоречие.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -6272,6 +6626,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Признаци на социална изолация или тормоз, свързани със статута на ученик чужденец.",
         "Застой в усвояването на езика след първата година.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Признаци на травма, свързана с миграционния контекст (особено при бежанци).",
+      ]},
+      { items: [
+        "Не е разстройство, но езиковата бариера може да скрие — или да наподоби — дислексия, ХАДВ или дискалкулия. Ако затрудненията се запазват и на майчиния език, или не се подобряват с напредъка в езика на обучение, оценка е оправдана вместо още чакане.",
       ]},
     ]},
     etica: { sections: [
@@ -6463,6 +6820,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Užduočių su skaičiais vengimas ar atsisakymas tiek, kad kyla grėsmė mokymosi keliui.",
         "Nuolatinis neatitikimas tarp bendro mąstymo ir matematikos rezultatų be formalaus įvertinimo — nukreipti psichopedagoginiam įvertinimui.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Dažnai persidengia su disleksija — fonologinis ir skaitinis deficitas egzistuoja kartu — ir su ADHD, kai perkrauta darbinė atmintis dar labiau apsunkina skaičiavimą. Kai skaitymas ir skaičiai stringa kartu, pritaikymai turi apimti abu frontus, o ne rinktis vieną.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -6493,6 +6853,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nuolatiniai drausmės pažeidimai nepaisant pritaikymų klasėje.",
         "Bendraamžių socialinės atskirties požymiai.",
         "Gretutinių sutrikimų požymiai (nerimas, depresija, opozicinis neklusnumas) — dažni sergant ADHD ir pateisinantys nukreipimą specialistui.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD retai būna vienas: nemaža dalis šių mokinių turi ir mokymosi sutrikimą — disleksija ir diskalkulija yra dažniausi persidengimai, dispraksija taip pat dažna. Praktiškai: kai dėmesio pritaikymų nepakanka, ieškokite specifinio skaitymo ar skaičiavimo dėsningumo, prieš nuspręsdami, kad tai „pastangų stoka\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -6525,6 +6888,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sistemingas skaitymo/rašymo užduočių vengimas tiek, kad tai trukdo kitiems dalykams.",
         "Ryškus neatitikimas tarp žodinio ir rašytinio pasiekimo be oficialios diagnozės — nukreipti psichopedagoginiam vertinimui.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Dažnai pasireiškia kartu su ADHD, diskalkulija ir dispraksija — mokymosi sutrikimai retai būna pavieniai. Jei sunkumai aiškiai peržengia skaitymą ir rašymą (dėmesys, skaičiavimas, koordinacija), praplėskite stebėjimą, užuot viską priskyrę disleksijai.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -6555,6 +6921,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Dažni priepuoliai („meltdown“) po mokyklos dienos.",
         "Nuolatinis atsisakymas eiti į mokyklą, susijęs su jutimine perkrova.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Progresuojanti socialinė izoliacija nepaisant tarpininkavimo bandymų.",
+      ]},
+      { items: [
+        "Derinį su gabumu — vadinamąjį dvigubą išskirtinumą — lengva praleisti: gebėjimai užmaskuoja reikalingą pagalbą, o sunkumai užmaskuoja gebėjimus. ADHD ir nerimas taip pat dažnai eina kartu; labai netolygūs rezultatai tarp dalykų verti antro žvilgsnio.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6587,6 +6956,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Socialinė izoliacija fizinio aktyvumo situacijose.",
         "Somatizuoto nerimo požymiai prieš rašto darbų vertinimus – psichosocialinis kentėjimas yra šio sutrikimo dalis.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Dažnai persidengia su ADHD ir disleksija; lėtas, netvarkingas raštas gali užmaskuoti bet kurį iš jų — arba būti jų užmaskuotas. Motorikos atskyrimas nuo dėmesio keičia pritaikymus: klaviatūra ir papildomas laikas padeda motorikai; nurodymų skaidymas padeda dėmesiui.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -6618,6 +6990,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ryški socialinė izoliacija, kylanti iš jausmo esant „kitokiam“ nei bendraamžiai.",
         "Staigus akademinių pasiekimų kritimas mokiniui, anksčiau pripažintam gabiu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Gabumas neatmeta poreikių: dvigubas išskirtinumas (su autizmu, ADHD ar disleksija) — tai kaip tik abiejų sambūvis. Mokinys gali metų metus kompensuoti ir „neatrodyti\" nei vienaip, nei kitaip — vidutiniai pažymiai su išskirtiniu mąstymu yra ženklas, o ne prieštara.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -6648,6 +7023,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Socialinės izoliacijos ar patyčių požymiai, susiję su užsieniečio mokinio padėtimi.",
         "Kalbos įsisavinimo sąstingis po pirmųjų metų.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Traumos požymiai, susiję su migracijos kontekstu (ypač pabėgėlių atveju).",
+      ]},
+      { items: [
+        "Tai ne sutrikimas, bet kalbos barjeras gali paslėpti — arba imituoti — disleksiją, ADHD ar diskalkuliją. Jei sunkumai išlieka ir gimtąja kalba, arba nemažėja tobulėjant mokymo kalbai, verta atlikti įvertinimą, o ne laukti toliau.",
       ]},
     ]},
     etica: { sections: [
@@ -6839,6 +7217,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izvairīšanās no uzdevumiem ar skaitļiem vai atteikšanās no tiem tiktāl, ka tiek apdraudēta skolas gaita.",
         "Noturīga neatbilstība starp vispārējo spriešanu un sniegumu matemātikā bez formāla izvērtējuma — nosūtīt uz psihopedagoģisko izvērtēšanu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Bieži pārklājas ar disleksiju — fonoloģiskais un numeriskais deficīts pastāv līdzās — un ar UDHS, kur pārslogotā darba atmiņa rēķināšanu vēl vairāk apgrūtina. Kad lasīšana un skaitļi klibo reizē, pielāgojumiem jāaptver abas frontes, nevis jāizvēlas viena.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -6869,6 +7250,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pastāvīgi disciplīnas pārkāpumi, neraugoties uz pielāgojumiem klasē.",
         "Vienaudžu sociālas atstumšanas pazīmes.",
         "Komorbiditātes pazīmes (trauksme, depresija, opozicionāri izaicinoša uzvedība) — biežas ADHD gadījumā un kas pamato nosūtīšanu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "UDHS reti nāk viens: ievērojamai daļai šo skolēnu ir arī mācīšanās traucējumi — disleksija un diskalkulija ir biežākās pārklāšanās, un dispraksija ir bieža. Praksē: kad ar uzmanības pielāgojumiem nepietiek, meklējiet specifisku modeli lasīšanā vai rēķināšanā, pirms secināt, ka tas ir „centības trūkums\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -6901,6 +7285,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sistemātiska izvairīšanās no lasīšanas/rakstīšanas uzdevumiem tādā mērā, ka tas apdraud citus mācību priekšmetus.",
         "Izteikta neatbilstība starp mutvārdu un rakstisko sniegumu bez formālas diagnozes — nosūtīt uz psihopedagoģisko novērtējumu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Bieži pastāv kopā ar UDHS, diskalkuliju un dispraksiju — mācīšanās traucējumi reti nāk atsevišķi. Ja grūtības nepārprotami pārsniedz lasīšanu un rakstīšanu (uzmanība, rēķināšana, koordinācija), paplašiniet novērošanu, nevis visu attieciniet uz disleksiju.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -6931,6 +7318,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bieži afekta uzliesmojumi („meltdown“) pēc skolas dienas.",
         "Pastāvīga atteikšanās iet uz skolu, kas saistīta ar sensoro pārslodzi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Pieaugoša sociālā izolācija, neraugoties uz mēģinājumiem to mazināt.",
+      ]},
+      { items: [
+        "Kombināciju ar apdāvinātību — tā saukto dubulto izcilību — ir viegli palaist garām: spējas maskē nepieciešamo atbalstu, un grūtības maskē spējas. UDHS un trauksme arī bieži pastāv kopā; ļoti nevienmērīgs sniegums starp priekšmetiem ir pelnījis otru skatienu.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -6963,6 +7353,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sociāla izolēšanās fiziskas aktivitātes situācijās.",
         "Somatizētas trauksmes pazīmes pirms rakstu darbu pārbaudēm – psihosociālās ciešanas ir daļa no kopainas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Bieži pārklājas ar UDHS un disleksiju; lēns, nesakārtots rokraksts var maskēt jebkuru no tiem — vai tikt to maskēts. Motoriskā nošķiršana no uzmanības maina pielāgojumus: klaviatūra un papildu laiks palīdz motorikai; norādījumu sadalīšana palīdz uzmanībai.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -6994,6 +7387,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izteikta sociālā izolācija, ko rada sajūta, ka esi „atšķirīgs“ no vienaudžiem.",
         "Pēkšņa akadēmisko sasniegumu pasliktināšanās skolēnam, kurš iepriekš atzīts par spējīgu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Apdāvinātība neizslēdz vajadzības: dubultā izcilība (ar autismu, UDHS vai disleksiju) ir tieši abu līdzāspastāvēšana. Skolēns var gadiem kompensēt un „neizskatīties\" ne pēc viena, ne otra — viduvējas atzīmes ar izcilu spriešanu ir signāls, nevis pretruna.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -7024,6 +7420,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sociālas izolācijas vai vardarbības (mobinga) pazīmes, kas saistītas ar ārvalstu skolēna statusu.",
         "Valodas apguves stagnācija pēc pirmā gada.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Traumas pazīmes, kas saistītas ar migrācijas kontekstu (īpaši bēgļiem).",
+      ]},
+      { items: [
+        "Tas nav traucējums, bet valodas barjera var slēpt — vai atdarināt — disleksiju, UDHS vai diskalkuliju. Ja grūtības saglabājas arī dzimtajā valodā vai neuzlabojas līdz ar progresu mācību valodā, ir pamats izvērtēšanai, nevis tālākai gaidīšanai.",
       ]},
     ]},
     etica: { sections: [
@@ -7218,6 +7617,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Arvudega ülesannete vältimine või neist keeldumine määral, mis ohustab koolitee jätkumist.",
         "Püsiv lahknevus üldise arutlusvõime ja matemaatikasoorituse vahel ilma ametliku hindamiseta — suuna psühhopedagoogilisele hindamisele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Kattub sageli düsleksiaga — fonoloogiline ja numbriline puudujääk eksisteerivad koos — ning ATH-ga, kus ülekoormatud töömälu muudab arvutamise veelgi raskemaks. Kui lugemine ja arvud vedavad alt koos, peavad kohandused katma mõlemad rinded, mitte valima ühe.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -7248,6 +7650,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Püsivad distsipliinirikkumised vaatamata klassis tehtud kohandustele.",
         "Eakaaslaste poolse sotsiaalse tõrjutuse märgid.",
         "Kaasuvate häirete (ärevus, depressioon, trotslik käitumishäire) märgid — sagedased ATH puhul ja õigustavad suunamist.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ATH tuleb harva üksi: märkimisväärsel osal neist õpilastest on ka õpiraskus — düsleksia ja düskalkuulia on kõige sagedasemad kattuvused ning düspraksia on levinud. Praktikas: kui tähelepanu toetavatest kohandustest ei piisa, otsi enne „vähese pingutuse\" järeldust spetsiifilist mustrit lugemises või arvutamises.",
       ]},
     ]},
     dislexia: { sections: [
@@ -7280,6 +7685,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Lugemis-/kirjutamisülesannete süstemaatiline vältimine sel määral, et see kahjustab teisi õppeaineid.",
         "Märgatav lahknevus suulise ja kirjaliku soorituse vahel ilma formaalse diagnoosita — suunata psühhopedagoogilisele hindamisele.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Esineb sageli koos ATH, düskalkuulia ja düspraksiaga — õpiraskused tulevad harva üksikuna. Kui raskused ulatuvad selgelt lugemisest ja kirjutamisest kaugemale (tähelepanu, arvutamine, koordinatsioon), laienda vaatlust, selle asemel et kõike düsleksiale omistada.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -7310,6 +7718,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sagedased hood („meltdown“) pärast koolipäeva.",
         "Püsiv koolist keeldumine, mis on seotud sensoorse ülekoormusega.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Süvenev sotsiaalne isoleerumine vaatamata vahendamiskatsetele.",
+      ]},
+      { items: [
+        "Kombinatsiooni andekusega — nn topelterilisust — on lihtne märkamata jätta: võimekus varjab vajalikku tuge ja raskused varjavad võimekust. Ka ATH ja ärevus esinevad sageli koos; väga ebaühtlane sooritus eri ainetes väärib teist pilku.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -7342,6 +7753,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sotsiaalne eraldumine kehalise tegevuse olukordades.",
         "Somatiseeritud ärevuse märgid enne kirjalikke hindamisi – psühhosotsiaalne kannatus on osa tervikpildist.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Kattub sageli ATH ja düsleksiaga; aeglane, korrapäratu käekiri võib kumbagi varjata — või nende varju jääda. Motoorse eristamine tähelepanust muudab kohandusi: klaviatuur ja lisaaeg aitavad motoorikat; juhiste tükeldamine aitab tähelepanu.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -7373,6 +7787,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Väljendunud sotsiaalne isolatsioon, mis tuleneb tundest, et ollakse eakaaslastest „erinev“.",
         "Äkiline akadeemilise soorituse langus õpilasel, keda varem peeti võimekaks.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Andekus ei välista vajadusi: topelterilisus (autismi, ATH või düsleksiaga) ongi just mõlema kooseksisteerimine. Õpilane võib aastaid kompenseerida ega „näi\" kummagina — keskmised hinded erakordse arutlusvõimega on märk, mitte vastuolu.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -7403,6 +7820,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sotsiaalse isolatsiooni või kiusamise märgid, mis on seotud välismaalasest õpilase staatusega.",
         "Keeleomandamise seiskumine pärast esimest aastat.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Rändekontekstiga seotud trauma märgid (eriti pagulastel).",
+      ]},
+      { items: [
+        "See ei ole häire, kuid keelebarjäär võib peita — või jäljendada — düsleksiat, ATH-d või düskalkuuliat. Kui raskused püsivad ka koduses keeles või ei parane õppekeele edenedes, on hindamine põhjendatud, mitte edasine ootamine.",
       ]},
     ]},
     etica: { sections: [
@@ -7598,6 +8018,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izogibanje nalogam s števili ali njihovo zavračanje do te mere, da ogroža šolsko pot.",
         "Vztrajno razhajanje med splošnim sklepanjem in matematičnim uspehom brez formalne ocene — napotiti na psihopedagoško oceno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Pogosto se prekriva z disleksijo — fonološki in številski primanjkljaj sobivata — in z ADHD, kjer preobremenjen delovni spomin računanje še poslabša. Kadar branje in števila odpovedo skupaj, morajo prilagoditve pokriti obe fronti, ne izbrati ene.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -7628,6 +8051,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vztrajne disciplinske težave kljub prilagoditvam v razredu.",
         "Znaki socialne izključenosti s strani vrstnikov.",
         "Znaki komorbidnosti (anksioznost, depresija, opozicionalno kljubovalna motnja) — pri ADHD pogosti in upravičujejo napotitev.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD redko pride sam: precejšen del teh učencev ima tudi učno motnjo — disleksija in diskalkulija sta najpogostejši prekrivanji, dispraksija pa je pogosta. V praksi: kadar prilagoditve za pozornost ne zadoščajo, poiščite specifičen vzorec pri branju ali računanju, preden sklenete, da gre za „premalo truda\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -7660,6 +8086,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sistematično izogibanje nalogam branja/pisanja do te mere, da ogroža druge predmete.",
         "Izrazito neskladje med ustno in pisno uspešnostjo brez formalne diagnoze — napotiti na psihopedagoško oceno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Pogosto se pojavlja skupaj z ADHD, diskalkulijo in dispraksijo — učne motnje redko pridejo osamljeno. Če težave očitno presegajo branje in pisanje (pozornost, računanje, koordinacija), razširite opazovanje, namesto da vse pripišete disleksiji.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -7690,6 +8119,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Pogoste krize (»meltdowni«) po šolskem dnevu.",
         "Vztrajno zavračanje šole, povezano s senzorno preobremenitvijo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Napredujoča socialna osamitev kljub poskusom mediacije.",
+      ]},
+      { items: [
+        "Kombinacijo z nadarjenostjo — tako imenovano dvojno izjemnost — je lahko spregledati: sposobnost prikriva potrebno podporo, težave pa prikrivajo sposobnost. Tudi ADHD in anksioznost se pogosto pojavljata skupaj; zelo neenakomerni dosežki med predmeti si zaslužijo drugi pogled.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -7722,6 +8154,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Socialna izolacija v kontekstih telesne dejavnosti.",
         "Znaki somatizirane tesnobe pred pisnimi ocenjevanji — psihosocialna stiska je del klinične slike.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Pogosto se prekriva z ADHD in disleksijo; počasna, neurejena pisava lahko prikrije katero koli od njiju — ali pa jo onidve prikrijeta. Ločevanje motoričnega od pozornostnega spremeni prilagoditve: tipkovnica in dodatni čas pomagata motoriki; razčlenjena navodila pomagajo pozornosti.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -7753,6 +8188,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izrazita socialna osamljenost, ki izvira iz občutka, da je »drugačen« od vrstnikov.",
         "Nenaden upad učnega uspeha pri učencu, ki je bil prej prepoznan kot sposoben.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Nadarjenost ne izključuje potreb: dvojna izjemnost (z avtizmom, ADHD ali disleksijo) je prav sobivanje obojega. Učenec lahko leta kompenzira in ni „videti\" ne eno ne drugo — povprečne ocene ob izjemnem sklepanju so znak, ne protislovje.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -7783,6 +8221,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Znaki socialne izolacije ali medvrstniškega nasilja, povezani s položajem tujega učenca.",
         "Zastoj pri usvajanju jezika po prvem letu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Znaki travme, povezane z migracijskim kontekstom (zlasti pri beguncih).",
+      ]},
+      { items: [
+        "Ni motnja, a jezikovna ovira lahko skrije — ali posnema — disleksijo, ADHD ali diskalkulijo. Če težave vztrajajo tudi v maternem jeziku ali se ne izboljšujejo z napredkom v učnem jeziku, je upravičena ocena, ne nadaljnje čakanje.",
       ]},
     ]},
     etica: { sections: [
@@ -7976,6 +8417,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Seachaint nó diúltú tascanna le huimhreacha go pointe a chuireann an chonair scoile i mbaol.",
         "Neamhréir leanúnach idir an réasúnaíocht ghinearálta agus feidhmíocht na matamaitice gan mheasúnú foirmiúil — atreorú chuig measúnú síceoideachasúil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Forluíonn sí go minic leis an disléicse — bíonn an t-easnamh fóneolaíoch agus an t-easnamh uimhriúil ann le chéile — agus le ADHD, áit a ndéanann cuimhne oibre ró-ualaithe an ríomh níos measa fós. Nuair a theipeann ar an léitheoireacht agus ar na huimhreacha le chéile, ní mór do na hoiriúnuithe an dá thaobh a chlúdach, ní ceann amháin a roghnú.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -8006,6 +8450,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Teip dhisciplíneach leanúnach in ainneoin na n-oiriúnuithe sa seomra ranga.",
         "Comharthaí eisiaimh shóisialta ó na piaraí.",
         "Comharthaí comhghalrachta (imní, dúlagar, neamhord freasúra) — coitianta in ADHD agus a thugann údar le hatreorú.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Is annamh a thagann ADHD leis féin: tá neamhord foghlama freisin ag cuid mhaith de na daltaí seo — is iad an disléicse agus an dioscalcúile na forluí is coitianta, agus is minic an diospraicse. Go praiticiúil: nuair nach leor na hoiriúnuithe airde, cuardaigh patrún sonrach sa léitheoireacht nó sa ríomh sula gcinntear gur \"easpa iarrachta\" atá ann.",
       ]},
     ]},
     dislexia: { sections: [
@@ -8038,6 +8485,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Seachaint chórasach ar thascanna léitheoireachta/scríbhneoireachta a mhéid is go gcuireann sé isteach ar ábhair eile.",
         "Difríocht shuntasach idir feidhmíocht ó bhéal agus feidhmíocht scríofa gan diagnóis fhoirmiúil — atreoraigh chuig measúnú síceoideachasúil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Is minic a bhíonn sí in éineacht le ADHD, dioscalcúile agus diospraicse — is annamh a thagann neamhoird foghlama leo féin. Má théann na deacrachtaí thar an léitheoireacht agus an scríbhneoireacht go soiléir (aird, ríomh, comhordú), leathnaigh an bhreathnóireacht seachas gach rud a chur i leith na disléicse.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -8068,6 +8518,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Géarchéimeanna („meltdowns”) go minic tar éis an lae scoile.",
         "Diúltú scoile leanúnach bainteach le ró-ualú céadfach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Aonrú sóisialta forchéimnitheach in ainneoin iarrachtaí idirghabhála.",
+      ]},
+      { items: [
+        "Is furasta an teaglaim leis an mbua — an \"eisceachtúlacht dhúbailte\" mar a thugtar uirthi — a chailleadh: ceileann an cumas an tacaíocht atá de dhíth agus ceileann na deacrachtaí an cumas. Bíonn ADHD agus imní ann go minic freisin le chéile; is fiú súil eile a chaitheamh ar fheidhmíocht an-éagothrom idir ábhair.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -8100,6 +8553,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aonrú sóisialta i gcomhthéacsanna gníomhaíochta fisiciúla.",
         "Comharthaí imní sómaithe roimh mheasúnachtaí scríofa — is cuid den phictiúr í an fhulaingt shíceasóisialta.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Forluíonn sí go minic le ADHD agus leis an disléicse; féadfaidh scríbhneoireacht mhall, mhí-eagraithe ceachtar acu a cheilt — nó a bheith ceilte acu. Athraíonn sé na hoiriúnuithe an mótarach a scaradh ón airdeach: cabhraíonn méarchlár agus am breise leis an taobh mótarach; cabhraíonn treoracha briste síos leis an aird.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -8131,6 +8587,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aonrú sóisialta suntasach a léirítear le mothú go bhfuil sé „difriúil” óna phiaraí.",
         "Tearcfheidhmíocht acadúil thobann i ndalta a aithníodh roimhe seo mar dhuine cumasach.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Ní chuireann an bua riachtanais as an áireamh: is í an eisceachtúlacht dhúbailte (le huathachas, ADHD nó disléicse) go díreach an dá rud a bheith ann le chéile. Féadfaidh an dalta cúiteamh a dhéanamh ar feadh blianta agus gan \"cuma\" ceachtar acu a bheith air — comhartha is ea gráid mheánacha le réasúnaíocht eisceachtúil, ní contrárthacht.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -8161,6 +8620,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Comharthaí aonrú sóisialta nó bulaíochta a bhaineann le stádas an scoláire eachtraigh.",
         "Marbhántacht i sealbhú na teanga tar éis na chéad bhliana.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Comharthaí tráma a bhaineann le comhthéacs imirce (go háirithe dídeanaithe).",
+      ]},
+      { items: [
+        "Ní neamhord é, ach féadfaidh bacainn na teanga disléicse, ADHD nó dioscalcúile a cheilt — nó aithris a dhéanamh orthu. Má mhaireann na deacrachtaí sa mháthairtheanga freisin, nó mura dtagann feabhas orthu le dul chun cinn i dteanga an teagaisc, tá bonn le measúnú seachas fanacht níos faide.",
       ]},
     ]},
     etica: { sections: [
@@ -8355,6 +8817,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitar jew rifjut ta' xogħol bin-numri sal-punt li jipperikola l-mixja skolastika.",
         "Diskrepanza persistenti bejn ir-raġunament ġenerali u l-prestazzjoni matematika mingħajr evalwazzjoni formali — irreferi għal evalwazzjoni psikopedagoġika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Spiss tikkoinċidi mad-dislessija — id-defiċit fonoloġiku u dak numeriku jeżistu flimkien — u mal-ADHD, fejn memorja tax-xogħol mgħobbija żżejjed tkompli taggrava l-kalkolu. Meta l-qari u n-numri jfallu flimkien, l-adattamenti jridu jkopru ż-żewġ fronti, mhux jagħżlu wieħed.",
+      ]},
     ]},
     tdah: { sections: [
       { items: [
@@ -8385,6 +8850,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Falliment dixxiplinari persistenti minkejja l-adattamenti fil-klassi.",
         "Sinjali ta' esklużjoni soċjali mill-pari.",
         "Sinjali ta' komorbidità (ansjetà, dipressjoni, disturb ta' oppożizzjoni) — frekwenti fl-ADHD u li jiġġustifikaw riferiment.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "L-ADHD rari jiġi waħdu: parti sostanzjali minn dawn l-istudenti għandhom ukoll diżordni tat-tagħlim — id-dislessija u d-diskalkulija huma l-aktar koinċidenzi komuni, u d-disprassja hija frekwenti. Fil-prattika: meta l-adattamenti għall-attenzjoni ma jkunux biżżejjed, fittex xejra speċifika fil-qari jew fil-kalkolu qabel ma tikkonkludi li hu \"nuqqas ta' sforz\".",
       ]},
     ]},
     dislexia: { sections: [
@@ -8417,6 +8885,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evitar sistematiku ta' kompiti ta' qari/kitba sal-punt li jikkomprometti suġġetti oħra.",
         "Diskrepanza notevoli bejn il-prestazzjoni orali u dik bil-miktub mingħajr dijanjosi formali — irreferi għal evalwazzjoni psikopedagoġika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
+      { items: [
+        "Spiss tokkorri ma' ADHD, diskalkulija u disprassja — id-diżordnijiet tat-tagħlim rari jiġu waħedhom. Jekk id-diffikultajiet imorru b'mod ċar lil hinn mill-qari u l-kitba (attenzjoni, kalkolu, koordinazzjoni), wessa' l-osservazzjoni minflok ma tattribwixxi kollox lid-dislessija.",
+      ]},
     ]},
     autismo: { sections: [
       { items: [
@@ -8447,6 +8918,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kriżijiet („meltdowns”) frekwenti wara l-jum skolastiku.",
         "Rifjut skolastiku persistenti assoċjat ma' tagħbija sensorja żejda.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Iżolament soċjali progressiv minkejja tentattivi ta' medjazzjoni.",
+      ]},
+      { items: [
+        "Il-kombinazzjoni mal-eċċellenza intellettwali — l-hekk imsejħa eċċezzjonalità doppja — faċli tintilef: il-kapaċità taħbi l-appoġġ meħtieġ u d-diffikultajiet jaħbu l-kapaċità. L-ADHD u l-ansjetà wkoll spiss jokkorru flimkien; prestazzjoni irregolari ħafna bejn is-suġġetti jistħoqqilha ħarsa oħra.",
       ]},
     ]},
     dispraxia: { sections: [
@@ -8479,6 +8953,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Iżolament soċjali f'kuntesti ta' attività fiżika.",
         "Sinjali ta' ansjetà somatizzata qabel l-evalwazzjonijiet bil-miktub — it-tbatija psikosoċjali hija parti mill-kwadru.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "Spiss tikkoinċidi ma' ADHD u dislessija; kitba bil-mod u diżorganizzata tista' taħbi lil xi waħda minnhom — jew tinħeba minnhom. Li tifred dak li hu motorju minn dak li hu ta' attenzjoni jibdel l-adattamenti: it-tastiera u l-ħin żejjed jgħinu n-naħa motorja; it-tqassim tal-istruzzjonijiet jgħin l-attenzjoni.",
+      ]},
     ]},
     sobredotacao: { sections: [
       { items: [
@@ -8510,6 +8987,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Iżolament soċjali mmarkat minn sens li hu „differenti” mill-pari tiegħu.",
         "Prestazzjoni akkademika baxxa f'daqqa fi student li qabel kien identifikat bħala kapaċi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
+      { items: [
+        "L-eċċellenza intellettwali ma teskludix il-bżonnijiet: l-eċċezzjonalità doppja (ma' awtiżmu, ADHD jew dislessija) hija preċiżament il-koeżistenza tat-tnejn. L-istudent jista' jikkumpensa għal snin u \"ma jidhirx\" la waħda u lanqas l-oħra — marki medji b'raġunament eċċezzjonali huma sinjal, mhux kontradizzjoni.",
+      ]},
     ]},
     plnm: { sections: [
       { items: [
@@ -8540,6 +9020,9 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sinjali ta' iżolament soċjali jew bullizmu marbuta mal-istatus ta' student barrani.",
         "Staġnar fl-akkwist tal-lingwa wara l-ewwel sena.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Sinjali ta' trawma marbuta mal-kuntest tal-migrazzjoni (speċjalment refuġjati).",
+      ]},
+      { items: [
+        "Mhijiex diżordni, imma l-ostaklu tal-lingwa jista' jaħbi — jew jimita — dislessija, ADHD jew diskalkulija. Jekk id-diffikultajiet jippersistu wkoll fil-lingwa materna, jew ma jitjiebux mal-progress fil-lingwa tat-tagħlim, evalwazzjoni tkun ġustifikata minflok stennija itwal.",
       ]},
     ]},
     etica: { sections: [

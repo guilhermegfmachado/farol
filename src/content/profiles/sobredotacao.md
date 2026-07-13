@@ -34,6 +34,9 @@ sections:
       - "Sinais de ansiedade ou depressão associados a perfeccionismo extremo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Isolamento social marcado por se sentir \"diferente\" dos pares."
       - "Subdesempenho académico súbito num aluno previamente identificado como capaz.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+  - label: "Perfis sobrepostos"
+    items:
+      - "Sobredotação não exclui necessidades: a dupla excecionalidade (com autismo, TDAH ou dislexia) é precisamente a coexistência das duas. O aluno pode compensar durante anos e \"não parecer\" nem uma coisa nem outra — notas médias com raciocínio excecional são um sinal, não uma contradição."
 ai_strategies:
   tools: []
 related: ["tdah", "autismo"]

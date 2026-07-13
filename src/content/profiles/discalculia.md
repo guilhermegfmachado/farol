@@ -34,6 +34,9 @@ sections:
       - "Auto-conceito em queda especificamente ligado à matemática (\"sou burro para os números\")."
       - "Evitamento ou recusa de tarefas com números ao ponto de comprometer o percurso escolar."
       - "Discrepância persistente entre o raciocínio geral e o desempenho matemático sem avaliação formal — encaminhar para avaliação psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+  - label: "Perfis sobrepostos"
+    items:
+      - "Sobrepõe-se com frequência à dislexia — os défices fonológico e numérico coexistem — e à TDAH, em que a memória de trabalho sobrecarregada agrava o cálculo. Quando a leitura e os números falham em conjunto, as adaptações devem cobrir as duas frentes, não escolher uma."
 ai_strategies:
   tools: []
 related: ["dislexia", "tdah"]

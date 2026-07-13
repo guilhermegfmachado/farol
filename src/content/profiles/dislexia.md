@@ -34,6 +34,9 @@ sections:
       - "Auto-conceito académico em deterioração (\"sou burro\", \"não consigo\")."
       - "Evitamento sistemático de tarefas de leitura/escrita ao ponto de comprometer outras disciplinas."
       - "Discrepância marcada entre desempenho oral e escrito sem diagnóstico formal — encaminhar para avaliação psicopedagógica.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+  - label: "Perfis sobrepostos"
+    items:
+      - "Coocorre com frequência com TDAH, discalculia e dispraxia — as perturbações da aprendizagem raramente vêm isoladas. Se as dificuldades ultrapassarem claramente a leitura e a escrita (atenção, cálculo, coordenação), alargar a observação em vez de atribuir tudo à dislexia."
 ai_strategies:
   tools: []
 related: ["tdah", "dispraxia", "discalculia", "plnm"]
