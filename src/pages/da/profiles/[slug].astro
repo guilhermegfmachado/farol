@@ -7,7 +7,6 @@ import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
-import SaveStar from '../../../components/SaveStar.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('profiles');
@@ -58,7 +57,6 @@ function entryHref(e: typeof allEntries[0]) {
       </div>
       <h1 class="card-title">{title}</h1>
       {subtitle && <p class="card-subtitle">{subtitle}</p>}
-    <div class="card-actions"><SaveStar type="profile" id={slug} label={t.save_add} labelSaved={t.save_remove} /></div>
     </header>
     {sections.map((section, i) => (
       <section class="card-section" data-a4={['Como se manifesta na sala', 'Estratégias sem IA', 'Sinais de alerta para referenciação'].includes(section.label) ? '' : undefined}>
@@ -123,10 +121,6 @@ function entryHref(e: typeof allEntries[0]) {
     )}
     <div class="print-bar"><button type="button" class="print-btn-a4">{t.a4_sheet} · PDF</button><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
   </article>
-  <nav class="card-nav" aria-label="Navigation mellem indgange">
-    {prev ? <a href={entryHref(prev).href} class="card-nav-item card-nav-prev"><span class="card-nav-dir">{t.nav_prev}</span><span class="card-nav-title">{entryHref(prev).title}</span></a> : <span />}
-    {next ? <a href={entryHref(next).href} class="card-nav-item card-nav-next"><span class="card-nav-dir">{t.nav_next}</span><span class="card-nav-title">{entryHref(next).title}</span></a> : <span />}
-  </nav>
   <Footer lang="da" />
 </Base>
 <style>
