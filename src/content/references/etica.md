@@ -32,6 +32,6 @@ references:
   - "União Europeia. (2016). <em>Regulamento (UE) 2016/679 (Regulamento Geral sobre a Proteção de Dados)</em>, Art. 8.º. Jornal Oficial da União Europeia, L 119."
   - "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO."
   - "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO."
-  - "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092."
-  - "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688."
+  - "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
 ---
