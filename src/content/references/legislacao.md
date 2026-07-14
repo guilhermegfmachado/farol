@@ -35,8 +35,8 @@ sections:
   - label: "O que guardar como referência rápida"
     items:
       - "<strong>DL 54/2018</strong> — regime geral da educação inclusiva (substituiu o DL 3/2008)."
-      - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior."
-      - "<strong>Despacho Normativo 1-F/2016</strong> — regime de avaliação dos alunos do ensino básico."
+      - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "<strong>Despacho Normativo 1-F/2016</strong> — regime de avaliação dos alunos do ensino básico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
       - "<strong>Circular 3/DSEEASE/2011</strong> — orientações para sobredotação."
       - "<strong>Despacho Normativo 7/2006</strong> — PLNM."
 references:

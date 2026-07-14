@@ -277,8 +277,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "European Union. (2016). <em>Regulation (EU) 2016/679 (General Data Protection Regulation)</em>, Art. 8. Official Journal of the European Union, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -678,8 +678,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Unión Europea. (2016). <em>Reglamento (UE) 2016/679 (Reglamento general de protección de datos)</em>, art. 8. Diario Oficial de la Unión Europea, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1079,8 +1079,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Union européenne. (2016). <em>Règlement (UE) 2016/679 (règlement général sur la protection des données)</em>, art. 8. Journal officiel de l'Union européenne, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1480,8 +1480,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Unione europea. (2016). <em>Regolamento (UE) 2016/679 (regolamento generale sulla protezione dei dati)</em>, art. 8. Gazzetta ufficiale dell'Unione europea, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1882,8 +1882,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Europäische Union. (2016). <em>Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung)</em>, Art. 8. Amtsblatt der Europäischen Union, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -2280,8 +2280,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Europese Unie. (2016). <em>Verordening (EU) 2016/679 (Algemene verordening gegevensbescherming)</em>, art. 8. Publicatieblad van de Europese Unie, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -2677,8 +2677,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Unia Europejska. (2016). <em>Rozporządzenie (UE) 2016/679 (ogólne rozporządzenie o ochronie danych)</em>, art. 8. Dziennik Urzędowy Unii Europejskiej, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3074,8 +3074,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Uniunea Europeană. (2016). <em>Regulamentul (UE) 2016/679 (Regulamentul general privind protecția datelor)</em>, art. 8. Jurnalul Oficial al Uniunii Europene, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3476,8 +3476,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Europska unija. (2016). <em>Uredba (EU) 2016/679 (Opća uredba o zaštiti podataka)</em>, čl. 8. Službeni list Europske unije, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3875,8 +3875,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Evropská unie. (2016). <em>Nařízení (EU) 2016/679 (obecné nařízení o ochraně osobních údajů)</em>, čl. 8. Úřední věstník Evropské unie, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -4273,8 +4273,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Europeiska unionen. (2016). <em>Förordning (EU) 2016/679 (allmän dataskyddsförordning)</em>, artikel 8. Europeiska unionens officiella tidning, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -4671,8 +4671,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Den Europæiske Union. (2016). <em>Forordning (EU) 2016/679 (generel forordning om databeskyttelse)</em>, artikel 8. Den Europæiske Unions Tidende, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5069,8 +5069,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Euroopan unioni. (2016). <em>Asetus (EU) 2016/679 (yleinen tietosuoja-asetus)</em>, 8 artikla. Euroopan unionin virallinen lehti, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5468,8 +5468,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Európska únia. (2016). <em>Nariadenie (EÚ) 2016/679 (všeobecné nariadenie o ochrane údajov)</em>, čl. 8. Úradný vestník Európskej únie, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5864,8 +5864,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Európai Unió. (2016). <em>(EU) 2016/679 rendelet (általános adatvédelmi rendelet)</em>, 8. cikk. Az Európai Unió Hivatalos Lapja, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -6262,8 +6262,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Ευρωπαϊκή Ένωση. (2016). <em>Κανονισμός (ΕΕ) 2016/679 (Γενικός Κανονισμός για την Προστασία Δεδομένων)</em>, άρθρο 8. Επίσημη Εφημερίδα της Ευρωπαϊκής Ένωσης, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -6660,8 +6660,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Европейски съюз. (2016). <em>Регламент (ЕС) 2016/679 (Общ регламент относно защитата на данните)</em>, чл. 8. Официален вестник на Европейския съюз, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7057,8 +7057,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Europos Sąjunga. (2016). <em>Reglamentas (ES) 2016/679 (Bendrasis duomenų apsaugos reglamentas)</em>, 8 straipsnis. Europos Sąjungos oficialusis leidinys, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7454,8 +7454,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Eiropas Savienība. (2016). <em>Regula (ES) 2016/679 (Vispārīgā datu aizsardzības regula)</em>, 8. pants. Eiropas Savienības Oficiālais Vēstnesis, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7854,8 +7854,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Euroopa Liit. (2016). <em>Määrus (EL) 2016/679 (isikuandmete kaitse üldmäärus)</em>, artikkel 8. Euroopa Liidu Teataja, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -8255,8 +8255,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Evropska unija. (2016). <em>Uredba (EU) 2016/679 (Splošna uredba o varstvu podatkov)</em>, člen 8. Uradni list Evropske unije, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -8654,8 +8654,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "An tAontas Eorpach. (2016). <em>Rialachán (AE) 2016/679 (An Rialachán Ginearálta maidir le Cosaint Sonraí)</em>, Airteagal 8. Iris Oifigiúil an Aontais Eorpaigh, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -9054,8 +9054,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "L-Unjoni Ewropea. (2016). <em>Regolament (UE) 2016/679 (Regolament Ġenerali dwar il-Protezzjoni tad-Data)</em>, Artikolu 8. Il-Ġurnal Uffiċjali tal-Unjoni Ewropea, L 119.",
       "UNESCO. (2021). <em>Recommendation on the Ethics of Artificial Intelligence</em>. Paris: UNESCO.",
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
-      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092.",
-      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688.",
+      "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
