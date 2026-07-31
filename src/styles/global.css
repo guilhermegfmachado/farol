@@ -555,3 +555,11 @@ html.pdf-export .star-btn { display: none !important; }
 
 /* Referral-signs disclaimer: one quiet line closing the section. */
 .referral-note { font-size: 0.78rem; font-style: italic; color: var(--ink-faded); margin: 0.6rem 0 0; line-height: 1.5; }
+
+/* Legal-framework card: each language carries its own country's legislation,
+   so tell readers using a lingua franca that their country's version exists. */
+.country-note {
+  font-size: 0.8rem; color: var(--ink-faded); line-height: 1.5;
+  margin: 0.9rem 0 0; padding-left: 0.8rem; border-left: 2px solid var(--rule);
+}
+@media print { .country-note { display: none; } }
