@@ -50,6 +50,10 @@ function entryHref(e: typeof allEntries[0]) {
       <h1 class="card-title">{title}</h1>
       {subtitle && <p class="card-subtitle">{subtitle}</p>}
     </header>
+
+    {slug === 'legislacao' && (
+      <p class="country-note">{t.legal_country_note}</p>
+    )}
     {sections.map((section, i) => (
       <section class="card-section">
         <h2 class="card-section-label">{sectionLabelTranslations.da?.[section.label] ?? section.label}</h2>
