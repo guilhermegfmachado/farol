@@ -64,7 +64,7 @@ function entryHref(e: typeof allEntries[0]) {
     </header>
 
     {slug === 'legislacao' && (
-      <p class="country-note">{t.legal_country_note}</p>
+      <p class="country-note" set:html={t.legal_country_note} />
     )}
 
     {sections.map((section, i) => (

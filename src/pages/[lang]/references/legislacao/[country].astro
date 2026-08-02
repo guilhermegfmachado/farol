@@ -1,0 +1,75 @@
+---
+// Country variants of the legal-framework card. Language routes the manual;
+// this one card additionally routes by country, because language is not
+// country (German covers Germany, Austria, Belgium and Luxembourg).
+import { ui, entryTranslations, categoryTranslations, type Lang } from '@/lib/i18n';
+import { countryLegal } from '@/lib/country-legal';
+import Base from '../../../../layouts/Base.astro';
+import Header from '../../../../components/Header.astro';
+import Footer from '../../../../components/Footer.astro';
+import Breadcrumb from '../../../../components/Breadcrumb.astro';
+
+export function getStaticPaths() {
+  return Object.values(countryLegal).map((v) => ({
+    params: { lang: v.lang, country: v.code },
+    props: { v },
+  }));
+}
+
+const { v } = Astro.props as { v: (typeof countryLegal)[string] };
+const lang = v.lang as Lang;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui[lang];
+const selfHref = `${base}${lang}/references/legislacao/${v.code}/`;
+// The default (language-level) legal card, i.e. the other country in this language.
+const defaultHref = `${base}${lang}/references/legislacao/`;
+const catLabel = categoryTranslations[lang]?.['Referência'] ?? 'Referência';
+const note = v.note.replace('__DE__', defaultHref);
+---
+<Base
+  title={`${v.title} (${v.country}) — Farol`}
+  description={v.desc}
+  altHrefs={{ [lang]: selfHref }}
+>
+  <Header lang={lang} altHrefs={{ [lang]: selfHref }} />
+
+  <Breadcrumb crumbs={[
+    { label: t.breadcrumb_home, href: `${base}${lang}/` },
+    { label: v.title.toLowerCase(), href: defaultHref },
+    { label: v.country.toLowerCase() },
+  ]} />
+
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta">
+        <span class="card-category">{catLabel}</span>
+      </div>
+      <h1 class="card-title">{v.title} — {v.country}</h1>
+      <p class="card-subtitle">{v.subtitle}</p>
+    </header>
+
+    <p class="country-note" set:html={note} />
+
+    {v.sections.map((section) => (
+      <section class="card-section">
+        <h2 class="card-section-label">{section.label}</h2>
+        <ul>
+          {section.items.map((item) => <li><span set:html={item} /></li>)}
+        </ul>
+      </section>
+    ))}
+
+    <section class="card-section references-section">
+      <h2 class="card-section-label">{v.refsLabel}</h2>
+      <ol class="references-list">
+        {v.references.map((ref, i) => (
+          <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
+        ))}
+      </ol>
+    </section>
+
+    <div class="print-bar"><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
+  </article>
+
+  <Footer lang={lang} />
+</Base>

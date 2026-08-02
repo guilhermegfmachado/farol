@@ -609,7 +609,7 @@ export const ui = {
     feedback_link: 'Korrektur vorschlagen',
     print_card: 'Karte drucken',
     a4_sheet: 'A4-Blatt',
-    legal_country_note: 'Diese Karte behandelt Deutschland. Für Österreich, Belgien und Luxemburg gibt es hier keine eigene Fassung, und ihre Regelungen weichen ab — wenden Sie sich an Ihre nationale Schulbehörde. Für andere Länder oben die Sprache wechseln.',
+    legal_country_note: 'Diese Karte behandelt Deutschland. Für <a href=\"/farol/de/references/legislacao/at/\">Österreich gibt es eine eigene Fassung</a>. Für Belgien und Luxemburg besteht hier noch keine Fassung, und ihre Regelungen weichen ab — wenden Sie sich an Ihre nationale Schulbehörde.',
     referral_note: 'Informativ, nicht klinisch — im Zweifel den schulpsychologischen Dienst oder qualifizierte Fachleute hinzuziehen.',
     about_more: 'Mehr erfahren',
     home_profiles: 'Profile',
