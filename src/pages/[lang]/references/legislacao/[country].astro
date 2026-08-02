@@ -24,7 +24,7 @@ const selfHref = `${base}${lang}/references/legislacao/${v.code}/`;
 // The default (language-level) legal card, i.e. the other country in this language.
 const defaultHref = `${base}${lang}/references/legislacao/`;
 const catLabel = categoryTranslations[lang]?.['Referência'] ?? 'Referência';
-const note = v.note.replace('__DE__', defaultHref);
+const note = v.note.replace('__DEFAULT__', defaultHref);
 ---
 <Base
   title={`${v.title} (${v.country}) — Farol`}
