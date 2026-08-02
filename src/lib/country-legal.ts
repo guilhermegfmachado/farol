@@ -33,15 +33,17 @@ const c = (n: number) => `<sup class="cite"><a href="#ref-${n}">${n}</a></sup>`;
 const c2 = (a: number, b: number) =>
   `<sup class="cite"><a href="#ref-${a}">${a}</a>,<a href="#ref-${b}">${b}</a></sup>`;
 
+// Keyed by `${lang}-${code}`: Belgium appears three times under the same URL
+// segment because language already disambiguates the community.
 export const countryLegal: Record<string, CountryLegal> = {
-  at: {
+  'de-at': {
     lang: 'de',
     code: 'at',
     country: 'Österreich',
     title: 'Rechtsrahmen',
     subtitle: 'Schulpflichtgesetz 1985 und begleitende Regelungen für inklusive Bildung in Österreich',
     desc: 'Der Rechtsrahmen, der Maßnahmen, Verfahren und Verantwortlichkeiten in der inklusiven österreichischen Schule definiert.',
-    note: 'Diese Karte behandelt <strong>Österreich</strong>. Für Deutschland gibt es eine <a href="__DE__">eigene Fassung</a>. Für Belgien und Luxemburg besteht hier noch keine Fassung — wenden Sie sich an Ihre nationale Schulbehörde.',
+    note: 'Diese Karte behandelt <strong>Österreich</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/be/">Ostbelgien</a>. Für Luxemburg besteht hier noch keine Fassung — wenden Sie sich an Ihre nationale Schulbehörde.',
     sections: [
       {
         label: 'Schulpflichtgesetz 1985 — die zentrale Grundlage',
@@ -110,9 +112,203 @@ export const countryLegal: Record<string, CountryLegal> = {
       `Deutschförderklassen und Deutschförderkurse sowie MIKA-D zur Feststellung des (außer-)ordentlichen Status, Bundesministerium für Bildung / IQS.${src('https://www.iqs.gv.at/themen/nationale-kompetenzerhebung/mika-d')}`,
     ],
   },
+'nl-be': {
+    lang: 'nl',
+    code: 'be',
+    country: 'Vlaanderen',
+    title: 'Wettelijk kader',
+    subtitle: 'Leersteundecreet (2023) en het zorgcontinuüm voor leerlingen met specifieke onderwijsbehoeften in Vlaanderen',
+    desc: 'Het wettelijk kader dat maatregelen, procedures en verantwoordelijkheden bepaalt in de inclusieve Vlaamse school.',
+    note: 'Deze kaart betreft <strong>Vlaanderen</strong> (België). Onderwijs is in België een bevoegdheid van de gemeenschappen: voor de <a href="/farol/fr/references/legislacao/be/">Franse Gemeenschap</a> en de <a href="/farol/de/references/legislacao/be/">Duitstalige Gemeenschap</a> gelden andere regels. Voor <a href="__DEFAULT__">Nederland</a> is er een aparte versie.',
+    sections: [
+      {
+        label: 'Leersteundecreet — het centrale kader',
+        items: [
+          `Het Leersteundecreet werd op 3 mei 2023 goedgekeurd en trad op 1 september 2023 in werking; het vervangt het M-decreet.${c(1)}`,
+          `Het vertrekt van het recht op kwaliteitsvol inclusief onderwijs voor elk kind.${c(1)}`,
+          `Een specifieke onderwijsbehoefte wordt niet als een persoonlijk gebrek gezien (medisch deficitdenken), maar als een <strong>afstemmingsprobleem</strong> tussen de klas- en schoolcontext en de behoeften van de leerling.${c(1)}`,
+          `Leersteuncentra ondersteunen leerlingen met specifieke onderwijsbehoeften in het gewoon onderwijs; de ondersteuning richt zich op de leerling, de leraar én het schoolteam.${c(1)}`,
+        ],
+      },
+      {
+        label: 'Het zorgcontinuüm — wat de school zelf doet',
+        items: [
+          `<strong>Brede basiszorg</strong>: de zorg die elke leraar aan alle leerlingen biedt om optimale ontwikkelingskansen na te streven.${c(2)}`,
+          `<strong>Verhoogde zorg</strong>: volstaat de basiszorg niet, dan komen remediërende, differentiërende, compenserende en dispenserende maatregelen erbij — vaak STICORDI of ReDiCoDis genoemd.${c(2)}`,
+          `<strong>Uitbreiding van zorg</strong>: de school stelt vast dat verhoogde zorg onvoldoende is en de redelijke aanpassingen uitgeput zijn; het CLB wordt betrokken.${c(2)}`,
+          `<strong>Individueel aangepast curriculum (IAC)</strong>: wanneer het gemeenschappelijk curriculum ook mét aanpassingen niet haalbaar blijft.${c(2)}`,
+        ],
+      },
+      {
+        label: 'Wanneer en waarheen verwijzen',
+        items: [
+          `Het <strong>CLB</strong> (Centrum voor Leerlingenbegeleiding) is de vaste partner van de school en de eerste stap buiten het schoolteam.${c(2)}`,
+          `Een verslag (GC-verslag, IAC-verslag of OV4-verslag) opent het recht op leersteun of op een individueel traject.${c(1)}`,
+          `Diagnoses stellen is werk voor het CLB of externe diagnostische centra — niet voor de leraar.`,
+        ],
+      },
+      {
+        label: 'Anderstalige nieuwkomers',
+        items: [
+          `<strong>OKAN</strong> (onthaalonderwijs voor anderstalige nieuwkomers) bestaat sinds 1995 en vangt leerlingen op die het Nederlands nog niet kennen.${c(3)}`,
+          `Scholen werken met een individueel leertraject tijdens het onthaaljaar én bij de overgang naar het gewoon onderwijs.${c(3)}`,
+          `Nieuwkomers blijven vaker zitten en zijn oververtegenwoordigd in bso en tso — beoordeel taalbarrière en leerstoornis apart.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Cognitief sterk functionerende leerlingen',
+        items: [
+          `Er is geen apart decreet voor hoogbegaafdheid; de Vlaamse overheid ondersteunt scholen via een beleid rond cognitief sterk functionerende leerlingen, met ankerscholen die praktijk en beleid versterken.${c(4)}`,
+          `Verrijking binnen de klas — diepere in plaats van méér opdrachten — vraagt geen procedure.`,
+        ],
+      },
+      {
+        label: 'Om snel na te slaan',
+        items: [
+          `Leersteun en verslagen: Leersteundecreet, van kracht sinds 1 september 2023.${c(1)}`,
+          `Fasen van zorg en STICORDI/ReDiCoDis: het zorgcontinuüm.${c(2)}`,
+          `Eerste stap buiten de school: het CLB.${c(2)}`,
+          `Anderstalige nieuwkomers: OKAN.${c(3)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Referenties',
+    references: [
+      `Decreet leersteun (Leersteundecreet), goedgekeurd op 3 mei 2023, in werking sinds 1 september 2023 — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/nl/leerlingen-met-specifieke-onderwijsbehoeften-in-het-secundair-onderwijs')}`,
+      `Het zorgcontinuüm: brede basiszorg, verhoogde zorg en uitbreiding van zorg — Prodia.${src('https://prodiagnostiek.be/het-zorgcontinuum/brede-basiszorg/')}`,
+      `Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/nl/okan')}`,
+      `Ondersteuningsbeleid cognitief sterk functionerende leerlingen — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/oproep-ondersteuningsbeleid-cognitief-sterk-functionerende-leerlingen')}`,
+    ],
+  },
+
+  'fr-be': {
+    lang: 'fr',
+    code: 'be',
+    country: 'Fédération Wallonie-Bruxelles',
+    title: 'Cadre légal',
+    subtitle: 'Décret du 7 décembre 2017 sur les aménagements raisonnables et pôles territoriaux en Fédération Wallonie-Bruxelles',
+    desc: "Le cadre légal définissant mesures, procédures et responsabilités dans l'école inclusive en Fédération Wallonie-Bruxelles.",
+    note: "Cette fiche couvre la <strong>Fédération Wallonie-Bruxelles</strong> (Belgique). En Belgique, l’enseignement relève des communautés : la <a href=\"/farol/nl/references/legislacao/be/\">Communauté flamande</a> et la <a href=\"/farol/de/references/legislacao/be/\">Communauté germanophone</a> ont leurs propres règles. Pour la <a href=\"__DEFAULT__\">France</a>, il existe une fiche distincte.",
+    sections: [
+      {
+        label: 'Décret du 7 décembre 2017 — le texte central',
+        items: [
+          `Tout élève de l’enseignement ordinaire fondamental et secondaire présentant un ou des besoins spécifiques a droit à des <strong>aménagements raisonnables</strong> matériels, organisationnels ou pédagogiques appropriés, pour autant que sa situation ne rende pas indispensable une prise en charge par l’enseignement spécialisé.${c(1)}`,
+          `Le décret précise les modalités de concertation et de mise en œuvre; il s’applique depuis l’année scolaire 2018-2019.${c(1)}`,
+          `Un aménagement raisonnable adapte les conditions, pas le niveau d’exigence.`,
+        ],
+      },
+      {
+        label: 'Pôles territoriaux',
+        items: [
+          `Créés dans le cadre du <strong>Pacte pour un Enseignement d’excellence</strong>, ils soutiennent les écoles ordinaires dans la mise en place des aménagements raisonnables et des intégrations permanentes totales.${c(2)}`,
+          `Un pôle territorial est une structure rattachée à une école d’enseignement spécialisé, dite « école siège ».${c(2)}`,
+        ],
+      },
+      {
+        label: 'Concertation et orientation',
+        items: [
+          `La mise en place des aménagements passe par une <strong>réunion de concertation</strong>.${c(1)}`,
+          `La présence d’experts requiert l’accord de la direction, après concertation avec l’équipe éducative et consultation, le cas échéant, des CPMS ou de centres agréés par la Fédération Wallonie-Bruxelles.${c(1)}`,
+          `Le <strong>CPMS</strong> (Centre psycho-médico-social) est le partenaire habituel de l’école; le diagnostic relève de professionnels qualifiés, pas de l’enseignant.`,
+        ],
+      },
+      {
+        label: 'Élèves à haut potentiel',
+        items: [
+          `Le haut potentiel figure parmi les besoins spécifiques: la Fédération Wallonie-Bruxelles a publié des fiches-outils sur les besoins spécifiques et les aménagements raisonnables, dont une consacrée au haut potentiel intellectuel, ainsi qu’une brochure sur l’enseignement aux élèves à haut potentiel.${c(3)}`,
+          `L’enrichissement en classe — des tâches plus exigeantes plutôt que plus nombreuses — ne requiert aucune procédure.`,
+        ],
+      },
+      {
+        label: 'Élèves primo-arrivants',
+        items: [
+          `Le <strong>DASPA</strong> (dispositif d’accueil et de scolarisation des élèves primo-arrivants), voté le 18 mai 2012, organise l’accueil, l’orientation et l’intégration.${c(4)}`,
+          `La durée en DASPA va d’une semaine à un an, prolongeable de six mois au maximum sur décision du conseil d’intégration.${c(4)}`,
+          `La barrière linguistique n’est pas un trouble d’apprentissage: les deux s’évaluent séparément.`,
+        ],
+      },
+      {
+        label: 'À retenir',
+        items: [
+          `Aménagements raisonnables: décret du 7 décembre 2017.${c(1)}`,
+          `Appui à l’école ordinaire: pôle territorial rattaché à une école siège.${c(2)}`,
+          `Premier relais hors de l’équipe éducative: le CPMS.${c(1)}`,
+          `Primo-arrivants: DASPA.${c(4)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Références',
+    references: [
+      `Décret du 7 décembre 2017 relatif à l’accueil, à l’accompagnement et au maintien dans l’enseignement ordinaire fondamental et secondaire des élèves présentant des besoins spécifiques.${src('https://gallilex.cfwb.be/textes-normatifs/44807')}`,
+      `Pôles territoriaux — Pacte pour un Enseignement d’excellence, Fédération Wallonie-Bruxelles.${src('https://pactepourunenseignementdexcellence.cfwb.be/actualites/pacte-enseignement-excellence-poles-territoriaux-ecole-inclusive-besoins-specifiques/')}`,
+      `Les aménagements raisonnables — enseignement.be, Fédération Wallonie-Bruxelles.${src('http://www.enseignement.be/index.php?page=27781')}`,
+      `Décret du 18 mai 2012 visant à mettre en place un dispositif d’accueil et de scolarisation des élèves primo-arrivants (DASPA).`,
+    ],
+  },
+
+  'de-be': {
+    lang: 'de',
+    code: 'be',
+    country: 'Ostbelgien',
+    title: 'Rechtsrahmen',
+    subtitle: 'Förderdekrete der Deutschsprachigen Gemeinschaft Belgiens für inklusive Bildung in Ostbelgien',
+    desc: 'Der Rechtsrahmen, der Maßnahmen, Verfahren und Verantwortlichkeiten in der inklusiven Schule der Deutschsprachigen Gemeinschaft Belgiens definiert.',
+    note: 'Diese Karte behandelt die <strong>Deutschsprachige Gemeinschaft Belgiens</strong> (Ostbelgien). Bildung ist in Belgien Sache der Gemeinschaften: für <a href="/farol/nl/references/legislacao/be/">Flandern</a> und die <a href="/farol/fr/references/legislacao/be/">Französische Gemeinschaft</a> gelten andere Regeln. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/at/">Österreich</a>.',
+    sections: [
+      {
+        label: 'Rechtliche Grundlagen',
+        items: [
+          `Nach dem Dekret vom 31. August 1998 hat jede Schülerin und jeder Schüler ein Recht auf angemessene pädagogische Förderung — auch bei Behinderung, Anpassungs- oder Lernschwierigkeiten — beim Erwerb schulischer, sozialer und gesellschaftlicher Kompetenzen.${c(1)}`,
+          `Die Förderung soll im natürlichen Lebensumfeld stattfinden, möglichst wohnortnah und vorzugsweise integriert in einer Regelklasse, bei Bedarf ergänzt durch förderpädagogische Maßnahmen in Integrationsprojekten oder an einer Förderschule.${c(1)}`,
+          `Das Dekret vom 11. Mai 2009 schuf das <strong>Zentrum für Förderpädagogik</strong> (ZFP), um die Förderung an Regel- und Förderschulen zu verbessern.${c(2)}`,
+          `Das Dekret vom 25. Juni 2012 regelt Schulinspektion, Schulentwicklungsberatung sowie die Schulberatung für Inklusion und Integration.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Das Zentrum für Förderpädagogik',
+        items: [
+          `Es koordiniert förderpädagogische Maßnahmen in Integrationsprojekten und stellt Fachpersonal für die Förderung an Regelschulen bereit.${c(2)}`,
+          `Es unterstützt beim Erstellen individueller Förderpläne.${c(2)}`,
+          `Es umfasst Abteilungen für Grund- und Sekundarschule sowie ein Internat.${c(2)}`,
+        ],
+      },
+      {
+        label: 'Wer sonst unterstützt',
+        items: [
+          `<strong>Kaleido Ostbelgien</strong>, das Zentrum für die gesunde Entwicklung von Kindern und Jugendlichen, arbeitet mit Fachberatungen, der Schulentwicklungsberatung, der Schulberatung für Inklusion und Integration sowie dem Kompetenzzentrum des ZFP zusammen.${c(4)}`,
+          `Diagnosen stellen klinische oder ärztliche Stellen, nicht die Schule.`,
+        ],
+      },
+      {
+        label: 'Laufende Reform',
+        items: [
+          `Die Förderschulen beider Schulnetze — das ZFP und die Pater-Damian-Fördergrundschule — werden strukturell zusammengeführt; das neue <strong>Zentrum für inklusive Pädagogik</strong> (ZiP) soll 2026 seine Arbeit aufnehmen.${c(5)}`,
+          `Prüfen Sie bei konkreten Verfahren daher stets den aktuellen Stand bei der zuständigen Stelle.`,
+        ],
+      },
+      {
+        label: 'Zum Nachschlagen',
+        items: [
+          `Recht auf angemessene Förderung: Dekret vom 31. August 1998.${c(1)}`,
+          `Förderpädagogische Unterstützung und Förderpläne: Zentrum für Förderpädagogik, Dekret vom 11. Mai 2009.${c(2)}`,
+          `Beratung für Inklusion und Integration: Dekret vom 25. Juni 2012.${c(3)}`,
+          `Erste Anlaufstelle für Familien und Schulen: Kaleido Ostbelgien.${c(4)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Referenzen',
+    references: [
+      `Dekret vom 31. August 1998 — Recht auf angemessene pädagogische Förderung, Deutschsprachige Gemeinschaft Belgiens.${src('https://eurydice.eacea.ec.europa.eu/eurypedia/belgium-german-speaking-community/separate-special-education-needs-provision-early')}`,
+      `Dekret vom 11. Mai 2009 über das Zentrum für Förderpädagogik.${src('https://zfp.be/index.php?id=76')}`,
+      `Dekret vom 25. Juni 2012 über die Schulinspektion, die Schulentwicklungsberatung und die Schulberatung für Inklusion und Integration.`,
+      `Pädagogische Förderung und Beratung in der Deutschsprachigen Gemeinschaft — Eurydice.${src('https://eurydice.eacea.ec.europa.eu/de/national-education-systems/belgium-german-speaking-community/paedagogische-foerderung-und-beratung')}`,
+      `Reform im Bereich der Förderpädagogik: Zusammenführung von ZFP und Pater-Damian-Fördergrundschule zum Zentrum für inklusive Pädagogik (ZiP) ab 2026.${src('https://lydiaklinkenberg.be/reform-im-bereich-der-foerderpaedagogik/')}`,
+    ],
+  },
 };
 
-/** Country variants available for a given language, excluding `code`. */
+/** Country variants available in a given language, excluding one code. */
 export function variantsFor(lang: Lang, exclude?: string): CountryLegal[] {
   return Object.values(countryLegal).filter((v) => v.lang === lang && v.code !== exclude);
 }
