@@ -497,6 +497,17 @@ html.pdf-export {
 /* Screen-only controls make no sense on paper. @media print already hides them,
    but html2canvas rasterises the screen view, so hide them for the capture too. */
 html.pdf-export .star-btn { display: none !important; }
+/* The card fades in via `animation: fadeUp ... backwards`, which holds it at
+   opacity 0 until the animation runs. html2canvas clones the DOM and captures
+   almost immediately, so the clone was often rasterised while still invisible —
+   producing blank PDF pages (always on the text-only reference cards, about a
+   third of the time on profiles). Neutralise entry animations for the capture. */
+html.pdf-export .animate-in,
+html.pdf-export .animate-in * {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
 
 /* ── Homepage restructure: grouped chips, sectioned grid, compact intro ── */
 .observe-group { margin-bottom: 1.1rem; }

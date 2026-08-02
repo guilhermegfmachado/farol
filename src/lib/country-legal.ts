@@ -242,7 +242,7 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Décret du 7 décembre 2017 relatif à l’accueil, à l’accompagnement et au maintien dans l’enseignement ordinaire fondamental et secondaire des élèves présentant des besoins spécifiques.${src('https://gallilex.cfwb.be/textes-normatifs/44807')}`,
       `Pôles territoriaux — Pacte pour un Enseignement d’excellence, Fédération Wallonie-Bruxelles.${src('https://pactepourunenseignementdexcellence.cfwb.be/actualites/pacte-enseignement-excellence-poles-territoriaux-ecole-inclusive-besoins-specifiques/')}`,
-      `Les aménagements raisonnables — enseignement.be, Fédération Wallonie-Bruxelles.${src('http://www.enseignement.be/index.php?page=27781')}`,
+      `Les aménagements raisonnables — enseignement.be, Fédération Wallonie-Bruxelles.${src('https://www.enseignement.be/index.php?page=27781')}`,
       `Décret du 18 mai 2012 visant à mettre en place un dispositif d’accueil et de scolarisation des élèves primo-arrivants (DASPA).`,
     ],
   },
