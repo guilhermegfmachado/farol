@@ -560,6 +560,6 @@ html.pdf-export .star-btn { display: none !important; }
    so tell readers using a lingua franca that their country's version exists. */
 .country-note {
   font-size: 0.8rem; color: var(--ink-faded); line-height: 1.5;
-  margin: 0.9rem 0 0; padding-left: 0.8rem; border-left: 2px solid var(--rule);
+  margin: 0.9rem 0 1.6rem; padding-left: 0.8rem; border-left: 2px solid var(--rule);
 }
 @media print { .country-note { display: none; } }

@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { entryTranslations, categoryTranslations, type Lang } from '@/lib/i18n';
 import { contentTranslations } from '@/lib/content-translations';
 import { toolTranslations } from '@/lib/tool-translations';
+import { countryLegal } from '@/lib/country-legal';
 
 const LANGS: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
 
@@ -75,6 +76,26 @@ export const GET: APIRoute = async ({ params }) => {
       x: `${tool.data.name} ${desc} ${rgpd}`.toLowerCase(),
     });
   });
+
+  // Country variants of the legal card (e.g. Austria under German) are real
+  // pages with their own law — index them so a teacher searching their own
+  // system's terms finds their card, not only the language default.
+  Object.values(countryLegal)
+    .filter((v) => v.lang === lang)
+    .forEach((v) => {
+      const bodyBits: string[] = [];
+      v.sections.forEach((sec) => sec.items.forEach((it) => bodyBits.push(strip(it))));
+      v.references.forEach((r) => bodyBits.push(strip(r)));
+      const body = bodyBits.join(' ');
+      items.push({
+        t: `${v.title} — ${v.country}`,
+        c: categoryTranslations[lang]?.['Referência'] ?? 'Referência',
+        k: 'Referência',
+        u: `${prefix}references/legislacao/${v.code}/`,
+        s: snippet(v.subtitle || body),
+        x: `${v.title} ${v.country} ${v.subtitle} ${body}`.toLowerCase(),
+      });
+    });
 
   return new Response(JSON.stringify(items), {
     headers: { 'Content-Type': 'application/json; charset=utf-8' },
