@@ -43,7 +43,7 @@ export const countryLegal: Record<string, CountryLegal> = {
     title: 'Rechtsrahmen',
     subtitle: 'Schulpflichtgesetz 1985 und begleitende Regelungen für inklusive Bildung in Österreich',
     desc: 'Der Rechtsrahmen, der Maßnahmen, Verfahren und Verantwortlichkeiten in der inklusiven österreichischen Schule definiert.',
-    note: 'Diese Karte behandelt <strong>Österreich</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/be/">Ostbelgien</a>. Für Luxemburg besteht hier noch keine Fassung — wenden Sie sich an Ihre nationale Schulbehörde.',
+    note: 'Diese Karte behandelt <strong>Österreich</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/be/">Ostbelgien</a>. Für Luxemburg gibt es eine <a href="/farol/fr/references/legislacao/lu/">Fassung auf Französisch</a>, der Sprache der dortigen Rechtstexte.',
     sections: [
       {
         label: 'Schulpflichtgesetz 1985 — die zentrale Grundlage',
@@ -304,6 +304,103 @@ export const countryLegal: Record<string, CountryLegal> = {
       `Dekret vom 25. Juni 2012 über die Schulinspektion, die Schulentwicklungsberatung und die Schulberatung für Inklusion und Integration.`,
       `Pädagogische Förderung und Beratung in der Deutschsprachigen Gemeinschaft — Eurydice.${src('https://eurydice.eacea.ec.europa.eu/de/national-education-systems/belgium-german-speaking-community/paedagogische-foerderung-und-beratung')}`,
       `Reform im Bereich der Förderpädagogik: Zusammenführung von ZFP und Pater-Damian-Fördergrundschule zum Zentrum für inklusive Pädagogik (ZiP) ab 2026.${src('https://lydiaklinkenberg.be/reform-im-bereich-der-foerderpaedagogik/')}`,
+    ],
+  },
+'el-cy': {
+    lang: 'el',
+    code: 'cy',
+    country: 'Κύπρος',
+    title: 'Νομικό πλαίσιο',
+    subtitle: 'Ο περί Αγωγής και Εκπαίδευσης Παιδιών με Ειδικές Ανάγκες Νόμος 113(Ι)/1999 και οι Κανονισμοί του 2001 στην Κύπρο',
+    desc: 'Το νομικό πλαίσιο που ορίζει μέτρα, διαδικασίες και ευθύνες στο ενταξιακό σχολείο της Κύπρου.',
+    note: 'Αυτή η κάρτα αφορά την <strong>Κύπρο</strong>. Για την <a href="__DEFAULT__">Ελλάδα</a> υπάρχει ξεχωριστή έκδοση — τα δύο πλαίσια διαφέρουν, παρότι η γλώσσα είναι κοινή.',
+    sections: [
+      {
+        label: 'Ο Νόμος 113(Ι)/1999 — το κεντρικό κείμενο',
+        items: [
+          `Ο περί Αγωγής και Εκπαίδευσης Παιδιών με Ειδικές Ανάγκες Νόμος 113(Ι)/1999 εφαρμόζεται από τον Σεπτέμβριο του 2001, μαζί με τους αντίστοιχους Κανονισμούς του 2001.${c(1)}`,
+          `Κατοχυρώνει το <strong>δικαίωμα φοίτησης στη γενική εκπαίδευση</strong> και θεσπίζει μηχανισμό εντοπισμού, αξιολόγησης και επαναξιολόγησης του παιδιού, με διασφαλισμένη συμμετοχή των γονέων στη λήψη αποφάσεων.${c(1)}`,
+          `Ο νόμος έχει τροποποιηθεί με τους Νόμους 69(Ι)/2001, 87(Ι)/2014 και 166(Ι)/2020 — ελέγχετε πάντα την ισχύουσα ενοποιημένη μορφή.${c2(1, 2)}`,
+        ],
+      },
+      {
+        label: 'Ποιος αποφασίζει',
+        items: [
+          `Η εγγραφή και η τοποθέτηση αποφασίζονται από τις <strong>Επαρχιακές Επιτροπές Ειδικής Αγωγής και Εκπαίδευσης</strong>, ύστερα από πολυθεματική αξιολόγηση, σύμφωνα με τον Νόμο 113(Ι)/1999.${c(1)}`,
+          `Η εφαρμογή του νόμου οδήγησε στη δημιουργία <strong>ειδικών μονάδων σε γενικά σχολεία</strong>, όπου το παιδί λαμβάνει εξατομικευμένη στήριξη παράλληλα με την ένταξή του στη γενική τάξη.${c(1)}`,
+        ],
+      },
+      {
+        label: 'Πού απευθύνεται το σχολείο',
+        items: [
+          `Η <strong>Υπηρεσία Εκπαιδευτικής Ψυχολογίας</strong> του Υπουργείου Παιδείας συνεργάζεται με τα σχολεία για μεμονωμένες περιπτώσεις μαθητών, μετά τη συμπλήρωση των σχετικών εντύπων.${c(3)}`,
+          `Η Υπηρεσία στηρίζει επίσης μαθητές με μεταναστευτική βιογραφία που δεν έχουν ολοκληρώσει τα μαθήματα ελληνομάθειας, και μπορεί να συμβάλει σε ομαδικές, προληπτικές ή παρεμβατικές δράσεις.${c(3)}`,
+          `Η διάγνωση ανήκει σε ειδικούς επαγγελματίες, όχι στο σχολείο· ο ρόλος του εκπαιδευτικού είναι η παρατήρηση και η παραπομπή.`,
+        ],
+      },
+      {
+        label: 'Για γρήγορη αναφορά',
+        items: [
+          `Κεντρικός νόμος: 113(Ι)/1999, όπως τροποποιήθηκε (69(Ι)/2001, 87(Ι)/2014, 166(Ι)/2020).${c(1)}`,
+          `Αποφασιστικό όργανο: Επαρχιακή Επιτροπή Ειδικής Αγωγής και Εκπαίδευσης, μετά από πολυθεματική αξιολόγηση.${c(1)}`,
+          `Πρώτη επαφή για το σχολείο: Υπηρεσία Εκπαιδευτικής Ψυχολογίας.${c(3)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Παραπομπές',
+    references: [
+      `Ο περί Αγωγής και Εκπαίδευσης Παιδιών με Ειδικές Ανάγκες Νόμος του 1999 (113(Ι)/1999), ενοποιημένο κείμενο.${src('https://www.cylaw.org/nomoi/enop/non-ind/1999_1_113/full.html')}`,
+      `Τροποποιητικοί νόμοι 69(Ι)/2001, 87(Ι)/2014 και 166(Ι)/2020.${src('https://www.cylaw.org/nomoi/indexes/1999_1_113.html')}`,
+      `Συνεργασία της Υπηρεσίας Εκπαιδευτικής Ψυχολογίας με τα σχολεία — Υπουργείο Παιδείας, εγκύκλιος.${src('https://enimerosi.moec.gov.cy/archeia/1/ypp18857a')}`,
+    ],
+  },
+
+  'fr-lu': {
+    lang: 'fr',
+    code: 'lu',
+    country: 'Luxembourg',
+    title: 'Cadre légal',
+    subtitle: 'Loi du 20 juillet 2018 sur les centres de compétences en psycho-pédagogie spécialisée et l’éducation inclusive au Luxembourg',
+    desc: "Le cadre légal définissant mesures, procédures et responsabilités dans l'école inclusive luxembourgeoise.",
+    note: 'Cette fiche couvre le <strong>Luxembourg</strong>. Des fiches distinctes existent pour la <a href="__DEFAULT__">France</a> et la <a href="/farol/fr/references/legislacao/be/">Fédération Wallonie-Bruxelles</a>. Au Luxembourg, les textes légaux de référence sont en français.',
+    sections: [
+      {
+        label: 'Loi du 20 juillet 2018 — le texte central',
+        items: [
+          `La loi du 20 juillet 2018 crée les <strong>centres de compétences en psycho-pédagogie spécialisée</strong> en faveur de l’inclusion scolaire, ainsi que le <strong>Service national de l’éducation inclusive</strong> (SNEI).${c(1)}`,
+          `Huit centres de compétences et une agence répondent aux besoins spécifiques que les élèves peuvent présenter.${c(2)}`,
+          `Parmi eux: le centre pour le développement socio-émotionnel, le Centre pour le développement des apprentissages Grande-Duchesse Maria Teresa (dyslexie, dyscalculie, dyspraxie) et le centre pour enfants et jeunes intellectuellement précoces.${c(2)}`,
+        ],
+      },
+      {
+        label: 'Qui décide',
+        items: [
+          `La <strong>Commission nationale d’inclusion</strong>, créée par la loi de 2018, statue sur les demandes de prise en charge, vérifie la pertinence des diagnostics spécialisés et décide des mesures de soutien — après accord des parents.${c(1)}`,
+          `L’accord parental est une condition, pas une formalité.`,
+        ],
+      },
+      {
+        label: 'Le soutien dans l’école',
+        items: [
+          `Dans l’enseignement secondaire, l’élève et l’enseignant peuvent s’adresser aux équipes de soutien des élèves à besoins éducatifs particuliers ou spécifiques (<strong>ESEB</strong>) ou à la commission d’inclusion (CI) du lycée.${c(2)}`,
+          `Les <strong>I-EBS</strong> sont des instituteurs spécialisés dans la scolarisation des élèves à besoins éducatifs particuliers ou spécifiques; les <strong>A-EBS</strong> les assistent.${c(2)}`,
+          `Le SNEI sert de service ressource pour les centres de compétences, les équipes ESEB, les I-EBS et les A-EBS.${c(2)}`,
+        ],
+      },
+      {
+        label: 'À retenir',
+        items: [
+          `Texte central: loi du 20 juillet 2018 (centres de compétences + SNEI).${c(1)}`,
+          `Décision sur les mesures: Commission nationale d’inclusion, après accord parental.${c(1)}`,
+          `Premier relais dans l’école: équipe ESEB ou commission d’inclusion; I-EBS pour l’accompagnement spécialisé.${c(2)}`,
+          `Haut potentiel: centre dédié aux enfants et jeunes intellectuellement précoces.${c(2)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Références',
+    references: [
+      `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${src('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
+      `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${src('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
     ],
   },
 };
