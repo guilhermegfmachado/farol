@@ -432,7 +432,6 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Aird, luas agus iompar',
     mt: 'Attenzjoni, ritmu u mġiba',
     tr: 'Dikkat ve tempo',
-    tr: 'Bir işi bitirmeden diğerine geçer, hiçbirini tamamlamaz',
   }},
   { key: 'written', profiles: ['dislexia', 'dispraxia', 'discalculia'], label: {
     pt: 'Leitura, escrita e organização',
@@ -460,7 +459,6 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Léitheoireacht, scríbhneoireacht agus eagrúchán',
     mt: 'Qari, kitba u organizzazzjoni',
     tr: 'Okuma ve yazma',
-    tr: 'Sınav kaygısı yüksek, hazırlanmış olsa bile donup kalır',
   }},
   { key: 'language', profiles: ['autismo', 'plnm'], label: {
     pt: 'Comunicação e língua',
@@ -488,6 +486,5 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Cumarsáid agus teanga',
     mt: 'Komunikazzjoni u lingwa',
     tr: 'Dil ve iletişim',
-    tr: 'Grup çalışmasında geri çekilir, tek başına daha iyi çalışır',
   }},
 ];
