@@ -1,12 +1,12 @@
 ---
 import { getAllEntries } from '@/lib/entries';
-import { ui, type Lang, allSectionHrefs, entryTranslations, categoryTranslations } from '@/lib/i18n';
+import { ui, type Lang, allSectionHrefs, entryTranslations, categoryTranslations, PREFIXED_LANGS } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 
 export function getStaticPaths() {
-  const langs: Lang[] = ['en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  const langs: Lang[] = PREFIXED_LANGS;
   return langs.map((lang) => ({ params: { lang } }));
 }
 

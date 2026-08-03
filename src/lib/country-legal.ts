@@ -13,7 +13,11 @@
 // countries associated to the Erasmus+ programme (Iceland, Liechtenstein,
 // Norway, North Macedonia, Serbia, Türkiye) — the countries whose teachers this
 // manual is actually for. The language axis is a separate question, and stays
-// the 24 official EU languages.
+// the 24 official EU languages plus Turkish.
+//
+// A country drops off this list when the manual gains its language: Türkiye's
+// framework moved to the Turkish card, and Liechtenstein was never English
+// because German was already here.
 //
 // Each entry is written and sourced in the language its readers use. Where the
 // manual carries that language it is used (Liechtenstein is German); where it
@@ -52,7 +56,6 @@ const srcIn = (lang: Lang) => (href: string) =>
 // English card, and they cross-link to each other. Building the list from one
 // place keeps five notes from drifting apart as countries are added.
 const EN_ASSOCIATED: [code: string, name: string][] = [
-  ['tr', 'Türkiye'],
   ['no', 'Norway'],
   ['is', 'Iceland'],
   ['rs', 'Serbia'],
@@ -448,73 +451,6 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
       `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
-    ],
-  },
-
-  // Türkiye is not an EU member but is an Erasmus+ programme country, and
-  // Turkish is not among the manual's 24 languages. The card is therefore
-  // written in English, with the Turkish legal terms kept as teachers meet
-  // them on the forms.
-  'en-tr': {
-    lang: 'en',
-    code: 'tr',
-    country: 'Türkiye',
-    title: 'Legal framework',
-    subtitle: 'Decree-Law 573, Law 5378 and the Special Education Services Regulation in Türkiye',
-    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Turkish school.',
-    note: enNote('tr', 'Türkiye', 'Turkish'),
-    sections: [
-      {
-        label: 'The central texts',
-        items: [
-          `<strong>Decree-Law 573</strong> (<em>Özel Eğitim Hakkında Kanun Hükmünde Kararname</em>, 1997) is the founding text: it sets the principles by which individuals requiring special education exercise their right to general and vocational education.${c(1)}`,
-          `<strong>Law 5378</strong> (<em>Engelliler Hakkında Kanun</em>, 2005, amended since) covers rights, dignity and equal participation of people with disabilities, education included.${c(2)}`,
-          `The <strong>Special Education Services Regulation</strong> (<em>Özel Eğitim Hizmetleri Yönetmeliği</em>), republished on 7 July 2018, is the operative text: it governs educational assessment, placement and the day-to-day organisation of support.${c(3)}`,
-          `Türkiye ratified the <strong>UN Convention on the Rights of Persons with Disabilities</strong> in 2009 and its Optional Protocol in 2015.${c(5)}`,
-        ],
-      },
-      {
-        label: 'Who decides — the RAM',
-        items: [
-          `Educational assessment is carried out by the <strong>RAM</strong> (<em>Rehberlik ve Araştırma Merkezi</em>, Guidance and Research Centre) of the province or district, not by the school.${c(3)}`,
-          `The school opens the process through the guidance service; the referral and the appointment run through the ministry’s MEBBİS-RAM module, and parental involvement is required.${c(3)}`,
-          `The RAM’s special education evaluation board decides on placement and on the support the pupil receives. Diagnosis belongs to specialist professionals — the teacher’s role is observation and referral.${c(3)}`,
-        ],
-      },
-      {
-        label: 'In the classroom — kaynaştırma and the BEP',
-        items: [
-          `<strong>Kaynaştırma/bütünleştirme</strong> (inclusion through mainstreaming) is the default: the pupil is educated with peers in the general class, with support, rather than separately.${c(3)}`,
-          `Every pupil identified as requiring special education has an individualised education programme — the <strong>BEP</strong> (<em>Bireyselleştirilmiş Eğitim Programı</em>) — with goals set for the year and reviewed.${c(3)}`,
-          `The BEP is drawn up by a team that includes the class teacher and the parents; it is a working document for the classroom, not a file that stays in the office.${c(3)}`,
-          `Support may also take the form of a <strong>destek eğitim odası</strong> (resource room) within the same school, for part of the timetable.${c(3)}`,
-        ],
-      },
-      {
-        label: 'Gifted pupils — BİLSEM',
-        items: [
-          `<strong>BİLSEM</strong> centres (<em>Bilim ve Sanat Merkezleri</em>) provide out-of-school provision for gifted pupils and exist in all 81 provinces.${c(4)}`,
-          `Identification takes place in <strong>grades 1–3</strong>, in three fields: general intellectual ability, visual arts and music.${c(4)}`,
-          `The process starts with the <strong>class teacher</strong>, who completes the observation form for the pupils nominated, through the school’s guidance commission.${c(4)}`,
-        ],
-      },
-      {
-        label: 'For quick reference',
-        items: [
-          `Founding text: Decree-Law 573 (1997); operative text: Special Education Services Regulation (2018).${c2(1, 3)}`,
-          `Assessment and placement: RAM, through the school’s guidance service.${c(3)}`,
-          `Individual plan: BEP, written with the class teacher and the family.${c(3)}`,
-          `Gifted provision: BİLSEM, nominated by the class teacher in grades 1–3.${c(4)}`,
-        ],
-      },
-    ],
-    refsLabel: 'References',
-    references: [
-      `Özel Eğitim Hakkında Kanun Hükmünde Kararname (KHK 573), 1997 — Mevzuat Bilgi Sistemi.${srcEn('https://www.mevzuat.gov.tr/MevzuatMetin/4.5.573.pdf')}`,
-      `Engelliler Hakkında Kanun (Kanun No. 5378), 1 July 2005 — Mevzuat Bilgi Sistemi.${srcEn('https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5378.pdf')}`,
-      `Özel Eğitim Hizmetleri Yönetmeliği, 7 July 2018 — Ministry of National Education, Directorate General for Special Education and Guidance Services.${srcEn('https://orgm.meb.gov.tr/meb_iys_dosyalar/2021_09/13145613_Ozel_EYitim_Hizmetleri_YonetmeliYi_son.pdf')}`,
-      `Bilim ve Sanat Merkezleri Öğrenci Tanılama ve Yerleştirme Kılavuzu — Ministry of National Education.${srcEn('https://orgm.meb.gov.tr/www/bilim-ve-sanat-merkezleri-ogrenci-tanilama-ve-yerlestirme-kilavuzu/icerik/3456/tr')}`,
-      `Türkiye’s ratification of the UN Convention on the Rights of Persons with Disabilities — Ministry of Foreign Affairs, press release no. 167, 29 September 2009.${srcEn('https://www.mfa.gov.tr/no_-167_-29-september-2009_-press-release-regarding-turkey_s-ratification-for-the-united-nations-convention-on-the-rights-of-persons-with-disabilities.en.mfa')}`,
     ],
   },
 

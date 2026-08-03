@@ -9187,4 +9187,401 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ]},
   },
 
+  tr: {
+    tdah: { sections: [
+      { items: [
+        "Uzun görevlerde dikkatini sürdürmekte zorlanır; çok adımlı yönergelerde kaybolur.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Sürekli hareket hâlinde — yerinde oturmaz, elleriyle oynar, görünür bir neden olmadan kalkar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Soru bitmeden yanıt verir; arkadaşlarının ve öğretmenin sözünü keser.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Materyalleri, teslim tarihlerini ve dakikalar önce sözlü verilen yönergeleri unutur — işleyen belleği aşırı yüklüdür.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "İlgisini çekene aşırı odaklanabilir; bu, yanlış biçimde “isteyince yapabiliyor” izlenimi verir. Gerçekte performans ilgiye ve ödüle göre değişir.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Terbiyesizlik değildir</strong>, tembellik ya da karakter zayıflığı da değildir: bu yanlış inançlar damgalar ve desteği geciktirir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Her zaman görünür hareketlilik değildir</strong> — ağırlıklı olarak dikkatsizliğin öne çıktığı bir görünüm vardır; kızlarda daha sık ve çoğu kez fark edilmez.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>“Daha çok çabalamakla” çözülmez</strong>: güçlük iradede değil, nörolojik öz düzenlemededir.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Yönergeleri parçalayın: birer birer, tahtaya yazılı, belirlenmiş süreyle — işleyen bellek üzerindeki yükü azaltır.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Meşru harekete izin verin (materyal dağıtmak, tahtayı silmek, mesaj götürmek).",
+        "Rekabet eden uyaranları azaltın (pencereden, kapıdan ve en gürültülü gruptan uzak bir yer).",
+        "Anlık ve sık olumlu pekiştirme: DEHB’de ödüle duyarlılık değişmiştir (beklemeye tahammülsüzlük), bu yüzden anlık ödüller ertelenmiş olanlardan daha iyi işler.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Öğrencinin iyi yaptığı şeyle başlayın — görüşme bir şikâyet listesiyle açılırsa veli savunmaya geçer.",
+        "Tanı değil, gözlenen davranışı anlatın: “DEHB var” yerine “arka arkaya ikiden fazla adım olduğunda ipin ucunu kaçırıyor”.",
+        "“Evde böyle değil” tepkisini önceden karşılayın — grup ortamının ve sınıfta uzun süreli dikkat beklentisinin belirtileri daha görünür kıldığını açıklayın.",
+        "Değerlendirme önerecekseniz bunu ceza değil olanak olarak sunun: “değerlendirilmesi gerekiyor” yerine “ona çok yardımı olacak bir destek var”.",
+      ]},
+      { items: [
+        "Sınıf içi uyarlamalara rağmen süren disiplin sorunları.",
+        "Akranları tarafından dışlandığına dair işaretler.",
+        "Eşlik eden güçlük belirtileri (kaygı, depresyon, karşıt olma) — DEHB’de sıktır ve yönlendirmeyi gerektirir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "DEHB nadiren tek başına gelir: okuma güçlükleri başta olmak üzere öğrenme bozukluklarıyla sık sık birlikte görülür.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Uygulamada: dikkate yönelik uyarlamalar yetmediğinde, “çabalamıyor” sonucuna varmadan önce okumada ya da hesapta özgül bir örüntü arayın.",
+      ]},
+    ],
+    },
+    dislexia: { sections: [
+      { items: [
+        "Yavaş ve zorlanarak okur; dinlediğinde çok iyi anladığı metinlerde bile tek tek sözcükleri okurken hata yapar.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Harflerin ters yazılması (b/d, p/q) yazmaya yeni başlayan bütün çocuklarda görülür ve tek başına disleksi belirtisi değildir; asıl güçlük <strong>fonolojiktir</strong> — harfleri seslerle eşleştirmek.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Tekrar tekrar düzeltilmesine rağmen sürüp giden yazım hataları.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sesli okumaktan kaçınma eğilimindedir; ilgisizlik gibi görünen şey aslında bir korunma yoludur.",
+        "Dinlediğini anlama, okuduğunu anlamanın belirgin biçimde üzerindedir — güçlük özgüldür, genel bir bilişsel sınırlılık değildir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Zekâ eksikliği değildir</strong>: tanımı gereği disleksi, öğrencinin diğer bilişsel becerilerine göre beklenmediktir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Görme sorunu değildir</strong>, “harfleri karıştırmak” da değildir: asıl eksiklik fonolojik işlemlemededir.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>“İyileşmez”</strong>, ama ses bilgisel farkındalık ve kod çözme üzerine yapılandırılmış çalışma okumayı tutarlı biçimde iyileştirir.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Harf ve satır aralığını artırın: geniş aralığın disleksili çocukların okumasını önceden alıştırma gerekmeden iyileştirdiğine dair deneysel kanıt vardır.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Buna karşılık “disleksiye özel” yazı tiplerine ilişkin kanıt daha zayıf ve tutarsızdır.",
+        "Sesli okumadan önce sessiz okumaya izin verin — asla habersiz okuma istemeyin.",
+        "Amaç yazımı ölçmek değilse, içeriği yazım hatalarından ayrı değerlendirin.",
+        "Aynı bilgiyi birden çok biçimde sunun (ses, video, şema).",
+      ]},
+      { items: [
+        "Okuma ile zekâyı en baştan açıkça ayırın: “dinlediğinde çok iyi anlıyor — güçlük yalnızca okumaya özgü”.",
+        "Disleksinin güçlü bir kalıtsal bileşeni olduğunu akılda tutun: ebeveynlerden birinde tanı almamış disleksi olabilir ve konuşma kendi okul yıllarına dair zor anıları canlandırabilir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kırmızı düzeltmelerle dolu kâğıtları bağlam vermeden göstermekten kaçının — önce öğrencinin şimdiden yapabildiklerini gösterin.",
+        "Hâlihazırdaki uyarlamalarda ve velinin evde sürdürebileceklerinde somut olun: sesli metinler, süre baskısı olmadan sesli okuma.",
+      ]},
+      { items: [
+        "Akademik benlik algısında bozulma (“ben aptalım”, “yapamıyorum”).",
+        "Okuma ve yazma görevlerinden, diğer dersleri de tehlikeye atacak ölçüde sistemli kaçınma.",
+        "Sözlü ve yazılı performans arasında resmî tanı olmaksızın belirgin fark — eğitsel değerlendirmeye yönlendirin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Sıklıkla DEHB, diskalkuli ve dispraksi ile birlikte görülür — öğrenme bozuklukları nadiren tek başınadır. Güçlükler okuma ve yazmanın belirgin biçimde dışına taşıyorsa (dikkat, hesap, koordinasyon), her şeyi disleksiye bağlamak yerine gözlemi genişletin.",
+      ]},
+    ],
+    },
+    discalculia: { sections: [
+      { items: [
+        "Sayı hissinde sürekli güçlük: nicelikleri karşılaştırmak, sonuç tahmin etmek, saymadan 9’un 7’den büyük olduğunu görmek.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Arkadaşları temel zihinden işlemi otomatikleştirdikten çok sonra bile parmakla sayar.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Tekrarlı alıştırmaya rağmen sayı olgularını (çarpım tablosu) aklında tutamaz — her işlem sıfırdan başlar.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kavramı anladığında bile çok adımlı problemlerde kaybolur; ara adımları karıştırır ya da unutur.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Matematik performansı, sözel akıl yürütmesinin ve diğer derslerinin düşündüreceğinin belirgin biçimde altındadır.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>“Matematiği kötü olmak” değildir</strong>, çalışmamak da değildir: disleksinin okuma için olduğu gibi, nörobiyolojik temeli olan özgül bir öğrenme bozukluğudur.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Matematik kaygısı değildir</strong>, ikisi birbirini beslese de: kaygı performansı kötüleştirir, ama diskalkuli ondan bağımsız olarak vardır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Aynı alıştırmaları çoğaltmakla geçmez</strong>: sayı hissi üzerine açık ve yapılandırılmış çalışmayla düzelir, daha önce işe yaramayanın tekrarıyla değil.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Somut materyalleri ve görsel gösterimleri (sayı doğrusu, bloklar, şemalar) damgalamadan erişilebilir tutun — somuttan soyuta geçiş açık basamaklarla yapılır.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Görevin amacı hesap değilse çarpım tablosu kâğıdına ya da hesap makinesine izin verin — akıl yürütmeyi aritmetikten ayrı değerlendirin.",
+        "Yükü azaltın: daha az ama iyi seçilmiş soru, uzatılmış süreyle — hız amaç değildir.",
+        "Adımları yüksek sesle dillendirin ve çözülmüş bir örneği görev boyunca görünür bırakın — modelleme ile açık öğretim.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Matematiği zekâdan en baştan ayırın: “akıl yürütmesi yerinde — güçlük yalnızca sayılara özgü”.",
+        "Hesap makinesi ya da basılı çarpım tablosu gibi desteklerin “kolaycılık” olmadığını anlatın: uzağı göremeyen için gözlük neyse odur.",
+        "Evde tekrar alıştırma listeleri yerine kısa ve somut uygulamalar önerin (zarlı kutu oyunları, alışverişte gerçek para).",
+        "Diskalkulinin kalıtsal olduğunu ve disleksiden çok daha az bilindiğini akılda tutun: veli terimi hiç duymamış olabilir — örüntüyü adlandırmak yardımcı olur.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Özellikle matematiğe bağlı benlik algısında düşüş (“sayılarda aptalım”).",
+        "Sayı içeren görevlerden, okul yaşamını tehlikeye atacak ölçüde kaçınma ya da bunları reddetme.",
+        "Genel akıl yürütme ile matematik performansı arasında resmî değerlendirme olmaksızın süren fark — eğitsel değerlendirmeye yönlendirin.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Sık sık disleksiyle örtüşür — fonolojik ve sayısal eksiklikler bir arada bulunur — ve işleyen belleğin aşırı yüklendiği DEHB ile. Okuma ve sayılar birlikte aksadığında uyarlamalar birini seçmek yerine iki cepheyi de kapsamalıdır.",
+      ]},
+    ],
+    },
+    dispraxia: { sections: [
+      { items: [
+        "Elyazısı zor, yavaş ve çoğu kez okunaksızdır — dikkatsizlikten değil, gerçek bir motor güçlükten.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Defterin sayfa düzeninde, materyalleri yönetmekte ve adım dizilerinde zorlanır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "“Sakar” görünebilir — bardak devirir, mobilyaya çarpar, sporda zorlanır.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sürekli ince koordinasyon gerektiren işlerden sonra orantısız yorgunluk.",
+        "Bilişsel yön genellikle korunmuştur — bilmek ile bunu gösterebilmek arasındaki sık yaşanan hayal kırıklığı buradan gelir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Tembellik ya da çabasızlık değildir.</strong><sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Yalnızca kötü elyazısı değildir</strong>: klinik adı Gelişimsel Koordinasyon Bozukluğudur ve yalnız yazıyı değil, motor planlama ve sıralamayı da etkiler.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>“Daha çok yazı çalışmakla” çözülmez</strong>: etkili müdahale göreve yöneliktir, mekanik tekrar değil.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Uzun yazılı çalışmalarda klavye ya da tablet kullanımına izin verin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tahtadan mekanik kopyalamayı azaltın — gerektiğinde notları hazır verin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Çok adımlı görevler için açık kontrol listeleri sağlayın.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Ürünü fiziksel görünümüne göre değil, içeriğine göre değerlendirin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Dispraksinin ne olduğunu, terimin bilindiğini varsaymadan sade bir dille açıklayın: “hareketlerin koordinasyonunda nörolojik bir güçlüktür, dikkatsizlik ya da çabasızlık değildir”.",
+        "Okunaksız elyazısı velilerle en çok sürtüşme yaratan noktadır — değerlendirmenin biçimi değil içeriği esas aldığını göstermek iki tarafın da kaygısını hafifletir.",
+        "Ev için pratik araçlar önerin: not almak üzere telefonda sesle yazdırma, uzun yazılı ödevler için klavye.",
+        "Önceki yıllarda “tembel” ya da “çabalamıyor” denmişse bunu doğrudan adlandırın: “bunu daha önce de duyduğunuzu biliyorum — benim okumam farklı”.",
+      ]},
+      { items: [
+        "Yazılı üretimi tümüyle reddetme.",
+        "Fiziksel etkinlik ortamlarında toplumsal yalıtılma.",
+        "Yazılı sınavlar öncesi bedensel kaygı belirtileri — psikososyal zorlanma tablonun bir parçasıdır.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Sık sık DEHB ve disleksiyle örtüşür; yavaş ve düzensiz yazı bunlardan birini gizleyebilir ya da onlar tarafından gizlenebilir. Neyin motor neyin dikkatle ilgili olduğunu ayırmak uyarlamaları değiştirir: klavye ve ek süre motor tarafa, yönergeleri parçalamak dikkat tarafına yarar.",
+      ]},
+    ],
+    },
+    autismo: { sections: [
+      { items: [
+        "Önceden haber verilmeyen değişikliklerde zorlanır — ders programı, sınıf ya da vekil öğretmen değişikliği.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Söyleneni birebir anlar — ince anlamları, ironiyi ve deyimleri kaçırır.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Duyusal duyarlılık — floresan ışık, arka plan gürültüsü, giysi etiketleri dayanılmaz olabilir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Belirli konulara yönelik odaklı ve derin ilgiler — ayrıntıya yönelen bilişsel bir üslupla bağlantılıdır.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Aşırı yüklendiğinde ilgisiz ya da uzak görünebilir; kopmuş değil, yüklenmiştir.",
+      ]},
+      { items: [
+        "<strong>Doğrusal bir ölçek değildir</strong> (“daha çok” ya da “daha az” otistik) — her alanda farklı destek gerektiren çok boyutlu bir profildir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Empati eksikliği değildir</strong>: karşılıklı anlama güçlüğü iki yönlüdür — otistik olmayanlar da otistik kişileri okumakta zorlanır (“çifte empati sorunu”).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Rutin bozulduğunda görülen tepki yaramazlık değildir</strong> — öngörülebilirliğin kaybına verilen gerçek bir nörolojik yanıttır.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Rutindeki her değişikliği, önemsiz görünse bile önceden haber verin — görsel destek ve önceden bildirmenin ampirik dayanağı vardır.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Örtük toplumsal kuralları açık kurallara dönüştürün (ne yapılır, ne yapılmaz, ne zaman).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Gerektiğinde sessiz bir alanda duyusal molalara izin verin.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Odaklı ilgiyi müfredat içeriğine giriş kapısı olarak kullanın — dikkat dağıtıcı değil, bir güçtür.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Tanı zaten varsa önce velinin neyin işe yaradığını bildiğini sorun — otistik çocukların anne babaları çoğu kez çocukları hakkında herhangi bir rapordan fazlasını bilir.",
+        "Tanı yoksa çok dikkatli olun: ilk görüşmede “otizm” sözcüğünü hiç kullanmadan somut durumları anlatın — “rutin habersiz değiştiğinde çocuğunuz alışılmışın çok ötesinde altüst oluyor”.",
+        "Velinin emeğini görün — evde yapı ve öngörülebilirlik kurmak yorucudur; bunu kabul etmek iş birliği yaratır.",
+        "Asla “diğer öğrencilerle” ya da kardeşlerle kıyaslamayın — spektrumdaki her profil farklıdır ve kıyas her zaman ters teper.",
+      ]},
+      { items: [
+        "Okul gününün ardından sık yaşanan krizler (“meltdown”).",
+        "Duyusal aşırı yüklenmeye bağlı, süregiden okul reddi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aracılık girişimlerine rağmen giderek artan toplumsal yalıtılma.",
+      ]},
+      { items: [
+        "Özel yetenekle birleşimi — iki kere farklılık denen durum — gözden kaçması kolaydır: kapasite gereken desteği, güçlükler de kapasiteyi gizler. DEHB ve kaygı da sık sık birlikte görülür; dersler arasında çok dalgalı bir performans iki yönlü bakmayı hak eder.",
+      ]},
+    ],
+    },
+    sobredotacao: { sections: [
+      { items: [
+        "Sınıf bütün dersi harcarken görevleri dakikalar içinde bitirir.",
+        "Konunun dışına çıkan sorular sorar — ya da öğretileni etkin biçimde sorgular.",
+        "İlgisiz, kural tanımaz ya da isteksiz görünebilir — bunlar çoğu kez süregiden sıkılmanın ve düşük başarının işaretidir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Belirgin duygusal duyarlılık; kaygılı ya da mükemmeliyetçi olabilir — yeteneğin gelişiminde psikososyal etkenler belirleyicidir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Gerçek bir düşük başarı riski — toplumsal olarak öne çıkmamak için kapasitesini gizlemeyi öğrenebilir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>İyi davranışın ya da iyi notların eş anlamlısı değildir</strong> — özel yetenekli birçok öğrenci ilgisizlik nedeniyle orta düzeyde başarı gösterir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>“Yardıma ihtiyacı yok” demek değildir</strong>: farklı türde meydan okumalara ihtiyacı vardır, çünkü kapasite ancak bilinçli olarak geliştirildiğinde başarıya dönüşür.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Nörogelişimsel farklılıkla bağdaşmaz değildir</strong> — iki kere farklılık (2e) vardır, sıktır ve çoğu kez gizli kalır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Her zaman hazır derinleştirme görevleri bulundurun — aynısından fazlası değil, daha derin ya da uygulamalı içerik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Program içinde, öğrencinin ilgi duyduğu konularda bağımsız araştırmaya izin verin.",
+        "Kolaylıkla değil, meydan okumayla değerlendirin — daha az sayıda ama daha zorlayıcı çalışma isteyin.",
+        "Duygusal duyarlılığı hastalık gibi ele almadan tanıyın ve kabul edin.",
+      ]},
+      { items: [
+        "Gururu önceden karşılayıp yönlendirin: “açıkça çok yetenekli — sorun yaratan da tam olarak bu yüzden ortaya çıkan sıkılma”.",
+        "Özel yeteneğin paradoksunu anlatın: iyi notlar iyi olduğu anlamına gelmez; ilgisizlikten kaynaklanan düşük başarı yaygındır ve geri döndürülebilir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Öğrenci uyum sağlamak için kapasitesini gizliyorsa bunu dikkatle adlandırın — alçakgönüllülük değil, zorlanma işaretidir.",
+        "Veliye, evde sonucu değil süreci değerli kılmasını önerin: merak, derinlik ve zor sorular, kolay görevlerdeki yüksek notlardan değerlidir.",
+      ]},
+      { items: [
+        "Aşırı mükemmeliyetçilikle birlikte görülen kaygı ya da depresyon belirtileri.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Akranlarından “farklı” hissetmeye bağlı belirgin toplumsal yalıtılma.",
+        "Daha önce yetenekli olarak görülen bir öğrencide ani akademik düşüş.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Özel yetenek, ihtiyaçları ortadan kaldırmaz: iki kere farklılık (otizm, DEHB ya da disleksiyle) tam olarak ikisinin bir arada bulunmasıdır. Öğrenci yıllarca telafi edebilir ve ne biri ne öteki “gibi görünebilir” — olağanüstü akıl yürütmeyle birlikte orta notlar bir çelişki değil, bir işarettir.",
+      ]},
+    ],
+    },
+    plnm: { sections: [
+      { items: [
+        "Göründüğünden çok daha azını anlar — günlük konuşma dili akademik dilden çok önce gelişir; bu yüzden içeriği takip edemeden akıcı görünebilir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Görünürde düşük akademik başarı, çoğu kez gerçek kapasitesiyle orantısız.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sınıfta sessizlik — bu, dil ediniminde normal bir “sessiz dönem” olabilir, ilgisizlik değil.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Dili gerçek zamanlı işlemekten ötürü gün sonunda tükenmiş olabilir.",
+        "Her şey dil engeline bağlandığı için gerçek eğitsel ihtiyaçların (disleksi, DEHB) gözden kaçma riski.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Zekâ ya da kapasite eksikliği değildir.</strong><sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Yalnızca zaman meselesi değildir</strong>: akademik dil yıllar içinde gelişir ve açık destek olmadan birçok öğrenci düşük bir işlevsel düzeyde kalır.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Ders sırasında otomatik çeviriyle çözülmez</strong> — yıllar süren bir süreçtir ve ana dil bir engel değil, bir kaynaktır.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Anahtar sözcüklerin ana diline çevrildiği materyaller sağlayın.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Mümkün olduğunca bilgiyi görsel ya da uygulamalı gösterimle ölçün.",
+        "Kritik anlarda gayriresmî aracılık için iki dilli bir arkadaşla eşleştirin.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "İlk üretimleri dil bilgisi hatalarıyla kabul edin — ilk aşamada biçimi değil içeriği düzeltin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Görüşmenin kendisi bir engeldir — veli, karmaşık bir konuşmayı yürütecek düzeyde öğretim dilini bilmiyor olabilir. Önceden sade yazılı materyaller hazırlayın ya da çeviri desteği isteyin.",
+        "Velinin yerel eğitim sistemini bildiğini varsaymayın — rehberlik servisinin ne olduğunu, destek önleminin ne anlama geldiğini, değerlendirmenin neyi gerektirdiğini hiçbir şeyi verili saymadan açıklayın.",
+        "Dil engelini akademik kapasiteden açıkça ayırın: “çocuğunuz yeterli — içerikleri öğrenirken aynı anda dili de öğreniyor, ki bu çok zorlayıcıdır”.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Göç bağlamına duyarlı olun: mülteci ya da düzensiz statüdeki aileler kurumlara güvenmeyebilir. Belge ya da yönlendirme istemeden önce güven kurun.",
+      ]},
+      { items: [
+        "Yabancı öğrenci olmaya bağlı toplumsal yalıtılma ya da akran zorbalığı işaretleri.",
+        "İlk yıldan sonra dil ediniminde duraklama.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Göç bağlamıyla ilişkili travma belirtileri (özellikle mülteciler).",
+      ]},
+      { items: [
+        "Bir bozukluk değildir, ama dil engeli disleksiyi, DEHB’yi ya da diskalkuliyi gizleyebilir — ya da taklit edebilir. Güçlükler ana dilde de sürüyorsa veya öğretim dilindeki ilerlemeye rağmen azalmıyorsa, beklemeyi sürdürmek yerine değerlendirme gerekir.",
+      ]},
+    ],
+    },
+    etica: { sections: [
+      { items: [
+        "Çocukların verileri güçlendirilmiş korumaya tabidir; velinin açık rızası zorunludur.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Aracın veriyi nerede sakladığını kontrol edin — Avrupa’daki sunucular, Avrupa dışı sunucular, anonimleştirilmiş ya da değil.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Üretken yapay zekâ araçlarına asla tam ad, adres, kimlik numarası ya da klinik tanı girmeyin.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Kurumsal kullanımı (okulun sözleşme imzaladığı) öğretmenin kişisel kullanımından (bireysel sorumluluk) ayırın.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Ağırlıklı olarak İngilizce veriyle eğitilmiş sistemler Türkçede ve Türkçe konuşulan bağlamlarda daha zayıf çalışabilir.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Otomatik öneriler cinsiyet, etnik köken ya da sınıf kalıplarını büyütebilir — eleştirel gözle doğrulayın.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "“Akademik risk tahmini” modelleri özellikle sorunludur — ihtiyaçları belirlemek yerine çoğu kez var olan eşitsizlikleri yeniden üretirler.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Amaç öğrencinin özerkliğini artırmaktır, onu geliştiren bilişsel çabanın yerine geçmek değil.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "<strong>Erişim aracını</strong> (disleksili bir öğrenci için sesli okuma) <strong>yerine geçen araçtan</strong> (kompozisyonu yazan bir sohbet modeli) ayırın.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Düzenli olarak sorun: öğrenci beceri mi geliştiriyor, yoksa araca bağımlılık mı?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Araç gerçek bir engeli mi kaldırıyor, yoksa öğrenmeyi atlayan bir kestirme mi yaratıyor?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Girilen veriler korunuyor mu ve rıza var mı?",
+        "<strong>3.</strong> Aracın çıktısı öğrenciye ulaşmadan önce bir insan tarafından denetlenecek mi?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Aynı işi gören, yapay zekâsız bir seçenek var mı?",
+      ]},
+    ],
+    },
+    oficina: { sections: [
+      { items: [
+        "Meslektaşları, yabancı dil öğretiminde yapay zekânın sorumlu kullanımı konusunda yetkinleştirmek ve birden çok öğrenme profiline uyarlanabilir materyaller üretmek.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bu bir sunum değil, ortak bir üretimdir. Her katılımcı en az bir hazır materyalle ayrılır.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 dk:</strong> Çerçeve — karma sınıf sorunu ve neden aynısından fazlasının işe yaramadığı.",
+        "<strong>10–25 dk:</strong> Profil haritası — Farol’un altı kartının, gerçek (kimliksizleştirilmiş) örneklerle tanıtımı.",
+        "<strong>25–45 dk:</strong> Uygulamalı gösterim — üç araç, üç kullanım örneği, üç farklı profil.",
+        "<strong>45–75 dk:</strong> İkili çalışma — her ikili mevcut bir materyali belirli bir profile uyarlar.",
+        "<strong>75–85 dk:</strong> Hızlı paylaşım — her ikili ürününü bir dakikada gösterir.",
+        "<strong>85–90 dk:</strong> Taahhütler — her katılımcı deneyeceği bir materyali belirler ve 30 gün sonrası için geri bildirim oturumu planlanır.",
+      ]},
+      { items: [
+        "İnternet erişimi ve gösterilen araçlarda kurumsal hesaplar.",
+        "Her katılımcının kendi mevcut materyali (bir çalışma kâğıdı, bir sınav ya da bir ders planı).",
+        "Başvuru için Farol profil kartlarının basılı hâli.",
+      ]},
+      { items: [
+        "Her katılımcı oturum sırasında en az bir uyarlanmış materyal üretir.",
+        "30 gün sonraki geri bildirim oturumunda katılımcıların en az %60’ı fiilen uyguladığını bildirir.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Oturumda üretilen en az bir materyal zümrenin ortak kaynağı olarak benimsenir.",
+      ]},
+    ],
+    },
+    legislacao: { sections: [
+      { items: [
+        "<strong>573 sayılı Kanun Hükmünde Kararname</strong> (Özel Eğitim Hakkında KHK, 1997) kurucu metindir: özel eğitime ihtiyacı olan bireylerin genel ve mesleki eğitim hakkını kullanmasına ilişkin esasları belirler.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>5378 sayılı Engelliler Hakkında Kanun</strong> (2005) engellilerin hakları, onuru ve eşit katılımı ile eğitimi düzenler.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Özel Eğitim Hizmetleri Yönetmeliği</strong> (7 Temmuz 2018) işleyişi belirleyen metindir: eğitsel değerlendirme, yerleştirme ve desteğin günlük düzeni.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Türkiye <strong>BM Engelli Hakları Sözleşmesi</strong>ni 2009’da, Ek İhtiyari Protokolü 2015’te onaylamıştır.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>",
+      ]},
+      { items: [
+        "<strong>Kaynaştırma/bütünleştirme</strong> esastır: öğrenci ayrı bir ortamda değil, destekle birlikte akranlarıyla aynı sınıfta eğitim görür.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Sınıf öğretmeninin görevi tanı koymak değil, gözlemlemek ve yönlendirmektir; süreci okul rehberlik servisi üzerinden başlatır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Okul içinde <strong>destek eğitim odası</strong>, haftalık ders saatinin bir bölümü için açılabilir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Eğitsel değerlendirme, il ya da ilçedeki <strong>RAM</strong> (Rehberlik ve Araştırma Merkezi) tarafından yapılır, okul tarafından değil.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Yönlendirme ve randevu Bakanlığın MEBBİS-RAM modülü üzerinden yürür; velinin sürece katılımı zorunludur.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "RAM özel eğitim değerlendirme kurulu yerleştirmeye ve öğrencinin alacağı desteğe karar verir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Özel eğitime ihtiyacı olduğu belirlenen her öğrenci için yıllık hedefleri olan ve gözden geçirilen bir <strong>BEP</strong> (Bireyselleştirilmiş Eğitim Programı) hazırlanır; BEP’i sınıf öğretmeninin ve velinin de yer aldığı bir ekip yazar ve ofiste kalan bir dosya değil, sınıfta kullanılan bir belgedir.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "<strong>BİLSEM</strong> (Bilim ve Sanat Merkezleri) özel yetenekli öğrencilere okul dışı eğitim verir ve 81 ilin tamamında bulunur.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tanılama <strong>1–3. sınıflarda</strong>, üç alanda yapılır: genel zihinsel yetenek, resim ve müzik. Süreç, öğrencileri aday gösteren <strong>sınıf öğretmeninin</strong> gözlem formunu doldurmasıyla başlar.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Türkçe bilmeyen ya da dil yeterliliği sınırlı olan yabancı öğrenciler için <strong>uyum sınıfları</strong> açılır; öğrenciler burada öncelikle Türkçe dil eğitimi alır.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Yerleştirme, Bakanlıkça yapılan Türkçe yeterlilik sınavına göre belirlenir; 60 puanın altında kalan öğrenciler uyum sınıfına alınır.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Uygulama, <strong>PIKTES</strong> projesinin yürütüldüğü 26 ilde bu proje kapsamında, diğer 55 ilde Hayat Boyu Öğrenme Genel Müdürlüğü tarafından yürütülür.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Kurucu metin: 573 sayılı KHK (1997); işleyişi belirleyen metin: Özel Eğitim Hizmetleri Yönetmeliği (2018).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Değerlendirme ve yerleştirme: RAM, okul rehberlik servisi aracılığıyla.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Bireysel plan: BEP, sınıf öğretmeni ve aileyle birlikte yazılır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Özel yetenek: BİLSEM, 1–3. sınıflarda sınıf öğretmeninin aday göstermesiyle.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+    ],
+    references: [
+      "Özel Eğitim Hakkında Kanun Hükmünde Kararname (573 sayılı KHK), 1997 — Mevzuat Bilgi Sistemi. <a href=\"https://www.mevzuat.gov.tr/MevzuatMetin/4.5.573.pdf\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Engelliler Hakkında Kanun (5378 sayılı Kanun), 1 Temmuz 2005 — Mevzuat Bilgi Sistemi. <a href=\"https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5378.pdf\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Özel Eğitim Hizmetleri Yönetmeliği, 7 Temmuz 2018 — MEB Özel Eğitim ve Rehberlik Hizmetleri Genel Müdürlüğü. <a href=\"https://orgm.meb.gov.tr/meb_iys_dosyalar/2021_09/13145613_Ozel_EYitim_Hizmetleri_YonetmeliYi_son.pdf\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Bilim ve Sanat Merkezleri Öğrenci Tanılama ve Yerleştirme Kılavuzu — MEB. <a href=\"https://orgm.meb.gov.tr/www/bilim-ve-sanat-merkezleri-ogrenci-tanilama-ve-yerlestirme-kilavuzu/icerik/3456/tr\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Yabancı Öğrenciler Uyum Sınıfları — MEB Hayat Boyu Öğrenme Genel Müdürlüğü genelgeleri (2019/15 ve 2020/7) ve PIKTES projesi. <a href=\"https://piktes.gov.tr/Haberler/Details/208\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Türkiye’nin BM Engelli Haklarına İlişkin Sözleşme’yi onayı — T.C. Dışişleri Bakanlığı, 29 Eylül 2009 tarihli açıklama. <a href=\"https://www.mfa.gov.tr/no_-167_-29-september-2009_-press-release-regarding-turkey_s-ratification-for-the-united-nations-convention-on-the-rights-of-persons-with-disabilities.en.mfa\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+    ],
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Öğretimi farklılaştırmak, öğretme biçimini ayarlamaktır — beklentileri düşürmek değil. Öğrenme hedefi herkes için aynı olabilir; değişen yoldur.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Evrensel Tasarım (UDL) modeli üç ilke önerir: çoklu sunum yolları (içeriğin nasıl aktarıldığı), çoklu eylem ve ifade yolları (öğrencinin nasıl yanıt verdiği) ve çoklu katılım yolları (öğrenciyi neyin güdülediği).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Farklılaştırmak, öğrenci başına bir ders planı yapmak değildir — aynı dersin farklı profillere hizmet edebilmesi için yeterli esnekliği kurmaktır.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "<strong>Zorlanan öğrenciler için müfredatı budamak değildir.</strong><sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Farklı öğrencilere sürekli farklı görevler vermek değildir</strong> — bu yalıtır ve etiketler.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Yalnızca kâğıt üzerinde farklılaştırılmış çalışma değildir</strong> — öğretmenin nasıl anlattığını, nasıl soru sorduğunu ve nasıl değerlendirdiğini de kapsar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Denetimli seçim: yanıt biçimi için 2–3 seçenek sunun (yazılı, sözlü, şema) — herkes aynı içeriğe yanıt verir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Yapı iskelesi: zorlanan öğrencilere yapılandırılmış bir yönerge verin; özerklik arttıkça iskeleyi kademeli olarak kaldırın.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Esnek gruplama: ilgiye, düzeye ya da karma ölçütlere göre gruplar — kimliğe dönüşen sabit gruplardan kaçınmak için döndürün.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Süre ayarları: daha çok süre, daha az titizlik demek değildir. DEHB ya da dispraksi olan öğrenciler için görevi planlı molalarla bölün.",
+        "Karmaşıklık düzeyi: aynı konu için daha çok ya da daha az dil desteği, örnekli ya da örneksiz, görsel ipuçlu ya da ipuçsuz sürümler hazırlayın.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Öğrencinin nasıl yazdığını değil, ne bildiğini ölçün. Disleksili bir öğrenci kavramsal hâkimiyetini sözlü olarak ya da teknolojik destekle gösterebilir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Görevden önce paylaşılan açık ölçütler, seçilen biçimden bağımsız olarak öğrencinin ne beklendiğini bilmesini sağlar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ürün dosyası ya da kanıta dayalı değerlendirme, öğrencinin tek bir sınav anında değil, zaman içindeki ilerlemesini göstermesine olanak verir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Sınıf içi farklılaştırma yetmemeye başladığında ve öğrenci hâlâ müfredata erişemiyorsa, bu uzman desteğinin gerekebileceğinin işaretidir.",
+      ]},
+    ],
+    },
+    avaliacao: { sections: [
+      { items: [
+        "Biçimlendirici değerlendirme, süreç içinde öğrenmeye ilişkin bilgi toplayan ve bu bilgiyi öğretimi ya da öğrenciye verilen desteği ayarlamak için kullanan her uygulamadır.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Düzey belirleyici değerlendirmenin (dönem sonu notları) aksine, biçimlendirici değerlendirmenin notu olmak zorunda değildir — geri bildirimi olmak zorundadır.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Nörogelişimsel farklılıkları olan öğrenciler için biçimlendirici değerlendirme özellikle önemlidir, çünkü tek bir sınavdaki performans gerçekte ne bildiklerini yansıtmayabilir.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Çıkış kartı</strong>: ders sonunda öğrenci iki dakikada bir soruyu yanıtlar — öğretmen kimin anladığını, kimin anlamadığını anında görür.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Trafik ışığı</strong>: yeşil (anladım), sarı (kuşkuluyum), kırmızı (anlamadım) — kart, yapışkan not ya da dijital olabilir.",
+        "<strong>Düşün–eşleş–paylaş</strong>: öğrenci önce tek başına düşünür, sonra bir arkadaşıyla tartışır, sonra sınıfla paylaşır — doğrudan yanıt verme kaygısını azaltır.",
+        "<strong>Kapıda soru</strong>: çıkmadan önce öğrenci öğretmene öğrendiği bir şeyi ve hâlâ takıldığı bir soruyu söyler.",
+      ]},
+      { items: [
+        "Etkili geri bildirim somut, uygulanabilir ve zamanındadır: “2. sayfada kanıtla bağ kurulmadığı için sav havada kalıyor” yararlıdır; “daha iyi olabilirdi” değildir.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+        "DEHB olan öğrenciler için anlık geri bildirim ertelenmiş olandan daha etkilidir. Görevin bitmesini beklemeyin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Disleksili öğrenciler için sözlü ya da sesli geri bildirim, uzun yazılı yorumlardan daha erişilebilir olabilir.",
+        "Öğrencileri birbiriyle kıyaslamaktan kaçının — öğrenciyi kendi önceki ilerlemesiyle karşılaştırın.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "DEHB: tek bir uzun sınav yerine birden çok kısa değerlendirme. Değerlendirme ortamında dikkat dağıtıcıları azaltın.",
+        "Disleksi: sözlü yanıta, ek süreye ya da sesli okuma kullanımına izin verin. Yazımı değil içeriği değerlendirin.",
+        "Otizm: açık ve belirsizliğe yer bırakmayan yazılı yönergelerle sınavlar. Biçim değişikliklerini önceden haber verin.",
+        "Özel yetenek: yalnızca içeriği geri aktarmaya dayanan sınavlardan kaçının — çözümleme, birleştirme ve üretme soruları ekleyin.",
+      ]},
+      { items: [
+        "Değerlendirme uyarlamalarına rağmen öğrenci öğrendiğini gösteremiyorsa, bu rehberlik servisiyle araştırılması gereken daha derin bir engelin işareti olabilir.",
+      ]},
+    ],
+    },
+  },
 };
