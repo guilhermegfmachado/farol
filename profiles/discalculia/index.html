@@ -161,7 +161,7 @@ A preencher após o curso em Florença (Agosto 2026). A estrutura já está pron
     }
   });
 })();
-</script>   </main> <!-- Language suggestion banner --> <script>
+</script>   </main> <!-- Language suggestion banner --> <script type="application/json" id="farol-lang-msgs">{"pt":"Este conteúdo está disponível em português","en":"This content is available in English","es":"Este contenido está disponible en español","fr":"Ce contenu est disponible en français","it":"Questo contenuto è disponibile in italiano","hr":"Ovaj sadržaj dostupan je na hrvatskom","de":"Diese Inhalte sind auf Deutsch verfügbar","nl":"Deze inhoud is beschikbaar in het Nederlands","pl":"Ta treść jest dostępna po polsku","ro":"Acest conținut este disponibil în română","cs":"Tento obsah je k dispozici v češtině","sv":"Det här innehållet finns på svenska","da":"Dette indhold er tilgængeligt på dansk","fi":"Tämä sisältö on saatavilla suomeksi","sk":"Tento obsah je dostupný v slovenčine","el":"Αυτό το περιεχόμενο είναι διαθέσιμο στα ελληνικά","hu":"Ez a tartalom elérhető magyarul","bg":"Това съдържание е налично на български","lt":"Šis turinys prieinamas lietuvių kalba","lv":"Šis saturs ir pieejams latviešu valodā","et":"See sisu on saadaval eesti keeles","sl":"Ta vsebina je na voljo v slovenščini","ga":"Tá an t-ábhar seo ar fáil i nGaeilge","mt":"Dan il-kontenut huwa disponibbli bil-Malti"}</script> <script>
     (function() {
       try {
         if (localStorage.getItem('farol-lang-banner-dismissed')) return;
@@ -186,7 +186,10 @@ A preencher após o curso em Florença (Agosto 2026). A estrutura já está pron
           if (!targetHref) return;
           var banner = document.createElement('div');
           banner.id = 'lang-banner';
-          banner.innerHTML = '<span>' + langNames[browserLang] + ' available — <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="Dismiss">✕</button>';
+          var msgs = {};
+          try { msgs = JSON.parse(document.getElementById('farol-lang-msgs').textContent); } catch (e) {}
+          var msg = msgs[browserLang] || (langNames[browserLang] + ' available');
+          banner.innerHTML = '<span>' + msg + ' &mdash; <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="Dismiss">✕</button>';
           document.body.prepend(banner);
         }
       } catch (e) {}
