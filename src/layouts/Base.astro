@@ -6,6 +6,12 @@ import '../styles/global.css';
 import jakartaWoff2 from '@fontsource-variable/plus-jakarta-sans/files/plus-jakarta-sans-latin-wght-normal.woff2?url';
 import { ui } from '@/lib/i18n';
 
+// The language banner speaks to a visitor whose browser language differs from
+// the page's, so it has to be written in *their* language, not the page's.
+const langSuggestions = JSON.stringify(
+  Object.fromEntries(Object.entries(ui).map(([l, v]) => [l, (v as any).lang_suggestion])),
+);
+
 interface Props {
   title: string;
   description?: string;
@@ -79,6 +85,7 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
       <slot />
     </main>
     <!-- Language suggestion banner -->
+    <script type="application/json" id="farol-lang-msgs" set:html={langSuggestions}></script>
     <script is:inline>
     (function() {
       try {
@@ -104,7 +111,10 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
           if (!targetHref) return;
           var banner = document.createElement('div');
           banner.id = 'lang-banner';
-          banner.innerHTML = '<span>' + langNames[browserLang] + ' available — <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="Dismiss">✕</button>';
+          var msgs = {};
+          try { msgs = JSON.parse(document.getElementById('farol-lang-msgs').textContent); } catch (e) {}
+          var msg = msgs[browserLang] || (langNames[browserLang] + ' available');
+          banner.innerHTML = '<span>' + msg + ' &mdash; <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="Dismiss">✕</button>';
           document.body.prepend(banner);
         }
       } catch (e) {}
