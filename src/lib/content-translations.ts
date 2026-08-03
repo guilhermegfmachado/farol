@@ -75,7 +75,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Signs of comorbidity (anxiety, depression, oppositional defiant disorder) — common in ADHD and warranting referral.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD rarely comes alone: a substantial share of these students also have a learning disorder — dyslexia and dyscalculia are the most common overlaps, and dyspraxia is frequent. In practice: when attention adaptations are not enough, look for a specific pattern in reading or calculation before concluding it is \"lack of effort\".",
+        "ADHD rarely comes alone: it frequently co-occurs with learning disorders, reading difficulties among them.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> In practice: when attention adaptations are not enough, look for a specific pattern in reading or arithmetic before concluding it is “lack of effort”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -166,7 +166,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Assess the work by its content, not its physical presentation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Explain what dyspraxia is in plain language — most parents/guardians have never heard the term: \"it is a neurological difficulty with coordinating movement, not carelessness or a lack of effort\".",
+        "Explain what dyspraxia is in plain language, without assuming the term is familiar: “it is a neurological difficulty with coordinating movement, not carelessness or lack of effort”.",
         "Illegible handwriting is the biggest point of friction with parents/guardians — showing that assessment now values content over form helps ease anxiety on both sides.",
         "Suggest practical tools for home: voice dictation on the phone for notes, a keyboard for longer written work.",
         "If there is a history of \"he/she is lazy\" or \"does not try\" in previous years, name it directly: \"I know you have heard that before — my reading is different\".",
@@ -476,7 +476,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Señales de comorbilidad (ansiedad, depresión, trastorno negativista desafiante): frecuentes en el TDAH y que justifican la derivación.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "El TDAH rara vez viene solo: una parte sustancial de estos alumnos tiene además un trastorno del aprendizaje; la dislexia y la discalculia son las superposiciones más comunes, y la dispraxia es frecuente. En la práctica: cuando las adaptaciones de atención no bastan, buscar un patrón específico en la lectura o el cálculo antes de concluir que es «falta de esfuerzo».",
+        "El TDAH rara vez viene solo: con frecuencia coexiste con trastornos del aprendizaje, entre ellos las dificultades de lectura.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> En la práctica: cuando las adaptaciones de atención no bastan, buscar un patrón específico en la lectura o el cálculo antes de concluir que es “falta de esfuerzo”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -567,7 +567,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evaluar el producto por su contenido, no por su presentación física.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Explicar qué es la dispraxia en un lenguaje sencillo, ya que la mayoría de las familias nunca ha oído el término: «es una dificultad neurológica en la coordinación de los movimientos, no es descuido ni falta de esfuerzo».",
+        "Explicar qué es la dispraxia en lenguaje sencillo, sin dar por supuesto que el término se conoce: “es una dificultad neurológica en la coordinación de los movimientos, no es descuido ni falta de esfuerzo”.",
         "La caligrafía ilegible es el punto de mayor fricción con las familias; mostrar que la evaluación ha pasado a valorar el contenido y no la forma ayuda a aliviar la ansiedad de ambas partes.",
         "Sugerir herramientas prácticas para casa: el dictado por voz en el móvil para tomar apuntes y el teclado para los trabajos escritos extensos.",
         "Si en años anteriores existió un historial de «es perezoso/a» o «no se esfuerza», nombrarlo directamente: «sé que ya ha oído eso antes; mi lectura es diferente».",
@@ -877,7 +877,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Signes de comorbidité (anxiété, dépression, trouble oppositionnel) : fréquents dans le TDAH et qui justifient une orientation.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Le TDAH vient rarement seul : une part importante de ces élèves présente aussi un trouble des apprentissages — la dyslexie et la dyscalculie sont les recoupements les plus fréquents, et la dyspraxie est courante. En pratique : quand les adaptations de l'attention ne suffisent pas, chercher un schéma spécifique en lecture ou en calcul avant de conclure à un « manque d'efforts ».",
+        "Le TDAH vient rarement seul : il coexiste souvent avec des troubles des apprentissages, dont les difficultés de lecture.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> En pratique : quand les aménagements portant sur l’attention ne suffisent pas, chercher un profil spécifique en lecture ou en calcul avant de conclure au « manque d’effort ».",
       ]},
     ]},
     dislexia: { sections: [
@@ -968,7 +968,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Évaluer le travail sur son contenu, et non sur sa présentation matérielle.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Expliquer ce qu'est la dyspraxie dans un langage simple, car la plupart des parents n'ont jamais entendu ce terme : « c'est une difficulté neurologique dans la coordination des mouvements, ce n'est ni de la négligence ni un manque d'effort ».",
+        "Expliquer ce qu’est la dyspraxie en termes simples, sans supposer que le terme est connu : « c’est une difficulté neurologique de coordination des mouvements, ce n’est ni de la négligence ni un manque d’effort ».",
         "L'écriture illisible est le point de friction le plus important avec les parents ; montrer que l'évaluation valorise désormais le contenu et non la forme aide à apaiser l'anxiété de part et d'autre.",
         "Suggérer des outils pratiques à la maison : la dictée vocale sur le téléphone pour la prise de notes, le clavier pour les travaux écrits longs.",
         "S'il existe un historique de « il/elle est paresseux·se » ou « il/elle ne fait pas d'efforts » au cours des années précédentes, le nommer directement : « je sais que vous avez déjà entendu cela ; mon interprétation est différente ».",
@@ -1278,7 +1278,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Segnali di comorbilità (ansia, depressione, disturbo oppositivo provocatorio): frequenti nell'ADHD e tali da giustificare l'invio a uno specialista.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "L'ADHD raramente arriva da solo: una parte consistente di questi alunni ha anche un disturbo dell'apprendimento — dislessia e discalculia sono le sovrapposizioni più comuni, e la disprassia è frequente. In pratica: quando gli adattamenti per l'attenzione non bastano, cercare uno schema specifico nella lettura o nel calcolo prima di concludere che è \"mancanza di impegno\".",
+        "L’ADHD arriva raramente da solo: coesiste spesso con disturbi dell’apprendimento, tra cui le difficoltà di lettura.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> In pratica: quando gli adattamenti sull’attenzione non bastano, cercare uno schema specifico nella lettura o nel calcolo prima di concludere che sia “scarso impegno”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -1369,7 +1369,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Valutare l'elaborato in base al contenuto, non alla presentazione fisica.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Spiegare che cos'è la disprassia con un linguaggio semplice, poiché la maggior parte dei genitori non ha mai sentito questo termine: «è una difficoltà neurologica nella coordinazione dei movimenti, non è trascuratezza né mancanza di impegno».",
+        "Spiegare che cos’è la disprassia in parole semplici, senza dare per scontato che il termine sia noto: “è una difficoltà neurologica nella coordinazione dei movimenti, non è distrazione né scarso impegno”.",
         "La calligrafia illeggibile è il punto di maggiore attrito con i genitori; mostrare che la valutazione ora dà valore al contenuto e non alla forma aiuta ad alleviare l'ansia di entrambe le parti.",
         "Suggerire strumenti pratici per casa: la dettatura vocale sul cellulare per prendere appunti, la tastiera per i lavori scritti estesi.",
         "Se negli anni precedenti vi è stato un passato di «è pigro/a» o «non si impegna», nominarlo direttamente: «so che l'ha già sentito dire; la mia lettura è diversa».",
@@ -1680,7 +1680,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Anzeichen von Komorbidität (Angst, Depression, Störung mit oppositionellem Trotzverhalten) — bei ADHS häufig und ein Grund für eine Überweisung.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHS kommt selten allein: Ein erheblicher Teil dieser Schüler hat zusätzlich eine Lernstörung — Legasthenie und Dyskalkulie sind die häufigsten Überlappungen, Dyspraxie ist verbreitet. Praktisch heißt das: Wenn die Aufmerksamkeits-Anpassungen nicht reichen, nach einem spezifischen Muster beim Lesen oder Rechnen suchen, bevor man auf „mangelnden Einsatz\" schließt.",
+        "ADHS kommt selten allein: häufig treten zugleich Lernstörungen auf, darunter Leseschwierigkeiten.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> In der Praxis: Wenn Anpassungen zur Aufmerksamkeit nicht ausreichen, nach einem spezifischen Muster beim Lesen oder Rechnen suchen, bevor auf „mangelnde Anstrengung“ geschlossen wird.",
       ]},
     ]},
     dislexia: { sections: [
@@ -1771,7 +1771,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Das Ergebnis nach dem Inhalt bewerten, nicht nach der äußeren Darstellung.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Erklären Sie in einfacher Sprache, was Dyspraxie ist – die meisten Erziehungsberechtigten haben den Begriff noch nie gehört: „Es ist eine neurologische Schwierigkeit bei der Koordination von Bewegungen, keine Nachlässigkeit und kein mangelnder Einsatz“.",
+        "Erklären Sie in einfacher Sprache, was Dyspraxie ist, ohne vorauszusetzen, dass der Begriff bekannt ist: „Es ist eine neurologische Schwierigkeit bei der Bewegungskoordination, keine Nachlässigkeit und kein Mangel an Anstrengung.“",
         "Die unleserliche Handschrift ist der größte Reibungspunkt mit den Erziehungsberechtigten – zu zeigen, dass die Bewertung nun den Inhalt und nicht die Form gewichtet, hilft, die Angst auf beiden Seiten zu lindern.",
         "Schlagen Sie praktische Hilfsmittel für zu Hause vor: Spracheingabe am Handy für Notizen, Tastatur für umfangreiche schriftliche Arbeiten.",
         "Wenn es in früheren Jahren ein „er/sie ist faul“ oder „er/sie strengt sich nicht an“ gab, benennen Sie das direkt: „Ich weiß, dass Sie das schon einmal gehört haben – meine Einschätzung ist eine andere“.",
@@ -2078,7 +2078,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tekenen van comorbiditeit (angst, depressie, oppositioneel-opstandige gedragsstoornis) — vaak bij ADHD en een reden voor doorverwijzing.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD komt zelden alleen: een aanzienlijk deel van deze leerlingen heeft ook een leerstoornis — dyslexie en dyscalculie zijn de meest voorkomende overlappingen, en dyspraxie komt vaak voor. In de praktijk: als aandachtsaanpassingen niet volstaan, zoek dan een specifiek patroon in lezen of rekenen voordat je besluit dat het \"te weinig inzet\" is.",
+        "ADHD komt zelden alleen: het gaat vaak samen met leerstoornissen, waaronder leesproblemen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> In de praktijk: als aanpassingen voor aandacht niet volstaan, zoek dan naar een specifiek patroon in lezen of rekenen voordat u concludeert dat het “gebrek aan inzet” is.",
       ]},
     ]},
     dislexia: { sections: [
@@ -2169,7 +2169,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Het product beoordelen op de inhoud, niet op de fysieke presentatie.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Leg in eenvoudige taal uit wat dyspraxie is – de meeste ouders/verzorgers hebben de term nog nooit gehoord: ‘het is een neurologische moeilijkheid in de coördinatie van bewegingen, geen slordigheid en geen gebrek aan inspanning’.",
+        "Leg in gewone taal uit wat dyspraxie is, zonder ervan uit te gaan dat de term bekend is: “het is een neurologische moeilijkheid met het coördineren van bewegingen, geen slordigheid of gebrek aan inzet”.",
         "Het onleesbare handschrift is het grootste wrijvingspunt met ouders/verzorgers – laten zien dat de beoordeling nu de inhoud waardeert en niet de vorm, helpt de angst aan beide kanten te verlichten.",
         "Stel praktische hulpmiddelen voor thuis voor: spraakdictee op de telefoon voor notities, een toetsenbord voor uitgebreide schrijfopdrachten.",
         "Als er in voorgaande jaren een geschiedenis is van ‘hij/zij is lui’ of ‘doet geen moeite’, benoem dat dan rechtstreeks: ‘ik weet dat u dit al eerder hebt gehoord – mijn beeld is anders’.",
@@ -2475,7 +2475,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Oznaki współwystępujących zaburzeń (lęk, depresja, zaburzenie opozycyjno-buntownicze) — częste w ADHD i uzasadniające skierowanie.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD rzadko występuje samo: znaczna część tych uczniów ma także zaburzenie uczenia się — dysleksja i dyskalkulia to najczęstsze nakładania, a dyspraksja jest częsta. W praktyce: gdy dostosowania dotyczące uwagi nie wystarczają, szukać specyficznego wzorca w czytaniu lub liczeniu, zanim uzna się to za „brak wysiłku\".",
+        "ADHD rzadko występuje samo: często współwystępuje z zaburzeniami uczenia się, w tym z trudnościami w czytaniu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> W praktyce: gdy dostosowania dotyczące uwagi nie wystarczają, poszukaj swoistego wzorca w czytaniu lub liczeniu, zanim uznasz, że to „brak wysiłku”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -2566,7 +2566,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Oceniać efekt według treści, a nie według fizycznej prezentacji.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Wyjaśnić, czym jest dyspraksja, prostym językiem — większość rodziców nigdy nie słyszała tego terminu: „to neurologiczna trudność w koordynacji ruchów, a nie niedbalstwo ani brak wysiłku”.",
+        "Wyjaśnij prostym językiem, czym jest dyspraksja, nie zakładając, że termin jest znany: „to neurologiczna trudność z koordynacją ruchów, a nie niedbalstwo czy brak wysiłku”.",
         "Nieczytelne pismo jest punktem największego napięcia z rodzicami — pokazanie, że ocena zaczęła doceniać treść, a nie formę, pomaga złagodzić niepokój po obu stronach.",
         "Sugerować praktyczne narzędzia do domu: dyktowanie głosowe w telefonie do robienia notatek, klawiaturę do obszernych prac pisemnych.",
         "Jeśli w poprzednich latach pojawiały się określenia „jest leniwy/a” lub „nie stara się”, nazwać to wprost: „wiem, że słyszał(a) pan(i) to już wcześniej — moja interpretacja jest inna”.",
@@ -2872,7 +2872,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Semne de comorbiditate (anxietate, depresie, tulburare opozițională): frecvente în ADHD și care justifică trimiterea spre evaluare.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD-ul vine rareori singur: o parte substanțială dintre acești elevi are și o tulburare de învățare — dislexia și discalculia sunt suprapunerile cele mai frecvente, iar dispraxia e des întâlnită. Practic: când adaptările pentru atenție nu ajung, căutați un tipar specific la citit sau la calcul înainte de a conchide că e „lipsă de efort\".",
+        "ADHD vine rareori singur: coexistă frecvent cu tulburări de învățare, între care dificultățile de citire.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> În practică: când adaptările pentru atenție nu sunt suficiente, căutați un tipar specific la citire sau la calcul înainte de a conchide că este „lipsă de efort”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -2963,7 +2963,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Evaluarea lucrării după conținut, nu după prezentarea fizică.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Explicarea în termeni simpli a ceea ce este dispraxia, deoarece majoritatea părinților nu au auzit niciodată acest termen: „este o dificultate neurologică în coordonarea mișcărilor, nu este neglijență și nici lipsă de efort”.",
+        "Explicați ce este dispraxia în limbaj simplu, fără a presupune că termenul este cunoscut: „este o dificultate neurologică de coordonare a mișcărilor, nu neglijență și nici lipsă de efort”.",
         "Scrisul ilizibil este punctul de cel mai mare conflict cu părinții; a arăta că evaluarea valorizează acum conținutul și nu forma ajută la diminuarea anxietății ambelor părți.",
         "Sugerarea unor instrumente practice pentru acasă: dictarea vocală pe telefon pentru notițe, tastatura pentru lucrările scrise extinse.",
         "Dacă în anii anteriori a existat un istoric de „este leneș/leneșă” sau „nu depune efort”, numiți acest lucru direct: „știu că ați mai auzit asta; interpretarea mea este diferită”.",
@@ -3274,7 +3274,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Znakovi komorbiditeta (anksioznost, depresija, poremećaj s prkošenjem i suprotstavljanjem) — česti kod ADHD-a i opravdavaju upućivanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD rijetko dolazi sam: znatan dio tih učenika ima i poremećaj učenja — disleksija i diskalkulija najčešća su preklapanja, a dispraksija je česta. U praksi: kad prilagodbe za pažnju nisu dovoljne, potražiti specifičan obrazac u čitanju ili računanju prije zaključka da je riječ o \"manjku truda\".",
+        "ADHD rijetko dolazi sam: često supostoji s teškoćama u učenju, među njima i s teškoćama čitanja.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> U praksi: kada prilagodbe za pažnju nisu dovoljne, potražite specifičan obrazac u čitanju ili računanju prije zaključka da je riječ o „nedostatku truda”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -3365,7 +3365,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Procjenjivati uradak prema sadržaju, a ne prema fizičkom izgledu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Objasniti što je dispraksija jednostavnim jezikom — većina roditelja nikada nije čula taj naziv: „to je neurološka teškoća u koordinaciji pokreta, a ne nemar ni nedostatak truda”.",
+        "Objasnite što je dispraksija jednostavnim jezikom, ne pretpostavljajući da je pojam poznat: „to je neurološka teškoća u koordinaciji pokreta, nije nemar ni nedostatak truda”.",
         "Nečitak je rukopis točka najvećeg trvenja s roditeljima — pokazati da vrednovanje sada cijeni sadržaj, a ne oblik, pomaže ublažiti tjeskobu s obje strane.",
         "Predložiti praktične alate za kod kuće: glasovni diktat na mobitelu za bilješke, tipkovnicu za opsežne pisane radove.",
         "Ako su se prethodnih godina pojavljivale oznake „lijen je/lijena je” ili „ne trudi se”, imenovati to izravno: „znam da ste to već čuli — moje je tumačenje drukčije”.",
@@ -3673,7 +3673,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Známky komorbidity (úzkost, deprese, opoziční vzdorovité chování) — u ADHD časté a odůvodňující odeslání k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD zřídka přichází samo: podstatná část těchto žáků má i poruchu učení — dyslexie a dyskalkulie jsou nejčastější překryvy, dyspraxie je běžná. V praxi: když úpravy pro pozornost nestačí, hledat specifický vzorec ve čtení nebo počítání, než usoudíme, že jde o „málo snahy\".",
+        "ADHD přichází zřídka samo: často se pojí s poruchami učení, mezi nimi s obtížemi ve čtení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> V praxi: když úpravy zaměřené na pozornost nestačí, hledejte specifický vzorec ve čtení nebo v počítání, než uzavřete, že jde o „nedostatek snahy“.",
       ]},
     ]},
     dislexia: { sections: [
@@ -3764,7 +3764,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Hodnotit výsledek podle obsahu, nikoli podle fyzické úpravy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Vysvětlit, co je dyspraxie, jednoduchým jazykem — většina rodičů tento termín nikdy neslyšela: „je to neurologická obtíž v koordinaci pohybů, není to nedbalost ani nedostatek snahy“.",
+        "Vysvětlete jednoduchým jazykem, co je dyspraxie, aniž byste předpokládali, že je pojem známý: „je to neurologická obtíž s koordinací pohybů, ne nedbalost ani nedostatek snahy“.",
         "Nečitelný rukopis je bodem největšího napětí s rodiči — ukázat, že hodnocení nyní oceňuje obsah, a ne formu, pomáhá zmírnit úzkost na obou stranách.",
         "Navrhnout praktické nástroje pro domácí použití: hlasový diktát v mobilu na poznámky, klávesnici na rozsáhlé písemné práce.",
         "Pokud se v předchozích letech objevila označení „je líný/líná“ nebo „nesnaží se“, pojmenovat to přímo: „vím, že jste to už slyšel/a dříve — můj pohled je jiný“.",
@@ -4071,7 +4071,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tecken på samsjuklighet (ångest, depression, trotssyndrom) — vanliga vid ADHD och som motiverar remiss.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD kommer sällan ensamt: en betydande andel av dessa elever har också en inlärningssvårighet — dyslexi och dyskalkyli är de vanligaste överlappningarna, och dyspraxi är vanligt. I praktiken: när anpassningarna för uppmärksamhet inte räcker, leta efter ett specifikt mönster i läsning eller räkning innan slutsatsen blir \"bristande ansträngning\".",
+        "ADHD kommer sällan ensamt: det förekommer ofta tillsammans med inlärningssvårigheter, däribland lässvårigheter.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> I praktiken: när anpassningar för uppmärksamhet inte räcker, leta efter ett specifikt mönster i läsning eller räkning innan du drar slutsatsen att det är ”bristande ansträngning”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -4162,7 +4162,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bedöma produkten efter innehållet, inte efter den fysiska presentationen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Förklara i enkelt språk vad dyspraxi är – de flesta vårdnadshavare har aldrig hört termen: ”det är en neurologisk svårighet i koordinationen av rörelser, inte slarv och inte bristande ansträngning”.",
+        "Förklara på enkel svenska vad dyspraxi är, utan att förutsätta att begreppet är känt: ”det är en neurologisk svårighet att samordna rörelser, inte slarv eller bristande ansträngning”.",
         "Den oläsliga handstilen är den största friktionspunkten med vårdnadshavarna – att visa att bedömningen numera värdesätter innehållet och inte formen hjälper till att lindra oron på båda sidor.",
         "Föreslå praktiska verktyg för hemmet: tal-till-text på mobilen för anteckningar, tangentbord för omfattande skriftliga arbeten.",
         "Om det finns en historik av ”han/hon är lat” eller ”anstränger sig inte” från tidigare år, benämn det direkt: ”jag vet att ni har hört det förut – min tolkning är en annan”.",
@@ -4469,7 +4469,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tegn på komorbiditet (angst, depression, oppositionel adfærdsforstyrrelse) — de er hyppige ved ADHD og begrunder henvisning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD kommer sjældent alene: en betydelig del af disse elever har også en indlæringsvanskelighed — ordblindhed og dyskalkuli er de hyppigste overlap, og dyspraksi er almindeligt. I praksis: når tilpasningerne for opmærksomhed ikke rækker, så led efter et specifikt mønster i læsning eller regning, før konklusionen bliver \"manglende indsats\".",
+        "ADHD kommer sjældent alene: det optræder ofte sammen med indlæringsforstyrrelser, heriblandt læsevanskeligheder.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> I praksis: når tilpasninger til opmærksomhed ikke rækker, så led efter et specifikt mønster i læsning eller regning, før du konkluderer, at det er “manglende indsats”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -4560,7 +4560,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vurdere produktet ud fra indholdet, ikke ud fra den fysiske præsentation.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Forklar i et enkelt sprog, hvad dyspraksi er – de fleste forældre/værger har aldrig hørt betegnelsen: »det er en neurologisk vanskelighed i koordinationen af bevægelser, ikke sjusk og ikke manglende indsats«.",
+        "Forklar med enkle ord, hvad dyspraksi er, uden at gå ud fra at begrebet er kendt: “det er en neurologisk vanskelighed med at koordinere bevægelser, ikke sjusk eller manglende indsats”.",
         "Den ulæselige håndskrift er det største gnidningspunkt med forældre/værger – at vise, at bedømmelsen nu vægter indholdet og ikke formen, hjælper med at lindre bekymringen på begge sider.",
         "Foreslå praktiske værktøjer til hjemmet: stemmediktering på mobilen til noter, tastatur til omfattende skriftlige opgaver.",
         "Hvis der er en historik med »han/hun er doven« eller »gør sig ikke umage« fra tidligere år, så sæt direkte ord på det: »jeg ved, at du har hørt det før – min vurdering er en anden«.",
@@ -4867,7 +4867,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Liitännäissairauksien merkit (ahdistus, masennus, uhmakkuushäiriö) — yleisiä ADHD:ssä ja perustelevat lähetteen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD tulee harvoin yksin: huomattavalla osalla näistä oppilaista on myös oppimisvaikeus — lukivaikeus ja laskemiskyvyn häiriö ovat yleisimmät päällekkäisyydet, ja motorisen oppimisen vaikeus on tavallinen. Käytännössä: kun tarkkaavaisuuden tuet eivät riitä, etsi erityistä kaavaa lukemisesta tai laskemisesta ennen kuin päättelet, että kyse on \"yrittämisen puutteesta\".",
+        "ADHD tulee harvoin yksin: siihen liittyy usein oppimisvaikeuksia, muun muassa lukemisen vaikeuksia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Käytännössä: kun tarkkaavuuteen kohdistuvat mukautukset eivät riitä, etsi erityistä kaavaa lukemisesta tai laskemisesta ennen kuin päättelet, että kyse on ”yrittämisen puutteesta”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -4958,7 +4958,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Arvioi tuotos sisällön, ei fyysisen ulkoasun perusteella.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Selitä yksinkertaisella kielellä, mitä dyspraksia on – useimmat huoltajat eivät ole koskaan kuulleet termiä: ”se on neurologinen vaikeus liikkeiden koordinoinnissa, ei huolimattomuutta eikä yrittämisen puutetta”.",
+        "Selitä yksinkertaisin sanoin, mitä dyspraksia on, olettamatta että termi on tuttu: ”se on neurologinen vaikeus koordinoida liikkeitä, ei huolimattomuutta eikä yrittämisen puutetta”.",
         "Lukukelvoton käsiala on suurin kitkakohta huoltajien kanssa – sen osoittaminen, että arviointi arvostaa nyt sisältöä eikä muotoa, auttaa lievittämään molempien osapuolten ahdistusta.",
         "Ehdota käytännön työkaluja kotiin: puhesanelua puhelimessa muistiinpanoja varten, näppäimistöä laajoihin kirjallisiin töihin.",
         "Jos aiempina vuosina on kuultu ”hän on laiska” tai ”hän ei yritä”, nimeä se suoraan: ”tiedän, että olette kuulleet tämän aiemmin – minun tulkintani on toisenlainen”.",
@@ -5266,7 +5266,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Známky komorbidity (úzkosť, depresia, opozičné vzdorovité správanie) — pri ADHD časté a odôvodňujúce odoslanie k odborníkovi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD prichádza zriedka samo: podstatná časť týchto žiakov má aj poruchu učenia — dyslexia a dyskalkúlia sú najčastejšie prekryvy, dyspraxia je bežná. V praxi: keď úpravy pre pozornosť nestačia, hľadať špecifický vzorec v čítaní alebo počítaní skôr, než usúdime, že ide o „málo snahy\".",
+        "ADHD prichádza zriedka samo: často sa spája s poruchami učenia, medzi nimi s ťažkosťami v čítaní.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> V praxi: keď úpravy zamerané na pozornosť nestačia, hľadajte špecifický vzorec v čítaní alebo v počítaní skôr, než uzavriete, že ide o „nedostatok snahy“.",
       ]},
     ]},
     dislexia: { sections: [
@@ -5357,7 +5357,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Hodnotiť výsledok podľa obsahu, nie podľa fyzickej úpravy.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Vysvetliť, čo je dyspraxia, jednoduchým jazykom — väčšina rodičov tento termín nikdy nepočula: „je to neurologická ťažkosť v koordinácii pohybov, nie je to nedbanlivosť ani nedostatok snahy“.",
+        "Vysvetlite jednoduchým jazykom, čo je dyspraxia, bez predpokladu, že je pojem známy: „je to neurologická ťažkosť s koordináciou pohybov, nie nedbalosť ani nedostatok snahy“.",
         "Nečitateľný rukopis je bodom najväčšieho napätia s rodičmi — ukázať, že hodnotenie teraz oceňuje obsah, a nie formu, pomáha zmierniť úzkosť na oboch stranách.",
         "Navrhnúť praktické nástroje na domáce použitie: hlasový diktát v mobile na poznámky, klávesnicu na rozsiahle písomné práce.",
         "Ak sa v predchádzajúcich rokoch objavili označenia „je lenivý/lenivá“ alebo „nesnaží sa“, pomenovať to priamo: „viem, že ste to už počuli predtým — môj pohľad je iný“.",
@@ -5662,7 +5662,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A komorbiditás jelei (szorongás, depresszió, oppozíciós zavar) — gyakoriak az ADHD-ban, és indokolják a továbbirányítást.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Az ADHD ritkán jár egyedül: e tanulók jelentős részének tanulási zavara is van — a diszlexia és a diszkalkulia a leggyakoribb átfedés, a diszpraxia pedig gyakori. A gyakorlatban: ha a figyelmet segítő alkalmazkodások nem elegendők, keressünk sajátos mintázatot az olvasásban vagy a számolásban, mielőtt „kevés igyekezetre\" következtetnénk.",
+        "Az ADHD ritkán jár egyedül: gyakran együtt jár tanulási zavarokkal, köztük olvasási nehézségekkel.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> A gyakorlatban: ha a figyelemre irányuló alkalmazkodások nem elegendők, keressen sajátos mintázatot az olvasásban vagy a számolásban, mielőtt „erőfeszítés hiányára” következtetne.",
       ]},
     ]},
     dislexia: { sections: [
@@ -5753,7 +5753,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A munkát a tartalom, ne a fizikai megjelenés alapján értékelni.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Egyszerű nyelven elmagyarázni, mi a diszpraxia — a legtöbb gondviselő soha nem hallotta a kifejezést: „ez egy neurológiai eredetű nehézség a mozgások koordinálásában, nem hanyagság és nem az igyekezet hiánya”.",
+        "Egyszerű nyelven magyarázza el, mi a diszpraxia, anélkül hogy feltételezné, hogy a kifejezés ismert: „ez a mozgáskoordináció neurológiai nehézsége, nem hanyagság és nem az erőfeszítés hiánya”.",
         "Az olvashatatlan kézírás a legnagyobb súrlódási pont a gondviselőkkel — annak megmutatása, hogy az értékelés immár a tartalmat és nem a formát helyezi előtérbe, mindkét fél szorongásának enyhítésében segít.",
         "Gyakorlati eszközöket javasolni az otthoni használatra: hangdiktálás a telefonon a jegyzetekhez, billentyűzet a terjedelmes írásbeli munkákhoz.",
         "Ha korábbi években előfordult a „lusta” vagy „nem igyekszik” minősítés, ezt nevezzük néven közvetlenül: „tudom, hogy ezt már hallotta korábban — én másképp olvasom a helyzetet”.",
@@ -6060,7 +6060,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Σημάδια συννοσηρότητας (άγχος, κατάθλιψη, εναντιωματική διαταραχή) — συχνά στη ΔΕΠΥ και τα οποία δικαιολογούν παραπομπή.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Η ΔΕΠ-Υ σπάνια έρχεται μόνη: σημαντικό μέρος αυτών των μαθητών έχει και μαθησιακή διαταραχή — η δυσλεξία και η δυσαριθμησία είναι οι συχνότερες επικαλύψεις, και η δυσπραξία είναι συχνή. Στην πράξη: όταν οι προσαρμογές για την προσοχή δεν αρκούν, αναζητήστε ειδικό μοτίβο στην ανάγνωση ή στον υπολογισμό πριν συμπεράνετε ότι πρόκειται για «έλλειψη προσπάθειας».",
+        "Η ΔΕΠΥ σπάνια έρχεται μόνη: συχνά συνυπάρχει με μαθησιακές διαταραχές, ανάμεσά τους οι δυσκολίες ανάγνωσης.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Στην πράξη: όταν οι προσαρμογές για την προσοχή δεν αρκούν, αναζητήστε ένα ειδικό μοτίβο στην ανάγνωση ή στον υπολογισμό πριν συμπεράνετε ότι πρόκειται για «έλλειψη προσπάθειας».",
       ]},
     ]},
     dislexia: { sections: [
@@ -6151,7 +6151,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Να αξιολογείται το προϊόν με βάση το περιεχόμενο, όχι τη φυσική παρουσίαση.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Να εξηγηθεί τι είναι η δυσπραξία σε απλή γλώσσα — οι περισσότεροι κηδεμόνες δεν έχουν ακούσει ποτέ τον όρο: «είναι μια νευρολογική δυσκολία στον συντονισμό των κινήσεων, δεν είναι αμέλεια ούτε έλλειψη προσπάθειας».",
+        "Εξηγήστε με απλά λόγια τι είναι η δυσπραξία, χωρίς να θεωρείτε δεδομένο ότι ο όρος είναι γνωστός: «είναι μια νευρολογική δυσκολία στον συντονισμό των κινήσεων, δεν είναι απροσεξία ούτε έλλειψη προσπάθειας».",
         "Ο δυσανάγνωστος γραφικός χαρακτήρας είναι το σημείο μεγαλύτερης τριβής με τους κηδεμόνες — το να δείξετε ότι η αξιολόγηση δίνει πλέον αξία στο περιεχόμενο και όχι στη μορφή βοηθά να ανακουφιστεί το άγχος και των δύο πλευρών.",
         "Να προτείνετε πρακτικά εργαλεία για το σπίτι: υπαγόρευση με φωνή στο κινητό για σημειώσεις, πληκτρολόγιο για εκτενείς γραπτές εργασίες.",
         "Αν υπάρχει ιστορικό «είναι τεμπέλης/-α» ή «δεν προσπαθεί» από προηγούμενα έτη, να το ονομάσετε ευθέως: «ξέρω ότι το έχετε ξανακούσει αυτό — η δική μου ανάγνωση είναι διαφορετική».",
@@ -6458,7 +6458,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Признаци на коморбидност (тревожност, депресия, опозиционно-предизвикателно разстройство) — чести при ADHD и обосноваващи насочване към специалист.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ХАДВ рядко идва само: значителна част от тези ученици имат и разстройство на ученето — дислексията и дискалкулията са най-честите припокривания, а диспраксията е честа. На практика: когато адаптациите за внимание не стигат, потърсете специфичен модел в четенето или смятането, преди да заключите, че е „липса на старание\".",
+        "ХАДВ рядко идва само: често съществува заедно с обучителни разстройства, сред тях и затруднения в четенето.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> На практика: когато адаптациите за вниманието не стигат, потърсете специфичен модел в четенето или смятането, преди да заключите, че става дума за „липса на усилие“.",
       ]},
     ]},
     dislexia: { sections: [
@@ -6549,7 +6549,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Да се оценява продуктът по съдържанието, а не по физическото оформление.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Да се обясни какво е диспраксията на прост език — повечето родители никога не са чували термина: „това е неврологична трудност в координацията на движенията, не е немарливост, нито липса на усилие“.",
+        "Обяснете с прости думи какво е диспраксия, без да предполагате, че терминът е познат: „това е неврологично затруднение в координацията на движенията, не е немарливост, нито липса на усилие“.",
         "Нечетливият почерк е точката на най-голямо напрежение с родителите — да се покаже, че оценяването вече цени съдържанието, а не формата, помага да се облекчи тревожността от двете страни.",
         "Да се предложат практически инструменти за вкъщи: гласово диктуване на телефона за записки, клавиатура за обемни писмени работи.",
         "Ако в предходни години е имало определения „мързелив е“ или „не се старае“, това да се назове директно: „знам, че вече сте го чували — моят прочит е различен“.",
@@ -6855,7 +6855,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Gretutinių sutrikimų požymiai (nerimas, depresija, opozicinis neklusnumas) — dažni sergant ADHD ir pateisinantys nukreipimą specialistui.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD retai būna vienas: nemaža dalis šių mokinių turi ir mokymosi sutrikimą — disleksija ir diskalkulija yra dažniausi persidengimai, dispraksija taip pat dažna. Praktiškai: kai dėmesio pritaikymų nepakanka, ieškokite specifinio skaitymo ar skaičiavimo dėsningumo, prieš nuspręsdami, kad tai „pastangų stoka\".",
+        "ADHD retai būna vienas: dažnai kartu pasireiškia mokymosi sutrikimai, tarp jų ir skaitymo sunkumai.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Praktiškai: kai dėmesiui skirtų pritaikymų nepakanka, ieškokite specifinio skaitymo ar skaičiavimo modelio, prieš darydami išvadą, kad tai „pastangų stoka“.",
       ]},
     ]},
     dislexia: { sections: [
@@ -6946,7 +6946,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vertinti darbą pagal turinį, o ne pagal fizinį pateikimą.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Paprasta kalba paaiškinti, kas yra dispraksija – dauguma tėvų niekada nėra girdėję šio termino: „tai neurologinis judesių koordinacijos sunkumas, o ne neatidumas ar pastangų stoka“.",
+        "Paprasta kalba paaiškinkite, kas yra dispraksija, nedarydami prielaidos, kad terminas pažįstamas: „tai neurologinis judesių koordinavimo sunkumas, o ne aplaidumas ar pastangų stoka“.",
         "Neįskaitoma rašysena yra didžiausios įtampos su tėvais taškas – parodymas, kad vertinant dabar svarbiausias turinys, o ne forma, padeda sumažinti abiejų pusių nerimą.",
         "Pasiūlyti praktiškų priemonių namams: balso diktavimą telefone užrašams, klaviatūrą ilgesniems rašto darbams.",
         "Jei ankstesniais metais būta sakymų „jis (-i) tinginys (-ė)“ ar „nesistengia“, įvardyti tai tiesiai: „žinau, kad tai jau girdėjote – mano vertinimas yra kitoks“.",
@@ -7252,7 +7252,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Komorbiditātes pazīmes (trauksme, depresija, opozicionāri izaicinoša uzvedība) — biežas ADHD gadījumā un kas pamato nosūtīšanu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "UDHS reti nāk viens: ievērojamai daļai šo skolēnu ir arī mācīšanās traucējumi — disleksija un diskalkulija ir biežākās pārklāšanās, un dispraksija ir bieža. Praksē: kad ar uzmanības pielāgojumiem nepietiek, meklējiet specifisku modeli lasīšanā vai rēķināšanā, pirms secināt, ka tas ir „centības trūkums\".",
+        "ADHD reti nāk viens pats: bieži tas pastāv līdzās mācīšanās traucējumiem, tostarp lasīšanas grūtībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Praksē: kad uzmanībai paredzētie pielāgojumi nepalīdz, meklējiet specifisku modeli lasīšanā vai rēķināšanā, pirms secināt, ka tā ir „pūļu trūkums”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -7343,7 +7343,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Vērtēt darbu pēc satura, nevis pēc fiziskā noformējuma.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Vienkāršā valodā izskaidrot, kas ir dispraksija – vairums vecāku šo terminu nekad nav dzirdējuši: “tās ir neiroloģiskas grūtības kustību koordinācijā, nevis nevērība vai centības trūkums”.",
+        "Vienkāršā valodā paskaidrojiet, kas ir dispraksija, nepieņemot, ka termins ir zināms: „tās ir neiroloģiskas grūtības koordinēt kustības, nevis paviršība vai pūļu trūkums”.",
         "Nesalasāms rokraksts ir lielākais saspīlējuma punkts ar vecākiem – parādot, ka vērtēšanā tagad svarīgākais ir saturs, nevis forma, palīdz mazināt abu pušu trauksmi.",
         "Ieteikt praktiskus rīkus mājām: balss diktēšanu telefonā pierakstiem, tastatūru apjomīgiem rakstu darbiem.",
         "Ja iepriekšējos gados ir skanējis “viņš/viņa ir slinks(-a)” vai “necenšas”, nosaukt to tieši: “es zinu, ka jūs to jau esat dzirdējuši – mans vērtējums ir citāds”.",
@@ -7652,7 +7652,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kaasuvate häirete (ärevus, depressioon, trotslik käitumishäire) märgid — sagedased ATH puhul ja õigustavad suunamist.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ATH tuleb harva üksi: märkimisväärsel osal neist õpilastest on ka õpiraskus — düsleksia ja düskalkuulia on kõige sagedasemad kattuvused ning düspraksia on levinud. Praktikas: kui tähelepanu toetavatest kohandustest ei piisa, otsi enne „vähese pingutuse\" järeldust spetsiifilist mustrit lugemises või arvutamises.",
+        "ATH tuleb harva üksi: sageli esineb koos õpiraskustega, nende seas lugemisraskustega.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Praktikas: kui tähelepanule suunatud kohandustest ei piisa, otsi lugemises või arvutamises spetsiifilist mustrit, enne kui järeldad, et tegu on „pingutuse puudumisega”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -7743,7 +7743,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Hinnata tööd sisu, mitte füüsilise esituse järgi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Selgitada lihtsas keeles, mis on düspraksia – enamik vanemaid pole seda terminit kunagi kuulnud: „see on neuroloogiline raskus liigutuste koordineerimisel, mitte hooletus ega pingutuse puudumine“.",
+        "Selgita lihtsas keeles, mis on düspraksia, eeldamata et mõiste on tuttav: „see on neuroloogiline raskus liigutuste koordineerimisel, mitte hooletus ega pingutuse puudumine”.",
         "Loetamatu käekiri on suurim hõõrdepunkt vanematega – näidata, et hindamine väärtustab nüüd sisu, mitte vormi, aitab leevendada mõlema poole ärevust.",
         "Soovitada praktilisi vahendeid koju: häälega dikteerimist telefonis märkmete jaoks, klaviatuuri mahukate kirjalike tööde jaoks.",
         "Kui varasematel aastatel on kõlanud „ta on laisk“ või „ta ei pinguta“, nimetada seda otse: „ma tean, et olete seda varem kuulnud – minu tõlgendus on teistsugune“.",
@@ -8053,7 +8053,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Znaki komorbidnosti (anksioznost, depresija, opozicionalno kljubovalna motnja) — pri ADHD pogosti in upravičujejo napotitev.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "ADHD redko pride sam: precejšen del teh učencev ima tudi učno motnjo — disleksija in diskalkulija sta najpogostejši prekrivanji, dispraksija pa je pogosta. V praksi: kadar prilagoditve za pozornost ne zadoščajo, poiščite specifičen vzorec pri branju ali računanju, preden sklenete, da gre za „premalo truda\".",
+        "ADHD redko pride sam: pogosto se pojavlja skupaj z učnimi motnjami, med njimi s težavami pri branju.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> V praksi: kadar prilagoditve za pozornost ne zadoščajo, poiščite specifičen vzorec pri branju ali računanju, preden sklenete, da gre za „pomanjkanje truda”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -8144,7 +8144,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izdelek ocenjevati po vsebini, ne po fizični predstavitvi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Pojasniti, kaj je dispraksija, s preprostim jezikom — večina staršev tega izraza še nikoli ni slišala: »gre za nevrološko težavo pri koordinaciji gibov, ne za malomarnost ali pomanjkanje truda«.",
+        "Preprosto pojasnite, kaj je dispraksija, ne da bi predpostavljali, da je izraz znan: „to je nevrološka težava pri usklajevanju gibov, ne malomarnost ne pomanjkanje truda”.",
         "Nečitljiva pisava je točka največje napetosti s starši — pokazati, da ocenjevanje zdaj ceni vsebino in ne oblike, pomaga ublažiti tesnobo na obeh straneh.",
         "Predlagati praktična orodja za doma: glasovno narekovanje na telefonu za zapiske, tipkovnico za obsežne pisne naloge.",
         "Če so se v prejšnjih letih pojavile oznake »je len/lena« ali »se ne trudi«, to neposredno poimenovati: »vem, da ste to že slišali — moja razlaga je drugačna«.",
@@ -8452,7 +8452,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Comharthaí comhghalrachta (imní, dúlagar, neamhord freasúra) — coitianta in ADHD agus a thugann údar le hatreorú.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "Is annamh a thagann ADHD leis féin: tá neamhord foghlama freisin ag cuid mhaith de na daltaí seo — is iad an disléicse agus an dioscalcúile na forluí is coitianta, agus is minic an diospraicse. Go praiticiúil: nuair nach leor na hoiriúnuithe airde, cuardaigh patrún sonrach sa léitheoireacht nó sa ríomh sula gcinntear gur \"easpa iarrachta\" atá ann.",
+        "Is annamh a thagann ADHD ina aonar: is minic a bhíonn neamhoird foghlama in éineacht leis, deacrachtaí léitheoireachta ina measc.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Go praiticiúil: nuair nach leor na hoiriúnuithe don aird, féach an bhfuil patrún ar leith sa léitheoireacht nó san uimhearthacht sula gcinnfí gur “easpa iarrachta” atá ann.",
       ]},
     ]},
     dislexia: { sections: [
@@ -8543,7 +8543,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "An saothar a mheas de réir an ábhair, ní de réir an chuma fhisiciúil.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "A mhíniú cad is dispraicse ann i dteanga shimplí — níor chuala formhór na gcaomhnóirí an téarma riamh: „is deacracht néareolaíoch í i gcomhordú na ngluaiseachtaí, ní faillí ná easpa iarrachta í”.",
+        "Mínigh i dteanga shimplí cad is disprecsia ann, gan a ghlacadh leis go bhfuil an téarma ar eolas: “deacracht néareolaíoch is ea í le comhordú gluaiseachta, ní faillí ná easpa iarrachta atá ann”.",
         "Is í an lámhscríbhneoireacht dholéite an pointe is mó coimhlinte leis na caomhnóirí — cuidíonn sé le himní an dá thaobh a mhaolú a thaispeáint go bhfuil an mheasúnacht ag tabhairt tús áite don ábhar anois seachas don fhoirm.",
         "Uirlisí praiticiúla a mholadh don bhaile: deachtú gutha ar an bhfón do nótaí, méarchlár do shaothair scríofa fhairsinge.",
         "Má bhí stair ann de „tá sé/sí leisciúil” nó „ní dhéanann sé/sí iarracht” i mblianta roimhe seo, é sin a ainmniú go díreach: „tá a fhios agam gur chuala tú é sin cheana — tá léamh difriúil agamsa air”.",
@@ -8852,7 +8852,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Sinjali ta' komorbidità (ansjetà, dipressjoni, disturb ta' oppożizzjoni) — frekwenti fl-ADHD u li jiġġustifikaw riferiment.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
       ]},
       { items: [
-        "L-ADHD rari jiġi waħdu: parti sostanzjali minn dawn l-istudenti għandhom ukoll diżordni tat-tagħlim — id-dislessija u d-diskalkulija huma l-aktar koinċidenzi komuni, u d-disprassja hija frekwenti. Fil-prattika: meta l-adattamenti għall-attenzjoni ma jkunux biżżejjed, fittex xejra speċifika fil-qari jew fil-kalkolu qabel ma tikkonkludi li hu \"nuqqas ta' sforz\".",
+        "L-ADHD rari jiġi waħdu: spiss jikkoeżisti ma’ disturbi tal-apprendiment, fosthom diffikultajiet fil-qari.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Fil-prattika: meta l-adattamenti għall-attenzjoni ma jkunux biżżejjed, fittex xejra speċifika fil-qari jew fil-kalkolu qabel ma tikkonkludi li hija “nuqqas ta’ sforz”.",
       ]},
     ]},
     dislexia: { sections: [
@@ -8943,7 +8943,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tevalwa l-prodott skont il-kontenut, mhux skont il-preżentazzjoni fiżika.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
       ]},
       { items: [
-        "Tispjega x'inhi d-dispraksja b'lingwaġġ sempliċi — il-biċċa l-kbira tal-ġenituri/kustodji qatt ma semgħu t-terminu: “hija diffikultà newroloġika fil-koordinazzjoni tal-movimenti, mhix traskuraġni u lanqas nuqqas ta' sforz”.",
+        "Spjega b’lingwaġġ sempliċi x’inhi d-dispressija tal-moviment, mingħajr ma tassumi li t-terminu huwa magħruf: “hija diffikultà newroloġika fil-koordinazzjoni tal-movimenti, mhijiex traskuraġni jew nuqqas ta’ sforz”.",
         "Il-kitba illeġġibbli hija l-punt ta' l-akbar frizzjoni mal-ġenituri/kustodji — turi li l-evalwazzjoni issa qed tagħti valur lill-kontenut u mhux lill-forma tgħin biex ittaffi l-ansjetà taż-żewġ naħat.",
         "Tissuġġerixxi għodod prattiċi għad-dar: dettatura bil-vuċi fuq il-mowbajl għan-noti, tastiera għal xogħlijiet bil-miktub estensivi.",
         "Jekk ikun hemm storja ta' “huwa/hija għażżien/a” jew “ma jagħmilx sforz” fis-snin ta' qabel, semmiha direttament: “naf li diġà smajt dan qabel — il-qari tiegħi huwa differenti”.",

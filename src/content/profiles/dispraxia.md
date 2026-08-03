@@ -25,7 +25,7 @@ sections:
       - "Avaliar o produto pelo conteúdo, não pela apresentação física.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
   - label: "Como comunicar com o EE"
     items:
-      - "Explicar o que é a dispraxia em linguagem simples — a maioria dos EE nunca ouviu o termo: \"é uma dificuldade neurológica na coordenação dos movimentos, não é descuido nem falta de esforço\"."
+      - "Explicar o que é a dispraxia em linguagem simples, sem assumir que o termo é conhecido: “é uma dificuldade neurológica na coordenação dos movimentos, não é descuido nem falta de esforço”."
       - "A caligrafia ilegível é o ponto de maior atrito com os EE — mostrar que a avaliação passou a valorizar o conteúdo e não a forma ajuda a aliviar a ansiedade de ambos os lados."
       - "Sugerir ferramentas práticas para casa: ditado por voz no telemóvel para apontamentos, teclado para trabalhos escritos extensos."
       - "Se houver histórico de \"é preguiçoso/a\" ou \"não se esforça\" em anos anteriores, nomear isso directamente: \"eu sei que já ouviu isso antes — a minha leitura é diferente\"."
