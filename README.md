@@ -26,6 +26,14 @@ npm run dev      # http://localhost:4321
 npm run build    # gera dist/ e carimba a versão do service worker
 ```
 
+A marca vive em `src/components/LighthouseMark.astro` e em `public/favicon.svg`.
+Depois de a alterar, regenerar os ficheiros derivados (ícones da PWA, ícone iOS e
+a imagem de pré-visualização das ligações):
+
+```bash
+npm i --no-save playwright-core && node scripts/render-icons.mjs
+```
+
 ## Estrutura
 
 ```
