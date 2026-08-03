@@ -36,6 +36,7 @@ export const observations: Observation[] = [
     ga: 'Ní féidir leis suí socair, briseann isteach, gach rud ag cur as dó',
     mt: 'Ma joqgħodx kwiet, jinterrompi, kollox itellfu',
     tr: 'Yerinde duramaz, sözü keser, her şeyle dikkati dağılır',
+    no: 'Sitter ikke stille, avbryter, blir avledet av alt',
   }},
   { profile: 'tdah', text: {
     pt: 'Esquece instruções, perde o material, não acaba tarefas',
@@ -63,6 +64,7 @@ export const observations: Observation[] = [
     ga: 'Déanann dearmad ar threoracha, cailleann a chuid ábhar, ní chríochnaíonn tascanna',
     mt: 'Jinsa l-istruzzjonijiet, jitlef l-affarijiet tiegħu, ma jlestix ix-xogħol',
     tr: 'Ödevlerini unutur, çantası ve masası dağınık',
+    no: 'Glemmer leksene, sekken og pulten er rotete',
   }},
   { profile: 'dislexia', text: {
     pt: 'Evita ler em voz alta, lê devagar e com esforço',
@@ -90,6 +92,7 @@ export const observations: Observation[] = [
     ga: 'Seachnaíonn léamh os ard, léann go mall agus le stró',
     mt: 'Jevita li jaqra b\'leħen għoli, jaqra bil-mod u bi sforz',
     tr: 'Sesli okumaktan kaçınır, harfleri karıştırır, yavaş okur',
+    no: 'Unngår å lese høyt, blander bokstaver, leser sakte',
   }},
   { profile: 'dislexia', text: {
     pt: 'Troca letras, escreve muito abaixo do que fala',
@@ -117,6 +120,7 @@ export const observations: Observation[] = [
     ga: 'Aisiompaíonn litreacha, scríobhann i bhfad faoi bhun a chuid cainte',
     mt: 'Jaqleb l-ittri, jikteb ferm agħar milli jitkellem',
     tr: 'Yazarken çok hata yapar ama sözlü anlatınca fikirleri açık',
+    no: 'Gjør mange feil når hun skriver, men forklarer klart muntlig',
   }},
   { profile: 'dispraxia', text: {
     pt: 'Desajeitado, letra difícil, muito desorganizado',
@@ -144,6 +148,7 @@ export const observations: Observation[] = [
     ga: 'Ciotach, lámhscríbhneoireacht mhíshlachtmhar, an-mhí-eagraithe',
     mt: 'Goff, kitba mħarbta, diżorganizzat ħafna',
     tr: 'Sakar görünür, sık sık bir şey düşürür, elyazısı zor okunur',
+    no: 'Virker klossete, mister ting ofte, håndskriften er vanskelig å lese',
   }},
   { profile: 'dispraxia', text: {
     pt: 'Perde-se em tarefas com passos e sequências',
@@ -171,6 +176,7 @@ export const observations: Observation[] = [
     ga: 'Téann amú i dtascanna a bhfuil céimeanna agus seichimh iontu',
     mt: 'Jintilef f\'xogħol b\'passi u sekwenzi',
     tr: 'Ayakkabı bağlamak ya da cetvel kullanmak gibi işlerde zorlanır',
+    no: 'Strever med knyting av sko eller bruk av linjal',
   }},
   { profile: 'autismo', text: {
     pt: 'Perturba-se com ruído ou mudanças de rotina',
@@ -198,6 +204,7 @@ export const observations: Observation[] = [
     ga: 'Cráite ag torann nó ag athruithe ar an ngnáthamh',
     mt: 'Jinkwieta bil-ħsejjes jew bit-tibdil fir-rutina',
     tr: 'Göz teması kurmaz, rutin değişince altüst olur',
+    no: 'Unngår blikkontakt, blir ute av seg når rutinen endres',
   }},
   { profile: 'autismo', text: {
     pt: 'Muito literal, não capta o que fica por dizer',
@@ -225,6 +232,7 @@ export const observations: Observation[] = [
     ga: 'An-liteartha, ní thuigeann an rud nach ndeirtear',
     mt: 'Litterali ħafna, ma jindunax b\'dak li ma jingħadx',
     tr: 'Bir konuyu olağanüstü ayrıntıda anlatır, gürültüden rahatsız olur',
+    no: 'Forteller om ett tema i uvanlig detalj, plages av støy',
   }},
   { profile: 'sobredotacao', text: {
     pt: 'Acaba tudo depressa, aborrece-se e perturba',
@@ -252,6 +260,7 @@ export const observations: Observation[] = [
     ga: 'Críochnaíonn gach rud go tapa, tagann leadrán air agus cuireann sé isteach ar an rang',
     mt: 'Ilesti kollox malajr, jiddejjaq u jfixkel il-klassi',
     tr: 'Her şeyi çabuk bitirir, sıkılır, ders bölmeye başlar',
+    no: 'Blir fort ferdig, kjeder seg, begynner å forstyrre',
   }},
   { profile: 'sobredotacao', text: {
     pt: 'Muito capaz, mas com notas abaixo do esperado',
@@ -279,6 +288,7 @@ export const observations: Observation[] = [
     ga: 'Cumasach go soiléir, ach ag feidhmiú faoi bhun a chumais',
     mt: 'Kapaċi biċ-ċar, imma qed jirrendi inqas milli jista\'',
     tr: 'Yaşına göre şaşırtıcı sorular sorar ama ödevini teslim etmez',
+    no: 'Stiller overraskende spørsmål for alderen, men leverer ikke oppgavene',
   }},
   { profile: 'plnm', text: {
     pt: 'Acabou de chegar, ainda não fala a língua de ensino',
@@ -306,6 +316,7 @@ export const observations: Observation[] = [
     ga: 'Díreach tagtha, gan teanga an teagaisc aige fós',
     mt: 'Għadu kif wasal, għadu ma jitkellimx bil-lingwa tat-tagħlim',
     tr: 'Anlıyor gibi görünüyor ama yazılıda bir şey yazamıyor',
+    no: 'Ser ut til å forstå, men får ikke skrevet noe på prøven',
   }},
   { profile: 'plnm', text: {
     pt: 'Percebe mais do que consegue dizer na língua da escola',
@@ -333,6 +344,7 @@ export const observations: Observation[] = [
     ga: 'Tuigeann níos mó ná mar is féidir leis a rá i dteanga na scoile',
     mt: 'Jifhem aktar milli kapaċi jgħid bil-lingwa tal-iskola',
     tr: 'Sınıfta sessiz, teneffüste kendi dilinde akıcı konuşuyor',
+    no: 'Stille i klassen, snakker flytende sitt eget språk i friminuttet',
   }},
   { profile: 'discalculia', text: {
     pt: 'Conta pelos dedos quando os colegas já calculam de cor',
@@ -360,6 +372,7 @@ export const observations: Observation[] = [
     ga: 'Comhaireamh ar na méara nuair a bhíonn a chomhscoláirí ag ríomh de ghlanmheabhair cheana',
     mt: 'Jgħodd fuq subgħajh meta sħabu diġà jikkalkulaw f’moħħhom',
     tr: 'Sayıları karşılaştırmakta zorlanır, hâlâ parmakla sayar',
+    no: 'Strever med å sammenligne tall, teller fortsatt på fingrene',
   }},
   { profile: 'discalculia', text: {
     pt: 'Sabe raciocinar, mas troca números e esquece as tabuadas',
@@ -387,6 +400,7 @@ export const observations: Observation[] = [
     ga: 'Réasúnaíonn go maith, ach meascann uimhreacha agus déanann dearmad ar na táblaí',
     mt: 'Jirraġuna tajjeb, imma jħawwad in-numri u jinsa l-multiplikazzjonijiet',
     tr: 'Çarpım tablosunu tekrar tekrar çalışsa da aklında tutamaz',
+    no: 'Husker ikke gangetabellen tross gjentatt øving',
   }},
 ];
 
@@ -432,6 +446,7 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Aird, luas agus iompar',
     mt: 'Attenzjoni, ritmu u mġiba',
     tr: 'Dikkat ve tempo',
+    no: 'Oppmerksomhet og tempo',
   }},
   { key: 'written', profiles: ['dislexia', 'dispraxia', 'discalculia'], label: {
     pt: 'Leitura, escrita e organização',
@@ -459,6 +474,7 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Léitheoireacht, scríbhneoireacht agus eagrúchán',
     mt: 'Qari, kitba u organizzazzjoni',
     tr: 'Okuma ve yazma',
+    no: 'Lesing og skriving',
   }},
   { key: 'language', profiles: ['autismo', 'plnm'], label: {
     pt: 'Comunicação e língua',
@@ -486,5 +502,6 @@ export const obsThemes: ObservationTheme[] = [
     ga: 'Cumarsáid agus teanga',
     mt: 'Komunikazzjoni u lingwa',
     tr: 'Dil ve iletişim',
+    no: 'Språk og kommunikasjon',
   }},
 ];
