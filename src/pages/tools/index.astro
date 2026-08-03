@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import { ui, allSectionHrefs } from '@/lib/i18n';
-import { observations, obsText } from '@/lib/observations';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -34,23 +33,12 @@ const categoryLabel: Record<string, string> = {
     { label: 'ferramentas' },
   ]} />
 
-  <section class="observe">
-    <div class="observe-head">
-      <div class="observe-label">{t.observe_label}</div>
-      <p class="observe-hint">{t.observe_hint}</p>
-    </div>
-    <div class="observe-grid">
-      {observations.map((o) => (
-        <a class="observe-chip" href={`${base}profiles/${o.profile}/`}>
-          <span class="observe-chip-text">{obsText(o, 'pt')}</span>
-          <span class="observe-chip-arrow" aria-hidden="true">→</span>
-        </a>
-      ))}
-    </div>
-  </section>
-  <div class="browse-divider"><span>{t.browse_label}</span></div>
+  <div class="prompt-section">
+    <div class="prompt-label">{t.tools_catalog}</div>
+    <div class="prompt-question">{t.tools_question}</div>
+  </div>
 
-  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.tools_search_placeholder} aria-label={t.tools_search_placeholder} data-search-index data-search-lang="pt" data-search-base={base} /></div>
+  <div class="search-bar"><input id="card-search" type="search" class="search-input" placeholder={t.tools_search_placeholder} aria-label={t.tools_search_placeholder} /></div>
   <nav class="tree" aria-label="Ferramentas">
     {tools.map((tool) => (
       <a
@@ -69,10 +57,28 @@ const categoryLabel: Record<string, string> = {
     ))}
   </nav>
   <p class="search-empty" id="search-empty" hidden>{t.no_results}</p>
-  <div id="search-results" class="search-results" hidden></div>
 
   <Footer />
 </Base>
+
+<script is:inline>
+(function() {
+  var input = document.getElementById('card-search');
+  var nodes = document.querySelectorAll('.tree-node');
+  var empty = document.getElementById('search-empty');
+  if (!input || !nodes.length) return;
+  input.addEventListener('input', function() {
+    var q = this.value.trim().toLowerCase();
+    var shown = 0;
+    nodes.forEach(function(node) {
+      var match = !q || node.textContent.toLowerCase().includes(q);
+      node.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (empty) empty.hidden = shown !== 0;
+  });
+})();
+</script>
 
 
 <style>
