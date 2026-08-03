@@ -59,7 +59,17 @@
     fetch(idxBase + 'search/' + lang + '.json')
       .then(function (r) { return r.json(); })
       .then(function (d) { index = d; loading = false; if (pending) pending(); })
-      .catch(function () { loading = false; });
+      .catch(function () {
+        loading = false;
+        // Offline on first use, or the index failed to load: say so instead of
+        // leaving the box silently empty.
+        panel.innerHTML = '';
+        var e = document.createElement('div');
+        e.className = 'hdr-search-empty';
+        e.textContent = emptyMsg;
+        panel.appendChild(e);
+        panel.hidden = false;
+      });
   }
   function render(q) {
     var toks = q.split(/\s+/).filter(Boolean);
@@ -113,6 +123,13 @@
     var msg = form.querySelector('textarea').value.trim();
     if (!msg) return;
     var page = location.href;
+    // mailto: and the prefilled GitHub issue both carry the message in a URL,
+    // and browsers and servers start rejecting those past roughly 8000 chars.
+    // A configured endpoint POSTs instead, so only the fallbacks are capped.
+    function forUrl(text) {
+      var LIMIT = 4000;
+      return text.length > LIMIT ? text.slice(0, LIMIT) + '\n\n[…]' : text;
+    }
     var endpoint = form.getAttribute('data-endpoint');
     var email = form.getAttribute('data-email');
     var github = form.getAttribute('data-github');
@@ -130,11 +147,11 @@
     } else if (email) {
       location.href = 'mailto:' + email +
         '?subject=' + encodeURIComponent('Farol — feedback') +
-        '&body=' + encodeURIComponent(msg + '\n\n— ' + page);
+        '&body=' + encodeURIComponent(forUrl(msg) + '\n\n— ' + page);
     } else {
       // No endpoint configured: open a prefilled GitHub issue instead.
       var url = github.split('?')[0] + '?title=' + encodeURIComponent('Feedback') +
-        '&body=' + encodeURIComponent(msg + '\n\n— ' + page);
+        '&body=' + encodeURIComponent(forUrl(msg) + '\n\n— ' + page);
       window.open(url, '_blank', 'noopener');
     }
   });
