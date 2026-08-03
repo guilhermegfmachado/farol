@@ -246,6 +246,14 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
 }
 .lang-select:hover { border-color: var(--accent); color: var(--accent); }
 .lang-select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* global.css already hides these in print, but a scoped rule outranks it, so
+   the print rules have to live here too or a form control lands on the paper. */
+@media print {
+  .lang-select { display: none; }
+  /* The mark is the theme toggle, so the global rule that hides toggles hid the
+     logo as well. It is a logo first — print it. */
+  .night-toggle { display: inline-flex; }
+}
 @media (max-width: 520px) {
   /* On phones the wrapped right column shrinks to its content and sits
      mid-header; stretch it so the controls hug the right edge. */
