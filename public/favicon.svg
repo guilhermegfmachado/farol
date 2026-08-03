@@ -1,8 +1,13 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="32" height="32" fill="#fafafa"/>
-  <rect x="13" y="11" width="6" height="14" fill="#14171a"/>
-  <rect x="11" y="24" width="10" height="2" fill="#14171a"/>
-  <rect x="12" y="8" width="8" height="3" fill="#14171a"/>
-  <path d="M12 8 L16 4 L20 8 Z" fill="#14171a"/>
-  <circle cx="16" cy="9.5" r="2" fill="#e8a93d"/>
+  <g transform="translate(3 3)">
+    <path d="M10.3 6.2 L13 3.3 L15.7 6.2 Z" fill="#14171a"/>
+    <rect x="10.9" y="6.2" width="4.2" height="3.5" fill="#14171a"/>
+    <rect x="8.7" y="9.7" width="8.6" height="1.4" fill="#14171a"/>
+    <path d="M10.4 11.1 L15.6 11.1 L15.95 13.0 L10.05 13.0 Z" fill="#14171a"/>
+    <path d="M9.87 13.9 L16.13 13.9 L16.45 16.6 L9.55 16.6 Z" fill="#14171a"/>
+    <path d="M9.35 17.5 L16.65 17.5 L17.5 21.3 L8.5 21.3 Z" fill="#14171a"/>
+    <rect x="7.1" y="21.3" width="11.8" height="2" fill="#14171a"/>
+    <circle cx="13" cy="7.9" r="1.45" fill="#e8a93d"/>
+  </g>
 </svg>
