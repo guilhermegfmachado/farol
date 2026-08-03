@@ -35,7 +35,6 @@ const toolSchema = z.object({
   desc: z.string(),
   profiles: z.array(z.string()).default([]),
   free: z.boolean().optional(),
-  rgpd_note: z.string().optional(),
 });
 
 const profiles   = defineCollection({ type: 'content', schema: entrySchema });

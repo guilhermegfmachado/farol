@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { tool } = Astro.props;
-const { name, url, category, desc, profiles, free, rgpd_note } = tool.data;
+const { name, url, category, desc, profiles, free } = tool.data;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const t = ui['pt'];
 const slug = tool.id.replace(/\.md$/, '');
@@ -66,12 +66,10 @@ const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''),
       </section>
     )}
 
-    {rgpd_note && (
-      <section class="card-section">
-        <h2 class="card-section-label">Nota RGPD</h2>
-        <p class="tool-desc">{rgpd_note}</p>
-      </section>
-    )}
+    <section class="card-section">
+      <h2 class="card-section-label">{t.tools_data_label}</h2>
+      <p class="tool-desc">{t.tools_data_notice}</p>
+    </section>
   </article>
 
   <div class="card-nav-back">
