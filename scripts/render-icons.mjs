@@ -32,11 +32,19 @@ const mark = (ink, amber) => `
   <rect x="7.1" y="21.3" width="11.8" height="2" fill="${ink}"/>
   <circle cx="13" cy="7.9" r="1.45" fill="${amber}"/>`;
 
-const iconPage = (size, pad) => `<!doctype html><meta charset="utf-8">
+// The mark's bounding box inside the 26×26 box, so an icon can be sized by how
+// much of the canvas the tower should occupy rather than by guesswork padding.
+const BBOX = { cx: 13, cy: 13.3, h: 20 };
+
+/** @param fill  fraction of the canvas height the tower should occupy. */
+const iconPage = (size, fill) => {
+  const s = (fill * 26) / BBOX.h;
+  return `<!doctype html><meta charset="utf-8">
 <style>html,body{margin:0;padding:0}</style>
 <svg width="${size}" height="${size}" viewBox="0 0 26 26" style="background:${PAPER};display:block">
-  <g transform="translate(${pad} ${pad}) scale(${(26 - pad * 2) / 26})">${mark(INK, AMBER)}</g>
+  <g transform="translate(13 13) scale(${s.toFixed(4)}) translate(-${BBOX.cx} -${BBOX.cy})">${mark(INK, AMBER)}</g>
 </svg>`;
+};
 
 const FONTS = join(root, 'node_modules');
 const ogPage = `<!doctype html><meta charset="utf-8">
@@ -68,15 +76,18 @@ const b = await chromium.launch({
   executablePath: process.env.CHROME_PATH || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
 });
 
-for (const [file, size, pad] of [
-  ['icon-192.png', 192, 1],
-  ['icon-512.png', 512, 1],
-  // iOS crops to a rounded square and never shows transparency; pad harder so
-  // the tower is not clipped by the mask.
-  ['apple-touch-icon.png', 180, 2.5],
+for (const [file, size, fill] of [
+  ['icon-192.png', 192, 0.71],
+  ['icon-512.png', 512, 0.71],
+  // iOS crops to a rounded square, so the corners go but the edges mostly stay.
+  ['apple-touch-icon.png', 180, 0.66],
+  // Android maskable: the platform may crop to a circle and only guarantees a
+  // safe zone of 40% radius from the centre. The tower is tall and narrow, so
+  // its diagonal — not its height — is what has to fit. 0.60 leaves margin.
+  ['icon-maskable-512.png', 512, 0.6],
 ]) {
   const p = await b.newPage({ viewport: { width: size, height: size } });
-  await p.setContent(iconPage(size, pad));
+  await p.setContent(iconPage(size, fill));
   await p.screenshot({ path: join(pub, file), omitBackground: false });
   await p.close();
   console.log('wrote', file, `${size}×${size}`);
