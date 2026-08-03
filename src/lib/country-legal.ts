@@ -8,7 +8,16 @@
 //
 // Rather than duplicate eleven country-neutral cards per country, only this
 // one card gets a country axis: /{lang}/references/legislacao/{country}/.
-// Each entry is written and sourced in the language its readers use.
+//
+// The rule for what belongs on that axis: the 27 EU Member States plus the six
+// countries associated to the Erasmus+ programme (Iceland, Liechtenstein,
+// Norway, North Macedonia, Serbia, Türkiye) — the countries whose teachers this
+// manual is actually for. The language axis is a separate question, and stays
+// the 24 official EU languages.
+//
+// Each entry is written and sourced in the language its readers use. Where the
+// manual carries that language it is used (Liechtenstein is German); where it
+// does not, the card is in English, with the national terms kept inline.
 
 import type { Lang } from './i18n';
 
@@ -39,6 +48,29 @@ const SRC_LABEL: Partial<Record<Lang, string>> = {
 };
 const srcIn = (lang: Lang) => (href: string) =>
   ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="${SRC_LABEL[lang] ?? 'Open source'}">↗</a>`;
+// Erasmus+ programme countries whose language the manual does not carry get an
+// English card, and they cross-link to each other. Building the list from one
+// place keeps five notes from drifting apart as countries are added.
+const EN_ASSOCIATED: [code: string, name: string][] = [
+  ['tr', 'Türkiye'],
+  ['no', 'Norway'],
+  ['is', 'Iceland'],
+  ['rs', 'Serbia'],
+  ['mk', 'North Macedonia'],
+];
+const enNote = (code: string, country: string, language: string) => {
+  const others = EN_ASSOCIATED.filter(([c]) => c !== code).map(
+    ([c, n]) => `<a href="/farol/en/references/legislacao/${c}/">${n}</a>`,
+  );
+  const list = `${others.slice(0, -1).join(', ')} and ${others[others.length - 1]}`;
+  return (
+    `This card covers <strong>${country}</strong>. It is in English because ${language} is not ` +
+    `among the manual’s 24 languages — the ${language} terms are given as they appear in the law. ` +
+    `Ireland is on the <a href="__DEFAULT__">default English card</a>, Malta in the ` +
+    `<a href="/farol/mt/references/legislacao/">Maltese version</a>; separate cards cover ${list}.`
+  );
+};
+
 const srcDe = srcIn('de');
 const srcNl = srcIn('nl');
 const srcFr = srcIn('fr');
@@ -58,7 +90,7 @@ export const countryLegal: Record<string, CountryLegal> = {
     title: 'Rechtsrahmen',
     subtitle: 'Schulpflichtgesetz 1985 und begleitende Regelungen für inklusive Bildung in Österreich',
     desc: 'Der Rechtsrahmen, der Maßnahmen, Verfahren und Verantwortlichkeiten in der inklusiven österreichischen Schule definiert.',
-    note: 'Diese Karte behandelt <strong>Österreich</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/be/">Ostbelgien</a>. Für Luxemburg gibt es eine <a href="/farol/fr/references/legislacao/lu/">Fassung auf Französisch</a>, der Sprache der dortigen Rechtstexte.',
+    note: 'Diese Karte behandelt <strong>Österreich</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a>, <a href="/farol/de/references/legislacao/be/">Ostbelgien</a> und <a href="/farol/de/references/legislacao/li/">Liechtenstein</a>. Für Luxemburg gibt es eine <a href="/farol/fr/references/legislacao/lu/">Fassung auf Französisch</a>, der Sprache der dortigen Rechtstexte.',
     sections: [
       {
         label: 'Schulpflichtgesetz 1985 — die zentrale Grundlage',
@@ -269,7 +301,7 @@ export const countryLegal: Record<string, CountryLegal> = {
     title: 'Rechtsrahmen',
     subtitle: 'Förderdekrete der Deutschsprachigen Gemeinschaft Belgiens für inklusive Bildung in Ostbelgien',
     desc: 'Der Rechtsrahmen, der Maßnahmen, Verfahren und Verantwortlichkeiten in der inklusiven Schule der Deutschsprachigen Gemeinschaft Belgiens definiert.',
-    note: 'Diese Karte behandelt die <strong>Deutschsprachige Gemeinschaft Belgiens</strong> (Ostbelgien). Bildung ist in Belgien Sache der Gemeinschaften: für <a href="/farol/nl/references/legislacao/be/">Flandern</a> und die <a href="/farol/fr/references/legislacao/be/">Französische Gemeinschaft</a> gelten andere Regeln. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a> und <a href="/farol/de/references/legislacao/at/">Österreich</a>.',
+    note: 'Diese Karte behandelt die <strong>Deutschsprachige Gemeinschaft Belgiens</strong> (Ostbelgien). Bildung ist in Belgien Sache der Gemeinschaften: für <a href="/farol/nl/references/legislacao/be/">Flandern</a> und die <a href="/farol/fr/references/legislacao/be/">Französische Gemeinschaft</a> gelten andere Regeln. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a>, <a href="/farol/de/references/legislacao/at/">Österreich</a> und <a href="/farol/de/references/legislacao/li/">Liechtenstein</a>.',
     sections: [
       {
         label: 'Rechtliche Grundlagen',
@@ -430,7 +462,7 @@ export const countryLegal: Record<string, CountryLegal> = {
     title: 'Legal framework',
     subtitle: 'Decree-Law 573, Law 5378 and the Special Education Services Regulation in Türkiye',
     desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Turkish school.',
-    note: 'This card covers <strong>Türkiye</strong>. Ireland is on the <a href="__DEFAULT__">default English card</a> and Malta in the <a href="/farol/mt/references/legislacao/">Maltese version</a>. It is written in English because Turkish is not among the manual’s languages; the legal terms are given in Turkish, as they appear on the forms.',
+    note: enNote('tr', 'Türkiye', 'Turkish'),
     sections: [
       {
         label: 'The central texts',
@@ -483,6 +515,285 @@ export const countryLegal: Record<string, CountryLegal> = {
       `Özel Eğitim Hizmetleri Yönetmeliği, 7 July 2018 — Ministry of National Education, Directorate General for Special Education and Guidance Services.${srcEn('https://orgm.meb.gov.tr/meb_iys_dosyalar/2021_09/13145613_Ozel_EYitim_Hizmetleri_YonetmeliYi_son.pdf')}`,
       `Bilim ve Sanat Merkezleri Öğrenci Tanılama ve Yerleştirme Kılavuzu — Ministry of National Education.${srcEn('https://orgm.meb.gov.tr/www/bilim-ve-sanat-merkezleri-ogrenci-tanilama-ve-yerlestirme-kilavuzu/icerik/3456/tr')}`,
       `Türkiye’s ratification of the UN Convention on the Rights of Persons with Disabilities — Ministry of Foreign Affairs, press release no. 167, 29 September 2009.${srcEn('https://www.mfa.gov.tr/no_-167_-29-september-2009_-press-release-regarding-turkey_s-ratification-for-the-united-nations-convention-on-the-rights-of-persons-with-disabilities.en.mfa')}`,
+    ],
+  },
+
+  'en-no': {
+    lang: 'en',
+    code: 'no',
+    country: 'Norway',
+    title: 'Legal framework',
+    subtitle: 'The Education Act of 2023, in force since August 2024, and individually adapted education in Norway',
+    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Norwegian school.',
+    note: enNote('no', 'Norway', 'Norwegian'),
+    sections: [
+      {
+        label: 'A new Education Act — and the end of “special education”',
+        items: [
+          `The <strong>Education Act</strong> (<em>opplæringslova</em>, LOV-2023-06-09-30) was passed in June 2023 and has applied since <strong>1 August 2024</strong>, replacing the 1998 Act.${c(1)}`,
+          `It removes the term <em>spesialundervisning</em> (special education) deliberately: the word was judged stigmatising and to contribute to exclusion.${c(3)}`,
+          `In its place stand three things — <strong>individuelt tilrettelagt opplæring</strong> (individually adapted education), <strong>fysisk tilrettelegging</strong> (physical adaptation) and <strong>personleg assistanse</strong> (personal assistance).${c(3)}`,
+          `Chapter 11 governs all of this, and for the first time writes the mandate of the educational-psychological service into the Act itself.${c2(1, 2)}`,
+        ],
+      },
+      {
+        label: 'Adapted teaching is for everyone; individual adaptation is a right',
+        items: [
+          `<em>Tilpassa opplæring</em> — adapting ordinary teaching to the pupils in front of you — is a general duty owed to every pupil. It is not a measure, and it needs no decision.${c(2)}`,
+          `A pupil who cannot get satisfactory benefit from ordinary teaching has a <strong>right</strong> to individually adapted education (§ 11-6). That does require a formal decision.${c(1)}`,
+        ],
+      },
+      {
+        label: 'Who decides — PP-tjenesten',
+        items: [
+          `The <strong>PP service</strong> (<em>pedagogisk-psykologisk teneste</em>, PPT) produces the <em>sakkyndig vurdering</em> — the expert assessment a decision must be based on.${c(1)}`,
+          `PPT must assess the pupil’s <strong>whole</strong> education offering, including the need for physical adaptation and personal assistance — not the teaching alone.${c(1)}`,
+          `Worth knowing: under the new Act the municipality and PPT weigh more heavily in shaping the provision, and pupils and parents less than before.${c(3)}`,
+        ],
+      },
+      {
+        label: 'The plan and the yearly account',
+        items: [
+          `The school draws up an <strong>individuell opplæringsplan</strong> (IOP) setting out the goals, the content and how the education is to be carried out.${c(1)}`,
+          `Once a year the school writes an account of the education the pupil actually received and an assessment of progress against the IOP’s goals.${c(1)}`,
+        ],
+      },
+      {
+        label: 'For quick reference',
+        items: [
+          `Central text: opplæringslova (2023), chapter 11 — in force 1 August 2024.${c(1)}`,
+          `Right to individually adapted education: § 11-6, on an expert assessment from PPT.${c(1)}`,
+          `Individual plan: IOP, with a written yearly account.${c(1)}`,
+          `The word “special education” no longer appears in the Act.${c(3)}`,
+        ],
+      },
+    ],
+    refsLabel: 'References',
+    references: [
+      `Lov om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova), LOV-2023-06-09-30, kapittel 11 — Lovdata.${srcEn('https://lovdata.no/lov/2023-06-09-30/%C2%A711-11')}`,
+      `Tilpassa opplæring og individuell tilrettelegging, kap. 11 — Statsforvalteren i Nordland.${srcEn('https://www.statsforvalteren.no/nordland/barnehage-og-opplaring/grunnskole-og-videregaende-opplaring/ny-opplaringslov-fra-1.-august/tilpassa-opplaring-og-individuell-tilrettelegging---kap.-11/')}`,
+      `A new education act in Norway: a redefinition of special education that nurtures inclusive education? <em>European Journal of Special Needs Education</em>.${srcEn('https://www.tandfonline.com/doi/full/10.1080/08856257.2026.2680568')}`,
+    ],
+  },
+
+  'en-is': {
+    lang: 'en',
+    code: 'is',
+    country: 'Iceland',
+    title: 'Legal framework',
+    subtitle: 'Compulsory School Act No. 91/2008 and Regulation No. 585/2010 on pupils with special needs in Iceland',
+    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Icelandic school.',
+    note: enNote('is', 'Iceland', 'Icelandic'),
+    sections: [
+      {
+        label: 'The central texts',
+        items: [
+          `The <strong>Compulsory School Act No. 91/2008</strong> makes education compulsory from six to sixteen and sets inclusive education as the frame.${c(1)}`,
+          `<strong>Regulation No. 585/2010</strong> on pupils with special needs in compulsory schools applies to pupils who need special educational support according to assessed needs; its stated focus is equality in education.${c(2)}`,
+          `Inclusive education — <em>skóli án aðgreiningar</em>, a school without segregation — is the guiding national policy at every level, from early years through the transition to adulthood.${c(2)}`,
+        ],
+      },
+      {
+        label: 'Where the burden of proof sits',
+        items: [
+          `The policy addresses every learner’s needs <strong>without defining those who need support as a different kind of pupil</strong>.${c(2)}`,
+          `The question has been reversed over time: it is no longer inclusion that has to be justified, but the decision to consider a segregated option.${c(3)}`,
+        ],
+      },
+      {
+        label: 'The plan',
+        items: [
+          `Under Regulation No. 585/2010 the <strong>special education teacher</strong> draws up the individual education plan and organises the teaching <strong>together with the guardians</strong>.${c(3)}`,
+          `Plans are reviewed at least once a year.${c(3)}`,
+          `This holds at pre-primary, compulsory and upper-secondary level, and in special units inside schools.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Beyond the school — the Prosperity Act',
+        items: [
+          `<strong>Act No. 86/2021</strong> on the integration of services in the interest of children’s prosperity was passed unanimously and came into force on 1 January 2022.${c(4)}`,
+          `It organises services in three levels and assigns a <strong>coordinator</strong> to any child needing support, whose job is to keep information, access and continuity from falling between services.${c(4)}`,
+          `Implementation is phased and runs to the end of 2026, so practice in a given municipality may still be catching up with the text.${c(4)}`,
+        ],
+      },
+      {
+        label: 'For quick reference',
+        items: [
+          `Central texts: Compulsory School Act No. 91/2008; Regulation No. 585/2010.${c2(1, 2)}`,
+          `Individual plan: written by the special education teacher with the guardians, reviewed yearly.${c(3)}`,
+          `Cross-service support: Prosperity Act No. 86/2021, with a named coordinator.${c(4)}`,
+        ],
+      },
+    ],
+    refsLabel: 'References',
+    references: [
+      `Compulsory School Act No. 91/2008 (English translation) — Government of Iceland.${srcEn('https://www.government.is/media/menntamalaraduneyti-media/media/law-and-regulations/Compulsory-School-Act-No.-91-2008.pdf')}`,
+      `Iceland: legislation and policy — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/iceland/legislation-and-policy')}`,
+      `Iceland: systems of support and specialist provision — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/iceland/systems-of-support-and-specialist-provision')}`,
+      `Iceland’s Act on the Integration of Services in the Interest of Children’s Prosperity (“Prosperity Act”) — OECD.${srcEn('https://www.oecd.org/en/publications/well-being-knowledge-exchange-platform-kep_93d45d63-en/iceland-s-act-on-the-integration-of-services-in-the-interest-of-children-s-prosperity-prosperity-act_63070721-en.html')}`,
+    ],
+  },
+
+  'en-rs': {
+    lang: 'en',
+    code: 'rs',
+    country: 'Serbia',
+    title: 'Legal framework',
+    subtitle: 'The Law on the Foundations of the Education System and the three levels of the individual education plan in Serbia',
+    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Serbian school.',
+    note: enNote('rs', 'Serbia', 'Serbian'),
+    sections: [
+      {
+        label: 'The central text',
+        items: [
+          `The <strong>Law on the Foundations of the Education System</strong> (<em>Zakon o osnovama sistema obrazovanja i vaspitanja</em>) was adopted in 2009 and has been amended several times since, including in 2017 and 2025.${c(1)}`,
+          `It commits the system to inclusion and to <strong>reasonable accommodation in line with an individual education plan</strong>, across primary, secondary and tertiary education.${c(2)}`,
+        ],
+      },
+      {
+        label: 'The IOP and its three levels',
+        items: [
+          `<strong>IOP1 — adapted programme.</strong> Adjusted methods, materials, environment and support staff. The learning outcomes themselves are unchanged.${c(3)}`,
+          `<strong>IOP2 — modified programme.</strong> Everything in IOP1, plus adjusted learning outcomes and content, in one subject, several, or all of them.${c(3)}`,
+          `<strong>IOP3 — enriched and deepened programme</strong>, for pupils with exceptional abilities. Gifted pupils sit <strong>inside</strong> the same instrument rather than outside it — a point worth knowing, because it is unusual.${c(3)}`,
+          `Preschools use IOP1 only; primary and secondary schools may use all three.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Who decides',
+        items: [
+          `The school’s <strong>inclusive-education team</strong> — specialists, teachers and the parents — proposes the plan.${c(2)}`,
+          `Once the right to an IOP is accepted, that team proposes who will sit on the pupil’s additional-support team.${c(3)}`,
+          `At municipal level the <strong>inter-sectoral committee</strong> (<em>interresorna komisija</em>) coordinates support across education, health and social services — the mechanism to use when a pupil’s needs cross those boundaries.${c(1)}`,
+        ],
+      },
+      {
+        label: 'Support in the classroom',
+        items: [
+          `<strong>Pedagogical assistants</strong> (<em>pedagoški asistent</em>) and personal assistants are part of the statutory support, alongside individualised teaching methods and plans.${c(1)}`,
+        ],
+      },
+      {
+        label: 'For quick reference',
+        items: [
+          `Central text: Law on the Foundations of the Education System (2009, as amended).${c(1)}`,
+          `Plan: IOP1 adapted · IOP2 modified outcomes · IOP3 enriched, for exceptional ability.${c(3)}`,
+          `Proposed by: the school’s inclusive-education team, with the parents on it.${c(2)}`,
+          `Across services: the municipal inter-sectoral committee.${c(1)}`,
+        ],
+      },
+    ],
+    refsLabel: 'References',
+    references: [
+      `Overview of the inclusive education system in Serbia — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/serbia/overview-inclusive-education-system')}`,
+      `Serbia: legislation and policy — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/serbia/legislation-and-policy')}`,
+      `Pravilnik o bližim uputstvima za utvrđivanje prava na individualni obrazovni plan, njegovu primenu i vrednovanje — Paragraf.${srcEn('https://www.paragraf.rs/propisi/pravilnik-blizim-uputstvima-utvrdjivanje-prava-individualni-obrazovni-plan.html')}`,
+    ],
+  },
+
+  'en-mk': {
+    lang: 'en',
+    code: 'mk',
+    country: 'North Macedonia',
+    title: 'Legal framework',
+    subtitle: 'The Law on Primary Education (2019) and the Concept for Inclusive Education (2020) in North Macedonia',
+    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Macedonian school.',
+    note: enNote('mk', 'North Macedonia', 'Macedonian'),
+    sections: [
+      {
+        label: 'The central texts',
+        items: [
+          `The <strong>Law on Primary Education</strong> of 2019 is the turning point: it stipulates that children with disabilities are to be enrolled in <strong>mainstream</strong> education.${c(1)}`,
+          `The <strong>Concept for Inclusive Education</strong> of 2020 followed as the guideline for putting that into practice at every stage.${c(2)}`,
+        ],
+      },
+      {
+        label: 'The inclusive team and the IEP',
+        items: [
+          `Under the Law on Primary Education and the Law on Secondary Education, an <strong>inclusive team is formed for the individual learner</strong> and stays with them until they finish primary education.${c(3)}`,
+          `That team prepares and implements the learner’s <strong>individual education plan</strong>.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Resource centres',
+        items: [
+          `The reform converted <strong>special schools into resource centres</strong> and special classes into learning-support centres.${c(3)}`,
+          `A learner with complex needs following a modified curriculum may enrol in a school with a resource centre — on the learner’s or parents’ choice, with professional recommendation. It is a choice, not a placement.${c(3)}`,
+        ],
+      },
+      {
+        label: 'What arrived with the reform',
+        items: [
+          `<strong>Educational assistants</strong> and physical accessibility became a requirement rather than an aspiration.${c(3)}`,
+          `Schools were staffed with special educators, psychologists and pedagogues, supported by teacher training and assistive technology.${c(2)}`,
+        ],
+      },
+      {
+        label: 'For quick reference',
+        items: [
+          `Central texts: Law on Primary Education (2019); Concept for Inclusive Education (2020).${c2(1, 2)}`,
+          `Plan: individual education plan, written by the learner’s inclusive team.${c(3)}`,
+          `Specialist provision: resource centres (former special schools), entered by choice.${c(3)}`,
+        ],
+      },
+    ],
+    refsLabel: 'References',
+    references: [
+      `North Macedonia: new concepts for inclusive education and primary education — Eurydice, European Commission.${srcEn('https://eurydice.eacea.ec.europa.eu/news/north-macedonia-new-concepts-inclusive-education-and-primary-education-part-european')}`,
+      `Inclusive Education in North Macedonia — UNICEF policy brief.${srcEn('https://www.unicef.org/northmacedonia/media/16161/file/InclusiveEducationPolicyBrief_NorthMacedonia.pdf.pdf')}`,
+      `Overview of the inclusive education system in North Macedonia — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/north-macedonia/overview-inclusive-education-system')}`,
+    ],
+  },
+
+  // Liechtenstein's official language is German, and its legal texts are in
+  // German — so it joins the German cards rather than taking an English one.
+  'de-li': {
+    lang: 'de',
+    code: 'li',
+    country: 'Liechtenstein',
+    title: 'Rechtsrahmen',
+    subtitle: 'Schulgesetz und schulische Fördermassnahmen im Fürstentum Liechtenstein',
+    desc: 'Der Rechtsrahmen, der Massnahmen, Verfahren und Verantwortlichkeiten in der inklusiven liechtensteinischen Schule definiert.',
+    note: 'Diese Karte behandelt das <strong>Fürstentum Liechtenstein</strong>. Eigene Fassungen bestehen für <a href="__DEFAULT__">Deutschland</a>, <a href="/farol/de/references/legislacao/at/">Österreich</a> und <a href="/farol/de/references/legislacao/be/">Ostbelgien</a>. Liechtenstein ist kein EU-Mitglied, aber ein zum Erasmus+-Programm assoziiertes Land.',
+    sections: [
+      {
+        label: 'Schulgesetz — die zentrale Grundlage',
+        items: [
+          `Das <strong>Schulgesetz</strong> (Art. 15) und die Verordnung über schulische Fördermassnahmen sehen vor, dass Kinder mit besonderem Bildungsbedarf so gefördert werden, dass sie <strong>in der Klasse verbleiben</strong> oder in eine Regelklasse integriert werden können.${c(1)}`,
+          `Der Grundsatz ist damit die Integration: für die meisten Kinder mit besonderem Bildungsbedarf werden die Massnahmen in der heilpädagogischen Früherziehung und in der Regelschule getroffen.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Was die sonderpädagogischen Massnahmen umfassen',
+        items: [
+          `Ergänzender Unterricht, integrative oder separative Sonderschulung, <strong>Logopädie</strong>, <strong>Psychomotoriktherapie</strong> und <strong>heilpädagogische Früherziehung</strong>.${c(2)}`,
+          `Ergänzt werden sie durch den Schulpsychologischen Dienst und die Schulsozialarbeit — beide gehören zum Angebot, nicht erst zur Ausnahme.${c(2)}`,
+        ],
+      },
+      {
+        label: 'Wohin sich die Schule wendet',
+        items: [
+          `Der <strong>Schulpsychologische Dienst</strong> des Schulamts unterstützt Schülerinnen und Schüler, Eltern und Lehrpersonen bei Lern- und Verhaltensschwierigkeiten.${c(2)}`,
+          `Das <strong>Heilpädagogische Zentrum</strong> (HPZ) in Schaan führt eine heilpädagogische Tagesschule für Kinder und Jugendliche mit Entwicklungsbeeinträchtigungen.${c(4)}`,
+          `Die Diagnose liegt bei den Fachdiensten, nicht bei der Schule; die Aufgabe der Lehrperson ist die Beobachtung und die Meldung.`,
+        ],
+      },
+      {
+        label: 'Auf einen Blick',
+        items: [
+          `Zentrale Grundlage: Schulgesetz, Art. 15, und Verordnung über schulische Fördermassnahmen.${c(1)}`,
+          `Erste Anlaufstelle der Schule: Schulpsychologischer Dienst des Schulamts.${c(2)}`,
+          `Tagesschule für Kinder mit Entwicklungsbeeinträchtigungen: HPZ Schaan.${c(4)}`,
+          `Leitlinie: Verbleib in der Klasse beziehungsweise Integration in die Regelklasse.${c(1)}`,
+        ],
+      },
+    ],
+    refsLabel: 'Quellen',
+    references: [
+      `Schulgesetz (SchulG), LGBl. 1972 Nr. 7, konsolidierte Fassung — Lilex, Gesetzesdatenbank des Fürstentums Liechtenstein.${srcDe('https://www.gesetze.li/konso/1972.7')}`,
+      `Schulische Fördermassnahmen und Schulpsychologischer Dienst — Schulamt, Liechtensteinische Landesverwaltung.${srcDe('https://www.llv.li/de/landesverwaltung/schulamt/bildungsbereiche/schulische-foerdermassnahmen/schulpsychologischer-dienst')}`,
+      `Sonderpädagogische Förderung in den allgemeinen Schulen: Liechtenstein — Eurydice, Europäische Kommission.${srcDe('https://eurydice.eacea.ec.europa.eu/de/eurypedia/liechtenstein/liechtenstein-desonderpaedagogische-foerderung-allgemeinen-schulen')}`,
+      `Bildungssystem — Fürstentum Liechtenstein.${srcDe('https://www.liechtenstein.li/bildung/bildungssystem/')}`,
     ],
   },
 };

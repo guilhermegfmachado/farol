@@ -2,7 +2,7 @@
 
 **Ferramentas · Abordagens · Reconhecer · Orientar · aLunos**
 
-Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com bibliografia académica citada em cada afirmação e o enquadramento legal dos 27 Estados-Membros da UE e da Turquia.
+Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com bibliografia académica citada em cada afirmação e o enquadramento legal dos 27 Estados-Membros da UE e dos seis países associados ao programa Erasmus+.
 
 🔗 **[guilhermegfmachado.github.io/farol](https://guilhermegfmachado.github.io/farol/)**
 
@@ -74,11 +74,18 @@ O `index:` dos cartões seguintes tem de ser renumerado.
 
 ## Enquadramento legal por país
 
-A língua não é o país: o alemão serve a Alemanha, a Áustria, a Bélgica e o Luxemburgo,
-e na Bélgica o ensino é competência das comunidades. Por isso só o cartão de
-enquadramento legal ganha um eixo de país — `/{lang}/references/legislacao/{país}/` —
-enquanto os outros onze cartões, que não citam legislação nacional, continuam indexados
+A língua não é o país: o alemão serve a Alemanha, a Áustria, a Bélgica, o Luxemburgo e
+o Liechtenstein, e na Bélgica o ensino é competência das comunidades. Por isso só o
+cartão de enquadramento legal ganha um eixo de país — `/{lang}/references/legislacao/{país}/`
+— enquanto os outros onze cartões, que não citam legislação nacional, continuam indexados
 apenas por língua.
+
+O eixo de país cobre os **27 Estados-Membros da UE e os seis países associados ao
+Erasmus+** (Islândia, Listenstaine, Noruega, Macedónia do Norte, Sérvia e Turquia): são
+os países de onde vêm os docentes a quem este manual se dirige. O eixo de língua é outra
+questão e mantém-se nas 24 línguas oficiais da UE. Cada cartão é escrito na língua dos
+seus leitores — em alemão quando o país é germanófono, em inglês quando o manual não
+tem a língua do país, com os termos nacionais mantidos no original.
 
 Para acrescentar um país basta uma entrada em `src/lib/country-legal.ts` (chaveada por
 `${lang}-${código}`) e uma ligação a partir da nota do cartão dessa língua, em
