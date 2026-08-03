@@ -27,8 +27,23 @@ export interface CountryLegal {
 
 const risSchPflG8 = 'https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10009576&amp;Paragraf=8';
 const risUnBrk = 'https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20006062';
-const src = (href: string) =>
-  ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="Quelle öffnen">↗</a>`;
+// The source arrow is the only text a screen reader announces for a reference
+// link, so its label has to be in the card's own language, not the first one
+// that happened to be written.
+const SRC_LABEL: Partial<Record<Lang, string>> = {
+  de: 'Quelle öffnen',
+  nl: 'Bron openen',
+  fr: 'Ouvrir la source',
+  el: 'Άνοιγμα πηγής',
+  en: 'Open source',
+};
+const srcIn = (lang: Lang) => (href: string) =>
+  ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="${SRC_LABEL[lang] ?? 'Open source'}">↗</a>`;
+const srcDe = srcIn('de');
+const srcNl = srcIn('nl');
+const srcFr = srcIn('fr');
+const srcEl = srcIn('el');
+const srcEn = srcIn('en');
 const c = (n: number) => `<sup class="cite"><a href="#ref-${n}">${n}</a></sup>`;
 const c2 = (a: number, b: number) =>
   `<sup class="cite"><a href="#ref-${a}">${a}</a>,<a href="#ref-${b}">${b}</a></sup>`;
@@ -103,13 +118,13 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Referenzen',
     references: [
-      `Schulpflichtgesetz 1985, § 8 (Schulbesuch bei sonderpädagogischem Förderbedarf), Bundesrecht konsolidiert.${src(risSchPflG8)}`,
-      `Übereinkommen über die Rechte von Menschen mit Behinderungen (UN-Behindertenrechtskonvention), BGBl. III Nr. 155/2008, in Kraft seit 26. Oktober 2008.${src(risUnBrk)}`,
-      `Nationaler Aktionsplan Behinderung 2022–2030, Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz.${src('https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/UN-Behindertenrechtskonvention.html')}`,
+      `Schulpflichtgesetz 1985, § 8 (Schulbesuch bei sonderpädagogischem Förderbedarf), Bundesrecht konsolidiert.${srcDe(risSchPflG8)}`,
+      `Übereinkommen über die Rechte von Menschen mit Behinderungen (UN-Behindertenrechtskonvention), BGBl. III Nr. 155/2008, in Kraft seit 26. Oktober 2008.${srcDe(risUnBrk)}`,
+      `Nationaler Aktionsplan Behinderung 2022–2030, Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz.${srcDe('https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/UN-Behindertenrechtskonvention.html')}`,
       `Verordnung über die Leistungsbeurteilung (LBV), § 16 — Beurteilung von Schularbeiten nach Inhalt, Ausdruck, Sprachrichtigkeit und Schreibrichtigkeit.`,
       `Schulpsychologie–Bildungsberatung der Bildungsdirektionen — Beratungsstellen in allen Bildungsregionen, kostenlos und vertraulich.`,
-      `Schulunterrichtsgesetz, §§ 26 und 26a (Begabungsförderung — Überspringen von Schulstufen).${src('https://www.jusline.at/gesetz/schug/paragraf/26')}`,
-      `Deutschförderklassen und Deutschförderkurse sowie MIKA-D zur Feststellung des (außer-)ordentlichen Status, Bundesministerium für Bildung / IQS.${src('https://www.iqs.gv.at/themen/nationale-kompetenzerhebung/mika-d')}`,
+      `Schulunterrichtsgesetz, §§ 26 und 26a (Begabungsförderung — Überspringen von Schulstufen).${srcDe('https://www.jusline.at/gesetz/schug/paragraf/26')}`,
+      `Deutschförderklassen und Deutschförderkurse sowie MIKA-D zur Feststellung des (außer-)ordentlichen Status, Bundesministerium für Bildung / IQS.${srcDe('https://www.iqs.gv.at/themen/nationale-kompetenzerhebung/mika-d')}`,
     ],
   },
 'nl-be': {
@@ -174,10 +189,10 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Referenties',
     references: [
-      `Decreet leersteun (Leersteundecreet), goedgekeurd op 3 mei 2023, in werking sinds 1 september 2023 — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/nl/leerlingen-met-specifieke-onderwijsbehoeften-in-het-secundair-onderwijs')}`,
-      `Het zorgcontinuüm: brede basiszorg, verhoogde zorg en uitbreiding van zorg — Prodia.${src('https://prodiagnostiek.be/het-zorgcontinuum/brede-basiszorg/')}`,
-      `Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/nl/okan')}`,
-      `Ondersteuningsbeleid cognitief sterk functionerende leerlingen — Onderwijs Vlaanderen.${src('https://onderwijs.vlaanderen.be/oproep-ondersteuningsbeleid-cognitief-sterk-functionerende-leerlingen')}`,
+      `Decreet leersteun (Leersteundecreet), goedgekeurd op 3 mei 2023, in werking sinds 1 september 2023 — Onderwijs Vlaanderen.${srcNl('https://onderwijs.vlaanderen.be/nl/leerlingen-met-specifieke-onderwijsbehoeften-in-het-secundair-onderwijs')}`,
+      `Het zorgcontinuüm: brede basiszorg, verhoogde zorg en uitbreiding van zorg — Prodia.${srcNl('https://prodiagnostiek.be/het-zorgcontinuum/brede-basiszorg/')}`,
+      `Onthaalonderwijs voor anderstalige nieuwkomers (OKAN) — Onderwijs Vlaanderen.${srcNl('https://onderwijs.vlaanderen.be/nl/okan')}`,
+      `Ondersteuningsbeleid cognitief sterk functionerende leerlingen — Onderwijs Vlaanderen.${srcNl('https://onderwijs.vlaanderen.be/oproep-ondersteuningsbeleid-cognitief-sterk-functionerende-leerlingen')}`,
     ],
   },
 
@@ -240,9 +255,9 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Références',
     references: [
-      `Décret du 7 décembre 2017 relatif à l’accueil, à l’accompagnement et au maintien dans l’enseignement ordinaire fondamental et secondaire des élèves présentant des besoins spécifiques.${src('https://gallilex.cfwb.be/textes-normatifs/44807')}`,
-      `Pôles territoriaux — Pacte pour un Enseignement d’excellence, Fédération Wallonie-Bruxelles.${src('https://pactepourunenseignementdexcellence.cfwb.be/actualites/pacte-enseignement-excellence-poles-territoriaux-ecole-inclusive-besoins-specifiques/')}`,
-      `Les aménagements raisonnables — enseignement.be, Fédération Wallonie-Bruxelles.${src('https://www.enseignement.be/index.php?page=27781')}`,
+      `Décret du 7 décembre 2017 relatif à l’accueil, à l’accompagnement et au maintien dans l’enseignement ordinaire fondamental et secondaire des élèves présentant des besoins spécifiques.${srcFr('https://gallilex.cfwb.be/textes-normatifs/44807')}`,
+      `Pôles territoriaux — Pacte pour un Enseignement d’excellence, Fédération Wallonie-Bruxelles.${srcFr('https://pactepourunenseignementdexcellence.cfwb.be/actualites/pacte-enseignement-excellence-poles-territoriaux-ecole-inclusive-besoins-specifiques/')}`,
+      `Les aménagements raisonnables — enseignement.be, Fédération Wallonie-Bruxelles.${srcFr('https://www.enseignement.be/index.php?page=27781')}`,
       `Décret du 18 mai 2012 visant à mettre en place un dispositif d’accueil et de scolarisation des élèves primo-arrivants (DASPA).`,
     ],
   },
@@ -299,11 +314,11 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Referenzen',
     references: [
-      `Dekret vom 31. August 1998 — Recht auf angemessene pädagogische Förderung, Deutschsprachige Gemeinschaft Belgiens.${src('https://eurydice.eacea.ec.europa.eu/eurypedia/belgium-german-speaking-community/separate-special-education-needs-provision-early')}`,
-      `Dekret vom 11. Mai 2009 über das Zentrum für Förderpädagogik.${src('https://zfp.be/index.php?id=76')}`,
+      `Dekret vom 31. August 1998 — Recht auf angemessene pädagogische Förderung, Deutschsprachige Gemeinschaft Belgiens.${srcDe('https://eurydice.eacea.ec.europa.eu/eurypedia/belgium-german-speaking-community/separate-special-education-needs-provision-early')}`,
+      `Dekret vom 11. Mai 2009 über das Zentrum für Förderpädagogik.${srcDe('https://zfp.be/index.php?id=76')}`,
       `Dekret vom 25. Juni 2012 über die Schulinspektion, die Schulentwicklungsberatung und die Schulberatung für Inklusion und Integration.`,
-      `Pädagogische Förderung und Beratung in der Deutschsprachigen Gemeinschaft — Eurydice.${src('https://eurydice.eacea.ec.europa.eu/de/national-education-systems/belgium-german-speaking-community/paedagogische-foerderung-und-beratung')}`,
-      `Reform im Bereich der Förderpädagogik: Zusammenführung von ZFP und Pater-Damian-Fördergrundschule zum Zentrum für inklusive Pädagogik (ZiP) ab 2026.${src('https://lydiaklinkenberg.be/reform-im-bereich-der-foerderpaedagogik/')}`,
+      `Pädagogische Förderung und Beratung in der Deutschsprachigen Gemeinschaft — Eurydice.${srcDe('https://eurydice.eacea.ec.europa.eu/de/national-education-systems/belgium-german-speaking-community/paedagogische-foerderung-und-beratung')}`,
+      `Reform im Bereich der Förderpädagogik: Zusammenführung von ZFP und Pater-Damian-Fördergrundschule zum Zentrum für inklusive Pädagogik (ZiP) ab 2026.${srcDe('https://lydiaklinkenberg.be/reform-im-bereich-der-foerderpaedagogik/')}`,
     ],
   },
 'el-cy': {
@@ -349,9 +364,9 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Παραπομπές',
     references: [
-      `Ο περί Αγωγής και Εκπαίδευσης Παιδιών με Ειδικές Ανάγκες Νόμος του 1999 (113(Ι)/1999), ενοποιημένο κείμενο.${src('https://www.cylaw.org/nomoi/enop/non-ind/1999_1_113/full.html')}`,
-      `Τροποποιητικοί νόμοι 69(Ι)/2001, 87(Ι)/2014 και 166(Ι)/2020.${src('https://www.cylaw.org/nomoi/indexes/1999_1_113.html')}`,
-      `Συνεργασία της Υπηρεσίας Εκπαιδευτικής Ψυχολογίας με τα σχολεία — Υπουργείο Παιδείας, εγκύκλιος.${src('https://enimerosi.moec.gov.cy/archeia/1/ypp18857a')}`,
+      `Ο περί Αγωγής και Εκπαίδευσης Παιδιών με Ειδικές Ανάγκες Νόμος του 1999 (113(Ι)/1999), ενοποιημένο κείμενο.${srcEl('https://www.cylaw.org/nomoi/enop/non-ind/1999_1_113/full.html')}`,
+      `Τροποποιητικοί νόμοι 69(Ι)/2001, 87(Ι)/2014 και 166(Ι)/2020.${srcEl('https://www.cylaw.org/nomoi/indexes/1999_1_113.html')}`,
+      `Συνεργασία της Υπηρεσίας Εκπαιδευτικής Ψυχολογίας με τα σχολεία — Υπουργείο Παιδείας, εγκύκλιος.${srcEl('https://enimerosi.moec.gov.cy/archeia/1/ypp18857a')}`,
     ],
   },
 
@@ -399,8 +414,75 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
     refsLabel: 'Références',
     references: [
-      `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${src('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
-      `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${src('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
+      `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
+      `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
+    ],
+  },
+
+  // Türkiye is not an EU member but is an Erasmus+ programme country, and
+  // Turkish is not among the manual's 24 languages. The card is therefore
+  // written in English, with the Turkish legal terms kept as teachers meet
+  // them on the forms.
+  'en-tr': {
+    lang: 'en',
+    code: 'tr',
+    country: 'Türkiye',
+    title: 'Legal framework',
+    subtitle: 'Decree-Law 573, Law 5378 and the Special Education Services Regulation in Türkiye',
+    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Turkish school.',
+    note: 'This card covers <strong>Türkiye</strong>. Ireland is on the <a href="__DEFAULT__">default English card</a> and Malta in the <a href="/farol/mt/references/legislacao/">Maltese version</a>. It is written in English because Turkish is not among the manual’s languages; the legal terms are given in Turkish, as they appear on the forms.',
+    sections: [
+      {
+        label: 'The central texts',
+        items: [
+          `<strong>Decree-Law 573</strong> (<em>Özel Eğitim Hakkında Kanun Hükmünde Kararname</em>, 1997) is the founding text: it sets the principles by which individuals requiring special education exercise their right to general and vocational education.${c(1)}`,
+          `<strong>Law 5378</strong> (<em>Engelliler Hakkında Kanun</em>, 2005, amended since) covers rights, dignity and equal participation of people with disabilities, education included.${c(2)}`,
+          `The <strong>Special Education Services Regulation</strong> (<em>Özel Eğitim Hizmetleri Yönetmeliği</em>), republished on 7 July 2018, is the operative text: it governs educational assessment, placement and the day-to-day organisation of support.${c(3)}`,
+          `Türkiye ratified the <strong>UN Convention on the Rights of Persons with Disabilities</strong> in 2009 and its Optional Protocol in 2015.${c(5)}`,
+        ],
+      },
+      {
+        label: 'Who decides — the RAM',
+        items: [
+          `Educational assessment is carried out by the <strong>RAM</strong> (<em>Rehberlik ve Araştırma Merkezi</em>, Guidance and Research Centre) of the province or district, not by the school.${c(3)}`,
+          `The school opens the process through the guidance service; the referral and the appointment run through the ministry’s MEBBİS-RAM module, and parental involvement is required.${c(3)}`,
+          `The RAM’s special education evaluation board decides on placement and on the support the pupil receives. Diagnosis belongs to specialist professionals — the teacher’s role is observation and referral.${c(3)}`,
+        ],
+      },
+      {
+        label: 'In the classroom — kaynaştırma and the BEP',
+        items: [
+          `<strong>Kaynaştırma/bütünleştirme</strong> (inclusion through mainstreaming) is the default: the pupil is educated with peers in the general class, with support, rather than separately.${c(3)}`,
+          `Every pupil identified as requiring special education has an individualised education programme — the <strong>BEP</strong> (<em>Bireyselleştirilmiş Eğitim Programı</em>) — with goals set for the year and reviewed.${c(3)}`,
+          `The BEP is drawn up by a team that includes the class teacher and the parents; it is a working document for the classroom, not a file that stays in the office.${c(3)}`,
+          `Support may also take the form of a <strong>destek eğitim odası</strong> (resource room) within the same school, for part of the timetable.${c(3)}`,
+        ],
+      },
+      {
+        label: 'Gifted pupils — BİLSEM',
+        items: [
+          `<strong>BİLSEM</strong> centres (<em>Bilim ve Sanat Merkezleri</em>) provide out-of-school provision for gifted pupils and exist in all 81 provinces.${c(4)}`,
+          `Identification takes place in <strong>grades 1–3</strong>, in three fields: general intellectual ability, visual arts and music.${c(4)}`,
+          `The process starts with the <strong>class teacher</strong>, who completes the observation form for the pupils nominated, through the school’s guidance commission.${c(4)}`,
+        ],
+      },
+      {
+        label: 'For quick reference',
+        items: [
+          `Founding text: Decree-Law 573 (1997); operative text: Special Education Services Regulation (2018).${c2(1, 3)}`,
+          `Assessment and placement: RAM, through the school’s guidance service.${c(3)}`,
+          `Individual plan: BEP, written with the class teacher and the family.${c(3)}`,
+          `Gifted provision: BİLSEM, nominated by the class teacher in grades 1–3.${c(4)}`,
+        ],
+      },
+    ],
+    refsLabel: 'References',
+    references: [
+      `Özel Eğitim Hakkında Kanun Hükmünde Kararname (KHK 573), 1997 — Mevzuat Bilgi Sistemi.${srcEn('https://www.mevzuat.gov.tr/MevzuatMetin/4.5.573.pdf')}`,
+      `Engelliler Hakkında Kanun (Kanun No. 5378), 1 July 2005 — Mevzuat Bilgi Sistemi.${srcEn('https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5378.pdf')}`,
+      `Özel Eğitim Hizmetleri Yönetmeliği, 7 July 2018 — Ministry of National Education, Directorate General for Special Education and Guidance Services.${srcEn('https://orgm.meb.gov.tr/meb_iys_dosyalar/2021_09/13145613_Ozel_EYitim_Hizmetleri_YonetmeliYi_son.pdf')}`,
+      `Bilim ve Sanat Merkezleri Öğrenci Tanılama ve Yerleştirme Kılavuzu — Ministry of National Education.${srcEn('https://orgm.meb.gov.tr/www/bilim-ve-sanat-merkezleri-ogrenci-tanilama-ve-yerlestirme-kilavuzu/icerik/3456/tr')}`,
+      `Türkiye’s ratification of the UN Convention on the Rights of Persons with Disabilities — Ministry of Foreign Affairs, press release no. 167, 29 September 2009.${srcEn('https://www.mfa.gov.tr/no_-167_-29-september-2009_-press-release-regarding-turkey_s-ratification-for-the-united-nations-convention-on-the-rights-of-persons-with-disabilities.en.mfa')}`,
     ],
   },
 };
