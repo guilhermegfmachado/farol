@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { ui, entryTranslations, type Lang, allLangHrefs } from '@/lib/i18n';
+import { ui, entryTranslations, type Lang, allLangHrefs, PREFIXED_LANGS } from '@/lib/i18n';
 import { toolTranslations } from '@/lib/tool-translations';
 import Base from '../../../layouts/Base.astro';
 import Header from '../../../components/Header.astro';
@@ -8,7 +8,7 @@ import Footer from '../../../components/Footer.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
 
 export async function getStaticPaths() {
-  const langs: Lang[] = ['en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  const langs: Lang[] = PREFIXED_LANGS;
   const tools = await getCollection('tools');
   return langs.flatMap((lang) =>
     tools.map((tool) => ({

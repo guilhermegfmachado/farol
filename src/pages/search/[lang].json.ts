@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { entryTranslations, categoryTranslations, type Lang } from '@/lib/i18n';
+import { entryTranslations, categoryTranslations, type Lang, ALL_LANGS } from '@/lib/i18n';
 import { contentTranslations } from '@/lib/content-translations';
 import { toolTranslations } from '@/lib/tool-translations';
 import { countryLegal } from '@/lib/country-legal';
 
-const LANGS: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+const LANGS: Lang[] = ALL_LANGS;
 
 export function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));

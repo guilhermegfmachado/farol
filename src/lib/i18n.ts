@@ -1,6 +1,12 @@
-export type Lang = 'pt' | 'en' | 'es' | 'fr' | 'it' | 'hr' | 'de' | 'nl' | 'pl' | 'ro' | 'cs' | 'sv' | 'da' | 'fi' | 'sk' | 'el' | 'hu' | 'bg' | 'lt' | 'lv' | 'et' | 'sl' | 'ga' | 'mt';
+export type Lang = 'pt' | 'en' | 'es' | 'fr' | 'it' | 'hr' | 'de' | 'nl' | 'pl' | 'ro' | 'cs' | 'sv' | 'da' | 'fi' | 'sk' | 'el' | 'hu' | 'bg' | 'lt' | 'lv' | 'et' | 'sl' | 'ga' | 'mt' | 'tr';
 
 // Stamped when the site is built, so the footer never advertises a stale date.
+/** Every language the manual ships in. The one list — adding a language means
+    editing this and nothing else. Ten hardcoded copies of it used to drift. */
+export const ALL_LANGS: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt','tr'];
+/** The 23 that live under a /{lang}/ prefix; Portuguese is at the root. */
+export const PREFIXED_LANGS: Lang[] = ALL_LANGS.filter((l) => l !== 'pt');
+
 export const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
 export const ui = {
@@ -2164,9 +2170,112 @@ export const ui = {
     tools_search_placeholder: 'Iffiltra l-għodod...',
     no_results: 'Ebda riżultat għat-tiftixa tiegħek.',
   },
+  tr: {
+    tagline: 'Öğrencileri Tanımak ve Yönlendirmek için Araçlar ve Yaklaşımlar — karşısındaki öğrenciye saygı duyan, sınıf için bir cep el kitabı.',
+    version_tag: `v0.1 · ${BUILD_DATE}`,
+    tools_data_label: 'Öğrenci verileri',
+    tools_data_notice: 'Bunlardan herhangi birini öğrenci verileriyle kullanmadan önce: ad, tanı veya kimlik belirtici başka bilgi girmeyin; ses ve video kayıtları kişisel veridir ve rıza gerektirir; reşit olmayan öğrencilerin hesapları yalnızca okul veya veli aracılığıyla açılır. Veri işleme koşulları lisansa göre değişir ve sık sık güncellenir — sağlayıcının gizlilik politikasını ve okulunuzun veri sorumlusunu kontrol edin.',
+    night_toggle: 'Gece modu',
+    about_label: 'Hakkında',
+    about_p1: 'Bu derleme, nörogelişimsel farklılıkları olan, özel yetenekli veya öğretim dilini henüz edinmemiş öğrencilerle çalışan öğretmenler için pratik stratejileri bir araya getirir. Her profilin hızlı başvuru kartı vardır.',
+    about_p2: 'Her kart üç şey verir: <strong>sınıfta ne gördüğünüz</strong>, <strong>bugün ne yapabileceğiniz</strong> ve <strong>yapay zekânın nereye girdiği</strong> — yerine geçen değil, araç olarak. Beş dakika işe yarar bir yanıt için yeterlidir.',
+    acronym: '<strong>FAROL</strong> · Araçlar · Yaklaşımlar · Tanıma · Yönlendirme · Öğrenciler',
+    start_label: 'Başla',
+    start_question: 'Aklınızda nasıl bir öğrenci var?',
+    observe_label: 'Gördüğünüzden başlayın',
+    observe_hint: 'Sınıfta fark ettiğinize en yakın olanı seçin.',
+    browse_label: 'ya da profile göre göz atın',
+    tag_quick: 'hızlı',
+    tag_noprep: 'hazırlıksız',
+    tag_notech: 'teknolojisiz',
+    strategies_title: 'Stratejiler',
+    strategies_nav: 'Stratejiler',
+    strategies_intro: 'Tüm profillerden, yapay zekâsız stratejilerin tamamı. Şu anda kullanabileceğinize göre süzün ve kendi sayfanızı yazdırın.',
+    strategies_filter: 'Yalnızca göster:',
+    fb_placeholder: 'Neyi düzeltmeli ya da iyileştirmeliyiz?',
+    fb_send: 'Gönder',
+    fb_sent: 'Teşekkürler! Geri bildirim gönderildi.',
+    fb_error: 'Gönderilemedi — bunun yerine GitHub bağlantısını kullanın.',
+    fb_via_github: 'ya da GitHub üzerinden',
+    tier_universal: 'evrensel',
+    tier_selective: 'seçici',
+    tiers_legend: 'Destek düzeyleri: evrensel — tüm sınıfa yönelik uygulama; seçici — belirli öğrencilere yönelik hedefli destek; ek — bir ekip tarafından kararlaştırılan, bu kartların kapsamı dışında kalan resmî bireyselleştirilmiş müdahale. Avrupa sistemlerinin çoğu bu türden kademeli bir yaklaşım kullanır; kendi ülkenizinkini kontrol edin:',
+    strategies_none: 'Bu süzgeçlere uyan strateji yok.',
+    strategies_print: 'Sayfayı yazdır',
+    toolkit_nav: 'Araç çantam',
+    toolkit_title: 'Araç çantam',
+    toolkit_intro: 'Kaydettiğiniz profiller ve araçlar yalnızca bu cihazda tutulur — hiçbir yere gönderilmez.',
+    toolkit_empty: 'Henüz bir şey kaydedilmedi. Herhangi bir profil veya araçtaki yıldıza dokunarak burada tutabilirsiniz.',
+    toolkit_profiles: 'Profiller',
+    toolkit_tools: 'Araçlar',
+    save_add: 'Kaydet',
+    save_remove: 'Kaydedildi',
+    consult: 'kartı gör',
+    home: 'ana sayfa',
+    tools_catalog: 'Katalog',
+    tools_title: 'Yapay Zekâ Araçları →',
+    tools_desc: 'Gizlilik notları ve profil eşleştirmesiyle araç kartları',
+    footer_manual: 'Farol · Öğretmen el kitabı',
+    footer_licence: 'Açık kaynak · CC BY-NC-SA',
+    footer_how: 'Nasıl kullanılır',
+    footer_by: 'Konsept:',
+    breadcrumb_home: 'ana sayfa',
+    breadcrumb_tools: 'araçlar',
+    breadcrumb_about: 'hakkında',
+    nav_prev: '← önceki',
+    nav_next: 'sonraki →',
+    nav_all_tools: 'Tüm araçları gör',
+    nav_back_tools: '← araçlar',
+    tools_question: 'Sınıf için yapay zekâ araçları',
+    tool_desc_label: 'Açıklama',
+    tool_profiles_label: 'İlgili profiller',
+    tool_access_label: 'Erişim',
+    tool_free: 'Ücretsiz sürümü var.',
+    tool_paid: 'Yalnızca ücretli.',
+    tool_view: 'araç kartını gör',
+    ai_pending: 'Floransa kursundan sonra doldurulacak (Ağustos 2026). Yapı hazır; her araçta kullanım örneği, komut önerisi ve gizlilik notu yer alacak.',
+    translation_notice: 'Belirli araçlar ve kullanım örnekleri Floransa kursundan sonra eklenecek (Ağustos 2026).',
+    lh_title: 'Kule',
+    lh_desc: 'Her kat bir profil ya da kaynaktır. Temeller en yaygın olanları taşır; tepesi etik ve yasal çerçeveyi aydınlatır.',
+    lh_categories: 'Kategoriler',
+    lh_back: 'Ana sayfaya dön',
+    lh_label: 'Görselleştirme',
+    skip_to_content: 'İçeriğe geç',
+    feedback_link: 'Düzeltme öner',
+    print_card: 'Bu kartı yazdır',
+    a4_sheet: 'A4 sayfası',
+    legal_country_note: 'Bu kart Türkiye’yi kapsar. Her dil sürümü bir ülkeyi kapsar — ülkeniz aralarında yoksa ulusal eğitim makamınıza başvurun.',
+    referral_note: 'Bilgilendirme amaçlıdır, klinik değildir — tereddüt hâlinde okul rehberlik servisine ya da nitelikli uzmanlara danışın.',
+    about_more: 'Daha fazla bilgi',
+    home_profiles: 'Profiller',
+    home_refs: 'Kaynaklar ve başvurular',
+    tools_for_profile: 'Önerilen araçlar',
+    see_also: 'Ayrıca bakınız',
+    reading_mode: 'Okuma modu',
+    text_size: 'Yazı boyutu',
+    references_label: 'Kaynakça',
+    lang_suggestion: 'Bu içerik Türkçe olarak mevcuttur',
+    search_placeholder: 'Profilleri süz...',
+    tools_search_placeholder: 'Araçları süz...',
+    no_results: 'Aramanızla eşleşen bir şey yok.',
+  },
 } as const;
 
 export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { title: string; desc: string; subtitle?: string }>> = {
+  tr: {
+    tdah:         { title: 'DEHB',                  subtitle: 'Dikkat Eksikliği ve Hiperaktivite Bozukluğu',                 desc: 'Dikkat eksikliği, hareketlilik ya da ikisi birden. Yerinde duramaz, düşünmeden davranır, kolay dağılır.' },
+    dislexia:     { title: 'Disleksi',              subtitle: 'Okumada özgül öğrenme bozukluğu',                              desc: 'Zekâ korunmuş olmasına rağmen okuma ve yazmada özgül güçlük.' },
+    discalculia:  { title: 'Diskalkuli',            subtitle: 'Matematikte özgül öğrenme bozukluğu',                          desc: 'Diğer bilişsel becerilere göre beklenmedik biçimde, sayılar ve hesapla özgül güçlük.' },
+    dispraxia:    { title: 'Dispraksi',             subtitle: 'Gelişimsel koordinasyon bozukluğu',                            desc: 'Hareketlerin planlanması ve koordinasyonunda güçlük: sakarlık, yazı, düzen.' },
+    autismo:      { title: 'Otizm',                 subtitle: 'Otizm spektrum bozukluğu',                                     desc: 'İletişim, toplumsal etkileşim ve değişime uyumda farklılıklar.' },
+    sobredotacao: { title: 'Özel yetenek',          subtitle: 'Yüksek öğrenme kapasitesi',                                    desc: 'Yaşıtlarının belirgin biçimde üzerinde kapasite — her zaman yüksek başarıyla birlikte değil.' },
+    plnm:         { title: 'Türkçe ikinci dil',     subtitle: 'Öğretim dilinde yeterliliği olmayan öğrenci',                   desc: 'Öğretim dilini henüz edinmemiş öğrenci: dil engeli, öğrenme güçlüğü değil.' },
+    etica:        { title: 'Etik ve KVKK',          subtitle: 'Sınıfta yapay zekânın sorumlu kullanımı',                      desc: 'Öğrenci verileriyle yapay zekâ kullanmadan önce sorulacak sorular.' },
+    oficina:      { title: 'Atölye',                subtitle: 'Meslektaşlarla oturum planı',                                  desc: 'Bu el kitabını okulda paylaşmak için hazır bir yapı.' },
+    legislacao:   { title: 'Yasal çerçeve',         subtitle: '573 sayılı KHK, 5378 sayılı Kanun ve Özel Eğitim Hizmetleri Yönetmeliği', desc: 'Türkiye’de kapsayıcı okulda önlemleri, süreçleri ve sorumlulukları tanımlayan yasal çerçeve.' },
+    diferenciacao:{ title: 'Farklılaştırma',        subtitle: 'Aynı sınıfta farklı yollar',                                   desc: 'İki ders hazırlamadan öğretimi uyarlamanın pratik yolları.' },
+    avaliacao:    { title: 'Değerlendirme',         subtitle: 'Uyarlanmış ölçme ve değerlendirme',                            desc: 'Engeli değil öğrenmeyi ölçmek: uyarlamalar ve ölçütler.' },
+  },
   en: {
     tdah:         { title: 'ADHD',              subtitle: 'Attention Deficit Hyperactivity Disorder',                          desc: 'Attention deficit, hyperactivity, or both. Restless, impulsive, easily distracted.' },
     dislexia:     { title: 'Dyslexia',          subtitle: 'Specific learning disorder in reading',                              desc: 'Specific difficulty with reading and writing, despite preserved intelligence.' },
@@ -2492,6 +2601,40 @@ export const entryTranslations: Record<Exclude<Lang, 'pt'>, Record<string, { tit
 };
 
 export const sectionLabelTranslations: Record<Exclude<Lang, 'pt'>, Record<string, string>> = {
+  tr: {
+    'Como se manifesta na sala':                          'Sınıfta nasıl görünür',
+    'O que não é':                                        'Ne değildir',
+    'Estratégias sem IA':                                 'Yapay zekâsız stratejiler',
+    'Onde a IA entra':                                    'Yapay zekâ nereye girer',
+    'Sinais de alerta para referenciação':                'Yönlendirme için uyarı işaretleri',
+    'Perfis sobrepostos':                                 'Örtüşen profiller',
+    'Como comunicar com o EE':                            'Veliyle nasıl konuşulur',
+    'Privacidade & RGPD':                                 'Gizlilik ve kişisel veriler',
+    'Viés algorítmico':                                   'Algoritmik yanlılık',
+    'Dependência cognitiva':                              'Bilişsel bağımlılık',
+    'A grelha de decisão':                                'Karar listesi',
+    'Objetivo':                                           'Amaç',
+    'Estrutura proposta (90 min)':                        'Önerilen akış (90 dk)',
+    'Materiais necessários':                              'Gerekli malzemeler',
+    'Indicadores de sucesso':                             'Başarı göstergeleri',
+    'Decreto-Lei 54/2018 — o diploma central':            'Temel yasal çerçeve',
+    'Medidas universais — o que qualquer docente pode fazer': 'Evrensel önlemler — her öğretmenin yapabilecekleri',
+    'Medidas seletivas e adicionais — quando referenciar':    'Seçici ve ek önlemler — ne zaman yönlendirmeli',
+    'Sobredotação — legislação específica':               'Özel yetenek — özel düzenleme',
+    'PLNM — enquadramento específico':                    'Türkçe ikinci dil — özel çerçeve',
+    'O que guardar como referência rápida':               'Hızlı başvuru için akılda kalacaklar',
+    'Descrição':                                          'Açıklama',
+    'Perfis relevantes':                                  'İlgili profiller',
+    'Acesso':                                             'Erişim',
+    'Nota RGPD':                                          'Veri koruma notu',
+    'O que é':                                            'Nedir',
+    'Estratégias práticas':                               'Pratik stratejiler',
+    'Avaliação diferenciada':                             'Farklılaştırılmış değerlendirme',
+    'Técnicas rápidas':                                   'Hızlı teknikler',
+    'Feedback eficaz':                                    'Etkili geri bildirim',
+    'Adaptações por perfil':                              'Profile göre uyarlamalar',
+    'Quando referenciar':                                 'Ne zaman yönlendirmeli',
+  },
   en: {
     'Como se manifesta na sala':                          'How it shows up in class',
     'O que não é':                                        "What it isn't",
@@ -3277,102 +3420,38 @@ export const sectionLabelTranslations: Record<Exclude<Lang, 'pt'>, Record<string
 };
 
 export function allLangHrefs(base: string, collection: string, slug: string): Record<Lang, string> {
-  return {
-    pt: `${base}${collection}/${slug}/`,
-    en: `${base}en/${collection}/${slug}/`,
-    es: `${base}es/${collection}/${slug}/`,
-    fr: `${base}fr/${collection}/${slug}/`,
-    it: `${base}it/${collection}/${slug}/`,
-    hr: `${base}hr/${collection}/${slug}/`,
-    de: `${base}de/${collection}/${slug}/`,
-    nl: `${base}nl/${collection}/${slug}/`,
-    pl: `${base}pl/${collection}/${slug}/`,
-    ro: `${base}ro/${collection}/${slug}/`,
-    cs: `${base}cs/${collection}/${slug}/`,
-    sv: `${base}sv/${collection}/${slug}/`,
-    da: `${base}da/${collection}/${slug}/`,
-    fi: `${base}fi/${collection}/${slug}/`,
-    sk: `${base}sk/${collection}/${slug}/`,
-    el: `${base}el/${collection}/${slug}/`,
-    hu: `${base}hu/${collection}/${slug}/`,
-    bg: `${base}bg/${collection}/${slug}/`,
-    lt: `${base}lt/${collection}/${slug}/`,
-    lv: `${base}lv/${collection}/${slug}/`,
-    et: `${base}et/${collection}/${slug}/`,
-    sl: `${base}sl/${collection}/${slug}/`,
-    ga: `${base}ga/${collection}/${slug}/`,
-    mt: `${base}mt/${collection}/${slug}/`,
-  };
+  const out = {} as Record<Lang, string>;
+  for (const l of ALL_LANGS) out[l] = l === 'pt' ? `${base}${collection}/${slug}/` : `${base}${l}/${collection}/${slug}/`;
+  return out;
 }
 
 export function allIndexHrefs(base: string): Record<Lang, string> {
-  return {
-    pt: base,
-    en: `${base}en/`,
-    es: `${base}es/`,
-    fr: `${base}fr/`,
-    it: `${base}it/`,
-    hr: `${base}hr/`,
-    de: `${base}de/`,
-    nl: `${base}nl/`,
-    pl: `${base}pl/`,
-    ro: `${base}ro/`,
-    cs: `${base}cs/`,
-    sv: `${base}sv/`,
-    da: `${base}da/`,
-    fi: `${base}fi/`,
-    sk: `${base}sk/`,
-    el: `${base}el/`,
-    hu: `${base}hu/`,
-    bg: `${base}bg/`,
-    lt: `${base}lt/`,
-    lv: `${base}lv/`,
-    et: `${base}et/`,
-    sl: `${base}sl/`,
-    ga: `${base}ga/`,
-    mt: `${base}mt/`,
-  };
+  const out = {} as Record<Lang, string>;
+  for (const l of ALL_LANGS) out[l] = l === 'pt' ? base : `${base}${l}/`;
+  return out;
 }
 
 
 // hreflang alternates for the flat per-language section pages (toolkit, strategies)
 export function allSectionHrefs(base: string, section: string): Record<Lang, string> {
   const out = {} as Record<Lang, string>;
-  const langs: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  const langs: Lang[] = ALL_LANGS;
   for (const l of langs) out[l] = l === 'pt' ? `${base}${section}/` : `${base}${l}/${section}/`;
   return out;
 }
 
 export function allAboutHrefs(base: string): Record<Lang, string> {
-  return {
-    pt: `${base}sobre/`,
-    en: `${base}en/about/`,
-    es: `${base}es/about/`,
-    fr: `${base}fr/about/`,
-    it: `${base}it/about/`,
-    hr: `${base}hr/about/`,
-    de: `${base}de/about/`,
-    nl: `${base}nl/about/`,
-    pl: `${base}pl/about/`,
-    ro: `${base}ro/about/`,
-    cs: `${base}cs/about/`,
-    sv: `${base}sv/about/`,
-    da: `${base}da/about/`,
-    fi: `${base}fi/about/`,
-    sk: `${base}sk/about/`,
-    el: `${base}el/about/`,
-    hu: `${base}hu/about/`,
-    bg: `${base}bg/about/`,
-    lt: `${base}lt/about/`,
-    lv: `${base}lv/about/`,
-    et: `${base}et/about/`,
-    sl: `${base}sl/about/`,
-    ga: `${base}ga/about/`,
-    mt: `${base}mt/about/`,
-  };
+  const out = {} as Record<Lang, string>;
+  for (const l of ALL_LANGS) out[l] = l === 'pt' ? `${base}sobre/` : `${base}${l}/about/`;
+  return out;
 }
 
 export const categoryTranslations: Record<Lang, Record<string, string>> = {
+  tr: {
+    'Perfil': 'Profil',
+    'Referência': 'Kaynak',
+    'Recurso': 'Kaynak',
+  },
   pt: { 'Perfil': 'Perfil',   'Referência': 'Referência', 'Recurso': 'Recurso'    },
   en: { 'Perfil': 'Profile',  'Referência': 'Reference',  'Recurso': 'Resource'   },
   es: { 'Perfil': 'Perfil',   'Referência': 'Referencia', 'Recurso': 'Recurso'    },

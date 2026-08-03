@@ -6,7 +6,7 @@
 // Only state here what is actually true of the process. Claims about review
 // rounds or native verification do not belong unless that review happened and
 // the author can vouch for it.
-import type { Lang } from './i18n';
+import { ALL_LANGS, type Lang } from './i18n';
 
 export interface MadePage {
   title: string;      // page + footer link title
@@ -378,13 +378,28 @@ export const made: Record<Lang, MadePage> = {
     ],
     etica: 'Ara wkoll',
   },
+  tr: {
+    title: 'Nasıl yapıldı',
+    cat: 'Şeffaflık',
+    subtitle: 'İnsan yönetimi ve yapay zekâ desteği — kim ne yaptı.',
+    desc: 'Farol’un nasıl oluşturulduğuna dair şeffaflık: insan yönetimi ve yapay zekâ desteği.',
+    items: [
+      '<strong>Tasarım, yönetim ve pedagojik yapı:</strong> Guilherme de Góis Machado.',
+      'İçerik, yazarın yönetiminde yapay zekâ desteğiyle (Anthropic’in Claude modeli) kaleme alındı.',
+      'Her kart dayandığı kaynakları listeler; çoğu doğrudan özgün metne bağlantı verir.',
+      'Çeviriler yapay zekâ ile üretildi.',
+      '<strong>Neden açıklıyoruz?</strong> El kitabının kendi Etik ve KVKK yönlendirmesiyle tutarlı olmak için: yapay zekâ kullanımında şeffaflık, Farol’un öğretmenlere tam olarak önerdiği şeydir.',
+      'Farol bilgilendirici bir kaynaktır, klinik bir rehber değildir: tanılama ve tanı nitelikli uzmanların işidir.',
+    ],
+    etica: 'Ayrıca bakınız',
+  },
 };
 
 // hreflang / footer hrefs for the transparency page (PT slug at root, shared
 // English slug under each language prefix — same convention as sobre/about).
 export function allMadeHrefs(base: string): Record<Lang, string> {
   const out = {} as Record<Lang, string>;
-  const langs: Lang[] = ['pt','en','es','fr','it','hr','de','nl','pl','ro','cs','sv','da','fi','sk','el','hu','bg','lt','lv','et','sl','ga','mt'];
+  const langs: Lang[] = ALL_LANGS;
   for (const l of langs) out[l] = l === 'pt' ? `${base}como-foi-feito/` : `${base}${l}/how-it-was-made/`;
   return out;
 }
