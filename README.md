@@ -42,7 +42,7 @@ src/content/          # fonte em português; o frontmatter é tudo, o corpo não
                       #   sobredotacao, plnm, discalculia
   references/         # 5 referências (08–12): etica, oficina, legislacao,
                       #   diferenciacao, avaliacao
-  tools/              # catálogo de ferramentas de IA, com nota RGPD por ferramenta
+  tools/              # catálogo de ferramentas de IA (descrição e ligação ao fornecedor)
 
 src/lib/
   i18n.ts                  # strings de interface + títulos/subtítulos por língua
