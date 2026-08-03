@@ -135,7 +135,17 @@ const allLangs: Lang[] = ['pt', 'en', 'es', 'fr', 'it', 'hr', 'de', 'nl', 'pl', 
     fetch(idxBase + 'search/' + lang + '.json')
       .then(function (r) { return r.json(); })
       .then(function (d) { index = d; loading = false; if (pending) pending(); })
-      .catch(function () { loading = false; });
+      .catch(function () {
+        loading = false;
+        // Offline on first use, or the index failed to load: say so instead of
+        // leaving the box silently empty.
+        panel.innerHTML = '';
+        var e = document.createElement('div');
+        e.className = 'hdr-search-empty';
+        e.textContent = emptyMsg;
+        panel.appendChild(e);
+        panel.hidden = false;
+      });
   }
   function render(q) {
     var toks = q.split(/\s+/).filter(Boolean);
