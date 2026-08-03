@@ -36,7 +36,7 @@ sections:
       - "Sinais de comorbilidade (ansiedade, depressão, perturbação de oposição) — frequentes na TDAH e que justificam encaminhamento.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>"
   - label: "Perfis sobrepostos"
     items:
-      - "A TDAH raramente vem sozinha: uma parte substancial dos alunos tem também uma perturbação da aprendizagem — dislexia e discalculia são as sobreposições mais comuns, e a dispraxia é frequente. Na prática: quando as adaptações de atenção não chegam, procurar um padrão específico na leitura ou no cálculo antes de concluir que é \"falta de esforço\"."
+      - "A TDAH raramente vem sozinha: é frequente coexistir com perturbações da aprendizagem, incluindo dificuldades de leitura.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Na prática: quando as adaptações de atenção não chegam, procurar um padrão específico na leitura ou no cálculo antes de concluir que é “falta de esforço”."
 ai_strategies:
   tools: []
 related: ["dislexia", "discalculia", "autismo", "dispraxia", "sobredotacao"]

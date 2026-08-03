@@ -26,7 +26,6 @@ sections:
     items:
       - "O DL 54/2018 inclui explicitamente alunos com capacidades de aprendizagem acima da média no âmbito da educação inclusiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "A Circular 3/DSEEASE/2011 define orientações para o acompanhamento de alunos sobredotados, incluindo a possibilidade de aceleração curricular e enriquecimento extracurricular.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
-      - "Na prática, a sobredotação é frequentemente sub-referenciada por falta de formação docente e por não estar associada a dificuldades visíveis — o DL 54/2018 não resolve este problema estrutural."
   - label: "PLNM — enquadramento específico"
     items:
       - "O Despacho Normativo 7/2006 e posteriores regulam o ensino do Português Língua Não Materna. Alunos PLNM são integrados em níveis A1 a C2 (QECR) após avaliação diagnóstica.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
