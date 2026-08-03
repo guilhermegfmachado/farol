@@ -164,7 +164,7 @@ export const ui = {
     feedback_link: 'Suggest a correction',
     print_card: 'Print this card',
     a4_sheet: 'A4 sheet',
-    legal_country_note: 'This card covers Ireland; Malta’s framework is in the Maltese version. Each language version covers one country — if yours is not among them, consult your national education authority.',
+    legal_country_note: 'This card covers Ireland; Malta’s framework is in the Maltese version, and a separate card covers <a href=\"/farol/en/references/legislacao/tr/\">Türkiye</a>. Each language version covers one country — if yours is not among them, consult your national education authority.',
     referral_note: 'Informational, not clinical — when in doubt, consult the school psychology services or qualified professionals.',
     about_more: 'Learn more',
     home_profiles: 'Profiles',

@@ -2,7 +2,7 @@
 
 **Ferramentas · Abordagens · Reconhecer · Orientar · aLunos**
 
-Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com bibliografia académica citada em cada afirmação e o enquadramento legal dos 27 Estados-Membros da UE.
+Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com bibliografia académica citada em cada afirmação e o enquadramento legal dos 27 Estados-Membros da UE e da Turquia.
 
 🔗 **[guilhermegfmachado.github.io/farol](https://guilhermegfmachado.github.io/farol/)**
 
