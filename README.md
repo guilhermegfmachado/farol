@@ -2,7 +2,7 @@
 
 **Ferramentas · Abordagens · Reconhecer · Orientar · aLunos**
 
-Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com bibliografia académica citada em cada afirmação e o enquadramento legal dos 27 Estados-Membros da UE e dos seis países associados ao programa Erasmus+.
+Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 24 línguas, com referências académicas ligadas à fonte e o enquadramento legal dos 27 Estados-Membros da UE e dos seis países associados ao programa Erasmus+.
 
 🔗 **[guilhermegfmachado.github.io/farol](https://guilhermegfmachado.github.io/farol/)**
 
@@ -104,10 +104,9 @@ curso em Florença (Agosto 2026). A estrutura e os estilos já estão prontos na
 
 ## Como foi feito
 
-Conceção, direção e estrutura pedagógica: Guilherme de Góis Machado. O conteúdo foi
-redigido com assistência de IA sob direção do autor, com revisão humana de todas as
-fichas; as referências académicas foram verificadas contra as fontes citadas e as
-traduções passaram por três rondas de revisão. O processo está descrito em
+Conceção, direção e estrutura pedagógica: Guilherme de Góis Machado. O conteúdo e as
+traduções foram produzidos com assistência de IA sob direção do autor. Cada cartão indica as fontes em que
+se apoia; a maioria inclui ligação direta ao original. O processo está descrito em
 [Como foi feito](https://guilhermegfmachado.github.io/farol/como-foi-feito/).
 
 ## Licença

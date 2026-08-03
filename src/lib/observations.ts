@@ -2,7 +2,6 @@
 // from a diagnostic label. Each observation is a plain classroom description that
 // routes to the relevant profile card. The profile mapping is language-independent;
 // only `text` is localized. Two observations per profile, phrased non-clinically.
-// Translations native-verified per language family.
 import type { Lang } from './i18n';
 
 export interface Observation {
