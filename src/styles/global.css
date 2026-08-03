@@ -573,4 +573,26 @@ html.pdf-export .animate-in * {
   font-size: 0.8rem; color: var(--ink-faded); line-height: 1.5;
   margin: 0.9rem 0 1.6rem; padding-left: 0.8rem; border-left: 2px solid var(--rule);
 }
-@media print { .country-note { display: none; } }
+/* On paper the scope note is the sentence that says whose law this is, so it
+   prints — matching the PDF export, which always included it. Its links are
+   dead on paper, so they lose the link styling and read as plain text. */
+@media print {
+  .country-note { color: #333; border-left-color: #ccc; }
+  .country-note a { color: inherit; text-decoration: none; border-bottom: none; }
+}
+
+/* Export bar. Defined globally because it is used by every card template: the
+   country-variant route shipped without a scoped copy, so its button had no
+   layout and — worse — printed onto the paper. Scoped copies in the existing
+   templates still win by specificity; this only fills the gap. */
+.print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
+.print-btn, .print-btn-a4 {
+  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
+  font-size: 0.7rem; letter-spacing: 0.05em;
+  background: none; border: 1px solid var(--rule); color: var(--ink-faded);
+  padding: 0.4rem 0.9rem; cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.print-btn:hover, .print-btn-a4:hover { border-color: var(--accent); color: var(--accent); }
+.print-btn:focus-visible, .print-btn-a4:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media print { .print-bar { display: none; } }
