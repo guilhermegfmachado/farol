@@ -486,8 +486,3 @@ export const countryLegal: Record<string, CountryLegal> = {
     ],
   },
 };
-
-/** Country variants available in a given language, excluding one code. */
-export function variantsFor(lang: Lang, exclude?: string): CountryLegal[] {
-  return Object.values(countryLegal).filter((v) => v.lang === lang && v.code !== exclude);
-}
