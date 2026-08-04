@@ -13,11 +13,11 @@
 // countries associated to the Erasmus+ programme (Iceland, Liechtenstein,
 // Norway, North Macedonia, Serbia, Türkiye) — the countries whose teachers this
 // manual is actually for. The language axis is a separate question, and stays
-// the 24 official EU languages plus Turkish and Norwegian.
+// the 24 official EU languages plus Turkish, Norwegian and Icelandic.
 //
-// A country drops off this list when the manual gains its language: Türkiye and
-// Norway moved to their own cards, and Liechtenstein was never English because
-// German was already here.
+// A country drops off this list when the manual gains its language: Türkiye,
+// Norway and Iceland moved to their own cards, and Liechtenstein was never
+// English because German was already here.
 //
 // Each entry is written and sourced in the language its readers use. Where the
 // manual carries that language it is used (Liechtenstein is German); where it
@@ -56,7 +56,6 @@ const srcIn = (lang: Lang) => (href: string) =>
 // English card, and they cross-link to each other. Building the list from one
 // place keeps five notes from drifting apart as countries are added.
 const EN_ASSOCIATED: [code: string, name: string][] = [
-  ['is', 'Iceland'],
   ['rs', 'Serbia'],
   ['mk', 'North Macedonia'],
 ];
@@ -450,64 +449,6 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
       `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
-    ],
-  },
-
-  'en-is': {
-    lang: 'en',
-    code: 'is',
-    country: 'Iceland',
-    title: 'Legal framework',
-    subtitle: 'Compulsory School Act No. 91/2008 and Regulation No. 585/2010 on pupils with special needs in Iceland',
-    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Icelandic school.',
-    note: enNote('is', 'Iceland', 'Icelandic'),
-    sections: [
-      {
-        label: 'The central texts',
-        items: [
-          `The <strong>Compulsory School Act No. 91/2008</strong> makes education compulsory from six to sixteen and sets inclusive education as the frame.${c(1)}`,
-          `<strong>Regulation No. 585/2010</strong> on pupils with special needs in compulsory schools applies to pupils who need special educational support according to assessed needs; its stated focus is equality in education.${c(2)}`,
-          `Inclusive education — <em>skóli án aðgreiningar</em>, a school without segregation — is the guiding national policy at every level, from early years through the transition to adulthood.${c(2)}`,
-        ],
-      },
-      {
-        label: 'Where the burden of proof sits',
-        items: [
-          `The policy addresses every learner’s needs <strong>without defining those who need support as a different kind of pupil</strong>.${c(2)}`,
-          `The question has been reversed over time: it is no longer inclusion that has to be justified, but the decision to consider a segregated option.${c(3)}`,
-        ],
-      },
-      {
-        label: 'The plan',
-        items: [
-          `Under Regulation No. 585/2010 the <strong>special education teacher</strong> draws up the individual education plan and organises the teaching <strong>together with the guardians</strong>.${c(3)}`,
-          `Plans are reviewed at least once a year.${c(3)}`,
-          `This holds at pre-primary, compulsory and upper-secondary level, and in special units inside schools.${c(3)}`,
-        ],
-      },
-      {
-        label: 'Beyond the school — the Prosperity Act',
-        items: [
-          `<strong>Act No. 86/2021</strong> on the integration of services in the interest of children’s prosperity was passed unanimously and came into force on 1 January 2022.${c(4)}`,
-          `It organises services in three levels and assigns a <strong>coordinator</strong> to any child needing support, whose job is to keep information, access and continuity from falling between services.${c(4)}`,
-          `Implementation is phased and runs to the end of 2026, so practice in a given municipality may still be catching up with the text.${c(4)}`,
-        ],
-      },
-      {
-        label: 'For quick reference',
-        items: [
-          `Central texts: Compulsory School Act No. 91/2008; Regulation No. 585/2010.${c2(1, 2)}`,
-          `Individual plan: written by the special education teacher with the guardians, reviewed yearly.${c(3)}`,
-          `Cross-service support: Prosperity Act No. 86/2021, with a named coordinator.${c(4)}`,
-        ],
-      },
-    ],
-    refsLabel: 'References',
-    references: [
-      `Compulsory School Act No. 91/2008 (English translation) — Government of Iceland.${srcEn('https://www.government.is/media/menntamalaraduneyti-media/media/law-and-regulations/Compulsory-School-Act-No.-91-2008.pdf')}`,
-      `Iceland: legislation and policy — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/iceland/legislation-and-policy')}`,
-      `Iceland: systems of support and specialist provision — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/iceland/systems-of-support-and-specialist-provision')}`,
-      `Iceland’s Act on the Integration of Services in the Interest of Children’s Prosperity (“Prosperity Act”) — OECD.${srcEn('https://www.oecd.org/en/publications/well-being-knowledge-exchange-platform-kep_93d45d63-en/iceland-s-act-on-the-integration-of-services-in-the-interest-of-children-s-prosperity-prosperity-act_63070721-en.html')}`,
     ],
   },
 

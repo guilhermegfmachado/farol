@@ -1,0 +1,64 @@
+---
+import { ui, allAboutHrefs } from '@/lib/i18n';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui['is'];
+---
+<Base title="Hakkında — Farol" description="Farol nedir, nasıl kullanılır ve yapay zekâ bölümlerinden ne beklenmeli." altHrefs={allAboutHrefs(base)}>
+  <Header lang="is" altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}is/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">Kılavuz</span></div>
+      <h1 class="card-title">Farol nasıl kullanılır</h1>
+      <p class="card-subtitle">Nedir, ne değildir ve beş dakikada ondan en iyi nasıl yararlanılır.</p>
+    </header>
+    <section class="card-section">
+      <h2 class="card-section-label">Nedir</h2>
+      <ul>
+        <li><span>Karma sınıflarla çalışan öğretmenler için hızlı başvuru. Her kart bir öğrenci profilini ele alır ve üç soruya yanıt verir: sınıfta ne görüyorsunuz, bugün ne yapabilirsiniz ve yapay zekâ nerede yardımcı olabilir.</span></li>
+        <li><span>Beş dakikada işe yarasın diye tasarlandı: zor bir dersten önce, veli görüşmesinden önce ya da bir meslektaş bir öğrenci için ikinci bir görüş istediğinde.</span></li>
+        <li><span>Açık bir kaynaktır ve yazarın bilgisi geliştikçe güncellenir. Güncel sürüm: <strong>v0.1</strong>.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Ne değildir</h2>
+      <ul>
+        <li><span><strong>Tanılama aracı değildir.</strong> Hiçbir kart resmî psikolojik ya da eğitsel değerlendirmenin yerine geçmez.</span></li>
+        <li><span><strong>Klinik bir el kitabı değildir.</strong> Dili bilinçli olarak sade ve sınıfa dönüktür, kliniğe değil.</span></li>
+        <li><span><strong>Kesin değildir.</strong> Profiller birer giriş noktasıdır, etiket değil. Gerçek bir öğrenci nadiren tek bir kategoriye sığar.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Yapay zekâ bölümleri hakkında</h2>
+      <ul>
+        <li><span><em>Yapay zekâ nereye girer</em> bölümleri bu sürümde bilerek boş bırakıldı. Yazar, belirli araçlar önermeden önce Floransa’da uzmanlık eğitiminden geçiyor (Ağustos 2026).</span></li>
+        <li><span>Yapı hazır: her araçta bir kullanım örneği, bir komut önerisi ve bir gizlilik notu olacak. İçerik <strong>v0.2</strong> ile gelecek, Eylül 2026 için planlanıyor.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Çeviri hakkında</h2>
+      <ul>
+        <li><span>Kartların içeriği tümüyle Türkçeye çevrilmiştir. Kılavuzun özgün sürümü Portekizcedir; tereddüt hâlinde Portekizce metin esas alınır.</span></li>
+        <li><span>Gezinme, etiketler ve bilgi sayfaları tümüyle çevrilmiştir.</span></li>
+      </ul>
+    </section>
+    <section class="card-section">
+      <h2 class="card-section-label">Künye ve lisans</h2>
+      <ul>
+        <li><span>Dil öğretmeni <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a> tarafından tasarlandı ve yönetildi.</span></li>
+        <li><span><strong>CC BY-NC-SA 4.0</strong> lisansıyla yayımlanmıştır.</span></li>
+        <li><span>Kaynak kodu: <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+      </ul>
+    </section>
+  </article>
+  <Footer lang="is" />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>

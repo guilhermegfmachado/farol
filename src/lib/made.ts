@@ -408,6 +408,21 @@ export const made: Record<Lang, MadePage> = {
     ],
     etica: 'Se også',
   },
+  is: {
+    title: 'Hvernig hún varð til',
+    cat: 'Gagnsæi',
+    subtitle: 'Mannleg stjórn og aðstoð gervigreindar — hver gerði hvað.',
+    desc: 'Gagnsæi um hvernig Farol varð til: mannleg stjórn og aðstoð gervigreindar.',
+    items: [
+      '<strong>Hugmynd, stjórn og kennslufræðileg uppbygging:</strong> Guilherme de Góis Machado.',
+      'Efnið var skrifað með aðstoð gervigreindar (Claude frá Anthropic) undir stjórn höfundar.',
+      'Hvert spjald tilgreinir heimildirnar sem það byggir á; flestar tengja beint í frumtextann.',
+      'Þýðingarnar voru gerðar með gervigreind.',
+      '<strong>Af hverju að segja frá?</strong> Til samræmis við leiðbeiningar handbókarinnar sjálfrar um siðferði og persónuvernd: gagnsæi um notkun gervigreindar er einmitt það sem Farol mælir með við kennara.',
+      'Farol er upplýsingaefni, ekki klínísk leiðbeining: greining og mat eru í höndum fagfólks með réttindi.',
+    ],
+    etica: 'Sjá einnig',
+  },
 };
 
 // hreflang / footer hrefs for the transparency page (PT slug at root, shared
