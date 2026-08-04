@@ -48,41 +48,14 @@ const SRC_LABEL: Partial<Record<Lang, string>> = {
   nl: 'Bron openen',
   fr: 'Ouvrir la source',
   el: 'Άνοιγμα πηγής',
-  en: 'Open source',
 };
 const srcIn = (lang: Lang) => (href: string) =>
   ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="${SRC_LABEL[lang] ?? 'Open source'}">↗</a>`;
-// Erasmus+ programme countries whose language the manual does not carry get an
-// English card, and they cross-link to each other. Building the list from one
-// place keeps five notes from drifting apart as countries are added.
-const EN_ASSOCIATED: [code: string, name: string][] = [
-  ['mk', 'North Macedonia'],
-];
-const enNote = (code: string, country: string, language: string) => {
-  const others = EN_ASSOCIATED.filter(([c]) => c !== code).map(
-    ([c, n]) => `<a href="/farol/en/references/legislacao/${c}/">${n}</a>`,
-  );
-  // This list shrinks every time the manual gains one of these languages, so it
-  // has to read correctly at two, one and zero siblings — not just at five.
-  const siblings =
-    others.length === 0
-      ? ''
-      : others.length === 1
-        ? ` A separate card covers ${others[0]}.`
-        : ` Separate cards cover ${others.slice(0, -1).join(', ')} and ${others[others.length - 1]}.`;
-  return (
-    `This card covers <strong>${country}</strong>. It is in English because ${language} is not ` +
-    `among the manual’s languages — the ${language} terms are given as they appear in the law. ` +
-    `Ireland is on the <a href="__DEFAULT__">default English card</a> and Malta in the ` +
-    `<a href="/farol/mt/references/legislacao/">Maltese version</a>.${siblings}`
-  );
-};
 
 const srcDe = srcIn('de');
 const srcNl = srcIn('nl');
 const srcFr = srcIn('fr');
 const srcEl = srcIn('el');
-const srcEn = srcIn('en');
 const c = (n: number) => `<sup class="cite"><a href="#ref-${n}">${n}</a></sup>`;
 const c2 = (a: number, b: number) =>
   `<sup class="cite"><a href="#ref-${a}">${a}</a>,<a href="#ref-${b}">${b}</a></sup>`;
@@ -166,7 +139,7 @@ export const countryLegal: Record<string, CountryLegal> = {
       `Deutschförderklassen und Deutschförderkurse sowie MIKA-D zur Feststellung des (außer-)ordentlichen Status, Bundesministerium für Bildung / IQS.${srcDe('https://www.iqs.gv.at/themen/nationale-kompetenzerhebung/mika-d')}`,
     ],
   },
-'nl-be': {
+  'nl-be': {
     lang: 'nl',
     code: 'be',
     country: 'Vlaanderen',
@@ -360,7 +333,7 @@ export const countryLegal: Record<string, CountryLegal> = {
       `Reform im Bereich der Förderpädagogik: Zusammenführung von ZFP und Pater-Damian-Fördergrundschule zum Zentrum für inklusive Pädagogik (ZiP) ab 2026.${srcDe('https://lydiaklinkenberg.be/reform-im-bereich-der-foerderpaedagogik/')}`,
     ],
   },
-'el-cy': {
+  'el-cy': {
     lang: 'el',
     code: 'cy',
     country: 'Κύπρος',
@@ -455,60 +428,6 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
       `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
-    ],
-  },
-
-  'en-mk': {
-    lang: 'en',
-    code: 'mk',
-    country: 'North Macedonia',
-    title: 'Legal framework',
-    subtitle: 'The Law on Primary Education (2019) and the Concept for Inclusive Education (2020) in North Macedonia',
-    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Macedonian school.',
-    note: enNote('mk', 'North Macedonia', 'Macedonian'),
-    sections: [
-      {
-        label: 'The central texts',
-        items: [
-          `The <strong>Law on Primary Education</strong> of 2019 is the turning point: it stipulates that children with disabilities are to be enrolled in <strong>mainstream</strong> education.${c(1)}`,
-          `The <strong>Concept for Inclusive Education</strong> of 2020 followed as the guideline for putting that into practice at every stage.${c(2)}`,
-        ],
-      },
-      {
-        label: 'The inclusive team and the IEP',
-        items: [
-          `Under the Law on Primary Education and the Law on Secondary Education, an <strong>inclusive team is formed for the individual learner</strong> and stays with them until they finish primary education.${c(3)}`,
-          `That team prepares and implements the learner’s <strong>individual education plan</strong>.${c(3)}`,
-        ],
-      },
-      {
-        label: 'Resource centres',
-        items: [
-          `The reform converted <strong>special schools into resource centres</strong> and special classes into learning-support centres.${c(3)}`,
-          `A learner with complex needs following a modified curriculum may enrol in a school with a resource centre — on the learner’s or parents’ choice, with professional recommendation. It is a choice, not a placement.${c(3)}`,
-        ],
-      },
-      {
-        label: 'What arrived with the reform',
-        items: [
-          `<strong>Educational assistants</strong> and physical accessibility became a requirement rather than an aspiration.${c(3)}`,
-          `Schools were staffed with special educators, psychologists and pedagogues, supported by teacher training and assistive technology.${c(2)}`,
-        ],
-      },
-      {
-        label: 'For quick reference',
-        items: [
-          `Central texts: Law on Primary Education (2019); Concept for Inclusive Education (2020).${c2(1, 2)}`,
-          `Plan: individual education plan, written by the learner’s inclusive team.${c(3)}`,
-          `Specialist provision: resource centres (former special schools), entered by choice.${c(3)}`,
-        ],
-      },
-    ],
-    refsLabel: 'References',
-    references: [
-      `North Macedonia: new concepts for inclusive education and primary education — Eurydice, European Commission.${srcEn('https://eurydice.eacea.ec.europa.eu/news/north-macedonia-new-concepts-inclusive-education-and-primary-education-part-european')}`,
-      `Inclusive Education in North Macedonia — UNICEF policy brief.${srcEn('https://www.unicef.org/northmacedonia/media/16161/file/InclusiveEducationPolicyBrief_NorthMacedonia.pdf.pdf')}`,
-      `Overview of the inclusive education system in North Macedonia — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/north-macedonia/overview-inclusive-education-system')}`,
     ],
   },
 

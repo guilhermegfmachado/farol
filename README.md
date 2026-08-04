@@ -2,7 +2,7 @@
 
 **Ferramentas · Abordagens · Reconhecer · Orientar · aLunos**
 
-Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 28 línguas, com referências académicas ligadas à fonte e o enquadramento legal dos 27 Estados-Membros da UE e dos seis países associados ao programa Erasmus+.
+Manual de consulta rápida para docentes que trabalham com turmas heterogéneas. Cada cartão cobre um perfil de aprendizagem — o que se vê na sala, o que se pode fazer hoje, e onde a IA pode ajudar. Disponível em 29 línguas, com referências académicas ligadas à fonte e o enquadramento legal dos 27 Estados-Membros da UE e dos seis países associados ao programa Erasmus+.
 
 🔗 **[guilhermegfmachado.github.io/farol](https://guilhermegfmachado.github.io/farol/)**
 
@@ -10,7 +10,7 @@ Manual de consulta rápida para docentes que trabalham com turmas heterogéneas.
 
 - [Astro](https://astro.build) — gerador de sites estáticos (~870 páginas)
 - TypeScript · Content Collections com validação Zod
-- i18n para 26 línguas (PT na raiz + 23 línguas oficiais da UE, turco, norueguês, islandês e sérvio em `/{lang}/`)
+- i18n para 26 línguas (PT na raiz + 23 línguas oficiais da UE, turco, norueguês, islandês, sérvio e macedónio em `/{lang}/`)
 - Plus Jakarta Sans + JetBrains Mono + OpenDyslexic (self-hosted via fontsource)
 - PWA instalável e utilizável offline · exportação para PDF no cliente
 - GitHub Pages via GitHub Actions
@@ -46,7 +46,7 @@ src/content/          # fonte em português; o frontmatter é tudo, o corpo não
 
 src/lib/
   i18n.ts                  # strings de interface, ALL_LANGS e títulos/subtítulos por língua
-  content-translations.ts  # secções e itens de cada cartão nas 27 línguas
+  content-translations.ts  # secções e itens de cada cartão nas 28 línguas
   country-legal.ts         # variantes por país do cartão de enquadramento legal
   observations.ts          # observações da página inicial e respetivos temas
   strategy-tags.ts         # etiquetas e níveis de medida de cada estratégia
@@ -61,8 +61,8 @@ ocupam 01–07 e as referências 08–12.
 O cartão **não** fica completo só por se criar o ficheiro. É preciso tocar em:
 
 1. `src/content/profiles/novo.md` — fonte PT, seguindo o schema em `src/content/config.ts`
-2. `src/lib/i18n.ts` → `entryTranslations` — título, subtítulo e descrição nas 27 línguas
-3. `src/lib/content-translations.ts` — secções e itens nas 27 línguas
+2. `src/lib/i18n.ts` → `entryTranslations` — título, subtítulo e descrição nas 28 línguas
+3. `src/lib/content-translations.ts` — secções e itens nas 28 línguas
 4. `src/lib/strategy-tags.ts` — `strategyTags` **e** `strategyTiers`, com um elemento por
    estratégia; se as contagens não baterem certo, ficam estratégias sem etiqueta ou com
    nível atribuído por omissão
@@ -83,9 +83,9 @@ apenas por língua.
 O eixo de país cobre os **27 Estados-Membros da UE e os seis países associados ao
 Erasmus+** (Islândia, Listenstaine, Noruega, Macedónia do Norte, Sérvia e Turquia): são
 os países de onde vêm os docentes a quem este manual se dirige. O eixo de língua é outra
-questão: as 24 línguas oficiais da UE mais o turco, o norueguês, o islandês e o sérvio. Cada cartão é escrito na língua dos
-seus leitores — em alemão quando o país é germanófono, em inglês quando o manual não
-tem a língua do país, com os termos nacionais mantidos no original.
+questão: as 24 línguas oficiais da UE mais as cinco línguas dos países associados ao Erasmus+. Cada cartão é escrito na língua dos seus leitores. Os dois eixos passaram a coincidir:
+todas as línguas destes países estão no manual, pelo que já não existe nenhum cartão de
+recurso em inglês.
 
 Para acrescentar um país basta uma entrada em `src/lib/country-legal.ts` (chaveada por
 `${lang}-${código}`) e uma ligação a partir da nota do cartão dessa língua, em
@@ -100,7 +100,7 @@ pré-preenchido (requer conta GitHub). Para receber as mensagens diretamente, pr
 ## Conteúdo pendente
 
 As secções *Onde a IA entra* ficam como espaço reservado até serem preenchidas após o
-curso em Florença (Agosto 2026). A estrutura e os estilos já estão prontos nas 28 línguas.
+curso em Florença (Agosto 2026). A estrutura e os estilos já estão prontos nas 29 línguas.
 
 ## Como foi feito
 

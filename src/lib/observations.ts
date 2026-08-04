@@ -39,6 +39,7 @@ export const observations: Observation[] = [
     no: 'Sitter ikke stille, avbryter, blir avledet av alt',
     is: 'Situr ekki kyrr, grípur fram í, truflast af öllu',
     sr: 'Не седи мирно, упада у реч, све га омета',
+    mk: 'Не седи мирно, прекинува, сè го одвлекува',
   }},
   { profile: 'tdah', text: {
     pt: 'Esquece instruções, perde o material, não acaba tarefas',
@@ -69,6 +70,7 @@ export const observations: Observation[] = [
     no: 'Glemmer leksene, sekken og pulten er rotete',
     is: 'Gleymir heimanáminu, taskan og borðið í óreiðu',
     sr: 'Заборавља домаћи, торба и клупа у нереду',
+    mk: 'Ја заборава домашната, ранецот и клупата се во неред',
   }},
   { profile: 'dislexia', text: {
     pt: 'Evita ler em voz alta, lê devagar e com esforço',
@@ -99,6 +101,7 @@ export const observations: Observation[] = [
     no: 'Unngår å lese høyt, blander bokstaver, leser sakte',
     is: 'Forðast að lesa upphátt, ruglar stöfum, les hægt',
     sr: 'Избегава да чита наглас, меша слова, чита споро',
+    mk: 'Избегнува да чита на глас, ги меша буквите, чита бавно',
   }},
   { profile: 'dislexia', text: {
     pt: 'Troca letras, escreve muito abaixo do que fala',
@@ -129,6 +132,7 @@ export const observations: Observation[] = [
     no: 'Gjør mange feil når hun skriver, men forklarer klart muntlig',
     is: 'Gerir margar villur þegar hún skrifar en útskýrir skýrt munnlega',
     sr: 'Прави много грешака кад пише, али усмено јасно објашњава',
+    mk: 'Прави многу грешки кога пишува, но усно објаснува јасно',
   }},
   { profile: 'dispraxia', text: {
     pt: 'Desajeitado, letra difícil, muito desorganizado',
@@ -159,6 +163,7 @@ export const observations: Observation[] = [
     no: 'Virker klossete, mister ting ofte, håndskriften er vanskelig å lese',
     is: 'Virkar klaufsk, missir oft hluti, rithöndin er torlæs',
     sr: 'Делује неспретно, често нешто испусти, рукопис је нечитак',
+    mk: 'Изгледа несмасно, често испушта нешто, ракописот е нечиток',
   }},
   { profile: 'dispraxia', text: {
     pt: 'Perde-se em tarefas com passos e sequências',
@@ -189,6 +194,7 @@ export const observations: Observation[] = [
     no: 'Strever med knyting av sko eller bruk av linjal',
     is: 'Á erfitt með að reima skó eða nota reglustiku',
     sr: 'Мучи се са везивањем пертли или употребом лењира',
+    mk: 'Се мачи со врзување врвки или со употреба на линијар',
   }},
   { profile: 'autismo', text: {
     pt: 'Perturba-se com ruído ou mudanças de rotina',
@@ -219,6 +225,7 @@ export const observations: Observation[] = [
     no: 'Unngår blikkontakt, blir ute av seg når rutinen endres',
     is: 'Forðast augnsamband, verður í uppnámi þegar rútínan breytist',
     sr: 'Избегава контакт очима, узнемири се кад се промени распоред',
+    mk: 'Избегнува контакт со очи, се вознемирува кога се менува распоредот',
   }},
   { profile: 'autismo', text: {
     pt: 'Muito literal, não capta o que fica por dizer',
@@ -249,6 +256,7 @@ export const observations: Observation[] = [
     no: 'Forteller om ett tema i uvanlig detalj, plages av støy',
     is: 'Segir frá einu efni í óvenju miklum smáatriðum, þolir illa hávaða',
     sr: 'Прича о једној теми у необично много детаља, смета му бука',
+    mk: 'Раскажува за една тема со необично многу детали, му пречи бучавата',
   }},
   { profile: 'sobredotacao', text: {
     pt: 'Acaba tudo depressa, aborrece-se e perturba',
@@ -279,6 +287,7 @@ export const observations: Observation[] = [
     no: 'Blir fort ferdig, kjeder seg, begynner å forstyrre',
     is: 'Klárar fljótt, leiðist, fer að trufla',
     sr: 'Брзо заврши, досађује се, почиње да омета час',
+    mk: 'Завршува брзо, му е досадно, почнува да го попречува часот',
   }},
   { profile: 'sobredotacao', text: {
     pt: 'Muito capaz, mas com notas abaixo do esperado',
@@ -309,6 +318,7 @@ export const observations: Observation[] = [
     no: 'Stiller overraskende spørsmål for alderen, men leverer ikke oppgavene',
     is: 'Spyr óvænt djúpra spurninga miðað við aldur en skilar ekki verkefnum',
     sr: 'Поставља изненађујућа питања за свој узраст, али не предаје задатке',
+    mk: 'Поставува изненадувачки прашања за својата возраст, но не ги предава задачите',
   }},
   { profile: 'plnm', text: {
     pt: 'Acabou de chegar, ainda não fala a língua de ensino',
@@ -339,6 +349,7 @@ export const observations: Observation[] = [
     no: 'Ser ut til å forstå, men får ikke skrevet noe på prøven',
     is: 'Virðist skilja en kemur engu á blað í prófi',
     sr: 'Делује као да разуме, али на писменом ништа не напише',
+    mk: 'Изгледа како да разбира, но на писмената ништо не напишува',
   }},
   { profile: 'plnm', text: {
     pt: 'Percebe mais do que consegue dizer na língua da escola',
@@ -369,6 +380,7 @@ export const observations: Observation[] = [
     no: 'Stille i klassen, snakker flytende sitt eget språk i friminuttet',
     is: 'Þögul í tímum, talar reiprennandi sitt eigið mál í frímínútum',
     sr: 'Ћути на часу, на одмору течно говори свој језик',
+    mk: 'Молчи на час, на одмор течно го зборува својот јазик',
   }},
   { profile: 'discalculia', text: {
     pt: 'Conta pelos dedos quando os colegas já calculam de cor',
@@ -399,6 +411,7 @@ export const observations: Observation[] = [
     no: 'Strever med å sammenligne tall, teller fortsatt på fingrene',
     is: 'Á erfitt með að bera saman tölur, telur enn á fingrum',
     sr: 'Мучи се да упореди бројеве, још броји на прсте',
+    mk: 'Се мачи да спореди броеви, сè уште брои на прсти',
   }},
   { profile: 'discalculia', text: {
     pt: 'Sabe raciocinar, mas troca números e esquece as tabuadas',
@@ -429,6 +442,7 @@ export const observations: Observation[] = [
     no: 'Husker ikke gangetabellen tross gjentatt øving',
     is: 'Man ekki margföldunartöfluna þrátt fyrir endurtekna æfingu',
     sr: 'Не памти таблицу множења упркос понављању',
+    mk: 'Не ја памети таблицата за множење и покрај повторувањето',
   }},
 ];
 
@@ -477,6 +491,7 @@ export const obsThemes: ObservationTheme[] = [
     no: 'Oppmerksomhet og tempo',
     is: 'Athygli og hraði',
     sr: 'Пажња и темпо',
+    mk: 'Внимание и темпо',
   }},
   { key: 'written', profiles: ['dislexia', 'dispraxia', 'discalculia'], label: {
     pt: 'Leitura, escrita e organização',
@@ -507,6 +522,7 @@ export const obsThemes: ObservationTheme[] = [
     no: 'Lesing og skriving',
     is: 'Lestur og ritun',
     sr: 'Читање и писање',
+    mk: 'Читање и пишување',
   }},
   { key: 'language', profiles: ['autismo', 'plnm'], label: {
     pt: 'Comunicação e língua',
@@ -537,5 +553,6 @@ export const obsThemes: ObservationTheme[] = [
     no: 'Språk og kommunikasjon',
     is: 'Mál og samskipti',
     sr: 'Језик и комуникација',
+    mk: 'Јазик и комуникација',
   }},
 ];
