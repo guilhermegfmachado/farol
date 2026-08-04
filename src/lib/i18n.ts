@@ -175,7 +175,7 @@ export const ui = {
     feedback_link: 'Suggest a correction',
     print_card: 'Print this card',
     a4_sheet: 'A4 sheet',
-    legal_country_note: 'This card covers Ireland; Malta’s framework is in the Maltese version. Türkiye has its own version in <a href=\"/farol/tr/references/legislacao/\">Turkish</a>. Separate English cards cover the remaining Erasmus+ programme countries, whose languages the manual does not carry: <a href=\"/farol/en/references/legislacao/no/\">Norway</a>, <a href=\"/farol/en/references/legislacao/is/\">Iceland</a>, <a href=\"/farol/en/references/legislacao/rs/\">Serbia</a> and <a href=\"/farol/en/references/legislacao/mk/\">North Macedonia</a>. For an EU country not listed, change language at the top.',
+    legal_country_note: 'This card covers Ireland; Malta’s framework is in the Maltese version. Türkiye and Norway have their own versions, in <a href=\"/farol/tr/references/legislacao/\">Turkish</a> and <a href=\"/farol/no/references/legislacao/\">Norwegian</a>. Separate English cards cover the remaining Erasmus+ programme countries, whose languages the manual does not carry: <a href=\"/farol/en/references/legislacao/is/\">Iceland</a>, <a href=\"/farol/en/references/legislacao/rs/\">Serbia</a> and <a href=\"/farol/en/references/legislacao/mk/\">North Macedonia</a>. For an EU country not listed, change language at the top.',
     referral_note: 'Informational, not clinical — when in doubt, consult the school psychology services or qualified professionals.',
     about_more: 'Learn more',
     home_profiles: 'Profiles',

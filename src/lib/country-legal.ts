@@ -13,11 +13,11 @@
 // countries associated to the Erasmus+ programme (Iceland, Liechtenstein,
 // Norway, North Macedonia, Serbia, Türkiye) — the countries whose teachers this
 // manual is actually for. The language axis is a separate question, and stays
-// the 24 official EU languages plus Turkish.
+// the 24 official EU languages plus Turkish and Norwegian.
 //
-// A country drops off this list when the manual gains its language: Türkiye's
-// framework moved to the Turkish card, and Liechtenstein was never English
-// because German was already here.
+// A country drops off this list when the manual gains its language: Türkiye and
+// Norway moved to their own cards, and Liechtenstein was never English because
+// German was already here.
 //
 // Each entry is written and sourced in the language its readers use. Where the
 // manual carries that language it is used (Liechtenstein is German); where it
@@ -56,7 +56,6 @@ const srcIn = (lang: Lang) => (href: string) =>
 // English card, and they cross-link to each other. Building the list from one
 // place keeps five notes from drifting apart as countries are added.
 const EN_ASSOCIATED: [code: string, name: string][] = [
-  ['no', 'Norway'],
   ['is', 'Iceland'],
   ['rs', 'Serbia'],
   ['mk', 'North Macedonia'],
@@ -451,64 +450,6 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
       `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
-    ],
-  },
-
-  'en-no': {
-    lang: 'en',
-    code: 'no',
-    country: 'Norway',
-    title: 'Legal framework',
-    subtitle: 'The Education Act of 2023, in force since August 2024, and individually adapted education in Norway',
-    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Norwegian school.',
-    note: enNote('no', 'Norway', 'Norwegian'),
-    sections: [
-      {
-        label: 'A new Education Act — and the end of “special education”',
-        items: [
-          `The <strong>Education Act</strong> (<em>opplæringslova</em>, LOV-2023-06-09-30) was passed in June 2023 and has applied since <strong>1 August 2024</strong>, replacing the 1998 Act.${c(1)}`,
-          `It removes the term <em>spesialundervisning</em> (special education) deliberately: the word was judged stigmatising and to contribute to exclusion.${c(3)}`,
-          `In its place stand three things — <strong>individuelt tilrettelagt opplæring</strong> (individually adapted education), <strong>fysisk tilrettelegging</strong> (physical adaptation) and <strong>personleg assistanse</strong> (personal assistance).${c(3)}`,
-          `Chapter 11 governs all of this, and for the first time writes the mandate of the educational-psychological service into the Act itself.${c2(1, 2)}`,
-        ],
-      },
-      {
-        label: 'Adapted teaching is for everyone; individual adaptation is a right',
-        items: [
-          `<em>Tilpassa opplæring</em> — adapting ordinary teaching to the pupils in front of you — is a general duty owed to every pupil. It is not a measure, and it needs no decision.${c(2)}`,
-          `A pupil who cannot get satisfactory benefit from ordinary teaching has a <strong>right</strong> to individually adapted education (§ 11-6). That does require a formal decision.${c(1)}`,
-        ],
-      },
-      {
-        label: 'Who decides — PP-tjenesten',
-        items: [
-          `The <strong>PP service</strong> (<em>pedagogisk-psykologisk teneste</em>, PPT) produces the <em>sakkyndig vurdering</em> — the expert assessment a decision must be based on.${c(1)}`,
-          `PPT must assess the pupil’s <strong>whole</strong> education offering, including the need for physical adaptation and personal assistance — not the teaching alone.${c(1)}`,
-          `Worth knowing: under the new Act the municipality and PPT weigh more heavily in shaping the provision, and pupils and parents less than before.${c(3)}`,
-        ],
-      },
-      {
-        label: 'The plan and the yearly account',
-        items: [
-          `The school draws up an <strong>individuell opplæringsplan</strong> (IOP) setting out the goals, the content and how the education is to be carried out.${c(1)}`,
-          `Once a year the school writes an account of the education the pupil actually received and an assessment of progress against the IOP’s goals.${c(1)}`,
-        ],
-      },
-      {
-        label: 'For quick reference',
-        items: [
-          `Central text: opplæringslova (2023), chapter 11 — in force 1 August 2024.${c(1)}`,
-          `Right to individually adapted education: § 11-6, on an expert assessment from PPT.${c(1)}`,
-          `Individual plan: IOP, with a written yearly account.${c(1)}`,
-          `The word “special education” no longer appears in the Act.${c(3)}`,
-        ],
-      },
-    ],
-    refsLabel: 'References',
-    references: [
-      `Lov om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova), LOV-2023-06-09-30, kapittel 11 — Lovdata.${srcEn('https://lovdata.no/lov/2023-06-09-30/%C2%A711-11')}`,
-      `Tilpassa opplæring og individuell tilrettelegging, kap. 11 — Statsforvalteren i Nordland.${srcEn('https://www.statsforvalteren.no/nordland/barnehage-og-opplaring/grunnskole-og-videregaende-opplaring/ny-opplaringslov-fra-1.-august/tilpassa-opplaring-og-individuell-tilrettelegging---kap.-11/')}`,
-      `A new education act in Norway: a redefinition of special education that nurtures inclusive education? <em>European Journal of Special Needs Education</em>.${srcEn('https://www.tandfonline.com/doi/full/10.1080/08856257.2026.2680568')}`,
     ],
   },
 

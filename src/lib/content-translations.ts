@@ -9584,4 +9584,400 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ],
     },
   },
+  no: {
+    tdah: { sections: [
+      { items: [
+        "Vansker med å holde oppmerksomheten gjennom lange oppgaver; mister tråden i beskjeder med flere ledd.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Stadig i bevegelse — blir ikke sittende, fikler med hendene, reiser seg uten synlig grunn.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Svarer før spørsmålet er ferdig; avbryter medelever og lærer.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Glemmer utstyr, frister og beskjeder gitt muntlig for minutter siden — arbeidsminnet er overbelastet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kan hyperfokusere på det som interesserer, noe som gir det gale inntrykket at eleven «kan når hun vil»; i praksis varierer innsatsen med interesse og belønning.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> dårlig oppdragelse, latskap eller karakterbrist: slike forestillinger stigmatiserer og forsinker hjelpen.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> alltid synlig hyperaktivitet — det finnes en overveiende uoppmerksom form, vanligere hos jenter og ofte oversett.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Det løses ikke</strong> med å «ta seg sammen»: vansken ligger i nevrologisk selvregulering, ikke i vilje.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Del opp beskjedene: én om gangen, skrevet på tavla, med avtalt tid — det letter belastningen på arbeidsminnet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tillat legitim bevegelse (dele ut materiell, tørke tavla, gå med en beskjed).",
+        "Reduser konkurrerende stimuli (plass bort fra vinduet, døra og den mest støyende gruppa).",
+        "Umiddelbar og hyppig positiv respons: ved ADHD er belønningsfølsomheten endret (aversjon mot venting), så umiddelbare belønninger virker bedre enn utsatte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Begynn med det eleven får til — åpner møtet med en klageliste, lukker foresatte seg.",
+        "Beskriv observert atferd, ikke diagnoser: «når det er mer enn to ledd etter hverandre, mister hun tråden» framfor «hun har ADHD».",
+        "Regn med «sånn er det ikke hjemme» — forklar at gruppesituasjonen og kravet om vedvarende oppmerksomhet i klasserommet gjør det tydeligere.",
+        "Foreslår du utredning, presenter det som en mulighet og ikke en straff: «det finnes hjelp som kan bety mye for henne» framfor «hun må utredes».",
+      ]},
+      { items: [
+        "Vedvarende disiplinsaker til tross for tilpasninger i klasserommet.",
+        "Tegn på at eleven blir holdt utenfor av medelever.",
+        "Tegn på tilleggsvansker (angst, depresjon, atferdsvansker) — vanlig ved ADHD og grunn til henvisning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD kommer sjelden alene: det opptrer ofte sammen med lærevansker, blant dem lesevansker.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> I praksis: når tilpasninger for oppmerksomhet ikke er nok, se etter et bestemt mønster i lesing eller regning før du slutter at det er «manglende innsats».",
+      ]},
+    ],
+    },
+    dislexia: { sections: [
+      { items: [
+        "Leser sakte og med strev, med feil på enkeltord, også i tekster hun forstår godt når de blir lest opp.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Speilvending av bokstaver (b/d, p/q) er vanlig hos alle som begynner å skrive og er ikke i seg selv tegn på dysleksi; kjernevansken er <strong>fonologisk</strong> — å knytte bokstav til lyd.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Vedvarende rettskrivingsfeil som ikke gir seg av gjentatt retting.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Unngår gjerne å lese høyt; det som ser ut som manglende interesse, er som regel en beskyttelsesstrategi.",
+        "Lytteforståelsen er klart bedre enn leseforståelsen — vansken er spesifikk, ikke en generell kognitiv begrensning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> mangel på evner: per definisjon er dysleksi uventet ut fra elevens øvrige kognitive kapasitet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> et synsproblem og ikke bare «å bytte om bokstaver»: kjernesvikten ligger i fonologisk prosessering.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det «kureres» ikke</strong>, men systematisk arbeid med fonologisk bevissthet og avkoding bedrer lesingen konsekvent.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Øk avstanden mellom bokstaver og linjer: det finnes eksperimentelt belegg for at økt luft bedrer lesingen hos barn med dysleksi, uten forutgående trening.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Belegget for egne «dyslektiske» skrifttyper er derimot svakere og mer sprikende.",
+        "La eleven lese stille før høytlesing — be aldri om høytlesing på sparket.",
+        "Når målet ikke er å vurdere skrivingen, vurder innholdet atskilt fra rettskrivingen.",
+        "Gi samme informasjon i flere formater (lyd, video, skjema).",
+      ]},
+      { items: [
+        "Skill lesing fra evner uttrykkelig med én gang: «hun forstår svært godt når hun hører det — vansken gjelder lesingen».",
+        "Husk at dysleksi har en klar arvelig komponent: en av foreldrene kan ha udiagnostisert dysleksi, og samtalen kan vekke vonde minner fra egen skolegang.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Unngå å legge fram ark fulle av røde rettinger uten kontekst — vis først det eleven allerede mestrer.",
+        "Vær konkret om tilpasningene som alt er i gang, og om hva foresatte kan gjøre hjemme: tekster som lyd, høytlesing uten tidspress.",
+      ]},
+      { items: [
+        "Fallende faglig selvbilde («jeg er dum», «jeg får det ikke til»).",
+        "Systematisk unngåelse av lese- og skriveoppgaver i et omfang som går ut over andre fag.",
+        "Markert sprik mellom muntlig og skriftlig uten formell utredning — henvis til PP-tjenesten.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Opptrer ofte sammen med ADHD, dyskalkuli og dyspraksi — lærevansker kommer sjelden alene. Går vanskene klart ut over lesing og skriving (oppmerksomhet, regning, koordinasjon), utvid observasjonen framfor å tilskrive alt dysleksien.",
+      ]},
+    ],
+    },
+    discalculia: { sections: [
+      { items: [
+        "Vedvarende vansker med tallforståelse: sammenligne mengder, anslå svar, se uten å telle at 9 er større enn 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Teller på fingrene lenge etter at medelevene har automatisert enkel hoderegning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Husker ikke tallfakta (gangetabellen) tross gjentatt øving — hver utregning begynner på nytt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Mister tråden i oppgaver med flere trinn, selv når begrepet sitter; bytter om eller glemmer mellomtrinn.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Prestasjonen i matematikk ligger klart under det språklig resonnement og andre fag skulle tilsi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> å «være dårlig i matte» eller å la være å øve: det er en spesifikk lærevanske med nevrobiologisk grunnlag, slik dysleksi er det for lesing.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det er ikke</strong> matematikkangst, selv om de to nærer hverandre: angst forverrer prestasjonen, men dyskalkuli finnes uavhengig av den.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det forsvinner ikke</strong> av flere like oppgaver: det bedres av eksplisitt, strukturert arbeid med tallforståelse, ikke av å gjenta det som alt har slått feil.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Ha konkreter og visuelle framstillinger (tallinje, klosser, skjema) tilgjengelig uten stigma — overgangen fra konkret til abstrakt skjer i uttalte trinn.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Tillat tabell over tallfakta eller kalkulator når oppgaven ikke handler om regning — vurder resonnementet atskilt fra aritmetikken.",
+        "Reduser mengden: færre, godt valgte oppgaver med utvidet tid — fart er ikke målet.",
+        "Si trinnene høyt og la et løst eksempel være synlig under arbeidet — eksplisitt undervisning med modellering.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Skill matematikk fra evner fra første stund: «resonnementet er helt på plass — vansken gjelder tallene».",
+        "Forklar at støtte som kalkulator eller utskrevet gangetabell ikke er «å gjøre det lett»: det tilsvarer briller for den som ikke ser langt.",
+        "Foreslå korte, konkrete aktiviteter hjemme (brettspill med terninger, ekte penger i butikken) framfor lister med like oppgaver.",
+        "Husk at dyskalkuli er arvelig og langt mindre kjent enn dysleksi: foresatte har kanskje aldri hørt ordet — å sette navn på mønsteret hjelper.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Fallende selvbilde knyttet særskilt til matematikk («jeg er dum til tall»).",
+        "Unngåelse eller nekting av oppgaver med tall i et omfang som truer skoleløpet.",
+        "Vedvarende sprik mellom generelt resonnement og prestasjon i matematikk uten formell utredning — henvis til PP-tjenesten.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Overlapper ofte med dysleksi — den fonologiske og den numeriske svikten opptrer sammen — og med ADHD, der overbelastet arbeidsminne forverrer regningen. Svikter lesing og tall samtidig, må tilpasningene dekke begge og ikke velge én.",
+      ]},
+    ],
+    },
+    dispraxia: { sections: [
+      { items: [
+        "Håndskriften er tung, langsom og ofte vanskelig å lese — på grunn av reelle motoriske vansker, ikke slurv.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Vansker med å organisere siden i boka, holde orden på utstyr og følge rekkefølger.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan virke «klossete» — velter glass, går på møbler, strever i kroppsøving.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Uforholdsmessig sliten etter oppgaver som krever vedvarende finmotorikk.",
+        "Den kognitive siden er som regel intakt — derav den hyppige frustrasjonen mellom å kunne og å få vist det.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> latskap eller manglende innsats.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> bare stygg håndskrift: den kliniske betegnelsen er utviklingsmessig koordinasjonsforstyrrelse, og den rammer motorisk planlegging og rekkefølge, ikke bare skriving.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det løses ikke</strong> med å «øve mer på skriften»: virksom hjelp er oppgaverettet, ikke mekanisk gjentakelse.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Tillat tastatur eller nettbrett ved lengre skriftlig arbeid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Reduser mekanisk avskrift fra tavla — gi ut notater der det er relevant.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Gi tydelige sjekklister for oppgaver med flere trinn.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vurder produktet etter innhold, ikke etter fysisk framtoning.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Forklar hva dyspraksi er i enkle ord, uten å regne med at ordet er kjent: «det er en nevrologisk vanske med å koordinere bevegelser, ikke slurv og ikke manglende innsats».",
+        "Uleselig håndskrift er det som skaper mest gnisning med foresatte — å vise at vurderingen nå teller innhold og ikke form, letter uroen på begge sider.",
+        "Foreslå praktiske verktøy hjemme: diktering på mobilen til notater, tastatur til lengre skriftlige arbeider.",
+        "Har eleven fått høre «hun er lat» eller «hun gidder ikke» tidligere år, si det rett ut: «jeg vet du har hørt dette før — jeg leser det annerledes».",
+      ]},
+      { items: [
+        "Fullstendig nekting av å skrive.",
+        "Sosial isolasjon i sammenhenger med fysisk aktivitet.",
+        "Tegn på kroppslig uttrykt angst før skriftlige prøver — psykososialt strev hører med til bildet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Overlapper ofte med ADHD og dysleksi; langsom og uryddig skriving kan skjule begge — eller bli skjult av dem. Å skille det motoriske fra det oppmerksomhetsmessige endrer tilpasningene: tastatur og utvidet tid hjelper på det motoriske, oppdelte beskjeder på oppmerksomheten.",
+      ]},
+    ],
+    },
+    autismo: { sections: [
+      { items: [
+        "Vansker med endringer som ikke er varslet — bytte av timeplan, rom eller vikar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Bokstavelig kommunikasjon — går glipp av nyanser, ironi og faste uttrykk.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Sensorisk følsomhet — lysrør, bakgrunnsstøy og merkelapper i klær kan være uutholdelige.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Dype, avgrensede interesser for bestemte emner — knyttet til en detaljorientert kognitiv stil.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Kan virke uinteressert eller fjern når hun er overbelastet, ikke fraværende.",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> en lineær skala («mer» eller «mindre» autistisk) — det er en flerdimensjonal profil med ulikt støttebehov på hvert område.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det er ikke</strong> mangel på empati: vanskene med gjensidig forståelse går begge veier — også ikke-autistiske strever med å lese autistiske («dobbeltempatiproblemet»).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> dårlig oppførsel når en rutine brytes — det er en reell nevrologisk reaksjon på tapt forutsigbarhet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Varsle enhver endring i rutinen på forhånd, også den som virker triviell — visuell støtte og forhåndsvarsling har empirisk belegg.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Gjør underforståtte sosiale regler til uttalte regler (hva man gjør, hva man ikke gjør, når).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Tillat sensoriske pauser i et stille rom ved behov.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Bruk den avgrensede interessen som inngang til fagstoffet — en styrke, ikke en distraksjon.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Finnes diagnosen alt, spør først hva foresatte vet virker — foreldre til autistiske barn vet ofte mer om barnet sitt enn noen rapport.",
+        "Finnes ingen diagnose, vær svært varsom: beskriv konkrete situasjoner uten å bruke ordet «autisme» i et første møte — «når rutinen endres uten varsel, blir hun ute av seg på en måte som går langt ut over det vanlige».",
+        "Anerkjenn innsatsen til foresatte — å skape struktur og forutsigbarhet hjemme er krevende, og å si det bygger allianse.",
+        "Sammenlign aldri med «andre elever» eller med søsken — hver profil i spekteret er forskjellig, og sammenligning slår alltid tilbake.",
+      ]},
+      { items: [
+        "Hyppige sammenbrudd («meltdowns») etter skoledagen.",
+        "Vedvarende skolevegring knyttet til sensorisk overbelastning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Økende sosial isolasjon tross forsøk på tilrettelegging.",
+      ]},
+      { items: [
+        "Kombinasjonen med stort læringspotensial — såkalt dobbelteksepsjonalitet — er lett å overse: evnene skjuler støttebehovet, og vanskene skjuler evnene. ADHD og angst opptrer også ofte sammen med autisme; svært ujevne prestasjoner mellom fag fortjener et dobbelt blikk.",
+      ]},
+    ],
+    },
+    sobredotacao: { sections: [
+      { items: [
+        "Blir ferdig på minutter mens klassen bruker hele timen.",
+        "Stiller spørsmål som går ut over emnet — eller utfordrer aktivt det som blir undervist.",
+        "Kan framstå som uinteressert, ufokusert eller likegyldig — ofte tegn på kronisk kjedsomhet og underyting.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Markert følelsesmessig følsomhet; kan være engstelig eller perfeksjonistisk — psykososiale faktorer er avgjørende for å utvikle talent.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Reell risiko for underyting — kan lære seg å skjule evnene for ikke å skille seg ut sosialt.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> det samme som god oppførsel eller gode karakterer — mange elever med stort læringspotensial presterer midt på treet fordi de kjeder seg.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det betyr ikke</strong> «trenger ingen hjelp»: eleven trenger andre utfordringer, for kapasitet blir bare til prestasjon når den utvikles bevisst.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Det utelukker ikke</strong> nevrodivergens — dobbelteksepsjonalitet finnes, er vanlig og blir ofte maskert.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Ha alltid utdypende oppgaver klare — ikke mer av det samme, men dypere eller anvendt stoff.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tillat selvstendig fordypning i emner eleven interesserer seg for, innenfor læreplanen.",
+        "Vurder etter utfordring, ikke etter hva som går lett — be om mer krevende arbeid mot mindre mengde.",
+        "Anerkjenn den følelsesmessige følsomheten uten å gjøre den til en diagnose.",
+      ]},
+      { items: [
+        "Møt stoltheten og vend den: «hun er åpenbart svært dyktig — og nettopp derfor skaper kjedsomheten problemer nå».",
+        "Forklar paradokset: gode karakterer betyr ikke at alt er bra, og underyting av kjedsomhet er vanlig og reversibel.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Skjuler eleven evnene for å passe inn sosialt, sett ord på det varsomt — det er et tegn på strev, ikke på beskjedenhet.",
+        "Foreslå at foresatte verdsetter prosessen framfor resultatet hjemme: nysgjerrighet, dybde og vanskelige spørsmål er mer verdt enn toppkarakterer på lette oppgaver.",
+      ]},
+      { items: [
+        "Tegn på angst eller depresjon knyttet til sterk perfeksjonisme.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Markert sosial isolasjon fordi eleven føler seg «annerledes» enn jevnaldrende.",
+        "Brått fall i prestasjonene hos en elev som tidligere ble regnet som dyktig.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Stort læringspotensial utelukker ikke behov: dobbelteksepsjonalitet (med autisme, ADHD eller dysleksi) er nettopp at begge deler finnes samtidig. Eleven kan kompensere i årevis og «se ut som» verken det ene eller det andre — middels karakterer med eksepsjonelt resonnement er et tegn, ikke en selvmotsigelse.",
+      ]},
+    ],
+    },
+    plnm: { sections: [
+      { items: [
+        "Forstår langt mindre enn det virker som — dagligspråket utvikles lenge før skolespråket, så eleven kan virke flytende uten å følge fagstoffet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tilsynelatende svake faglige prestasjoner, ofte i utakt med den reelle kapasiteten.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Stillhet i klasserommet — det kan være en normal «stille periode» i språktilegnelsen, ikke manglende interesse.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kan være helt utkjørt ved dagens slutt av å prosessere språket i sanntid.",
+        "Fare for at reelle behov (dysleksi, ADHD) ikke blir sett fordi alt tilskrives språkbarrieren.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> mangel på evner eller kapasitet.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det er ikke</strong> bare et spørsmål om tid: skolespråket tar år å utvikle, og uten uttalt støtte stanser mange elever på et lavt funksjonsnivå.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Det løses ikke</strong> med maskinoversettelse i timen — det er en prosess over år, og morsmålet er en ressurs, ikke et hinder.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Gi materiell der nøkkelord er oversatt til morsmålet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Vurder kunnskapen gjennom visuell eller praktisk demonstrasjon der det er mulig.",
+        "Sett eleven sammen med en tospråklig medelev for uformell støtte i kritiske øyeblikk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Godta de første tekstene med grammatiske feil — rett innholdet, ikke formen, i første fase.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Selve møtet er en barriere — foresatte behersker kanskje ikke opplæringsspråket godt nok til en sammensatt samtale. Forbered enkelt skriftlig materiell på forhånd, eller be om tolk.",
+        "Ikke gå ut fra at foresatte kjenner det norske skolesystemet — forklar hva PP-tjenesten er, hva et støttetiltak innebærer og hva en utredning betyr, uten å ta noe for gitt.",
+        "Skill tydelig språkbarriere fra faglig kapasitet: «datteren deres er dyktig — hun lærer språket samtidig som hun lærer fagstoffet, og det er svært krevende».<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vær var for migrasjonsbakgrunnen: familier på flukt eller uten avklart status kan være skeptiske til institusjoner. Bygg tillit før du ber om papirer eller henvisninger.",
+      ]},
+      { items: [
+        "Tegn på sosial isolasjon eller mobbing knyttet til det å være ny i landet.",
+        "Stans i språkutviklingen etter det første året.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tegn på traumer knyttet til migrasjonen (særlig hos flyktninger).",
+      ]},
+      { items: [
+        "Det er ikke en vanske, men språkbarrieren kan skjule — eller etterligne — dysleksi, ADHD eller dyskalkuli. Vedvarer vanskene også på morsmålet, eller bedres de ikke i takt med framgangen i norsk, er utredning berettiget framfor å vente videre.",
+      ]},
+    ],
+    },
+    etica: { sections: [
+      { items: [
+        "Opplysninger om barn har forsterket vern, og samtykke fra foresatte er påkrevd.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sjekk hvor verktøyet lagrer data — europeiske servere, servere utenfor Europa, anonymisert eller ikke.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skriv aldri inn fulle navn, adresser, fødselsnummer eller kliniske diagnoser i generativ KI.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Skill mellom institusjonell bruk (skolen inngår avtale) og lærerens private bruk (individuelt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Systemer trent på overveiende engelskspråklige data kan fungere svakere på norsk og i norsk sammenheng.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Automatiske anbefalinger kan forsterke stereotypier om kjønn, etnisitet eller klasse — sjekk dem kritisk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Modeller som «forutsier faglig risiko» er særlig problematiske — de gjengir ofte eksisterende ulikhet framfor å avdekke behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Målet er å øke elevens selvstendighet, ikke å erstatte det kognitive arbeidet som utvikler den.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Skill <strong>tilgangsverktøy</strong> (opplesning for en elev med dysleksi) fra <strong>erstatningsverktøy</strong> (en språkmodell som skriver stilen).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Vurder jevnlig: utvikler eleven kompetanse, eller utvikler hun avhengighet av verktøyet?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Fjerner verktøyet en reell hindring, eller lager det en snarvei som hopper over læringen?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Er opplysningene som legges inn beskyttet, og finnes samtykket?",
+        "<strong>3.</strong> Blir resultatet kontrollert av et menneske før det når eleven?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Finnes det et alternativ uten KI som fungerer like godt?",
+      ]},
+    ],
+    },
+    oficina: { sections: [
+      { items: [
+        "Sette kolleger i stand til å ta i bruk KI på en ansvarlig måte i fremmedspråkundervisningen, og lage materiell som kan tilpasses flere læringsprofiler.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Dette er ikke et foredrag — det er samskaping. Hver deltaker går ut med minst én ressurs klar til å prøves.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 min:</strong> Ramme — utfordringen med sammensatte klasser, og hvorfor mer av det samme ikke virker.",
+        "<strong>10–25 min:</strong> Profilkart — de seks Farol-kortene presenteres med reelle (anonymiserte) eksempler.",
+        "<strong>25–45 min:</strong> Praktisk demonstrasjon — tre verktøy, tre bruksområder, tre ulike profiler.",
+        "<strong>45–75 min:</strong> Pararbeid — hvert par tilpasser et eksisterende materiell til en bestemt profil.",
+        "<strong>75–85 min:</strong> Rask deling — hvert par viser sitt produkt på ett minutt.",
+        "<strong>85–90 min:</strong> Forpliktelser — hver deltaker velger ett materiell å prøve, og det settes en oppfølging om 30 dager.",
+      ]},
+      { items: [
+        "Internett-tilgang og institusjonelle kontoer i verktøyene som vises.",
+        "Deltakernes eget eksisterende materiell (et arbeidsark, en prøve eller en timeplan).",
+        "Utskrifter av Farol-profilkortene til oppslag.",
+      ]},
+      { items: [
+        "Hver deltaker lager minst ett tilpasset materiell i løpet av økta.",
+        "På oppfølgingen etter 30 dager melder minst 60 % av deltakerne at de faktisk har tatt det i bruk.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Minst ett materiell fra økta blir tatt inn som felles ressurs på trinnet eller i seksjonen.",
+      ]},
+    ],
+    },
+    legislacao: { sections: [
+      { items: [
+        "<strong>Opplæringslova</strong> (LOV-2023-06-09-30) ble vedtatt i juni 2023 og har gjeldt siden <strong>1. august 2024</strong>, og erstatter loven fra 1998.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Loven fjerner ordet <em>spesialundervisning</em> med hensikt: begrepet ble vurdert som stigmatiserende og som noe som bidrar til utestengning.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "I stedet står tre ting — <strong>individuelt tilrettelagt opplæring</strong>, <strong>fysisk tilrettelegging</strong> og <strong>personleg assistanse</strong>.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Kapittel 11 regulerer dette, og skriver for første gang mandatet til PP-tjenesten inn i loven selv.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<em>Tilpassa opplæring</em> — å tilpasse den ordinære undervisningen til elevene du har — er en allmenn plikt overfor hver elev. Det er ikke et tiltak, og det krever ikke vedtak.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ordinære grep som gruppeinndeling, oppdelte beskjeder, utvidet tid og muntlig framfor skriftlig krever verken sakkyndig vurdering eller enkeltvedtak.",
+        "En elev som ikke får tilfredsstillende utbytte av den ordinære opplæringen, har <strong>rett</strong> til individuelt tilrettelagt opplæring (§ 11-6). Det krever et formelt vedtak.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>PP-tjenesten</strong> (pedagogisk-psykologisk teneste, PPT) utarbeider den <em>sakkyndige vurderingen</em> som et vedtak må bygge på.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "PPT skal vurdere <strong>hele</strong> opplæringstilbudet til eleven, også behovet for fysisk tilrettelegging og personlig assistanse — ikke bare undervisningen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Verdt å vite: etter den nye loven veier kommunen og PPT tyngre i utformingen av tilbudet, og elev og foresatte mindre enn før.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Skolen utarbeider en <strong>individuell opplæringsplan</strong> (IOP) med mål, innhold og hvordan opplæringen skal gjennomføres; én gang i året skrives en oversikt over opplæringen eleven faktisk har fått, og en vurdering av utviklingen mot målene i planen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Norge har ingen egen lov om elever med stort læringspotensial; retten til tilpasset opplæring gjelder også dem, og loven åpner for at en elev kan ta fag på høyere trinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "NOU 2016:14 <em>Mer å hente</em> er det sentrale offentlige arbeidet på feltet og ligger til grunn for tiltakene som er satt i verk siden.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Elever fra språklige minoriteter har rett til <strong>særskilt språkopplæring</strong> til de har gode nok ferdigheter i norsk til å følge den ordinære opplæringen (§ 3-6).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Skolen skal <strong>kartlegge</strong> elevens norskferdigheter før vedtaket, og underveis, slik at læreren kan følge utviklingen og justere opplæringen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Opplæringen kan gis i et eget <strong>innføringstilbud</strong> eller som tilpasning innenfor den ordinære opplæringen.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Sentral lov: opplæringslova (2023), kapittel 11 — i kraft 1. august 2024.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Rett til individuelt tilrettelagt opplæring: § 11-6, på grunnlag av sakkyndig vurdering fra PPT.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Individuell plan: IOP, med skriftlig årlig oversikt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Språklige minoriteter: særskilt språkopplæring etter § 3-6, med kartlegging.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+    ],
+    references: [
+      "Lov om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova), LOV-2023-06-09-30, kapittel 11 — Lovdata. <a href=\"https://lovdata.no/lov/2023-06-09-30/%C2%A711-11\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+      "Tilpassa opplæring og individuell tilrettelegging, kap. 11 — Statsforvaltaren i Nordland. <a href=\"https://www.statsforvalteren.no/nordland/barnehage-og-opplaring/grunnskole-og-videregaende-opplaring/ny-opplaringslov-fra-1.-august/tilpassa-opplaring-og-individuell-tilrettelegging---kap.-11/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+      "A new education act in Norway: a redefinition of special education that nurtures inclusive education? <em>European Journal of Special Needs Education</em>. <a href=\"https://www.tandfonline.com/doi/full/10.1080/08856257.2026.2680568\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+      "NOU 2016:14 <em>Mer å hente — Bedre læring for elever med stort læringspotensial</em> — Regjeringen. <a href=\"https://www.regjeringen.no/no/dokumenter/nou-2016-14/id2511246/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+      "Særskilt språkopplæring for elever fra språklige minoriteter (§ 3-6) — Utdanningsdirektoratet. <a href=\"https://www.udir.no/regelverk-og-tilsyn/skole-og-opplaring/sarskilt-sprakopplaring/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+    ],
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Tilpasset opplæring er å justere måten det undervises på — ikke å senke forventningene. Læringsmålet kan være det samme for alle; det er veien dit som varierer.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "UDL-modellen (Universal Design for Learning) foreslår tre prinsipper: flere måter å presentere innholdet på, flere måter å handle og uttrykke seg på, og flere måter å engasjere seg på.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Å tilpasse er ikke å lage én plan per elev — det er å bygge nok fleksibilitet til at den samme timen treffer ulike profiler.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "<strong>Det er ikke</strong> å kutte i læreplanen for dem som strever mest.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> å gi ulike elever ulike oppgaver hele tiden — det isolerer og setter merkelapper.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Det er ikke</strong> bare differensiert arbeid på papir — det omfatter også hvordan læreren forklarer, spør og vurderer.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Styrt valg: tilby 2–3 svarformater (skriftlig, muntlig, skisse) — alle svarer på det samme innholdet.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Stillas: gi en strukturert mal til dem som strever mest, og trekk malen tilbake etter hvert som selvstendigheten vokser.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Fleksibel gruppering: grupper etter interesse, mestringsnivå eller blandet — roter, så faste grupper ikke blir identiteter.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Justering av tid: mer tid betyr ikke mindre krav. For elever med ADHD eller dyspraksi, del oppgaven i bolker med planlagte pauser.",
+        "Nivå av kompleksitet: lag versjoner av samme tema med mer eller mindre språklig støtte, med eller uten eksempler, med eller uten visuelle holdepunkter.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Vurder hva eleven kan, ikke hvordan hun skriver. En elev med dysleksi kan vise begrepsforståelse muntlig eller med teknisk støtte.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Tydelige kriterier som deles før oppgaven, gjør at eleven vet hva som forventes uansett hvilket format hun velger.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Mappe eller vurdering ut fra flere arbeider lar eleven vise framgang over tid, ikke bare i én prøvesituasjon.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Når tilpasningen i klasserommet ikke lenger strekker til og eleven fortsatt ikke får tilgang til læreplanen, er det et tegn på at det kan trengs spesialisert hjelp.",
+      ]},
+    ],
+    },
+    avaliacao: { sections: [
+      { items: [
+        "Underveisvurdering er enhver praksis som samler informasjon om læringen mens den pågår — og bruker informasjonen til å justere undervisningen eller støtten.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "I motsetning til sluttvurdering (karakterer) trenger underveisvurdering ikke å ha karakter — den må ha tilbakemelding.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "For nevrodivergente elever er underveisvurdering særlig viktig, fordi én enkelt prøve kan gi et skjevt bilde av hva de faktisk kan.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Utgangsbillett</strong>: på slutten av timen svarer eleven på ett spørsmål på to minutter — læreren ser straks hvem som har forstått og hvem som ikke har det.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Trafikklys</strong>: grønt (forstått), gult (usikker), rødt (ikke forstått) — kort, lapper eller digitalt.",
+        "<strong>Tenk–par–del</strong>: eleven tenker alene, drøfter med en medelev og deler så med klassen — det senker angsten for å svare direkte.",
+        "<strong>Ved døra</strong>: før eleven går, sier hun én ting hun har lært og ett spørsmål hun fortsatt sitter med.",
+      ]},
+      { items: [
+        "Virkningsfull tilbakemelding er konkret, handlingsrettet og kommer i tide: «på side 2 mister argumentet feste fordi koblingen til kilden mangler» er nyttig; «dette kunne vært bedre» er det ikke.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+        "For elever med ADHD er umiddelbar tilbakemelding mer virksom enn utsatt. Ikke vent til oppgaven er ferdig.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "For elever med dysleksi kan muntlig tilbakemelding eller lydopptak være mer tilgjengelig enn lange skriftlige kommentarer.",
+        "Unngå å sammenligne elever med hverandre — sammenlign eleven med hennes egen tidligere framgang.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "ADHD: vurdering i flere korte økter framfor én lang prøve. Reduser forstyrrende stimuli i prøvesituasjonen.",
+        "Dysleksi: tillat muntlige svar, utvidet tid eller opplesning. Vurder innholdet, ikke rettskrivingen.",
+        "Autisme: prøver med tydelige, entydige skriftlige instruksjoner. Varsle på forhånd om endringer i formatet.",
+        "Stort læringspotensial: unngå prøver som bare gjengir stoff — ta med oppgaver som krever analyse, syntese og skaping.",
+      ]},
+      { items: [
+        "Når eleven, selv med tilpasset vurdering, ikke får vist læringen sin, kan det være tegn på en dypere hindring som bør undersøkes med PP-tjenesten.",
+      ]},
+    ],
+    },
+  },
 };
