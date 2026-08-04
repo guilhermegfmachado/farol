@@ -9980,4 +9980,400 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
     ],
     },
   },
+  is: {
+    tdah: { sections: [
+      { items: [
+        "Á erfitt með að halda athygli í löngum verkefnum; týnir þræðinum í fyrirmælum með mörgum liðum.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Stöðug hreyfing — situr ekki kyrr, fiktar með höndunum, stendur upp án sýnilegrar ástæðu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Svarar áður en spurningunni lýkur; grípur fram í fyrir samnemendum og kennara.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Gleymir gögnum, skilafresti og fyrirmælum sem voru gefin munnlega fyrir örfáum mínútum — vinnsluminnið er yfirhlaðið.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Getur ofureinbeitt sér að því sem vekur áhuga, sem gefur ranga mynd af því að hún „geti þegar hún vill“; í raun sveiflast frammistaðan með áhuga og umbun.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> vöntun á uppeldi, leti eða skapgerðarbrestur: slíkar hugmyndir stimpla og tefja fyrir stuðningi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta er ekki</strong> alltaf sýnileg ofvirkni — til er einkum athyglisbrestsmynd, algengari hjá stúlkum og oft vangreind.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-5\">5</a></sup>",
+        "<strong>Þetta leysist ekki</strong> með því að „taka sig á“: vandinn liggur í taugafræðilegri sjálfstjórn, ekki í viljanum.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Skiptu fyrirmælunum upp: eitt í einu, skrifað á töfluna, með ákveðnum tíma — það léttir álagið á vinnsluminnið.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Leyfðu réttmæta hreyfingu (dreifa gögnum, þurrka af töflunni, fara með skilaboð).",
+        "Dragðu úr samkeppnisáreiti (sæti fjarri glugga, hurð og hávaðasamasta hópnum).",
+        "Tafarlaus og tíð jákvæð svörun: í ADHD er umbunarnæmið breytt (illa þolað að bíða), svo tafarlaus umbun virkar betur en frestuð.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Byrjaðu á því sem nemandinn gerir vel — opnist fundurinn á kvörtunarlista lokar forsjáraðilinn á umræðuna.",
+        "Lýstu hegðun sem þú sérð, ekki greiningum: „þegar liðirnir eru fleiri en tveir í röð týnir hún þræðinum“ frekar en „hún er með ADHD“.",
+        "Búðu þig undir „svona er þetta ekki heima“ — útskýrðu að hópaðstæður og krafan um langvarandi athygli í stofunni geri einkennin sýnilegri.",
+        "Leggirðu til athugun, kynntu hana sem úrræði en ekki refsingu: „það er til stuðningur sem gæti hjálpað henni mikið“ frekar en „hún þarf að fara í greiningu“.",
+      ]},
+      { items: [
+        "Viðvarandi agamál þrátt fyrir aðlaganir í stofunni.",
+        "Merki um að samnemendur útiloki hana.",
+        "Merki um fylgiraskanir (kvíða, þunglyndi, mótþróa) — algengar með ADHD og ástæða til að vísa áfram.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "ADHD kemur sjaldan eitt: því fylgja oft námsraskanir, þar á meðal lestrarvandi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Í reynd: þegar aðlaganir vegna athygli duga ekki, leitaðu að sértæku mynstri í lestri eða reikningi áður en þú ályktar að um „áhugaleysi“ sé að ræða.",
+      ]},
+    ],
+    },
+    dislexia: { sections: [
+      { items: [
+        "Les hægt og með erfiðismunum, með villum í stökum orðum, líka í texta sem hún skilur vel þegar hann er lesinn upp.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Speglun stafa (b/d, p/q) er algeng hjá öllum sem eru að byrja að skrifa og er ekki ein og sér merki um lesblindu; kjarnavandinn er <strong>hljóðkerfislegur</strong> — að tengja staf við hljóð.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Viðvarandi stafsetningarvillur sem lagast ekki við endurteknar leiðréttingar.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Forðast yfirleitt að lesa upphátt; það sem lítur út eins og áhugaleysi er oftast varnarviðbragð.",
+        "Hlustunarskilningur er greinilega betri en lesskilningur — vandinn er sértækur, ekki almenn vitsmunaleg takmörkun.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> greindarskortur: samkvæmt skilgreiningu er lesblinda óvænt miðað við aðra vitsmunagetu nemandans.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Þetta er ekki</strong> sjónvandi og ekki bara „að rugla stöfum“: kjarnaskerðingin er í hljóðkerfisúrvinnslu.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta „læknast“ ekki</strong>, en skipulögð vinna með hljóðkerfisvitund og umskráningu bætir lesturinn stöðugt.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Aukðu bil milli stafa og lína: tilraunir sýna að aukið bil bætir lestur barna með lesblindu, án nokkurrar undanfarandi þjálfunar.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup> Gögn um sérstök „lesblinduletur“ eru hins vegar veikari og ósamhljóða.",
+        "Leyfðu hljóðlestur áður en lesið er upphátt — biddu aldrei um upplestur fyrirvaralaust.",
+        "Þegar markmiðið er ekki að meta ritun skal meta innihaldið óháð stafsetningu.",
+        "Bjóddu sömu upplýsingar á fleiri sniðum (hljóð, myndband, skýringarmyndir).",
+      ]},
+      { items: [
+        "Aðskildu lestur og greind strax í upphafi: „hún skilur mjög vel þegar hún heyrir það — vandinn snýr að lestrinum“.",
+        "Hafðu í huga að lesblinda er að stórum hluta arfgeng: annað foreldrið kann að vera með ógreinda lesblindu, og samtalið getur vakið erfiðar minningar úr eigin skólagöngu.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Forðastu að leggja fram blöð full af rauðum leiðréttingum án samhengis — sýndu fyrst það sem nemandinn ræður þegar við.",
+        "Vertu áþreifanleg um aðlaganir sem þegar eru í gangi og um það sem heimilið getur gert: texta sem hljóð, upplestur án tímapressu.",
+      ]},
+      { items: [
+        "Versnandi sjálfsmynd í námi („ég er heimsk“, „ég get þetta ekki“).",
+        "Kerfisbundin forðun frá lestrar- og ritunarverkefnum í þeim mæli að það bitni á öðrum greinum.",
+        "Áberandi munur á munnlegri og skriflegri frammistöðu án formlegs mats — vísaðu í skólaþjónustuna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Kemur oft fram samhliða ADHD, reiknblindu og hreyfiþroskaröskun — námsraskanir koma sjaldan einar. Nái vandinn greinilega út fyrir lestur og ritun (athygli, reikning, samhæfingu), víkkaðu athugunina frekar en að eigna lesblindunni allt.",
+      ]},
+    ],
+    },
+    discalculia: { sections: [
+      { items: [
+        "Viðvarandi vandi með talnaskyn: bera saman magn, áætla niðurstöður, sjá án þess að telja að 9 sé stærra en 7.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Telur á fingrum löngu eftir að samnemendur hafa sjálfvirknivætt einfaldan hugarreikning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Man ekki talnastaðreyndir (margföldunartöfluna) þrátt fyrir endurtekna æfingu — hver útreikningur byrjar upp á nýtt.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Týnir sér í dæmum með mörgum þrepum, líka þegar hugtakið er á hreinu; víxlar eða gleymir milliþrepum.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Frammistaða í stærðfræði er greinilega undir því sem málskilningur og aðrar greinar gæfu tilefni til.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> að „vera léleg í stærðfræði“ eða að æfa sig ekki: þetta er sértæk námsröskun með taugalíffræðilegan grunn, rétt eins og lesblinda er það fyrir lestur.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "<strong>Þetta er ekki</strong> stærðfræðikvíði, þótt hvort tveggja nærist á hinu: kvíði versnar frammistöðuna, en reiknblinda er til óháð honum.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta hverfur ekki</strong> við fleiri eins dæmi: það batnar við skýra og skipulagða vinnu með talnaskyn, ekki við að endurtaka það sem þegar hefur brugðist.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Hafðu áþreifanleg gögn og myndrænar framsetningar (talnalínu, kubba, skýringarmyndir) aðgengileg án stimplunar — leiðin frá hinu áþreifanlega til hins óhlutbundna er farin í skýrum þrepum.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Leyfðu töflu yfir talnastaðreyndir eða reiknivél þegar verkefnið snýst ekki um reikninginn — metðu röksemdafærsluna óháð talnameðferðinni.",
+        "Dragðu úr magninu: færri, vel valin dæmi með rýmri tíma — hraði er ekki markmiðið.",
+        "Segðu þrepin upphátt og hafðu leyst dæmi sýnilegt meðan unnið er — skýr kennsla með fyrirmynd.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Aðskildu stærðfræði og greind frá byrjun: „röksemdafærslan er í fullkomnu lagi — vandinn snýr að tölunum“.",
+        "Útskýrðu að stuðningur á borð við reiknivél eða prentaða margföldunartöflu sé ekki „að gera þetta auðvelt“: það samsvarar gleraugum fyrir þann sem sér ekki langt.",
+        "Leggðu til stuttar og áþreifanlegar æfingar heima (borðspil með teningum, alvöru peninga í búðinni) frekar en lista af eins dæmum.",
+        "Hafðu í huga að reiknblinda er arfgeng og mun síður þekkt en lesblinda: forsjáraðilinn hefur kannski aldrei heyrt orðið — að nefna mynstrið hjálpar.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Versnandi sjálfsmynd sem tengist stærðfræði sérstaklega („ég er heimsk í tölum“).",
+        "Forðun eða neitun á verkefnum með tölum í þeim mæli að það ógni skólagöngunni.",
+        "Viðvarandi munur á almennri röksemdafærslu og frammistöðu í stærðfræði án formlegs mats — vísaðu í skólaþjónustuna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Skarast oft við lesblindu — hljóðkerfis- og talnaskerðingin fara saman — og við ADHD, þar sem yfirhlaðið vinnsluminni versnar reikninginn. Bregðist bæði lestur og tölur, þurfa aðlaganirnar að ná yfir hvort tveggja en ekki velja annað.",
+      ]},
+    ],
+    },
+    dispraxia: { sections: [
+      { items: [
+        "Rithöndin er þung, hæg og oft torlæs — vegna raunverulegs hreyfivanda, ekki kæruleysis.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Á erfitt með að skipuleggja síðuna í stílabókinni, halda utan um gögn og fylgja röð þrepa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Getur virst „klaufsk“ — hellir niður, rekst í húsgögn, á erfitt í leikfimi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Óhóflega þreytt eftir verkefni sem krefjast viðvarandi fínhreyfinga.",
+        "Vitsmunalega hliðin er yfirleitt óskert — þaðan kemur tíð gremja milli þess að kunna og að fá sýnt það.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> leti eða áhugaleysi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Þetta er ekki</strong> bara ljót rithönd: klíníska heitið er röskun á samhæfingu hreyfinga, og hún hefur áhrif á skipulagningu og röðun hreyfinga, ekki aðeins skrift.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta leysist ekki</strong> með því að „æfa skriftina meira“: áhrifarík íhlutun er verkefnamiðuð, ekki vélræn endurtekning.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Leyfðu lyklaborð eða spjaldtölvu í lengri skriflegum verkefnum.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Dragðu úr vélrænni afritun af töflunni — láttu glósur í té þegar það á við.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Gefðu skýra gátlista fyrir verkefni með mörgum þrepum.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Metðu afurðina eftir innihaldi, ekki eftir útliti.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Útskýrðu hvað hreyfiþroskaröskun er á einföldu máli, án þess að gera ráð fyrir að heitið sé þekkt: „þetta er taugafræðilegur vandi við að samhæfa hreyfingar, ekki kæruleysi og ekki áhugaleysi“.",
+        "Torlæs rithönd veldur mestum núningi við forsjáraðila — að sýna að námsmatið meti nú innihald en ekki form dregur úr kvíða beggja vegna.",
+        "Leggðu til hagnýt verkfæri heima: talinnslátt í símanum fyrir glósur, lyklaborð fyrir lengri skrifleg verkefni.",
+        "Hafi nemandinn áður fengið að heyra „hún er löt“ eða „hún nennir þessu ekki“, nefndu það beint: „ég veit að þú hefur heyrt þetta áður — ég les þetta öðruvísi“.",
+      ]},
+      { items: [
+        "Algjör neitun á að skrifa.",
+        "Félagsleg einangrun í aðstæðum með líkamlegri hreyfingu.",
+        "Merki um líkamlega tjáðan kvíða fyrir skrifleg próf — sálfélagsleg vanlíðan er hluti myndarinnar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Skarast oft við ADHD og lesblindu; hæg og óskipuleg skrift getur hulið hvort tveggja — eða verið hulin af því. Að greina hið hreyfilega frá hinu athyglistengda breytir aðlögununum: lyklaborð og rýmri tími hjálpa hreyfihliðinni, skipt fyrirmæli athyglinni.",
+      ]},
+    ],
+    },
+    autismo: { sections: [
+      { items: [
+        "Á erfitt með óboðaðar breytingar — breytta stundaskrá, aðra stofu, forfallakennara.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skilur orð bókstaflega — missir af blæbrigðum, kaldhæðni og orðatiltækjum.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Skynnæmi — flúrljós, bakgrunnshávaði og merkimiðar í fötum geta verið óbærileg.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Djúpur og afmarkaður áhugi á tilteknum efnum — tengist smáatriðamiðuðum hugsunarhætti.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Getur virst áhugalaus eða fjarlæg þegar hún er yfirhlaðin, ekki afskiptalaus.",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> línulegur kvarði („meira“ eða „minna“ einhverf) — þetta er margvíð svipmynd með ólíkri stuðningsþörf á hverju sviði.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Þetta er ekki</strong> skortur á samkennd: erfiðleikar við gagnkvæman skilning ganga í báðar áttir — þeir sem ekki eru einhverfir eiga líka erfitt með að lesa einhverfa („tvöfaldi samkenndarvandinn“).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta er ekki</strong> óþekkt þegar rútína brotnar — það er raunverulegt taugaviðbragð við töpuðum fyrirsjáanleika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Boðaðu allar breytingar á rútínu fyrirfram, líka þær sem virðast smávægilegar — myndrænn stuðningur og fyrirvari eiga sér reynslugrunn.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Gerðu ósagðar félagslegar reglur að skýrum reglum (hvað er gert, hvað ekki, hvenær).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Leyfðu skynhlé í rólegu rými þegar þess þarf.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Notaðu afmarkaða áhugann sem inngang að námsefninu — styrkur, ekki truflun.<sup class=\"cite\"><a href=\"#ref-4\">4</a>,<a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "Liggi greiningin fyrir, spurðu fyrst hvað forsjáraðilinn veit að virkar — foreldrar einhverfra barna vita oft meira um barnið sitt en nokkur skýrsla.",
+        "Liggi engin greining fyrir, farðu mjög varlega: lýstu áþreifanlegum aðstæðum án þess að nota orðið „einhverfa“ á fyrsta fundi — „þegar rútínan breytist fyrirvaralaust verður hún í uppnámi langt umfram það sem venjulegt er“.",
+        "Viðurkenndu vinnu forsjáraðilans — að skapa festu og fyrirsjáanleika heima er krefjandi, og að segja það byggir bandalag.",
+        "Berðu aldrei saman við „aðra nemendur“ eða systkini — hver svipmynd á rófinu er ólík og samanburður snýst alltaf í andhverfu sína.",
+      ]},
+      { items: [
+        "Tíð uppnám („meltdowns“) eftir skóladaginn.",
+        "Viðvarandi skólaforðun sem tengist skynrænni yfirhleðslu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vaxandi félagsleg einangrun þrátt fyrir tilraunir til að miðla málum.",
+      ]},
+      { items: [
+        "Samsetningin við mikla námsgetu — tvöföld sérstaða — er auðvelt að missa af: getan hylur stuðningsþörfina og vandinn hylur getuna. ADHD og kvíði fylgja líka oft; mjög ójöfn frammistaða milli greina á skilið tvöfalt augnaráð.",
+      ]},
+    ],
+    },
+    sobredotacao: { sections: [
+      { items: [
+        "Klárar verkefnin á nokkrum mínútum meðan bekkurinn notar alla kennslustundina.",
+        "Spyr spurninga sem ná út fyrir efnið — eða dregur virkt í efa það sem verið er að kenna.",
+        "Getur virst áhugalaus, óþæg eða sinnulaus — oft merki um langvarandi leiða og vangetu til að sýna getu sína.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Áberandi tilfinninganæmi; getur verið kvíðin eða fullkomnunarsinnuð — sálfélagslegir þættir ráða miklu um þroska hæfileika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Raunveruleg hætta á að sýna minna en hún getur — getur lært að fela getuna til að skera sig ekki úr félagslega.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> sama og góð hegðun eða góðar einkunnir — margir bráðgerir nemendur skila meðalárangri vegna leiða.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Þetta þýðir ekki</strong> „þarf enga hjálp“: nemandinn þarf aðrar áskoranir, því geta verður aðeins að árangri þegar hún er þroskuð markvisst.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Þetta útilokar ekki</strong> taugafjölbreytni — tvöföld sérstaða er til, er algeng og er oft hulin.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Hafðu alltaf dýpkandi verkefni tilbúin — ekki meira af því sama, heldur dýpra eða hagnýtt efni.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Leyfðu sjálfstæða rannsókn á efni sem nemandinn hefur áhuga á, innan námskrárinnar.",
+        "Metðu eftir áskorun en ekki eftir því sem gengur létt — biddu um meira krefjandi vinnu gegn minna magni.",
+        "Viðurkenndu tilfinninganæmið án þess að gera úr því röskun.",
+      ]},
+      { items: [
+        "Mættu stoltinu og beindu því: „hún er augljóslega mjög fær — og einmitt þess vegna er leiðinn farinn að skapa vanda“.",
+        "Útskýrðu þversögnina: góðar einkunnir þýða ekki að allt sé í lagi, og vangeta til að sýna getu vegna leiða er algeng og afturkræf.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Feli nemandinn getuna til að falla í hópinn, nefndu það varlega — það er merki um vanlíðan, ekki hógværð.",
+        "Leggðu til að heimilið meti ferlið frekar en útkomuna: forvitni, dýpt og erfiðar spurningar eru meira virði en háar einkunnir í léttum verkefnum.",
+      ]},
+      { items: [
+        "Merki um kvíða eða þunglyndi tengd mikilli fullkomnunaráráttu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Áberandi félagsleg einangrun vegna þess að nemandinn upplifir sig „öðruvísi“ en jafnaldrar.",
+        "Snöggt fall í námsárangri hjá nemanda sem áður þótti fær.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Mikil námsgeta útilokar ekki þarfir: tvöföld sérstaða (með einhverfu, ADHD eða lesblindu) er einmitt það að hvort tveggja er til staðar. Nemandinn getur bætt sér það upp árum saman og „virst“ hvorugt — meðaleinkunnir með framúrskarandi röksemdafærslu eru vísbending, ekki mótsögn.",
+      ]},
+    ],
+    },
+    plnm: { sections: [
+      { items: [
+        "Skilur mun minna en virðist — talmálið þroskast löngu á undan námsmálinu, svo nemandinn getur virst reiprennandi án þess að fylgja efninu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Að því er virðist slakur námsárangur, oft í ósamræmi við raunverulega getu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Þögn í stofunni — það getur verið eðlilegt „þögult tímabil“ í máltöku, ekki áhugaleysi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Getur verið örmagna í lok dags af því að vinna úr málinu í rauntíma.",
+        "Hætta á að raunverulegar þarfir (lesblinda, ADHD) séu vangreindar af því að öllu er eignað tungumálahindruninni.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> skortur á greind eða getu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Þetta er ekki</strong> bara spurning um tíma: námsmálið tekur ár að þroskast og án skýrs stuðnings staðnæmast margir nemendur á lágu færnistigi.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>Þetta leysist ekki</strong> með vélþýðingu í tíma — þetta er margra ára ferli, og móðurmálið er auðlind en ekki hindrun.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Láttu í té efni þar sem lykilorð eru þýdd á móðurmálið.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Metðu þekkinguna með myndrænni eða verklegri sýningu þegar hægt er.",
+        "Paraðu nemandann við tvítyngdan samnemanda til óformlegrar aðstoðar á lykilstundum.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Taktu við fyrstu textum með málfræðivillum — leiðréttu innihaldið en ekki formið á fyrsta stigi.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Fundurinn sjálfur er hindrun — forsjáraðilinn kann ekki endilega kennslumálið nógu vel fyrir flókið samtal. Undirbúðu einfalt skriflegt efni fyrirfram, eða biddu um túlk.",
+        "Gerðu ekki ráð fyrir að forsjáraðilinn þekki íslenska skólakerfið — útskýrðu hvað skólaþjónustan er, hvað stuðningsúrræði felur í sér og hvað mat þýðir, án þess að taka neitt sem gefið.",
+        "Aðskildu skýrt tungumálahindrun og námsgetu: „dóttir ykkar er fær — hún er að læra málið á sama tíma og hún lærir námsefnið, sem er mjög krefjandi“.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Vertu næm á aðstæður innflytjenda: fjölskyldur á flótta eða án skýrrar stöðu geta borið vantraust til stofnana. Byggðu traust áður en þú biður um gögn eða tilvísanir.",
+      ]},
+      { items: [
+        "Merki um félagslega einangrun eða einelti tengd því að vera nýr í landinu.",
+        "Stöðnun í máltöku eftir fyrsta árið.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Merki um áföll tengd flutningnum (einkum hjá flóttafólki).",
+      ]},
+      { items: [
+        "Þetta er ekki röskun, en tungumálahindrunin getur hulið — eða líkt eftir — lesblindu, ADHD eða reiknblindu. Haldi vandinn áfram líka á móðurmálinu, eða batni hann ekki í takt við framfarir í íslensku, er mat réttlætanlegt frekar en að bíða lengur.",
+      ]},
+    ],
+    },
+    etica: { sections: [
+      { items: [
+        "Upplýsingar um börn njóta aukinnar verndar og samþykki forsjáraðila er skilyrði.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Kannaðu hvar verkfærið geymir gögnin — evrópskir netþjónar, netþjónar utan Evrópu, ópersónugreind eða ekki.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Sláðu aldrei inn full nöfn, heimilisföng, kennitölur eða klínískar greiningar í mállíkön.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Aðgreindu notkun á vegum stofnunar (skólinn gerir samning) frá einkanotkun kennarans (ábyrgð einstaklings).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Kerfi sem þjálfuð eru á aðallega enskum gögnum geta staðið sig verr á íslensku og í íslensku samhengi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sjálfvirkar tillögur geta magnað staðalmyndir um kyn, uppruna eða stétt — kannaðu þær með gagnrýnu auga.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Líkön sem „spá fyrir um námsáhættu“ eru sérstaklega varhugaverð — þau endurtaka oft ríkjandi ójöfnuð í stað þess að greina þarfir.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Markmiðið er að auka sjálfstæði nemandans, ekki að leysa af hólmi þá vitsmunavinnu sem þroskar það.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Aðgreindu <strong>aðgengisverkfæri</strong> (upplestur fyrir nemanda með lesblindu) frá <strong>staðgengilsverkfæri</strong> (mállíkan sem skrifar ritgerðina).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Metðu reglulega: er nemandinn að þroska færni, eða er hún að þroska ósjálfstæði gagnvart verkfærinu?<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+      { items: [
+        "<strong>1.</strong> Ryður verkfærið raunverulegri hindrun úr vegi, eða býr það til skammleið sem sneiðir hjá náminu?<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>2.</strong> Eru gögnin sem slegin eru inn varin, og liggur samþykki fyrir?",
+        "<strong>3.</strong> Verður niðurstaða verkfærisins yfirfarin af manneskju áður en hún nær til nemandans?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "<strong>4.</strong> Er til valkostur án gervigreindar sem virkar jafn vel?",
+      ]},
+    ],
+    },
+    oficina: { sections: [
+      { items: [
+        "Að gera samstarfsfólk fært um að nota gervigreind á ábyrgan hátt í tungumálakennslu og búa til efni sem laga má að ólíkum svipmyndum.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Þetta er ekki fyrirlestur — þetta er samsköpun. Hver þátttakandi fer út með að minnsta kosti eitt tilbúið efni til að prófa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>0–10 mín:</strong> Rammi — áskorunin við fjölbreytta bekki og af hverju meira af því sama dugar ekki.",
+        "<strong>10–25 mín:</strong> Svipmyndakort — spjöldin sex kynnt með raunverulegum (ópersónugreindum) dæmum.",
+        "<strong>25–45 mín:</strong> Verkleg sýning — þrjú verkfæri, þrjú notkunardæmi, þrjár ólíkar svipmyndir.",
+        "<strong>45–75 mín:</strong> Paravinna — hvert par lagar fyrirliggjandi efni að tiltekinni svipmynd.",
+        "<strong>75–85 mín:</strong> Snögg deiling — hvert par sýnir afurð sína á einni mínútu.",
+        "<strong>85–90 mín:</strong> Skuldbindingar — hver þátttakandi velur eitt efni til að prófa og fundur til endurgjafar er settur eftir 30 daga.",
+      ]},
+      { items: [
+        "Nettenging og aðgangar á vegum skólans að verkfærunum sem sýnd eru.",
+        "Fyrirliggjandi efni hvers þátttakanda (verkefnablað, próf eða kennsluáætlun).",
+        "Útprentuð Farol-svipmyndaspjöld til uppflettingar.",
+      ]},
+      { items: [
+        "Hver þátttakandi býr til að minnsta kosti eitt aðlagað efni á fundinum.",
+        "Á fundi eftir 30 daga segjast að minnsta kosti 60 % þátttakenda hafa notað það í raun.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Að minnsta kosti eitt efni frá fundinum er tekið upp sem sameiginlegt efni deildarinnar.",
+      ]},
+    ],
+    },
+    legislacao: { sections: [
+      { items: [
+        "<strong>Lög um grunnskóla nr. 91/2008</strong> gera skólaskyldu að reglu frá sex til sextán ára aldurs og setja skóla án aðgreiningar sem umgjörð.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Reglugerð nr. 585/2010</strong> um nemendur með sérþarfir í grunnskóla á við nemendur sem þurfa sérstakan stuðning samkvæmt mati á stuðningsþörf; yfirlýst markmið hennar er jafnrétti til náms.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Nemendur sem eiga erfitt með nám vegna sértækra námsörðugleika, tilfinninga- eða félagslegra erfiðleika og/eða fötlunar — þar á meðal nemendur með lesblindu og langveikir nemendur — eiga rétt á sérstökum stuðningi í samræmi við metna þörf.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "<strong>Skóli án aðgreiningar</strong> er leiðarstefið á öllum skólastigum, frá leikskóla til framhaldsskóla.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Almenn aðlögun kennslunnar — sætaskipan, skipt fyrirmæli, rýmri tími, munnlegt í stað skriflegs — krefst hvorki formlegs mats né ákvörðunar.",
+        "Stefnan snýr að þörfum hvers nemanda <strong>án þess að skilgreina þau sem þurfa stuðning sem annars konar nemendur</strong>.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Spurningunni hefur verið snúið við með tímanum: það er ekki lengur þátttakan sem þarf að réttlæta, heldur ákvörðunin um að íhuga aðgreint úrræði.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+      ]},
+      { items: [
+        "Samkvæmt reglugerð nr. 585/2010 gerir <strong>sérkennarinn</strong> einstaklingsnámskrána og skipuleggur kennsluna <strong>í samvinnu við forsjáraðila</strong>.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Áætlanir eru endurskoðaðar að minnsta kosti árlega.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Þetta gildir á leikskóla-, grunnskóla- og framhaldsskólastigi og í sérdeildum innan skóla.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Greining er í höndum fagfólks með réttindi, ekki skólans; hlutverk kennarans er að fylgjast með og vísa áfram.",
+      ]},
+      { items: [
+        "Ísland hefur engin sérlög um bráðgera nemendur; rétturinn til náms við hæfi nær til þeirra eins og annarra.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Á unglingastigi velja nemendur sjálfir námsgreinar og námssvið fyrir allt að fimmtungi námstímans samkvæmt nánari útfærslu í aðalnámskrá — helsti sveigjanleikinn sem lögin bjóða.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Nemendur með annað móðurmál en íslensku eiga rétt á <strong>kennslu í íslensku sem öðru máli</strong>; markmiðið er virkt tvítyngi og að þeir geti stundað nám í grunnskóla og tekið virkan þátt í íslensku samfélagi (16. gr.).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skólinn tekur á móti nemendum samkvæmt <strong>móttökuáætlun</strong> skólans eða sveitarfélagsins, sem taka skal mið af bakgrunni þeirra, stuðningsþörf, málfærni og færni á öðrum námssviðum.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Forsjáraðilar með annað móðurmál en íslensku eiga rétt á upplýsingum um skólagöngu barnsins og skulu upplýstir um rétt sinn til túlkaþjónustu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "Meginlög: lög um grunnskóla nr. 91/2008; reglugerð nr. 585/2010.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>",
+        "Einstaklingsnámskrá: gerð af sérkennara með forsjáraðilum, endurskoðuð árlega.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Íslenska sem annað mál: 16. gr., ásamt móttökuáætlun og rétti til túlks.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Þvert á þjónustukerfi: farsældarlög nr. 86/2021, með tengilið fyrir hvert barn.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+      ]},
+    ],
+    references: [
+      "Lög um grunnskóla nr. 91/2008 — Alþingi. <a href=\"https://www.althingi.is/lagas/nuna/2008091.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+      "Reglugerð nr. 585/2010 um nemendur með sérþarfir í grunnskóla. <a href=\"https://island.is/reglugerdir/nr/0585-2010\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+      "Ísland: löggjöf og stefna — European Agency for Special Needs and Inclusive Education. <a href=\"https://www.european-agency.org/country-information/iceland/legislation-and-policy\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+      "Ísland: stuðningskerfi og sérhæfð þjónusta — European Agency for Special Needs and Inclusive Education. <a href=\"https://www.european-agency.org/country-information/iceland/systems-of-support-and-specialist-provision\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+      "Lög nr. 86/2021 um samþættingu þjónustu í þágu farsældar barna — OECD-umfjöllun. <a href=\"https://www.oecd.org/en/publications/well-being-knowledge-exchange-platform-kep_93d45d63-en/iceland-s-act-on-the-integration-of-services-in-the-interest-of-children-s-prosperity-prosperity-act_63070721-en.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+    ],
+    },
+    diferenciacao: { sections: [
+      { items: [
+        "Einstaklingsmiðun er að laga það hvernig kennt er — ekki að lækka væntingar. Námsmarkmiðið getur verið það sama fyrir alla; það er leiðin þangað sem er breytileg.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "UDL-líkanið (Universal Design for Learning) setur fram þrjár meginreglur: fleiri leiðir til að setja efnið fram, fleiri leiðir til að bregðast við og tjá sig, og fleiri leiðir til þátttöku.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Að einstaklingsmiða er ekki að gera eina kennsluáætlun á hvern nemanda — það er að byggja nægan sveigjanleika til að sama kennslustundin nái til ólíkra svipmynda.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "<strong>Þetta er ekki</strong> að skera niður námskrána fyrir þau sem eiga erfiðast.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta er ekki</strong> að gefa ólíkum nemendum ólík verkefni öllum stundum — það einangrar og stimplar.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Þetta er ekki</strong> bara aðgreind verkefni á blaði — það nær líka til þess hvernig kennarinn útskýrir, spyr og metur.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Stýrt val: bjóddu 2–3 svarform (skriflegt, munnlegt, skýringarmynd) — öll svara sama efninu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Stoðgrind: gefðu skipulagt sniðmát þeim sem eiga erfiðast, og dragðu það til baka eftir því sem sjálfstæðið vex.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Sveigjanleg hópaskipting: hópar eftir áhuga, færnistigi eða blandaðir — skiptu reglulega svo fastir hópar verði ekki að sjálfsmynd.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Tímastilling: meiri tími þýðir ekki minni kröfur. Fyrir nemendur með ADHD eða hreyfiþroskaröskun skaltu skipta verkefninu í lotur með skipulögðum hléum.",
+        "Þyngdarstig: búðu til útgáfur af sama efni með meiri eða minni málstuðningi, með eða án dæma, með eða án myndrænna vísbendinga.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+      ]},
+      { items: [
+        "Metðu hvað nemandinn kann, ekki hvernig hún skrifar. Nemandi með lesblindu getur sýnt hugtakaskilning munnlega eða með tæknistuðningi.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Skýr viðmið sem deilt er fyrir verkefnið gera nemandanum kleift að vita hvað er ætlast til, óháð því formi sem hún velur.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ferilmappa eða mat út frá mörgum verkum leyfir nemandanum að sýna framfarir yfir tíma, ekki bara á einni próstund.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "Þegar einstaklingsmiðun í stofunni dugar ekki lengur og nemandinn kemst enn ekki að námskránni, er það merki um að sérhæfðs stuðnings kunni að þurfa.",
+      ]},
+    ],
+    },
+    avaliacao: { sections: [
+      { items: [
+        "Leiðsagnarmat er hver sú aðferð sem safnar upplýsingum um námið meðan það stendur yfir — og nýtir þær til að laga kennsluna eða stuðninginn.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ólíkt lokamati (einkunnum) þarf leiðsagnarmat ekki að hafa einkunn — það þarf að hafa endurgjöf.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Fyrir taugafjölbreytta nemendur skiptir leiðsagnarmat sérstöku máli, því frammistaða á einu prófi getur gefið skakka mynd af því sem þau kunna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+      ]},
+      { items: [
+        "<strong>Útgöngumiði</strong>: í lok tímans svarar nemandinn einni spurningu á tveimur mínútum — kennarinn sér strax hver skildi og hver ekki.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "<strong>Umferðarljós</strong>: grænt (skildi), gult (óviss), rautt (skildi ekki) — spjöld, límmiðar eða stafrænt.",
+        "<strong>Hugsa–para–deila</strong>: nemandinn hugsar ein, ræðir við sessunaut og deilir svo með bekknum — það dregur úr kvíða við að svara beint.",
+        "<strong>Við dyrnar</strong>: áður en nemandinn fer segir hún eitt sem hún lærði og eina spurningu sem hún situr enn með.",
+      ]},
+      { items: [
+        "Áhrifarík endurgjöf er nákvæm, framkvæmanleg og kemur í tæka tíð: „á blaðsíðu 2 missir röksemdin fótanna af því að tenginguna við heimildina vantar“ er gagnlegt; „þetta hefði mátt vera betra“ er það ekki.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-4\">4</a></sup>",
+        "Fyrir nemendur með ADHD er tafarlaus endurgjöf áhrifaríkari en frestuð. Ekki bíða þar til verkefninu lýkur.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Fyrir nemendur með lesblindu getur munnleg endurgjöf eða hljóðupptaka verið aðgengilegri en langar skriflegar athugasemdir.",
+        "Forðastu að bera nemendur saman innbyrðis — berðu nemandann saman við eigin fyrri framfarir.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+      ]},
+      { items: [
+        "ADHD: mat í mörgum stuttum lotum frekar en einu löngu prófi. Dragðu úr truflandi áreiti í prófaðstæðum.",
+        "Lesblinda: leyfðu munnleg svör, rýmri tíma eða upplestur. Metðu innihaldið, ekki stafsetninguna.",
+        "Einhverfa: próf með skýrum og ótvíræðum skriflegum fyrirmælum. Boðaðu breytingar á forminu fyrirfram.",
+        "Bráðger nemandi: forðastu próf sem einungis endurtaka efnið — taktu með verkefni sem krefjast greiningar, samþættingar og sköpunar.",
+      ]},
+      { items: [
+        "Þegar nemandinn, jafnvel með aðlöguðu námsmati, nær ekki að sýna nám sitt, getur það verið merki um dýpri hindrun sem skoða þarf með skólaþjónustunni.",
+      ]},
+    ],
+    },
+  },
 };
