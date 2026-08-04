@@ -157,7 +157,7 @@
     }
   });
 })();
-</script>   </main> <!-- Language suggestion banner --> <script type="application/json" id="farol-lang-msgs">{"pt":"Este conteúdo está disponível em português","en":"This content is available in English","es":"Este contenido está disponible en español","fr":"Ce contenu est disponible en français","it":"Questo contenuto è disponibile in italiano","hr":"Ovaj sadržaj dostupan je na hrvatskom","de":"Diese Inhalte sind auf Deutsch verfügbar","nl":"Deze inhoud is beschikbaar in het Nederlands","pl":"Ta treść jest dostępna po polsku","ro":"Acest conținut este disponibil în română","cs":"Tento obsah je k dispozici v češtině","sv":"Det här innehållet finns på svenska","da":"Dette indhold er tilgængeligt på dansk","fi":"Tämä sisältö on saatavilla suomeksi","sk":"Tento obsah je dostupný v slovenčine","el":"Αυτό το περιεχόμενο είναι διαθέσιμο στα ελληνικά","hu":"Ez a tartalom elérhető magyarul","bg":"Това съдържание е налично на български","lt":"Šis turinys prieinamas lietuvių kalba","lv":"Šis saturs ir pieejams latviešu valodā","et":"See sisu on saadaval eesti keeles","sl":"Ta vsebina je na voljo v slovenščini","ga":"Tá an t-ábhar seo ar fáil i nGaeilge","mt":"Dan il-kontenut huwa disponibbli bil-Malti","tr":"Bu içerik Türkçe olarak mevcuttur","no":"Dette innholdet finnes på norsk"}</script> <script>
+</script>   </main> <!-- Language suggestion banner --> <script type="application/json" id="farol-lang-msgs">{"pt":"Este conteúdo está disponível em português","en":"This content is available in English","es":"Este contenido está disponible en español","fr":"Ce contenu est disponible en français","it":"Questo contenuto è disponibile in italiano","hr":"Ovaj sadržaj dostupan je na hrvatskom","de":"Diese Inhalte sind auf Deutsch verfügbar","nl":"Deze inhoud is beschikbaar in het Nederlands","pl":"Ta treść jest dostępna po polsku","ro":"Acest conținut este disponibil în română","cs":"Tento obsah je k dispozici v češtině","sv":"Det här innehållet finns på svenska","da":"Dette indhold er tilgængeligt på dansk","fi":"Tämä sisältö on saatavilla suomeksi","sk":"Tento obsah je dostupný v slovenčine","el":"Αυτό το περιεχόμενο είναι διαθέσιμο στα ελληνικά","hu":"Ez a tartalom elérhető magyarul","bg":"Това съдържание е налично на български","lt":"Šis turinys prieinamas lietuvių kalba","lv":"Šis saturs ir pieejams latviešu valodā","et":"See sisu on saadaval eesti keeles","sl":"Ta vsebina je na voljo v slovenščini","ga":"Tá an t-ábhar seo ar fáil i nGaeilge","mt":"Dan il-kontenut huwa disponibbli bil-Malti","tr":"Bu içerik Türkçe olarak mevcuttur","no":"Dette innholdet finnes på norsk","is":"Þetta efni er til á íslensku"}</script> <script>
     (function() {
       try {
         if (localStorage.getItem('farol-lang-banner-dismissed')) return;
@@ -167,14 +167,14 @@
           pt: '', en: 'en', es: 'es', fr: 'fr', it: 'it', hr: 'hr', de: 'de',
           nl: 'nl', pl: 'pl', ro: 'ro', cs: 'cs', sv: 'sv', da: 'da', fi: 'fi',
           sk: 'sk', el: 'el', hu: 'hu', bg: 'bg', lt: 'lt', lv: 'lv', et: 'et',
-          sl: 'sl', ga: 'ga', mt: 'mt', tr: 'tr', no: 'no'
+          sl: 'sl', ga: 'ga', mt: 'mt', tr: 'tr', no: 'no', is: 'is'
         };
         var langNames = {
           pt: 'Português', en: 'English', es: 'Español', fr: 'Français', it: 'Italiano',
           hr: 'Hrvatski', de: 'Deutsch', nl: 'Nederlands', pl: 'Polski', ro: 'Română',
           cs: 'Čeština', sv: 'Svenska', da: 'Dansk', fi: 'Suomi', sk: 'Slovenčina',
           el: 'Ελληνικά', hu: 'Magyar', bg: 'Български', lt: 'Lietuvių', lv: 'Latviešu',
-          et: 'Eesti', sl: 'Slovenščina', ga: 'Gaeilge', mt: 'Malti', tr: 'Türkçe', no: 'Norsk'
+          et: 'Eesti', sl: 'Slovenščina', ga: 'Gaeilge', mt: 'Malti', tr: 'Türkçe', no: 'Norsk', is: 'Íslenska'
         };
         if (browserLang in langMap && browserLang !== pageLang) {
           var base = document.querySelector('link[rel="alternate"][hreflang="' + browserLang + '"]');
