@@ -8,51 +8,51 @@ import Breadcrumb from '../../components/Breadcrumb.astro';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const t = ui['no'];
 ---
-<Base title="Hakkında — Farol" description="Farol nedir, nasıl kullanılır ve yapay zekâ bölümlerinden ne beklenmeli." altHrefs={allAboutHrefs(base)}>
+<Base title="Om — Farol" description="Hva Farol er, hvordan den brukes og hva du kan vente av KI-delene." altHrefs={allAboutHrefs(base)}>
   <Header lang="no" altHrefs={allAboutHrefs(base)} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}no/` }, { label: t.breadcrumb_about }]} />
   <article class="card animate-in">
     <header class="card-header">
-      <div class="card-header-meta"><span class="card-category">Kılavuz</span></div>
-      <h1 class="card-title">Farol nasıl kullanılır</h1>
-      <p class="card-subtitle">Nedir, ne değildir ve beş dakikada ondan en iyi nasıl yararlanılır.</p>
+      <div class="card-header-meta"><span class="card-category">Veiledning</span></div>
+      <h1 class="card-title">Slik bruker du Farol</h1>
+      <p class="card-subtitle">Hva den er, hva den ikke er, og hvordan du får mest ut av den på fem minutter.</p>
     </header>
     <section class="card-section">
-      <h2 class="card-section-label">Nedir</h2>
+      <h2 class="card-section-label">Hva den er</h2>
       <ul>
-        <li><span>Karma sınıflarla çalışan öğretmenler için hızlı başvuru. Her kart bir öğrenci profilini ele alır ve üç soruya yanıt verir: sınıfta ne görüyorsunuz, bugün ne yapabilirsiniz ve yapay zekâ nerede yardımcı olabilir.</span></li>
-        <li><span>Beş dakikada işe yarasın diye tasarlandı: zor bir dersten önce, veli görüşmesinden önce ya da bir meslektaş bir öğrenci için ikinci bir görüş istediğinde.</span></li>
-        <li><span>Açık bir kaynaktır ve yazarın bilgisi geliştikçe güncellenir. Güncel sürüm: <strong>v0.1</strong>.</span></li>
+        <li><span>Et oppslagsverk for lærere som arbeider med sammensatte klasser. Hvert kort dekker en elevprofil og svarer på tre spørsmål: hva du ser i klasserommet, hva du kan gjøre i dag, og hvor KI kan hjelpe.</span></li>
+        <li><span>Den er laget for å være nyttig på fem minutter: før en vanskelig time, før et møte med foresatte, eller når en kollega vil ha et blikk til på en elev.</span></li>
+        <li><span>Den er en åpen ressurs som oppdateres etter hvert som forfatterens kunnskap utvikler seg. Gjeldende versjon er <strong>v0.1</strong>.</span></li>
       </ul>
     </section>
     <section class="card-section">
-      <h2 class="card-section-label">Ne değildir</h2>
+      <h2 class="card-section-label">Hva den ikke er</h2>
       <ul>
-        <li><span><strong>Tanılama aracı değildir.</strong> Hiçbir kart resmî psikolojik ya da eğitsel değerlendirmenin yerine geçmez.</span></li>
-        <li><span><strong>Klinik bir el kitabı değildir.</strong> Dili bilinçli olarak sade ve sınıfa dönüktür, kliniğe değil.</span></li>
-        <li><span><strong>Kesin değildir.</strong> Profiller birer giriş noktasıdır, etiket değil. Gerçek bir öğrenci nadiren tek bir kategoriye sığar.</span></li>
+        <li><span><strong>Ikke et utredningsverktøy.</strong> Ingen kort erstatter en formell psykologisk eller pedagogisk utredning.</span></li>
+        <li><span><strong>Ikke en klinisk håndbok.</strong> Språket er bevisst tilgjengelig og rettet mot klasserommet, ikke mot klinikken.</span></li>
+        <li><span><strong>Ikke endelig.</strong> Profilene er innganger, ikke merkelapper. En virkelig elev passer sjelden i én kategori.</span></li>
       </ul>
     </section>
     <section class="card-section">
-      <h2 class="card-section-label">Yapay zekâ bölümleri hakkında</h2>
+      <h2 class="card-section-label">Om KI-delene</h2>
       <ul>
-        <li><span><em>Yapay zekâ nereye girer</em> bölümleri bu sürümde bilerek boş bırakıldı. Yazar, belirli araçlar önermeden önce Floransa’da uzmanlık eğitiminden geçiyor (Ağustos 2026).</span></li>
-        <li><span>Yapı hazır: her araçta bir kullanım örneği, bir komut önerisi ve bir gizlilik notu olacak. İçerik <strong>v0.2</strong> ile gelecek, Eylül 2026 için planlanıyor.</span></li>
+        <li><span><em>Hvor KI kommer inn</em>-delene står bevisst tomme i denne versjonen. Forfatteren tar spesialisert etterutdanning i Firenze (august 2026) før han anbefaler konkrete verktøy.</span></li>
+        <li><span>Strukturen er klar: hvert verktøy får et bruksområde, et forslag til ledetekst og et personvernnotat. Innholdet kommer i <strong>v0.2</strong>, planlagt til september 2026.</span></li>
       </ul>
     </section>
     <section class="card-section">
-      <h2 class="card-section-label">Çeviri hakkında</h2>
+      <h2 class="card-section-label">Om oversettelsen</h2>
       <ul>
-        <li><span>Kartların içeriği tümüyle Türkçeye çevrilmiştir. Kılavuzun özgün sürümü Portekizcedir; tereddüt hâlinde Portekizce metin esas alınır.</span></li>
-        <li><span>Gezinme, etiketler ve bilgi sayfaları tümüyle çevrilmiştir.</span></li>
+        <li><span>Innholdet på kortene er oversatt i sin helhet til norsk. Portugisisk er originalversjonen; ved tvil gjelder den portugisiske teksten.</span></li>
+        <li><span>Navigasjon, etiketter og informasjonssider er fullt oversatt.</span></li>
       </ul>
     </section>
     <section class="card-section">
-      <h2 class="card-section-label">Künye ve lisans</h2>
+      <h2 class="card-section-label">Kreditering og lisens</h2>
       <ul>
-        <li><span>Dil öğretmeni <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a> tarafından tasarlandı ve yönetildi.</span></li>
-        <li><span><strong>CC BY-NC-SA 4.0</strong> lisansıyla yayımlanmıştır.</span></li>
-        <li><span>Kaynak kodu: <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
+        <li><span>Utviklet og ledet av språklæreren <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a>.</span></li>
+        <li><span>Utgitt under lisensen <strong>CC BY-NC-SA 4.0</strong>.</span></li>
+        <li><span>Kildekode: <a href="https://github.com/guilhermegfmachado/farol" target="_blank" rel="noopener noreferrer">github.com/guilhermegfmachado/farol</a>.</span></li>
       </ul>
     </section>
   </article>
