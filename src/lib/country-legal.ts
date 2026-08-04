@@ -13,10 +13,10 @@
 // countries associated to the Erasmus+ programme (Iceland, Liechtenstein,
 // Norway, North Macedonia, Serbia, Türkiye) — the countries whose teachers this
 // manual is actually for. The language axis is a separate question, and stays
-// the 24 official EU languages plus Turkish, Norwegian and Icelandic.
+// the 24 official EU languages plus Turkish, Norwegian, Icelandic and Serbian.
 //
 // A country drops off this list when the manual gains its language: Türkiye,
-// Norway and Iceland moved to their own cards, and Liechtenstein was never
+// Norway, Iceland and Serbia moved to their own cards, and Liechtenstein was never
 // English because German was already here.
 //
 // Each entry is written and sourced in the language its readers use. Where the
@@ -56,19 +56,25 @@ const srcIn = (lang: Lang) => (href: string) =>
 // English card, and they cross-link to each other. Building the list from one
 // place keeps five notes from drifting apart as countries are added.
 const EN_ASSOCIATED: [code: string, name: string][] = [
-  ['rs', 'Serbia'],
   ['mk', 'North Macedonia'],
 ];
 const enNote = (code: string, country: string, language: string) => {
   const others = EN_ASSOCIATED.filter(([c]) => c !== code).map(
     ([c, n]) => `<a href="/farol/en/references/legislacao/${c}/">${n}</a>`,
   );
-  const list = `${others.slice(0, -1).join(', ')} and ${others[others.length - 1]}`;
+  // This list shrinks every time the manual gains one of these languages, so it
+  // has to read correctly at two, one and zero siblings — not just at five.
+  const siblings =
+    others.length === 0
+      ? ''
+      : others.length === 1
+        ? ` A separate card covers ${others[0]}.`
+        : ` Separate cards cover ${others.slice(0, -1).join(', ')} and ${others[others.length - 1]}.`;
   return (
     `This card covers <strong>${country}</strong>. It is in English because ${language} is not ` +
-    `among the manual’s 24 languages — the ${language} terms are given as they appear in the law. ` +
-    `Ireland is on the <a href="__DEFAULT__">default English card</a>, Malta in the ` +
-    `<a href="/farol/mt/references/legislacao/">Maltese version</a>; separate cards cover ${list}.`
+    `among the manual’s languages — the ${language} terms are given as they appear in the law. ` +
+    `Ireland is on the <a href="__DEFAULT__">default English card</a> and Malta in the ` +
+    `<a href="/farol/mt/references/legislacao/">Maltese version</a>.${siblings}`
   );
 };
 
@@ -449,63 +455,6 @@ export const countryLegal: Record<string, CountryLegal> = {
     references: [
       `Loi du 20 juillet 2018 portant création 1° de Centres de compétences en psycho-pédagogie spécialisée en faveur de l’inclusion scolaire; 2° du Service national de l’éducation inclusive — Journal officiel du Grand-Duché de Luxembourg.${srcFr('https://data.legilux.public.lu/filestore/eli/etat/leg/loi/2018/07/20/a664/jo/fr/html/eli-etat-leg-loi-2018-07-20-a664-jo-fr-html.html')}`,
       `Centres de compétences en psychopédagogie spécialisée — Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse.${srcFr('https://men.public.lu/fr/systeme-educatif/eleves-besoins-specifiques/centres-competences.html')}`,
-    ],
-  },
-
-  'en-rs': {
-    lang: 'en',
-    code: 'rs',
-    country: 'Serbia',
-    title: 'Legal framework',
-    subtitle: 'The Law on the Foundations of the Education System and the three levels of the individual education plan in Serbia',
-    desc: 'The legal framework defining measures, procedures and responsibilities in the inclusive Serbian school.',
-    note: enNote('rs', 'Serbia', 'Serbian'),
-    sections: [
-      {
-        label: 'The central text',
-        items: [
-          `The <strong>Law on the Foundations of the Education System</strong> (<em>Zakon o osnovama sistema obrazovanja i vaspitanja</em>) was adopted in 2009 and has been amended several times since, including in 2017 and 2025.${c(1)}`,
-          `It commits the system to inclusion and to <strong>reasonable accommodation in line with an individual education plan</strong>, across primary, secondary and tertiary education.${c(2)}`,
-        ],
-      },
-      {
-        label: 'The IOP and its three levels',
-        items: [
-          `<strong>IOP1 — adapted programme.</strong> Adjusted methods, materials, environment and support staff. The learning outcomes themselves are unchanged.${c(3)}`,
-          `<strong>IOP2 — modified programme.</strong> Everything in IOP1, plus adjusted learning outcomes and content, in one subject, several, or all of them.${c(3)}`,
-          `<strong>IOP3 — enriched and deepened programme</strong>, for pupils with exceptional abilities. Gifted pupils sit <strong>inside</strong> the same instrument rather than outside it — a point worth knowing, because it is unusual.${c(3)}`,
-          `Preschools use IOP1 only; primary and secondary schools may use all three.${c(3)}`,
-        ],
-      },
-      {
-        label: 'Who decides',
-        items: [
-          `The school’s <strong>inclusive-education team</strong> — specialists, teachers and the parents — proposes the plan.${c(2)}`,
-          `Once the right to an IOP is accepted, that team proposes who will sit on the pupil’s additional-support team.${c(3)}`,
-          `At municipal level the <strong>inter-sectoral committee</strong> (<em>interresorna komisija</em>) coordinates support across education, health and social services — the mechanism to use when a pupil’s needs cross those boundaries.${c(1)}`,
-        ],
-      },
-      {
-        label: 'Support in the classroom',
-        items: [
-          `<strong>Pedagogical assistants</strong> (<em>pedagoški asistent</em>) and personal assistants are part of the statutory support, alongside individualised teaching methods and plans.${c(1)}`,
-        ],
-      },
-      {
-        label: 'For quick reference',
-        items: [
-          `Central text: Law on the Foundations of the Education System (2009, as amended).${c(1)}`,
-          `Plan: IOP1 adapted · IOP2 modified outcomes · IOP3 enriched, for exceptional ability.${c(3)}`,
-          `Proposed by: the school’s inclusive-education team, with the parents on it.${c(2)}`,
-          `Across services: the municipal inter-sectoral committee.${c(1)}`,
-        ],
-      },
-    ],
-    refsLabel: 'References',
-    references: [
-      `Overview of the inclusive education system in Serbia — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/serbia/overview-inclusive-education-system')}`,
-      `Serbia: legislation and policy — European Agency for Special Needs and Inclusive Education.${srcEn('https://www.european-agency.org/country-information/serbia/legislation-and-policy')}`,
-      `Pravilnik o bližim uputstvima za utvrđivanje prava na individualni obrazovni plan, njegovu primenu i vrednovanje — Paragraf.${srcEn('https://www.paragraf.rs/propisi/pravilnik-blizim-uputstvima-utvrdjivanje-prava-individualni-obrazovni-plan.html')}`,
     ],
   },
 
