@@ -96,14 +96,14 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
           pt: '', en: 'en', es: 'es', fr: 'fr', it: 'it', hr: 'hr', de: 'de',
           nl: 'nl', pl: 'pl', ro: 'ro', cs: 'cs', sv: 'sv', da: 'da', fi: 'fi',
           sk: 'sk', el: 'el', hu: 'hu', bg: 'bg', lt: 'lt', lv: 'lv', et: 'et',
-          sl: 'sl', ga: 'ga', mt: 'mt', tr: 'tr', no: 'no', is: 'is', sr: 'sr'
+          sl: 'sl', ga: 'ga', mt: 'mt', tr: 'tr', no: 'no', is: 'is', sr: 'sr', mk: 'mk'
         };
         var langNames = {
           pt: 'Português', en: 'English', es: 'Español', fr: 'Français', it: 'Italiano',
           hr: 'Hrvatski', de: 'Deutsch', nl: 'Nederlands', pl: 'Polski', ro: 'Română',
           cs: 'Čeština', sv: 'Svenska', da: 'Dansk', fi: 'Suomi', sk: 'Slovenčina',
           el: 'Ελληνικά', hu: 'Magyar', bg: 'Български', lt: 'Lietuvių', lv: 'Latviešu',
-          et: 'Eesti', sl: 'Slovenščina', ga: 'Gaeilge', mt: 'Malti', tr: 'Türkçe', no: 'Norsk', is: 'Íslenska', sr: 'Српски'
+          et: 'Eesti', sl: 'Slovenščina', ga: 'Gaeilge', mt: 'Malti', tr: 'Türkçe', no: 'Norsk', is: 'Íslenska', sr: 'Српски', mk: 'Македонски'
         };
         if (browserLang in langMap && browserLang !== pageLang) {
           var base = document.querySelector('link[rel="alternate"][hreflang="' + browserLang + '"]');
