@@ -393,6 +393,21 @@ export const made: Record<Lang, MadePage> = {
     ],
     etica: 'Ayrıca bakınız',
   },
+  no: {
+    title: 'Slik ble den til',
+    cat: 'Åpenhet',
+    subtitle: 'Menneskelig ledelse og KI-assistanse — hvem gjorde hva.',
+    desc: 'Åpenhet om hvordan Farol ble til: menneskelig ledelse og KI-assistanse.',
+    items: [
+      '<strong>Idé, ledelse og pedagogisk struktur:</strong> Guilherme de Góis Machado.',
+      'Innholdet ble skrevet med KI-assistanse (Claude, fra Anthropic) under forfatterens ledelse.',
+      'Hvert kort oppgir kildene det bygger på; de fleste lenker direkte til originalen.',
+      'Oversettelsene ble laget med KI.',
+      '<strong>Hvorfor si det?</strong> For å være konsekvent med håndbokens egne råd om etikk og personvern: åpenhet om bruk av KI er nettopp det Farol anbefaler lærere.',
+      'Farol er en informasjonsressurs, ikke klinisk veiledning: identifisering og diagnostisering hører til kvalifisert fagpersonell.',
+    ],
+    etica: 'Se også',
+  },
 };
 
 // hreflang / footer hrefs for the transparency page (PT slug at root, shared
