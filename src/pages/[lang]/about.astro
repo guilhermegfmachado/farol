@@ -1,0 +1,42 @@
+---
+// One About page for the 28 prefixed locales. The copy differs per locale and
+// lives in src/lib/about.ts; the section count differs too (fr, hr and it carry
+// four sections, the rest five), so the template renders whatever that locale has.
+import { ui, allAboutHrefs, PREFIXED_LANGS, type Lang } from '@/lib/i18n';
+import { about } from '@/lib/about';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+
+export function getStaticPaths() {
+  return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const t = ui[lang];
+const a = about[lang]!;
+---
+<Base title={a.title} description={a.desc} altHrefs={allAboutHrefs(base)}>
+  <Header lang={lang} altHrefs={allAboutHrefs(base)} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.breadcrumb_about }]} />
+  <article class="card animate-in">
+    <header class="card-header">
+      <div class="card-header-meta"><span class="card-category">{a.cat}</span></div>
+      <h1 class="card-title">{a.h1}</h1>
+      <p class="card-subtitle" set:html={a.subtitle} />
+    </header>
+    {a.sections.map((section) => (
+      <section class="card-section">
+        <h2 class="card-section-label" set:html={section.label} />
+        <ul>{section.items.map((item) => <li><span set:html={item} /></li>)}</ul>
+      </section>
+    ))}
+  </article>
+  <Footer lang={lang} />
+</Base>
+<style>
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.15s ease; }
+a:hover { color: var(--accent-hover); }
+</style>
