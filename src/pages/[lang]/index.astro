@@ -49,20 +49,14 @@ const home = `${base}${lang}/`;
   <nav class="browse-links" aria-label={t.home_nav_label}>
     <a href={`${home}profiles/`}>{t.browse_profiles}</a>
     <a href={`${home}references/`}>{t.browse_refs}</a>
+    <a href={`${home}lighthouse/`}>{t.lh_title} →</a>
   </nav>
 
-  <div class="tools-link-row">
-    <a href={`${home}lighthouse/`} class="tools-link tools-link-lighthouse">
-      <span class="tools-link-label">{t.lh_label}</span>
-      <span class="tools-link-title">{t.lh_title} →</span>
-      <span class="tools-link-desc">{t.lh_desc}</span>
-    </a>
-    <a href={`${home}tools/`} class="tools-link">
-      <span class="tools-link-label">{t.tools_catalog}</span>
-      <span class="tools-link-title">{t.tools_title}</span>
-      <span class="tools-link-desc">{t.tools_desc}</span>
-    </a>
-  </div>
+  <a href={`${home}tools/`} class="tools-link">
+    <span class="tools-link-label">{t.tools_catalog}</span>
+    <span class="tools-link-title">{t.tools_title}</span>
+    <span class="tools-link-desc">{t.tools_desc}</span>
+  </a>
 
   <Footer lang={lang} />
 </Base>
