@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { getAllEntries } from '@/lib/entries';
+import { getAllEntries, displayIndex } from '@/lib/entries';
 import { ui, allLangHrefs } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
@@ -58,7 +58,7 @@ function entryHref(e: typeof allEntries[0]) {
     <header class="card-header">
       <div class="card-header-meta">
         <span class="card-category">{category}</span>
-        <span class="card-index-large" aria-hidden="true">{entry.data.index}</span>
+        <span class="card-index-large" aria-hidden="true">{displayIndex(entry.data)}</span>
       </div>
       <h1 class="card-title">{title}</h1>
       <p class="card-subtitle">{subtitle}</p>

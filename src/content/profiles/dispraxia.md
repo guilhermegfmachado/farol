@@ -1,5 +1,6 @@
 ---
-index: "03"
+kind: "profile"
+order: 3
 title: "Dispraxia"
 category: "Perfil"
 subtitle: "Perturbação do desenvolvimento da coordenação"

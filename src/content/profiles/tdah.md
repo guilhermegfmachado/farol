@@ -1,5 +1,6 @@
 ---
-index: "01"
+kind: "profile"
+order: 1
 title: "TDAH"
 category: "Perfil"
 subtitle: "Perturbação de Hiperatividade e Défice de Atenção"

@@ -1,7 +1,8 @@
 ---
-index: "09"
+kind: "reference"
+order: 2
 title: "Oficina de Trabalho"
-category: "Recurso"
+category: "Referência"
 subtitle: "Sessão de 90 minutos — Departamento de Línguas"
 desc: "Estrutura de 90 minutos para sessão de departamento sobre integração responsável de IA."
 sections:
