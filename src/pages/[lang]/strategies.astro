@@ -34,7 +34,7 @@ const groups = profiles.map((p) => {
 ---
 <Base title={`${t.strategies_title} — Farol`} description={t.strategies_intro} altHrefs={allSectionHrefs(base, 'strategies')}>
   <Header lang={lang} altHrefs={allSectionHrefs(base, 'strategies')} />
-  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.strategies_title.toLowerCase() }]} />
+  <Breadcrumb lang={lang} crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.strategies_title.toLowerCase() }]} />
 
   <div class="prompt-section">
     <div class="prompt-label">✎</div>

@@ -461,6 +461,13 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         ]
       },
       {
+        "label": "Note sur la traduction",
+        "items": [
+          "Le contenu des fiches est intégralement traduit en français. Le portugais est la version originale du guide ; en cas de doute, le texte portugais prévaut.",
+          "La navigation, les libellés et les pages d'information sont intégralement traduits."
+        ]
+      },
+      {
         "label": "Crédits et licence",
         "items": [
           "Conçu et dirigé par <a href=\"https://guilhermegfmachado.github.io/work/\" target=\"_blank\" rel=\"noopener noreferrer\">Guilherme de Góis Machado</a>, enseignant de langues.",
@@ -545,6 +552,13 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "items": [
           "Odjeljci <em>Gdje AI može pomoći</em> namjerno su prazni u ovoj verziji. Autor pohađa specijaliziranu obuku u Firenci (kolovoz 2026.) prije preporučivanja konkretnih alata.",
           "Struktura već postoji, svaki alat imat će slučaj upotrebe, prijedlog upita i napomenu o privatnosti. Sadržaj dolazi u <strong>v0.2</strong>, planiranoj za rujan 2026."
+        ]
+      },
+      {
+        "label": "Napomena o prijevodu",
+        "items": [
+          "Sadržaj kartica u cijelosti je preveden na hrvatski. Portugalski je izvorna verzija vodiča; u slučaju nedoumice, mjerodavan je portugalski tekst.",
+          "Navigacija, oznake i informativne stranice u cijelosti su prevedene."
         ]
       },
       {
@@ -679,6 +693,13 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "items": [
           "Le sezioni <em>Come si inserisce l'IA</em> sono intenzionalmente vuote in questa versione. L'autore sta frequentando una formazione specializzata a Firenze (agosto 2026) prima di raccomandare strumenti specifici.",
           "La struttura esiste già, ogni strumento avrà un caso d'uso, un suggerimento di prompt e una nota sulla privacy. Il contenuto arriva in <strong>v0.2</strong>, prevista per settembre 2026."
+        ]
+      },
+      {
+        "label": "Nota sulla traduzione",
+        "items": [
+          "Il contenuto delle schede è tradotto integralmente in italiano. Il portoghese è la versione originale della guida; in caso di dubbio, prevale il testo portoghese.",
+          "La navigazione, le etichette e le pagine informative sono tradotte integralmente."
         ]
       },
       {

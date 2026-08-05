@@ -25,7 +25,7 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 >
   <Header lang={lang} altHrefs={allSectionHrefs(base, 'tools')} />
 
-  <Breadcrumb crumbs={[
+  <Breadcrumb lang={lang} crumbs={[
     { label: t.breadcrumb_home, href: `${base}${lang}/` },
     { label: t.breadcrumb_tools },
   ]} />

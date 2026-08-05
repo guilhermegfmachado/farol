@@ -42,7 +42,7 @@ function entryHref(e: typeof allEntries[0]) {
 ---
 <Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${catLabel} — Farol`} altHrefs={langHrefs}>
   <Header lang={lang} altHrefs={langHrefs} />
-  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: title.toLowerCase() }]} />
+  <Breadcrumb lang={lang} crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: title.toLowerCase() }]} />
   <article class="card animate-in">
     <header class="card-header">
       <div class="card-header-meta">

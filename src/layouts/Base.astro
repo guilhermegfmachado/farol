@@ -9,7 +9,12 @@ import { ui } from '@/lib/i18n';
 // The language banner speaks to a visitor whose browser language differs from
 // the page's, so it has to be written in *their* language, not the page's.
 const langSuggestions = JSON.stringify(
-  Object.fromEntries(Object.entries(ui).map(([l, v]) => [l, (v as any).lang_suggestion])),
+  Object.fromEntries(
+    Object.entries(ui).map(([l, v]) => [
+      l,
+      { msg: (v as any).lang_suggestion, dismiss: (v as any).banner_dismiss },
+    ]),
+  ),
 );
 
 interface Props {
@@ -113,8 +118,11 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
           banner.id = 'lang-banner';
           var msgs = {};
           try { msgs = JSON.parse(document.getElementById('farol-lang-msgs').textContent); } catch (e) {}
-          var msg = msgs[browserLang] || (langNames[browserLang] + ' available');
-          banner.innerHTML = '<span>' + msg + ' &mdash; <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="Dismiss">✕</button>';
+          var entry = msgs[browserLang] || {};
+          var msg = entry.msg || (langNames[browserLang] + ' available');
+          // The banner speaks the visitor's language, so its close button does too.
+          var dismiss = entry.dismiss || 'Close';
+          banner.innerHTML = '<span>' + msg + ' &mdash; <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="' + dismiss + '" title="' + dismiss + '">✕</button>';
           document.body.prepend(banner);
         }
       } catch (e) {}

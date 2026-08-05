@@ -20,7 +20,7 @@ const a = about[lang]!;
 ---
 <Base title={a.title} description={a.desc} altHrefs={allAboutHrefs(base)}>
   <Header lang={lang} altHrefs={allAboutHrefs(base)} />
-  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.breadcrumb_about }]} />
+  <Breadcrumb lang={lang} crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.breadcrumb_about }]} />
   <article class="card animate-in">
     <header class="card-header">
       <div class="card-header-meta"><span class="card-category">{a.cat}</span></div>
