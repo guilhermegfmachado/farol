@@ -74,12 +74,6 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     </section>
   </article>
 
-  <div class="card-nav-back">
-    <a href={`${base}${lang}/tools/`} class="card-nav-item">
-      <span class="card-nav-dir">{t.nav_back_tools}</span>
-      <span class="card-nav-title">{t.nav_all_tools}</span>
-    </a>
-  </div>
 
   <Footer lang={lang} />
 </Base>
@@ -91,9 +85,4 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 .tool-profiles { display: flex; gap: 0.5rem; flex-wrap: wrap; }
 .tool-profile-tag { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.75rem; color: var(--accent); border: 1px solid var(--accent); padding: 0.2rem 0.6rem; text-decoration: none; letter-spacing: 0.03em; transition: background 0.15s ease; }
 .tool-profile-tag:hover { background: var(--accent-bg); }
-.card-nav-back { margin-top: 2rem; }
-.card-nav-item { display: inline-flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; }
-.card-nav-item:hover { border-color: var(--accent); }
-.card-nav-dir { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
-.card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
 </style>

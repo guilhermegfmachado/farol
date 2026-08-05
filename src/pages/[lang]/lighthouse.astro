@@ -4,6 +4,7 @@ import { ui, type Lang, allSectionHrefs, entryTranslations, categoryTranslations
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
 
 export function getStaticPaths() {
   const langs: Lang[] = PREFIXED_LANGS;
@@ -35,6 +36,8 @@ function floorTitle(entry: typeof entries[0]) {
 ---
 <Base title={`${t.lh_title} — Farol`} description={t.lh_desc} altHrefs={allSectionHrefs(base, 'lighthouse')}>
   <Header lang={lang} altHrefs={allSectionHrefs(base, 'lighthouse')} />
+
+  <Breadcrumb lang={lang} crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: t.lh_title.toLowerCase() }]} />
 
   <div class="lh-page">
     <div class="lh-intro">
@@ -84,10 +87,6 @@ function floorTitle(entry: typeof entries[0]) {
       </div>
     </div>
 
-    <div class="lh-back">
-      <a href={`${base}${lang}/`} class="lh-back-link">← {t.lh_back}</a>
-      <a href={`${base}${lang}/tools/`} class="lh-back-link">{t.breadcrumb_tools} →</a>
-    </div>
   </div>
 
   <Footer lang={lang} />
@@ -124,9 +123,6 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-legend-heading { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
 .lh-legend-item { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: var(--ink); display: flex; align-items: center; gap: 0.35rem; }
 .lh-legend-item::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--c); border-radius: 1px; }
-.lh-back { margin-top: 2rem; margin-bottom: 0.5rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.lh-back-link { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.75rem; color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; letter-spacing: 0.03em; }
-.lh-back-link:hover { color: var(--accent); }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }
   .lh-tower-wrap { max-width: 230px; }

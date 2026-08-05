@@ -4,6 +4,7 @@ import { allSectionHrefs, ui } from '@/lib/i18n';
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 
 const entries = await getAllEntries();
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
@@ -21,6 +22,8 @@ const categoryColor: Record<string, string> = {
 ---
 <Base title="A Torre — Farol" description="Visualização em farol dos perfis e referências de sala de aula inclusiva." altHrefs={allSectionHrefs(base, 'lighthouse')}>
   <Header lang="pt" altHrefs={allSectionHrefs(base, 'lighthouse')} />
+
+  <Breadcrumb lang="pt" crumbs={[{ label: t.breadcrumb_home, href: `${base}` }, { label: t.lh_title.toLowerCase() }]} />
 
   <div class="lh-page">
     <div class="lh-intro">
@@ -80,10 +83,6 @@ const categoryColor: Record<string, string> = {
       </div>
     </div>
 
-    <div class="lh-back">
-      <a href={base} class="lh-back-link">← {t.lh_back}</a>
-      <a href={`${base}tools/`} class="lh-back-link">{t.breadcrumb_tools} →</a>
-    </div>
   </div>
 
   <Footer lang="pt" />
@@ -255,16 +254,6 @@ const categoryColor: Record<string, string> = {
 }
 
 /* ── Back link ────────────────────────────────────────────── */
-.lh-back { margin-top: 2rem; margin-bottom: 0.5rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.lh-back-link {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: 0.75rem;
-  color: var(--ink-faded);
-  text-decoration: none;
-  transition: color 0.15s ease;
-  letter-spacing: 0.03em;
-}
-.lh-back-link:hover { color: var(--accent); }
 
 /* ── Mobile ───────────────────────────────────────────────── */
 @media (max-width: 520px) {
