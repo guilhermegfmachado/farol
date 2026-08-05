@@ -11,6 +11,8 @@ export const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
 export const ui = {
   pt: {
+    browse_profiles: 'Perfis →',
+    browse_refs: 'Referências e recursos →',
     home_title: 'Farol — Inclusão & IA na Sala de Aula',
     home_nav_label: 'Perfis e recursos',
     tagline: 'Ferramentas e Abordagens para Reconhecer e Orientar alunos — um manual de bolso para a sala de aula que respeita o aluno que tem à frente.',
@@ -103,6 +105,8 @@ export const ui = {
     no_results: 'Nada corresponde à pesquisa.',
   },
   en: {
+    browse_profiles: 'Profiles →',
+    browse_refs: 'References and resources →',
     home_title: 'Farol — Inclusion & AI in the Classroom',
     home_nav_label: 'Profiles and resources',
     tagline: 'Tools and Approaches to Recognise and Guide students, a pocket manual for the classroom that respects the learner in front of you.',
@@ -195,6 +199,8 @@ export const ui = {
     no_results: 'Nothing matches your search.',
   },
   es: {
+    browse_profiles: 'Perfiles →',
+    browse_refs: 'Referencias y recursos →',
     home_title: 'Farol — Inclusión e IA en el Aula',
     home_nav_label: 'Perfiles y recursos',
     tagline: 'Herramientas y Enfoques para Reconocer y Orientar al alumnado, un manual de bolsillo para el aula que respeta al estudiante que tienes enfrente.',
@@ -287,6 +293,8 @@ export const ui = {
     no_results: 'Nada coincide con la búsqueda.',
   },
   fr: {
+    browse_profiles: 'Profils →',
+    browse_refs: 'Références et ressources →',
     home_title: 'Farol — Inclusion & IA en Classe',
     home_nav_label: 'Profils et ressources',
     tagline: "Outils et Approches pour Reconnaître et Orienter les élèves, un guide de poche pour la classe qui respecte l'apprenant face à vous.",
@@ -379,6 +387,8 @@ export const ui = {
     no_results: 'Aucun résultat ne correspond à votre recherche.',
   },
   it: {
+    browse_profiles: 'Profili →',
+    browse_refs: 'Riferimenti e risorse →',
     home_title: 'Farol — Inclusione & IA in Classe',
     home_nav_label: 'Profili e risorse',
     tagline: 'Strumenti e Approcci per Riconoscere e Orientare gli studenti, un manuale tascabile per la classe che rispetta il discente che hai di fronte.',
@@ -471,6 +481,8 @@ export const ui = {
     no_results: 'Nessun risultato corrisponde alla ricerca.',
   },
   hr: {
+    browse_profiles: 'Profili →',
+    browse_refs: 'Reference i resursi →',
     home_title: 'Farol — Inkluzija i AI u učionici',
     home_nav_label: 'Profili i resursi',
     tagline: 'Alati i Pristupi za Raspoznavanje i Usmjeravanje učenika, džepni priručnik za učionicu koji poštuje svakog učenika.',
@@ -563,6 +575,8 @@ export const ui = {
     no_results: 'Ništa ne odgovara pretrazi.',
   },
   de: {
+    browse_profiles: 'Profile →',
+    browse_refs: 'Referenzen und Ressourcen →',
     home_title: 'Farol — Inklusion und KI im Unterricht',
     home_nav_label: 'Profile und Ressourcen',
     tagline: 'Werkzeuge und Ansätze zum Erkennen und Begleiten von Schülerinnen und Schülern, ein Taschenhandbuch für den Unterricht, das den Lernenden in den Mittelpunkt stellt.',
@@ -655,6 +669,8 @@ export const ui = {
     no_results: 'Keine Treffer für Ihre Suche.',
   },
   nl: {
+    browse_profiles: 'Profielen →',
+    browse_refs: 'Referenties en bronnen →',
     home_title: 'Farol — Inclusie en AI in de Klas',
     home_nav_label: 'Profielen en bronnen',
     tagline: 'Instrumenten en benaderingen om leerlingen te herkennen en te begeleiden, een zakhandboek voor het klaslokaal dat de leerling centraal stelt.',
@@ -747,6 +763,8 @@ export const ui = {
     no_results: 'Niets komt overeen met uw zoekopdracht.',
   },
   pl: {
+    browse_profiles: 'Profile →',
+    browse_refs: 'Referencje i zasoby →',
     home_title: 'Farol — Edukacja włączająca i AI w klasie',
     home_nav_label: 'Profile i zasoby',
     tagline: 'Narzędzia i Podejścia do Rozpoznawania i Ukierunkowania uczniów, podręczny poradnik dla nauczyciela, który szanuje ucznia przed sobą.',
@@ -839,6 +857,8 @@ export const ui = {
     no_results: 'Brak wyników dla wyszukiwania.',
   },
   ro: {
+    browse_profiles: 'Profiluri →',
+    browse_refs: 'Referințe și resurse →',
     home_title: 'Farol — Incluziune și IA în Clasă',
     home_nav_label: 'Profile și resurse',
     tagline: 'Instrumente și Abordări pentru Recunoașterea și Orientarea elevilor, un ghid de buzunar pentru clasă care respectă elevul din fața dumneavoastră.',
@@ -931,6 +951,8 @@ export const ui = {
     no_results: 'Niciun rezultat pentru căutarea dumneavoastră.',
   },
   cs: {
+    browse_profiles: 'Profily →',
+    browse_refs: 'Reference a zdroje →',
     home_title: 'Farol — Inkluze a AI ve třídě',
     home_nav_label: 'Profily a zdroje',
     tagline: 'Nástroje a přístupy k rozpoznávání a vedení žáků, kapesní příručka pro třídu, která respektuje žáka před vámi.',
@@ -1023,6 +1045,8 @@ export const ui = {
     no_results: 'Hledání nevrátilo žádné výsledky.',
   },
   sv: {
+    browse_profiles: 'Profiler →',
+    browse_refs: 'Referenser och resurser →',
     home_title: 'Farol — Inkludering och AI i klassrummet',
     home_nav_label: 'Profiler och resurser',
     tagline: 'Verktyg och tillvägagångssätt för att känna igen och vägleda elever, en fickhandbok för klassrummet som respekterar eleven framför dig.',
@@ -1115,6 +1139,8 @@ export const ui = {
     no_results: 'Inga träffar för din sökning.',
   },
   da: {
+    browse_profiles: 'Profiler →',
+    browse_refs: 'Referencer og ressourcer →',
     home_title: 'Farol — Inklusion og AI i klassen',
     home_nav_label: 'Profiler og ressourcer',
     tagline: 'Værktøjer og tilgange til at genkende og vejlede elever — en lommehåndbog til klasseværelset, der respekterer den elev, du har foran dig.',
@@ -1207,6 +1233,8 @@ export const ui = {
     no_results: 'Ingen resultater for din søgning.',
   },
   fi: {
+    browse_profiles: 'Profiilit →',
+    browse_refs: 'Viitteet ja resurssit →',
     home_title: 'Farol — Inkluusio ja tekoäly luokassa',
     home_nav_label: 'Profiilit ja resurssit',
     tagline: 'Välineitä ja lähestymistapoja oppilaiden tunnistamiseen ja ohjaamiseen, taskuopas luokkahuoneeseen, joka kunnioittaa edessäsi olevaa oppijaa.',
@@ -1299,6 +1327,8 @@ export const ui = {
     no_results: 'Haullasi ei löytynyt tuloksia.',
   },
   sk: {
+    browse_profiles: 'Profily →',
+    browse_refs: 'Referencie a zdroje →',
     home_title: 'Farol — Inklúzia a AI v triede',
     home_nav_label: 'Profily a zdroje',
     tagline: 'Nástroje a prístupy k rozpoznávaniu a vedeniu žiakov, vreckový sprievodca pre triedu, ktorý rešpektuje žiaka pred vami.',
@@ -1391,6 +1421,8 @@ export const ui = {
     no_results: 'Hľadanie nevrátilo žiadne výsledky.',
   },
   el: {
+    browse_profiles: 'Προφίλ →',
+    browse_refs: 'Αναφορές και πόροι →',
     home_title: 'Farol — Ένταξη και ΤΝ στην Τάξη',
     home_nav_label: 'Προφίλ και πόροι',
     tagline: 'Εργαλεία και Προσεγγίσεις για την Αναγνώριση και Καθοδήγηση μαθητών, ένας οδηγός τσέπης για την τάξη που σέβεται τον μαθητή μπροστά σας.',
@@ -1483,6 +1515,8 @@ export const ui = {
     no_results: 'Δεν βρέθηκαν αποτελέσματα.',
   },
   hu: {
+    browse_profiles: 'Profilok →',
+    browse_refs: 'Hivatkozások és erőforrások →',
     home_title: 'Farol — Inklúzió és MI az osztályban',
     home_nav_label: 'Profilok és erőforrások',
     tagline: 'Eszközök és megközelítések a tanulók felismeréséhez és irányításához, zsebkalauz az osztályterembe, amely tiszteli az előtted álló tanulót.',
@@ -1575,6 +1609,8 @@ export const ui = {
     no_results: 'Nincs találat a keresésre.',
   },
   bg: {
+    browse_profiles: 'Профили →',
+    browse_refs: 'Справки и ресурси →',
     home_title: 'Farol — Приобщаване и ИИ в класа',
     home_nav_label: 'Профили и ресурси',
     tagline: 'Инструменти и Подходи за Разпознаване и Насочване на учениците, наръчник в джоба за класната стая, който уважава ученика срещу вас.',
@@ -1667,6 +1703,8 @@ export const ui = {
     no_results: 'Няма резултати за вашето търсене.',
   },
   lt: {
+    browse_profiles: 'Profiliai →',
+    browse_refs: 'Nuorodos ir šaltiniai →',
     home_title: 'Farol — Įtrauktis ir DI klasėje',
     home_nav_label: 'Profiliai ir šaltiniai',
     tagline: 'Priemonės ir Požiūriai mokinių Atpažinimui ir Orientavimui, kišeninis vadovas klasei, gerbiantis prieš tave esantį besimokantįjį.',
@@ -1759,6 +1797,8 @@ export const ui = {
     no_results: 'Pagal jūsų paiešką nieko nerasta.',
   },
   lv: {
+    browse_profiles: 'Profili →',
+    browse_refs: 'Atsauces un resursi →',
     home_title: 'Farol — Iekļaušana un MI klasē',
     home_nav_label: 'Profili un resursi',
     tagline: 'Rīki un pieejas skolēnu atpazīšanai un virzīšanai, kabatas rokasgrāmata klasei, kas ciena jūsu priekšā esošo skolēnu.',
@@ -1851,6 +1891,8 @@ export const ui = {
     no_results: 'Jūsu meklējumam nav rezultātu.',
   },
   et: {
+    browse_profiles: 'Profiilid →',
+    browse_refs: 'Viited ja ressursid →',
     home_title: 'Farol — Kaasamine ja TI klassis',
     home_nav_label: 'Profiilid ja ressursid',
     tagline: 'Tööriistad ja lähenemisviisid õpilaste äratundmiseks ja juhendamiseks, taskujuhend klassile, mis austab sinu ees olevat õppijat.',
@@ -1943,6 +1985,8 @@ export const ui = {
     no_results: 'Otsingule ei leitud tulemusi.',
   },
   sl: {
+    browse_profiles: 'Profili →',
+    browse_refs: 'Reference in viri →',
     home_title: 'Farol — Vključevanje in UI v razredu',
     home_nav_label: 'Profili in viri',
     tagline: 'Orodja in Pristopi za Prepoznavanje in Usmerjanje učencev, žepni priročnik za razred, ki spoštuje učenca pred seboj.',
@@ -2035,6 +2079,8 @@ export const ui = {
     no_results: 'Za vaše iskanje ni rezultatov.',
   },
   ga: {
+    browse_profiles: 'Próifílí →',
+    browse_refs: 'Tagairtí agus acmhainní →',
     home_title: 'Farol — Cuimsiú agus AI sa Seomra Ranga',
     home_nav_label: 'Próifílí agus acmhainní',
     tagline: 'Uirlisí agus Cineálacha Cur Chuige chun Daltaí a Aithint agus a Threorú, lámhleabhar póca don seomra ranga a mheasann an foghlaimeoir os do chomhair.',
@@ -2127,6 +2173,8 @@ export const ui = {
     no_results: 'Níl aon toradh ar do chuardach.',
   },
   mt: {
+    browse_profiles: 'Profili →',
+    browse_refs: 'Referenzi u riżorsi →',
     home_title: 'Farol — Inklużjoni u AI fil-Klassi',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Għodod u Approċċi biex l-istudenti jiġu rikonoxxuti u ggwidati, manwal tal-but għall-klassi li jirrispetta l-istudent li għandek quddiemek.',
@@ -2219,6 +2267,8 @@ export const ui = {
     no_results: 'Ebda riżultat għat-tiftixa tiegħek.',
   },
   tr: {
+    browse_profiles: 'Profiller →',
+    browse_refs: 'Kaynaklar ve başvurular →',
     home_title: 'Farol — Sınıfta kapsayıcılık ve yapay zekâ',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Öğrencileri Tanımak ve Yönlendirmek için Araçlar ve Yaklaşımlar — karşısındaki öğrenciye saygı duyan, sınıf için bir cep el kitabı.',
@@ -2310,6 +2360,8 @@ export const ui = {
     no_results: 'Aramanızla eşleşen bir şey yok.',
   },
   no: {
+    browse_profiles: 'Profiler →',
+    browse_refs: 'Referanser og ressurser →',
     home_title: 'Farol — Inkludering og KI i klasserommet',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Verktøy og tilnærminger for å gjenkjenne og veilede elever — en lommehåndbok for klasserommet som respekterer eleven du har foran deg.',
@@ -2401,6 +2453,8 @@ export const ui = {
     no_results: 'Ingenting samsvarer med søket.',
   },
   is: {
+    browse_profiles: 'Svipmyndir →',
+    browse_refs: 'Heimildir og efni →',
     home_title: 'Farol — Skóli án aðgreiningar og gervigreind',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Verkfæri og leiðir til að þekkja og leiðbeina nemendum — vasahandbók fyrir kennslustofuna sem virðir nemandann fyrir framan þig.',
@@ -2492,6 +2546,8 @@ export const ui = {
     no_results: 'Ekkert passar við leitina.',
   },
   sr: {
+    browse_profiles: 'Профили →',
+    browse_refs: 'Извори и материјали →',
     home_title: 'Farol — Инклузија и вештачка интелигенција у учионици',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Алатке и приступи за препознавање и вођење ученика — џепни приручник за учионицу који поштује ученика који је пред вама.',
@@ -2583,6 +2639,8 @@ export const ui = {
     no_results: 'Ништа не одговара претрази.',
   },
   mk: {
+    browse_profiles: 'Профили →',
+    browse_refs: 'Извори и материјали →',
     home_title: 'Farol — Инклузија и вештачка интелигенција во училницата',
     home_nav_label: 'Profili u riżorsi',
     tagline: 'Алатки и пристапи за препознавање и водење на учениците — џебен прирачник за училницата што го почитува ученикот пред вас.',

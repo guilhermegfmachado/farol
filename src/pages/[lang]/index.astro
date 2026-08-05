@@ -1,8 +1,7 @@
 ---
 // One homepage for the 28 prefixed locales. Portuguese lives at the site root
 // (src/pages/index.astro) and shares this shape.
-import { getAllEntries } from '@/lib/entries';
-import { ui, entryTranslations, categoryTranslations, allIndexHrefs, PREFIXED_LANGS, type Lang } from '@/lib/i18n';
+import { ui, allIndexHrefs, PREFIXED_LANGS, type Lang } from '@/lib/i18n';
 import { observations, obsThemes, obsText } from '@/lib/observations';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
@@ -13,10 +12,8 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.props as { lang: Lang };
-const entries = await getAllEntries();
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const t = ui[lang];
-const cat = categoryTranslations[lang] ?? {};
 const home = `${base}${lang}/`;
 ---
 <Base title={t.home_title} description={t.tagline} altHrefs={allIndexHrefs(base)}>
@@ -49,47 +46,9 @@ const home = `${base}${lang}/`;
       </div>
     ))}
   </section>
-  <div class="browse-divider"><span>{t.browse_label}</span></div>
-
-
-  <nav class="tree" aria-label={t.home_nav_label}>
-    <div class="tree-section-label">{t.home_profiles}</div>
-    {entries.filter((entry) => entry.data.category === 'Perfil').map((entry) => {
-      const slug = entry.id.replace(/\.md$/, '');
-      const tr = entryTranslations[lang]?.[slug];
-      return (
-        <a
-          href={`${home}${entry.collection}/${slug}/`}
-          class="tree-node animate-in"
-          data-category={entry.data.category}
-        >
-          <span class="tree-node-category">{cat[entry.data.category] ?? entry.data.category}</span>
-          <span class="tree-node-index" aria-hidden="true">{entry.data.index}</span>
-          <span class="tree-node-title">{tr?.title ?? entry.data.title}</span>
-          <span class="tree-node-desc">{tr?.desc ?? entry.data.desc}</span>
-          <span class="tree-node-arrow">{t.consult} <span aria-hidden="true">→</span></span>
-        </a>
-      );
-    })}
-    <div class="tree-section-label">{t.home_refs}</div>
-    {entries.filter((entry) => entry.data.category !== 'Perfil').map((entry) => {
-      const slug = entry.id.replace(/\.md$/, '');
-      const tr = entryTranslations[lang]?.[slug];
-      return (
-        <a
-          href={`${home}${entry.collection}/${slug}/`}
-          class="tree-node animate-in"
-          data-category={entry.data.category}
-        >
-          <span class="tree-node-category">{cat[entry.data.category] ?? entry.data.category}</span>
-          <span class="tree-node-index" aria-hidden="true">{entry.data.index}</span>
-          <span class="tree-node-title">{tr?.title ?? entry.data.title}</span>
-          <span class="tree-node-desc">{tr?.desc ?? entry.data.desc}</span>
-          <span class="tree-node-arrow">{t.consult} <span aria-hidden="true">→</span></span>
-        </a>
-      );
-    })}
-
+  <nav class="browse-links" aria-label={t.home_nav_label}>
+    <a href={`${home}profiles/`}>{t.browse_profiles}</a>
+    <a href={`${home}references/`}>{t.browse_refs}</a>
   </nav>
 
   <div class="tools-link-row">
@@ -109,9 +68,9 @@ const home = `${base}${lang}/`;
 </Base>
 
 <style>
-.tree-node[data-category="Perfil"]     { border-left: 3px solid var(--accent); }
-.tree-node[data-category="Referência"] { border-left: 3px solid #4a7c59; }
-.tree-node[data-category="Recurso"]    { border-left: 3px solid #7c5a3a; }
+.browse-links { display: flex; flex-wrap: wrap; gap: 1.6rem; margin: 1.6rem 0 0.4rem; }
+.browse-links a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 0.15rem; transition: color 0.15s ease, border-color 0.15s ease; }
+.browse-links a:hover { color: var(--accent); border-color: var(--accent); }
 .tools-link-lighthouse { border-left-color: var(--accent); }
 .tools-link-lighthouse:hover { border-color: var(--accent); }
 .tools-link { display: flex; flex-direction: column; gap: 0.3rem; padding: 1.2rem 1.5rem; background: var(--bg-elevated); border: 1px solid var(--rule); border-left: 3px solid var(--beam); text-decoration: none; transition: border-color 0.2s ease; }
