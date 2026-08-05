@@ -210,7 +210,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 /* ── Prompt ───────────────────────────────────────────────── */
 .prompt-section { margin-bottom: 2rem; }
 .prompt-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.6rem; }
-.prompt-question { font-size: var(--fs-xl); line-height: 1.3; color: var(--ink); font-weight: 500; max-width: 36ch; }
+.prompt-question { margin: 0; font-size: var(--fs-xl); line-height: 1.3; color: var(--ink); font-weight: 500; max-width: 36ch; }
 
 /* ── Breadcrumb ───────────────────────────────────────────── */
 .breadcrumb { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; font-size: var(--fs-sm); font-family: 'JetBrains Mono', 'Mono Fallback', monospace; padding: 0.6rem 0.9rem; background: var(--bg-elevated); border: 1px solid var(--rule); }

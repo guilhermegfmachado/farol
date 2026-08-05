@@ -11,13 +11,16 @@ interface Props {
 }
 
 const { lang = 'pt', altHrefs = {}, tagline = false } = Astro.props;
+// On a homepage the site name *is* the page heading, so the masthead carries
+// the h1. Content pages get theirs from their own title block.
+const Logotype = tagline ? 'h1' : 'span';
 const t = ui[lang];
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const allLangs: Lang[] = ALL_LANGS;
 ---
 <header>
   <div class="header-top">
-    <span class="logotype">
+    <Logotype class="logotype">
       <button
         type="button"
         class="logotype-mark night-toggle"
@@ -28,7 +31,7 @@ const allLangs: Lang[] = ALL_LANGS;
         <LighthouseMark />
       </button>
       <a href={lang === 'pt' ? base : `${base}${lang}/`} class="logotype-link">FAROL</a>
-    </span>
+    </Logotype>
     <div class="header-right">
       <div class="header-controls">
         <div class="hdr-search">
@@ -196,7 +199,9 @@ const allLangs: Lang[] = ALL_LANGS;
 .night-toggle { background: none; border: none; padding: 0; cursor: pointer; color: var(--ink); transition: transform 0.2s ease; }
 .night-toggle:hover { transform: scale(1.12); }
 .night-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.logotype { display: flex; align-items: center; gap: 0.35rem; }
+/* On homepages this element is an h1, elsewhere a span — kill the UA margin.
+   Size and weight stay with the .logotype rule in global.css. */
+.logotype { display: flex; align-items: center; gap: 0.35rem; margin: 0; }
 .logotype-link {
   font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
   font-size: 1.1rem;

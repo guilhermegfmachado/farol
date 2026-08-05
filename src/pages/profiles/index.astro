@@ -18,6 +18,9 @@ const hrefs = allSectionHrefs(base, 'profiles');
 <Base title={`${t.home_profiles} — Farol`} description={t.tagline} altHrefs={hrefs}>
   <Header lang="pt" altHrefs={hrefs} />
   <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: home }, { label: t.home_profiles.toLowerCase() }]} />
+  <div class="prompt-section">
+    <h1 class="prompt-question">{t.home_profiles}</h1>
+  </div>
   <nav class="tree" aria-label={t.home_profiles}>
     {entries.map((entry) => {
       const slug = entry.id.replace(/\.md$/, '');
