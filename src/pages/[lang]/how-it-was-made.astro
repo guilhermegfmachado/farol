@@ -24,7 +24,7 @@ const eticaTitle = entryTranslations[lang]?.etica?.title ?? 'Ética & RGPD';
 >
   <Header lang={lang} altHrefs={allMadeHrefs(base)} />
 
-  <Breadcrumb crumbs={[
+  <Breadcrumb lang={lang} crumbs={[
     { label: t.breadcrumb_home, href: `${base}${lang}/` },
     { label: m.title.toLowerCase() },
   ]} />

@@ -65,7 +65,7 @@ const allLangs: Lang[] = ALL_LANGS;
         >Aa</button>
         <select
           class="lang-select"
-          aria-label="Select language"
+          aria-label={t.lang_select_aria}
           onchange="if(this.value) window.location.href=this.value"
         >
           <option value="" disabled selected>{lang.toUpperCase()}</option>

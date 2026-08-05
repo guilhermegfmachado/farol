@@ -22,7 +22,7 @@ const hrefs = allSectionHrefs(base, 'references');
 ---
 <Base title={`${t.home_refs} — Farol`} description={t.tagline} altHrefs={hrefs}>
   <Header lang={lang} altHrefs={hrefs} />
-  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: home }, { label: t.home_refs.toLowerCase() }]} />
+  <Breadcrumb lang={lang} crumbs={[{ label: t.breadcrumb_home, href: home }, { label: t.home_refs.toLowerCase() }]} />
   <div class="prompt-section">
     <h1 class="prompt-question">{t.home_refs}</h1>
   </div>

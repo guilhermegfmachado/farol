@@ -33,7 +33,7 @@ const note = v.note.replace('__DEFAULT__', defaultHref);
 >
   <Header lang={lang} altHrefs={{ [lang]: selfHref }} />
 
-  <Breadcrumb crumbs={[
+  <Breadcrumb lang={lang} crumbs={[
     { label: t.breadcrumb_home, href: `${base}${lang}/` },
     { label: v.title.toLowerCase(), href: defaultHref },
     { label: v.country.toLowerCase() },

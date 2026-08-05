@@ -26,7 +26,7 @@ const profileTitles = new Map(allProfiles.map((p) => [p.id.replace(/\.md$/, ''),
 <Base title={`${name} — Ferramentas — Farol`} description={desc} altHrefs={allLangHrefs(base, 'tools', slug)}>
   <Header altHrefs={allLangHrefs(base, 'tools', slug)} />
 
-  <Breadcrumb crumbs={[
+  <Breadcrumb lang="pt" crumbs={[
     { label: 'início', href: base },
     { label: 'ferramentas', href: `${base}tools/` },
     { label: name.toLowerCase() },
