@@ -174,3 +174,57 @@ live code.
 
 Nothing in Phases 1–3 requires a URL or translation change as far as this survey
 can tell. The one risk flagged in the brief — slug renaming — is not needed.
+
+
+---
+
+# Result — all phases complete
+
+Every verification in the brief passes. Full detail in the five commits.
+
+## What the brief asked for, and what happened
+
+| | |
+|---|---|
+| Deduplicate the homepage | 112 per-locale page files → 4 `[lang]` routes, −11,771 lines |
+| CI parity gate | Added, and redesigned so it does not fail on the country axis |
+| Move the grids off the homepage | → `/{lang}/profiles/` and `/{lang}/references/` |
+| Keep all observations, reduce their chrome | 14 kept, cards → text list |
+| Fix the taxonomy | `kind` + per-kind `order` in the schema; `Recurso` retired |
+| Language picker | Was already a `<select>` — nothing to do |
+| Nav duplication | Tower and Tools no longer appear twice; Home dropped from the footer |
+| Typography | 28 rem values → 10 named steps; homepage 16 → 11 rendered sizes |
+
+## Verification
+
+1. Build: **zero warnings**. Two were fixed to get there — a duplicate
+   `night_toggle` key in all 24 original locale blocks, and a chunk-size
+   advisory for html2pdf, which is already dynamically imported (confirmed: zero
+   pages preload or `src` that chunk).
+2. All 29 locales render every page.
+3. **38 base pages in every locale**, identical. Country cards on top: fr 2,
+   de 3, nl 1, el 1 — by design, and the gate checks them against
+   `country-legal.ts` in both directions.
+4. Internal links across 1110 pages: **0 broken**.
+5. **All 1051 pre-existing URLs still resolve. Zero lost.**
+6. No untranslated UI leaking. Spot-checked el, bg, mt and mk in a browser —
+   browse links, footer nav, observation headings and the new index pages all in
+   the right language.
+7. Homepage: interactive **46 → 35**, observations 14 → 14, card grid 12 → 0,
+   font sizes 16 → 11, weights 3 → 3.
+
+## Bug found and fixed by the deduplication
+
+`tr`, `no`, `is`, `sr` and `mk` rendered **Maltese** category labels — "Profil /
+Referenza / Riżorsa" — on their homepage cards. Their homepages had been cloned
+from the Maltese one and each carried a local category map that was never
+translated, bypassing `categoryTranslations` in `i18n.ts`. This is exactly the
+drift the brief predicted, and it could only have been fixed by deduplicating.
+
+## Still open, for you
+
+- **`fr`, `hr` and `it` are missing the "note on translation" section** the other
+  25 About pages carry. Adding it means writing new translations, which the
+  brief puts out of scope. Their existing four sections are preserved.
+- **`SaveStar.astro`** remains imported by nothing.
+- Slug renaming was never needed: no URL changed.
