@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { entryTranslations, categoryTranslations, type Lang, ALL_LANGS } from '@/lib/i18n';
+import { ui, entryTranslations, categoryTranslations, type Lang, ALL_LANGS } from '@/lib/i18n';
 import { contentTranslations } from '@/lib/content-translations';
 import { toolTranslations } from '@/lib/tool-translations';
 import { countryLegal } from '@/lib/country-legal';
@@ -66,11 +66,12 @@ export const GET: APIRoute = async ({ params }) => {
     const tt = lang === 'pt' ? null : toolTranslations[lang]?.[slug];
     const desc = tt?.desc ?? tool.data.desc ?? '';
     const rgpd = tt?.rgpd_note ?? tool.data.rgpd_note ?? '';
-    const cat = categoryTranslations[lang]?.['Recurso'] ?? 'Tool';
+    const tools = ui[lang].breadcrumb_tools;
+    const cat = tools.charAt(0).toUpperCase() + tools.slice(1);
     items.push({
       t: tool.data.name,
       c: cat,
-      k: 'Recurso',
+      k: 'Ferramenta',
       u: `${prefix}tools/${slug}/`,
       s: snippet(desc),
       x: `${tool.data.name} ${desc} ${rgpd}`.toLowerCase(),

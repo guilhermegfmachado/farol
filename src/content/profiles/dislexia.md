@@ -1,5 +1,6 @@
 ---
-index: "02"
+kind: "profile"
+order: 2
 title: "Dislexia"
 category: "Perfil"
 subtitle: "Perturbação específica da aprendizagem da leitura"

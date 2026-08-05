@@ -13,7 +13,11 @@ const aiToolSchema = z.object({
 });
 
 const entrySchema = z.object({
-  index: z.string(),
+  // Two independent sequences: profiles 01-07, references 01-05. `kind` and
+  // `order` are the source of truth; the display number is derived from them,
+  // so a card cannot drift into the wrong sequence or duplicate a number.
+  kind: z.enum(['profile', 'reference']),
+  order: z.number().int().positive(),
   title: z.string(),
   category: z.string(),
   subtitle: z.string(),

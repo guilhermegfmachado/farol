@@ -1,5 +1,6 @@
 ---
-index: "08"
+kind: "reference"
+order: 1
 title: "Ética & RGPD"
 category: "Referência"
 subtitle: "A grelha pela qual toda a ferramenta de IA passa antes de entrar na sala"

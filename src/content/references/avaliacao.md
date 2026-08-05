@@ -1,5 +1,6 @@
 ---
-index: "12"
+kind: "reference"
+order: 5
 title: "Avaliação Formativa"
 category: "Referência"
 subtitle: "Avaliar para aprender, não apenas para classificar"

@@ -1,34 +1,39 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries, displayIndex } from '@/lib/entries';
-import { ui, allLangHrefs } from '@/lib/i18n';
-import Base from '../../layouts/Base.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import Breadcrumb from '../../components/Breadcrumb.astro';
+import { ui, entryTranslations, sectionLabelTranslations, allLangHrefs, categoryTranslations, PREFIXED_LANGS, type Lang } from '@/lib/i18n';
+import { contentTranslations } from '@/lib/content-translations';
+import Base from '../../../layouts/Base.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('profiles');
-  return entries.map((entry) => ({
-    params: { slug: entry.id.replace(/\.md$/, '') },
-    props: { entry },
-  }));
+  return PREFIXED_LANGS.flatMap((lang) =>
+    entries.map((entry) => ({
+      params: { lang, slug: entry.id.replace(/\.md$/, '') },
+      props: { entry, lang },
+    })),
+  );
 }
 
-const { entry } = Astro.props;
-const { title, category, subtitle, sections, ai_strategies, pending } = entry.data;
-const references = entry.data.references ?? [];
+const { entry, lang } = Astro.props as { entry: any; lang: Lang };
+const { category, sections, ai_strategies, pending } = entry.data;
+const catLabel = categoryTranslations[lang]?.[category] ?? category;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
+const t = ui[lang];
+const tr = entryTranslations[lang]?.[slug];
+const title = tr?.title ?? entry.data.title;
+const subtitle = tr?.subtitle ?? entry.data.subtitle;
 const langHrefs = allLangHrefs(base, 'profiles', slug);
-const t = ui['pt'];
-
 const allTools = await getCollection('tools');
-const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
-
 const allProfiles = await getCollection('profiles');
 const relatedSlugs = entry.data.related ?? [];
 const relatedEntries = allProfiles.filter(p => relatedSlugs.includes(p.id.replace(/\.md$/, '')));
+const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
+const ct = contentTranslations[lang]?.[slug];
 
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
@@ -38,91 +43,58 @@ const prev = idx > 0 ? allEntries[idx - 1] : null;
 const next = idx < allEntries.length - 1 ? allEntries[idx + 1] : null;
 
 function entryHref(e: typeof allEntries[0]) {
-  return `${base}${e.collection}/${e.id.replace(/\.md$/, '')}/`;
+  const s = e.id.replace(/\.md$/, '');
+  const etr = entryTranslations[lang]?.[s];
+  return { href: `${base}${lang}/${e.collection}/${s}/`, title: etr?.title ?? e.data.title };
 }
 ---
-<Base
-  title={`${title} — Farol`}
-  description={subtitle}
-  ogTitle={`${title} · ${category} — Farol`}
-  altHrefs={langHrefs}
->
-  <Header lang="pt" altHrefs={langHrefs} />
-
-  <Breadcrumb crumbs={[
-    { label: 'início', href: base },
-    { label: title.toLowerCase() },
-  ]} />
-
+<Base title={`${title} — Farol`} description={subtitle} ogTitle={`${title} · ${catLabel} — Farol`} altHrefs={langHrefs}>
+  <Header lang={lang} altHrefs={langHrefs} />
+  <Breadcrumb crumbs={[{ label: t.breadcrumb_home, href: `${base}${lang}/` }, { label: title.toLowerCase() }]} />
   <article class="card animate-in">
     <header class="card-header">
       <div class="card-header-meta">
-        <span class="card-category">{category}</span>
+        <span class="card-category">{catLabel}</span>
         <span class="card-index-large" aria-hidden="true">{displayIndex(entry.data)}</span>
       </div>
       <h1 class="card-title">{title}</h1>
-      <p class="card-subtitle">{subtitle}</p>
+      {subtitle && <p class="card-subtitle">{subtitle}</p>}
     </header>
-
-    {sections.map((section) => (
+    {sections.map((section, i) => (
       <section class="card-section" data-a4={['Como se manifesta na sala', 'Estratégias sem IA', 'Sinais de alerta para referenciação'].includes(section.label) ? '' : undefined}>
-        <h2 class="card-section-label">{section.label}</h2>
-        <ul>
-          {section.items.map((item) => (
-            <li><span set:html={item} /></li>
-          ))}
-        </ul>
+        <h2 class="card-section-label">{sectionLabelTranslations[lang]?.[section.label] ?? section.label}</h2>
+        <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
         {section.label === 'Estratégias sem IA' && (
-          <a class="section-ref-link" href={`${base}references/diferenciacao/`}>Diferenciação Pedagógica →</a>
+          <a class="section-ref-link" href={`${base}${lang}/references/diferenciacao/`}>{entryTranslations[lang]?.diferenciacao?.title ?? 'Diferenciação Pedagógica'} →</a>
         )}
         {section.label === 'Sinais de alerta para referenciação' && (
           <p class="referral-note">{t.referral_note}</p>
         )}
         {section.label === 'Sinais de alerta para referenciação' && (
-          <a class="section-ref-link" href={`${base}references/legislacao/`}>Enquadramento Legal →</a>
+          <a class="section-ref-link" href={`${base}${lang}/references/legislacao/`}>{entryTranslations[lang]?.legislacao?.title ?? 'Enquadramento Legal'} →</a>
         )}
       </section>
     ))}
-
     {ai_strategies && (
       <section class="card-section ai-section">
-        <h2 class="card-section-label">Onde a IA entra</h2>
-        {ai_strategies.pending ? (
-          <div class="pending-notice">
-            A preencher após o curso em Florença (Agosto 2026). A estrutura já está pronta — cada ferramenta terá: caso de uso, sugestão de prompt, e nota sobre privacidade.
-          </div>
-        ) : (
-          <div class="ai-tools">
-            {ai_strategies.tools.map((t) => (
-              <div class="ai-tool">
-                <div class="ai-tool-name">{t.tool}</div>
-                <div class="ai-tool-use">{t.use}</div>
-                {t.prompt && (
-                  <div class="ai-tool-prompt">
-                    <span class="ai-tool-prompt-label">Prompt</span>
-                    <blockquote>{t.prompt}</blockquote>
-                  </div>
-                )}
-                {t.caveats && (
-                  <div class="ai-tool-caveats">{t.caveats}</div>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
+        <h2 class="card-section-label">{sectionLabelTranslations[lang]?.['Onde a IA entra'] ?? 'AI'}</h2>
+        {ai_strategies.pending ? <div class="pending-notice">{t.ai_pending}</div> : <div class="ai-tools">{ai_strategies.tools.map((tool) => <div class="ai-tool"><div class="ai-tool-name">{tool.tool}</div><div class="ai-tool-use">{tool.use}</div>{tool.prompt && <div class="ai-tool-prompt"><span class="ai-tool-prompt-label">Prompt</span><blockquote>{tool.prompt}</blockquote></div>}{tool.caveats && <div class="ai-tool-caveats">{tool.caveats}</div>}</div>)}</div>}
       </section>
     )}
-
-    {pending && <div class="pending-notice">{pending}</div>}
+    {pending && <div class="pending-notice">{t.translation_notice}</div>}
     {relatedEntries.length > 0 && (
       <div class="related-bar">
-        <span class="related-label">Ver também</span>
+        <span class="related-label">{t.see_also}</span>
         <div class="related-chips">
-          {relatedEntries.map((rp) => (
-            <a href={`${base}profiles/${rp.id.replace(/\.md$/, '')}/`} class="related-chip">
-              {rp.data.title}
-            </a>
-          ))}
+          {relatedEntries.map((rp) => {
+            const rs = rp.id.replace(/\.md$/, '');
+            const rtr = entryTranslations[lang]?.[rs];
+            return (
+              <a href={`${base}${lang}/profiles/${rs}/`} class="related-chip">
+                {rtr?.title ?? rp.data.title}
+              </a>
+            );
+          })}
         </div>
       </div>
     )}
@@ -131,7 +103,7 @@ function entryHref(e: typeof allEntries[0]) {
         <summary><span class="card-section-label">{t.tools_for_profile}</span><span class="tools-count">{profileTools.length}</span></summary>
         <div class="tool-chips">
           {profileTools.map((tool) => (
-            <a href={`${base}tools/${tool.id.replace(/\.md$/, '')}/`} class="tool-chip">
+            <a href={`${base}${lang}/tools/${tool.id.replace(/\.md$/, '')}/`} class="tool-chip">
               <span class="tool-chip-name">{tool.data.name}</span>
               {tool.data.free && <span class="tool-chip-free">free</span>}
             </a>
@@ -139,11 +111,11 @@ function entryHref(e: typeof allEntries[0]) {
         </div>
       </details>
     )}
-    {references.length > 0 && (
+    {(entry.data.references ?? []).length > 0 && (
       <section class="card-section references-section">
         <h2 class="card-section-label">{t.references_label}</h2>
         <ol class="references-list">
-          {references.map((ref, i) => (
+          {(entry.data.references ?? []).map((ref, i) => (
             <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
           ))}
         </ol>
@@ -151,23 +123,16 @@ function entryHref(e: typeof allEntries[0]) {
     )}
     <div class="print-bar"><button type="button" class="print-btn-a4">{t.a4_sheet} · PDF</button><button type="button" class="print-btn" onclick="window.print()">{t.print_card} · PDF</button></div>
   </article>
-
-
-  <Footer lang="pt" />
+  <Footer lang={lang} />
 </Base>
-
 <style>
-
 .card-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; margin-bottom: 1rem; }
 .card-nav-item { display: flex; flex-direction: column; gap: 0.2rem; padding: 0.9rem 1.2rem; border: 1px solid var(--rule); background: var(--bg-elevated); text-decoration: none; transition: border-color 0.15s ease; max-width: 48%; }
 .card-nav-item:hover { border-color: var(--accent); }
 .card-nav-next { text-align: right; margin-left: auto; }
 .card-nav-dir { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faded); }
 .card-nav-title { font-size: 0.95rem; font-weight: 600; color: var(--ink); }
-
-@media print {
-  .card-nav { display: none; }
-}
+@media print { .card-nav { display: none; } }
 
 .tools-section { margin-top: 0; }
 .tool-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
