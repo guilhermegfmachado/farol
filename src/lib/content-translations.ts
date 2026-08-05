@@ -345,11 +345,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>UN Convention on the Rights of Persons with Disabilities</em> (UNCRPD, 2006), ratified by Ireland in 2018; Article 24 establishes inclusive education as a right.",
-      "<em>Education Act 1998</em>; the general statutory framework for the education system, giving parents statutory rights and obliging schools to provide for a diversity of needs.",
-      "<em>Education for Persons with Special Educational Needs Act 2004</em> (EPSEN Act); Ireland's primary SEN legislation, establishing the National Council for Special Education (NCSE) and the right to an inclusive education and an Individual Education Plan (IEP).",
-      "<em>Disability Act 2005</em> and the <em>Equal Status Acts 2000–2018</em>; place statutory obligations on public service providers and prohibit discrimination in the provision of educational services.",
-      "<em>Data Protection Act 2018</em>, which gives effect to the General Data Protection Regulation (GDPR) in Ireland; all student data is protected and must not be shared without consent.",
+      "<em>UN Convention on the Rights of Persons with Disabilities</em> (UNCRPD, 2006), ratified by Ireland in 2018; Article 24 establishes inclusive education as a right. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "<em>Education Act 1998</em>; the general statutory framework for the education system, giving parents statutory rights and obliging schools to provide for a diversity of needs. <a href=\"https://www.irishstatutebook.ie/eli/1998/act/51/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "<em>Education for Persons with Special Educational Needs Act 2004</em> (EPSEN Act); Ireland's primary SEN legislation, establishing the National Council for Special Education (NCSE) and the right to an inclusive education and an Individual Education Plan (IEP). <a href=\"https://www.irishstatutebook.ie/eli/2004/act/30/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "<em>Disability Act 2005</em> and the <em>Equal Status Acts 2000–2018</em>; place statutory obligations on public service providers and prohibit discrimination in the provision of educational services. <a href=\"https://www.irishstatutebook.ie/eli/2005/act/14/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "<em>Data Protection Act 2018</em>, which gives effect to the General Data Protection Regulation (GDPR) in Ireland; all student data is protected and must not be shared without consent. <a href=\"https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -746,11 +746,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Convención sobre los Derechos de las Personas con Discapacidad</em> (ONU, 2006), ratificada por España (BOE de 21 de abril de 2008); su artículo 24 reconoce el derecho a la educación inclusiva.",
-      "<em>Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación</em> (LOMLOE); marco vigente del sistema educativo, incorpora el Diseño Universal para el Aprendizaje y refuerza la equidad e inclusión, reconociendo al alumnado con altas capacidades como ACNEAE.",
-      "<em>Real Decreto 984/2021, de 16 de noviembre</em>, por el que se regulan la evaluación y la promoción en la educación primaria, así como la evaluación, la promoción y la titulación en la ESO, el bachillerato y la formación profesional.",
-      "<em>Real Decreto 126/2014, de 28 de febrero</em>, por el que se establece el currículo básico de la Educación Primaria, desarrollado por los decretos autonómicos; la educación es competencia compartida con las comunidades autónomas.",
-      "<em>Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales</em> (LOPDGDD), en aplicación del Reglamento General de Protección de Datos (RGPD).",
+      "<em>Convención sobre los Derechos de las Personas con Discapacidad</em> (ONU, 2006), ratificada por España (BOE de 21 de abril de 2008); su artículo 24 reconoce el derecho a la educación inclusiva. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
+      "<em>Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación</em> (LOMLOE); marco vigente del sistema educativo, incorpora el Diseño Universal para el Aprendizaje y refuerza la equidad e inclusión, reconociendo al alumnado con altas capacidades como ACNEAE. <a href=\"https://www.boe.es/eli/es/lo/2020/12/29/3/con\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
+      "<em>Real Decreto 984/2021, de 16 de noviembre</em>, por el que se regulan la evaluación y la promoción en la educación primaria, así como la evaluación, la promoción y la titulación en la ESO, el bachillerato y la formación profesional. <a href=\"https://www.boe.es/eli/es/rd/2021/11/16/984/con\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
+      "<em>Real Decreto 126/2014, de 28 de febrero</em>, por el que se establece el currículo básico de la Educación Primaria, desarrollado por los decretos autonómicos; la educación es competencia compartida con las comunidades autónomas. <a href=\"https://www.boe.es/eli/es/rd/2014/02/28/126/con\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
+      "<em>Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales</em> (LOPDGDD), en aplicación del Reglamento General de Protección de Datos (RGPD). <a href=\"https://www.boe.es/eli/es/lo/2018/12/05/3/con\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -1147,11 +1147,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Convention relative aux droits des personnes handicapées</em> (ONU, 2006), ratifiée par la France ; son article 24 consacre le droit à une éducation inclusive.",
-      "<em>Loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées</em> ; texte fondateur de la scolarisation inclusive, elle institue les MDPH et le droit à la scolarisation en milieu ordinaire assortie d'un projet personnalisé de scolarisation.",
-      "<em>Loi n° 2013-595 du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République</em> ; elle renforce l'école inclusive et crée les ESPE (devenues INSPE).",
-      "<em>Loi n° 2019-791 du 26 juillet 2019 pour une école de la confiance</em> ; elle inscrit l'école inclusive dans le code de l'éducation et accompagne le déploiement des ULIS, des PIAL et des AESH.",
-      "<em>Règlement général sur la protection des données</em> (RGPD) et <em>loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés</em> (loi Informatique et Libertés).",
+      "<em>Convention relative aux droits des personnes handicapées</em> (ONU, 2006), ratifiée par la France ; son article 24 consacre le droit à une éducation inclusive. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
+      "<em>Loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées</em> ; texte fondateur de la scolarisation inclusive, elle institue les MDPH et le droit à la scolarisation en milieu ordinaire assortie d'un projet personnalisé de scolarisation. <a href=\"https://www.legifrance.gouv.fr/eli/loi/2005/2/11/2005-102/jo/texte\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
+      "<em>Loi n° 2013-595 du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République</em> ; elle renforce l'école inclusive et crée les ESPE (devenues INSPE). <a href=\"https://www.legifrance.gouv.fr/eli/loi/2013/7/8/2013-595/jo/texte\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
+      "<em>Loi n° 2019-791 du 26 juillet 2019 pour une école de la confiance</em> ; elle inscrit l'école inclusive dans le code de l'éducation et accompagne le déploiement des ULIS, des PIAL et des AESH. <a href=\"https://www.legifrance.gouv.fr/eli/loi/2019/7/26/2019-791/jo/texte\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
+      "<em>Règlement général sur la protection des données</em> (RGPD) et <em>loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés</em> (loi Informatique et Libertés). <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -1548,12 +1548,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Convenzione ONU sui diritti delle persone con disabilità</em> (CRPD, 2006), ratificata dall'Italia con la <em>Legge 3 marzo 2009, n. 18</em>; l'articolo 24 sancisce il diritto all'istruzione inclusiva.",
-      "<em>Legge 5 febbraio 1992, n. 104</em> (Legge-quadro per l'assistenza, l'integrazione sociale e i diritti delle persone handicappate); testo fondamentale dell'inclusione scolastica, prevede il Piano Educativo Individualizzato (PEI) e il sostegno didattico per gli alunni con disabilità certificata.",
-      "<em>Legge 8 ottobre 2010, n. 170</em> (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico); riconosce dislessia, disgrafia, disortografia e discalculia (DSA) e obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP).",
-      "<em>Decreto Legislativo 13 aprile 2017, n. 66</em>, e successive modifiche (<em>Decreto Legislativo 7 agosto 2019, n. 96</em>); riformano l'inclusione scolastica, introducono il Profilo di Funzionamento secondo il modello ICF e ridefiniscono il PEI e il GLO.",
+      "<em>Convenzione ONU sui diritti delle persone con disabilità</em> (CRPD, 2006), ratificata dall'Italia con la <em>Legge 3 marzo 2009, n. 18</em>; l'articolo 24 sancisce il diritto all'istruzione inclusiva. <a href=\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2009-03-03;18\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
+      "<em>Legge 5 febbraio 1992, n. 104</em> (Legge-quadro per l'assistenza, l'integrazione sociale e i diritti delle persone handicappate); testo fondamentale dell'inclusione scolastica, prevede il Piano Educativo Individualizzato (PEI) e il sostegno didattico per gli alunni con disabilità certificata. <a href=\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;104\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
+      "<em>Legge 8 ottobre 2010, n. 170</em> (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico); riconosce dislessia, disgrafia, disortografia e discalculia (DSA) e obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP). <a href=\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2010-10-08;170\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
+      "<em>Decreto Legislativo 13 aprile 2017, n. 66</em>, e successive modifiche (<em>Decreto Legislativo 7 agosto 2019, n. 96</em>); riformano l'inclusione scolastica, introducono il Profilo di Funzionamento secondo il modello ICF e ridefiniscono il PEI e il GLO. <a href=\"https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2017-04-13;66\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
       "<em>Direttiva ministeriale del 27 dicembre 2012</em> (Strumenti d'intervento per alunni con bisogni educativi speciali) e relativa <em>Circolare ministeriale n. 8 del 6 marzo 2013</em>; estendono le tutele all'area dei Bisogni Educativi Speciali (BES) e prevedono il Piano Annuale per l'Inclusione (PAI).",
-      "<em>Regolamento generale sulla protezione dei dati</em> (GDPR) e <em>Decreto Legislativo 30 giugno 2003, n. 196</em> (Codice in materia di protezione dei dati personali), come modificato dal <em>Decreto Legislativo 10 agosto 2018, n. 101</em>.",
+      "<em>Regolamento generale sulla protezione dei dati</em> (GDPR) e <em>Decreto Legislativo 30 giugno 2003, n. 196</em> (Codice in materia di protezione dei dati personali), come modificato dal <em>Decreto Legislativo 10 agosto 2018, n. 101</em>. <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -1948,11 +1948,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Übereinkommen über die Rechte von Menschen mit Behinderungen</em> (UN-Behindertenrechtskonvention, UN-BRK, 2006), von Deutschland ratifiziert am 24. Februar 2009, in Kraft getreten am 26. März 2009 (BGBl. 2008 II S. 1419); Artikel 24 verbürgt das Recht auf inklusive Bildung.",
+      "<em>Übereinkommen über die Rechte von Menschen mit Behinderungen</em> (UN-Behindertenrechtskonvention, UN-BRK, 2006), von Deutschland ratifiziert am 24. Februar 2009, in Kraft getreten am 26. März 2009 (BGBl. 2008 II S. 1419); Artikel 24 verbürgt das Recht auf inklusive Bildung. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Quelle öffnen\">↗</a>",
       "<em>Empfehlungen der Kultusministerkonferenz (KMK) zur inklusiven Bildung von Kindern und Jugendlichen mit Behinderungen in Schulen</em> (Beschluss vom 20. Oktober 2011) sowie die nachfolgenden KMK-Empfehlungen (2020); konkretisieren die Umsetzung der UN-BRK im Schulwesen.",
       "<em>Schulgesetze der Länder</em>, die die schulische Inklusion eigenständig regeln, u. a. das <em>Schulgesetz für das Land Nordrhein-Westfalen (SchulG NRW)</em>, § 20 (Förderorte), und das <em>Bayerische Gesetz über das Erziehungs- und Unterrichtswesen (BayEUG)</em>, Art. 41; Bildung ist Ländersache.",
       "<em>Verordnung über die sonderpädagogische Förderung, den Hausunterricht und die Schule für Kranke (AO-SF)</em> in der jeweiligen Landesfassung (z. B. NRW); regelt das Verfahren zur Feststellung des sonderpädagogischen Unterstützungsbedarfs.",
-      "<em>Datenschutz-Grundverordnung</em> (DSGVO, Verordnung (EU) 2016/679) und <em>Bundesdatenschutzgesetz</em> (BDSG vom 30. Juni 2017, in Kraft seit 25. Mai 2018) sowie die Landesdatenschutzgesetze; maßgeblich für den Umgang mit Schülerdaten.",
+      "<em>Datenschutz-Grundverordnung</em> (DSGVO, Verordnung (EU) 2016/679) und <em>Bundesdatenschutzgesetz</em> (BDSG vom 30. Juni 2017, in Kraft seit 25. Mai 2018) sowie die Landesdatenschutzgesetze; maßgeblich für den Umgang mit Schülerdaten. <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Quelle öffnen\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -2346,10 +2346,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Verdrag inzake de rechten van personen met een handicap</em> (VN-verdrag handicap / UNCRPD, 2006), door Nederland geratificeerd in 2016; artikel 24 erkent het recht op inclusief onderwijs.",
+      "<em>Verdrag inzake de rechten van personen met een handicap</em> (VN-verdrag handicap / UNCRPD, 2006), door Nederland geratificeerd in 2016; artikel 24 erkent het recht op inclusief onderwijs. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Bron openen\">↗</a>",
       "<em>Wet passend onderwijs</em> (Wet van 11 oktober 2012 tot wijziging van enkele onderwijswetten in verband met een herziening van de organisatie en financiering van de ondersteuning van leerlingen, in werking getreden op 1 augustus 2014); verankert de zorgplicht, de samenwerkingsverbanden en het ontwikkelingsperspectief (OPP).",
       "<em>Wet op het primair onderwijs (WPO)</em> en <em>Wet op de expertisecentra (WEC)</em>; regelen onder meer het speciaal basisonderwijs (SBO), het speciaal onderwijs (SO) en de toelaatbaarheidsverklaring (TLV).",
-      "<em>Algemene verordening gegevensbescherming</em> (AVG / Verordening (EU) 2016/679) en de <em>Uitvoeringswet AVG (UAVG)</em> (van kracht sinds 25 mei 2018); van toepassing op alle persoonsgegevens van leerlingen.",
+      "<em>Algemene verordening gegevensbescherming</em> (AVG / Verordening (EU) 2016/679) en de <em>Uitvoeringswet AVG (UAVG)</em> (van kracht sinds 25 mei 2018); van toepassing op alle persoonsgegevens van leerlingen. <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Bron openen\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -2743,10 +2743,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Konwencja ONZ o prawach osób niepełnosprawnych</em> (2006), ratyfikowana przez Polskę (Dz.U. 2012 poz. 1169); art. 24 gwarantuje prawo do edukacji włączającej.",
-      "<em>Ustawa z dnia 14 grudnia 2016 r. – Prawo oświatowe</em> (Dz.U. 2017 poz. 59, z późn. zm.); podstawowy akt regulujący system oświaty i kształcenie uczniów ze specjalnymi potrzebami edukacyjnymi.",
-      "<em>Rozporządzenie Ministra Edukacji Narodowej z dnia 9 sierpnia 2017 r. w sprawie warunków organizowania kształcenia, wychowania i opieki dla dzieci i młodzieży niepełnosprawnych, niedostosowanych społecznie i zagrożonych niedostosowaniem społecznym</em> (Dz.U. 2017 poz. 1578); określa zasady kształcenia specjalnego oraz opracowywania IPET.",
-      "<em>Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych</em> (Dz.U. 2018 poz. 1000), w związku ze stosowaniem ogólnego rozporządzenia o ochronie danych (RODO).",
+      "<em>Konwencja ONZ o prawach osób niepełnosprawnych</em> (2006), ratyfikowana przez Polskę (Dz.U. 2012 poz. 1169); art. 24 gwarantuje prawo do edukacji włączającej. <a href=\"https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20120001169\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
+      "<em>Ustawa z dnia 14 grudnia 2016 r. – Prawo oświatowe</em> (Dz.U. 2017 poz. 59, z późn. zm.); podstawowy akt regulujący system oświaty i kształcenie uczniów ze specjalnymi potrzebami edukacyjnymi. <a href=\"https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170000059\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
+      "<em>Rozporządzenie Ministra Edukacji Narodowej z dnia 9 sierpnia 2017 r. w sprawie warunków organizowania kształcenia, wychowania i opieki dla dzieci i młodzieży niepełnosprawnych, niedostosowanych społecznie i zagrożonych niedostosowaniem społecznym</em> (Dz.U. 2017 poz. 1578); określa zasady kształcenia specjalnego oraz opracowywania IPET. <a href=\"https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20170001578\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
+      "<em>Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych</em> (Dz.U. 2018 poz. 1000), w związku ze stosowaniem ogólnego rozporządzenia o ochronie danych (RODO). <a href=\"https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20180001000\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -3140,7 +3140,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "Legea nr. 221/2010 pentru ratificarea Convenției ONU privind drepturile persoanelor cu dizabilități (adoptată la New York la 13 decembrie 2006, semnată de România la 26 septembrie 2007) — consacră dreptul la educație incluzivă (art. 24).",
+      "Legea nr. 221/2010 pentru ratificarea Convenției ONU privind drepturile persoanelor cu dizabilități (adoptată la New York la 13 decembrie 2006, semnată de România la 26 septembrie 2007) — consacră dreptul la educație incluzivă (art. 24). <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Deschide sursa\">↗</a>",
       "Legea învățământului preuniversitar nr. 198/2023 (publicată în M. Of. nr. 613 din 5 iulie 2023) — cadrul legal în vigoare al învățământului preuniversitar; reglementează educația elevilor cu cerințe educaționale speciale (CES) și educația specială. A abrogat Legea Educației Naționale nr. 1/2011.",
       "Ordinul comun nr. 1985/1305/5805/2016 (MMFPSPV, MS, MENCS) privind aprobarea metodologiei pentru evaluarea și intervenția integrată în vederea încadrării copiilor cu dizabilități în grad de handicap, a orientării școlare și profesionale a copiilor cu CES — stabilește rolul CJRAE/COSP, certificatul de orientare școlară și profesională, PSI și PIP.",
       "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului (republicată) — garantează dreptul copilului la educație și la măsuri de protecție.",
@@ -3542,7 +3542,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Konvencija o pravima osoba s invaliditetom</em> (UN, 2006.), koju je Hrvatska potvrdila <em>Zakonom o potvrđivanju Konvencije o pravima osoba s invaliditetom i Fakultativnog protokola</em> (Narodne novine – Međunarodni ugovori, br. 6/2007); članak 24. priznaje pravo na inkluzivno obrazovanje.",
+      "<em>Konvencija o pravima osoba s invaliditetom</em> (UN, 2006.), koju je Hrvatska potvrdila <em>Zakonom o potvrđivanju Konvencije o pravima osoba s invaliditetom i Fakultativnog protokola</em> (Narodne novine – Međunarodni ugovori, br. 6/2007); članak 24. priznaje pravo na inkluzivno obrazovanje. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvori izvor\">↗</a>",
       "<em>Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi</em> (Narodne novine, br. 87/2008, s kasnijim izmjenama i dopunama); temeljni propis hrvatskog sustava osnovnoškolskog i srednjoškolskog odgoja i obrazovanja koji uređuje inkluzivno obrazovanje i primjereni oblik školovanja učenika s teškoćama.",
       "<em>Pravilnik o osnovnoškolskom i srednjoškolskom odgoju i obrazovanju učenika s teškoćama u razvoju</em> (Narodne novine, br. 24/2015); utvrđuje vrste teškoća te primjerene programe i oblike pomoći, uključujući individualizirani odgojno-obrazovni program (IOOP).",
       "<em>Pravilnik o odgoju i obrazovanju darovite djece i učenika</em> (Narodne novine, br. 71/2025), kojim je zamijenjen raniji <em>Pravilnik o osnovnoškolskom odgoju i obrazovanju darovitih učenika</em> (Narodne novine, br. 34/1991); uređuje prepoznavanje, identifikaciju i podršku darovitim učenicima.",
@@ -3941,10 +3941,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Úmluva OSN o právech osob se zdravotním postižením</em> (2006), ratifikovaná Českou republikou (č. 10/2010 Sb. m. s.); článek 24 zakotvuje právo na inkluzivní vzdělávání.",
-      "<em>Zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon)</em>; základní právní rámec vzdělávání v ČR, včetně vzdělávání nadaných žáků (§ 17) a žáků se speciálními vzdělávacími potřebami (§ 16).",
-      "<em>Vyhláška č. 27/2016 Sb., o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných</em>; upravuje podpůrná opatření 1.–5. stupně, plán pedagogické podpory (PLPP) a individuální vzdělávací plán (IVP).",
-      "<em>Zákon č. 110/2019 Sb., o zpracování osobních údajů</em>, v návaznosti na obecné nařízení o ochraně osobních údajů (GDPR).",
+      "<em>Úmluva OSN o právech osob se zdravotním postižením</em> (2006), ratifikovaná Českou republikou (č. 10/2010 Sb. m. s.); článek 24 zakotvuje právo na inkluzivní vzdělávání. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
+      "<em>Zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon)</em>; základní právní rámec vzdělávání v ČR, včetně vzdělávání nadaných žáků (§ 17) a žáků se speciálními vzdělávacími potřebami (§ 16). <a href=\"https://www.zakonyprolidi.cz/cs/2004-561\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
+      "<em>Vyhláška č. 27/2016 Sb., o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných</em>; upravuje podpůrná opatření 1.–5. stupně, plán pedagogické podpory (PLPP) a individuální vzdělávací plán (IVP). <a href=\"https://www.zakonyprolidi.cz/cs/2016-27\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
+      "<em>Zákon č. 110/2019 Sb., o zpracování osobních údajů</em>, v návaznosti na obecné nařízení o ochraně osobních údajů (GDPR). <a href=\"https://www.zakonyprolidi.cz/cs/2019-110\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -4339,10 +4339,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>FN:s konvention om rättigheter för personer med funktionsnedsättning</em> (CRPD, 2006), ratificerad av Sverige 2008 (i kraft 14 januari 2009); artikel 24 slår fast rätten till inkluderande utbildning.",
+      "<em>FN:s konvention om rättigheter för personer med funktionsnedsättning</em> (CRPD, 2006), ratificerad av Sverige 2008 (i kraft 14 januari 2009); artikel 24 slår fast rätten till inkluderande utbildning. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Öppna källan\">↗</a>",
       "<em>Skollag (2010:800)</em>, särskilt kapitel 3 om barns och elevers utveckling mot målen och särskilt stöd (bl.a. ledning och stimulans, extra anpassningar enligt 3 kap. 5 a §, åtgärdsprogram enligt 3 kap. 7 §) samt bestämmelserna om elevhälsa.",
       "<em>Läroplan för grundskolan, förskoleklassen och fritidshemmet (Lgr22)</em>, fastställd genom förordning av regeringen; styr undervisningens mål, innehåll och kunskapskrav.",
-      "<em>Dataskyddsförordningen</em> (GDPR, förordning (EU) 2016/679) och <em>lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning</em> (dataskyddslagen); gäller all behandling av elevers personuppgifter.",
+      "<em>Dataskyddsförordningen</em> (GDPR, förordning (EU) 2016/679) och <em>lag (2018:218) med kompletterande bestämmelser till EU:s dataskyddsförordning</em> (dataskyddslagen); gäller all behandling av elevers personuppgifter. <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Öppna källan\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -4737,10 +4737,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>FN's konvention om rettigheder for personer med handicap</em> (handicapkonventionen / CRPD, 2006), ratificeret af Danmark i 2009; artikel 24 fastslår retten til inkluderende uddannelse.",
-      "<em>Bekendtgørelse af lov om folkeskolen (folkeskoleloven), LBK nr. 1510 af 14. december 2017</em>; den grundlæggende lov for den danske folkeskole, herunder undervisningsdifferentiering, inklusion og specialpædagogisk bistand.",
-      "<em>Bekendtgørelse om folkeskolens specialundervisning og anden specialpædagogisk bistand, BEK nr. 693 af 20. juni 2014</em>; rammen for visitation, specialpædagogisk bistand (SPB) og PPR's rolle.",
-      "<em>Databeskyttelsesforordningen</em> (GDPR, forordning (EU) 2016/679) og <em>databeskyttelsesloven (lov nr. 502 af 23. maj 2018)</em>; gælder for al behandling af elevers personoplysninger.",
+      "<em>FN's konvention om rettigheder for personer med handicap</em> (handicapkonventionen / CRPD, 2006), ratificeret af Danmark i 2009; artikel 24 fastslår retten til inkluderende uddannelse. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
+      "<em>Bekendtgørelse af lov om folkeskolen (folkeskoleloven), LBK nr. 1510 af 14. december 2017</em>; den grundlæggende lov for den danske folkeskole, herunder undervisningsdifferentiering, inklusion og specialpædagogisk bistand. <a href=\"https://www.retsinformation.dk/eli/lta/2017/1510\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
+      "<em>Bekendtgørelse om folkeskolens specialundervisning og anden specialpædagogisk bistand, BEK nr. 693 af 20. juni 2014</em>; rammen for visitation, specialpædagogisk bistand (SPB) og PPR's rolle. <a href=\"https://www.retsinformation.dk/eli/lta/2014/693\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
+      "<em>Databeskyttelsesforordningen</em> (GDPR, forordning (EU) 2016/679) og <em>databeskyttelsesloven (lov nr. 502 af 23. maj 2018)</em>; gælder for al behandling af elevers personoplysninger. <a href=\"https://eur-lex.europa.eu/eli/reg/2016/679/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -5135,10 +5135,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>YK:n yleissopimus vammaisten henkilöiden oikeuksista</em> (YK, 2006), jonka Suomi ratifioi vuonna 2016; sen 24 artikla turvaa oikeuden inklusiiviseen koulutukseen.",
-      "<em>Perusopetuslaki 628/1998</em>; velvoittaa antamaan jokaiselle oppilaalle riittävän tuen ja sisältää kolmiportaisen tuen (yleinen, tehostettu ja erityinen tuki) sekä henkilökohtaisen opetuksen järjestämistä koskevan suunnitelman (HOJKS).",
-      "<em>Oppilas- ja opiskelijahuoltolaki 1287/2013</em>; sääntelee monialaista oppilashuoltoa ja oppilashuoltoryhmän toimintaa kouluissa.",
-      "<em>Tietosuojalaki 1050/2018</em>, joka täydentää ja täsmentää Euroopan unionin yleistä tietosuoja-asetusta (GDPR / asetus (EU) 2016/679).",
+      "<em>YK:n yleissopimus vammaisten henkilöiden oikeuksista</em> (YK, 2006), jonka Suomi ratifioi vuonna 2016; sen 24 artikla turvaa oikeuden inklusiiviseen koulutukseen. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
+      "<em>Perusopetuslaki 628/1998</em>; velvoittaa antamaan jokaiselle oppilaalle riittävän tuen ja sisältää kolmiportaisen tuen (yleinen, tehostettu ja erityinen tuki) sekä henkilökohtaisen opetuksen järjestämistä koskevan suunnitelman (HOJKS). <a href=\"https://www.finlex.fi/fi/laki/ajantasa/1998/19980628\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
+      "<em>Oppilas- ja opiskelijahuoltolaki 1287/2013</em>; sääntelee monialaista oppilashuoltoa ja oppilashuoltoryhmän toimintaa kouluissa. <a href=\"https://www.finlex.fi/fi/laki/ajantasa/2013/20131287\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
+      "<em>Tietosuojalaki 1050/2018</em>, joka täydentää ja täsmentää Euroopan unionin yleistä tietosuoja-asetusta (GDPR / asetus (EU) 2016/679). <a href=\"https://www.finlex.fi/fi/laki/ajantasa/2018/20181050\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -5532,10 +5532,10 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Dohovor OSN o právach osôb so zdravotným postihnutím</em> (2006), ratifikovaný Slovenskou republikou (č. 317/2010 Z.z.); článok 24 zakotvuje právo na inkluzívne vzdelávanie.",
-      "<em>Zákon č. 245/2008 Z. z. o výchove a vzdelávaní (školský zákon) a o zmene a doplnení niektorých zákonov</em>; základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami i nadaných žiakov (§ 105–106).",
-      "<em>Vyhláška Ministerstva školstva SR č. 325/2008 Z. z. o školských zariadeniach výchovného poradenstva a prevencie</em>, upravujúca podmienky vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami a činnosť CPP.",
-      "<em>Zákon č. 18/2018 Z. z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov</em>, v nadväznosti na všeobecné nariadenie o ochrane údajov (GDPR).",
+      "<em>Dohovor OSN o právach osôb so zdravotným postihnutím</em> (2006), ratifikovaný Slovenskou republikou (č. 317/2010 Z.z.); článok 24 zakotvuje právo na inkluzívne vzdelávanie. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
+      "<em>Zákon č. 245/2008 Z. z. o výchove a vzdelávaní (školský zákon) a o zmene a doplnení niektorých zákonov</em>; základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami i nadaných žiakov (§ 105–106). <a href=\"https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2008/245/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
+      "<em>Vyhláška Ministerstva školstva SR č. 325/2008 Z. z. o školských zariadeniach výchovného poradenstva a prevencie</em>, upravujúca podmienky vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami a činnosť CPP. <a href=\"https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2008/325/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
+      "<em>Zákon č. 18/2018 Z. z. o ochrane osobných údajov a o zmene a doplnení niektorých zákonov</em>, v nadväznosti na všeobecné nariadenie o ochrane údajov (GDPR). <a href=\"https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2018/18/\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -5929,7 +5929,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Az ENSZ Egyezménye a fogyatékossággal élő személyek jogairól</em> (CRPD, 2006), amelyet Magyarország a <em>2007. évi XCII. törvénnyel</em> hirdetett ki; 24. cikke az inkluzív oktatáshoz való jogot rögzíti.",
+      "<em>Az ENSZ Egyezménye a fogyatékossággal élő személyek jogairól</em> (CRPD, 2006), amelyet Magyarország a <em>2007. évi XCII. törvénnyel</em> hirdetett ki; 24. cikke az inkluzív oktatáshoz való jogot rögzíti. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Forrás megnyitása\">↗</a>",
       "<em>2011. évi CXC. törvény a nemzeti köznevelésről</em> (Nkt.); a köznevelési rendszer alaptörvénye, amely meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit, a tehetséggondozást és az intézményi kötelezettségeket.",
       "<em>32/2012. (X. 8.) EMMI rendelet a Sajátos nevelési igényű gyermekek óvodai nevelésének irányelve és a Sajátos nevelési igényű tanulók iskolai oktatásának irányelve kiadásáról</em>; részletesen szabályozza az egyes fogyatékossági típusokhoz szükséges feltételeket.",
       "<em>15/2013. (II. 26.) EMMI rendelet a pedagógiai szakszolgálati intézmények működéséről</em>; szabályozza a Pedagógiai Szakszolgálat (szakértői bizottság) szakértői vizsgálatát és a szakértői vélemény kiadását.",
@@ -6326,7 +6326,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Σύμβαση των Ηνωμένων Εθνών για τα Δικαιώματα των Ατόμων με Αναπηρία</em> (CRPD, 2006), που κυρώθηκε από την Ελλάδα με τον <em>Ν. 4074/2012</em>· το άρθρο 24 κατοχυρώνει το δικαίωμα στη συμπεριληπτική εκπαίδευση.",
+      "<em>Σύμβαση των Ηνωμένων Εθνών για τα Δικαιώματα των Ατόμων με Αναπηρία</em> (CRPD, 2006), που κυρώθηκε από την Ελλάδα με τον <em>Ν. 4074/2012</em>· το άρθρο 24 κατοχυρώνει το δικαίωμα στη συμπεριληπτική εκπαίδευση. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Άνοιγμα πηγής\">↗</a>",
       "<em>Νόμος 3699/2008</em> «Ειδική Αγωγή και Εκπαίδευση ατόμων με αναπηρία ή με ειδικές εκπαιδευτικές ανάγκες»· βασικό νομοθετικό πλαίσιο που προβλέπει την παράλληλη στήριξη και το Εξατομικευμένο Πρόγραμμα Εκπαίδευσης (ΕΠΕ).",
       "<em>Νόμος 4823/2021</em> «Αναβάθμιση του σχολείου, ενδυνάμωση των εκπαιδευτικών και άλλες διατάξεις»· ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα Κέντρα Εκπαιδευτικής και Συμβουλευτικής Υποστήριξης (ΚΕΣΥ/ΚΕΔΑΣΥ).",
       "<em>Νόμος 2413/1996</em> για τη Διαπολιτισμική Εκπαίδευση και οι σχετικές υπουργικές αποφάσεις για τις Τάξεις Υποδοχής (ΤΥ Ι & ΤΥ ΙΙ) και τα προγράμματα διαπολιτισμικής αγωγής για αλλόγλωσσους μαθητές.",
@@ -6724,7 +6724,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Конвенция на ООН за правата на хората с увреждания</em> (2006 г.), ратифицирана от Република България със закон (ДВ бр. 12/2012 г.); член 24 признава правото на приобщаващо образование.",
+      "<em>Конвенция на ООН за правата на хората с увреждания</em> (2006 г.), ратифицирана от Република България със закон (ДВ бр. 12/2012 г.); член 24 признава правото на приобщаващо образование. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори източника\">↗</a>",
       "<em>Закон за предучилищното и училищното образование</em> (ЗПУО, обн. ДВ бр. 79 от 13.10.2015 г., в сила от 01.08.2016 г.); основната рамка, която установява приобщаващото образование като принцип и урежда общата и допълнителната подкрепа за личностно развитие.",
       "<em>Наредба за приобщаващото образование</em> (приета с ПМС № 232/2017 г., обн. ДВ бр. 86 от 27.10.2017 г.); урежда дейността на екипите за подкрепа на личностното развитие (ЕПЛР), индивидуалния образователен план (ИОП) и работата на регионалните центрове (РЦПППО).",
       "<em>Закон за закрила на детето</em> (чл. 10а и насл., обн. ДВ бр. 48/2000 г.) и <em>Наредба за условията и реда за осъществяване на закрила на деца с изявени дарби</em> (ПМС № 298/2003 г.); уреждат мерките за насърчаване на децата с изявени дарби.",
@@ -7121,7 +7121,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Jungtinių Tautų neįgaliųjų teisių konvencija</em> (JT, 2006), ratifikuota Lietuvos Respublikos (2010 m. įstatymas Nr. XI-854); jos 24 straipsnis įtvirtina teisę į įtraukųjį švietimą.",
+      "<em>Jungtinių Tautų neįgaliųjų teisių konvencija</em> (JT, 2006), ratifikuota Lietuvos Respublikos (2010 m. įstatymas Nr. XI-854); jos 24 straipsnis įtvirtina teisę į įtraukųjį švietimą. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atverti šaltinį\">↗</a>",
       "<em>Lietuvos Respublikos švietimo įstatymas</em> (pradinė redakcija Nr. I-1489, 1991 m.; nauja redakcija – 2011 m. kovo 17 d. įstatymas Nr. XI-1281); nustato švietimo sistemos principus, specialiųjų ugdymosi poreikių (SUP) tenkinimą ir įtraukųjį ugdymą.",
       "<em>Mokinio specialiųjų ugdymosi poreikių (išskyrus atsirandančius dėl išskirtinių gabumų) pedagoginiu, psichologiniu, medicininiu ir socialiniu pedagoginiu aspektais įvertinimo ir specialiojo ugdymosi skyrimo tvarkos aprašas</em> (švietimo ir mokslo ministro 2011 m. įsakymas Nr. V-1795); reglamentuoja SUP vertinimą Pedagoginėje psichologinėje tarnyboje (PPT).",
       "<em>Lietuvos Respublikos asmens duomenų teisinės apsaugos įstatymas</em> (Nr. I-1374, 1996 m.; iš esmės pakeistas 2018 m. įgyvendinant Bendrąjį duomenų apsaugos reglamentą (BDAR), Reglamentą (ES) 2016/679).",
@@ -7522,7 +7522,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>ANO Konvencija par personu ar invaliditāti tiesībām</em> (ANO, 2006), ratificēta Latvijā (2010); tās 24. pants nosaka tiesības uz iekļaujošu izglītību.",
+      "<em>ANO Konvencija par personu ar invaliditāti tiesībām</em> (ANO, 2006), ratificēta Latvijā (2010); tās 24. pants nosaka tiesības uz iekļaujošu izglītību. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atvērt avotu\">↗</a>",
       "<em>Izglītības likums</em> (pieņemts Saeimā 1998. gada 29. oktobrī, ar grozījumiem); nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām un veselības stāvokļa.",
       "<em>Vispārējās izglītības likums</em> (1999) un agrākais Speciālās izglītības regulējums; nosaka atbalstu skolēniem ar speciālām vajadzībām un speciālās izglītības programmu īstenošanu.",
       "<em>Ministru kabineta 2019. gada 19. novembra noteikumi Nr. 556</em> „Prasības vispārējās izglītības iestādēm, lai to īstenotajās izglītības programmās uzņemtu izglītojamos ar speciālām vajadzībām”; nosaka iekļaujošās izglītības principus valsts skolās.",
@@ -7922,7 +7922,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>ÜRO puuetega inimeste õiguste konventsioon</em> (ÜRO, 2006), Eesti ratifitseeris 2012; selle artikkel 24 sätestab õiguse kaasavale haridusele.",
+      "<em>ÜRO puuetega inimeste õiguste konventsioon</em> (ÜRO, 2006), Eesti ratifitseeris 2012; selle artikkel 24 sätestab õiguse kaasavale haridusele. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ava allikas\">↗</a>",
       "<em>Põhikooli- ja gümnaasiumiseadus</em> (PGS; vastu võetud 9. juunil 2010, RT I 2010, 41, 240); reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist ja tugiteenuseid.",
       "<em>Koolieelse lasteasutuse seadus</em> ja <em>lastekaitseseadus</em> (2014); täiendavad hariduslike erivajadustega laste kaitset ja tugimeetmeid.",
       "<em>Isikuandmete kaitse seadus</em> (IKS, 2018), mis rakendab Euroopa Liidu isikuandmete kaitse üldmäärust (GDPR / määrus (EL) 2016/679).",
@@ -8323,7 +8323,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Konvencija ZN o pravicah invalidov</em> (CRPD, 2006), ki jo je Slovenija ratificirala (Uradni list RS – MP, št. 10/08); 24. člen določa pravico do vključujočega izobraževanja.",
+      "<em>Konvencija ZN o pravicah invalidov</em> (CRPD, 2006), ki jo je Slovenija ratificirala (Uradni list RS – MP, št. 10/08); 24. člen določa pravico do vključujočega izobraževanja. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Odpri vir\">↗</a>",
       "<em>Zakon o usmerjanju otrok s posebnimi potrebami (ZUOPP-1)</em> (Uradni list RS, št. 58/11 in nasl.); ureja postopek usmerjanja, individualizirani program (IP) in dodatno strokovno pomoč (DSP).",
       "<em>Zakon o osnovni šoli (ZOsn)</em> in <em>Zakon o organizaciji in financiranju vzgoje in izobraževanja (ZOFVI)</em>; dopolnjujeta okvir vključujočega izobraževanja in delovanje šolske svetovalne službe.",
       "<em>Zakon o varstvu osebnih podatkov (ZVOP-2)</em> (Uradni list RS, št. 163/22), ki v slovenski pravni red prenaša Splošno uredbo o varstvu podatkov (GDPR).",
@@ -8722,11 +8722,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Coinbhinsiún na Náisiún Aontaithe ar Chearta Daoine faoi Mhíchumas</em> (CRPD, 2006), arna dhaingniú ag Éirinn in 2018; aithníonn Airteagal 24 an ceart chun oideachais chuimsithigh.",
-      "<em>An tAcht Oideachais 1998</em>; bunaíonn sé an creat reachtúil ginearálta don chóras oideachais agus tugann sé cearta do thuismitheoirí maidir le hoideachas a gcuid leanaí.",
-      "<em>An tAcht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu 2004</em> (EPSEN Act); príomhreachtaíocht na hÉireann maidir le riachtanais speisialta oideachais, a bhunaíonn an Chomhairle Náisiúnta um Oideachas Speisialta (NCSE) agus an ceart chun Plean Oideachais Aonair (IEP).",
-      "<em>An tAcht Míchumais 2005</em> agus na <em>hAchtanna um Stádas Comhionann 2000–2018</em>; leagann siad oibleagáidí ar sholáthraithe seirbhíse poiblí agus cuireann siad cosc ar idirdhealú i seirbhísí oideachais.",
-      "<em>An tAcht um Chosaint Sonraí 2018</em>, a chuireann an Rialachán Ginearálta maidir le Cosaint Sonraí (RGCS/GDPR) i bhfeidhm in Éirinn; tá sonraí uile na scoláirí faoina chosaint agus ní roinntear iad gan toiliú.",
+      "<em>Coinbhinsiún na Náisiún Aontaithe ar Chearta Daoine faoi Mhíchumas</em> (CRPD, 2006), arna dhaingniú ag Éirinn in 2018; aithníonn Airteagal 24 an ceart chun oideachais chuimsithigh. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
+      "<em>An tAcht Oideachais 1998</em>; bunaíonn sé an creat reachtúil ginearálta don chóras oideachais agus tugann sé cearta do thuismitheoirí maidir le hoideachas a gcuid leanaí. <a href=\"https://www.irishstatutebook.ie/eli/1998/act/51/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
+      "<em>An tAcht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu 2004</em> (EPSEN Act); príomhreachtaíocht na hÉireann maidir le riachtanais speisialta oideachais, a bhunaíonn an Chomhairle Náisiúnta um Oideachas Speisialta (NCSE) agus an ceart chun Plean Oideachais Aonair (IEP). <a href=\"https://www.irishstatutebook.ie/eli/2004/act/30/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
+      "<em>An tAcht Míchumais 2005</em> agus na <em>hAchtanna um Stádas Comhionann 2000–2018</em>; leagann siad oibleagáidí ar sholáthraithe seirbhíse poiblí agus cuireann siad cosc ar idirdhealú i seirbhísí oideachais. <a href=\"https://www.irishstatutebook.ie/eli/2005/act/14/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
+      "<em>An tAcht um Chosaint Sonraí 2018</em>, a chuireann an Rialachán Ginearálta maidir le Cosaint Sonraí (RGCS/GDPR) i bhfeidhm in Éirinn; tá sonraí uile na scoláirí faoina chosaint agus ní roinntear iad gan toiliú. <a href=\"https://www.irishstatutebook.ie/eli/2018/act/7/enacted/en/html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
@@ -9122,11 +9122,11 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     references: [
-      "<em>Il-Konvenzjoni tan-Nazzjonijiet Uniti dwar id-Drittijiet tal-Persuni b'Diżabilità</em> (CRPD, 2006), irratifikata minn Malta fl-2012; l-Artikolu 24 jistabbilixxi d-dritt għal edukazzjoni inklussiva.",
-      "<em>L-Att dwar l-Edukazzjoni (Kapitolu 605 tal-Liġijiet ta' Malta)</em>; il-qafas legali ġenerali tal-edukazzjoni li jobbliga l-aċċess u l-inklużjoni għat-tfal kollha ta' età skolastika.",
+      "<em>Il-Konvenzjoni tan-Nazzjonijiet Uniti dwar id-Drittijiet tal-Persuni b'Diżabilità</em> (CRPD, 2006), irratifikata minn Malta fl-2012; l-Artikolu 24 jistabbilixxi d-dritt għal edukazzjoni inklussiva. <a href=\"https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
+      "<em>L-Att dwar l-Edukazzjoni (Kapitolu 605 tal-Liġijiet ta' Malta)</em>; il-qafas legali ġenerali tal-edukazzjoni li jobbliga l-aċċess u l-inklużjoni għat-tfal kollha ta' età skolastika. <a href=\"https://legislation.mt/eli/cap/605/eng\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
       "<em>Politika dwar l-Edukazzjoni Inklussiva fl-Iskejjel</em> (Ministeru tal-Edukazzjoni, 2019); tartikola l-approċċ Malti għall-bżonnijiet edukattivi individwali, il-Learning Support Educators (LSE) u s-Individual Educational Programme (IEP).",
-      "<em>L-Att dwar l-Opportunitajiet Indaqs (Persuni b'Diżabilità) (Kapitolu 413 tal-Liġijiet ta' Malta)</em>; jiżgura li l-persuni b'diżabilità jgawdu l-istess drittijiet fundamentali mingħajr diskriminazzjoni u jistabbilixxi l-KNPD.",
-      "<em>L-Att dwar il-Protezzjoni tad-Data 2018 (Kapitolu 586 tal-Liġijiet ta' Malta)</em>, li jimplimenta r-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR); id-data kollha tal-istudenti hija protetta u ma tinqasamx mingħajr kunsens.",
+      "<em>L-Att dwar l-Opportunitajiet Indaqs (Persuni b'Diżabilità) (Kapitolu 413 tal-Liġijiet ta' Malta)</em>; jiżgura li l-persuni b'diżabilità jgawdu l-istess drittijiet fundamentali mingħajr diskriminazzjoni u jistabbilixxi l-KNPD. <a href=\"https://legislation.mt/eli/cap/413/eng\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
+      "<em>L-Att dwar il-Protezzjoni tad-Data 2018 (Kapitolu 586 tal-Liġijiet ta' Malta)</em>, li jimplimenta r-Regolament Ġenerali dwar il-Protezzjoni tad-Data (GDPR); id-data kollha tal-istudenti hija protetta u ma tinqasamx mingħajr kunsens. <a href=\"https://legislation.mt/eli/cap/586/eng\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
     ] },
     diferenciacao: { sections: [
       { items: [
