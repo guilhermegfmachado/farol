@@ -11,9 +11,18 @@ interface Props {
   lang?: Lang;
   /** Label announced to screen readers for the floor list. */
   label: string;
+  /**
+   * 'poster' is the illustrated scene — paper, sun, beams, sea — and belongs on
+   * /lighthouse/, where the tower is the subject.
+   * 'quiet' keeps the silhouette but drops the illustration and borrows the
+   * page's own surfaces, for places where the tower sits beside other content
+   * and should not read as an ornament.
+   */
+  variant?: 'poster' | 'quiet';
 }
 
-const { lang = 'pt', label } = Astro.props;
+const { lang = 'pt', label, variant = 'poster' } = Astro.props;
+const poster = variant === 'poster';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const prefix = lang === 'pt' ? base : `${base}${lang}/`;
 
@@ -38,14 +47,14 @@ function floorTitle(entry: (typeof entries)[number]) {
   return entryTranslations[lang]?.[slugOf(entry)]?.title ?? entry.data.title;
 }
 ---
-<div class="lh-scene">
+<div class={`lh-scene lh-scene-${variant}`}>
 
-  <div class="lh-halo" aria-hidden="true"></div>
+  {poster && <div class="lh-halo" aria-hidden="true"></div>}
 
   <div class="lh-lantern" aria-hidden="true">
-    <div class="lh-beam lh-beam-l"></div>
+    {poster && <div class="lh-beam lh-beam-l"></div>}
     <div class="lh-lamp"></div>
-    <div class="lh-beam lh-beam-r"></div>
+    {poster && <div class="lh-beam lh-beam-r"></div>}
   </div>
   <div class="lh-cap" aria-hidden="true"></div>
 
@@ -67,7 +76,7 @@ function floorTitle(entry: (typeof entries)[number]) {
   <div class="lh-plinth" aria-hidden="true"></div>
   <div class="lh-plinth lh-plinth-wide" aria-hidden="true"></div>
 
-  <div class="lh-sea" aria-hidden="true"></div>
+  {poster && <div class="lh-sea" aria-hidden="true"></div>}
 
 </div>
 
@@ -95,6 +104,27 @@ function floorTitle(entry: (typeof entries)[number]) {
 .lh-plinth { z-index: 2; width: 100%; max-width: 300px; height: 12px; background: var(--char); }
 .lh-plinth-wide { max-width: 344px; height: 10px; margin-top: 4px; }
 .lh-sea { z-index: 1; width: 100%; flex: 1; min-height: 44px; margin-top: 14px; background: var(--sea); }
+
+/* ── Quiet variant ────────────────────────────────────────────
+   Same silhouette, none of the illustration: the surfaces are the page's own
+   card colours, so beside a column of text it reads as a diagram rather than
+   as a poster someone pasted in. */
+.lh-scene-quiet { --char: var(--bg-elevated); --cream: var(--ink); background: none; border: none; min-height: 0; padding-top: 0; }
+:global(html.dark) .lh-scene-quiet { --char: var(--bg-elevated); --cream: var(--ink); }
+.lh-scene-quiet .lh-lamp { width: 14px; height: 14px; background: var(--beam); }
+.lh-scene-quiet .lh-cap { margin-top: 3px; border-left-width: 24px; border-right-width: 24px; border-bottom: 13px solid var(--ink-soft); }
+.lh-scene-quiet .lh-floor { padding-block: 0.5rem; border-bottom: 1px solid var(--rule); border-left: 1px solid var(--rule); border-right: 1px solid var(--rule); }
+.lh-scene-quiet .lh-floor:hover { background: var(--accent-bg); color: var(--accent); }
+.lh-scene-quiet .lh-floor-name { font-size: 0.78rem; font-weight: 500; }
+.lh-scene-quiet .lh-floor-arrow { color: var(--ink-faded); }
+.lh-scene-quiet .lh-floor:hover .lh-floor-arrow { color: var(--accent); }
+.lh-scene-quiet .lh-plinth { background: var(--ink-faded); height: 3px; max-width: 292px; }
+.lh-scene-quiet .lh-plinth-wide { background: var(--rule); max-width: 318px; height: 2px; margin-top: 3px; }
+@media (max-width: 520px) {
+  .lh-scene-quiet .lh-plinth { max-width: 250px; }
+  .lh-scene-quiet .lh-plinth-wide { max-width: 286px; }
+}
+
 @media (max-width: 520px) {
   .lh-tower-wrap { max-width: 230px; }
   .lh-plinth { max-width: 254px; } .lh-plinth-wide { max-width: 292px; }
