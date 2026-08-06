@@ -94,7 +94,10 @@ const home = `${base}${lang}/`;
 @media (max-width: 900px) {
   .home-scene { padding: 1.5rem 1.25rem 0; }
   .home-split { grid-template-columns: 1fr; gap: 2rem; }
-  .home-tower { max-width: 340px; }
+  /* Stacked, the tower is a figure in a full-width block rather than a column
+     of its own — at 768px it was sitting 161px left of centre. */
+  .home-tower { max-width: 340px; margin-inline: auto; }
+  .home-tower-label { text-align: center; }
   .home-shore { height: 40px; margin: 1.25rem -1.25rem 0; }
 }
 /* Solid dark ink is a waste of toner. */
