@@ -1,18 +1,47 @@
 name: Deploy to GitHub Pages
 
+# Publishing used to take two runners: this workflow built the site and pushed
+# it to the gh-pages branch, and then GitHub's own "pages build and deployment"
+# workflow picked that branch up and published it. Both had to get a machine for
+# anything to go live. On 2026-08-06 GitHub's runner allocation was failing —
+# jobs sat queued for 15 minutes, were cancelled with no runner assigned and no
+# billable time — and the site stayed on an old build for hours even though the
+# build itself had succeeded, because the second stage never ran.
+#
+# This publishes the artifact directly instead, in a single job. One runner,
+# one queue, no gh-pages round trip. The failure that cost us the evening would
+# not have stopped this.
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys publish at once; queue them instead of cancelling, so a
+# merge that lands during a deploy still goes live.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      # enablement: true switches the Pages source from the gh-pages branch to
+      # this workflow, so the second stage stops being involved at all.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/setup-node@v4
         with:
@@ -23,7 +52,9 @@ jobs:
 
       - run: npm run build
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          path: ./dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
