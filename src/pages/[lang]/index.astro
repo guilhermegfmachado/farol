@@ -98,7 +98,9 @@ const home = `${base}${lang}/`;
      of its own — at 768px it was sitting 161px left of centre. */
   .home-tower { max-width: 340px; margin-inline: auto; }
   .home-tower-label { text-align: center; }
-  .home-shore { height: 40px; margin: 1.25rem -1.25rem 0; }
+  /* Same waterline as the desktop layout: the tower stands on the sea, it does
+     not hover 20px above it. */
+  .home-shore { height: 40px; margin: 0 -1.25rem; }
 }
 /* Solid dark ink is a waste of toner. */
 @media print { .home-scene { background: none; border: none; padding: 0; } .home-tower, .home-sun, .home-shore { display: none; } }
