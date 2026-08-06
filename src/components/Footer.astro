@@ -107,7 +107,9 @@ footer a:hover { color: var(--accent); }
 @media (max-width: 520px) {
   .footer-nav { margin-bottom: 0.4rem; padding-bottom: 0.7rem; border-bottom: 1px dashed var(--rule); }
 }
-.footer-nav a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.72rem; letter-spacing: 0.04em; border-bottom: none; color: var(--ink-soft); }
+/* Same underline as every other footer link — these were the only clickables
+   in the footer with no affordance, so they read as headings. */
+.footer-nav a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.72rem; letter-spacing: 0.04em; color: var(--ink-soft); }
 .footer-nav a:hover { color: var(--accent); }
 .footer-feedback { margin-top: 0.5rem; }
 .footer-feedback summary {
