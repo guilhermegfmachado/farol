@@ -30,7 +30,7 @@ const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
     <a href={`${p}lighthouse/`}>{t.lh_title}</a>
   </nav>
   <div>{t.footer_manual} · {t.version_tag}</div>
-  <div><a href={sobreHref}>{t.footer_how}</a> · <a href={allMadeHrefs(base)[lang]}>{made[lang].title}</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer license">{t.footer_licence}</a></div>
+  <div><a href={sobreHref}>{t.footer_how}</a> · <a href={allMadeHrefs(base)[lang]}>{made[lang].title}</a> · <a href={`${base}sitemap-0.xml`}>{t.footer_sitemap}</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer license">{t.footer_licence}</a></div>
   <div>{t.footer_by} <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer">Guilherme de Góis Machado</a></div>
   <details class="footer-feedback">
     <summary>{t.feedback_link}</summary>
