@@ -1,10 +1,10 @@
 ---
-import { getAllEntries, displayIndex } from '@/lib/entries';
-import { ui, type Lang, allSectionHrefs, entryTranslations, categoryTranslations, PREFIXED_LANGS } from '@/lib/i18n';
+import { ui, type Lang, allSectionHrefs, categoryTranslations, PREFIXED_LANGS } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Breadcrumb from '../../components/Breadcrumb.astro';
+import Tower from '../../components/Tower.astro';
 
 export function getStaticPaths() {
   const langs: Lang[] = PREFIXED_LANGS;
@@ -13,26 +13,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params as { lang: Lang };
 const t = ui[lang];
-const entries = await getAllEntries();
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
-
-const sorted = [...entries].sort((a, b) =>
-  a.data.order - b.data.order
-);
-const tower = [...sorted].reverse();
-
-const catColors: Record<string, string> = {
-  'Perfil':     '#6fa8a3',
-  'Referência': '#cf9633',
-};
-
-function floorHref(entry: typeof entries[0]) {
-  return `${base}${lang}/${entry.collection}/${entry.id.replace(/\.md$/, '')}/`;
-}
-function floorTitle(entry: typeof entries[0]) {
-  const slug = entry.id.replace(/\.md$/, '');
-  return entryTranslations[lang]?.[slug]?.title ?? entry.data.title;
-}
 ---
 <Base title={`${t.lh_title} — Farol`} description={t.lh_desc} altHrefs={allSectionHrefs(base, 'lighthouse')}>
   <Header lang={lang} altHrefs={allSectionHrefs(base, 'lighthouse')} />
@@ -46,38 +27,7 @@ function floorTitle(entry: typeof entries[0]) {
       <p class="lh-intro-desc">{t.lh_desc}</p>
     </div>
 
-    <div class="lh-scene">
-
-      <div class="lh-halo" aria-hidden="true"></div>
-
-      <div class="lh-lantern" aria-hidden="true">
-        <div class="lh-beam lh-beam-l"></div>
-        <div class="lh-lamp"></div>
-        <div class="lh-beam lh-beam-r"></div>
-      </div>
-      <div class="lh-cap" aria-hidden="true"></div>
-
-      <div class="lh-tower-wrap">
-        <div class="lh-tower" role="navigation" aria-label={t.lh_title}>
-          {tower.map((entry, i) => (
-            <a
-              href={floorHref(entry)}
-              class={`lh-floor${i === tower.length - 1 ? ' lh-floor-bottom' : ''}`}
-              style={`--fc: ${catColors[entry.data.category] || 'var(--accent)'}; --taper: ${(7 * (1 - i / tower.length)).toFixed(2)}%;`}
-            >
-              <span class="lh-floor-name">{floorTitle(entry)}</span>
-              <span class="lh-floor-arrow" aria-hidden="true">→</span>
-            </a>
-          ))}
-        </div>
-      </div>
-
-      <div class="lh-plinth" aria-hidden="true"></div>
-      <div class="lh-plinth lh-plinth-wide" aria-hidden="true"></div>
-
-      <div class="lh-sea" aria-hidden="true"></div>
-
-    </div>
+    <Tower lang={lang} label={t.lh_title} />
 
     <div class="lh-panel">
       <div class="lh-legend">
@@ -98,29 +48,6 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-intro-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
-.lh-scene { --paper: #ede4d0; --char: #2c2b27; --cream: #f2ecdd; --sea: #3a7370; --amber: #d9a13b; position: relative; display: flex; flex-direction: column; align-items: center; background: var(--paper); border: 1px solid var(--rule); overflow: hidden; min-height: 520px; padding-top: 52px; }
-:global(html.dark) .lh-scene { --paper: #171c2a; --char: #10141f; --cream: #ece7dc; --sea: #28524f; }
-.lh-halo { position: absolute; top: -54px; left: 50%; transform: translateX(-200px); width: 250px; height: 250px; border-radius: 50%; background: var(--amber); opacity: 0.16; }
-.lh-lantern { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; }
-.lh-lamp { width: 30px; height: 30px; border-radius: 50%; background: var(--amber); flex-shrink: 0; }
-.lh-beam { width: 120px; height: 30px; background: var(--amber); opacity: 0.3; }
-.lh-beam-l { clip-path: polygon(0% 0%, 100% 36%, 100% 64%, 0% 100%); }
-.lh-beam-r { clip-path: polygon(0% 36%, 100% 0%, 100% 100%, 0% 64%); }
-.lh-cap { z-index: 2; width: 0; height: 0; margin-top: 10px; border-left: 34px solid transparent; border-right: 34px solid transparent; border-bottom: 20px solid var(--char); }
-.lh-tower-wrap { position: relative; z-index: 2; width: 100%; max-width: 272px; clip-path: polygon(7% 0%, 93% 0%, 100% 100%, 0% 100%); }
-.lh-tower { display: flex; flex-direction: column; }
-/* The wrap is clipped to a trapezoid, so the top floors lose 7% of the width
-   off each side. Padding has to clear that corner or the label sits on the
-   edge and the arrow gets cut — --taper is that inset, per floor. */
-.lh-floor { display: flex; align-items: center; gap: 0.65rem; padding: 0.7rem calc(0.85rem + var(--taper, 0%)); border-bottom: 1px solid rgba(255,255,255,0.07); background: var(--char); text-decoration: none; color: var(--cream); transition: background 0.15s ease, color 0.15s ease; }
-.lh-floor:hover { background: var(--fc, var(--amber)); color: #1e1d1a; }
-.lh-floor-bottom { border-bottom: none; }
-.lh-floor-name { flex: 1; font-size: 0.85rem; font-weight: 600; line-height: 1.2; }
-.lh-floor-arrow { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: rgba(255,255,255,0.22); flex-shrink: 0; transition: color 0.15s ease, transform 0.15s ease; }
-.lh-floor:hover .lh-floor-arrow { color: rgba(0,0,0,0.5); transform: translateX(3px); }
-.lh-plinth { z-index: 2; width: 100%; max-width: 300px; height: 12px; background: var(--char); }
-.lh-plinth-wide { max-width: 344px; height: 10px; margin-top: 4px; }
-.lh-sea { z-index: 1; width: 100%; flex: 1; min-height: 44px; margin-top: 14px; background: var(--sea); }
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .lh-legend-heading { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
@@ -128,11 +55,5 @@ function floorTitle(entry: typeof entries[0]) {
 .lh-legend-item::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--c); border-radius: 1px; }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }
-  .lh-tower-wrap { max-width: 230px; }
-  .lh-plinth { max-width: 254px; } .lh-plinth-wide { max-width: 292px; }
-  .lh-floor { padding: 0.55rem calc(0.6rem + var(--taper, 0%)); gap: 0.45rem; }
-  .lh-floor-num { font-size: 0.82rem; min-width: 1.2rem; }
-  .lh-floor-name { font-size: 0.76rem; }
-  .lh-scene { min-height: 460px; }
 }
 </style>
