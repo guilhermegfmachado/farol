@@ -2,7 +2,7 @@
 // Strategy: precache the app shell (offline fallback), then cache every page and
 // static asset the teacher actually visits, so a card opened once is available
 // later with no connection. Bump CACHE_VERSION to invalidate old caches on deploy.
-const CACHE_VERSION = 'farol-20260806073433';
+const CACHE_VERSION = 'farol-20260806074013';
 const BASE = '/farol/';
 const OFFLINE_URL = BASE + 'offline.html';
 const PRECACHE = [BASE, OFFLINE_URL, BASE + 'manifest.webmanifest', BASE + 'favicon.svg'];
