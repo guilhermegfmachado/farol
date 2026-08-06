@@ -6,6 +6,7 @@ import { observations, obsThemes, obsText } from '@/lib/observations';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import Tower from '../../components/Tower.astro';
 
 export function getStaticPaths() {
   return PREFIXED_LANGS.map((lang) => ({ params: { lang }, props: { lang } }));
@@ -27,25 +28,32 @@ const home = `${base}${lang}/`;
     </div>
   </div>
 
-  <section class="observe">
-    <div class="observe-head">
-      <div class="observe-label">{t.observe_label}</div>
-      <p class="observe-hint">{t.observe_hint}</p>
-    </div>
-    {obsThemes.map((th) => (
-      <div class="observe-group">
-        <div class="observe-theme">{th.label[lang]}</div>
-        <div class="observe-grid">
-          {observations.filter((o) => th.profiles.includes(o.profile)).map((o) => (
-            <a class="observe-chip" href={`${home}profiles/${o.profile}/`}>
-              <span class="observe-chip-text">{obsText(o, lang)}</span>
-              <span class="observe-chip-arrow" aria-hidden="true">→</span>
-            </a>
-          ))}
-        </div>
+  <div class="home-split">
+    <section class="observe">
+      <div class="observe-head">
+        <div class="observe-label">{t.observe_label}</div>
+        <p class="observe-hint">{t.observe_hint}</p>
       </div>
-    ))}
-  </section>
+      {obsThemes.map((th) => (
+        <div class="observe-group">
+          <div class="observe-theme">{th.label[lang]}</div>
+          <div class="observe-grid">
+            {observations.filter((o) => th.profiles.includes(o.profile)).map((o) => (
+              <a class="observe-chip" href={`${home}profiles/${o.profile}/`}>
+                <span class="observe-chip-text">{obsText(o, lang)}</span>
+                <span class="observe-chip-arrow" aria-hidden="true">→</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <div class="home-tower">
+      <div class="home-tower-label">{t.lh_title}</div>
+      <Tower lang={lang} label={t.lh_title} />
+    </div>
+  </div>
   <nav class="browse-links" aria-label={t.home_nav_label}>
     <a href={`${home}profiles/`}>{t.browse_profiles}</a>
     <a href={`${home}references/`}>{t.browse_refs}</a>
@@ -61,6 +69,14 @@ const home = `${base}${lang}/`;
 </Base>
 
 <style>
+/* The observations and the tower share the width above 900px: the observation
+   lines only use the left half, and the tower is what fills the right. Below
+   that they stack, observations first — they are the way in. */
+.home-split { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 2.5rem; align-items: start; }
+.home-tower-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.6rem; }
+@media (max-width: 900px) { .home-split { grid-template-columns: 1fr; gap: 2rem; } .home-tower { max-width: 340px; } }
+/* The tower is a block of solid dark ink — useful on screen, a waste of toner. */
+@media print { .home-tower { display: none; } }
 .browse-links { display: flex; flex-wrap: wrap; gap: 1.6rem; margin: 2rem 0; }
 .browse-links a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--ink-soft); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 0.15rem; transition: color 0.15s ease, border-color 0.15s ease; }
 .browse-links a:hover { color: var(--accent); border-color: var(--accent); }
