@@ -256,6 +256,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguish institutional use (the school signs a contract) from a teacher's personal use (individual responsibility).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emotion recognition is <strong>prohibited</strong> in education — every level, in person or online, whatever the students' age. The only exception is use for medical or safety reasons (Art. 5(1)(f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Four school uses are classified <strong>high risk</strong>: admission, evaluating learning outcomes, deciding the level of education a student can access, and monitoring for prohibited behaviour during tests. The obligations have applied since 2 August 2026 (Annex III, point 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparency: anyone interacting with an AI system must be told so, and AI-generated content must be identified as such (Art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "The school is the <em>deployer</em>: it must ensure staff have sufficient AI literacy (Art. 4) and, for high-risk tools, carry out a fundamental rights impact assessment (Art. 27) alongside the data protection impact assessment the GDPR requires (Art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systems trained on predominantly English-language data may perform worse in languages other than English and in multilingual classrooms.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automated recommendations can amplify stereotypes of gender, ethnicity, or class — check them critically.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "\"Academic risk prediction\" models are particularly problematic — they frequently reproduce existing inequalities rather than identifying needs.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -279,6 +285,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "European Commission. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revised edition). Luxembourg: Publications Office of the European Union. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "European Union. (2024). <em>Regulation (EU) 2024/1689 (Artificial Intelligence Act)</em>. Official Journal of the European Union, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -657,6 +665,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguir el uso institucional (el centro firma un contrato) del uso personal del docente (responsabilidad individual).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "El reconocimiento de emociones está <strong>prohibido</strong> en el ámbito educativo — en todos los niveles, presencial o en línea, sea cual sea la edad del alumnado. La única excepción es el uso por razones médicas o de seguridad (art. 5, apdo. 1, letra f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Cuatro usos escolares se clasifican como <strong>alto riesgo</strong>: admisión, evaluación de resultados de aprendizaje, decisión sobre el nivel educativo al que accede el alumno y detección de comportamientos prohibidos durante los exámenes. Las obligaciones se aplican desde el 2 de agosto de 2026 (anexo III, punto 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparencia: quien interactúa con un sistema de IA debe ser informado de ello, y los contenidos generados por IA deben identificarse como tales (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "El centro es el <em>responsable del despliegue</em>: debe garantizar una alfabetización en IA suficiente del personal (art. 4) y, para herramientas de alto riesgo, realizar una evaluación de impacto sobre los derechos fundamentales (art. 27), junto a la evaluación de impacto en protección de datos que exige el RGPD (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Los sistemas entrenados con datos mayoritariamente anglófonos pueden tener un rendimiento inferior en español y en contextos hispanohablantes.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Las recomendaciones automáticas pueden amplificar estereotipos de género, etnia o clase: hay que verificarlas con sentido crítico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Los modelos de «predicción del riesgo académico» son especialmente problemáticos: a menudo reproducen las desigualdades existentes en lugar de identificar necesidades.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -680,6 +694,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Comisión Europea. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (edición revisada). Luxemburgo: Oficina de Publicaciones de la Unión Europea. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
+      "Unión Europea. (2024). <em>Reglamento (UE) 2024/1689 (Reglamento de Inteligencia Artificial)</em>. Diario Oficial de la Unión Europea, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir la fuente\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1058,6 +1074,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguer l'usage institutionnel (l'établissement signe un contrat) de l'usage personnel de l'enseignant (responsabilité individuelle).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "La reconnaissance des émotions est <strong>interdite</strong> en milieu éducatif — à tous les niveaux, en présentiel ou en ligne, quel que soit l'âge des élèves. La seule exception est l'usage pour des raisons médicales ou de sécurité (art. 5, § 1, point f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Quatre usages scolaires sont classés à <strong>haut risque</strong> : admission, évaluation des acquis d'apprentissage, décision sur le niveau d'enseignement auquel l'élève accède, et détection de comportements interdits pendant les examens. Les obligations s'appliquent depuis le 2 août 2026 (annexe III, point 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparence : toute personne qui interagit avec un système d'IA doit en être informée, et les contenus générés par IA doivent être identifiés comme tels (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "L'établissement est le <em>déployeur</em> : il doit assurer une maîtrise suffisante de l'IA à son personnel (art. 4) et, pour les outils à haut risque, réaliser une analyse d'impact sur les droits fondamentaux (art. 27), en plus de l'analyse d'impact relative à la protection des données exigée par le RGPD (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Les systèmes entraînés sur des données majoritairement anglophones peuvent présenter des performances inférieures en français et dans les contextes francophones.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Les recommandations automatiques peuvent amplifier les stéréotypes de genre, d'origine ethnique ou de classe : à vérifier d'un œil critique.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Les modèles de « prédiction du risque scolaire » sont particulièrement problématiques : ils reproduisent souvent les inégalités existantes au lieu d'identifier les besoins.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -1081,6 +1103,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Commission européenne. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (édition révisée). Luxembourg : Office des publications de l'Union européenne. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
+      "Union européenne. (2024). <em>Règlement (UE) 2024/1689 (règlement sur l'intelligence artificielle)</em>. Journal officiel de l'Union européenne, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ouvrir la source\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1459,6 +1483,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distinguere l'uso istituzionale (la scuola firma un contratto) dall'uso personale del docente (responsabilità individuale).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Il riconoscimento delle emozioni è <strong>vietato</strong> in ambito scolastico — a ogni livello, in presenza o online, qualunque sia l'età degli studenti. L'unica eccezione è l'uso per motivi medici o di sicurezza (art. 5, par. 1, lett. f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Quattro usi scolastici sono classificati ad <strong>alto rischio</strong>: ammissione, valutazione dei risultati di apprendimento, decisione sul livello di istruzione a cui lo studente accede e rilevamento di comportamenti vietati durante le prove. Gli obblighi si applicano dal 2 agosto 2026 (allegato III, punto 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Trasparenza: chi interagisce con un sistema di IA deve esserne informato, e i contenuti generati dall'IA devono essere identificati come tali (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "La scuola è il <em>deployer</em>: deve garantire al personale un livello sufficiente di alfabetizzazione sull'IA (art. 4) e, per gli strumenti ad alto rischio, svolgere una valutazione d'impatto sui diritti fondamentali (art. 27), oltre alla valutazione d'impatto sulla protezione dei dati richiesta dal GDPR (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "I sistemi addestrati prevalentemente su dati in lingua inglese possono offrire prestazioni inferiori in italiano e nei contesti italofoni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Le raccomandazioni automatiche possono amplificare stereotipi di genere, etnia o classe: vanno verificate con spirito critico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "I modelli di «previsione del rischio scolastico» sono particolarmente problematici: spesso riproducono le disuguaglianze esistenti invece di individuare i bisogni.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -1482,6 +1512,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Commissione europea. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (edizione riveduta). Lussemburgo: Ufficio delle pubblicazioni dell'Unione europea. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
+      "Unione europea. (2024). <em>Regolamento (UE) 2024/1689 (regolamento sull'intelligenza artificiale)</em>. Gazzetta ufficiale dell'Unione europea, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Apri la fonte\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -1861,6 +1893,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Unterscheiden Sie zwischen institutioneller Nutzung (die Schule schließt einen Vertrag ab) und privater Nutzung durch die Lehrkraft (individuelle Verantwortung).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emotionserkennung ist im Bildungsbereich <strong>verboten</strong> — auf allen Stufen, in Präsenz oder online, unabhängig vom Alter der Schülerinnen und Schüler. Die einzige Ausnahme ist die Nutzung aus medizinischen oder Sicherheitsgründen (Art. 5 Abs. 1 Buchst. f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Vier schulische Anwendungen gelten als <strong>Hochrisiko</strong>: Zulassung, Bewertung von Lernergebnissen, Entscheidung über das Bildungsniveau, zu dem eine Person Zugang erhält, und Überwachung unzulässigen Verhaltens während Prüfungen. Die Pflichten gelten seit dem 2. August 2026 (Anhang III Nummer 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparenz: Wer mit einem KI-System interagiert, muss darüber informiert werden, und KI-generierte Inhalte müssen als solche gekennzeichnet sein (Art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Die Schule ist der <em>Betreiber</em>: Sie muss ein ausreichendes Maß an KI-Kompetenz beim Personal sicherstellen (Art. 4) und für Hochrisiko-Werkzeuge eine Grundrechte-Folgenabschätzung durchführen (Art. 27), zusätzlich zur Datenschutz-Folgenabschätzung nach DSGVO (Art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systeme, die überwiegend mit englischsprachigen Daten trainiert wurden, können in der deutschen Sprache und in deutschsprachigen Kontexten eine schlechtere Leistung erbringen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatische Empfehlungen können Stereotype in Bezug auf Geschlecht, Ethnie oder soziale Schicht verstärken – prüfen Sie sie kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modelle zur „Vorhersage des akademischen Risikos“ sind besonders problematisch – häufig reproduzieren sie bestehende Ungleichheiten, anstatt Bedürfnisse zu erkennen.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -1884,6 +1922,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europäische Kommission. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (überarbeitete Ausgabe). Luxemburg: Amt für Veröffentlichungen der Europäischen Union. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Quelle öffnen\">↗</a>",
+      "Europäische Union. (2024). <em>Verordnung (EU) 2024/1689 (KI-Verordnung)</em>. Amtsblatt der Europäischen Union, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Quelle öffnen\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -2259,6 +2299,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Maak onderscheid tussen institutioneel gebruik (de school sluit een contract af) en persoonlijk gebruik door de docent (individuele verantwoordelijkheid).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emotieherkenning is <strong>verboden</strong> in het onderwijs — op elk niveau, fysiek of online, ongeacht de leeftijd van de leerlingen. De enige uitzondering is gebruik om medische of veiligheidsredenen (art. 5, lid 1, punt f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Vier schoolse toepassingen gelden als <strong>hoog risico</strong>: toelating, beoordeling van leerresultaten, bepalen van het onderwijsniveau waartoe een leerling toegang krijgt, en het monitoren van verboden gedrag tijdens toetsen. De verplichtingen gelden sinds 2 augustus 2026 (bijlage III, punt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparantie: wie met een AI-systeem communiceert, moet dat te horen krijgen, en door AI gegenereerde inhoud moet als zodanig herkenbaar zijn (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "De school is de <em>gebruiksverantwoordelijke</em>: zij moet zorgen voor voldoende AI-geletterdheid bij het personeel (art. 4) en voor systemen met een hoog risico een grondrechteneffectbeoordeling uitvoeren (art. 27), naast de gegevensbeschermingseffectbeoordeling die de AVG vereist (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systemen die hoofdzakelijk met Engelstalige gegevens zijn getraind, kunnen slechter presteren in het Nederlands en in Nederlandstalige contexten.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatische aanbevelingen kunnen stereotypen over gender, etniciteit of klasse versterken – beoordeel ze kritisch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modellen voor het „voorspellen van academisch risico” zijn bijzonder problematisch – vaak reproduceren ze bestaande ongelijkheden in plaats van behoeften te identificeren.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -2282,6 +2328,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europese Commissie. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (herziene editie). Luxemburg: Bureau voor publicaties van de Europese Unie. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Bron openen\">↗</a>",
+      "Europese Unie. (2024). <em>Verordening (EU) 2024/1689 (AI-verordening)</em>. Publicatieblad van de Europese Unie, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Bron openen\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -2656,6 +2704,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Należy odróżniać użytkowanie instytucjonalne (szkoła podpisuje umowę) od osobistego użytkowania przez nauczyciela (odpowiedzialność indywidualna).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Rozpoznawanie emocji jest <strong>zakazane</strong> w kontekście edukacyjnym — na każdym poziomie, stacjonarnie i online, niezależnie od wieku uczniów. Jedynym wyjątkiem jest zastosowanie ze względów medycznych lub bezpieczeństwa (art. 5 ust. 1 lit. f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Cztery zastosowania szkolne uznano za <strong>wysokiego ryzyka</strong>: rekrutacja, ocena efektów uczenia się, decyzja o poziomie kształcenia dostępnym dla ucznia oraz wykrywanie zachowań niedozwolonych podczas sprawdzianów. Obowiązki obowiązują od 2 sierpnia 2026 r. (załącznik III pkt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Przejrzystość: osoba wchodząca w interakcję z systemem AI musi zostać o tym poinformowana, a treści wygenerowane przez AI muszą być oznaczone jako takie (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Szkoła jest <em>podmiotem stosującym</em>: musi zapewnić personelowi wystarczający poziom kompetencji w zakresie AI (art. 4), a dla narzędzi wysokiego ryzyka przeprowadzić ocenę skutków dla praw podstawowych (art. 27), obok oceny skutków dla ochrony danych wymaganej przez RODO (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systemy trenowane na danych pochodzących głównie z obszaru anglojęzycznego mogą działać gorzej w języku polskim i kontekstach polskojęzycznych.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatyczne rekomendacje mogą wzmacniać stereotypy dotyczące płci, pochodzenia etnicznego lub klasy społecznej — należy je krytycznie weryfikować.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modele „przewidywania ryzyka edukacyjnego” są szczególnie problematyczne — często odtwarzają istniejące nierówności, zamiast rozpoznawać potrzeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -2679,6 +2733,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Komisja Europejska. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (wydanie zmienione). Luksemburg: Urząd Publikacji Unii Europejskiej. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
+      "Unia Europejska. (2024). <em>Rozporządzenie (UE) 2024/1689 (akt w sprawie sztucznej inteligencji)</em>. Dziennik Urzędowy Unii Europejskiej, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otwórz źródło\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3053,6 +3109,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Distingeți utilizarea instituțională (școala semnează un contract) de utilizarea personală a cadrului didactic (răspundere individuală).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Recunoașterea emoțiilor este <strong>interzisă</strong> în context educațional — la toate nivelurile, în prezență sau online, indiferent de vârsta elevilor. Singura excepție este utilizarea din motive medicale sau de siguranță (art. 5 alin. (1) lit. (f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Patru utilizări școlare sunt clasificate drept <strong>risc ridicat</strong>: admiterea, evaluarea rezultatelor învățării, decizia privind nivelul de învățământ la care are acces elevul și monitorizarea comportamentelor interzise în timpul testelor. Obligațiile se aplică de la 2 august 2026 (anexa III, punctul 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparență: persoana care interacționează cu un sistem de IA trebuie informată despre acest lucru, iar conținutul generat de IA trebuie identificat ca atare (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Școala este <em>implementatorul</em>: trebuie să asigure personalului un nivel suficient de alfabetizare în domeniul IA (art. 4) și, pentru instrumentele cu risc ridicat, să efectueze o evaluare a impactului asupra drepturilor fundamentale (art. 27), alături de evaluarea impactului asupra protecției datelor cerută de RGPD (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sistemele antrenate preponderent pe date în limba engleză pot avea performanțe inferioare în română și în contexte românofone.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Recomandările automate pot amplifica stereotipuri de gen, etnie sau clasă socială: trebuie verificate critic.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modelele de „predicție a riscului școlar” sunt deosebit de problematice: adesea reproduc inegalitățile existente în loc să identifice nevoile.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -3076,6 +3138,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Comisia Europeană. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (ediție revizuită). Luxemburg: Oficiul pentru Publicații al Uniunii Europene. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Deschide sursa\">↗</a>",
+      "Uniunea Europeană. (2024). <em>Regulamentul (UE) 2024/1689 (Regulamentul privind inteligența artificială)</em>. Jurnalul Oficial al Uniunii Europene, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Deschide sursa\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3455,6 +3519,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Razlikujte institucionalnu uporabu (ugovor sklapa škola) od osobne uporabe nastavnika (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Prepoznavanje emocija <strong>zabranjeno</strong> je u obrazovnom kontekstu — na svim razinama, uživo ili na internetu, bez obzira na dob učenika. Jedina je iznimka uporaba iz medicinskih ili sigurnosnih razloga (čl. 5. st. 1. t. (f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Četiri školske primjene svrstane su u <strong>visokorizične</strong>: upis, vrednovanje ishoda učenja, odlučivanje o razini obrazovanja kojoj učenik može pristupiti i praćenje zabranjenog ponašanja tijekom ispita. Obveze se primjenjuju od 2. kolovoza 2026. (Prilog III., točka 3.).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparentnost: onaj tko komunicira sa sustavom umjetne inteligencije mora o tome biti obaviješten, a sadržaj koji je generirala umjetna inteligencija mora biti označen kao takav (čl. 50.).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Škola je <em>subjekt koji uvodi sustav</em>: mora osigurati dostatnu razinu pismenosti u području umjetne inteligencije za osoblje (čl. 4.) i, za visokorizične alate, provesti procjenu učinka na temeljna prava (čl. 27.), uz procjenu učinka na zaštitu podataka koju traži GDPR (čl. 35.).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sustavi trenirani pretežno na podacima na engleskome jeziku mogu imati slabiji učinak na hrvatskome i u hrvatskim govornim kontekstima.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatske preporuke mogu pojačati stereotipe o spolu, etničkoj pripadnosti ili društvenome sloju — kritički ih provjeravajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeli „predviđanja akademskog rizika” osobito su problematični — često reproduciraju postojeće nejednakosti umjesto da prepoznaju potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -3478,6 +3548,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europska komisija. (2026.). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revidirano izdanje). Luxembourg: Ured za publikacije Europske unije. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvori izvor\">↗</a>",
+      "Europska unija. (2024.). <em>Uredba (EU) 2024/1689 (Akt o umjetnoj inteligenciji)</em>. Službeni list Europske unije, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvori izvor\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -3854,6 +3926,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rozlišujte institucionální využití (smlouvu uzavírá škola) od osobního využití učitele (individuální odpovědnost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Rozpoznávání emocí je ve školním prostředí <strong>zakázáno</strong> — na všech stupních, prezenčně i online, bez ohledu na věk žáků. Jedinou výjimkou je použití ze zdravotních nebo bezpečnostních důvodů (čl. 5 odst. 1 písm. f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Čtyři školní použití jsou klasifikována jako <strong>vysoce riziková</strong>: přijímání, hodnocení výsledků učení, rozhodování o úrovni vzdělávání, k níž má žák přístup, a sledování nepovoleného chování při zkouškách. Povinnosti platí od 2. srpna 2026 (příloha III bod 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparentnost: kdo komunikuje se systémem AI, musí o tom být informován a obsah vytvořený AI musí být jako takový označen (čl. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Škola je <em>zavádějícím subjektem</em>: musí zajistit dostatečnou úroveň gramotnosti v oblasti AI u zaměstnanců (čl. 4) a u vysoce rizikových nástrojů provést posouzení dopadů na základní práva (čl. 27) vedle posouzení vlivu na ochranu osobních údajů podle GDPR (čl. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systémy trénované převážně na anglojazyčných datech mohou mít horší výkon v češtině a v českojazyčných kontextech.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatická doporučení mohou zesilovat stereotypy týkající se pohlaví, etnicity nebo společenské třídy — kriticky je ověřujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modely „predikce akademického rizika“ jsou obzvláště problematické — často reprodukují existující nerovnosti, místo aby rozpoznávaly potřeby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -3877,6 +3955,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Evropská komise. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revidované vydání). Lucemburk: Úřad pro publikace Evropské unie. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
+      "Evropská unie. (2024). <em>Nařízení (EU) 2024/1689 (akt o umělé inteligenci)</em>. Úřední věstník Evropské unie, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otevřít zdroj\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -4252,6 +4332,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Skilj mellan institutionell användning (skolan tecknar avtal) och lärarens personliga användning (individuellt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Känsloigenkänning är <strong>förbjuden</strong> i utbildningssammanhang — på alla nivåer, på plats eller online, oavsett elevernas ålder. Det enda undantaget är användning av medicinska skäl eller säkerhetsskäl (art. 5.1 f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Fyra skolanvändningar klassas som <strong>hög risk</strong>: antagning, bedömning av läranderesultat, beslut om vilken utbildningsnivå en elev får tillgång till, och övervakning av otillåtet beteende under prov. Skyldigheterna gäller sedan den 2 augusti 2026 (bilaga III punkt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Öppenhet: den som interagerar med ett AI-system ska få veta det, och AI-genererat innehåll ska vara märkt som sådant (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skolan är <em>tillhandahållare av användningen</em>: den ska säkerställa tillräcklig AI-kunnighet hos personalen (art. 4) och för verktyg med hög risk göra en konsekvensbedömning avseende grundläggande rättigheter (art. 27), utöver den konsekvensbedömning av dataskydd som GDPR kräver (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "System som tränats huvudsakligen på engelskspråkiga data kan prestera sämre på svenska och i svenskspråkiga sammanhang.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatiska rekommendationer kan förstärka stereotyper om kön, etnicitet eller klass – granska dem kritiskt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeller för ”prognos av akademisk risk” är särskilt problematiska – ofta reproducerar de befintliga ojämlikheter i stället för att identifiera behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -4275,6 +4361,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europeiska kommissionen. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (reviderad utgåva). Luxemburg: Europeiska unionens publikationsbyrå. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Öppna källan\">↗</a>",
+      "Europeiska unionen. (2024). <em>Förordning (EU) 2024/1689 (AI-förordningen)</em>. Europeiska unionens officiella tidning, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Öppna källan\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -4650,6 +4738,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Skeln mellem institutionel brug (skolen indgår en kontrakt) og lærerens personlige brug (individuelt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Følelsesgenkendelse er <strong>forbudt</strong> i undervisningssammenhæng — på alle niveauer, fysisk eller online, uanset elevernes alder. Den eneste undtagelse er brug af medicinske eller sikkerhedsmæssige årsager (art. 5, stk. 1, litra f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Fire skoleanvendelser er klassificeret som <strong>høj risiko</strong>: optagelse, vurdering af læringsresultater, afgørelse om hvilket uddannelsesniveau en elev får adgang til, og overvågning af forbudt adfærd under prøver. Forpligtelserne gælder fra den 2. august 2026 (bilag III, punkt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Gennemsigtighed: den, der interagerer med et AI-system, skal have det at vide, og AI-genereret indhold skal være mærket som sådant (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skolen er <em>idriftsætter</em>: den skal sikre tilstrækkelig AI-kompetence hos personalet (art. 4) og for højrisikoværktøjer gennemføre en konsekvensanalyse vedrørende grundlæggende rettigheder (art. 27) ud over den konsekvensanalyse vedrørende databeskyttelse, som GDPR kræver (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systemer, der hovedsageligt er trænet på engelsksprogede data, kan præstere dårligere på dansk og i dansksprogede sammenhænge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatiske anbefalinger kan forstærke stereotyper om køn, etnicitet eller klasse – vurdér dem kritisk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeller til »forudsigelse af akademisk risiko« er særligt problematiske – ofte reproducerer de eksisterende uligheder i stedet for at identificere behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -4673,6 +4767,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europa-Kommissionen. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revideret udgave). Luxembourg: Den Europæiske Unions Publikationskontor. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
+      "Den Europæiske Union. (2024). <em>Forordning (EU) 2024/1689 (forordningen om kunstig intelligens)</em>. Den Europæiske Unions Tidende, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åbn kilden\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5048,6 +5144,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Erota institutionaalinen käyttö (koulu allekirjoittaa sopimuksen) opettajan henkilökohtaisesta käytöstä (yksilöllinen vastuu).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Tunteiden tunnistaminen on <strong>kielletty</strong> oppilaitoksissa — kaikilla asteilla, lähi- tai verkko-opetuksessa, oppilaiden iästä riippumatta. Ainoa poikkeus on käyttö lääketieteellisistä tai turvallisuussyistä (5 art. 1 kohta f alakohta).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Neljä koulukäyttöä on luokiteltu <strong>suuririskisiksi</strong>: valinta, oppimistulosten arviointi, päätös siitä, mille koulutustasolle oppilas pääsee, ja kiellettyjen toimien valvonta kokeiden aikana. Velvoitteita on sovellettu 2. elokuuta 2026 alkaen (liite III, 3 kohta).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Läpinäkyvyys: tekoälyjärjestelmän kanssa asioivalle on kerrottava siitä, ja tekoälyn tuottama sisältö on merkittävä sellaiseksi (50 art.).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Koulu on <em>käyttöönottaja</em>: sen on varmistettava henkilöstön riittävä tekoälylukutaito (4 art.) ja tehtävä suuririskisistä välineistä perusoikeuksia koskeva vaikutustenarviointi (27 art.) tietosuoja-asetuksen edellyttämän tietosuojaa koskevan vaikutustenarvioinnin lisäksi (35 art.).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Pääosin englanninkielisellä aineistolla koulutetut järjestelmät voivat toimia heikommin suomen kielellä ja suomenkielisissä konteksteissa.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automaattiset suositukset voivat vahvistaa sukupuoleen, etniseen taustaan tai yhteiskuntaluokkaan liittyviä stereotypioita – arvioi kriittisesti.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "”Akateemisen riskin ennustamisen” mallit ovat erityisen ongelmallisia – ne toistavat usein olemassa olevaa eriarvoisuutta sen sijaan, että tunnistaisivat tarpeita.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -5071,6 +5173,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Euroopan komissio. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (tarkistettu laitos). Luxemburg: Euroopan unionin julkaisutoimisto. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
+      "Euroopan unioni. (2024). <em>Asetus (EU) 2024/1689 (tekoälyasetus)</em>. Euroopan unionin virallinen lehti, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Avaa lähde\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5447,6 +5551,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Rozlišujte inštitucionálne používanie (zmluvu uzatvára škola) od osobného používania učiteľa (individuálna zodpovednosť).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Rozpoznávanie emócií je v školskom prostredí <strong>zakázané</strong> — na všetkých stupňoch, prezenčne aj online, bez ohľadu na vek žiakov. Jedinou výnimkou je použitie zo zdravotných alebo bezpečnostných dôvodov (čl. 5 ods. 1 písm. f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Štyri školské použitia sú klasifikované ako <strong>vysokorizikové</strong>: prijímanie, hodnotenie výsledkov vzdelávania, rozhodovanie o úrovni vzdelávania, ku ktorej má žiak prístup, a monitorovanie zakázaného správania počas testov. Povinnosti platia od 2. augusta 2026 (príloha III bod 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Transparentnosť: kto komunikuje so systémom AI, musí o tom byť informovaný a obsah vytvorený AI musí byť takto označený (čl. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Škola je <em>nasadzujúci subjekt</em>: musí zabezpečiť dostatočnú úroveň gramotnosti v oblasti AI u zamestnancov (čl. 4) a pri vysokorizikových nástrojoch vykonať posúdenie vplyvu na základné práva (čl. 27) popri posúdení vplyvu na ochranu údajov podľa GDPR (čl. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systémy trénované prevažne na anglojazyčných údajoch môžu mať horší výkon v slovenčine a v slovenskojazyčných kontextoch.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatické odporúčania môžu zosilňovať stereotypy týkajúce sa pohlavia, etnicity alebo spoločenskej triedy — kriticky ich overujte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modely „predikcie akademického rizika“ sú obzvlášť problematické — často reprodukujú existujúce nerovnosti namiesto toho, aby rozpoznávali potreby.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -5470,6 +5580,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Európska komisia. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revidované vydanie). Luxemburg: Úrad pre vydávanie publikácií Európskej únie. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
+      "Európska únia. (2024). <em>Nariadenie (EÚ) 2024/1689 (akt o umelej inteligencii)</em>. Úradný vestník Európskej únie, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Otvoriť zdroj\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -5843,6 +5955,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Különböztesse meg az intézményi használatot (az iskola szerződést köt) a pedagógus személyes használatától (egyéni felelősség).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Az érzelemfelismerés <strong>tilos</strong> oktatási környezetben — minden szinten, jelenléti és online formában egyaránt, a tanulók életkorától függetlenül. Az egyetlen kivétel az orvosi vagy biztonsági célú használat (5. cikk (1) bekezdés f) pont).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Négy iskolai alkalmazás minősül <strong>nagy kockázatúnak</strong>: felvétel, tanulási eredmények értékelése, az elérhető képzési szintről szóló döntés, valamint a vizsgák alatti tiltott magatartás észlelése. A kötelezettségek 2026. augusztus 2. óta alkalmazandók (III. melléklet 3. pont).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Átláthatóság: aki MI-rendszerrel lép kapcsolatba, arról tájékoztatni kell, az MI által generált tartalmat pedig ilyenként kell megjelölni (50. cikk).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Az iskola az <em>alkalmazó</em>: gondoskodnia kell a személyzet megfelelő MI-jártasságáról (4. cikk), és nagy kockázatú eszközök esetén alapjogi hatásvizsgálatot kell végeznie (27. cikk) a GDPR által előírt adatvédelmi hatásvizsgálat mellett (35. cikk).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "A túlnyomórészt angol nyelvű adatokon betanított rendszerek gyengébben teljesíthetnek magyar nyelven és magyar nyelvű kontextusokban.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Az automatikus ajánlások felerősíthetik a nemi, etnikai vagy osztálybeli sztereotípiákat — vizsgálja meg őket kritikusan.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "A „tanulmányi kockázat előrejelzésére” szolgáló modellek különösen problémásak — gyakran a meglévő egyenlőtlenségeket reprodukálják, ahelyett hogy szükségleteket azonosítanának.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -5866,6 +5984,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Európai Bizottság. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (átdolgozott kiadás). Luxembourg: Az Európai Unió Kiadóhivatala. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Forrás megnyitása\">↗</a>",
+      "Európai Unió. (2024). <em>(EU) 2024/1689 rendelet (a mesterséges intelligenciáról szóló rendelet)</em>. Az Európai Unió Hivatalos Lapja, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Forrás megnyitása\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -6241,6 +6361,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Διακρίνετε τη θεσμική χρήση (το σχολείο υπογράφει σύμβαση) από την προσωπική χρήση του εκπαιδευτικού (ατομική ευθύνη).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Η αναγνώριση συναισθημάτων <strong>απαγορεύεται</strong> στο εκπαιδευτικό πλαίσιο — σε όλες τις βαθμίδες, διά ζώσης ή διαδικτυακά, ανεξαρτήτως ηλικίας των μαθητών. Η μόνη εξαίρεση είναι η χρήση για ιατρικούς λόγους ή λόγους ασφάλειας (άρθρο 5 παρ. 1 στοιχ. στ).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Τέσσερις σχολικές χρήσεις κατατάσσονται ως <strong>υψηλού κινδύνου</strong>: εισαγωγή, αξιολόγηση μαθησιακών αποτελεσμάτων, απόφαση για το επίπεδο εκπαίδευσης στο οποίο έχει πρόσβαση ο μαθητής και παρακολούθηση απαγορευμένης συμπεριφοράς κατά τις εξετάσεις. Οι υποχρεώσεις ισχύουν από τις 2 Αυγούστου 2026 (παράρτημα III, σημείο 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Διαφάνεια: όποιος αλληλεπιδρά με σύστημα ΤΝ πρέπει να ενημερώνεται σχετικά, και το περιεχόμενο που παράγεται από ΤΝ πρέπει να επισημαίνεται ως τέτοιο (άρθρο 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Το σχολείο είναι ο <em>φορέας εφαρμογής</em>: οφείλει να διασφαλίζει επαρκή παιδεία στην ΤΝ για το προσωπικό (άρθρο 4) και, για εργαλεία υψηλού κινδύνου, να διενεργεί εκτίμηση επιπτώσεων στα θεμελιώδη δικαιώματα (άρθρο 27), παράλληλα με την εκτίμηση αντικτύπου στην προστασία δεδομένων που απαιτεί ο ΓΚΠΔ (άρθρο 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Συστήματα που έχουν εκπαιδευτεί κυρίως με αγγλόφωνα δεδομένα ενδέχεται να έχουν χαμηλότερη απόδοση στα ελληνικά και σε ελληνόφωνα περιβάλλοντα.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Οι αυτόματες συστάσεις μπορούν να ενισχύσουν στερεότυπα φύλου, εθνότητας ή κοινωνικής τάξης — ελέγξτε τα κριτικά.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Τα μοντέλα «πρόβλεψης ακαδημαϊκού κινδύνου» είναι ιδιαίτερα προβληματικά — συχνά αναπαράγουν υφιστάμενες ανισότητες αντί να εντοπίζουν ανάγκες.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -6264,6 +6390,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Ευρωπαϊκή Επιτροπή. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (αναθεωρημένη έκδοση). Λουξεμβούργο: Υπηρεσία Εκδόσεων της Ευρωπαϊκής Ένωσης. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Άνοιγμα πηγής\">↗</a>",
+      "Ευρωπαϊκή Ένωση. (2024). <em>Κανονισμός (ΕΕ) 2024/1689 (κανονισμός για την τεχνητή νοημοσύνη)</em>. Επίσημη Εφημερίδα της Ευρωπαϊκής Ένωσης, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Άνοιγμα πηγής\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -6639,6 +6767,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Разграничавайте институционалната употреба (училището сключва договор) от личната употреба на преподавателя (индивидуална отговорност).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Разпознаването на емоции е <strong>забранено</strong> в образователна среда — на всички нива, присъствено или онлайн, независимо от възрастта на учениците. Единственото изключение е употребата по медицински съображения или съображения за безопасност (чл. 5, пар. 1, буква е).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Четири училищни приложения са класифицирани като <strong>висок риск</strong>: прием, оценяване на резултатите от обучението, решение за образователното равнище, до което ученикът има достъп, и наблюдение за забранено поведение по време на изпити. Задълженията се прилагат от 2 август 2026 г. (приложение III, точка 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Прозрачност: който взаимодейства със система с ИИ, трябва да бъде уведомен за това, а съдържанието, генерирано от ИИ, трябва да бъде обозначено като такова (чл. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Училището е <em>внедрител</em>: трябва да осигури достатъчна грамотност по ИИ на персонала (чл. 4) и за високорисковите инструменти да извърши оценка на въздействието върху основните права (чл. 27), наред с оценката на въздействието върху защитата на данните, изисквана от ОРЗД (чл. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Системи, обучени предимно с англоезични данни, могат да се представят по-слабо на български и в българоезични контексти.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Автоматичните препоръки могат да усилват стереотипи, свързани с пол, етнос или социална класа — проверявайте ги критично.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Моделите за „прогнозиране на академичен риск“ са особено проблематични — често възпроизвеждат съществуващи неравенства, вместо да разпознават потребности.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -6662,6 +6796,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Европейска комисия. (2026 г.). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (преработено издание). Люксембург: Служба за публикации на Европейския съюз. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори източника\">↗</a>",
+      "Европейски съюз. (2024 г.). <em>Регламент (ЕС) 2024/1689 (Регламент за изкуствения интелект)</em>. Официален вестник на Европейския съюз, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори източника\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7036,6 +7172,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Atskirkite institucinį naudojimą (mokykla pasirašo sutartį) nuo asmeninio mokytojo naudojimo (individuali atsakomybė).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emocijų atpažinimas <strong>draudžiamas</strong> švietimo aplinkoje — visais lygmenimis, kontaktiniu ar nuotoliniu būdu, nepriklausomai nuo mokinių amžiaus. Vienintelė išimtis — naudojimas dėl medicininių ar saugumo priežasčių (5 str. 1 d. f punktas).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Keturi mokyklinio naudojimo atvejai priskirti <strong>didelės rizikos</strong> kategorijai: priėmimas, mokymosi rezultatų vertinimas, sprendimas dėl švietimo lygmens, kurį mokinys gali pasiekti, ir draudžiamo elgesio stebėjimas per patikrinimus. Pareigos taikomos nuo 2026 m. rugpjūčio 2 d. (III priedo 3 punktas).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skaidrumas: su dirbtinio intelekto sistema bendraujantis asmuo turi būti apie tai informuotas, o dirbtinio intelekto sukurtas turinys turi būti pažymėtas kaip toks (50 str.).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Mokykla yra <em>diegėja</em>: ji turi užtikrinti pakankamą darbuotojų dirbtinio intelekto raštingumą (4 str.) ir, naudodama didelės rizikos priemones, atlikti poveikio pagrindinėms teisėms vertinimą (27 str.) kartu su BDAR reikalaujamu poveikio duomenų apsaugai vertinimu (35 str.).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sistemos, apmokytos daugiausia angliškais duomenimis, gali veikti prasčiau lietuvių kalba ir lietuviškai kalbančiuose kontekstuose.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatinės rekomendacijos gali sustiprinti lyties, etninės kilmės ar socialinės klasės stereotipus – vertinkite kritiškai.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akademinės rizikos prognozavimo“ modeliai yra ypač problemiški – jie dažnai atkartoja esamą nelygybę, o ne nustato poreikius.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -7059,6 +7201,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europos Komisija. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (pataisytas leidimas). Liuksemburgas: Europos Sąjungos leidinių biuras. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atverti šaltinį\">↗</a>",
+      "Europos Sąjunga. (2024). <em>Reglamentas (ES) 2024/1689 (Dirbtinio intelekto aktas)</em>. Europos Sąjungos oficialusis leidinys, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atverti šaltinį\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7433,6 +7577,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nošķiriet institucionālu lietojumu (skola paraksta līgumu) no skolotāja personīga lietojuma (individuāla atbildība).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emociju atpazīšana ir <strong>aizliegta</strong> izglītības vidē — visos līmeņos, klātienē vai tiešsaistē, neatkarīgi no skolēnu vecuma. Vienīgais izņēmums ir izmantošana medicīnisku vai drošības apsvērumu dēļ (5. panta 1. punkta f) apakšpunkts).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Četri skolas lietojumi ir klasificēti kā <strong>augsta riska</strong>: uzņemšana, mācīšanās rezultātu novērtēšana, lēmums par izglītības līmeni, kuram skolēns var piekļūt, un aizliegtas uzvedības uzraudzība pārbaudījumu laikā. Pienākumi tiek piemēroti no 2026. gada 2. augusta (III pielikuma 3. punkts).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Pārredzamība: personai, kas mijiedarbojas ar MI sistēmu, tas ir jāpaziņo, un MI radīts saturs ir jāmarķē kā tāds (50. pants).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skola ir <em>uzstādītājs</em>: tai jānodrošina personālam pietiekama MI pratība (4. pants) un augsta riska rīkiem jāveic ietekmes uz pamattiesībām novērtējums (27. pants) līdztekus datu aizsardzības ietekmes novērtējumam, ko prasa VDAR (35. pants).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sistēmas, kas apmācītas galvenokārt ar angļu valodas datiem, var darboties sliktāk latviešu valodā un latviski runājošos kontekstos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automātiskie ieteikumi var pastiprināt dzimuma, etniskās piederības vai sociālās klases stereotipus – izvērtējiet kritiski.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akadēmiskā riska prognozēšanas” modeļi ir īpaši problemātiski – tie bieži atkārto pastāvošo nevienlīdzību, nevis identificē vajadzības.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -7456,6 +7606,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Eiropas Komisija. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (pārskatīts izdevums). Luksemburga: Eiropas Savienības Publikāciju birojs. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atvērt avotu\">↗</a>",
+      "Eiropas Savienība. (2024). <em>Regula (ES) 2024/1689 (Mākslīgā intelekta akts)</em>. Eiropas Savienības Oficiālais Vēstnesis, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Atvērt avotu\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -7833,6 +7985,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Eristage institutsioonilist kasutust (kool sõlmib lepingu) õpetaja isiklikust kasutusest (individuaalne vastutus).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Emotsioonide tuvastamine on hariduskontekstis <strong>keelatud</strong> — kõigil tasemetel, kohapeal või veebis, olenemata õpilaste vanusest. Ainus erand on kasutamine meditsiinilistel või ohutusega seotud põhjustel (art 5 lg 1 punkt f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Neli koolikasutust on liigitatud <strong>suure riskiga</strong> kasutusteks: vastuvõtt, õpitulemuste hindamine, otsus hariduse taseme kohta, millele õpilane pääseb, ja keelatud käitumise jälgimine testide ajal. Kohustusi kohaldatakse alates 2. augustist 2026 (III lisa punkt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Läbipaistvus: tehisintellektisüsteemiga suhtlevat inimest tuleb sellest teavitada ja tehisintellekti loodud sisu peab olema sellisena märgistatud (art 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Kool on <em>juurutaja</em>: ta peab tagama töötajate piisava tehisintellektipädevuse (art 4) ja suure riskiga vahendite puhul viima läbi põhiõiguste mõjuhinnangu (art 27) lisaks isikuandmete kaitse üldmäärusega nõutavale andmekaitsealasele mõjuhinnangule (art 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Peamiselt ingliskeelsete andmetega treenitud süsteemid võivad eesti keeles ja eestikeelsetes kontekstides toimida halvemini.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automaatsed soovitused võivad võimendada soolisi, etnilisi või klassilisi stereotüüpe – hinnake kriitiliselt.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "„Akadeemilise riski prognoosimise” mudelid on eriti problemaatilised – need taastoodavad sageli olemasolevat ebavõrdsust, selle asemel et tuvastada vajadusi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -7856,6 +8014,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Euroopa Komisjon. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (parandatud väljaanne). Luxembourg: Euroopa Liidu Väljaannete Talitus. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ava allikas\">↗</a>",
+      "Euroopa Liit. (2024). <em>Määrus (EL) 2024/1689 (tehisintellekti määrus)</em>. Euroopa Liidu Teataja, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Ava allikas\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -8234,6 +8394,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Razlikujte med institucionalno uporabo (pogodbo sklene šola) in osebno uporabo učitelja (individualna odgovornost).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Prepoznavanje čustev je v izobraževalnem okolju <strong>prepovedano</strong> — na vseh ravneh, v živo ali na spletu, ne glede na starost učencev. Edina izjema je uporaba iz zdravstvenih ali varnostnih razlogov (člen 5(1)(f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Štiri šolske uporabe so razvrščene kot <strong>visoko tvegane</strong>: vpis, vrednotenje učnih izidov, odločitev o ravni izobraževanja, do katere ima učenec dostop, in spremljanje prepovedanega vedenja med preverjanji. Obveznosti se uporabljajo od 2. avgusta 2026 (Priloga III, točka 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Preglednost: kdor komunicira s sistemom umetne inteligence, mora biti o tem obveščen, vsebina, ki jo ustvari umetna inteligenca, pa mora biti označena kot taka (člen 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Šola je <em>uvajalec</em>: zagotoviti mora zadostno pismenost osebja na področju umetne inteligence (člen 4) in za orodja z visokim tveganjem izvesti oceno učinka na temeljne pravice (člen 27) poleg ocene učinka na varstvo podatkov, ki jo zahteva GDPR (člen 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sistemi, naučeni pretežno na angleško govorečih podatkih, lahko slabše delujejo v slovenščini in v slovensko govorečih kontekstih.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Samodejna priporočila lahko ojačajo stereotipe glede spola, etnične pripadnosti ali družbenega razreda — kritično jih preverjajte.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeli za „napovedovanje učnega tveganja“ so še posebej problematični — pogosto reproducirajo obstoječe neenakosti, namesto da bi prepoznavali potrebe.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -8257,6 +8423,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Evropska komisija. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revidirana izdaja). Luxembourg: Urad za publikacije Evropske unije. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Odpri vir\">↗</a>",
+      "Evropska unija. (2024). <em>Uredba (EU) 2024/1689 (Akt o umetni inteligenci)</em>. Uradni list Evropske unije, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Odpri vir\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -8633,6 +8801,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Déan idirdhealú idir úsáid institiúideach (síníonn an scoil conradh) agus úsáid phearsanta an mhúinteora (freagracht aonair).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Tá aithint mothúchán <strong>toirmiscthe</strong> i gcomhthéacs oideachais — ar gach leibhéal, go pearsanta nó ar líne, is cuma cén aois na daltaí. Is í an t-aon eisceacht ná úsáid ar chúiseanna leighis nó sábháilteachta (Airt. 5(1)(f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Tá ceithre úsáid scoile aicmithe mar <strong>ardriosca</strong>: iontráil, measúnú ar thorthaí foghlama, cinneadh faoin leibhéal oideachais ar féidir le dalta rochtain a fháil air, agus faireachán ar iompar toirmiscthe le linn scrúduithe. Tá feidhm ag na hoibleagáidí ón 2 Lúnasa 2026 (Iarscríbhinn III, pointe 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Trédhearcacht: ní mór a insint d'aon duine a idirghníomhaíonn le córas intleachta saorga, agus ní mór ábhar a ghintear le hintleacht shaorga a shainaithint mar sin (Airt. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Is í an scoil an <em>t-úsáideoir gairmiúil</em>: ní mór di litearthacht leordhóthanach intleachta saorga a chinntiú don fhoireann (Airt. 4) agus, i gcás uirlisí ardriosca, measúnú tionchair ar chearta bunúsacha a dhéanamh (Airt. 27), taobh leis an measúnú tionchair ar chosaint sonraí a éilíonn RGCS (Airt. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "D'fhéadfadh feidhmíocht níos ísle a bheith ag córais a oileadh go príomha ar shonraí Béarla i nGaeilge agus i gcomhthéacsanna Gaeilge.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "D'fhéadfadh moltaí uathoibríocha steiréitíopaí inscne, eitneachais nó aicme a mhéadú — déan iniúchadh criticiúil orthu.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Tá samhlacha „tuar riosca acadúil” fadhbach go háirithe — is minic a atáirgeann siad neamhionannais atá ann cheana in ionad riachtanais a aithint.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -8656,6 +8830,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "An Coimisiún Eorpach. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (eagrán athbhreithnithe). Lucsamburg: Oifig Foilseachán an Aontais Eorpaigh. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
+      "An tAontas Eorpach. (2024). <em>Rialachán (AE) 2024/1689 (an Ionstraim um Intleacht Shaorga)</em>. Iris Oifigiúil an Aontais Eorpaigh, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Oscail an foinse\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -9033,6 +9209,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Iddistingwi l-użu istituzzjonali (l-iskola tiffirma kuntratt) mill-użu personali tal-għalliem (responsabbiltà individwali).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "L-għarfien tal-emozzjonijiet huwa <strong>projbit</strong> f'kuntest edukattiv — fil-livelli kollha, wiċċ imb wiċċ jew online, tkun xi tkun l-età tal-istudenti. L-unika eċċezzjoni hija l-użu għal raġunijiet mediċi jew ta' sigurtà (Art. 5(1)(f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Erba' użi skolastiċi huma kklassifikati bħala ta' <strong>riskju għoli</strong>: ammissjoni, evalwazzjoni tar-riżultati tat-tagħlim, deċiżjoni dwar il-livell ta' edukazzjoni li għalih jista' jaċċedi l-istudent, u monitoraġġ ta' mġiba projbita waqt it-testijiet. L-obbligi japplikaw mit-2 ta' Awwissu 2026 (Anness III, punt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Trasparenza: min jinteraġixxi ma' sistema tal-IA għandu jkun infurmat b'dan, u l-kontenut iġġenerat mill-IA għandu jkun identifikat bħala tali (Art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "L-iskola hija l-<em>implimentatur</em>: trid tiżgura litteriżmu suffiċjenti fl-IA għall-persunal (Art. 4) u, għal għodod ta' riskju għoli, twettaq valutazzjoni tal-impatt fuq id-drittijiet fundamentali (Art. 27), flimkien mal-valutazzjoni tal-impatt fuq il-protezzjoni tad-data mitluba mill-GDPR (Art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Sistemi mħarrġa l-aktar fuq data bl-Ingliż jistgħu jkollhom prestazzjoni inqas tajba bil-Malti u f'kuntesti Maltin.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Ir-rakkomandazzjonijiet awtomatiċi jistgħu jkabbru sterjotipi ta' ġeneru, etniċità jew klassi — iċċekkjahom b'mod kritiku.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Il-mudelli ta' „tbassir tar-riskju akkademiku” huma partikolarment problematiċi — spiss jirriproduċu inugwaljanzi eżistenti minflok ma jidentifikaw il-ħtiġijiet.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -9056,6 +9238,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Il-Kummissjoni Ewropea. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (edizzjoni riveduta). Il-Lussemburgu: L-Uffiċċju tal-Pubblikazzjonijiet tal-Unjoni Ewropea. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
+      "L-Unjoni Ewropea. (2024). <em>Regolament (UE) 2024/1689 (l-Att dwar l-Intelliġenza Artifiċjali)</em>. Il-Ġurnal Uffiċjali tal-Unjoni Ewropea, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Iftaħ is-sors\">↗</a>",
     ]
     },
     oficina: { sections: [
@@ -9441,6 +9625,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kurumsal kullanımı (okulun sözleşme imzaladığı) öğretmenin kişisel kullanımından (bireysel sorumluluk) ayırın.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Duygu tanıma, eğitim ortamında <strong>yasaktır</strong> — her kademede, yüz yüze veya çevrimiçi, öğrencilerin yaşı ne olursa olsun. Tek istisna, tıbbi veya güvenlik gerekçeleriyle kullanımdır (md. 5(1)(f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Dört okul kullanımı <strong>yüksek riskli</strong> sayılır: kabul, öğrenme çıktılarının değerlendirilmesi, öğrencinin erişebileceği eğitim düzeyine karar verilmesi ve sınavlar sırasında yasak davranışların izlenmesi. Yükümlülükler 2 Ağustos 2026'dan beri uygulanmaktadır (Ek III, 3. nokta).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Şeffaflık: bir yapay zekâ sistemiyle etkileşime giren kişiye bu durum bildirilmelidir ve yapay zekâ tarafından üretilen içerik bu şekilde işaretlenmelidir (md. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Okul <em>uygulayıcıdır</em>: personelin yeterli yapay zekâ okuryazarlığına sahip olmasını sağlamalı (md. 4) ve yüksek riskli araçlar için, GDPR'nin gerektirdiği veri koruma etki değerlendirmesinin yanı sıra temel haklar etki değerlendirmesi yapmalıdır (md. 27, md. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Ağırlıklı olarak İngilizce veriyle eğitilmiş sistemler Türkçede ve Türkçe konuşulan bağlamlarda daha zayıf çalışabilir.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Otomatik öneriler cinsiyet, etnik köken ya da sınıf kalıplarını büyütebilir — eleştirel gözle doğrulayın.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "“Akademik risk tahmini” modelleri özellikle sorunludur — ihtiyaçları belirlemek yerine çoğu kez var olan eşitsizlikleri yeniden üretirler.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -9463,6 +9653,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Avrupa Komisyonu. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (gözden geçirilmiş baskı). Lüksemburg: Avrupa Birliği Yayın Ofisi. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
+      "Avrupa Birliği. (2024). <em>(AB) 2024/1689 sayılı Tüzük (Yapay Zekâ Yasası)</em>. Avrupa Birliği Resmî Gazetesi, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Kaynağı aç\">↗</a>",
     ],
     },
     oficina: { sections: [
@@ -9845,6 +10037,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Skill mellom institusjonell bruk (skolen inngår avtale) og lærerens private bruk (individuelt ansvar).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Følelsesgjenkjenning er <strong>forbudt</strong> i utdanningssammenheng — på alle nivåer, fysisk eller på nett, uansett elevenes alder. Det eneste unntaket er bruk av medisinske eller sikkerhetsmessige grunner (art. 5 nr. 1 bokstav f).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Fire skolebruk er klassifisert som <strong>høy risiko</strong>: opptak, vurdering av læringsresultater, avgjørelse om hvilket utdanningsnivå en elev får tilgang til, og overvåking av forbudt atferd under prøver. Pliktene har gjeldt siden 2. august 2026 (vedlegg III punkt 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Åpenhet: den som samhandler med et KI-system, skal få vite det, og KI-generert innhold skal merkes som sådan (art. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skolen er <em>ibruktaker</em>: den må sikre tilstrekkelig KI-kompetanse hos personalet (art. 4) og for høyrisikoverktøy gjennomføre en konsekvensvurdering for grunnleggende rettigheter (art. 27), i tillegg til personvernkonsekvensvurderingen som GDPR krever (art. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Systemer trent på overveiende engelskspråklige data kan fungere svakere på norsk og i norsk sammenheng.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Automatiske anbefalinger kan forsterke stereotypier om kjønn, etnisitet eller klasse — sjekk dem kritisk.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Modeller som «forutsier faglig risiko» er særlig problematiske — de gjengir ofte eksisterende ulikhet framfor å avdekke behov.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -9867,6 +10065,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Europakommisjonen. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (revidert utgave). Luxembourg: Den europeiske unions publikasjonskontor. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
+      "Den europeiske union. (2024). <em>Forordning (EU) 2024/1689 (KI-forordningen)</em>. Den europeiske unions tidende, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Åpne kilden\">↗</a>",
     ],
     },
     oficina: { sections: [
@@ -10248,6 +10448,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Aðgreindu notkun á vegum stofnunar (skólinn gerir samning) frá einkanotkun kennarans (ábyrgð einstaklings).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Tilfinningagreining er <strong>bönnuð</strong> í skólastarfi — á öllum skólastigum, í staðnámi eða fjarnámi, óháð aldri nemenda. Eina undantekningin er notkun af læknisfræðilegum eða öryggisástæðum (5. gr. 1. mgr. f-liður).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Fjórar notkunartegundir í skólum eru flokkaðar sem <strong>áhættumiklar</strong>: innritun, mat á námsárangri, ákvörðun um það skólastig sem nemandi fær aðgang að, og eftirlit með bannaðri hegðun í prófum. Skyldurnar hafa gilt frá 2. ágúst 2026 (III. viðauki, 3. liður).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Gagnsæi: þeim sem á í samskiptum við gervigreindarkerfi skal tilkynnt um það, og efni sem gervigreind býr til skal merkt sem slíkt (50. gr.).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Skólinn er <em>innleiðandi</em>: hann verður að tryggja starfsfólki nægilegt gervigreindarlæsi (4. gr.) og, fyrir áhættumikil verkfæri, framkvæma mat á áhrifum á grundvallarréttindi (27. gr.), samhliða mati á áhrifum á persónuvernd sem persónuverndarreglugerðin krefst (35. gr.).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Kerfi sem þjálfuð eru á aðallega enskum gögnum geta staðið sig verr á íslensku og í íslensku samhengi.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Sjálfvirkar tillögur geta magnað staðalmyndir um kyn, uppruna eða stétt — kannaðu þær með gagnrýnu auga.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Líkön sem „spá fyrir um námsáhættu“ eru sérstaklega varhugaverð — þau endurtaka oft ríkjandi ójöfnuð í stað þess að greina þarfir.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -10270,6 +10476,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Framkvæmdastjórn Evrópusambandsins. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (endurskoðuð útgáfa). Lúxemborg: Útgáfuskrifstofa Evrópusambandsins. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
+      "Evrópusambandið. (2024). <em>Reglugerð (ESB) 2024/1689 (reglugerð um gervigreind)</em>. Stjórnartíðindi Evrópusambandsins, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Opna heimild\">↗</a>",
     ],
     },
     oficina: { sections: [
@@ -10651,6 +10859,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Разликујте институционалну употребу (школа склапа уговор) од личне употребе наставника (појединачна одговорност).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Препознавање емоција је <strong>забрањено</strong> у образовном контексту — на свим нивоима, уживо или онлајн, без обзира на узраст ученика. Једини изузетак је употреба из медицинских или безбедносних разлога (чл. 5(1)(ф)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Четири школске примене сврставају се у <strong>висок ризик</strong>: упис, вредновање исхода учења, одлука о нивоу образовања коме ученик има приступ и надзор над забрањеним понашањем током тестова. Обавезе се примењују од 2. августа 2026. (Анекс III, тачка 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Транспарентност: онај ко комуницира са системом вештачке интелигенције мора о томе бити обавештен, а садржај који генерише вештачка интелигенција мора бити означен као такав (чл. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Школа је <em>субјекат који уводи систем</em>: мора обезбедити довољну писменост запослених у области вештачке интелигенције (чл. 4) и, за алате високог ризика, спровести процену утицаја на основна права (чл. 27), уз процену утицаја на заштиту података коју захтева ГДПР (чл. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Системи обучени претежно на подацима на енглеском могу слабије радити на српском и у српском контексту.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Аутоматске препоруке могу појачати стереотипе о полу, етничкој припадности или класи — проверите их критички.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Модели који „предвиђају академски ризик“ посебно су проблематични — често понављају постојећу неједнакост уместо да препознају потребе.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -10673,6 +10887,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Европска комисија. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (ревидирано издање). Луксембург: Канцеларија за публикације Европске уније. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори извор\">↗</a>",
+      "Европска унија. (2024). <em>Уредба (ЕУ) 2024/1689 (Акт о вештачкој интелигенцији)</em>. Службени лист Европске уније, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори извор\">↗</a>",
     ],
     },
     oficina: { sections: [
@@ -11055,6 +11271,12 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Разликувајте институционална употреба (училиштето склучува договор) од лична употреба на наставникот (поединечна одговорност).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
+        "Препознавањето емоции е <strong>забрането</strong> во образовен контекст — на сите нивоа, со физичко присуство или онлајн, без оглед на возраста на учениците. Единствен исклучок е употребата од медицински или безбедносни причини (чл. 5(1)(ѓ)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>",
+        "Четири училишни примени се класифицирани како <strong>висок ризик</strong>: запишување, оценување на резултатите од учењето, одлука за образовното ниво до кое ученикот има пристап и надзор над забрането однесување за време на тестови. Обврските се применуваат од 2 август 2026 година (Анекс III, точка 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Транспарентност: оној што комуницира со систем со вештачка интелигенција мора да биде известен за тоа, а содржината создадена со вештачка интелигенција мора да биде означена како таква (чл. 50).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>",
+        "Школата е <em>субјект што го воведува системот</em>: мора да обезбеди доволна писменост за вештачка интелигенција кај персоналот (чл. 4) и, за алатки со висок ризик, да спроведе процена на влијанието врз основните права (чл. 27), покрај процената на влијанието врз заштитата на податоците што ја бара ГДПР (чл. 35).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>",
+      ]},
+      { items: [
         "Системите обучени претежно на податоци на англиски може послабо да работат на македонски и во македонски контекст.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Автоматските препораки може да ги засилат стереотипите за пол, етничка припадност или класа — проверете ги критички.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Моделите што „предвидуваат академски ризик“ се особено проблематични — тие честопати ја повторуваат постојната нееднаквост наместо да ги препознаат потребите.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
@@ -11077,6 +11299,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO.",
       "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
       "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>",
+      "Европска комисија. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (ревидирано издание). Луксембург: Канцеларија за публикации на Европската Унија. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори извор\">↗</a>",
+      "Европска Унија. (2024). <em>Регулатива (ЕУ) 2024/1689 (Акт за вештачка интелигенција)</em>. Службен весник на Европската Унија, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Отвори извор\">↗</a>",
     ],
     },
     oficina: { sections: [
