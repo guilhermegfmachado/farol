@@ -41,6 +41,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Бележка за превода",
         "items": [
           "Съдържанието на картите е изцяло преведено на български. Португалският е оригиналната версия на наръчника; при съмнение водещ е португалският текст.",
+          "Картата за правната рамка е изключение: всеки език представя законодателството на собствената си страна, проучено за тази страна, а не преведено от португалски.",
           "Навигацията, етикетите и информационните страници са напълно преведени."
         ]
       },
@@ -88,6 +89,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Poznámka k překladu",
         "items": [
           "Obsah karet je plně přeložen do češtiny. Portugalština je původní verzí příručky; v případě pochybností platí portugalský text.",
+          "Karta právního rámce je výjimkou: každý jazyk uvádí legislativu vlastní země, zpracovanou pro tuto zemi, nikoli přeloženou z portugalštiny.",
           "Navigace, popisky a informační stránky jsou plně přeloženy."
         ]
       },
@@ -135,6 +137,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Note om oversættelse",
         "items": [
           "Kortenes indhold er fuldt oversat til dansk. Portugisisk er guidens originalversion; i tvivlstilfælde gælder den portugisiske tekst.",
+          "Kortet om de retlige rammer er undtagelsen: hvert sprog rummer sit eget lands lovgivning, undersøgt for det land i stedet for oversat fra portugisisk.",
           "Navigation, etiketter og informationssider er fuldt oversat."
         ]
       },
@@ -182,6 +185,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Hinweis zur Übersetzung",
         "items": [
           "Der Karteninhalt ist vollständig ins Deutsche übersetzt. Portugiesisch ist die Originalversion des Leitfadens; im Zweifelsfall gilt der portugiesische Text.",
+          "Die Karte zum Rechtsrahmen ist die Ausnahme: Jede Sprache führt die Gesetzgebung ihres eigenen Landes auf, für dieses Land recherchiert und nicht aus dem Portugiesischen übersetzt.",
           "Navigation, Beschriftungen und Informationsseiten sind vollständig übersetzt."
         ]
       },
@@ -229,6 +233,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Σημείωση για τη μετάφραση",
         "items": [
           "Το περιεχόμενο των καρτών είναι πλήρως μεταφρασμένο στα ελληνικά. Τα πορτογαλικά είναι η πρωτότυπη έκδοση του οδηγού· σε περίπτωση αμφιβολίας υπερισχύει το πορτογαλικό κείμενο.",
+          "Η κάρτα του νομικού πλαισίου αποτελεί εξαίρεση: κάθε γλώσσα παρουσιάζει τη νομοθεσία της δικής της χώρας, τεκμηριωμένη για τη χώρα αυτή και όχι μεταφρασμένη από τα πορτογαλικά.",
           "Η πλοήγηση, οι ετικέτες και οι σελίδες πληροφοριών είναι πλήρως μεταφρασμένες."
         ]
       },
@@ -276,7 +281,8 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "A note on translation",
         "items": [
           "The full card content is translated into English. Portuguese is the original version of the guide; if anything is unclear, the Portuguese text prevails.",
-          "The site is designed for teachers in Portuguese-speaking contexts; the English version is provided for international colleagues and conference use."
+          "The legal framework card is the exception: each language carries its own country's legislation, researched for that country rather than translated from the Portuguese.",
+          "Navigation, labels and information pages are fully translated."
         ]
       },
       {
@@ -323,6 +329,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Nota sobre la traducción",
         "items": [
           "El contenido de las fichas está completamente traducido al español. El portugués es la versión original de la guía; en caso de duda, prevalece el texto portugués.",
+          "La ficha de marco legal es la excepción: cada idioma recoge la legislación de su propio país, investigada para ese país en lugar de traducida del portugués.",
           "La navegación, las etiquetas y las páginas de información están completamente traducidas."
         ]
       },
@@ -370,6 +377,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Märkus tõlke kohta",
         "items": [
           "Kaartide sisu on täielikult eesti keelde tõlgitud. Portugali keel on juhendi originaalversioon; kahtluse korral kehtib portugalikeelne tekst.",
+          "Õigusraamistiku kaart on erand: iga keel esitab oma riigi õigusaktid, mis on koostatud selle riigi kohta, mitte tõlgitud portugali keelest.",
           "Navigeerimine, sildid ja teabelehed on täielikult tõlgitud."
         ]
       },
@@ -417,6 +425,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Huomio käännöksestä",
         "items": [
           "Korttien sisältö on käännetty kokonaan suomeksi. Portugali on oppaan alkuperäisversio; epäselvissä tapauksissa portugalinkielinen teksti on ensisijainen.",
+          "Lainsäädäntökortti on poikkeus: jokainen kieli sisältää oman maansa lainsäädännön, joka on selvitetty kyseistä maata varten eikä käännetty portugalista.",
           "Navigointi, tunnisteet ja tietosivut on täysin käännetty."
         ]
       },
@@ -464,6 +473,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Note sur la traduction",
         "items": [
           "Le contenu des fiches est intégralement traduit en français. Le portugais est la version originale du guide ; en cas de doute, le texte portugais prévaut.",
+          "La fiche du cadre légal fait exception : chaque langue présente la législation de son propre pays, recherchée pour ce pays plutôt que traduite du portugais.",
           "La navigation, les libellés et les pages d'information sont intégralement traduits."
         ]
       },
@@ -511,6 +521,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Nóta faoin aistriúchán",
         "items": [
           "Tá ábhar na gcártaí aistrithe go hiomlán go Gaeilge. Is í an Phortaingéilis bunleagan an treoirleabhair; má bhíonn amhras ann, is ag an téacs Portaingéilise atá an forlámhas.",
+          "Is eisceacht é an cárta faoin gcreat dlíthiúil: tá reachtaíocht a tíre féin ag gach teanga, taighde déanta uirthi don tír sin seachas í a aistriú ón bPortaingéilis.",
           "Tá nascleanúint, lipéid agus leathanaigh faisnéise aistrithe go hiomlán."
         ]
       },
@@ -558,6 +569,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Napomena o prijevodu",
         "items": [
           "Sadržaj kartica u cijelosti je preveden na hrvatski. Portugalski je izvorna verzija vodiča; u slučaju nedoumice, mjerodavan je portugalski tekst.",
+          "Kartica o pravnom okviru je iznimka: svaki jezik donosi zakonodavstvo vlastite zemlje, istraženo za tu zemlju, a ne prevedeno s portugalskog.",
           "Navigacija, oznake i informativne stranice u cijelosti su prevedene."
         ]
       },
@@ -605,6 +617,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Megjegyzés a fordításról",
         "items": [
           "A kártyák tartalma teljes egészében le van fordítva magyarra. A portugál az útmutató eredeti változata; kétség esetén a portugál szöveg az irányadó.",
+          "A jogi keretről szóló kártya kivétel: minden nyelv a saját országa jogszabályait tartalmazza, az adott országra vonatkozóan feldolgozva, nem pedig portugálból fordítva.",
           "A navigáció, a feliratok és az információs oldalak teljesen le vannak fordítva."
         ]
       },
@@ -652,6 +665,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Um þýðinguna",
         "items": [
           "Efni spjaldanna er þýtt í heild á íslensku. Portúgalska er frumútgáfa handbókarinnar; í vafa gildir portúgalski textinn.",
+          "Spjaldið um lagaramma er undantekningin: hvert tungumál hefur löggjöf síns eigin lands, rannsakaða fyrir það land en ekki þýdda úr portúgölsku.",
           "Leiðsögn, merkingar og upplýsingasíður eru þýddar að fullu."
         ]
       },
@@ -699,6 +713,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Nota sulla traduzione",
         "items": [
           "Il contenuto delle schede è tradotto integralmente in italiano. Il portoghese è la versione originale della guida; in caso di dubbio, prevale il testo portoghese.",
+          "La scheda del quadro normativo fa eccezione: ogni lingua riporta la legislazione del proprio paese, ricercata per quel paese anziché tradotta dal portoghese.",
           "La navigazione, le etichette e le pagine informative sono tradotte integralmente."
         ]
       },
@@ -746,6 +761,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Pastaba dėl vertimo",
         "items": [
           "Kortelių turinys visiškai išverstas į lietuvių kalbą. Portugalų kalba yra originali vadovo versija; kilus abejonių, vadovaujamasi portugališku tekstu.",
+          "Teisinės sistemos kortelė yra išimtis: kiekviena kalba pateikia savo šalies teisės aktus, parengtus tai šaliai, o ne išverstus iš portugalų kalbos.",
           "Navigacija, etiketės ir informaciniai puslapiai yra visiškai išversti."
         ]
       },
@@ -793,6 +809,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Piezīme par tulkojumu",
         "items": [
           "Karšu saturs ir pilnībā iztulkots latviešu valodā. Portugāļu valoda ir rokasgrāmatas oriģinālā versija; šaubu gadījumā noteicošais ir portugāļu teksts.",
+          "Tiesiskā regulējuma kartīte ir izņēmums: katrā valodā ir attiecīgās valsts tiesību akti, kas pētīti šai valstij, nevis tulkoti no portugāļu valodas.",
           "Navigācija, etiķetes un informācijas lapas ir pilnībā tulkotas."
         ]
       },
@@ -840,6 +857,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "За преводот",
         "items": [
           "Содржината на картичките е преведена во целост на македонски. Португалскиот е изворната верзија на прирачникот; во случај на недоумица важи португалскиот текст.",
+          "Картичката за правната рамка е исклучок: секој јазик го содржи законодавството на сопствената земја, истражено за таа земја, а не преведено од португалски.",
           "Навигацијата, ознаките и информативните страници се преведени во целост."
         ]
       },
@@ -887,6 +905,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Nota dwar it-traduzzjoni",
         "items": [
           "Il-kontenut tal-kards huwa tradott kompletament għall-Malti. Il-Portugiż huwa l-verżjoni oriġinali tal-gwida; f'każ ta' dubju, jipprevali t-test Portugiż.",
+          "Il-kard tal-qafas legali hija l-eċċezzjoni: kull lingwa ġġorr il-leġiżlazzjoni ta' pajjiżha stess, riċerkata għal dak il-pajjiż minflok tradotta mill-Portugiż.",
           "In-navigazzjoni, it-tikketti u l-paġni tal-informazzjoni huma tradotti kompletament."
         ]
       },
@@ -934,6 +953,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Noot over de vertaling",
         "items": [
           "De inhoud van de kaarten is volledig naar het Nederlands vertaald. Portugees is de originele versie van de gids; bij twijfel geldt de Portugese tekst.",
+          "De kaart over het wettelijk kader is de uitzondering: elke taal bevat de wetgeving van het eigen land, onderzocht voor dat land in plaats van vertaald uit het Portugees.",
           "Navigatie, labels en informatiepagina's zijn volledig vertaald."
         ]
       },
@@ -981,6 +1001,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Om oversettelsen",
         "items": [
           "Innholdet på kortene er oversatt i sin helhet til norsk. Portugisisk er originalversjonen; ved tvil gjelder den portugisiske teksten.",
+          "Kortet om det juridiske rammeverket er unntaket: hvert språk har sitt eget lands lovgivning, undersøkt for det landet i stedet for oversatt fra portugisisk.",
           "Navigasjon, etiketter og informasjonssider er fullt oversatt."
         ]
       },
@@ -1028,6 +1049,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Uwaga dotycząca tłumaczenia",
         "items": [
           "Treść kart jest w pełni przetłumaczona na język polski. Portugalski jest oryginalną wersją przewodnika; w razie wątpliwości rozstrzyga tekst portugalski.",
+          "Karta ram prawnych stanowi wyjątek: każdy język zawiera ustawodawstwo własnego kraju, opracowane dla tego kraju, a nie przetłumaczone z portugalskiego.",
           "Nawigacja, etykiety i strony informacyjne są w pełni przetłumaczone."
         ]
       },
@@ -1075,6 +1097,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Notă despre traducere",
         "items": [
           "Conținutul fișelor este tradus integral în română. Portugheza este versiunea originală a ghidului; în caz de neclaritate, textul portughez prevalează.",
+          "Fișa privind cadrul legal face excepție: fiecare limbă prezintă legislația propriei țări, documentată pentru acea țară, nu tradusă din portugheză.",
           "Navigarea, etichetele și paginile de informații sunt complet traduse."
         ]
       },
@@ -1122,6 +1145,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Poznámka k prekladu",
         "items": [
           "Obsah kariet je plne preložený do slovenčiny. Portugalčina je pôvodnou verziou príručky; v prípade pochybností platí portugalský text.",
+          "Karta právneho rámca je výnimkou: každý jazyk uvádza legislatívu vlastnej krajiny, spracovanú pre túto krajinu, nie preloženú z portugalčiny.",
           "Navigácia, popisky a informačné stránky sú plne preložené."
         ]
       },
@@ -1169,6 +1193,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Opomba o prevodu",
         "items": [
           "Vsebina kartic je v celoti prevedena v slovenščino. Portugalščina je izvirna različica priročnika; v primeru dvoma velja portugalsko besedilo.",
+          "Kartica pravnega okvira je izjema: vsak jezik navaja zakonodajo svoje države, raziskano za to državo in ne prevedeno iz portugalščine.",
           "Navigacija, oznake in informacijske strani so v celoti prevedene."
         ]
       },
@@ -1216,6 +1241,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "О преводу",
         "items": [
           "Садржај картица преведен је у целости на српски. Португалски је изворна верзија приручника; у случају недоумице важи португалски текст.",
+          "Картица о правном оквиру је изузетак: сваки језик садржи законодавство сопствене земље, истражено за ту земљу, а не преведено са португалског.",
           "Навигација, ознаке и информативне странице преведени су у потпуности."
         ]
       },
@@ -1263,6 +1289,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Notering om översättning",
         "items": [
           "Kortens innehåll är helt översatt till svenska. Portugisiska är guidens originalversion; vid tveksamhet gäller den portugisiska texten.",
+          "Kortet om det rättsliga ramverket är undantaget: varje språk innehåller sitt eget lands lagstiftning, efterforskad för det landet i stället för översatt från portugisiskan.",
           "Navigering, etiketter och informationssidor är fullt översatta."
         ]
       },
@@ -1310,6 +1337,7 @@ export const about: Partial<Record<Lang, AboutPage>> = {
         "label": "Çeviri hakkında",
         "items": [
           "Kartların içeriği tümüyle Türkçeye çevrilmiştir. Kılavuzun özgün sürümü Portekizcedir; tereddüt hâlinde Portekizce metin esas alınır.",
+          "Yasal çerçeve kartı istisnadır: her dil kendi ülkesinin mevzuatını taşır; bu mevzuat Portekizceden çevrilmemiş, o ülke için araştırılmıştır.",
           "Gezinme, etiketler ve bilgi sayfaları tümüyle çevrilmiştir."
         ]
       },
