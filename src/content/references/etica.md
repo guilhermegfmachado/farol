@@ -12,6 +12,12 @@ sections:
       - "Verificar onde a ferramenta armazena dados — servidores europeus, não europeus, anonimizados ou não.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
       - "Nunca inserir nomes completos, moradas, números de identificação, ou diagnósticos clínicos em ferramentas de IA generativa.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-3\">3</a></sup>"
       - "Distinguir uso institucional (escola assina contrato) de uso pessoal do docente (responsabilidade individual).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+  - label: "Regulamento da IA (AI Act)"
+    items:
+      - "O reconhecimento de emoções está <strong>proibido</strong> em contexto escolar — todos os níveis de ensino, presencial ou online, seja qual for a idade dos alunos. A única exceção é o uso por razões médicas ou de segurança (art. 5.º, n.º 1, al. f)).<sup class=\"cite\"><a href=\"#ref-6\">6</a>,<a href=\"#ref-7\">7</a></sup>"
+      - "Quatro utilizações escolares são classificadas como <strong>alto risco</strong>: admissão, avaliação de resultados de aprendizagem, decisão sobre o nível de ensino a que o aluno acede, e deteção de comportamentos proibidos durante testes. As obrigações aplicam-se desde 2 de agosto de 2026 (anexo III, ponto 3).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
+      - "Transparência: quem interage com um sistema de IA tem de ser informado disso, e os conteúdos gerados por IA têm de estar identificados como tal (art. 50.º).<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
+      - "A escola é o <em>responsável pela implantação</em>: tem de assegurar literacia em IA suficiente ao pessoal (art. 4.º) e, para ferramentas de alto risco, realizar uma avaliação de impacto sobre os direitos fundamentais (art. 27.º), a par da avaliação de impacto sobre a proteção de dados exigida pelo RGPD (art. 35.º).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-7\">7</a></sup>"
   - label: "Viés algorítmico"
     items:
       - "Sistemas treinados com dados maioritariamente anglófonos podem ter desempenho inferior em português e contextos lusófonos.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
@@ -35,4 +41,6 @@ references:
   - "Miao, F., & Holmes, W. (2023). <em>Guidance for Generative AI in Education and Research</em>. Paris: UNESCO."
   - "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. <em>International Journal of Artificial Intelligence in Education</em>, 32, 1052–1092. <a href=\"https://doi.org/10.1007/s40593-021-00285-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
   - "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. <em>Trends in Cognitive Sciences</em>, 20(9), 676–688. <a href=\"https://doi.org/10.1016/j.tics.2016.06.007\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Comissão Europeia. (2026). <em>Guidelines on the ethical use of artificial intelligence and data in teaching and learning for educators</em> (edição revista). Luxemburgo: Serviço das Publicações da União Europeia. <a href=\"https://data.europa.eu/doi/10.2766/7967834\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
+  - "União Europeia. (2024). <em>Regulamento (UE) 2024/1689 (Regulamento da Inteligência Artificial)</em>. Jornal Oficial da União Europeia, L, 2024/1689. <a href=\"https://eur-lex.europa.eu/eli/reg/2024/1689/oj\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
 ---
