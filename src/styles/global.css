@@ -223,6 +223,11 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .tree-node:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(20, 23, 26, 0.06); }
 .tree-node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .tree-node-index { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-3xl); font-weight: 700; color: var(--numeral); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; }
+/* The free/paid badge. It used to borrow .tree-node-index — the class for the
+   big card numeral — which meant 700 weight and letter-spacing tuned for 45px
+   type. The translated pages patched the size inline and the Portuguese one
+   did not, so "gratuito" rendered at 44.8px. Its own class, its own scale. */
+.tree-node-tag { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); font-weight: 500; letter-spacing: 0.03em; line-height: 1.4; color: var(--ink-faded); margin-top: 0.15rem; }
 .tree-node-title { font-size: var(--fs-base); font-weight: 600; color: var(--ink); line-height: 1.25; margin-bottom: 0.2rem; }
 .tree-node-desc { font-size: var(--fs-sm); color: var(--ink-soft); line-height: 1.5; flex: 1; }
 .tree-node-arrow { margin-top: 0.8rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); color: var(--ink-faded); display: flex; align-items: center; gap: 0.4rem; letter-spacing: 0.03em; transition: color 0.2s ease, gap 0.2s ease; }
