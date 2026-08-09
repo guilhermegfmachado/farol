@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "Coocorre com frequência com TDAH, discalculia e dispraxia — as perturbações da aprendizagem raramente vêm isoladas. Se as dificuldades ultrapassarem claramente a leitura e a escrita (atenção, cálculo, coordenação), alargar a observação em vez de atribuir tudo à dislexia."
-ai_strategies:
-  tools: []
 related: ["tdah", "dispraxia", "discalculia", "plnm"]
 references:
   - "Lyon, G. R., Shaywitz, S. E., & Shaywitz, B. A. (2003). A definition of dyslexia. <em>Annals of Dyslexia</em>, 53, 1–14. <a href=\"https://doi.org/10.1007/s11881-003-0001-9\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"

@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "Sobredotação não exclui necessidades: a dupla excecionalidade (com autismo, TDAH ou dislexia) é precisamente a coexistência das duas. O aluno pode compensar durante anos e \"não parecer\" nem uma coisa nem outra — notas médias com raciocínio excecional são um sinal, não uma contradição."
-ai_strategies:
-  tools: []
 related: ["tdah", "autismo"]
 references:
   - "Subotnik, R. F., Olszewski-Kubilius, P., & Worrell, F. C. (2011). Rethinking giftedness and gifted education: a proposed direction forward based on psychological science. <em>Psychological Science in the Public Interest</em>, 12(1), 3–54. <a href=\"https://doi.org/10.1177/1529100611418056\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"

@@ -5,13 +5,6 @@ const sectionSchema = z.object({
   items: z.array(z.string()),
 });
 
-const aiToolSchema = z.object({
-  tool: z.string(),
-  use: z.string(),
-  prompt: z.string().optional(),
-  caveats: z.string().optional(),
-});
-
 const entrySchema = z.object({
   // Two independent sequences: profiles 01-07, references 01-05. `kind` and
   // `order` are the source of truth; the display number is derived from them,
@@ -23,11 +16,6 @@ const entrySchema = z.object({
   subtitle: z.string(),
   desc: z.string(),
   sections: z.array(sectionSchema),
-  ai_strategies: z.object({
-    pending: z.boolean().default(true),
-    tools: z.array(aiToolSchema).default([]),
-  }).optional(),
-  pending: z.string().optional(),
   related: z.array(z.string()).optional(),
   references: z.array(z.string()).optional(),
 });

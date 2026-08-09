@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "A combinação com a sobredotação — a chamada dupla excecionalidade — é fácil de falhar: a capacidade mascara o apoio necessário e as dificuldades mascaram a capacidade. TDAH e ansiedade também coocorrem com frequência; desempenho muito irregular entre disciplinas merece um olhar duplo."
-ai_strategies:
-  tools: []
 related: ["tdah", "sobredotacao", "dispraxia"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Autism Spectrum Disorder. Arlington, VA: American Psychiatric Publishing."

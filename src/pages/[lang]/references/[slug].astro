@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 }
 
 const { entry, lang } = Astro.props as { entry: any; lang: Lang };
-const { category, sections, pending } = entry.data;
+const { category, sections } = entry.data;
 const catLabel = categoryTranslations[lang]?.[category] ?? category;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
@@ -62,7 +62,6 @@ function entryHref(e: typeof allEntries[0]) {
         <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
       </section>
     ))}
-    {pending && <div class="pending-notice">{t.translation_notice}</div>}
     {((ct?.references ?? entry.data.references) ?? []).length > 0 && (
       <section class="card-section references-section">
         <h2 class="card-section-label">{t.references_label}</h2>
