@@ -50,7 +50,7 @@ const categoryLabel: Record<string, string> = {
         <span class="tree-node-title">{tool.data.name}</span>
         <span class="tree-node-desc">{tool.data.desc}</span>
         {tool.data.free !== undefined && (
-          <span class="tree-node-index" aria-hidden="true">{tool.data.free ? 'gratuito' : 'pago'}</span>
+          <span class="tree-node-tag">{tool.data.free ? t.tool_free : t.tool_paid}</span>
         )}
         <span class="tree-node-arrow">ver ficha <span aria-hidden="true">→</span></span>
       </a>
