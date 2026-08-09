@@ -1,6 +1,6 @@
 ---
 kind: "profile"
-order: 4
+order: 5
 title: "Espectro do Autismo"
 category: "Perfil"
 subtitle: "Diferença no processamento social, sensorial, e comunicativo"
