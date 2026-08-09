@@ -1,6 +1,6 @@
 ---
 kind: "reference"
-order: 3
+order: 2
 title: "Enquadramento Legal"
 category: "Referência"
 subtitle: "Decreto-Lei 54/2018 e legislação de suporte à educação inclusiva em Portugal"

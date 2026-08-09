@@ -1,6 +1,6 @@
 ---
 kind: "reference"
-order: 2
+order: 5
 title: "Oficina de Trabalho"
 category: "Referência"
 subtitle: "Sessão de 90 minutos — Departamento de Línguas"

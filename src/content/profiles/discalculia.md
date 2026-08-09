@@ -1,6 +1,6 @@
 ---
 kind: "profile"
-order: 7
+order: 3
 title: "Discalculia"
 category: "Perfil"
 subtitle: "Perturbação específica da aprendizagem da matemática"

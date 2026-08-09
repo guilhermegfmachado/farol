@@ -1,6 +1,6 @@
 ---
 kind: "profile"
-order: 6
+order: 7
 title: "Aprendente PLNM"
 category: "Perfil"
 subtitle: "Português Língua Não Materna — aluno sem proficiência na língua de ensino"

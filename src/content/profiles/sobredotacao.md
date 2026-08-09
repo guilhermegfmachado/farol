@@ -1,6 +1,6 @@
 ---
 kind: "profile"
-order: 5
+order: 6
 title: "Sobredotação"
 category: "Perfil"
 subtitle: "Capacidade significativamente acima da média, frequentemente subestimulada"

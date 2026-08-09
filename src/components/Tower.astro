@@ -30,7 +30,17 @@ const prefix = lang === 'pt' ? base : `${base}${lang}/`;
 const entries = await getAllEntries();
 // Foundations at the bottom: the most common profiles carry the tower, the
 // ethical and legal framework sits at the top.
-const tower = [...entries].sort((a, b) => a.data.order - b.data.order).reverse();
+//
+// Sorting the whole set on `order` alone does not do that. Profiles run 01-07
+// and references 01-05 as two independent sequences, so a single sort
+// interleaves them — every reference wedged between two profiles, which is
+// exactly what the tower looked like. The two blocks are ordered separately:
+// references down from the lantern, profiles down to the foundation stone.
+const byOrder = (a: (typeof entries)[number], b: (typeof entries)[number]) => a.data.order - b.data.order;
+const tower = [
+  ...entries.filter((e) => e.data.kind === 'reference').sort(byOrder),
+  ...entries.filter((e) => e.data.kind === 'profile').sort(byOrder).reverse(),
+];
 
 const catColors: Record<string, string> = {
   'Perfil': '#6fa8a3',
