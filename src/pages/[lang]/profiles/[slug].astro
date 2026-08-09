@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 }
 
 const { entry, lang } = Astro.props as { entry: any; lang: Lang };
-const { category, sections, ai_strategies, pending } = entry.data;
+const { category, sections } = entry.data;
 const catLabel = categoryTranslations[lang]?.[category] ?? category;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
@@ -75,13 +75,6 @@ function entryHref(e: typeof allEntries[0]) {
         )}
       </section>
     ))}
-    {ai_strategies && (
-      <section class="card-section ai-section">
-        <h2 class="card-section-label">{sectionLabelTranslations[lang]?.['Onde a IA entra'] ?? 'AI'}</h2>
-        {ai_strategies.pending ? <div class="pending-notice">{t.ai_pending}</div> : <div class="ai-tools">{ai_strategies.tools.map((tool) => <div class="ai-tool"><div class="ai-tool-name">{tool.tool}</div><div class="ai-tool-use">{tool.use}</div>{tool.prompt && <div class="ai-tool-prompt"><span class="ai-tool-prompt-label">Prompt</span><blockquote>{tool.prompt}</blockquote></div>}{tool.caveats && <div class="ai-tool-caveats">{tool.caveats}</div>}</div>)}</div>}
-      </section>
-    )}
-    {pending && <div class="pending-notice">{t.translation_notice}</div>}
     {relatedEntries.length > 0 && (
       <div class="related-bar">
         <span class="related-label">{t.see_also}</span>

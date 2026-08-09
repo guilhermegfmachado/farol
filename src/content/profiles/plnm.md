@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "Não é uma perturbação, mas a barreira linguística pode esconder — ou imitar — dislexia, TDAH ou discalculia. Se as dificuldades persistirem também na língua materna, ou não melhorarem com o progresso na língua de ensino, justifica-se avaliação em vez de continuar à espera."
-ai_strategies:
-  tools: []
 related: ["dislexia"]
 references:
   - "Cummins, J. (1979). Linguistic interdependence and the educational development of bilingual children. <em>Review of Educational Research</em>, 49(2), 222–251. <a href=\"https://doi.org/10.3102/00346543049002222\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"

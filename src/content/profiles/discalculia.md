@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "Sobrepõe-se com frequência à dislexia — os défices fonológico e numérico coexistem — e à TDAH, em que a memória de trabalho sobrecarregada agrava o cálculo. Quando a leitura e os números falham em conjunto, as adaptações devem cobrir as duas frentes, não escolher uma."
-ai_strategies:
-  tools: []
 related: ["dislexia", "tdah"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Specific Learning Disorder. Arlington, VA: American Psychiatric Publishing."

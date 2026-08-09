@@ -127,8 +127,6 @@ html.reading .observe-label,
 html.reading .logotype-link,
 html.reading .breadcrumb,
 html.reading .card-nav-dir,
-html.reading .ai-tool-name,
-html.reading .ai-tool-prompt-label,
 html.reading .related-label,
 html.reading .tools-link-label,
 html.reading .search-empty,
@@ -252,8 +250,6 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 .card-section li strong { color: var(--ink); font-weight: 600; }
 
 /* ── Pending notice ───────────────────────────────────────── */
-.pending-notice { background: var(--notice-bg); border-left: 3px solid var(--warning); padding: 1rem 1.2rem; margin-top: 1.5rem; color: var(--ink-soft); font-size: var(--fs-md); display: flex; gap: 0.7rem; align-items: flex-start; }
-.pending-notice::before { content: 'PENDENTE'; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs); letter-spacing: 0.1em; color: var(--warning); background: rgba(184, 134, 11, 0.12); padding: 0.15rem 0.5rem; flex-shrink: 0; font-weight: 600; }
 
 /* ── Footer ───────────────────────────────────────────────── */
 footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); color: var(--ink-faded); letter-spacing: 0.03em; }
@@ -316,8 +312,6 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
   .card-section { margin-bottom: 0.6cm; page-break-inside: avoid; }
   .card-section-label { font-size: 7pt; letter-spacing: 0.15em; }
   .card-section li { padding: 0.3rem 0; border-bottom: 0.5pt solid #ddd; }
-  .pending-notice { border-left: 3pt solid #b8860b; background: #fdf6e3; padding: 0.3cm; font-size: 9pt; }
-  .pending-notice::before { content: 'PENDENTE '; }
   .tool-chip, .related-chip { border: 0.5pt solid #999; padding: 0.05cm 0.25cm; font-size: 8pt; text-decoration: none; color: #000; display: inline-block; margin: 0.1cm 0.1cm 0 0; }
   .tool-chip-free, .related-label { font-size: 7pt; color: #555; }
   a { color: #000; text-decoration: none; }
@@ -605,17 +599,3 @@ html.pdf-export .animate-in * {
 @media print { .print-bar { display: none; } }
 
 
-/* "Where AI fits" tool blocks. These were styled only in the Portuguese and
-   English profile templates; the other twenty-two languages had no rules at
-   all, and Astro scopes each template's styles to its own markup. The sections
-   are pending everywhere, so nothing renders yet — but the moment they are
-   filled, twenty-two languages would have shown unstyled blocks. Global so
-   every language gets them. */
-  .ai-tools { display: flex; flex-direction: column; gap: 1rem; }
-  .ai-tool { border: 1px solid var(--rule); padding: 1.2rem 1.4rem; background: var(--bg); }
-  .ai-tool-name { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-sm); font-weight: 500; color: var(--accent); letter-spacing: 0.05em; margin-bottom: 0.4rem; text-transform: uppercase; }
-  .ai-tool-use { color: var(--ink-soft); font-size: var(--fs-md); line-height: 1.55; }
-  .ai-tool-prompt { margin-top: 0.8rem; }
-  .ai-tool-prompt-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); display: block; margin-bottom: 0.4rem; }
-  .ai-tool-prompt blockquote { border-left: 2px solid var(--accent); padding: 0.5rem 0.9rem; font-size: var(--fs-md); color: var(--ink-soft); font-style: italic; margin: 0; }
-  .ai-tool-caveats { margin-top: 0.7rem; font-size: var(--fs-sm); color: var(--warning); padding-top: 0.6rem; border-top: 1px dashed var(--rule); }

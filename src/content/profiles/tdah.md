@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "A TDAH raramente vem sozinha: é frequente coexistir com perturbações da aprendizagem, incluindo dificuldades de leitura.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup> Na prática: quando as adaptações de atenção não chegam, procurar um padrão específico na leitura ou no cálculo antes de concluir que é “falta de esforço”."
-ai_strategies:
-  tools: []
 related: ["dislexia", "discalculia", "autismo", "dispraxia", "sobredotacao"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Attention-Deficit/Hyperactivity Disorder. Arlington, VA: American Psychiatric Publishing."

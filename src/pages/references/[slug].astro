@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, category, subtitle, sections, pending } = entry.data;
+const { title, category, subtitle, sections } = entry.data;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const slug = entry.id.replace(/\.md$/, '');
 const langHrefs = allLangHrefs(base, 'references', slug);
@@ -71,7 +71,6 @@ function entryHref(e: typeof allEntries[0]) {
       </section>
     ))}
 
-    {pending && <div class="pending-notice">{pending}</div>}
     {(entry.data.references ?? []).length > 0 && (
       <section class="card-section references-section">
         <h2 class="card-section-label">{t.references_label}</h2>

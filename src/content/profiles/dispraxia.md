@@ -38,8 +38,6 @@ sections:
   - label: "Perfis sobrepostos"
     items:
       - "Sobrepõe-se com frequência à TDAH e à dislexia; a escrita lenta e desorganizada pode mascarar qualquer uma delas — ou ser mascarada por elas. Distinguir o que é motor do que é atencional muda as adaptações: teclado e tempo extra ajudam no motor; fragmentar instruções ajuda na atenção."
-ai_strategies:
-  tools: []
 related: ["dislexia", "tdah", "autismo"]
 references:
   - "American Psychiatric Association. (2013). <em>Diagnostic and Statistical Manual of Mental Disorders</em> (5th ed.), Developmental Coordination Disorder. Arlington, VA: American Psychiatric Publishing."
