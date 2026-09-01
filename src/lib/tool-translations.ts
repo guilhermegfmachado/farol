@@ -2,6 +2,8 @@ export type ToolTranslation = { desc: string };
 export const toolTranslations: Partial<Record<string, Record<string, ToolTranslation>>> = {
   en: {
     brisk: { desc: "Chrome extension for teachers that works inside Google Docs, Google Classroom and any web page. Adjusts the reading level of a text, gives feedback on written work, and replays a document's writing history." },
+    desmos: { desc: "Free graphing and scientific calculator, no account needed. It shows the relationship between the expression and the graph as you type, which gives visual support to numerical reasoning. It includes read-aloud and audio trace, which turns the graph into sound for students who cannot read it." },
+    gemini: { desc: "Google's language model, built into Google Docs, Gmail and Slides. Gems store instructions — subject, year group, tone, what the tool must never do — that then apply to every following conversation, without repeating the context in each request." },
     chatgpt: { desc: "General-purpose language model by OpenAI for text generation, summarising, rewriting, and explaining content at different levels. Useful for adapting materials and creating differentiated tasks." },
     deepl: { desc: "High-quality automatic translation service with superior performance for European languages. More contextually accurate than Google Translate for academic texts." },
     diffit: { desc: "Generates reading materials adapted to different difficulty levels from any topic or source text. Useful for differentiating tasks without creating separate resources from scratch." },
@@ -23,6 +25,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   es: {
     brisk: { desc: "Extensión de Chrome para docentes que funciona dentro de Google Docs, Google Classroom y cualquier página web. Ajusta el nivel de lectura de un texto, da retroalimentación sobre trabajos escritos y muestra el historial de escritura de un documento." },
+    desmos: { desc: "Calculadora gráfica y científica gratuita, sin necesidad de cuenta. Muestra la relación entre la expresión y la gráfica a medida que se escribe, lo que da apoyo visual al razonamiento numérico. Incluye lectura en voz alta y audio trace, que traduce la gráfica en sonido para alumnos que no pueden leerla." },
+    gemini: { desc: "Modelo de lenguaje de Google, integrado en Google Docs, Gmail y Presentaciones. Los Gems guardan instrucciones — asignatura, curso, tono, lo que la herramienta nunca debe hacer — que pasan a valer en todas las conversaciones siguientes, sin repetir el contexto en cada petición." },
     chatgpt: { desc: "Modelo de lenguaje de propósito general de OpenAI para generar, resumir, reescribir y explicar contenidos a diferentes niveles. Útil para adaptar materiales y crear tareas diferenciadas." },
     deepl: { desc: "Servicio de traducción automática de alta calidad con rendimiento superior para las lenguas europeas. Más preciso contextualmente que Google Translate para textos académicos." },
     diffit: { desc: "Genera materiales de lectura adaptados a diferentes niveles de dificultad a partir de cualquier tema o texto fuente. Útil para diferenciar tareas sin crear recursos separados desde cero." },
@@ -44,6 +48,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   fr: {
     brisk: { desc: "Extension Chrome pour enseignants qui fonctionne dans Google Docs, Google Classroom et n'importe quelle page web. Ajuste le niveau de lecture d'un texte, donne un retour sur les travaux écrits et retrace l'historique de rédaction d'un document." },
+    desmos: { desc: "Calculatrice graphique et scientifique gratuite, sans compte. Elle montre le lien entre l'expression et la courbe au fur et à mesure de la saisie, ce qui donne un appui visuel au raisonnement numérique. Elle propose la lecture à voix haute et l'audio trace, qui traduit la courbe en son pour les élèves qui ne peuvent pas la lire." },
+    gemini: { desc: "Modèle de langue de Google, intégré à Google Docs, Gmail et Présentations. Les Gems conservent des consignes — discipline, niveau, ton, ce que l'outil ne doit jamais faire — qui s'appliquent ensuite à toutes les conversations suivantes, sans redonner le contexte à chaque demande." },
     chatgpt: { desc: "Modèle de langage polyvalent d'OpenAI pour générer, résumer, réécrire et expliquer des contenus à différents niveaux. Utile pour adapter des supports et créer des tâches différenciées." },
     deepl: { desc: "Service de traduction automatique de haute qualité avec des performances supérieures pour les langues européennes. Plus précis contextuellement que Google Traduction pour les textes académiques." },
     diffit: { desc: "Génère des supports de lecture adaptés à différents niveaux de difficulté à partir de n'importe quel sujet ou texte source. Utile pour différencier les tâches sans créer des ressources séparées." },
@@ -65,6 +71,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   it: {
     brisk: { desc: "Estensione di Chrome per docenti che funziona dentro Google Docs, Google Classroom e qualsiasi pagina web. Regola il livello di lettura di un testo, dà feedback sui lavori scritti e mostra la cronologia di scrittura di un documento." },
+    desmos: { desc: "Calcolatrice grafica e scientifica gratuita, senza bisogno di account. Mostra il rapporto fra l'espressione e il grafico mentre si scrive, dando un appoggio visivo al ragionamento numerico. Include la lettura ad alta voce e l'audio trace, che traduce il grafico in suono per gli studenti che non riescono a leggerlo." },
+    gemini: { desc: "Modello linguistico di Google, integrato in Google Documenti, Gmail e Presentazioni. I Gems conservano istruzioni — disciplina, anno, tono, ciò che lo strumento non deve mai fare — che valgono poi per tutte le conversazioni successive, senza ripetere il contesto a ogni richiesta." },
     chatgpt: { desc: "Modello linguistico di uso generale di OpenAI per generare, riassumere, riscrivere e spiegare contenuti a diversi livelli. Utile per adattare materiali e creare compiti differenziati." },
     deepl: { desc: "Servizio di traduzione automatica di alta qualità con prestazioni superiori per le lingue europee. Più accurato contestualmente di Google Traduttore per testi accademici." },
     diffit: { desc: "Genera materiali di lettura adattati a diversi livelli di difficoltà da qualsiasi argomento o testo fonte. Utile per differenziare i compiti senza creare risorse separate da zero." },
@@ -86,6 +94,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   hr: {
     brisk: { desc: "Chrome proširenje za nastavnike koje radi unutar Google Docsa, Google Classrooma i bilo koje web stranice. Prilagođava razinu čitanja teksta, daje povratnu informaciju o pisanim radovima i prikazuje povijest pisanja dokumenta." },
+    desmos: { desc: "Besplatni grafički i znanstveni kalkulator, bez potrebe za računom. Prikazuje odnos između izraza i grafa dok se piše, što daje vizualnu potporu brojčanom rasuđivanju. Uključuje čitanje naglas i audio trace, koji graf pretvara u zvuk za učenike koji ga ne mogu pročitati." },
+    gemini: { desc: "Googleov jezični model, ugrađen u Google dokumente, Gmail i Prezentacije. Gems pohranjuju upute — predmet, razred, ton, ono što alat nikada ne smije učiniti — koje zatim vrijede u svim sljedećim razgovorima, bez ponavljanja konteksta u svakom upitu." },
     chatgpt: { desc: "Jezični model opće namjene tvrtke OpenAI za generiranje, sažimanje, prepisivanje i objašnjavanje sadržaja na različitim razinama. Koristan za prilagodbu materijala i stvaranje diferenciranih zadataka." },
     deepl: { desc: "Visokokvalitetna usluga automatskog prevođenja s izvrsnim performansama za europske jezike. Kontekstualno preciznija od Google prevoditelja za akademske tekstove." },
     diffit: { desc: "Generira materijale za čitanje prilagođene različitim razinama težine iz bilo koje teme ili izvornog teksta. Korisno za diferencijaciju zadataka bez izrade zasebnih resursa od nule." },
@@ -107,6 +117,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   de: {
     brisk: { desc: "Chrome-Erweiterung für Lehrkräfte, die in Google Docs, Google Classroom und auf jeder Webseite funktioniert. Passt das Leseniveau eines Textes an, gibt Rückmeldung zu schriftlichen Arbeiten und zeigt den Schreibverlauf eines Dokuments." },
+    desmos: { desc: "Kostenloser Grafik- und wissenschaftlicher Rechner, ohne Konto. Er zeigt beim Tippen den Zusammenhang zwischen Ausdruck und Graph und stützt so das Zahlenverständnis visuell. Er bietet Vorlesen und Audio Trace, das den Graphen für Lernende, die ihn nicht lesen können, in Klang übersetzt." },
+    gemini: { desc: "Googles Sprachmodell, eingebaut in Google Docs, Gmail und Präsentationen. Gems speichern Anweisungen — Fach, Jahrgang, Ton, was das Werkzeug niemals tun darf — die dann für alle weiteren Gespräche gelten, ohne den Kontext bei jeder Anfrage zu wiederholen." },
     chatgpt: { desc: "Allgemeines Sprachmodell von OpenAI zum Generieren, Zusammenfassen, Umformulieren und Erklären von Inhalten auf verschiedenen Niveaustufen. Nützlich zur Anpassung von Materialien und Erstellung differenzierter Aufgaben." },
     deepl: { desc: "Hochwertiger automatischer Übersetzungsdienst mit überlegener Leistung für europäische Sprachen. Kontextuell präziser als Google Übersetzer für akademische Texte." },
     diffit: { desc: "Erstellt Lesematerialien, die an verschiedene Schwierigkeitsstufen angepasst sind, aus beliebigen Themen oder Quelltexten. Nützlich zur Differenzierung von Aufgaben ohne separate Ressourcen von Grund auf zu erstellen." },
@@ -128,6 +140,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   nl: {
     brisk: { desc: "Chrome-extensie voor leraren die werkt binnen Google Docs, Google Classroom en elke webpagina. Past het leesniveau van een tekst aan, geeft feedback op schrijfwerk en toont de schrijfgeschiedenis van een document." },
+    desmos: { desc: "Gratis grafische en wetenschappelijke rekenmachine, geen account nodig. Ze toont tijdens het typen het verband tussen de uitdrukking en de grafiek, wat visuele steun geeft aan het rekenkundig redeneren. Ze heeft voorlezen en audio trace, dat de grafiek omzet in geluid voor leerlingen die haar niet kunnen lezen." },
+    gemini: { desc: "Googles taalmodel, ingebouwd in Google Documenten, Gmail en Presentaties. Gems bewaren instructies — vak, leerjaar, toon, wat het hulpmiddel nooit mag doen — die daarna gelden voor elk volgend gesprek, zonder de context bij elke vraag te herhalen." },
     chatgpt: { desc: "Algemeen taalmodel van OpenAI voor het genereren, samenvatten, herschrijven en uitleggen van inhoud op verschillende niveaus. Handig voor het aanpassen van materialen en het maken van gedifferentieerde taken." },
     deepl: { desc: "Hoogwaardige automatische vertaalservice met superieure prestaties voor Europese talen. Contextueel nauwkeuriger dan Google Translate voor academische teksten." },
     diffit: { desc: "Genereert leesmaterialen aangepast aan verschillende moeilijkheidsniveaus vanuit elk onderwerp of brontekst. Handig voor het differentiëren van taken zonder aparte bronnen van de grond af te maken." },
@@ -149,6 +163,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   pl: {
     brisk: { desc: "Rozszerzenie Chrome dla nauczycieli działające w Dokumentach Google, Google Classroom i na dowolnej stronie internetowej. Dostosowuje poziom czytelności tekstu, daje informacje zwrotne do prac pisemnych i pokazuje historię pisania dokumentu." },
+    desmos: { desc: "Darmowy kalkulator graficzny i naukowy, bez konieczności zakładania konta. Pokazuje związek między wyrażeniem a wykresem w trakcie pisania, co daje wzrokowe wsparcie rozumowaniu liczbowemu. Ma czytanie na głos oraz audio trace, który zamienia wykres w dźwięk dla uczniów, którzy nie mogą go odczytać." },
+    gemini: { desc: "Model językowy Google, wbudowany w Dokumenty Google, Gmaila i Prezentacje. Gems przechowują instrukcje — przedmiot, rocznik, ton, to, czego narzędzie nigdy nie może zrobić — które obowiązują potem we wszystkich kolejnych rozmowach, bez powtarzania kontekstu przy każdym poleceniu." },
     chatgpt: { desc: "Ogólny model językowy firmy OpenAI do generowania, podsumowywania, przepisywania i wyjaśniania treści na różnych poziomach. Przydatny do dostosowywania materiałów i tworzenia zróżnicowanych zadań." },
     deepl: { desc: "Wysokiej jakości usługa automatycznego tłumaczenia z doskonałą wydajnością dla języków europejskich. Dokładniejsza kontekstowo niż Tłumacz Google dla tekstów akademickich." },
     diffit: { desc: "Generuje materiały do czytania dostosowane do różnych poziomów trudności z dowolnego tematu lub tekstu źródłowego. Przydatne do różnicowania zadań bez tworzenia oddzielnych zasobów od podstaw." },
@@ -170,6 +186,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   ro: {
     brisk: { desc: "Extensie Chrome pentru profesori care funcționează în Google Docs, Google Classroom și pe orice pagină web. Ajustează nivelul de lectură al unui text, oferă feedback la lucrările scrise și arată istoricul de redactare al unui document." },
+    desmos: { desc: "Calculator grafic și științific gratuit, fără cont. Arată legătura dintre expresie și grafic pe măsură ce scrii, ceea ce oferă sprijin vizual raționamentului numeric. Include citire cu voce tare și audio trace, care transformă graficul în sunet pentru elevii care nu îl pot citi." },
+    gemini: { desc: "Modelul lingvistic Google, integrat în Google Docs, Gmail și Prezentări. Gems păstrează instrucțiuni — disciplina, anul de studiu, tonul, ce nu are voie să facă niciodată instrumentul — care se aplică apoi în toate conversațiile următoare, fără a repeta contextul la fiecare cerere." },
     chatgpt: { desc: "Model lingvistic de uz general de la OpenAI pentru generarea, rezumarea, rescrierea și explicarea conținutului la diferite niveluri. Util pentru adaptarea materialelor și crearea sarcinilor diferențiate." },
     deepl: { desc: "Serviciu de traducere automată de înaltă calitate cu performanțe superioare pentru limbile europene. Mai precis contextual decât Google Translate pentru texte academice." },
     diffit: { desc: "Generează materiale de lectură adaptate diferitelor niveluri de dificultate din orice subiect sau text sursă. Util pentru diferențierea sarcinilor fără a crea resurse separate de la zero." },
@@ -191,6 +209,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   cs: {
     brisk: { desc: "Rozšíření Chrome pro učitele, které funguje v Dokumentech Google, Google Classroom a na jakékoli webové stránce. Upravuje úroveň čtení textu, dává zpětnou vazbu k písemným pracím a zobrazuje historii psaní dokumentu." },
+    desmos: { desc: "Bezplatná grafická a vědecká kalkulačka, bez nutnosti účtu. Při psaní ukazuje vztah mezi výrazem a grafem, což dává číselnému uvažování vizuální oporu. Nabízí čtení nahlas a audio trace, které graf převádí na zvuk pro žáky, kteří jej nedokážou přečíst." },
+    gemini: { desc: "Jazykový model Googlu, zabudovaný do Dokumentů Google, Gmailu a Prezentací. Gems uchovávají pokyny — předmět, ročník, tón, co nástroj nikdy nesmí udělat — které pak platí ve všech dalších rozhovorech, aniž by se kontext opakoval u každého zadání." },
     chatgpt: { desc: "Víceúčelový jazykový model od OpenAI pro generování, shrnování, přepisování a vysvětlování obsahu na různých úrovních. Užitečný pro přizpůsobení materiálů a vytváření diferencovaných úkolů." },
     deepl: { desc: "Vysoce kvalitní služba automatického překladu s vynikajícím výkonem pro evropské jazyky. Kontextově přesnější než Google Translate pro akademické texty." },
     diffit: { desc: "Generuje materiály ke čtení přizpůsobené různým úrovním obtížnosti z libovolného tématu nebo zdrojového textu. Užitečné pro diferenciaci úkolů bez vytváření samostatných zdrojů od nuly." },
@@ -212,6 +232,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   sv: {
     brisk: { desc: "Chrome-tillägg för lärare som fungerar i Google Dokument, Google Classroom och på vilken webbsida som helst. Justerar textens lässvårighetsgrad, ger återkoppling på skrivna arbeten och visar ett dokuments skrivhistorik." },
+    desmos: { desc: "Gratis grafräknare och vetenskaplig räknare, utan konto. Den visar sambandet mellan uttrycket och grafen medan man skriver, vilket ger visuellt stöd åt det numeriska tänkandet. Den har uppläsning och audio trace, som gör om grafen till ljud för elever som inte kan läsa den." },
+    gemini: { desc: "Googles språkmodell, inbyggd i Google Dokument, Gmail och Presentationer. Gems sparar instruktioner — ämne, årskurs, ton, vad verktyget aldrig får göra — som sedan gäller i alla följande samtal, utan att sammanhanget upprepas vid varje fråga." },
     chatgpt: { desc: "Allmän språkmodell från OpenAI för att generera, sammanfatta, skriva om och förklara innehåll på olika nivåer. Användbart för att anpassa material och skapa differentierade uppgifter." },
     deepl: { desc: "Högkvalitativ automatisk översättningstjänst med överlägsna prestanda för europeiska språk. Mer kontextuellt korrekt än Google Translate för akademiska texter." },
     diffit: { desc: "Genererar läsmaterial anpassat till olika svårighetsgrader från valfritt ämne eller källtext. Användbart för att differentiera uppgifter utan att skapa separata resurser från grunden." },
@@ -233,6 +255,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   da: {
     brisk: { desc: "Chrome-udvidelse til lærere, der virker i Google Docs, Google Classroom og på enhver webside. Justerer en teksts læseniveau, giver feedback på skriftlige opgaver og viser et dokuments skrivehistorik." },
+    desmos: { desc: "Gratis grafisk og videnskabelig lommeregner, uden konto. Den viser sammenhængen mellem udtrykket og grafen, mens man skriver, hvilket giver visuel støtte til den talmæssige tænkning. Den har oplæsning og audio trace, der oversætter grafen til lyd for elever, der ikke kan læse den." },
+    gemini: { desc: "Googles sprogmodel, indbygget i Google Docs, Gmail og Præsentationer. Gems gemmer instruktioner — fag, klassetrin, tone, hvad værktøjet aldrig må gøre — som derefter gælder i alle følgende samtaler, uden at konteksten gentages ved hver forespørgsel." },
     chatgpt: { desc: "Generel sprogmodel fra OpenAI til at generere, opsummere, omskrive og forklare indhold på forskellige niveauer. Nyttig til at tilpasse materialer og oprette differentierede opgaver." },
     deepl: { desc: "Automatisk oversættelsestjeneste af høj kvalitet med overlegen ydeevne for europæiske sprog. Mere kontekstuelt præcis end Google Translate for akademiske tekster." },
     diffit: { desc: "Genererer læsematerialer tilpasset forskellige sværhedsgrader fra ethvert emne eller kildetekst. Nyttigt til at differentiere opgaver uden at oprette separate ressourcer fra bunden." },
@@ -254,6 +278,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   fi: {
     brisk: { desc: "Chrome-laajennus opettajille, joka toimii Google Docsissa, Google Classroomissa ja millä tahansa verkkosivulla. Säätää tekstin lukutasoa, antaa palautetta kirjallisista töistä ja näyttää asiakirjan kirjoitushistorian." },
+    desmos: { desc: "Ilmainen graafinen ja tieteellinen laskin, ei vaadi tiliä. Se näyttää kirjoitettaessa lausekkeen ja kuvaajan välisen yhteyden, mikä tukee lukukäsitystä visuaalisesti. Siinä on ääneen lukeminen ja audio trace, joka muuttaa kuvaajan ääneksi oppilaille, jotka eivät pysty lukemaan sitä." },
+    gemini: { desc: "Googlen kielimalli, joka on rakennettu Google Docsiin, Gmailiin ja Esityksiin. Gems tallentaa ohjeet — oppiaine, vuosiluokka, sävy, mitä työkalu ei saa koskaan tehdä — jotka pätevät sen jälkeen kaikissa seuraavissa keskusteluissa ilman, että konteksti toistetaan joka pyynnössä." },
     chatgpt: { desc: "OpenAI:n yleiskäyttöinen kielimalli tekstin tuottamiseen, tiivistämiseen, muokkaamiseen ja selittämiseen eri tasoilla. Hyödyllinen materiaalien mukauttamiseen ja eriytettyjen tehtävien luomiseen." },
     deepl: { desc: "Korkealaatuinen automaattinen käännöspalvelu, jolla on ylivoimainen suorituskyky eurooppalaisille kielille. Kontekstuaalisesti tarkempi kuin Google Kääntäjä akateemisille teksteille." },
     diffit: { desc: "Luo lukumateriaaleja eri vaikeustasoille mistä tahansa aiheesta tai lähdetekstistä. Hyödyllinen tehtävien eriyttämiseen ilman erillisten resurssien luomista alusta alkaen." },
@@ -275,6 +301,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   sk: {
     brisk: { desc: "Rozšírenie Chrome pre učiteľov, ktoré funguje v Dokumentoch Google, Google Classroom a na akejkoľvek webovej stránke. Upravuje úroveň čítania textu, dáva spätnú väzbu k písomným prácam a zobrazuje históriu písania dokumentu." },
+    desmos: { desc: "Bezplatná grafická a vedecká kalkulačka, bez potreby účtu. Pri písaní ukazuje vzťah medzi výrazom a grafom, čo dáva číselnému uvažovaniu vizuálnu oporu. Ponúka čítanie nahlas a audio trace, ktoré graf prevádza na zvuk pre žiakov, ktorí ho nedokážu prečítať." },
+    gemini: { desc: "Jazykový model Googlu, zabudovaný do Dokumentov Google, Gmailu a Prezentácií. Gems uchovávajú pokyny — predmet, ročník, tón, čo nástroj nikdy nesmie urobiť — ktoré potom platia vo všetkých ďalších rozhovoroch, bez opakovania kontextu pri každom zadaní." },
     chatgpt: { desc: "Všeobecný jazykový model od OpenAI na generovanie, sumarizáciu, prepísanie a vysvetlenie obsahu na rôznych úrovniach. Užitočný na prispôsobenie materiálov a vytváranie diferencovaných úloh." },
     deepl: { desc: "Vysokokvalitná automatická prekladová služba s vynikajúcim výkonom pre európske jazyky. Kontextovo presnejšia ako Google Prekladač pre akademické texty." },
     diffit: { desc: "Generuje čitateľské materiály prispôsobené rôznym úrovniam obtiažnosti z ľubovoľnej témy alebo zdrojového textu. Užitočné na diferenciáciu úloh bez vytvárania samostatných zdrojov od nuly." },
@@ -296,6 +324,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   el: {
     brisk: { desc: "Επέκταση Chrome για εκπαιδευτικούς που λειτουργεί μέσα στα Έγγραφα Google, στο Google Classroom και σε οποιαδήποτε ιστοσελίδα. Προσαρμόζει το επίπεδο ανάγνωσης ενός κειμένου, δίνει ανατροφοδότηση σε γραπτές εργασίες και δείχνει το ιστορικό συγγραφής ενός εγγράφου." },
+    desmos: { desc: "Δωρεάν γραφική και επιστημονική αριθμομηχανή, χωρίς λογαριασμό. Δείχνει τη σχέση ανάμεσα στην παράσταση και στη γραφική παράσταση καθώς γράφετε, δίνοντας οπτική στήριξη στον αριθμητικό συλλογισμό. Περιλαμβάνει ανάγνωση φωναχτά και audio trace, που μετατρέπει τη γραφική παράσταση σε ήχο για μαθητές που δεν μπορούν να τη διαβάσουν." },
+    gemini: { desc: "Το γλωσσικό μοντέλο της Google, ενσωματωμένο στα Έγγραφα Google, στο Gmail και στις Παρουσιάσεις. Τα Gems αποθηκεύουν οδηγίες — μάθημα, τάξη, ύφος, τι δεν πρέπει ποτέ να κάνει το εργαλείο — που ισχύουν έπειτα σε όλες τις επόμενες συνομιλίες, χωρίς να επαναλαμβάνεται το πλαίσιο σε κάθε αίτημα." },
     chatgpt: { desc: "Γενικό γλωσσικό μοντέλο της OpenAI για παραγωγή, σύνοψη, επαναδιατύπωση και εξήγηση περιεχομένου σε διαφορετικά επίπεδα. Χρήσιμο για την προσαρμογή υλικών και τη δημιουργία διαφοροποιημένων εργασιών." },
     deepl: { desc: "Υψηλής ποιότητας υπηρεσία αυτόματης μετάφρασης με ανώτερες επιδόσεις για ευρωπαϊκές γλώσσες. Πιο ακριβής πλαισιακά από το Google Translate για ακαδημαϊκά κείμενα." },
     diffit: { desc: "Δημιουργεί αναγνωστικά υλικά προσαρμοσμένα σε διαφορετικά επίπεδα δυσκολίας από οποιοδήποτε θέμα ή πηγαίο κείμενο. Χρήσιμο για διαφοροποίηση εργασιών χωρίς δημιουργία ξεχωριστών πόρων από την αρχή." },
@@ -317,6 +347,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   hu: {
     brisk: { desc: "Chrome-bővítmény tanároknak, amely a Google Dokumentumokban, a Google Classroomban és bármely weboldalon működik. Beállítja a szöveg olvasási szintjét, visszajelzést ad az írásbeli munkákra, és megmutatja egy dokumentum írástörténetét." },
+    desmos: { desc: "Ingyenes grafikus és tudományos számológép, fiók nélkül. Gépelés közben mutatja a kifejezés és a grafikon kapcsolatát, ami vizuális támaszt ad a számokkal való gondolkodásnak. Van felolvasása és audio trace funkciója, amely hanggá alakítja a grafikont azoknak a tanulóknak, akik nem tudják leolvasni." },
+    gemini: { desc: "A Google nyelvi modellje, beépítve a Google Dokumentumokba, a Gmailbe és a Diákba. A Gems utasításokat őriz meg — tantárgy, évfolyam, hangnem, amit az eszköz soha nem tehet meg —, amelyek ezután minden további beszélgetésre érvényesek, anélkül hogy a kontextust minden kérésnél megismételnénk." },
     chatgpt: { desc: "Az OpenAI általános célú nyelvi modellje szövegek generálásához, összefoglalásához, átírásához és különböző szinteken való magyarázatához. Hasznos az anyagok adaptálásához és differenciált feladatok létrehozásához." },
     deepl: { desc: "Kiváló minőségű automatikus fordítási szolgáltatás az európai nyelvek kiemelkedő teljesítményével. Kontextuálisan pontosabb, mint a Google Fordító az akadémiai szövegek esetén." },
     diffit: { desc: "Bármely témából vagy forrásszövegből különböző nehézségi szintekre adaptált olvasási anyagokat generál. Hasznos a feladatok differenciálásához anélkül, hogy külön forrásokat kellene nulláról létrehozni." },
@@ -338,6 +370,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   bg: {
     brisk: { desc: "Разширение за Chrome за учители, което работи в Google Документи, Google Classroom и всяка уеб страница. Настройва нивото на четене на текст, дава обратна връзка по писмени работи и показва историята на писане на документ." },
+    desmos: { desc: "Безплатен графичен и научен калкулатор, без нужда от акаунт. Показва връзката между израза и графиката, докато пишете, което дава зрителна опора на числовото разсъждение. Има четене на глас и audio trace, който превръща графиката в звук за ученици, които не могат да я прочетат." },
+    gemini: { desc: "Езиковият модел на Google, вграден в Google Документи, Gmail и Презентации. Gems запазват указания — предмет, клас, тон, какво инструментът никога не бива да прави — които после важат за всички следващи разговори, без контекстът да се повтаря при всяка заявка." },
     chatgpt: { desc: "Езиков модел с общо предназначение от OpenAI за генериране, обобщаване, пренаписване и обясняване на съдържание на различни нива. Полезен за адаптиране на материали и създаване на диференцирани задачи." },
     deepl: { desc: "Висококачествена услуга за автоматичен превод с превъзходна производителност за европейски езици. По-точна контекстуално от Google Translate за академични текстове." },
     diffit: { desc: "Генерира материали за четене, адаптирани към различни нива на трудност от всяка тема или изходен текст. Полезно за диференциране на задачи без създаване на отделни ресурси от нулата." },
@@ -359,6 +393,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   lt: {
     brisk: { desc: "Chrome plėtinys mokytojams, veikiantis Google dokumentuose, Google Classroom ir bet kuriame tinklalapyje. Pritaiko teksto skaitymo lygį, teikia grįžtamąjį ryšį apie rašto darbus ir parodo dokumento rašymo istoriją." },
+    desmos: { desc: "Nemokamas grafinis ir mokslinis skaičiuotuvas, nereikia paskyros. Rašant jis rodo ryšį tarp reiškinio ir grafiko, taip suteikdamas skaitiniam mąstymui vaizdinę atramą. Turi skaitymą balsu ir audio trace, kuris grafiką paverčia garsu mokiniams, negalintiems jo perskaityti." },
+    gemini: { desc: "Google kalbos modelis, integruotas į Google dokumentus, Gmail ir Skaidres. Gems išsaugo nurodymus — dalyką, klasę, toną, ko įrankis niekada neturi daryti — kurie paskui galioja visuose tolesniuose pokalbiuose, nekartojant konteksto kiekvienoje užklausoje." },
     chatgpt: { desc: "Bendrojo naudojimo kalbos modelis iš OpenAI, skirtas generuoti, apibendrinti, perrašyti ir aiškinti turinį skirtingais lygiais. Naudingas medžiagų pritaikymui ir diferencijuotų užduočių kūrimui." },
     deepl: { desc: "Aukštos kokybės automatinio vertimo paslauga su puikiu našumu Europos kalboms. Kontekstiškai tikslesnė nei Google Translate akademiniams tekstams." },
     diffit: { desc: "Generuoja skaitymo medžiagas, pritaikytas skirtingiems sunkumo lygiams iš bet kokios temos ar šaltinio teksto. Naudinga diferencijavimui nepradedant atskirų išteklių nuo nulio." },
@@ -380,6 +416,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   lv: {
     brisk: { desc: "Chrome paplašinājums skolotājiem, kas darbojas Google dokumentos, Google Classroom un jebkurā tīmekļa lapā. Pielāgo teksta lasīšanas līmeni, sniedz atgriezenisko saiti par rakstu darbiem un parāda dokumenta rakstīšanas vēsturi." },
+    desmos: { desc: "Bezmaksas grafiskais un zinātniskais kalkulators, konts nav vajadzīgs. Rakstīšanas laikā tas rāda saikni starp izteiksmi un grafiku, sniedzot skaitliskajai domāšanai vizuālu atbalstu. Tam ir lasīšana skaļi un audio trace, kas pārvērš grafiku skaņā skolēniem, kuri to nespēj izlasīt." },
+    gemini: { desc: "Google valodas modelis, iebūvēts Google dokumentos, Gmail un Prezentācijās. Gems saglabā norādījumus — mācību priekšmetu, klasi, toni, ko rīks nekad nedrīkst darīt —, kas pēc tam attiecas uz visām nākamajām sarunām, neatkārtojot kontekstu katrā pieprasījumā." },
     chatgpt: { desc: "OpenAI vispārējas nozīmes valodas modelis tekstu ģenerēšanai, apkopošanai, pārrakstīšanai un paskaidrošanai dažādos līmeņos. Noderīgs materiālu pielāgošanai un diferencētu uzdevumu veidošanai." },
     deepl: { desc: "Augstākās kvalitātes automātiskās tulkošanas pakalpojums ar izcilu veiktspēju Eiropas valodām. Kontekstuāli precīzāks nekā Google Translate akadēmiskiem tekstiem." },
     diffit: { desc: "Ģenerē lasīšanas materiālus, pielāgotus dažādiem grūtības līmeņiem no jebkuras tēmas vai avota teksta. Noderīgi uzdevumu diferencēšanai, neveidojot atsevišķus resursus no nulles." },
@@ -401,6 +439,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   et: {
     brisk: { desc: "Chrome'i laiendus õpetajatele, mis töötab Google'i dokumentides, Google Classroomis ja igal veebilehel. Kohandab teksti lugemistaset, annab tagasisidet kirjalikele töödele ja näitab dokumendi kirjutamise ajalugu." },
+    desmos: { desc: "Tasuta graafiline ja teaduslik kalkulaator, kontot pole vaja. See näitab kirjutamise ajal avaldise ja graafiku seost, mis annab arvulisele mõtlemisele visuaalse toe. Sellel on ettelugemine ja audio trace, mis muudab graafiku heliks õpilastele, kes seda lugeda ei suuda." },
+    gemini: { desc: "Google'i keelemudel, mis on sisse ehitatud Google'i dokumentidesse, Gmaili ja Esitlustesse. Gems hoiab alles juhised — õppeaine, klass, toon, mida tööriist ei tohi kunagi teha —, mis kehtivad seejärel kõigis järgnevates vestlustes, ilma et konteksti tuleks iga päringu juures korrata." },
     chatgpt: { desc: "OpenAI üldotstarbeline keelemudel teksti genereerimiseks, kokkuvõtete tegemiseks, ümbersõnastamiseks ja eri tasemetel selgitamiseks. Kasulik materjalide kohandamiseks ja diferentseeritud ülesannete loomiseks." },
     deepl: { desc: "Kõrge kvaliteediga automaatne tõlketeenus suurepärase jõudlusega Euroopa keeltele. Kontekstuaalselt täpsem kui Google Translate akadeemiliste tekstide jaoks." },
     diffit: { desc: "Genereerib mistahes teemast või lähtetekstist eri raskustasemetele kohandatud lugemismaterjale. Kasulik ülesannete diferentseerimiseks ilma eraldi ressursside nullist loomiseta." },
@@ -422,6 +462,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   sl: {
     brisk: { desc: "Razširitev za Chrome za učitelje, ki deluje v Googlovih dokumentih, Google Classroomu in na kateri koli spletni strani. Prilagodi bralno raven besedila, poda povratno informacijo o pisnih izdelkih in prikaže zgodovino pisanja dokumenta." },
+    desmos: { desc: "Brezplačno grafično in znanstveno računalo, brez računa. Med tipkanjem prikazuje razmerje med izrazom in grafom, kar številskemu razmišljanju daje vizualno oporo. Ima branje na glas in audio trace, ki graf pretvori v zvok za učence, ki ga ne morejo prebrati." },
+    gemini: { desc: "Googlov jezikovni model, vgrajen v Googlove dokumente, Gmail in Predstavitve. Gems shranijo navodila — predmet, letnik, ton, česa orodje nikoli ne sme storiti —, ki nato veljajo v vseh naslednjih pogovorih, ne da bi konteksta ponavljali pri vsaki zahtevi." },
     chatgpt: {
       desc: "Splošnonamenski jezikovni model OpenAI za ustvarjanje, povzemanje, prepisovanje in razlaganje vsebine na različnih ravneh. Koristen za prilagajanje gradiv in ustvarjanje diferenciranih nalog.",
     },
@@ -469,6 +511,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   ga: {
     brisk: { desc: "Breiseán Chrome do mhúinteoirí a oibríonn laistigh de Google Docs, Google Classroom agus aon leathanach gréasáin. Coigeartaíonn sé leibhéal léitheoireachta téacs, tugann sé aiseolas ar shaothar scríofa, agus taispeánann sé stair scríofa cáipéise." },
+    desmos: { desc: "Áireamhán graif agus eolaíochta saor in aisce, gan gá le cuntas. Taispeánann sé an gaol idir an slonn agus an graf agus tú ag clóscríobh, rud a thugann tacaíocht amhairc don réasúnaíocht uimhriúil. Tá léamh os ard agus audio trace ann, a iompaíonn an graf ina fhuaim do dhaltaí nach féidir leo é a léamh." },
+    gemini: { desc: "Samhail teanga Google, atá tógtha isteach i Google Docs, Gmail agus Sleamhnáin. Coinníonn Gems treoracha — ábhar, bliainghrúpa, ton, an rud nach mór don uirlis a dhéanamh riamh — a bhíonn i bhfeidhm ansin i ngach comhrá ina dhiaidh sin, gan an comhthéacs a athrá le gach iarratas." },
     chatgpt: {
       desc: "Samhail teanga ilchuspóireach ó OpenAI chun ábhar a ghiniúint, a achoimriú, a athscríobh agus a mhíniú ar leibhéil éagsúla. Áisiúil chun ábhair a oiriúnú agus cúraimí difreáilte a chruthú.",
     },
@@ -516,6 +560,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   mt: {
     brisk: { desc: "Estensjoni ta' Chrome għall-għalliema li taħdem ġewwa Google Docs, Google Classroom u kwalunkwe paġna web. Taġġusta l-livell ta' qari ta' test, tagħti feedback fuq xogħol miktub, u turi l-istorja tal-kitba ta' dokument." },
+    desmos: { desc: "Kalkulatur grafiku u xjentifiku b'xejn, mingħajr bżonn ta' kont. Juri r-rabta bejn l-espressjoni u l-graff hekk kif tikteb, u dan jagħti appoġġ viżiv lir-raġunament numeriku. Fih il-qari b'leħen għoli u l-audio trace, li jaqleb il-graff f'ħoss għall-istudenti li ma jistgħux jaqrawh." },
+    gemini: { desc: "Il-mudell tal-lingwa ta' Google, mibni ġewwa Google Docs, Gmail u l-Preżentazzjonijiet. Il-Gems iżommu struzzjonijiet — is-suġġett, is-sena, it-ton, dak li l-għodda qatt m'għandha tagħmel — li mbagħad japplikaw għal kull konverżazzjoni ta' wara, mingħajr ma jerġa' jingħad il-kuntest f'kull talba." },
     chatgpt: {
       desc: "Mudell lingwistiku tal-użu ġenerali ta' OpenAI biex jiġġenera, jikkondensa, jikteb mill-ġdid u jispjega l-kontenut f'livelli differenti. Utli biex jadatta l-materjali u joħloq kompiti differenzjati.",
     },
@@ -563,6 +609,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   tr: {
     brisk: { desc: "Google Dokümanlar, Google Classroom ve herhangi bir web sayfası içinde çalışan, öğretmenlere yönelik Chrome eklentisi. Bir metnin okuma düzeyini ayarlar, yazılı çalışmalara geri bildirim verir ve bir belgenin yazım geçmişini gösterir." },
+    desmos: { desc: "Ücretsiz grafik ve bilimsel hesap makinesi, hesap açmaya gerek yok. Yazdıkça ifade ile grafik arasındaki ilişkiyi gösterir; bu da sayısal akıl yürütmeye görsel bir dayanak verir. Sesli okuma ve grafiği sese çeviren audio trace özelliği vardır; grafiği okuyamayan öğrenciler için." },
+    gemini: { desc: "Google'ın dil modeli; Google Dokümanlar, Gmail ve Slaytlar'ın içine yerleşiktir. Gems, yönergeleri — ders, sınıf düzeyi, üslup, aracın asla yapmaması gerekenler — saklar; bunlar sonraki bütün konuşmalarda geçerli olur, bağlamı her istekte yinelemeye gerek kalmaz." },
     chatgpt: { desc: "OpenAI’nin genel amaçlı dil modeli; metin üretme, özetleme, yeniden yazma ve içeriği farklı düzeylerde açıklama için. Materyalleri uyarlamak ve farklılaştırılmış görevler hazırlamak için kullanışlı." },
     deepl: { desc: "Avrupa dillerinde üstün başarı gösteren yüksek kaliteli otomatik çeviri hizmeti. Akademik metinlerde bağlama Google Translate’ten daha sadık." },
     diffit: { desc: "Herhangi bir konudan ya da kaynak metinden farklı zorluk düzeylerine uyarlanmış okuma materyalleri üretir. Sıfırdan ayrı kaynaklar hazırlamadan görevleri farklılaştırmak için kullanışlı." },
@@ -584,6 +632,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   no: {
     brisk: { desc: "Chrome-utvidelse for lærere som fungerer i Google Dokumenter, Google Classroom og på alle nettsider. Justerer lesenivået i en tekst, gir tilbakemelding på skriftlig arbeid og viser skrivehistorikken til et dokument." },
+    desmos: { desc: "Gratis grafisk og vitenskapelig kalkulator, uten konto. Den viser sammenhengen mellom uttrykket og grafen mens du skriver, noe som gir visuell støtte til tallforståelsen. Den har opplesning og audio trace, som gjør grafen om til lyd for elever som ikke kan lese den." },
+    gemini: { desc: "Googles språkmodell, innebygd i Google Dokumenter, Gmail og Presentasjoner. Gems lagrer instruksjoner — fag, trinn, tone, hva verktøyet aldri skal gjøre — som deretter gjelder i alle påfølgende samtaler, uten å gjenta konteksten ved hver forespørsel." },
     chatgpt: { desc: "Generell språkmodell fra OpenAI til å generere, oppsummere, omskrive og forklare innhold på ulike nivåer. Nyttig for å tilpasse materiell og lage differensierte oppgaver." },
     deepl: { desc: "Maskinoversettelse av høy kvalitet, særlig sterk på europeiske språk. Mer kontekstnær enn Google Translate på akademiske tekster." },
     diffit: { desc: "Lager lesestoff tilpasset ulike vanskegrader ut fra et hvilket som helst tema eller en kildetekst. Nyttig for å differensiere uten å lage separate ressurser fra bunnen." },
@@ -605,6 +655,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   is: {
     brisk: { desc: "Chrome-viðbót fyrir kennara sem virkar inni í Google Docs, Google Classroom og á hvaða vefsíðu sem er. Stillir lestrarstig texta, gefur endurgjöf á skrifleg verkefni og sýnir ritunarsögu skjals." },
+    desmos: { desc: "Ókeypis grafísk og vísindaleg reiknivél, án þess að stofna aðgang. Hún sýnir sambandið milli stæðunnar og grafsins jafnóðum og skrifað er, sem veitir talnahugsun sjónrænan stuðning. Hún býður upp á upplestur og audio trace, sem breytir grafinu í hljóð fyrir nemendur sem geta ekki lesið það." },
+    gemini: { desc: "Tungumálalíkan Google, innbyggt í Google skjöl, Gmail og Kynningar. Gems geyma leiðbeiningar — námsgrein, árgang, tón, hvað tólið má aldrei gera — sem gilda síðan í öllum næstu samtölum, án þess að samhengið sé endurtekið í hverri beiðni." },
     chatgpt: { desc: "Almenn mállíkanaþjónusta frá OpenAI til að semja, draga saman, umorða og útskýra efni á mismunandi stigum. Gagnleg til að laga efni og búa til aðgreind verkefni." },
     deepl: { desc: "Vélþýðing í hárri gæðaflokkun, sérstaklega sterk í Evrópumálum. Nákvæmari í samhengi en Google Translate í fræðilegum texta." },
     diffit: { desc: "Býr til lesefni á mismunandi þyngdarstigum út frá hvaða efni eða frumtexta sem er. Gagnlegt til aðgreiningar án þess að semja sérstakt efni frá grunni." },
@@ -626,6 +678,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   sr: {
     brisk: { desc: "Chrome додатак за наставнике који ради унутар Google докумената, Google учионице и било које веб странице. Прилагођава ниво читања текста, даје повратну информацију о писаним радовима и приказује историју писања документа." },
+    desmos: { desc: "Бесплатан графички и научни калкулатор, без потребе за налогом. Приказује однос између израза и графика док куцате, што даје визуелну потпору бројчаном расуђивању. Има читање наглас и audio trace, који график претвара у звук за ученике који не могу да га прочитају." },
+    gemini: { desc: "Гуглов језички модел, уграђен у Google документе, Gmail и Презентације. Gems чувају упутства — предмет, разред, тон, оно што алат никада не сме да уради — која затим важе у свим следећим разговорима, без понављања контекста у сваком захтеву." },
     chatgpt: { desc: "Језички модел опште намене компаније OpenAI за писање, сажимање, преформулисање и објашњавање садржаја на различитим нивоима. Користан за прилагођавање материјала и израду диференцираних задатака." },
     deepl: { desc: "Машинско превођење високог квалитета, посебно добро за европске језике. Вернији контексту од Google преводиоца у стручним текстовима." },
     diffit: { desc: "Прави текстове за читање прилагођене различитим нивоима тежине из било које теме или изворног текста. Користан за диференцијацију без израде посебних материјала испочетка." },
@@ -647,6 +701,8 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
   },
   mk: {
     brisk: { desc: "Chrome-додаток за наставници што работи во Google документи, Google Classroom и на која било веб-страница. Го прилагодува нивото на читање на текстот, дава повратна информација за пишаните трудови и ја прикажува историјата на пишување на документот." },
+    desmos: { desc: "Бесплатен графички и научен калкулатор, без потреба од сметка. Го прикажува односот меѓу изразот и графикот додека пишувате, што му дава визуелна поддршка на бројчаното размислување. Има читање на глас и audio trace, кој графикот го претвора во звук за учениците што не можат да го прочитаат." },
+    gemini: { desc: "Јазичниот модел на Google, вграден во Google документи, Gmail и Презентации. Gems чуваат упатства — предмет, одделение, тон, она што алатката никогаш не смее да го направи — кои потоа важат во сите следни разговори, без да се повторува контекстот при секое барање." },
     chatgpt: { desc: "Јазичен модел за општа намена на OpenAI за пишување, сумирање, преформулирање и објаснување содржини на различни нивоа. Корисен за приспособување материјали и изработка на диференцирани задачи." },
     deepl: { desc: "Машинско преведување со висок квалитет, особено добро за европските јазици. Поверно на контекстот од Google преведувач кај стручни текстови." },
     diffit: { desc: "Создава текстови за читање приспособени на различни нивоа на тежина од која било тема или изворен текст. Корисно за диференцијација без изработка посебни материјали од нула." },
