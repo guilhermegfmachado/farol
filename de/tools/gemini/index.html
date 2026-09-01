@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="de"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Google Gemini — Werkzeuge — Farol</title><meta name="description" content="Googles Sprachmodell, eingebaut in Google Docs, Gmail und Präsentationen. Gems speichern Anweisungen — Fach, Jahrgang, Ton, was das Werkzeug niemals tun darf — die dann für alle weiteren Gespräche gelten, ohne den Kontext bei jeder Anfrage zu wiederholen."><link rel="canonical" href="https://guilhermegfmachado.github.io/farol/de/tools/gemini/"><!-- Preload the primary body font so the same typography renders on first paint everywhere --><link rel="preload" href="/farol/_astro/plus-jakarta-sans-latin-wght-normal.eXO_dkmS.woff2" as="font" type="font/woff2" crossorigin><!-- Night mode is opt-in only (lighthouse toggle in the header); restore before paint --><script>
+      try { if (localStorage.getItem('farol-theme') === 'dark') document.documentElement.classList.add('dark'); } catch (e) {}
+      try { if (localStorage.getItem('farol-reading') === '1') document.documentElement.classList.add('reading'); } catch (e) {}
+    </script><!-- Favicon --><link rel="icon" type="image/svg+xml" href="/farol/favicon.svg"><!-- Installable PWA: works offline once a page has been visited --><link rel="manifest" href="/farol/manifest.webmanifest"><link rel="apple-touch-icon" href="/farol/apple-touch-icon.png"><meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#131722" media="(prefers-color-scheme: dark)"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Farol"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://guilhermegfmachado.github.io/farol/de/tools/gemini/"><meta property="og:title" content="Google Gemini — Werkzeuge — Farol"><meta property="og:description" content="Googles Sprachmodell, eingebaut in Google Docs, Gmail und Präsentationen. Gems speichern Anweisungen — Fach, Jahrgang, Ton, was das Werkzeug niemals tun darf — die dann für alle weiteren Gespräche gelten, ohne den Kontext bei jeder Anfrage zu wiederholen."><meta property="og:locale" content="de"><meta property="og:image" content="https://guilhermegfmachado.github.io/farol/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://guilhermegfmachado.github.io/farol/og-image.png"><!-- hreflang alternate links --><link rel="alternate" hreflang="pt" href="https://guilhermegfmachado.github.io/farol/tools/gemini/"><link rel="alternate" hreflang="en" href="https://guilhermegfmachado.github.io/farol/en/tools/gemini/"><link rel="alternate" hreflang="es" href="https://guilhermegfmachado.github.io/farol/es/tools/gemini/"><link rel="alternate" hreflang="fr" href="https://guilhermegfmachado.github.io/farol/fr/tools/gemini/"><link rel="alternate" hreflang="it" href="https://guilhermegfmachado.github.io/farol/it/tools/gemini/"><link rel="alternate" hreflang="hr" href="https://guilhermegfmachado.github.io/farol/hr/tools/gemini/"><link rel="alternate" hreflang="de" href="https://guilhermegfmachado.github.io/farol/de/tools/gemini/"><link rel="alternate" hreflang="nl" href="https://guilhermegfmachado.github.io/farol/nl/tools/gemini/"><link rel="alternate" hreflang="pl" href="https://guilhermegfmachado.github.io/farol/pl/tools/gemini/"><link rel="alternate" hreflang="ro" href="https://guilhermegfmachado.github.io/farol/ro/tools/gemini/"><link rel="alternate" hreflang="cs" href="https://guilhermegfmachado.github.io/farol/cs/tools/gemini/"><link rel="alternate" hreflang="sv" href="https://guilhermegfmachado.github.io/farol/sv/tools/gemini/"><link rel="alternate" hreflang="da" href="https://guilhermegfmachado.github.io/farol/da/tools/gemini/"><link rel="alternate" hreflang="fi" href="https://guilhermegfmachado.github.io/farol/fi/tools/gemini/"><link rel="alternate" hreflang="sk" href="https://guilhermegfmachado.github.io/farol/sk/tools/gemini/"><link rel="alternate" hreflang="el" href="https://guilhermegfmachado.github.io/farol/el/tools/gemini/"><link rel="alternate" hreflang="hu" href="https://guilhermegfmachado.github.io/farol/hu/tools/gemini/"><link rel="alternate" hreflang="bg" href="https://guilhermegfmachado.github.io/farol/bg/tools/gemini/"><link rel="alternate" hreflang="lt" href="https://guilhermegfmachado.github.io/farol/lt/tools/gemini/"><link rel="alternate" hreflang="lv" href="https://guilhermegfmachado.github.io/farol/lv/tools/gemini/"><link rel="alternate" hreflang="et" href="https://guilhermegfmachado.github.io/farol/et/tools/gemini/"><link rel="alternate" hreflang="sl" href="https://guilhermegfmachado.github.io/farol/sl/tools/gemini/"><link rel="alternate" hreflang="ga" href="https://guilhermegfmachado.github.io/farol/ga/tools/gemini/"><link rel="alternate" hreflang="mt" href="https://guilhermegfmachado.github.io/farol/mt/tools/gemini/"><link rel="alternate" hreflang="tr" href="https://guilhermegfmachado.github.io/farol/tr/tools/gemini/"><link rel="alternate" hreflang="no" href="https://guilhermegfmachado.github.io/farol/no/tools/gemini/"><link rel="alternate" hreflang="is" href="https://guilhermegfmachado.github.io/farol/is/tools/gemini/"><link rel="alternate" hreflang="sr" href="https://guilhermegfmachado.github.io/farol/sr/tools/gemini/"><link rel="alternate" hreflang="mk" href="https://guilhermegfmachado.github.io/farol/mk/tools/gemini/"><link rel="alternate" hreflang="x-default" href="https://guilhermegfmachado.github.io/farol/tools/gemini/"><link rel="stylesheet" href="/farol/_astro/about.MxDBOnzZ.css">
+<style>.tool-desc[data-astro-cid-feneg35c]{color:var(--ink-soft);font-size:.95rem;line-height:1.7}.tool-url[data-astro-cid-feneg35c]{color:var(--accent);text-decoration:none;font-family:JetBrains Mono,Mono Fallback,monospace;font-size:.85rem}.tool-url[data-astro-cid-feneg35c]:hover{text-decoration:underline}.tool-profiles[data-astro-cid-feneg35c]{display:flex;gap:.5rem;flex-wrap:wrap}.tool-profile-tag[data-astro-cid-feneg35c]{font-family:JetBrains Mono,Mono Fallback,monospace;font-size:.75rem;color:var(--accent);border:1px solid var(--accent);padding:.2rem .6rem;text-decoration:none;letter-spacing:.03em;transition:background .15s ease}.tool-profile-tag[data-astro-cid-feneg35c]:hover{background:var(--accent-bg)}
+</style></head> <body> <a class="skip-link" href="#main-content">Zum Inhalt springen</a> <main class="container" id="main-content">  <header data-astro-cid-3ef6ksr2> <div class="header-top" data-astro-cid-3ef6ksr2> <span class="logotype" data-astro-cid-3ef6ksr2="true"> <button type="button" class="logotype-mark night-toggle" aria-label="Nachtmodus" aria-pressed="false" title="Nachtmodus" data-astro-cid-3ef6ksr2> <svg width="100%" height="100%" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-astro-cid-5omrao3n> <!-- Bottom-heavy banded tower: the taper, the overhanging gallery and the
+       stripe gaps are what make this read as a lighthouse rather than a plain
+       column, and they survive down to 14px. --> <path d="M10.3 6.2 L13 3.3 L15.7 6.2 Z" fill="currentColor" data-astro-cid-5omrao3n></path> <rect x="10.9" y="6.2" width="4.2" height="3.5" fill="currentColor" data-astro-cid-5omrao3n></rect> <rect x="8.7" y="9.7" width="8.6" height="1.4" fill="currentColor" data-astro-cid-5omrao3n></rect> <path d="M10.4 11.1 L15.6 11.1 L15.95 13.0 L10.05 13.0 Z" fill="currentColor" data-astro-cid-5omrao3n></path> <path d="M9.87 13.9 L16.13 13.9 L16.45 16.6 L9.55 16.6 Z" fill="currentColor" data-astro-cid-5omrao3n></path> <path d="M9.35 17.5 L16.65 17.5 L17.5 21.3 L8.5 21.3 Z" fill="currentColor" data-astro-cid-5omrao3n></path> <rect x="7.1" y="21.3" width="11.8" height="2" fill="currentColor" data-astro-cid-5omrao3n></rect> <g class="mark-rays" data-astro-cid-5omrao3n> <path d="M10.2 7.9 L2.4 4.6 L2.4 11.2 Z" fill="#e8a93d" opacity="0.45" data-astro-cid-5omrao3n></path> <path d="M15.8 7.9 L23.6 4.6 L23.6 11.2 Z" fill="#e8a93d" opacity="0.45" data-astro-cid-5omrao3n></path> </g> <circle class="mark-beam" cx="13" cy="7.9" r="1.45" data-astro-cid-5omrao3n></circle> </svg>  </button> <a href="/farol/de/" class="logotype-link" data-astro-cid-3ef6ksr2>FAROL</a> </span> <div class="header-right" data-astro-cid-3ef6ksr2> <div class="header-controls" data-astro-cid-3ef6ksr2> <div class="hdr-search" data-astro-cid-3ef6ksr2> <button type="button" class="hdr-search-btn" aria-label="Profile filtern..." aria-expanded="false" title="Profile filtern..." data-astro-cid-3ef6ksr2> <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-astro-cid-3ef6ksr2><circle cx="11" cy="11" r="7" data-astro-cid-3ef6ksr2></circle><line x1="21" y1="21" x2="16.4" y2="16.4" data-astro-cid-3ef6ksr2></line></svg> </button> <input type="search" class="hdr-search-input" placeholder="Profile filtern..." aria-label="Profile filtern..." hidden data-search-lang="de" data-search-base="/farol/" data-empty="Keine Treffer für Ihre Suche." data-astro-cid-3ef6ksr2> <div class="hdr-search-panel" role="listbox" hidden data-astro-cid-3ef6ksr2></div> </div> <button type="button" class="reading-toggle" aria-label="Lesemodus" aria-pressed="false" title="Lesemodus" data-astro-cid-3ef6ksr2>Aa</button> <select class="lang-select" aria-label="Sprache auswählen" onchange="if(this.value) window.location.href=this.value" data-astro-cid-3ef6ksr2> <option value="" disabled selected data-astro-cid-3ef6ksr2>DE</option> <option value="/farol/tools/gemini/" data-astro-cid-3ef6ksr2>PT</option><option value="/farol/en/tools/gemini/" data-astro-cid-3ef6ksr2>EN</option><option value="/farol/es/tools/gemini/" data-astro-cid-3ef6ksr2>ES</option><option value="/farol/fr/tools/gemini/" data-astro-cid-3ef6ksr2>FR</option><option value="/farol/it/tools/gemini/" data-astro-cid-3ef6ksr2>IT</option><option value="/farol/hr/tools/gemini/" data-astro-cid-3ef6ksr2>HR</option><option value="/farol/nl/tools/gemini/" data-astro-cid-3ef6ksr2>NL</option><option value="/farol/pl/tools/gemini/" data-astro-cid-3ef6ksr2>PL</option><option value="/farol/ro/tools/gemini/" data-astro-cid-3ef6ksr2>RO</option><option value="/farol/cs/tools/gemini/" data-astro-cid-3ef6ksr2>CS</option><option value="/farol/sv/tools/gemini/" data-astro-cid-3ef6ksr2>SV</option><option value="/farol/da/tools/gemini/" data-astro-cid-3ef6ksr2>DA</option><option value="/farol/fi/tools/gemini/" data-astro-cid-3ef6ksr2>FI</option><option value="/farol/sk/tools/gemini/" data-astro-cid-3ef6ksr2>SK</option><option value="/farol/el/tools/gemini/" data-astro-cid-3ef6ksr2>EL</option><option value="/farol/hu/tools/gemini/" data-astro-cid-3ef6ksr2>HU</option><option value="/farol/bg/tools/gemini/" data-astro-cid-3ef6ksr2>BG</option><option value="/farol/lt/tools/gemini/" data-astro-cid-3ef6ksr2>LT</option><option value="/farol/lv/tools/gemini/" data-astro-cid-3ef6ksr2>LV</option><option value="/farol/et/tools/gemini/" data-astro-cid-3ef6ksr2>ET</option><option value="/farol/sl/tools/gemini/" data-astro-cid-3ef6ksr2>SL</option><option value="/farol/ga/tools/gemini/" data-astro-cid-3ef6ksr2>GA</option><option value="/farol/mt/tools/gemini/" data-astro-cid-3ef6ksr2>MT</option><option value="/farol/tr/tools/gemini/" data-astro-cid-3ef6ksr2>TR</option><option value="/farol/no/tools/gemini/" data-astro-cid-3ef6ksr2>NO</option><option value="/farol/is/tools/gemini/" data-astro-cid-3ef6ksr2>IS</option><option value="/farol/sr/tools/gemini/" data-astro-cid-3ef6ksr2>SR</option><option value="/farol/mk/tools/gemini/" data-astro-cid-3ef6ksr2>MK</option> </select> </div> </div> </div>  </header> <script>
+(function() {
+  var btn = document.querySelector('.night-toggle');
+  if (!btn) return;
+  var isDark = document.documentElement.classList.contains('dark');
+  btn.setAttribute('aria-pressed', String(isDark));
+  btn.addEventListener('click', function() {
+    var dark = document.documentElement.classList.toggle('dark');
+    btn.setAttribute('aria-pressed', String(dark));
+    try { localStorage.setItem('farol-theme', dark ? 'dark' : 'light'); } catch (e) {}
+  });
+})();
+(function() {
+  var rbtn = document.querySelector('.reading-toggle');
+  if (!rbtn) return;
+  var isReading = document.documentElement.classList.contains('reading');
+  rbtn.setAttribute('aria-pressed', String(isReading));
+  rbtn.addEventListener('click', function() {
+    var on = document.documentElement.classList.toggle('reading');
+    rbtn.setAttribute('aria-pressed', String(on));
+    try { localStorage.setItem('farol-reading', on ? '1' : '0'); } catch (e) {}
+  });
+})();
+(function() {
+  // Header full-text search: compact icon that expands to an input, with a
+  // results dropdown. Per-language index fetched lazily on first keystroke.
+  var wrap = document.querySelector('.hdr-search');
+  if (!wrap) return;
+  var btn = wrap.querySelector('.hdr-search-btn');
+  var input = wrap.querySelector('.hdr-search-input');
+  var panel = wrap.querySelector('.hdr-search-panel');
+  var lang = input.getAttribute('data-search-lang') || 'pt';
+  var idxBase = input.getAttribute('data-search-base') || '/farol/';
+  var emptyMsg = input.getAttribute('data-empty') || '';
+  var index = null, loading = false, pending = null;
+  function open() {
+    input.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    wrap.classList.add('open');
+    input.focus();
+  }
+  function close() {
+    input.hidden = true;
+    panel.hidden = true;
+    panel.innerHTML = '';
+    input.value = '';
+    btn.setAttribute('aria-expanded', 'false');
+    wrap.classList.remove('open');
+  }
+  function ensure(cb) {
+    if (index) { cb(); return; }
+    pending = cb;
+    if (loading) return;
+    loading = true;
+    fetch(idxBase + 'search/' + lang + '.json')
+      .then(function (r) { return r.json(); })
+      .then(function (d) { index = d; loading = false; if (pending) pending(); })
+      .catch(function () {
+        loading = false;
+        // Offline on first use, or the index failed to load: say so instead of
+        // leaving the box silently empty.
+        panel.innerHTML = '';
+        var e = document.createElement('div');
+        e.className = 'hdr-search-empty';
+        e.textContent = emptyMsg;
+        panel.appendChild(e);
+        panel.hidden = false;
+      });
+  }
+  function render(q) {
+    var toks = q.split(/\s+/).filter(Boolean);
+    var hits = index.filter(function (it) { return toks.every(function (tk) { return it.x.indexOf(tk) !== -1; }); });
+    panel.innerHTML = '';
+    if (!hits.length) {
+      var p = document.createElement('div'); p.className = 'hdr-search-empty'; p.textContent = emptyMsg;
+      panel.appendChild(p); panel.hidden = false; return;
+    }
+    hits.slice(0, 12).forEach(function (it) {
+      var a = document.createElement('a'); a.className = 'search-result'; a.href = it.u;
+      a.setAttribute('data-category', it.k || '');
+      var c = document.createElement('span'); c.className = 'search-result-cat'; c.textContent = it.c;
+      var t = document.createElement('span'); t.className = 'search-result-title'; t.textContent = it.t;
+      var s = document.createElement('span'); s.className = 'search-result-snip'; s.textContent = it.s;
+      a.appendChild(c); a.appendChild(t); if (it.s) a.appendChild(s);
+      panel.appendChild(a);
+    });
+    panel.hidden = false;
+  }
+  btn.addEventListener('click', function () { input.hidden ? open() : close(); });
+  input.addEventListener('input', function () {
+    var q = this.value.trim().toLowerCase();
+    if (q.length < 2) { panel.hidden = true; panel.innerHTML = ''; return; }
+    ensure(function () { render(q); });
+  });
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') { close(); btn.focus(); }
+    if (e.key === 'ArrowDown') {
+      var first = panel.querySelector('.search-result');
+      if (first) { e.preventDefault(); first.focus(); }
+    }
+  });
+  panel.addEventListener('keydown', function (e) {
+    var links = Array.prototype.slice.call(panel.querySelectorAll('.search-result'));
+    var i = links.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown' && i < links.length - 1) { e.preventDefault(); links[i + 1].focus(); }
+    if (e.key === 'ArrowUp') { e.preventDefault(); (i > 0 ? links[i - 1] : input).focus(); }
+    if (e.key === 'Escape') { close(); btn.focus(); }
+  });
+  document.addEventListener('click', function (e) {
+    if (!wrap.contains(e.target) && !input.hidden) close();
+  });
+})();
+</script>  <nav class="breadcrumb" aria-label="Brotkrümelnavigation"> <a href="/farol/de/" class="breadcrumb-item">Startseite</a><span class="breadcrumb-sep" aria-hidden="true">/</span><a href="/farol/de/tools/" class="breadcrumb-item">Werkzeuge</a><span class="breadcrumb-sep" aria-hidden="true">/</span><span class="breadcrumb-current" aria-current="page">google gemini</span> </nav> <article class="card animate-in" data-astro-cid-feneg35c> <header class="card-header" data-astro-cid-feneg35c> <h1 class="card-title" data-astro-cid-feneg35c>Google Gemini</h1> <p class="card-subtitle" data-astro-cid-feneg35c> <a href="https://gemini.google.com" target="_blank" rel="noopener noreferrer" class="tool-url" data-astro-cid-feneg35c>gemini.google.com</a> </p> </header> <section class="card-section" data-astro-cid-feneg35c> <h2 class="card-section-label" data-astro-cid-feneg35c>Beschreibung</h2> <p class="tool-desc" data-astro-cid-feneg35c>Googles Sprachmodell, eingebaut in Google Docs, Gmail und Präsentationen. Gems speichern Anweisungen — Fach, Jahrgang, Ton, was das Werkzeug niemals tun darf — die dann für alle weiteren Gespräche gelten, ohne den Kontext bei jeder Anfrage zu wiederholen.</p> </section> <section class="card-section" data-astro-cid-feneg35c> <h2 class="card-section-label" data-astro-cid-feneg35c>Relevante Profile</h2> <div class="tool-profiles" data-astro-cid-feneg35c> <a href="/farol/de/profiles/tdah/" class="tool-profile-tag" data-astro-cid-feneg35c>ADHS</a><a href="/farol/de/profiles/dislexia/" class="tool-profile-tag" data-astro-cid-feneg35c>Legasthenie</a><a href="/farol/de/profiles/dispraxia/" class="tool-profile-tag" data-astro-cid-feneg35c>Dyspraxie</a><a href="/farol/de/profiles/autismo/" class="tool-profile-tag" data-astro-cid-feneg35c>Autismus-Spektrum</a><a href="/farol/de/profiles/sobredotacao/" class="tool-profile-tag" data-astro-cid-feneg35c>Hochbegabung</a><a href="/farol/de/profiles/plnm/" class="tool-profile-tag" data-astro-cid-feneg35c>DaZ-Lernende</a><a href="/farol/de/profiles/discalculia/" class="tool-profile-tag" data-astro-cid-feneg35c>Dyskalkulie</a> </div> </section> <section class="card-section" data-astro-cid-feneg35c> <h2 class="card-section-label" data-astro-cid-feneg35c>Zugang</h2> <p class="tool-desc" data-astro-cid-feneg35c>Kostenlose Version verfügbar.</p> </section> <section class="card-section" data-astro-cid-feneg35c> <h2 class="card-section-label" data-astro-cid-feneg35c>Schülerdaten</h2> <p class="tool-desc" data-astro-cid-feneg35c>Vor dem Einsatz mit Schülerdaten: keine Namen, Diagnosen oder andere identifizierenden Angaben eingeben; Ton- und Videoaufnahmen sind personenbezogene Daten und erfordern eine Einwilligung; Konten für minderjährige Schülerinnen und Schüler nur über die Schule oder die Erziehungsberechtigten. Die Bedingungen der Datenverarbeitung hängen von der Lizenz ab und ändern sich häufig — die Datenschutzerklärung des Anbieters und den Datenschutzbeauftragten der Schule konsultieren.</p> </section> </article> <footer data-astro-cid-sz7xmlte> <nav class="footer-nav" aria-label="Farol · Lehrerhandbuch" data-astro-cid-sz7xmlte> <a href="/farol/de/strategies/" data-astro-cid-sz7xmlte>Strategien</a> <a href="/farol/de/tools/" data-astro-cid-sz7xmlte>Werkzeuge</a> <a href="/farol/de/lighthouse/" data-astro-cid-sz7xmlte>Der Turm</a> </nav> <div data-astro-cid-sz7xmlte>Farol · Lehrerhandbuch · v0.1 · 2026-09-01</div> <div data-astro-cid-sz7xmlte><a href="/farol/de/about/" data-astro-cid-sz7xmlte>Anleitung</a> · <a href="/farol/de/how-it-was-made/" data-astro-cid-sz7xmlte>Wie es entstanden ist</a> · <a href="/farol/sitemap-0.xml" data-astro-cid-sz7xmlte>Sitemap</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer license" data-astro-cid-sz7xmlte>Offene Ressource · CC BY-NC-SA</a></div> <div data-astro-cid-sz7xmlte>Konzept von <a href="https://guilhermegfmachado.github.io/work/" target="_blank" rel="noopener noreferrer" data-astro-cid-sz7xmlte>Guilherme de Góis Machado</a></div> <details class="footer-feedback" data-astro-cid-sz7xmlte> <summary data-astro-cid-sz7xmlte>Korrektur vorschlagen</summary> <form class="fb-form" data-endpoint data-email data-github="https://github.com/guilhermegfmachado/farol/issues/new?template=correction.md" data-sent="Danke! Rückmeldung gesendet." data-error="Senden fehlgeschlagen — bitte den GitHub-Link nutzen." data-astro-cid-sz7xmlte> <textarea name="message" required rows="3" placeholder="Was sollten wir korrigieren oder verbessern?" aria-label="Was sollten wir korrigieren oder verbessern?" data-astro-cid-sz7xmlte></textarea> <div class="fb-row" data-astro-cid-sz7xmlte> <button type="submit" data-astro-cid-sz7xmlte>Senden</button> <a href="https://github.com/guilhermegfmachado/farol/issues/new?template=correction.md" target="_blank" rel="noopener noreferrer" data-astro-cid-sz7xmlte>oder über GitHub ↗</a> </div> <p class="fb-status" role="status" hidden data-astro-cid-sz7xmlte></p> </form> </details> </footer> <script>
+(function () {
+  var form = document.querySelector('.fb-form');
+  if (!form) return;
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var msg = form.querySelector('textarea').value.trim();
+    if (!msg) return;
+    var page = location.href;
+    // mailto: and the prefilled GitHub issue both carry the message in a URL,
+    // and browsers and servers start rejecting those past roughly 8000 chars.
+    // A configured endpoint POSTs instead, so only the fallbacks are capped.
+    function forUrl(text) {
+      var LIMIT = 4000;
+      return text.length > LIMIT ? text.slice(0, LIMIT) + '\n\n[…]' : text;
+    }
+    var endpoint = form.getAttribute('data-endpoint');
+    var email = form.getAttribute('data-email');
+    var github = form.getAttribute('data-github');
+    var status = form.querySelector('.fb-status');
+    function say(txt) { if (status) { status.textContent = txt; status.hidden = false; } }
+    if (endpoint) {
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: msg, page: page })
+      }).then(function (r) {
+        if (r.ok) { say(form.getAttribute('data-sent')); form.querySelector('textarea').value = ''; }
+        else { say(form.getAttribute('data-error')); }
+      }).catch(function () { say(form.getAttribute('data-error')); });
+    } else if (email) {
+      location.href = 'mailto:' + email +
+        '?subject=' + encodeURIComponent('Farol — feedback') +
+        '&body=' + encodeURIComponent(forUrl(msg) + '\n\n— ' + page);
+    } else {
+      // No endpoint configured: open a prefilled GitHub issue instead.
+      var url = github.split('?')[0] + '?title=' + encodeURIComponent('Feedback') +
+        '&body=' + encodeURIComponent(forUrl(msg) + '\n\n— ' + page);
+      window.open(url, '_blank', 'noopener');
+    }
+  });
+})();
+</script>   </main> <!-- Language suggestion banner --> <script type="application/json" id="farol-lang-msgs">{"pt":{"msg":"Este conteúdo está disponível em português","dismiss":"Fechar"},"en":{"msg":"This content is available in English","dismiss":"Close"},"es":{"msg":"Este contenido está disponible en español","dismiss":"Cerrar"},"fr":{"msg":"Ce contenu est disponible en français","dismiss":"Fermer"},"it":{"msg":"Questo contenuto è disponibile in italiano","dismiss":"Chiudi"},"hr":{"msg":"Ovaj sadržaj dostupan je na hrvatskom","dismiss":"Zatvori"},"de":{"msg":"Diese Inhalte sind auf Deutsch verfügbar","dismiss":"Schließen"},"nl":{"msg":"Deze inhoud is beschikbaar in het Nederlands","dismiss":"Sluiten"},"pl":{"msg":"Ta treść jest dostępna po polsku","dismiss":"Zamknij"},"ro":{"msg":"Acest conținut este disponibil în română","dismiss":"Închide"},"cs":{"msg":"Tento obsah je k dispozici v češtině","dismiss":"Zavřít"},"sv":{"msg":"Det här innehållet finns på svenska","dismiss":"Stäng"},"da":{"msg":"Dette indhold er tilgængeligt på dansk","dismiss":"Luk"},"fi":{"msg":"Tämä sisältö on saatavilla suomeksi","dismiss":"Sulje"},"sk":{"msg":"Tento obsah je dostupný v slovenčine","dismiss":"Zavrieť"},"el":{"msg":"Αυτό το περιεχόμενο είναι διαθέσιμο στα ελληνικά","dismiss":"Κλείσιμο"},"hu":{"msg":"Ez a tartalom elérhető magyarul","dismiss":"Bezárás"},"bg":{"msg":"Това съдържание е налично на български","dismiss":"Затвори"},"lt":{"msg":"Šis turinys prieinamas lietuvių kalba","dismiss":"Uždaryti"},"lv":{"msg":"Šis saturs ir pieejams latviešu valodā","dismiss":"Aizvērt"},"et":{"msg":"See sisu on saadaval eesti keeles","dismiss":"Sulge"},"sl":{"msg":"Ta vsebina je na voljo v slovenščini","dismiss":"Zapri"},"ga":{"msg":"Tá an t-ábhar seo ar fáil i nGaeilge","dismiss":"Dún"},"mt":{"msg":"Dan il-kontenut huwa disponibbli bil-Malti","dismiss":"Agħlaq"},"tr":{"msg":"Bu içerik Türkçe olarak mevcuttur","dismiss":"Kapat"},"no":{"msg":"Dette innholdet finnes på norsk","dismiss":"Lukk"},"is":{"msg":"Þetta efni er til á íslensku","dismiss":"Loka"},"sr":{"msg":"Овај садржај је доступан на српском","dismiss":"Затвори"},"mk":{"msg":"Оваа содржина е достапна на македонски","dismiss":"Затвори"}}</script> <script>
+    (function() {
+      try {
+        if (localStorage.getItem('farol-lang-banner-dismissed')) return;
+        var browserLang = (navigator.language || '').toLowerCase().slice(0, 2);
+        var pageLang = document.documentElement.lang || 'pt';
+        var langMap = {
+          pt: '', en: 'en', es: 'es', fr: 'fr', it: 'it', hr: 'hr', de: 'de',
+          nl: 'nl', pl: 'pl', ro: 'ro', cs: 'cs', sv: 'sv', da: 'da', fi: 'fi',
+          sk: 'sk', el: 'el', hu: 'hu', bg: 'bg', lt: 'lt', lv: 'lv', et: 'et',
+          sl: 'sl', ga: 'ga', mt: 'mt', tr: 'tr', no: 'no', is: 'is', sr: 'sr', mk: 'mk'
+        };
+        var langNames = {
+          pt: 'Português', en: 'English', es: 'Español', fr: 'Français', it: 'Italiano',
+          hr: 'Hrvatski', de: 'Deutsch', nl: 'Nederlands', pl: 'Polski', ro: 'Română',
+          cs: 'Čeština', sv: 'Svenska', da: 'Dansk', fi: 'Suomi', sk: 'Slovenčina',
+          el: 'Ελληνικά', hu: 'Magyar', bg: 'Български', lt: 'Lietuvių', lv: 'Latviešu',
+          et: 'Eesti', sl: 'Slovenščina', ga: 'Gaeilge', mt: 'Malti', tr: 'Türkçe', no: 'Norsk', is: 'Íslenska', sr: 'Српски', mk: 'Македонски'
+        };
+        if (browserLang in langMap && browserLang !== pageLang) {
+          var base = document.querySelector('link[rel="alternate"][hreflang="' + browserLang + '"]');
+          var targetHref = base ? base.href : null;
+          if (!targetHref) return;
+          var banner = document.createElement('div');
+          banner.id = 'lang-banner';
+          var msgs = {};
+          try { msgs = JSON.parse(document.getElementById('farol-lang-msgs').textContent); } catch (e) {}
+          var entry = msgs[browserLang] || {};
+          var msg = entry.msg || (langNames[browserLang] + ' available');
+          // The banner speaks the visitor's language, so its close button does too.
+          var dismiss = entry.dismiss || 'Close';
+          banner.innerHTML = '<span>' + msg + ' &mdash; <a href="' + targetHref + '">' + langNames[browserLang] + '</a></span><button onclick="document.getElementById(\'lang-banner\').remove();try{localStorage.setItem(\'farol-lang-banner-dismissed\',\'1\')}catch(e){}" aria-label="' + dismiss + '" title="' + dismiss + '">✕</button>';
+          document.body.prepend(banner);
+        }
+      } catch (e) {}
+    })();
+    </script> <!-- PDF export: works on every device (incl. mobile, where window.print() is a no-op).
+         The generator is loaded ONLY when the button is clicked, so page loads stay zero-JS. --> <script type="module" src="/farol/_astro/Base.astro_astro_type_script_index_0_lang.D3WFa7LI.js"></script> <!-- "Ficha A4" — condensed one-page cheat-sheet per profile: manifestations,
+         top strategies and referral signs, exported via the same html2pdf
+         mechanism (viewer-first, light theme, guaranteed single page). --> <script type="module" src="/farol/_astro/Base.astro_astro_type_script_index_1_lang.Cj_3x-QE.js"></script> <!-- Register the service worker so the manual is installable and works
+         offline. Registered after load so it never competes with first paint. --> <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          var base = document.querySelector('link[rel="manifest"]');
+          var scope = base ? base.href.replace(/manifest\.webmanifest.*$/, '') : '/farol/';
+          navigator.serviceWorker.register(scope + 'sw.js', { scope: scope }).catch(function () {});
+        });
+      }
+    </script> </body> </html>  
