@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getAllEntries, displayIndex } from '@/lib/entries';
-import { ui, allLangHrefs } from '@/lib/i18n';
+import { ui, allLangHrefs, withSourceLabel } from '@/lib/i18n';
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -76,7 +76,7 @@ function entryHref(e: typeof allEntries[0]) {
         <h2 class="card-section-label">{t.references_label}</h2>
         <ol class="references-list">
           {(entry.data.references ?? []).map((ref, i) => (
-            <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
+            <li id={`ref-${i + 1}`}><span set:html={withSourceLabel(ref, 'pt')} /></li>
           ))}
         </ol>
       </section>

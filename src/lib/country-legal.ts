@@ -40,22 +40,16 @@ export interface CountryLegal {
 
 const risSchPflG8 = 'https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10009576&amp;Paragraf=8';
 const risUnBrk = 'https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=20006062';
-// The source arrow is the only text a screen reader announces for a reference
-// link, so its label has to be in the card's own language, not the first one
-// that happened to be written.
-const SRC_LABEL: Partial<Record<Lang, string>> = {
-  de: 'Quelle öffnen',
-  nl: 'Bron openen',
-  fr: 'Ouvrir la source',
-  el: 'Άνοιγμα πηγής',
-};
-const srcIn = (lang: Lang) => (href: string) =>
-  ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="${SRC_LABEL[lang] ?? 'Open source'}">↗</a>`;
+// The source arrow's label is applied at render by withSourceLabel(), from the
+// ui.open_source key, so every language gets its own — this used to be a
+// hand-kept table of four languages with an English fallback.
+const srcIn = () => (href: string) =>
+  ` <a href="${href}" target="_blank" rel="noopener" class="ref-doi" aria-label="Open source">↗</a>`;
 
-const srcDe = srcIn('de');
-const srcNl = srcIn('nl');
-const srcFr = srcIn('fr');
-const srcEl = srcIn('el');
+const srcDe = srcIn();
+const srcNl = srcIn();
+const srcFr = srcIn();
+const srcEl = srcIn();
 const c = (n: number) => `<sup class="cite"><a href="#ref-${n}">${n}</a></sup>`;
 const c2 = (a: number, b: number) =>
   `<sup class="cite"><a href="#ref-${a}">${a}</a>,<a href="#ref-${b}">${b}</a></sup>`;
