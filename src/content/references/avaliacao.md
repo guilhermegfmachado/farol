@@ -34,8 +34,8 @@ sections:
       - "Quando, mesmo com adaptações de avaliação, o aluno não consegue demonstrar aprendizagem, é sinal de que pode haver uma barreira mais profunda a investigar com o SPO."
       - "Padrões persistentes (meses, não dias) de dificuldade específica numa área devem ser sinalizados formalmente."
 references:
-  - "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. <em>Assessment in Education: Principles, Policy & Practice</em>, 5(1), 7–74. <a href=\"https://doi.org/10.1080/0969595980050102\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
-  - "Hattie, J., & Timperley, H. (2007). The power of feedback. <em>Review of Educational Research</em>, 77(1), 81–112. <a href=\"https://doi.org/10.3102/003465430298487\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
-  - "Wiliam, D. (2011). <em>Embedded Formative Assessment</em>. Bloomington, IN: Solution Tree Press. <a href=\"https://www.solutiontree.com/embedded-formative-assessment-second-ed.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
-  - "Sadler, D. R. (1989). Formative assessment and the design of instructional systems. <em>Instructional Science</em>, 18(2), 119–144. <a href=\"https://doi.org/10.1007/BF00117714\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. <em>Assessment in Education: Principles, Policy & Practice</em>, 5(1), 7–74. <a href=\"https://doi.org/10.1080/0969595980050102\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
+  - "Hattie, J., & Timperley, H. (2007). The power of feedback. <em>Review of Educational Research</em>, 77(1), 81–112. <a href=\"https://doi.org/10.3102/003465430298487\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
+  - "Wiliam, D. (2011). <em>Embedded Formative Assessment</em>. Bloomington, IN: Solution Tree Press. <a href=\"https://www.solutiontree.com/embedded-formative-assessment-second-ed.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
+  - "Sadler, D. R. (1989). Formative assessment and the design of instructional systems. <em>Instructional Science</em>, 18(2), 119–144. <a href=\"https://doi.org/10.1007/BF00117714\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
 ---

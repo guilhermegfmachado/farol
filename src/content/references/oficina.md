@@ -29,6 +29,6 @@ sections:
       - "Sessão de feedback a 30 dias com pelo menos 60% dos participantes a relatar implementação efetiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a></sup>"
       - "Pelo menos um material produzido na sessão é adotado como recurso partilhado do departamento."
 references:
-  - "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). <em>Effective Teacher Professional Development</em>. Palo Alto, CA: Learning Policy Institute. <a href=\"https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
-  - "Desimone, L. M. (2009). Improving impact studies of teachers' professional development: toward better conceptualizations and measures. <em>Educational Researcher</em>, 38(3), 181–199. <a href=\"https://doi.org/10.3102/0013189X08331140\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Open source\">↗</a>"
+  - "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). <em>Effective Teacher Professional Development</em>. Palo Alto, CA: Learning Policy Institute. <a href=\"https://learningpolicyinstitute.org/product/effective-teacher-professional-development-report\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
+  - "Desimone, L. M. (2009). Improving impact studies of teachers' professional development: toward better conceptualizations and measures. <em>Educational Researcher</em>, 38(3), 181–199. <a href=\"https://doi.org/10.3102/0013189X08331140\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
 ---

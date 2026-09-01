@@ -2,7 +2,7 @@
 // Country variants of the legal-framework card. Language routes the manual;
 // this one card additionally routes by country, because language is not
 // country (German covers Germany, Austria, Belgium and Luxembourg).
-import { ui, entryTranslations, categoryTranslations, allLangHrefs, type Lang } from '@/lib/i18n';
+import { ui, entryTranslations, categoryTranslations, allLangHrefs, type Lang, withSourceLabel } from '@/lib/i18n';
 import { countryLegal } from '@/lib/country-legal';
 import Base from '../../../../layouts/Base.astro';
 import Header from '../../../../components/Header.astro';
@@ -66,7 +66,7 @@ const note = v.note.replace('__DEFAULT__', defaultHref);
       <h2 class="card-section-label">{v.refsLabel}</h2>
       <ol class="references-list">
         {v.references.map((ref, i) => (
-          <li id={`ref-${i + 1}`}><span set:html={ref} /></li>
+          <li id={`ref-${i + 1}`}><span set:html={withSourceLabel(ref, lang)} /></li>
         ))}
       </ol>
     </section>
