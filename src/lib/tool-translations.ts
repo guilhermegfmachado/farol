@@ -1,6 +1,7 @@
 export type ToolTranslation = { desc: string };
 export const toolTranslations: Partial<Record<string, Record<string, ToolTranslation>>> = {
   en: {
+    brisk: { desc: "Chrome extension for teachers that works inside Google Docs, Google Classroom and any web page. Adjusts the reading level of a text, gives feedback on written work, and replays a document's writing history." },
     chatgpt: { desc: "General-purpose language model by OpenAI for text generation, summarising, rewriting, and explaining content at different levels. Useful for adapting materials and creating differentiated tasks." },
     deepl: { desc: "High-quality automatic translation service with superior performance for European languages. More contextually accurate than Google Translate for academic texts." },
     diffit: { desc: "Generates reading materials adapted to different difficulty levels from any topic or source text. Useful for differentiating tasks without creating separate resources from scratch." },
@@ -21,6 +22,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI-powered interactive lesson generator: slides, quizzes and reflection activities in seconds. Good for quick differentiation and whole-class engagement." },
   },
   es: {
+    brisk: { desc: "Extensión de Chrome para docentes que funciona dentro de Google Docs, Google Classroom y cualquier página web. Ajusta el nivel de lectura de un texto, da retroalimentación sobre trabajos escritos y muestra el historial de escritura de un documento." },
     chatgpt: { desc: "Modelo de lenguaje de propósito general de OpenAI para generar, resumir, reescribir y explicar contenidos a diferentes niveles. Útil para adaptar materiales y crear tareas diferenciadas." },
     deepl: { desc: "Servicio de traducción automática de alta calidad con rendimiento superior para las lenguas europeas. Más preciso contextualmente que Google Translate para textos académicos." },
     diffit: { desc: "Genera materiales de lectura adaptados a diferentes niveles de dificultad a partir de cualquier tema o texto fuente. Útil para diferenciar tareas sin crear recursos separados desde cero." },
@@ -41,6 +43,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generador de lecciones interactivas con IA: diapositivas, cuestionarios y actividades de reflexión en segundos. Bueno para diferenciación rápida y participación de toda la clase." },
   },
   fr: {
+    brisk: { desc: "Extension Chrome pour enseignants qui fonctionne dans Google Docs, Google Classroom et n'importe quelle page web. Ajuste le niveau de lecture d'un texte, donne un retour sur les travaux écrits et retrace l'historique de rédaction d'un document." },
     chatgpt: { desc: "Modèle de langage polyvalent d'OpenAI pour générer, résumer, réécrire et expliquer des contenus à différents niveaux. Utile pour adapter des supports et créer des tâches différenciées." },
     deepl: { desc: "Service de traduction automatique de haute qualité avec des performances supérieures pour les langues européennes. Plus précis contextuellement que Google Traduction pour les textes académiques." },
     diffit: { desc: "Génère des supports de lecture adaptés à différents niveaux de difficulté à partir de n'importe quel sujet ou texte source. Utile pour différencier les tâches sans créer des ressources séparées." },
@@ -61,6 +64,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Générateur de leçons interactives avec IA : diaporamas, quiz et activités de réflexion en quelques secondes. Idéal pour la différenciation rapide et l'engagement de toute la classe." },
   },
   it: {
+    brisk: { desc: "Estensione di Chrome per docenti che funziona dentro Google Docs, Google Classroom e qualsiasi pagina web. Regola il livello di lettura di un testo, dà feedback sui lavori scritti e mostra la cronologia di scrittura di un documento." },
     chatgpt: { desc: "Modello linguistico di uso generale di OpenAI per generare, riassumere, riscrivere e spiegare contenuti a diversi livelli. Utile per adattare materiali e creare compiti differenziati." },
     deepl: { desc: "Servizio di traduzione automatica di alta qualità con prestazioni superiori per le lingue europee. Più accurato contestualmente di Google Traduttore per testi accademici." },
     diffit: { desc: "Genera materiali di lettura adattati a diversi livelli di difficoltà da qualsiasi argomento o testo fonte. Utile per differenziare i compiti senza creare risorse separate da zero." },
@@ -81,6 +85,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generatore di lezioni interattive con IA: diapositive, quiz e attività di riflessione in pochi secondi. Ottimo per la differenziazione rapida e il coinvolgimento dell'intera classe." },
   },
   hr: {
+    brisk: { desc: "Chrome proširenje za nastavnike koje radi unutar Google Docsa, Google Classrooma i bilo koje web stranice. Prilagođava razinu čitanja teksta, daje povratnu informaciju o pisanim radovima i prikazuje povijest pisanja dokumenta." },
     chatgpt: { desc: "Jezični model opće namjene tvrtke OpenAI za generiranje, sažimanje, prepisivanje i objašnjavanje sadržaja na različitim razinama. Koristan za prilagodbu materijala i stvaranje diferenciranih zadataka." },
     deepl: { desc: "Visokokvalitetna usluga automatskog prevođenja s izvrsnim performansama za europske jezike. Kontekstualno preciznija od Google prevoditelja za akademske tekstove." },
     diffit: { desc: "Generira materijale za čitanje prilagođene različitim razinama težine iz bilo koje teme ili izvornog teksta. Korisno za diferencijaciju zadataka bez izrade zasebnih resursa od nule." },
@@ -101,6 +106,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generator interaktivnih lekcija s AI: slajdovi, kvizovi i aktivnosti refleksije za nekoliko sekundi. Dobro za brzu diferencijaciju i sudjelovanje cijelog razreda." },
   },
   de: {
+    brisk: { desc: "Chrome-Erweiterung für Lehrkräfte, die in Google Docs, Google Classroom und auf jeder Webseite funktioniert. Passt das Leseniveau eines Textes an, gibt Rückmeldung zu schriftlichen Arbeiten und zeigt den Schreibverlauf eines Dokuments." },
     chatgpt: { desc: "Allgemeines Sprachmodell von OpenAI zum Generieren, Zusammenfassen, Umformulieren und Erklären von Inhalten auf verschiedenen Niveaustufen. Nützlich zur Anpassung von Materialien und Erstellung differenzierter Aufgaben." },
     deepl: { desc: "Hochwertiger automatischer Übersetzungsdienst mit überlegener Leistung für europäische Sprachen. Kontextuell präziser als Google Übersetzer für akademische Texte." },
     diffit: { desc: "Erstellt Lesematerialien, die an verschiedene Schwierigkeitsstufen angepasst sind, aus beliebigen Themen oder Quelltexten. Nützlich zur Differenzierung von Aufgaben ohne separate Ressourcen von Grund auf zu erstellen." },
@@ -121,6 +127,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "KI-gestützter Generator für interaktive Lektionen: Folien, Quizze und Reflexionsaktivitäten in Sekunden. Gut für schnelle Differenzierung und Einbindung der gesamten Klasse." },
   },
   nl: {
+    brisk: { desc: "Chrome-extensie voor leraren die werkt binnen Google Docs, Google Classroom en elke webpagina. Past het leesniveau van een tekst aan, geeft feedback op schrijfwerk en toont de schrijfgeschiedenis van een document." },
     chatgpt: { desc: "Algemeen taalmodel van OpenAI voor het genereren, samenvatten, herschrijven en uitleggen van inhoud op verschillende niveaus. Handig voor het aanpassen van materialen en het maken van gedifferentieerde taken." },
     deepl: { desc: "Hoogwaardige automatische vertaalservice met superieure prestaties voor Europese talen. Contextueel nauwkeuriger dan Google Translate voor academische teksten." },
     diffit: { desc: "Genereert leesmaterialen aangepast aan verschillende moeilijkheidsniveaus vanuit elk onderwerp of brontekst. Handig voor het differentiëren van taken zonder aparte bronnen van de grond af te maken." },
@@ -141,6 +148,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI-gestuurde generator voor interactieve lessen: dia's, quizzen en reflectieactiviteiten in seconden. Goed voor snelle differentiatie en betrokkenheid van de hele klas." },
   },
   pl: {
+    brisk: { desc: "Rozszerzenie Chrome dla nauczycieli działające w Dokumentach Google, Google Classroom i na dowolnej stronie internetowej. Dostosowuje poziom czytelności tekstu, daje informacje zwrotne do prac pisemnych i pokazuje historię pisania dokumentu." },
     chatgpt: { desc: "Ogólny model językowy firmy OpenAI do generowania, podsumowywania, przepisywania i wyjaśniania treści na różnych poziomach. Przydatny do dostosowywania materiałów i tworzenia zróżnicowanych zadań." },
     deepl: { desc: "Wysokiej jakości usługa automatycznego tłumaczenia z doskonałą wydajnością dla języków europejskich. Dokładniejsza kontekstowo niż Tłumacz Google dla tekstów akademickich." },
     diffit: { desc: "Generuje materiały do czytania dostosowane do różnych poziomów trudności z dowolnego tematu lub tekstu źródłowego. Przydatne do różnicowania zadań bez tworzenia oddzielnych zasobów od podstaw." },
@@ -161,6 +169,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generator interaktywnych lekcji z AI: slajdy, quizy i aktywności refleksyjne w kilka sekund. Dobry do szybkiej dyferencjacji i angażowania całej klasy." },
   },
   ro: {
+    brisk: { desc: "Extensie Chrome pentru profesori care funcționează în Google Docs, Google Classroom și pe orice pagină web. Ajustează nivelul de lectură al unui text, oferă feedback la lucrările scrise și arată istoricul de redactare al unui document." },
     chatgpt: { desc: "Model lingvistic de uz general de la OpenAI pentru generarea, rezumarea, rescrierea și explicarea conținutului la diferite niveluri. Util pentru adaptarea materialelor și crearea sarcinilor diferențiate." },
     deepl: { desc: "Serviciu de traducere automată de înaltă calitate cu performanțe superioare pentru limbile europene. Mai precis contextual decât Google Translate pentru texte academice." },
     diffit: { desc: "Generează materiale de lectură adaptate diferitelor niveluri de dificultate din orice subiect sau text sursă. Util pentru diferențierea sarcinilor fără a crea resurse separate de la zero." },
@@ -181,6 +190,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generator de lecții interactive cu AI: diapozitive, chestionare și activități de reflecție în câteva secunde. Bun pentru diferențierea rapidă și implicarea întregii clase." },
   },
   cs: {
+    brisk: { desc: "Rozšíření Chrome pro učitele, které funguje v Dokumentech Google, Google Classroom a na jakékoli webové stránce. Upravuje úroveň čtení textu, dává zpětnou vazbu k písemným pracím a zobrazuje historii psaní dokumentu." },
     chatgpt: { desc: "Víceúčelový jazykový model od OpenAI pro generování, shrnování, přepisování a vysvětlování obsahu na různých úrovních. Užitečný pro přizpůsobení materiálů a vytváření diferencovaných úkolů." },
     deepl: { desc: "Vysoce kvalitní služba automatického překladu s vynikajícím výkonem pro evropské jazyky. Kontextově přesnější než Google Translate pro akademické texty." },
     diffit: { desc: "Generuje materiály ke čtení přizpůsobené různým úrovním obtížnosti z libovolného tématu nebo zdrojového textu. Užitečné pro diferenciaci úkolů bez vytváření samostatných zdrojů od nuly." },
@@ -201,6 +211,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generátor interaktivních lekcí s AI: snímky, kvízy a reflexní aktivity během pár sekund. Vhodný pro rychlou diferenciaci a zapojení celé třídy." },
   },
   sv: {
+    brisk: { desc: "Chrome-tillägg för lärare som fungerar i Google Dokument, Google Classroom och på vilken webbsida som helst. Justerar textens lässvårighetsgrad, ger återkoppling på skrivna arbeten och visar ett dokuments skrivhistorik." },
     chatgpt: { desc: "Allmän språkmodell från OpenAI för att generera, sammanfatta, skriva om och förklara innehåll på olika nivåer. Användbart för att anpassa material och skapa differentierade uppgifter." },
     deepl: { desc: "Högkvalitativ automatisk översättningstjänst med överlägsna prestanda för europeiska språk. Mer kontextuellt korrekt än Google Translate för akademiska texter." },
     diffit: { desc: "Genererar läsmaterial anpassat till olika svårighetsgrader från valfritt ämne eller källtext. Användbart för att differentiera uppgifter utan att skapa separata resurser från grunden." },
@@ -221,6 +232,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI-driven generator för interaktiva lektioner: bilder, frågesporter och reflektionsaktiviteter på sekunder. Bra för snabb differentiering och engagemang för hela klassen." },
   },
   da: {
+    brisk: { desc: "Chrome-udvidelse til lærere, der virker i Google Docs, Google Classroom og på enhver webside. Justerer en teksts læseniveau, giver feedback på skriftlige opgaver og viser et dokuments skrivehistorik." },
     chatgpt: { desc: "Generel sprogmodel fra OpenAI til at generere, opsummere, omskrive og forklare indhold på forskellige niveauer. Nyttig til at tilpasse materialer og oprette differentierede opgaver." },
     deepl: { desc: "Automatisk oversættelsestjeneste af høj kvalitet med overlegen ydeevne for europæiske sprog. Mere kontekstuelt præcis end Google Translate for akademiske tekster." },
     diffit: { desc: "Genererer læsematerialer tilpasset forskellige sværhedsgrader fra ethvert emne eller kildetekst. Nyttigt til at differentiere opgaver uden at oprette separate ressourcer fra bunden." },
@@ -241,6 +253,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI-drevet generator til interaktive lektioner: dias, quizzer og refleksionsaktiviteter på sekunder. God til hurtig differentiering og involvering af hele klassen." },
   },
   fi: {
+    brisk: { desc: "Chrome-laajennus opettajille, joka toimii Google Docsissa, Google Classroomissa ja millä tahansa verkkosivulla. Säätää tekstin lukutasoa, antaa palautetta kirjallisista töistä ja näyttää asiakirjan kirjoitushistorian." },
     chatgpt: { desc: "OpenAI:n yleiskäyttöinen kielimalli tekstin tuottamiseen, tiivistämiseen, muokkaamiseen ja selittämiseen eri tasoilla. Hyödyllinen materiaalien mukauttamiseen ja eriytettyjen tehtävien luomiseen." },
     deepl: { desc: "Korkealaatuinen automaattinen käännöspalvelu, jolla on ylivoimainen suorituskyky eurooppalaisille kielille. Kontekstuaalisesti tarkempi kuin Google Kääntäjä akateemisille teksteille." },
     diffit: { desc: "Luo lukumateriaaleja eri vaikeustasoille mistä tahansa aiheesta tai lähdetekstistä. Hyödyllinen tehtävien eriyttämiseen ilman erillisten resurssien luomista alusta alkaen." },
@@ -261,6 +274,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Tekoälypohjainen interaktiivisten oppituntien generaattori: diat, tietokilpailut ja reflektioaktiviteetit sekunteissa. Hyvä nopeaan eriyttämiseen ja koko luokan osallistamiseen." },
   },
   sk: {
+    brisk: { desc: "Rozšírenie Chrome pre učiteľov, ktoré funguje v Dokumentoch Google, Google Classroom a na akejkoľvek webovej stránke. Upravuje úroveň čítania textu, dáva spätnú väzbu k písomným prácam a zobrazuje históriu písania dokumentu." },
     chatgpt: { desc: "Všeobecný jazykový model od OpenAI na generovanie, sumarizáciu, prepísanie a vysvetlenie obsahu na rôznych úrovniach. Užitočný na prispôsobenie materiálov a vytváranie diferencovaných úloh." },
     deepl: { desc: "Vysokokvalitná automatická prekladová služba s vynikajúcim výkonom pre európske jazyky. Kontextovo presnejšia ako Google Prekladač pre akademické texty." },
     diffit: { desc: "Generuje čitateľské materiály prispôsobené rôznym úrovniam obtiažnosti z ľubovoľnej témy alebo zdrojového textu. Užitočné na diferenciáciu úloh bez vytvárania samostatných zdrojov od nuly." },
@@ -281,6 +295,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generátor interaktívnych lekcií s AI: snímky, kvízy a reflexné aktivity za pár sekúnd. Vhodný na rýchlu diferenciáciu a zapojenie celej triedy." },
   },
   el: {
+    brisk: { desc: "Επέκταση Chrome για εκπαιδευτικούς που λειτουργεί μέσα στα Έγγραφα Google, στο Google Classroom και σε οποιαδήποτε ιστοσελίδα. Προσαρμόζει το επίπεδο ανάγνωσης ενός κειμένου, δίνει ανατροφοδότηση σε γραπτές εργασίες και δείχνει το ιστορικό συγγραφής ενός εγγράφου." },
     chatgpt: { desc: "Γενικό γλωσσικό μοντέλο της OpenAI για παραγωγή, σύνοψη, επαναδιατύπωση και εξήγηση περιεχομένου σε διαφορετικά επίπεδα. Χρήσιμο για την προσαρμογή υλικών και τη δημιουργία διαφοροποιημένων εργασιών." },
     deepl: { desc: "Υψηλής ποιότητας υπηρεσία αυτόματης μετάφρασης με ανώτερες επιδόσεις για ευρωπαϊκές γλώσσες. Πιο ακριβής πλαισιακά από το Google Translate για ακαδημαϊκά κείμενα." },
     diffit: { desc: "Δημιουργεί αναγνωστικά υλικά προσαρμοσμένα σε διαφορετικά επίπεδα δυσκολίας από οποιοδήποτε θέμα ή πηγαίο κείμενο. Χρήσιμο για διαφοροποίηση εργασιών χωρίς δημιουργία ξεχωριστών πόρων από την αρχή." },
@@ -301,6 +316,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Γεννήτρια διαδραστικών μαθημάτων με ΤΝ: διαφάνειες, κουίζ και δραστηριότητες αναστοχασμού σε δευτερόλεπτα. Καλή για γρήγορη διαφοροποίηση και συμμετοχή ολόκληρης της τάξης." },
   },
   hu: {
+    brisk: { desc: "Chrome-bővítmény tanároknak, amely a Google Dokumentumokban, a Google Classroomban és bármely weboldalon működik. Beállítja a szöveg olvasási szintjét, visszajelzést ad az írásbeli munkákra, és megmutatja egy dokumentum írástörténetét." },
     chatgpt: { desc: "Az OpenAI általános célú nyelvi modellje szövegek generálásához, összefoglalásához, átírásához és különböző szinteken való magyarázatához. Hasznos az anyagok adaptálásához és differenciált feladatok létrehozásához." },
     deepl: { desc: "Kiváló minőségű automatikus fordítási szolgáltatás az európai nyelvek kiemelkedő teljesítményével. Kontextuálisan pontosabb, mint a Google Fordító az akadémiai szövegek esetén." },
     diffit: { desc: "Bármely témából vagy forrásszövegből különböző nehézségi szintekre adaptált olvasási anyagokat generál. Hasznos a feladatok differenciálásához anélkül, hogy külön forrásokat kellene nulláról létrehozni." },
@@ -321,6 +337,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI-alapú interaktív leckegenerátor: diák, kvízek és reflektív tevékenységek másodpercek alatt. Jó a gyors differenciáláshoz és az egész osztály bevonásához." },
   },
   bg: {
+    brisk: { desc: "Разширение за Chrome за учители, което работи в Google Документи, Google Classroom и всяка уеб страница. Настройва нивото на четене на текст, дава обратна връзка по писмени работи и показва историята на писане на документ." },
     chatgpt: { desc: "Езиков модел с общо предназначение от OpenAI за генериране, обобщаване, пренаписване и обясняване на съдържание на различни нива. Полезен за адаптиране на материали и създаване на диференцирани задачи." },
     deepl: { desc: "Висококачествена услуга за автоматичен превод с превъзходна производителност за европейски езици. По-точна контекстуално от Google Translate за академични текстове." },
     diffit: { desc: "Генерира материали за четене, адаптирани към различни нива на трудност от всяка тема или изходен текст. Полезно за диференциране на задачи без създаване на отделни ресурси от нулата." },
@@ -341,6 +358,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Генератор на интерактивни уроци с ИИ: слайдове, викторини и рефлективни дейности за секунди. Добър за бърза диференциация и ангажиране на целия клас." },
   },
   lt: {
+    brisk: { desc: "Chrome plėtinys mokytojams, veikiantis Google dokumentuose, Google Classroom ir bet kuriame tinklalapyje. Pritaiko teksto skaitymo lygį, teikia grįžtamąjį ryšį apie rašto darbus ir parodo dokumento rašymo istoriją." },
     chatgpt: { desc: "Bendrojo naudojimo kalbos modelis iš OpenAI, skirtas generuoti, apibendrinti, perrašyti ir aiškinti turinį skirtingais lygiais. Naudingas medžiagų pritaikymui ir diferencijuotų užduočių kūrimui." },
     deepl: { desc: "Aukštos kokybės automatinio vertimo paslauga su puikiu našumu Europos kalboms. Kontekstiškai tikslesnė nei Google Translate akademiniams tekstams." },
     diffit: { desc: "Generuoja skaitymo medžiagas, pritaikytas skirtingiems sunkumo lygiams iš bet kokios temos ar šaltinio teksto. Naudinga diferencijavimui nepradedant atskirų išteklių nuo nulio." },
@@ -361,6 +379,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI paremtas interaktyvių pamokų generatorius: skaidrės, viktorinos ir refleksijos veiklos per sekundes. Geras greitai diferenciacijai ir visos klasės įtraukimui." },
   },
   lv: {
+    brisk: { desc: "Chrome paplašinājums skolotājiem, kas darbojas Google dokumentos, Google Classroom un jebkurā tīmekļa lapā. Pielāgo teksta lasīšanas līmeni, sniedz atgriezenisko saiti par rakstu darbiem un parāda dokumenta rakstīšanas vēsturi." },
     chatgpt: { desc: "OpenAI vispārējas nozīmes valodas modelis tekstu ģenerēšanai, apkopošanai, pārrakstīšanai un paskaidrošanai dažādos līmeņos. Noderīgs materiālu pielāgošanai un diferencētu uzdevumu veidošanai." },
     deepl: { desc: "Augstākās kvalitātes automātiskās tulkošanas pakalpojums ar izcilu veiktspēju Eiropas valodām. Kontekstuāli precīzāks nekā Google Translate akadēmiskiem tekstiem." },
     diffit: { desc: "Ģenerē lasīšanas materiālus, pielāgotus dažādiem grūtības līmeņiem no jebkuras tēmas vai avota teksta. Noderīgi uzdevumu diferencēšanai, neveidojot atsevišķus resursus no nulles." },
@@ -381,6 +400,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "AI darbināts interaktīvo stundu ģenerators: slaidi, viktorīnas un refleksijas aktivitātes sekundēs. Labs ātrai diferenciācijai un visas klases iesaistīšanai." },
   },
   et: {
+    brisk: { desc: "Chrome'i laiendus õpetajatele, mis töötab Google'i dokumentides, Google Classroomis ja igal veebilehel. Kohandab teksti lugemistaset, annab tagasisidet kirjalikele töödele ja näitab dokumendi kirjutamise ajalugu." },
     chatgpt: { desc: "OpenAI üldotstarbeline keelemudel teksti genereerimiseks, kokkuvõtete tegemiseks, ümbersõnastamiseks ja eri tasemetel selgitamiseks. Kasulik materjalide kohandamiseks ja diferentseeritud ülesannete loomiseks." },
     deepl: { desc: "Kõrge kvaliteediga automaatne tõlketeenus suurepärase jõudlusega Euroopa keeltele. Kontekstuaalselt täpsem kui Google Translate akadeemiliste tekstide jaoks." },
     diffit: { desc: "Genereerib mistahes teemast või lähtetekstist eri raskustasemetele kohandatud lugemismaterjale. Kasulik ülesannete diferentseerimiseks ilma eraldi ressursside nullist loomiseta." },
@@ -401,6 +421,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Tehisintellektiga interaktiivsete tundide generaator: slaidid, viktoriinid ja refleksiooniülesanded sekunditega. Hea kiireks diferentseerimiseks ja terve klassi kaasamiseks." },
   },
   sl: {
+    brisk: { desc: "Razširitev za Chrome za učitelje, ki deluje v Googlovih dokumentih, Google Classroomu in na kateri koli spletni strani. Prilagodi bralno raven besedila, poda povratno informacijo o pisnih izdelkih in prikaže zgodovino pisanja dokumenta." },
     chatgpt: {
       desc: "Splošnonamenski jezikovni model OpenAI za ustvarjanje, povzemanje, prepisovanje in razlaganje vsebine na različnih ravneh. Koristen za prilagajanje gradiv in ustvarjanje diferenciranih nalog.",
     },
@@ -447,6 +468,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Generator interaktivnih ur z UI: diapozitivi, kvizi in refleksivne dejavnosti v sekundah. Dober za hitro diferenciacijo in vključevanje celega razreda." },
   },
   ga: {
+    brisk: { desc: "Breiseán Chrome do mhúinteoirí a oibríonn laistigh de Google Docs, Google Classroom agus aon leathanach gréasáin. Coigeartaíonn sé leibhéal léitheoireachta téacs, tugann sé aiseolas ar shaothar scríofa, agus taispeánann sé stair scríofa cáipéise." },
     chatgpt: {
       desc: "Samhail teanga ilchuspóireach ó OpenAI chun ábhar a ghiniúint, a achoimriú, a athscríobh agus a mhíniú ar leibhéil éagsúla. Áisiúil chun ábhair a oiriúnú agus cúraimí difreáilte a chruthú.",
     },
@@ -493,6 +515,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Gineadóir ceachtanna idirghníomhacha le AI: sleamhnáin, tráthanna agus gníomhaíochtaí machnamhaithe i soicindí. Maith do dhifreáil thapa agus páirt a ghlacadh ag an rang ar fad." },
   },
   mt: {
+    brisk: { desc: "Estensjoni ta' Chrome għall-għalliema li taħdem ġewwa Google Docs, Google Classroom u kwalunkwe paġna web. Taġġusta l-livell ta' qari ta' test, tagħti feedback fuq xogħol miktub, u turi l-istorja tal-kitba ta' dokument." },
     chatgpt: {
       desc: "Mudell lingwistiku tal-użu ġenerali ta' OpenAI biex jiġġenera, jikkondensa, jikteb mill-ġdid u jispjega l-kontenut f'livelli differenti. Utli biex jadatta l-materjali u joħloq kompiti differenzjati.",
     },
@@ -539,6 +562,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     curipod: { desc: "Ġeneratur ta' lezzjonijiet interattivi bl-AI: slides, kwizzes u attivitajiet ta' riflessjoni fi ftit sekondi. Tajjeb għad-differenzjazzjoni rapida u l-involviment tal-klassi kollha." },
   },
   tr: {
+    brisk: { desc: "Google Dokümanlar, Google Classroom ve herhangi bir web sayfası içinde çalışan, öğretmenlere yönelik Chrome eklentisi. Bir metnin okuma düzeyini ayarlar, yazılı çalışmalara geri bildirim verir ve bir belgenin yazım geçmişini gösterir." },
     chatgpt: { desc: "OpenAI’nin genel amaçlı dil modeli; metin üretme, özetleme, yeniden yazma ve içeriği farklı düzeylerde açıklama için. Materyalleri uyarlamak ve farklılaştırılmış görevler hazırlamak için kullanışlı." },
     deepl: { desc: "Avrupa dillerinde üstün başarı gösteren yüksek kaliteli otomatik çeviri hizmeti. Akademik metinlerde bağlama Google Translate’ten daha sadık." },
     diffit: { desc: "Herhangi bir konudan ya da kaynak metinden farklı zorluk düzeylerine uyarlanmış okuma materyalleri üretir. Sıfırdan ayrı kaynaklar hazırlamadan görevleri farklılaştırmak için kullanışlı." },
@@ -559,6 +583,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     "goblin-tools": { desc: "Görevleri adımlara bölen, metnin tonunu yumuşatan ve süre tahmini yapan küçük araçlar seti. Yürütücü işlev güçlükleri düşünülerek tasarlanmış." },
   },
   no: {
+    brisk: { desc: "Chrome-utvidelse for lærere som fungerer i Google Dokumenter, Google Classroom og på alle nettsider. Justerer lesenivået i en tekst, gir tilbakemelding på skriftlig arbeid og viser skrivehistorikken til et dokument." },
     chatgpt: { desc: "Generell språkmodell fra OpenAI til å generere, oppsummere, omskrive og forklare innhold på ulike nivåer. Nyttig for å tilpasse materiell og lage differensierte oppgaver." },
     deepl: { desc: "Maskinoversettelse av høy kvalitet, særlig sterk på europeiske språk. Mer kontekstnær enn Google Translate på akademiske tekster." },
     diffit: { desc: "Lager lesestoff tilpasset ulike vanskegrader ut fra et hvilket som helst tema eller en kildetekst. Nyttig for å differensiere uten å lage separate ressurser fra bunnen." },
@@ -579,6 +604,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     "goblin-tools": { desc: "Et knippe små verktøy som deler oppgaver i trinn, myker opp tonen i tekst og anslår tidsbruk. Laget med tanke på eksekutive vansker." },
   },
   is: {
+    brisk: { desc: "Chrome-viðbót fyrir kennara sem virkar inni í Google Docs, Google Classroom og á hvaða vefsíðu sem er. Stillir lestrarstig texta, gefur endurgjöf á skrifleg verkefni og sýnir ritunarsögu skjals." },
     chatgpt: { desc: "Almenn mállíkanaþjónusta frá OpenAI til að semja, draga saman, umorða og útskýra efni á mismunandi stigum. Gagnleg til að laga efni og búa til aðgreind verkefni." },
     deepl: { desc: "Vélþýðing í hárri gæðaflokkun, sérstaklega sterk í Evrópumálum. Nákvæmari í samhengi en Google Translate í fræðilegum texta." },
     diffit: { desc: "Býr til lesefni á mismunandi þyngdarstigum út frá hvaða efni eða frumtexta sem er. Gagnlegt til aðgreiningar án þess að semja sérstakt efni frá grunni." },
@@ -599,6 +625,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     "goblin-tools": { desc: "Safn lítilla verkfæra sem skipta verkefnum í þrep, mýkja tón texta og áætla tíma. Hannað með stýrifærnivanda í huga." },
   },
   sr: {
+    brisk: { desc: "Chrome додатак за наставнике који ради унутар Google докумената, Google учионице и било које веб странице. Прилагођава ниво читања текста, даје повратну информацију о писаним радовима и приказује историју писања документа." },
     chatgpt: { desc: "Језички модел опште намене компаније OpenAI за писање, сажимање, преформулисање и објашњавање садржаја на различитим нивоима. Користан за прилагођавање материјала и израду диференцираних задатака." },
     deepl: { desc: "Машинско превођење високог квалитета, посебно добро за европске језике. Вернији контексту од Google преводиоца у стручним текстовима." },
     diffit: { desc: "Прави текстове за читање прилагођене различитим нивоима тежине из било које теме или изворног текста. Користан за диференцијацију без израде посебних материјала испочетка." },
@@ -619,6 +646,7 @@ export const toolTranslations: Partial<Record<string, Record<string, ToolTransla
     "goblin-tools": { desc: "Скуп малих алатки које деле задатке на кораке, ублажавају тон текста и процењују време. Осмишљене имајући у виду тешкоће извршних функција." },
   },
   mk: {
+    brisk: { desc: "Chrome-додаток за наставници што работи во Google документи, Google Classroom и на која било веб-страница. Го прилагодува нивото на читање на текстот, дава повратна информација за пишаните трудови и ја прикажува историјата на пишување на документот." },
     chatgpt: { desc: "Јазичен модел за општа намена на OpenAI за пишување, сумирање, преформулирање и објаснување содржини на различни нивоа. Корисен за приспособување материјали и изработка на диференцирани задачи." },
     deepl: { desc: "Машинско преведување со висок квалитет, особено добро за европските јазици. Поверно на контекстот од Google преведувач кај стручни текстови." },
     diffit: { desc: "Создава текстови за читање приспособени на различни нивоа на тежина од која било тема или изворен текст. Корисно за диференцијација без изработка посебни материјали од нула." },
