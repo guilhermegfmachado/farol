@@ -248,6 +248,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "It is not a disorder, but the language barrier can hide — or mimic — dyslexia, ADHD or dyscalculia. If the difficulties persist in the home language too, or do not improve as the language of instruction progresses, an assessment is warranted rather than waiting longer.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Say who you are, what you want and who it is for: «I teach [subject] to [year group]. I need [task].» A vague request returns vague text.",
+        "Ask for the format: how many items, what length, table or list, what tone. Without it you get prose you then have to tidy up.",
+        "If the first result does not work, say what is wrong and ask for a revision. Starting again from scratch rarely improves it.",
+      ]},
+      { items: [
+        "Paste your own text, your own criteria, your own task sheet. These tools adapt better than they invent.",
+        "Tell it to work only from what you pasted, if you do not want content added.",
+        "To change the reading level, give it the original text and name the year group it is for.",
+      ]},
+      { items: [
+        "When a request works, keep it. Gemini Gems and custom GPTs store instructions that then apply to every following conversation.",
+        "In a Gem, write the context once: subject, year group, language, tone, and what the tool must never do.",
+        "Tools built for teachers — MagicSchool, Brisk — come with these requests ready made.",
+      ]},
+      { items: [
+        "Read the whole result before using it. The tool does not know what is wrong; the teacher does.",
+        "Never type names, diagnoses or student data into the request.",
+        "Grading, admitting or monitoring students with AI is classified as high risk under European law.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Minors' data are subject to reinforced protection (Art. 8 GDPR). Consent from parents/guardians is mandatory.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -657,6 +679,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "No es un trastorno, pero la barrera lingüística puede ocultar —o imitar— dislexia, TDAH o discalculia. Si las dificultades persisten también en la lengua materna, o no mejoran con el progreso en la lengua de instrucción, se justifica una evaluación en lugar de seguir esperando.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Diga quién es, qué quiere y para quién: «Soy docente de [asignatura], [curso]. Necesito [tarea].» Una petición vaga devuelve texto vago.",
+        "Pida el formato: cuántos elementos, qué extensión, tabla o lista, qué tono. Sin eso recibirá un texto corrido que luego tendrá que ordenar.",
+        "Si el primer resultado no sirve, diga qué está mal y pida una revisión. Empezar de cero rara vez mejora.",
+      ]},
+      { items: [
+        "Pegue su propio texto, sus criterios, su enunciado. Estas herramientas adaptan mejor de lo que inventan.",
+        "Dígale que trabaje solo a partir de lo que ha pegado, si no quiere contenido añadido.",
+        "Para cambiar el nivel de lectura, dele el texto original e indique el curso al que se dirige.",
+      ]},
+      { items: [
+        "Cuando una petición funcione, guárdela. Los Gems de Gemini y los GPT personalizados guardan instrucciones que pasan a valer en todas las conversaciones siguientes.",
+        "En un Gem, escriba el contexto una vez: asignatura, curso, idioma, tono y lo que la herramienta nunca debe hacer.",
+        "Las herramientas hechas para docentes — MagicSchool, Brisk — ya traen estas peticiones preparadas.",
+      ]},
+      { items: [
+        "Lea el resultado entero antes de usarlo. La herramienta no sabe qué está mal; el docente sí.",
+        "Nunca escriba nombres, diagnósticos ni datos de alumnos en la petición.",
+        "Evaluar, admitir o vigilar a alumnos con IA está clasificado como alto riesgo en la legislación europea.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Los datos de menores están sujetos a una protección reforzada (Art. 8 RGPD). El consentimiento de los tutores legales es obligatorio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -1066,6 +1110,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ce n'est pas un trouble, mais la barrière de la langue peut cacher — ou imiter — une dyslexie, un TDAH ou une dyscalculie. Si les difficultés persistent aussi dans la langue maternelle, ou ne s'améliorent pas avec les progrès dans la langue d'enseignement, un bilan se justifie plutôt que d'attendre encore.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Dites qui vous êtes, ce que vous voulez et pour qui : «Je suis enseignant de [matière], [niveau]. J'ai besoin de [tâche].» Une demande vague renvoie un texte vague.",
+        "Demandez le format : combien d'éléments, quelle longueur, tableau ou liste, quel ton. Sans cela, vous recevez un texte suivi qu'il faudra ensuite ranger.",
+        "Si le premier résultat ne convient pas, dites ce qui ne va pas et demandez une révision. Repartir de zéro améliore rarement les choses.",
+      ]},
+      { items: [
+        "Collez votre texte, vos critères, votre énoncé. Ces outils adaptent mieux qu'ils n'inventent.",
+        "Dites-lui de travailler uniquement à partir de ce que vous avez collé, si vous ne voulez pas de contenu ajouté.",
+        "Pour changer le niveau de lecture, donnez le texte original et indiquez le niveau scolaire visé.",
+      ]},
+      { items: [
+        "Quand une demande fonctionne, gardez-la. Les Gems de Gemini et les GPT personnalisés conservent des instructions qui valent ensuite pour toutes les conversations.",
+        "Dans un Gem, écrivez le contexte une fois : matière, niveau, langue, ton, et ce que l'outil ne doit jamais faire.",
+        "Les outils conçus pour les enseignants — MagicSchool, Brisk — proposent déjà ces demandes toutes prêtes.",
+      ]},
+      { items: [
+        "Lisez tout le résultat avant de l'utiliser. L'outil ne sait pas ce qui est faux ; l'enseignant, si.",
+        "N'écrivez jamais de noms, de diagnostics ou de données d'élèves dans la demande.",
+        "Évaluer, admettre ou surveiller des élèves avec l'IA est classé à haut risque par la législation européenne.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Les données des mineurs font l'objet d'une protection renforcée (art. 8 RGPD). Le consentement des responsables légaux est obligatoire.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -1475,6 +1541,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Non è un disturbo, ma la barriera linguistica può nascondere — o imitare — dislessia, ADHD o discalculia. Se le difficoltà persistono anche nella lingua madre, o non migliorano con i progressi nella lingua di istruzione, è giustificata una valutazione invece di aspettare ancora.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Dica chi è, cosa vuole e per chi: «Insegno [materia] in [classe]. Mi serve [compito].» Una richiesta vaga restituisce testo vago.",
+        "Chieda il formato: quanti elementi, che lunghezza, tabella o elenco, che tono. Senza, riceve un testo continuo da riordinare.",
+        "Se il primo risultato non va bene, dica cosa non funziona e chieda una revisione. Ricominciare da capo raramente migliora.",
+      ]},
+      { items: [
+        "Incolli il suo testo, i suoi criteri, la sua consegna. Questi strumenti adattano meglio di quanto inventino.",
+        "Gli dica di lavorare solo su ciò che ha incollato, se non vuole contenuti aggiunti.",
+        "Per cambiare il livello di lettura, dia il testo originale e indichi la classe a cui è destinato.",
+      ]},
+      { items: [
+        "Quando una richiesta funziona, la salvi. I Gems di Gemini e i GPT personalizzati conservano istruzioni valide per tutte le conversazioni successive.",
+        "In un Gem, scriva il contesto una volta sola: materia, classe, lingua, tono e ciò che lo strumento non deve mai fare.",
+        "Gli strumenti pensati per i docenti — MagicSchool, Brisk — hanno già queste richieste pronte.",
+      ]},
+      { items: [
+        "Legga tutto il risultato prima di usarlo. Lo strumento non sa cosa è sbagliato; il docente sì.",
+        "Non scriva mai nomi, diagnosi o dati degli studenti nella richiesta.",
+        "Valutare, ammettere o sorvegliare studenti con l'IA è classificato ad alto rischio dalla normativa europea.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "I dati dei minori sono soggetti a una protezione rafforzata (art. 8 GDPR). Il consenso di chi esercita la responsabilità genitoriale è obbligatorio.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -1885,6 +1973,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Keine Störung — aber die Sprachbarriere kann Legasthenie, ADHS oder Dyskalkulie verbergen oder nachahmen. Bestehen die Schwierigkeiten auch in der Familiensprache oder bessern sie sich trotz Fortschritten in der Unterrichtssprache nicht, ist eine Abklärung angezeigt, statt weiter zu warten.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Sagen Sie, wer Sie sind, was Sie wollen und für wen: «Ich unterrichte [Fach] in [Klassenstufe]. Ich brauche [Aufgabe].» Eine vage Anfrage liefert vagen Text.",
+        "Fordern Sie das Format an: wie viele Elemente, welche Länge, Tabelle oder Liste, welcher Ton. Sonst bekommen Sie Fließtext, den Sie erst ordnen müssen.",
+        "Taugt das erste Ergebnis nicht, sagen Sie, was falsch ist, und bitten Sie um eine Überarbeitung. Von vorn anzufangen bringt selten mehr.",
+      ]},
+      { items: [
+        "Fügen Sie Ihren eigenen Text, Ihre Kriterien, Ihre Aufgabenstellung ein. Diese Werkzeuge passen besser an, als sie erfinden.",
+        "Sagen Sie ihr, nur mit dem Eingefügten zu arbeiten, wenn Sie keine Ergänzungen wollen.",
+        "Für ein anderes Leseniveau geben Sie den Originaltext und nennen die Zielklassenstufe.",
+      ]},
+      { items: [
+        "Wenn eine Anfrage funktioniert, bewahren Sie sie auf. Gemini Gems und eigene GPTs speichern Anweisungen, die dann für jedes weitere Gespräch gelten.",
+        "Schreiben Sie den Kontext einmal in ein Gem: Fach, Klassenstufe, Sprache, Ton und was das Werkzeug nie tun soll.",
+        "Für Lehrkräfte gebaute Werkzeuge — MagicSchool, Brisk — bringen solche Anfragen fertig mit.",
+      ]},
+      { items: [
+        "Lesen Sie das ganze Ergebnis, bevor Sie es verwenden. Das Werkzeug weiß nicht, was falsch ist; die Lehrkraft schon.",
+        "Schreiben Sie nie Namen, Diagnosen oder Schülerdaten in die Anfrage.",
+        "Bewerten, Zulassen oder Überwachen von Schülerinnen und Schülern mit KI gilt im europäischen Recht als hochriskant.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Daten Minderjähriger unterliegen einem verstärkten Schutz (Art. 8 DSGVO). Die Einwilligung der Erziehungsberechtigten ist verpflichtend.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -2291,6 +2401,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Het is geen stoornis, maar de taalbarrière kan dyslexie, ADHD of dyscalculie verbergen — of nabootsen. Blijven de moeilijkheden ook in de thuistaal bestaan, of verbeteren ze niet terwijl de instructietaal vooruitgaat, dan is onderzoek gerechtvaardigd in plaats van langer afwachten.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Zeg wie u bent, wat u wilt en voor wie: «Ik geef [vak] in [leerjaar]. Ik heb [taak] nodig.» Een vage vraag levert vage tekst op.",
+        "Vraag om het formaat: hoeveel onderdelen, welke lengte, tabel of lijst, welke toon. Anders krijgt u lopende tekst die u nog moet ordenen.",
+        "Werkt het eerste resultaat niet, zeg dan wat er mis is en vraag om een herziening. Opnieuw beginnen helpt zelden.",
+      ]},
+      { items: [
+        "Plak uw eigen tekst, uw criteria, uw opdracht. Deze tools passen beter aan dan dat ze verzinnen.",
+        "Zeg dat het alleen met het geplakte moet werken, als u geen toegevoegde inhoud wilt.",
+        "Geef voor een ander leesniveau de originele tekst en noem het beoogde leerjaar.",
+      ]},
+      { items: [
+        "Bewaar een vraag die werkt. Gemini Gems en aangepaste GPT's bewaren instructies die daarna in elk gesprek gelden.",
+        "Schrijf de context één keer in een Gem: vak, leerjaar, taal, toon, en wat de tool nooit mag doen.",
+        "Tools die voor leraren gemaakt zijn — MagicSchool, Brisk — hebben deze vragen al klaarstaan.",
+      ]},
+      { items: [
+        "Lees het hele resultaat voordat u het gebruikt. De tool weet niet wat er fout is; de leraar wel.",
+        "Typ nooit namen, diagnoses of leerlinggegevens in de vraag.",
+        "Beoordelen, toelaten of monitoren van leerlingen met AI geldt in de Europese wetgeving als hoog risico.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Gegevens van minderjarigen zijn onderworpen aan verhoogde bescherming (art. 8 AVG). Toestemming van de wettelijke vertegenwoordigers is verplicht.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -2696,6 +2828,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "To nie zaburzenie, ale bariera językowa może ukrywać — lub naśladować — dysleksję, ADHD czy dyskalkulię. Jeśli trudności utrzymują się także w języku ojczystym albo nie ustępują mimo postępów w języku nauczania, uzasadniona jest diagnoza zamiast dalszego czekania.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Powiedz, kim jesteś, czego chcesz i dla kogo: «Uczę [przedmiot] w [klasa]. Potrzebuję [zadanie].» Ogólnikowe polecenie zwraca ogólnikowy tekst.",
+        "Poproś o format: ile elementów, jaka długość, tabela czy lista, jaki ton. Bez tego dostaniesz ciągły tekst, który trzeba potem uporządkować.",
+        "Jeśli pierwszy wynik nie pasuje, powiedz, co jest nie tak, i poproś o poprawkę. Zaczynanie od nowa rzadko pomaga.",
+      ]},
+      { items: [
+        "Wklej własny tekst, własne kryteria, własne polecenie. Te narzędzia lepiej adaptują, niż wymyślają.",
+        "Powiedz, żeby pracowało wyłącznie na wklejonym materiale, jeśli nie chcesz dodanej treści.",
+        "Aby zmienić poziom czytelności, podaj tekst oryginalny i wskaż docelową klasę.",
+      ]},
+      { items: [
+        "Gdy polecenie zadziała, zachowaj je. Gems w Gemini i własne GPT przechowują instrukcje obowiązujące potem w każdej rozmowie.",
+        "W Gemie zapisz kontekst raz: przedmiot, klasa, język, ton i to, czego narzędzie nigdy nie ma robić.",
+        "Narzędzia stworzone dla nauczycieli — MagicSchool, Brisk — mają te polecenia już gotowe.",
+      ]},
+      { items: [
+        "Przeczytaj cały wynik przed użyciem. Narzędzie nie wie, co jest błędne; nauczyciel wie.",
+        "Nigdy nie wpisuj nazwisk, diagnoz ani danych uczniów do polecenia.",
+        "Ocenianie, rekrutacja i nadzór nad uczniami z użyciem AI są w prawie europejskim uznane za wysokie ryzyko.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Dane osób niepełnoletnich podlegają wzmocnionej ochronie (art. 8 RODO). Zgoda opiekunów prawnych jest obowiązkowa.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -3101,6 +3255,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nu e o tulburare, dar bariera lingvistică poate ascunde — sau imita — dislexia, ADHD-ul ori discalculia. Dacă dificultățile persistă și în limba maternă, sau nu se ameliorează odată cu progresul în limba de predare, se justifică o evaluare în loc de a mai aștepta.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Spuneți cine sunteți, ce doriți și pentru cine: «Predau [disciplina] la [clasa]. Am nevoie de [sarcină].» O cerere vagă întoarce text vag.",
+        "Cereți formatul: câte elemente, ce lungime, tabel sau listă, ce ton. Fără asta primiți un text continuu pe care apoi trebuie să-l ordonați.",
+        "Dacă primul rezultat nu e bun, spuneți ce nu merge și cereți o revizuire. A o lua de la capăt rareori ajută.",
+      ]},
+      { items: [
+        "Lipiți textul dumneavoastră, criteriile dumneavoastră, enunțul dumneavoastră. Aceste instrumente adaptează mai bine decât inventează.",
+        "Spuneți-i să lucreze doar din ce ați lipit, dacă nu vreți conținut adăugat.",
+        "Pentru a schimba nivelul de lectură, dați textul original și indicați clasa căreia i se adresează.",
+      ]},
+      { items: [
+        "Când o cerere funcționează, păstrați-o. Gems din Gemini și GPT-urile personalizate rețin instrucțiuni valabile apoi în toate conversațiile.",
+        "Într-un Gem scrieți contextul o singură dată: disciplina, clasa, limba, tonul și ce nu trebuie să facă niciodată instrumentul.",
+        "Instrumentele făcute pentru profesori — MagicSchool, Brisk — vin deja cu aceste cereri pregătite.",
+      ]},
+      { items: [
+        "Citiți tot rezultatul înainte de a-l folosi. Instrumentul nu știe ce e greșit; profesorul știe.",
+        "Nu scrieți niciodată nume, diagnostice sau date ale elevilor în cerere.",
+        "Evaluarea, admiterea sau monitorizarea elevilor cu IA este clasificată drept risc ridicat în legislația europeană.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Datele minorilor beneficiază de o protecție sporită (art. 8 RGPD). Consimțământul reprezentanților legali este obligatoriu.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -3511,6 +3687,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nije poremećaj, ali jezična barijera može sakriti — ili oponašati — disleksiju, ADHD ili diskalkuliju. Ako teškoće postoje i na materinskom jeziku, ili se ne popravljaju s napretkom u jeziku poučavanja, opravdana je procjena umjesto daljnjeg čekanja.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Recite tko ste, što želite i za koga: «Predajem [predmet] u [razred]. Trebam [zadatak].» Nejasan upit vraća nejasan tekst.",
+        "Tražite format: koliko stavki, koja duljina, tablica ili popis, koji ton. Bez toga dobivate tekst u komadu koji poslije morate posložiti.",
+        "Ako prvi rezultat ne valja, recite što ne valja i tražite ispravak. Počinjanje ispočetka rijetko pomaže.",
+      ]},
+      { items: [
+        "Zalijepite vlastiti tekst, vlastite kriterije, vlastiti zadatak. Ovi alati bolje prilagođavaju nego što izmišljaju.",
+        "Recite mu da radi samo s onim što ste zalijepili, ako ne želite dodani sadržaj.",
+        "Za promjenu razine čitanja dajte izvorni tekst i navedite razred kojemu je namijenjen.",
+      ]},
+      { items: [
+        "Kada upit uspije, sačuvajte ga. Gemini Gems i prilagođeni GPT-ovi čuvaju upute koje zatim vrijede u svakom sljedećem razgovoru.",
+        "U Gem upišite kontekst jednom: predmet, razred, jezik, ton i ono što alat nikada ne smije raditi.",
+        "Alati napravljeni za nastavnike — MagicSchool, Brisk — već dolaze s tim upitima.",
+      ]},
+      { items: [
+        "Pročitajte cijeli rezultat prije upotrebe. Alat ne zna što je pogrešno; nastavnik zna.",
+        "Nikada ne upisujte imena, dijagnoze ni podatke učenika u upit.",
+        "Ocjenjivanje, upis ili nadzor učenika pomoću umjetne inteligencije u europskom je zakonodavstvu visokorizično.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Podaci maloljetnika podliježu pojačanoj zaštiti (čl. 8. GDPR). Privola zakonskih zastupnika je obvezna.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -3918,6 +4116,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Není to porucha, ale jazyková bariéra může skrývat — nebo napodobovat — dyslexii, ADHD či dyskalkulii. Pokud obtíže přetrvávají i v mateřském jazyce, nebo se nelepší s pokroky ve vyučovacím jazyce, je namístě vyšetření, ne další čekání.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Řekněte, kdo jste, co chcete a pro koho: «Učím [předmět] v [ročník]. Potřebuji [úkol].» Vágní zadání vrátí vágní text.",
+        "Vyžádejte si formát: kolik položek, jaká délka, tabulka nebo seznam, jaký tón. Bez toho dostanete souvislý text, který pak musíte uspořádat.",
+        "Pokud první výsledek nevyhovuje, řekněte, co je špatně, a požádejte o úpravu. Začínat znovu zřídka pomůže.",
+      ]},
+      { items: [
+        "Vložte vlastní text, vlastní kritéria, vlastní zadání. Tyto nástroje lépe přizpůsobují, než vymýšlejí.",
+        "Řekněte mu, ať pracuje jen s tím, co jste vložili, pokud nechcete přidaný obsah.",
+        "Pro změnu úrovně čtení dejte původní text a uveďte cílový ročník.",
+      ]},
+      { items: [
+        "Když zadání funguje, uložte si ho. Gemini Gems a vlastní GPT uchovávají pokyny, které pak platí v každé další konverzaci.",
+        "Do Gemu napište kontext jednou: předmět, ročník, jazyk, tón a co nástroj nikdy nemá dělat.",
+        "Nástroje dělané pro učitele — MagicSchool, Brisk — tato zadání už mají připravená.",
+      ]},
+      { items: [
+        "Přečtěte si celý výsledek, než ho použijete. Nástroj neví, co je špatně; učitel ano.",
+        "Nikdy nepište do zadání jména, diagnózy ani údaje žáků.",
+        "Hodnocení, přijímání nebo sledování žáků pomocí AI je v evropské legislativě klasifikováno jako vysoce rizikové.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Údaje nezletilých podléhají zvýšené ochraně (čl. 8 GDPR). Souhlas zákonných zástupců je povinný.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -4324,6 +4544,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Det är ingen funktionsnedsättning, men språkbarriären kan dölja — eller efterlikna — dyslexi, ADHD eller dyskalkyli. Om svårigheterna kvarstår även på modersmålet, eller inte förbättras i takt med undervisningsspråket, är en utredning motiverad i stället för att vänta längre.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Säg vem du är, vad du vill ha och till vem: «Jag undervisar i [ämne] i [årskurs]. Jag behöver [uppgift].» En vag fråga ger vag text.",
+        "Be om formatet: hur många punkter, vilken längd, tabell eller lista, vilken ton. Utan det får du löptext som du sedan måste ordna.",
+        "Om första resultatet inte duger, säg vad som är fel och be om en revidering. Att börja om från början hjälper sällan.",
+      ]},
+      { items: [
+        "Klistra in din egen text, dina egna kriterier, din egen uppgift. Verktygen anpassar bättre än de hittar på.",
+        "Säg åt den att bara arbeta med det du klistrat in, om du inte vill ha tillagt innehåll.",
+        "För att ändra lässvårighetsgrad, ge originaltexten och ange vilken årskurs den är till för.",
+      ]},
+      { items: [
+        "När en fråga fungerar, spara den. Gemini Gems och egna GPT:er sparar instruktioner som sedan gäller i varje efterföljande samtal.",
+        "Skriv sammanhanget en gång i ett Gem: ämne, årskurs, språk, ton och vad verktyget aldrig får göra.",
+        "Verktyg byggda för lärare — MagicSchool, Brisk — har de här frågorna färdiga.",
+      ]},
+      { items: [
+        "Läs hela resultatet innan du använder det. Verktyget vet inte vad som är fel; det gör läraren.",
+        "Skriv aldrig namn, diagnoser eller elevuppgifter i frågan.",
+        "Att bedöma, anta eller övervaka elever med AI klassas som hög risk i europeisk lagstiftning.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Uppgifter om minderåriga omfattas av förstärkt skydd (art. 8 GDPR). Samtycke från vårdnadshavarna är obligatoriskt.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -4730,6 +4972,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Det er ikke en forstyrrelse, men sprogbarrieren kan skjule — eller efterligne — ordblindhed, ADHD eller dyskalkuli. Hvis vanskelighederne også findes på modersmålet eller ikke bedres i takt med undervisningssproget, er en udredning berettiget frem for at vente længere.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Sig hvem du er, hvad du vil have, og til hvem: «Jeg underviser i [fag] på [klassetrin]. Jeg har brug for [opgave].» En vag anmodning giver vag tekst.",
+        "Bed om formatet: hvor mange punkter, hvilken længde, tabel eller liste, hvilken tone. Ellers får du løbende tekst, du bagefter skal ordne.",
+        "Hvis det første resultat ikke duer, så sig hvad der er galt, og bed om en rettelse. At starte forfra hjælper sjældent.",
+      ]},
+      { items: [
+        "Indsæt din egen tekst, dine egne kriterier, din egen opgave. Værktøjerne tilpasser bedre, end de opfinder.",
+        "Bed den om kun at arbejde ud fra det, du har indsat, hvis du ikke vil have tilføjet indhold.",
+        "For at ændre læseniveau: giv originalteksten og angiv det klassetrin, den er til.",
+      ]},
+      { items: [
+        "Når en anmodning virker, så gem den. Gemini Gems og egne GPT'er gemmer instruktioner, der derefter gælder i hver samtale.",
+        "Skriv konteksten én gang i et Gem: fag, klassetrin, sprog, tone og hvad værktøjet aldrig må gøre.",
+        "Værktøjer lavet til lærere — MagicSchool, Brisk — har allerede disse anmodninger klar.",
+      ]},
+      { items: [
+        "Læs hele resultatet, før du bruger det. Værktøjet ved ikke, hvad der er forkert; det gør læreren.",
+        "Skriv aldrig navne, diagnoser eller elevdata i anmodningen.",
+        "At bedømme, optage eller overvåge elever med AI er klassificeret som høj risiko i europæisk lovgivning.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Oplysninger om mindreårige er underlagt forstærket beskyttelse (art. 8 GDPR). Samtykke fra forældremyndighedsindehaverne er obligatorisk.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -5136,6 +5400,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kyse ei ole häiriöstä, mutta kielimuuri voi kätkeä — tai jäljitellä — lukivaikeutta, ADHD:ta tai laskemiskyvyn häiriötä. Jos vaikeudet jatkuvat myös äidinkielellä tai eivät helpotu opetuskielen edistyessä, arviointi on aiheellinen sen sijaan, että odotettaisiin pidempään.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Kerro kuka olet, mitä haluat ja kenelle: «Opetan [oppiaine] luokalla [vuosiluokka]. Tarvitsen [tehtävä].» Epämääräinen pyyntö tuottaa epämääräistä tekstiä.",
+        "Pyydä muoto: montako kohtaa, mikä pituus, taulukko vai luettelo, mikä sävy. Muuten saat juoksevaa tekstiä, joka pitää vielä järjestää.",
+        "Jos ensimmäinen tulos ei kelpaa, kerro mikä on vialla ja pyydä korjaus. Alusta aloittaminen auttaa harvoin.",
+      ]},
+      { items: [
+        "Liitä oma tekstisi, omat kriteerisi, oma tehtävänantosi. Nämä työkalut mukauttavat paremmin kuin keksivät.",
+        "Pyydä sitä työskentelemään vain liittämäsi aineiston pohjalta, jos et halua lisättyä sisältöä.",
+        "Lukutason muuttamiseksi anna alkuperäinen teksti ja kerro kohdevuosiluokka.",
+      ]},
+      { items: [
+        "Kun pyyntö toimii, tallenna se. Geminin Gems ja mukautetut GPT:t säilyttävät ohjeet, jotka pätevät sitten jokaisessa keskustelussa.",
+        "Kirjoita Gemiin konteksti kerran: oppiaine, vuosiluokka, kieli, sävy ja se, mitä työkalu ei saa koskaan tehdä.",
+        "Opettajille tehdyissä työkaluissa — MagicSchool, Brisk — nämä pyynnöt ovat jo valmiina.",
+      ]},
+      { items: [
+        "Lue koko tulos ennen käyttöä. Työkalu ei tiedä, mikä on väärin; opettaja tietää.",
+        "Älä koskaan kirjoita pyyntöön nimiä, diagnooseja tai oppilastietoja.",
+        "Oppilaiden arviointi, valinta tai valvonta tekoälyllä on eurooppalaisessa lainsäädännössä luokiteltu suureksi riskiksi.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Alaikäisten tietoja koskee vahvistettu suoja (GDPR:n 8 artikla). Huoltajien suostumus on pakollinen.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -5543,6 +5829,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nie je to porucha, ale jazyková bariéra môže skrývať — alebo napodobňovať — dyslexiu, ADHD či dyskalkúliu. Ak ťažkosti pretrvávajú aj v materinskom jazyku, alebo sa nezlepšujú s pokrokmi vo vyučovacom jazyku, je namieste vyšetrenie, nie ďalšie čakanie.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Povedzte, kto ste, čo chcete a pre koho: «Učím [predmet] v [ročník]. Potrebujem [úloha].» Vágne zadanie vráti vágny text.",
+        "Vypýtajte si formát: koľko položiek, aká dĺžka, tabuľka alebo zoznam, aký tón. Bez toho dostanete súvislý text, ktorý musíte ešte upratať.",
+        "Ak prvý výsledok nevyhovuje, povedzte, čo je zle, a požiadajte o úpravu. Začínať odznova zriedka pomôže.",
+      ]},
+      { items: [
+        "Vložte vlastný text, vlastné kritériá, vlastné zadanie. Tieto nástroje lepšie prispôsobujú, než vymýšľajú.",
+        "Povedzte mu, nech pracuje len s tým, čo ste vložili, ak nechcete pridaný obsah.",
+        "Na zmenu úrovne čítania dajte pôvodný text a uveďte cieľový ročník.",
+      ]},
+      { items: [
+        "Keď zadanie funguje, uložte si ho. Gemini Gems a vlastné GPT uchovávajú pokyny, ktoré potom platia v každom ďalšom rozhovore.",
+        "Do Gemu napíšte kontext raz: predmet, ročník, jazyk, tón a to, čo nástroj nikdy nemá robiť.",
+        "Nástroje robené pre učiteľov — MagicSchool, Brisk — tieto zadania už majú pripravené.",
+      ]},
+      { items: [
+        "Prečítajte si celý výsledok, kým ho použijete. Nástroj nevie, čo je zle; učiteľ áno.",
+        "Nikdy nepíšte do zadania mená, diagnózy ani údaje žiakov.",
+        "Hodnotenie, prijímanie alebo sledovanie žiakov pomocou AI je v európskej legislatíve klasifikované ako vysoko rizikové.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Údaje maloletých osôb podliehajú zvýšenej ochrane (čl. 8 GDPR). Súhlas zákonných zástupcov je povinný.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -5947,6 +6255,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Nem zavar, de a nyelvi akadály elrejtheti — vagy utánozhatja — a diszlexiát, az ADHD-t vagy a diszkalkuliát. Ha a nehézségek az anyanyelven is fennállnak, vagy nem javulnak a tanítási nyelv fejlődésével, indokolt a felmérés a további várakozás helyett.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Mondd meg, ki vagy, mit szeretnél és kinek: «[Tantárgy]at tanítok [évfolyam]on. Szükségem van [feladat]ra.» A homályos kérés homályos szöveget ad.",
+        "Kérd a formátumot: hány elem, milyen hosszú, táblázat vagy lista, milyen hangnem. Enélkül folyó szöveget kapsz, amit még rendezni kell.",
+        "Ha az első eredmény nem jó, mondd meg, mi a baj, és kérj javítást. Elölről kezdeni ritkán segít.",
+      ]},
+      { items: [
+        "Illeszd be a saját szövegedet, a saját szempontjaidat, a saját feladatlapodat. Ezek az eszközök jobban alkalmaznak, mint kitalálnak.",
+        "Mondd meg neki, hogy csak a beillesztettből dolgozzon, ha nem akarsz hozzátoldott tartalmat.",
+        "Az olvasási szint módosításához add meg az eredeti szöveget, és nevezd meg a célévfolyamot.",
+      ]},
+      { items: [
+        "Ha egy kérés működik, tedd el. A Gemini Gems és az egyéni GPT-k olyan utasításokat őriznek meg, amelyek utána minden beszélgetésre érvényesek.",
+        "Egy Gembe írd be egyszer a kontextust: tantárgy, évfolyam, nyelv, hangnem, és amit az eszköznek soha nem szabad tennie.",
+        "A tanároknak készült eszközök — MagicSchool, Brisk — már készen hozzák ezeket a kéréseket.",
+      ]},
+      { items: [
+        "Olvasd el a teljes eredményt, mielőtt használnád. Az eszköz nem tudja, mi a hibás; a tanár tudja.",
+        "Soha ne írj neveket, diagnózisokat vagy tanulói adatokat a kérésbe.",
+        "A tanulók MI-vel történő értékelése, felvétele vagy megfigyelése az európai jogban nagy kockázatúnak minősül.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "A kiskorúak adatai fokozott védelem alá esnek (GDPR 8. cikk). A gondviselők hozzájárulása kötelező.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -6353,6 +6683,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Δεν είναι διαταραχή, αλλά το γλωσσικό εμπόδιο μπορεί να κρύψει — ή να μιμηθεί — δυσλεξία, ΔΕΠ-Υ ή δυσαριθμησία. Αν οι δυσκολίες επιμένουν και στη μητρική γλώσσα, ή δεν βελτιώνονται με την πρόοδο στη γλώσσα διδασκαλίας, δικαιολογείται αξιολόγηση αντί για περαιτέρω αναμονή.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Πείτε ποιος είστε, τι θέλετε και για ποιον: «Διδάσκω [μάθημα] στην [τάξη]. Χρειάζομαι [εργασία].» Ένα αόριστο αίτημα επιστρέφει αόριστο κείμενο.",
+        "Ζητήστε τη μορφή: πόσα στοιχεία, τι έκταση, πίνακας ή λίστα, τι ύφος. Χωρίς αυτό παίρνετε συνεχές κείμενο που μετά πρέπει να τακτοποιήσετε.",
+        "Αν το πρώτο αποτέλεσμα δεν κάνει, πείτε τι φταίει και ζητήστε αναθεώρηση. Το ξεκίνημα από την αρχή σπάνια βελτιώνει.",
+      ]},
+      { items: [
+        "Επικολλήστε το δικό σας κείμενο, τα δικά σας κριτήρια, τη δική σας εκφώνηση. Τα εργαλεία αυτά προσαρμόζουν καλύτερα απ' ό,τι επινοούν.",
+        "Πείτε του να δουλέψει μόνο με ό,τι επικολλήσατε, αν δεν θέλετε πρόσθετο περιεχόμενο.",
+        "Για αλλαγή του επιπέδου ανάγνωσης, δώστε το πρωτότυπο κείμενο και δηλώστε την τάξη στην οποία απευθύνεται.",
+      ]},
+      { items: [
+        "Όταν ένα αίτημα δουλεύει, κρατήστε το. Τα Gems του Gemini και τα προσαρμοσμένα GPT κρατούν οδηγίες που ισχύουν έπειτα σε κάθε συνομιλία.",
+        "Σε ένα Gem γράψτε το πλαίσιο μία φορά: μάθημα, τάξη, γλώσσα, ύφος και τι δεν πρέπει ποτέ να κάνει το εργαλείο.",
+        "Τα εργαλεία που φτιάχτηκαν για εκπαιδευτικούς — MagicSchool, Brisk — έχουν ήδη έτοιμα αυτά τα αιτήματα.",
+      ]},
+      { items: [
+        "Διαβάστε ολόκληρο το αποτέλεσμα πριν το χρησιμοποιήσετε. Το εργαλείο δεν ξέρει τι είναι λάθος· ο εκπαιδευτικός ξέρει.",
+        "Μη γράφετε ποτέ ονόματα, διαγνώσεις ή δεδομένα μαθητών στο αίτημα.",
+        "Η αξιολόγηση, η εισαγωγή ή η επιτήρηση μαθητών με ΤΝ κατατάσσεται ως υψηλού κινδύνου στην ευρωπαϊκή νομοθεσία.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Τα δεδομένα ανηλίκων υπόκεινται σε ενισχυμένη προστασία (Άρθρο 8 ΓΚΠΔ). Η συγκατάθεση των κηδεμόνων είναι υποχρεωτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -6759,6 +7111,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Не е разстройство, но езиковата бариера може да скрие — или да наподоби — дислексия, ХАДВ или дискалкулия. Ако затрудненията се запазват и на майчиния език, или не се подобряват с напредъка в езика на обучение, оценка е оправдана вместо още чакане.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Кажете кой сте, какво искате и за кого: «Преподавам [предмет] в [клас]. Нуждая се от [задача].» Неясна заявка връща неясен текст.",
+        "Поискайте формата: колко елемента, каква дължина, таблица или списък, какъв тон. Без това получавате свързан текст, който после трябва да подредите.",
+        "Ако първият резултат не става, кажете какво не е наред и поискайте редакция. Започването отначало рядко помага.",
+      ]},
+      { items: [
+        "Поставете собствения си текст, своите критерии, своето условие. Тези инструменти адаптират по-добре, отколкото измислят.",
+        "Кажете му да работи само с това, което сте поставили, ако не искате добавено съдържание.",
+        "За смяна на нивото на четене дайте оригиналния текст и посочете класа, за който е предназначен.",
+      ]},
+      { items: [
+        "Когато заявка работи, запазете я. Gems в Gemini и персонализираните GPT пазят инструкции, които после важат във всеки следващ разговор.",
+        "В Gem напишете контекста веднъж: предмет, клас, език, тон и какво инструментът никога не бива да прави.",
+        "Инструментите, направени за учители — MagicSchool, Brisk — вече идват с тези заявки готови.",
+      ]},
+      { items: [
+        "Прочетете целия резултат, преди да го използвате. Инструментът не знае кое е грешно; учителят знае.",
+        "Никога не пишете имена, диагнози или данни на ученици в заявката.",
+        "Оценяването, приемът или наблюдението на ученици с ИИ е класифицирано като висок риск в европейското законодателство.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Данните на непълнолетни лица подлежат на засилена защита (чл. 8 от ОРЗД). Съгласието на лицата, упражняващи родителски права, е задължително.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -7164,6 +7538,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tai ne sutrikimas, bet kalbos barjeras gali paslėpti — arba imituoti — disleksiją, ADHD ar diskalkuliją. Jei sunkumai išlieka ir gimtąja kalba, arba nemažėja tobulėjant mokymo kalbai, verta atlikti įvertinimą, o ne laukti toliau.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Pasakykite, kas esate, ko norite ir kam: «Dėstau [dalykas] [klasė] klasėje. Man reikia [užduotis].» Neaiški užklausa grąžina neaiškų tekstą.",
+        "Prašykite formato: kiek punktų, kokia apimtis, lentelė ar sąrašas, koks tonas. Be to gausite ištisinį tekstą, kurį dar teks sutvarkyti.",
+        "Jei pirmas rezultatas netinka, pasakykite, kas negerai, ir prašykite pataisyti. Pradėti iš naujo retai padeda.",
+      ]},
+      { items: [
+        "Įklijuokite savo tekstą, savo kriterijus, savo užduotį. Šie įrankiai geriau pritaiko, nei sugalvoja.",
+        "Liepkite dirbti tik su tuo, ką įklijavote, jei nenorite pridėto turinio.",
+        "Norėdami pakeisti skaitymo lygį, duokite originalų tekstą ir nurodykite tikslinę klasę.",
+      ]},
+      { items: [
+        "Kai užklausa suveikia, išsaugokite ją. Gemini Gems ir individualūs GPT saugo nurodymus, kurie paskui galioja kiekviename pokalbyje.",
+        "Geme kontekstą surašykite vieną kartą: dalykas, klasė, kalba, tonas ir tai, ko įrankis niekada neturi daryti.",
+        "Mokytojams sukurti įrankiai — MagicSchool, Brisk — šias užklausas jau turi paruoštas.",
+      ]},
+      { items: [
+        "Perskaitykite visą rezultatą prieš naudodami. Įrankis nežino, kas neteisinga; mokytojas žino.",
+        "Niekada nerašykite užklausoje vardų, diagnozių ar mokinių duomenų.",
+        "Mokinių vertinimas, priėmimas ar stebėjimas dirbtiniu intelektu Europos teisėje priskiriamas didelei rizikai.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Nepilnamečių duomenims taikoma sustiprinta apsauga (BDAR 8 straipsnis). Tėvų ar globėjų sutikimas yra privalomas.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -7569,6 +7965,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Tas nav traucējums, bet valodas barjera var slēpt — vai atdarināt — disleksiju, UDHS vai diskalkuliju. Ja grūtības saglabājas arī dzimtajā valodā vai neuzlabojas līdz ar progresu mācību valodā, ir pamats izvērtēšanai, nevis tālākai gaidīšanai.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Pasakiet, kas esat, ko vēlaties un kam: «Mācu [priekšmets] [klase] klasē. Man vajag [uzdevums].» Neskaidrs pieprasījums atgriež neskaidru tekstu.",
+        "Prasiet formātu: cik vienību, kāds garums, tabula vai saraksts, kāds tonis. Bez tā saņemsiet vienlaidu tekstu, kas pēc tam jāsakārto.",
+        "Ja pirmais rezultāts neder, pasakiet, kas nav labi, un lūdziet labojumu. Sākt no jauna reti palīdz.",
+      ]},
+      { items: [
+        "Ielīmējiet savu tekstu, savus kritērijus, savu uzdevumu. Šie rīki labāk pielāgo, nekā izdomā.",
+        "Sakiet, lai strādā tikai ar ielīmēto, ja nevēlaties pievienotu saturu.",
+        "Lai mainītu lasīšanas līmeni, dodiet oriģinālo tekstu un norādiet mērķa klasi.",
+      ]},
+      { items: [
+        "Kad pieprasījums strādā, saglabājiet to. Gemini Gems un pielāgotie GPT saglabā norādījumus, kas pēc tam attiecas uz katru sarunu.",
+        "Gem ierakstiet kontekstu vienreiz: priekšmets, klase, valoda, tonis un tas, ko rīks nekad nedrīkst darīt.",
+        "Skolotājiem veidotie rīki — MagicSchool, Brisk — šos pieprasījumus jau piedāvā gatavus.",
+      ]},
+      { items: [
+        "Izlasiet visu rezultātu, pirms to lietojat. Rīks nezina, kas ir nepareizi; skolotājs zina.",
+        "Nekad nerakstiet pieprasījumā vārdus, diagnozes vai skolēnu datus.",
+        "Skolēnu vērtēšana, uzņemšana vai uzraudzība ar MI Eiropas tiesību aktos klasificēta kā augsts risks.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Nepilngadīgo dati ir pakļauti pastiprinātai aizsardzībai (VDAR 8. pants). Vecāku vai aizbildņu piekrišana ir obligāta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -7977,6 +8395,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "See ei ole häire, kuid keelebarjäär võib peita — või jäljendada — düsleksiat, ATH-d või düskalkuuliat. Kui raskused püsivad ka koduses keeles või ei parane õppekeele edenedes, on hindamine põhjendatud, mitte edasine ootamine.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Öelge, kes te olete, mida soovite ja kellele: «Õpetan [aine] [klass] klassis. Vajan [ülesanne].» Ähmane päring annab ähmase teksti.",
+        "Küsige vormingut: mitu punkti, milline pikkus, tabel või loend, milline toon. Muidu saate joonelise teksti, mille peate ise korrastama.",
+        "Kui esimene tulemus ei sobi, öelge, mis on valesti, ja paluge parandust. Otsast alustamine aitab harva.",
+      ]},
+      { items: [
+        "Kleepige oma tekst, oma kriteeriumid, oma ülesanne. Need tööriistad kohandavad paremini, kui nad välja mõtlevad.",
+        "Öelge, et see töötaks ainult kleebitu põhjal, kui te ei soovi lisatud sisu.",
+        "Lugemistaseme muutmiseks andke algtekst ja nimetage sihtklass.",
+      ]},
+      { items: [
+        "Kui päring toimib, salvestage see. Gemini Gems ja kohandatud GPT-d hoiavad juhiseid, mis kehtivad seejärel igas vestluses.",
+        "Kirjutage Gemi kontekst üks kord: aine, klass, keel, toon ja see, mida tööriist ei tohi kunagi teha.",
+        "Õpetajatele tehtud tööriistadel — MagicSchool, Brisk — on need päringud juba valmis.",
+      ]},
+      { items: [
+        "Lugege kogu tulemus enne kasutamist läbi. Tööriist ei tea, mis on vale; õpetaja teab.",
+        "Ärge kunagi kirjutage päringusse nimesid, diagnoose ega õpilaste andmeid.",
+        "Õpilaste hindamine, vastuvõtt või jälgimine tehisintellektiga on Euroopa õiguses liigitatud suure riskiga kasutuseks.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Alaealiste andmetele kohaldatakse tugevdatud kaitset (isikuandmete kaitse üldmääruse artikkel 8). Vanemate või hooldajate nõusolek on kohustuslik.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -8386,6 +8826,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ni motnja, a jezikovna ovira lahko skrije — ali posnema — disleksijo, ADHD ali diskalkulijo. Če težave vztrajajo tudi v maternem jeziku ali se ne izboljšujejo z napredkom v učnem jeziku, je upravičena ocena, ne nadaljnje čakanje.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Povejte, kdo ste, kaj želite in za koga: «Poučujem [predmet] v [razred]. Potrebujem [naloga].» Ohlapna zahteva vrne ohlapno besedilo.",
+        "Zahtevajte obliko: koliko postavk, kakšna dolžina, tabela ali seznam, kakšen ton. Brez tega dobite tekoče besedilo, ki ga morate še urediti.",
+        "Če prvi rezultat ni dober, povejte, kaj je narobe, in zahtevajte popravek. Začeti znova redko pomaga.",
+      ]},
+      { items: [
+        "Prilepite svoje besedilo, svoja merila, svojo nalogo. Ta orodja bolje prilagajajo, kot si izmišljujejo.",
+        "Recite mu, naj dela samo iz tistega, kar ste prilepili, če nočete dodane vsebine.",
+        "Za spremembo bralne ravni dajte izvirno besedilo in navedite ciljni razred.",
+      ]},
+      { items: [
+        "Ko zahteva deluje, jo shranite. Gemini Gems in prilagojeni GPT-ji hranijo navodila, ki nato veljajo v vsakem naslednjem pogovoru.",
+        "V Gem enkrat napišite kontekst: predmet, razred, jezik, ton in kaj orodje nikoli ne sme narediti.",
+        "Orodja, narejena za učitelje — MagicSchool, Brisk — imajo te zahteve že pripravljene.",
+      ]},
+      { items: [
+        "Preberite celoten rezultat, preden ga uporabite. Orodje ne ve, kaj je narobe; učitelj ve.",
+        "V zahtevo nikoli ne pišite imen, diagnoz ali podatkov o učencih.",
+        "Ocenjevanje, vpis ali nadzor učencev z umetno inteligenco je v evropski zakonodaji uvrščeno med visoko tvegano.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Podatki mladoletnikov so predmet okrepljenega varstva (8. člen GDPR). Soglasje zakonitih zastopnikov je obvezno.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -8793,6 +9255,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ní neamhord é, ach féadfaidh bacainn na teanga disléicse, ADHD nó dioscalcúile a cheilt — nó aithris a dhéanamh orthu. Má mhaireann na deacrachtaí sa mháthairtheanga freisin, nó mura dtagann feabhas orthu le dul chun cinn i dteanga an teagaisc, tá bonn le measúnú seachas fanacht níos faide.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Abair cé thú féin, cad atá uait agus cé dó: «Múinim [ábhar] do [rang]. Teastaíonn [tasc] uaim.» Tugann iarratas doiléir téacs doiléir ar ais.",
+        "Iarr an fhormáid: cé mhéad mír, cén fad, tábla nó liosta, cén ton. Gan sin, gheobhaidh tú téacs leanúnach a chaithfidh tú a chur in eagar ina dhiaidh.",
+        "Mura n-oireann an chéad toradh, abair cad atá mícheart agus iarr leasú. Is annamh a fheabhsaíonn tosú as an nua é.",
+      ]},
+      { items: [
+        "Greamaigh do théacs féin, do chritéir féin, do cheistpháipéar féin. Oireann na huirlisí seo níos fearr ná mar a chumann siad.",
+        "Abair léi obair as an méid a ghreamaigh tú amháin, mura bhfuil ábhar breise uait.",
+        "Chun an leibhéal léitheoireachta a athrú, tabhair an bunthéacs agus ainmnigh an rang atá i gceist.",
+      ]},
+      { items: [
+        "Nuair a oibríonn iarratas, coinnigh é. Coinníonn Gems Gemini agus GPTanna saincheaptha treoracha a bhíonn i bhfeidhm ansin i ngach comhrá.",
+        "I nGem, scríobh an comhthéacs uair amháin: ábhar, rang, teanga, ton, agus cad nach mór don uirlis a dhéanamh riamh.",
+        "Tá na hiarratais seo réidh cheana féin in uirlisí a rinneadh do mhúinteoirí — MagicSchool, Brisk.",
+      ]},
+      { items: [
+        "Léigh an toradh iomlán sula n-úsáideann tú é. Níl a fhios ag an uirlis cad atá mícheart; tá a fhios ag an múinteoir.",
+        "Ná scríobh riamh ainmneacha, diagnóisí ná sonraí daltaí san iarratas.",
+        "Tá grádú, iontráil nó faireachán daltaí le hintleacht shaorga aicmithe mar ardriosca faoi dhlí na hEorpa.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Tá sonraí mionaoiseach faoi réir cosanta neartaithe (Airteagal 8 RGCS). Tá toiliú na gcaomhnóirí riachtanach.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -9201,6 +9685,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Mhijiex diżordni, imma l-ostaklu tal-lingwa jista' jaħbi — jew jimita — dislessija, ADHD jew diskalkulija. Jekk id-diffikultajiet jippersistu wkoll fil-lingwa materna, jew ma jitjiebux mal-progress fil-lingwa tat-tagħlim, evalwazzjoni tkun ġustifikata minflok stennija itwal.",
       ]},
     ]},
+    guia: { sections: [
+      { items: [
+        "Għid min int, x'trid u għal min: «Ngħallem [suġġett] fis-[sena]. Għandi bżonn [kompitu].» Talba vaga tagħti test vag.",
+        "Itlob il-format: kemm elementi, liema tul, tabella jew lista, liema ton. Mingħajr dan tirċievi test kontinwu li mbagħad trid tirranġa.",
+        "Jekk l-ewwel riżultat ma jaqbilx, għid x'inhu ħażin u itlob reviżjoni. Li tibda mill-ġdid rari jtejjeb.",
+      ]},
+      { items: [
+        "Waħħal it-test tiegħek, il-kriterji tiegħek, il-karta tal-kompitu tiegħek. Dawn l-għodod jadattaw aħjar milli jivvintaw.",
+        "Għidilha taħdem biss minn dak li waħħalt, jekk ma tridx kontenut miżjud.",
+        "Biex tibdel il-livell ta' qari, agħti t-test oriġinali u semmi s-sena li għaliha hu maħsub.",
+      ]},
+      { items: [
+        "Meta talba taħdem, żommha. Il-Gems ta' Gemini u l-GPTs personalizzati jżommu istruzzjonijiet li mbagħad japplikaw f'kull konverżazzjoni.",
+        "F'Gem, ikteb il-kuntest darba: suġġett, sena, lingwa, ton, u dak li l-għodda qatt ma għandha tagħmel.",
+        "L-għodod maħluqa għall-għalliema — MagicSchool, Brisk — diġà jiġu b'dawn it-talbiet lesti.",
+      ]},
+      { items: [
+        "Aqra r-riżultat kollu qabel tużah. L-għodda ma tafx x'inhu ħażin; l-għalliem jaf.",
+        "Qatt tikteb ismijiet, dijanjożi jew data tal-istudenti fit-talba.",
+        "Il-klassifikazzjoni, l-ammissjoni jew il-monitoraġġ ta' studenti bl-IA huma kklassifikati bħala riskju għoli fil-liġi Ewropea.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Id-data tal-minorenni hija soġġetta għal protezzjoni msaħħa (Artikolu 8 GDPR). Il-kunsens tal-ġenituri jew tuturi huwa obbligatorju.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -9617,6 +10123,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     },
+    guia: { sections: [
+      { items: [
+        "Kim olduğunuzu, ne istediğinizi ve kimin için istediğinizi söyleyin: «[Ders] öğretmeniyim, [sınıf]. [Görev] gerekiyor.» Belirsiz bir istem belirsiz metin döndürür.",
+        "Biçimi isteyin: kaç madde, ne uzunlukta, tablo mu liste mi, hangi ton. Bunlar olmadan sonradan düzenlemeniz gereken düz metin gelir.",
+        "İlk sonuç işe yaramazsa neyin yanlış olduğunu söyleyin ve düzeltme isteyin. Sıfırdan başlamak nadiren iyileştirir.",
+      ]},
+      { items: [
+        "Kendi metninizi, kendi ölçütlerinizi, kendi soru kâğıdınızı yapıştırın. Bu araçlar uydurmaktan çok uyarlar.",
+        "Eklenmiş içerik istemiyorsanız yalnızca yapıştırdığınızdan çalışmasını söyleyin.",
+        "Okuma düzeyini değiştirmek için özgün metni verin ve hedef sınıfı belirtin.",
+      ]},
+      { items: [
+        "Bir istem işe yaradığında saklayın. Gemini Gems ve özel GPT'ler, sonraki her konuşmada geçerli olan yönergeleri saklar.",
+        "Bir Gem'e bağlamı bir kez yazın: ders, sınıf, dil, ton ve aracın asla yapmaması gerekenler.",
+        "Öğretmenler için yapılmış araçlarda — MagicSchool, Brisk — bu istemler hazır gelir.",
+      ]},
+      { items: [
+        "Kullanmadan önce sonucun tamamını okuyun. Araç neyin yanlış olduğunu bilmez; öğretmen bilir.",
+        "İsteme asla öğrenci adı, tanı ya da öğrenci verisi yazmayın.",
+        "Öğrencileri yapay zekâ ile değerlendirmek, kabul etmek veya izlemek Avrupa mevzuatında yüksek riskli sayılır.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Çocukların verileri güçlendirilmiş korumaya tabidir; velinin açık rızası zorunludur.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -10029,6 +10557,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     },
+    guia: { sections: [
+      { items: [
+        "Si hvem du er, hva du vil ha og til hvem: «Jeg underviser i [fag] på [trinn]. Jeg trenger [oppgave].» En vag forespørsel gir vag tekst.",
+        "Be om formatet: hvor mange punkter, hvilken lengde, tabell eller liste, hvilken tone. Uten det får du løpende tekst du må rydde i etterpå.",
+        "Hvis det første resultatet ikke duger, si hva som er galt og be om en revisjon. Å begynne på nytt hjelper sjelden.",
+      ]},
+      { items: [
+        "Lim inn din egen tekst, dine egne kriterier, din egen oppgave. Disse verktøyene tilpasser bedre enn de finner på.",
+        "Be den arbeide bare ut fra det du limte inn, hvis du ikke vil ha lagt til innhold.",
+        "For å endre lesenivået, gi originalteksten og oppgi hvilket trinn den er for.",
+      ]},
+      { items: [
+        "Når en forespørsel virker, ta vare på den. Gemini Gems og egne GPT-er lagrer instruksjoner som deretter gjelder i hver samtale.",
+        "Skriv konteksten én gang i et Gem: fag, trinn, språk, tone, og hva verktøyet aldri skal gjøre.",
+        "Verktøy laget for lærere — MagicSchool, Brisk — har disse forespørslene ferdige.",
+      ]},
+      { items: [
+        "Les hele resultatet før du bruker det. Verktøyet vet ikke hva som er feil; det gjør læreren.",
+        "Skriv aldri navn, diagnoser eller elevdata i forespørselen.",
+        "Å vurdere, ta opp eller overvåke elever med KI er klassifisert som høy risiko i europeisk lovgivning.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Opplysninger om barn har forsterket vern, og samtykke fra foresatte er påkrevd.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -10440,6 +10990,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     },
+    guia: { sections: [
+      { items: [
+        "Segðu hver þú ert, hvað þú vilt og fyrir hvern: «Ég kenni [námsgrein] í [árgangur]. Mig vantar [verkefni].» Óljós beiðni skilar óljósum texta.",
+        "Biddu um sniðið: hversu margir liðir, hvaða lengd, tafla eða listi, hvaða tónn. Annars færðu samfelldan texta sem þú þarft svo að laga.",
+        "Ef fyrsta niðurstaðan dugar ekki, segðu hvað er að og biddu um lagfæringu. Að byrja upp á nýtt bætir sjaldan.",
+      ]},
+      { items: [
+        "Límdu inn þinn eigin texta, þín eigin viðmið, þitt eigið verkefnablað. Þessi tól aðlaga betur en þau búa til.",
+        "Segðu því að vinna aðeins út frá því sem þú límdir inn, ef þú vilt ekki viðbætt efni.",
+        "Til að breyta lestrarstigi skaltu gefa upprunalega textann og tilgreina árganginn sem hann er ætlaður.",
+      ]},
+      { items: [
+        "Þegar beiðni virkar skaltu geyma hana. Gemini Gems og sérsniðin GPT geyma leiðbeiningar sem gilda síðan í hverju samtali.",
+        "Skrifaðu samhengið einu sinni í Gem: námsgrein, árgangur, tungumál, tónn og það sem tólið má aldrei gera.",
+        "Tól sem gerð eru fyrir kennara — MagicSchool, Brisk — koma með þessar beiðnir tilbúnar.",
+      ]},
+      { items: [
+        "Lestu alla niðurstöðuna áður en þú notar hana. Tólið veit ekki hvað er rangt; kennarinn veit það.",
+        "Skrifaðu aldrei nöfn, greiningar eða gögn nemenda í beiðnina.",
+        "Að meta, taka inn eða fylgjast með nemendum með gervigreind telst áhættumikið í evrópskri löggjöf.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Upplýsingar um börn njóta aukinnar verndar og samþykki forsjáraðila er skilyrði.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -10851,6 +11423,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     },
+    guia: { sections: [
+      { items: [
+        "Реците ко сте, шта желите и за кога: «Предајем [предмет] у [разред]. Треба ми [задатак].» Нејасан захтев враћа нејасан текст.",
+        "Тражите формат: колико ставки, која дужина, табела или списак, који тон. Без тога добијате текст у комаду који после морате да средите.",
+        "Ако први резултат не ваља, реците шта не ваља и тражите исправку. Почињање испочетка ретко помаже.",
+      ]},
+      { items: [
+        "Налепите свој текст, своје критеријуме, свој задатак. Ови алати боље прилагођавају него што измишљају.",
+        "Реците му да ради само са оним што сте налепили, ако не желите додати садржај.",
+        "За промену нивоа читања дајте изворни текст и наведите разред коме је намењен.",
+      ]},
+      { items: [
+        "Када захтев проради, сачувајте га. Gemini Gems и прилагођени GPT чувају упутства која затим важе у сваком следећем разговору.",
+        "У Gem упишите контекст једном: предмет, разред, језик, тон и оно што алат никада не сме да ради.",
+        "Алати направљени за наставнике — MagicSchool, Brisk — већ долазе са овим захтевима.",
+      ]},
+      { items: [
+        "Прочитајте цео резултат пре употребе. Алат не зна шта је погрешно; наставник зна.",
+        "Никада не уписујте имена, дијагнозе ни податке ученика у захтев.",
+        "Оцењивање, упис или надзор ученика помоћу вештачке интелигенције у европском законодавству спада у висок ризик.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Подаци о деци уживају појачану заштиту, а сагласност родитеља је обавезна.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
@@ -11263,6 +11857,28 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
     ],
     },
+    guia: { sections: [
+      { items: [
+        "Кажете кој сте, што сакате и за кого: «Предавам [предмет] во [одделение]. Ми треба [задача].» Нејасно барање враќа нејасен текст.",
+        "Побарајте формат: колку ставки, која должина, табела или список, каков тон. Без тоа добивате текст во целина што потоа треба да го средите.",
+        "Ако првиот резултат не чини, кажете што не чини и побарајте поправка. Почнувањето од почеток ретко помага.",
+      ]},
+      { items: [
+        "Залепете го вашиот текст, вашите критериуми, вашата задача. Овие алатки подобро приспособуваат отколку што измислуваат.",
+        "Кажете ѝ да работи само од она што сте го залепиле, ако не сакате додадена содржина.",
+        "За промена на нивото на читање дајте го оригиналниот текст и наведете го одделението за кое е наменет.",
+      ]},
+      { items: [
+        "Кога барањето ќе успее, зачувајте го. Gemini Gems и прилагодените GPT чуваат упатства што потоа важат во секој следен разговор.",
+        "Во Gem напишете го контекстот еднаш: предмет, одделение, јазик, тон и она што алатката никогаш не смее да го прави.",
+        "Алатките направени за наставници — MagicSchool, Brisk — веќе доаѓаат со овие барања подготвени.",
+      ]},
+      { items: [
+        "Прочитајте го целиот резултат пред да го користите. Алатката не знае што е погрешно; наставникот знае.",
+        "Никогаш не пишувајте имиња, дијагнози или податоци за ученици во барањето.",
+        "Оценувањето, запишувањето или надзорот над учениците со вештачка интелигенција во европското законодавство се смета за висок ризик.",
+      ]},
+    ] },
     etica: { sections: [
       { items: [
         "Податоците за деца уживаат засилена заштита, а согласноста на родителот е задолжителна.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
