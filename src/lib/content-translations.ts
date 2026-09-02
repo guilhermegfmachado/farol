@@ -4647,6 +4647,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Läroplan för grundskolan Lgr22, styr undervisningens mål och innehåll.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Specialpedagogiska skolmyndigheten (SPSM), nationell myndighet med rådgivning, stöd och resursskolor.",
         "FN:s konvention om rättigheter för personer med funktionsnedsättning (2006), ratificerad av Sverige; artikel 24 om inkluderande utbildning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Propositionen Förbättrat stöd i skolan (2025/26:195) föreslår att garantin för tidiga stödinsatser och regleringen om extra anpassningar tas bort och ersätts av standardiserade tester tidigt på höstterminen, och att behov av särskilt stöd utreds tidigare. Ändringarna föreslås träda i kraft 1 juli 2028, så det som beskrivs här gäller till dess."
       ]},
       { items: [
         "Extra anpassningar (3 kap. 5 a §): kan sättas in av alla lärare utan föregående utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -5075,6 +5076,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bekendtgørelse om folkeskolens specialpædagogiske bistand, rammen for specialpædagogisk støtte.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "FN's konvention om rettigheder for personer med handicap (2006), ratificeret af Danmark; artikel 24 om inkluderende uddannelse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Kommunernes PPR (Pædagogisk Psykologisk Rådgivning), central rådgivende instans for elever med særlige behov.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Et politisk forlig af 15. januar 2026 om fravær og specialundervisning ændrer rammerne for PPR, styrker brugen af støtteplaner og indfører styrket undervisning som en mellemform i almenområdet. Reglerne ventes at gælde fra skoleåret 2027/2028, når lovforslagene er vedtaget."
       ]},
       { items: [
         "Støtte i almenundervisningen: undervisningsdifferentiering, tolærerordning, it-hjælpemidler, ingen formel vedtagelse nødvendig; alle læreres ansvar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -5501,20 +5503,20 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Perusopetuslaki 628/1998, velvoittaa antamaan jokaiselle oppilaalle riittävän tuen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oppilas- ja opiskelijahuoltolaki 1287/2013, monialainen oppilashuolto koulussa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Opetushallituksen kolmiportainen tukimalli: yleinen tuki, tehostettu tuki, erityinen tuki.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kolmiportaisesta tuesta on luovuttu. Laki perusopetuslain muuttamisesta 1090/2024 tuli voimaan 1.8.2025 ja kumosi 17 §:n: käsitteitä yleinen, tehostettu ja erityinen tuki ei enää käytetä. Tuki jaetaan nyt ryhmäkohtaisiin tukimuotoihin ja oppilaskohtaisiin tukitoimiin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; 24 artikla inklusiivisesta koulutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Yleinen tuki: jokaisen opettajan velvollisuus ilman päätöstä, tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ryhmäkohtainen tuki on jokaisen opettajan velvollisuus eikä vaadi päätöstä: tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Sovella Universaalin oppimisen suunnittelun periaatteita: useita esittämisen, ilmaisemisen ja sitoutumisen tapoja.",
         "Ilman virallista diagnoosia voidaan tehdä kohtuulliset mukautukset: lisäaika, suulliset vastaukset, vaihtoehtoiset formaatit.",
         "Dokumentoi epäviralliset havainnot oppilaista, joilla voi olla täyttämättömiä tarpeita, lähtökohta mahdollisille jatkotoimille.",
       ]},
       { items: [
-        "Tehostettu tuki: oppimissuunnitelma, moniammatillinen tiimi, oppilashuolto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
-        "Erityinen tuki: HOJKS (Henkilökohtainen opetuksen järjestämistä koskeva suunnitelma), hallintopäätös, erityisluokka tai -koulu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kun ryhmäkohtainen tuki ei riitä, siirrytään oppilaskohtaisiin tukitoimiin: oppimissuunnitelma, moniammatillinen yhteistyö ja oppilashuolto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Vaativimmista tukitoimista tehdään hallintopäätös. Ennen 1.8.2025 tehdyt erityisen tuen päätökset ja HOJKS:t olivat voimassa siihen asti, kunnes ne tarkistettiin uuden lain mukaisiksi, viimeistään 31.8.2026.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oppilashuoltoryhmä koordinoi tukitoimia ja neuvoo opettajia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Psykologinen arviointi tarvittaessa erityisen tuen tarpeen selvittämiseksi.",
+        "Psykologinen arviointi tarvittaessa tuen tarpeen selvittämiseksi.",
       ]},
       { items: [
         "Lahjakkaiden oppilaiden tuki: OPS sallii eriyttämisen ylöspäin, luokan ohittaminen mahdollinen.",
@@ -5528,8 +5530,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Monikulttuurinen ohjaaja voi tukea kodin ja koulun välistä yhteistyötä.",
       ]},
       { items: [
-        "Pikaohjeet: Perusopetuslaki 628/1998, kolmiportainen tuki, HOJKS, oppilashuolto, S2-opetus, valmistava opetus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Tärkeät asiakirjat: HOJKS, oppilashuollon kirjaukset, koulun inklusiivinen oppimissuunnitelma.",
+        "Pikaohjeet: Perusopetuslaki 628/1998 muutoksineen (1090/2024), ryhmäkohtainen ja oppilaskohtainen tuki, oppilashuolto, S2-opetus, valmistava opetus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tärkeät asiakirjat: oppimissuunnitelma, oppilashuollon kirjaukset, koulun inklusiivinen oppimissuunnitelma. HOJKS ei enää ole voimassa oleva asiakirja uudistuksen jälkeen.",
         "Ensimmäinen askel huolen herätessä: dokumentoi, keskustele erityisopettajan kanssa, ota yhteyttä huoltajiin, tässä järjestyksessä.",
         "Tietosuoja: kaikki oppilastukitiedot ovat GDPR:n ja tietosuojalain alaisia; älä jaa arkaluonteisia tietoja oppilashuoltoryhmän ulkopuolelle ilman suostumusta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
