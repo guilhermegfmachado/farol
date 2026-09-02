@@ -37,7 +37,7 @@ sections:
     items:
       - "<strong>DL 54/2018</strong> — regime geral da educação inclusiva (substituiu o DL 3/2008)."
       - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
-      - "<strong>Despacho Normativo 1-F/2016</strong> — regime de avaliação dos alunos do ensino básico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "<strong>Portaria 223-A/2018</strong> — avaliação e certificação no ensino básico. Substituiu o Despacho Normativo 1-F/2016, que foi revogado.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
       - "<strong>Circular 3/DSEEASE/2011</strong> — orientações para sobredotação."
       - "<strong>Despacho Normativo 7/2006</strong> — PLNM."
   - label: "A revisão aprovada — o que muda a partir de janeiro de 2027"
@@ -50,10 +50,10 @@ sections:
       - "Até lá, é o que está descrito acima que se aplica. Antes de decidir com base num artigo, confirme a versão consolidada em vigor no Diário da República — é ela que manda, não um resumo."
 references:
   - "Decreto-Lei n.º 54/2018, de 6 de julho — Regime jurídico da educação inclusiva. <em>Diário da República</em>, 1.ª série, n.º 129 (alterado pela Lei n.º 116/2019, de 13 de setembro, e pelo Decreto-Lei n.º 62/2023, de 25 de julho). <a href=\"https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2018-115654476-115625169\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
-  - "Decreto-Lei n.º 55/2018, de 6 de julho — Currículo dos ensinos básico e secundário (autonomia e flexibilidade curricular). <em>Diário da República</em>, 1.ª série, n.º 129."
+  - "Decreto-Lei n.º 55/2018, de 6 de julho — Currículo dos ensinos básico e secundário (autonomia e flexibilidade curricular). <em>Diário da República</em>, 1.ª série, n.º 129 (alterado pelos Decretos-Leis n.º 70/2021, de 3 de agosto, e n.º 62/2023, de 25 de julho). <a href=\"https://educacaoinclusiva.dge.mec.pt/recursos/decreto-lei-no-552018-curriculo-dos-ensinos-basico-e-secundario\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
   - "Organização das Nações Unidas. (2006). <em>Convenção sobre os Direitos das Pessoas com Deficiência</em> (ratificada por Portugal pela Resolução da Assembleia da República n.º 56/2009)."
-  - "Despacho Normativo n.º 1-F/2016, de 5 de abril — Regime de avaliação e certificação dos alunos do ensino básico. <em>Diário da República</em>, 2.ª série."
+  - "Portaria n.º 223-A/2018, de 3 de agosto — Ofertas educativas do ensino básico, avaliação e certificação das aprendizagens; regulamenta o Decreto-Lei n.º 55/2018 e revogou o Despacho Normativo n.º 1-F/2016, de 5 de abril. <em>Diário da República</em>, 1.ª série."
   - "Circular n.º 3/DSEEASE/2011 — Orientações para o acompanhamento de alunos com capacidades excecionais (sobredotação). Direção-Geral da Educação."
-  - "Despacho Normativo n.º 7/2006, de 6 de fevereiro — Ensino do Português Língua Não Materna. <em>Diário da República</em>, 2.ª série."
+  - "Despacho Normativo n.º 7/2006, de 6 de fevereiro — Ensino do Português Língua Não Materna (alterado pelo Despacho Normativo n.º 12/2011, de 22 de agosto). <em>Diário da República</em>, 2.ª série. Assenta no Decreto-Lei n.º 6/2001, substituído pela reforma curricular de 2018 — confirme o regime em vigor antes de o aplicar."
   - "Conselho de Ministros. (2026, 30 de julho). <em>Comunicado do Conselho de Ministros</em> — aprovação do decreto-lei que revê o regime jurídico da educação inclusiva. Governo de Portugal. <a href=\"https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-30-de-julho-de-2026\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
 ---
