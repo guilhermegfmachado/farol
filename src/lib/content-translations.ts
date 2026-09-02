@@ -2498,6 +2498,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kernwet: Wet passend onderwijs (2014), elke school is verplicht een passend onderwijsaanbod te doen voor elke leerling.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Samenwerkingsverbanden passend onderwijs coördineren de extra ondersteuning in de regio.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zorgplicht: scholen zijn wettelijk verplicht een passende plek te vinden voor elke leerling, ook bij complexe ondersteuningsbehoeften.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "De koers is van passend naar inclusief onderwijs, met 2035 als richtjaar; het ministerie werkt aan een transitieplan dat begin 2027 naar de Kamer gaat. Sinds 1 augustus 2025 geldt bovendien de wet die de positie van ouders en leerlingen in het passend onderwijs versterkt."
       ]},
       { items: [
         "Basisondersteuning: elke school biedt een basisniveau van ondersteuning zonder formele indicatie.",
@@ -2925,6 +2926,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Podstawa prawna: <strong>Ustawa Prawo oświatowe z 14 grudnia 2016 r.</strong> (Dz.U. 2017 poz. 59) oraz Rozporządzenie MEN w sprawie warunków organizowania kształcenia specjalnego (2017).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup><sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Orzeczenie o potrzebie kształcenia specjalnego wydaje poradnia psychologiczno-pedagogiczna (PPP), jest niezbędne do sformalizowanego wsparcia specjalnego.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Konstytucja RP i ratyfikowana Konwencja ONZ o prawach osób z niepełnosprawnościami stanowią ramy prawa do edukacji włączającej.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Od 1 września 2026 r. obowiązuje ocena funkcjonalna: przed wydaniem orzeczenia przez poradnię psychologiczno-pedagogiczną przedszkole lub szkoła sporządza opis funkcjonowania dziecka w swoim środowisku. Wynika to z rozporządzenia Ministra Edukacji podpisanego 2 marca 2026 r."
       ]},
       { items: [
         "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia, odpowiedzialność każdego nauczyciela.",
@@ -3352,6 +3354,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Baza legală principală: Legea învățământului preuniversitar nr. 198/2023 (care a abrogat Legea Educației Naționale nr. 1/2011) și Ordinul comun nr. 1985/1305/5805/2016 privind metodologia de orientare școlară și profesională a copiilor cu cerințe educaționale speciale (CES).<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului completează cadrul de drepturi educaționale.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "România a ratificat, prin Legea nr. 221/2010, Convenția ONU privind drepturile persoanelor cu dizabilități, care stă la baza politicilor de educație incluzivă.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Legea 198/2023 a fost modificată prin Ordonanța de urgență nr. 28/2026, publicată în Monitorul Oficial nr. 310 din 20 aprilie 2026. Verificați forma actualizată a articolului pe care vă bazați, nu textul inițial."
       ]},
       { items: [
         "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice, fără documentație specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -3785,6 +3788,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Konvencija UN-a o pravima osoba s invaliditetom (2006.), ratificirala Hrvatska; uspostavlja inkluzivno obrazovanje kao pravo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi, temelj hrvatskog obrazovnog sustava s obvezom inkluzije.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Strategija obrazovanja, znanosti i tehnologije RH, smjernice za inkluzivno obrazovanje i potporu učenicima s posebnim potrebama.",
+        "Pravilnik o pomoćnicima u nastavi i stručnim komunikacijskim posrednicima uređuje pravo učenika s teškoćama u razvoju na potporu pomoćnika u nastavi, uvjete koje pomoćnici moraju ispuniti i postupak ostvarivanja tog prava."
       ]},
       { items: [
         "Prilagodba i individualizacija nastavnog procesa, svaki nastavnik može primijeniti bez posebne dokumentacije; diferencirani pristup je standardna praksa.",
@@ -4214,6 +4218,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Vyhláška č. 27/2016 Sb.</strong> o vzdělávání žáků se speciálními vzdělávacími potřebami, podpůrná opatření 1.–5. stupně.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Akční plán inkluzivního vzdělávání MŠMT, závazek k inkluzivnímu přístupu.",
         "Úmluva OSN o právech osob se zdravotním postižením (2006), ratifikovaná ČR; zakotvuje právo na inkluzivní vzdělávání.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Velká novela školského zákona přinesla od 1. ledna 2026 spádovost pedagogicko-psychologických poraden. Školní psycholog a školní speciální pedagog se ve školách se 180 a více žáky stávají běžnou součástí sboru, nikoli podpůrným opatřením."
       ]},
       { items: [
         "Plán pedagogické podpory (PLPP): každý učitel jej může zavést bez doporučení PPP; zahrnuje úpravy metod, organizace a hodnocení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -4642,6 +4647,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Läroplan för grundskolan Lgr22, styr undervisningens mål och innehåll.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Specialpedagogiska skolmyndigheten (SPSM), nationell myndighet med rådgivning, stöd och resursskolor.",
         "FN:s konvention om rättigheter för personer med funktionsnedsättning (2006), ratificerad av Sverige; artikel 24 om inkluderande utbildning.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Propositionen Förbättrat stöd i skolan (2025/26:195) föreslår att garantin för tidiga stödinsatser och regleringen om extra anpassningar tas bort och ersätts av standardiserade tester tidigt på höstterminen, och att behov av särskilt stöd utreds tidigare. Ändringarna föreslås träda i kraft 1 juli 2028, så det som beskrivs här gäller till dess."
       ]},
       { items: [
         "Extra anpassningar (3 kap. 5 a §): kan sättas in av alla lärare utan föregående utredning, anpassat material, tydligare instruktioner, alternativa verktyg, extra tid.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -5070,6 +5076,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bekendtgørelse om folkeskolens specialpædagogiske bistand, rammen for specialpædagogisk støtte.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "FN's konvention om rettigheder for personer med handicap (2006), ratificeret af Danmark; artikel 24 om inkluderende uddannelse.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Kommunernes PPR (Pædagogisk Psykologisk Rådgivning), central rådgivende instans for elever med særlige behov.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
+        "Et politisk forlig af 15. januar 2026 om fravær og specialundervisning ændrer rammerne for PPR, styrker brugen af støtteplaner og indfører styrket undervisning som en mellemform i almenområdet. Reglerne ventes at gælde fra skoleåret 2027/2028, når lovforslagene er vedtaget."
       ]},
       { items: [
         "Støtte i almenundervisningen: undervisningsdifferentiering, tolærerordning, it-hjælpemidler, ingen formel vedtagelse nødvendig; alle læreres ansvar.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -5496,20 +5503,20 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       { items: [
         "Perusopetuslaki 628/1998, velvoittaa antamaan jokaiselle oppilaalle riittävän tuen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oppilas- ja opiskelijahuoltolaki 1287/2013, monialainen oppilashuolto koulussa.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Opetushallituksen kolmiportainen tukimalli: yleinen tuki, tehostettu tuki, erityinen tuki.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kolmiportaisesta tuesta on luovuttu. Laki perusopetuslain muuttamisesta 1090/2024 tuli voimaan 1.8.2025 ja kumosi 17 §:n: käsitteitä yleinen, tehostettu ja erityinen tuki ei enää käytetä. Tuki jaetaan nyt ryhmäkohtaisiin tukimuotoihin ja oppilaskohtaisiin tukitoimiin.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "YK:n vammaisten henkilöiden oikeuksia koskeva yleissopimus (2006), Suomi ratifioinut; 24 artikla inklusiivisesta koulutuksesta.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
       ]},
       { items: [
-        "Yleinen tuki: jokaisen opettajan velvollisuus ilman päätöstä, tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Ryhmäkohtainen tuki on jokaisen opettajan velvollisuus eikä vaadi päätöstä: tukiopetus, eriyttäminen ylös- ja alaspäin, joustavat ryhmittelyt, oppimisympäristön muokkaaminen.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Sovella Universaalin oppimisen suunnittelun periaatteita: useita esittämisen, ilmaisemisen ja sitoutumisen tapoja.",
         "Ilman virallista diagnoosia voidaan tehdä kohtuulliset mukautukset: lisäaika, suulliset vastaukset, vaihtoehtoiset formaatit.",
         "Dokumentoi epäviralliset havainnot oppilaista, joilla voi olla täyttämättömiä tarpeita, lähtökohta mahdollisille jatkotoimille.",
       ]},
       { items: [
-        "Tehostettu tuki: oppimissuunnitelma, moniammatillinen tiimi, oppilashuolto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
-        "Erityinen tuki: HOJKS (Henkilökohtainen opetuksen järjestämistä koskeva suunnitelma), hallintopäätös, erityisluokka tai -koulu.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Kun ryhmäkohtainen tuki ei riitä, siirrytään oppilaskohtaisiin tukitoimiin: oppimissuunnitelma, moniammatillinen yhteistyö ja oppilashuolto.<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
+        "Vaativimmista tukitoimista tehdään hallintopäätös. Ennen 1.8.2025 tehdyt erityisen tuen päätökset ja HOJKS:t olivat voimassa siihen asti, kunnes ne tarkistettiin uuden lain mukaisiksi, viimeistään 31.8.2026.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Oppilashuoltoryhmä koordinoi tukitoimia ja neuvoo opettajia.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Psykologinen arviointi tarvittaessa erityisen tuen tarpeen selvittämiseksi.",
+        "Psykologinen arviointi tarvittaessa tuen tarpeen selvittämiseksi.",
       ]},
       { items: [
         "Lahjakkaiden oppilaiden tuki: OPS sallii eriyttämisen ylöspäin, luokan ohittaminen mahdollinen.",
@@ -5523,8 +5530,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Monikulttuurinen ohjaaja voi tukea kodin ja koulun välistä yhteistyötä.",
       ]},
       { items: [
-        "Pikaohjeet: Perusopetuslaki 628/1998, kolmiportainen tuki, HOJKS, oppilashuolto, S2-opetus, valmistava opetus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
-        "Tärkeät asiakirjat: HOJKS, oppilashuollon kirjaukset, koulun inklusiivinen oppimissuunnitelma.",
+        "Pikaohjeet: Perusopetuslaki 628/1998 muutoksineen (1090/2024), ryhmäkohtainen ja oppilaskohtainen tuki, oppilashuolto, S2-opetus, valmistava opetus.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "Tärkeät asiakirjat: oppimissuunnitelma, oppilashuollon kirjaukset, koulun inklusiivinen oppimissuunnitelma. HOJKS ei enää ole voimassa oleva asiakirja uudistuksen jälkeen.",
         "Ensimmäinen askel huolen herätessä: dokumentoi, keskustele erityisopettajan kanssa, ota yhteyttä huoltajiin, tässä järjestyksessä.",
         "Tietosuoja: kaikki oppilastukitiedot ovat GDPR:n ja tietosuojalain alaisia; älä jaa arkaluonteisia tietoja oppilashuoltoryhmän ulkopuolelle ilman suostumusta.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
       ]},
@@ -5926,6 +5933,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Zákon č. 245/2008 Z.z.</strong> (Školský zákon) tvorí základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami (ŠVVP); inkluzívne vzdelávanie je štátnou politikou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>Vyhláška č. 325/2008 Z. z.</strong> o školských zariadeniach výchovného poradenstva a prevencie upravuje činnosť poradenských zariadení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Slovensko ratifikovalo Dohovor OSN o právach osôb so zdravotným postihnutím; školy sú povinné vytvárať inkluzívne podmienky.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Novela školského zákona účinná od 1. januára 2026 zavádza do zákona č. 245/2008 Z. z. pojem inkluzívne vzdelávanie a školský podporný tím. Školy mali do 31. augusta 2026 doplniť do školského vzdelávacieho programu kapitolu o systéme podpory žiakov."
       ]},
       { items: [
         "Individuálny prístup a diferenciácia vyučovania sú základnou povinnosťou každého pedagóga bez formálnej dokumentácie.",
@@ -6352,6 +6360,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A 2011. évi CXC. törvény a nemzeti köznevelésről (Nkt.) meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit és intézményi kötelezettségeit.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "A 32/2012. (X. 8.) EMMI rendelet az SNI tanulók iskolai oktatásának irányelvéről részletesen szabályozza a különböző fogyatékossági típusokhoz szükséges feltételeket.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Magyarország ratifikálta az ENSZ Egyezményt a fogyatékossággal élők jogairól; az inkluzív oktatás állami célkitűzés.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "A köznevelési törvényt a 2026. évi XLVII. törvény módosította. Érdemes a hatályos, egységes szerkezetű szöveget megnézni, különösen a mentesítések körét, mert a módosítás érinti, hogy azok kikre vonatkoznak."
       ]},
       { items: [
         "A differenciált oktatás és adaptív pedagógia minden pedagógus kötelessége diagnózis nélkül is, az intézmény köteles befogadó környezetet biztosítani.",
@@ -6780,6 +6789,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΔΑΣΥ ως κεντρικά σημεία συντονισμού.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η συμπεριληπτική εκπαίδευση είναι κρατική πολιτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ο ν. 3699/2008 ισχύει με τροποποιήσεις· η πιο πρόσφατη κωδικοποίηση ενσωματώνει τον ν. 5224/2025. Ελέγχετε πάντα την κωδικοποιημένη μορφή του άρθρου, όχι το αρχικό κείμενο του 2008."
       ]},
       { items: [
         "Η παράλληλη στήριξη και η ενισχυτική διδασκαλία αποτελούν βασικές υποστηρικτικές δομές· οι γενικές προσαρμογές είναι ευθύνη κάθε εκπαιδευτικού χωρίς ειδικά έγγραφα.",
@@ -7208,6 +7218,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Законът за предучилищното и училищното образование (ЗПУО, ДВ бр. 79/2015 г.) установява приобщаващото образование като принцип и задължение на всяко училище в България.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Наредбата за приобщаващото образование (ДВ бр. 86/2017 г.) урежда дейността на екипите за подкрепа и видовете подкрепящи мерки.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "България е ратифицирала Конвенцията на ООН за правата на хората с увреждания; приобщаващото образование е национална политика.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Промени в Наредбата за приобщаващото образование влизат в сила от учебната 2026/2027 година, а законопроект за изменение на ЗПУО е внесен в Народното събрание през юни 2026 г. Проверявайте действащата редакция преди да се позовете на текст."
       ]},
       { items: [
         "Приобщаващото образование се осъществява чрез екипна работа и диференциран подход, всеки учител може да прилага базови адаптации без специален документ.",
@@ -7635,6 +7646,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; įtraukusis ugdymas yra valstybinė politika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nuo 2024 m. rugsėjo 1 d. Švietimo įstatymo pataisos įpareigoja kiekvieną mokyklą ir darželį priimti vaiką, turintį specialiųjų ugdymosi poreikių, jei tėvai, pasitarę su specialistais, nusprendžia, kad bendrojo ugdymo įstaiga yra geriausias sprendimas. Įstatymas toliau keičiamas, pakeitimai įsigalioja etapais."
       ]},
       { items: [
         "Individualizuotas ugdymas ir diferenciacija yra kiekvieno mokytojo pareiga be jokios specialios dokumentacijos.",
@@ -8062,6 +8074,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Vispārējās izglītības likums (1999) regulē atbalstu skolēniem ar speciālām vajadzībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Saeima 2026. gada 23. jūlijā pieņēma grozījumus Izglītības likumā, kas precizē izglītības ieguvi bērniem ar somatiskām saslimšanām un garīgās attīstības traucējumiem. Pārbaudiet spēkā esošo redakciju, pirms atsaucaties uz konkrētu pantu."
       ]},
       { items: [
         "Individuāla pieeja mācību procesā ir katra skolotāja kompetencē — pielāgoti materiāli, skaidrākas instrukcijas un papildu laiks neprasa formālu atzinumu.",
@@ -8492,6 +8505,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Põhikooli- ja gümnaasiumiseadus (PGS, 2010) reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Koolieelse lasteasutuse seadus ja lastekaitse seadus täiendavad HEV-õpilaste kaitset.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riigikogu menetleb põhikooli- ja gümnaasiumiseaduse muutmise eelnõu, mis muudab tugimeetmete rakendamise paindlikumaks: tõhustatud või eritoe vajadust hinnatakse kooli ja välise nõustamismeeskonna koostöös. Kuni eelnõu vastuvõtmiseni kehtib senine kord."
       ]},
       { items: [
         "Üldist tuge pakub kool ilma koolivälise hindamiseta: õpetaja individuaalne juhendamine, õpiabitunnid ja tugispetsialistide esmane nõustamine.",
@@ -8923,6 +8937,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Zakon o usmerjanju otrok s posebnimi potrebami</strong> (ZUOPP-1, 2011) ureja postopek usmerjanja in pravice otrok s posebnimi potrebami.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zakon o osnovni šoli in Zakon o organizaciji in financiranju vzgoje in izobraževanja dopolnjujeta inkluzivno izobraževanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Novela ZUOPP-1B, sprejeta 3. februarja 2026, se uporablja od 1. septembra 2026. Med otroke s posebnimi potrebami dodaja otroke z gluhoslepoto in uvaja poglavje o podpori in pomoči: novi 4.a člen določa stopenjsko pomoč v okviru kontinuuma podpore, ki jo šola nudi že ob zaznanih učnih težavah, brez odločbe o usmeritvi."
       ]},
       { items: [
         "Notranja diferenciacija pouka je pravica in dolžnost vsakega učitelja — prilagajanje razlage, gradiv in preverjanja ne zahteva nobene odločbe.",
@@ -9352,6 +9367,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bunaíonn an tAcht Oideachais 1998 creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Foilsíodh Athbhreithniú ar Acht EPSEN i Meitheamh 2025, agus Plean Feidhmithe in 2026 a leagann amach conas a chuirfear a 51 moladh i bhfeidhm. Seasann an tAcht féin go fóill: athraíonn an plean an cleachtas agus an beartas ar dtús."
       ]},
       { items: [
         "Is é an múinteoir ranga an chéad chéim sa Chontanam Tacaíochta (NEPS): tacaíocht sa seomra ranga — idirdhealú, socruithe simplí agus breathnóireacht dhoiciméadaithe, gan aon atreorú foirmiúil.",
@@ -9782,6 +9798,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "L-Att dwar l-Edukazzjoni (Kap. 605, 2019) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Il-Politika tal-Edukazzjoni Inklussiva (2019, „Route to Quality Inclusion”) tartikola l-approċċ Malti għall-bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iż-żewġ dokumenti ta' gwida — A National Inclusive Education Framework u A Policy on Inclusive Education in Schools: Route to Quality Inclusion — ġew ippubblikati fl-2019 u riveduti fl-2022. Uża l-verżjoni riveduta, mhux dik oriġinali."
       ]},
       { items: [
         "Id-differenzjazzjoni fil-klassi hija responsabbiltà ta' kull għalliem — materjal adattat, struzzjonijiet aktar ċari u ħin addizzjonali ma jeħtieġu l-ebda deċiżjoni formali.",
