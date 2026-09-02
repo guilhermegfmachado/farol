@@ -5933,6 +5933,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Zákon č. 245/2008 Z.z.</strong> (Školský zákon) tvorí základný rámec vzdelávania žiakov so špeciálnymi výchovno-vzdelávacími potrebami (ŠVVP); inkluzívne vzdelávanie je štátnou politikou.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>Vyhláška č. 325/2008 Z. z.</strong> o školských zariadeniach výchovného poradenstva a prevencie upravuje činnosť poradenských zariadení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Slovensko ratifikovalo Dohovor OSN o právach osôb so zdravotným postihnutím; školy sú povinné vytvárať inkluzívne podmienky.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Novela školského zákona účinná od 1. januára 2026 zavádza do zákona č. 245/2008 Z. z. pojem inkluzívne vzdelávanie a školský podporný tím. Školy mali do 31. augusta 2026 doplniť do školského vzdelávacieho programu kapitolu o systéme podpory žiakov."
       ]},
       { items: [
         "Individuálny prístup a diferenciácia vyučovania sú základnou povinnosťou každého pedagóga bez formálnej dokumentácie.",
@@ -6359,6 +6360,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "A 2011. évi CXC. törvény a nemzeti köznevelésről (Nkt.) meghatározza a sajátos nevelési igényű (SNI) tanulók oktatásának alapelveit és intézményi kötelezettségeit.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "A 32/2012. (X. 8.) EMMI rendelet az SNI tanulók iskolai oktatásának irányelvéről részletesen szabályozza a különböző fogyatékossági típusokhoz szükséges feltételeket.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Magyarország ratifikálta az ENSZ Egyezményt a fogyatékossággal élők jogairól; az inkluzív oktatás állami célkitűzés.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "A köznevelési törvényt a 2026. évi XLVII. törvény módosította. Érdemes a hatályos, egységes szerkezetű szöveget megnézni, különösen a mentesítések körét, mert a módosítás érinti, hogy azok kikre vonatkoznak."
       ]},
       { items: [
         "A differenciált oktatás és adaptív pedagógia minden pedagógus kötelessége diagnózis nélkül is, az intézmény köteles befogadó környezetet biztosítani.",
@@ -6787,6 +6789,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Ο Νόμος 3699/2008 για την Ειδική Αγωγή και Εκπαίδευση αποτελεί το βασικό νομοθετικό πλαίσιο για μαθητές με αναπηρία ή/και ειδικές εκπαιδευτικές ανάγκες στην Ελλάδα.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Ο Νόμος 4823/2021 (αναβάθμιση σχολείου) ενισχύει τις δομές υποστήριξης και θεσμοθετεί τα ΚΕΔΑΣΥ ως κεντρικά σημεία συντονισμού.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Η Ελλάδα έχει κυρώσει τη Σύμβαση ΟΗΕ για τα δικαιώματα ατόμων με αναπηρία· η συμπεριληπτική εκπαίδευση είναι κρατική πολιτική.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Ο ν. 3699/2008 ισχύει με τροποποιήσεις· η πιο πρόσφατη κωδικοποίηση ενσωματώνει τον ν. 5224/2025. Ελέγχετε πάντα την κωδικοποιημένη μορφή του άρθρου, όχι το αρχικό κείμενο του 2008."
       ]},
       { items: [
         "Η παράλληλη στήριξη και η ενισχυτική διδασκαλία αποτελούν βασικές υποστηρικτικές δομές· οι γενικές προσαρμογές είναι ευθύνη κάθε εκπαιδευτικού χωρίς ειδικά έγγραφα.",
@@ -7215,6 +7218,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Законът за предучилищното и училищното образование (ЗПУО, ДВ бр. 79/2015 г.) установява приобщаващото образование като принцип и задължение на всяко училище в България.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Наредбата за приобщаващото образование (ДВ бр. 86/2017 г.) урежда дейността на екипите за подкрепа и видовете подкрепящи мерки.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "България е ратифицирала Конвенцията на ООН за правата на хората с увреждания; приобщаващото образование е национална политика.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Промени в Наредбата за приобщаващото образование влизат в сила от учебната 2026/2027 година, а законопроект за изменение на ЗПУО е внесен в Народното събрание през юни 2026 г. Проверявайте действащата редакция преди да се позовете на текст."
       ]},
       { items: [
         "Приобщаващото образование се осъществява чрез екипна работа и диференциран подход, всеки учител може да прилага базови адаптации без специален документ.",
