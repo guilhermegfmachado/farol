@@ -341,7 +341,8 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "EU Strategy for the Rights of Persons with Disabilities 2021–2030, commits Member States to accessible education, reasonable accommodation, and anti-discrimination measures.",
         "Education for Persons with Special Educational Needs Act 2004 (EPSEN Act), Ireland's primary SEN legislation; establishes the right to an inclusive education and to an Individual Education Plan (IEP).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "National Council for Special Education (NCSE), statutory body that allocates Special Education Teachers (SET) and Special Needs Assistants (SNA) to schools; publishes guidelines and policies.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
-        "Circular 0014/2017 (DES), allocates SET hours to schools using a profile-based model; hours are managed by the school to respond flexibly to identified needs.",
+        "Special Education Teacher (SET) hours are allocated on a profile-based model set out in the staffing circular issued for each school year — Circular 0011/2026 for 2026/27, not the original Circular 0014/2017. The school manages the hours flexibly; check the current year's circular, because the profile is recalculated.",
+        "Review of the EPSEN Act, published June 2025 after one of the department's largest consultations, and the Implementation Plan published in 2026 setting out how its 51 recommendations will be delivered across 16 themes. The Act itself still stands: the plan changes practice and policy first, legislation later."
       ]},
       { items: [
         "Apply Universal Design for Learning (UDL) principles: provide multiple means of representation, action, expression, and engagement for all students.",
@@ -773,6 +774,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Real Decreto 984/2021, regula la evaluación y promoción del alumnado; establece que las medidas de respuesta educativa se recogen en un plan específico personalizado para el alumnado con necesidades específicas de apoyo educativo (ACNEAE).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Real Decreto 126/2014 y decretos autonómicos de desarrollo curricular, la educación es competencia compartida; cada comunidad autónoma regula los procedimientos de identificación y atención al ACNEAE.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Resolución de la Secretaría de Estado de Educación sobre orientación educativa, establece los equipos de orientación educativa (EOE) en primaria y los departamentos de orientación en secundaria como referentes del proceso de evaluación psicopedagógica.",
+        "La LOMLOE, en su disposición adicional cuarta, compromete al Gobierno a un plan a diez años para que los centros ordinarios puedan atender al alumnado con discapacidad, y para que los centros de educación especial pasen a ser centros de referencia y apoyo de la red ordinaria."
       ]},
       { items: [
         "Aplicar el Diseño Universal para el Aprendizaje (DUA): ofrecer múltiples formas de representación, acción, expresión e implicación para todo el alumnado.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -1204,6 +1206,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Loi du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'École de la République, renforce l'école inclusive et la lutte contre les inégalités ; crée l'ESPE (devenu INSPE).<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Loi du 26 juillet 2019 pour une école de la confiance, inscrit l'école inclusive dans le code de l'éducation ; généralise les ULIS (Unités Localisées pour l'Inclusion Scolaire) et les PIAL (Pôles Inclusifs d'Accompagnement Localisé) pour la gestion des AESH.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Circulaire du 3 mai 2017 relative à l'instruction obligatoire, rappelle que tout enfant a droit à l'instruction, y compris les EANA (élèves allophones nouvellement arrivés).",
+        "Les pôles d'appui à la scolarité (PAS) remplacent progressivement les PIAL : l'appui arrive dans l'école sans attendre une notification MDPH. L'Assemblée nationale a rejeté leur généralisation le 11 mai 2026, mais les rectorats poursuivent le déploiement ; la couverture varie donc d'un département à l'autre, vérifier ce qui existe dans le sien."
       ]},
       { items: [
         "Appliquer les principes de la conception universelle pour l'apprentissage (CUA/UDL) : proposer des modalités multiples de représentation, d'action et d'expression pour tous les élèves.",
@@ -1635,6 +1638,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Legge 170/2010 (Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico), riconosce ufficialmente dislessia, disgrafia, disortografia e discalculia (DSA); obbliga le scuole a predisporre il Piano Didattico Personalizzato (PDP) per questi alunni.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "D.Lgs. 66/2017 e successive modifiche (D.Lgs. 96/2019), riformano l'inclusione scolastica degli alunni con disabilità; introducono il Profilo di Funzionamento (in sostituzione della diagnosi funzionale) e ridefiniscono il PEI secondo un approccio bio-psico-sociale (ICF).<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "Direttiva MIUR del 27 dicembre 2012 e Circolare 8/2013, ampliano le tutele ai Bisogni Educativi Speciali (BES), includendo difficoltà socio-economiche, linguistiche e culturali; ogni scuola elabora un Piano Annuale per l'Inclusione (PAI, oggi Piano per l’Inclusione).<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>",
+        "Il modello nazionale di PEI è fissato per decreto interministeriale: il DI 182/2020, annullato dal Consiglio di Stato, è stato sostituito dal DI 153/2023, che resta il riferimento per la compilazione del PEI su base ICF."
       ]},
       { items: [
         "Applicare i principi della Progettazione Universale per l'Apprendimento (UDL): offrire molteplici modalità di rappresentazione, azione ed espressione per tutti gli alunni.",
@@ -2065,6 +2069,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kerngesetze: UN-BRK (UN-Behindertenrechtskonvention, ratifiziert 2009), KMK-Empfehlungen zur inklusiven Bildung (2011/2020), jedes Bundesland hat ein eigenes Schulgesetz (z. B. SchulG NRW §20, BayEUG Art. 41).<sup class=\"cite\"><a href=\"#ref-1\">1</a>,<a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Die Schulgesetze der Länder regeln die konkrete Umsetzung inklusiver Bildung, der Handlungsspielraum variiert je nach Bundesland.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Inklusive Bildung ist ein Rechtsanspruch, der sich aus der UN-BRK ergibt; die Ausgestaltung liegt bei den Bundesländern.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Die Kultusministerkonferenz heißt nach ihrer Reform Bildungsministerkonferenz. Die Empfehlungen von 2011 bleiben der Rahmen; ergänzend gelten neuere Empfehlungen zu einzelnen Förderschwerpunkten, unter anderem zur emotionalen und sozialen Entwicklung und zum Förderschwerpunkt Lernen."
       ]},
       { items: [
         "Nachteilsausgleich: zeitliche, räumliche oder materielle Kompensationsmaßnahmen, die alle Lehrkräfte ohne formale Diagnose anwenden können.",
