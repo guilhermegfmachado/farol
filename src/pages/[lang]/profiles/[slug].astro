@@ -60,10 +60,12 @@ function entryHref(e: typeof allEntries[0]) {
       <h1 class="card-title">{title}</h1>
       {subtitle && <p class="card-subtitle">{subtitle}</p>}
     </header>
-    {sections.map((section, i) => (
+    {/* See the note in references/[slug].astro: a section with no translation at
+        this position is skipped, never filled with the Portuguese source. */}
+    {sections.map((section, i) => (ct ? ct.sections[i]?.items : section.items) && (
       <section class="card-section" data-a4={['Como se manifesta na sala', 'Estratégias sem IA', 'Sinais de alerta para referenciação'].includes(section.label) ? '' : undefined}>
         <h2 class="card-section-label">{sectionLabelTranslations[lang]?.[section.label] ?? section.label}</h2>
-        <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
+        <ul>{((ct ? ct.sections[i]?.items : section.items) ?? []).map((item) => <li><span set:html={item} /></li>)}</ul>
         {section.label === 'Estratégias sem IA' && (
           <a class="section-ref-link" href={`${base}${lang}/references/diferenciacao/`}>{entryTranslations[lang]?.diferenciacao?.title ?? 'Diferenciação Pedagógica'} →</a>
         )}

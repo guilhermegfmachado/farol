@@ -56,12 +56,20 @@ function entryHref(e: typeof allEntries[0]) {
     {slug === 'legislacao' && (
       <p class="country-note" set:html={t.legal_country_note} />
     )}
-    {sections.map((section, i) => (
-      <section class="card-section">
-        <h2 class="card-section-label">{sectionLabelTranslations[lang]?.[section.label] ?? section.label}</h2>
-        <ul>{(ct?.sections[i]?.items ?? section.items).map((item) => <li><span set:html={item} /></li>)}</ul>
-      </section>
-    ))}
+    {/* Sections are paired with their translation by position, so a section that
+        exists only in the Portuguese source has no counterpart here. Falling back
+        to `section.items` in that case printed Portuguese onto a translated page —
+        and, because the pairing is positional, shifted every section after it. A
+        locale renders what it has translated and nothing else. */}
+    {sections.map((section, i) => {
+      const items = ct ? ct.sections[i]?.items : section.items;
+      return items && (
+        <section class="card-section">
+          <h2 class="card-section-label">{sectionLabelTranslations[lang]?.[section.label] ?? section.label}</h2>
+          <ul>{items.map((item) => <li><span set:html={item} /></li>)}</ul>
+        </section>
+      );
+    })}
     {((ct?.references ?? entry.data.references) ?? []).length > 0 && (
       <section class="card-section references-section">
         <h2 class="card-section-label">{t.references_label}</h2>
