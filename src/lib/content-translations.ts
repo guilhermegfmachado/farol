@@ -9798,6 +9798,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "L-Att dwar l-Edukazzjoni (Kap. 605, 2019) jobbliga l-inklużjoni u l-aċċess għall-edukazzjoni għat-tfal kollha.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Il-Politika tal-Edukazzjoni Inklussiva (2019, „Route to Quality Inclusion”) tartikola l-approċċ Malti għall-bżonnijiet speċjali.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Malta rratifikat il-Konvenzjoni tal-NU dwar id-Drittijiet tal-Persuni b'Diżabilità (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Iż-żewġ dokumenti ta' gwida — A National Inclusive Education Framework u A Policy on Inclusive Education in Schools: Route to Quality Inclusion — ġew ippubblikati fl-2019 u riveduti fl-2022. Uża l-verżjoni riveduta, mhux dik oriġinali."
       ]},
       { items: [
         "Id-differenzjazzjoni fil-klassi hija responsabbiltà ta' kull għalliem — materjal adattat, struzzjonijiet aktar ċari u ħin addizzjonali ma jeħtieġu l-ebda deċiżjoni formali.",

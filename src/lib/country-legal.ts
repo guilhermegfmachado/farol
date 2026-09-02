@@ -74,6 +74,7 @@ export const countryLegal: Record<string, CountryLegal> = {
           `Das Verfahren läuft auf Antrag der Erziehungsberechtigten oder von Amts wegen; ein schulpsychologisches Gutachten wird mit deren Zustimmung eingeholt.${c(1)}`,
           `Die Erziehungsberechtigten können den Besuch einer allgemeinen Schule verlangen. Steht in zumutbarer Entfernung keine geeignete Schule zur Verfügung, hat die Bildungsdirektion entsprechende Maßnahmen zu setzen.${c(1)}`,
           `Österreich hat die UN-Behindertenrechtskonvention 2008 ratifiziert (BGBl. III Nr. 155/2008, in Kraft seit 26. Oktober 2008); der Nationale Aktionsplan Behinderung 2022–2030 führt inklusive Bildung als eigenes Handlungsfeld.${c2(2, 3)}`,
+          `Eine Reform der Sonderpädagogik ist angekündigt und soll im Schuljahr 2027/28 wirksam werden: geplant sind eine Neufassung des sonderpädagogischen Förderbedarfs, ein Rechtsanspruch auf zusätzliche Schuljahre und Änderungen in der Lehrkräfteausbildung. Anlass sind Studien des Ministeriums, die stark unterschiedliche Zuerkennungspraxis zwischen den Bundesländern feststellten.`,
         ],
       },
       {
@@ -149,6 +150,7 @@ export const countryLegal: Record<string, CountryLegal> = {
           `Het vertrekt van het recht op kwaliteitsvol inclusief onderwijs voor elk kind.${c(1)}`,
           `Een specifieke onderwijsbehoefte wordt niet als een persoonlijk gebrek gezien (medisch deficitdenken), maar als een <strong>afstemmingsprobleem</strong> tussen de klas- en schoolcontext en de behoeften van de leerling.${c(1)}`,
           `Leersteuncentra ondersteunen leerlingen met specifieke onderwijsbehoeften in het gewoon onderwijs; de ondersteuning richt zich op de leerling, de leraar én het schoolteam.${c(1)}`,
+          `De leersteuncentra zijn vanaf het schooljaar 2025-2026 definitief erkend; er zijn er maximaal 47, en de leersteuners kregen voor het eerst een vaste benoeming.`,
         ],
       },
       {
@@ -217,6 +219,7 @@ export const countryLegal: Record<string, CountryLegal> = {
           `Tout élève de l’enseignement ordinaire fondamental et secondaire présentant un ou des besoins spécifiques a droit à des <strong>aménagements raisonnables</strong> matériels, organisationnels ou pédagogiques appropriés, pour autant que sa situation ne rende pas indispensable une prise en charge par l’enseignement spécialisé.${c(1)}`,
           `Le décret précise les modalités de concertation et de mise en œuvre; il s’applique depuis l’année scolaire 2018-2019.${c(1)}`,
           `Un aménagement raisonnable adapte les conditions, pas le niveau d’exigence.`,
+          `Les pôles territoriaux, prévus par le Pacte pour un enseignement d'excellence, existent depuis 2022-2023 : 48 pôles couvrent les dix zones d'enseignement, chacun rattaché à une école d'enseignement spécialisé et doté d'une équipe pluridisciplinaire d'au moins quinze personnes. La phase transitoire s'est terminée en juin 2026 ; depuis, ce sont les pôles qui prennent en charge les projets d'intégration.`,
         ],
       },
       {
