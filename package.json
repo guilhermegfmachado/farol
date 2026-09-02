@@ -5,9 +5,9 @@
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/stamp-sw.mjs && node scripts/check-parity.mjs && node scripts/check-pt-leak.mjs",
+    "build": "astro build && node scripts/stamp-sw.mjs && node scripts/check-parity.mjs && node scripts/check-pt-leak.mjs && node scripts/check-sections.mjs",
     "preview": "astro preview",
-    "parity": "node scripts/check-parity.mjs && node scripts/check-pt-leak.mjs"
+    "parity": "node scripts/check-parity.mjs && node scripts/check-pt-leak.mjs && node scripts/check-sections.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
