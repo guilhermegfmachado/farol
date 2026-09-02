@@ -7646,6 +7646,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Lietuvos Respublikos švietimo įstatymas (2011 m. Nr. XI-1281) nustato specialiųjų ugdymosi poreikių (SUP) tenkinimo principus ir mokyklos pareigas.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Mokinio specialiųjų ugdymosi poreikių įvertinimo ir specialiosios pagalbos skyrimo tvarkos aprašas (2011) reglamentuoja vertinimo procesą.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Lietuva ratifikavo JT neįgaliųjų teisių konvenciją; įtraukusis ugdymas yra valstybinė politika.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Nuo 2024 m. rugsėjo 1 d. Švietimo įstatymo pataisos įpareigoja kiekvieną mokyklą ir darželį priimti vaiką, turintį specialiųjų ugdymosi poreikių, jei tėvai, pasitarę su specialistais, nusprendžia, kad bendrojo ugdymo įstaiga yra geriausias sprendimas. Įstatymas toliau keičiamas, pakeitimai įsigalioja etapais."
       ]},
       { items: [
         "Individualizuotas ugdymas ir diferenciacija yra kiekvieno mokytojo pareiga be jokios specialios dokumentacijos.",
@@ -8073,6 +8074,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Izglītības likums (1998, grozījumi 2022) nosaka izglītības pieejamību visiem bērniem neatkarīgi no spējām.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Vispārējās izglītības likums (1999) regulē atbalstu skolēniem ar speciālām vajadzībām.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Ministru kabineta noteikumi Nr. 556 (2019) nosaka iekļaujošās izglītības principus valsts skolās.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
+        "Saeima 2026. gada 23. jūlijā pieņēma grozījumus Izglītības likumā, kas precizē izglītības ieguvi bērniem ar somatiskām saslimšanām un garīgās attīstības traucējumiem. Pārbaudiet spēkā esošo redakciju, pirms atsaucaties uz konkrētu pantu."
       ]},
       { items: [
         "Individuāla pieeja mācību procesā ir katra skolotāja kompetencē — pielāgoti materiāli, skaidrākas instrukcijas un papildu laiks neprasa formālu atzinumu.",
@@ -8503,6 +8505,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Põhikooli- ja gümnaasiumiseadus (PGS, 2010) reguleerib hariduslike erivajadustega (HEV) õpilaste õppe korraldamist.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Koolieelse lasteasutuse seadus ja lastekaitse seadus täiendavad HEV-õpilaste kaitset.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Eesti on ratifitseerinud ÜRO puuetega inimeste õiguste konventsiooni (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Riigikogu menetleb põhikooli- ja gümnaasiumiseaduse muutmise eelnõu, mis muudab tugimeetmete rakendamise paindlikumaks: tõhustatud või eritoe vajadust hinnatakse kooli ja välise nõustamismeeskonna koostöös. Kuni eelnõu vastuvõtmiseni kehtib senine kord."
       ]},
       { items: [
         "Üldist tuge pakub kool ilma koolivälise hindamiseta: õpetaja individuaalne juhendamine, õpiabitunnid ja tugispetsialistide esmane nõustamine.",
@@ -8934,6 +8937,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Zakon o usmerjanju otrok s posebnimi potrebami</strong> (ZUOPP-1, 2011) ureja postopek usmerjanja in pravice otrok s posebnimi potrebami.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zakon o osnovni šoli in Zakon o organizaciji in financiranju vzgoje in izobraževanja dopolnjujeta inkluzivno izobraževanje.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Slovenija je ratificirala Konvencijo ZN o pravicah invalidov (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Novela ZUOPP-1B, sprejeta 3. februarja 2026, se uporablja od 1. septembra 2026. Med otroke s posebnimi potrebami dodaja otroke z gluhoslepoto in uvaja poglavje o podpori in pomoči: novi 4.a člen določa stopenjsko pomoč v okviru kontinuuma podpore, ki jo šola nudi že ob zaznanih učnih težavah, brez odločbe o usmeritvi."
       ]},
       { items: [
         "Notranja diferenciacija pouka je pravica in dolžnost vsakega učitelja — prilagajanje razlage, gradiv in preverjanja ne zahteva nobene odločbe.",
