@@ -2498,6 +2498,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Kernwet: Wet passend onderwijs (2014), elke school is verplicht een passend onderwijsaanbod te doen voor elke leerling.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Samenwerkingsverbanden passend onderwijs coördineren de extra ondersteuning in de regio.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Zorgplicht: scholen zijn wettelijk verplicht een passende plek te vinden voor elke leerling, ook bij complexe ondersteuningsbehoeften.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
+        "De koers is van passend naar inclusief onderwijs, met 2035 als richtjaar; het ministerie werkt aan een transitieplan dat begin 2027 naar de Kamer gaat. Sinds 1 augustus 2025 geldt bovendien de wet die de positie van ouders en leerlingen in het passend onderwijs versterkt."
       ]},
       { items: [
         "Basisondersteuning: elke school biedt een basisniveau van ondersteuning zonder formele indicatie.",
@@ -2925,6 +2926,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Podstawa prawna: <strong>Ustawa Prawo oświatowe z 14 grudnia 2016 r.</strong> (Dz.U. 2017 poz. 59) oraz Rozporządzenie MEN w sprawie warunków organizowania kształcenia specjalnego (2017).<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup><sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Orzeczenie o potrzebie kształcenia specjalnego wydaje poradnia psychologiczno-pedagogiczna (PPP), jest niezbędne do sformalizowanego wsparcia specjalnego.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Konstytucja RP i ratyfikowana Konwencja ONZ o prawach osób z niepełnosprawnościami stanowią ramy prawa do edukacji włączającej.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Od 1 września 2026 r. obowiązuje ocena funkcjonalna: przed wydaniem orzeczenia przez poradnię psychologiczno-pedagogiczną przedszkole lub szkoła sporządza opis funkcjonowania dziecka w swoim środowisku. Wynika to z rozporządzenia Ministra Edukacji podpisanego 2 marca 2026 r."
       ]},
       { items: [
         "Dostosowanie wymagań edukacyjnych możliwe na podstawie opinii PPP, bez orzeczenia, odpowiedzialność każdego nauczyciela.",
@@ -3352,6 +3354,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Baza legală principală: Legea învățământului preuniversitar nr. 198/2023 (care a abrogat Legea Educației Naționale nr. 1/2011) și Ordinul comun nr. 1985/1305/5805/2016 privind metodologia de orientare școlară și profesională a copiilor cu cerințe educaționale speciale (CES).<sup class=\"cite\"><a href=\"#ref-2\">2</a>,<a href=\"#ref-3\">3</a></sup>",
         "Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului completează cadrul de drepturi educaționale.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>",
         "România a ratificat, prin Legea nr. 221/2010, Convenția ONU privind drepturile persoanelor cu dizabilități, care stă la baza politicilor de educație incluzivă.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Legea 198/2023 a fost modificată prin Ordonanța de urgență nr. 28/2026, publicată în Monitorul Oficial nr. 310 din 20 aprilie 2026. Verificați forma actualizată a articolului pe care vă bazați, nu textul inițial."
       ]},
       { items: [
         "Adaptările curriculare și diferențierea pedagogică sunt responsabilitatea tuturor cadrelor didactice, fără documentație specială.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
@@ -3785,6 +3788,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Konvencija UN-a o pravima osoba s invaliditetom (2006.), ratificirala Hrvatska; uspostavlja inkluzivno obrazovanje kao pravo.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
         "Zakon o odgoju i obrazovanju u osnovnoj i srednjoj školi, temelj hrvatskog obrazovnog sustava s obvezom inkluzije.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Strategija obrazovanja, znanosti i tehnologije RH, smjernice za inkluzivno obrazovanje i potporu učenicima s posebnim potrebama.",
+        "Pravilnik o pomoćnicima u nastavi i stručnim komunikacijskim posrednicima uređuje pravo učenika s teškoćama u razvoju na potporu pomoćnika u nastavi, uvjete koje pomoćnici moraju ispuniti i postupak ostvarivanja tog prava."
       ]},
       { items: [
         "Prilagodba i individualizacija nastavnog procesa, svaki nastavnik može primijeniti bez posebne dokumentacije; diferencirani pristup je standardna praksa.",
@@ -4214,6 +4218,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>Vyhláška č. 27/2016 Sb.</strong> o vzdělávání žáků se speciálními vzdělávacími potřebami, podpůrná opatření 1.–5. stupně.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Akční plán inkluzivního vzdělávání MŠMT, závazek k inkluzivnímu přístupu.",
         "Úmluva OSN o právech osob se zdravotním postižením (2006), ratifikovaná ČR; zakotvuje právo na inkluzivní vzdělávání.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Velká novela školského zákona přinesla od 1. ledna 2026 spádovost pedagogicko-psychologických poraden. Školní psycholog a školní speciální pedagog se ve školách se 180 a více žáky stávají běžnou součástí sboru, nikoli podpůrným opatřením."
       ]},
       { items: [
         "Plán pedagogické podpory (PLPP): každý učitel jej může zavést bez doporučení PPP; zahrnuje úpravy metod, organizace a hodnocení.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
@@ -9352,6 +9357,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "Bunaíonn an tAcht Oideachais 1998 creat ginearálta d'oideachas uilíoch agus comhionann in Éirinn.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "Acht um Oideachas do Dhaoine a bhfuil Riachtanais Speisialta Oideachais acu (EPSEN Act, 2004) leagann amach cearta agus próisis le haghaidh measúnú agus plean oideachais aonair.<sup class=\"cite\"><a href=\"#ref-3\">3</a></sup>",
         "Tá Éire tiomanta do Choinbhinsiún na NA ar Chearta Daoine faoi Mhíchumas (CRPD).<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>",
+        "Foilsíodh Athbhreithniú ar Acht EPSEN i Meitheamh 2025, agus Plean Feidhmithe in 2026 a leagann amach conas a chuirfear a 51 moladh i bhfeidhm. Seasann an tAcht féin go fóill: athraíonn an plean an cleachtas agus an beartas ar dtús."
       ]},
       { items: [
         "Is é an múinteoir ranga an chéad chéim sa Chontanam Tacaíochta (NEPS): tacaíocht sa seomra ranga — idirdhealú, socruithe simplí agus breathnóireacht dhoiciméadaithe, gan aon atreorú foirmiúil.",
