@@ -33,6 +33,13 @@ sections:
       - "O Despacho Normativo 7/2006 e posteriores regulam o ensino do Português Língua Não Materna. Alunos PLNM são integrados em níveis A1 a C2 (QECR) após avaliação diagnóstica.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
       - "A avaliação de alunos PLNM nas restantes disciplinas deve ter em conta a barreira linguística — as classificações não devem penalizar o domínio linguístico quando o objetivo é avaliar conhecimento de conteúdo.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
       - "Alunos com menos de dois anos de escolaridade em Portugal têm direito a apoio específico de PLNM — verificar disponibilidade no agrupamento.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
+  - label: "O que guardar como referência rápida"
+    items:
+      - "<strong>DL 54/2018</strong> — regime geral da educação inclusiva (substituiu o DL 3/2008)."
+      - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
+      - "<strong>Despacho Normativo 1-F/2016</strong> — regime de avaliação dos alunos do ensino básico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "<strong>Circular 3/DSEEASE/2011</strong> — orientações para sobredotação."
+      - "<strong>Despacho Normativo 7/2006</strong> — PLNM."
   - label: "A revisão aprovada — o que muda a partir de janeiro de 2027"
     items:
       - "A 30 de julho de 2026 o Conselho de Ministros aprovou um decreto-lei que revê este regime jurídico, depois de consulta pública. O DL 54/2018 continua em vigor: o novo diploma só produz efeitos a partir de janeiro de 2027 e depende ainda de legislação complementar.<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
@@ -41,13 +48,6 @@ sections:
       - "Reconfigura as estruturas de apoio num <strong>Sistema Nacional de Apoio à Inclusão</strong>, com equipas locais que articulam Educação, Saúde e Segurança Social. A EMAEI mantém o papel central na organização das respostas da escola.<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
       - "Reforça a participação das famílias, com direito explícito a sinalizar necessidades e a participar na elaboração do PDI, e promete respostas mais céleres.<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
       - "Até lá, é o que está descrito acima que se aplica. Antes de decidir com base num artigo, confirme a versão consolidada em vigor no Diário da República — é ela que manda, não um resumo."
-  - label: "O que guardar como referência rápida"
-    items:
-      - "<strong>DL 54/2018</strong> — regime geral da educação inclusiva (substituiu o DL 3/2008)."
-      - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
-      - "<strong>Despacho Normativo 1-F/2016</strong> — regime de avaliação dos alunos do ensino básico.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
-      - "<strong>Circular 3/DSEEASE/2011</strong> — orientações para sobredotação."
-      - "<strong>Despacho Normativo 7/2006</strong> — PLNM."
 references:
   - "Decreto-Lei n.º 54/2018, de 6 de julho — Regime jurídico da educação inclusiva. <em>Diário da República</em>, 1.ª série, n.º 129 (alterado pela Lei n.º 116/2019, de 13 de setembro, e pelo Decreto-Lei n.º 62/2023, de 25 de julho). <a href=\"https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2018-115654476-115625169\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
   - "Decreto-Lei n.º 55/2018, de 6 de julho — Currículo dos ensinos básico e secundário (autonomia e flexibilidade curricular). <em>Diário da República</em>, 1.ª série, n.º 129."
