@@ -12,6 +12,13 @@
 // sections in every locale as it does in Portuguese, with one deliberate
 // exception: the legal card carries a section about the Portuguese decree
 // revision that belongs on no other country's card.
+//
+// The same silence applies one level down. Five locales were found short a
+// bullet on three cards — including question 5 of the ethics decision grid,
+// so those readers got a numbered list that stopped at four. A missing bullet
+// renders as nothing at all, exactly like a missing section, so the bullet
+// counts are pinned too. The legal card is exempt from that half: those cards
+// are each written for their own country and share only a shape, not content.
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -26,6 +33,16 @@ function walk(dir, out = []) {
   return out;
 }
 
+const shape = (file) => {
+  const html = readFileSync(file, 'utf8');
+  const card = html.match(/<article class="card[\s\S]*?<\/article>/);
+  if (!card) return null;
+  // Citations are shared across locales by design, so they are not compared.
+  const body = card[0].replace(/<ol class="references-list"[\s\S]*?<\/ol>/, '');
+  return (body.match(/<ul[^>]*>[\s\S]*?<\/ul>/g) || [])
+    .map((ul) => (ul.match(/<li/g) || []).length);
+};
+
 const count = (file) => {
   const html = readFileSync(file, 'utf8');
   const card = html.match(/<article class="card[\s\S]*?<\/article>/);
@@ -37,9 +54,13 @@ const isCard = (rel) => /^(references|profiles)\/[^/]+$/.test(rel.replace(/\/ind
 
 // Portuguese lives at the root; every other locale under its own prefix.
 const pt = {};
+const ptShape = {};
 for (const f of pages) {
   const rel = f.replace(/^dist\//, '');
-  if (isCard(rel)) pt[rel.split('/')[1]] = count(f);
+  if (isCard(rel)) {
+    pt[rel.split('/')[1]] = count(f);
+    ptShape[rel.split('/')[1]] = shape(f);
+  }
 }
 
 const problems = [];
@@ -56,6 +77,17 @@ for (const f of pages) {
   if (short !== allowed) {
     problems.push(`${lang}/${parts[1]}/${slug}: ${n} sections, Portuguese has ${pt[slug]} ` +
       `(expected ${allowed} fewer, found ${short})`);
+    continue;
+  }
+  // Bullet counts, for every card whose sections are actually translations.
+  if (slug === 'legislacao') continue;
+  const mine = shape(f), ref = ptShape[slug];
+  if (!mine || !ref) continue;
+  for (let i = 0; i < ref.length; i++) {
+    if ((mine[i] ?? 0) < ref[i]) {
+      problems.push(`${lang}/${parts[1]}/${slug}: section ${i + 1} has ${mine[i] ?? 0} bullets, ` +
+        `Portuguese has ${ref[i]}`);
+    }
   }
 }
 
@@ -65,4 +97,4 @@ if (problems.length) {
   if (problems.length > 15) console.error(`  … and ${problems.length - 15} more`);
   process.exit(1);
 }
-console.log(`sections: ${Object.keys(pt).length} cards x 28 locales, shape matches`);
+console.log(`sections: ${Object.keys(pt).length} cards x 28 locales, sections and bullets match`);

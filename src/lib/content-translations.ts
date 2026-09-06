@@ -10195,6 +10195,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>2.</strong> Girilen veriler korunuyor mu ve rıza var mı?",
         "<strong>3.</strong> Aracın çıktısı öğrenciye ulaşmadan önce bir insan tarafından denetlenecek mi?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Aynı işi gören, yapay zekâsız bir seçenek var mı?",
+        "<strong>5.</strong> Araç yarın ortadan kalksa, öğrenci desteksiz mi kalır?"
       ]},
     ],
     references: [
@@ -10300,6 +10301,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Sınıf içi farklılaştırma yetmemeye başladığında ve öğrenci hâlâ müfredata erişemiyorsa, bu uzman desteğinin gerekebileceğinin işaretidir.",
+        "Farklılaştırma, okulun destek önlemlerinin (rehberlik servisi, terapistler, özel eğitim) yerini almaz — onlarla birlikte, olağan sınıfta olan şeydir."
       ]},
     ],
     },
@@ -10329,6 +10331,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Değerlendirme uyarlamalarına rağmen öğrenci öğrendiğini gösteremiyorsa, bu rehberlik servisiyle araştırılması gereken daha derin bir engelin işareti olabilir.",
+        "Bir alandaki özel güçlüğün kalıcı örüntüleri — günlerle değil, aylarla ölçülen — resmî olarak bildirilmelidir."
       ]},
     ],
     },
@@ -10629,6 +10632,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>2.</strong> Er opplysningene som legges inn beskyttet, og finnes samtykket?",
         "<strong>3.</strong> Blir resultatet kontrollert av et menneske før det når eleven?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Finnes det et alternativ uten KI som fungerer like godt?",
+        "<strong>5.</strong> Hvis verktøyet forsvant i morgen, ville eleven stå uten støtte?"
       ]},
     ],
     references: [
@@ -10733,6 +10737,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Når tilpasningen i klasserommet ikke lenger strekker til og eleven fortsatt ikke får tilgang til læreplanen, er det et tegn på at det kan trengs spesialisert hjelp.",
+        "Tilpasset opplæring erstatter ikke skolens støttetiltak (rådgivningstjeneste, terapeuter, spesialundervisning) — den er det som skjer i det ordinære klasserommet ved siden av dem."
       ]},
     ],
     },
@@ -10762,6 +10767,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Når eleven, selv med tilpasset vurdering, ikke får vist læringen sin, kan det være tegn på en dypere hindring som bør undersøkes med PP-tjenesten.",
+        "Vedvarende mønstre med spesifikke vansker på ett område — måneder, ikke dager — bør meldes formelt."
       ]},
     ],
     },
@@ -11062,6 +11068,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>2.</strong> Eru gögnin sem slegin eru inn varin, og liggur samþykki fyrir?",
         "<strong>3.</strong> Verður niðurstaða verkfærisins yfirfarin af manneskju áður en hún nær til nemandans?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Er til valkostur án gervigreindar sem virkar jafn vel?",
+        "<strong>5.</strong> Ef tólið hyrfi á morgun, stæði nemandinn þá uppi án stuðnings?"
       ]},
     ],
     references: [
@@ -11166,6 +11173,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Þegar einstaklingsmiðun í stofunni dugar ekki lengur og nemandinn kemst enn ekki að námskránni, er það merki um að sérhæfðs stuðnings kunni að þurfa.",
+        "Aðlögun kemur ekki í stað stuðningsúrræða skólans (náms- og starfsráðgjöf, meðferðaraðilar, sérkennsla) — hún er það sem gerist í almennri kennslustofu samhliða þeim."
       ]},
     ],
     },
@@ -11195,6 +11203,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Þegar nemandinn, jafnvel með aðlöguðu námsmati, nær ekki að sýna nám sitt, getur það verið merki um dýpri hindrun sem skoða þarf með skólaþjónustunni.",
+        "Viðvarandi mynstur sértækra erfiðleika á einu sviði — mánuðum saman, ekki dögum — á að tilkynna formlega."
       ]},
     ],
     },
@@ -11495,6 +11504,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>2.</strong> Јесу ли унети подаци заштићени и постоји ли сагласност?",
         "<strong>3.</strong> Хоће ли резултат алатке проверити човек пре него што стигне до ученика?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Постоји ли решење без вештачке интелигенције које ради једнако добро?",
+        "<strong>5.</strong> Ако алатка сутра престане да постоји, остаје ли ученик без ослонца?"
       ]},
     ],
     references: [
@@ -11600,6 +11610,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Када диференцијација у одељењу више није довољна, а ученик и даље не долази до програма, то је знак да може бити потребна стручна подршка.",
+        "Диференцијација не замењује мере подршке школе (стручна служба, терапеути, специјална едукација) — она је оно што се дешава у редовној учионици упоредо с њима."
       ]},
     ],
     },
@@ -11629,6 +11640,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Када ученик ни уз прилагођено оцењивање не успева да покаже знање, то може бити знак дубље препреке коју треба испитати са стручном службом.",
+        "Устаљени обрасци (месецима, не данима) специфичне тешкоће у једној области треба формално да се пријаве."
       ]},
     ],
     },
@@ -11929,6 +11941,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
         "<strong>2.</strong> Заштитени ли се внесените податоци и постои ли согласност?",
         "<strong>3.</strong> Ќе го провери ли резултатот од алатката човек пред да стигне до ученикот?<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>",
         "<strong>4.</strong> Постои ли решение без вештачка интелигенција што работи подеднакво добро?",
+        "<strong>5.</strong> Ако алатката утре престане да постои, дали ученикот останува без потпора?"
       ]},
     ],
     references: [
@@ -12033,6 +12046,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Кога диференцијацијата во одделението веќе не е доволна, а ученикот сè уште не доаѓа до програмата, тоа е знак дека може да е потребна стручна поддршка.",
+        "Диференцијацијата не ги заменува мерките за поддршка на училиштето (стручна служба, терапевти, специјална едукација) — таа е она што се случува во редовната училница напоредно со нив."
       ]},
     ],
     },
@@ -12062,6 +12076,7 @@ export const contentTranslations: Partial<Record<string, ContentLang>> = {
       ]},
       { items: [
         "Кога ученикот ни со приспособено оценување не успева да го покаже знаењето, тоа може да биде знак за подлабока пречка што треба да се испита со стручната служба.",
+        "Трајните обрасци (со месеци, не со денови) на специфична тешкотија во една област треба формално да се пријават."
       ]},
     ],
     },
