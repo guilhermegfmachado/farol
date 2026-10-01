@@ -8,9 +8,9 @@ Manual de consulta rápida para docentes que trabalham com turmas heterogéneas.
 
 ## Stack
 
-- [Astro](https://astro.build) — gerador de sites estáticos (~870 páginas)
+- [Astro](https://astro.build) — gerador de sites estáticos (~1 200 páginas)
 - TypeScript · Content Collections com validação Zod
-- i18n para 26 línguas (PT na raiz + 23 línguas oficiais da UE, turco, norueguês, islandês, sérvio e macedónio em `/{lang}/`)
+- i18n para 29 línguas (PT na raiz + 23 línguas oficiais da UE, turco, norueguês, islandês, sérvio e macedónio em `/{lang}/`)
 - Plus Jakarta Sans + JetBrains Mono + OpenDyslexic (self-hosted via fontsource)
 - PWA instalável e utilizável offline · exportação para PDF no cliente
 - GitHub Pages via GitHub Actions
@@ -34,14 +34,25 @@ a imagem de pré-visualização das ligações):
 npm i --no-save playwright-core && node scripts/render-icons.mjs
 ```
 
+## Verificações de build
+
+`npm run build` falha se uma destas três verificações falhar:
+
+- `scripts/check-parity.mjs` — todas as línguas têm as mesmas páginas;
+- `scripts/check-pt-leak.mjs` — nenhuma frase do texto-fonte em português aparece numa
+  página traduzida;
+- `scripts/check-sections.mjs` — cada cartão tem em cada língua o mesmo número de
+  secções e de pontos que em português (o cartão de enquadramento legal, escrito por
+  país, só tem de ter a mesma forma).
+
 ## Estrutura
 
 ```
 src/content/          # fonte em português; o frontmatter é tudo, o corpo não é usado
   profiles/           # 7 perfis (01–07): tdah, dislexia, dispraxia, autismo,
                       #   sobredotacao, plnm, discalculia
-  references/         # 5 referências (08–12): etica, oficina, legislacao,
-                      #   diferenciacao, avaliacao
+  references/         # 6 referências (01–06): etica, oficina, legislacao,
+                      #   diferenciacao, avaliacao, guia
   tools/              # catálogo de ferramentas de IA (descrição e ligação ao fornecedor)
 
 src/lib/
@@ -50,11 +61,12 @@ src/lib/
   country-legal.ts         # variantes por país do cartão de enquadramento legal
   observations.ts          # observações da página inicial e respetivos temas
   strategy-tags.ts         # etiquetas e níveis de medida de cada estratégia
-  tool-translations.ts, made.ts, entries.ts
+  tool-translations.ts, made.ts, entries.ts, about.ts
 ```
 
-O campo `index:` determina a ordem na grelha, na torre e na navegação: os perfis
-ocupam 01–07 e as referências 08–12.
+Os campos `kind` e `order` determinam a ordem na grelha, na torre e na navegação:
+perfis e referências são duas sequências independentes (perfis 01–07, referências
+01–06) e o número mostrado no cartão deriva deles.
 
 ## Adicionar um perfil
 
@@ -70,14 +82,14 @@ O cartão **não** fica completo só por se criar o ficheiro. É preciso tocar e
 6. `related:` nos perfis vizinhos e `profiles:` nas ferramentas relevantes — as ligações
    não se tornam recíprocas sozinhas
 
-O `index:` dos cartões seguintes tem de ser renumerado.
+O `order:` dos perfis seguintes tem de ser renumerado.
 
 ## Enquadramento legal por país
 
 A língua não é o país: o alemão serve a Alemanha, a Áustria, a Bélgica, o Luxemburgo e
 o Liechtenstein, e na Bélgica o ensino é competência das comunidades. Por isso só o
 cartão de enquadramento legal ganha um eixo de país — `/{lang}/references/legislacao/{país}/`
-— enquanto os outros onze cartões, que não citam legislação nacional, continuam indexados
+— enquanto os outros doze cartões, que não citam legislação nacional, continuam indexados
 apenas por língua.
 
 O eixo de país cobre os **27 Estados-Membros da UE e os seis países associados ao
@@ -96,11 +108,6 @@ Para acrescentar um país basta uma entrada em `src/lib/country-legal.ts` (chave
 O formulário no rodapé não tem backend: por omissão abre um *issue* do GitHub
 pré-preenchido (requer conta GitHub). Para receber as mensagens diretamente, preencher
 `FORMSPREE_ENDPOINT` — ou `FEEDBACK_EMAIL` — em `src/components/Footer.astro`.
-
-## Conteúdo pendente
-
-As secções *Onde a IA entra* ficam como espaço reservado até serem preenchidas após o
-curso em Florença (Agosto 2026). A estrutura e os estilos já estão prontos nas 29 línguas.
 
 ## Como foi feito
 
