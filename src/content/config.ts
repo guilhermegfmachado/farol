@@ -6,7 +6,7 @@ const sectionSchema = z.object({
 });
 
 const entrySchema = z.object({
-  // Two independent sequences: profiles 01-07, references 01-05. `kind` and
+  // Two independent sequences: profiles 01-07, references 01-06. `kind` and
   // `order` are the source of truth; the display number is derived from them,
   // so a card cannot drift into the wrong sequence or duplicate a number.
   kind: z.enum(['profile', 'reference']),
