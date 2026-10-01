@@ -26,20 +26,21 @@ sections:
       - "O SPO (Serviço de Psicologia e Orientação) coordena o processo de avaliação especializada e é o ponto de contacto central para referenciações."
   - label: "Sobredotação — legislação específica"
     items:
-      - "O DL 54/2018 inclui explicitamente alunos com capacidades de aprendizagem acima da média no âmbito da educação inclusiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
-      - "A Circular 3/DSEEASE/2011 define orientações para o acompanhamento de alunos sobredotados, incluindo a possibilidade de aceleração curricular e enriquecimento extracurricular.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
+      - "O DL 54/2018 enquadra todos os alunos, incluindo os de capacidades acima da média, no mesmo contínuo de medidas universais, seletivas e adicionais; não prevê um regime específico para a sobredotação, e os percursos curriculares diferenciados podem ser usados como medida seletiva.<sup class=\"cite\"><a href=\"#ref-1\">1</a></sup>"
+      - "No ensino básico, a Portaria 223-A/2018 prevê a progressão mais rápida de um aluno com capacidade de aprendizagem excecional e grau de maturidade adequado.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
+      - "A Circular 3/DSEEASE/2011, anterior ao DL 54/2018 (confirme se continua em vigor), define orientações para o acompanhamento de alunos sobredotados, incluindo a possibilidade de aceleração curricular e enriquecimento extracurricular.<sup class=\"cite\"><a href=\"#ref-5\">5</a></sup>"
   - label: "PLNM — enquadramento específico"
     items:
-      - "O Despacho Normativo 7/2006 e posteriores regulam o ensino do Português Língua Não Materna. Alunos PLNM são integrados em níveis A1 a C2 (QECR) após avaliação diagnóstica.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
+      - "O Despacho n.º 2044/2022, de 16 de fevereiro, estabelece as normas de apoio aos alunos cuja língua materna não é o português e distingue três níveis de proficiência linguística: <strong>iniciação</strong> (A1–A2), <strong>intermédio</strong> (B1) e <strong>avançado</strong> (B2–C1). O Despacho Normativo 7/2006, que o precedeu, deve ser lido à luz deste.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
       - "A avaliação de alunos PLNM nas restantes disciplinas deve ter em conta a barreira linguística — as classificações não devem penalizar o domínio linguístico quando o objetivo é avaliar conhecimento de conteúdo.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
-      - "Alunos com menos de dois anos de escolaridade em Portugal têm direito a apoio específico de PLNM — verificar disponibilidade no agrupamento.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
+      - "Os alunos nos níveis de iniciação e intermédio devem beneficiar de estratégias adequadas ao seu nível, com base num plano de acompanhamento pedagógico. Os recém-chegados ao sistema de ensino com nível de iniciação podem frequentar atividades adequadas às suas especificidades — verificar o que o agrupamento oferece.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
   - label: "O que guardar como referência rápida"
     items:
       - "<strong>DL 54/2018</strong> — regime geral da educação inclusiva (substituiu o DL 3/2008)."
       - "<strong>DL 55/2018</strong> — autonomia e flexibilidade curricular, complementar ao anterior.<sup class=\"cite\"><a href=\"#ref-2\">2</a></sup>"
       - "<strong>Portaria 223-A/2018</strong> — avaliação e certificação no ensino básico. Substituiu o Despacho Normativo 1-F/2016, que foi revogado.<sup class=\"cite\"><a href=\"#ref-4\">4</a></sup>"
       - "<strong>Circular 3/DSEEASE/2011</strong> — orientações para sobredotação."
-      - "<strong>Despacho Normativo 7/2006</strong> — PLNM."
+      - "<strong>Despacho n.º 2044/2022</strong> — PLNM: apoio e níveis de proficiência.<sup class=\"cite\"><a href=\"#ref-6\">6</a></sup>"
   - label: "A revisão aprovada — o que muda a partir de janeiro de 2027"
     items:
       - "A 30 de julho de 2026 o Conselho de Ministros aprovou um decreto-lei que revê este regime jurídico, depois de consulta pública. O DL 54/2018 continua em vigor: o novo diploma só produz efeitos a partir de janeiro de 2027 e depende ainda de legislação complementar.<sup class=\"cite\"><a href=\"#ref-7\">7</a></sup>"
@@ -54,6 +55,6 @@ references:
   - "Organização das Nações Unidas. (2006). <em>Convenção sobre os Direitos das Pessoas com Deficiência</em> (ratificada por Portugal pela Resolução da Assembleia da República n.º 56/2009)."
   - "Portaria n.º 223-A/2018, de 3 de agosto — Ofertas educativas do ensino básico, avaliação e certificação das aprendizagens; regulamenta o Decreto-Lei n.º 55/2018 e revogou o Despacho Normativo n.º 1-F/2016, de 5 de abril. <em>Diário da República</em>, 1.ª série."
   - "Circular n.º 3/DSEEASE/2011 — Orientações para o acompanhamento de alunos com capacidades excecionais (sobredotação). Direção-Geral da Educação."
-  - "Despacho Normativo n.º 7/2006, de 6 de fevereiro — Ensino do Português Língua Não Materna (alterado pelo Despacho Normativo n.º 12/2011, de 22 de agosto). <em>Diário da República</em>, 2.ª série. Assenta no Decreto-Lei n.º 6/2001, substituído pela reforma curricular de 2018 — confirme o regime em vigor antes de o aplicar."
+  - "Despacho n.º 2044/2022, de 16 de fevereiro — Normas que garantem o apoio aos alunos cuja língua materna não é o português. <em>Diário da República</em>, 2.ª série, n.º 33. Precedido pelo Despacho Normativo n.º 7/2006, de 6 de fevereiro (alterado pelo Despacho Normativo n.º 12/2011, de 22 de agosto); confirme o regime em vigor antes de o aplicar. <a href=\"https://www.anqep.gov.pt/np4/762.html\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
   - "Conselho de Ministros. (2026, 30 de julho). <em>Comunicado do Conselho de Ministros</em> — aprovação do decreto-lei que revê o regime jurídico da educação inclusiva. Governo de Portugal. <a href=\"https://portugal.gov.pt/gc25/governo/comunicados-do-conselho-de-ministros/comunicado-do-conselho-de-ministros-de-30-de-julho-de-2026\" target=\"_blank\" rel=\"noopener\" class=\"ref-doi\" aria-label=\"Abrir a fonte\">↗</a>"
 ---
