@@ -40,7 +40,7 @@ const t = ui['pt'];
 /* ── Page ─────────────────────────────────────────────────── */
 .lh-page { max-width: 520px; margin: 0 auto; }
 .lh-intro { margin-bottom: 2rem; }
-.lh-intro-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
+.lh-intro-label { font-family: var(--font-sans); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; font-weight: 600; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
 
@@ -48,15 +48,15 @@ const t = ui['pt'];
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .lh-legend-heading {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-faded);
+  color: var(--ink-faded); font-weight: 600;
 }
 .lh-legend-item {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
   color: var(--ink);
   display: flex;
   align-items: center;

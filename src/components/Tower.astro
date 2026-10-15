@@ -92,7 +92,7 @@ function floorTitle(entry: (typeof entries)[number]) {
 </div>
 
 <style>
-.lh-scene { --paper: #ede4d0; --char: #2c2b27; --cream: #f2ecdd; --sea: #3a7370; --amber: #d9a13b; position: relative; display: flex; flex-direction: column; align-items: center; background: var(--paper); border: 1px solid var(--rule); overflow: hidden; min-height: 520px; padding-top: 52px; }
+.lh-scene { --paper: #ede4d0; --char: #2c2b27; --cream: #f2ecdd; --sea: #3a7370; --amber: #d9a13b; position: relative; display: flex; flex-direction: column; align-items: center; background: var(--paper); border: 1px solid var(--rule); overflow: hidden; min-height: 520px; padding-top: 52px; border-radius: var(--radius); }
 :global(html.dark) .lh-scene { --paper: #171c2a; --char: #10141f; --cream: #ece7dc; --sea: #28524f; }
 .lh-halo { position: absolute; top: -54px; left: 50%; transform: translateX(-200px); width: 250px; height: 250px; border-radius: 50%; background: var(--amber); opacity: 0.16; }
 .lh-lantern { position: relative; z-index: 2; display: flex; align-items: center; gap: 8px; }

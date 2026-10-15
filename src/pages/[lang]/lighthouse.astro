@@ -45,13 +45,13 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 <style>
 .lh-page { max-width: 520px; margin: 0 auto; }
 .lh-intro { margin-bottom: 2rem; }
-.lh-intro-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; }
+.lh-intro-label { font-family: var(--font-sans); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.4rem; font-weight: 600; }
 .lh-intro-title { font-size: 2rem; font-weight: 700; color: var(--ink); margin-bottom: 0.5rem; }
 .lh-intro-desc { color: var(--ink-soft); font-size: 0.9rem; max-width: 50ch; line-height: 1.6; }
 .lh-panel { margin-top: 1.5rem; }
 .lh-legend { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-.lh-legend-heading { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faded); }
-.lh-legend-item { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem; color: var(--ink); display: flex; align-items: center; gap: 0.35rem; }
+.lh-legend-heading { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; }
+.lh-legend-item { font-family: var(--font-sans); font-size: 0.8125rem; color: var(--ink); display: flex; align-items: center; gap: 0.35rem; }
 .lh-legend-item::before { content: ''; display: inline-block; width: 8px; height: 8px; background: var(--c); border-radius: 1px; }
 @media (max-width: 520px) {
   .lh-intro-title { font-size: 1.6rem; }

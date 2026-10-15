@@ -317,8 +317,8 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
   background: var(--accent);
   color: #fff;
   padding: 0.5rem 1rem;
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
   z-index: 9999;
   border-radius: 2px;
   text-decoration: none;
@@ -334,12 +334,12 @@ const ogImage = Astro.site ? new URL(`${base}og-image.png`, Astro.site) : `${bas
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: 0.72rem;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
   color: var(--ink-soft);
   z-index: 100;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-  max-width: 90vw;
+  box-shadow: var(--lift);
+  max-width: 90vw; border-radius: var(--radius-sm);
 }
 #lang-banner a { color: var(--accent); text-decoration: none; font-weight: 600; }
 #lang-banner button { background: none; border: none; cursor: pointer; color: var(--ink-faded); font-size: 0.7rem; padding: 0; line-height: 1; }
