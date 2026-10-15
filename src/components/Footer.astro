@@ -109,33 +109,33 @@ footer a:hover { color: var(--accent); }
 }
 /* Same underline as every other footer link — these were the only clickables
    in the footer with no affordance, so they read as headings. */
-.footer-nav a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.72rem; letter-spacing: 0.04em; color: var(--ink-soft); }
+.footer-nav a { font-family: var(--font-sans); font-size: 0.8125rem; letter-spacing: 0; color: var(--ink-soft); }
 .footer-nav a:hover { color: var(--accent); }
 .footer-feedback { margin-top: 0.5rem; }
 .footer-feedback summary {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem;
-  letter-spacing: 0.05em; color: var(--ink-faded); cursor: pointer; width: fit-content;
+  font-family: var(--font-sans); font-size: 0.8125rem;
+  letter-spacing: 0; color: var(--ink-faded); cursor: pointer; width: fit-content;
   border-bottom: 1px solid var(--rule);
 }
 .footer-feedback summary:hover { color: var(--accent); border-color: var(--accent); }
 .fb-form { margin-top: 0.7rem; max-width: 34rem; display: flex; flex-direction: column; gap: 0.5rem; }
 .fb-form textarea {
-  font-family: inherit; font-size: 0.85rem; line-height: 1.5;
-  background: var(--bg-elevated); border: 1px solid var(--rule); border-radius: 3px;
+  font-family: inherit; font-size: 1rem; line-height: 1.5;
+  background: var(--bg-elevated); border: 1px solid var(--field-border); border-radius: var(--radius-sm);
   color: var(--ink); padding: 0.55rem 0.7rem; resize: vertical;
 }
 .fb-form textarea:focus { outline: none; border-color: var(--accent); }
 .fb-form textarea::placeholder { color: var(--ink-faded); }
 .fb-row { display: flex; align-items: center; gap: 1rem; }
 .fb-form button {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.7rem;
-  letter-spacing: 0.05em; background: var(--accent); color: #fff; border: none;
-  border-radius: 3px; padding: 0.45rem 1rem; cursor: pointer;
+  font-family: var(--font-sans); font-size: 0.8125rem;
+  letter-spacing: 0; background: var(--accent); color: #fff; border: none;
+  border-radius: var(--radius-xs); padding: 0.45rem 1rem; cursor: pointer;
 }
 html.dark .fb-form button { color: #14171a; }
 .fb-form button:hover { background: var(--accent-hover); }
 .fb-form button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.fb-row a { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: 0.68rem; letter-spacing: 0.05em; }
+.fb-row a { font-family: var(--font-sans); font-size: 0.8125rem; letter-spacing: 0; }
 .fb-status { font-size: 0.8rem; color: var(--ink-soft); margin: 0; }
 @media print { .footer-feedback { display: none; } }
 </style>

@@ -40,6 +40,19 @@
   --fs-3xl: 2.8rem;
   --fs-4xl: 3.5rem;
 }
+/* Surfaces and type roles. One radius scale and one elevation, so cards,
+   fields, buttons and chips read as one family. --field-border clears the
+   3:1 non-text contrast a form field's edge needs (WCAG 1.4.11). */
+:root {
+  --font-sans: 'Plus Jakarta Sans Variable', 'Jakarta Fallback', 'Plus Jakarta Sans', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Mono Fallback', monospace;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --radius-xs: 8px;
+  --lift: 0 1px 2px rgba(22, 21, 15, 0.04), 0 10px 32px -14px rgba(22, 21, 15, 0.10);
+  --lift-hover: 0 2px 4px rgba(22, 21, 15, 0.05), 0 18px 40px -16px rgba(22, 21, 15, 0.16);
+  --field-border: #8a867b;
+}
 :root {
   color-scheme: light;
   /* Warm-paper neutrals: a restrained shift from cool grey toward a soft,
@@ -68,6 +81,10 @@
    Palette: deep night-blue sky, warm cream ink, amber beam as the accent. */
 html.dark {
   color-scheme: dark;
+  /* A shadow does nothing on a dark ground; a faint edge does the lifting. */
+  --lift: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 12px 32px -14px rgba(0, 0, 0, 0.55);
+  --lift-hover: 0 0 0 1px rgba(255, 255, 255, 0.10), 0 18px 40px -16px rgba(0, 0, 0, 0.65);
+  --field-border: #737d96;
   --ink: #ece7dc;
   --ink-soft: #b5aea0;
   --ink-faded: #8f8879;
@@ -158,7 +175,7 @@ details.tools-section > summary::-webkit-details-marker { display: none; }
 details.tools-section > summary::before { content: '▸'; color: var(--ink-faded); font-size: var(--fs-xs); transition: transform 0.15s ease; }
 details.tools-section[open] > summary::before { transform: rotate(90deg); }
 details.tools-section > summary .card-section-label { margin-bottom: 0; }
-details.tools-section > summary .tools-count { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs); color: var(--ink-faded); background: var(--bg-elevated); border: 1px solid var(--rule); border-radius: 999px; padding: 0.05rem 0.45rem; }
+details.tools-section > summary .tools-count { font-family: var(--font-sans); font-size: 0.8125rem; color: var(--ink-faded); background: var(--bg-elevated); border: 1px solid var(--rule); border-radius: 999px; padding: 0.05rem 0.45rem; }
 details.tools-section > .tool-chips { margin-top: 0.9rem; }
 /* Collapse the chips when closed — needs higher specificity than the scoped
    `.tool-chips { display: flex }`, which otherwise overrides the UA hide. */
@@ -184,26 +201,26 @@ body {
 .container { max-width: 1080px; margin: 0 auto; padding: 3rem 2rem 5rem; }
 
 /* ── Header ───────────────────────────────────────────────── */
-header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bottom: 3rem; }
+header { border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 2.25rem; position: relative; }
 .header-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 2rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
 .logotype { font-weight: 700; font-size: var(--fs-xl); letter-spacing: 0.12em; color: var(--ink); display: flex; align-items: center; gap: 0.7rem; text-decoration: none; }
 .logotype-mark { width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; }
-.tagline { font-size: var(--fs-md); color: var(--ink-soft); max-width: 56ch; margin-top: 0.4rem; font-style: italic; }
+.tagline { font-size: var(--fs-md); color: var(--ink-soft); max-width: 56ch; margin-top: 0.4rem; font-style: normal; }
 
 /* ── Intro block ──────────────────────────────────────────── */
-.intro { background: var(--bg-elevated); border: 1px solid var(--rule); padding: 2.5rem; margin-bottom: 3rem; display: grid; grid-template-columns: 200px 1fr; gap: 2.5rem; }
-.intro-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); padding-top: 0.3rem; }
+.intro { background: var(--bg-elevated); border: 1px solid transparent; padding: 2.5rem; margin-bottom: 3rem; display: grid; grid-template-columns: 200px 1fr; gap: 2.5rem; border-radius: var(--radius); box-shadow: var(--lift); }
+.intro-label { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); padding-top: 0.3rem; font-weight: 600; }
 .intro-body p { font-size: var(--fs-base); color: var(--ink-soft); margin-bottom: 0.9rem; max-width: 65ch; }
 .intro-body p:last-child { margin-bottom: 0; }
 .intro-body strong { color: var(--ink); font-weight: 600; }
 
 /* ── Prompt ───────────────────────────────────────────────── */
 .prompt-section { margin-bottom: 2rem; }
-.prompt-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.6rem; }
+.prompt-label { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 0.6rem; font-weight: 600; }
 .prompt-question { margin: 0; font-size: var(--fs-xl); line-height: 1.3; color: var(--ink); font-weight: 500; max-width: 36ch; }
 
 /* ── Breadcrumb ───────────────────────────────────────────── */
-.breadcrumb { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 2rem; font-size: var(--fs-sm); font-family: 'JetBrains Mono', 'Mono Fallback', monospace; padding: 0.6rem 0.9rem; background: var(--bg-elevated); border: 1px solid var(--rule); }
+.breadcrumb { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; margin-bottom: 1.75rem; font-size: 0.875rem; font-family: var(--font-sans); }
 .breadcrumb-item { color: var(--ink-faded); text-decoration: none; transition: color 0.15s ease; }
 .breadcrumb-item:hover { color: var(--accent); }
 .breadcrumb-sep { color: var(--rule-strong); }
@@ -211,32 +228,32 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 
 /* ── Tree grid ────────────────────────────────────────────── */
 .tree { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 2rem; }
-.tree-node { background: var(--bg-elevated); padding: 1.5rem; transition: border-color 0.2s ease, box-shadow 0.2s ease; border: 1px solid var(--rule); text-align: left; position: relative; display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none; color: inherit; }
-.tree-node:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(20, 23, 26, 0.06); }
+.tree-node { background: var(--bg-elevated); padding: 1.5rem; transition: transform 0.2s ease, box-shadow 0.2s ease; border: 1px solid transparent; text-align: left; position: relative; display: flex; flex-direction: column; gap: 0.3rem; text-decoration: none; color: inherit; border-radius: var(--radius); box-shadow: var(--lift); }
+.tree-node:hover { border-color: transparent; box-shadow: var(--lift-hover); transform: translateY(-2px); }
 .tree-node:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .tree-node-index { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-3xl); font-weight: 700; color: var(--numeral); letter-spacing: -0.04em; line-height: 1; margin-bottom: 0.4rem; }
 /* The free/paid badge. It used to borrow .tree-node-index — the class for the
    big card numeral — which meant 700 weight and letter-spacing tuned for 45px
    type. The translated pages patched the size inline and the Portuguese one
    did not, so "gratuito" rendered at 44.8px. Its own class, its own scale. */
-.tree-node-tag { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); font-weight: 500; letter-spacing: 0.03em; line-height: 1.4; color: var(--ink-faded); margin-top: 0.15rem; }
+.tree-node-tag { font-family: var(--font-sans); font-size: 0.8125rem; font-weight: 500; letter-spacing: 0; line-height: 1.4; color: var(--ink-faded); margin-top: 0.15rem; }
 .tree-node-title { font-size: var(--fs-base); font-weight: 600; color: var(--ink); line-height: 1.25; margin-bottom: 0.2rem; }
 .tree-node-desc { font-size: var(--fs-sm); color: var(--ink-soft); line-height: 1.5; flex: 1; }
-.tree-node-arrow { margin-top: 0.8rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); color: var(--ink-faded); display: flex; align-items: center; gap: 0.4rem; letter-spacing: 0.03em; transition: color 0.2s ease, gap 0.2s ease; }
+.tree-node-arrow { margin-top: 0.8rem; font-family: var(--font-sans); font-size: 0.8125rem; color: var(--ink-faded); display: flex; align-items: center; gap: 0.4rem; letter-spacing: 0; transition: color 0.2s ease, gap 0.2s ease; }
 .tree-node:hover .tree-node-arrow { color: var(--accent); gap: 0.6rem; }
-.tree-node-category { position: absolute; top: 1.5rem; right: 1.5rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs); color: var(--ink-faded); letter-spacing: 0.08em; text-transform: uppercase; }
+.tree-node-category { position: static; font-family: var(--font-sans); font-size: var(--fs-xs); color: var(--ink-faded); letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 999px; background: color-mix(in srgb, var(--pill-hue, currentColor) 11%, transparent); line-height: 1.4; align-self: flex-start; margin-bottom: 0.35rem; }
 
 /* ── Card ─────────────────────────────────────────────────── */
-.card { background: var(--bg-elevated); border: 1px solid var(--rule); padding: 2.5rem; margin-bottom: 2rem; }
+.card { background: var(--bg-elevated); border: 1px solid transparent; padding: 2.5rem; margin-bottom: 2rem; border-radius: var(--radius); box-shadow: var(--lift); }
 .card-header { padding-bottom: 1.5rem; margin-bottom: 2rem; border-bottom: 1px solid var(--rule); }
 .card-header-meta { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.6rem; }
-.card-category { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-faded); }
+.card-category { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; }
 .card-index-large { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-4xl); font-weight: 700; color: var(--numeral); letter-spacing: -0.05em; line-height: 1; }
 .card-title { font-size: var(--fs-2xl); font-weight: 700; line-height: 1.15; color: var(--ink); margin-bottom: 0.4rem; }
 .card-subtitle { color: var(--ink-soft); font-size: var(--fs-base); }
 .card-section { margin-bottom: 2rem; }
 .card-section:last-child { margin-bottom: 0; }
-.card-section-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.9rem; font-weight: 500; }
+.card-section-label { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.9rem; font-weight: 600; }
 .card-section ul { list-style: none; padding: 0; }
 .card-section li { padding: 0.7rem 0; color: var(--ink-soft); border-bottom: 1px solid var(--rule); line-height: 1.55; display: flex; gap: 0.9rem; align-items: flex-start; }
 .card-section li:last-child { border-bottom: none; }
@@ -249,7 +266,7 @@ header { border-bottom: 2px solid var(--beam); padding-bottom: 2rem; margin-bott
 /* ── Pending notice ───────────────────────────────────────── */
 
 /* ── Footer ───────────────────────────────────────────────── */
-footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); color: var(--ink-faded); letter-spacing: 0.03em; }
+footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; font-family: var(--font-sans); font-size: 0.8125rem; color: var(--ink-faded); letter-spacing: 0; }
 
 /* ── Animations ───────────────────────────────────────────── */
 @keyframes fadeUp {
@@ -352,9 +369,9 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 .observe { margin: 0.5rem 0 1.5rem; }
 .observe-head { margin-bottom: 0.9rem; }
 .observe-label {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: var(--fs-xs); letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--accent); margin-bottom: 0.4rem;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.4rem; font-weight: 600;
 }
 .observe-hint { font-size: var(--fs-md); color: var(--ink-soft); margin: 0; line-height: 1.5; }
 /* The observation list is the homepage's primary instrument. It reads as text,
@@ -376,13 +393,15 @@ footer { margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--rule);
 /* ── Reader text-size control (composes with reading mode) ─────── */
 
 /* ── Category colour, turned up ───────────────────────────────── */
-:root { --cat-perfil: #2a4a5e; --cat-referencia: #4a7c59; --cat-ferramenta: #7a6aa0; }
-html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-ferramenta: #b3a6df; }
-.tree-node[data-category="Perfil"]      .tree-node-category { color: var(--cat-perfil); }
-.tree-node[data-category="Referência"]  .tree-node-category { color: var(--cat-referencia); }
-.tree-node[data-category="Ferramenta"]  .tree-node-category { color: var(--cat-ferramenta); }
-.tree-node[data-category="Referência"] { border-left-color: var(--cat-referencia); }
-.tree-node[data-category="Ferramenta"] { border-left-color: var(--cat-ferramenta); }
+:root { --cat-perfil: #2a4a5e; --cat-referencia: #4a7c59; --cat-ferramenta: #7a6aa0;
+        /* Pill text sits on an 11% tint of its own hue, which costs contrast; these
+           are the same hues 8-9% deeper, the least that keeps small text at 4.5:1. */
+        --cat-perfil-ink: #2a4a5e; --cat-referencia-ink: #447252; --cat-ferramenta-ink: #6f6092; }
+html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-ferramenta: #b3a6df;
+            --cat-perfil-ink: #7fb2c9; --cat-referencia-ink: #7fc396; --cat-ferramenta-ink: #b3a6df; }
+.tree-node[data-category="Perfil"]      .tree-node-category { color: var(--cat-perfil-ink); --pill-hue: var(--cat-perfil); }
+.tree-node[data-category="Referência"]  .tree-node-category { color: var(--cat-referencia-ink); --pill-hue: var(--cat-referencia); }
+.tree-node[data-category="Ferramenta"]  .tree-node-category { color: var(--cat-ferramenta-ink); --pill-hue: var(--cat-ferramenta); }
 
 /* ── Full-text search results ─────────────────────────────────── */
 .search-result {
@@ -396,9 +415,9 @@ html.dark { --cat-perfil: #7fb2c9; --cat-referencia: #7fc396; --cat-ferramenta: 
 .search-result:hover { border-color: var(--accent); background: var(--accent-bg); }
 .search-result-cat {
   grid-area: cat; align-self: center;
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs);
-  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded);
-  writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;
+  font-family: var(--font-sans); font-size: var(--fs-xs);
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faded);
+  writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; font-weight: 600;
 }
 .search-result-title { grid-area: title; font-weight: 600; font-size: var(--fs-base); }
 .search-result-snip { grid-area: snip; color: var(--ink-soft); font-size: var(--fs-sm); line-height: 1.4; }
@@ -409,9 +428,9 @@ html.reading .search-result-cat { word-spacing: normal; }
 /* ── Composable strategies page ───────────────────────────────── */
 .strat-intro { color: var(--ink-soft); font-size: var(--fs-md); max-width: 62ch; margin: 0 0 1.2rem; line-height: 1.6; }
 .strat-filter { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
-.strat-filter-label { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); }
+.strat-filter-label { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faded); font-weight: 600; }
 .strat-chip {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-xs); letter-spacing: 0.03em;
+  font-family: var(--font-sans); font-size: 0.8125rem; letter-spacing: 0;
   background: var(--bg-elevated); border: 1px solid var(--rule); color: var(--ink-soft);
   padding: 0.3rem 0.75rem; border-radius: 999px; cursor: pointer;
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
@@ -427,7 +446,7 @@ html.dark .strat-chip[aria-pressed="true"] { color: #14171a; }
 .strategy-item { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.8rem; padding-left: 1rem; border-left: 2px solid var(--rule); }
 .strategy-text { flex: 1 1 60%; color: var(--ink-soft); font-size: var(--fs-md); line-height: 1.5; }
 .strategy-tags { display: inline-flex; gap: 0.3rem; flex-wrap: wrap; }
-.strategy-tag { font-family: 'JetBrains Mono', 'Mono Fallback', monospace; font-size: var(--fs-2xs); letter-spacing: 0.05em; text-transform: uppercase; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; }
+.strategy-tag { font-family: var(--font-sans); font-size: var(--fs-xs); letter-spacing: 0.05em; text-transform: uppercase; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; font-weight: 600; }
 .strat-none { color: var(--ink-soft); font-style: italic; padding: 1rem 0; }
 @media print { .strat-filter, .prompt-section, .strat-intro { display: none; } }
 
@@ -462,14 +481,14 @@ html.pdf-export .animate-in * {
 .observe-group { margin-bottom: 1.1rem; }
 .observe-group:last-child { margin-bottom: 0; }
 .observe-theme {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: var(--fs-2xs); letter-spacing: 0.12em; text-transform: uppercase;
-  color: var(--ink-faded); margin-bottom: 0.45rem;
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-faded); margin-bottom: 0.45rem; font-weight: 600;
 }
 .intro-more {
   display: inline-block; margin-top: 0.5rem;
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: var(--fs-xs); letter-spacing: 0.05em;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem; letter-spacing: 0;
   color: var(--accent); text-decoration: none;
   border-bottom: 1px solid var(--rule);
 }
@@ -477,8 +496,8 @@ html.pdf-export .animate-in * {
 
 /* Measure-tier tags (DL 54/2018): outline style separates the framework tier
    from the practical quick/no-prep/no-tech tags. */
-.tag-universal { background: transparent; border: 1px solid var(--rule-strong); color: var(--ink-faded); }
-.tag-selective { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.tag-universal { background: transparent; border: 1px solid var(--rule-strong); color: var(--ink-faded); border-radius: 999px; }
+.tag-selective { background: transparent; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px; }
 .strat-chip-tier { border-style: dashed; }
 .strat-tiers-note {
   font-size: var(--fs-sm); color: var(--ink-faded); line-height: 1.5;
@@ -512,6 +531,8 @@ html.pdf-export .animate-in * {
   font-size: var(--fs-sm); color: var(--ink-faded); line-height: 1.5;
   margin: 0.9rem 0 1.6rem; padding-left: 0.8rem; border-left: 2px solid var(--rule);
 }
+.country-note a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.country-note a:hover { border-color: var(--accent); }
 /* On paper the scope note is the sentence that says whose law this is, so it
    prints — matching the PDF export, which always included it. Its links are
    dead on paper, so they lose the link styling and read as plain text. */
@@ -526,14 +547,29 @@ html.pdf-export .animate-in * {
    templates still win by specificity; this only fills the gap. */
 .print-bar { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
 .print-btn, .print-btn-a4 {
-  font-family: 'JetBrains Mono', 'Mono Fallback', monospace;
-  font-size: var(--fs-xs); letter-spacing: 0.05em;
+  font-family: var(--font-sans);
+  font-size: 0.8125rem; letter-spacing: 0;
   background: none; border: 1px solid var(--rule); color: var(--ink-faded);
   padding: 0.4rem 0.9rem; cursor: pointer;
-  transition: border-color 0.15s ease, color 0.15s ease;
+  transition: border-color 0.15s ease, color 0.15s ease; border-radius: var(--radius-xs);
 }
 .print-btn:hover, .print-btn-a4:hover { border-color: var(--accent); color: var(--accent); }
 .print-btn:focus-visible, .print-btn-a4:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media print { .print-bar { display: none; } }
 
 
+
+
+/* Surfaces: only the site header carries the amber mark, not the card headers. */
+/* Cards that open with a big numeral have room top-right; the others carry the
+   pill above the title, so a long name can never run into it. */
+.tree-node:has(.tree-node-index) .tree-node-category { position: absolute; top: 1.25rem; right: 1.25rem; margin: 0; }
+header:not(.card-header)::after { content: ''; position: absolute; left: 0; bottom: -1px; width: 56px; height: 2px; background: var(--beam); }
+@media (prefers-reduced-motion: reduce) { .tree-node, .tree-node:hover { transition: none; transform: none; } }
+/* Paper and PDF: no shadows or rounded panels, which html2canvas renders as smudges. */
+@media print { header::after { display: none; } .intro, .tree-node, .card { box-shadow: none; } }
+html.pdf-export .card { box-shadow: none; border-radius: 0; border-color: transparent; }
+
+/* Long compounds (Danish, German, Finnish, Hungarian) must never push a card
+   wider than a phone: hyphenate where the browser can, break where it cannot. */
+.card-title, .card-subtitle, .tree-node-title, .tree-node-desc, .prompt-question { overflow-wrap: break-word; hyphens: auto; }
