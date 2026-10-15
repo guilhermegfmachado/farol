@@ -24,11 +24,17 @@ const langHrefs = allLangHrefs(base, 'profiles', slug);
 const t = ui['pt'];
 
 const allTools = await getCollection('tools');
-const profileTools = allTools.filter((tool) => tool.data.profiles?.includes(slug));
+const profileTools = allTools
+  .filter((tool) => tool.data.profiles?.includes(slug))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name, 'en'));   // as on the tools index
 
 const allProfiles = await getCollection('profiles');
 const relatedSlugs = entry.data.related ?? [];
-const relatedEntries = allProfiles.filter(p => relatedSlugs.includes(p.id.replace(/\.md$/, '')));
+// In the order the card lists them: filtering the collection gave whatever order
+// the content loader returned, which is not stable from one build to the next.
+const relatedEntries = relatedSlugs
+  .map((s) => allProfiles.find((p) => p.id.replace(/\.md$/, '') === s))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
 
 const allEntries = await getAllEntries();
 const idx = allEntries.findIndex(
@@ -104,7 +110,7 @@ function entryHref(e: typeof allEntries[0]) {
           {profileTools.map((tool) => (
             <a href={`${base}tools/${tool.id.replace(/\.md$/, '')}/`} class="tool-chip">
               <span class="tool-chip-name">{tool.data.name}</span>
-              {tool.data.free && <span class="tool-chip-free">free</span>}
+              {tool.data.free && <span class="tool-chip-free">{t.tool_free_tag}</span>}
             </a>
           ))}
         </div>
